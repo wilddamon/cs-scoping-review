@@ -6,7 +6,7 @@ import time
 
 from google import genai
 
-import api_keys
+import gemini.api_keys
 
 
 BASE_QUERY = """

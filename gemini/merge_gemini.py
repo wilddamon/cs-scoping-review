@@ -14,7 +14,7 @@ def insert_results(pubmed_data, gemini_data):
 def tidy_string(s):
     if isinstance(s, list):
         s = ",".join(s)
-    if pandas.isna(s):
+    if not isinstance(s, str):
         return s
     return re.sub(r"\s+", " ", s)
 
@@ -63,7 +63,6 @@ def main():
         "gest_age",
         "followup_time",
         "birth_weight",
-        "added_2025",
     ]
     for column in list_columns + str_columns:
         data[column] = None
