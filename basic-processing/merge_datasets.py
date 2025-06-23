@@ -7,8 +7,8 @@ import pandas
 def scan_opening_brace(s):
     depth = 0
     print(s)
-    for i in range(len(s)-2, 0, -1):
-        c= s[i]
+    for i in range(len(s) - 2, 0, -1):
+        c = s[i]
         if c == ")":
             print(s[:i])
             depth += 1
@@ -25,7 +25,7 @@ def normalise_abstract(s):
     s = re.sub(r"\(s\)", "", s)
     s = re.sub(r"s", "", s)
     if s[-1] == ")":
-        s = s[:scan_opening_brace(s)]
+        s = s[: scan_opening_brace(s)]
     s = s.split("copyright")[0]
     s = s.split("!(c)")[0]
     s = s.split("(c)")[0]
@@ -136,8 +136,12 @@ def main():
     title_vc = combined_data["title"].value_counts()
     print(title_vc[title_vc > 1])
 
-    combined_data.to_csv("outputs/basic-processing/merged-abstracts.csv")
-    print(f"Removed {l - len(combined_data)} manually identified duplicates, now {len(combined_data)}")
+    combined_data[["title", "authors", "year", "abstract", "pmid", "doi"]].to_csv(
+        "outputs/basic-processing/merged-abstracts.csv"
+    )
+    print(
+        f"Removed {l - len(combined_data)} manually identified duplicates, now {len(combined_data)}"
+    )
     print(
         f"Found {len(combined_data) - len(pubmed_data)} additional records from non-PubMed sources"
     )
