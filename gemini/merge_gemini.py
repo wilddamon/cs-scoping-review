@@ -5,8 +5,6 @@ import sys
 import pandas
 
 def insert_results(pubmed_data, gemini_data):
-    if gemini_data["abstract ID"].dtype == object:
-        gemini_data["abstract ID"] = gemini_data["abstract ID"].str.lower()
     gemini_data.set_index("abstract ID", inplace=True)
     pubmed_data.update(gemini_data)
 
@@ -35,7 +33,6 @@ def tidy_strings(str_columns, list_columns, data):
 
 
 def read_json(path):
-    # Read the corrected file.
     try:
         return pandas.read_json(path)
     except Exception as e:
