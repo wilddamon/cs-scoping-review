@@ -637,8 +637,9 @@ def rank_relevance(row):
 
 
 data = pandas.read_csv("outputs/merged-abstracts-gemini-country-appended.csv")
+data.set_index("dedup_index", inplace=True)
 
 relevance_pairs = data.apply(rank_relevance, axis=1)
-data["relevance"] = relevance_pairs.apply(lambda x: x[0])
-data["reason"] = relevance_pairs.apply(lambda x: x[1])
+data.insert(0, "relevance", relevance_pairs.apply(lambda x: x[0]))
+data.insert(1, "reason", relevance_pairs.apply(lambda x: x[1]))
 data.to_csv("outputs/ranked-abstracts.csv")
