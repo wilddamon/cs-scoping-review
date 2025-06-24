@@ -6,14 +6,11 @@ import pandas
 
 def scan_opening_brace(s):
     depth = 0
-    print(s)
     for i in range(len(s) - 2, 0, -1):
         c = s[i]
         if c == ")":
-            print(s[:i])
             depth += 1
         if c == "(" and depth == 0:
-            print(s[:i])
             return i
         elif c == "(":
             depth -= 1
@@ -136,7 +133,7 @@ def main():
     title_vc = combined_data["title"].value_counts()
     print(title_vc[title_vc > 1])
 
-    combined_data[["title", "authors", "year", "abstract", "pmid", "doi"]].to_csv(
+    combined_data[["title", "authors", "year", "abstract", "journal", "pmid", "doi"]].to_csv(
         "outputs/basic-processing/merged-abstracts.csv"
     )
     print(
