@@ -4,9 +4,10 @@ import re
 import sys
 import pandas
 
-def insert_results(pubmed_data, gemini_data):
+def insert_results(data, gemini_data):
     gemini_data.set_index("abstract ID", inplace=True)
-    pubmed_data.update(gemini_data)
+    gemini_data["has_gemini_data"] = True
+    data.update(gemini_data)
 
 
 def tidy_string(s):
@@ -45,6 +46,8 @@ def read_json(path):
 def main():
     data = pandas.read_csv("outputs/basic-processing/merged-abstracts.csv")
     data.set_index("dedup_index", inplace=True)
+    data["has_gemini_data"] = False
+    data["added_2025"] = False
 
     list_columns = [
         "exposure",
@@ -59,6 +62,7 @@ def main():
         "country",
         "gest_age",
         "followup_time",
+        "cross-section timing",
         "birth_weight",
     ]
     for column in list_columns + str_columns:
@@ -68,25 +72,22 @@ def main():
     fnames = os.listdir(dirname)
     fnames.sort()
 
-    missing = []
     num_merged = 0
     for fname in fnames:
         if not fname.endswith("json"):
             continue
         f = dirname + fname
-        if os.path.exists(f):
-            gemini_data = read_json(dirname + fname)
-            insert_results(data, gemini_data)
-        else:
-            missing.append(i)
-            print(f"Couldn't find file {i}")
+        gemini_data = read_json(dirname + fname)
+        insert_results(data, gemini_data)
         num_merged += 1
         if num_merged % 100 == 0:
             print(f"Merged {num_merged}/{len(fnames)} files")
-    print(missing)
 
     tidy_strings(str_columns, list_columns, data)
     data.to_csv("outputs/merged-abstracts-gemini-appended.csv")
+
+    # Validate all rows have gemini data
+    print(data[~data["has_gemini_data"]])
 
 
 if __name__ == "__main__":
