@@ -28,8 +28,8 @@ def export_endnote_txt(group, name):
         f.write(s)
 
 
-group = data[data["relevance"] > 0]
-export_endnote_txt(group, f"included")
+export_endnote_txt(data[data["relevance"] > 0], f"included")
+#export_endnote_txt(data[data["relevance"] <= 0], f"exclded")
 
 
 data[(data["manual_assessment"] == "YES") & (data["relevance"] <= 0)].to_csv(
