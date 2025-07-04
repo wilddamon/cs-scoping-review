@@ -163,8 +163,8 @@ def first_author_surname(s):
 
 
 def make_dedup_index(row):
-    s = f'{row["title"].strip()};{row["year"]:.0f};{row["first_author_surname"]}'.lower()
-    return re.sub(r"\s+", "", s)
+    s = f'{row["title"].strip()}{row["year"]:.0f}{row["first_author_surname"]}'.lower()
+    return "".join(x for x in s if x.isalnum())
 
 
 def process(name, path):
@@ -230,7 +230,7 @@ def process(name, path):
     ) as excelwriter:
         l = len(df)
         dropped_dupes = df.drop_duplicates(subset=["title", "year", "first_author_surname"])
-        # dropped_dupes = df.drop_duplicates(subset=["title", "year"])
+
         # Save the duplicates
         pandas.concat([df, dropped_dupes]).drop_duplicates(keep=False).to_excel(
             excelwriter, sheet_name="duplicates"
@@ -408,6 +408,15 @@ def process(name, path):
             excelwriter=excelwriter,
             result_series=result_series,
         )
+        df = remove_title_phrases(
+            df,
+            [
+                "reprint of:",
+            ],
+            "reprint",
+            excelwriter=excelwriter,
+            result_series=result_series,
+        )
         df = remove_title_publication_type(
             df,
             title_phrases=[
@@ -513,6 +522,7 @@ def main():
         "detected article type: protocol",
         "detected article type: commentary",
         "detected article type: methodology",
+        "detected article type: reprint",
         "detected article type: systematic review",
         "detected article type: cohort profile",
         "detected article type: case report or case series",
