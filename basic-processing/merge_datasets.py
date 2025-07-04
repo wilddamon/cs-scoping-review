@@ -18,19 +18,20 @@ def scan_opening_brace(s):
 
 def normalise_abstract(s):
     s = s.lower().strip()
+    s = s.split("copyright")[0]
+    s = s.split("!(c)")[0]
+    s = s.split("(c)")[0]
     s = re.sub(r"(?:\s+|;|:|\+\/-|\+-|-)", "", s)
     s = re.sub(r"\(s\)", "", s)
     s = re.sub(r"s", "", s)
     if s[-1] == ")":
         s = s[: scan_opening_brace(s)]
-    s = s.split("copyright")[0]
-    s = s.split("!(c)")[0]
-    s = s.split("(c)")[0]
     return s
 
 
 def drop_non_na_duplicates(data, column):
-    return data[~data[column].duplicated() | data[column].isna()]
+    dupe = data[column].duplicated() & data[column].notna()
+    return data[~dupe], data[dupe]
 
 
 def merge_set(name, path, combined_data):
@@ -44,22 +45,28 @@ def merge_set(name, path, combined_data):
     original_combined_length = len(result)
     print(f"Combined length: {original_combined_length}")
 
-    result = drop_non_na_duplicates(result, "pmid")
-    result = drop_non_na_duplicates(result, "doi")
+    result, pmid_dupes = drop_non_na_duplicates(result, "pmid")
+    result, doi_dupes = drop_non_na_duplicates(result, "doi")
     print(
         f"Removed {original_combined_length - len(result)} duplicated pmids or dois, now {len(result)}"
     )
 
     l = len(result)
-    result["lower_abstract"] = result["abstract"].apply(normalise_abstract)
-    result = drop_non_na_duplicates(result, "lower_abstract")
-    print(f"Removed {l - len(result)} identical abstracts, now {len(result)}")
-
-    l = len(result)
-    result = result.drop_duplicates(["dedup_index"])
+    result, dedup_dupes = drop_non_na_duplicates(result, "dedup_index")
     print(
         f"Removed {l - len(result)} duplicate title/year/first author combos, now {len(result)}"
     )
+
+    l = len(result)
+    result["lower_abstract"] = result["abstract"].apply(normalise_abstract)
+    result, ab_dupes = drop_non_na_duplicates(result, "lower_abstract")
+    print(f"Removed {l - len(result)} identical abstracts, now {len(result)}")
+
+    with pandas.ExcelWriter(f"outputs/basic-processing/dupes-removed/{name}.xlsx") as writer:
+        pmid_dupes.to_excel(writer, sheet_name="pmid")
+        doi_dupes.to_excel(writer, sheet_name="doi")
+        dedup_dupes.to_excel(writer, sheet_name="dedup")
+        ab_dupes.to_excel(writer, sheet_name="abstract")
 
     print(f"Added {original_combined_length - len(result)} unique records")
     print(f"Total records: {len(result)}")
@@ -100,31 +107,31 @@ def main():
 
     # Drop some dupes manually discovered by inspecting articles with identical titles
     manual_dupes = [
-        "fetalheartrateabnormalitiesduringandafterexternalcephalicversion:whichfetusesareatriskandhowaretheydelivered?;2018;kuppens",
-        "stress,sleepqualityandunplannedcaesareansectioninpregnantwomen;2017;yi-li",
-        "combinedlaparoscopyandhysteroscopyvs.uterinecurettageintheuterinearteryembolization-basedmanagementofcesareanscarpregnancy:acohortstudy;2014;xue",
-        "revisitingheadcircumferenceofbraziliannewbornsinpublicandprivatematernityhospitals;2017;dosocorroteixeiraamorim",
-        "theshapeofuterinecontractionsandlaborprogressinthespontaneousactivelabor;2015;ebrahimzadehzagami",
-        "thecomparisonofseruminterleukin-6ofmothersinvaginalandelectivecesareandelivery;2014;mojaveri",
-        "methadonedoseasadeterminantofinfantoutcomeduringtheperiandpostnatalperiod;2018;mei",
-        "clinicalassociationofserumcalciumlevelsinpre-eclampsiaandgestationalhypertensionpatients:aprospectiveobservationalstudy;2019;lakshmikanthamma",
-        "evaluationofpostplacentaltranscaesarean/vaginaldeliveryintrauterinedevice(ppiucd)intermsofawareness,acceptanceandexpulsioninserviceshospital,lahore;2016;tariq",
-        "theincidenceandriskfactorsofsurgicalwoundinfectionafterabdominalhysterectomyincancerouswomen;2021;mahdavi",
-        "preferredmodeofdeliveryiniraqiprimiparouswomen;2021;salihal-asadi",
-        "evaluationoftheanalgesicefficacyofmelatonininpatientsundergoingcesareansectionunderspinalanesthesia:aprospectiverandomizeddouble-blindstudy;2016;khezri",
-        "employment-relatedphysicalactivityduringpregnancy:birthweightandstillbirthdeliveryinkarachi,pakistan;2022;alirizvi",
-        "comparisonofintrathecallow-doselevobupivacainewithlevobupivacaine-fentanylandlevobupivacaine-sufentanilcombinationsforcesareansection;2019;sahin",
-        "previousexposuretoanesthesiaandautismspectrumdisorder(asd):apuertoricanpopulation-basedsiblingcohortstudy;2015;creagh",
-        "implementationofclinicalpathwaysinmalaysia:canclinicalpathwaysimprovethequalityofcare?;2016;i.",
-        "double-ballooncathetercomparedtovaginaldinoprostoneforcervicalripeninginobesewomenatterm;[comparaisonsondeadoubleballonnet-dinoprostonepourlamaturationcervicalechezlesfemmesobesesaterme];2018;grange",
-        "menstrualpatternfollowingtuballigation:ahistoricalcohortstudy;2016;sadatmahalleh",
-        "predictorsformoderatetosevereacutepostoperativepainaftercesareansection;2016;decarvalhoborges",
-        "managementofbreechpresentationatterm:aretrospectivecohortstudyof10yearsofexperience;2016;rodriguez",
-        "racialdisparityinpostpartumreadmissionduetohypertensionamongwomenwithpregnancy-associatedhypertension;2020;chornock",
-        "portablerespiratorypolygraphymonitoringofobesemothersthefirstnightaftercaesareansectionwithbupivacaine/morphine/fentanylspinalanaesthesia;2017;hein",
-        "women'spelvicfloormusclestrengthandurinaryandanalincontinenceafterchildbirth:across-sectionalstudy;2017;priscilatavares",
-        "pregnancy,parturition,parityandpositioninthefamily.anyinfluenceonthedevelopmentofpaediatricinguinalhernia/hydrocele?;2014;irabor",
-        "relationshipbetweengestationalriskandtypeofdeliveryinhighriskpregnancy;2020;benattiantunes",
+        "fetalheartrateabnormalitiesduringandafterexternalcephalicversionwhichfetusesareatriskandhowaretheydelivered2018kuppens",
+        "stresssleepqualityandunplannedcaesareansectioninpregnantwomen2017yili",
+        "combinedlaparoscopyandhysteroscopyvsuterinecurettageintheuterinearteryembolizationbasedmanagementofcesareanscarpregnancyacohortstudy2014xue",
+        "revisitingheadcircumferenceofbraziliannewbornsinpublicandprivatematernityhospitals2017dosocorroteixeiraamorim",
+        "theshapeofuterinecontractionsandlaborprogressinthespontaneousactivelabor2015ebrahimzadehzagami",
+        "thecomparisonofseruminterleukin6ofmothersinvaginalandelectivecesareandelivery2014mojaveri",
+        "methadonedoseasadeterminantofinfantoutcomeduringtheperiandpostnatalperiod2018mei",
+        "clinicalassociationofserumcalciumlevelsinpreeclampsiaandgestationalhypertensionpatientsaprospectiveobservationalstudy2019lakshmikanthamma",
+        "evaluationofpostplacentaltranscaesareanvaginaldeliveryintrauterinedeviceppiucdintermsofawarenessacceptanceandexpulsioninserviceshospitallahore2016tariq",
+        "theincidenceandriskfactorsofsurgicalwoundinfectionafterabdominalhysterectomyincancerouswomen2021mahdavi",
+        "preferredmodeofdeliveryiniraqiprimiparouswomen2021salihalasadi",
+        "evaluationoftheanalgesicefficacyofmelatonininpatientsundergoingcesareansectionunderspinalanesthesiaaprospectiverandomizeddoubleblindstudy2016khezri",
+        "employmentrelatedphysicalactivityduringpregnancybirthweightandstillbirthdeliveryinkarachipakistan2022alirizvi",
+        "comparisonofintrathecallowdoselevobupivacainewithlevobupivacainefentanylandlevobupivacainesufentanilcombinationsforcesareansection2019sahin",
+        "previousexposuretoanesthesiaandautismspectrumdisorderasdapuertoricanpopulationbasedsiblingcohortstudy2015creagh",
+        "implementationofclinicalpathwaysinmalaysiacanclinicalpathwaysimprovethequalityofcare2016i",
+        "doubleballooncathetercomparedtovaginaldinoprostoneforcervicalripeninginobesewomenattermcomparaisonsondeadoubleballonnetdinoprostonepourlamaturationcervicalechezlesfemmesobesesaterme2018grange",
+        "menstrualpatternfollowingtuballigationahistoricalcohortstudy2016sadatmahalleh",
+        "predictorsformoderatetosevereacutepostoperativepainaftercesareansection2016decarvalhoborges",
+        "managementofbreechpresentationattermaretrospectivecohortstudyof10yearsofexperience2016rodriguez",
+        "racialdisparityinpostpartumreadmissionduetohypertensionamongwomenwithpregnancyassociatedhypertension2020chornock",
+        "portablerespiratorypolygraphymonitoringofobesemothersthefirstnightaftercaesareansectionwithbupivacainemorphinefentanylspinalanaesthesia2017hein",
+        "womenspelvicfloormusclestrengthandurinaryandanalincontinenceafterchildbirthacrosssectionalstudy2017priscilatavares",
+        "pregnancyparturitionparityandpositioninthefamilyanyinfluenceonthedevelopmentofpaediatricinguinalherniahydrocele2014irabor",
+        "relationshipbetweengestationalriskandtypeofdeliveryinhighriskpregnancy2020benattiantunes",
     ]
 
     l = len(combined_data)
