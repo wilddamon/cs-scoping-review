@@ -561,7 +561,7 @@ def rank_relevance(row):
 
     if pandas.notna(row["year"]) and row["year"] < 2014:
         return 0, "Before 2014"
-    if any_regex_in_str(["LIC", "LMIC", "UMIC"], row["country_income_group"]):
+    if not row["only_hic"]:
         return 0, "not HIC"
     if any_regex_in_str(STUDY_TYPE_EXCLUSIONS, row["study type"]):
         return 0, "Wrong study type"

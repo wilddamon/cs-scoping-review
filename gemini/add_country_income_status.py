@@ -204,6 +204,7 @@ def country_income_group(single_country_str):
             return classification
     return None
 
+
 def country_income_group_list(country_list):
     result = set()
     for country in country_list:
@@ -211,7 +212,6 @@ def country_income_group_list(country_list):
         if ig is not None:
             result.add(ig)
     return list(result)
-
 
 
 def country_list(country_str):
@@ -255,8 +255,7 @@ def country_list(country_str):
     return list(result)
 
 
-
-def is_lic_lmic(country_str):
+def only_hic(country_str):
     countries = country_list(country_str)
 
     for country in countries:
@@ -265,6 +264,7 @@ def is_lic_lmic(country_str):
         if (
             country in INCOME_GROUPINGS["LIC"]
             or country in INCOME_GROUPINGS["LMIC"]
+            or country in INCOME_GROUPINGS["UMIC"]
             or re.search("sub.?saharan? africa", country, flags=re.I) is not None
             or re.search("low.?income", country, flags=re.I) is not None
             or (
@@ -275,13 +275,13 @@ def is_lic_lmic(country_str):
             or re.search("developing nations", country, flags=re.I) is not None
             or re.search("lmic", country, flags=re.I) is not None
         ):
-            return True
-    return False
+            return False
+    return True
 
 
 data = pandas.read_csv("outputs/merged-abstracts-gemini-appended.csv")
 data.set_index("dedup_index", inplace=True)
-data["lic/lmic"] = data["country"].apply(is_lic_lmic)
+data["only_hic"] = data["country"].apply(only_hic)
 countries = data["country"].apply(country_list)
 data["country"] = countries.apply(lambda l: ";".join(l))
 
