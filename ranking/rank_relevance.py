@@ -157,11 +157,10 @@ COHORT_EXCLUSION_TERMS = [
     "brachial plexus",
     "women with ibd",
     "cns inflammatory demyelinating attacks",
-    f"undergoing (?:primary )?(?:first )?(?:repeat )?(?:planned )?(?:elective )?(?:or )?(?:emergency )?{CS_REGEX}",
-    f"undergoing (?:primary )?(?:first )?(?:repeat )?(?:emergency )?(?:or )?(?:planned )?(?:elective )?{CS_REGEX}",
+    f"(?:undergoing|admitted for) (?:primary )?(?:first )?(?:repeat )?(?:planned )?(?:elective )?(?:or )?(?:emergency )?{CS_REGEX}",
+    f"(?:undergoing|admitted for)(?: a)? (?:primary )?(?:first )?(?:repeat )?(?:emergency )?(?:or )?(?:planned )?(?:elective )?{CS_REGEX}",
     f"who underwent (?:a )?(?:primary )?(?:first )?(?:repeat )?(?:planned )?(?:elective )?(?:or )?(?:emergency )?{CS_REGEX}",
     f"at (?:primary )?(?:first )?(?:repeat )?(?:planned )?(?:elective )?(?:or )?(?:emergency )?{CS_REGEX}",
-    "undergoing cs",
     f"who had a (?:primary )?{CS_REGEX}",
     f"with a (?:primary )?{CS_REGEX}",
     f"after (?:primary )?{CS_REGEX}",
@@ -407,6 +406,8 @@ OUTCOME_EXCLUSION_TERMS = [
     "intra.?partum",
     "atony",
     "near.?miss",
+    f"repeat {CS_REGEX}",
+    "abortion",
 ]
 
 STUDY_TYPE_EXCLUSIONS = [
@@ -531,10 +532,7 @@ def other_procedure(row):
 def cs_included(s):
     if pandas.isna(s):
         return False
-    return (
-        any_regex_in_str(BIRTH_TYPE_REGEXES, s)
-        and re.search(CS_TYPE_REGEX, s, flags=re.I) is None
-    )
+    return any_regex_in_str(BIRTH_TYPE_REGEXES, s)
 
 
 def is_short_term(s):
@@ -563,20 +561,10 @@ def rank_relevance(row):
 
     if pandas.notna(row["year"]) and row["year"] < 2014:
         return 0, "Before 2014"
-    if (
-        (row["country_income_group"] == "LIC")
-        or (row["country_income_group"] == "LMIC")
-        or (row["country_income_group"] == "HMIC")
-    ):
+    if any_regex_in_str(["LIC", "LMIC", "UMIC"], row["country_income_group"]):
         return 0, "not HIC"
     if any_regex_in_str(STUDY_TYPE_EXCLUSIONS, row["study type"]):
         return 0, "Wrong study type"
-    if (
-        row["mod_finding"]
-        == "The study does not mention any findings related to mode of birth."
-        or row["mod_finding"] == "Mode of delivery was adjusted for in the analysis."
-    ) and not any_regex_in_str(BIRTH_TYPE_REGEXES, row["finding"]):
-        return 0, "No finding related to mode of birth"
 
     if any_regex_in_str(
         YOUNG_AGE_REGEXES, row["followup_time"]
@@ -606,14 +594,19 @@ def rank_relevance(row):
         return 0, "CS is outcome"
     if is_short_term(row["follow-up time"]):
         return 0, "short term and not long term"
-
-    if any_regex_in_str(
-        OUTCOME_EXCLUSION_TERMS, row["outcome"]
-    ) and not any_known_outcome(row["outcome"]):
-        return 0, "excluded outcome type"
+    if is_short_term(row["cross-section timing"]):
+        return 0, "Cross section timing short term, young age, or not term"
 
     result = 1
     reason = ""
+
+    if any_regex_in_str(
+        OUTCOME_EXCLUSION_TERMS,
+        row["outcome"],
+    ):
+        reason += ("included and excluded outcome type,")
+        if not any_known_outcome(row["outcome"]):
+            return 0, "excluded outcome type"
 
     # Long-term follow-up detected: +1 (as opposed to none found)
     if any_regex_in_str(LONG_TERM_REGEXES, row["follow-up time"]):
@@ -643,3 +636,7 @@ relevance_pairs = data.apply(rank_relevance, axis=1)
 data.insert(0, "relevance", relevance_pairs.apply(lambda x: x[0]))
 data.insert(1, "reason", relevance_pairs.apply(lambda x: x[1]))
 data.to_csv("outputs/ranked-abstracts.csv")
+
+print((data["added_2025"] & (data["relevance"] > 0)).sum())
+
+print(f"Included {(data['relevance'] > 0).sum()}")
