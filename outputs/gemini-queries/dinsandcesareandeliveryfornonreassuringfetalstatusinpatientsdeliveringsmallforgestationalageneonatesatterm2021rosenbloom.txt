@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prostaglandinsandcesareandeliveryfornonreassuringfetalstatusinpatientsdeliveringsmallforgestationalageneonatesatterm2021rosenbloom
+"Objective: Growth-restricted fetuses have been excluded from many randomized trials of prostaglandins for labor induction. As prostaglandins, particularly misoprostol, are associated with increased rates of cesarean delivery for nonreassuring fetal heart tracing, it is important to assess their safety in pregnancies at higher risk of this complication. The objective of this study was to estimate the association between use of prostaglandins for labor induction in term singleton pregnancies complicated by delivery of small-for-gestational age (SGA) neonates and the risk of cesarean delivery for nonreassuring fetal status (NRFS).Materials and methods: Retrospective cohort study of singleton deliveries >=37 weeks following induction of labor in patients with SGA (birthweight <10% percentile for gestational age). Patients with prior cesarean delivery or neonates with major congenital anomalies were excluded. Patients were categorized by exposure to prostaglandins. The primary outcome was cesarean delivery for NRFS. Secondary outcomes were any cesarean delivery, a composite of a 5-min Apgar score <7, admission to the neonatal intensive care unit, or neonatal death, and a composite of maternal morbidity (transfusion, postpartum hemorrhage, wound infection, endometritis, fever). Propensity scores for exposure were estimated using a logistic regression model, including parity, comorbidities, and Bishop score. Stabilized weights from inverse probability of treatment weighting were used. Outcomes were compared with relative risks (RRs) and 95% confidence intervals (CIs).Results: There were 1097 patients: 587 (53.5%) exposed to prostaglandins and 510 (46.5%) unexposed. Covariates were balanced in the stabilized sample. Overall, 166 (15.1%) patients had cesarean deliveries for NRFS. In unadjusted analysis, prostaglandin use was associated with an increased RR of cesarean for NRFS (18.3 versus 11.0%, RR: 1.71, 95% CI: 1.27-2.30). In propensity-score-weighted analysis, the RR for cesarean for NRFS was 1.22 (95% CI: 0.93-1.59). There was no significant association between prostaglandin exposure and all-cause cesarean delivery, maternal morbidity, or neonatal morbidity.Conclusion: In propensity score analysis, there was no association between the use of prostaglandins for labor induction at term and cesarean for NRFS in pregnancies complicated by SGA. However, given the retrospective nature of the study, these results should be interpreted with caution."""
+
+

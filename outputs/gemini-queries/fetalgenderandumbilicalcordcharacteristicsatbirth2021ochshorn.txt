@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalgenderandumbilicalcordcharacteristicsatbirth2021ochshorn
+"OBJECTIVE: To determine fetal gender on umbilical cord parameters. METHODS: Umbilical cords were prospectively collected from uncomplicated, singleton, term pregnancies, which ended either by elective cesarean section or spontaneous vaginal delivery. Data regarding obstetrical history and pregnancy outcome were collected. Various cord parameters were examined including, length, number of coils, umbilical cord index (UCI), which demonstrate the ratio between number of coils and cord length, site of placental insertion, direction of coiling and the presence of true knots. RESULTS: Overall, 154 umbilical cords were collected, of them 84 from male and 70 from female newborns. No differences were found regarding obstetrical history parameters or pregnancy outcome between the groups. The umbilical coiling index was significantly higher in female compared to male newborns (0.183 coils/cm versus 0.157 coils/cm, p=.006) due to higher number of cord coils (12.25 +- 5.31 vs. 10.17 +- 3.96, p=.007), with no difference in cord length (66.48 vs. 64.61 cm, p=.372). These differences remained statistically significant even after correction for gravidity, parity and gestational age using multiple linear regression analysis. CONCLUSION: Female newborns having higher umbilical cord index, compared to male as a result of more coils, with no length dissimilarity."""
+
+

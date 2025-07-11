@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: infantoutcomescategorizedbybirthweightpercentilefordeliveriesbetween28and41weeksofgestation2024onishi
+"OBJECTIVE: To examine the association between birth weight percentile and severe infant outcomes according to gestational age category. METHODS: We conducted a population-based retrospective cohort study using publicly available U.S. birth certificate data linked to infant death data from 2017 to 2019. Maternal-neonate pairs of singleton live births between 28 0/7 and 41 6/7 weeks of gestation (vaginal or cesarean delivery) were evaluated. We excluded infants with major fetal anomalies, chromosomal disorders, missing data, and birth weight outliers. The primary outcome was infant mortality within 1 year of life. Neonates were divided into eight sex-specific birth weight percentile categories: less than the 3rd, 3rd-less than the 10th, 10th-less than the 25th, 25th-to less than the 49th, 50th-less than the 75th, 75th-to less than the 90th, 90th-less than the 97th, and 97th or higher. RESULTS: There were 10,459,388 births between 28 and 41 weeks of gestation: 69,793 (0.7%) at 28-31 weeks, 88,673 (0.8%) at 32-33 weeks, 635,904 (6.1%) at 34-36 weeks, 2,763,110 (26.4%) at 37-38 weeks, 6,269,894 (59.9%) at 39-40 weeks, and 632,014 (6.0%) at 41 weeks. Infant mortality during the first year of life significantly increased at higher and lower birth weight percentiles at 28-36 weeks of gestation, with the lowest risk observed at the 50th-less than the 75th percentile. The highest mortality rates were 13.6% at less than the 3rd percentile and 8.4% at the 97th percentile or higher at 28-31 weeks of gestation; the second-highest mortality rates were 7.7% at less than the 3rd percentile and 3.1% at the 97th percentile or higher at 32-33 weeks of gestation. At 34-36 weeks of gestation, the highest and second-highest mortality rates were 3.4% at less than the 3rd percentile and 1.4% at the 3rd-10th percentile. At 37-41 weeks of gestation, infant mortality was associated with lower birth weight percentile, but higher birth weight percentiles were not significantly associated with increased mortality. CONCLUSION: We found different patterns in the association between birth weight percentile and infant mortality depending on gestational age category."""
+
+

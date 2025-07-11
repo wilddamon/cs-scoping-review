@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postpartumweightchangeassociationwithreadmissionandbloodpressuretrendamongindividualswithhypertensivedisordersofpregnancy2024lemon
+"BACKGROUND: The aim of this study was to evaluate the association between early postpartum weight change and (1) hospital readmission and (2) 2-week blood pressure trajectory.;METHODS AND RESULTS: This retrospective study cohort included 1365 individuals with a hypertensive disorder of pregnancy enrolled in a postpartum hypertension remote monitoring program. Exposure was percentage weight change from delivery to first weight recorded within 10 days postpartum. We first modeled likelihood of hospital readmission within 8 weeks postpartum using logistic regression adjusting for age, race, insurance, type of hypertensive disorder of pregnancy, early body mass index, gestational weight gain, mode of delivery, and any discharge antihypertensive medications. We then performed case-control analysis additionally matching in a 1:3 ratio on breastfeeding, early body mass index, discharge on antihypertensive medications, and days between weight measurements. Both analytic approaches were repeated, limiting to readmissions attributable to hypertension or heart failure. Finally, we compared blood pressure trajectories over first 2 weeks postpartum. Individuals who did not lose weight in the early postpartum period had more admissions compared with weight loss groups (group 3: 14.1% versus group 2: 5.8% versus group 1: 4.5%). These individuals had 4 times the odds of postpartum readmissions (adjusted odds ratio [aOR], 3.9 [95% CI, 1.8-8.6]) to 7 (aOR, 7.8 [95% CI, 2.3-26.5]) compared with those with the most weight loss. This association strengthened when limited to hypertension or heart failure readmissions. These individuals also had more adverse postpartum blood pressure trajectories, with significant differences by weight change group.;CONCLUSIONS: Weight change is readily accessible and may identify individuals at high risk for postpartum readmission following a hypertensive disorder of pregnancy who could benefit from targeted interventions."""
+
+

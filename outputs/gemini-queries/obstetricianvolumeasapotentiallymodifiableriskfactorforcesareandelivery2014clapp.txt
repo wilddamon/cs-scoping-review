@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricianvolumeasapotentiallymodifiableriskfactorforcesareandelivery2014clapp
+"OBJECTIVE: To examine the relationship between an obstetrician's delivery volume and a patient's risk for cesarean delivery. METHODS: This retrospective cohort study examined patient-level and obstetrician-level data between 2000 and 2012 at a large academic hospital. All laboring patients who delivered viable, liveborn, singleton newborns (N=58,328) were included. We measured the association of delivery volume and cesarean delivery using a multivariate logistic regression. We also assessed the association of volume by calculating adjusted cesarean delivery rates using the least squares means method. These analyses were performed on the subset of nulliparous patients with term, singleton, vertex-presenting fetuses. In addition, the association of obstetrician experience was compared against delivery volume. RESULTS: There was a twofold increase in the odds of cesarean delivery for patients whose obstetricians performed fewer than the median (60) number of deliveries per year (quartile 1: odds ratio 2.00, 95% confidence interval 1.68-2.38; quartile 2: odds ratio 2.73, 95% CI 2.40-3.11) as compared with quartile 4. The adjusted cesarean delivery rate decreased from 18.2% to 9.2% from the highest to lowest volume quartile (P<.001). Compared with the volume effects, an obstetrician's experience had a smaller effect on a patient's risk of cesarean delivery. CONCLUSION: Patients delivered by obstetricians with low delivery volume are at significantly increased risk for cesarean delivery after controlling for patient and obstetrician characteristics. In contrast, obstetrician experience had a less significant effect. These findings may prompt discussions regarding the role of volume in credentialing and practice models that direct patients to obstetricians with high delivery volume. LEVEL OF EVIDENCE: : II."""
+
+

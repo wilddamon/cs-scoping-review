@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectiondefectsmayaffectpregnancyoutcomesafterinvitrofertilizationembryotransferaretrospectivestudy2021diao
+"BACKGROUND: Caesarean section rates are rising worldwide. One adverse effect of caesarean section reported in some studies is an increased risk of subfertility. Only a few studies have assessed the relationship between the previous mode of delivery and in vitro fertilization/intracytoplasmic sperm injection-embryo transfer (IVF/ICSI-ET) reproductive outcomes. In this study, we primarily investigated the impact of a history of caesarean section with or without defects on IVF/ICSI-ET outcomes compared to a vaginal delivery history. METHODS: This retrospective study included 834 women who had a IVF or ICSI treatment at our centre between 2015 and 2019 with a delivery history. In total, 401 women with a previous vaginal delivery (VD) were assigned to the VD group, and 433 women with a history of delivery by caesarean section were included, among whom 359 had a caesarean scar (CS) without a defect and were assigned to the CS group and 74 had a caesarean section defect (CSD) and were assigned to the CSD group. Baseline characteristics of the three groups were compared and analysed. Binary logistic regression analyses were performed to explore the association between clinical outcomes and different delivery modes. RESULTS: There were no significant differences in the live birth rate, biochemical pregnancy rate, clinical pregnancy rate, mean implantation rate or abnormal pregnancy rate between the CS and VD groups However, the live birth rate and mean implantation rate in the CSD group were significantly lower than those in the VD group (21.6 vs 36.4%, adjusted OR 0.50 [0.27-0.9]; 0.25 +- 0.39 vs 0.35 +- 0.41, adjusted OR 0.90 [0.81-0.99]). Among women aged <= 35 years, the subgroup analyses showed that the live birth rate, biochemical pregnancy rate, clinical pregnancy rate, and mean implantation rate in the CSD group were all significantly lower than those in the VD group (21.4 vs 45.8%, adjusted OR 0.35[0.15 ~ 0.85]; 38.1 vs 59.8%, adjusted OR 0.52[0.24-0.82]; 31.0 vs 55.6%, adjusted OR 0.43[0.19-0.92]; 0.27 +- 0.43 vs 0.43 +- 0.43, adjusted OR 0.85[0.43 +- 0.43]). For women older than 35 years, there was no statistically significant difference in any pregnancy outcome among the three groups. CONCLUSIONS: This study suggested that the existence of a CS without a defect does not decrease the live birth rate after IVF or ICSI compared with a previous VD. However, the presence of a CSD in women, especially young women (age <= 35 years), significantly impaired the chances of subsequent pregnancy."""
+
+

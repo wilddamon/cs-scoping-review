@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hospitalvariationsinunexpectedcomplicationsamongtermnewborns2017sebastiao
+"OBJECTIVES: To examine contributing factors and potential reasons for hospital differences in unexpected newborn complication rates in Florida.;METHODS: We conducted a population-based retrospective cohort study of linked birth certificate and hospital discharge records from 2004 to 2013. The study population included 1 604 774 term, singleton live births in 124 hospitals. Severe and moderate complications were identified via a published algorithm. Logistic mixed-effects models were used to examine risk factors for complications and to estimate the percentage of hospital variation explained by factors. Descriptive analyses were performed to explore reasons for the differences.;RESULTS: Hospital total complication rates varied from 6.7 to 98.6 per 1000 births. No correlation between severe and moderate complication rates by hospital was identified. Leading risk factors for complications included medically indicated early-term delivery, no prenatal care, nulliparity, prepregnancy obesity, tobacco use, and delivery in southern Florida hospitals. Hospital factors such as geographic location, level of care or birth volume, and Medicaid births percentage explained 35% and 27.8% of variation in severe and moderate complication rates, respectively. Individual factors explained an additional 6% of variation in severe complication rates. Different complication subcategories (eg, infections, hospital transfers) drove the hospital factors that contributed to severe and moderate complications.;CONCLUSIONS: Variation in unexpected complication rates is more likely to be related to hospital rather than patient characteristics in Florida. The high proportion of variation explained by hospital factors suggests potential opportunities for improvement, and identifying specific complication categories may provide focus areas. Some of the opportunities may be related to differences in hospital coding practice. Copyright (c) 2017 by the American Academy of Pediatrics."""
+
+

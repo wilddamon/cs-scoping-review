@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intraoperativemultivesselembolizationreducesbloodlossandtransfusionrequirementscomparedtointernaliliacarteryballoonplacementduringcesareanhysterectomyforplacentaaccretaspectrum2023berman
+"PURPOSE: To evaluate the effectiveness and safety of prophylactic multivessel selective embolization (MVSE) compared to those of internal iliac artery occlusion balloon (IIABO) placement in patients undergoing cesarean hysterectomy for placenta accreta spectrum (PAS). MATERIALS AND METHODS: An institutional review board-approved retrospective series was conducted with consecutive patients with PAS at a single institution between 2010 and 2021. MVSE was performed in a hybrid operating room after cesarean section prior to hysterectomy. IIABO was performed with balloons placed into the bilateral internal iliac arteries, which were inflated during hysterectomy. Median blood loss, transfusion requirements, percentage of cases requiring transfusion, and adverse events were recorded. RESULTS: A total of 20 patients treated with embolization and 34 patients with balloon placement were included. Placenta percreta and previa were seen in 60% and 90% of patients, respectively. Median blood loss in the MVSE group was 713 mL (interquartile range [IQR], 475-1,000 mL) compared to 2,000 mL (IQR, 1,500-2,425 mL) in the IIABO group (P < .0001). The median total number of units of packed red blood cell transfusions (0 vs 2.5) and percentage of cases requiring a transfusion (20% vs 65%) were less in the MVSE group (P < .01). A median of 4 vessels (IQR, 3-9) were embolized during MVSE. No major adverse events or nontarget embolization consequences were observed. CONCLUSIONS: Prophylactic MVSE is a safe procedure that reduces operative blood loss and transfusion requirements compared to those of IIABO in patients undergoing cesarean hysterectomy for presumed higher-degree PAS."""
+
+

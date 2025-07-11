@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: delayedinitiationofenteralfeedsisassociatedwithpostnatalgrowthfailureamongpreterminfantsmanagedataruralhospitalinuganda2020nakubulwa
+"BACKGROUND: Prematurity is the leading cause of mortality in children under 5 years of age globally and is also frequently associated with postnatal growth failure (PGF). Although most preterm births occur in low resource settings, little is known about their postnatal growth outcomes especially in rural areas. We evaluated the incidence and factors associated with PGF among preterm infants managed at a rural hospital in Uganda.;METHODS: Retrospective cohort study of preterm infants discharged from Kiwoko Hospital neonatal intensive care unit (NICU) from July 2017 to June 2018. Inclusion criteria included gestational age 26 up to but not including 37 weeks, admission within 24 h of birth and at least 7 days hospital stay. Exclusion criteria included major congenital anomalies and missing gestational age or birth weight. Birth and discharge weights from clinical notes were plotted on Fenton 2013 growth charts. Gestation age was determined by last normal menstruation period (LNMP), extracted from the mother's antenatal card or early obstetric ultrasound scan reports. Postnatal growth failure was diagnosed if discharge weight was less than the 10th percentile for estimated gestational age. Other data from the clinical notes included demographic characteristics, neonatal morbidities as assigned by the attending physician and infant feeding practices. Multivariable logistic regression was used to explore factors associated with PGF.;RESULTS: A total of 349 preterm infants with a mean gestational age of 31 (range 26 to 36) weeks were included. The incidence proportion of PGF was 254/349 (73%). Factors significantly associated with postnatal growth failure included: delayed initiation of enteral feeds [AOR = 3.70, 95% (CI 1.64 to 8.33)], sepsis [AOR = 6.76, 95% (CI 2.15 to 21.2)], multiple gestation [AOR = 1.81, 95% (CI 1.01 to 3.24)] and male gender [AOR = 1.71 95% (CI 1.01 to 2.91)].;CONCLUSION: Nearly three quarters of preterm infants managed at a rural hospital in Uganda had postnatal growth failure. Delayed initiation of enteral feeds and sepsis were highly associated with postnatal growth failure. Enteral feeds should be initiated as soon as possible in these infants to reduce early protein deficits and hence postnatal growth failure."""
+
+

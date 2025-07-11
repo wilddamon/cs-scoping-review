@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyfetalandneonataloutcomesafterafirstboosterdoseofcovid19vaccineduringpregnancyinontariocanadapopulationbasedretrospectivecohortstudy2023fell
+"OBJECTIVE: To assess risk of adverse pregnancy, fetal, and neonatal outcomes after a third dose (first booster dose) of covid-19 vaccine during pregnancy among individuals who had completed both doses of primary covid-19 vaccine series before pregnancy. DESIGN: Population based, retrospective cohort study. SETTING: Ontario, Canada, from 20 December 2021 to 31 August 2022. PARTICIPANTS: Individuals were included if they were pregnant with an expected date of delivery from 20 December 2021 (start date of third dose eligibility for everyone >=18 years) to 31 August 2022, who had completed the two doses of primary covid-19 messenger RNA vaccine series before pregnancy, and became eligible for a third dose (>=six months since dose two) before the end of pregnancy. MAIN OUTCOME MEASURES: Pregnancy outcomes included hypertensive disorders of pregnancy, placental abruption, caesarean delivery, chorioamnionitis, and postpartum hemorrhage. Fetal and neonatal outcomes included stillbirth, preterm birth, admission to neonatal intensive care unit for >24 h, newborn 5 min Apgar score <7, and small-for-gestational age infant (<10th percentile). We estimated hazard ratios and 95% confidence intervals for study outcomes, treating dose three as a time varying exposure and adjusting for confounding using inverse probability weighting. RESULTS: Among 32 689 births, 18 491 (56.6%) were born to individuals who received a third covid-19 dose during pregnancy. Compared with eligible individuals who did not receive a third dose during pregnancy, no increased risks were associated with receiving a third covid-19 vaccine dose during pregnancy for placental abruption (adjusted hazard ratio 0.84 (95% confidence interval 0.70 to 1.02)), chorioamnionitis (0.67 (0.49 to 0.90)), postpartum haemorrhage (1.01 (0.89 to 1.16)), caesarean delivery (0.90 (0.87 to 0.94)), stillbirth (0.56 (0.39 to 0.81)), preterm birth (0.91 (0.84 to 0.99)), neonatal intensive care unit admission (0.96 (0.90 to 1.03)), 5 min Apgar score<7 (0.96 (0.82 to 1.14)), or small-for-gestational age infant (0.86 (0.79 to 0.93)). CONCLUSION: Receipt of a third covid-19 vaccine dose during pregnancy was not associated with an increased risk of adverse pregnancy, fetal, or neonatal outcomes. These findings can help to inform evidence based decision making about the risks and benefits of covid-19 booster doses during pregnancy."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingintraoperativehemorrhageduringcurettagetreatmentofcesareanscarpregnancyusingfreebreathinggraspdcemri2024wang
+"OBJECTIVE: To explore the feasibility of the golden-angle radial sparse parallel (GRASP) dynamic magnetic resonance imaging (MRI) technique in predicting the intraoperative bleeding risk of scar pregnancy. METHODS: A total of 49 patients with cesarean scar pregnancy (CSP) who underwent curettage and GRASP-MRI imaging were retrospectively selected between January 2021 and July 2022. The pharmacokinetic parameters, including Wash-in, Wash-out, time to peck (TTP), initial area under the curve (iAUC), the transfer rate constant (Ktrans), constant flow rate (Kep), and volume of extracellular space (Ve), were calculated. The amount of intraoperative bleeding was recorded by a gynecologist who performed surgery, after which patients were divided into non-hemorrhage (blood loss <= 200 mL) and hemorrhage (blood loss > 200 mL) groups. The measured pharmacokinetic parameters were statistically compared using the t-test or Mann-Whitney U test with a significant level set to be p < 0.05. The receiver operating characteristic (ROC) curve was constructed, and the area under the curve (AUC) was calculated to evaluate each parameter's capability in intraoperative hemorrhage subgroup classification. RESULTS: Twenty patients had intraoperative hemorrhage (blood loss > 200 mL) during curettage. The hemorrhage group had larger Wash-in, iAUC, Ktrans, Ve, and shorter TTP than the non-hemorrhage group (all P > 0.05). Wash-in had the highest AUC value (0.90), while Ktrans had the lowest value (0.67). Wash-out and Kep were not significantly different between the two groups. CONCLUSION: GRASP DCE-MRI has the potential to forecast intraoperative hemorrhage during curettage treatment of CSP, with Wash-in exhibiting the highest predictive performance. This data holds promise for advancing personalized treatment. However, further study is required to compare its effectiveness with other risk factors identified through anatomical MRI and ultrasound."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: screeningthepredictorsforlivebirthfailureinwomenafterthefirstfrozenembryotransferbasedonthelassoalgorithmaretrospectivestudy2023jin
+"This study aimed to screen factors related to live birth outcomes of women with first frozen embryo transfer (FET). The enrolled women were divided into training and validation cohorts. The least absolute shrinkage and selection operator (Lasso) regression algorithm of machine learning and the multiple regression model were then used to screen factors relevant to live birth failure (LBF) for the training dataset. A nomogram risk prediction model was established on the basis of the screened factors, and the consistency index (C-index) and calibration curve were derived for evaluating the model. The validation cohort was utilized to validate the nomogram model further. In total, 2083 women who accepted the first FET in our hospital were included and 44 factors were initially screened in this study. On the basis of the training cohort, the screened risk factors via multiple regression analysis with odds ratio (OR) values were female age (OR: 3.092, 95%CI: 1.065-4.852), body mass index (BMI; OR: 1.106, 95%CI: 1.015-1.546), caesarean section (OR: 1.909, 95%CI: 1.318-2.814), number of high-quality embryos (OR: 0.698, 95%CI: 0.599-0.812), and endometrial thickness (OR: 0.957, CI: 0.904-0.980). The nomogram model was generated based on five predictors. Furthermore, favourable results with C-indexes and calibration curves close to ideal curves indicated the accurate predictive ability of the nomogram. Female age, BMI, caesarean section, number of high-quality embryos, and endometrial thickness were independent predictors for LBF. The five factors of the risk assessment model may help to identify LBF with high accuracy in women who accept FET."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: accentuatedperipheralbloodnkcytotoxicityformsanunfavorablebackgroundforembryoimplantationandgestation2022donskoi
+"Problem Many studies have demonstrated the negative impact of high rates of NK cy-totoxicity (NKc) on reproductive processes, but there is no agreement as to the appropriateness and feasibility of using the NKc for routine diagnostic in IVF patients. This study conducted a retrospective analysis of embryo transfer (ET) success rates and live birth rates (LBR) in patients with different NKc values. Method of study 1854 cycles of ET were selected and divided into three groups according to NKc levels, and randomized by anamnesis and age: normal (nNKc, n = 871), elevated (eNKc, n = 759), and reduced NKc (rNKc, n = 123). ET with donors' embryos (n = 101) were analyzed separately. NKc-to-K562 was measured in PBMC (peripheral blood mononuclear cells) by flow cytometry before ET. The patients did not obtain any additional treatments. Results Patients with eNKc, in addition to having reduced clinical pregnancy rates (OR1.59, p < 0.0001), had increased levels of subsequent pregnancy failures (OR2.545, p < 0.0001) when compared to nNKc patients. As a result, patients with eNKc had almost half the LBR than patients with nNKc (OR2.2, p < 0.0001). In patients with rNKc, LBR was also lowered. eNKc was equally unfavorable for implantation and delivery in cryo-or fresh cycles. Markedly, eNKc was much more unfavorable for reproduction than slightly elevated NKc. The donor's embryos were implanted irrespective of the recipient's NKc levels, but the later stages of pregnancy were worse in patients with eNKc. Conclusions Our findings highlighted the negative impact of high levels of NK cytotoxicity on pregnancy outcomes.Copyright (c) 2022 by the authors. Licensee MDPI, Basel, Switzerland."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anactuarialinvestigationintomaternalhospitalcostriskfactorsforpublicpatients2018william
+"We investigate an actuarial approach to identifying the factors impacting government-funded maternal hospital costs in Australia, with a focus on women who experience adverse birth outcomes. We propose a two-phase modelling methodology that adopts actuarial methods from typical insurance claim cost modelling and extends to other statistical techniques to account for the large volume of covariates available for modelling. Specifically, Classification and Regression Trees and generalised linear mixed models are employed to analyse a data set that links longitudinal survey and administrative data from a large sample of women. The results show that adverse births are a statistically significant risk factor affecting maternal hospital costs in the antenatal and delivery periods. Other significant cost risk factors in the delivery period include mode of delivery, private health insurance status, diabetes, smoking status, area of residence and onset of labour. We demonstrate the efficacy of using actuarial techniques in non-traditional areas and highlight how the results can be used to inform public policy. (c) Institute and Faculty of Actuaries 2017."""
+
+

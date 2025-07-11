@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonataloutcomesassociatedwithmodeofsubsequentbirthafterapreviouscaesareansectioninafirstpregnancyaswedishpopulationbasedregisterstudybetween1999and20152022dencker
+"OBJECTIVE: To investigate neonatal outcomes within 28 days in the subsequent birth in women who gave birth to their first baby by caesarean section (CS). DESIGN AND SETTING: National retrospective population-based register study. A cohort of 94 451 neonates who were born in Sweden between 1999 and 2015 as a second child to a mother who had her first birth by emergency or planned caesarean. METHODS: Data were retrieved from the national registers held by Statistics Sweden and the National Board of Health and Welfare. Logistic regression was used to calculate unadjusted and adjusted ORs (aOR) with 95% CIs for each outcome. MAIN OUTCOME MEASURES: Neonatal infection, neonatal asphyxia/respiratory distress, neonatal hospital care and neonatal death within 28 days. RESULTS: Emergency CS and instrumental vaginal birth were associated with a doubled risk of neonatal infection (aOR 2.0) and planned CS with a decreased risk (aOR 0.7) compared with spontaneous vaginal birth. Compared with spontaneous vaginal birth, an increased risk of birth asphyxia and/or respiratory distress was identified with all other modes of birth (aOR 2.2-3.2). Emergency CS and instrumental vaginal birth, but not planned CS, were associated with neonatal hospital care (aOR 1.8 and 1.7) and an increased mortality rate during the neonatal period (aOR 2.9 and 3.2), compared with spontaneous vaginal birth. CONCLUSIONS: In childbirth following a previous birth by CS, spontaneous vaginal birth appears to confer better neonatal outcomes within 28 days after birth overall than other modes of birth."""
+
+

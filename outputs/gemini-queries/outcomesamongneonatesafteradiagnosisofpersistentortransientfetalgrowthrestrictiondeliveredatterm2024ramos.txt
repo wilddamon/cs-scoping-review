@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesamongneonatesafteradiagnosisofpersistentortransientfetalgrowthrestrictiondeliveredatterm2024ramos
+"OBJECTIVE: This study aimed to evaluate whether transient fetal growth restriction (FGR) that resolves prior to delivery confers a similar risk of neonatal morbidity as uncomplicated FGR that persists at term.;STUDY DESIGN: This is a secondary analysis of a medical record abstraction study of singleton live-born pregnancies delivered at a tertiary care center between 2002 and 2013. Patients with fetuses that had either persistent or transient FGR and delivered at 38 weeks or later were included. Patients with abnormal umbilical artery Doppler studies were excluded. Persistent FGR was defined as estimated fetal weight (EFW) <10th percentile by gestational age from diagnosis through delivery. Transient FGR was defined as EFW <10th percentile on at least one ultrasound, but not on the last ultrasound prior to delivery. The primary outcome was a composite of neonatal morbidity: neonatal intensive care unit admission, Apgar's score <7 at 5 minutes, neonatal resuscitation, arterial cord pH <7.1, respiratory distress syndrome, transient tachypnea of the newborn, hypoglycemia, sepsis, or death. Baseline characteristics and obstetric and neonatal outcomes were compared using Wilcoxon's rank-sum and Fisher's exact test. Log binomial regression was used to adjust for confounders.;RESULTS: Of 777 patients studied, 686 (88%) had persistent FGR and 91 (12%) had transient FGR. Patients with transient FGR were more likely to have a higher body mass index, gestational diabetes, diagnosed with FGR earlier in pregnancy, have spontaneous labor, and deliver at later gestational ages. There was no difference in the composite neonatal outcome (relative risk = 1.03, 95% confidence interval [CI] 0.72, 1.47) for transient versus persistent FGR after adjusting for confounders (adjusted relative risk = 0.79, 95% CI 0.54, 1.17). There were no differences in cesarean delivery or delivery complications between groups.;CONCLUSION: Neonates born at term after transient FGR do not appear to have differences in composite morbidity compared with those where uncomplicated FGR persists at term.;KEY POINTS: . No differences in neonatal outcomes in uncomplicated persistent versus transient FGR at term.. . Transient FGR pregnancies more likely to deliver at later gestational ages.. . No differences in mode of delivery or obstetric complications in persistent versus transient FGR at term.. Copyright Thieme. All rights reserved."""
+
+

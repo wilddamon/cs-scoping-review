@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweendurationofbreastfeedingandchildhoodasthmaoutcomes2022wilson
+"BACKGROUND: Postnatal exposures, including breastfeeding, may influence asthma development. OBJECTIVE: To investigate the association between breastfeeding duration and child asthma. METHODS: We studied 2021 mother-child dyads in the ECHO PATHWAYS consortium of prospective pregnancy cohorts (GAPPS, CANDLE, TIDES). Women reported the duration of any and exclusive breastfeeding and child asthma outcomes during follow-up at child age 4 to 6 years. Outcomes included current wheeze (previous 12 months), ever asthma, current asthma (having >=2 of current wheeze, ever asthma, medication use in past 12-24 months), and strict current asthma (ever asthma with either or both current wheeze and medication use in past 12-24 months). We used multivariable logistic regression to assess associations (odds ratios and 95% confidence intervals) between breastfeeding and asthma outcomes adjusting for potential confounders. We assessed effect modification by mode of delivery, infant sex, and maternal asthma. RESULTS: Among women, 33%, 13%, 9%, and 45% reported 0 to less than 2, 2 to 4, 5 to 6, and more than 6 months of any breastfeeding, respectively. The duration of any breastfeeding had a protective linear trend with ever asthma but no other outcomes. There was a duration-dependent protective association of exclusive breastfeeding and child asthma outcomes (eg, current asthma adjusted odds ratio [95% confidence interval], 0.64 [0.41-1.02], 0.61 [0.38-0.98], and 0.52 (0.31-0.87) for 2to 4 months, 5 to 6 months, and more than 6 months, respectively, compared with <2 months). For exclusive breastfeeding, protective associations were stronger in dyads with children born by vaginal vs cesarean delivery although interactions did not reach statistical significance (P(interactions) 0.12-0.40). CONCLUSION: Longer duration of exclusive breastfeeding had a protective association with child asthma."""
+
+

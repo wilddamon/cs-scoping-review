@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cerebralbloodvolumeduringneonataltransitionintermandpreterminfantswithandwithoutrespiratorysupport2018schwaberger
+"Background: Recently, we demonstrated that in healthy newborn infants cerebral blood volume (CBV) was decreasing continuously after birth. We hypothesized that this was due to the increase in oxygen delivery to the brain during neonatal transition. Thus delayed cerebral oxygen delivery in infants in need for respiratory support (RS) during postnatal stabilization might influence changes in CBV. Objective: Aim of the study was to evaluate transitional changes in CBV immediately after birth in term and preterm infants with and without need of RS. Methods: We performed a post-hoc analysis of data collected as primary and secondary outcome parameters in prospective observational studies and randomized controlled trials at the Medical University of Graz (Austria). NIRS measurements by using 'NIRO 200-NX' (Hamamatsu, Japan) were carried out over the first 15 min after birth in term and preterm infants delivered by cesarean section with and without requirement for RS. Results: In 204 neonates, we observed a significant decrease in CBV within the first 15 min after birth (p < 0.001) with a trend toward smaller DCBV in neonates receiving RS (p = 0.097) compared to neonates without RS. Differences of DCBV between groups reached statistically significance (p < 0.05) at minutes 2, 6, and 7, and showed a trend (p < 0.1) at minutes 3, 4, and 5. After adjusting for gestational age, these differences became smaller and failed to reach significance. Conclusions: We observed a significant decrease of CBV in term and preterm infants with and without RS. Interestingly, DCBV was smaller in the first 7 min in neonates with RS reaching statistically significance (p < 0.05) at minutes 2, 6, and 7. This study cannot differentiate, whether RS itself or the condition leading to requirement for RS is responsible for the observed CBV behavior."""
+
+

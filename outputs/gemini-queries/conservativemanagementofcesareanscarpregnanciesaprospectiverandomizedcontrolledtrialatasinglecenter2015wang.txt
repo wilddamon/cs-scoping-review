@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: conservativemanagementofcesareanscarpregnanciesaprospectiverandomizedcontrolledtrialatasinglecenter2015wang
+"PURPOSE: To assess clinical outcomes related to conservative management of women with cesarean scar pregnancies (CSPs), specifically through uterine artery embolization (UAE) with local and systemic methotrexate (MTX) treatment (UAE-MTX), or ultrasound-guided local and systemic MTX treatment (USG-MTX). METHODS: Forty-five patients with CSP were randomly allocated to receive UAE-MTX (n = 24) or USG-MTX (n = 21). Participants' clinical outcomes were compared, and clinical characteristics of failed cases were evaluated relative to successful cases. RESULTS: The 2 groups were similar in clinical characteristics, success rate (83.3% cf. 80.9%), time to normalization of serum beta (b) human chorionic gonadotropin (b-hCG), and percentage of patients receiving multiple doses of systemic MTX. However, within the failed cases, the percentages of patients with gestational sac > 5 cm (87.5%), or type II CSP (75.0%) was significantly higher than in the successful cases (13.5% and 18.9%, respectively; P < 0.001, both), without regard to treatment group. According to the logistic regression model, a gestational sac diameter > 5 cm or type II CSP were independent risk factors for failed CSP management (gestational sac > 5 cm: OR 51.87, 95% CI 3.48-775.91, P < 0.01; type II CSP: OR 15.54, 95% CI 1.25-193.36, P < 0.05). CONCLUSION: The conservative treatments UAE-MTX and USG-MTX were similarly effective in treating CSP patients. Either treatment was likely to fail for CSP patients with gestational sac > 5 cm or type II CSP."""
+
+

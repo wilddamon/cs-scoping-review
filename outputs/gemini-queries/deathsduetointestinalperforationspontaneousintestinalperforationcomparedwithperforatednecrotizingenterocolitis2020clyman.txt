@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aroleforneonatalbacteremiaindeathsduetointestinalperforationspontaneousintestinalperforationcomparedwithperforatednecrotizingenterocolitis2020clyman
+"OBJECTIVE: To examine the relationship between intestinal perforations (caused by either spontaneous perforation (SIP) or necrotizing enterocolitis (NEC)) and the outcome "death due to intestinal perforation".;METHODS: Multivariable logistic regression analyses were used to compare infants <28 weeks' gestation with SIP (n = 32) and perforated-NEC (n = 45) for the outcome perforation-related death.;RESULTS: In univariate analyses the incidence of death due to perforation was higher among infants with perforated-NEC (36%) than infants with SIP (13%). However, infants with perforated-NEC were more likely to be older than 10 days and have bacteremia/fungemia with non-coagulase-negative staphylococci (non-CONS) organisms than infants with SIP. After adjusting for confounding the only variable that was significantly associated with mortality due to perforation was the presence of non-CONS bacteremia/fungemia at the onset of perforation.;CONCLUSIONS: The apparent association between death and perforated-NEC could be explained by the higher incidence of non-CONS bacteremia/fungemia among infants with perforated-NEC."""
+
+

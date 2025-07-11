@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vacuumextractioninpretermdeliveriesandlongtermneurologicaloutcomeoftheoffspring2019schwarzman
+"BACKGROUND: Concern exists regarding a possible harmful impact of vacuum extraction on the preterm newborn. We aimed to evaluate the long-term pediatric neurodevelopmental outcomes of the preterm offspring after vacuum extraction. METHODS: A population-based cohort analysis was performed comparing the risk for long-term neurological morbidity (up to age 18 years) in preterm (less than 37 completed weeks of gestation) children born via following three delivery modes: vacuum extraction, spontaneous delivery, and Caesarean delivery performed during the second stage of labor. A Kaplan-Meier survival curve was used to compare the cumulative neurological morbidity in all groups. A Cox proportional hazards model was used to control for confounders. RESULTS: During the study period 11,662 preterm newborns met the inclusion criteria, 97.2% (n = 11,338) of which were born via spontaneous vaginal delivery, 2.3% (n = 267) underwent vacuum extraction, and 0.5% (n = 57) were delivered by Caesarean section during the second stage of labor. Gestational age at delivery median (range) was 36 (29 to 36) weeks for vacuum extractions, 36 (23 to 36) for spontaneous vaginal delivery, and 35 (29 to 36) for Caesarean delivery within second stage of labor. Total pediatric hospitalizations involving neurological diagnoses were comparable between the groups as were the cumulative incidences of total neurological morbidity in the survival curves (log rank P = 0.723). In the Cox regression model, vacuum delivery in preterm newborns was not found to be associated with later pediatric neurological hospitalizations. CONCLUSIONS: Vacuum extraction performed on preterm newborns does not appear to be independently associated with severe long-term neurological morbidity, as reflected by later pediatric hospitalizations."""
+
+

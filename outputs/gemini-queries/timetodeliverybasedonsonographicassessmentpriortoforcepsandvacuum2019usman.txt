@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timetodeliverybasedonsonographicassessmentpriortoforcepsandvacuum2019usman
+"INTRODUCTION: To compare the duration of vacuum and forceps delivery in relation to ultrasound assessment of fetal head position and station. METHODS: A prospective single-centre cohort study in nulliparous women at term with prolonged second stage of labour. Fetal head position was determined using transabdominal ultrasound and station as head-perineum distance (HPD) from transperineal ultrasound prior to an instrument. The primary outcome was duration of vacuum and forceps to vaginal delivery and was analysed as survival expressed by hazard ratio (HR). Secondary outcomes were delivery mode and immediate neonatal outcome. RESULTS: In the study population of 54 women, the primary instrument was vacuum for 36 and forceps for 18. Four women were delivered by Caesarean section. Estimated median duration for forceps deliveries was 5 min (95% CI 4.0-6.0) vs. 9 min (95% CI 7.3-10.6) for vacuum deliveries (P = 0.17; Log-rank test). The HR for vaginal delivery was 2.02 (95% CI 1.04-3.91, P = 0.038) after adjusting for HPD, maternal age and BMI. OP position had minor influence on the primary outcome (HR changed from 2.02 to 2.08). The first instrument failed in 11/31 (35.5%) where HPD > 35 mm vs. 2/21 (9.5%) where HPD <= 35 mm (P < 0.05). There were no cases of Apgar score <7 at 5 min or umbilical artery pH < 7.1. CONCLUSION: In prolonged second stage, delivery with forceps was achieved more quickly than by vacuum when matched for ultrasound determined head station. Irrespective of which was the primary instrument, the failure rate was greater at higher head stations."""
+
+

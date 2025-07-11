@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: transienttachypneaofthenewbornisassociatedwithanincreasedriskofhospitalizationduetorespiratorysyncytialvirusbronchiolitis2019heinonen
+"BACKGROUND: Transient tachypnea of the newborn (TTN) is a self-limiting respiratory disorder, resulting from a failure to clear the lungs of perinatal fluid. As similar pathophysiologic features are present in children with respiratory syncytial virus (RSV) bronchiolitis, we hypothesized that these two conditions may be connected. METHODS: This was a population-based cohort study that included all children born in term (>=37 weeks of gestation) without congenital malformations in Finland between 1996 and 2015. Children diagnosed with TTN (International Statistical Classification of Diseases and Related Health Problems, 10th Revision [ICD-10] code P22.1) after birth and children hospitalized because of RSV bronchiolitis (ICD-10 code J21.0) during first year of life were identified from the Medical Birth Register and National Hospital Discharge Register, respectively, and the data were linked. Logistic regression was used to analyze the association between these two conditions. RESULTS: Of the 1,042,045 children included in the study cohort, 16,327 (1.57%) were diagnosed with TTN at birth and 12,345 (1.18%) were hospitalized because of RSV bronchiolitis during the first year of life. The rate of RSV hospitalization was higher in children with a history of TTN compared with children without TTN diagnosis [260/16,327 (1.59%) vs. 12,085/1,025,718 (1.18%), respectively; P value <0.0001]. After adjusting for gestational age at birth, mode of delivery, gender, birth weight, multiple births, older siblings and maternal smoking, TTN was associated with increased risk for RSV hospitalization (odds ratio: 1.31, 95% confidence interval: 1.16-1.48). CONCLUSIONS: TTN diagnosis after birth was associated with increased risk for RSV hospitalization during the first year of life."""
+
+

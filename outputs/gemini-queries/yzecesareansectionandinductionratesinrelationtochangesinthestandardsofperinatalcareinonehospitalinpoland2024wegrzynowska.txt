@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: usingrobsonclassificationtoanalyzecesareansectionandinductionratesinrelationtochangesinthestandardsofperinatalcareinonehospitalinpoland2024wegrzynowska
+"BACKGROUND: Poland has one of the highest cesarean birth (CB) rates in Europe. For this study, we used the Robson Ten-Group Classification System (TGCS) to analyze trends in the induction and CB rates in one hospital in Poland over a period of 11 years. We compare these trends with changes in National Legislative and Medical Guidelines introduced during this time that were aimed at lowering rates of unnecessary medical interventions. METHODS: We conducted a retrospective study including all births after 24 weeks' gestation between 2010 and 2020 from one tertiary hospital (n = 66,716 births). After the deletion of records with missing data, 66,678 births were included in the analysis. All births were classified according to the Robson TGCS. The size, CB rate, and contribution of each group for every year were calculated. Linear regression analyses were used to analyze trends over time. RESULTS: The total CB rate varied from 29.6% to 33.0% during the study period, with a linear increase of 0.045 percentage points annually (R(2) = 0.021; F(1) = 0.189; p = 0.674). This study was considerably lower than the total CB rate for Poland, which rose from 33.9% in 2010 to 45.1% in 2020, increasing at a rate of 1.13 percentage points per year (R(2) = 0.93; F(1) = 61.88; p < 0.001). Induction rates among both nulliparous (R1 + R2) and multiparous (R3 + R4) women at term also increased. Study groups R5 (previous cesarean birth), R2 (nulliparous in induced or prelabor cesarean delivery), and R1 (nulliparous women at term with single cephalic pregnancy in spontaneous labor) were the highest contributors to the overall CB rate. The greatest decrease in the CB rate was detected in group R5b (more than one previous CB). None of the groups showed statistically significant increases in CB rates over the study period. CONCLUSIONS: The CB rate in the hospital where the study was conducted was considerably lower than the total CB rate in Poland. When compared with countries with similar CB rates, group R2b (women with nulliparous, prelabor cesarean birth) in our study was considerably larger. More comparisons across different hospital settings in Poland are needed. However, as hospitals are not encouraged to routinely collect the data needed to construct TGCS, such comparisons are very difficult to conduct."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryandriskofhospitalizationforautoimmunedisordersbefore14yearsofage2021soullane
+"It is supposed that cesarean birth is implicated in the development of autoimmunity. We evaluated the association between cesarean delivery and the risk of hospitalization for autoimmune disease in children up to 14 years of age. We performed a longitudinal cohort study of 934,873 children born between 2006 and 2019 in Quebec, Canada. The main exposure measure was cesarean delivery versus vaginal delivery (spontaneous or induced). Outcomes included hospitalization for type 1 diabetes, celiac disease, or other autoimmune disorders before 14 years of age. We used Cox regression models to estimate hazard ratios (HR) and 95% confidence intervals (CI) for the association between cesarean delivery and hospitalization for autoimmune disorders, adjusted for patient characteristics. A total of 248,963 children (27%) were delivered by cesarean. Median length of follow-up was 7.4 years. The hospitalization rate for autoimmune disorders was 69.1 per 100,000 person-years for cesarean and 65.9 per 100,000 person-years for vaginal delivery. Cesarean delivery was not associated with autoimmune disorders overall (HR 1.02, 95% CI 0.96-1.10). There was no association with type 1 diabetes (HR 1.00, 95% CI 0.85-1.17), celiac disease (HR 0.86, 95% CI 0.71-1.04), inflammatory bowel disease (HR 1.15, 95% CI 0.88-1.49), or idiopathic thrombocytopenic purpura (HR 1.01, 95% CI 0.82-1.25). Cesarean delivery was not associated with autoimmune disorders at different ages.Conclusion: This study suggests that cesarean delivery is not associated with the risk of hospitalization for autoimmune disorders before 14 years of age. Delivery mode does not seem to mediate the risk of autoimmunity in childhood. What is Known: * Children born by cesarean may be at risk of abnormal immune development. * The association between cesarean delivery and risk of pediatric autoimmune disorders is unclear. What is New: * In this cohort study of over 900,000 children, cesarean delivery was not associated with the risk of hospitalization for a range of autoimmune disorders before 14 years of age. * Cesarean delivery may not be related to the development of autoimmunity."""
+
+

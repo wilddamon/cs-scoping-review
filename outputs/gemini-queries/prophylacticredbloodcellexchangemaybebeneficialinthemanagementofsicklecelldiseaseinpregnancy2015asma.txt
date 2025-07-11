@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prophylacticredbloodcellexchangemaybebeneficialinthemanagementofsicklecelldiseaseinpregnancy2015asma
+"BACKGROUND: Sickle cell disease (SCD) is associated with chronic hemolysis and painful episodes. Pregnancy accelerates sickle cell complications, including prepartum and postpartum vasoocclusive crisis, pulmonary complications, and preeclampsia or eclampsia. Fetal complications include preterm birth and its associated risks, intrauterine growth restriction, and a high rate of perinatal mortality. The purpose of this study was to evaluate pregnancy outcomes in patients with SCD who underwent planned preventive red blood cell exchange (RBCX).;STUDY DESIGN AND METHODS: We retrospectively evaluated the complications of SCD in 37 pregnant patients. Patients with SCD who had undergone prophylactic RBCX were compared with a control group who had not undergone RBCX during pregnancy.;RESULTS: Forty-three exchange procedures were performed in 24 patients. The control group comprised 13 patients with a mean age of 27.4 +/- 3.3 years who had not undergone RBCX during pregnancy. Four of the five patients who developed a vasoocclusive crisis died. There was a significant difference in maternal mortality between the study and control groups (p = 0.011). There was also a significant difference in the incidence of vasoocclusive crisis between the study and control groups. One fetal death occurred in the 20th gestational week in a patient in the control group, although there were no postpartum complications in either the babies or the mothers in the control group.;CONCLUSION: This study has demonstrated that prophylactic RBCX during pregnancy is a feasible and safe procedure for prevention of complications. Given the decrease in the risks of transfusion, RBCX warrants further study. Copyright (c) 2014 AABB."""
+
+

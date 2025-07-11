@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: oxytocinisnotassociatedwithpostpartumhemorrhageinlaboraugmentationinaretrospectivecohortstudyintheunitedstates2024zhu
+"BACKGROUND: Previous studies reported conflicting results on the relationship between oxytocin use for labor augmentation and the risk of postpartum hemorrhage, probably because it is rather challenging to disentangle oxytocin use from labor dystocia. OBJECTIVE: This study aimed to investigate the independent association between oxytocin use for augmentation and the risk of postpartum hemorrhage by using advanced statistical modeling to control for labor patterns and other covariates. STUDY DESIGN: We used data from 20,899 term, cephalic, singleton pregnancies of patients with spontaneous onset of labor and no previous cesarean delivery from Intermountain Healthcare in Utah in the Consortium on Safe Labor. Presence of postpartum hemorrhage was identified on the basis of a clinical diagnosis. Propensity scores were calculated using a generalized linear mixed model for oxytocin use for augmentation, and covariate balancing generalized propensity score was applied to obtain propensity scores for the duration and total dosage of oxytocin augmentation. A weighted generalized additive mixed model was used to depict dose-response curves between the duration and total dosage of oxytocin augmentation and the outcomes. The average treatment effects of oxytocin use for augmentation on postpartum hemorrhage and estimated blood loss (mL) were assessed by inverse probability weighting of propensity scores. RESULTS: The odds of both postpartum hemorrhage and estimated blood loss increased modestly when the duration and/or total dosage of oxytocin used for augmentation increased. However, in comparison with women for whom oxytocin was not used, oxytocin augmentation was not clinically or statistically significantly associated with estimated blood loss (6.5 mL; 95% confidence interval, 2.5-10.3) or postpartum hemorrhage (adjusted odds ratio, 1.02; 95% confidence interval, 0.82-1.24) when rigorously controlling for labor pattern and potential confounders. The results remained consistent regardless of inclusion of women with an intrapartum cesarean delivery. CONCLUSION: The odds of postpartum hemorrhage and estimated blood loss increased modestly with increasing duration and total dosage of oxytocin augmentation. However, in comparison with women for whom oxytocin was not used and after controlling for potential confounders, there was no clinically significant association between oxytocin use for augmentation and estimated blood loss or the risk of postpartum hemorrhage."""
+
+

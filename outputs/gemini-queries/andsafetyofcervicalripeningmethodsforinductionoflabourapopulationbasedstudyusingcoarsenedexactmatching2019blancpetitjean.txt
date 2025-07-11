@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofeffectivenessandsafetyofcervicalripeningmethodsforinductionoflabourapopulationbasedstudyusingcoarsenedexactmatching2019blancpetitjean
+"BACKGROUND: There is no consensus about the ideal cervical ripening method to use for induction of labour. OBJECTIVE: To compare in current practice the effectiveness and safety of four cervical ripening methods. METHODS: We performed a matched comparative study using data from the MEDIP prospective population-based cohort conducted during one month in 2015 in all maternity units of seven French perinatal networks (3042 consecutive women with a live fetus and induction of labour). We analysed 1671 women with singleton cephalic fetus, unscarred uterus, and bishop score <7. Dinoprostone vaginal pessary (reference) was compared to dinoprostone vaginal gel, misoprostol vaginal tablet, and balloon catheter. Effectiveness outcomes were the need for more than one induction agent, oxytocin use, failure to achieve vaginal delivery within 24 hours (VD < 24 hours), and caesarean delivery. Safety outcomes were meconium-stained amniotic fluid, uterine hyperstimulation, NICU admission, and post-partum haemorrhage. Coarsened exact matching was used to balance confounders among the groups. Outcomes were compared using multivariable logistic regression models. RESULTS: Compared to the dinoprostone pessary (N = 1142, 68.3%), dinoprostone gel (N = 335, 20.1%) was associated with less failure to achieve VD < 24 hours (adjusted OR 0.66, 95% CI 0.47, 0.91). Misoprostol (N = 103, 6.2%) was associated with less need of more than one induction agent (aOR 0.56, 95% CI 0.34, 0.92) and less oxytocin use (aOR 0.60, 95% CI 0.37, 0.99). The balloon catheter (N = 91, 5.4%) was associated with more failure to achieve VD < 24 hours (aOR 2.62, 95% CI 1.37, 5.01), more caesarean delivery (aOR 1.84, 95% CI 1.09, 3.08), and less meconium-stained amniotic fluid (aOR 0.12, 95% CI 0.02, 0.70). Uterine hyperstimulation rates seemed lower with the balloon catheter (1.2% vs 4.2% for the pessary). CONCLUSIONS: In current practice, no cervical ripening method appears clearly superior to the others considering all effectiveness and safety outcomes."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlylifeinfectionsinassociationwiththedevelopmentofatopicdermatitisininfancyandearlychildhoodanationwidenestedcasecontrolstudy2022lin
+"BACKGROUND: Microbial dysbiosis has been implicated in the development of atopic dermatitis (AD). The risk of development of AD following early-life infections remains unclear. OBJECTIVE: To investigate the impact of early-life infections on AD development. METHODS: This population-based nested case-control study was conducted using the Taiwan's National Health Insurance Research Database. A total of 5454 AD patients and 16 362 control subjects without AD were identified, for the period 1997 to 2013. Demographic characteristics, comorbidities and maternal factors were compared. Adjusted odds ratio (aOR) was calculated to examine the associations between early-life infections and subsequent AD by conditional stepwise logistic regression analysis. RESULTS: Mean age was 2.6 +- 2.9 years in both groups. Overall infections (41.8% vs. 28.9%) before the diagnosis of AD were more common in AD patients than in control subjects (P < 0.001). Infectious diseases [aOR, 1.40; 95% confidence interval (CI), 1.29-1.51], skin infections (aOR, 1.55; 95% CI, 1.40-1.71) and systemic antibiotic exposure (aOR 1.67, 95% CI 1.55-1.79) before AD diagnosis were independently associated with AD development on multivariate analyses. These results were consistent across observation periods (0-1, 1-2 and >2 years after birth) and sensitivity analyses after redefining the index date as 3 or 6 months before the date of AD diagnosis. Other independent risk factors included asthma, allergic rhinitis, intussusception and neonatal hyperbilirubinemia. No association with subsequent AD was found for maternal age at delivery, Caesarean delivery or prenatal antibiotic exposure. CONCLUSION: Infections in early life are associated with AD development in infancy and early childhood."""
+
+

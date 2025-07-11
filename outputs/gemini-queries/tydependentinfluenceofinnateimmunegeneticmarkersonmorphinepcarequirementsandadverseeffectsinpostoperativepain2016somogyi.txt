@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ethnicitydependentinfluenceofinnateimmunegeneticmarkersonmorphinepcarequirementsandadverseeffectsinpostoperativepain2016somogyi
+"Although several genetic factors have been associated with postsurgical morphine requirements, those involving the innate immune system and cytokines have not been well investigated. The aim of this study was to investigate the contribution of genetic variability in innate immune signalling pathways to variability in morphine dosage after elective caesarean section under spinal anaesthesia in 133 Indian, 230 Malay, and 598 Han Chinese women previously studied. Twenty single nucleotide polymorphisms in 14 genes involved in glial activation (TLR2, TLR4, MYD88, MD2), inflammatory signalling (IL2, IL6, IL10, IL1B, IL6R, TNFA, TGFB1, CRP, CASP1), and neuronal regulation (BDNF) were newly investigated, in addition to OPRM1, COMT, and ABCB1 genetic variability identified previously. Postsurgical patient-controlled analgesia morphine use (mg/24 hours) was binned into 6 normally distributed groups and scored 0 to 5 to facilitate step-down multiple linear regression analysis of genetic predictors, controlling for ethnicity and nongenetic variables. Ethnicity, OPRM1 rs1799971 (increased), TLR2 rs3804100 (decreased), and an interaction between ethnicity and IL1B rs1143634 (increased), predicted 9.8% of variability in morphine use scores in the entire cohort. In the Indian cohort, 14.5% of the variance in morphine use score was explained by IL1B rs1143634 (increased) and TGFB1 rs1800469 (decreased). In Chinese patients, the incidence of postsurgical pain was significantly higher in variant COMT rs4680 genotypes (P = 0.0007) but not in the Malay or Indian cohorts. Innate immune genetics may contribute to variability in postsurgical opioid requirements in an ethnicity-dependent manner."""
+
+

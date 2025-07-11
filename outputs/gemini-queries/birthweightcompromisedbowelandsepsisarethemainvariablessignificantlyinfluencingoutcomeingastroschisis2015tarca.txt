@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthweightcompromisedbowelandsepsisarethemainvariablessignificantlyinfluencingoutcomeingastroschisis2015tarca
+"BACKGROUND: The survival rate for gastroschisis has improved to more than 90% in the developed countries, but increased mortality, morbidity, consequent long hospitalisation and high costs are the rule in Romania. METHODS: Analytic retrospective study of all patients with gastroschisis treated at our department between 1990 and 2012. The study protocol included: demographic data, antenatal diagnosis, prematurity, mode of delivery, birth weight,associated anomalies, time to surgery, presence of compromised bowel, type of repair, post-operative complications, time to full enteral feeding, length of hospitalisation, mortality. RESULTS: 115 newborns with gastroschisis were treated during 23 years. Antenatal diagnosis was made only in 13 cases ata mean gestational age of 25 weeks. Delivery was vaginal in 80.8%. Associated malformations were present in 47 patients. Twenty-four patients had complex gastroschisis.Primary repair was done in 90 cases (79%) and in 24 patients a silo was used. Overall survival was only 29.8%, the main cause of death being severe sepsis with multiple organ failure(61.4%) and bronchopneumonia (52.6%). The rate of complications associated with closure, needing reintervention was 19.3%. CONCLUSIONS: Analysis of risk factors by logistic regression showed that low birth weight increased the risk of postoperative complications 17.4 times, sepsis increased the risk of complicated postoperative course 12.2 times, and the presence of compromised intestinal loops (complex gastroschisis) 5.5 times."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofcomplicatedbirthatterminnulliparousandmultiparouswomenusingroutinelycollectedmaternitydatainenglandcohortstudy2020jardine
+"OBJECTIVES: To determine the rate of complicated birth at term in women classified at low risk according to the National Institute for Health and Care Excellence guideline for intrapartum care (no pre-existing medical conditions, important obstetric history, or complications during pregnancy) and to assess if the risk classification can be improved by considering parity and the number of risk factors. DESIGN: Cohort study using linked electronic maternity records. PARTICIPANTS: 276 766 women with a singleton birth at term after a trial of labour in 87 NHS hospital trusts in England between April 2015 and March 2016. MAIN OUTCOME MEASURE: A composite outcome of complicated birth, defined as a birth with use of an instrument, caesarean delivery, anal sphincter injury, postpartum haemorrhage, or Apgar score of 7 or less at five minutes. RESULTS: Multiparous women without a history of caesarean section had the lowest rates of complicated birth, varying from 8.8% (4879 of 55 426 women, 95% confidence interval 8.6% to 9.0%) in those without specific risk factors to 21.8% (613 of 2811 women, 20.2% to 23.4%) in those with three or more. The rate of complicated birth was higher in nulliparous women, with corresponding rates varying from 43.4% (25 805 of 59 413 women, 43.0% to 43.8%) to 64.3% (364 of 566 women, 60.3% to 68.3%); and highest in multiparous women with previous caesarean section, with corresponding rates varying from 42.9% (3426 of 7993 women, 41.8% to 44.0%) to 66.3% (554 of 836 women, 63.0% to 69.5%). CONCLUSIONS: Nulliparous women without risk factors have substantially higher rates of complicated birth than multiparous women without a previous caesarean section even if the latter have multiple risk factors. Grouping women first according to parity and previous mode of birth, and then within these groups according to presence of specific risk factors would provide greater and more informed choice to women, better targeting of interventions, and fewer transfers during labour than according to the presence of risk factors alone."""
+
+

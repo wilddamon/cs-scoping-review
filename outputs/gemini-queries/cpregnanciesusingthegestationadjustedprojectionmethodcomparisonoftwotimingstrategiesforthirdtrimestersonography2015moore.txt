@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalweightestimationindiabeticpregnanciesusingthegestationadjustedprojectionmethodcomparisonoftwotimingstrategiesforthirdtrimestersonography2015moore
+"OBJECTIVES: The gestation-adjusted projection method extrapolates birth weight using third-trimester sonography. This technique is shown to be more accurate for sonographic examinations from 34 weeks to 36 weeks 6 days than 37 weeks to 38 weeks 6 days. Our objective was to determine whether even earlier sonographic examinations (31 weeks-33 weeks 6 days) further improves birth weight prediction in patients with diabetes.;METHODS: We conducted a retrospective cohort analysis of 388 pregnant women with pregestational or gestational diabetes who delivered at 37 weeks or later and had a sonographic examination performed between 31 weeks and 36 weeks 6 days. Sonographic examinations were categorized as "early" if performed at 31 weeks to 33 weeks 6 days or "late" if performed at 34 weeks to 36 weeks 6 days. We estimated birth weight using the gestation-adjusted projection method, compared errors in prediction of birth weight using the t test and Mann-Whitney U test, and performed a 2-sample test of proportions to compare prediction of macrosomia (birth weight >4000 g).;RESULTS: The early and late groups had similar mean gestational ages at birth (38 weeks 4 days versus 38 weeks 5 days; P = .13) and rates of macrosomia (10.7% versus 12.4%; P = .63). The early group had a greater mean absolute error (336 versus 297 g; P = .03) and percent error (9.9% versus 7.9%; P = .01) in birth weight prediction but a lower mean birth weight (3303 versus 3426 g; P = .02). Sensitivity for prediction of macrosomia was 19% in the early group versus 45% in the late group (P = .07), whereas specificity was similar (98% versus 96%; P = .27).;CONCLUSIONS: Using the gestation-adjusted projection method in our patients with diabetes, we found that sonographic examinations performed at 34 weeks to 36 weeks 6 days better predicted birth weight than those performed at 31 weeks to 33 weeks 6 days. Copyright (c) 2015 by the American Institute of Ultrasound in Medicine."""
+
+

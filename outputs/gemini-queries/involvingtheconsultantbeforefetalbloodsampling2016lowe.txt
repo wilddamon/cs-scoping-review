@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: involvingtheconsultantbeforefetalbloodsampling2016lowe
+"BACKGROUND: Fetal scalp lactate (FSL) is used when the cardiotocography (CTG) is not normal in an attempt to reduce the false-positive rate and the likelihood of unnecessary intervention. Whilst the test has almost a 100% negative predictive value, the positive predictive value of this test is very low. AIMS: To measure the effect of introducing consultant obstetrician review of every abnormal CTG prior to the decision to perform FSL. MATERIALS AND METHODS: A retrospective cohort study was performed using routinely collected de-identified data. Mode of birth outcomes for women who had a continuous CTG in labour were compared in two equal time periods, 12 months before and after a change in hospital policy. Change in hospital policy dictated that FSL was only performed on a pathological CTG after consultant obstetrician review of the CTG. RESULTS: Consultant obstetrician review of CTG prior to FSL was associated with fewer FSL performed (1.7% vs 3.5%; P <= 0.01), fewer babies acidaemic at birth pH < 7.1 (0.8% vs 2.2%; P < 0.01), fewer caesarean sections for presumed fetal distress (CS for FD) (6.6% vs 8.1%; P = 0.05) and fewer instrumental births (17.6% vs 20%; P = 0.04). When adjusted for confounders, the change in policy was independently associated with a reduced likelihood of CS for FD (adjusted odds ratios = 0.78 (0.63-0.97); P = 0.03). CONCLUSIONS: A hospital policy whereby a consultant obstetrician reviews abnormal CTGs prior to performing FSL may help to increase the pretest probability and reduce the rate of CS for FD, as well as instrumental birth and unnecessary FSL."""
+
+

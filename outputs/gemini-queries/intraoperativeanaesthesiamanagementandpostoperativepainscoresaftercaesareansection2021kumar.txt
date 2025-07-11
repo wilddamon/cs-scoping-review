@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intraoperativeanaesthesiamanagementandpostoperativepainscoresaftercaesareansection2021kumar
+"Aim: Evaluate the Intraoperative Anaesthesia Management and Postoperative Pain Scores after Caesarean Section. Method(s): This cross-sectional study conducted in the Department of Anaesthesiology, Anugrah Narayan Magadh Medical College and Hospital, Gaya, Bihar, India, for 15 months. All patients either receiving GA or spinal anaesthesia for CS receive IV tramadol infusion for post-operative pain control, which is started either at the request for first analgesia in the PACU or at 60 min, whichever comes first. Patients are assessed for pain using numerical rating scale (NRS) immediately in the PACU and at regular intervals. Any patient having NRS >4 is given rescue analgesia. Result(s): Percentage of patients having NRS >4 and who required rescue analgesia on immediate assessment (time zero) was 15 (15%). After that, 13 patients (13%) at 30 min, 10 (10%) patients at 45 min and 5 (5%) patients at 60 min had NRS of >4 and required first rescue analgesia. There was no statistically significant difference among patients in PACU having NRS >4 from those having NRS <4 in terms of the type of incision, ASA grading and duration of surgery. Patients receiving RA had a statistically significant (P-value < 0.01) low percentage of patients with NRS >4 and need for first rescue analgesia at time zero and at 30 min when compared to the percentage of patients operated under GA. The difference became insignificant after 30 min. Overall, 18% of patients received some sort of co-analgesia, mainly in the form of IV paracetamol 15% and only two patients received TAP block. Conclusion(s): The pain management in the PACU was adequate as all patients were given rescue analgesia if they had NRS of >4 and no patient was shifted from PACU with NRS of >4.Copyright (c) 2021, Dr Yashwant Research Labs Pvt Ltd. All rights reserved."""
+
+

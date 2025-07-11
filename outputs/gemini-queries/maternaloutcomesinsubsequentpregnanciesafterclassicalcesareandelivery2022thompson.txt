@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternaloutcomesinsubsequentpregnanciesafterclassicalcesareandelivery2022thompson
+"OBJECTIVE: To compare maternal outcomes in subsequent pregnancies of patients who had a prior classical cesarean delivery with those with a prior low transverse cesarean delivery. METHODS: We conducted a cross-sectional analysis of patients with live singleton births at or after 24 weeks of gestation who had a prior classical cesarean delivery or a low transverse cesarean delivery in the 2016-2019 National Inpatient Sample database. Outcome measures included mode of delivery, uterine rupture, and severe maternal morbidity (SMM), as defined by the Centers for Disease Control and Prevention. Maternal outcomes were compared using the kh2 test and the propensity score method, accounting for differences in patients' clinical risk factors. Multivariable regressions further assessed how patients' sociodemographic and hospital characteristics might influence the differences in maternal outcomes between the two groups. RESULTS: The sample included 1,671,249 patients: 25,540 with prior classical cesarean delivery and 1,645,709 with prior low transverse cesarean delivery. Cesarean delivery occurred in 95.5% of patients with prior classical cesarean compared with 91.3% of those with prior low transverse delivery (P<.001; propensity score method: odds ratio [OR] 0.99, 95% CI 0.85-1.16) and uterine rupture occurred in 1.1% and 0.3%, respectively (P<.001; propensity score method: OR 2.17, 95% CI 1.40-3.36). Among patients with prior classical cesarean delivery, uterine rupture occurred in 10.6% of those who underwent labor compared with 0.3% of those who did not (P<.001). Rates of SMM were 5.9% and 2.0% in the two groups, respectively (P<.001; propensity score method: OR 1.87, 95% CI 1.53-2.29). After adjustment of maternal sociodemographic and hospital characteristics, differences in the risk of uterine rupture and SMM between the two groups were attenuated but remained significant. CONCLUSION: Prior classical cesarean delivery was associated with a higher risk of uterine rupture and SMM in subsequent pregnancies, compared with prior low transverse cesarean delivery, even after accounting for patients' clinical, sociodemographic, and hospital characteristics."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modelingspatialdeterminantsofinitiationofbreastfeedinginethiopiaageographicallyweightedregressionanalysis2022hailegebreal
+"BACKGROUND: The World Health Organization (WHO) encourages breastfeeding to begin within the first hour after birth in order to save children's lives. In Ethiopia, different studies are done on the prevalence and determinants of breastfeeding initiation, up to our knowledge, the spatial distribution and the spatial determinants of breast feeding initiation over time are not investigated. Therefore, the objectives of this study were to assess spatial variation and its spatial determinant of delayed initiation of breastfeeding in Ethiopia using Geographically Weighted Regression (GWR). METHODS: A cross-sectional study was undertaken using the nationally representative 2016 Ethiopian Demographic and Health Survey (EDHS) dataset. Global Moran's I statistic was used to measure whether delayed breastfeeding initiation was dispersed, clustered, or randomly distributed in study area. Ordinary Least Squares (OLS) regression was used to identify factors explaining the geographic variation in delayed breastfeeding initiation. Besides, spatial variability of relationships between dependent and selected predictors was investigated using geographically weighted regression. RESULT: A total weighted sample of 4169 children of aged 0 to 23 months was included in this study. Delayed initiation of breastfeeding was spatially varies across the country with a global Moran's I value of 0.158 at (p-value<0.01). The hotspot (high risk) areas were identified in the Amhara, Afar, and Tigray regions. Orthodox religion, poor wealth index, caesarian section, baby postnatal checkup, and small size of a child at birth were spatially significant factors for delayed breastfeeding initiation in Ethiopia. CONCLUSION: In Ethiopia initiation of breastfeeding varies geographically across region. A significant hotspot was identified in the Amhara, Afar, and Tigray regions. The GWR analysis revealed that orthodox religion, poor wealth index, caesarian section, baby postnatal checkup, and small birth weight were spatially significant factors."""
+
+

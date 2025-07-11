@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: reviewofmetforminandglyburideinthemanagementofgestationaldiabetes2014carroll
+"BACKGROUND: Worldwide, gestational diabetes affects 15% of pregnancies. It is recommended in patients with gestational diabetes to initiate diet therapy and if this is not adequate, insulin is the next treatment modality. While insulin is the preferred drug therapy to manage gestational diabetes in the majority of women, it may not always be the best option for all women. OBJECTIVE: The purpose of this review is to assess the efficacy and safety of oral agents for treatment of gestational diabetes. METHODS: A literature search of the MEDLINE, Ovid databases and Google Scholar was performed using the search term 'gestational diabetes' combined with each 'metformin' and 'glyburide'. The time frame for the search was inception through August 2014. Randomized controlled trials and cohort (both prospective and retrospective) trials, published in English, with human participants were included. Studies included only pregnant women diagnosed with gestational diabetes. RESULTS: There were no significant differences in preterm deliveries, delivery modes, macrosomia, and birth weights and large for gestational age when utilizing glyburide vs insulin for gestational diabetes management. There were significantly higher neonatal intensive care unit admissions as well as longer lengths of stay for hypoglycemia and respiratory distress in babies whose mothers were treated with glyburide versus insulin. For the studies comparing metformin to insulin, there are no significant differences reported for birth weight, gestational age, delivery mode, prematurity and perinatal deaths. Women taking metformin may require supplemental insulin more frequently than those taking glyburide. CONCLUSION: Glyburide and metformin appear to be safe and effective to manage blood glucose in patients with gestational diabetes who prefer to not utilize insulin or who cannot afford insulin therapy. All other oral therapies to manage blood glucose levels during gestational diabetes should be reserved until additional evidence is available regarding safety and efficacy to both mother and fetus."""
+
+

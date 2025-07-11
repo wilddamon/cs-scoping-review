@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: successrateandclinicaloutcomesofexternalcephalicversionwithorwithoutanesthesiaforbreechpresentationatterminchina2023yang
+"Background: To determine whether neuraxial anesthesia (NA) can improve the success rate of external cephalic version (ECV), and evaluate the clinical outcomes. Method(s): This study included 201 consecutive participants who had a breech presentation at term and received ECV between 2014 and 2022. Participants who received ECV without NA were included in Group 1, while participants with NA were included in Group 2. Outcomes assessed were the success rate of ECV and clinical outcomes. Result(s): In total, 201 participants who had a breech presentation at term and received ECV met the inclusion criteria. Totally, 134 participants performed ECV without NA were included in Group 1, while 67 participants performed the ECV with NA were included in Group 2. The success rate of ECV among the participants was 66.2% (133/201). The rate of placental abruption during or after ECV and neonatal intensive care unit (NICU) admission in Group 2 was statistically significant higher than in the Group 1 (p < 0.05). Conclusion(s): This study suggested that the use of NA did not increase ECV success rates after 37 weeks of gestation. The recommendation of NA for the ECV may be not suitable for all pregnancies unless the participants request. A large and high-quality study should be conducted to verify the role of NA in ECV, if any.Copyright (c) 2023 The Author(s)."""
+
+

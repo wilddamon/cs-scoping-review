@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sexspecificassociationsofinsulinlikepeptidesincordbloodwithsizeatbirth2018vanpoppel
+"OBJECTIVE: Insulin-like peptides (insulin, IGF-1, IGF-2) are essential regulators of foetal growth. We assessed the role of these peptides for birth size in a sex-specific manner. DESIGN: Cross-sectional cohort analysis. PATIENTS AND MEASUREMENTS: In 369 neonates, cord blood insulin, C-peptide, IGF-1 and IGF-2 levels were measured. Outcomes were placenta weight, birthweight, length and ponderal index. In linear regression models, the association of insulin-like peptides with growth outcomes was assessed, adjusted for gestational age and delivery mode. Interaction between insulin-like peptides and neonatal sex was assessed. RESULTS: No sex differences in levels of insulin-like peptides were observed. Significant interactions were found of sex with IGF-1 for birthweight, and of sex with C-peptide for all outcomes, except ponderal index. The association of IGF-1 (ng/mL) with birthweight was stronger and only significant in males (beta coefficient 3.30 g; 95%CI 1.98-4.63 in males and 1.45 g; -0.09-2.99 in females). Associations of C-peptide (ng/mL) with growth outcomes were stronger and only significant in females (placenta weight females: 181.3 g; 109.3-253.3; P < .001, males: 29.8 g; -51.5-111.1; P = .47, birthweight females: 598.5 g; 358.3-838.7: P < .001, males: 113.7 g; -154.0-381.4; P = .40). Associations of IGF2 with birthweight were similar in males and females. No associations were found with ponderal index. CONCLUSIONS: C-peptide and IGF-1 in cord blood associate with birthweight, length and placenta weight in a sex-specific manner, with stronger associations of C-peptide levels with placenta weight, birthweight and length in females and stronger associations of IGF-1 levels with birthweight in males."""
+
+

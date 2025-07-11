@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofstageoflaboronadversematernalandneonataloutcomesinmultiparouswomenaretrospectivecohortstudy2020wang
+"BACKGROUND: The correlation between stage of labor and adverse delivery outcomes has been widely studied. Most of studies focused on nulliparous women, it was not very clear what impact the stage of labor duration had on multiparous women. METHODS: A retrospective cohort study was conducted among all the multiparous women of cephalic, term, singleton births, who planned vaginal delivery. The total stage of labor covered the first stage and the second stage in this study, and they were divided into subgroups. Adverse maternal outcomes were defined as referral cesarean delivery, instrumental delivery, postpartum hemorrhage, perineal laceration (III and IV degree), hospitalization stay >=90th, and adverse neonatal outcomes as NICU, shoulder dystocia, Apgar score <= 7(5 min), neonatal resuscitation, assisted ventilation required immediately after delivery. RESULTS: There were 7109 parturients included in this study. The duration of first stage was 6.2(3.6-10.0) hours, the second stage was 0.3(0.2-0.7) hour, the total stage was 6.9(4.1-10.7) hours in multiparous women. At the first stage, the rates of overall adverse outcome were 21, 23.4, 28.8, 35.5, 38.4% in subgroups < 6 h, 6-11.9 h, 12-17.9 h, 18-23.9 h, >=24 h, which increased significantly (X(2) = 57.64, P < 0.001), and ARR (95% CI) were 1.10 (0.92,1.31), 1.33 (1.04,1.70), 1.80 (1.21,2.68), 2.57 (1.60,4.15) compared with subgroup < 6 h (ARR = 1); At the second stage, the rates of overall adverse outcome were 20.0, 30.7, 38.5, 61.2, 69.6% in subgroups < 1 h, 1-1.9 h, 2-2.9 h, 3-3.9 h, >=4 h (X(2) = 349.70, P < 0.001), and ARR (95% CI) were 1.89 (1.50, 2.39), 2.22 (1.55, 3.18), 10.64 (6.09, 18.59), 11.75 (6.55, 21.08) compared with subgroup < 1 h (ARR = 1)). At the total stage, the rates of overall adverse outcome were 21.5, 30.8, 42.4% in subgroups < 12 h, 12-23.9 h, >=24 h (X(2) = 84.90, P < 0.001), and ARR (95% CI) were 1.41 (1.16,1.72), 3.17 (2.10,4.80) compared with subgroup < 12 h (ARR = 1). CONCLUSIONS: The prolonged stage of labor may lead to increased adverse outcomes in multiparous women, it was an independent risk factor of adverse maternal and neonatal outcomes."""
+
+

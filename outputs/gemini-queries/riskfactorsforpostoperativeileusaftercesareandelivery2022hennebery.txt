@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforpostoperativeileusaftercesareandelivery2022hennebery
+"BACKGROUND: Despite extensive data regarding risk factors for postoperative ileus in the general and colorectal surgery literature, few studies have identified risk factors specific to the obstetrical population.;OBJECTIVE: This study aimed to identify factors associated with postoperative ileus following cesarean delivery.;STUDY DESIGN: This retrospective case-control study identified women who underwent cesarean delivery at a single hospital between January 2000 and January 2020 and subsequently developed postoperative ileus. Cases were matched in a 1:2 ratio with controls who underwent cesarean delivery and did not develop postoperative ileus. They were matched by age (+/-1 year) and body mass index (+/-1 kg/m2). Demographics, common comorbidities, obstetrical history, and delivery characteristics were analyzed.;RESULTS: A total of 147 cases and 294 controls were identified. Cases and controls were similar in terms of parity, number of previous cesarean deliveries, labor preceding their cesarean delivery, incidence of chorioamnionitis, and presurgical diagnosis of hypothyroidism or chronic hypertension. Cases tended to have a diagnosis of preeclampsia (cases 23.1% vs controls 10.5%; P<.001) and were more likely to have been exposed to magnesium sulfate (cases 34.0% vs controls 15.0%; P<.001). Surgical considerations that were common in cases were exposure to general anesthesia (cases 37.4% vs controls 4.1%; P<.001), midline vertical skin incisions (cases 13.6% vs controls 1.4%; P<.001), classical hysterotomy (cases 8.8% vs controls 1.7%; P=.001), estimated blood loss >1000 mL (cases 44.4% vs controls 11.6%; P<.001), transfusion of blood products (cases 25.8% vs controls 2.0%; P<.001), and hysterectomy at the time of cesarean delivery (cases 6.1% vs controls 0.7%; P=.001). After a multivariable modeling using stepwise logistic regression of all variables found to be statistically significant, transfusion of blood products, estimated blood loss >1000 mL, and exposure to general anesthesia were the remaining surgical factors associated with the development of ileus. These variables reflect both the complexity and most likely the duration of surgery that was required, although we note that we did not have operative time as a variable to explore. Preeclampsia was also identified as a comorbidity linked to the development of ileus.;CONCLUSION: A diagnosis of preeclampsia, exposure to general anesthesia, estimated blood loss >1 L, and transfusion of blood products were identified as potential risk factors for postcesarean ileus. Copyright (c) 2022 Elsevier Inc. All rights reserved."""
+
+

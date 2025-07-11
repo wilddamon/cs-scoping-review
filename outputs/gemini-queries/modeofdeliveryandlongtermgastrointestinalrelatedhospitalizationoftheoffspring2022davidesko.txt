@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofdeliveryandlongtermgastrointestinalrelatedhospitalizationoftheoffspring2022davidesko
+"OBJECTIVE: We set out to ascertain a possible association between mode of delivery (cesarean vs. vaginal delivery) and gastrointestinal hospitalization of the offspring. STUDY DESIGN: A population based cohort analysis including all uncomplicated singleton deliveries occurring between the years 1991-2014 at a tertiary medical center was performed, comparing long-term gastrointestinal hospitalization of offspring, according to mode of delivery. Multiple gestations, fetuses with congenital malformations and perinatal deaths were excluded, as were cases of urgent cesarean delivery and pregnancy complications. Gastrointestinal hospitalizations (up to age 18 years) were defined using predefined ICD9 codes, as recorded in hospital records. A Kaplan Meier survival curve was constructed to compare cumulative incidence of first gastrointestinal hospitalizations. A Cox proportional hazard model was used to control for confounders. RESULTS: During the study period 139,232 deliveries met the inclusion criteria; 13,242 (9.5%) of which were elective cesarean deliveries, and the remaining 125,990 (90.5%) were delivered vaginally. Cesarean delivery was associated with more offspring hospitalizations for gastrointestinal morbidity (p < .001). The Kaplan Meier survival curve demonstrated higher cumulative incidence of gastrointestinal hospitalizations in the cesarean delivery group (log rank test p < .001). Utilizing a Cox proportional hazards model to control for confounders, cesarean delivery was found to be an independent risk factor for long-term gastrointestinal hospitalization of the offspring (adjusted HR 1.409, 95%CI 1.306-1.521, p < .001). Specifically, inflammatory bowel disease was more common among offspring following cesarean delivery aHR 1.386 95% CI 1.215-1.582 p < .001. CONCLUSION: Elective cesarean delivery is an independent risk factor for long-term gastrointestinal-related hospitalization of the offspring."""
+
+

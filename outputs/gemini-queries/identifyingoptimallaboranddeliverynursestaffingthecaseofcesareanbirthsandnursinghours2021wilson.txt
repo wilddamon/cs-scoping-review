@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: identifyingoptimallaboranddeliverynursestaffingthecaseofcesareanbirthsandnursinghours2021wilson
+"BACKGROUND: Numerous studies have identified a relationship between nurse staffing and adverse patient outcomes in medical / surgical patient populations. However, little is known about the impact of labor and delivery (L&D) nurse staffing and adverse birth outcomes, such as unintended cesarean delivery, in low-risk term-gestation women. PURPOSE: We examined nurse staffing patterns on the likelihood of cesarean sections (C-sections) among low- risk, full gestation births and provided a testing framework to distinguish optimal from ineffective levels of nurse staffing. METHODS: This retrospective descriptive study used hours of productive nursing time per delivery as the treatment variable to determine direct nursing time per delivery and its impact on the likelihood of a C-section. For comparisons, we also assessed the likelihood of augmentations and of inductions, as well as the number of neonatal intensive care unit (NICU) hours per birth. We limited our sample to those births between 37 and 42 weeks of gestation. Two complimentary models (the quadratic and piecewise regressions) distinguishing optimal staffing patterns from ineffective staffing patterns were developed. The study was implemented in eleven hospitals that are part of a large, integrated healthcare system in the Southwest. DISCUSSION: While a simple linear regression of the likelihood of a C-section on nursing hours per delivery indicated no statistically distinguishable effect, our 'optimal staffing' model indicated that nurse staffing hours employed by using a large sample of hospitals were actually minimizing C-sections (robustness checks are provided using similar model comparisons for the likelihood of augmentation and induction, and NICU hours). Where the optimal staffing models did not appear to be effective for augmentations, inductions, and NICU hours, we found significant differences between facilities (i.e., significant fixed effects for hospitals). In all specifications, we also controlled for weeks of gestation, race, sex of the child, and mother's age."""
+
+

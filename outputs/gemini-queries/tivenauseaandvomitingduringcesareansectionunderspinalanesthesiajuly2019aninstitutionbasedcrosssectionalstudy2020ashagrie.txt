@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theincidenceandfactorsassociatedwithintraoperativenauseaandvomitingduringcesareansectionunderspinalanesthesiajuly2019aninstitutionbasedcrosssectionalstudy2020ashagrie
+"Background: Nausea and vomiting is vested in two separate units in the medulla, the chemo receptor trigger zone and the vomiting center. Intra-operative nausea and vomiting during spinal anesthesia for caesarean section are very common and unpleasant event with an incidence of up to 80%. It causes significant distress to the patient and also interferes with the surgical procedure. Objective(s): The study was conducted to assess the incidence and associated factors of intra-operative nausea and vomiting during caesarean section under spinal anesthesia. Method(s): Observational study was conducted from March 20th to May30th 2019 on 373 pregnant mothers who delivered with caesarean section under spinal anesthesia. Statistical analysis was performed using statistical package for social science version 20. The Odds ratios and 95% confidence interval, bivariate and multivariate binary logistic regressions were used to assess the association between dependent and independent variables. Result(s): Among 384 eligible participants, 373 women were involved in the study with the response rate of 97.14%. Out of the total respondents, 152 (40.8%) of them experienced intra-operative nausea and vomiting and 69 (18.5%) of them experienced both nausea and vomiting. Hypotension (AOR = 3.949, 95% CI = 2.098-7.432), intra-operative pain (AOR = 6.152, 95% CI = 2.970-12.745), body mass index >35 kg/m2 (AOR = 4.491, 95% CI = 1.010-19.962) and high risk pregnancy (AOR = 2.222 95% CI = 1.006-4.910) were significantly associated with the occurrence of intraoperative nausea and vomiting. Conclusion(s): The incidence of intra-operative nausea and vomiting was 18.5%. This is a significant intraoperative morbidity that shouldn't be overlooked and needs appropriate intervention according to institutional protocols.Copyright (c) 2020 The Author(s)"""
+
+

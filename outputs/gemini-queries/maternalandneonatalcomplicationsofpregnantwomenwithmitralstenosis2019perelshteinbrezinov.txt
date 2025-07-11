@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandneonatalcomplicationsofpregnantwomenwithmitralstenosis2019perelshteinbrezinov
+"BACKGROUND: Rheumatic mitral stenosis (MS) is a relatively rare diagnosis in the developed countries and its treatment during pregnancy is challenging due to hemodynamic changes. With the demographic changes due to recent waves of immigration an increase in the prevalence of rheumatic heart disease is expected.;OBJECTIVES: To evaluate maternal and neonatal complications in patients with mitral stenosis.;METHODS: During the years 2006-2017, 22 women who underwent 31 pregnancies were followed at the Sheba Medical Center in Israel. We collected on regarding hemodynamic changes and their clinical course. MS was classified as mild, moderate, or severe according to mitral valve area by echocardiography. Maternal and fetal adverse events were evaluated according to severity of MS and compared by Poisson regression modeling.;RESULTS: MS was severe in 7 pregnancies (22.6%), moderate in 9 (29%), and mild in 15 (48.4%). Twenty patients were managed conservatively and 2 underwent a successful percutaneous mitral balloon valvuloplasty (PBMVP) during pregnancy. All pregnancies ended with a liveborn neonate and with no maternal mortality. Peak and mean mitral pressure gradients increased during pregnancy from 13.3 +/- 5.3 to 18.6 +/- 5.1 mmHg and from 5.9 +/- 2.3 to 9.6 +/- 3.4 mmHg respectively (P < 0.05). Eight pregnancies (25.8%) were complicated by pulmonary congestion, 2/15 (13.3%) with mild MS, 2/9 (22.2%) with moderate, and 4/7 (57.1%) with severe MS. The adverse event rate was higher among patients with severe MS compared with moderate and mild MS [hazard ratio (HR) 3.15, 95% confidence interval (95%CA) 1.04-9.52 and HR 4.06, 95%CI 1.4-11.19 respectively, P < 0.05]. Nine of 31 deliveries were vaginal; 6 of 22 cesarean sections (27.3%) were performed for cardiac indications.;CONCLUSIONS: The number of total adverse events were higher among patients with severe MS. Patients with moderate and mild MS should be treated attentively, but good obstetric and maternal outcome can be expected."""
+
+

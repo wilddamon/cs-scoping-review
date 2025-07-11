@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliverypretermbirthandriskoffoodallergynationwideswedishcohortstudyofmorethan1millionchildren2018mitselou
+"BACKGROUND: Little is known about early-life risk factors for food allergy in children. OBJECTIVES: We examined the association between perinatal characteristics and future risk of food allergy in offspring. METHODS: This nationwide Swedish cohort study of 1,086,378 children born in Sweden in 2001-2012 used prospectively recorded data from health care registers. Using Cox regression, we estimated hazard ratios (HRs) with 95% CIs for the association between perinatal characteristics (eg, cesarean delivery and preterm birth) and food allergy as defined by diagnoses in the National Patient Register, adjusting for infant sex and maternal factors (age at delivery, country of birth, parity, smoking, body mass index, and asthma/pulmonary disease). RESULTS: During the 13-year follow-up, 26,732 (2.5%) children were given a diagnosis of food allergy. Food allergy was positively associated with cesarean delivery (HR, 1.21; 95% CI, 1.18-1.25), large for gestational age (HR, 1.15; 95% CI, 1.10-1.19), and low 5-minute Apgar score (HR, 1.22; 95% CI, 1.10-1.36) but negatively associated with very preterm birth (<32 weeks of gestation: HR, 0.74; 95% CI, 0.56-0.98). No association was found between food allergy and moderately preterm birth, low birth weight, or small for gestational age. Risk estimates were similar when the outcome was restricted to 2 records of diagnosed food allergy. In 1,000 children undergoing cesarean delivery, an extra 5 developed food allergy compared with the reference group, suggesting that 17% of food allergy in children born by means of cesarean delivery can be explained by this exposure (attributable fraction). CONCLUSIONS: Cesarean delivery was associated with increased risk of food allergy, whereas very preterm birth decreased risk."""
+
+

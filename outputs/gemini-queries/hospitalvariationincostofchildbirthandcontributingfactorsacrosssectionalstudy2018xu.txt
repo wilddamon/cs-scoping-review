@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hospitalvariationincostofchildbirthandcontributingfactorsacrosssectionalstudy2018xu
+"OBJECTIVE: To examine hospital variation in cost of childbirth hospitalisations and identify factors that contribute to the variation. DESIGN: Cross-sectional analysis of linked birth certificate and hospital discharge data. SETTING: Two hundred and twenty hospitals in California delivering >= 100 births per year. POPULATION: A total of 405 908 nulliparous term singleton vertex births during 2010-2012. METHODS: Cost of childbirth hospitalisations was compared across hospitals after accounting for differences in patient clinical risk factors. Relative contributions of patient sociodemographic, obstetric intervention, birth attendant and institutional characteristics to variation in cost were assessed by further adjusting for these factors in hierarchical generalised linear models. MAIN OUTCOME MEASURES: Cost of childbirth hospitalisation. RESULTS: Median risk-standardised cost of childbirth was $7149 among the hospitals (10(th) -90th percentile range: $4760-$10,644). Maternal sociodemographic characteristics and type of birth attendant did not explain hospital variation in cost. Adjustment for obstetric interventions overall reduced within-hospital variance by 15.8% (P < 0.001), while adjusting for caesarean delivery alone reduced within-hospital variance by 14.4% (P < 0.001). However, obstetric interventions did not explain between-hospital variation in cost. In contrast, adjustment for institutional characteristics reduced between-hospital variance by 30.3% (P = 0.002). Hospital type of ownership, teaching/urban-rural status, neonatal care capacity and geographic region were most impactful. Risk-standardised cost was positively correlated with risk-standardised rate of severe newborn morbidities (correlation coefficient 0.22, P = 0.001), but not associated with risk-standardised rate of severe maternal morbidities. CONCLUSIONS: Cost of childbirth hospitalisations varied widely among hospitals in California. Institutional characteristics significantly contributed to this variation. Higher-cost hospitals did not have better outcomes, suggesting potential opportunities to enhance value in care. TWEETABLE ABSTRACT: Hospitals vary in cost of childbirth. Institutional characteristics significantly contribute to the variation."""
+
+

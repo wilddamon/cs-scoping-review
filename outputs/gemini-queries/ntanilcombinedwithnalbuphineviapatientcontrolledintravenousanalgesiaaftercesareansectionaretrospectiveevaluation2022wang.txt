@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sufentanilcombinedwithnalbuphineviapatientcontrolledintravenousanalgesiaaftercesareansectionaretrospectiveevaluation2022wang
+"PURPOSE: This retrospective study evaluated the efficacy, opioid consumption, and safety profile of two patient-controlled intravenous analgesia (PCIA) regimens (sufentanil combined with nalbuphine vs sufentanil alone) after cesarean section (CS). PATIENTS AND METHODS: Parturients (n = 1808) received sufentanil combined with nalbuphine (SN group) or sufentanil alone (S group) as PCIA after CS. The primary outcome was the numeric rating scale (NRS) pain score with movement (NRS-M) at 24 h after CS. Secondary outcomes were NRS scores at rest (NRS-R) at 24 and 48 h after CS, NRS-M at 48 h after CS, cumulative PCIA bolus times, and opioid consumption during the first 24 and 48 h postoperatively, which was measured in morphine-equivalent doses. RESULTS: The population comprised 993 and 815 subjects in the SN and S groups, respectively. At 24 and 48 h after CS, the respective NRS-M scores of the SN group (4.62, 3.37) were each significantly lower than those of the S group (5.18, 4.01; P < 0.01 for both). The corresponding NRS-S scores were similarly lower in the SN group (0.96, 0.19) than in the S group (2.05, 0.92; P < 0.01 for both). After adjusting for covariates, the SN group still had lower NRS-M than the S group at 24 h after CS (estimate adjusted = 0.565, P < 0.001). The PCIA bolus times were significantly lower in the SN group than in the S group. The rates of bradycardia and respiratory depression were lower in the SN group than in the S group. However, the rates of dizziness and postoperative hypotension were slightly higher in the SN group, and those of nausea/vomiting were comparable. CONCLUSION: Compared with sufentanil alone, sufentanil combined with nalbuphine for PCIA provided superior analgesia in parturient women after CS."""
+
+

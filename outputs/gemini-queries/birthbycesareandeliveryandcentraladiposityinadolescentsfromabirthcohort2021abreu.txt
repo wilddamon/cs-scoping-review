@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthbycesareandeliveryandcentraladiposityinadolescentsfromabirthcohort2021abreu
+"The aim of this study was to analyze the association between birth by cesarean section and central adiposity in adolescents in Sao Luis, Maranhao State, Brazil. This was a cohort study that included 601 participants evaluated at birth and at 18-19 years. At birth we assessed type of delivery, maternal education, family income, maternal marital status, maternal body mass index before pregnancy, prenatal care, maternal smoking habit, gestational age at delivery and intrauterine growth restriction. In the adolescents, we evaluated central adiposity using the dual X-ray energy absorptiometry method. The indicators of central fat used were the trunk-to-total fat mass ratio (T/T), the android-to-gynoid fat mass ratio (A/G), the trunk-to-limb fat mass ratio (T/Lb), and the trunk-to-leg fat mass ratio (T/Lg). A theoretical model for the study of associations was developed using directed acyclic graphs, which allowed selecting the variables that required minimum adjustment for inclusion in the predictive model of exposure to cesarean delivery. The data were analyzed with marginal structural models weighted by the inverse of the probability of selection. A total of 38.6% of the adolescents studied were delivered by cesarean section. There was no significant difference in the central adiposity of adolescents delivered by cesarean section according to the indicators used: T/T ( coefficient = -0.003; 95%CI: -0.013; 0.007), A/G (coefficient = 0.001; 95%CI: -0.015; 0.018); T/Lb (coefficient = -0.016; 95%CI: -0.048; 0.016); T/Lg (coefficient = 0.014; 95%CI: -0.060; 0.030). In conclusion, there was no association between cesarean section delivery and greater central adiposity in the studied adolescents."""
+
+

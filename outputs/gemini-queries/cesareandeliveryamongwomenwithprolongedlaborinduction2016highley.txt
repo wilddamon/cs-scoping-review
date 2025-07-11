@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryamongwomenwithprolongedlaborinduction2016highley
+"OBJECTIVE: The objective of this study was to determine characteristics associated with cesarean delivery among women with labor induction lasting over 24 h.;STUDY DESIGN: Women with live singleton pregnancies without prior cesarean delivery undergoing a labor induction lasting >24 h between September 2006 and March 2009 at Duke University Hospital were identified. Collected variables were compared between subjects by mode of delivery. A multivariate logistic regression model for the outcome cesarean delivery was constructed separately for nulliparous and parous women.;RESULTS: There were 303 women who met inclusion criteria. The overall cesarean delivery rate was 57% (n=172) and remained constant with time (P=0.15, test-for-trend). Nulliparous women having a cesarean delivery were more likely to be obese [adjusted OR (aOR) 2.00; 95% CI 1.05, 3.80] and have a larger fetus [aOR 1.11 (aOR for every 100 g increase in birthweight), 95% CI 1.03, 1.20] compared to those having a vaginal delivery.;CONCLUSION: Increasing BMI and birthweight were independent predictors of cesarean delivery among nulliparous women with prolonged labor induction. Despite this, after 24 h of labor induction, the overall mean cesarean delivery rate remained constant at 57%, and did not change with time. Among women having a vaginal delivery following a prolonged labor induction, we saw high rates of shoulder dystocia, operative vaginal delivery and severe perineal laceration."""
+
+

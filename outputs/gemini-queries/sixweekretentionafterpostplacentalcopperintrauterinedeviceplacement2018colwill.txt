@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sixweekretentionafterpostplacentalcopperintrauterinedeviceplacement2018colwill
+"OBJECTIVES: We sought to evaluate the 6-week clinical outcomes (intrauterine device [IUD] retention, recognized expulsions, ability to visualize or palpate strings, and need for ultrasound evaluation) in women who received a TCu380A postplacental IUD (PPIUD) after vaginal (VD) or cesarean delivery (CD). STUDY DESIGN: We conducted a retrospective cohort study to examine the 6-week retention of TCu380A IUDs placed within 10 min of placental delivery in VD (n=137) and CD (n=73). We used Student's t test and Wilcoxon rank sum tests for continuous data and Pearson kh(2) test and Fisher's Exact Test for categorical data. RESULTS: Of the 169 women who had follow-up, 151 (89.3%) retained their IUD at 6 weeks (95% CI 84.7%-93.9%). All women who underwent CD retained their IUD at 6 weeks postpartum (56/56), whereas 95/113 (84% [95% CI 76.0%-90.3%]) who underwent VD retained their original IUD (p<.01). Strings were detected more frequently in women who had a VD (93.1% [95% CI 85.6-97.4]) compared to those who delivered by CD (44.2% [95% CI 30.5-58.7]; p<.01). Women who underwent CD had an ultrasound to evaluate IUD location more frequently (42.9% [95% CI 29.7-56.8]) compared to women who underwent VD (13.7% [95% CI 7.5-22.3]; p<.01). CONCLUSION: Women are more likely to retain a PPIUD after CD compared to a VD (p<.01); however, women who have a PPIUD placed after CD are more likely to have nonvisible strings with a pelvic exam (p<.01) and undergo pelvic ultrasound evaluation (p<.01) compared to a PPIUD placed at the time of a VD."""
+
+

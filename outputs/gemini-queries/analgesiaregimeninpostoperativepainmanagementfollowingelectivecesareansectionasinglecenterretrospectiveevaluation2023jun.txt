@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intravenouspatientcontrolledanalgesiaregimeninpostoperativepainmanagementfollowingelectivecesareansectionasinglecenterretrospectiveevaluation2023jun
+"Intravenous patient-controlled analgesia (IV PCA; IVA) is the most widely used method for postoperative pain management. An appropriate IVA regimen is required, depending on the expected intensity of pain after surgery. This study expected that a decrease in the second prescription rate of IVA after elective cesarean section (CS) would help establish an appropriate regimen for the initial IVA. We retrospectively reviewed the records of 632 patients who were prescribed IVA after CS. We classified patients into phase 1 (basal rate 15.00 mcg/hours, bolus dose 15.00 mcg, total volume 100 mL) and phase 2 (basal rate 31.25 mcg/hours, bolus dose 31.25 mcg, nefopam 60 mg, paracetamol 3 g, total volume 160 mL) according to the IVA regimen, and patients in phase 2 were classified into the basal 15 group and basal 30 group according to the basal rate of IVA. We compared the rates of second prescription, drug removal, and side effects of IVA between the 2 phases and the 1 group. We analyzed the data of 631 eligible patients. The second prescription rate of IVA in phase 2 was 3.77%, a significant decrease compared to that in phase 1 (27.48%); however, the incidence of complications in phase 2 was 6.92%, a significant increase compared to that in phase 1 (0.96%). Within phase 2, in the basal 30 group, the basal rate was almost double that in the basal 15 group. However, there were no significant differences in the rate of second prescription, removed drug IVA, or adverse events between the basal 15, and 30 groups. In the case of CS, which has a high degree of postoperative pain, it is beneficial to control acute pain by properly setting the regimen of the initial IVA with a basal rate infusion to nullify a second prescription."""
+
+

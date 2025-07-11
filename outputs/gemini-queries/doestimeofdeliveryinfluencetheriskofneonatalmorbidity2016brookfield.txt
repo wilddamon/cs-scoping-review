@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doestimeofdeliveryinfluencetheriskofneonatalmorbidity2016brookfield
+"OBJECTIVE: To examine whether time of delivery influences the risk of neonatal morbidity among women with singleton pregnancies.;STUDY DESIGN: Secondary analysis of data from the Maternal Fetal Medicine Units Network Factor V Leiden Mutation study. We categorized time of delivery as day (07:00-16:59), evening (17:00-23:59), and overnight (midnight-06:59). Severe neonatal morbidity was defined by at least one of the following: respiratory distress syndrome, transient tachypnea of the newborn, sepsis, seizures, neonatal intensive care admission, or a 5-minute APGAR <=3. We calculated frequencies of severe neonatal morbidity by time of delivery. Multivariate analysis was performed to determine whether time of delivery was independently associated with severe neonatal morbidity.;RESULTS: Among 4,087 women, 1,917 (46.9%) delivered during the day, 1,140 (27.9%) delivered in the evening, and 1,030 (25.2%) delivered overnight. We observed no significant differences in the rates of neonatal morbidity between delivery time periods (day: 12.3%; evening: 12.8%; overnight: 12.6%; p = 0.9). No significant association was observed between time of delivery and neonatal morbidity after adjustment for maternal, obstetric, and peripartum factors.;CONCLUSION: Our findings suggest that time of delivery is not associated with severe neonatal morbidity. Copyright Thieme Medical Publishers 333 Seventh Avenue, New York, NY 10001, USA."""
+
+

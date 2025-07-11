@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverymodeandfutureinfectiousmorbidityoftheoffspringasiblinganalysis2020essa
+"PURPOSE: Cesarean delivery (CD) has been recently suggested to be associated with offspring's long-term health implications. We aimed to investigate the association between delivery mode and long-term infectious morbidity of the offspring while employing sibling matched analysis to maximize confounder control. METHODS: A retrospective population-based cohort study was performed, which included all sibling deliveries occurring between 1991 and 2014 at a regional tertiary medical center. Offsprings were followed up until the age of 18 years. The study included 13,516 individuals (6758 sibling pairs): the first born was via vaginal delivery and the second via CD. Each siblings pair was considered a matched set, with the aim to perform a within-family analysis. A Kaplan-Meier survival curve was used to compare the cumulative infectious morbidity incidence and a multivariable Cox survival hazards regression model to control for confounders. RESULTS: Crude rates of total infectious hospitalizations were found to be significantly higher in the CD group (OR 1.25; 95% CI 1.12-1.40). Specifically, bronchiolitis (OR 2.02, 95% CI 1.56-2.63), otitis (OR 1.52, 95% CI 1.21-1.9), and gastroenteritis (OR 1.41, 95% CI 1.05-1.9) were all found to be significantly more common in the CD group. The survival curve demonstrated significantly higher cumulative infection-related hospitalization rates in the CD group (log-rank p < 0.001). The Cox model, adjusted for several confounders, confirmed the significant association between CD and offspring's infection-related morbidity (adjusted HR 1.25; 95% CI 1.02-1.53). CONCLUSION: CD appears to be independently associated with later offspring infection-related morbidity, even while rigorously adjusting for confounders."""
+
+

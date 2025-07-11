@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thereisonlyamodestincreaseinneonatalrespiratorymorbidityfollowingearlytermelectivecesareaninasouthindianpopulation2018katwa
+"Objectives: Elective cesarean deliveries (ECD) are still performed prior to 39 weeks. This study aimed to identify risk of neonatal respiratory morbidity (NRM) following ECD near term, in a South Indian population. Specifically, study aimed to measure the additional healthcare burden due to large number of ECDs performed prior to 39 weeks, in this local population. Method(s): We analyzed NRM among 1329 deliveries (584 ECD and 745 spontaneous vaginal delivery, SVD) in a tertiary hospital over 2 years. Neonates were grouped into: A: 35+0-36+6 weeks, B: 37+0-38+6 weeks, and C: >=39 weeks. NRM was compared between ECD versus SVD. Result(s): Majority (433/584) of ECDs were performed between 37+0 and 38+6 weeks. Overall, 32% received steroid prophylaxis. Of 1329 newborns, 18/584 (3.82%) in ECD and 6/745 (0.8%) in SVD group developed NRM (p value of 0.004, OR 3.9, CI 1.54-9.93). Need of respiratory support among ECD was 4.28% compared to 0.53% in SVD (p < 0.001, OR 8.28; CI 2.86-23.94). However, comparing neonates born by ECD between groups B Vs C; there was only a modest increase in NRM (2.07 vs 0.9%; p 0.48, OR 2.3 with CI 0.29-18.4) and in need of respiratory support (2.54 vs 0.9%; p 0.47, OR 2.84; CI 0.36-22.2). Conclusion(s): NRM following early term ECD continues to be a healthcare burden in India. Interestingly in this South Indian population, early term ECDs caused only modest increase in NRM, and this ethnic variation requires further evaluation to determine ideal time for ECD in local population.Copyright (c) 2017, Federation of Obstetric & Gynecological Societies of India."""
+
+

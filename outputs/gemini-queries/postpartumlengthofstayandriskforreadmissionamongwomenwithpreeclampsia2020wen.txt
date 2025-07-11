@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postpartumlengthofstayandriskforreadmissionamongwomenwithpreeclampsia2020wen
+"Objective: How hospital length of stay after delivery for women with preeclampsia is associated with risk for readmission is unknown. The objective of this study was to evaluate risk for 60-day hypertension-related postpartum readmission based on length of stay after delivery.Methods: The 2014 Healthcare Cost and Utilization Project's (HCUP) Nationwide Readmissions Database was used to analyze risk for readmission for a hypertension-related diagnosis within 60 days from cesarean delivery hospitalization for women with preeclampsia who underwent cesarean delivery. Risk for readmission was evaluated based on postoperative length of stay as well as demographic, hospital, and other obstetric factors. Population weights were applied to create national estimates. Multivariable analyses were performed with adjusted risk ratios (aRR) and corresponding 95% confidence intervals as measures of effect. Mean and median hospital charges based upon postoperative length of stay were also evaluated. Time from delivery hospitalization to readmission was calculated.Results: In 2014, 65 401 women with preeclampsia underwent cesarean delivery. Of these, 1016 women (1.6%) were readmitted for a hypertension-related diagnosis. 921 of the 1016 readmissions occurred within 10 days of discharge (90.6%). In adjusted analyses, postoperative LOS 5-7 days and >7 days compared to LOS <3 days were associated with decreased risk of 60-day hypertension-related readmission (aRR 0.59 95% CI 0.45, 0.78; aRR 0.53 95% CI 0.29, 1.00, respectively). When the cohort was restricted to women with severe preeclampsia or eclampsia, LOS 5-7 days was associated with decreased risk of 60-day hypertension-related readmission in both unadjusted and adjusted analyses compared to LOS <3 days (risk ratios (RR) 0.34, 95% CI 0.18, 0.65; aRR 0.29, 95% 0.18, 0.46, respectively). Median delivery hospitalization charges were $26 512. Compared to LOS <3 days, mean and median charges increased significantly for patients with LOS 4, 5-7, and >7 days.Conclusion: Longer postoperative length of stay during cesarean delivery hospitalizations was associated with decreased risk for postpartum hypertension-related readmission. Most readmissions occurred soon after discharge. These findings support that post-delivery management may play a role in likelihood of women requiring subsequent readmission for complications related to preeclampsia after discharge."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: peripartumbloodtransfusionamongruralwomenintheunitedstates2020hartenbach
+"OBJECTIVE: To evaluate the peripartum transfusion rates for rural women compared with urban women in the United States. METHODS: In this population-based retrospective cohort study, geocoded birth records from 2014 to 2016 from the National Center for Health Statistics were used to examine the rural-urban differences in blood transfusion among nulliparous women delivering singleton, vertex pregnancies at term. We compared transfusion rates across the counties on a continuum from urban to rural. We generated a multivariable logistic regression model controlling for age, race, nativity, education, insurance, prenatal care, maternal health, gestational age, intrapartum care, mode of delivery, peripartum factors, and county of delivery. RESULTS: Among 3,346,816 births, the transfusion rates based on maternal county of residence increased as the counties became more rural: large metropolitan-center (1.9/1,000 live births); large metropolitan-fringe (2.4); medium metropolitan (2.6); small metropolitan (2.6); micropolitan (4.5); and noncore rural (5.3). Rural women living and delivering in a rural county had more transfusions (8.5/1,000 live births) than women in more urban counties (2.5/1,000). After adjusting for key covariates, the odds of transfusion were higher among women living in micropolitan (adjusted odds ratio [aOR] 2.25, 95% CI 2.09-2.43) and noncore rural (aOR 2.59, 95% CI 2.38-2.81) counties when compared with women living in large metropolitan counties. County of delivery had a higher association with transfusion than resident county. After adding delivery county to the regression model, the association of transfusion and living in a micropolitan (aOR 1.39, 95% CI 1.19-1.63) or noncore rural (aOR 1.32, 95% CI 1.12-1.55) county diminished. CONCLUSION: The odds of blood transfusion were higher for women in rural areas. The results indicate that the rurality of the county where the birth occurred was associated with more transfusion. This may reflect differences in maternity and blood banking services in rural hospitals and warrants further study to identify opportunities for intervention."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antibiotictreatmentandlengthofhospitalstayinrelationtodeliverymodeandprematurity2016ahlen
+"AIM: To investigate how 1) maternal delivery mode and 2) prematurity in infants are associated to antibiotic treatment and length of hospital stay.;METHODS: Women having given birth and infants 0-12 months discharged from hospital between July 2005 and November 2011 were identified from the Swedish National Patient Register. Medical records were reviewed for 203 women and 527 infants. The risk ratio (RR) between antibiotic treatment and 1) delivery mode in women; 2) prematurity in infants was calculated. Length of stay and days of antibiotic therapy were compared by Wilcoxon rank-sum test.;RESULTS: Women: There was an association between emergency caesarean section (CS) and antibiotic treatment (RR 5.0 95% confidence interval (CI) 2.2-11.5), but not for elective CS. Length of stay was longer for CS (emergency and elective) compared to vaginal delivery (p<0.01). Infants: RR for antibiotic treatment in preterm compared to term infants was 1.4 (95% CI 1.0-1.9). Length of stay (p<0.01), but not days of therapy (p = 0.17), was higher in preterm compared to term infants.;CONCLUSION: We found that emergency CS increased the probability of maternal antibiotic treatment during hospitalisation, but no difference was found between term and preterm infants. The results are well aligned with current guidelines and may be considered in future studies on the effects of antibiotics."""
+
+

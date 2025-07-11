@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyassociatedcancersandbirthoutcomesinchildrenadanishandswedishpopulationbasedregisterstudy2018momen
+"OBJECTIVES: This study aims to estimate the association between pregnancy-associated maternal cancers, diagnosed both prenatally and postnatally, and birth outcomes.;DESIGN: Population-based register study.;SETTING: National registers of Denmark and Sweden.;PARTICIPANTS: A total of 5 523 365 children born in Denmark (1977-2008) and Sweden (1973-2006). Primary and secondary outcome measures: gestational age, birth weight, size for gestational age, Apgar score, caesarean section and sex were the outcomes of interest. ORs and relative risk ratios (RRR) with 95% CIs were estimated using logistic regression and multinomial logistic regression, respectively.;RESULTS: In this study, 2% of children were born to mothers with a diagnosis of cancer. Children whose mothers received a prenatal cancer diagnosis had higher risk of being born preterm (RRR: 1.77, 95% CI 1.64 to 1.90); low birth weight (RRR 1.84, 95% CI 1.69 to 2.01); low Apgar score (OR 1.36, 95% CI 1.20 to 1.56); and by caesarean section (OR: 1.69, 95% CI 1.59 to 1.80). Associations moved towards the null for analyses using postnatal diagnoses, but preterm birth (RRR: 1.13, 95% CI 1.09 to 1.17) and low birth weight (RRR: 1.14, 95% CI 1.09 to 1.18) remained statistically significant, while risk of caesarean section became so (OR: 0.95, 95% CI 0.91 to 0.98). Additionally, statistical significance was reached for large for gestational age (RRR: 1.06, 95% CI 1.01 to 1.11), high birth weight (RRR: 1.04, 95% CI 1.01 to 1.06) and caesarean section (OR: 0.95, 95% CI 0.91 to 0.98).;CONCLUSIONS: Results suggest an association between pregnancy-associated cancers and adverse birth outcomes in the offspring. While this is strongest for prenatally diagnosed cancers, some smaller associations exist for postnatally diagnosed cancers, indicating that cancer itself could affect fetal development, or that cancer and adverse birth outcomes share risk factors. Future studies on maternal cancer during pregnancy should consider including some postnatal years in their exposure window. Copyright (c) Author(s) (or their employer(s)) 2018. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ."""
+
+

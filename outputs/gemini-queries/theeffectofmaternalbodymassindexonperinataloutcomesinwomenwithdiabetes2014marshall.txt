@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofmaternalbodymassindexonperinataloutcomesinwomenwithdiabetes2014marshall
+"OBJECTIVE: To determine the effect of increasing maternal obesity, including superobesity (body mass index [BMI] >= 50 kg/m2), on perinatal outcomes in women with diabetes. STUDY DESIGN: Retrospective cohort study of birth records for all live-born nonanomalous singleton infants >= 37 weeks' gestation born to Missouri residents with diabetes from 2000 to 2006. Women with either pregestational or gestational diabetes were included. RESULTS: There were 14,595 births to women with diabetes meeting study criteria, including 7,082 women with a BMI > 30 kg/m2 (48.5%). Compared with normal-weight women with diabetes, increasing BMI category, especially superobesity, was associated with a significantly increased risk for preeclampsia (adjusted relative risk [aRR] 3.6, 95% confidence interval [CI] 2.5, 5.2) and macrosomia (aRR 3.0, 95% CI 1.8, 5.40). The majority of nulliparous obese women with diabetes delivered via cesarean including 50.5% of obese, 61.4% of morbidly obese, and 69.8% of superobese women. The incidence of primary elective cesarean among nulliparous women with diabetes increased significantly with increasing maternal BMI with over 33% of morbidly obese and 39% of superobese women with diabetes delivering electively by cesarean. CONCLUSION: Increasing maternal obesity in women with diabetes is significantly associated with higher risks of perinatal complications, especially cesarean delivery."""
+
+

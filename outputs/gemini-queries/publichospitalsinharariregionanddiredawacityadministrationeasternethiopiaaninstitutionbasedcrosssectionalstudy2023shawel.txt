@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thecostofmaternalcomplicationsanditsassociatedfactorsamongmothersattendingpublichospitalsinharariregionanddiredawacityadministrationeasternethiopiaaninstitutionbasedcrosssectionalstudy2023shawel
+"BACKGROUND: Pregnant women face high costs for health-care services despite being advertised as free. These costs include non-medical expenses, lost productivity, difficulties caring for family members, and long-term financial impact from complications. Limited research has been done on the cost burden of maternal services and complications, despite numerous studies on maternal health service provision. This is notable considering the government's claim of providing free maternal health-care services. METHODS: A cross-sectional study was conducted in July (1-30) 2022 among 425 randomly selected mothers in Harari and Dire Dawa City, Eastern Ethiopia. Data were collected through structured questionnaires and medical record reviews. The collected data was entered into Epi-Data version 3.02 and analyzed using STATA version 14.0 after data cleaning. Descriptive statistics and linear regression analysis were used to examine the data, ensuring assumptions of linearity, independence, homoscedasticity, and normality were met. The correlation coefficient was used to assess the strength of the association. RESULTS: The median cost of maternal complications was around 4250 ETB (81.3 USD; IQR = 2900-5833.3), factors that predicted cost were monthly family income of >=3001 birr (b=1.13; 95% CI: 1.00, 1.26), distance from hospital (b=0.73; 95% CI = 0.64-0.83), being admitted for less than 4 days (b=0.60; 95% CI = 0.53-0.69), accompanied by relatives besides their husbands (b=1.93; 95% CI = 1.52-2.46), caesarian sections delivery (b=1.17; 95% CI = 1.04-1.31), and giving birth to a normal baby (b=0.86; 95% CI = 0.77-0.97). CONCLUSION: Maternal complications incur significant costs, with factors such as family income, travel time, hospital stay, caregiver presence, mode of delivery, and neonatal outcome predicting these costs. The Ethiopian health system should address the additional expenses faced by mothers with complications and their caregivers."""
+
+

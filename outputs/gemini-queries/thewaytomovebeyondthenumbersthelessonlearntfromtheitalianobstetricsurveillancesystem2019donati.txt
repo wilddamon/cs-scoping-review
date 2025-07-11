@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thewaytomovebeyondthenumbersthelessonlearntfromtheitalianobstetricsurveillancesystem2019donati
+"OBJECTIVE: To describe the Italian Obstetric Surveillance System (ItOSS) investigating maternal death through incident case reporting and confidential enquiries.;METHODS: All maternal deaths occurred in any public and private health facility in 8 Italian regions covering 73% of national births have been notified to the ItOSS. Every incident case is confidentially reviewed to assess quality of care and establish the cause and avoidability of the death.;FINDINGS: A total of 106 maternal deaths among 1 455 545 live births have been notified to the surveillance system in 2013-17. Haemorrhage, sepsis and hypertensive disorders of pregnancy are the leading causes of direct maternal deaths due to obstetric causes.;CONCLUSIONS: A maternal mortality surveillance system, including incidence reporting and confidential enquiries along with a retrospective analysis of administrative data sources, emerged as the best option for case ascertainment and for preventing avoidable maternal deaths."""
+
+

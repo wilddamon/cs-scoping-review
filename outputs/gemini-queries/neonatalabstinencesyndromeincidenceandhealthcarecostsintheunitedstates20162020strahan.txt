@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonatalabstinencesyndromeincidenceandhealthcarecostsintheunitedstates20162020strahan
+"One of the immediate effects of the opioid crisis is the rise of neonatal abstinence syndrome (NAS), a withdrawal condition primarily occurring in infants who have been exposed to opioids in utero. In the United States, incidence rates for NAS have increased from 1.5 per 1000 births in 2004 to 8.0 per 1000 births in 2014. In 2012, hospital costs related to this condition reached $316 million. In 2013, NAS accounted for 4% of all neonatal intensive care unit days nationwide. This study aims to update the incidence and cost estimates for NAS in 2016. This was a retrospective study using data from the 2016 Healthcare Cost and Utilization Project Kids Inpatient Database, which represents a sample of all-payer pediatric discharges. The International Classification of Diseases, 10th Revision, Clinical Modification code P96.1 was used to identify hospitalizations for infants born with NAS. Cost estimates were determined by converting hospital charges to cost-to-charge ratios. All costs were adjusted to include physician fees based on the discharge diagnosis. Overall, the incidence rate for NAS was 6.7 per 1000 in-hospital births in 2016. The highest rates occurred among the American Indian/Alaska Natives (15.9 per 1000) and non-Hispanic white individuals (10.5 per 1000), as well as those in the lowest-income quartile (9.3 per 1000), from rural areas (10.6 per 1000), and in the Northeast (9.5 per 1000). Overall, the mean length of stay was 15.9 (SD, 20.4) days, with a cost per birth of $22,522 and total hospital cost of more than $572.7 million. Medicare-covered births and the uninsured had the highest rates of NAS (12.3 per 1000 and 7.0 per 1000, respectively). In conclusion, the incidence rates and utilization costs for infants with NAS are consistent with those found previously, although total costs have increased. They also demonstrate the continuing association of opioid use with adverse infant health outcomes.Copyright (c) Wolters Kluwer Health, Inc. All rights reserved."""
+
+

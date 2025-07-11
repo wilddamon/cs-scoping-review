@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenlatencyperiodandperinataloutcomesafterpretermprematureruptureofmembranesat3237weeksofgestationaperinatalregistrybasedcohortstudy2022bitenc
+"OBJECTIVES: To investigate association between latency after preterm premature rupture of membranes (PPROM) and perinatal outcomes at moderately and late preterm gestation. METHODS: National perinatal registry-based cohort study using data for the period 2013-2018. Singleton pregnancies with non-malformed fetuses in cephalic presentation complicated by PPROM at 32(+0)-36(+6) weeks were included. Associations between latency period and perinatal mortality, neonatal respiratory distress syndrome (RDS), early onset neonatal infection (EONI), and cesarean section were assessed using multiple logistic regression, adjusting for potential confounders (labor induction, maternal body-mass-index, maternal age, antenatal corticosteroids, and small-for-gestational-age). p<0.05 was considered statistically significant. RESULTS: Of 3,017 pregnancies included, 365 (12.1%) had PPROM at 32(+0)-33(+6) weeks and 2,652 (87.9%) at 34(+0)-36(+6) weeks. Among all cases, 2,540 (84%) had latency <24 h (group A), 305 (10%) 24-47 h (group B), and 172 (6%) >=48 h (group C). Longer latency was associated with higher incidence of EONI (adjusted odds ratio [aOR] 1.350; 95% confidence interval [CI] 0.900-2.026 for group B and aOR 2.500; 95% CI 1.599-3.911 for group C) and higher rate of caesarean section (aOR 2.465; 95% CI 1.763-3.447 for group B and aOR 1.854; 95% CI 1.172-2.932 for group C). Longer latency was not associated with rates of RDS (aOR 1.160; 95% CI 0.670-2.007 for group B and aOR 0.917; 95% CI 0.428-1.966 for group C). CONCLUSIONS: In moderately to late PPROM, increased latency is associated with higher risk of EONI and cesarean section with no reduction in RDS."""
+
+

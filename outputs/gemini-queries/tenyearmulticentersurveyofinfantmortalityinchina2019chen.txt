@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: tenyearmulticentersurveyofinfantmortalityinchina2019chen
+"Background: The neonatal mortality rate has continually decreased over time; however, some surviving infants may die after the neonatal period due to complications. Objective(s): Objective of this study was to provide evidence to support more medical care for infants during the post-neonatal period (> 28 days to < 100 days after birth). Method(s): Multi-center retrospective survey. Fourteen hospitals in china between January 1, 2004 and December 31, 2013. A total of155463 infants aged 0-1 year were enrolled in the survey. Among them, 959 died. Data from hospitalized infants younger than 1 year of age were collected. Mortality and its etiology during the neonatal, post-newborn, and modified infant (100 days to 1 year) period were evaluated. Result(s): The total infant mortality was 6.16%. Significant differences were found in the mortality rate in the three periods (10.1% vs 6.9% vs 2.6%, P = 0.000). The three main causes of death were pneumonia, congenital heart disease (CHD), and premature-associated disease (PAD) during the post-newborn period. Moreover, four major diseases simultaneously occurring during the three periods (PAD, pneumonia, sudden infant death syndrome, and CHD) showed an inverse "U" shape change from the neonatal period to the modified infant period, with the highest mortality rate occurring during the post-newborn period (P < 0.001). Conclusion(s): Differences in mortality and the associated etiology during early life indicate that more medical attention should be paid to the post-newborn period. Further study is needed to better understand its clinical significance.Copyright (c) 2019, Author(s)."""
+
+

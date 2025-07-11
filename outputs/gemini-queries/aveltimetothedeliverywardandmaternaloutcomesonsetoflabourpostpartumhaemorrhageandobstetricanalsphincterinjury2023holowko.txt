@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: morethantimetraveltimetothedeliverywardandmaternaloutcomesonsetoflabourpostpartumhaemorrhageandobstetricanalsphincterinjury2023holowko
+"BACKGROUND: Closing delivery units increases travel time for some women. Whether increased travel time is associated with maternal outcomes is important for understanding the consequences of such closures. Previous studies are limited in measuring travel time and restricted to the outcome of caesarean section. METHODS: Our population-based cohort includes data from the Swedish Pregnancy Register for women giving birth between 2014 and 2017 (N = 364,630). We estimated travel time from home to the delivery ward using coordinate pairs of actual addresses. The association between travel time and onset of labour was modelled using multinomial logistic regression, and logistic regression was used for the outcomes postpartum haemorrhage (PPH) and obstetric anal sphincter injury (OASIS). FINDINGS: Over three-quarters of women had <=30 min travel time (median 13.9 min). Women who travelled >=60 min arrived to care sooner and laboured there longer. Women with further to travel had increased adjusted odds ratio (aOR) of having an elective caesarean section (31-59 min aOR 1.11; 95% confidence interval [CI] 1.07-1.16; >=60 min aOR 1.25; 95% CI 1.16-1.36) than spontaneous onset of labour. Women (at full term with spontaneous onset) living >=60 min away had reduced odds of having a PPH (aOR 0.84; 95% CI 0.76-0.94) or OASIS (aOR 0.79; 95% CI 0.66-0.94). INTERPRETATION: Longer travel time increased the odds of elective caesarean section. Women with furthest to travel arrived sooner and spent more time in care; although they had a lower risk of PPH or OASIS, they also tended to be younger, have a higher body mass index and were Nordic born."""
+
+

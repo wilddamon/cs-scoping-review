@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweennitroglycerinuseandadverseoutcomesinwomenundergoingcesareandeliveryinthesecondstageoflabor2017isquick
+"OBJECTIVE: To identify predictors of hysterotomy extension in women undergoing cesarean delivery (CD) in the second stage of labor, and whether use of nitroglycerin (NTG) during CD has a protective effect. METHODS: We conducted a retrospective cohort study of women undergoing CD in the second stage of labor from 2012 to 2015. Some women received NTG at the obstetrician's request. Logistic regression was used to examine the relationship between second stage duration and NTG administration on maternal and neonatal outcomes. RESULTS: Of the 391 women in the sample, 27% had an extension and 12% received NTG. Second stage >=4 h was associated with a 2.14-fold higher risk of extension (95% CI 1.22-3.75), a 2.00-fold higher risk of hemorrhage (95% CI: 1.20-3.33) and 2.42-fold higher risk of blood transfusion during delivery hospitalization (95% CI: 0.99-5.91). Intravenous (IV) and sublingual-spray (SL-spray) NTG administration were not associated with an increased risk of hemorrhage or extension. SL-NTG was associated with 4.68-fold increased odds of 5-min Apgar <7 (95% CI 1.42-15.41) and 3.36-fold greater odds of NICU admission (95% CI 1.20-9.41). CONCLUSION: We found no evidence that NTG protects against extension, and SL-NTG use was associated with adverse neonatal outcomes. Clinical trials should be conducted to evaluate risk and benefits of NTG use."""
+
+

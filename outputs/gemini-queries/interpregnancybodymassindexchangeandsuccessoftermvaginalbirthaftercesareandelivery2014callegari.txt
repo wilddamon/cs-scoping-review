@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: interpregnancybodymassindexchangeandsuccessoftermvaginalbirthaftercesareandelivery2014callegari
+"OBJECTIVE: We investigated the effect of interpregnancy body mass index (BMI) change on success of term vaginal birth after cesarean (VBAC) among normal, overweight and obese women. STUDY DESIGN: Using 1992-2009 Washington State birth certificate data linked with hospitalization records, we conducted a population-based retrospective cohort study of nulliparous women (BMI >=18.5 kg/m(2)) with a primary cesarean in their first birth and a term trial of labor in their second. Interpregnancy weight change (difference between first and second prepregnancy BMIs) was categorized as maintenance (<1 BMI unit change), loss (>=1 unit), moderate gain (>=1 and <2 units), high gain (>=2 units). We estimated relative risks of VBAC success using generalized linear models with a log-link function, adjusting for maternal age, race/ethnicity, nativity, marital status, education, smoking, primary cesarean indication, interpregnancy interval, birth year for second birth, and prenatal care adequacy. RESULTS: Among 8302 women who attempted a term trial of labor, 65% had a successful VBAC. Women with normal BMI before their first pregnancy experienced an 8% decrease in VBAC success with moderate gain (relative risk [RR], 0.92; 95% confidence interval [CI], 0.87-0.98) and a 12% decrease in success with high gain (RR, 0.88; 95% CI, 0.83-0.93), compared with normal weight women who maintained weight. Weight loss increased VBAC success in women who were overweight (RR, 1.12; 95% CI, 1.01-1.25) or obese before their first delivery (RR, 1.24; 95% CI, 1.04-1.49), compared with overweight and obese women, respectively, who maintained weight. CONCLUSION: Women can improve their chance of successful VBAC through interpregnancy weight management."""
+
+

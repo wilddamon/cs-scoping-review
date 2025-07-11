@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hba1catthetimeoftestingforgestationaldiabetesidentifieswomenatriskforpregnancycomplications2022barbry
+"OBJECTIVE: It is unclear whether glycated haemoglobin (HbA1c) has utility in predicting adverse outcomes in gestational diabetes mellitus (GDM). The aims of the study were to examine the predictive value of HbA1c at GDM diagnosis with adverse pregnancy outcomes. RESEARCH DESIGN AND METHODS: This was a cohort study of 4,383 women with GDM between 2011 and 2018. We assessed the association of HbA1c with pregnancy outcomes using logistic regression models before and after adjustment for predefined risk factors of GDM. We examined these associations considering HbA1c as categorical variables using five pre-specified HbA1c classes: and as a continuous variable. RESULTS: An HbA1c >= 5.6% (38 mmol/mol) identified women with at greater risk for macrosomia: odds ratio (OR) [95% confidence interval] = 2.12 [1.29; 3.46] for HbA1c = 5.6-5.9% and 2.06 [1.14; 3.70] for HbA1c > 5.9% versus HbA1c <= 4.5% (26 mmol/mol). Similarly, HbA1c >= 5.6% (38 mmol/mol) was associated with greater risk for caesarean: 1.64 [1.06; 2.53] for HbA1c = 5.6-5.9% and 1.58 [0.93; 2.7] for HbA1c > 5.9% (41 mmol/mol) versus HbA1c <= 4.5% (26 mmol/mol). Using HbA1c <= 4.5% (26 mmol/mol) as reference category, HbA1c > 5.9% (41 mmol/mol) increased the OR of preterm delivery to 3.33 [1.27; 8.71]. HbA1c remained significant for Adverse Pregnancy Outcome Composite after adjustment (P < 0.0001). DISCUSSION: Our finding suggests that a single HbA1c reading may be a useful pragmatic tool to identify women at risk. Such identification may be a useful guide for identifying and applying preventative treatment for women at increased risk."""
+
+

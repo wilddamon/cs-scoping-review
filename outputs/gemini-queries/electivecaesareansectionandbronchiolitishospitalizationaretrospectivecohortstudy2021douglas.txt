@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: electivecaesareansectionandbronchiolitishospitalizationaretrospectivecohortstudy2021douglas
+"BACKGROUND: We sought to evaluate whether elective caesarean section is associated with subsequent hospitalization for bronchiolitis. METHODS: This is a retrospective cohort study that used the electronic medical record database of Clalit Health Services, the largest healthcare fund in Israel, serving over 4.5 million members and over half of the total population. The primary outcome was bronchiolitis admission in the first 2 years of life. We performed logistic regression analyses to identify independent associations. We repeated the analysis using boosted decision tree machine learning techniques to confirm our findings. RESULTS: There were 124 553 infants enrolled between 2008 and 2010, and 5168 (4.1%) were hospitalized for bronchiolitis in the first 2 years of life. In logistic regression models stratified by seasons, elective caesarean section birth was associated with 15% increased odds (95% CI: 1.02-1.30) for infants born in the fall season, 28% increased odds (95% CI: 1.11, 1.47) for those born in the winter, 35% increased odds (95% CI: 1.12-1.62) for those born in the spring and 37% increased odds (95% CI: 1.18-1.60) for those born in the summer. In the boosted gradient decision tree analysis, the area under the curve for risk of bronchiolitis admission was 0.663 (95% CI: 0.652, 0.674) with timing of birth as the most important feature. CONCLUSION: Elective caesarean section, a potentially modifiable risk factor, is associated with increased odds of hospitalization for bronchiolitis in the first 2 years of life. These data should be considered when scheduling elective caesarean sections especially for infants born in spring and summer months."""
+
+

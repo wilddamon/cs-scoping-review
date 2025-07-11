@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: catastrophicexpenditureandimpoverishmentaftercaesareansectioninsierraleoneanevaluationofthefreehealthcareinitiative2021vanduinen
+"BACKGROUND: Utilizing surgical services, including caesarean sections, can result in catastrophic expenditure and impoverishment. In 2010, Sierra Leone introduced the Free Health Care Initiative (FHCI), a national financial risk protection program for the most vulnerable groups. Aim of this study was to investigate catastrophic expenditure and impoverishment related to caesarean section in Sierra Leone and evaluate the impact of the FHCI.;METHODS: Women who delivered by caesarean section in nine hospitals were followed up with home visits one month after surgery, and data on medical and non-medical expenditures were collected. Individual income was estimated based on household characteristics and used to determine catastrophic expenditure and impoverishment for each patient. The impact of the FHCI was assessed by comparing actual expenditure with counterfactual expenditures had the initiative not existed.;RESULTS: For the 1146 patients in the study, the median expenditure was 23 (IQR 4; 56) international dollars (Int$). Patients in the poorest quintile spent a median Int$ 59 (IQR 28; 76), which was significantly more than patients in the richest quintile, who spent a median Int$ 17 (IQR 2; 38, p<0.001). Travel (32.9%) and food (28.7%) were the two largest expenses. Catastrophic expenditure was encountered by 12.0% and 4.0% (10% and 25% threshold, respectively) of the women. Without the FHCI, 66.1% and 28.8% of the women would have encountered catastrophic expenditure.;CONCLUSION: Many women in Sierra Leone face catastrophic expenditure related to caesarean section, mainly through food and travel expenses, and the poor are disproportionally affected. The FHCI is effective in reducing the risk of catastrophic expenditure related to caesarean section, but many patients are still exposed to financial hardship, suggesting that additional support is needed for Sierra Leone's poorest patients."""
+
+

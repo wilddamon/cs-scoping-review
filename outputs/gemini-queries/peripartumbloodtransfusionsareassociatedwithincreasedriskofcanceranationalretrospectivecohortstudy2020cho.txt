@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: peripartumbloodtransfusionsareassociatedwithincreasedriskofcanceranationalretrospectivecohortstudy2020cho
+"Background: The effect of blood transfusions on the risk of developing primary cancer remains unclear, especially when administered in the peripartum period. Material(s) and Method(s): We conducted a retrospective cohort study of 270,529 pregnant women who delivered between January 1, 2007 and December 31, 2009, with data obtained from three national databases in South Korea. From this cohort, we identified 4569 patients who received peripartum blood transfusions. We calculated hazard ratios (HRs) for new diagnoses of cancer and adjusted them for relevant clinical factors using a Cox proportional hazards model. Result(s): During follow-up, patients who received peripartum transfusions had an increased risk of developing cancer, with an adjusted HR of 1.16 (95% confidence interval [CI], 1.01-1.34). In a subgroup analysis, this risk was significant only among patients who received 3 or more units of blood, with an adjusted HR of 1.40 (95% CI, 1.10-1.79). Increased risk after transfusions were seen with brain, lung, ovarian, and gallbladder cancers. The difference in cancer risk between the transfusion and no-transfusion groups remained significant during both the first (1.29% vs 1.07%, p < 0.01) and second year (0.74% vs 0.56%, p < 0.01) after delivery. Conclusion(s): Receipt of 3 or more blood transfusions in the peripartum period was associated with a significantly increased risk of developing cancer. Prospective studies should be pursued to further understand the link between blood transfusions and long-term oncologic risks.Copyright (c) 2020 Cho et al."""
+
+

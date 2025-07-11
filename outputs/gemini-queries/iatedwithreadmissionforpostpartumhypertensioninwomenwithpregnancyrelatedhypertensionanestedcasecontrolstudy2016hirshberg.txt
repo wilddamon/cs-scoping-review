@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clinicalfactorsassociatedwithreadmissionforpostpartumhypertensioninwomenwithpregnancyrelatedhypertensionanestedcasecontrolstudy2016hirshberg
+"OBJECTIVE: To evaluate the association between mode of delivery and length of labor on readmission for postpartum hypertension in women with pregnancy-related hypertension. STUDY DESIGN: Nested case control study within a cohort of 99 women with pregnancy-related hypertension who delivered at our institution between 2005 and 2009. Data were abstracted for clinical and labor information. Mode of delivery and length of labor were compared between women with previously diagnosed pregnancy-related hypertension readmitted within 4 weeks post partum (25 cases) and those not readmitted (74 controls). Categorical and continuous variables were compared using kh(2) and T-tests, respectively. Multivariable logistic regression controlled for confounders. RESULT: Hypertension readmission was not associated with mode of delivery (cases: 10(40%) spontaneous vaginal delivery, 15(60%) cesarean delivery; controls: 38(51%) spontaneous vaginal delivery, 36(49%) cesarean delivery, P=0.33). Length of labor appeared longer in cases, with a trend toward significance (median: 15.5 [7,28] h vs 10.75 [5.8,15.9] h, P=0.12) and was significantly associated with readmission after controlling for delivery mode, induction and parity (adjusted odds ratio=1.06 [1 to 1.12], P=0.048). Readmitted patients were less likely to have initially been started on antihypertensive medications after controlling for age, race and chronic hypertension (adjusted odds ratio=0.23 [0.06 to 0.88], P=0.03). CONCLUSION: Postpartum readmission for hypertension in women with known pregnancy-related hypertension is not associated with mode of delivery, appears increased in those with longer length of labor and decreased in those initially started on antihypertensive medications. This provides targets for future research to continue to improve transitions of care and reduce preventable readmissions."""
+
+

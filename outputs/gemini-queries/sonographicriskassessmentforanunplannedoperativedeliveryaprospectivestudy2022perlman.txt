@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sonographicriskassessmentforanunplannedoperativedeliveryaprospectivestudy2022perlman
+"PURPOSE: To assess the value of pre-labor maternal and fetal sonographic variables to predict an unplanned operative delivery. METHODS: In this prospective study, nulliparous women were recruited at 37.0-42.0 weeks of gestation. Sonographic measurements included estimated fetal weight, maternal pubic arch angle, and the angle of progression. We performed a descriptive and comparative analysis between two outcome groups: spontaneous vaginal delivery (SVD) and unplanned operative delivery (UOD) (vacuum-assisted, forceps-assisted and cesarean deliveries). Multivariate logistic regression with ROC analysis was used to create discriminatory models for UOD. RESULTS: Among 234 patients in the study group, 175 had a spontaneous vaginal delivery and 59 an unplanned operative delivery. Maternal height and pubic arch angle (PAA) significantly correlated with UOD. Analysis of Maximum Likelihood Estimates revealed a multivariate model for the prediction of UOD, including the parameters of maternal age, maternal height, sonographic PAA, angle of progression (AOP), and estimated fetal weight, with an area under the curve of 0.7118. CONCLUSION: Sonographic parameters representing maternal pelvic configuration (PAA) and maternal-fetal interface (AOP) improve the prediction ability of pre-labor models for a UOD. These data may aid the obstetrician in the counseling process before delivery."""
+
+

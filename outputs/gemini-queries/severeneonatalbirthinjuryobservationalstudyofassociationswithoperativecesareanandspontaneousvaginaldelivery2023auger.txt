@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severeneonatalbirthinjuryobservationalstudyofassociationswithoperativecesareanandspontaneousvaginaldelivery2023auger
+"AIM: To determine the association of successful and unsuccessful operative vaginal delivery attempts with risk of severe neonatal birth injury. METHODS: We conducted a population-based observational study of 1 080 503 births between 2006 and 2019 in Quebec, Canada. The main exposure was operative vaginal delivery with forceps or vacuum, elective or emergency cesarean with or without an operative vaginal attempt, and spontaneous delivery. The outcome was severe birth injury, including intracranial hemorrhage, brain and spinal damage, Erb's paralysis and other brachial plexus injuries, epicranial subaponeurotic hemorrhage, skull and long bone fractures, and liver, spleen, and other neonatal body injuries. We determined the association of delivery mode with risk of severe birth injury using adjusted risk ratios (RR) and 95% confidence intervals (CI). RESULTS: A total of 8194 infants (0.8%) had severe birth injuries. Compared with spontaneous delivery, vacuum (RR 2.98, 95% CI 2.80-3.16) and forceps (RR 3.35, 95% CI 3.07-3.66) were both associated with risk of severe injury. Forceps was associated with intracranial hemorrhage (RR 16.4, 95% CI 10.1-26.6) and brain and spinal damage (RR 13.5, 95% CI 5.72-32.0), while vacuum was associated with epicranial subaponeurotic hemorrhage (RR 27.5, 95% CI 20.8-36.4) and skull fractures (RR 2.04, 95% CI 1.86-2.25). Emergency cesarean after an unsuccessful operative attempt was associated with intracranial and epicranial subaponeurotic hemorrhage, but elective and other emergency cesareans were not associated with severe injury. CONCLUSIONS: Operative vaginal delivery and unsuccessful operative attempts that result in an emergency cesarean are associated with elevated risks of severe birth injury."""
+
+

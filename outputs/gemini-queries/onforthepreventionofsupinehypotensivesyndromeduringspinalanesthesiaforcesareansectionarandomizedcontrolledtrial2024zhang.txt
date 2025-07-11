@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intravenousondansetronforthepreventionofsupinehypotensivesyndromeduringspinalanesthesiaforcesareansectionarandomizedcontrolledtrial2024zhang
+"Background: Supine hypotensive syndrome is a common complication in late pregnancy. This study aims to explore the effects of ondansetron on the prevention of supine hypotensive syndrome during spinal anesthesia for cesarean section. Methods: A total of 80 women undergoing elective cesarean delivery were randomly assigned to two groups (the ondansetron group and the control group), with 40 cases in each group. The ondansetron group received 0.075 mg/kg of ondansetron intravenously 5 min before the induction of spinal anesthesia; the control group was given the same volume of saline solution. The blood pressure and heart rate were measured. Umbilical artery pH was analyzed, and the incidence of nausea and vomiting and vasoconstrictor drug usage were noted. Results: The incidence of supine hypotensive syndrome, nausea and vomiting, and vasoconstrictor drug use were significantly lower in the ondansetron group than the control group (2.5% vs. 20%, p = 0.029; 2.5% vs. 22.5%, p = 0.007; and 5% vs. 22.5%, p = 0.012, respectively). Umbilical artery pH was higher in the ondansetron group than the control group, and statistical significance was observed (7.31 +- 0.03 vs. 7.28 +- 0.04, p = 0.002). The maternal hemodynamic parameters and the neonatal Apgar score were similar between the two groups. Conclusion: Ondansetron can effectively prevent supine hypotensive syndrome, reduce the incidence of nausea, vomiting, and vasoconstrictor drug use, and improve neonatal umbilical arterial pH during spinal anesthesia for cesarean section. Clinical Trial Registration: https://www.chictr.org.cn/, identifier ChiCTR180018756."""
+
+

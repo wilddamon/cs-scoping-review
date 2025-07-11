@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perioperativeantibioticchoiceinlaboredversusunlaboredcesareansandriskofpostcesareaninfectiousmorbidity2018hopkins
+"OBJECTIVE: This study aims to estimate postcesarean infectious morbidity in women receiving perioperative b-lactam versus non-b-lactam antibiotics. METHODS: We conducted a retrospective cohort analysis of the Maternal-Fetal Medicine Unit Cesarean Registry. The exposure was b-lactam perioperative antibiotics versus non-b-lactam regimens at cesarean delivery (CD). We stratified by labored versus unlabored CD. The primary composite outcome included wound infection, seroma, hematoma, endometritis, readmission due to wound complication, or debridement. Multivariable logistic regression estimated odds of wound complication by antibiotic regimen after adjusting for relevant confounders. RESULTS: Our analysis included 43,735 women who delivered via CD, 48% following labor. In both groups, 95% of women received b-lactam antibiotics. In the labored CD group (n = 20,860), there was no significant difference in primary outcome by b-lactam versus non-b-lactam antibiotics (10.5 vs. 9.9%, p = 0.53). In the unlabored CD group (n = 22,875), women receiving non-b-lactam antibiotics were more likely to experience a wound complication compared with those in the b-lactam group (6.2 vs. 4.7%, p = 0.02, adjusted odds ratio: 1.39, 95% confidence interval: 1.08-1.80) after adjustment for clinical confounders. CONCLUSION: In unlabored CD, non-b-lactam antibiotics have a higher risk of wound complications compared with b-lactam regimens. Further study to optimize antibiotic prophylaxis for b-lactam allergic women undergoing unlabored CD is warranted."""
+
+

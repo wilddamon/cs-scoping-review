@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenfirstandsecondstageoflabourdurationandmodeofdeliveryapopulationbasedcohortstudy2022lundborg
+"BACKGROUND: Active first stage of labour duration can widely vary between women. However, the nature of the relationship between the active first stage and second stage of labour duration is sparsely studied. OBJECTIVES: To determine whether active first stage of labour duration (i) influences second stage of labour duration; and (ii) is associated with mode of delivery. METHODS: A population-based cohort study of 13,379 women primiparous women, with spontaneous start in Stockholm-Gotland Region, Sweden, between 2008 and 2014. Duration of the active first stage of labour was examined in relation to second-stage duration using univariate and multivariable quantile regressions, with the first quartile (first stage duration) as the reference. Nonlinearity of associations was tested by restricted cubic splines. Association between active first-stage duration with mode of delivery was estimated using a multinomial logistic regression based on adjusted odds ratios. RESULTS: Longer active first stage of labour duration was linearly associated with longer second stage of labour duration until approximately 12 h of active first stage of labour duration. After 12 h, a non-linear trend is seen, demonstrated by a plateau in the second-stage duration. In addition, longer active first stage of labour duration was associated with increased occurrence of operative vaginal delivery (adjusted odds ratio 3.36, 95% confidence interval [CI] 2.89, 3.89) and caesarean delivery (adjusted odds ratio 4.75, 95% CI 3.85, 5.80). CONCLUSIONS: Among primiparous women with spontaneous onset of labour, longer active first stage of labour duration was associated with both longer second stage of labour duration and higher odds of operative delivery. This study contributes with findings, which may inform future discussions regarding how to properly account for second-stage duration, with applications in obstetric and perinatal epidemiology."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clinicalandphysicianfactorsassociatedwithfailedoperativevaginaldelivery2023panelli
+"OBJECTIVE: To examine clinical and physician factors associated with failed operative vaginal delivery among individuals with nulliparous, term, singleton, vertex (NTSV) births. METHODS: This was a retrospective cohort study of individuals with NTSV live births with an attempted operative vaginal delivery by a physician between 2016 and 2020 in California. The primary outcome was cesarean birth after failed operative vaginal delivery, identified using linked diagnosis codes, birth certificates, and physician licensing board data stratified by device type (vacuum or forceps). Clinical and physician-level exposures were selected a priori, defined using validated indices, and compared between successful and failed operative vaginal delivery attempts. Physician experience with operative vaginal delivery was estimated by calculating the number of operative vaginal delivery attempts made per physician during the study period. Multivariable mixed effects Poisson regression models with robust standard errors were used to estimate risk ratios of failed operative vaginal delivery for each exposure, adjusted for potential confounders. RESULTS: Of 47,973 eligible operative vaginal delivery attempts, 93.2% used vacuum and 6.8% used forceps. Of all operative vaginal delivery attempts, 1,820 (3.8%) failed; the success rate was 97.3% for vacuum attempts and 82.4% for forceps attempts. Failed operative vaginal deliveries were more likely with older patient age, higher body mass index, obstructed labor, and neonatal birth weight more than 4,000 g. Between 2016 and 2020, physicians who attempted more operative vaginal deliveries were less likely to fail. When vacuum attempts were successful, physicians who conducted them had a median of 45 vacuum attempts during the study period, compared with 27 attempts when vacuum attempts were unsuccessful (adjusted risk ratio [aRR] 0.95, 95% CI 0.93-0.96). When forceps attempts were successful, physicians who conducted them had a median of 19 forceps attempts, compared with 11 attempts when forceps attempts were unsuccessful (aRR 0.76, 95% CI 0.64-0.91). CONCLUSION: In this large, contemporary cohort with NTSV births, several clinical factors were associated with operative vaginal delivery failure. Physician experience was associated with operative vaginal delivery success, more notably for forceps attempts. These results may provide guidance for physician training in maintenance of operative vaginal delivery skills."""
+
+

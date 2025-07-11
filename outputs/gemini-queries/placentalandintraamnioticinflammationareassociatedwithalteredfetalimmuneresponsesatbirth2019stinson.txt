@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: placentalandintraamnioticinflammationareassociatedwithalteredfetalimmuneresponsesatbirth2019stinson
+"INTRODUCTION: High-grade placental inflammation is associated with preterm birth and poor neonatal outcomes. Recent reports suggest that low-grade placental inflammation is common in uncomplicated pregnancies. The relationship between placental inflammation and innate immune anti-microbial responses is unknown. In this study we sought to identify any association between placental inflammation and fetal immune responses.;METHODS: Cord blood samples collected from late preterm and full-term Caesarean section deliveries (n=44) were exposed to various immune challenges (resiquimod, LPS, PGN, poly (I:C), cGAMP, and 5'ppp-dsRNA) and production of inflammatory mediators (G-CSF, IFN-gamma, IL-1beta, IL-6, IL-8, IL-10, and TNF-alpha) was measured by multiplex assay. Hospital histology reports were used to assess the extent of inflammation in the placenta.;RESULTS: Almost half (47.7%) of placentae examined here showed histological evidence of inflammation. Resiquimod, LPS, and PGN elicited strong inflammatory responses in neonatal cord blood, while poly (I:C), cGAMP, and 5'ppp-dsRNA elicited weaker responses. Fetuses with evidence of chorioamnionitis and fetal inflammatory reaction in their placentae had significantly increased immune responses to cGAMP and 5'ppp-dsRNA (ligands for STING and RIG-I, respectively) and significantly decreased immune responses to poly (I:C) (a TLR3 agonist). Interestingly, STING, RIG-I, and TLR3 are all involved in viral response pathways, suggesting that fetuses exposed to chorioamnionitis or fetal inflammatory reaction might respond differently to viruses postnatally.;CONCLUSION: Our data suggest that low-level placental inflammation is associated with altered innate cytokine responses at birth. Copyright (c) 2019 Elsevier Ltd. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: diagnosticsignificanceofwhitebloodcellcountandcreactiveproteininneonatalsepsisasellareferralhospitalsoutheastethiopia2018sorsa
+"Introduction: Nowadays various biochemical markers, such as C-Reactive Protein (CRP), Procalcitonin and tumor necrosis factor alpha, have been proposed as a potential marker for screening neonatal sepsis. In the current study, we tried to see the diagnostic significance of White Blood Cell (WBC) count and CRP in diagnostic screening of neonatal sepsis. Method(s): A prospective cross-sectional study was conducted from May 2016 to April 2017 in Asella Teaching and Referral Hospital. Data were entered into EPI-INFO version 3.5.1 for cleanup and then exported to SPSS version 17 for further analysis. Sensitivity, specificity, positive predictive value (PPV) and negative predictive values (NPV) were used to assess the accuracy of CRP and WBC count taking blood culture as gold standard. Result(s): Data of 303 neonates with clinical sepsis were analyzed. Positive CRP and abnormal WBC were reported in 136(45%) and 99(32.7%) of study subjects respectively. Blood culture turned to be positive in 88(29.4%) of study subjects. The Sensitivity, Specificity, PPV and NPV of WBC count were 59.5 %, 79.6%, 52%, 64.5% respectively while the sensitivity, specificity, PPV and NPV of CRP were 65.6%, 78%, 42% and 91% respectively. By combining both WBC and CRP, the sensitivity, specificity, PPV and NPV improve to 78.5%, 83%, 60% and 93% respectively. CRP positivity rate was comparable across gram positive and gram negative bacteria while high WBC count were more reported among gram positive sepsis than gram negative (OR 4.8, (95% CI 1.45-15.87, P 0.01) Conclusion(s): Based on this study's finding, it can be concluded that CRP alone or in combination with WBC count showed better diagnostic accuracy in neonatal sepsis.Copyright (c) 2018 Abebe Sorsa."""
+
+

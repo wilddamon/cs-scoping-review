@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofmaternalandneonatalfactorsonneonatalthyroidscreeningresults2018wang
+"BACKGROUND: Thyroid-stimulating hormone (TSH) levels are an important parameter in screening for congenital hypothyroidism (CH). This study aimed to analyze the effects of birth weight, gestational age, and delivery mode on the incidence of neonatal CH. METHODS: A retrospective cohort study of neonates born in 2015 at a maternity hospital in Xiamen, China and their mothers was conducted. Differences in TSH levels, CH positivity at baseline, and the incidence of CH according to gestational age, birth weight, and delivery mode were assessed using matched neonatal and maternal data. RESULTS: Of the 15,615 enrolled neonates, 150 had positive CH screening results at baseline and nine had confirmed CH. Premature and low-birth-weight neonates had a significantly higher incidence of CH and lower TSH levels when compared to full-term neonates and normal-to-high birth weight neonates, respectively. Neonates delivered vaginally had significantly lower TSH levels and a reduced incidence of baseline CH positivity; cesarean section delivery (odds ratio [OR] = 2.06, p = 0.006) and a maternal TSH level >2.5 mIU/L (OR = 2.37, p = 0.002) were risk factors for CH positivity at baseline. CONCLUSIONS: In this study, the incidence of CH in neonates was associated with gestational age and birth weight. Neonatal baseline CH positivity was positively associated with cesarean delivery and an early-pregnancy maternal TSH level >2.5 mIU/L."""
+
+

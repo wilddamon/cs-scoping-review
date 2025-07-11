@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofdevelopmentspeedandqualityofblastocystonsingletonbirthweightinsinglefrozenthawedblastocysttransfercycles2023wang
+"Background: Assisted reproductive technology (ART) has revolutionized infertility treatment, leading to a surge in ART-conceived children. Despite its success, ART-born offspring face higher risks of preterm birth (PTB), low birth weight (LBW), and small for gestational age (SGA). The mechanisms behind these outcomes remain unclear, partly attributed to multiple embryo transfers. Recent advancements advocate single blastocyst transfers for improved outcomes. However, the influence of blastocyst quality and development speed on neonatal outcomes is underexplored. Objective(s): This study investigated whether blastocyst development speed and quality affect singleton birthweight when the blastocyst is selected for single frozen-thawed blastocyst transfer (FBT). Method(s): Data from patients who performed an FBT cycle at our center from July 2011 to June 2021 were collected and analyzed. Based on the inclusion and exclusion criteria, 420 single FBT cycles were assessed. The women were divided into four groups, Group A (day 5, good-quality blastocysts), Group B (day 5, non-good-quality blastocysts), Group C (day 6, good-quality blastocysts), and Group D (day 6, non-good-quality blastocysts) according to the developmental speed and quality of the transferred blastocyst. Result(s): The birthweight was relatively the highest in Group A, which developed rapidly and transferred good quality blastocysts. However, no significant difference existed among the groups (P>0.05). The prevalence of premature birth (PTB), low birth weight (LBW), very low birth weight (VLBW), or high birth weight (HBW) was similar among the four groups (P > 0.05). No correlation existed between birth weight and blastocyst development speed or quality after adjusting for possible confounders (P > 0.05 respectively). However, the difference in the proportion of males born among the four groups was significant, especially in Group D, which was significantly lower than that in Group A (adjusted odds ratio = 0.461, 95% confidence interval: 0.230-0.921, P < 0.05). Conclusion(s): This retrospective cohort study suggests that the combined effect of blastocyst development speed and quality on neonatal birthweight is insignificant. The transfer of slow-growing, non-good-quality blastocysts increases the chance of a female baby being born.Copyright (c) 2024 Wang, Xiao, Sun and Tao."""
+
+

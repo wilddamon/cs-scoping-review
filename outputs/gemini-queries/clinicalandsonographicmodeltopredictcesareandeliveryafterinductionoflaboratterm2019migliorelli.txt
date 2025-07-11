@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clinicalandsonographicmodeltopredictcesareandeliveryafterinductionoflaboratterm2019migliorelli
+"OBJECTIVE: To develop a model combining clinical and sonographic features to predict the risk of cesarean delivery after the induction of labor (IOL). METHODS: We designed a prospective observational study involving women admitted for IOL. The main outcome was defined as cesarean delivery due to failed IOL or arrest of labor. Several clinical and ultrasonographic variables were collected. Seventy percent of the sample was used to build the predictive model, using stepwise logistic regression, while the remaining sample was used for validation. The final model was estimated and calibrated using all participants. RESULTS: We analyzed 477 pregnancies. The main outcome occurred in 102/477 (21.4%) women. The final model included previous vaginal delivery (odds ratio [OR] 0.088; 95% confidence interval [CI] 0.04-0.21), height (OR 0.904; 95% CI 0.87-0.94), body mass index before delivery (OR 1.084; 95% CI 1.02-1.15), ultrasonographic estimated fetal weight (OR 3.965; 95% CI 2.18-7.22), and ultrasonographic cervical length (OR 1.065; 95% CI 1.04-1.09) as predictors. Area under the receiver operating characteristics curve was 0.826 (95% CI 0.78-0.87). For a 5% false-positive rate, the sensitivity, specificity, and positive and negative likelihood ratios were 44.1%, 94.9%, 8.7, and 0.59, respectively. CONCLUSION: Our model combining clinical and ultrasonographic features might offer individualized counseling regarding risk of cesarean delivery to women who are candidates for IOL."""
+
+

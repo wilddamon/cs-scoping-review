@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: motherswithhypertensivedisordersofpregnancyincreasedriskofperiventricularleukomalaciainextremelypretermorextremelylowbirthweightinfantsapropensityscoreanalysis2022su
+"Background: At present, the conclusions about the impact of hypertensive disorders of pregnancy (HDP) on the clinical outcomes of preterm infants are inconsistent. This study used the propensity score matching (PSM) analysis to evaluate the effect of HDP on clinical outcomes of extremely preterm or extremely low birth weight (EP/ELBW) infants. Method(s): Retrospective analysis was performed on the EP/ELBW infants discharged from 26 tertiary neonatal intensive care units or died during hospitalization from 2008 to 2017, who were divided into HDP group and non-HDP group. The six covariates including sex, gestational age, birth weight, twin or multiple pregnancy, antenatal steroids administration, and conception method were matched through the PSM method at a ratio of 1:1. The survival rate at discharge and the major clinical complications were compared between the two groups. Result(s): After matching the six covariates, compared with the non-HDP group, there was no significant difference in the survival rate at discharge (64 vs. 63.2%, p > 0.05), the incidence of bronchopulmonary dysplasia (BPD) or moderate to severe BPD in the HDP group (58.3 vs. 54.9%, p > 0.05; 5.2 vs. 6.2%, p > 0.05). The incidence of periventricular leukomalacia (PVL) in the HDP group was significantly increased (5.7 vs. 1.9%, p < 0.05). Conclusion(s): HDP increased the risk of PVL in EP/ELBW infants, but had no significant effect on the survival rate at discharge, or the occurrence of other complications.Copyright (c) 2022 Su, Huang, Meng, Jia, Shi, Fan, Cui, Chen and Wu."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithreadmissioninlatepreterminfantsamatchedcasecontrolstudy2014moyer
+"OBJECTIVE: The goal of this study was to evaluate risk factors for readmission among late-preterm (34-36 weeks' gestation) infants in clinical practice. METHODS: This was a retrospective, matched case-control study of late-preterm infants receiving care across 8 regional hospitals in 2009 in the United States. Those readmitted within 28 days of birth were matched to non-readmitted infants at a ratio of 1:3 according to birth hospital, birth month, and gestational age. Step-wise modeling with likelihood ratio tests were used to develop a multivariable logistic regression model. A subgroup analysis of hyperbilirubinemia readmissions was also performed. RESULTS: Of 1861 late-preterm infants delivered during the study period, 67 (3.6%) were readmitted within 28 days of birth. These were matched to 201 control infants, for a final sample of 268 infants. In multivariable regression, each additional day in length of stay was associated with a significantly reduced odds ratio (OR) for readmission (0.57, P = .004); however, for those infants delivered vaginally, there was no significant association between length of stay and readmission (adjusted OR: 1.08, P = .16). A stronger inverse relationship was observed in subgroup analysis for hyperbilirubinemia readmissions, with the adjusted OR associated with increased length of stay 0.40 (P = .002) for infants born by cesarean delivery but 1.14 (P = .27) for those delivered vaginally. CONCLUSIONS: Infants born via cesarean delivery with longer length of hospital stay have a decreased risk for readmission. As hospitals implement protocols to standardize length of stay, mode of delivery may be a useful factor to identify late-preterm infants at higher risk for readmission."""
+
+

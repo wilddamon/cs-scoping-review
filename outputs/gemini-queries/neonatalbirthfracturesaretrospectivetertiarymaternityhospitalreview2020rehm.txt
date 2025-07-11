@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonatalbirthfracturesaretrospectivetertiarymaternityhospitalreview2020rehm
+"We aimed to identify the incidence and types of neonatal birth fractures in a single tertiary maternity hospital in the United Kingdom and to find possible associated factors, including all live births born between 2000 and 2016. We reviewed hospital records and imaging of all neonates who had any imaging done to identify birth fractures. We identified 87,461 consecutive live births. Sixty-six sustained a fracture during delivery: 46 clavicle-, 13 humerus-, four skull-, one femoral-, one rib- and one tibial fracture. Five neonates with a clavicle or humeral fracture had an Erb's palsy. Sixty-five fractures were in singletons. Twenty-five fractures were diagnosed after discharge. Binary logistic regression analysis with R-Studio showed a significant association between 'Fracture' and 'Birthweight' (p < .0005), 'Delivery Mode' (Forceps: p < .001, Ventouse: p < .0004) and 'Gestation' (p < .0005) but not with 'Sex', 'Day' and 'Time' of delivery, 'Number of deliveries per day', 'Singleton/Multiple Births' and 'Breech'. The incidence of birth fractures (0.075%) was low with 24 hours obstetrician support on site in comparison to published data. We recommend to include data on neonatal birth injuries in addition to the existing clinical safety markers for delivery units.Impact statementWhat is already known on this subject? Most birth fractures affect the clavicle with a large variation in published incidences from 0.035% to 3.2%. High birthweight is the most frequently identified risk factor. An increased risk for out of hours deliveries (16.00-8.00) and inverse association between fracture rate and level of experience and academic qualification have also been reported. Between 14% and 39% of fractures are diagnosed after discharge but many studies are based on birth certificate and discharge diagnoses coding only.What the results of this study add? This is the first study on neonatal birth fractures from the United Kingdom and the only study for which radiological investigations of all neonates were reviewed. Our fracture rate of 0.075% for all fractures is therefore most likely the most accurate, showing no significant difference in the fracture risk between our six defined time intervals and days of the week, with experienced midwifes managing many high risk pregnancies and an obstetrician being present on site all the time.What the implications are of these findings for clinical practice and/or further research? Our findings support to use data on neonatal birth injuries as one indicator to assess the quality and safety of maternity units."""
+
+

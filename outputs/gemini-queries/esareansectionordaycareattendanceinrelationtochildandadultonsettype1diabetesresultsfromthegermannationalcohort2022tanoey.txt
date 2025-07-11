@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthordercaesareansectionordaycareattendanceinrelationtochildandadultonsettype1diabetesresultsfromthegermannationalcohort2022tanoey
+"(1) Background: Global incidence of type 1 diabetes (T1D) is rising and nearly half occurred in adults. However, it is unclear if certain early-life childhood T1D risk factors were also associated with adult-onset T1D. This study aimed to assess associations between birth order, delivery mode or daycare attendance and type 1 diabetes (T1D) risk in a population-based cohort and whether these were similar for childhood- and adult-onset T1D (cut-off age 15); (2) Methods: Data were obtained from the German National Cohort (NAKO Gesundheitsstudie) baseline assessment. Self-reported diabetes was classified as T1D if: diagnosis age <= 40 years and has been receiving insulin treatment since less than one year after diagnosis. Cox regression was applied for T1D risk analysis; (3) Results: Analyses included 101,411 participants (100 childhood- and 271 adult-onset T1D cases). Compared to 'only-children', HRs for second- or later-born individuals were 0.70 (95% CI = 0.50-0.96) and 0.65 (95% CI = 0.45-0.94), respectively, regardless of parental diabetes, migration background, birth year and perinatal factors. In further analyses, higher birth order reduced T1D risk in children and adults born in recent decades. Caesarean section and daycare attendance showed no clear associations with T1D risk; (4) Conclusions: Birth order should be considered in both children and adults' T1D risk assessment for early detection."""
+
+

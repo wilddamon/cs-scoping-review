@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsoftimetorecoveryofpretermneonateswithrespiratorydistresssyndromeadmittedinuniversityofgondarcomprehensivespecializedhospitalneonatalintensivecareunitnorthwestethiopia2022yismaw
+"BACKGROUND: Respiratory distress syndrome (RDS) is caused by a deficiency of a molecule called surfactant. It occurs in newborns born before 37 weeks of gestation. It is a main cause of morbidity and mortality in the early neonatal period. Therefore, this study aims to assess median time to recovery and predictors of preterm neonates with respiratory distress syndrome admitted in University of Gondar comprehensive specialized hospital Northwest Ethiopia 2020. METHODS: Institution based retrospective follow up study was conducted on 386 preterm neonates with hyaline membrane disease who were admitted in the neonatal intensive care unit from January, 2016 to December 2018. The data were entered in to EPI info version 7.0 and transferred to Stata version 14.0 for analysis. Both bi-variable and multi variable Weibull parametric model were fitted to identify predictors with 95% confidence interval of hazard ratio (HR) and p-value. P-value less than 0.05 in the multivariable model showed the presence of significant association between covariates and the dependent variable. RESULTS: The overall median length of recovery were 11 day with an interquartile range of (7, 16) neonate-days. Being a product of multiple pregnancy (AHR 1.67; 95%CI (1.25, 2.23)), vaginal mode of delivery (AHR 1.6; 95%CI (1.13, 2.26)), and neonatal hypothermia at admission (AHR 1.6; 95%CI (1.13, 2.26)) were found to be significant predictors of time to recovery. CONCLUSION: In this study the median time to recovery of preterm neonates with respiratory distress syndrome was slower than the clinical recommendations. Receiving bag and mask ventilation and hypothermia decreased the recovery whereas, vaginal delivery gestational age at birth, being multiple pregnancy, birth weight >=2000grams were enhance the recovery of preterm neonates with RDS."""
+
+

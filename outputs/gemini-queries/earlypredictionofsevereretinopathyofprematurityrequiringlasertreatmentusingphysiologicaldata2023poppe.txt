@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlypredictionofsevereretinopathyofprematurityrequiringlasertreatmentusingphysiologicaldata2023poppe
+"BACKGROUND: Early risk stratification for developing retinopathy of prematurity (ROP) is essential for tailoring screening strategies and preventing abnormal retinal development. This study aims to examine the ability of physiological data during the first postnatal month to distinguish preterm infants with and without ROP requiring laser treatment. METHODS: In this cohort study, preterm infants with a gestational age <32 weeks and/or birth weight <1500 g, who were screened for ROP were included. Differences in the physiological data between the laser and non-laser group were identified, and tree-based classification models were trained and independently tested to predict ROP requiring laser treatment. RESULTS: In total, 208 preterm infants were included in the analysis of whom 30 infants (14%) required laser treatment. Significant differences were identified in the level of hypoxia and hyperoxia, oxygen requirement, and skewness of heart rate. The best model had a balanced accuracy of 0.81 (0.72-0.87), a sensitivity of 0.73 (0.64-0.81), and a specificity of 0.88 (0.80-0.93) and included the SpO(2)/FiO(2) ratio and baseline demographics (including gestational age and birth weight). CONCLUSIONS: Routinely monitored physiological data from preterm infants in the first postnatal month are already predictive of later development of ROP requiring laser treatment, although validation is required in larger cohorts. IMPACT: Routinely monitored physiological data from the first postnatal month are predictive of later development of ROP requiring laser treatment, although model performance was not significantly better than baseline characteristics (gestational age, birth weight, sex, multiple birth, prenatal glucocorticosteroids, route of delivery, and Apgar scores) alone. A balanced accuracy of 0.81 (0.72-0.87), a sensitivity of 0.73 (0.64-0.81), and a specificity of 0.88 (0.80-0.93) was achieved with a model including the SpO(2)/FiO(2) ratio and baseline characteristics. Physiological data have potential to play a significant role for future ROP prediction and provide opportunities for early interventions to protect infants from abnormal retinal development."""
+
+

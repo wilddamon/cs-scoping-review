@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aprospectivecohortstudyofpainwithintrauterinedeviceinsertionamongwomenwithandwithoutvaginaldeliveries2014allen
+"The purpose of this prospective cohort study was to compare pain during IUD insertion between women with a history of vaginal delivery and women without a history of vaginal delivery. First-time IUD users chose either the CuT380A or the levonorgestrel IUS. We enrolled 49 women with previous vaginal delivery and 49 women with no history of vaginal delivery (either only caesarean deliveries or nulliparous). The mean pain score on a 0-100 mm visual analog scale during insertion in the vaginal delivery group was 34.7 (SD 31.6) compared with 51.2 (SD 29.2) in the group without previous vaginal delivery (p = 0.009). In multivariable analysis controlling for age, breast-feeding, expected pain, baseline anxiety, insertion timing (6-12 weeks postpartum, 2-4 weeks post-abortion or interval), and insertion difficulty, history of vaginal delivery was associated with a 15.5 point reduction in pain (95% CI, -27.4, -3.7). Other significant predictors of pain were 'expected pain' and 'insertion difficulty'."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomesofwomenwithgestationalbreastcancerinaustraliaandnewzealandaprospectivepopulationbasedstudy2022sullivan
+"OBJECTIVE: To determine the epidemiology, clinical management, and outcomes of women with gestational breast cancer (GBC).;METHODS: A population-based prospective cohort study was conducted in Australia and New Zealand between 2013 and 2014 using the Australasian Maternity Outcomes Surveillance System (AMOSS). Women who gave birth with a primary diagnosis of breast cancer during pregnancy were included. Data were collected on demographic and pregnancy factors, GBC diagnosis, obstetric and cancer management, and perinatal outcomes. The main outcome measures were preterm birth, maternal complications, breastfeeding, and death.;RESULTS: Forty women with GBC (incidence 7.5/100 000 women giving birth) gave birth to 40 live-born babies. Thirty-three (82.5%) women had breast symptoms at diagnosis. Of 27 women diagnosed before 30 weeks' gestation, 85% had breast surgery and 67% had systemic therapy during pregnancy. In contrast, all 13 women diagnosed from 30 weeks had their cancer management delayed until postdelivery. There were 17 preterm deliveries; 15 were planned. Postpartum complications included the following: hemorrhage (n = 4), laparotomy (n = 1), and thrombocytopenia (n = 1). There was one late maternal death. Eighteen (45.0%) women initiated breastfeeding, including 12 of 23 women who had antenatal breast surgery. There were no perinatal deaths or congenital malformations, but 42.5% of babies were preterm, and 32.5% were admitted for higher-level neonatal care.;CONCLUSIONS: Gestational breast cancer diagnosed before 30 weeks' gestation was associated with surgical and systemic cancer care during pregnancy and planned preterm birth. In contrast, cancer treatment was deferred to postdelivery for women diagnosed from 30 weeks, reflecting the complexity of managing expectant mothers with GBC in multidisciplinary care settings. Copyright (c) 2022 The Authors. Birth published by Wiley Periodicals LLC."""
+
+

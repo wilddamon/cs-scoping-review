@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aprospectiverandomizedclinicaltrialofsinglevsdoublelayerclosureofhysterotomyatthetimeofcesareandeliverytheeffectonuterinescarthickness2018bamberg
+"PURPOSE: We undertook a randomized clinical trial to examine the outcome of a single vs. a double layer uterine closure using ultrasound to assess uterine scar thickness. MATERIALS AND METHODS: Participating women were allocated to one of three uterotomy suture techniques: continuous single layer unlocked suturing, continuous locked single layer suturing, or double layer suturing. Transvaginal ultrasound of uterine scar thickness was performed 6 weeks and 6 - 24 months after Cesarean delivery. Sonographers were blinded to the closure technique. RESULTS: An 'intent-to-treat' and 'as treated' ANOVA analysis included 435 patients (n = 149 single layer unlocked suturing, n = 157 single layer locked suturing, and n = 129 double layer suturing). 6 weeks postpartum, the median scar thickness did not differ among the three groups: 10.0 (8.5 - 12.3 mm) single layer unlocked vs. 10.1 (8.2 - 12.7 mm) single layer locked vs. 10.8 (8.1 - 12.8 mm) double layer; (p = 0.84). At the time of the second follow-up, the uterine scar was not significantly (p = 0.06) thicker if the uterus had been closed with a double layer closure 7.3 (5.7 - 9.1 mm), compared to single layer unlocked 6.4 (5.0 - 8.8 mm) or locked suturing techniques 6.8 (5.2 - 8.7 mm). Women who underwent primary or elective Cesarean delivery showed a significantly (p = 0.03, p = 0.02, 'as treated') increased median scar thickness after double layer closure vs. single layer unlocked suture. CONCLUSION: A double layer closure of the hysterotomy is associated with a thicker myometrium scar only in primary or elective Cesarean delivery patients."""
+
+

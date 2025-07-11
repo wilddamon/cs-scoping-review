@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofgestationalweightgainontherisksofadversematernalandinfantoutcomesamongnormalbmiwomenwithhightriglyceridelevelsduringearlypregnancy2021jiang
+"A high maternal triglyceride (mTG) level during early pregnancy is linked to adverse pregnancy outcomes, but the use of specific interventions has been met with limited success. A retrospective cohort study was designed to investigate the impact of gestational weight gain (GWG) on the relationship between high levels of mTG and adverse pregnancy outcomes in normal early pregnancy body mass index (BMI) women. The patients included 39,665 women with normal BMI who had a singleton pregnancy and underwent serum lipids screening during early pregnancy. The main outcomes were adverse pregnancy outcomes, including gestational hypertension, preeclampsia, gestational diabetes, cesarean delivery, preterm birth, and large or small size for gestational age (LGA or SGA) at birth. As a result, the high mTG (>=2.05mM) group had increased risks for gestational hypertension ((Adjusted odds ratio (AOR), 1.80; 95% CI, 1.46 to 2.24)), preeclampsia (1.70; 1.38 to 2.11), gestational diabetes (2.50; 2.26 to 2.76), cesarean delivery (1.22; 1.13 to 1.32), preterm birth (1.42, 1.21 to 1.66), and LGA (1.49, 1.33 to 1.68) compared to the low mTG group, after adjustment for potential confounding factors. Additionally, the risks of any adverse outcome were higher in each GWG subgroup among women with high mTG than those in the low mTG group. High mTG augmented risks of gestational hypertension, preeclampsia, preterm birth, and LGA among women with 50th or greater percentile of GWG. Interestingly, among women who gained less than the 50th percentile of GWG subgroups, there was no relationship between high mTG level and risks for those pregnancy outcomes when compared to low mTG women. Therefore, weight control and staying below 50th centile of the suggested GWG according to gestational age can diminish the increased risks of adverse pregnancy outcomes caused by high mTG during early pregnancy."""
+
+

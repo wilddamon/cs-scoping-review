@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyinpatientswithsicklecelldiseasematernalandperinataloutcomes2015costa
+"OBJECTIVE: To compare obstetrical, hematological and neonatal outcomes of pregnant women with or without sickle cell disease (SCD). METHODS: A prospective study of 60 pregnancies of 58 women with SCD (29 SCD-SS and 29 SCD-SC) compared with 192 pregnancies in 187 healthy pregnant women was carried out from January 2009 to August 2011. RESULTS: Compared to controls, the SCD group had higher rate of preterm delivery (p < 0.001, OR = 4.96, 95% CI 2.57-9.59), higher cesarean rate (p < 0.001, OR = 5.00, CI 2.65-9.45), more frequent deep vein thrombosis (p = 0.003), and urinary infection (p = 0.001, OR = 3.31, CI 1.63-6.73), higher prevalence of small for gestational age babies (p = 0.019, OR = 2.66, CI 1.15-6.17), and more frequent baby admissions to progressive care unit (p < 0.001, OR = 4.89, CI 2.26-10.6). Maternal death rate was also higher among women with SCD (p = 0.056). All adverse events were more frequent in the SS subgroup. Babies from the SS subgroup had the lowest weight at birth (2080 g) compared to SC (2737 g; p < 0.001) and controls (3035 g). A multivariate analysis confirmed painful episodes and SS genotype as factors contributing to preterm delivery. CONCLUSION: SCD pregnant women - especially those in the SS subgroup - are more prone to experience perinatal and maternal complications in comparison with pregnant women without SCD."""
+
+

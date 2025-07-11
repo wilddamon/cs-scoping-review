@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neighborhoodincomeandcesareansectionratesatatertiarycarecenterincanada2019hodge
+"Background: With rising rates of cesarean sections (CSs) in Canada and worldwide, nonclinical factors for CS warrant consideration. Objective: To determine the association between a primigravid woman's neighborhood income and rates of CSs. Materials and Methods: A retrospective cohort study was conducted at an Ontario tertiary care center from January 2003 to December 2013. Rates of CSs were determined using data collected from the Discharge Abstract Database. Women with singleton live births were included. The main exposure variable was the neighborhood income quintile. A multivariable model was used to adjust for covariates and provide an estimate of the independent effect of neighborhood income on the CS rate. Results: The study cohort comprised 32,714 women. Compared with the lowest quintile, women in the highest quintile had increased rates of CSs (relative risk, RR 1.06, 95% confidence interval, CI [1.02-1.11]). Following adjustment for important confounders, there was no longer an association between the neighborhood income and CS rate (adjusted RR 1.00, 95% CI [0.99-1.01]). Women in the highest quintile were more likely to have greater maternal age (p < 0.01). Conclusions: Although differences in CS rates are seen by the neighborhood income quintile, they appear to be mediated through a combination of maternal age and other clinical factors. Neighborhood income does not appear to be an independent predictor of CS."""
+
+

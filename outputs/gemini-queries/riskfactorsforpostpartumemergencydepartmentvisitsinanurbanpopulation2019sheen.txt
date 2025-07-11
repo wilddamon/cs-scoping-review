@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforpostpartumemergencydepartmentvisitsinanurbanpopulation2019sheen
+"Objectives To identify risk factors associated with urban postpartum emergency department utilization. Methods This case-control study included 100 matched pairs of postpartum women who had delivered at a large, integrated urban medical system in Bronx, New York, in 2012-2013, with the cases having had an emergency department visit within 42 days of delivery. The cases, identified utilizing administrative and billing data, were matched 1:1 with controls by labor unit, delivery mode and date, excluding nonviable pregnancies. The controls did not have a known postpartum emergency department visit. Variables were abstracted from administrative data and chart review, and included demographics, antenatal/intrapartum/postpartum complications and neonatal intensive care unit admission. Factors associated with puerperal emergency department use were identified via univariate and multivariable analyses. Results Following conditional logistic regression, primiparity [54% vs. 32%, aOR 5.91, 95% CI 2.34-14.91], public insurance [70% vs. 56%, aOR 4.22, 95% CI 1.60-11.12], weekend delivery [30% vs. 26%, aOR 7.61, 95% CI 1.15-52.43] and delivery-related complications [47% vs. 28%, aOR 2.95, 95% CI 1.16-7.51] were associated with an increased risk of postpartum emergency department use, while women of younger ages (17-24 years old) were less likely to have postpartum emergency department use [aOR 0.23, 95% CI 0.07-0.74]. Univariate analysis of individual events within the composite variables showed an association between gestational hypertension/pre-eclampsia and postpartum emergency department use [28% vs. 13% OR 2.60, 95% CI 1.26-5.39]. Psychiatric history, social instability, preterm delivery/neonatal intensive care unit admission, pre-existing medical/antepartum conditions and prolonged postpartum stay were not associated. Conclusions for Practice Delivery-related complications, delivery timing, and certain sociodemographic factors are identifiable risk factors for increased postpartum emergency department utilization. These may be targeted for development of interventions improving puerperal care and potentially preventing emergency department visits, which are costly to the health system and disruptive to the lives of women and their families."""
+
+

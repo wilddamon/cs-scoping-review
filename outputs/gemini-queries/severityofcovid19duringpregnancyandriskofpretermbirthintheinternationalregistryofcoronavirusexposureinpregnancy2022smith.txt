@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timingandseverityofcovid19duringpregnancyandriskofpretermbirthintheinternationalregistryofcoronavirusexposureinpregnancy2022smith
+"BACKGROUND: Studies of preterm delivery after COVID-19 are often subject to selection bias and do not distinguish between early vs. late infection in pregnancy, nor between spontaneous vs. medically indicated preterm delivery. This study aimed to estimate the risk of preterm birth (overall, spontaneous, and indicated) after COVID-19 during pregnancy, while considering different levels of disease severity and timing. METHODS: Pregnant and recently pregnant people who were tested for or clinically diagnosed with COVID-19 during pregnancy enrolled in an international internet-based cohort study between June 2020 and July 2021. We used several analytic approaches to minimize confounding and immortal time bias, including multivariable regression, time-to-delivery models, and a case-time-control design. RESULTS: Among 14,264 eligible participants from 70 countries who did not report a pregnancy loss before 20 gestational weeks, 5893 had completed their pregnancies and reported delivery information; others were censored at time of their last follow-up. Participants with symptomatic COVID-19 before 20 weeks' gestation had no increased risk of preterm delivery compared to those testing negative, with adjusted risks of 10.0% (95% CI 7.8, 12.0) vs. 9.8% (9.1, 10.5). Mild COVID-19 later in pregnancy was not clearly associated with preterm delivery. In contrast, severe COVID-19 after 20 weeks' gestation led to an increase in preterm delivery compared to milder disease. For example, the risk ratio for preterm delivery comparing severe to mild/moderate COVID-19 at 35 weeks was 2.8 (2.0, 4.0); corresponding risk ratios for indicated and spontaneous preterm delivery were 3.7 (2.0, 7.0) and 2.3 (1.2, 3.9), respectively. CONCLUSIONS: Severe COVID-19 late in pregnancy sharply increased the risk of preterm delivery compared to no COVID-19. This elevated risk was primarily due to an increase in medically indicated preterm deliveries, included preterm cesarean sections, although an increase in spontaneous preterm delivery was also observed. In contrast, mild or moderate COVID-19 conferred minimal risk, as did severe disease early in pregnancy."""
+
+

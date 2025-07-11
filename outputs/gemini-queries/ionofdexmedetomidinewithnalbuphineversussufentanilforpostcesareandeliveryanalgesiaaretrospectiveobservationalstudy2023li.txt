@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: patientcontrolledintravenousadministrationofdexmedetomidinewithnalbuphineversussufentanilforpostcesareandeliveryanalgesiaaretrospectiveobservationalstudy2023li
+"This retrospective observational study aims to investigate the patient-controlled intravenous analgesia (PCIA) of dexmedetomidine (DEX) with nalbuphine (NAL) versus sufentanil (SUF) for post-cesarean delivery management. A total of 300 women were evaluated who underwent cesarean section surgery with combined spinal-epidural anesthesia. After surgery, all patients were connected to a patient-controlled analgesia pump. The PCIA protocol was programmed with 0.11 mg/kg/h DEX in combination with 0.03 mg/kg/h SUF in Group I (n = 150) or 0.11 mg/kg/h DEX in combination with 0.03 mg/kg/h NAL in Group II (n = 150). There was no significant difference in incision pain and sedation level between the two groups within 48 h after the surgery assessed by visual analog scale (VAS) and Ramsay sedation scale, respectively. However, at 2, 6, 12, and 24 h after surgery, visceral pain at rest and at mobilization was alleviated in the Group II as compared with the Group I with lower VAS scores. Moreover, fewer adverse reactions were found in the Group II when compared with Group I, including postpartum respiratory depression, nausea/vomiting, urinary retention, and cardiovascular events. Overall, there was an increased patient satisfaction in the Group II as compared with the Group I. Based on the results of this study, it seems that adding NAL to PCIA with DEX, as compared to SUF with DEX, have an effect on reducing the intensity of visceral pain after cesarean section with less adverse reactions and higher patient satisfaction."""
+
+

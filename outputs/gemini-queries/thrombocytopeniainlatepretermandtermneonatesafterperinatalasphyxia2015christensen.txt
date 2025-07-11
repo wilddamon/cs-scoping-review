@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thrombocytopeniainlatepretermandtermneonatesafterperinatalasphyxia2015christensen
+"BACKGROUND: A recent NHLBI conference concluded that platelet (PLT) transfusions of neonates must become more evidence based. One neonatal disorder for which transfusions are given is a poorly defined entity, the "thrombocytopenia of perinatal asphyxia." To expand the evidence base for this entity, we performed a multicentered, retrospective analysis of neonates with perinatal asphyxia.;STUDY DESIGN AND METHODS: We analyzed records of term and late preterm neonates with perinatal asphyxia defined by a cord blood pH of not more than 6.99 and/or base deficit of at least 16 mmol/L. From these we identified neonates with at least two PLT counts of fewer than 150 x 10(9) /L in the first week of life and described the severity, nadir, and duration of the thrombocytopenia.;RESULTS: Thrombocytopenia occurred in 31% (117/375) of neonates with asphyxia versus 5% of matched nonasphyxiated controls admitted to a neonatal intensive care unit (p < 0.0001). Twenty-one of the 117 asphyxiated neonates were excluded from the remaining analysis due to disseminated intravascular coagulation or extracorporeal membrane oxygenation. Nadir PLT counts of the remaining 96 were on Day 3 (75 x 10(9) /L; 90% confidence interval, 35.7 x 10(9) -128.6 x 10(9) /L) and normalized by Days 19 to 21. PLT counts after asphyxia roughly correlated inversely with elevated nucleated red blood cell count (NRBC) counts at birth. Thirty of the 96 received at least one PLT transfusion, all given prophylactically, none for bleeding.;CONCLUSIONS: We maintain that the thrombocytopenia of perinatal asphyxia is an authentic entity. Its association with elevated NRBC counts suggests that hypoxia is involved in the pathogenesis. Because PLT counts are only moderately low, the condition is transient, and bleeding problems seem rare, we speculate that PLT transfusions should not be needed for most neonates with this condition. Copyright (c) 2014 AABB."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: durationoflaborinductioninnulliparouswomenwithhypertensivedisordersofpregnancyandmaternalandneonataloutcomes2022colvin
+"OBJECTIVE: The objective of this study was to quantify the association between duration of labor induction in nulliparous women with hypertensive disorders of pregnancy and maternal and neonatal morbidity.;METHODS: This was a secondary analysis of a multicenter cohort study of 228,438 deliveries in 19 U.S. hospitals. The analysis included nulliparous women >=18 years old with singleton gestation diagnosed with hypertensive disorders of pregnancy and undergoing induction of labor for that indication. Duration of labor induction, defined as time from admission to delivery, was examined by 4 h intervals from <12 h to >=24 h in relation to maternal and neonatal composite outcomes. Maternal composite outcome included operative vaginal delivery, chorioamnionitis, blood transfusion, intensive care unit admission, placental abruption, 3rd or 4th degree perineal laceration, endometritis, postpartum hemorrhage, or venous thromboembolism. Neonatal composite outcome included neonatal intensive care unit (NICU) admission, respiratory distress syndrome, 5-minute Apgar score <=7, seizure, infection, intrapartum meconium aspiration, intracranial hemorrhage, shoulder dystocia, and neonatal death. The trends in proportions of outcomes that occurred at different intervals were examined by Cochran-Armitage trend test. Relative risks were calculated with <12 h as the reference category and potential confounders adjusted by log-binomial or Poisson regression. Possible correlations within centers were taken into account using generalized estimating equations.;RESULTS: A total of 3,990 women met inclusion criteria. The median labor duration was 19.8 h (interquartile range 12.9 h-27.9h), with 849 (21.3%) lasting <12 h and 1,426 (35.7%) >24 h. The frequency of composite maternal outcome was not associated with labor duration; however, the rates of chorioamnionitis (p < .001) and postpartum hemorrhage (p < .001) increased as labor duration increased. The frequency of composite neonatal outcome was greater with increasing labor duration (p < .001). After multivariable adjustment, duration of labor induction was associated with increased risks of maternal composite outcome after 24 h (aRR 1.39, 95% CI 1.20-1.62) and neonatal composite outcome after 24 h (aRR 1.32, 95% CI 1.11-1.56).;CONCLUSIONS: In nulliparous women with hypertensive disorders of pregnancy, duration of labor induction was associated with increased risks for maternal and neonatal morbidity after 24 h."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antipsychoticdruguseinpregnancyhighdimensionalpropensitymatchedpopulationbasedcohortstudy2015vigod
+"Objective To evaluate maternal medical and perinatal outcomes associated with antipsychotic drug use in pregnancy. Design High dimensional propensity score (HDPS) matched cohort study. Setting Multiple linked population health administrative databases in the entire province of Ontario, Canada. Participants Among women who delivered a singleton infant between 2003 and 2012, and who were eligible for provincially funded drug coverage, those with >=2 consecutive prescriptions for an antipsychotic medication during pregnancy, at least one of which was filled in the first or second trimester, were selected. Of these antipsychotic drug users, 1021 were matched 1:1 with 1021 non-users by means of a HDPS algorithm. Main outcom e measures The main maternal medical outcomes were gestational diabetes, hypertensive disorders of pregnancy, and venous thromboembolism. The main perinatal outcomes were preterm birth (37 weeks), and a birth weight 3rd or 97th centile. Conditional Poisson regression analysis was used to generate rate ratios and 95% confidence intervals, adjusting for additionally prescribed non-antipsychotic psychotropic medications. Results Compared with non-users, women prescribed an antipsychotic medication in pregnancy did not seem to be at higher risk of gestational diabetes (rate ratio 1.10 (95% CI 0.77to 1.57)), hypertensive disorders of pregnancy (1.12 (0.70 to 1.78)), or venous thromboembolism (0.95 (0.40 to 2.27)). The preterm birth rate, though high among antipsychotic users (14.5%) and matched non-users (14.3%), was not relatively different (rate ratio 0.99 (0.78 to 1.26)). Neither birth weight 3rd centile or 97th centile was associated with antipsychotic drug use in pregnancy (rate ratios 1.21 (0.81 to 1.82) and 1.26 (0.69 to 2.29) respectively). Conclusions Antipsychotic drug use in pregnancy had minimal evident impact on important maternal medical and short term perinatal outcomes. However, the rate of adverse outcomes is high enough to warrant careful assessment of maternal and fetal wellbeing among women prescribed an antipsychotic drug in pregnancy.Copyright (c) BMJ Publishing Group Ltd 2015."""
+
+

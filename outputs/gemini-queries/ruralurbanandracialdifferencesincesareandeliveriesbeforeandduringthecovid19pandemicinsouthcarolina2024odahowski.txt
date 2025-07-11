@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ruralurbanandracialdifferencesincesareandeliveriesbeforeandduringthecovid19pandemicinsouthcarolina2024odahowski
+"PROBLEM: Unnecessary cesarean delivery increases the risk of complications for birthing people and infants.;BACKGROUND: Examining the intersectionality of rural and racial disparities in low-risk cesarean delivery is necessary to improve equity in quality obstetrics care.;AIM: To evaluate rural and racial/ethnic differences in Nulliparous, Term, Singleton, Vertex (NTSV) and primary cesarean delivery rates before and during the COVID-19 pandemic in South Carolina.;METHODS: This retrospective cohort study used birth certificates linked to all-payer hospital discharge data for South Carolina childbirths from 2018 to 2021. Multilevel logistic regressions examined differences in cesarean outcomes by rural/urban hospital location and race/ethnicity of birthing people during pre-pandemic (January 2018-February 2020) and peri-pandemic periods (March 2020-December 2021), adjusting for maternal, infant, and hospital characteristics among two low-risk pregnancy cohorts: 1) Nulliparous, Term, Singleton, Vertex (NTSV, n = 65,974) and 2) those without prior cesarean (primary, n = 167,928).;FINDINGS: Black vs. White disparities remained for NTSV cesarean in adjusted models (urban pre-pandemic aOR = 1.34, 95 %CI 1.23-1.46) but were not significantly different for primary cesarean, apart from rural settings peri-pandemic (aOR = 0.87, 95 %CI 0.79-0.96). Hispanic individuals had higher adjusted odds of NTSV cesarean only for rural settings pre-pandemic (aOR = 1.28, 95 %CI 1.05-1.56), but this disparity was not significant during the pandemic (aOR = 1.13, 95 %CI 0.93-1.37).;DISCUSSION AND CONCLUSION: Observed rural and racial/ethnic disparities in cesarean delivery outcomes were present before and during the COVID-19 pandemic. Strategies effective in reducing racial disparities in primary cesarean may be useful in also reducing Black vs. White NTSV cesarean disparities. Copyright (c) 2024. Published by Elsevier Ltd."""
+
+

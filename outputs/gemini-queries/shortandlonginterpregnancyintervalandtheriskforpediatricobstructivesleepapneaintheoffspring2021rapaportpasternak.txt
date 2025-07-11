@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: shortandlonginterpregnancyintervalandtheriskforpediatricobstructivesleepapneaintheoffspring2021rapaportpasternak
+"INTRODUCTION: Interpregnancy interval (IPI) is defined as the period between a live birth and the conception of a subsequent fetus. Both short (IPI < 6 months) and long IPI (IPI > 60 months) have been shown to increase the risk for adverse perinatal outcomes, some of which, are known risk factors for obstructive sleep apnea syndrome (OSAS) in the offspring. AIMS: To study the association between IPI and risk for offspring OSAS, during a follow-up period of up to 18 years. STUDY DESIGN: Population-based cohort. SUBJECTS: In this population-based cohort analysis, all singleton live births, born to a mother with at least one previous birth occurring between 1991 and 2014, were included. Congenital malformations were excluded. MATERIALS AND METHODS: Hospitalizations of the offspring due to OSAS diagnosis up to 18 years of age, were evaluated according to IPI length. Intermediate IPI (6-60 months) was considered as the reference. A Kaplan-Meier survival curve and a Cox hazards regression model were used to compare the incidence of OSAS between the groups, and to adjust for confounding variables. RESULTS: The study population included 144,397 deliveries, of which 13.1% (n = 18,947) were followed by short IPI, 7.9% (n = 11,438) and 79.0% (n = 114,012) were followed by long and intermediate IPI, respectively. OSAS hospitalization rates were significantly higher among the long IPI group compared to intermediate and short IPIs (0.9%; 0.7% and 0.6%, respectively, p = .001). The association between long IPI and offspring pediatric OSAS remained significant after controlling for preterm delivery, maternal diabetes, and smoking, and mode of delivery, (adjusted HR = 1.45; 95% CI, 1.17-1.80). CONCLUSIONS: Children born following long IPI are at increased risk for pediatric OSAS."""
+
+

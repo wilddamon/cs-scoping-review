@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetomaternalmorbidityrelatedtomultiplecesareansections2022jan
+"Objective: To observe the effects of repeat cesarean sections on mother and fetal outcomes. Methodology: This observational study was conducted in the Obstetrics and Gynecology Department, District Headquarter Hospital, Rawalpindi, Pakistan from Feb 2019 to Jan 2020. The study included recurrent cesarean patients, divided into three groups; Group I women (n = 300) who had 2 births by C-section, Group II (n = 185) included women who had 3 births by C-section, and Group III (n = 45) included women who had four or more C-section. Case records were analyzed for demographic and clinical features such as age, duration of surgery, parity, and hospitalstay prenatal complications and estimated blood loss (EBL) during surgery. Intraoperative complications were observed in terms of severe adhesions, scar separation, placenta praevia, morbid adherent placenta, surrounding intestinal damage, anesthetic complications, the need for blood transfusions and fetal outcomes. Result(s): A significant increase was observed in women with more than two cesarean births in adhesions, placenta adhesion, placenta praevia and obstetric hysterectomy requirements. We could not find a significant increase in surgery time, injuries to surrounding structures, need for blood transfusions, and anesthesia complications between the three groups. Conclusion(s): Women with recurrent cesarean sections are at risk of developing intraoperative complications that may increase the risk of fetal and maternal morbidity, but their greater number does not constitute an additional risk.Copyright (c) 2022, Pakistan Medical Association. All rights reserved."""
+
+

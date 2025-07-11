@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalasthmadiabetesandhighbloodpressureareassociatedwithlowbirthweightandincreasedhospitalbirthanddeliverychargeshawaiihospitaldischargedata200320082014hayes
+"Asthma, diabetes, and high blood pressure are common maternal conditions that can impact birth outcomes. Data from hospital discharges in Hawai'i were analyzed for 107,034 singleton births from 2003-2008. Categories were determined using the International Statistical Classification of Diseases, ninth revision (ICD-9) from linked delivery records of mother and infant. Prevalence estimates of asthma (ICD-9: 493), diabetes (ICD-9: 250,648.0, 648.8), high blood pressure (ICD-9: 401-405,642) as coded on the delivery record, low birth weight (<2500 grams), high birth weight (>4500 grams), Cesarean delivery, and median hospital charges were calculated. Median regression analysis assessed total hospital charges adjusting for maternal age, maternal race, insurance, and Cesarean delivery. Maternal asthma was present in 4.3% (95% confidence interval=4.1-4.4%), maternal diabetes was present in 7.7% (95% CI=7.6-7.9%), and maternal high blood pressure was present in 9.2% (95% CI=9.0-9.3%) of births. In the adjusted median regression analysis, mothers with asthma had $999 (95% CI: $886 to $1,112) higher hospital charges compared to those without; mothers with diabetes had $743 (95% CI: $636 to $850) higher charges compared to those without; and mothers with high blood pressure had $2,314 (95% CI: $2,194 to $2,434) higher charges compared to those without. Asthma, diabetes, and high blood pressure are associated with higher hospital delivery charges and low birth weight. Diabetes and high blood pressure were also associated with Cesarean delivery. An increased awareness of the impact of these conditions on both adverse birth outcomes and the development of chronic disease is needed."""
+
+

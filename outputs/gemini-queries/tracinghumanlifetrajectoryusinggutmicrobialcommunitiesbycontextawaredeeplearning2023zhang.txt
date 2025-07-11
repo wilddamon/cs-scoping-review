@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: tracinghumanlifetrajectoryusinggutmicrobialcommunitiesbycontextawaredeeplearning2023zhang
+"The gut microbial communities are highly plastic throughout life, and the human gut microbial communities show spatial-temporal dynamic patterns at different life stages. However, the underlying association between gut microbial communities and time-related factors remains unclear. The lack of context-awareness, insufficient data, and the existence of batch effect are the three major issues, making the life trajection of the host based on gut microbial communities problematic. Here, we used a novel computational approach (microDELTA, microbial-based deep life trajectory) to track longitudinal human gut microbial communities' alterations, which employs transfer learning for context-aware mining of gut microbial community dynamics at different life stages. Using an infant cohort, we demonstrated that microDELTA outperformed Neural Network for accurately predicting the age of infant with different delivery mode, especially for newborn infants of vaginal delivery with the area under the receiver operating characteristic curve of microDELTA and Neural Network at 0.811 and 0.436, respectively. In this context, we have discovered the influence of delivery mode on infant gut microbial communities. Along the human lifespan, we also applied microDELTA to a Chinese traveler cohort, a Hadza hunter-gatherer cohort and an elderly cohort. Results revealed the association between long-term dietary shifts during travel and adult gut microbial communities, the seasonal cycling of gut microbial communities for the Hadza hunter-gatherers, and the distinctive microbial pattern of elderly gut microbial communities. In summary, microDELTA can largely solve the issues in tracing the life trajectory of the human microbial communities and generate accurate and flexible models for a broad spectrum of microbial-based longitudinal researches."""
+
+

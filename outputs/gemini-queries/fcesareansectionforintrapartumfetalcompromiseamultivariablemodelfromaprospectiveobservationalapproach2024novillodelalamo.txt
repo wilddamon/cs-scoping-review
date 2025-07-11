@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofcesareansectionforintrapartumfetalcompromiseamultivariablemodelfromaprospectiveobservationalapproach2024novillodelalamo
+"OBJECTIVE: A cesarean section for intrapartum fetal compromise (IFC) is performed to avoid potential damage to the newborn. It is, therefore, crucial to develop an accurate prediction model that can anticipate, prior to labor, which fetus may be at risk of presenting this condition.;MATERIAL AND METHODS: To calculate a prediction model for IFC, the clinical, epidemiological, and ultrasonographic variables of 538 patients admitted to the maternity of La Fe Hospital were studied and evaluated using univariable and multivariable logistic regression analysis, using the area under the curve (AUC) and the Akaike Information Criteria (AIC).;RESULTS: In the univariable analysis, CPR MoM was the best single parameter for the prediction of CS for IFC (OR 0.043, p < 0.0001; AUC 0.72, p < 0.0001). Concerning the multivariable analysis, for the general population, the best prediction model (lower AIC) included the CPR multiples of the median (MoM), the maternal age, height, and parity, the smoking habits, and the type of labor onset (spontaneous or induction) (AUC 0.80, p < 0.0001). In contrast, for the pregnancies undergoing labor induction, the best prediction model included the CPR MoM, the maternal height and parity, and the smoking habits (AUC 0.80, p < 0.0001). None of the models included estimated fetal weight (EFW).;CONCLUSIONS: CS for IFC can be moderately predicted prior to labor using maternal characteristics and CPR MoM. A validation study is pending to apply these models in daily clinical practice."""
+
+

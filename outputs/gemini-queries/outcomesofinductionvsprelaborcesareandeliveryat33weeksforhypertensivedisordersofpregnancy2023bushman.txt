@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesofinductionvsprelaborcesareandeliveryat33weeksforhypertensivedisordersofpregnancy2023bushman
+"BACKGROUND: Hypertensive disorders of pregnancy are the leading cause of indicated preterm birth; however, the optimal delivery approach for pregnancies complicated by preterm hypertensive disorders of pregnancy remains uncertain. OBJECTIVE: This study aimed to compare maternal and neonatal morbidity in patients with hypertensive disorders of pregnancy who either went induction of labor or prelabor cesarean delivery at <33 weeks' gestation. In addition, we aimed to quantify the length of induction of labor and rate of vaginal delivery in those who underwent induction of labor. STUDY DESIGN: This is a secondary analysis of an observational study which included 115,502 patients in 25 hospitals in the United States from 2008 to 2011. Patients were included in the secondary analysis if they were delivered for pregnancy associated hypertension (gestational hypertension or preeclampsia) between 23(0) and <33(0) weeks' gestation; and were excluded for known fetal anomalies, multiple gestation, fetal malpresentation or demise, or a contraindication to labor. Maternal and neonatal adverse composite outcomes were evaluated by intended mode of delivery. Secondary outcomes were duration of labor induction and rate of cesarean delivery in those who underwent labor induction. RESULTS: A total of 471 patients met inclusion criteria, of whom 271 (58%) underwent induction of labor and 200 (42%) underwent prelabor cesarean delivery. Composite maternal morbidity was 10.2% in the induction group and 21.1% in the cesarean delivery group (unadjusted odds ratio, 0.42 [0.25-0.72]; adjusted odds ratio, 0.44 [0.26-0.76]). Neonatal morbidity in the induction group vs the cesarean delivery was 51.9% and 63.8 %, respectively (unadjusted odds ratio, 0.61 [0.42-0.89]; adjusted odds ratio, 0.71 [0.48-1.06]). The frequency of vaginal delivery in the induction group was 53% (95% confidence interval, 46.8-58.7) and the median duration of labor was 13.9 hours (interquartile range, 8.7-22.2). The frequency of vaginal birth was higher in patients at or beyond 29 weeks (39.9% at 24(0)-28(6) weeks, 56.3% at 29(0)-<33(0) weeks; P=.01). CONCLUSION: Among patients delivered for hypertensive disorders of pregnancy <33(0) weeks, labor induction compared with prelabor cesarean delivery is associated with significantly lower odds of maternal but not neonatal morbidity. More than half of patients induced delivered vaginally, with a median duration of labor induction of 13.9 hours."""
+
+

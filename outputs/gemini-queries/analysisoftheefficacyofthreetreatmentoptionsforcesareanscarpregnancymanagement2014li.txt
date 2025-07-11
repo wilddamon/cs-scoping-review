@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: analysisoftheefficacyofthreetreatmentoptionsforcesareanscarpregnancymanagement2014li
+"AIM: To assess three different methods in treating patients with cesarean scar pregnancy (CSP).;METHODS: We evaluated pre-, intra- and postoperative conditions of 124 CSP patients in one of the three treatment groups, of which 37 patients underwent uterine curettage by hysteroscopy under ultrasound monitoring (group 1), 28 patients were treated with methotrexate followed by hysteroscopy (group 2) and 59 cases underwent uterine arterial embolization followed by hysteroscopy (group 3). The treatment options were determined based on the patients' conditions.;RESULTS: Among all three groups, group 3 (uterine arterial embolization followed by hysteroscopy) had the least intraoperative blood loss and the highest success rate with curettage, but the highest hospitalization cost. Group 1 (only hysteroscopy) had the shortest length of hospitalization and the lowest cost, but the highest intraoperative blood loss and slowest recovery. Group 2 (methotrexate followed by hysteroscopy) had the longest period of hospitalization, and other indexes had fallen in between the other two groups.;CONCLUSION: Among the three methods, uterine arterial embolization followed by hysteroscopy is the safest and most efficient method without considering the cost of hospitalization. Patients with a low level of beta-hCG may consider choosing hysteroscopy under ultrasound monitoring or methotrexate followed by hysteroscopy. The advantage is low cost of hospitalization; however, patients may be under relatively higher surgical risks and lower first time surgical success rate, especially for patients treated by hysteroscopy under ultrasound monitoring. Copyright (c) 2014 The Authors. Journal of Obstetrics and Gynaecology Research (c) 2014 Japan Society of Obstetrics and Gynecology."""
+
+

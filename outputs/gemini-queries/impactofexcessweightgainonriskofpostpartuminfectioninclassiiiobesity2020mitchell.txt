@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofexcessweightgainonriskofpostpartuminfectioninclassiiiobesity2020mitchell
+"Objective To assess the impact of gestational weight gain >20 pounds (more than Institute of Medicine [IOM] recommendations) on postpartum infectious morbidity in women with class III obesity. Methods This is a retrospective cohort of term, nonanomalous singleton pregnancies with body mass index >=40 at a single institution from 2013 to 2017. Pregnancies with multiple gestation, late entry to care, and missing weight gain data are excluded. Primary outcome is a composite of postpartum infection (endometritis, urinary tract, respiratory, and wound infection). Secondary outcomes include components of composite, wound complication, readmission, and blood transfusion. Bivariate statistics compared demographics, pregnancy complications, and delivery characteristics of women exceeding IOM guidelines (GT20) with those who did not (LT20). Regression models were used to estimate adjusted odds of outcomes. Results Of 374 women, 144 (39%) gained GT20 and 230 (62%) gained LT20. Primiparous, nonsmokers more likely gained GT20 (p < 0.05). No significant difference in other demographics. Among women who gained GT20, 10.4% had postpartum infectious morbidity compared with 3.0% in LT20 (p < 0.01). Wound infection is more common in the GT20 group (7.6 vs. 2%, p = 0.02). After adjustment, women who gained GT20 had threefold higher odds of postpartum infectious morbidity (adjusted odds ratio: 3.17, 95% confidence interval: 1.17, 8.60). Conclusion Women with class III obesity who gain more than the IOM recommends are at increased risk for postpartum infectious morbidity.Copyright (c) 2020 Royal Society of Chemistry. All rights reserved."""
+
+

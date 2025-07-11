@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trendsintheincidenceofdiabetesitsclinicalsequelaeandassociatedcostsinpregnancy2015jovanovic
+"BACKGROUND: Increasing diabetes prevalence affects a substantial number of pregnant women in the United States. Our aims were to evaluate health outcomes, medical costs, risks and types of complications associated with diabetes in pregnancy for mothers and newborns. METHODS: In this retrospective claims analysis, patients were identified from the Truven Health MarketScan((r)) database (2004-2011 inclusive). Participants were aged 18-45 years, with ascertainable diabetes status [Yes/No], date of birth event >2005 and continuous health plan enrolment >=21 months before and 3 months after the birth. RESULTS: In total, 839 792 pregnancies were identified, and 66 041 (7.86%) were associated with diabetes mellitus [type 1 (T1DM), 0.13%; type 2 (T2DM), 1.21%; gestational (GDM), 6.29%; and GDM progressing to T2DM (patients without prior diabetes who had a T2DM diagnosis after the birth event), 0.23%]. Relative risk (RR) of stillbirth (2.51), miscarriage (1.28) and Caesarean section (C-section) (1.77) was significantly greater with T2DM versus non-diabetes. Risk of C-section was also significantly greater for other diabetes types [RR 1.92 (T1DM); 1.37 (GDM); 1.63 (GDM progressing to T2DM)]. Risk of overall major congenital (RR >= 1.17), major congenital circulatory (RR >= 1.19) or major congenital heart (RR >= 1.18) complications was greater in newborns of mothers with diabetes versus without. Mothers with T2DM had significantly higher risk (RR >= 1.36) of anaemia, depression, hypertension, infection, migraine, or cardiac, obstetrical or respiratory complications than non-diabetes patients. Mean medical costs were higher with all diabetes types, particularly T1DM ($27 531), than non-diabetes ($14 355). CONCLUSIONS: Complications and costs of healthcare were greater with diabetes, highlighting the need to optimize diabetes management in pregnancy."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandfetalriskfactorsforneonatalhypoxicischemicencephalopathyaretrospectivestudy2023chen
+"Background: Neonatal hypoxic-ischemic encephalopathy (HIE) leads to different degree of neurological sequelae. The incidence of HIE is relatively high, and the risk factors associated with HIE are still controversial. It is necessary to identify the risk factors associated with HIE. Method(s): A total of 258 neonates (110 HIE patients and 148 controls) were enrolled in this study. The characteristics of pregnant women and fetuses during pregnancy and delivery were compared between HIE patients and controls, and the risk factors of HIE were analyzed. Result(s): The proportions of premature infants, low-birth-weight infants and the levels of 1-minute Apgar score, 5-minute Apgar score in HIE group were significantly lower than those in control group, while the proportion of amniotic fluid contamination in the HIE group was significantly higher than those of the controls. When HIE was taken as the end point of 1-minute Apgar score, and 5-minute Apgar score, the cut-off value of 1-minute Apgar score was 3, and 5-minute Apgar score was 7 by receiver operating characteristic (ROC) curve analysis. The results of multivariate logistic regression analysis showed that low birth weight (<2.5 kg) (OR 1.780, 95% CI: 0.124-25.463, P=0.016), amniotic fluid contamination (OR 3.223, 95% CI: 1.049-9.901, P=0.041), low 1-minute Apgar score (<=3) (OR 92.425, 95% CI: 15.522-550.343, P<0.001), and low 5-minute Apgar score (<=7) (OR 12.641, 95% CI: 2.894-55.227, P=0.001) may increase risk of HIE. In addition, amniotic fluid contamination, low 1-minute Apgar score (<=3), and low 5-minute Apgar score (<=7) may increase risk of HIE among newborns born to women without previous childbearing history, but not in newborns born to women with previous childbearing history. Conclusion(s): Low birth weight (<2.5 kg), amniotic fluid contamination, low 1-minute Apgar score (<=3), and 5-minute Apgar score (<=7) may increase risk of HIE.Copyright (c) 2023 Chen et al."""
+
+

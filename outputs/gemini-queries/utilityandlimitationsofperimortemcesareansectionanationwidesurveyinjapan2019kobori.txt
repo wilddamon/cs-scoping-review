@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: utilityandlimitationsofperimortemcesareansectionanationwidesurveyinjapan2019kobori
+"AIM: Perimortem cesarean section (PCS) is a procedure performed as part of cardiopulmonary resuscitation (CPR). This study aims to clarify maternal and neonatal prognosis and establish PCS's utility and limitations.;METHODS: We sent structured questionnaires to obstetrics facilities regarding the cases of PCS performed in Japan between April 2010 and April 2015. Receiver operating characteristic (ROC) curve was used to determine the optimal cut-off values of the time from cardiopulmonary arrest (CPA) to return of spontaneous circulation to predict the onset of disseminated intravascular coagulation (DIC).;RESULTS: PCS was performed for 18 patients. Out of 18 patients, 12 were resuscitated. The women who were discharged without major sequelae (n = 6) were compared with the non-discharged women who were dead or in persistent vegetative state (n = 12), and median interval time from arrest to PCS was significantly shorter in the former group (P = 0.002). Median interval time from CPA to PCS in the cases in which the neonates survived without major morbidities was significantly shorter than that in the cases of neonatal death and hypoxic encephalopathy (P = 0.01). DIC was observed in 8/9 (89%) patients whose resuscitation took more than 20 min from the diagnosis of CPA. Percutaneous cardiopulmonary support (PCPS) was introduced in 4/9 patients. However, more cases with uncontrolled bleeding, possibly caused by a sudden increase in blood flow and DIC after resuscitation, were observed in the PCPS group compared to the non-PCPS group.;CONCLUSION: PCS can be an effective CPR procedure. However, if PCS is not performed within 20 min from CPA, starting PCPS before PCS is an option. Copyright (c) 2018 Japan Society of Obstetrics and Gynecology."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thedevelopmentandapplicationofapredictionmodelforpostpartumdepressionoptimizingriskassessmentandpreventionintheclinic2022yang
+"BACKGROUND: Preventive intervention can significantly reduce the human and economic costs of postpartum depression (PPD) compared with treatment post-diagnosis. However, identifying women with a high PPD risk and making a judgement as to the benefits of preventive intervention is a major challenge. METHODS: This is a retrospective study of parturients that underwent a cesarean delivery. Control group was used as development cohort and validation cohort to construct the risk prediction model of PPD and determine a risk threshold. Ketamine group and development cohort were used to verify the risk classification of parturients by evaluating whether the incidence of PPD decreased significantly after ketamine treatment in high-risk for PPD population. RESULTS: The AUC for the development cohort and validation cohort of the PPD prediction model were 0.751 (95%CI:0.700-0.802) and 0.748 (95%CI:0.680-0.816), respectively. A threshold of 19% PPD risk probability was determined, with a specificity and sensitivity in the validation cohort are 0.766 and 0.604, respectively. After matching the high-risk group and the low-risk group by propensity score, the results demonstrated that PPD incidence significantly reduced in the high-risk group following ketamine, versus non-ketamine, intervention (p < 0.01). In contrast, intervention in the low-risk group showed no significant difference in PPD outcomes (p > 0.01). LIMITATION: Randomized trials are needed to further verify the feasibility of the model and the thresholds proposed. CONCLUSION: This prediction model developed in this study shows utility in predicting PPD risk. Ketamine intervention significantly lowers PPD incidence in parturients with a risk classification threshold greater than 19%."""
+
+

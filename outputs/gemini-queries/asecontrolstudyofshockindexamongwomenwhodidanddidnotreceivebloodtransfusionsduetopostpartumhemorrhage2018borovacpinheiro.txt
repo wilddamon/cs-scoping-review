@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: casecontrolstudyofshockindexamongwomenwhodidanddidnotreceivebloodtransfusionsduetopostpartumhemorrhage2018borovacpinheiro
+"OBJECTIVE: To compare shock index (SI) values between women who required blood transfusion due to postpartum hemorrhage (PPH) and women who did not. METHODS: In a case-control study, clinical data were assessed from the medical records of women requiring blood transfusion for PPH at a center in Brazil between 2012 and 2015 (n=105). A control group was randomly selected from women who did not receive blood transfusion (n=129). RESULTS: Compared with women who did not receive a transfusion after delivery, women who did receive one had significantly higher SI values 10 minutes after delivery (0.81 +- 0.27 vs 0.72 +- 0.16; P=0.012), at 30 minutes (0.83 +- 0.26 vs 0.71 +- 0.15; P<0.001), and at 2 hours (0.84 +- 0.27 vs 0.70 +- 0.14; P=0.032). For vaginal deliveries, SI values were significantly different at 30 minutes (0.88 +- 0.26 vs 0.71 +- 0.14; P<0.001) and 2 hours (0.90 +- 0.23 vs 0.72 +- 0.14; P=0.001). No significant differences were found for cesarean delivery. CONCLUSION: The SI might be useful to identify early vital sign changes due to PPH. Increased SI values were associated with need for transfusion in vaginal deliveries."""
+
+

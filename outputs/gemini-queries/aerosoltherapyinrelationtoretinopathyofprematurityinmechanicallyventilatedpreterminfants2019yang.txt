@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aerosoltherapyinrelationtoretinopathyofprematurityinmechanicallyventilatedpreterminfants2019yang
+"BACKGROUND: Aerosol administration is increasingly being used as a therapeutic intervention for mechanically ventilated preterm infants. However, the effects of inhalation therapy on retinopathy of prematurity (ROP) have not yet been explored. METHODS: A retrospective cohort study was conducted in a tertiary level neonatal intensive care unit (NICU) from 2011 to 2013. All preterm infants with a gestational age (GA) of 24~29 weeks receiving invasive intubation for more than 1 week in the NICU were included. Infants with severe congenital anomalies were excluded. ROP was defined as stage II or greater according to medical records by ophthalmologists. A multivariate logistic regression model was used to estimate the risk of ROP in relation to inhalation therapy after adjusting for confounders. RESULTS: In total, 205 infants were enrolled in this study, including 154 with inhalation therapy and 51 without inhalation therapy. Univariate analyses showed an association of inhalation with the following characteristics: sex (p = 0.047), GA (p = 0.029), sepsis (p = 0.047), bronchopulmonary dysplasia (BPD) (p < 0.001), and ROP (p = 0.001). Furthermore, logistic regression analysis indicated that inhalation therapy was an independent risk factor for ROP (odds ratio (OR) = 2.639; 95% confidence interval (CI) = 1.050~6.615). In addition, infants with a GA of 24~25 weeks (OR = 6.063; 95% CI = 2.482~14.81) and 26~27 weeks (OR = 3.825; 95% CI = 1.694~8.638) were at higher risk of ROP than those with a GA of 28~29 weeks. Other factors - including sex, sepsis, BPD, and delivery mode - did not carry significant risk. CONCLUSION: Aerosol therapy with pure oxygen delivery is associated with ROP. Clinicians should exercise great caution when conducting aerosol therapy with excess oxygen in mechanically ventilated preterm infants."""
+
+

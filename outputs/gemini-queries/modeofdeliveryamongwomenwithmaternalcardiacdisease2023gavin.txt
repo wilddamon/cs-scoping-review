@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofdeliveryamongwomenwithmaternalcardiacdisease2023gavin
+"OBJECTIVE: To determine if maternal cardiac disease affects delivery mode and to investigate maternal morbidity. STUDY DESIGN: Retrospective cohort study performed using electronic medical record data. Primary outcome was mode of delivery; secondary outcomes included indication for cesarean delivery, and rates of severe maternal morbidity. RESULTS: Among 14,160 deliveries meeting inclusion criteria, 218 (1.5%) had maternal cardiac disease. Cesarean delivery was more common in women with maternal cardiac disease (adjusted odds ratio 1.63 [95% confidence interval 1.18-2.25]). Patients delivered by cesarean delivery in the setting of maternal cardiac disease had significantly higher rates of severe maternal morbidity, with a 24.38-fold higher adjusted odds of severe maternal morbidity (95% confidence interval: 10.56-54.3). CONCLUSION: While maternal cardiac disease was associated with increased risk of cesarean delivery, most were for obstetric indications. Additionally, cesarean delivery in the setting of maternal cardiac disease is associated with high rates of severe maternal morbidity."""
+
+

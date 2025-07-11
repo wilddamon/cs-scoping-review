@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: transcriptomeinterrogationofhumanmyometriumidentifiesdifferentiallyexpressedsenseantisensepairsofproteincodingandlongnoncodingrnagenesinspontaneouslaboratterm2014romero
+"OBJECTIVE: To identify differentially expressed long non-coding RNA (lncRNA) genes in human myometrium in women with spontaneous labor at term.;MATERIALS AND METHODS: Myometrium was obtained from women undergoing cesarean deliveries who were not in labor (n = 19) and women in spontaneous labor at term (n = 20). RNA was extracted and profiled using an Illumina R microarray platform. We have used computational approaches to bound the extent of long non-coding RNA representation on this platform, and to identify co-differentially expressed and correlated pairs of long non-coding RNA genes and protein-coding genes sharing the same genomic loci.;RESULTS: We identified co-differential expression and correlation at two genomic loci that contain coding-lncRNA gene pairs: SOCS2-AK054607 and LMCD1-NR_024065 in women in spontaneous labor at term. This co-differential expression and correlation was validated by qRT-PCR, an experimental method completely independent of the microarray analysis. Intriguingly, one of the two lncRNA genes differentially expressed in term labor had a key genomic structure element, a splice site, that lacked evolutionary conservation beyond primates.;CONCLUSIONS: We provide, for the first time, evidence for coordinated differential expression and correlation of cis-encoded antisense lncRNAs and protein-coding genes with known as well as novel roles in pregnancy in the myometrium of women in spontaneous labor at term."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: initialhematocritvaluesafterbirthandperiintraventricularhemorrhageinextremelylowbirthweightinfants2018dekom
+"OBJECTIVE: Ischemia followed by reperfusion plays a significant role in the pathogenesis of peri/intraventricular hemorrhage (P/IVH). Delayed cord clamping promotes placental transfusion to newborn and is associated with decreased P/IVH. We hypothesized that extremely low birth weight (ELBW) infants with higher initial hematocrit (Hct) after birth are less likely to develop P/IVH.;STUDY DESIGN: Pre- and postnatal data on inborn ELBW infants over 7 years were reviewed. We examined the relationship between P/IVH in the first week and initial Hct using logistic regression modeling.;RESULTS: We studied 225 infants with a median gestational age (GA) 25.7 (22.4-31.7). Forty-one percent had grade I-IV P/IVH. In univariate analysis, cesarean section (CS) and higher GA, birth weight, 5-minute Apgar, and initial Hct were associated with decreased likelihood of P/IVH while higher maximum PCO2 in first 3 days and use of inotropes/vasopressors, postnatal steroid for hypotension, hypernatremia, transfusion, and use of insulin for hyperglycemia during the first week of life were associated with increased likelihood of P/IVH. In multiple regression analysis, only GA, CS, and initial Hct remained significantly associated with P/IVH. Adjusting for GA and CS, the odds of P/IVH was higher with Hct < 40% (OR 2.04, 95% CI [1.11, 3.76]) and Hct < 45% (2.38 [1.19, 4.76]).;CONCLUSION: Higher initial Hct is associated with decreased P/IVH. Initial Hct < 45% was associated with a 2-fold increase in P/IVH. We speculate that lower initial Hct represents a lower intravascular volume status and promotes cerebral hypoperfusion preceding P/IVH."""
+
+

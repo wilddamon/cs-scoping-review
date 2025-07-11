@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweencervicallengthandmassiveintraoperativebleedinginpatientswithsuspectedplacentaaccretaspectrumcombinedwithplacentapreviaaretrospectivecohortstudy2022huang
+"PURPOSE: Abnormal placentation is a spectrum disorder that includes creta, increta, and percreta; the term placenta accreta spectrum (PAS) disorders is used as a broad term to describe all of these conditions. PAS can lead to life-threatening hemorrhage. The predictive value of cervical length (CL) in patients with PAS remains controversial. Thus, this study investigated the relationship between CL and the probability of major bleeding in patients with PAS and placenta previa. METHODS: This retrospective cohort study was conducted at a comprehensive tertiary hospital in Chongqing, China, between January 2018 and December 2020. The target independent and dependent variables were CL and intraoperative massive bleeding, respectively. The covariates included demographic, clinical, and ultrasound characteristics. Logistic regression was used to explore the association between CL and massive bleeding. RESULTS: In total, 317 participants were enrolled, in whom the prevalence of massive bleeding was 41.9% (133/317). The threshold of CL associated with massive bleeding (>=1,000 ml) was 33 mm based on a receiver operating characteristic curve. In the fully adjusted model for each additional unit of CL, the risk of massive bleeding decreased by 7% [95% confidence interval (CI), 0.88-0.98]. The risk of major bleeding was reduced by 44% in patients with a CL greater than 33 mm (95% CI, 0.33-0.97) compared with patients with a CL less than 33 mm. CONCLUSIONS: CL was negatively associated with massive intraoperative bleeding in patients with PAS combined with placenta previa. When the CL was greater than 33 mm, the risk of bleeding decreased by 44%. Thus, CL can be used as a standalone parameter to identify the risk of massive intraoperative bleeding in patients with suspected PAS."""
+
+

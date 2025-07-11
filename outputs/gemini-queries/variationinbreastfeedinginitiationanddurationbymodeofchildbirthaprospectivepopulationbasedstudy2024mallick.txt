@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: variationinbreastfeedinginitiationanddurationbymodeofchildbirthaprospectivepopulationbasedstudy2024mallick
+"Introduction: Despite known benefits of breastfeeding, including prevention against infections for infants, in the presence of numerous barriers, less than half of infants in high-income countries breastfeed for 6 months. One potential barrier to breastfeeding is birth by cesarean section (C-Section), which can invoke long-term difficulties. However, our structured literature review found that existing empirical research does not fully elucidate this relationship due to differences in operationalization of C-section and breastfeeding, omission of important confounders, and failure to exclude those who did not initiate breastfeeding (or use time-to-event analyses). In this article, we attempt to overcome these limitations. Methods: We analyzed data from 14,414 mother-infant dyads enrolled in the United Kingdom-based prospective Millennium Cohort Study, beginning in 2001. Using multivariable logistic regression, we examined the association between mode of birth (vaginal, emergency C-section, and elective C-section) and likelihood of breastfeeding initiation. We then applied adjusted Accelerated Failure Time survival models to examine the associations between mode of birth and duration of any and exclusive breastfeeding. Results: Those with planned (but not emergency) C-section were less likely to initiate breastfeeding (odds ratio: 0.84, 95% confidence interval [CI]: 0.71-0.99) relative to vaginal births. However, those with either planned or unplanned C-section discontinued both any and exclusive breastfeeding sooner than vaginal births. This effect was more pronounced for those with planned C-section (time ratio [TR]: 0.75, 95% CI: 0.64-0.89) than unplanned C-section (TR: 0.85, 95% CI: 0.74, 0.97) compared with vaginal births. Conclusions: Through application of rigorous methods, this study provides compelling evidence that breastfeeding duration may be impeded by C-section birth. The findings suggest that additional support for mothers who intend to breastfeed and have a C-section birth may be warranted."""
+
+

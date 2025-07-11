@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: embryotransferimpactacomprehensivenationalcohortanalysiscomparingmaternalandneonataloutcomesacrossvariedembryostagesinfreshandfrozentransfers2024chang
+"Introduction: The utilization of frozen embryo transfer not only enhances reproductive outcomes by elevating the likelihood of live birth and clinical pregnancy but also improves safety by mitigating the risks associated with ovarian hyperstimulation syndrome (OHSS) and multiple pregnancies. There has been an increasing debate in recent years regarding the advisability of making elective frozen embryo transfer the standard practice. Our study aims to determine the optimal choice between fresh and frozen embryo transfer, as well as whether the transfer should occur at the cleavage or blastocyst stage.;Method: In this retrospective cohort study conducted in Taiwan, data from the national assisted reproductive technology (ART) database spanning from January 1st, 2013, to December 31st, 2017, were analyzed. The study included 51,762 eligible female participants who underwent ART and embryo transfer. Pregnancy outcomes, maternal complications, and singleton neonatal outcomes were evaluated using the National Health Insurance Database from January 1st, 2013, to December 31st, 2018. Cases were categorized into groups based on whether they underwent fresh or frozen embryo transfers, with further subdivision into cleavage stage and blastocyst stage transfers. Exposure variables encompassed clinical pregnancy rate, live birth rate, OHSS, pregnancy-induced hypertension, gestational diabetes mellitus (DM), placenta previa, placental abruption, preterm premature rupture of membranes (PPROM), gestational age, newborn body weight, and route of delivery.;Results: Frozen blastocyst transfers showed higher rates of clinical pregnancy (CPR) and live births (LBR) compared to fresh blastocyst transfers. Conversely, frozen cleavage stage transfers demonstrated lower rates of clinical pregnancy and live birth compared to fresh cleavage stage transfers. Frozen embryo transfers were associated with reduced risks of OHSS but were linked to a higher risk of pregnancy-induced hypertension compared to fresh embryo transfers. Additionally, frozen embryo transfers were associated with a higher incidence of large for gestational age infants and a lower incidence of small for gestational age infants.;Conclusion: The freeze-all strategy may not be suitable for universal application. When embryos can develop to the blastocyst stage, FET is a favorable choice, but embryos can only develop to the cleavage stage, fresh embryo transfer becomes a more reasonable option. Copyright (c) 2024 Chang, Weng, Chuang, Hsu, Hsu and Tsai."""
+
+

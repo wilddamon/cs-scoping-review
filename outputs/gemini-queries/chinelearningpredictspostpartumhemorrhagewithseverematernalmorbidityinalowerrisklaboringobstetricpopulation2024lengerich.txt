@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: interpretablemachinelearningpredictspostpartumhemorrhagewithseverematernalmorbidityinalowerrisklaboringobstetricpopulation2024lengerich
+"BACKGROUND: Early identification of patients at increased risk for postpartum hemorrhage (PPH) associated with severe maternal morbidity (SMM) is critical for preparation and preventative intervention. However, prediction is challenging in patients without obvious risk factors for postpartum hemorrhage with severe maternal morbidity. Current tools for hemorrhage risk assessment use lists of risk factors rather than predictive models. OBJECTIVE: To develop, validate (internally and externally), and compare a machine learning model for predicting PPH associated with SMM against a standard hemorrhage risk assessment tool in a lower-risk laboring obstetric population. STUDY DESIGN: This retrospective cross-sectional study included clinical data from singleton, term births (>=37 weeks' gestation) at 19 US hospitals (2016-2021) using data from 44,509 births at 11 hospitals to train a generalized additive model (GAM) and 21,183 births at 8 held-out hospitals to externally validate the model. The outcome of interest was PPH with severe maternal morbidity (blood transfusion, hysterectomy, vascular embolization, intrauterine balloon tamponade, uterine artery ligation suture, uterine compression suture, or admission to intensive care). Cesarean birth without a trial of vaginal birth and patients with a history of cesarean were excluded. We compared the model performance to that of the California Maternal Quality Care Collaborative (CMQCC) Obstetric Hemorrhage Risk Factor Assessment Screen. RESULTS: The GAM predicted PPH with an area under the receiver-operating characteristic curve (AUROC) of 0.67 (95% CI 0.64-0.68) on external validation, significantly outperforming the CMQCC risk screen AUROC of 0.52 (95% CI 0.50-0.53). Additionally, the GAM had better sensitivity of 36.9% (95% CI 33.01, 41.02) than the CMQCC screen sensitivity of 20.30% (95% CI 17.40, 22.52) at the CMQCC screen positive rate of 16.8%. The GAM identified in-vitro fertilization as a risk factor (adjusted OR 1.5; 95% CI 1.2-1.8) and nulliparous births as the highest PPH risk factor (adjusted OR 1.5; 95% CI; 1.4-1.6). CONCLUSION: Our model identified almost twice as many cases of PPH as the CMQCC rules-based approach for the same screen positive rate and identified in-vitro fertilization and first-time births as risk factors for PPH. Adopting predictive models over traditional screens can enhance PPH prediction."""
+
+

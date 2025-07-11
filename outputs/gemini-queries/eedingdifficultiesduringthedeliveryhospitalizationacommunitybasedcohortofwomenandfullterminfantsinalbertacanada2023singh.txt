@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofcaesareandeliveryandbreastfeedingdifficultiesduringthedeliveryhospitalizationacommunitybasedcohortofwomenandfullterminfantsinalbertacanada2023singh
+"OBJECTIVE: Breastfeeding difficulties are the most common reason for breastfeeding cessation, particularly in the early postpartum. Caesarean delivery is associated with earlier breastfeeding cessation than is the case with vaginal delivery, but differences in breastfeeding difficulties by mode of delivery have not been thoroughly examined. Our objective was to explore the association between Caesarean delivery and types of breastfeeding difficulties. METHODS: We conducted a secondary analysis of data from a prospective cohort study of mothers who delivered full-term, singleton infants in Calgary, Alberta, Canada (N = 418). Women completed self-report questionnaires during the delivery hospitalization. Mode of delivery was defined as vaginal or Caesarean, and further classified as planned or unplanned Caesarean. Breastfeeding difficulties were measured using the Breastfeeding Experiences Scale and operationalized with binary variables for presence of various types of maternal (i.e. physical, supply, social) and infant (i.e. latch, behaviour/health) difficulties that were reported as moderate to unbearable. Multivariable logistic regression was used to estimate adjusted odds ratios (AORs) and 95% confidence intervals (CIs). RESULTS: Overall, 37.1% of women had a Caesarean delivery and 80.9% experienced a breastfeeding difficulty during the delivery hospitalization. Of the difficulties studied, Caesarean delivery was significantly associated with low milk supply (AOR = 1.62, 95% CI = 1.16-2.28) and infant behaviour/health difficulties (AOR = 1.33, 95% CI = 1.01-1.75). The association with low milk supply persisted when examining both planned (AOR = 2.42, 95% CI = 1.19-4.92) and unplanned (AOR = 2.21, 95% CI = 1.16-4.22) Caesarean deliveries. CONCLUSION: Mothers who deliver by Caesarean have higher odds of reporting low milk supply and infant behaviour/health difficulties than women who deliver vaginally."""
+
+

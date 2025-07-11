@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivestudyofpreoperativefastingtimespriortoelectiveoremergencycesareanbirthinalargematernityhospitallessonstobelearnedtominimizethefastingtime2024kaijomaa
+"INTRODUCTION: When managing elective and emergency cesarean births in the same operating room, unpredictable variations in the start times of the cesareans can prolong fasting periods.;METHODS: The fasting times were retrospectively analyzed on 279 consecutive cesarean births at Helsinki University Women's Hospital, Finland, during January-February 2023. The fasting times were compared between the urgency groups and for elective cesareans according to their scheduled order on the operation list. The primary outcome was the difference in the fasting times for food and drink, while the secondary outcome was fasting for both food >12 h and fluids >4 h. The fasting times were compared by one-way ANOVA and chi-squared test, respectively. Dichotomous data are presented as unadjusted odds ratios (OR with 95% CI).;RESULTS: Increasing urgency was associated with shorter fasting times. Fasting times for elective cesareans increased with the scheduled order on the daily list. The mean fasting periods (SD) increased from 10.55 h (SD=1.57) to 14.75 h (SD=2.02) from the first to the third cesarean of the day (p<0.01). The unadjusted odds ratio (95% CI) for fasting of the scheduled cesareans to exceed 12 h for solid foods and 4 h for clear fluids was 6.53 (95% CI: 2.67-15.9, p<0.001), for the third and fourth cesareans compared to the first two cesareans of the day.;CONCLUSIONS: When elective and emergency cesareans are performed by the same team, the woman undergoing the third elective surgery of the day should be advised to have breakfast before 5 a.m. at home. While waiting for the operation, a carbohydrate drink should be offered to limit the fast. Copyright (c) 2024 Kaijomaa M. et al."""
+
+

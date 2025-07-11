@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofmodelstopredictcesareandeliveryamonglowrisknulliparouswomenattermaretrospectivestudyinchina2023sun
+"Background: Intrapartum cesarean delivery has been the focus of many researchers. We derived and validated a model to predict cesarean for low-risk Chinese nulliparous undergoing induction of labor. Method(s): We developed a risk model for cesarean by including variables in univariate and multivariable logistic regression using the development set (3841 pregnant women). The performance of the model was assessed for the receiver operating characteristic (ROC) curve, calibration and decision curve analysis (DCA). Additionally, we validated the model externally using an independent dataset (3421 pregnant women). Result(s): Multivariable logistic regression analysis showed that age, height, body mass index (BMI), weight change during pregnancy, gestational age, premature rupture of membranes (PROM), meconium-stained amniotic fluid and neonatal sex were independent factors affecting cesarean outcome. Two models were established, depending on whether the sex of the fetus was included. The area under the ROC curve of two models were 0.755 and 0.748, respectively. We verified externally, and the area under the ROC curve of two models were 0.758 and 0.758, respectively. The calibration plots demonstrated a good correlation. DCA demonstrated that two models had clinical application value. The online web servers were constructed based on the nomograms for convenient clinical use. Conclusion(s): These two models can be used as useful tools to assess the risk of cesarean for low-risk Chinese nulliparous undergoing induction of labor.Copyright (c) 2023 The Author(s)."""
+
+

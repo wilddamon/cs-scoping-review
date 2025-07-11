@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: uterinearteryembolizationfollowedbydilationandcurettagewithin24hourscomparedwithsystemicmethotrexateforcesareanscarpregnancy2014gao
+"OBJECTIVE: To assess the efficacy of uterine artery embolization (UAE) combined with dilation and curettage (D&C) within 24 hours for the treatment of a cesarean scar pregnancy (CSP), compared with methotrexate and D&C. METHODS: A retrospective cohort study of 119 women with CSP was conducted at two tertiary hospitals in Guangzhou and Shenzhen, China, during 2009-2012. Twenty-six women received systemic methotrexate followed by D&C, and 93 women were treated with UAE followed by D&C within 24 hours. RESULTS: Mean blood loss was 261.0+-357.4 mL in the methotrexate group versus 14.1+-40.6 mL in the UAE group (P<0.001). The time to resolution of the level of b-human chorionic gonadotropin was 40.5+-17.2 days versus 15.4+-7.7 days (P<0.001), respectively. The duration of hospitalization was 14.6+-9.2 days versus 6.2+-3.7 days (P<0.001), respectively. An additional intervention was needed in 9 (35%) women in the methotrexate group and in 5 (5%) in the UAE group (P<0.001). CONCLUSION: UAE combined with D&C within 24 hours was an effective uterine preservation treatment for CSP, and was associated with less blood loss and a shorter hospital stay than administration of methotrexate followed by D&C."""
+
+

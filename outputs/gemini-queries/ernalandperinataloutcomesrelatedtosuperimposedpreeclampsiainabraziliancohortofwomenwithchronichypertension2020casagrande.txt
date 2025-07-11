@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandperinataloutcomesrelatedtosuperimposedpreeclampsiainabraziliancohortofwomenwithchronichypertension2020casagrande
+"OBJECTIVE: To describe maternal and perinatal outcomes for women with chronic hypertension, comparing those with superimposed pre-eclampsia (SPE) with those without pre-eclampsia (NPE). METHODS: In a retrospective cohort study in a tertiary hospital in Brazil, the records of women with chronic hypertension were reviewed between January 1, 2012, and May 31, 2017, in order to compare maternal and perinatal outcomes among those with and without SPE. Poisson regression was performed to investigate factors independently associated with severe pre-eclampsia. RESULTS: Of 385 women with chronic hypertension included in the study, 167 were in the SPE group and 218 in the NPE group. The majority were white, overweight (body mass index >=30 kg/m(2) ), with mean age around 31 years. Adverse neonatal outcomes were significantly more prevalent among women with SPE, including small for gestational age (SPE 17.46% vs NPE 9.63%, P=0.01), low birth weight (SPE 2577 g +- 938 vs NPE 3128 g +- 723, P=0.003), neonatal intensive care unit admission (SPE 44.91% vs NPE 18.34%, P=0.08), and incidence of cesarean delivery (SPE 79.64% vs NPE 62.38%, P=0.003). Fetal growth restriction (PR [prevalence ratio] 2.62, 95% confidence interval [CI] 1.39-4.94) and previous pre-eclampsia (PR 1.96, 95% CI 1.17-3.28) were associated with severe pre-eclampsia. CONCLUSION: SPE is associated with prematurity and higher rates of admission to neonatal intensive care unit. Fetal growth restriction and previous pre-eclampsia are factors associated with severe complications of pre-eclampsia."""
+
+

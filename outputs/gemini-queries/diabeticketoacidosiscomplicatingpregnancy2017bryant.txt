@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: diabeticketoacidosiscomplicatingpregnancy2017bryant
+"BACKGROUND: Although diabetic ketoacidosis (DKA) in pregnancy can result in significant adverse consequences for both mother and fetus, the response to treatment, time course of recovery, and perinatal outcomes have not been well studied in pregnancy.;OBJECTIVE: We examined the precipitating factors, laboratory abnormalities, treatment strategies, and clinical recovery in pregnancies complicated by DKA.;STUDY DESIGN: This is a retrospective cohort study of pregnancies complicated by DKA between October 1999 and June 2015. The diagnosis was verified by hyperglycemia; anion gap >12 mEq/L, pH <7.3, HCO3 <15 mEq/L; and the presence of ketones. Each episode of DKA was reviewed and subsequent perinatal outcomes analyzed.;RESULTS: During this period, we identified 33 women with 40 admissions (incidence: 0.2%). The majority of women had type 1 diabetes (67%), and almost all presented with nausea and vomiting (97%). Over half had poor compliance with prescribed insulin. The initial mean blood glucose was 380 mg/dL, within 6 hours, it was <200 mg/dL. By 12 hours, the acidosis had resolved in 90% of patients.;CONCLUSION: Nausea and vomiting is a prominent presenting feature of DKA in pregnancy. With aggressive insulin and resuscitation, hyperglycemia and acidosis improve rapidly. With current treatment, good perinatal outcomes can be expected."""
+
+

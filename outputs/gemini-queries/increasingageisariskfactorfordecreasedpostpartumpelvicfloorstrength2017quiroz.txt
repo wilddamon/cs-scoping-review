@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasingageisariskfactorfordecreasedpostpartumpelvicfloorstrength2017quiroz
+"OBJECTIVES: This study aimed to determine factors associated with decreased pelvic floor strength (PFS) after the first vaginal delivery (VD) in a cohort of low-risk women. METHODS: This is a secondary analysis of a prospective study examining the risk of pelvic floor injury in a cohort of primiparous women. All recruited participants underwent an examination, three-dimensional ultrasound and measurement of PFS in the third trimester and repeated at 4 weeks to 6 months postpartum using a perineometer. RESULTS: There were 84 women recruited for the study, and 70 completed the postpartum assessment. Average age was 28.4 years (standard deviation, 4.8). There were 46 (66%) subjects with a VD and 24 (34%) with a cesarean delivery who labored. Decreased PFS was observed more frequently in the VD group compared with the cesarean delivery group (68% vs 42%, P = 0.03).In modified Poisson regression models controlling for mode of delivery and time of postpartum assessment, women who were aged 25 to 29 years (risk ratio = 2.80, 95% confidence interval, 1.03-7.57) and 30 years and older (risk ratio = 2.53, 95% confidence interval, 0.93-6.86) were over 2.5 times more likely to have decreased postpartum PFS compared with women younger than 25 years. CONCLUSIONS: In this population, women aged 25 years and older were more than twice as likely to have a decrease in postpartum PFS."""
+
+

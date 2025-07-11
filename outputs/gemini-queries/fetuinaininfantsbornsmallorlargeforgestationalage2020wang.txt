@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetuinaininfantsbornsmallorlargeforgestationalage2020wang
+"Fetuin-A is a multifunctional glycoprotein that has been implicated in insulin resistance and bone metabolism. We assessed whether fetuin-A is associated with poor or excessive fetal growth. In the Shanghai Birth Cohort, we conducted a nested case-control study of 60 trios of small-for-gestational-age (SGA, birth weight <10th percentile), optimal-for-gestational-age (OGA, 25-75th, the reference) and large-for-gestational-age (LGA, >90th percentile) infants matched by sex and gestational age. Cord plasma concentrations of fetuin-A and fetal growth factors [insulin, proinsulin, insulin-like growth factor (IGF)-I and IGF-II] were measured. Cord plasma fetuin-A concentrations were higher in SGA (809.4 +/- 306.9 mug/ml, P = 0.026) and LGA (924.2 +/- 375.9 mug/ml, P < 0.001) relative to OGA (680.7 +/- 262.1 mug/ml) newborns, and were not correlated to insulin, proinsulin, IGF-I and IGF-II (all P > 0.2). Higher fetuin-A concentrations were associated with increased risks of SGA [OR = 1.67 (1.08-2.58) per SD increment, P = 0.024] and LGA [OR = 2.36 (1.53-3.66), P < 0.001]. Adjusting for maternal and neonatal characteristics and fetal growth factors, the elevated risk changed little for LGA [adjusted OR = 2.28 (1.29-4.01), P = 0.005], but became non-significant for SGA (P = 0.202). Our study is the first to demonstrate that fetuin-A may be involved in excessive fetal growth. This association is independent of fetal growth factors.(c) Copyright (c) 2020 Wang, Wang, Yang, Dong, He, Fang, Huang, Yu, Zhang, Zhao, Zheng, Huang, Zhang, Ouyang and Luo."""
+
+

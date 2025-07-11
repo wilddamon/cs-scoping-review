@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricandneonatalcomplicationsamongwomenwithautoimmunedisease2019williams
+"BACKGROUND: The impact of autoimmune diseases on pregnancy remains understudied on a population level. Examination of obstetric and neonatal outcomes among women with autoimmune disease and their infants can provide important insights for clinical management.;METHODS: Autoimmune diseases and outcomes were identified using medical records. Cesarean delivery, preterm birth, preeclampsia, small for gestational age (SGA), neonatal intensive care (NICU) admission, neonatal respiratory distress syndrome (RDS), and perinatal mortality risk was assessed. Poisson regression with robust standard errors estimated relative risks (RR) and 95% confidence intervals (95% CI) with adjustment for maternal characteristics and other chronic conditions.;RESULTS: Women with T1DM were at increased risk for nearly all outcomes including RDS (RR: 3.62; 95% CI: 2.84, 4.62), perinatal mortality (RR: 2.35; 95% CI: 1.12, 4.91), cesarean delivery (RR: 2.16; 95% CI: 2.02, 2.32) and preterm birth (RR: 3.52; 95% CI: 3.17, 3.91). Women with SLE also had higher risk for preterm delivery (RR: 2.90; 95% CI: 2.42, 3.48) and RDS (RR:2.99; 95% CI: 1.99, 4.51) as did women with Crohn's (cesarean delivery RR:1.31, 95% CI: 1.08, 1.60; preterm delivery RR: 1.84, 95% CI: 1.37, 2.49. RA increased risk for SGA (RR:1.66; 95% CI: 1.08, 2.55).;CONCLUSION(S): Despite the heterogeneity in autoimmune diseases, we observed elevated preterm birth risk for most women with autoimmune disease. SLE and T1DM appeared to confer increased risk for a wide range of adverse outcomes. Copyright Published by Elsevier Ltd."""
+
+

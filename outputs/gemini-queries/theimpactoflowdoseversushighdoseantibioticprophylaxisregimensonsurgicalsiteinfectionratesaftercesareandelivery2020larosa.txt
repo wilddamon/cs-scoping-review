@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactoflowdoseversushighdoseantibioticprophylaxisregimensonsurgicalsiteinfectionratesaftercesareandelivery2020larosa
+"OBJECTIVE: The objective of this study was to determine if high-dose antibiotic prophylaxis with cefazolin decreases the risk of surgical site infection (SSI) after a cesarean delivery. METHODS: We performed a retrospective cohort study of women who underwent a cesarean section. Two preoperative antibiotic regimens were compared: low dose versus high dose. The primary outcome was SSI. A sample size of 343 patients per group was calculated for a 50% reduction in risk for SSI. RESULTS: Seven hundred and thirty women were included with an incidence of SSI of 5%. Women who received the high-dose antibiotic regimen had lower rates of risk factors for SSI. The only exception was skin incision closure with staples. The rate of SSI did not differ between the low-dose and high-dose groups, even after adjusting for confounding variables [aOR 1.78, 95% CI (0.82-3.9)]. CONCLUSIONS: Higher doses of antibiotic prophylaxis did not decrease the rates of SSI after cesarean delivery."""
+
+

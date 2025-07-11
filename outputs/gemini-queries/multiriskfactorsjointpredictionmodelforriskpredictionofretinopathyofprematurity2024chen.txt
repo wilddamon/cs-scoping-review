@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: multiriskfactorsjointpredictionmodelforriskpredictionofretinopathyofprematurity2024chen
+"Purpose: Retinopathy of prematurity (ROP) is a retinal vascular proliferative disease common in low birth weight and premature infants and is one of the main causes of blindness in children. In the context of predictive, preventive and personalized medicine (PPPM/3PM), early screening, identification and treatment of ROP will directly contribute to improve patients' long-term visual prognosis and reduce the risk of blindness. Thus, our objective is to establish an artificial intelligence (AI) algorithm combined with clinical demographics to create a risk model for ROP including treatment-requiring retinopathy of prematurity (TR-ROP) infants. Method(s): A total of 22,569 infants who underwent routine ROP screening in Shenzhen Eye Hospital from March 2003 to September 2023 were collected, including 3335 infants with ROP and 1234 infants with TR-ROP among ROP infants. Two machine learning methods of logistic regression and decision tree and a deep learning method of multi-layer perceptron were trained by using the relevant combination of risk factors such as birth weight (BW), gestational age (GA), gender, whether multiple births (MB) and mode of delivery (MD) to achieve the risk prediction of ROP and TR-ROP. We used five evaluation metrics to evaluate the performance of the risk prediction model. The area under the receiver operating characteristic curve (AUC) and the area under the precision-recall curve (AUCPR) were the main measurement metrics. Result(s): In the risk prediction for ROP, the BW + GA demonstrated the optimal performance (mean +/- SD, AUCPR: 0.4849 +/- 0.0175, AUC: 0.8124 +/- 0.0033). In the risk prediction of TR-ROP, reasonable performance can be achieved by using GA + BW + Gender + MD + MB (AUCPR: 0.2713 +/- 0.0214, AUC: 0.8328 +/- 0.0088). Conclusion(s): Combining risk factors with AI in screening programs for ROP could achieve risk prediction of ROP and TR-ROP, detect TR-ROP earlier and reduce the number of ROP examinations and unnecessary physiological stress in low-risk infants. Therefore, combining ROP-related biometric information with AI is a cost-effective strategy for predictive diagnostic, targeted prevention, and personalization of medical services in early screening and treatment of ROP.Copyright (c) The Author(s) 2024."""
+
+

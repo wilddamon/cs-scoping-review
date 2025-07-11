@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: laborinductionwithorallyadministratedmisoprostolaretrospectivecohortstudy2017wallstrom
+"INTRODUCTION: One great challenge in obstetric care is labor inductions. Misoprostol has advantages in being cheap and stable at room temperature and available in resource-poor settings. MATERIAL AND METHODS: Retrospective cohort study of 4002 singleton pregnancies with a gestational age >=34 w at Sodersjukhuset, Stockholm, during 2009-2010 and 2012-2013. Previously used methods of labor induction were compared with misoprostol given as a solution to drink, every second hour. Main outcome is as follows: Cesarean Section (CS) rate, acid-base status in cord blood, Apgar score < 7,5', active time of labor, and blood loss > 1500 ml (PPH). RESULTS: The proportion of CS decreased from 26% to 17% when orally given solution of misoprostol was introduced at the clinic (p < 0.001). No significant difference in the frequency of low Apgar score (p = 0.3), low aPh in cord blood (p = 0.1), or PPH (p = 0.4) between the different methods of induction was studied. After adjustment for different risk factor for CS the only method of induction which was associated with CS was dinoproston(**) (Propess(r)) (aor = 2.9 (1.6-5.2)). CONCLUSION: Induction of labor with misoprostol, given as an oral solution to drink every second hour, gives a low rate of CS, without affecting maternal or fetal outcome."""
+
+

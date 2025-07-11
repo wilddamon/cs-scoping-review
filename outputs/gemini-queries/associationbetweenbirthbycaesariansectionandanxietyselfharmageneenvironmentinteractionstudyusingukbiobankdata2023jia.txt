@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenbirthbycaesariansectionandanxietyselfharmageneenvironmentinteractionstudyusingukbiobankdata2023jia
+"BACKGROUND: Limited efforts have been paid to explore the underlying genetic mechanisms of birth by caesarian section (CS) affecting the risks of adult anxiety and self-harm. METHODS: Using UK Biobank cohort, the logistic regression model was first applied to evaluate the associations of adult anxiety and self-harm with birth by CS. Using birth by CS as exposure variables, genome-wide by environment interaction study (GWEIS) was then applied by PLINK2.0 to identify associated genes interacting with birth by CS for anxiety and self-harm. RESULTS: In the observational study, significant associations were observed between birth by CS and anxiety (odds ratio (OR) = 1.24; 95% confidence interval (CI), 1.12-1.38; P = 4.86 x 10(- 5)), and self-harm (OR = 1.12; 95% CI, 1.01-1.24; P = 2.90 x 10(- 2)). GWEIS revealed multiple suggestive genes interacted with birth by CS for anxiety, such as DKK2 (rs13137764, P = 1.24 x 10(- 9), adjusted P = 2.68 x 10(- 7)) and ATXN1 (rs62389045, P = 4.38 x 10(- 8), adjusted P = 3.55 x 10(- 6)). For self-harm, significant gene-environment interactions of birth by CS on self-harm were detected, such as ALDH1A2 (rs77828167, P = 1.62 x 10(- 8); rs116899929, P = 1.92 x 10(- 8)) and DAB1 (rs116124269, P = 3.20 x 10(- 8); rs191070006, P = 3.63 x 10(- 8)). CONCLUSIONS: Our results suggested that birth by CS was associated with the risk of adult anxiety and self-harm. We also discovered some genes interacted with birth by CS might influence the risk of anxiety and self-harm, which may provide novel clues for the pathogenesis of those mental disorders."""
+
+

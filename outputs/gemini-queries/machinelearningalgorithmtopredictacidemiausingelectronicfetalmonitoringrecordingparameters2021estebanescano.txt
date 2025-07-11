@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningalgorithmtopredictacidemiausingelectronicfetalmonitoringrecordingparameters2021estebanescano
+"BACKGROUND: Electronic fetal monitoring (EFM) is the universal method for the surveillance of fetal well-being in intrapartum. Our objective was to predict acidemia from fetal heart signal features using machine learning algorithms. METHODS: A case-control 1:2 study was carried out compromising 378 infants, born in the Miguel Servet University Hospital, Spain. Neonatal acidemia was defined as pH < 7.10. Using EFM recording logistic regression, random forest and neural networks models were built to predict acidemia. Validation of models was performed by means of discrimination, calibration, and clinical utility. RESULTS: Best performance was attained using a random forest model built with 100 trees. The discrimination ability was good, with an area under the Receiver Operating Characteristic curve (AUC) of 0.865. The calibration showed a slight overestimation of acidemia occurrence for probabilities above 0.4. The clinical utility showed that for 33% cutoff point, missing 5% of acidotic cases, 46% of unnecessary cesarean sections could be prevented. Logistic regression and neural networks showed similar discrimination ability but with worse calibration and clinical utility. CONCLUSIONS: The combination of the variables extracted from EFM recording provided a predictive model of acidemia that showed good accuracy and provides a practical tool to prevent unnecessary cesarean sections."""
+
+

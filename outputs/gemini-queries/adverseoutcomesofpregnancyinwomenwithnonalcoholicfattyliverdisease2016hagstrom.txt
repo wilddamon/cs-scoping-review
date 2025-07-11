@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adverseoutcomesofpregnancyinwomenwithnonalcoholicfattyliverdisease2016hagstrom
+"BACKGROUND & AIMS: Non-alcoholic fatty liver disease (NAFLD) is considered the most common liver disease in the world, but little is known about its potential association with pregnancy outcomes. We aimed to investigate pregnancy outcomes in NAFLD.;METHODS: The Swedish Medical Birth Register (MBR) was used to identify births between 1992 and 2011 (N = 1 960 416). By linkage with the National Patient Register, we identified women with a diagnosis of NAFLD. The MBR was then used to identify outcomes: gestational diabetes, pre-eclampsia, Caesarean section, Apgar score <7 at 5 min, preterm birth (<37 weeks), low birth weight (<2500 g), infants born small for gestational age and congenital malformations. As controls, we used women with no diagnosis for NAFLD divided into two groups; with and without polycystic ovary syndrome (PCOS). Poisson regression was used to estimate relative risks (RRs) adjusted for maternal age, smoking status and body mass index at early pregnancy, parity and prepregnancy diabetes.;RESULTS: We identified 110 pregnancies in women with NAFLD. Using women without a diagnosis of NAFLD or PCOS as controls; NAFLD was associated with gestational diabetes [adjusted RRs 2.78; 95% confidence interval (CI): 1.25-6.15], pre-eclampsia (aRR 1.95; 95% CI 1.03-3.70), Caesarean section (aRR 1.52; 95% CI 1.19-1.94), preterm birth (aRR 2.50; 95% CI 1.38-4.55) and with low birth weight (aRR 2.40; 95% CI 1.21-4.78).;CONCLUSION: Women with a diagnosis of NAFLD prior to giving birth have increased risks for adverse pregnancy outcome independently of body mass index and diabetes, and should be carefully monitored during antenatal care. Copyright (c) 2015 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd."""
+
+

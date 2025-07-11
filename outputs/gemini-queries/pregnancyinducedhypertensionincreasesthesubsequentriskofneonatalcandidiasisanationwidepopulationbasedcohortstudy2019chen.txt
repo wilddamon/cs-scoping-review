@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalpregnancyinducedhypertensionincreasesthesubsequentriskofneonatalcandidiasisanationwidepopulationbasedcohortstudy2019chen
+"OBJECTIVE: Neonatal candidiasis is a leading infectious cause of significant morbidity and mortality in premature birth mainly due to impaired physical barriers and immature immune system of fetus. Maternal pregnancy-induced hypertension (PIH) has been reported to be able to disturb the neonatal immune system, which could cause the increased possibility of neonatal infection. Therefore, we hypothesized that maternal PIH may increase the risk of neonatal candidiasis. The aim of this study was to evaluate whether PIH increased the risk of neonatal candidiasis and identify the predictive risk factors.;MATERIALS AND METHODS: Patients with newly diagnosed PIH between January 1, 2000, and December 31, 2013 were selected from the Taiwan National Health Insurance Research Database (NHIRD). For each patient in the PIH cohort, 4 subjects without PIH, matched for age and year of delivery, were randomly selected as the comparison cohort. A Cox proportional regression model was used to estimate the risks of neonatal candidiasis in both cohorts.;RESULTS: Among the 23.3 million individuals registered in the NHIRD, 29,013 patients with PIH and 116,052 matched controls were identified. Patients with PIH had a higher incidence of neonatal candidiasis than did those without PIH. According to the multivariate analysis, PIH (odds ratio [OR] = 2.08, 95% confidence interval [CI] = 1.11-3.19, p < 0.0228), single parity (OR = 1.91, 95% CI = 1.00-3.65, p < 0.0499), and preterm birth (OR = 3.57, 95% CI = 1.84-6.93, p = 0.0002) were independent risk factors for the development of neonatal candidiasis.;CONCLUSION: Patients who had a history of PIH was associated with an increased risk of having infants who develop neonatal candidiasis compared with those without PIH. Additionally, preterm birth was an independent risk factor for the development of neonatal candidiasis. Copyright (c) 2019. Published by Elsevier B.V."""
+
+

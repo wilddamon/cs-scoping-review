@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: roleofsubcutaneousclosureinpreventingwoundcomplicationsaftercesareandeliverywithpfannenstielincisionarandomizedclinicaltrial2014corbaciogluesmer
+"AIM: The aim of this study was to evaluate the role of suture closure of the subcutaneous tissue in preventing wound complications after cesarean section with a Pfannenstiel incision, and to investigate factors associated with wound complications.;MATERIAL AND METHODS: Patients undergoing cesarean delivery were randomly assigned to either suture closure or non-closure of the subcutaneous tissue. The participants were invited to two follow-up examinations at the 1st and 4th postoperative weeks for the detection of wound complications. The two main outcomes were composite wound complication and superficial wound separation. Factors associated with wound complications were analyzed using multiple logistic regression.;RESULTS: During the study period, a total of 361 patients (176 in the closure group, 185 in non-closure group) were analyzed. Composite wound complication occurred in 23.3% (41/176) of the closure group, and in 20% (37/185) of the non-closure group with no significant difference (P = 0.44). Wound separation occurred in 2.3% (4/176) of the closure group and 1.6% (3/185) of the non-closure group without any significant differences (P = 0.64). None of the factors were found to be associated with the rate of composite complication. The significant factors found to be associated with wound separation were subcutaneous tissue thickness of 4 cm or more (P = 0.01) and maternal diabetes mellitus (P = 0.01), however they lost their significance in multivariate analyses.;CONCLUSION: The rate of wound complications, including superficial wound separation, did not differ according to the subcutaneous closure in cesarean delivery with Pfannenstiel incision. It is not possible to predict wound complications using previously defined clinical and operative risk factors, including subcutaneous tissue thickness."""
+
+

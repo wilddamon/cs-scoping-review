@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: agoodwaytoreducescreeningforretinopathyofprematuritydevelopmentoftheropmodelinachinapretermpopulation2021ding
+"Importance: Retinopathy of prematurity (ROP) is a preventable cause of blindness in children. Without treatment, more than 45% of eyes may suffer permanent vision loss. Current ROP screening guidelines, which include a range of birth weights (BWs) and gestational ages (GAs), may require screening many low-risk preemies who might develop severe ROP. Method(s): All high-risk infants in the neonatal intensive care unit (NICU) of the First Affiliated Hospital of Zhengzhou University from 2017 to 2021 were included in this retrospective cohort study. Each of the 27 candidate risk factors was evaluated in univariate analysis and adjusted for known risk factors (i.e., GA and BW). The significant results were analyzed in a backward selection multivariate logistic regression model. Receiver operating characteristic (ROC) curves and a nomogram were drawn. Result(s): The study included 2,040 infants who underwent ROP screening. The weight gain rate [OR, 2.65; 95% confidence interval (CI), 1.49-1.21 <= 12 g/d vs. > 18 g/d; P = 0.001], blood transfusion (OR, 2.03; 95% CI, 1.14-3.64; P = 0.017), invasive mechanical ventilation (OR, 1.74; 95% CI, 1.15-2.66; P = 0.009) and N-terminal segment of pro-B-type natriuretic peptide (NT-proBNP) >= 25,000 ng/L (OR, 1.51; 95% CI, 1.00-2.28; P = 0.048) were four new statistically independent risk factors in addition to GA and BW. The area under the curve (AUC) of the final multivariate model was 0.90 (95% CI, 0.88-0.92; P < 0.001). Conclusions and Relevance: These findings add to our understanding of ROP screening because they include all eligible infants rather than only high-risk infants, as in previous studies. Under the control of BW and GA, low weight gain rate, increased number of blood transfusion, invasive mechanical ventilation and NT-proBNP >= 25,000 ng/L were "new" statistically independent risk factors for ROP. The ROP risk can be calculated manually or represented by a nomogram for clinical use.(c) Copyright (c) 2021 Ding, Luo, Cheng, Shi, Lei, Rong, Song, Cao, Zhang, Ge, Wang, Zhang, Xia, Wang, Liu and Zhang."""
+
+

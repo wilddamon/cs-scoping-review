@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hysterectomyonbenignindicationandriskofpelvicorganprolapsesurgeryanationalmatchedcohortstudy2023aagesen
+"INTRODUCTION: Hysterectomy is a frequently performed gynecological procedure but long-term effects remain understudied. Pelvic organ prolapse reduces life quality significantly. The lifetime risk of undergoing pelvic organ prolapse surgery is 20% and parity is known to be the largest risk factor. Studies have shown an increased risk of pelvic organ prolapse surgery after hysterectomy; however, few have studied the compartments which are affected and how this association is affected by surgical route and parity. MATERIAL AND METHODS: In this Danish nationwide cohort study, we identified women born in 1947-2000 who underwent hysterectomy during 1977-2018 who were indexed on the day of hysterectomy. We excluded women who immigrated when older than 15 years, who underwent pelvic organ prolapse surgery prior to index, and who were diagnosed with a gynecological cancer prior to or within 30 days of index. Women who underwent hysterectomy were matched 1:5 to references on age and year of hysterectomy. Women were censored at the time of death, emigration, a gynecological cancer diagnosis, radical or unspecified hysterectomy or December 31, 2018, whichever came first. The risk of pelvic organ prolapse surgery after hysterectomy was computed using Cox proportional hazard ratios (HRs) with 95% confidence intervals (CIs), adjusted for age, calendar year, parity, income and educational level. RESULTS: We included 80 444 women who underwent hysterectomy and 396 303 reference women. Women who underwent hysterectomy had a significantly higher risk of undergoing pelvic organ prolapse surgery: HR(adjusted) 1.4 (95% CI 1.3-1.5). In particular, the risk of a posterior compartment prolapse operation was increased: HR(adjusted) 2.2 (95% CI 2.0-2.3). The risk of prolapse surgery increased with increased parity and by an additional 40% after hysterectomy. Cesarean sections did not seem to increase the risk of prolapse surgery. CONCLUSIONS: This study shows that hysterectomy, regardless of surgical route, leads to an increased risk of pelvic organ prolapse surgery, especially in the posterior compartment. The risk of prolapse surgery increased with the number of vaginal births, and not cesarean sections. Women should be thoroughly informed about the risk of pelvic organ prolapse and other treatment options should be considered before choosing hysterectomy to treat benign gynecological diseases -particularly women who have had numerous vaginal births."""
+
+

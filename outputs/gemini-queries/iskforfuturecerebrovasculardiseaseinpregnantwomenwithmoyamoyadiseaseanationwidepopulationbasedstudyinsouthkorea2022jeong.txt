@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theriskforfuturecerebrovasculardiseaseinpregnantwomenwithmoyamoyadiseaseanationwidepopulationbasedstudyinsouthkorea2022jeong
+"BACKGROUND: Physiologic changes during pregnancy affect the development of postpartum cerebrovascular disease (CVD) in women with Moyamoya disease. Due to the rare prevalence of Moyamoya disease and its large regional variations, large-scale based studies on the risk of CVD after delivery have not been conducted. This study aimed to evaluate whether women with Moyamoya disease have an increased risk of CVD after delivery. METHODS: Research data was collected from the National Health Insurance Claims Database of the Health Insurance Review and Assessment Service. Patients who delivered in Korea from 2007 to 2014 were enrolled in this study. We classified women as having CVD if they were diagnosed with any of the following conditions between delivery and December 31, 2016; cerebral infarction (I63.X in the International Classification of Diseases-10th Revision [ICD-10]) and/or intracranial hemorrhage (I61.X, I62.X in ICD-10) and/or subarachnoid hemorrhage (I60.X in ICD-10). Women with Moyamoya disease were identified as having I67.5 in ICD-10. We matched the study cohort by the ratio of 1:10 to analyze the risk CVD occurrence. The matching technique applied in this study was based on the variables of age and parity. To evaluate the adjusted hazard ratio (HR) for CVD in women with Moyamoya disease, we used multivariate Cox proportional hazard regression. RESULTS: Among a total of 3,611,216 Korean women who underwent delivered, we identified 412 women with Moyamoya disease diagnosis and 1420 age- and parity-matched women without Moyamoya disease (control). Compared to the control group, women with Moyamoya disease had a significantly higher rate of Cesarean section, overt DM, and essential hypertension (all p < 0.0001). Among women with Moyamoya disease, 55 (13.35%) women developed CVD within the follow-up postpartum period. The presence of Moyamoya disease was associated with an increased risk of CVD after delivery (adjusted HR 37.42; 95% confidence interval (CI) 17.50-80.02 within 2.3 years) after adjusting for pregnancy-induced hypertension, gestational diabetes mellitus, pregestational diabetes, chronic hypertension. CONCLUSION: This population based study showed that the occurrence rate of CVD after delivery was higher in women with Moyamoya disease than in those without. Therefore, careful and long-term postpartum surveillance is required for women with Moyamoya disease."""
+
+

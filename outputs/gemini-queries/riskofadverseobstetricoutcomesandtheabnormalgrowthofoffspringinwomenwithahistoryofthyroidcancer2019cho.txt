@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofadverseobstetricoutcomesandtheabnormalgrowthofoffspringinwomenwithahistoryofthyroidcancer2019cho
+"Background: It is unclear whether a history of thyroid cancer is associated with an increased risk of adverse pregnancy outcomes in subsequent pregnancies. This study aimed to evaluate the risk of adverse obstetric outcomes and the abnormal growth of offspring in women with a history of thyroid cancer. Methods: This retrospective observational study used nationwide data from between 2006 and 2014 to compare pregnancy outcomes of women with a history of thyroid cancer and those with no such history. Cases of thyroid cancer were identified using ICD-10 codes. Results: During the study period, 7232 women with a history of thyroid cancer and 2,269,051 women without a history of thyroid cancer gave birth. The risks of cesarean section, preterm birth, low birth weight, large for gestational age, preeclampsia, placental abruption, placenta previa, and stillbirth were not different between the groups. Women with a history of thyroid cancer had a statistically higher risk of postpartum hemorrhage (odds ratio [OR] = 1.23 [confidence interval (CI) 1.15-1.32], p < 0.05, corrected with the false discovery rate). Additionally, generalized estimating equations analysis showed that there was no difference in the risk of underweight (OR = 1.05 [CI 0.93-1.19]) and obese (OR = 0.94 [CI 0.84-1.05]) offspring assessed over a period of 80 months after adjusting for confounding factors. Conclusions: Women with a history of thyroid cancer have similar pregnancy outcomes and offspring growth to those with no such history."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: weightgainduringpregnancydoestheantenatalcareprovidermakeadifferencearetrospectivecohortstudy2019murraydavis
+"BACKGROUND: The primary aim of this study was to examine weight gain during pregnancy and associated adverse outcomes across different types of antenatal health care providers. Our research question examined whether type of antenatal health care provider (family physician, obstetrician, midwife, or family physician plus obstetrician) was associated with differing rates of excess or inadequate weight gain and associated adverse outcomes including being large for gestational age, being small for gestational age, cesarean delivery and preterm birth. METHODS: This retrospective cohort study used data from the Better Outcomes Registry & Network Information System, 2014-2016, for singleton hospital births at 20-42 weeks' gestation in Ontario. We calculated descriptive statistics to summarize patient characteristics and outcomes by antenatal health care provider. We calculated crude and adjusted relative risks with 95% confidence intervals (CIs) for the exposure (weight gain during pregnancy) relative to each secondary outcome by health care provider. We calculated population attributable fractions with 95% CIs to assess the proportion of secondary outcomes that could be prevented if inadequate or excess weight gain (according to the 2009 Institute of Medicine guidelines) were removed by health care provider. RESULTS: The final cohort consisted of 231 697 pregnancies, of which 26 043 (11.2%), 136 994 (59.1%), 32 262 (13.9%) and 36 298 (15.7%) were managed by a family physician, obstetrician, midwife, and family physician plus obstetrician, respectively. Rates of weight gain below, within or above recommended levels were 31 742 (13.7%), 71 826 (31.0%) and 128 128 (55.3%), respectively, and did not differ across health care provider groups. No difference was observed in rates of secondary outcomes according to weight gain across health care providers. Excess weight gain was associated with a significant risk of being large for gestational age and cesarean delivery, and inadequate weight gain was associated with an increased risk of being small for gestational age and preterm birth. The population attributable fractions indicated a pronounced contribution of excess weight gain to being large for gestational age across all health care provider groups. INTERPRETATION: Weight gain during pregnancy and rates of associated secondary outcomes did not differ according to antenatal health care provider. This suggests a need for further research exploring counselling techniques and strategies for all types of antenatal health care providers to use in order to promote optimal weight gain during pregnancy."""
+
+

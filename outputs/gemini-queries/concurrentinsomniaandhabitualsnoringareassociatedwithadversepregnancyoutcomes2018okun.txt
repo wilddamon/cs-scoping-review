@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: concurrentinsomniaandhabitualsnoringareassociatedwithadversepregnancyoutcomes2018okun
+"OBJECTIVES: Pregnant women report disturbed sleep, including habitual snoring and insomnia. The co-occurrence among non-pregnant cohorts is 30%-50% with increased risk for adverse health outcomes. To date, no study has examined the comorbid status or impact in pregnant women. METHODS: The prevalence of insomnia (INS) and habitual snoring (HS) were examined in 439 women in the third trimester (34.1 +- 3.7 weeks). Habitual snoring (snoring >=3 times/week) was self-reported. Insomnia was determined using the Insomnia Symptom Questionnaire (ISQ). RESULTS: Four groups emerged: HS-/ISQ- (n = 161; 36.7%), HS-/ISQ+ (n = 146; 33.3%), HS+/ISQ- (n = 63; 14.4%), and HS+/ISQ+ (n = 69; 15.7%). Logistic regression models revealed both independent associations, as well as comorbid HS/INS status with excessive daytime sleepiness (aOR 3.8, 95%CI 2.3-6.5, p < 0.001; aOR 2.2, 95%CI 1.1-4.4, p = 0.02; aOR 7.2, 95%CI 3.7-14.0, p < 0.001, respectively). Only comorbid HS/INS was associated with gestational hypertension (aOR 3.2 95%CI 1.0-10.6, p = 0.048). Insomnia alone and HS alone were associated with a baby born large for gestational age (aOR 2.9 95%CI 1.2-7.1, p = 0.019 and aOR 3.5, 95%CI 1.1-11.1, p = 0.034 respectively) but however, the comorbid state was not significantly associated with LGA. Only women with HS alone were at increased odds of having an unplanned cesarean section (aOR 2.2 95%CI 1.0-4.6, p = 0.046). CONCLUSIONS: Both insomnia alone and comorbid insomnia/habitual snoring were associated with adverse outcomes even after accounting for confounders. These findings are clinically relevant since adverse pregnancy outcomes may have severe consequences for both mother and baby. In order to mitigate these outcomes, identifying viable treatment(s) for women at risk should be considered a high priority."""
+
+

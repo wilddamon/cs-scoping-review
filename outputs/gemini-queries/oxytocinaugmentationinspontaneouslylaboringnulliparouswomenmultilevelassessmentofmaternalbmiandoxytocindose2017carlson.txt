@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: oxytocinaugmentationinspontaneouslylaboringnulliparouswomenmultilevelassessmentofmaternalbmiandoxytocindose2017carlson
+"BACKGROUND: Synthetic oxytocin, the primary tool for labor augmentation, is less effective among obese women, leading to more unplanned cesarean deliveries for slow labor progress. It is not known if obese women require higher doses of oxytocin due to maternal, fetal, or labor factors related to maternal obesity. OBJECTIVES: This study had two main objectives: (1) examine the influence of maternal body mass index (BMI) on hourly doses of oxytocin from augmentation initiation until vaginal delivery in obese women; and (2) examine the influence of other maternal, fetal, and labor factors on hourly doses of oxytocin in obese women. STUDY DESIGN: Longitudinal study of a cohort ( N = 136) of healthy, nulliparous, spontaneously laboring obese women (BMI >= 30 kg/m(2)) who received oxytocin augmentation and achieved vaginal delivery. We performed iterative multilevel analyses to examine the influence of maternal BMI and other factors on hourly oxytocin doses. RESULTS: Maternal BMI explained 16.56% (95% confidence interval [CI] = [13.7, 20.04], p < .001) of the variance in hourly oxytocin doses received in a multilevel model controlling for influence of maternal, fetal, and labor characteristics. Maternal age, gestational age, status of amniotic membranes at hospital admission, and admission cervical dilation examination were not significant; however, neonatal birthweight and cervical dilation at oxytocin initiation were significant predictors of hourly oxytocin dose in these women ( p < .001). CONCLUSIONS: Even when parturition preparation has progressed adequately for spontaneous labor initiation, there still may be some obesity-related blunting of myometrial contractility and response to oxytocin used for augmentation."""
+
+

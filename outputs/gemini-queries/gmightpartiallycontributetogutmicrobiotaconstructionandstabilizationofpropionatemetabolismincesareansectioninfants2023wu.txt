@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: breastfeedingmightpartiallycontributetogutmicrobiotaconstructionandstabilizationofpropionatemetabolismincesareansectioninfants2023wu
+"PURPOSE: This study was aimed to determine how delivery mode and feeding pattern influence the infant's gut microbiota construction and the variation of fecal microbial metabolites from a birth cohort. METHODS: Fecal samples collected from 61 full-term born Chinese infants at four time points: day 0, day 7, month 1, and month 3. Based on delivery mode (vaginal delivery [V] or cesarean section [C]) and feeding pattern (breastfeeding [B] or mixed feeding [M]), infants were divided into four groups, namely VB, CB, VM, and CM groups. The gut microbiota composition and bacterial diversity were assessed using 16S rRNA sequencing. Short-chain fatty acid (SCFA) concentrations were determined via gas chromatography-mass spectrometry (GC-MS). RESULTS: The CM group had a significantly higher relative abundance of Firmicutes (day 0 and month 1), Enterococcaceae (month 3), and Enterococcus (month 3) than the VB group and a significantly higher abundance of Firmicutes (month 1) and Blautia (month 3) than the CB group. The VB and CB groups exhibited a stable SCFA variation and a significantly lower level of propionate compared with the VM and CM groups. All groups showed an intense transition of enterotypes within 1 month and became stable at 3 months. The correlation between SCFA and enterotypes showed a significant positive correlation between Bifidobacteriaceae and acetate in the CB group (day 7 and month 3) and a significant positive correlation between Clostridiaceae and butyrate in the CB and VB groups (day 7 and month 3), respectively. CONCLUSION: These results indicated that C-section was associated with higher abundance of the phylum Firmicutes and family Enterococcaceae, and intense fluctuation of SCFA, at least propionate. And breastfeeding might partially contribute to gut microbiota construction and stabilization propionate metabolism in cesarean-section infants."""
+
+

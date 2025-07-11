@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessingsarscov2verticaltransmissionandneonatalcomplications2021citu
+"We designed and implemented a prospective study to analyze the maternal and neonatal outcomes associated with COVID-19 and determine the likelihood of viral transmission to the fetus and newborn by collecting samples from amniotic fluid, placenta, umbilical cord blood, and breast milk. The study followed a prospective observational design, starting in July 2020 and lasting for one year. A total of 889 pregnant women were routinely tested for SARS-CoV-2 infection in an outpatient setting at our clinic, using nasal swabs for PCR testing. A total of 76 women were diagnosed with COVID-19. The positive patients who accepted study enrollment were systematically analyzed by collecting weekly nasal, urine, fecal, and serum samples, including amniotic fluid, placenta, umbilical cord, and breast milk at hospital admission and postpartum. Mothers with COVID-19 were at a significantly higher risk of developing gestational hypertension and giving birth prematurely by c-section than the general pregnant population. Moreover, their mortality rates were substantially higher. Their newborns did not have negative outcomes, except for prematurity, and an insignificant number of newborns were infected with SARS-CoV-2 (5.4%). No amniotic fluid samples were positive for SARS-CoV-2, and only 1.01% of PCR tests from breast milk were confirmed positive. Based on these results, we support the idea that SARS-CoV-2 positive pregnant women do not expose their infants to an additional risk of infection via breastfeeding, close contact, or in-utero. Consequently, we do not support maternal-newborn separation at delivery since they do not seem to be at an increased risk of SARS-CoV-2 infection."""
+
+

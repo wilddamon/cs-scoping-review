@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparingtheeffectofintravenousdexamethasoneintravenousondansetronandtheircombinationonnauseaandvomitingincesareansectionwithspinalanesthesia2015sane
+"BACKGROUND: Nausea and vomiting are frequently seen in patients undergoing cesarean section (CS) under regional anesthesia. We aimed to compare the antiemetic efficacy of ondansetron and dexamethasone combination with that of the use of each agent alone to decrease the incidence of postdelivery intra- and post-operative nausea and vomiting during CS under spinal anesthesia. MATERIALS AND METHODS: A randomized, prospective, double-blind study was performed on 90 patients undergoing planned CS under spinal anesthesia. The patients received 4 mg ondansetron in Group O, 8 mg dexamethasone in Group D, and 4 mg ondansetron +8 mg dexamethasone in Group OD intravenously within 1-2 min after the umbilical cord was clamped. Frequency of postdelivery intra- and post-operative nausea and vomiting episodes was recorded. RESULTS: A total of 90 eligible patients were included in the study. There were 30 patients in Group O, 30 patients in Group D, and 30 patients in Group OD. Intraoperative nausea in Group D was more than the other two groups. Postoperative nausea in group OD was lesser than the other two groups. Intraoperative vomiting in Group OD was lesser than the other two groups. There was no statistically significant difference among the groups in postoperative vomiting (P > 0.05). CONCLUSION: Combined use of dexamethasone and ondansetron for the same indication seems to increase the antiemetic efficacy."""
+
+

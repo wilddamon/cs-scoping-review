@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: applyingthestandardizedinfectionratioforreportingsurgicalsiteinfectionsinaustralianhealthcarefacilities2023tanamas
+"OBJECTIVE: We explored the utility of the standardized infection ratio (SIR) for surgical site infection (SSI) reporting in an Australian jurisdiction. DESIGN: Retrospective chart review. SETTING: Statewide SSI surveillance data from 2013 to 2019. PATIENTS: Individuals who had cardiac bypass surgery (CABG), colorectal surgery (COLO), cesarean section (CSEC), hip prosthesis (HPRO), or knee prosthesis (KPRO) procedures. METHODS: The SIR was calculated by dividing the number of observed infections by the number of predicted infections as determined using the National Healthcare Safety Network procedure-specific risk models. In line with a minimum precision criterion, an SIR was not calculated if the number of predicted infections was <1. RESULTS: A SIR >0 (>=1 observed SSI, predicted number of SSI >=1, no missing covariates) could be calculated for a median of 89.3% of reporting quarters for CABG, 75.0% for COLO, 69.0% for CSEC, 0% for HPRO, and 7.1% for KPRO. In total, 80.6% of the reporting quarters, when the SIR was not calculated, were due to no observed infections or predicted infections <1, and 19.4% were due to missing covariates alone. Within hospitals, the median percentage of quarters during which zero infections were observed was 8.9% for CABG, 20.0% for COLO, 25.4% for CSEC, 67.3% for HPRO, and 71.4% for KPRO. CONCLUSIONS: Calculating an SIR for SSIs is challenging for hospitals in our regional network, primarily because of low event numbers and many facilities with predicted infections <1. Our SSI reporting will continue to use risk-indexed rates, in tandem with SIR values when predicted number of SSI >=1."""
+
+

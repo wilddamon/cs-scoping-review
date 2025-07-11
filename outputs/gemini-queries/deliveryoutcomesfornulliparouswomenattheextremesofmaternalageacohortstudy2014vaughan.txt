@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliveryoutcomesfornulliparouswomenattheextremesofmaternalageacohortstudy2014vaughan
+"OBJECTIVE: To examine the associations between extremes of maternal age (<=17 years or >=40 years) and delivery outcomes. DESIGN: Retrospective cohort study. SETTING: Urban maternity hospital in Ireland. POPULATION: A total of 36 916 nulliparous women with singleton pregnancies who delivered between 2000 and 2011. METHODS: The study population was subdivided into five maternal age groups based on age at first booking visit: <=17 years, 18-19 years, 20-34 years, 35-39 years and women aged >=40 years. Logistic regression analyses were performed to examine the associations between extremes of maternal age and delivery outcomes, adjusting for potential confounding factors. MAIN OUTCOME MEASURES: Preterm birth, admission to the neonatal unit, congenital anomaly, caesarean section. RESULTS: Compared with maternal age 20-34 years, age <=17 years was a risk factor for preterm birth (adjusted odds ratio [adjOR] 1.83, 95% confidence interval [95% CI] 1.33-2.52). Babies born to mothers >=40 years were more likely to require admission to the neonatal unit (adjOR 1.35, 95% CI 1.06-1.72) and to have a congenital anomaly (adjOR 1.71, 95% CI 1.07-2.76). The overall caesarean section rate in nulliparous women was 23.9% with marked differences at the extremes of maternal age; 10.7% at age <=17 years (adjOR 0.46, 95% CI 0.34-0.62) and 54.4% at age >=40 years (adjOR 3.24, 95% CI 2.67-3.94). CONCLUSIONS: Extremes of maternal age need to be recognised as risk factors for adverse delivery outcomes. Low caesarean section rates in younger women suggest that a reduction in overall caesarean section rates may be possible."""
+
+

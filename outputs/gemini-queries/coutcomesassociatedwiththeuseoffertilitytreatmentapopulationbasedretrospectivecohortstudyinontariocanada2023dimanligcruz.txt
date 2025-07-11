@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinatalandpediatricoutcomesassociatedwiththeuseoffertilitytreatmentapopulationbasedretrospectivecohortstudyinontariocanada2023dimanligcruz
+"BACKGROUND: Around 2% of births in Ontario, Canada involve the use of assisted reproductive technology (ART), and it is rising due to the implementation of a publicly funded ART program in 2016. To better understand the impact of fertility treatments, we assessed perinatal and pediatric health outcomes associated with ART, hormonal treatments, and artificial insemination compared with spontaneously conceived births. METHODS: This population-based retrospective cohort study was conducted using provincial birth registry data linked with fertility registry and health administrative databases in Ontario, Canada. Live births and stillbirths from January 2013 to July 2016 were included and followed to age one. The risks of adverse pregnancy, birth and infant health outcomes were assessed by conception method (spontaneous conception, ART - in vitro fertilization and non-ART - ovulation induction, intra-uterine or vaginal insemination) using risk ratios and incidence rate ratios with 95% confidence intervals (CI). Propensity score weighting using a generalized boosted model was applied to adjust for confounding. RESULT(S): Of 177,901 births with a median gestation age of 39 weeks (IQR 38.0-40.0), 3,457 (1.9%) were conceived via ART, and 3,511 (2.0%) via non-ART treatments. There were increased risks (adjusted risk ratio [95% CI]) of cesarean delivery (ART: 1.44 [1.42-1.47]; non-ART: 1.09 [1.07-1.11]), preterm birth (ART: 2.06 [1.98-2.14]; non-ART: 1.85 [1.79-1.91]), very preterm birth (ART: 2.99 [2.75-3.25]; non-ART: 1.89 [1.67-2.13]), 5-min Apgar < 7 (ART: 1.28 [1.16-1.42]; non-ART: 1.62 [1.45-1.81]), and composite neonatal adverse outcome indicator (ART: 1.61 [1.55-1.68]; non-ART: 1.29 [1.25-1.34]). Infants born after fertility treatments had increased risk of admission to neonatal intensive care unit (ART: 1.98 [1.84-2.13]; non-ART: 1.59 [1.51-1.67]) and prolonged birth admission (>= 3 days) (ART: 1.60 [1.54-1.65]; non-ART: 1.42 [1.39-1.45]). The rate of emergency and in-hospital health services use within the first year was significantly increased for both exposure groups and remained elevated when limiting analyses to term singletons. CONCLUSION(S): Fertility treatments were associated with increased risks of adverse outcomes; however, the overall magnitude of risks was lower for infants conceived via non-ART treatments."""
+
+

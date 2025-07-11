@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prophylacticadministrationoftranexamicacidreducesbloodproductstransfusionandintensivecareadmissioninwomenundergoinghighriskcesareansections2023binyamin
+"Postpartum hemorrhage (PPH) remains a major cause of maternal mortality. Tranexamic acid (TxA) has shown effectiveness in reducing PPH-related maternal bleeding events and deaths. We conducted a cohort study including parturient women at high risk of bleeding after undergoing a cesarean section (CS). Participants were divided into two groups: the treatment group received prophylactic 1-g TxA before surgery (n = 500), while the comparison group underwent CS without TxA treatment (n = 500). The primary outcome measured increased maternal blood loss following CS, defined as more than a 10% drop in hemoglobin concentration within 24 h post-CS and/or a drop of >=2 g/dL in maternal hemoglobin concentration. Secondary outcomes included PPH indicators, ICU admission, hospital stay, TxA complications, and neonatal data. TxA administration significantly reduced hemoglobin decrease by more than 10%: there was a 35.4% decrease in the TxA group vs. a 59.4% decrease in the non-TxA group, p < 0.0001 and hemoglobin decreased by >=2 g/dL (11.4% in the TxA group vs. 25.2% in non-TxA group, p < 0.0001), reduced packed red blood cell transfusion (p = 0.0174), and resulted in lower ICU admission rates (p = 0.034) and shorter hospitalization (p < 0.0001). Complication rates and neonatal outcomes did not differ significantly. In conclusion, prophylactic TxA administration during high-risk CS may effectively reduce blood loss, providing a potential intervention to improve maternal outcomes."""
+
+

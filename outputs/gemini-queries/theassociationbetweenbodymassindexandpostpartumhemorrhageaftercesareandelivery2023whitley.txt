@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenbodymassindexandpostpartumhemorrhageaftercesareandelivery2023whitley
+"We aimed to evaluate the association between obesity and postpartum hemorrhage (PPH) after cesarean delivery (CD). This was a retrospective cohort study using a multicenter database of 20 hospitals in the United States. We analyzed 27,708 patients undergoing CD from 2015 to 2019. The exposure of interest was BMI, and the primary outcome was PPH (estimated blood loss [EBL] >= 1000 mL). Simple logistic regression was used to evaluate the relationship between obesity and intrapartum complications. Multivariable logistic regression was used to adjust for any confounding demographic variables. Hosmer and Lemeshow's purposeful selection algorithm was adapted to develop a multivariable logistic regression model of PPH. Analyses were conducted using STATA 16.1 (College Station, Texas) with p <= 0.05 considered significant. BMI exerted a significant effect on the frequency of PPH (p = 0.004). Compared to patients with BMI 18.5-24.9 kg/m(2), patients with BMI between 25 and 59.9 kg/m(2) had an increased odds of PPH. The odds of PPH in patients with BMI > 60 kg/m(2) was not increased compared to patients with BMI 18.5-24.9 kg/m(2). Obesity was associated with a decreased odds of blood transfusion (aOR 0.73, 95% CI 0.55-0.97). In conclusion, higher BMI was associated with PPH yet a lower odds of transfusion after CD."""
+
+

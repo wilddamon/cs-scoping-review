@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofintrauterineresuscitationbymaternalhyperoxygenationonperinatalandmaternaloutcomearandomizedcontrolledtrial2020moors
+"BACKGROUND: Maternal hyperoxygenation is widely used during labor as an intrauterine resuscitation technique. However, robust evidence regarding its beneficial effect and potential side effects is scarce, and previous studies show conflicting results.;OBJECTIVE: To assess the effect of maternal hyperoxygenation upon suspected fetal distress during the second stage of term labor on fetal heart rate, neonatal outcome, maternal side effects, and mode of delivery.;MATERIALS AND METHODS: In a single-center randomized controlled trial in a tertiary hospital in The Netherlands, participants were randomized in case of an intermediary or abnormal fetal heart rate pattern during the second stage of term labor, to receive either conventional care or 100% oxygen at 10 L/min until delivery. The primary outcome was the change in fetal heart rate pattern. Prespecified secondary outcomes were Apgar score, umbilical cord blood gas analysis, neonatal intensive care unit admission, perinatal death, free oxygen radical activity, maternal side effects, and mode of delivery. We performed subgroup analyses for intermediary and abnormal fetal heart rate, and for small for gestational age fetuses.;RESULTS: From March 2016 through April 2018, a total of 117 women were included. Fetal heart rate patterns could be analyzed in 71 women. Changes in fetal heart rate (defined as improvement, equal, or deterioration) in favor of maternal hyperoxygenation were significant (odds ratio, 5.7; 95% confidence interval, 1.7-19.1) using ordinal logistic regression. Apgar score, umbilical cord blood gas analysis, free oxygen radicals, and mode of delivery showed no significant differences between the intervention and control group. Among women with an abnormal fetal heart rate, there were fewer episiotomies on fetal indication in the intervention group (25%) than in the control group (65%, P < .01).;CONCLUSION: Maternal hyperoxygenation has a positive effect on the fetal heart rate in the presence of suspected fetal distress during the second stage of labor. There was no significant difference in the mode of delivery or neonatal outcome; however, significantly fewer episiotomies on fetal indication were performed following maternal hyperoxygenation in the subgroup with abnormal fetal heart rate pattern. Copyright (c) 2020 Elsevier Inc. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomesincephaliccomparedwithnoncephalicsingletonpresentationinthesettingofpretermprematureruptureofmembranesbefore32weeksofgestation2016yee
+"OBJECTIVE: To investigate the relationship between fetal presentation at the time of admission for preterm premature rupture of membranes (PROM) and perinatal outcomes, including gestational latency, among women in a large and well-characterized population with preterm PROM at less than 32 weeks of gestation.;METHODS: This was a secondary analysis of data from women randomized to receive magnesium sulfate compared with placebo in the previously reported Maternal-Fetal Medicine Units Network Beneficial Effects of Antenatal Magnesium Sulfate (1997-2004) trial. Women with a singleton gestation and preterm PROM were included. Fetal presentation at the time of randomization was recorded. Associations of fetal position (cephalic compared with noncephalic) with perinatal outcomes were compared using chi, Fisher exact, and Wilcoxon rank-sum tests. Perinatal outcomes included gestational latency, abruption, and neonatal morbidity and mortality. Multivariable regression (logistic, linear, and Cox) analyses were used to adjust for potential confounding factors.;RESULTS: Of the 1,767 eligible women, 439 (24.5%) had a noncephalic presentation. Noncephalic presentation was associated with an earlier median gestational age at the time of preterm PROM (26.6 compared with 28.4 weeks of gestation, P<.001), but no difference in gestational latency (7.5 compared with 7.7 days, P=.7, adjusted hazard ratio 1.09, 95% confidence interval [CI] 0.97-1.23). There were no differences in odds of abruption or neonatal morbidity in multivariable analyses. However, even after controlling for potential confounding factors including gestational age at delivery and mode of delivery, odds of neonatal death before discharge was greater for noncephalic gestations (11.5% compared with 3.4%, P<.001; adjusted odds ratio 2.24, 95% CI 1.12-4.48).;CONCLUSION: Even after controlling for gestational age and route of delivery, noncephalic fetuses in the setting of preterm PROM are at greater risk of neonatal death."""
+
+

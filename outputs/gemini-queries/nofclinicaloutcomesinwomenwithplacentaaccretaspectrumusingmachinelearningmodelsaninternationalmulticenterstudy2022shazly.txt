@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofclinicaloutcomesinwomenwithplacentaaccretaspectrumusingmachinelearningmodelsaninternationalmulticenterstudy2022shazly
+"INTRODUCTION: Placenta accreta spectrum is a major obstetric disorder that is associated with significant morbidity and mortality. The objective of this study is to establish a prediction model of clinical outcomes in these women.;MATERIALS AND METHODS: PAS-ID is an international multicenter study that comprises 11 centers from 9 countries. Women who were diagnosed with PAS and were managed in the recruiting centers between 1 January 2010 and 31 December 2019 were included. Data were reanalyzed using machine learning (ML) models, and 2 models were created to predict outcomes using antepartum and perioperative features. ML model was conducted using python R programing language. The primary outcome was massive PAS-associated perioperative blood loss (intraoperative blood loss >=2500 ml, triggering massive transfusion protocol, or complicated by disseminated intravascular coagulopathy). Other outcomes include prolonged hospitalization >7 days and admission to the intensive care unit (ICU).;RESULTS: 727 women with PAS were included. The area under curve (AUC) for ML antepartum prediction model was 0.84, 0.81, and 0.82 for massive blood loss, prolonged hospitalization, and admission to ICU, respectively. Significant contributors to this model were parity, placental site, method of diagnosis, and antepartum hemoglobin. Combining baseline and perioperative variables, the ML model performed at 0.86, 0.90, and 0.86 for study outcomes, respectively. Ethnicity, pelvic invasion, and uterine incision were the most predictive factors in this model.;DISCUSSION: ML models can be used to calculate the individualized risk of morbidity in women with PAS. Model-based risk assessment facilitates a priori delineation of management."""
+
+

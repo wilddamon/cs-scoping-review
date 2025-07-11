@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: irondeficiencyanemiaatadmissionforlaboranddeliveryisassociatedwithanincreasedriskforcesareansectionandadversematernalandneonataloutcomes2015drukker
+"BACKGROUND: Maternal iron deficiency anemia (IDA) impacts placenta and fetus. We evaluated effects of IDA at admission for delivery on cesarean rates, and adverse maternal and neonatal outcomes.;STUDY DESIGN AND METHODS: Medical records from Jerusalem (2005-2012) identified women with a live-birth singleton fetus in cephalic presentation of any gestational age and excluded planned cesarean, chronic/gestational diseases identified with anemia. Study population was divided into anemic and non-anemic women using WHO criteria.;MAIN OUTCOME MEASURES: cesarean rate, and adverse outcomes (maternal: packed cells transfusion, early post-partum hemorrhage, preterm delivery; and neonatal: 5' Apgar < 7, Neonatal Intensive Care Unit [NICU] admission, extreme birthweights). Continuous variable analysis and multivariate backward step-wise logistic regression models were prepared with Odds Ratios (OR) and 95% confidence intervals (CI).;RESULTS: In all, 96,066 deliveries were registered, of which 75,660 (78.8%) were included. IDA was present in 7,977 women (10.5%). Anemia at birth was significantly associated with cesarean section (OR 1.30; 95%CI, 1.13-1.49, p < 0.001), packed cells transfusion (OR 5.48; 95%CI, 4.57-6.58, p < 0.001), preterm delivery (OR 1.54; 95%CI, 1.36-1.76, p < 0.001), macrosomia (OR 1.23; 95%CI, 1.12-1.35, p < 0.001), Large for Gestational Age (OR 1.29; 95%CI, 1.20-1.39, p < 0.001), Apgar 5' < 7 (OR 2.21; 95%CI, 1.84-2.64, p < 0.001), and NICU admission (OR 1.28; 95%CI, 1.04-1.57, p = 0.018).;CONCLUSION: Iron deficiency anemia at delivery is associated with an increased risk for cesarean section and adverse maternal and neonatal outcomes in otherwise healthy women. Monitoring/correction of hemoglobin concentrations even in late pregnancy may prevent these adverse events. Copyright (c) 2015 AABB."""
+
+

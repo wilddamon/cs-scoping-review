@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: combinedeffectsofprenatalmedicationuseanddeliverytypeareassociatedwitheczemaatage2years2015wegienka
+"BACKGROUND: Separately, prenatal antibiotics and Caesarian delivery have been found to be associated with increased risk of allergic diseases. It is not clear whether these factors may modify the effect of each other. OBJECTIVE: To assess whether the associations between delivery types and eczema, sensitization and total IgE at age 2 years were modified by maternal use of prenatal medications. METHODS: Prenatal charts of women enrolled in the WHEALS birth cohort were reviewed for delivery mode and medications prescribed and administered throughout their entire pregnancy, including systemic antibiotics and vaginally applied antifungal medications. The associations between the delivery mode and select medications and, eczema, sensitization (>= 1 of 10 allergen-specific IgE >= 0.35 IU/mL) and total IgE at age 2 years were assessed. RESULTS: There was a lower risk of eczema among vaginally vs. c-section born children (relative risk adjusted for race = aRR = 0.77, 95% CI 0.56, 1.05). Although not statistically significantly different, this association was stronger among the subset of children born vaginally to a mother who did not use systemic antibiotics or vaginal antifungal medications (aRR = 0.69, 95% CI 0.44, 1.08) compared to those born vaginally to mothers who used systemic antibiotics or vaginal antifungals (aRR = 0.81, 95% CI 0.57, 1.14). A protective association between vaginal birth and sensitization (aRR = 0.86, 95% CI 0.72, 1.03) was similar for those children born vaginally to a mother who did not (aRR = 0.87, 95% CI 0.69, 1.10) and who did (RR = 0.85, 95% CI 0.70, 1.04) use systemic antibiotics or vaginal antifungal medications. There were no associations with total IgE. CONCLUSIONS: Children born vaginally had lower risk of eczema and sensitization compared with those born via c-section; however, the protective association with eczema may be slightly weakened when mothers took systemic antibiotics or vaginally applied medications during pregnancy."""
+
+

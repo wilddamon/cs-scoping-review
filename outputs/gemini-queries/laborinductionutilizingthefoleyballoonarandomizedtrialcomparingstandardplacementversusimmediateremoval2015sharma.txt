@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: laborinductionutilizingthefoleyballoonarandomizedtrialcomparingstandardplacementversusimmediateremoval2015sharma
+"OBJECTIVE: To compare time to delivery between two induction procedures. The Foley balloon is a mechanical method for cervical ripening. However, the device may also result in endogenous prostaglandin release following separation of the chorionic membrane and decidua. Prolonged Foley placement may therefore be unnecessary for successful labor induction.;METHOD: Randomized controlled trial of labor induction at LAC+USC Medical Center between 2010 and 2013. Subjects were assigned to either (a) standard placement of the Foley balloon or (b) Foley balloon insufflation and immediate removal. Oxytocin was administered to all subjects not in active labor after 12 h. Delivery information and neonatal outcomes were documented and all patients were followed for 6 weeks for adverse events.;RESULT: A total of 79 women were included in the analysis (37 standard and 42 immediate). Induction time was 8.6 h longer in the immediate removal group (23.5 vs 32.1, P=0.002), but the difference in delivery within 24 h did not meet the statistical significance (46.0 vs 28.6%, P=0.11). Similar rates of cesarean delivery, epidural use and abnormal APGAR scores were observed. After controlling for number of vaginal exams and duration of rupture, a decreased risk of infection was observed in the immediate removal group (odds ratio=0.08, 95% confidence interval=0.007 to 0.93, P=0.04). Further, when the analysis was stratified by parity, differences in induction time only persisted in nulliparous women.;CONCLUSION: Immediate removal of the Foley balloon may lead to longer overall induction time, but a lower risk of infection. Parous women may be particularly good candidates for this type of induction."""
+
+

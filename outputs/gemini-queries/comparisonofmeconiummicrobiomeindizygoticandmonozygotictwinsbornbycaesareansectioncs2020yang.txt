@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofmeconiummicrobiomeindizygoticandmonozygotictwinsbornbycaesareansectioncs2020yang
+"The early-life microbiota triggers life-long effects on physiological functions and health disorders. Previous studies in adult twins or animal models have revealed associations between host genetics and the harmonious microbiota. However, such associations may be obscured by the fact that each intra-pair of twins will continually encounter various environmental factors as they grow up. Here, we collected the meconium samples from nineteen dizygotic pairs (DZ, n = 38) and nine monozygotic pairs (MZ, n = 18) with cesarean delivery, and 16S rRNA gene sequencing was performed to profile the microbiome at birth. Diversity analysis showed that alpha diversity was not significantly different between two groups, whereas beta diversity of MZ twins was significantly lower than that of either DZ twins or unrelated individuals (i.e., randomly selected individual pairs of non-twinship) (p < 0.05). Two groups had very similar microbial classifications but different relative abundances of certain taxa including more Firmicutes (p = 0.05, Wilcoxon test) at the phylum level and lower abundances of five genera (p < 0.05) in DZ group compared to MZ group, including Rheinheimera, Proteus, SMB53, Sphingobium, and Megamonas. Co-occurrence analysis in each group showed slightly more complicated microbial interactions in DZ than MZ twins, although 22 shared bacterial genera co-existed in two groups, with both Rheinheimera and Megamonas having different centralities in their respective co-occurrence networks. Mean intra-class correlation coefficient (ICC) were also significantly higher for MZ (0.312) compared to DZ twins (0.138) (p < 0.05). The predicted microbial gene functions related to carbohydrate were higher in DZ group, whereas folding, sorting, degradation, cell motility pathways and energy metabolism were markedly over-represented in the microbiota of MZ group. In summary, our study uncovered that microbial diversity and components of the meconium microbiome between DZ and MZ twins were partially consistent with that in singleton neonates by cesarean delivery, but several distinctions related to the heritability supported genetic contributions to intestinal microbiome in early life.(c) Copyright (c) 2020 Yang, Yao, Cheng, Xu, Hou, Wei, Feng, Yu, Zhang, Tong, Li and Zhao."""
+
+

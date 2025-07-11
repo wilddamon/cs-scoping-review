@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: combineduseofhyperbaricandhypobaricropivacainesignificantlyimproveshemodynamiccharacteristicsinspinalanesthesiaforcaesareansectionaprospectivedoubleblindrandomizedcontrolledstudy2015quan
+"PURPOSE: To observe the hemodynamic changes of parturients in the combined use of hyperbaric (4 mg) and hypobaric (6 mg) ropivacaine during spinal anesthesia for caesarean section in this randomized double-blind study. METHODS: Parturients (n = 136) undergoing elective cesarean delivery were randomly and equally allocated to receive either combined hyperbaric and hypobaric ropivacaine (Group A) or hyperbaric ropivacaine (Group B). Outcome measures were: hemodynamic characteristics, maximum height of sensory block, time to achieve T8 sensory blockade level, incidence of complications, Apgar scores at 1 and 5 min, and neonatal blood gas analysis. RESULTS: Group A had a lower level of sensory blockade (T6 [T6-T7]) and longer time to achieve T8 sensory blockade level (8 +- 1.3 min) than did patients in Group B (T3 [T2-T4] and 5 +- 1.0 min, respectively; P < 0.001, both). The incidence rates for hypotension, nausea, and vomiting were significantly lower in Group A (13%, 10%, and 3%, respectively) than Group B (66%, 31%, and 13%; P < 0.001, P = 0.003, P = 0.028). CONCLUSIONS: Combined use of hyperbaric (4 mg) and hypobaric (6 mg) ropivacaine significantly decreased the incidences of hypotension and complications in spinal anesthesia for caesarean section by extending induction time and decreasing the level of sensory blockade. TRIAL REGISTRATION: Chinese Clinical Trial Register ChiCTR-TRC-13004622."""
+
+

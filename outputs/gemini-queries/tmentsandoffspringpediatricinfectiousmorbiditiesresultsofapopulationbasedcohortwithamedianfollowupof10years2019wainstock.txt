@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fertilitytreatmentsandoffspringpediatricinfectiousmorbiditiesresultsofapopulationbasedcohortwithamedianfollowupof10years2019wainstock
+"OBJECTIVE: To study the association between mode of conception and offspring infectious morbidity risk. DESIGN: Population-based cohort study. SETTING: Regional university medical center. PATIENT(S): All singleton infants born between the years 1991 and 2014 and discharged alive from the hospital. INTERVENTION(S): Follow-up time in the study was calculated from birth to an event, defined as the first offspring hospitalization with any infectious morbidity. All infectious diagnoses were compared between the study groups, and a multivariable survival model was created to study the association between mode of conception and offspring pediatric hospitalization with infectious morbidity, and adjusting for confounding or clinically significant variables. MAIN OUTCOME MEASURE(S): First offspring pediatric hospitalization with infectious morbidity. RESULT(S): During the study period, 242,187 newborns met the inclusion criteria: 2,603 (1.1%) of which were conceived after undergoing IVF, 1,172 (0.7%) after ovulation induction (OI), and 237,863 (98.3%) were conceived spontaneously. Mothers receiving fertility treatments were older and with higher rates of preterm births and low birthweights. The hospitalizations rates per 1,000 person years of follow-up were 16.34/1,000 person years, 11.61/1,000 person years, and 10.19/1,000 person years, among the IVF, OI, and spontaneously conceived offspring, respectively. The adjusted hazard ratios were 1.26 (95% confidence interval 1.13-1.42) and 1.14 (95% confidence interval 1.00-1.38), for the IVF and OI compared with the spontaneously conceived offspring, respectively. The model adjusted for preterm delivery, birthweight, maternal age, hypertension, diabetes, and cesarean section. CONCLUSION(S): Higher risk for infectious morbidity was found among offspring conceived after fertility treatments compared with spontaneously conceived offspring."""
+
+

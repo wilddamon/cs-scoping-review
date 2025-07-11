@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofefficacyofstorageofamnioticmembraneat20and80degreescentigrade2015ashraf
+"OBJECTIVE: To compare the efficacy of storage of amniotic membrane at -20 and -80 degrees centigrade.;STUDY DESIGN: Interventional quasi-experimental study.;PLACE AND DURATION OF STUDY: Department of Ophthalmology, Unit 1, Dow University of Health Sciences and Civil Hospital, Karachi, from January 2009 to December 2010.;METHODOLOGY: Amniotic membrane was obtained from patients undergoing elective Caesarean section screened for HIV, Hepatitis B and C and gave informed consent. It was washed with solutions containing benzyl penicillin, streptomycin and amphotericin B and frozen at -20 degrees centigrade for upto 6 weeks or at -80 degrees centigrade for upto 6 months. Fisher's exact test was used to check significance. P-value less than 0.05 was considered as significant.;RESULTS: Amniotic membrane was stored at -20 degrees centigrade on four occasions and was used in 25 (48.07%) patients. On 3 other occasions it was stored at -80 degrees centigrade and was successfully used in 27 (51.92%) patients. The association between different degrees of storage of graft and type of cases is insignificant (p = 0.99).;CONCLUSION: Compared to use of fresh amniotic membrane use of amniotic membrane stored at -20 and -80 degrees is safe and cost effective. It also excludes the chances of disease transmission. Although freezing at both temperatures is equally efficacious, freezing at -80 degrees centigrade can preserve the graft upto 6 months compared to -20 degrees centigrade which can be used only for 6 weeks."""
+
+

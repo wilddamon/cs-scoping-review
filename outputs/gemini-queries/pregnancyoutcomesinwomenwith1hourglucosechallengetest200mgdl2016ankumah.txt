@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinwomenwith1hourglucosechallengetest200mgdl2016ankumah
+"OBJECTIVE: Many protocols diagnose gestational diabetes mellitus (GDM) solely on a 1-hour glucose challenge test (GCT) >= 200 mg/dL. However, pregnancy outcomes in these women compared with women diagnosed with a 3-hour glucose tolerance test (GTT) has not been adequately evaluated. We hypothesize that a 1-hour GCT >= 200 mg/dL is associated with worse pregnancy outcomes as compared with a GCT 135 to 199 mg/dL with positive GTT. STUDY DESIGN: A retrospective cohort of singleton pregnancies complicated by GDM. Maternal outcomes included A2DM, preeclampsia, primary cesarean, and failed trial of labor after cesarean. Perinatal outcomes were large/small for gestational age, shoulder dystocia, and birth injury. Groups were compared with t-test and chi-square test, and logistic regression to adjust for confounders. RESULTS: A total of 602 women diagnosed with GDM by 1-hour GCT 135 to 199 mg/dL and confirmatory 3-hour GTT (< 200 group) and 225 women diagnosed with 1-hour GCT >= 200 alone (>= 200) were included. The >= 200 group had a higher incidence of preeclampsia (16.4 vs. 10.6%) and shoulder dystocia (3.1 vs. 1.0%). Adjusted odds ratio and 95% confidence interval were 1.80 (1.10-2.94) and 5.10 (1.25-20.76), respectively. CONCLUSION: Preeclampsia and shoulder dystocia are more frequent in women with GCT >= 200 mg/dL than those with a positive GTT following a GCT of 135 to 199 mg/dL."""
+
+

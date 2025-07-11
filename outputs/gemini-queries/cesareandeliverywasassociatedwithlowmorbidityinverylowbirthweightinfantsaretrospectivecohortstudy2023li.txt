@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliverywasassociatedwithlowmorbidityinverylowbirthweightinfantsaretrospectivecohortstudy2023li
+"To estimate the relationship among the cesarean delivery (CD), mortality and morbidity in very low birth weight (VLBW) infants weighing less than 1500 g. This retrospective cohort study enrolled 242 VLBW infants delivered between the 24 to 31week of gestation from 2015 to 2021. We compared CD with vaginal delivery (VD). The primary outcome was a composite neonatal morbidity including bronchopulmonary dysplasia, intraventricular hemorrhage, periventricular leukomalacia, necrotizing enterocolitis, late-onset sepsis and retinopathy of prematurity. The secondary outcome included mortality within 28 days. A multivariate logistic regression was used and adjusted for birthweight, twin pregnancy and antenatal steroids intake. The overall CD rate was 80.6%. Compared with VD, a significantly lower composite neonatal morbidity was associated with CD (adjusted odds ratio, 0.33, 95% confidence interval, 0.12-0.90, P = .031). The relationship between CD and neonatal morbidity disappeared when the VLBW infants were stratified according to the gestational age. No significant difference was observed between the VD and CD cohorts regarding mortality. Compared with VD, CD was associated with a lower morbidity in VLBW infants. Further studies are required to clarify how this association is influenced by gestational age."""
+
+

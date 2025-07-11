@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thecombinedeffectsofmaternaldepressionandexcessweightonneonataloutcomes2015mcdonald
+"OBJECTIVE: Maternal overweight/obesity and depression are among the most prevalent pregnancy complications, and although individually they are associated with poor pregnancy outcomes, their combined effects are unknown. Owing to this, the objective of this study was to determine the prevalences and the individual and combined effects of depression and overweight/obesity on neonatal outcomes.;METHODS: A retrospective cohort study of all singleton hospital births at >20 weeks gestation in Ontario, Canada (April 2007 to March 2010) was conducted. The primary outcome measure was a composite neonatal outcome, which included: stillbirth, neonatal death, preterm birth, birth weight <2500 g, <5% or >95%, admission to a neonatal special care unit, or a 5-min Apgar score <7.;RESULTS: Among the 70,605 included women, 49.7% had a healthy pre-pregnancy BMI, whereas 50.3% were overweight/obese; depression was reported in 5.0% and 6.2%, respectively. Individually, depression and excess pre-pregnancy weight were associated with an increased risk of adverse neonatal outcomes, but the highest risk was seen when they were both present (16% of non-depressed healthy weight pregnant women, 19% of depressed healthy weight women, 20% of non-depressed overweight/obese women and 24% of depressed overweight/obese women). These higher risks of adverse neonatal outcomes persisted after accounting for potential confounding variables, such as maternal age, education and pre-existing health problems (adjusted odds ratio (OR) 1.22, 95% confidence interval (CI) 1.13-1.33, adjusted OR 1.23, 95% CI 1.18-1.28 and adjusted OR 1.42, 95% CI 1.31-1.54, in the last three groups above, respectively, relative to non-depressed healthy weight women). There was no significant interaction between weight category and depression (P=0.2956).;CONCLUSIONS: When dually present, maternal overweight/obesity and depression combined have the greatest impact on the risk of adverse neonatal outcomes. Our findings have important public health implications given the exorbitant proportions of both of these risk factors."""
+
+

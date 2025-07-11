@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: temporaltrendsinperipartumhysterectomyamongindividualswithapreviouscesareandeliverybyraceethnicityintheunitedstatesapopulationbasedcohortstudy2024rajasingham
+"OBJECTIVES: Rates of severe maternal morbidity have highlighted persistent and growing racial disparities in the United States (US). We aimed to contrast temporal trends in peripartum hysterectomy by race/ethnicity and quantify the contribution of changes in maternal and obstetric factors to temporal variations in hysterectomy rates. METHODS: We conducted a population-based, retrospective study of 5,739,569 US residents with a previous cesarean delivery, using National Vital Statistics System's Natality Files (2011-2021). Individuals were stratified by self-identified race/ethnicity and classified into four periods based on year of delivery. Temporal changes in hysterectomy rates were estimated using odds ratios (ORs) and 95% confidence intervals (CIs). We used sequential logistic regression models to quantify the contribution of maternal and obstetric factors to temporal variations in hysterectomy rates. RESULTS: Over the study period, the peripartum hysterectomy rate increased from 1.23 (2011-2013) to 1.44 (2019-2021) per 1,000 deliveries (OR 2019-2021 vs. 2011-2013 = 1.17, 95% CI 1.10 to 1.25). Hysterectomy rates varied by race/ethnicity with the highest rates among Native Hawaiian and Other Pacific Islander (NHOPI; 2.73 per 1,000 deliveries) and American Indian or Alaskan Native (AIAN; 2.67 per 1,000 deliveries) populations in 2019-2021. Unadjusted models showed a temporal increase in hysterectomy rates among AIAN (2011-2013 rate = 1.43 per 1,000 deliveries; OR 2019-2021 vs. 2011-2013 = 1.87, 95% CI 1.02 to 3.45) and White (2011-2013 rate = 1.13 per 1,000 deliveries; OR 2019-2021 vs. 2011-2013 = 1.21, 95% CI 1.11 to 1.33) populations. Adjustment ranged from having no effect among NHOPI individuals to explaining 14.0% of the observed 21.0% increase in hysterectomy rates among White individuals. CONCLUSION: Nationally, racial disparities in peripartum hysterectomy are evident. Between 2011-2021, the rate of hysterectomy increased; however, this increase was confined to AIAN and White individuals."""
+
+

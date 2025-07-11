@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsassociatedwiththedevelopmentofintraventricularhaemorrhageinneonates1500gadmittedintonicu2017seguraroldan
+"Introduction: Intraventricular haemorrhage (IVH) is the most frequent neurological complication of the premature infant, and is associated with an adverse neurological outcome. The objective of this study was to identify risk factors associated with IVH in preterm infants less than 1500 g in the NICU. Material(s) and Method(s): A cohort of preterm infants less than 1500 g, admitted to the NICU during 2016, were followed up during their hospital stay until their discharge to home, or death. Perinatal and neonatal variables were analysed. For the statistical analysis, those that developed IVH were compared with those that did not, using the chi-squared test, Student's t-test, odds ratio (OR), and mean difference, with a 95% confidence interval. Result(s): IVH was present in 45 (33.3%) neonates, out of a total of 135, being grade 1 in 22 (16%), grade 2 in 6 (4.4%), grade 3 in 8 (5.9%), and grade 4 in 9 (6.6%). C-section had a favourable effect on those babies without IVH (OR: 0.18; 95% CI: 0.07-0.45). The mortality was higher in babies with IVH (OR: 4.63; 95% CI: 1.76-12.11). The birth weight and gestational age were less in those with IVH (887 vs 979 g, and 28.1 vs 29.26 GW). The mortality in severe IVH (grade 3+4) was 64.7%, and in grade 1+2 IVH it was 10.7% (P=.0006). Conclusion(s): IVH in infants less than <1500 g is a frequent morbidity, especially in those with low gestational age and birth weight. Severe IVH was associated with mortality.Copyright (c) 2018 Instituto Nacional de Perinatologia Isidro Espinosa de los Reyes"""
+
+

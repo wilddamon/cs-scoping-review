@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incidenceandpredictorsofpuerperalsepsisamongpostpartumwomenatdebremarkoscomprehensivespecializedhospitalnorthwestethiopiaaprospectivecohortstudy2023bishaw
+"BACKGROUND: Puerperal sepsis is one of the leading causes of maternal mortality, particularly in low and middle-income countries where most maternal deaths occur. Women with puerperal sepsis are prone to long-term disabilities, such as chronic pelvic pain, blocked fallopian tubes, and secondary infertility. Besides this, puerperal sepsis has received less attention. For this reason, this study aimed to determine the incidence of puerperal sepsis and its predictors among postpartum women at Debre Markos Comprehensive Specialized Hospital. METHODS: A prospective cohort study was conducted among 330 postpartum women from September 2020 to 2021. A pre-tested interviewer-administered questionnaire with a data extraction checklist was used to collect the data. Data were entered into Epi data 4.2 and analyzed using STATA 14.0. The incidence rate of puerperal sepsis was calculated, and a Kaplan-Meier survival curve was used to estimate the survival probability of developing puerperal sepsis. The cox-proportional hazards regression model was fitted to identify predictors of puerperal sepsis. RESULTS: The study participants were followed for a total of 1685.3 person-week observations. The incidence rate of puerperal sepsis was 14.24 per 1,000 person-weeks. However, the overall incidence of puerperal sepsis was 7.27%. Not attending formal education [AHR: 3.55, 95% CI: (1.09-11.58)], a cesarean delivery [AHR: 4.50; 95% CI: (1.79-11.30)], premature rupture of the membranes [AHR: 3.25; 95% CI: (1.08-9.79)], complicated pregnancy [AHR: 4.80; 95% CI: (1.85-12.43)], being referred [AHR: 2.90; 95% CI: (1.10-7.65)], and not having birth preparedness and complication readiness plan [AHR: 2.95; 95% CI: (1.08-10.50)] were statistically significant predictors of puerperal sepsis. CONCLUSION: The incidence of puerperal sepsis was 7.27%. Not attending formal education, cesarean delivery, premature rupture of membranes, complicated pregnancy, referral status, and absence of birth preparedness and complication readiness plan were predictors associated with the incidence of puerperal sepsis."""
+
+

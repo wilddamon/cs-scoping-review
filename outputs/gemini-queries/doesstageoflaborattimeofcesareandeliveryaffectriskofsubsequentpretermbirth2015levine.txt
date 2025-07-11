@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesstageoflaborattimeofcesareandeliveryaffectriskofsubsequentpretermbirth2015levine
+"OBJECTIVE: The effect of a cesarean delivery in different stages of labor on spontaneous preterm birth (sPTB) in a subsequent pregnancy has not been studied extensively. The objective of the study was to evaluate the risk of subsequent sPTB after a first-stage or second-stage cesarean delivery compared with a vaginal delivery. STUDY DESIGN: This was a planned secondary analysis of a large retrospective cohort study of women with 2 consecutive deliveries from 2005-2010. Women with a previous sPTB were excluded. First-stage (<10 cm) and second-stage (>=10 cm) cesarean deliveries were compared with vaginal deliveries. Data were obtained through chart abstraction. The primary outcome was sPTB (<37 wk) in a subsequent pregnancy. Categoric variables were compared with the use of kh(2) analyses, and logistic regression was used to calculate odds and control for confounders. RESULTS: Eight hundred eighty-seven women were included (721 vaginal deliveries; 129 first-stage and 37 second-stage cesarean deliveries). The sPTB rate varied between groups (7.8%, 2.3%, and 13.5%, respectively; P = .03). When compared with women with a vaginal delivery, women with a first-stage cesarean delivery had a decreased risk of sPTB, which remained after adjustment for confounders (adjusted odds ratio, 0.30; 95% confidence interval, 0.09-0.99; P = .049). There was a nonsignificant increase in odds of sPTB after a second-stage cesarean delivery compared with a vaginal delivery (adjusted odds ratio, 2.4; 95% confidence interval, 0.77-7.43; P = .13). Women with a second-stage cesarean delivery had a 6-fold higher odds of sPTB compared with women with a first-stage cesarean delivery, which remained after adjustment for confounders (adjusted odds ratio, 5.8; 95% confidence interval, 1.08-30.8; P = .04). CONCLUSION: Women with a full-term second-stage cesarean delivery have a significantly higher than expected rate of subsequent sPTB (13.5%) compared with both the overall national sPTB rate (7-8%) and to a first-stage cesarean delivery (2.3%). As the cesarean delivery rate continues to rise, this potential impact on pregnancy outcomes cannot be ignored."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outofhospitalcervicalripeningwithasynthetichygroscopiccervicaldilatormayreducehospitalcostsandcesareansectionsintheunitedstatesacostconsequenceanalysis2021saunders
+"Objective: Out-of-hospital (outpatient) cervical ripening prior to induction of labor (IOL) is discussed for its potential to decrease the burden on hospital resources. We assessed the cost and clinical outcomes of adopting an outpatient strategy with a synthetic hygroscopic cervical dilator, which is indicated for use in preinduction cervical ripening. Methods: We developed a cost-consequence model from the hospital perspective with a time period from IOL to post-delivery discharge. A hypothetical cohort of women to undergo IOL at term with an unfavorable cervix (all risk levels) were assessed. As the standard of care (referred to as IP-only) all women were ripened as inpatients using the vaginal PGE2 insert or the single-balloon catheter. In the comparison (OP-select), 50.9% of low-risk women (41.4% of the study population) received outpatient cervical ripening using a synthetic hygroscopic cervical dilator and the remaining women were ripened as inpatients as in the standard of care. Model inputs were sourced from a structured literature review of peer-reviewed articles in PubMed. Testing of 2,000 feasible scenarios (probabilistic multivariate sensitivity analysis) ascertained the robustness of results. Outcomes are reported as the average over all women assessed, comparing OP-select to IP-only. Results: Implementing OP-select resulted in hospital savings of US$689 per delivery, with women spending 1.48 h less time in the labor and delivery unit and 0.91 h less in the postpartum recovery unit. The cesarean-section rate was decreased by 3.78 percentage points (23.28% decreased to 19.50%). In sensitivity testing, hospital costs and cesarean-section rate were reduced in 91% of all instances. Conclusion: Our model analysis projects that outpatient cervical ripening has the potential to reduce hospital costs, hospital stay, and the cesarean section rate. It may potentially allow for better infection-prevention control during the ongoing COVID-19 pandemic and to free up resources such that more women might be offered elective IOL at 39 weeks."""
+
+

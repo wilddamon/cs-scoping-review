@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: derivationandvalidationofamodelpredictingthelikelihoodofvaginalbirthfollowinglabourinduction2019alavifard
+"BACKGROUND: There is high-quality evidence supporting induction of labour (IOL) for a number of maternal and fetal indications. However, one fifth of inductions fail to result in vaginal births, requiring cesarean deliveries. This has negative clinical, emotional and resource implications. The importance of predicting the success of labour induction to enable shared decision-making has been recognized, but existing models are limited in scope and generalizability. Our objective was to derive and internally validate a clinical prediction model that uses variables readily accessible through maternal demographic data, antenatal history, and cervical examination to predict the likelihood of vaginal birth following IOL. METHODS: Data was extracted from electronic medical records of consecutive pregnant women who were induced between April and December 2016, at Mount Sinai Hospital, Toronto, Canada. A multivariable logistic regression model was developed using 16 readily accessible variables identified through literature review and expert opinion, as predictors of vaginal birth after IOL. The final model was internally validated using 10-fold cross-validation. RESULTS: Of the 1123 cases of IOL, 290 (25.8%) resulted in a cesarean delivery. The multivariable logistic regression model found maternal age, parity, pre-pregnancy body mass index and weight, weight at delivery, and cervical dilation at time of induction as significant predictors of vaginal delivery following IOL. The prediction model was well calibrated (Hosmer-Lemeshow kh2 = 5.02, p = 0.76) and demonstrated good discriminatory ability (area under the receiver operating characteristic (AUROC) curve, 0.81 (95% CI 0.78 to 0.83)). Finally, the model showed good internal validity [AUROC 0.77 (95% CI 0.73 to 0.82)]. CONCLUSIONS: We have derived and internally validated a well-performing clinical prediction model for IOL in a large and diverse population using variables readily accessible through maternal demographic data, antenatal history, and cervical examination. Once prospectively validated in diverse settings, and if shown to be acceptable to pregnant women and healthcare providers as well as clinically and cost-effective, this model has potential for widespread use in clinical practice and research for enhancing patient autonomy, improving induction outcomes, and optimizing allocation of resources."""
+
+

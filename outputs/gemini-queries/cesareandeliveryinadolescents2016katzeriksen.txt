@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryinadolescents2016katzeriksen
+"STUDY OBJECTIVE: To examine the effect of maternal age on indication for primary cesarean delivery in low-risk nulliparous women. DESIGN: Retrospective cohort study. SETTING: Urban academic tertiary care center. PARTICIPANTS: Nulliparous women younger than 35 years of age delivering vertex-presenting singletons at term. INTERVENTIONS: Participants underwent spontaneous, operative or cesarean delivery. MAIN OUTCOME MEASURES: Mode of delivery, indication, and timing of cesarean delivery. RESULTS: Adolescents were half as likely to undergo cesarean delivery overall (odds ratio [OR], 0.48; 95% confidence interval [CI], 0.43-0.54), and more than one-third less likely to undergo cesarean delivery in labor (OR, 0.59; 95% CI, 0.53-0.66). Adjustment for potential confounders did not alter the strength of these associations. Adolescents were half as likely to undergo cesarean delivery for failure to progress (OR, 0.49; 95% CI, 0.43-0.54). There was no difference in the odds of cesarean delivery for nonreassuring fetal status (OR, 0.91; 95% CI, 0.77-1.06), or genital herpes (OR, 1.44; 95% CI, 0.57-3.68). Induction, macrosomia, oxytocin augmentation, and any labor complication were all associated with increased risk of cesarean delivery. There was no difference in the duration of second stage for adolescents who delivered by cesarean delivery compared with adults (240.0 vs 237.7 minutes; P = .84), but adolescents who delivered vaginally had a second stage that was one-third shorter than adults (62.5 vs 100.3 minutes; P < .001). CONCLUSION: Adolescents are half as likely to undergo primary cesarean delivery overall, and 40% less likely to undergo a primary cesarean delivery in labor, even after adjustment for multiple maternal, neonatal, and labor characteristics. This difference is not explained by differences in the duration of the second stage of labor."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aprospectiverandomizedclinicaltrialcomparingimmediateversusdelayedremovalofurinarycatheterfollowingelectivecesareansection2014elmazny
+"OBJECTIVE: To compare immediate and 12h postoperative removal of urinary catheter after elective cesarean section. STUDY DESIGN: In a prospective clinical trial at a university teaching hospital, 300 eligible women admitted for primary or repeat elective cesarean section were randomized into two equal groups. In group A, the catheter was removed immediately after the procedure; whereas in group B, the catheter was removed 12h postoperatively. RESULTS: The incidence of postoperative significant bacteruria (p=0.020), dysuria (p=0.030), burning on micturition (p=0.016), urinary frequency (p=0.031), and urgency (p=0.011) were significantly lower in group A compared with group B. The mean postoperative ambulation time (p<0.001), time till the first voiding (p<0.001), and length of hospital stay (p<0.001) were also significantly shorter in group A. There were no significant differences between the two groups in the incidence of urinary retention necessitating recatheterization (p=0.371). CONCLUSION: Immediate removal of urinary catheter after elective cesarean section is associated with lower risk of urinary infection and earlier postoperative ambulation."""
+
+

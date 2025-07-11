@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sporadicaccelerationsduringlaborstronglyindicatenormalphwhereasperiodicaccelerationsdonotacasecontrolstudy2023ekengard
+"PURPOSE: To determine the association between the occurrence of sporadic and periodic fetal heart rate accelerations during labor and acidemia at birth. MATERIALS AND METHODS: This is a case-control study of fetal heart rate patterns from 364 neonates with acidemia at birth (cord blood pH <7.05 at vaginal birth, or pH <7.10 at birth after first stage cesarean delivery) and 731 controls with pH >=7.15. The last 30-60 min of the cardiotocographic traces before birth from the neonates born with acidemia and from the corresponding stage in labor for the controls were scrutinized. Odds ratios (OR) with 95% confidence interval for acidemia at birth were determined. RESULTS: During the first stage, >=2 sporadic accelerations were present in 16% of cases and 78% of controls; OR for acidemia (compared to 0-1 accelerations) 0.05 (0.02-0.10). In the second stage, the corresponding rates were 13% and 60%, OR 0.09 (0.06-0.14). Isolated periodic accelerations were infrequent. A weak negative association between >=2 periodic accelerations and acidemia (compared with 0-1 accelerations) was found in the second stage, OR 0.51 (0.30-0.86), but was not significant in the first stage, OR 0.24 (0.04-1.4). Even among fetuses with normal fetal heart rate variability (5-25 beats per minute) the occurrence of less than two sporadic accelerations was associated with an increased risk of acidemia, OR 10.3 (7.2-14.8). CONCLUSIONS: Sporadic accelerations indicate a very low probability of acidosis but are absent in 40% of fetuses with normal pH during a 30-60 min second-stage recording."""
+
+

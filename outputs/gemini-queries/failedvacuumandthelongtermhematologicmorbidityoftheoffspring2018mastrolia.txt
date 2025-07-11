@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: failedvacuumandthelongtermhematologicmorbidityoftheoffspring2018mastrolia
+"OBJECTIVE: We aimed to investigate the effect of failed vacuum delivery leading to an emergency cesarean delivery on the long-term pediatric hematologic morbidity of the offspring. STUDY DESIGN: In this population-based cohort study, the risk of long-term hematologic morbidity (up to the age of 18 y) was evaluated in children born following successful vacuum vaginal delivery, as compared with that of children born following a failed procedure leading to an emergent cesarean delivery. Multiple pregnancies and fetuses with congenital malformations were excluded. A Kaplan-Meier survival curve was constructed to compare cumulative pediatric hematologic morbidity, and a Cox proportional hazards model was used to control for confounders. RESULTS: A total of 7978 neonates met the inclusion criteria. Vacuum delivery was successful in 7733 cases (96.9%), whereas it failed in 245 cases (3.1%). Total hematologic morbidity of the offspring up to 18 years of age was comparable between the groups (1.6% vs. 0.8%, P=0.8). The Kaplan-Meier survival curve showed no difference in the cumulative incidence of total hematologic morbidity (log rank, P=0.22). In the Cox regression model, failed vacuum delivery was not independently associated with long-term hematologic morbidity, as compared with a successful procedure, while adjusting for multiple confounders (adjusted hazards ratio [HR], 1.8; 95% confidence interval, 0.7-5.0; P=0.25). CONCLUSIONS: Failed vacuum delivery does not seem to be associated with an increased risk for pediatric hematologic morbidity of the offspring up to 18 years of age."""
+
+

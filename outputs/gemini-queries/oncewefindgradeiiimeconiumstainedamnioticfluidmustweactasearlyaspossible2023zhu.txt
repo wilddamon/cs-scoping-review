@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: oncewefindgradeiiimeconiumstainedamnioticfluidmustweactasearlyaspossible2023zhu
+"Background: Grade III meconium stained amniotic fluid (MSAF) is a common obstetric disease, and has the greatest impact on poor maternal and neonatal outcomes. Question or Hypothesis or Aim: There is no consensus on treatment, especially on the timing of delivery. Method(s): We collected the medical records of 345 women who gave birth with grade III MSAF and analyzed the difference in baseline characteristics and maternal and neonatal outcomes relative to different labor stage, observation times in the first stage of labor, and the presence or absence of abnormal fetal heart rate (FHR) or thick amniotic fluid. Finding(s): Higher rate of cesarean section was observed when grade III MSAF was found in active labor. Intervention occurred at an observation time of 90-120 min, but there were no significant differences in maternal or neonatal outcomes shown when the observation time was greater than 3 or 4 hours. However, a higher rate of admission to the neonatal intensive care unit was demonstrated in cases with grade III MSAF with abnormal FHR either in the first or second stage of labor or in cases with thick MSAF in the second stage of labor. Discussion(s): Higher rate of composite adverse neonatal outcomes was found when secondary MSAF (a transition from clear AF to MSAF) was diagnosed >3 h before delivery. Conclusion(s): In the first stage of labor, an observation time of greater than 4 hours might be possible after grade III MSAF is found if the labor has progressed and is without abnormal FHR.Copyright (c) 2023 Zhu et al."""
+
+

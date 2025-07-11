@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandfetaloutcomesofacuteleukemiainpregnancyaretrospectivestudyof52patients2021wang
+"Acute leukemia during pregnancy (P-AL) is a rare disease with limited data regarding the management and outcomes of mothers and fetuses. We retrospectively analyzed the characteristics, pregnancy outcomes and maternal and neonatal prognoses of 52 patients with P-AL collected from January 2013 to December 2020 in our center. Seventeen (32.7%) patients received chemotherapy during pregnancy (exposed cohort), while 35 (67.3%) received chemotherapy after abortion/delivery (nonexposed cohort). Twenty-six (50.0%) pregnancies ended with abortion, and 26 (50.0%) babies were born through spontaneous delivery or cesarean section. Seven infants (26.9%) were born in the exposed cohort, while 19 infants (73.1%) were born in the nonexposed cohort. Fetuses in the exposed cohort had lower gestational ages (P=0.030) and birth weights (P=0.049). Considering the safety of the fetus, seven patients in the exposed cohort received low-dose chemotherapy, one patient received all-trans retinoic acid (ATRA) and one patient only received corticosteroids as induction therapy. Patients received low-dose chemotherapy as induction therapy had a lower complete remission (CR) rate (P=0.041), and more patients in this group received HSCT (P=0.010) than patients received intensive chemotherapy. Patients who delayed chemotherapy in the nonexposed cohort experienced a trend toward a higher mortality rate than patients who received timely chemotherapy (P=0.191). The CR (P = 0.488), OS (P=0.655), and DFS (P=0.453) were similar between the exposed and nonexposed cohorts. Overall, the 4-year overall survival (OS) and disease-free survival (DFS) rates were estimated at 49.1% and 57.8%, respectively. All newborns were living, without deformities, or developmental and intellectual disabilities. Our study indicated that P-AL patients in the first trimester might tend to receive chemotherapy after abortion. Both the status of disease and patients' willingness should be taken into consideration when clinicians were planning treatment strategies in the second or third trimester. Low-dose or delayed chemotherapy might decrease the efficacy of induction therapy and survival rate of patients, but HSCT could improve the prognosis."""
+
+

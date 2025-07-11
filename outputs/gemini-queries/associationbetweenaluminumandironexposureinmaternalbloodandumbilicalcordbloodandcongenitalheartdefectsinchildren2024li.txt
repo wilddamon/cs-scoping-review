@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenaluminumandironexposureinmaternalbloodandumbilicalcordbloodandcongenitalheartdefectsinchildren2024li
+"Background: Congenital heart disease (CHDs) is the major cause of mortality from birth defects, affecting up to 1% of live births worldwide. However, the relationship between aluminum (Al) and iron (Fe) levels and the risk of CHDs has yielded inconsistent results. Method(s): We conducted a pair-matched case-control study that included 97 CHDs and 194 non-CHDs to investigate the association and interaction between Al/Fe exposure and the risk of CHDs in a birth cohort study in Lanzhou, China. Result(s): Higher concentrations of cord blood Al were associated with a greater risk of total CHDs (aOR = 2.826, 95% CI [1.009-7.266]) and isolated CHDs (aOR = 10.713, 95% CI [1.017-112.851]) compared to the lowest Al level. Both in maternal blood and cord blood, a significant dose-effect was observed between Al level and total CHDs (Ptrend < 0.05), but a similar pattern was not observed for Fe. High Al in addition to high Fe appeared to elicit a stronger association with CHDs than both lowest tertile of Al and Fe level in umbilical cord blood, particularly for multiple CHDs, septal defects and patent ductus arteriosus. Conclusion(s): Our study suggests that exposure to Al during pregnancy (>=2,408 mg/L) is significantly associated with an increased risk of CHDs in offspring, especially septal defects, and that high levels of Al and Fe are strongly correlated with fetal heart development. Further research is needed to understand the underlying mechanisms.Copyright 2024 Li et al."""
+
+

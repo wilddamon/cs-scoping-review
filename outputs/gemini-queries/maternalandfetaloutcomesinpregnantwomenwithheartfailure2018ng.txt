@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandfetaloutcomesinpregnantwomenwithheartfailure2018ng
+"OBJECTIVES: The goal of this study is to report the prevalence, aetiology and clinical outcome of pregnant women with heart failure. METHODS: This is a retrospective community-based cohort study that included pregnant women in the Kaiser Permanente Health System between 2003 and 2014. Women with heart failure were identified using International Classification of Disease, Ninth Revision codes. Medical records were manually reviewed to confirm diagnosis and adjudicate outcomes. RESULTS: In a cohort of 385 935 pregnancies, 488 (0.13%) had a diagnosis of heart failure, corresponding to 126 cases per 100 000 pregnancies. Peripartum cardiomyopathy was the most common cause of heart failure, accounting for 333 (68.2%) cases. Preterm birth and caesarean delivery were more common in patients with heart failure. Neonatal death rate was higher in the heart failure group (1.0% vs 0.4%, p=0.03). Infants delivered to women with heart failure had lower birth weights (3112.0+-774.0 g vs 3331.9+-575.5 g, p<0.001) and lower Apgar score at 1 min (7.9+-1.5 vs 8.3+-1.1, p<0.001). Median follow-up was 6.2 years (IQR 3.2-9.2). During follow-up, 7 (1.4%) in the heart failure group and 423 (0.11%) in the control group died. Heart failure was associated with a 7.7-fold increase risk of death (adjusted HR 7.7, 95% CI 3.6 to 16.4, p<0.001). CONCLUSION: Heart failure during pregnancy is associated with unfavourable fetal outcomes including prematurity and low birth weight. While the overall mortality rate was low, pregnant women with heart failure carried an excess risk of death compared with controls."""
+
+

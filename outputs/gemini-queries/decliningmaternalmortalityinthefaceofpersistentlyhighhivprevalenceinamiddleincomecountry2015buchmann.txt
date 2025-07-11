@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: decliningmaternalmortalityinthefaceofpersistentlyhighhivprevalenceinamiddleincomecountry2015buchmann
+"OBJECTIVE: To estimate maternal mortality ratio (MMR) and determine maternal death causes and trends in Greater Soweto, Johannesburg, South Africa. DESIGN: Cross-sectional study. SETTING: Chris Hani Baragwanath Maternity Hospital (CHBMH) in Greater Soweto. POPULATION: Maternal deaths at CHBMH. METHODS: Record review of maternal deaths from 1997 to 2012, using hospital death records, with denominator data from the district health information system and the hospital. MAIN OUTCOME MEASURES: Maternal mortality ratio per 100,000 live births, and causes of death classified as in the South African confidential enquiries. RESULTS: There were 479 deaths, with a peak MMR of 139 in 2004 and a decline to 86 in 2012. Of 332 women tested, 245 (74%) were HIV-infected. Nonpregnancy-related infection (40%) was the most frequent cause of death, followed by hypertension (16%) and obstetric haemorrhage (13%). HIV infection rates in these groups were 92%, 30% and 61%, respectively. Previous caesarean section was associated with obstetric haemorrhage death (odds ratio [OR] 3.2, 95% confidence interval [95% CI] 1.7-6.0), maternal age >=35 years with hypertension death (OR 2.2, 95% CI 1.2-3.7) and antenatal anaemia with nonpregnancy-related infection death (OR 4.0, 95% CI 2.3-6.9), compared with other causes of death. CONCLUSION: There is evidence of a decline in MMR since HIV treatment for pregnant women was introduced in 2004. Previous caesarean section, advanced maternal age, and anaemia were associated with death from obstetric haemorrhage, hypertensive disorders of pregnancy and nonpregnancy-related infections, respectively. MMR may be further reduced with accelerated initiation of HIV treatment during pregnancy."""
+
+

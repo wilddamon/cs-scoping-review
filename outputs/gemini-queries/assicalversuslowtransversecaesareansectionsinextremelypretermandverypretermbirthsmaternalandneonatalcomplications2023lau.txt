@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: safetyofperformingclassicalversuslowtransversecaesareansectionsinextremelypretermandverypretermbirthsmaternalandneonatalcomplications2023lau
+"AIMS: Improved survivability of extremely preterm infants has led to increased rates of caesarean sections. Short-term maternal and neonatal risks of classical caesarean sections (CCS) in the context of extreme prematurity remain unclear. The aim was to examine maternal and neonatal complications associated with CCSs versus low transverse caesarean sections (LTCS) at extremely preterm (23 0/7-27 6/7 weeks) and very preterm gestational ages (28 0/7-31 6/7 weeks). METHODS: A retrospective cohort study was conducted at Royal Brisbane and Womens Hospital, Queensland, Australia between 2016 and 2020. Maternal and neonatal outcomes were examined using univariate and multivariate statistical analysis. RESULTS: CCSs (extremely preterm: n = 93; very preterm: n = 83) were associated with higher estimated blood loss than LTCS (extremely preterm: n = 70; very preterm: n = 287) in very preterm births (CCS: 638 +- 410 mL; LTCS: 556 +- 397 mL; P = 0.01). There was no significant difference in composite maternal outcomes between CCS and LTCS for extremely preterm (adjusted odds ratio (aOR): 1.11; 95% confidence interval (CI): 0.58-2.12; P = 0.75) or very preterm births (aOR: 1.08; 95% CI: 0.63-1.94; P = 0.79) after accounting for multiple pregnancy, placenta accreta and non-cephalic fetal presentations. Although CCSs were associated with lower Apgar scores at 1 min post-birth than LTCSs at very preterm gestational ages (CCS: 5.58 +- 2.10; LTCS: 6.25 +- 2.14; P = 0.02), there was no statistical difference in the rates of intraoperative neonatal injuries or composite outcomes when corrected for low birth weight. CONCLUSION: Short-term maternal and neonatal outcomes do not significantly differ between CCS and LTCS for extremely preterm or very preterm births."""
+
+

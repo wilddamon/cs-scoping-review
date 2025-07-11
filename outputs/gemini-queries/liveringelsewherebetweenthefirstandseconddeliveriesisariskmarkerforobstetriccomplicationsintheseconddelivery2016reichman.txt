@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliveringelsewherebetweenthefirstandseconddeliveriesisariskmarkerforobstetriccomplicationsintheseconddelivery2016reichman
+"PURPOSE: We speculate that parturients who deliver elsewhere between the first and second deliveries compose a unique clinical group, characterized by higher rates of cesarean section (CS) both in the first and second deliveries, compared with parturients who deliver both deliveries at the same hospital. METHODS: A retrospective study conducted at Shaare Zedek Medical Center in a tertiary university-affiliated hospital. The cohort included all women in the second delivery, aged <=24 years with a singleton pregnancy who delivered their second child in our medical center during 2010-2012. Parturients who delivered both the first and second children in our medical center ('stayers') were compared with parturients who delivered their first child in a different hospital ('switchers'). Groups were compared in regard to history of CS in the first delivery and obstetric complications in the second delivery, including CS, instrumental vaginal delivery (IVD), preterm delivery (PTD), and postpartum hemorrhage (PPH). Logistic regressions were constructed to study if delivering elsewhere between the first and second deliveries was a risk for adverse pregnancy outcome, followed by multivariate analysis controlling for confounders. RESULTS: In all, 4166 parturients were included: 'stayers' = 3163 and 'switchers' = 1003. History of CS in the first delivery was approximately twice as prevalent in 'switchers' (12 versus 6.3 %, p < 0.000). 'Switchers' experienced higher rates of CS: OR = 1.8 (95 % CI 1.2-2.3); IVD: OR = 1.3 (95 % CI 0.8-2.1); and PTD (<37(w)): OR = 1.4 (95 % CI 1.0-1.9). CONCLUSIONS: Parturients who deliver elsewhere between the first and second childbirth are at increased risk for CS and PTD in the second delivery; hence, the decision to deliver elsewhere after the first delivery should be considered as a risk marker for obstetric complication."""
+
+

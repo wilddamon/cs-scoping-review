@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: investigatingtheeffectsofcesareandeliveryandantibioticuseinearlychildhoodonriskoflaterattentiondeficithyperactivitydisorder2019axelsson
+"BACKGROUND: Increasing attention deficit hyperactivity disorder (ADHD) incidence has been proposed to be caused by factors influencing microbiota in early life. We investigated the potential causality between ADHD and two surrogate markers for changes in children's microbiota: birth delivery mode and early childhood antibiotic use. METHOD: This population-based, prospective cohort study linked nationwide registers of data for native Danish singleton live births in Denmark from 1997 to 2010. Exposure variables were delivery mode and antibiotic use during the first 2 years of life. The main outcome measure was ADHD diagnosis or redeemed ADHD medication prescriptions. For statistical analysis, we used both advanced sibling models and a more traditional approach. RESULTS: We included 671,592 children, followed from their second birthday in the period 1999-2014 for 7,300,522 person-years. ADHD was diagnosed in 17,971. In total, 17.5% were born by cesarean delivery, and 72% received antibiotic treatment within their first 2 years of life. In the adjusted between-within sibling survival model, mode of delivery or antibiotics had no effect on ADHD when compared with vaginal delivery or no antibiotic treatment as hazard ratios were 1.09 (95% confidence interval 0.97-1.24) for intrapartum cesarean, 1.03 (0.91-1.16) for prelabor cesarean, 0.98 (0.90-1.07) for penicillin, and 0.99 (0.92-1.06) for broader spectrum antibiotics. In a sibling-stratified Cox regression, intrapartum cesarean was associated with increased ADHD risk, but other exposures were not. In a descriptive, nonstratified Cox model, we found increased risk for ADHD for all exposures. CONCLUSIONS: Detailed family confounder control using the superior between-within model indicates that cesarean delivery or use of antibiotics during the first 2 years of life does not increase ADHD risk. Therefore, our study suggests that changes in children's microbiota related to cesarean delivery or antibiotic use, do not cause ADHD."""
+
+

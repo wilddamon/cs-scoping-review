@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antenatalcorticosteroidsdecreasetheriskofcompositeneonatalrespiratorymorbidityinplannedearlytermcesareandeliveries2022debolt
+"OBJECTIVE: While administration of antenatal corticosteroids prior to term elective cesarean deliveries has been shown in international randomized controlled trials to decrease the rates of respiratory distress syndrome and transient tachypnea of the newborn, this is not a standard practice in the United States. We aim to determine if the administration of antenatal corticosteroids for fetal lung maturation within 1 week of scheduled early term cesarean delivery resulted in decreased composite respiratory morbidity. STUDY DESIGN: Historical cohort study including women who underwent scheduled early term cesarean delivery of a singleton, non-anomalous neonate at Mount Sinai Hospital between May 2015 and August 2019, comparing those who completed a course of antenatal corticosteroids within 1 week of delivery to those who did not. The primary outcome was composite respiratory morbidity defined as respiratory distress syndrome, transient tachypnea of the newborn, and neonatal intensive care unit admission for respiratory morbidity. Maternal and neonatal characteristics were compared between groups using t-tests or Wilcoxon-Rank Sum tests for continuous measures and Chi-square or Fisher's exact tests for categorical measures, as appropriate. The outcomes were assessed using logistic regression. RESULTS: History of preterm birth was significantly higher in those who received antenatal corticosteroids compared with those who did not (24.0 vs. 10.9%, p = 0.01). Neonates who were not exposed to antenatal corticosteroids were more likely to experience the composite respiratory morbidity compared with those who were exposed (RR 4.1, 95% CI 1.2-13.7; p = 0.02). Between 37 and 38 weeks, neonates who did not receive steroids were at increased risk of composite respiratory morbidity (RR 11.7, 95% CI 1.5-89.0, p < 0.01), however, there was no difference for those born between 38 and 39 weeks. CONCLUSION: Betamethasone course administered prior to planned early term cesarean delivery was associated with a statistically significant reduction in the neonatal composite respiratory morbidity compared with routine management. KEY POINTS: * Steroids administered prior to scheduled cesarean lead to decreased neonatal respiratory morbidity.. * Steroid administration was not associated with increased adverse neonatal outcomes.. * Steroid administration was most beneficial between 37 and 38 weeks.."""
+
+

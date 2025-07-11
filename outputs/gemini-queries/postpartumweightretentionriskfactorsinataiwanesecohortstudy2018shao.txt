@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postpartumweightretentionriskfactorsinataiwanesecohortstudy2018shao
+"OBJECTIVE: Excess postpartum weight retention (PPWR) is related to long-term weight gain. Therefore, this study was conducted to identify the risk factors for PPWR to provide guidance for preventive strategies.;METHODS: This cohort study surveyed 461 women who gave birth at a medical center between March 2014 and March 2016. The participants completed a questionnaire within 1 month of delivery, and their 6-month postpartum weight was tracked.;RESULTS: The results showed that the mean pre-pregnancy BMI was 21.4 +/- 3.3 kg/m2, and the mean gestational weight gain (GWG) was 12.8 +/- 4.1 kg. The mean PPWR was 4.6 +/- 3.5 kg at 1 month and 2.1 +/- 3.3 kg at 6 months. Multivariate analysis revealed that GWG (adjusted OR: 1.92 (1.70-2.17)), pre-pregnancy BMI (adjusted OR: 0.85 (0.77-0.94)), and exclusive breastfeeding (adjusted OR: 0.55 (0.32-0.94)) were significantly correlated with a 1-month PPWR higher than the median value. In addition, GWG (adjusted OR: 1.30 (1.22-1.39)) and exclusive breastfeeding (adjusted OR: 0.37 (0.24-0.58)) were significantly correlated with a 6-month PPWR higher than the median value.;CONCLUSION: Our findings indicate that the key to reducing PPWR is to control GWG and engage in exclusive breastfeeding. Copyright (c) 2018 The Author(s) Published by S. Karger GmbH, Freiburg."""
+
+

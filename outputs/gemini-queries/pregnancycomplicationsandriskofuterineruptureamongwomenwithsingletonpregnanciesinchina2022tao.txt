@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancycomplicationsandriskofuterineruptureamongwomenwithsingletonpregnanciesinchina2022tao
+"BACKGROUND: The goal of this study was to investigate whether pregnancy complications are associated with an increased risk of uterine rupture (UR) and how that risk changes with gestational age.;METHODS: We obtained all data from China's National Maternal Near Miss Surveillance System (NMNMSS) between 2012 and 2018. Poisson regression analysis was used to assess the risk of UR with pregnancy complications (preeclampsia, gestational diabetes mellitus, placental abruption, placenta previa and placenta percreta) among 9,454,239 pregnant women. Furthermore, we analysed the risks of UR with pregnancy complications in different gestational age groups.;RESULTS: The risk of UR was increased 2.0-fold (1.2-fold to 2.7-fold) in women with pregnancy complications (except for preeclampsia). These associations also persisted in women without a previous caesarean delivery. Moreover, an increased risk of UR before term birth was observed among women with gestational diabetes mellitus, placental abruption and placenta percreta. The risk of UR was slightly higher in women with gestational diabetes mellitus who had a large for gestational age (LGA) foetus, especially at 32 to 36 weeks gestation.;CONCLUSIONS: The risk of UR is associated with gestational diabetes mellitus, placental abruption, placenta previa and placenta percreta, but varies in different gestational ages. Copyright (c) 2022. The Author(s)."""
+
+

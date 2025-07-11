@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofchangeinpregnancybodymassindexoncesareandelivery2014swank
+"OBJECTIVE: To examine the impact of pregnancy changes in body mass index (BMI) on the incidence of cesarean delivery. METHODS: This is a retrospective cohort study using linked birth certificate and discharge diagnosis data from the year 2007. Adjusted odds ratios (aOR) were calculated for the outcome of cesarean delivery, as a function of a categorical change in pregnancy BMI (kg/m(2)): BMI loss (BMI change<-0.5), no change (-0.5 to 0.5), minimal (0.6 to 5), moderate (5.1 to 10) and excessive (>10). The impact of pregnancy change in BMI was determined for the entire cohort and then stratified by prepregnancy BMI category. RESULTS: The study population consisted of 436 414 women with singleton gestations. When compared to women with no net change in BMI, women with excessive BMI changes collectively had a 80% increased incidence of cesarean delivery (aOR = 1.78). By prepregnancy obesity class, the aOR for cesarean delivery in women with excessive BMI change were: normal weight (aOR = 2.25), overweight (aOR = 2.39), obese class I (aOR = 2.23), obese class II (aOR = 2.56) and obese class III (aOR = 2.08). CONCLUSIONS: The odds of cesarean delivery were uniformly increased in all prepregnancy BMI categories as net BMI change increased. These data illustrate that all women, not just the overweight and obese, are at significantly increased risk of cesarean delivery with excessive BMI change during pregnancy."""
+
+

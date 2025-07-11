@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: politicalrepresentationandperinataloutcomestoblackwhiteandhispanicpeopleingeorgiaacrosssectionalstudy2023stanhope
+"PURPOSE: Our goal was to estimate differences in perinatal outcomes by racial differences in political representation, a measure of structural racism. METHODS: We gathered data on the racial composition of county-level elected officials for all counties in Georgia (n = 159) in 2022. We subtracted the percent of non-White elected officials from the percent of non-White residents to calculate the 'representation difference,' with greater positive values indicating a larger disparity. We linked this to data from 2020-2021 birth certificates (n = 238,795) on outcomes (preterm birth, <37 weeks, low birthweight birth <2500 g, birthweight, hypertensive disorders of pregnancy, cesarean delivery). We fit log binomial and linear models with generalized estimating equations, stratified by individual race/ethnicity and including individual and county covariates. RESULTS: Median representation difference was 17.5% points (interquartile range: 17.2). A 25-percentile point increase in representation difference was associated with a greater risk of hypertensive disorders of pregnancy [White: adjusted risk ratio (RR): 1.12, 95% confidence interval (CI): (1.05, 1.2), Black: 1.06, 95% CI: (0.95, 1.17), other: 1.14, 95% CI: (1.0, 1.3), Hispanic: 1.19, 95% CI: (1.07, 1.32)] and lower mean birthweight for Black birthing people [adjusted beta -15.3, 95% CI: (-25.5, -7.4)]. CONCLUSIONS: Parity in political representation may be associated with healthier environments."""
+
+

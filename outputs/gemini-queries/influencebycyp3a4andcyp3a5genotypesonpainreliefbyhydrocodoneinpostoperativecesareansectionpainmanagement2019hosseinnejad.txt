@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lackofinfluencebycyp3a4andcyp3a5genotypesonpainreliefbyhydrocodoneinpostoperativecesareansectionpainmanagement2019hosseinnejad
+"BACKGROUND: Genetic polymorphisms of cytochrome P450 are contributors to variability in individual response to drugs. Within the P450 family, CYP2D6 is responsible for metabolizing hydrocodone, a widely prescribed opioid for pain management. Alternatively, CYP3A4 and CYP3A5 can form norhydrocodone and dihydrocodeine. We have previously found that in a postcesarean section cohort, the rate of hydromorphone formation was dependent on the genotype of CYP2D6 and that plasma hydromorphone, not hydrocodone, was predictive of pain relief. METHOD: Blood was obtained from a postcesarean cohort that were surveyed for pain response and common side effects. Plasma samples were genotyped for CYP3A4/5, and their hydrocodone concentrations were measured by LC-MS. R statistical software was used to check for differences in the outcomes due to CYP3A4/5 and CYP2D6, and a multivariate regression model was fit to determine factors associated with pain score. RESULTS: Two-way ANOVA between CYP3A4/A5 and CYP2D6 phenotypes revealed that the former variants did not have a statistical significance on the outcomes, and only CYP2D6 phenotypes had a significant effect on total dosage (P = 0.041). Furthermore, a 3-way ANOVA analysis showed that CYP2D6 (P = 0.036) had a predictive effect on plasma hydromorphone concentrations, and CYP3A4/A5 did not have any effect on the measured outcomes. CONCLUSIONS: With respect to total dosages in a cesarean section population, these results confirm that CYP2D6 phenotypes are predictors for plasma hydromorphone concentration and pain relief, but CYP3A4/A5 phenotypes have no influence on pain relief or on side effects."""
+
+

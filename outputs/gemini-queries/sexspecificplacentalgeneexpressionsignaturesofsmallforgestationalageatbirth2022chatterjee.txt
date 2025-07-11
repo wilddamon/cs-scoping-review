@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sexspecificplacentalgeneexpressionsignaturesofsmallforgestationalageatbirth2022chatterjee
+"INTRODUCTION: Small for gestational age at birth (SGA), often a consequence of placental dysfunction, is a risk factor for neonatal morbidity and later life cardiometabolic diseases. There are sex differences in placental gene expression and fetal growth. Here, we investigated sex-specific associations between gene expression in human placenta measured using RNA sequencing and SGA status using data from ethnic diverse pregnant women in the NICHD Fetal Growth Studies cohort (n = 74). METHODS: Gene expression measures were obtained using RNA-Sequencing and differential gene expression between SGA (birthweight <10th percentile) and appropriate for gestational age (AGA: >=10th and <90th percentile) was tested separately in males (12 SGA and 27 AGA) and females (9 SGA and 26 AGA) using a weighted mean of log ratios method with adjustment for mode of delivery and ethnicity. RESULTS: At 5% false discovery rate (FDR), we identified 40 differentially expressed genes (DEGs) related to SGA status among males (95% up- and 5% down-regulated) and 314 DEGs among females (32.5% up- and 67.5% down-regulated). Seven female-specific DEGs overlapped with known imprinted genes (AXL, CYP24A1, GPR1, PLAGL1, CMTM1, DLX5, LY6D). The DEGs in males were significantly enriched for immune response and inflammation signaling pathways whereas the DEGs in females were enriched for organ development signaling pathways (FDR<0.05). Sex-combined analysis identified no additional DEGs, rather 98% of the sex-specific DEGs were no longer significant and the remaining 2% were attenuated. DISCUSSION: This study revealed sex-specific human placental gene expression changes and molecular pathways associated with SGA and underscored that unravelling the pathogenesis of SGA warrants consideration of fetal sex as a biological variable. TRIAL REGISTRATION: https://www. CLINICALTRIALS: gov, Unique identifier: NCT00912132."""
+
+

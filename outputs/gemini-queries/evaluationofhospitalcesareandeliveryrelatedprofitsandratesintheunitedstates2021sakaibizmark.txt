@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluationofhospitalcesareandeliveryrelatedprofitsandratesintheunitedstates2021sakaibizmark
+"IMPORTANCE: A high cesarean delivery rate in US hospitals indicates the potential overuse of this procedure; however, underlying causes of the excessive use of cesarean procedures in the US have not been fully understood. OBJECTIVE: To investigate the association between the probability of cesarean delivery at the patient-level and profit per procedure from cesarean deliveries. DESIGN, SETTING, AND PARTICIPANTS: This observational, cross-sectional study used a nationally representative sample of hospital discharge data from women at low risk for cesarean birth who delivered newborns between 2010 and 2014 in the US. Data were gathered from the Nationwide Readmissions Database from the Healthcare Cost and Utilization Project, compiled by the Agency for Healthcare Research and Quality. Data cleaning and analyses were conducted between August 2019 and May 2020. EXPOSURES: Hospital-level median value of profits from cesarean deliveries, defined as the difference between the charge and the cost for cesarean delivery calculated for each hospital. MAIN OUTCOMES AND MEASURES: Our primary outcome was the individual-level probability of undergoing a cesarean delivery. We examined the association with the hospital-level median value of profits per procedure for cesarean delivery (defined as the difference between the charge and the cost for cesarean delivery) using hierarchical regression models adjusted for patient and hospital characteristics and year-fixed effects. RESULTS: A total of 13 215 853 deliveries were included in our analyses (mean [SE] age, 27.4 [0] years), of which 2 202 632 (16.7%) were cesarean deliveries. After adjusting for potential confounders, pregnant women were more likely to have a cesarean birth when they delivered at hospitals with higher profits per procedure from cesarean deliveries. Women cared for at hospitals with the highest (adjusted odds ratio, 1.08; 95% CI, 1.02-1.14; P = .005) and second-highest profit quartiles (adjusted odds ratio, 1.07; 95% CI, 1.02-1.13; P = .007) had higher probabilities of a cesarean delivery compared with those cared for at hospitals in the lowest profit quartile. CONCLUSIONS AND RELEVANCE: In this cross-sectional study of US nationally representative hospital discharge data, hospitals with higher profits per cesarean procedure were associated with an increased probability of delivering newborns through cesarean birth. These findings highlight the potential influence financial incentives play in determining a high cesarean delivery rate in the US."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: urinaryincontinence4and12yearsafterfirstdeliveryriskfactorsassociatedwithprevalenceincidenceremissionandpersistenceinacohortof236women2014pizzoferrato
+"AIMS: Our aim was to study risk factors associated with prevalence, incidence, and remission of UI 4 and 12 years after first delivery. METHODS: Seven hundred seventy-four nulliparous women who gave birth in 1996 in two French maternity units at term received a questionnaire about their urinary symptoms in 2000 and again in 2008. Two hundred thirty-six women returned a questionnaire about UI 4 and 12 years after first delivery. Four groups of women were built: (A) women continent 4 and 12 years after first delivery; (B) women continent at 4 and incontinent at 12 years; (C) women incontinent at 4 and continent at 12 years; and (D) women incontinent at 4 and 12 years. Multivariate logistic regressions were used to determine risk factors of UI prevalence (groups B + D vs. A + C), incidence (B vs. A), remission (C vs. D), and onset of UI (D vs. B) RESULTS: Factors associated with UI 12 years after first pregnancy were: BMI (OR = 1.17 [95%CI: 1.04-1.32], by 1 kg/m(2) ) and increasing BMI (1.43 [1.19-1.73]), first child's weight (1.08 [1.001-1.16], by 100 g) and UI during first pregnancy (3.77 [1.83-7.76]). Factors associated with UI incidence were age at first delivery (0.86 [0.75-0.98]) and high BMI (1.24 [1.05-1.45]). Increasing BMI, UI during first pregnancy, and heavy first child reduce the likelihood of UI remission (0.37 [0.20-0.68], 0.11 [0.02-0.63], and 0.73[0.59-0.91], respectively). CONCLUSIONS: UI during first pregnancy could be indicative of individual susceptibility to UI. Obesity appears to be a modifiable factor for remission of UI in women."""
+
+

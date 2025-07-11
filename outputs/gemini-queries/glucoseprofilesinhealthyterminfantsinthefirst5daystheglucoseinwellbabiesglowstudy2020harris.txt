@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: glucoseprofilesinhealthyterminfantsinthefirst5daystheglucoseinwellbabiesglowstudy2020harris
+"OBJECTIVES: To determine postnatal changes in plasma and interstitial glucose concentrations of healthy infants receiving current recommended care and to compare the incidence of low concentrations with recommended thresholds for treatment of at-risk infants.;STUDY DESIGN: A prospective masked observational study in Hamilton, New Zealand. Healthy, term, appropriately grown singletons had continuous glucose monitoring and repeated heel-prick plasma glucose measurements (4 in the first 24 hours then twice daily using the glucose oxidase method) from birth to 120 hours.;RESULTS: The 67 infants had a mean birth weight of 3584 +/- 349 g, and gestational age of 40.1 +/- 1.2 weeks. The mean glucose concentrations increased over the first 18 hours, remained stable to 48 hours (59 +/- 11 mg/dL; 3.3 +/- 0.6 mmol/L)] before increasing to a new plateau by the fourth day (89 +/- 13 mg/dL; 4.6 +/- 0.7 mmol/L). Plasma glucose concentrations of 47 mg/dL (2.6 mmol/L) approximated the 10th percentile in the first 48 hours, and 39% of infants had >=1 episode below this threshold. Early term infants had lower mean glucose concentrations than those born at later gestational ages and were more likely to have episodes <47 mg/dL (<2.6 mmol/L) (19/32 [59%] vs 7/35 [20%]; relative risk, 3.0; 95% CI, 1.4-6.1; P = .001).;CONCLUSIONS: Healthy infants seem to complete their metabolic transition by day 4. Many have glucose concentrations below the accepted thresholds for treatment of hypoglycemia.;TRIAL REGISTRATION: ACTRN: 12615000986572. Copyright (c) 2020 Elsevier Inc. All rights reserved."""
+
+

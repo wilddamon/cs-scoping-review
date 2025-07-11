@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: bilateralsalpingectomyversusbilateralpartialsalpingectomyduringcesareandelivery2018duncan
+"Objective: To compare surgical outcomes in patients undergoing bilateral salpingectomy (salpingectomy group) with those who had partial salpingectomy (partial salpingectomy group) during cesarean delivery. Material(s) and Method(s): A chart review from July 2015 to November 2016 was performed. We included women who had sterilization during cesarean delivery. We excluded sterilization by occlusive methods. Our primary outcomes were total operative time and a composite score of transfusion rate, internal organ injury, hospital readmission, and endometritis. Secondary outcomes included menstrual abnormalities, pelvic pain, quality of life assessment, and regrets rate. We compared these outcomes between women in the salpingectomy and partial salpingectomy groups. Chi-squared, Fisher's exact, t-test, and Mann-Whitney U were utilized for statistical analysis where appropriate. A P<0.05 was considered significant. Result(s): We included a total of 160 pregnancies. Of these, 41 were in the salpingectomy and 119 in the partial salpingectomy group. The median total operative time was longer for the salpingectomy group (62 [IQR 54, 71] vs 60 minutes [IQR 46, 72]; P=0.03). The composite of surgical complications (19.5% vs 12.6%; P=0.28) was not significantly different between our study groups. Menstrual irregularities (P>=0.99), quality of life (P>=0.99), dyspareunia (P>=0.99), dysmenorrhea (P=0.36), and regrets (P>=0.99) were not different between groups. Conclusion(s): Salpingectomy during cesarean delivery increased the median operative time by 2 minutes and may not be associated with an increased risk of surgical complications. We acknowledge the need for larger multi-center trials to corroborate our outcomes.Copyright (c) 2018 Duncan et al."""
+
+

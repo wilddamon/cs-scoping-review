@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryandbodymassindexat6monthsandintochildhood2017vinding
+"BACKGROUND AND OBJECTIVES: The prevalence of cesarean delivery (CD) is rising worldwide, and so is childhood obesity. Studies have shown associations between these factors. We examined the development of BMI from birth through childhood to determine whether CDs were associated with differences in growth and obesity. METHODS: Term children from the birth cohorts Copenhagen Prospective Studies on Asthma in Childhood(2000) (COPSAC(2000)) and COPSAC(2010) were included. Height, length, and weight measurements were collected prospectively until 5 years in COPSAC(2010) and until 13 years in COPSAC(2000). Dual-energy x-ray absorptiometry (DXA) scans were performed at 3.5 and 7 years. Information on relevant covariates were verified during clinical visits. Analyses were adjusted for covariates associating with CD. RESULTS: In COPSAC(2010), 20% (N = 138/673) of the children were delivered by CD; 49% were girls. In COPSAC(2000), 19% (N = 76/393) were delivered by CD; 51% were girls. Children delivered by CD had a higher mean BMI at 6 months compared with those delivered vaginally: COPSAC(2010) b-coefficient, .41 (95% confidence interval [CI], .12 to .69), P = .01; COPSAC(2000) b-coefficient, .16 (95% CI, -.11 to .68), P = .16; and meta-analysis b-coefficient, .37 (95% CI, .14 to .60), P = .002. There were no differences in BMI trajectory between the 2 groups by 5 and 13 years, nor cross-sectional BMI at 5 and 13 years, nor in fat percentages from DXA scans. CONCLUSIONS: Children delivered by CD had a higher BMI at 6 months of age, but this difference did not track into later childhood. Our study does not support the hypothesis that CD leads to later overweight."""
+
+

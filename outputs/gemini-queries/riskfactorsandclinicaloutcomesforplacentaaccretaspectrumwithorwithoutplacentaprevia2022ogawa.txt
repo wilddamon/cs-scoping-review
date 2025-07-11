@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsandclinicaloutcomesforplacentaaccretaspectrumwithorwithoutplacentaprevia2022ogawa
+"PURPOSE: To clarify risk factors and clinical outcomes for placenta accreta spectrum (PAS) stratified by placenta previa. METHODS: We conducted registry-based multicenter cross-sectional study including 472,301 singleton deliveries between 2013 and 2015. PAS was considered as a primary outcome, as well as maternal age, parity, history of cesarean section, history of miscarriage, and assisted reproductive technology (ART) were considered as potential exposures. A multivariable Poisson regression analysis was conducted to assess the risk for PAS, stratified by placenta previa. In addition, the risk for subsequent blood transfusion and hysterectomy by each exposure using multivariable Poisson regression analysis was conducted. RESULTS: There were 426 and 1827 cases of PAS with and without placenta previa. Among cases with placenta previa, the number of previous cesarean sections was the most powerful predictor for PAS [adjusted risk ratio (aRR) for one previous cesarean section 5.34, 95% confidence interval (CI) 3.70-7.71; aRR for two or more previous cesarean section 16.5, 95% CI 11.5-23.6]. Among cases without placenta previa, previous cesarean section was not a significant predictor, whereas the strongest predictor was conception through ART (aRR 5.05, 95% CI 4.50-5.66). Although the risks of PAS for blood transfusion and hysterectomy were higher among cases with placenta previa, those without placenta previa also demonstrated non-negligible risks. CONCLUSION: The current study demonstrated that history of cesarean section was the strongest risk factor for PAS among women with placenta previa. Among those without placenta previa, ART was an important predictor, but not cesarean section."""
+
+

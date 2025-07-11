@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: racemattersmaternalmorbidityinthemilitaryhealthsystem2021hamilton
+"BACKGROUND: In the United States, Black women are 3 to 4 times more likely to die from childbirth and have a 2-fold greater risk of maternal morbidity than their White counterparts. This disparity is theorized to be related to differences in access to healthcare or socioeconomic status. Military service members and their dependents are a diverse community and have equal access to healthcare and similar socioeconomic statuses. OBJECTIVE: This study hypothesized that universal access to healthcare, as seen in the military healthcare system, leads to similar rates of maternal morbidity regardless of race or ethnic background. STUDY DESIGN: A retrospective cohort study included data from the inaugural National Perinatal Information Center special report comparing indicators of severe maternal morbidity by race. National Perinatal Information Center data from participating military treatment facilities in the Department of Defense performing more than 1000 deliveries annually from April 1, 2018, to March 31, 2019, were included. Using this convenience data set, Chi-square analyses comparing the percentages of cesarean deliveries, adult intensive care unit admissions, and severe maternal morbidity between Black and White patients were performed. RESULTS: Black women were more likely to deliver via cesarean delivery (31.68% vs 23.58%; P<.0001; odds ratio, 1.5; 95% confidence interval, 1.38-1.63), be admitted to an adult intensive care unit (0.49% vs 0.18%; P=.0026; odds ratio, 2.78; 95% confidence interval, 1.46-5.27), and experience overall severe maternal morbidity (2.66% vs 1.66%; P=.0001; odds ratio, 1.67; 95% confidence interval, 1.3-2.15) even when excluding blood transfusion (0.64% vs 0.32%; P=.0139; odds ratio, 1.99; 95% confidence interval, 1.17-3.36) than their White counterparts. There were no substantial differences between races in overall severe maternal morbidity associated with postpartum hemorrhage even when excluding blood transfusion in this subset. CONCLUSION: Equal access to healthcare and similar socioeconomic statuses in the military healthcare system do not explain the healthcare disparities seen regarding maternal morbidity encountered by Black women having children in the United States. This study identifies healthcare disparities in severe maternal morbidity among active duty service members and their families. Further studies to assess causes such as systemic racism (including implicit and explicit medical biases) and physiological factors are warranted."""
+
+

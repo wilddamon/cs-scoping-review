@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyandneonataloutcomesamongacohortofhivinfectedwomeninalargeitalianteachinghospitala30yearretrospectivestudy2017grignolo
+"The primary study objective was to investigate three decades from 1985 to 2014 of changes in pregnancies among HIV-infected women. The secondary objective was to assess risk factors associated with preterm delivery and severe small-for-gestational-age (SGA) infants in HIV-infected women. A retrospective review of deliveries among pregnant HIV-infected women at the University of Genoa and IRCCS San Martino-IST in Genoa between 1985 and 2014 was performed. Univariate and multivariable analyses were used to study the variables associated with neonatal outcomes. Overall, 262 deliveries were included in the study. An increase in median age (26 years in 1985-1994 vs. 34 years in 2005-2014), in the proportion of foreigners (none in 1985-1994 vs. 27/70 (38*6%) in 2005-2014), and a decrease in intravenous drug use (75*2% (91/121) in 1985-1994 vs. 12*9% (9/70) in 2005-2014) among pregnant HIV-infected women was observed. Progressively, HIV infections were diagnosed sooner (prior to pregnancy in 80% (56/70) of women in the last decade). An increase in combined antiretroviral therapy (cART) prescription during pregnancy (50% (27/54) in 1995-2004 vs. 92*2% (59/64) in 2005-2014) and in HIV-RNA <50 copies/ml at delivery (19*2% (5/26) in 1995-2004 vs. 82*3% (53/64) in 2005-2014) was observed. The rate of elective caesarean section from 1985 to 1994 was 9*1%, which increased to 92*3% from 2004 to 2015. Twelve (10*1%) mother-to-child transmissions (MTCT) occurred in the first decade, and six (8*3%) cases occurred in the second decade, the last of which was in 2000. Preterm delivery (<37 weeks gestation) was 5% (6/121) from 1985 to 1994 and increased to 17*1% (12/70) from 2005 to 2014. In univariate and multivariable logistic regression analyses, advancing maternal age and previous pregnancies were associated with preterm delivery (odds ratio (OR) 2*7; 95% confidence intervals (CI) 1-7*8 and OR 2*6; 95% CI 1*1-6*7, respectively). In the logistic regression analysis, use of heroin or methadone was found to be the only risk factor for severe SGA (OR 3*1; 95% CI 1*4-6*8). In conclusion, significant changes in demographic, clinical and therapeutic characteristics of HIV-infected pregnant women have occurred over the last 30 years. Since 2000, MTCT has decreased to zero. An increased risk of preterm delivery was found to be associated with advancing maternal age and previous pregnancies but not with cART. The use of heroin or methadone has been confirmed as a risk factor associated with severe SGA."""
+
+

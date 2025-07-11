@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: limitationsandopportunitiesofwholebloodbilirubinmeasurementsbygempremier4000r2017wang
+"BACKGROUND: Neonatal hyperbilirubinemia has traditionally been screened by either total serum bilirubin or transcutaneous bilirubin. Whole blood bilirubin (TwB) by the GEM Premier 4000 R blood gas analyzer (GEM) is a relatively new technology and it provides fast bilirubin results with a small sample volume and can measure co-oximetry and other analytes. Our clinical study was to evaluate the reliability of TwB measured by the GEM and identify analytical and clinical factors that may contribute to possible bias.;METHODS: 440 consecutive healthy newborn samples that had plasma bilirubin ordered for neonatal hyperbilirubinemia screening were included. TwB was first measured using the GEM, after which the remainder of the blood was spun and plasma neonatal bilirubin was measured using the VITROS 5600 R (VITROS).;RESULTS: 62 samples (14%) were excluded from analysis due to failure in obtaining GEM results. Passing-Bablok regression suggested that the GEM results were negatively biased at low concentrations of bilirubin and positively biased at higher concentrations relative to the VITROS results (y = 1.43x-61.13). Bland-Altman plots showed an overall negative bias of the GEM bilirubin with a wide range of differences compared to VITROS. Both hemoglobin concentration and hemolysis affected the accuracy of the GEM results. Clinically, male infants had higher mean bilirubin levels, and infants delivered by caesarean section had lower hemoglobin levels. When comparing the number of results below the 40th percentile and above the 95th percentile cut-offs in the Bhutani nomogram which would trigger discharge or treatment, GEM bilirubin exhibited poor sensitivity and poor specificity in contrast to VITROS bilirubin.;CONCLUSIONS: An imperfect correlation was observed between whole blood bilirubin measured on the GEM4000 R and plasma bilirubin on the VITROS 5600 R. The contributors to the observed differences between the two instruments were specimen hemolysis and the accuracy of hemoglobin measurements, the latter of which affects the calculation of plasma-equivalent bilirubin. Additionally, the lack of standardization of total bilirubin calibration particularly in newborn specimens, may also account for some of the disagreement in results."""
+
+

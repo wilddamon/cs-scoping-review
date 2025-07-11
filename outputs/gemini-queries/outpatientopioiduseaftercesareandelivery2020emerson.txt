@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outpatientopioiduseaftercesareandelivery2020emerson
+"OBJECTIVES: With a goal of informing opioid prescribing after cesarean delivery, we compared inpatient, prescribed, and outpatient Morphine Equivalent Doses (MED) and patient characteristics.;METHODS: Patients were enrolled after cesarean delivery and followed for 2-5 weeks with demographic, opioid use, and clinical characteristics collected from participants and the medical record. T-test, ANOVA, linear regression, and Pearson correlation coefficients were used in analyses.;RESULTS: Among 76 women, 21% used all opioids prescribed and 20% used none. History of psychiatric comorbidities was associated with higher outpatient opiate use (172 MED vs 103 MED; p = 0.046). There was no difference in opiates consumed inpatient and amount prescribed at discharge (p = 0.502). However, low, medium, and high inpatient consumers used 53 (SD 76), 111 (SD 96), and 195 (SD 132) MEDs outpatient, respectively (p < 0.001).;CONCLUSIONS: Outpatient opioid prescribing based on inpatient needs may facilitate judicious opioid use after cesarean delivery. Significance What Is Already Known: Opioid abuse is a growing problem in this country, and excess prescribing contributes to the availability of opioids. Limited data exist regarding the amount of opioids patients need after cesarean delivery, or what factors are predictive of an individual patient's opioid needs.;WHAT THIS STUDY ADDS: This study further supports the growing literature demonstrating that providers frequently over-prescribe opioids following cesarean delivery. It uniquely adds associations of patient-specific factors and outpatient opioid needs."""
+
+

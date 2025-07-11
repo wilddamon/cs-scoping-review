@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: differencesinriskfactorsforincidentandrecurrentpretermbirthapopulationbasedlinkageof35millionbirthsfromthecidacsbirthcohort2022rocha
+"BACKGROUND: Preterm birth (PTB) is a syndrome resulting from a complex list of underlying causes and factors, and whether these risk factors differ in the context of prior PTB history is less understood. The aim of this study was to explore whether PTB risk factors in a second pregnancy were different in women with versus without previous PTB. METHODS: We conducted a population-based cohort study using data from the birth cohort of the Center for Data and Knowledge Integration for Health (CIDACS) for the period 2001 to 2015. We used longitudinal transition models with multivariate logistic regression to investigate whether risk factors varied between incident and recurrent PTB. RESULTS: A total of 3,528,050 live births from 1,764,025 multiparous women were analyzed. We identified different risk factors (P(difference) <0.05) between incident and recurrent PTB. The following were associated with an increased chance for PTB incidence, but not recurrent: household overcrowding (OR 1.09), maternal race/ethnicity [(Black/mixed-OR 1.04) and (indigenous-OR 1.34)], young maternal age (14 to 19 years-OR 1.16), and cesarean delivery (OR 1.09). The following were associated with both incident and recurrent PTB, respectively: single marital status (OR 0.85 vs 0.90), reduced number of prenatal visits [(no visit-OR 2.56 vs OR 2.16) and (1 to 3 visits-OR 2.44 vs OR 2.24)], short interbirth interval [(12 to 23 months-OR 1.04 vs OR 1.22) and (<12 months, OR 1.89, 95 vs OR 2.58)], and advanced maternal age (35-49 years-OR 1.42 vs OR 1.45). For most risk factors, the point estimates were higher for incident PTB than recurrent PTB. CONCLUSIONS: The risk factors for PTB in the second pregnancy differed according to women's first pregnancy PTB status. The findings give the basis for the development of specific prevention strategies for PTB in a subsequent pregnancy."""
+
+

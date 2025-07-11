@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: type2diabetesandneonatalhypoglycemiaroleofrouteofdeliveryandinsulininfusion2022alrais
+"OBJECTIVE: To compare the rate of neonatal hypoglycemia among newborns delivered by individuals with Type 2 diabetes mellitus (T2DM) in two clinical scenarios: who attempted vaginal delivery vs. had a planned cesarean delivery (CD); who had intrapartum insulin infusion vs. who did not. METHODS: This was a retrospective cohort study of individuals with insulin-treated T2DM who had non-anomalous singleton pregnancy and delivered at a single tertiary center (March 2012 and May 2018). Individuals with chronic renal failure, proliferative retinopathy, or major congenital anomalies were excluded. The primary outcome was neonatal hypoglycemia (blood glucose < 40 mg/dl <24 h of age or < 50 mg/dl >24 h of age). Secondary outcomes included neonatal outcomes. Multivariable Poisson regression models with robust error variance were used to examine the association between groups and the primary outcome. Adjusted relative risk (aRR) and 95% confidence intervals (CI) were calculated. RESULTS: Of 233 individuals with T2DM, 215 (92.2%) met the inclusion criteria, of whom 95 (44%) attempted vaginal delivery and 120 (56%) had a planned CD. Individuals who labored had a higher gestational age at delivery (36.6 vs. 35.8 weeks, p = .005), and higher blood glucose levels upon admission (125 vs 103, p < .001) compared to those with a planned CD. After adjustment for potential confounders, there was no difference in risk of neonatal hypoglycemia between the groups (41.2 vs 44.1%, aRR 1.05, 95% CI = 0.75-1.45). Among those who attempted vaginal delivery, 34 (35.8%) required insulin infusion. There was no difference in the risk of neonatal hypoglycemia (aRR = 0.79, 95% CI = 0.45-1.37) between newborns delivered by individuals who required insulin infusion and those who did not. CONCLUSION: Over 40% of newborns delivered by individuals with insulin-dependent T2DM had hypoglycemia; however, there was no significant difference in the risk of hypoglycemia, irrespective of the route of delivery and the use of insulin infusion."""
+
+

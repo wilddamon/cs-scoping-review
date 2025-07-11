@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therelationshipbetweencesareandeliveryandfecundabilityapopulationbasedcohortstudy2024sima
+"BACKGROUND: Previous studies have found that women who undergo cesarean delivery have fewer pregnancies. Cesarean delivery is also more common among women with lower fecundability. The potential role of cesarean delivery in reduced fecundability is not known. OBJECTIVE: This study aimed to assess the bidirectional relationship between cesarean delivery and fecundability. STUDY DESIGN: This was a prospective cohort study based on data from the Norwegian Mother, Father, and Child Cohort study linked with the Medical Birth Registry of Norway. We estimated the fecundability ratio (per cycle probability of pregnancy) and relative risk of infertility (time to pregnancy >=12 months) by mode of delivery in the previous delivery among 42,379 women. For the reverse association, we estimated the relative risk of having a cesarean delivery by fecundability (the number of cycles women needed to conceive) among 74,024 women. RESULTS: The proportion of women with infertility was 7.3% (2707/37,226) among women with a previous vaginal delivery and 9.9% (508/5153) among women with a previous cesarean delivery, yielding an adjusted relative risk of 1.21 (95% confidence interval, 1.10-1.33). Women with a previous cesarean delivery also had a lower fecundability ratio (0.90; 95% confidence interval, 0.88-0.93) than women with a previous vaginal delivery. When assessing the reverse association between fecundability and cesarean delivery, we found that women who did not conceive within 12 or more cycles had a higher risk for cesarean delivery (adjusted relative risk, 1.57; 95% confidence interval, 1.48-1.66) than women who conceived within the first 2 cycles. The associations remained after controlling for sociodemographic and clinical risk factors and were observed across parity groups. CONCLUSION: Among women with more than 1 child, those who had a previous cesarean delivery subsequently had a lower fecundability ratio and an increased infertility risk than those who had a vaginal delivery. However, women who needed a longer time to conceive were also more prone to be delivered by cesarean delivery, indicating a bidirectional relationship between cesarean delivery and fecundability. This could suggest a common underlying explanatory mechanism and that the surgical procedure itself may not or only partly directly influence fecundability."""
+
+

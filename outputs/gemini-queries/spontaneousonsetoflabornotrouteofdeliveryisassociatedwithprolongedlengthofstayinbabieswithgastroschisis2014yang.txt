@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: spontaneousonsetoflabornotrouteofdeliveryisassociatedwithprolongedlengthofstayinbabieswithgastroschisis2014yang
+"BACKGROUND/PURPOSE: We studied obstetric delivery practices for fetal gastroschisis and correlated this with neonatal outcomes. Our objectives were to identify changes in delivery practices over time and to determine if these changes resulted in improved neonatal outcomes.;METHODS: After IRB approval, maternal and neonatal records from 219 gastroschisis births between 1990 and 2008 were reviewed. Obstetrical data and neonatal data were collected. Univariate comparisons were made between maternal delivery variables and neonatal outcomes. Significant and clinically relevant obstetrical variables were combined for multivariate linear regression modeling.;RESULTS: The practice of elective cesarean delivery (ELCS) shifted to spontaneous vaginal delivery (sVD) over time (p <0.001). Babies born by sVD had longer hospitalization than those born by ELCS (median 36.0 vs 21.6days, p <0.05). Gestational age (GA) and birth weight were similar between groups. Babies born by induced VD (iVD) had short hospitalization (median 22.5days). A linear regression model demonstrated that spontaneous onset of labor (SOL) and GA were independently related to LOS.;CONCLUSIONS: Over nearly two decades, delivery of gastroschisis babies shifted from ELCS to sVD, a practice associated with a significantly longer LOS. Regression models suggest that shorter LOS could be achieved if elective delivery modes are utilized prior to SOL. Copyright (c) 2014 Elsevier Inc. All rights reserved."""
+
+

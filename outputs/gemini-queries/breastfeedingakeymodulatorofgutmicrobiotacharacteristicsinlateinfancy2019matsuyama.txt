@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: breastfeedingakeymodulatorofgutmicrobiotacharacteristicsinlateinfancy2019matsuyama
+"The objective of this study was to investigate the impact of the most commonly cited factors that may have influenced infants' gut microbiota profiles at one year of age: mode of delivery, breastfeeding duration and antibiotic exposure. Barcoded V3/V4 amplicons of bacterial 16S-rRNA gene were prepared from the stool samples of 52 healthy 1-year-old Australian children and sequenced using the Illumina MiSeq platform. Following the quality checks, the data were processed using the Quantitative Insights Into Microbial Ecology pipeline and analysed using the Calypso package for microbiome data analysis. The stool microbiota profiles of children still breastfed were significantly different from that of children weaned earlier (P<0.05), independent of the age of solid food introduction. Among children still breastfed, Veillonella spp. abundance was higher. Children no longer breastfed possessed a more 'mature' microbiota, with notable increases of Firmicutes. The microbiota profiles of the children could not be differentiated by delivery mode or antibiotic exposure. Further analysis based on children's feeding patterns found children who were breastfed alongside solid food had significantly different microbiota profiles compared to that of children who were receiving both breastmilk and formula milk alongside solid food. This study provided evidence that breastfeeding continues to influence gut microbial community even at late infancy when these children are also consuming table foods. At this age, any impacts from mode of delivery or antibiotic exposure did not appear to be discernible imprints on the microbial community profiles of these healthy children."""
+
+

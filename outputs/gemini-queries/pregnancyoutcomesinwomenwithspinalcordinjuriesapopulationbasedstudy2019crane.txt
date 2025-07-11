@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinwomenwithspinalcordinjuriesapopulationbasedstudy2019crane
+"BACKGROUND: Pregnant women with congenital or acquired spinal cord injury face challenges due to compromised neurologic function and mobility, factors that may also affect fetal/infant health. Few studies have examined pregnancy course and longer-term outcomes in this population. OBJECTIVE: To assess pregnancy outcomes among women with spinal cord injury, paralysis, or spina bifida using population-based data. DESIGN: Retrospective cohort study. SETTING: Washington state linked birth-hospital discharge records. PARTICIPANTS: All women (N = 529) with spinal cord injury, paralysis, or spina bifida with singleton live birth deliveries 1987-2012, and a comparison group of women without disabilities (N = 5282). METHODS: Diagnosis codes were screened to identify cases and a 10:1 random sample of comparison women. Relative risks (RRs) and 95% confidence intervals (CIs) were calculated overall and separately for each condition using multivariable regression. Subsequent hospitalizations or death were identified via linkage to hospital discharge/death records for 2 years after delivery. MAIN OUTCOME MEASUREMENTS: Pregnancy course (weight gain, gestational diabetes, preeclampsia, infection, venous thromboembolism), delivery/labor characteristics, infant characteristics (birthweight/size, gestational age), and longer-term outcomes (occurrence/reasons for maternal/infant rehospitalization, mortality). RESULTS: Women with these spinal conditions had increased adjusted risks of prenatal urinary tract infection/pyelonephritis (RR 26.43, 95% CI 13.97-49.99), venous thromboembolism (RR 9.16, 95% CI 2.17-38.60), preterm rupture of membranes (RR 2.15, 95% CI 1.18-3.90), and cesarean delivery (RR 1.88, 95% CI 1.70-2.09). They had longer hospitalizations and increased rehospitalization (RR 1.54, 95% CI 1.28-1.87), including for postpartum depression (RR 8.15, 4.29-15.48) or injury (RR 13.05, 95% CI 6.60-25.81). Their infants were more often small for gestational age (RR 1.65, 95% CI 1.33-2.06), but had no increased risk of rehospitalization or death. CONCLUSIONS: We observed no increased long-term morbidity among infants of women with these conditions. Possible increased maternal morbidities during the first postpartum years indicate areas for intervention. LEVEL OF EVIDENCE: III."""
+
+

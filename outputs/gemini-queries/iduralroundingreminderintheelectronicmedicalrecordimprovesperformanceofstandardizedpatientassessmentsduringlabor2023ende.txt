@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: implementationofanepiduralroundingreminderintheelectronicmedicalrecordimprovesperformanceofstandardizedpatientassessmentsduringlabor2023ende
+"BACKGROUND: Poorly functioning labor epidural catheters lead to pain and dissatisfaction. Regular catheter assessment ensures timely identification of malfunction and may improve safety by facilitating rapid and successful conversion to general anesthesia for emergency cesarean. Informatics-based systems encourage standardization of care to identify epidural malfunctions earlier. OBJECTIVES: This article demonstrates that visual epidural rounding reminder display on an electronic patient board would alert clinicians to elapsed time and decrease mean time between assessments. METHODS: As a quality initiative, we implemented an epidural rounding reminder on our obstetric patient board. The reminder indicated the number of elapsed minutes since placement or last patient assessment. We retrospectively reviewed labor epidural charts 3 months prior to and 5 months following reminder implementation, with a 4-week washout period. The primary outcome was mean time between documented epidural assessments, with secondary outcomes including maximum time between assessments, total number of assessments during labor, catheter replacement rates, and patient satisfaction. Unadjusted comparisons between pre- and postimplementation groups were conducted using Wilcoxon's rank-sum and Pearson's chi-square tests, as appropriate. A test for equal variances was conducted for time between assessment outcomes. RESULTS: Following implementation, mean time between assessments decreased from a median of 173 (interquartile range [IQR]: 53, 314) to 100 (IQR: 74, 125) minutes (p <0.001), and maximum time between assessments decreased from median 330 (IQR: 60, 542) to 162 (IQR: 125, 212) minutes (p < 0.001). Total number of evaluations during labor increased from 3 (IQR: 2, 4) to 5 (IQR: 3, 7; p < 0.001). Decreased variance in mean and maximum time between assessments was noted following reminder implementation (p < 0.001). Epidural replacement rates decreased from 14 to 5% postimplementation (p < 0.001). Patient satisfaction was unchanged. CONCLUSION: Implementation of an informatics-based solution can promote standardization of care. A simple epidural rounding reminder prompted clinicians to perform more frequent labor epidural assessments. In the future, these process improvements must be linked to improvements in patient experiences and outcomes."""
+
+

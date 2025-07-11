@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acrosssectionalstudyexaminingdifferencesinindicationforcesareandeliverybyraceethnicity2021delafield
+"(1) Background: There are persistent racial/ethnic disparities in cesarean delivery in the United States (U.S.), yet the causes remain unknown. One factor could be provider bias. We examined medical indications for cesarean delivery that involve a greater degree of physician discretion (more subjective) versus medical indications that involve less physician discretion (more objective) to better understand factors contributing to the higher rate among Micronesian, one of the most recent migrant groups in the state, compared to White women in Hawai'i. (2) Methods: A retrospective chart review was conducted to collect data on 620 cesarean deliveries (N = 296 White and N = 324 Micronesian) at the state's largest maternity hospital. Multivariate regression models were used to examine associations between maternal and obstetric characteristics and (1) subjective indication defined as non-reassuring fetal heart tracing (NRFHT) and arrest of labor disorders, and (2) objective indication defined as all other indications (e.g., malpresentation). (3) Results: We found that Micronesian women had significantly higher odds of cesarean delivery due to a subjective indication compared to White women (aOR: 4.17; CI: 2.52-6.88; P < 0.001; N = 619) after adjusting for multiple covariates. (4) Conclusion: These findings suggest unmeasured factors, possibly provider bias, may influence cesarean delivery recommendations for Micronesian women in Hawai'i."""
+
+

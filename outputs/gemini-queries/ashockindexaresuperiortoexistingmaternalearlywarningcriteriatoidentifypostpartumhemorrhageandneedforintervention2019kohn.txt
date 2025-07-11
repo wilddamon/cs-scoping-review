@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: shockindexanddeltashockindexaresuperiortoexistingmaternalearlywarningcriteriatoidentifypostpartumhemorrhageandneedforintervention2019kohn
+"OBJECTIVE: To determine whether shock index (SI) is superior to traditional vital signs in predicting postpartum hemorrhage and need for intervention. METHODS: Retrospective case-control study in an academic tertiary-care county hospital. Forty-one consecutive postpartum hemorrhage (PPH) cases and 41 controls were frequency-matched by mode of delivery and maternal weight. We measured four criteria: heart rate, systolic blood pressure (SBP), SI (HR/SBP), and delta-SI (peak SI - baseline SI). Using received operating characteristic curves, we compared the discrimination performance of each criterion to predict PPH, transfusion, and surgical intervention, and identified thresholds with the strongest classification. RESULTS: SI <=1.1 can be normal in peripartum. Peak SI and delta-SI were generally superior to heart rate (HR) and SBP in predicting PPH, transfusion, and surgical intervention. SI >=1.143 and SI >=1.412 were strong initial and 'critical' thresholds. Delta-SI was the strongest classifier overall; both SI and delta-SI remain sensitive and specific when adjusted for potential confounders. CONCLUSIONS: SI and delta-SI appear to be superior to HR and SBP in predicting PPH and need for intervention. Utility of delta-SI should be prospectively explored."""
+
+

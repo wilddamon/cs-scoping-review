@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofprepregnancybodymassindexrateofgestationalweightgainwithpregnancyoutcomesinchineseurbanwomen2019wang
+"BACKGROUND: The prevalence of obesity and excessive gestational weight gain (GWG) has been increasing worldwide. The aims of this study were to evaluate associations of prepregnancy body mass index (BMI) and rate of GWG in the 2nd and 3rd trimesters with pregnancy outcomes in Chinese urban women, and to examine the dose-response relationship between rate of GWG and pregnancy outcomes. METHODS: A retrospective analysis included 8926 women who delivered live singletons at >=28 weeks of gestation between June 2012 and March 2013 among Chinese urban women. BMI was classified into underweight (BMI < 18.5 kg/m(2)), normal weight (18.5 kg/m(2) <= BMI < 24 kg/m(2)), overweight (24 kg/m(2) <= BMI < 28 kg/m(2)) and obese (BMI >= 28 kg/m(2)) according to the Chinese standard. Rate of GWG in the 2nd and 3rd trimesters was classified as insufficient, adequate and excessive if it was below, within, or above the 2009 IOM guidelines (0.44-0.58 kg/w [underweight], 0.35-0.50 kg/w [normal], 0.23-0.33 kg/w [overweight], and 0.17-0.27 kg/w [obese]). Logistic regression models and restricted cubic spline analyses were used to assess the association of prepregnancy BMI and rate of GWG with cesarean delivery, preterm birth, small-for-gestational age (SGA) and large-for-gestational age (LGA). RESULTS: 22.6 and 50.0% of women had insufficient and excessive rate of GWG, respectively. After adjustment for potential confounders, prepregnancy underweight was associated with increased risk of SGA (OR = 1.71, 95% CI: 1.40-2.09), while both overweight and obesity were associated with higher risk of cesarean delivery (overweight: OR [95% CI] = 1.80 [1.56-2.08]; obese: 2.34 [1.69-3.24]) and LGA (overweight: 1.75 [1.44-2.13]; obese: 2.48 [1.71-3.60]). Both insufficient (OR = 1.34, 95% CI: 1.08-1.65) and excessive rates of GWG (OR = 1.44, 95% CI: 1.20-1.73) were associated with higher risk of preterm birth. Insufficient rate of GWG was associated with increased odds of SGA (OR = 1.49, 95% CI: 1.16-1.82), while excessive rate of GWG was associated with higher risk for cesarean delivery (OR = 1.22, 95% CI: 1.10-1.35) and LGA (OR = 1.58, 95% CI: 1.33-1.87). Additionally, there were significant nonlinear associations between rate of GWG and preterm birth (U-shaped, P for nonlinear < 0.001). CONCLUSIONS: Prepregnancy overweight, obesity and underweight, and insufficient and excessive rate of GWG were associated with increased risk of pregnancy outcomes in Chinese urban women."""
+
+

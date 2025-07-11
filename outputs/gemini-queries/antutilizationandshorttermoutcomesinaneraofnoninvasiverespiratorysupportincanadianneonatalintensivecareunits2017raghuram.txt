@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: surfactantutilizationandshorttermoutcomesinaneraofnoninvasiverespiratorysupportincanadianneonatalintensivecareunits2017raghuram
+"OBJECTIVE: Increased use of non-invasive respiratory support (NRS) in the delivery room management of preterm neonates has resulted in delayed surfactant treatment, yet the short-term effects of this change are unknown. The aim of this study was to comparatively evaluate the use of surfactant and the short-term outcomes prior to and after the implementation of early routine use of NRS.;STUDY DESIGN: Eligible infants of <29 weeks gestational age (GA) admitted to a Canadian tertiary neonatal center during two time periods (2005 to 2008 and 2010 to 2013) were included in this retrospective cohort study. Timing of surfactant (prophylactic vs therapeutic) and short-term outcomes were compared between the two groups. Univariate and multivariate regression analysis was performed to determine the adjusted odds ratio (AOR) along with 95% confidence interval (CI) of receiving exogenous surfactant and developing bronchopulmonary dysplasia (BPD) using the later cohort as the reference group. Subgroup analyses were also performed for infants <26 and 26 to 286/7 weeks GA, respectively.;RESULTS: A total of 3980 and 5137 infants were included in the first and second time periods, respectively. There was no significant difference in overall surfactant utilization between the two time periods (AOR 1.00, 95% CI 0.89, 1.13). However, between 2005 and 2008, a lower proportion of neonates received therapeutic surfactant compared with the later cohort (47.1% vs 56.9%, P<0.01) but were more likely to receive prophylactic surfactant (52.9% vs 43.1%, P<0.01). BPD overall was significantly higher in the earlier cohort (AOR 1.19, 95% CI 1.07, 1.33), particularly among the <26 weeks gestation subgroup (AOR 1.34, 95% CI 1.08, 1.66).;CONCLUSION: Early routine use of NRS did not impact overall surfactant utilization rate, although therapeutic surfactant administration rates were higher with a concomitant decrease in BPD rates."""
+
+

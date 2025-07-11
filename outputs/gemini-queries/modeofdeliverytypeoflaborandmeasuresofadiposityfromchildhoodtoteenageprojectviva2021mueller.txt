@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofdeliverytypeoflaborandmeasuresofadiposityfromchildhoodtoteenageprojectviva2021mueller
+"BACKGROUND: Cesarean delivery has been linked with childhood obesity. Few studies have examined if this association is attenuated if there is labor prior to delivery. The objective of this current analysis was to examine the association of cesarean vs. vaginal delivery with measures of childhood adiposity, and whether the association differs by labor type (spontaneous, induced, or absent) preceding cesarean delivery.;METHODS: We ascertained delivery mode and type of labor from medical records in 1443 mother-child dyads from Project Viva with adiposity measures from at least one follow-up visit (3369 total observations) in early childhood (median age 3.2 y), mid-childhood (median 7.7 y), or early teen (median 12.9 y). Child adiposity outcomes were CDC age- and sex-specific body mass index (BMI) z-scores, sum of subscapular and triceps skinfold thicknesses (SS + TR; mm), and waist circumference (cm). We used linear regression models with generalized estimating equation estimates and adjusted for maternal age, education, race/ethnicity, prepregnancy BMI, rate of gestational weight gain, and child sex and age at outcome.;RESULTS: A total of 333 (23%) women delivered via cesarean, including 155 (11%) with spontaneous labor, 74 (5%) with induced labor, 99 (7%) with no labor, and 5 (<1%) with unknown labor status. Compared to vaginal-delivered children, cesarean-delivered children had higher BMI-z (0.15, 95% CI: 0.04, 0.26); and non-significantly higher waist circumference (0.50 cm, 95% CI: -0.34, 1.34) and SS + TR (0.47 mm, 95% CI: -0.52, 1.46). Cesarean deliveries that were preceded by spontaneous labor were not associated with childhood BMI-z (0.08, 95% CI: -0.07, 0.23), waist circumference (-0.12 cm, 95% CI: -1.09, 0.85), or SS + TR (-0.25 mm, 95% CI: -1.44, 0.93), as compared to vaginal deliveries.;CONCLUSION: Cesarean delivery was associated with higher childhood BMI-z, and although waist circumference and SS + TR trended in the same direction, these associations were not significant. Cesarean delivery preceded by spontaneous labor was not associated with adiposity outcomes."""
+
+

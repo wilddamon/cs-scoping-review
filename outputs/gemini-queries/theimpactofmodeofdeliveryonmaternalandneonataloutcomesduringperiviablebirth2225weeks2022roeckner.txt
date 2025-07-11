@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofmodeofdeliveryonmaternalandneonataloutcomesduringperiviablebirth2225weeks2022roeckner
+"OBJECTIVE: The objective of our study was to compare the maternal and neonatal complications of periviable birth by the delivery route. STUDY DESIGN: A retrospective cohort study of periviable deliveries (22(0/7)-25(6/7)weeks) from 2013 to 2020 at a tertiary teaching institution was conducted. Deliveries were grouped by the mode of delivery. Excluded deliveries included pregnancy termination, anomaly, or undesired neonatal resuscitation. The primary composite maternal outcome included death, intensive care admission, sepsis, surgical site infection, unplanned operation, or readmission. Secondary outcomes included maternal blood loss, length of stay, neonatal survival, bronchopulmonary dysplasia (BPD), intraventricular hemorrhage (IVH), necrotizing enterocolitis (NEC), patent ductus arteriosus (PDA), and retinopathy of prematurity (ROP). Outcomes were compared using Student's t-test, Wilcoxon-Mann-Whitney and Chi-squared tests. Relative risk (RR) and 95% confidence intervals were calculated with log-binomial regression. p-Values <0.05 were considered significant. Demographic and intervention variables associated with the outcome and the exposure were included in an adjusted relative risk (aRR) model. Subgroup analyses of singleton pregnancies and 22(0/7) to 23(6/7) weeks deliveries were conducted. RESULTS: After exclusion, 230 deliveries were included in the cohort. Maternal characteristics were similar between cohorts. For the primary outcome, cesarean delivery was associated with a trend toward increased maternal morbidity (22.6 vs. 10.7%, RR = 2.11 [1.03-4.43], aRR = 1.95 [0.94-4.03], p-value 0.07). Administration of magnesium sulfate, antenatal corticosteroids, and tocolytics were similar between cohorts. Neonatal survival to discharge was not different between the groups (54/83, 65.1% vs. 118/191, 61.8%, aRR = 0.93 [0.77-1.13]). Among the 172 neonates discharged alive, there was no difference in BPD, IVH, NEC, PDA, ROP, or intact survival. CONCLUSION: Periviable birth has a high rate of maternal morbidity with a trend toward the highest risk among women undergoing cesarean delivery. These risks should be included in shared decision-making. KEY POINTS: * Periviable birth has high maternal morbidity (19%) and is highest after cesarean delivery (23%).. * Route of delivery does not impact neonatal survival or intact neonatal survival.. * Head entrapment is rare during vaginal breech delivery.."""
+
+

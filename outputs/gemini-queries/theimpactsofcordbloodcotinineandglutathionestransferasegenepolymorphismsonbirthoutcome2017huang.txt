@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactsofcordbloodcotinineandglutathionestransferasegenepolymorphismsonbirthoutcome2017huang
+"BACKGROUND: This study aimed to investigate the association between cord blood cotinine levels and birth outcome, and to determine whether fetal metabolic gene polymorphisms of glutathione-S-transferase (GST) modulate the effect of environmental tobacco smoke exposure during pregnancy.;METHODS: This study included 328 maternal and neonatal pairs. Maternal and cord blood cotinine levels were measured using high performance liquid chromatography. The GST T1 (GSTT1) and GST M1 (GSTM1) polymorphisms were examined using the polymerase chain reaction method. The birth outcomes included birth weight, length, and head circumference, and the risks of having low birth weight and being small for gestational age (SGA).;RESULTS: Cord cotinine level had a dose-dependent impact on the reduction of birth weight, length, and head circumference in newborns. Elevation of cord blood cotinine concentration increased the rate of SGA and low birth weight. The neonates who had GSTT1 or GSTM1 polymorphism were associated with an increased risk of being SGA. A combination of the GSTT1 and GSTM1 null genotype exacerbated the effect of maternal environmental tobacco smoke exposure on SGA more than the presence of either genotype alone (odds ratio=8.90, 95% confidence interval=1.00-79.5).;CONCLUSION: Cord blood cotinine adversely affects birth outcomes. GSTT1 and GSTM1 null genotype may modify the effect of cord blood cotinine on birth outcomes. Copyright (c) 2017. Published by Elsevier B.V."""
+
+

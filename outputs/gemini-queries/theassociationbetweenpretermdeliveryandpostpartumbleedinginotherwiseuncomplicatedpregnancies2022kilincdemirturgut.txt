@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenpretermdeliveryandpostpartumbleedinginotherwiseuncomplicatedpregnancies2022kilincdemirturgut
+"OBJECTIVE: The primary aim was to investigate whether preterm delivery was an independent risk factor for blood or blood products transfusion in the intrapartum or postpartum period, considered as a proxy for severe obstetric bleeding. MATERIAL AND METHODS: Throughout a 9-month-period, 216 uncomplicated singleton deliveries were included in a cross-sectional study after exclusion of severe maternal and fetal morbidity, such as chorioamnionitis, and use of medications including tocolytics. Maternal and neonatal data were evaluated and compared across preterm (between 24 0/7-36 6/7 weeks' gestation) and term (between 37 0/7-41 6/7 weeks' gestation) deliveries. Primary and secondary outcomes were requirement for blood or blood products transfusion until discharge and change in hemoglobin value and hematocrit from baseline to postpartum hour 6, respectively. Logistic regression models were constructed to evaluate the effect of preterm delivery on the primary outcome. RESULTS: There were 90 (41.7%) preterm deliveries with an overall cesarean section rate of 77.8%. Preterm delivery was not an independent risk factor for the primary outcome, when route of delivery, maternal body-mass index, antenatal steroid administration, and baseline (admission) platelet and leukocyte counts were controlled for [adjusted risk ratio, 2.46; 95% confidence interval (CI), 0.69-8.77; p=0.16]. Subgroup analysis, including cesarean deliveries, revealed a similar result (adjusted risk ratio, 1.65; 95% CI, 0.42-6.48; p=0.47). Secondary outcomes, including decrease in mean or percent values of hemoglobin and hematocrit measurements, were also similar across preterm and term groups, both after vaginal and cesarean delivery (for all comparisons, p>0.05). CONCLUSION: Preterm delivery is not independently associated with increased requirement for blood transfusions or decreased hemoglobin and hematocrit values following otherwise uncomplicated vaginal or cesarean delivery of singletons."""
+
+

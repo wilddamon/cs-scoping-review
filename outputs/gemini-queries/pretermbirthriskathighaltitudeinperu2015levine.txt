@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pretermbirthriskathighaltitudeinperu2015levine
+"OBJECTIVE: High altitude has been implicated in a variety of adverse pregnancy outcomes including preeclampsia and stillbirth. Smaller studies show conflicting data on the association between high altitude and preterm birth (PTB). The objective of this study was to assess the association between altitude and PTB. STUDY DESIGN: A retrospective cohort study was performed using data from the Perinatal Information System, which includes deliveries from 43 hospitals in Peru from 2000 through 2010. Altitude was classified into the following categories: low (0-1999 m), moderate (2000-2900 m), and high (3000-4340 m). The primary outcome was PTB (delivery <37 weeks). Secondary outcomes were cesarean delivery and small for gestational age (SGA). Deliveries less than 23 weeks are not included in the database. kh(2) analyses were performed to compare categorical variables, and a logistic regression was used to calculate the odds ratios and control for confounders. Clustering by hospital was accounted for using generalized estimating equations. RESULTS: A total of 550,166 women were included (68% low, 15% moderate, 17% high altitude). The overall PTB rate was 5.9%, with no difference in the PTB rate among the 3 altitudes (5.6%, 6.2%, 6.8%, P = .13). There was a significant difference in cesarean rates (28.0%, 26.6%, 20.6%, P < .001) with a 34% decreased risk at high vs low altitude adjusted for confounders (adjusted odds ratio, 0.66; 95% confidence interval, 0.51-0.85). There was a difference in SGA (3.3%, 3.6%, 5.0%, P = .02) with a 51% increased risk at high vs low altitude adjusted for confounders (adjusted odds ratio, 1.49; 95% confidence interval, 1.14-1.93). CONCLUSION: High altitude is not associated with PTB. At high altitude, the cesarean rate was reduced and the SGA rate was increased."""
+
+

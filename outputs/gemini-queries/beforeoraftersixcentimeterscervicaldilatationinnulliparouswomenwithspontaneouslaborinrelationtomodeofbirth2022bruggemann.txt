@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: labordystociaandoxytocinaugmentationbeforeoraftersixcentimeterscervicaldilatationinnulliparouswomenwithspontaneouslaborinrelationtomodeofbirth2022bruggemann
+"BACKGROUND: The effects of diagnosing and treating labor dystocia with oxytocin infusion at different cervical dilatations have not been fully evaluated. Therefore, we aimed to examine whether cervical dilatation at diagnosis of dystocia and initiation of oxytocin infusion at different stages of cervical dilatation were associated with mode of birth, obstetric complications and women's birthing experience. METHODS: A retrospective cohort study, including 588 nulliparous term women with spontaneous onset of labor and dystocia requiring oxytocin augmentation. The study population was divided into three groups according to cervical dilatation at diagnosis of dystocia and initiation of oxytocin-infusion (<= 5 cm, 6-10 cm, fully dilated) with mode of birth as the primary outcome. Secondary outcomes were obstetrical and neonatal complications and women's experience of childbirth. Statistical comparison between groups using Chi-square and ANOVA was performed. The risk of operative birth (cesarean section and instrumental birth) was assessed using binary logistic regression with suitable adjustments (maternal age, body mass index and risk assessment on admission to the labor ward). RESULTS: The cesarean section rate differed between the groups (p < 0.001); 12% in the <= 5 cm group, 6% in the 6-10 cm group and 0% in the fully dilated group. There was no increased risk for operative birth in the <= 5 cm group compared to the 6-10 cm group, adjusted OR 1.28 95%CI (0.78-2.08). The fully dilated group had a decreased risk of operative birth (adjusted OR 0.48 95%CI (0.27-0.85). The rate of a negative birthing experience was high in all groups (28.5%, 19% and 18%) but was only increased among women in the <= 5 cm group compared with the 6-10 cm group, adjusted OR 1.76 95%CI (1.05-2.95). CONCLUSIONS: Although no difference in the risk of operative birth was found between the <= 5 cm and 6-10 cm cervical dilatation-groups, the cesarean section rate was highest in women with dystocia requiring oxytocin augmentation at <= 5 cm cervical dilatation. This might indicate that oxytocin augmentation before 6 cm cervical dilatation could be contra-productive in preventing cesarean sections. Further, the increased risk of negative birth experience in the <= 5 cm group should be kept in mind to improve labor care."""
+
+

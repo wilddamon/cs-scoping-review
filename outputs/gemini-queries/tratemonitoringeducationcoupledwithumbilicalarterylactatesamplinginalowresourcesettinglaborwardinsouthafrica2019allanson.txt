@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: abeforeandafterstudyoftheimpactonobstetricandperinataloutcomesfollowingtheintroductionofaneducationalpackageoffetalheartratemonitoringeducationcoupledwithumbilicalarterylactatesamplinginalowresourcesettinglaborwardinsouthafrica2019allanson
+"INTRODUCTION: Rates of cesarean section (CS) are increasing and abnormal fetal heart rate tracing and concern about consequent acidosis remain one of the most common indications for primary CS. Umbilical artery (UA) lactate sampling provides clinicians with point of care feedback on CTG interpretation and intrapartum care and may result in altered future practice.;MATERIALS AND METHODS: From 3rd March - 12th November 2014 we undertook a before and after study in Pretoria, South Africa, to determine the impact of introducing a clinical package of fetal heart rate monitoring education and prompt feedback with UA cord lactate sampling, using a hand-held meter, on maternal and perinatal outcomes.;RESULTS: Nine hundred thirty-six consecutive samples were analyzed (pre n = 374 and post n = 562). There was no difference in mean lactate (4.6 mmol/L [95%CI 4.4-4.8] compared with 4.9 mmol/L [95%CI 4.7-5.1], p = 0.089). Suspected fetal compromise was reduced in the post-intervention period: 30.2% vs 22.1%, aOR 0.71, 95% CI 0.52-0.96, p = 0.027. Cesarean section rates were significantly reduced in the univariate analysis: pre- 40.3% vs post-intervention 31.6% (p = 0.007). This reduction remained significant when adjusted for previous cesarean section, primiparity, maternal HIV infection and preterm birth (aOR 0.72, 95%CI 0.54-0.98, p = 0.035). Neonatal outcomes did not differ between the two groups.;CONCLUSION: The introduction of a clinical practice package of fetal heart rate monitoring education combined with routine UA cord lactate sampling has the potential to reduce the cesarean section rate without increasing adverse neonatal outcomes in a low-resource setting."""
+
+

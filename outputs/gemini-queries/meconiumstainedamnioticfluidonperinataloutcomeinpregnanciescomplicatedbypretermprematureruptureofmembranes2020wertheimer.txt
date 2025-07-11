@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofmeconiumstainedamnioticfluidonperinataloutcomeinpregnanciescomplicatedbypretermprematureruptureofmembranes2020wertheimer
+"PURPOSE: To determine whether meconium-stained amniotic fluid (MSAF) encountered in pregnancies complicated by preterm premature rupture of membranes (PPROM) is associated with adverse maternal and perinatal outcome. METHODS: A retrospective cohort study of all singleton pregnancies with PPROM and MSAF who delivered in a tertiary hospital at 24 + 0-36 + 6 weeks of gestation between 2007 and 2017. Women with PPROM-MSAF (study group) were compared to women with PPROM and clear amniotic fluid (control group). Controls were matched to cases according to age, gravidity, parity and gestational age at delivery in a 3:1 ratio. Primary outcome was defined as neonatal intensive care unit admission. Secondary outcomes were neonatal adverse outcomes, chorioamnionitis and placental abruption diagnosed clinically or by placental cultures and histology. RESULTS: Seventy-five women comprised the study group and were matched to 225 women representing the control group. A significantly higher rate of neonatal intensive care unit admissions was noted in the study group compared to controls (61.3% vs. 45.7%, p = 0.03). Multivariate analysis demonstrated that MSAF is an independent risk factor for neonatal intensive care unit admission (adjusted OR = 2.82, 95% CI 1.39-5.75, p = 0.004). MSAF was found to be associated to higher rates of cesarean and operative vaginal deliveries (30.7% vs. 24.4% and 5.3% vs. 2.7%, p = 0.057, respectively) as well as to chorioamnionitis and placental abruption (33.3% vs. 19.3%, p = 0.034 and 16.0% vs. 7.7%, p = 0.021, respectively). CONCLUSION: MSAF is associated with higher frequencies of adverse perinatal outcome when compared to clear amniotic fluid in pregnancies complicated by PPROM."""
+
+

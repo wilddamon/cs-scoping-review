@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: selectiveversusuniversalthirdtrimesterultrasoundtimeforarethinkanauditofcurrentpracticesatametropolitansydneyhospital2018king
+"Introduction: Routine third-trimester ultrasound (T3US) is not recommended in evidence-based clinical guidelines despite occurring frequently. This study investigated the incidence, indication for, results and follow-up needs of T3US performed at a Sydney metropolitan teaching hospital. Method(s): Audit of T3US amongst singleton pregnancies at St George Hospital, Sydney: retrospective review October-December 2012, prospective cohort with clinician survey February-April 2013. Data included are as follows: maternal demographics, aneuploidy screening results, T3US ordering patterns, results, follow-up management and pregnancy outcomes. Comparison of demographic characteristics and pregnancy outcomes was performed for women undergoing T3US vs. no T3US. Result(s): One thousand and thirty-five women (623 retrospective, 412 prospective) were included, of whom 560 (54%) received at least one T3US. Characteristics of retrospective and prospective cohorts were similar, so combined data are presented. Most initial T3USs were for valid indications (463 of 560; 83%), most frequently low-lying placenta at morphology (19%), reduced fundal height (10%) and to follow-up fetal concerns at morphology ultrasound (9%). One hundred and sixty-two out of 560 (29%) of initial T3US were not normal, predominantly related to accelerated or reduced fetal growth. Detection of SGA babies was significantly higher in the T3US group (32% SGA babies detected vs. 0% if no T3US, P < 0.001). However, overall detection rates remained low, with 5.2% and 3.0% of babies who had a T3US unexpectedly <10th and <3rd centile birthweight, respectively. Discussion/Conclusion: The majority of women received at least one, usually indicated, T3US in routine practice at our metropolitan Sydney hospital. This may impact obstetric care, resource allocation and patient well-being. Detection of small for gestational age fetuses was poor.Copyright (c) 2018 Australasian Society for Ultrasound in Medicine"""
+
+

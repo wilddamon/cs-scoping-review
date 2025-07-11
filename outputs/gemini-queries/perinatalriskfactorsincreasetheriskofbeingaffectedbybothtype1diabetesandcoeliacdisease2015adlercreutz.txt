@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinatalriskfactorsincreasetheriskofbeingaffectedbybothtype1diabetesandcoeliacdisease2015adlercreutz
+"AIM: This study investigated whether perinatal factors influenced the risk of a double diagnosis of type 1 diabetes and coeliac disease.;METHODS: We used multinomial logistic regression models to study the associations between perinatal factors, gender, mode of delivery, season of birth and the risk of type 1 diabetes, coeliac disease or both, in Swedish-born singleton children.;RESULTS: We found that 4327 of the 768 395 children (0.6%) had been diagnosed with type 1 diabetes, 3817 (0.5%) had been diagnosed with coeliac disease and 191 (0.02%) were affected by both diseases. If the children already had type 1 diabetes (n = 4518), the absolute risk of being affected by coeliac disease increased to 4.2% (n = 191). Children with both type 1 diabetes and coeliac disease were more likely to be female (OR = 1.48, 95% CI = 1.01-1.97), delivered by Caesarean section (OR = 1.60, 95% CI = 1.07-2.39), have native-born Swedish mothers (OR = 4.84, 95% CI = 1.96-11.97) or be born during the summer months (OR = 1.43, 95% CI = 1.07-1.92).;CONCLUSION: The increased risk of being affected by a double diagnosis of type 1 diabetes and coeliac disease was modulated by perinatal risk factors. This suggests that early life events are important when it comes to children with type 1 diabetes also developing coeliac disease. Copyright (c)2014 Foundation Acta Paediatrica. Published by John Wiley & Sons Ltd."""
+
+

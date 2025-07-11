@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithincreasedoddsofcesareandeliveryinartpregnancies2018stern
+"OBJECTIVE: To quantify the effect of medical and obstetrical factors on the odds of cesarean delivery, comparing assisted reproductive technology (ART)-treated women and women with subfertility not treated with ART versus fertile women. DESIGN: Retrospective cohort. SETTING: Not applicable. PATIENT(S): Singleton deliveries to primiparous women; with the source of this data being the Massachusetts vital and hospital records linked to the Society for Assisted Reproductive Technology Clinic Outcome Reporting System data (2004-2010). INTERVENTION(S): None. MAIN OUTCOME MEASURE(S): Mode of delivery. RESULT(S): The 173,130 deliveries included 5,768 ART-treated, 2,657 subfertile (1,627 non-ART medically assisted reproduction [MAR] and 1,030 unassisted infertile), and 164,705 fertile pregnancies and 117,743 vaginal and 55,387 cesarean deliveries. ART-treated women were older, more often white and non-Hispanic, and with more private insurance, previous uterine surgery, gestational diabetes, pregnancy hypertension, bleeding, and placental complications than fertile women. Overall rates of cesarean delivery were 45.7%, 43.3%, and 31.1% for ART-treated, subfertile, and fertile women and 41.7% and 45.9% for MAR and unassisted infertile deliveries. When adjusted for demographics, underlying medical factors, previous uterine surgery, and placental and delivery complications, adjusted odds ratios (ORs) compared with fertile women were 1.27 for ART-treated and 1.15 for subfertile women, with greater odds among unassisted infertile (OR 1.26) but not MAR (OR 1.09) women. The strongest confounders of odds of cesarean delivery were age and previous uterine surgery. CONCLUSION(S): ART and unassisted infertility were associated with greater odds of cesarean compared with fertile women. Underlying medical and obstetrical risks had strong confounding effects strongly attenuating the odds for cesarean delivery."""
+
+

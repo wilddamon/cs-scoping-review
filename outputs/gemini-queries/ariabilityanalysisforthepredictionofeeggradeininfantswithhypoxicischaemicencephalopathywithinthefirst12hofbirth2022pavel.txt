@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: heartratevariabilityanalysisforthepredictionofeeggradeininfantswithhypoxicischaemicencephalopathywithinthefirst12hofbirth2022pavel
+"BACKGROUND AND AIMS: Heart rate variability (HRV) has previously been assessed as a biomarker for brain injury and prognosis in neonates. The aim of this cohort study was to use HRV to predict the electroencephalography (EEG) grade in neonatal hypoxic-ischaemic encephalopathy (HIE) within the first 12 h. METHODS: We included 120 infants with HIE recruited as part of two European multi-centre studies, with electrocardiography (ECG) and EEG monitoring performed before 12 h of age. HRV features and EEG background were assessed using the earliest 1 h epoch of ECG-EEG monitoring. HRV was expressed in time, frequency and complexity features. EEG background was graded from 0-normal, 1-mild, 2-moderate, 3-major abnormalities to 4-inactive. Clinical parameters known within 6 h of birth were collected (intrapartum complications, foetal distress, gestational age, mode of delivery, gender, birth weight, Apgar at 1 and 5, assisted ventilation at 10 min). Using logistic regression analysis, prediction models for EEG severity were developed for HRV features and clinical parameters, separately and combined. Multivariable model analysis included 101 infants without missing data. RESULTS: Of 120 infants included, 54 (45%) had normal-mild and 66 (55%) had moderate-severe EEG grade. The performance of HRV model was AUROC 0.837 (95% CI: 0.759-0.914) and clinical model was AUROC 0.836 (95% CI: 0.759-0.914). The HRV and clinical model combined had an AUROC of 0.895 (95% CI: 0.832-0.958). Therapeutic hypothermia and anti-seizure medication did not affect the model performance. CONCLUSIONS: Early HRV and clinical information accurately predicted EEG grade in HIE within the first 12 h of birth. This might be beneficial when EEG monitoring is not available in the early postnatal period and for referral centres who may want some objective information on HIE severity."""
+
+

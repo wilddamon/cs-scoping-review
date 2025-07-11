@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofthecovid19pandemiconperinatalcareandoutcomesintheunitedstatesaninterruptedtimeseriesanalysis2022riley
+"BACKGROUND: Hospitals quickly adapted perinatal care to mitigate SARS-CoV-2 transmission at the onset of the COVID-19 pandemic. The objective of this study was to estimate the impact of pandemic-related hospital policy changes on perinatal care and outcomes in one region of the United States. METHODS: This interrupted time series analysis used retrospective data from consecutive singleton births at 15 hospitals in the Pacific Northwest from 2017 to 2020. The primary outcomes were those hypothesized to be affected by pandemic-related hospital policies and included labor induction, epidural use, oxytocin augmentation, mode of delivery, and early discharge (<48 hours after cesarean and <24 hours after vaginal births). Secondary outcomes included preterm birth, severe maternal morbidity, low 5-minute Apgar score, neonatal intensive care unit (NICU) admission, and 30-day readmission. Segmented Poisson regression models estimated the outcome level shift changes after the pandemic onset, controlling for underlying trends, seasonality, and stratifying by parity. RESULTS: No statistically significant changes were detected in intrapartum interventions or mode of delivery after onset of the pandemic. Early discharge increased for all births following cesarean and vaginal birth. Newborn readmission rates increased but only among nulliparas (aRR: 1.49, 95%CI: 1.17, 1.91). Among multiparas, decreases were observed in preterm birth (aRR: 0.90, 95%CI: 0.84, 0.96), low 5-minute Apgar score (aRR: 0.75, 95%CI: 0.68, 0.81), and term NICU admission rates (aRR: 0.85, 95%CI: 0.80, 0.91). CONCLUSIONS: Increases in early discharge and newborn readmission rates among nulliparas suggest a need for more postpartum support during the pandemic. Decreases in preterm birth and term NICU admission among multiparas may have implications beyond the pandemic and deserve further study."""
+
+

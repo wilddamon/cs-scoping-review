@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pilotrandomisedcontrolledtrialcomparingtheriskofneonatalrespiratorydistressinelectivecaesareansectionat38weeksgestationfollowingacourseofcorticosteroidsversuscaesareanat39weeks2017sananes
+"INTRODUCTION: The objective of this study was to compare neonatal respiratory morbidity and rate of emergency caesarean section between elective caesarean sections at 38 gestational weeks following a course of corticosteroids and planned caesarean sections at 39 gestational weeks.;MATERIAL AND METHODS: This was a multicentre randomised controlled trial. The study was conducted between 2007 and 2013 in level 2 and 3 maternity units in France. A total of 208 women with an indication for elective caesarean section were enrolled and 200 analysed in per-protocol analysis. Women were randomised to either elective caesarean section at 38 gestational weeks after a course of corticosteroids (trial group) or elective caesarean section at 39 weeks (control group). The primary outcome was the rate of admission to the neonatal intensive care unit for respiratory distress.;RESULTS: Two (2.1%) newborn in the tested group were admitted because of respiratory distress versus four (3.8%) in the control group. The relative risk was 0.54 in favour of the corticosteroid group (95% CI: 0.10; 2.86). There were fewer emergency caesareans in the trial group than in the control group: 12 (12.69%) versus 28 (26.67%), p=0.01.;CONCLUSIONS: Our study suggests that planning caesarean sections at 38 gestational weeks after a course of corticosteroids would enable a significant reduction in the number of emergency caesareans without increasing the risk of neonatal respiratory distress. Limitations of this study include difficulties in patient recruitment and the small number of subjects. Copyright (c) 2017 Elsevier B.V. All rights reserved."""
+
+

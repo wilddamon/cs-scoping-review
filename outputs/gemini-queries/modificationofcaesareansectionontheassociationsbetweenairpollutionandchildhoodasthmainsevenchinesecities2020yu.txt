@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modificationofcaesareansectionontheassociationsbetweenairpollutionandchildhoodasthmainsevenchinesecities2020yu
+"It is unknown whether giving birth via caesarean section (c-section) is a modifier for the association between air pollution and asthma. From 2012 to 2013, 59,754 children between the ages of 2 and 17 were randomly selected from 94 middle schools, elementary schools and kindergartens in seven Chinese cities for a cross-sectional study. The children's parents or guardians completed questionnaires, from which data on asthma as well as asthma-related symptoms were obtained. Participants' exposure to particles with an aerodynamic diameter <=1.0 mm (PM(1)), <=2.5 mm (PM(2.5)), and <=10 mm (PM(10)) and exposure to nitrogen dioxide (NO(2)) were estimated using random forest models. We used mixed effects logistic regression models and added an interaction term between mode of delivery and ambient air pollution into the model to estimate effect modification from c-sections after appropriate adjustments for potential confounding variables. Among children delivered by c-section, the adjusted ORs for asthma and its symptoms per interquartile range (IQR) increase of PM(1), PM(2.5), PM(10) and NO(2) (1.20 95% CI: 1.07-1.34 to 2.04 95% CI: 1.87-2.24) were significantly higher than those of children delivered vaginally (1.05 95% CI: 0.92-1.19 to 1.33 95%CI: 1.21-1.47). The interactions between c-sections and ambient air pollution were statistically significant for all studied respiratory disorders, except current wheeze. Delivery via c-section may increase the risks of air pollution on asthma and its symptoms in Chinese children."""
+
+

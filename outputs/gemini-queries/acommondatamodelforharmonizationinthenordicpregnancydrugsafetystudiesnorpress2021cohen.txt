@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acommondatamodelforharmonizationinthenordicpregnancydrugsafetystudiesnorpress2021cohen
+"It is necessary to carry out large observational studies to generate robust evidence about the safety of drugs used during pregnancy. In the Nordic countries, nationwide population-based health registers that document all births and dispensed prescribed drugs are valuable resources for such studies. A common data model (CDM) is a data harmonization and structuring tool that enables a unified and streamlined analytic approach for studies including data from multiple countries or databases. We describe a CDM developed for the Nordic Pregnancy Drug Safety Studies (NorPreSS), including details on data sources and structure of the data tables. We also provide an overview of the advantages and disadvantages of the approach (e.g. sharing of data analysis programs versus extra initial work to create CDM datasets from raw data).Copyright (c) 2021, Norwegian Epidemiological Society. All rights reserved."""
+
+

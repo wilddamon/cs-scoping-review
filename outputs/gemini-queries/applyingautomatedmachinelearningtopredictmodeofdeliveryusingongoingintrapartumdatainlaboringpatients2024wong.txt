@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: applyingautomatedmachinelearningtopredictmodeofdeliveryusingongoingintrapartumdatainlaboringpatients2024wong
+"OBJECTIVE: This study aimed to develop and validate a machine learning (ML) model to predict the probability of a vaginal delivery (Partometer) using data iteratively obtained during labor from the electronic health record. STUDY DESIGN: A retrospective cohort study of deliveries at an academic, tertiary care hospital was conducted from 2013 to 2019 who had at least two cervical examinations. The population was divided into those delivered by physicians with nulliparous term singleton vertex (NTSV) cesarean delivery rates <23.9% (Partometer cohort) and the remainder (control cohort). The cesarean rate among this population of lower risk patients is a standard metric by which to compare provider rates; <23.9% was the Healthy People 2020 goal. A supervised automated ML approach was applied to generate a model for each population. The primary outcome was accuracy of the model developed on the Partometer cohort at 4 hours from admission to labor and delivery. Secondary outcomes included discrimination ability (receiver operating characteristics-area under the curve [ROC-AUC]), precision-recall AUC, and calibration of the Partometer. To assess generalizability, we compared the performance and clinical predictors identified by the Partometer to the control model. RESULTS: There were 37,932 deliveries during the study period; after exclusions, 9,385 deliveries were included in the Partometer cohort and 19,683 in the control cohort. Accuracy of predicting vaginal delivery at 4 hours was 87.1% for the Partometer (ROC-AUC: 0.82). Clinical predictors of greatest importance in the stacked Intrapartum Partometer Model included the Admission Model prediction and ongoing measures of dilatation and station which mirrored those found in the control population. CONCLUSION: Using automated ML and intrapartum factors improved the accuracy of prediction of probability of a vaginal delivery over both previously published models based on logistic regression. Harnessing real-time data and ML could represent the bridge to generating a truly prescriptive tool to augment clinical decision-making, predict labor outcomes, and reduce maternal and neonatal morbidity. KEY POINTS: * Our ML-based model yielded accurate predictions of mode of delivery early in labor.. * Predictors for models created on populations with high and low cesarean rates were the same.. * A ML-based model may provide meaningful guidance to clinicians managing labor.."""
+
+

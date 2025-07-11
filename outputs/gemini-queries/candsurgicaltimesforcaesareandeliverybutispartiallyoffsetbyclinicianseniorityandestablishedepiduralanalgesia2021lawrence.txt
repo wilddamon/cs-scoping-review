@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasedmaternalbodymassindexisassociatedwithprolongedanaestheticandsurgicaltimesforcaesareandeliverybutispartiallyoffsetbyclinicianseniorityandestablishedepiduralanalgesia2021lawrence
+"BACKGROUND: Obesity is associated with higher surgical and anaesthetic morbidity and difficulties. AIMS: We aimed to investigate associations between maternal body mass index (BMI) and the in-theatre time taken to produce an anaesthetised state or to perform surgery for caesarean delivery. MATERIALS AND METHODS: Using the Strengthening the Reporting of Observational Studies in Epidemiology guidelines, we identified all women who underwent caesarean section at a single institution (2009-2015). The prospectively collected data arising from antenatal and peripartum care were analysed. Generalised linear regression was used to examine associations between maternal BMI and the time taken to anaesthetise the mother and the duration of surgery. RESULTS: Of a total of 24 761 caesarean deliveries, 5607 (22.7%) women were obese at antenatal registration. In-theatre anaesthetic preparation (18 vs 32 min, P < 0.001) and surgical duration (38 vs 52 min, P < 0.001) were longer in women with BMI >=50 kg/m(2) (BMI-50) than those with normal BMI (BMI-N). This difference remained significant after controlling for antenatal, intra-operative and immediate postoperative variables. Modifiable variables were identified that may mitigate the effects of severe obesity. Senior obstetric and anaesthetic care were both independently associated with a significant reduction in mean in-theatre anaesthetic preparation time and surgical duration, by 11 and three minutes respectively (P < 0.001), while epidural top-up significantly lessened mean anaesthetic in-theatre preparation duration by seven minutes (P < 0.001). CONCLUSIONS: Obese women had greater anaesthesia and surgery time, but the effect may potentially be mitigated by provision of care by experienced staff and prior establishment of epidural analgesia."""
+
+

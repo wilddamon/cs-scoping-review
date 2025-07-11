@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalageisariskfactorforcaesareansectionfollowinginductionoflabour2017dunn
+"BACKGROUND: In Australia, more than 20% of women giving birth are 35 years or older. Advanced maternal age (AMA) is a risk factor for stillbirth, and many clinicians now recommend induction of labour (IOL) at around term gestation. The aim of this study is to determine if AMA is associated with emergency caesarean section (CS) following IOL. METHODS: A retrospective cohort study was undertaken using routinely collected de-identified data. Live-born, singleton, cephalic, non-anomalous pregnancies undergoing IOL between 37 + 0 and 42 + 0 weeks were included. Previous CS and privately insured admission status were excluded. Mode of delivery was compared for women >=38 years (AMA) and women <38 years. The primary outcome was birth by CS. Bivariate and multivariate logistic regression analyses were undertaken. RESULTS: A total of 7459 women were included (>=38 years n = 718, 9.6%; <38 years n = 6741, 90.4%). AMA women had similar rates of unassisted vaginal births (OR 1.15, 95% CI 0.98-1.35, P = 0.080) and CS (OR 1.08, 95% CI 0.90-1.30, P = 0.407) but fewer instrumental deliveries (OR 0.69, 95% CI 0.55-0.87, P = 0.002) compared to women <38 years. When controlled for confounders, AMA was independently associated with a two-fold increase in birth by CS following IOL (adjusted OR 2.29; 95% CI 1.64-3.20; P < 0.001). There were no differences in neonatal outcomes. CONCLUSION: Following IOL, AMA was associated with a two-fold increased likelihood of birth by CS in both nulliparous and multiparous women. However, the majority of AMA women birthed vaginally. Clinicians may find this information useful when counselling older women who are undergoing term IOL."""
+
+

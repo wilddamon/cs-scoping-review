@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinviablepregnancieswithaseptateuteruscomparedwithviablepregnanciesafterhysteroscopicuterineseptumresection2019fox
+"BACKGROUND: Septate uterus is one of the more common Mullerian anomalies and is the anomaly most amenable to surgical correction. It is currently uncertain if hysteroscopic septum resection reduces the incidence of adverse pregnancy outcomes. OBJECTIVE: The purpose of this study was to compare pregnancy outcomes in women who had reached at least 20 weeks gestation with those women with a uterine septum and those women who had undergone septum resection before pregnancy. STUDY DESIGN: Retrospective cohort study of women with a history of uterine septum who were cared for by a large maternal-fetal medicine practice from 2005-2018. We included women with singleton pregnancies at >20 weeks gestation. Baseline characteristics and pregnancy outcomes were compared between women with a history of a hysteroscopic uterine septum resection and women with an unresected septum. Regression analysis was performed to control for differences in baseline characteristics. The analysis was repeated in nulliparous women only. RESULTS: A total of 109 women (163 pregnancies) were included. In the entire population, pregnancy outcomes did not differ between the groups, aside from a higher rate of cesarean delivery in the resected septum group. In the 63 nulliparous women, septum resection was associated with later gestational ages at delivery (39.1 vs 37 weeks; P=.030), decreased preterm birth <37 weeks gestation (4.5% vs 31.6%; adjusted odds ratio, 0.154; 95% confidence interval, 0.027-0.877), and an increased incidence of cesarean delivery in women who attempted vaginal delivery (30.6% vs 0%; P=.012). There was no difference in the rates of small for gestational age, preeclampsia, blood transfusion, retained placenta, or morbidly adherent placenta. CONCLUSION: In nulliparous women with viable pregnancies, hysteroscopic resection of a uterine septum is associated with a decreased incidence of preterm birth and an increased incidence of cesarean delivery. These findings need to be confirmed in a well-designed randomized trial before uterine septum resection is recommended routinely."""
+
+

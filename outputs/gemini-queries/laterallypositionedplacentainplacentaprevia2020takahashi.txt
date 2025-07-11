@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: laterallypositionedplacentainplacentaprevia2020takahashi
+"Objectives: To clarify perinatal outcomes of patients with placenta previa (PP) with the placenta mainly positioned in the lateral uterine wall (lateral PP), thereby clinically characterizing this condition.Study design: The retrospective cohort study was performed involving patients with lateral PP between January 2006 and December 2016. The placental position was determined and classified by magnetic resonance imaging.Results: This study included 98 patients with PP, which was classified into three types according to the main placental position sites: lateral (n = 30), anterior (n = 32), and posterior (n = 36) PP. Overall, the median blood loss at cesarean section (CS) was 1808 mL and transfusion was performed for 78 patients (80%). Univariate analysis showed that patients with lateral PP bled less at CS than those with non-lateral PP (anterior + posterior PP) [median 1510 (interquartile range 1080-2168) versus 1975 (1570-2860) mL: p=.02]. The other parameters including rates of conception by assisted reproductive technology, prior CS, antepartum bleeding, and placenta accreta spectrum did not show the significances. Among the three groups of PP (lateral versus anterior versus posterior), patients with lateral PP bled less than those with anterior (p=.05) or posterior (p=.13) PP, but this was nonsignificant [lateral 1510 (1080-2168) versus anterior 2145 (1580-3348) versus posterior 1808 (1533-2555) mL]. When dividing into lateral PP to two types: placenta showing anterior dominancy versus posterior dominancy, patients with lateral PP and anterior dominancy bled more those with posterior dominancy [2430 (1410-3400) versus 1170 (1050-1588) mL: p=.002].Conclusion: Patients with lateral PP bled significantly less than those with non-lateral (anterior or posterior) PP. Patients with lateral PP and anterior dominancy bled more than those with posterior dominancy."""
+
+

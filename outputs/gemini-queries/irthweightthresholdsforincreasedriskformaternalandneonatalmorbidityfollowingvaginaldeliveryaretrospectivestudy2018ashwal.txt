@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthweightthresholdsforincreasedriskformaternalandneonatalmorbidityfollowingvaginaldeliveryaretrospectivestudy2018ashwal
+"PURPOSE: To determine neonatal birthweight (BW) thresholds for adverse maternal and neonatal outcome following vaginal delivery. METHODS: A retrospective cohort study of all women with singleton pregnancies who underwent vaginal delivery in a university-affiliated tertiary hospital (1996-2015). The association between BW and adverse outcome in neonates with BW >= 3500 g (> 90th centile BW at 37 weeks' gestation) with 100 g-increment groups was explored. Pregnancies complicated by diabetes mellitus, fetal anomalies or cesarean deliveries were excluded. The composite neonatal outcome was defined as shoulder dystocia or brachial plexus injury. The composite maternal outcome was defined as postpartum hemorrhage or third- or fourth-degree perineal tears. RESULTS: Of the 121,728 deliveries during the study period, 26,920 (22.1%) met inclusion criteria. Of these, 1024 (3.8%) had a composite adverse maternal outcome and 947 (3.5%) had a composite adverse neonatal outcome. The rates of composite maternal outcomes increased significantly only at a BW of 4800 g and above. The composite neonatal outcomes increased significantly only at a BW of 4400 g and above. In multivariate analysis, after subcategorizing our cohort into 3 BW groups [3500-3999 g (control, n = 23,030); 4000-4399 g (n = 3494); >= 4400 g (n = 396)], BW was associated with adverse neonatal outcomes in a dose-dependent manner. In the BW >= 4400 g group, to prevent one case of shoulder dystocia or Erb's palsy, 12 cesarean deliveries needed to be performed. CONCLUSION: For non-diabetic mothers who deliver vaginally, neonatal BW >= 4400 g was associated with a significant increase in adverse neonatal outcomes, whereas neonatal BW >= 4800 g was associated with a significant increase in adverse maternal outcomes."""
+
+

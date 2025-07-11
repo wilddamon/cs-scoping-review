@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sarscov2screeningofasymptomaticwomenadmittedfordeliverymustbeperformedwithacombinationofmicrobiologicaltechniquesanobservationalstudy2020vinuela
+"OBJECTIVE: The aim of this study is to assess the value of systematic screening in asymptomatic women admitted for spontaneous delivery with a combination of reverse transcription polymerase chain reaction (RT-PCR) and cycle threshold (Ct) and serum antibodies. METHODS: Since May 6 all women admitted for spontaneous delivery underwent RT-PCR in nasopharyngeal swabs and specific antibodies IgG of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) in serum that were performed as part of routine clinical care in our institution. Ct of the PCR was recorded. We analyzed the first 100 women consecutively admitted for spontaneous delivery at our institution. RESULTS: Nine women were positive for SARS-CoV-2 in nasopharyngeal samples (9%) and 13 (13%) presented positive specific antibodies of the coronavirus. Overall, SARS-CoV-2 prior exposure was 15%. The Ct determination (RT-PCR test) of our 9 positive patients ranged from 36 to 41 cycles with a median of 40. Vaginal delivery occurred in 94% of the cases and only 6% underwent a cesarean section, always for obstetric reasons. No fetal transmission was observed and maternal and neonatal prognosis was excellent. CONCLUSIONS: During epidemic episodes in asymptomatic women in labor, universal testing with RT-PCR (considering Ct determination), and the detection of antibodies, permits a better interpretation of the results and avoid unnecessary isolation procedures."""
+
+

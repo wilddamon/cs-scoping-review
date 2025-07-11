@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: transvaginalcolormappingultrasoundinthefirsttrimesterpredictsplacentaaccretaspectrumaretrospectivecohortstudy2021yule
+"OBJECTIVES: Ultrasound (US) prediction of placenta accreta spectrum (PAS) in the first trimester may be aided by postprocessing mechanisms employing color pixel quantification near the bladder-uterine serosal interface. Our objective was to create a postprocessing algorithm of color images to identify findings associated with PAS and compare quantification to sonologist impression in prospectively obtained cine US images. METHODS: Transverse transvaginal (TV) US color cines obtained in the first trimester as part of a prospective study were reviewed. Investigators blinded to clinical outcomes reviewed anonymized cines that were archived and labeled the bladder-uterine serosal interface. Color pixels within 2 cm of the defined bladder-uterine serosal interface were ascertained using a Python-based plugin in the Horos open-source DICOM viewer. A sonologist classified the findings as suspicious for invasion, indeterminate, or normal. Statistical analysis was performed using Wilcoxon rank-sum test, Cochran-Armitage trend test, and calculation of receiver-operating characteristic (ROC) curves. RESULTS: Fifty-four studies met inclusion criteria. Of those, six (11%) required hysterectomy with pathologic confirmation of PAS. Women requiring hysterectomy had a significantly higher color Doppler pixel area than those not requiring hysterectomy (P = .0205). A significant trend was identified in the sonologist impression of invasion (P = .0003). ROC's comparing sonologist impression to Doppler color imaging areas were comparable (P = .054). CONCLUSIONS: Color Doppler mapping in the first trimester showed an increase in color pixel area near the bladder-uterine serosal interface in women requiring cesarean hysterectomy with histologically confirmed PAS at time of delivery, compared to women without hysterectomy or pathologic evidence of PAS."""
+
+

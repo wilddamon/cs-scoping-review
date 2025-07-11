@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doneonatalbirthweightthresholdsforlabordystociaoutcomesdifferbetweenshortandnormalstaturewomen2023cohen
+"OBJECTIVE: To determine if there is a correlation between maternal short stature and neonatal birth weight among women with adverse outcomes related to labor dystocia. METHODS: The medical records of singleton deliveries with adverse obstetric outcomes related to labor dystocia during 2014-2020, in a single tertiary center, were reviewed. Outcomes included at least one of the following: cesarean delivery (CD) due to cephalopelvic disproportion (CPD), prolonged second stage, shoulder dystocia, third- or fourth-degree perineal tear. Maternal short stature was defined as height below the 10th centile (short stature group) and normal stature was defined as maternal height between the 10th and 90th centiles (normal stature group). Maternal and neonatal characteristics were compared between the groups. RESULTS: A total of 3295 women were included, among them, 307 in the short stature group (9.3%, height 1.52 +- 0.02 m) and 2988 in the normal stature group (90.7%, height 1.63 +- 0.04 m). Evaluating the entire cohort revealed similar neonatal birth weights comparing the short and normal stature groups. A subgroup analysis of women after CD due to CPD (n = 296) revealed lower neonatal birth weights in the short stature group (n = 31) compared with the normal stature group (n = 265) (3215 +- 411 vs 3484 +- 427 g, P = 0.001, respectively). Multivariable linear regression was performed for women who underwent CD due to CPD. After adjusting for obesity and diabetes mellitus, short stature and nulliparity were found to be independently associated with decreased neonatal birth weight (266 g less for short stature, P = 0.001, and 294 g less for nulliparity, P = 0.001). CONCLUSIONS: Among women with short stature, CD due to CPD occurs at lower neonatal birth weights."""
+
+

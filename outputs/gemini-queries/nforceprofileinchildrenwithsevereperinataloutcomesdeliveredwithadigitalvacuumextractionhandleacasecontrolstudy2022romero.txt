@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: tractionforceprofileinchildrenwithsevereperinataloutcomesdeliveredwithadigitalvacuumextractionhandleacasecontrolstudy2022romero
+"INTRODUCTION: During the second stage of labor, vacuum-assisted delivery is an alternative to forceps delivery and emergency cesarean section. Extensive research concerning perinatal outcomes has indicated that the risk of complications, although rare, is higher than with a spontaneous vaginal delivery. An important factor related to perinatal outcomes is the traction force applied. Our research group previously developed a digital extraction handle, the Vacuum Intelligent Handle-3 (VIH3), that measures and records traction force. The objective of this study was to compare traction force profiles in children with and without severe perinatal outcomes delivered with the digital handle. A secondary aim was to establish a safe force limit.;MATERIAL AND METHODS: This was an observational case-control study at the delivery ward at Karolinska University Hospital, Sweden. In total, 573 children delivered with the digital handle between 2012 and 2018 were included. Cases were defined as a composite of severe perinatal outcomes, including subgaleal hematoma, intracranial hemorrhage, hypoxic ischemic encephalopathy 1-3, seizures or death. The cases in the cohort were matched 1:3 based on five matching variables. Traction profiles were analyzed using the MATLAB R software and conditional logistic regression.;RESULTS: The incidence of severe perinatal outcomes was 2.3%. The 13 cases were matched with three controls each (n = 39). A statistically significant increased odds for higher total traction forces was seen in the case group (odds ratio [OR] 1.004; 95% confidence interval [CI] 1.001-1.007) and for the peak force (OR 1.022; 95% CI 1.004-1.041). Several procedure-related parameters were significantly increased in the case group. As expected, some neonatal characteristics also differed significantly. An upper force limit of 343 Newton minutes (Nmin) revealed an 86% reduction in severe perinatal outcomes (adjusted OR 0.14; 95% CI 0.04-0.5).;CONCLUSIONS: Children with severe perinatal outcomes had traction force profiles with significantly higher forces. The odds for severe perinatal outcomes increased for every increase in Nmin and Newton used during the extraction procedure. A calculated total force level of 343 Nmin is suggested as an upper safety limit, but this must be tested prospectively to provide validity. Copyright (c) 2022 The Authors. Acta Obstetricia et Gynecologica Scandinavica published by John Wiley & Sons Ltd on behalf of Nordic Federation of Societies of Obstetrics and Gynecology (NFOG)."""
+
+

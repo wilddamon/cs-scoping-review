@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthbycaesareansectionandschoolperformanceinswedishadolescentsapopulationbasedstudy2017curran
+"BACKGROUND: Our objective was to assess the impact of obstetric mode of delivery, and in particular birth by Caesarean section (CS), on school performance in adolescents using a large, population-based cohort. METHODS: We extracted data from the Swedish Medical Birth Register and National School Register. We included all live singleton births in Sweden from 1982-1995 (n = 1,489,925). School grades were reported on a scale from 0 to 320, scores less than 160 (i.e. 'pass') were considered to be 'poor school performance.' Mode of delivery was categorised as: unassisted vaginal delivery (VD), assisted VD, elective CS and emergency CS. We measured the association between mode of delivery and 'poor school performance' using logistic regression. We then used quantile regression to assess the association between mode of delivery and school performance across the distribution of scores. We adjusted for maternal age, parity, small and large for gestational age, gestational age, maternal country of birth, maternal depression, non-affective disorder or bipolar disorder, parental income at time of birth, and parental social welfare at time of birth. We also conducted sensitivity analyses to investigate the association further. RESULTS: With logistic regression analysis, the adjusted odds ratio (aOR) of assisted VD and poor school performance, compared to unassisted VD, was 1.06 (95% CI: 1.03-1.08). For elective CS it was 1.06 (95% CI:1.03-1.09) and for emergency CS it was 1.12 (95% CI: 1.09-1.15). With quantile regression, assisted VD showed little difference in scores, when compared to unassisted VD, at any point across the distribution. Elective CS was associated with a 1-3 point decrease in scores, and emergency CS was associated with a 2-5 point decrease in scores. CONCLUSION: A slight association was found between birth by CS and school performance. However, the effect was quite small and given the complex nature of the relationship, should be interpreted with caution."""
+
+

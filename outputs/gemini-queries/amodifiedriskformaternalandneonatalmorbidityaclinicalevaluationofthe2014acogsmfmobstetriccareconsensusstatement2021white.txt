@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isaguidelinecompliantprimarycesareandeliveryassociatedwithamodifiedriskformaternalandneonatalmorbidityaclinicalevaluationofthe2014acogsmfmobstetriccareconsensusstatement2021white
+"BACKGROUND: It is currently unknown whether primary CDs performed in compliance with the 2014 ACOG/SMFM Obstetric Care Consensus Statement guidelines ('guideline-compliant') are associated with a modified risk of maternal and neonatal morbidity, when compared to primary CDs performed outside the guidelines ('guideline-noncompliant'). Our primary objective was to determine if a guideline-compliant primary CD is associated with a modified risk for maternal or neonatal morbidity, when compared to guideline-noncompliant primary CD. METHODS: A retrospective cohort study of all primary CDs at one tertiary referral center in the calendar year following publication of the Consensus Statement. Logistic regression was performed to calculate the risk of adverse maternal and neonatal outcomes for guideline-compliant primary CDs, when compared to guideline-noncompliant and guideline-not addressed, and when adjusted for maternal age, BMI, hypertension, gestational age at delivery, insurance carrier, and provider practice. RESULTS: Eight hundred twenty-seven primary CDs were included during the study period, of which 34.8, 26.0, and 39.2% were guideline compliant, guideline-noncompliant, and guideline-not addressed. No statistically significant differences in the frequency of adverse maternal outcomes across these three groups were observed with the exception of maternal ICU admission, which was significantly associated with a guideline-not addressed primary CD (p = 0.0002). No statistical difference in rates of NICU admissions, 5 min APGAR < 5, or umbilical artery cord pH < 7 were observed between guideline-compliant and guideline-noncompliant primary CDs. CONCLUSION: Women undergoing guideline-compliant primary CDs were not significantly more likely to experience a maternal or neonatal morbidity when compared to guideline-noncompliant primary CDs."""
+
+

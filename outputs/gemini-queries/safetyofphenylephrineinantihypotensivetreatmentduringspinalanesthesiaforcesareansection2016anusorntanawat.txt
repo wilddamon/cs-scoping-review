@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: safetyofphenylephrineinantihypotensivetreatmentduringspinalanesthesiaforcesareansection2016anusorntanawat
+"OBJECTIVE: In Thailand, hypotension after spinal anesthesia for cesarean section is routinely treated by ephedrine. As incidence of fetal acidosis reportedly increases resulting from placental transfer of ephedrine, phenylephrine, an alpha-1 agonist with less lipid solubility, becomes an alternative. However, the potential development of serious bradycardia after phenylephrine is a concern. The objectives of this study were to investigate the incidence of serious bradycardia and identify risk factors associated with phenylephrine-induced serious bradycardia and other side effects of phenylephrine.;MATERIAL AND METHOD: This descriptive cross-sectional study was conducted between July 1, 2014 and March 15, 2015 on 509 parturients undergoing cesarean section under spinal anesthesia. Predelivery hypotension was treated by intravenous phenylephrine 100 mcg and pretherapeutic heart rate (pHR) was recorded. If serious bradycardia (HR < 60 bpm and hypotension or HR <45 bpm) developed, atropine 0.6 mg was administered intravenously. Data were analyzed using multivariable logistic regression and AuROC.;RESULTS: Incidence of serious bradycardia was 11% (95% CI: 8.0-14.0). A one bpm increment increase in pHR reduced this incidence by 4% (adjusted OR: 0.96; 95% CI: 0.94-0.98, p < 0.001; AuROC: 0.76). As compared to apHR greater than 80 bpm, apHR of 61 to 80 bpm and a pHR of 60 bpm or lower increased the risk of serious bradycardia by 3.55 times and 12.81 times, respectively. Other risk factors were height (adjusted OR: 0.94; 95% CI: 0.89-0.98, p = 0.015), baseline DBP (adjusted OR: 0.97; 95% CI: 0.94-0.99,p = 0.03), and anesthetic level at first minute (adjusted OR: 1.13; 95% CI: 1.02-1.23, p = 0.02). Benign and temporary abnormal ECG readings were noted.;CONCLUSION: Phenylephrine for antihypotensive treatment in spinal anesthesia induces bradycardia. Findings indicate an association between slower HR at time phenylephrine is administered and serious bradycardia. Close ECG monitoring and prompt treatment are required."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intendeddeliverymodeandneonataloutcomesinpregnancieswithfetalgrowthrestriction2023rodriguezsibaja
+"Objective: To compare neonatal outcomes in pregnancies with fetal growth restriction (FGR) by intended delivery mode.Methods: This is a retrospective cohort study of singleton pregnancies with FGR that were delivered >=34.0 weeks gestation. Neonatal outcomes were compared according to the intended delivery mode, which the attending obstetrician determined. Of note, none of the subjects had a contraindication to labor. Crude and adjusted odds ratios (ORs) and corresponding confidence intervals (CIs) were calculated via logistic regression models to assess the potential association between intended delivery mode and neonatal morbidity defined as a composite outcome (i.e. umbilical artery pH <=7.1, 5-min Apgar score <=7, admission to the neonatal intensive care unit, hypoglycemia, intrapartum fetal distress requiring expedited delivery, and perinatal death). A sensitivity analysis excluded intrapartum fetal distress requiring emergency cesarean delivery from the composite outcome since only patients with spontaneous labor or labor induction could meet this criterion. Potential confounders in the adjusted effects models included maternal age, body mass index, hypertensive disorders, diabetes, FGR type (i.e. early or late), and oligohydramnios.Results: Seventy-two (34%) patients had an elective cesarean delivery, 73 (34%) had spontaneous labor and were expected to deliver vaginally, and 67 (32%) underwent labor induction. The composite outcome was observed in 65.3%, 89%, and 88.1% of the groups mentioned above, respectively (p < 0.001). Among patients with spontaneous labor and those scheduled for labor induction, 63% and 47.8% required an emergency cesarean delivery for intrapartum fetal distress. Compared to elective cesarean delivery, spontaneous labor (OR 4.32 [95% CI 1.79, 10.42], p = 0.001; aOR 4.85 [95% CI 1.85, 12.66], p = 0.001), and labor induction (OR 3.92 [95% CI 1.62, 9.49] p = 0.002; aOR 5.29 [95% CI 2.01, 13.87], p = 0.001) had higher odds of adverse neonatal outcomes.Conclusion: In this cohort of FGR, delivering at >=34 weeks of gestation, pregnancies with spontaneous labor, and those that underwent labor induction had higher odds of neonatal morbidity than elective cesarean delivery."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectoftimeintervalbetweenantenatalcorticosteroidadministrationanddeliveryonoutcomesinlatepretermneonatesborntomotherswithdiabetesaretrospectivecohortstudy2023li
+"OBJECTIVES: The study aims to investigate whether the time interval between administering antenatal corticosteroids (ACS) and delivery influences the neonatal outcomes in late preterm (LPT) neonates (34 + 0 to 36 + 6 weeks) born to mothers with diabetes. STUDY DESIGN: This retrospective cohort study included women with any type of diabetes who gave birth between 34 + 0 weeks and 36 + 6 weeks of gestation. Based on the time interval between the first dose of corticosteroid and delivery, the cases were stratified into the following groups: <2, 2-7, and >7 days. Women unexposed to ACS served as the control group. The primary outcomes included the incidence of neonatal hypoglycemia and respiratory distress syndrome/transient tachypnea of the newborn. Multivariate logistic regression was used to assess the relationship between the time interval and neonatal outcomes and adjust for potential confounders. RESULTS: The study enrolled a total of 636 parturients. Among them, 247 (38.8%) delivered within 2 days after ACS administration, 169 (26.6%) within 2-7 days, and 126 (19.8%) at >7 days. Baseline characteristics such as type of diabetes, methods of glycemic control, preterm premature rupture of membrane, placenta previa, cesarean delivery, indication for delivery, percentage of large for gestational age, birth weight, and HbA1c in the second or third trimester were significantly different among the four groups. The multivariate analysis showed no statistically significant difference in the incidence of primary or secondary neonatal outcomes between the case and control groups. CONCLUSIONS: ACS treatment was not associated with neonatal hypoglycemia and respiratory outcomes in LPT neonates born to diabetic mothers, regardless of the time interval to delivery."""
+
+

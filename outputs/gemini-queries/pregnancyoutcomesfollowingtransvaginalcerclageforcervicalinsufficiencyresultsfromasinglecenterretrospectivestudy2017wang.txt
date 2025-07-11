@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesfollowingtransvaginalcerclageforcervicalinsufficiencyresultsfromasinglecenterretrospectivestudy2017wang
+"To study maternal and perinatal outcomes after cervical cerclage in both singleton and twin pregnancies, we retrospectively reviewed women undergoing cervical cerclage for cervical insufficiency at Tongji Hospital, Wuhan, China from January 1, 2010 to July 31, 2015 to evaluate primary and secondary outcomes for subgroups with cervical length (CL) <=15, >15 to <25, and >=25 mm. Of 166 patients who underwent cervical cerclage, after exclusion of patients with missed abortion and continuing pregnancy, 141 patients (121 singleton and 20 twin pregnancies) were included in the analysis. Mean gestational age at birth was 34.22 and 28.27 weeks for singleton and twin pregnancies, respectively. There were 17 (14.05%) and 13 (33.33%) neonatal deaths in singleton and twin pregnancies, respectively. Mean age (31.60+-4.62 vs. 31.22+-4.63 years, P=0.39) and gestational weeks at cerclage (18.50+-4.62 vs. 19.31+-4.99, P=0.47) were similar for both groups. Mean gestational weeks at delivery (34.22+-5.77 vs. 28.27+-6.17, P<0.001) and the suture to delivery interval (15.72+-7.15 vs. 8.96+-6.70, P<0.001) were significantly longer in the singleton group. These variables indicate a linear negative correlation with the degree of CL shortening, with better outcomes in patients with CL >=25 mm who underwent cerclage, both in singleton and twin pregnancies. No difference in mode of delivery existed between the singleton group and twin group. Our results indicate a high risk of preterm delivery in both groups, especially in the twin group. Patients with a history of preterm labor and CL >25 mm in the current pregnancy, possibly in a twin pregnancy, could benefit from elective cervical cerclage; however, cervical cerclage was inadvisable for twin pregnancies with a CL >15 and <25 mm. Our data emphasize the importance of re-evaluating the efficacy of cervical cerclage for twin pregnancies in well-designed clinical trials."""
+
+

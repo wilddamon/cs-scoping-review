@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: estimatingthedifferencesincaesareansectioncsectionratesbetweenpublicandprivatelyinsuredmothersinfloridaadecompositionapproach2022puro
+"BACKGROUND: Caesarean section (C-sections) is a medically critical and often life-saving procedure for prevention of childbirth complications. However, there are reports of its overuse, especially in women covered by private insurance as compared to public insurance. This study evaluates the difference in C-Section rates among nulliparous women in Florida hospitals across insurance groups and quantifies the contribution of maternal and hospital factors in explaining the difference in rates. METHODS: We used Florida's inpatient data provided by the Florida Agency for HealthCare Administration (FLAHCA) and focused on low-risk births that occurred between January 1, 2010, and September 30, 2015. A Fairlie decomposition method was performed on cross-sectional data to decompose the difference in C-Section rates between insurance groups into the proportion explained versus unexplained by the differences in observable maternal and hospital factors. RESULTS: Of the 386,612 NTSV low-risk births, 72,984 were delivered via C-Section (18.87%). Higher prevalence of C-section at maternal level was associated with diabetes, hypertension, and the expectant mother being over 35 years old. Higher prevalence of C-section at the hospital level was associated with lower occupancy rate, presence of neonatal ICU (NICU) unit and higher obstetrics care level in the hospital. Private insurance coverage in expectant mothers is associated with C-section rates that were 4.4 percentage points higher as compared to that of public insurance. Just over 33.7% of the 4.4 percentage point difference in C-section rates between the two insurance groups can be accounted for by maternal and hospital factors. CONCLUSIONS: The study identifies that the prevalence of C-sections in expectant mothers covered by private insurance is higher compared to mothers covered by public insurance. Although, majority of the difference in C-Section rates across insurance groups remains unexplained (around 66.3%), the main contributor that explains the other 33.7% is advancing maternal age and socioeconomic status of the expectant mother. Further investigation to explore additional factors that explain the difference needs to be done if United States wants to target specific policies to lower overall C-Section rate."""
+
+

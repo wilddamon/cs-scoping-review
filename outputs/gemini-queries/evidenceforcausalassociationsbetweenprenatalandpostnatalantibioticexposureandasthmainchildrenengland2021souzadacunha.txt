@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evidenceforcausalassociationsbetweenprenatalandpostnatalantibioticexposureandasthmainchildrenengland2021souzadacunha
+"BACKGROUND: Higher risks of asthma have been observed in children with prenatal exposure to antibiotics and during early life compared with those who have not. However, the causality of such associations is unclear. OBJECTIVE: To assess whether exposure to antibiotics in early life had a causal effect in increasing the risk of asthma in children diagnosed at 5-8 years of life, and the impact in the target population. METHODS: Data were from electronic health records and questionnaires for children and their mothers in the Born in Bradford birth cohort. Exposure variables were prescriptions of systemic antibiotics to the mother during pregnancy (prenatal) and to the children at 0-24 months of life (postnatal). We assessed the association in 12,476 children with several approaches to deal with different sources of bias (triangulation): the interactions with mother's ethnicity, mode of delivery, and between prenatal and postnatal exposures; dose-response; and estimated the population attributable risk. RESULTS: There was an association between prenatal exposure at 7-27 days before the child's birth and asthma (adjusted OR = 1.40; 1.05, 1.87), but no association with the negative control exposure (before pregnancy) (adjusted OR = 0.99 (0.88, 1.12)). For postnatal exposure, the adjusted OR was 2.00 (1.71, 2.34), and for sibling analysis, it was 1.99 (1.00, 3.93). For postnatal exposure, the risk of asthma increased with the number of prescriptions. The observed effect of both exposures was lower among children with mothers of Pakistani ethnicity, but inconclusive (p > .25). The interaction between prenatal and postnatal exposures was also inconclusive (p = .287). The population attributable risk of postnatal exposure for asthma was 4.6% (0.1% for prenatal). CONCLUSIONS: We conclude that the associations between both late-pregnancy prenatal exposure to antibiotics and postnatal exposure to antibiotics and an increased risk of asthma are plausible and consistent with a causal effect."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therapeutichypothermiacancausenoninfectivecreactiveproteinelevating2023wang
+"Objective: To analyze the relationship between therapeutic hypothermia (TH) and whole blood high-sensitivity C-reactive protein (hs-CRP) in neonates with hypoxic-ischemic encephalopathy (HIE). Method(s): Retrospective analysis was made on the clinical data of hospitalized infants diagnosed with asphyxia in our neonatal intensive care unit from January 2014 to June 2021. According to whether TH was performed, they were divided into two groups, the control group (missed the time in other hospitals and did not receive TH) and the treatment group (TH group). In their first ten days, analysis was made on the hs-CRP, white blood cell (WBC) count, neutrophil percentage, platelet count (PLT), and brain MRI. The correlation analysis was carried out based on the severity of brain injury displayed by the brain MRI and the time of hs-CRP elevation to summarize the relationship between TH and the time of hs-CRP elevation and the severity of HIE. Result(s): 83 infants were included, 28 in the control group and 55 in the TH group. After birth, 33 infants (60.0%) in the TH group and 2 patients (7.1%) in the control group had elevated hs-CRP, which was statistically significant (P < 0.05). The time window for CRP elevation after TH was 72-96 h after the end of treatment; The results of the brain MRI showed 23 in the TH group and 11in the control group with moderate and severe HIE. 21 infants (all in the TH group) had elevated hs-CRP. MRI showed that the number of infants with mild injury or regular infants whose hs-CRP raised in the TH group was 12, and the rate of hs-CRP elevation was 37.5%; in the control group, the rate was 11.8%. The difference was significant. TH can decrease PLT and WBC, but no significance in the two groups. Blood and sputum cultures were negative in all infants, and there were no signs of infection. Conclusion(s): TH can increase the blood hs-CRP of HIE neonates, and the probability of its occurrence is related to the severity of HIE. The heavier the HIE, the higher the risk of hs-CRP elevation after TH; The hs-CRP elevation has little to do with infection, and it doesn't recommend using antibiotics actively.Copyright 2023 Wang, Shi, Wang and Ma."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinatalriskfactorsforlowandmoderatefiveminuteapgarscoresatterm2017lai
+"OBJECTIVE: To evaluate the specific maternal and perinatal variables associated with a low (<=3) or moderate (4-6) Apgar score, compared to a high (>=7) score. STUDY DESIGN: This was a retrospective, cohort study of 58429 term singleton babies born at the Mater Mother's Hospital in Brisbane, Australia in 2007-2013. Maternal demographics, socio-economic status using the Australian Socioeconomic Index for Areas (SEIFA) score, obstetric factors, and birth outcomes were compared for neonates grouped into three categories based on their five-minute Apgar: low (<=3), moderate (4-6) and high (>=7). The low- and moderate-score cohorts were individually compared to the high-score cohort using both univariate and multivariate analysis. RESULTS: Logistic regression analysis confirmed that of the variables analysed, only maternal public insurance status (OR 2.1, 95% CI 1.5-3.1), breech presentation (OR 2.4, 95% CI 1.1-4.6), other non-cephalic presentation (OR 9.5, 95% CI 2.2-25.4), intramuscular narcotic use (OR 2.3, 95% CI 1.5-3.5), and presence of meconium (OR 3.7, 95% CI 2.5-5.4) were significantly associated with low Apgar scores. Variables significantly associated with a moderate score were: SEIFA <=50th centile (OR 1.6, 95% CI 1.2-2.0) and 61st to 70th centile (OR 1.31, 95% CI 0.9-1.8) categories, maternal public insurance status (OR 2.7, 95% CI 2.2-3.3), nulliparity (OR 2.0, 95% CI 1.7-2.5), emergency caesarean birth (OR 2.6, 95% CI 2.1-3.2), instrumental birth (OR 2.3, 95% CI 1.9-2.9), and presence of meconium (OR 2.6, 95% CI 2.1-3.2). CONCLUSIONS: Factors associated with low and moderate Apgar scores vary in type and degree of influence. Distinctions in the perinatal background can help predict newborn compromise and accelerate delivery of care."""
+
+

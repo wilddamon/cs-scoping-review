@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofmaternalbodymassindexandmaternalmorbidityandmortality2024dinsmoor
+"OBJECTIVE: This study aimed to assess the association of maternal body mass index (BMI) with a composite of severe maternal outcomes. STUDY DESIGN: Secondary analysis of a cohort of deliveries on randomly selected days at 25 hospitals from 2008 to 2011. Data on comorbid conditions, intrapartum events, and postpartum course were collected. The reference group (REF, BMI: 18.5-29.9kg/m(2)), obese (OB; BMI: 30-39.9kg/m(2)), morbidly obese (MO; BMI: 40-49.9kg/m(2)), and super morbidly obese (SMO; BMI >= 50kg/m(2)) women were compared. The composite of severe maternal outcomes was defined as death, intensive care unit (ICU) admission, ventilator use, deep venous thrombosis/pulmonary embolus (DVT/PE), sepsis, hemorrhage, disseminated intravascular coagulation (DIC), unplanned operative procedure, or stroke. Patients in the REF group were matched 1:1 with those in all other obesity groups based on propensity score using the baseline characteristics of age, race/ethnicity, previous cesarean, preexisting diabetes, chronic hypertension, parity, cigarette use, and insurance status. Multivariable Poisson's regression was used to estimate adjusted relative risks (aRRs) and 95% confidence intervals (CIs) for the association between BMI and the composite outcome. Because cesarean delivery may be in the causal pathway between obesity and adverse maternal outcomes, models were then adjusted for mode of delivery to evaluate potential mediation. RESULTS: A total of 52,162 pregnant patients are included in the analysis. Risk of composite maternal outcomes was increased for SMO compared with REF but not for OB and MO [OB: aRR=1.06, 95% CI: 0.99-1.14; MO: aRR=1.10, 95% CI: 0.97-1.25; SMO: aRR=1.32, 95% CI: 1.02-1.70]. However, in the mediation analysis, cesarean appears to mediate 46% (95% CI: 31-50%) of the risk of severe morbidity for SMO compared with REF. CONCLUSION: Super morbid obesity is significantly associated with increased serious maternal morbidity and mortality; however, cesarean appears to mediate this association. Obesity and morbid obesity are not associated with maternal morbidity and mortality. KEY POINTS: * Super morbid obesity is associated with increased morbidity.. * Cesarean appears to mediate the association between super morbid obesity and morbidity.. * Obesity and morbid maternal obesity are not associated with morbidity.."""
+
+

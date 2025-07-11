@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenmaternalhba1candadverseoutcomesingestationaldiabetes2023muhuza
+"BACKGROUND: The role of HbA1c in women with gestational diabetes mellitus (GDM) is still unclear, particularly in the Asian population. AIM: To investigate the association between HbA1c levels and adverse outcomes considering maternal age, pre-pregnancy body mass index (BMI), and gestational weight gain (GWG) in women with GDM. METHOD: A retrospective study included 2048 women with GDM and singleton live births. Using logistic regression, the associations between HbA1c and adverse pregnancy outcomes were assessed. RESULT: Compared to women with HbA1c <= 5.0%, HbA1c was significantly associated with macrosomia (aOR 2.63,95%CI1.61,4.31), pregnancy-induced hypertension (PIH, aOR 2.56,95%CI1.57,4.19), preterm birth (aOR 1.64,95%CI 1.05,2.55), and primary Cesarean section (primary C-section, aOR1.49,95%CI1.09,2.03) in GDM women with HbA1c >=5.5% while significantly associated with PIH (aOR 1.91,95%CI1.24,2.94) in women with HbA1c 5.1-5.4%. The associations between HbA1c and adverse outcomes varied with maternal age, pre-pregnancy BMI, and GWG. In women aged <=29 years, there's significant association between HbA1c and primary C-section when HbA1c was 5.1-5.4% and >=5.5%. In women aged 29-34 years and HbA1c >=5.5%, HbA1c was significantly associated with macrosomia. In women aged >=35 years, there's significant association between HbA1c and preterm birth when HbA1c was 5.1-5.4% and macrosomia and PIH when HbA1c >=5.5%. In pre-pregnant normal-weight women, HbA1c was significantly associated with macrosomia, preterm birth, primary C-section, and PIH when HbA1c >=5.5% while HbA1c was significantly associated with PIH when HbA1c was 5.1-5.4% . In pre-pregnant underweight women with HbA1c 5.1-5.4%, HbA1c was significantly associated with primary C-section. HbA1c was significantly associated with macrosomia among women with inadequate GWG or excess GWG and HbA1c>=5.5%. In women with adequate GWG, there's significant association between HbA1c and PIH when HbA1c was 5.1-5.4% and >=5.5% . CONCLUSION: Conclusively, HbA1c at the time of diagnosis is significantly associated with macrosomia, preterm birth, PIH, and primary C-section in Chinese women with GDM."""
+
+

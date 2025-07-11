@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nicuadmissionsafterapolicytoeliminateelectiveearlytermdeliveriesbefore39weeksgestation2018kennedy
+"BACKGROUND AND OBJECTIVES: Early term infants (37-<39 weeks' gestation) are at higher risk of adverse outcomes than term infants (39-<41 weeks' gestation). We hypothesized that a policy to eliminate elective, early term deliveries would result in fewer NICU admissions and shorter lengths of stay among infants born >=37 weeks.;METHODS: This was a retrospective cohort study of singleton infants born >=37 weeks at a tertiary medical center from 2004 to 2015 (preperiod: 2004-2008; postperiod: 2010-2015; washout period: 2009). We compared the incidence of early term delivery, NICU admissions (short: >=4-<24 hours, long: >=24 hours), NICU diagnoses, and stillbirths in both periods. We used modified Poisson regression to calculate adjusted risk ratios.;RESULTS: There were 20 708 and 24 897 singleton infants born >=37 weeks in the pre- and postperiod, respectively. The proportion of early term infants decreased from 32.5% to 25.7% (P < .0001). NICU admissions decreased nonsignificantly (9.2% to 8.8%; P = .22), with a significant reduction in short NICU stays (5.4% to 4.6%; adjusted risk ratio: 0.85 [95% confidence interval: 0.79-0.93]). Long NICU stays increased slightly (3.8% to 4.2%), a result that was nullified by adjusting for neonatal hypoglycemia. A nonsignificant increase in the incidence of stillbirths >=37 to <40 weeks was present in the postperiod (7.5 to 10 per 10 000 births; P = .46).;CONCLUSIONS: Reducing early term deliveries was associated with fewer short NICU stays, suggesting that efforts to discourage early term deliveries in uncomplicated pregnancies may minimize mother-infant separation in the newborn period. Copyright (c) 2018 by the American Academy of Pediatrics."""
+
+

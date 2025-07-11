@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: declineduseofcervicalripeningballoondidnotreducetheincidenceofumbilicalcordprolapseinjapan2020hasegawa
+"AIM: To clarify whether the incidence of umbilical cord prolapse (UCP) at delivery is related to the cervical ripening balloon (CRB).;METHODS: A postal questionnaire study was conducted in 2018 in institutions providing maternity services across Japan. Questions on the number of deliveries, labor inductions, used CRB and cases of UCP in 2017 were included. Because a similar questionnaire survey was conducted in 2012, the incidence of UCP and frequency of the use of CRB were compared.;RESULTS: A total of 1354 answers were assessed (57% of all delivery institutions). The total number of deliveries was 490 279. Of these, 78% were transvaginal; 74 cases of UCP were reported (0.015%), while 13 cases were reported from obstetric facilities never using CRB (0.008%). The incidence of UCP (odds ratio [95% confidence interval]) was 0.036% in the intracervical type (4.3 [1.6-11.3]), 0.091% in the disk-type (11.0 [4.2-29.0]) and 0.067% in the ball-type (8.1 [2.8-22.8]). Frequencies of the use of CRB were 7.3% and 6.6% in the 2012 and 2018 surveys, respectively. The use of the intracervical type increased from 2.8% in the 2012 survey to 3.5% in the 2018 survey, while that of the disk-type and ball-type declined. However, the incidence of UCP was not different between the two surveys regardless of the use of cervical ripening balloons (0.014% vs 0.015% with CRB, 0.005% vs 0.008% without CRB).;CONCLUSION: Although the frequency of CRB use significantly declined, the incidence of UCP did not significantly reduce in the last 5 years. Copyright (c) 2020 Japan Society of Obstetrics and Gynecology."""
+
+

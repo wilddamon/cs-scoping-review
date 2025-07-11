@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: epiduralanalgesiaduringlaboraretrospectivecohortstudyonitseffectsonlabourdeliveryandneonataloutcome2014hincz
+"OBJECTIVES: to evaluate the impact of epidural analgesia (EA) on labor delivery and neonatal status. MATERIAL AND METHODS: retrospective, observational, cohort study comprising 5593 pregnant women who met the inclusion criteria (singleton pregnancy cephalic presentation, 37-42 weeks of gestation). Out of them, 2496 had EA and 3097 constituted the control group. MAIN OUTCOME MEASURES: incidence of labor complications and operativd deliveries in women who received EA, neonatal status assessed by Apgar score in 1- and 5-minute, and cord pH values. RESULTS: Labor complications were more frequently observed in the epidural group, with an almost 1.5-fold higher incidence in nulliparous (16.32% vs. 11.29%) and 1.4-fold in multiparous women (9.86% vs. 7.08%). Stepwise logistic regression confirmed that EA is a significant risk factor for labor complications in nulliparous women (OR 1.27, 95% CI 1.03-1.58) and for forceps delivery in multiparous women (5.20, 95% CI 3.31-8.177). Also, EA is an important risk factor for both, low cord arterial pH <7.10 (OR 1.98, 95% CI 1.28-3.09, p=0.0023) and low Apgar score at 7 minute (OR=4.55, 95% CI 2.35-8.80, p<0.0001). Crucially there was no difference in the incidence of a low Apgar score at 5 minutes. CONCLUSIONS: EA constitutes an independent risk factor for operative vaginal delivery in multiparous women, but has no effect on the incidence of cesarean sections, either in nulliparous or multiparous women. EA also increases the risk of labor complications, low 1-minute Apgar score and low umbilical cord pH, but is not associated with low 5-minute Apgar score."""
+
+

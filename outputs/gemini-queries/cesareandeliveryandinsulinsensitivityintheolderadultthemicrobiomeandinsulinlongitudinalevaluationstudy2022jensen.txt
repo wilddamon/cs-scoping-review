@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryandinsulinsensitivityintheolderadultthemicrobiomeandinsulinlongitudinalevaluationstudy2022jensen
+"The present study was designed to evaluate if mode of delivery at birth is associated with body mass index (BMI) and glucose homeostasis traits in later life, controlling for possible confounders, including maternal history of diabetes. Data were obtained through a racially diverse, prospective cohort study of nondiabetic, older adults, the Microbiome and Insulin Longitudinal Evaluation Study (MILES). We used generalized linear models to estimate the association between mode of delivery and glycemic status, BMI (kg/m(2)), waist circumference (cm), fasting glucose, fasting insulin, insulin secretion, insulin sensitivity, and insulin clearance. Further, we estimated the direct and indirect effects of cesarean delivery on glucose and insulin-related traits, as mediated by BMI status. Relative to vaginal delivery, cesarean delivery was associated with a significantly higher BMI (adjusted beta [ab] 3.53 kg/m(2); 95% CI 0.15, 6.91) and fasting glucose (ab 5.12; 95% CI 0.01, 10.23), a 14% decrease in insulin sensitivity (ab -0.14; 95% CI -0.28, -0.01), and a 58% increased risk (adjusted relative risk [aRR] 1.58; 95% CI 1.08, 2.31) for prediabetes/diabetes. Associations were mediated in part by BMI, with the strongest evidence observed for glycemic status (proportion mediated 22.6%; P = .03), fasting insulin (proportion mediated 58.0%; P = .05), and insulin sensitivity index (proportion mediated 45.9%; P = .05). Independent of mediation, a significant direct effect of cesarean delivery on glycemic status was observed (aRR 1.88; 95% CI 1.16, 2.60). Cesarean delivery may lead to reduced insulin sensitivity and, ultimately, increased risk for developing prediabetes and diabetes."""
+
+

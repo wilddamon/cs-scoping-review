@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: concentrationsofimmunemarkerinnewborndriedbloodspotsandearlychildhooddevelopmentresultsfromtheupstatekidsstudy2018ghassabian
+"BACKGROUND: Evidence shows cytokine dysregulation in children with developmental disabilities. The association between immune activity during the perinatal period and child development is less clear. METHODS: We examined the relationship between newborn concentrations of immune markers and child development. Within Upstate KIDS, a population-based birth cohort (2008-2010, upstate New York), we assayed immune markers, which are postulated to have neuro-modulatory effects, in newborn dried blood spots (NDBS, n = 3038). Mothers completed the Ages & Stages Questionnaire(c) (ASQ) for their children repeatedly through age 36 months. At 30 and 36 months, mothers also reported whether their children received any developmental services. We used generalised linear mixed models adjusted for maternal and child characteristics to test associations. RESULTS: Sixteen immune markers were associated with failing ASQ in unadjusted models. After full adjustment (for gestational age, mode of delivery, parity, pregnancy smoking, etc.), we observed that higher levels of 4 markers, including platelet-derived growth factor-AA (PDGF-AA, OR 0.77, 95% CI 0.67, 0.89), plasminogen activator inhibitor-1 (OR 0.80, 95% CI 0.68, 0.94), stromal cell derived factor-1 (OR 0.85, 95% CI 0.73, 0.98), and macrophage inflammatory protein-1beta (OR 0.87, 95% CI 0.77, 0.98) were associated with lower odds of ASQ failure. The associations did not exist if correction for multiple comparisons was performed, except for PDGF-AA. Analyses with developmental service use revealed similar null findings. CONCLUSIONS: Immune marker concentrations in NDBS may not be associated with developmental delay in the general population. Newborn concentrations of growth factor PDGF-AA may be protective of developmental delay in childhood."""
+
+

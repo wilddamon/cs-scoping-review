@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: asimpleapproachtoadjustforcasemixwhencomparinginstitutionalcesareanbirthrates2021howbert
+"OBJECTIVE: This study aimed to develop a validated model to predict intrapartum cesarean in nulliparous women and to use it to adjust for case-mix when comparing institutional laboring cesarean birth (CB) rates. STUDY DESIGN: This multicenter retrospective study used chart-abstracted data on nulliparous, singleton, term births over a 7-year period. Prelabor cesareans were excluded. Logistic regression was used to predict the probability of CB for individual pregnancies. Thirty-five potential predictive variables were evaluated including maternal demographics, prepregnancy health, pregnancy characteristics, and newborn weight and gender. Models were trained on 21,017 births during 2011 to 2015 (training cohort), and accuracy assessed by prediction on 15,045 births during 2016 to 2017 (test cohort). RESULTS: Six variables delivered predictive success equivalent to the full set of 35 variables: maternal weight, height, and age, gestation at birth, medically-indicated induction, and birth weight. Internal validation within the training cohort gave a receiver operator curve with area under the curve (ROC-AUC) of 0.722. External validation using the test cohort gave ROC-AUC of 0.722 (0.713-0.731 confidence interval). When comparing observed and predicted CB rates at 16 institutions in the test cohort, five had significantly lower than predicted rates and three had significantly higher than predicted rates. CONCLUSION: Six routine clinical variables used to adjust for case-mix can identify outliers when comparing institutional CB rates."""
+
+

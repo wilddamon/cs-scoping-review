@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: patternedprogressionofbacterialpopulationsintheprematureinfantgut2014larosa
+"In the weeks after birth, the gut acquires a nascent microbiome, and starts its transition to bacterial population equilibrium. This early-in-life microbial population quite likely influences later-in-life host biology. However, we know little about the governance of community development: does the gut serve as a passive incubator where the first organisms randomly encountered gain entry and predominate, or is there an orderly progression of members joining the community of bacteria? We used fine interval enumeration of microbes in stools from multiple subjects to answer this question. We demonstrate via 16S rRNA gene pyrosequencing of 922 specimens from 58 subjects that the gut microbiota of premature infants residing in a tightly controlled microbial environment progresses through a choreographed succession of bacterial classes from Bacilli to Gammaproteobacteria to Clostridia, interrupted by abrupt population changes. As infants approach 33-36 wk postconceptional age (corresponding to the third to the twelfth weeks of life depending on gestational age at birth), the gut is well colonized by anaerobes. Antibiotics, vaginal vs. Caesarian birth, diet, and age of the infants when sampled influence the pace, but not the sequence, of progression. Our results suggest that in infants in a microbiologically constrained ecosphere of a neonatal intensive care unit, gut bacterial communities have an overall nonrandom assembly that is punctuated by microbial population abruptions. The possibility that the pace of this assembly depends more on host biology (chiefly gestational age at birth) than identifiable exogenous factors warrants further consideration."""
+
+

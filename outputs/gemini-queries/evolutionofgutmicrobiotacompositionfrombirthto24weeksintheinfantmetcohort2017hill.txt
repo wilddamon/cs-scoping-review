@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evolutionofgutmicrobiotacompositionfrombirthto24weeksintheinfantmetcohort2017hill
+"BACKGROUND: The gut is the most extensively studied niche of the human microbiome. The aim of this study was to characterise the initial gut microbiota development of a cohort of breastfed infants (n = 192) from 1 to 24 weeks of age. METHODS: V4-V5 region 16S rRNA amplicon Illumina sequencing and, in parallel, bacteriological culture. The metabolomic profile of infant urine at 4 weeks of age was also examined by LC-MS. RESULTS: Full-term (FT), spontaneous vaginally delivered (SVD) infants' microbiota remained stable at both phylum and genus levels during the 24-week period examined. FT Caesarean section (CS) infants displayed an increased faecal abundance of Firmicutes (p < 0.01) and lower abundance of Actinobacteria (p < 0.001) after the first week of life compared to FT-SVD infants. FT-CS infants gradually progressed to harbouring a microbiota closely resembling FT-SVD (which remained stable) by week 8 of life, which was maintained at week 24. The gut microbiota of preterm (PT) infants displayed a significantly greater abundance of Proteobacteria compared to FT infants (p < 0.001) at week 1. Metabolomic analysis of urine at week 4 indicated PT-CS infants have a functionally different metabolite profile than FT (both CS and SVD) infants. Co-inertia analysis showed co-variation between the urine metabolome and the faecal microbiota of the infants. Tryptophan and tyrosine metabolic pathways, as well as fatty acid and bile acid metabolism, were found to be affected by delivery mode and gestational age. CONCLUSIONS: These findings confirm that mode of delivery and gestational age both have significant effects on early neonatal microbiota composition. There is also a significant difference between the metabolite profile of FT and PT infants. Prolonged breastfeeding was shown to have a significant effect on the microbiota composition of FT-CS infants at 24 weeks of age, but interestingly not on that of FT-SVD infants. Twins had more similar microbiota to one another than between two random infants, reflecting the influence of similarities in both host genetics and the environment on the microbiota.."""
+
+

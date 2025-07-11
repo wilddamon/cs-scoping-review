@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: emergencycaesareanforintrapartumfetalcompromiseandadmissiontotheneonatalintensivecareunitattermismoreinfluencedbyfetalweightthanthecerebroplacentalratio2020ho
+"Objective: Some studies have suggested that the fetal cerebroplacental ratio (CPR) is an independent predictor of intrapartum fetal compromise and admission to the neonatal intensive care unit (NICU) at term particularly in small for gestational age (SGA) compared to appropriate for gestational age (AGA) infants. The aim of this study was to evaluate the association between the CPR and emergency caesarean for intrapartum fetal compromise (CS IFC) and NICU admission at term after adjusting for estimated fetal weight (EFW) and other confounding factors.Methods: This was a retrospective study of women who birthed at the Mater Mother's Hospital in Brisbane, Australia between for women who birthed between January 2000 and April 2017. The CPR was measured within 2 weeks of birth in women that delivered at term and assessed for correlation with CS IFC and admission to NICU. The study cohort was also stratified into four categories according to EFW and CPR thresholds. Appropriate for gestational age (EFW >=10th centile) and normal CPR (>=10th centile), AGA and low CPR (<10th centile), SGA (EFW <10th centile) and normal CPR and SGA and low CPR.Results: Both CPR <10th centile (adjusted odds ratio (aOR) 2.60, 95% CI 1.82-3.71, p < .001) and EFW <10th centile (aOR 2.63, 95% CI 1.85-3.74, p < .001) demonstrated significant associations with CS IFC. EFW <10th centile (aOR 2.23, 95% CI 1.61-3.09, p < .001) but not CPR <10th centile (aOR 1.41, 95% CI 0.99-2.01, p = .06) was predictive of NICU admission. When stratified according to EFW and CPR thresholds, SGA had significant odds ratios for CS IFC and NICU admission regardless of CPR status. However, the AGA and low CPR cohort was only at increased risk of CS IFC (aOR 2.09, 95% CI 1.30-3.34, p = .002) but not of admission to NICU.Conclusions: At term, the CPR is an independent risk factor for CS IFC regardless of fetal weight. However, the CPR was only predictive of NICU admission in an SGA cohort. Overall, our findings suggest that fetal size is a more important variable for both CS IFC and NICU admission."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessingtheincidenceofgestationaldiabetesandneonataloutcomesusingtheiadpsgguidelinesincomparisonwiththecarpenterandcoustancriteriainabelgiangeneralhospital2014oriot
+"We have conducted a systematic universal screening for gestational diabetes mellitus (GDM) since 2008, following the criteria outlined by the International Association of Diabetes and Pregnancy Study Group (IADPSG) since 2011. However, we recently replaced the IADPSG standards with those established by the Belgian French Language Gynecologists and Obstetricians Group (GGOLFB). These new criteria indicate GDM when fasting plasma glucose (FPG) is >=0*92 g/l at the beginning of pregnancy or when an orally provoked hyperglycaemia test (75 g of glucose) between the twenty-fourth and twenty-eighth week results in an FPG of >=0*92 g/l and/or >=1*80 g/l after 1 hour and/or >=1*53 g/l after 2 hours. The goal of this retrospective study was to evaluate the incidence of GDM, neonatal outcomes, and the use of insulin therapy 21 months post-implementation of the IADPSG criteria within our centre. A total of 393 patients were diagnosed with GDM from January 2009 to December 2012. After applying the new criteria, the incidence of GDM rose significantly from 8 to 23% (P<0*0001). However, there were no significant changes in the proportion of GDM patients requiring insulin therapy (34*2% versus 34*7%) or the rate of foetal large for gestational age (11*2% versus 8*8%). In addition, the >=90% percentile decreased non-significantly from 96*3+-0*6% to 94*3+-0*70% (P = 0*057), whereas the lower quartiles and the proportion of cesarean deliveries (27*0% versus 25*6%) did not change significantly. Therefore, non-targeted screening significantly increased the incidence of GDM in our centre without significantly decreasing large for gestational age or the number of cesarean deliveries."""
+
+

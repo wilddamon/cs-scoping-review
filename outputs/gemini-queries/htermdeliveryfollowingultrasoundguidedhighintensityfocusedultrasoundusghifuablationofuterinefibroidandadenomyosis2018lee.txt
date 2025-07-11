@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: unintendedpregnancieswithtermdeliveryfollowingultrasoundguidedhighintensityfocusedultrasoundusghifuablationofuterinefibroidandadenomyosis2018lee
+"Purpose of Investigation: This study aimed to assess the pregnancy outcome of patients with uterine fibroid or adenomyosis treated by ultrasound-guided high-intensity focused ultrasound (USgHIFU) ablation. Material(s) and Method(s): Treatment was administrated using a focused ultrasound tumor therapeutic system. In this study, there were 23 unintended pregnancies after USgHIFU ablation. Result(s): Twelve patients developed no complication during pregnancy and continued until full term delivery. Vaginal and cesarean section deliveries were also uneventful. The following are the pregnancy outcome of the patients: Three patients experienced spontaneous abortions, one patient experienced preterm delivery, and five patients remained pregnant at this point. Conclusion(s): USgHIFU seems to have the effectiveness to precisely treat adenomyosis and uterine fibroid, allowing for normal reproduction. Well-designed prospective trials are needed to ascertain the safety of this treatment with pregnancy due to the lack of large-scaled study.Copyright (c) 2018 S.O.G. Canada Inc.All rights reserved."""
+
+

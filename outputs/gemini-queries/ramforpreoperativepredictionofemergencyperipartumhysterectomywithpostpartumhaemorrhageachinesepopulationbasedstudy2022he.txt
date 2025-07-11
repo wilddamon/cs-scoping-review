@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofanomogramforpreoperativepredictionofemergencyperipartumhysterectomywithpostpartumhaemorrhageachinesepopulationbasedstudy2022he
+"Objective: To develop and validate a model to predict the incidence of emergency peripartum hysterectomy (EPH) due to postpartum haemorrhage (PPH) from the time of delivery to 6 weeks postpartumin the duration of caesarean section (C-section). Method(s): There were 627 patients with PPH including in this retrospective study from 2015 to 2019. Among these patients, 439 patients were divided into the model development group and 188 patients were divided into the validation group. The validation group was constructed for external validation in the usage of bootstrap resampling. The least absolute shrinkage and selection operator (LASSO) regression model was used to reduce the data dimension, and select features and independent risk factors. Result(s): In total, the incidence rate of PPH and EPH was 7.53% (2145/284,912) and 2.73 (78/28,491) among the 28,491 patients with C-section, respectively. The results of LASSO regression indicated that prothrombin time decrease at 60 minutes after C-section (odds ratio (OR) = 1.823, 95% confidence interval (CI): 1.171-2.839) and placenta previa (OR = 5.374, 95% CI: 2.751-10.393) were positively associated with EPH in this study, while gestational age at termination (OR = 0.959, 95% CI: 0.930-0.989) and albumin decrease at 60 minutes after C-section (OR = 0.907, 95% CI: 0.843-0.976) had negative association with EPH. Besides, we found that the C-index was 0.896 for the primary cohort and 0.899 for the validation cohort in the prediction nomogram, respectively. Conclusion(s): In this retrospective study, an EPH nomogram within several risk factors, which was constructed by LASSO regression, can be contributed to effectively predict the risk of EPH in patients with PPH during C-section. In addition, a significant association is observed between abnormal placenta and peripartum hysterectomy.Copyright: (c) 2022 The Author(s)."""
+
+

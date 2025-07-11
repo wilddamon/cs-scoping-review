@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: normallaborcurveisaffectedbyfetusgenderacohortstudy2017meibodi
+"Background: Fetal male gender may affect the progression of labor and could be a risk factor for labor arrest. This study was conducted to evaluate the effect of fetus gender on labor curve. Methods: In this cohort study, 1550 singleton term pregnant women in labor phase (either spontaneous or by induction) were enrolled. Results of regular cervical examination, dilation, length of labor stages, mode of delivery, and sex of the fetus, and birth weight were recorded for all participants. Labor progression curve was compared between two sex groups with independent t test and chi2 test. Results: Finally, 1527 women completed the study (47.8% female and 52.1% male). Mean duration from beginning of the active phase up to full dilatation, from 4 to 6 cm, 6 to 8 cm, and 8 to 10 cm dilatations, were significantly longer in the male sex group compared to the female (p<0.05). All durations were also significantly different when parity was considered (p<0.05). We could not show fetal sex as an independent risk factor for active phase arrest (OR Adjusted: 1.18, CI 95% 1.01:1.42). Conclusion: Active phase stage was slower and longer in women who carried male fetuses compared to those carrying female fetuses; however, fetal sex did not increase the risk of active phase arrest."""
+
+

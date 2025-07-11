@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingthelikelihoodoflowerrespiratorytractureaplasmainfectioninpreterms2023viscardi
+"OBJECTIVE: To develop predictive models of Ureaplasma spp lower airway tract infection in preterm infants. METHODS: A dataset was assembled from five cohorts of infants born <33 weeks gestational age (GA) enrolled over 17 years (1999-2016) with culture and/or PCR-confirmed tracheal aspirate Ureaplasma status in the first week of life (n=415). Seventeen demographic, obstetric and neonatal factors were analysed including admission white blood cell (WBC) counts. Best subset regression was used to develop three risk scores for lower airway Ureaplasma infection: (1) including admission laboratory values, (2) excluding admission laboratory values and (3) using only data known prenatally. RESULTS: GA and rupture of membranes >72 hours were significant predictors in all 3 models. When all variables including admission laboratory values were included in the regression, WBC count was also predictive in the resulting model. When laboratory values were excluded, delivery route was found to be an additional predictive factor. The area under the curve for the receiver operating characteristic indicated high predictive ability of each model to identify infants with lower airway Ureaplasma infection (range 0.73-0.77). CONCLUSION: We developed predictive models based on clinical and limited laboratory information available in the perinatal period that can distinguish between low risk (<10%) and high risk (>40%) of lower airway Ureaplasma infection. These may be useful in the design of phase III trials of therapeutic interventions to prevent Ureaplasma-mediated lung disease in preterm infants and in clinical management of at-risk infants."""
+
+

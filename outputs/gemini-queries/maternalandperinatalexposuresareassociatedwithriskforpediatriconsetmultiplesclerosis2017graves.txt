@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandperinatalexposuresareassociatedwithriskforpediatriconsetmultiplesclerosis2017graves
+"OBJECTIVE: To determine if prenatal, pregnancy, or postpartum-related environmental factors are associated with multiple sclerosis (MS) risk in children. METHODS: This is a case-control study of children with MS or clinically isolated syndrome and healthy controls enrolled at 16 clinics participating in the US Network of Pediatric MS Centers. Parents completed a comprehensive environmental questionnaire, including the capture of pregnancy and perinatal factors. Case status was confirmed by a panel of 3 pediatric MS specialists. Multivariable logistic regression analyses were used to determine association of these environmental factors with case status, adjusting for age, sex, race, ethnicity, US birth region, and socioeconomic status. RESULTS: Questionnaire responses were available for 265 eligible cases (median age 15.7 years, 62% girls) and 412 healthy controls (median age 14.6, 54% girls). In the primary multivariable analysis, maternal illness during pregnancy was associated with 2.3-fold increase in odds to have MS (95% confidence interval [CI] 1.20-4.21, P = .01) and cesarean delivery with 60% reduction (95% CI 0.20-0.82, P = .01). In a model adjusted for these variables, maternal age and BMI, tobacco smoke exposure, and breastfeeding were not associated with odds to have MS. In the secondary analyses, after adjustment for age, sex, race, ethnicity, and socioeconomic status, having a father who worked in a gardening-related occupation (odds ratio [OR] 2.18, 95% CI 1.14-4.16, P = .02) or any use in household of pesticide-related products (OR 1.73, 95% CI 1.06-2.81, P = .03) were both associated with increased odds to have pediatric MS. CONCLUSION: Cesarean delivery and maternal health during pregnancy may influence risk for pediatric-onset MS. We report a new possible association of pesticide-related environmental exposures with pediatric MS that warrants further investigation and replication."""
+
+

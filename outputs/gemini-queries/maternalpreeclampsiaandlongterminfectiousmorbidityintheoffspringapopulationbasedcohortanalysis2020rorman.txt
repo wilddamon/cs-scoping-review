@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalpreeclampsiaandlongterminfectiousmorbidityintheoffspringapopulationbasedcohortanalysis2020rorman
+"OBJECTIVE: We evaluated the association between maternal preeclampsia and long-term infectious morbidity of the offspring. STUDY DESIGN: A retrospective cohort analysis was performed, evaluating risk of long-term infectious morbidity in children born to women with and without preeclampsia between the years 1991-2014. Infectious morbidity included hospitalizations of offspring during childhood. Infants were followed until age 18 years or until hospitalization. Multiple gestations, newborns with congenital malformations and perinatal deaths were excluded. Cumulative incidence rates of infectious morbidity were compared. A Cox proportional hazards model was employed to control for various confounders including gestational age and cesarean delivery (CD). RESULTS: During the study period 239,725 newborns were included: 96% (n = 230,217) without preeclampsia, 3% (n = 7280) with mild preeclampsia and 0.9% (n = 2228) with severe preeclampsia, defined mostly by evidence of maternal organ dysfunction. Hospitalization rate due to infectious morbidity was significantly higher for offspring to mothers with severe preeclampsia in comparison to those with no preeclampsia (13.1% vs 11%, P = 0.008), specifically respiratory and bacterial infections. The Kaplan-Meier survival curve demonstrated that offspring born to mothers with severe preeclampsia had a significantly higher cumulative incidence of hospitalization (Log-rank test P value = 0.026). However, while controlling for confounders in the Cox regression model, severe preeclampsia was not found as an independent risk factor (adjusted hazard ratio 0.95, 95% confidence interval 0.8-1.1, P = 0.36). CONCLUSION: While severe preeclampsia is associated with higher risk for long-term infectious morbidity of the offspring, it seems that the association is due to prematurity and CD, but not the preeclampsia per-se."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofcontinuouselectronicfetalmonitoringonbirthoutcomesinlowriskpregnancies2019heelanfancher
+"BACKGROUND: Continuous electronic fetal monitoring (CEFM) is a standard of hospital care during the intrapartum period. We investigated its use on childbirth outcomes in low-risk pregnancies, and examined whether outcomes differed by gestational age within a term pregnancy. METHODS: A retrospective secondary data analysis using birth registry data from two diverse northeastern US states from 1992 to 2014. Chi-square test and the Fisher exact tests were used to examine associations between CEFM and childbirth outcomes. Multivariable Poisson regression models were used to estimate risk ratios of childbirth outcomes related to CEFM use, adjusting for potential confounders. RESULTS: Use of CEFM was independently associated with a 10% (State 1) and 40% (State 2) increased risk for primary cesarean delivery and an increased risk for assisted vaginal births (14% and 24%, respectively) after adjustment for confounders. CEFM use was not associated with reduced risk for infant mortality (neonatal mortality, 0-27 days, and post-neonatal mortality, 28-364 days) in term births (37-41 weeks' gestation). After stratifying term pregnancies into early term, full term, and late term, use of CEFM was associated with reduced risk for neonatal mortality in early-term births (37 0/7 weeks' to 38 6/7 weeks' gestation) in State 2 (RR 0.44 [95% CI 0.21-0.92]), but not in State 1. There was no association between CEFM use and infant mortality (neonatal and post-neonatal) in full-term or late-term births. CONCLUSIONS: The study results do not support universal use of CEFM in pregnancies that are low-risk and at term."""
+
+

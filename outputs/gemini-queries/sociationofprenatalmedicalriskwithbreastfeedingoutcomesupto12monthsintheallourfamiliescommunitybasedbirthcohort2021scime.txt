@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofprenatalmedicalriskwithbreastfeedingoutcomesupto12monthsintheallourfamiliescommunitybasedbirthcohort2021scime
+"BACKGROUND: Prenatal medical risk describes physical health issues or biological factors that predate or arise during pregnancy which heighten the risk of adverse outcomes, and often warrant specialized obstetric care. The influence of the nature and magnitude of prenatal risk on breastfeeding outcomes remains poorly understood. The objective of this study was to determine the association between prenatal medical risk and breastfeeding initiation and duration up to 1 year postpartum. METHODS: We analysed a subset of data from the All Our Families longitudinal cohort (n = 2706) of women in Calgary, Canada who delivered a liveborn infant between 2008 and 2010. Data were collected from self-report questionnaires and medical records. Women with complete data on prenatal medical risk factors and breastfeeding outcomes were included in this analysis. Prenatal medical risk was operationalized as one integer score of risk severity and four binary risk types capturing pre-pregnancy characteristics, past obstetric problems, current obstetric problems, and substance use. Outcomes were breastfeeding initiation defined as the infant ever receiving breast milk, and duration operationalized as still breastfeeding at 4 months, at 12 months, and time to breastfeeding cessation in weeks. We used logistic regression and Cox regression with right censoring at 52 weeks or attrition to calculate odds ratios (OR) and hazard ratios (HR), respectively, adjusting for sociodemographic vulnerability, parity, mode of delivery, and gestational age. RESULTS: Prenatal medical risk severity and type were not significantly associated with breastfeeding initiation, with the exception of pre-pregnancy risk type (OR 0.45; 95% CI 0.26, 0.77). Risk severity was associated with lower odds of breastfeeding to 4 months (OR 0.94; 95% CI 0.90, 0.99), 12 months (OR 0.93; 95% CI 0.87, 0.98), and earlier breastfeeding cessation (HR 1.05; 95% CI 1.02, 1.08). Associations with shorter breastfeeding length across the first postpartum year were observed for pre-pregnancy, current obstetric, and substance use risk types, but not past obstetric problems. CONCLUSION: Prenatal medical risk is associated with shortened duration of breastfeeding. Women with prenatal medical risk may benefit from the proactive arrangement of lactation support before and following delivery to promote continued breastfeeding."""
+
+

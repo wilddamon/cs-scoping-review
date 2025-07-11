@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactoflaborinductionat39weeksgestationcomparedwithexpectantmanagementonmaternalandperinatalmorbidityamongacohortoflowriskwomen2022burn
+"OBJECTIVE: To determine maternal and perinatal outcomes after induction of labor (IOL) at 39 weeks compared with expectant management. METHODS: This is a retrospective national cohort study from the National Center for Health Statistics birth database. The study included singleton, low-risk pregnancies with a non-anomalous fetus delivered at 39-42 weeks gestation between 2015 and 2018. Maternal outcomes available included chorioamnionitis (Triple I), blood transfusion, intensive care unit (ICU) admission, uterine rupture, cesarean delivery (CD), and cesarean hysterectomy. Fetal and infant outcomes included stillbirth, 5-min Apgar <=3, prolonged ventilation, seizures, ICU admission, and death within 28 days. We compared women undergoing IOL at 39 weeks to those managed expectantly. Non-adjusted and adjusted relative risks (aRRs) were estimated using multivariate log-binomial regression analysis. RESULTS: There were 15,900,956 births available for review of which 5,017,524 met inclusion and exclusion criteria. For the maternal outcomes, the IOL group was less likely to require a CD (aRR 0.880; 95% CI [0.874-0.886]; p value < .01) or develop Triple I (aRR 0.714; 95% CI [0.698-0.730]; p value < .01) but demonstrated a small increase in the cesarean hysterectomy rate (aRR 1.231; 95% CI [1.029-1.472]; p value < .01). Among perinatal outcomes, the stillbirth rate (aRR 0.195; 95% CI [0.153-0.249]; p value < .01), 5-min Apgar <=3 (aRR 0.684; 95% CI [0.647-0.723]; p value < .01), prolonged ventilation (aRR 0.840; 95% CI [0.800-0.883]; p value < .01), neonatal intensive care (NICU) admission (aRR 0.862; 95% CI [0.849-0.875]; p value < .01) were lower after 39 week IOL compared with expectant management. There were no differences in risk for neonatal seizures (aRR 0.848; 95% CI [0.718-1.003]; p value 0.011) or death (aRR 1.070; 95% CI [0.722-1.586]; p value 0.660). CONCLUSIONS: IOL at 39 weeks of gestation in a low-risk cohort is associated with a lower risk of CD and maternal infection, stillbirth, and lower neonatal morbidity. There was no effect on the risk for neonatal seizures or death."""
+
+

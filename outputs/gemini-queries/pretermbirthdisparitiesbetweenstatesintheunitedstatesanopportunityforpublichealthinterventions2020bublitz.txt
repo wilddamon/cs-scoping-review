@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pretermbirthdisparitiesbetweenstatesintheunitedstatesanopportunityforpublichealthinterventions2020bublitz
+"Objective: To examine associations between statelevel characteristics and state-level preterm birth rates.Study design: We conducted a retrospective ecological cross-sectional study using statelevel data from 2013 to 2014 extracted from publicly available sources -the March of Dimes PeriStats database, the U.S. Census Bureau, the US Department of Education, and the US Department of Justice.Results: State-level preterm birth rates correlated with the following state characteristics: poverty rate, obesity rate, percentage of non-Hispanic Black women residents, smoking rate, percent of C - section deliveries, percent of births to women <20 years old, pregnancies receiving late/no prenatal care, and violent crimes per capita. Linear regression analysis found that only the percent of non-Hispanic Black women by state remained a significant predictor of state-level preterm birth rates after adjusting for other risk factors.Conclusions: States with higher percentages of non-Hispanic Black women had higher rates of preterm birth, even after adjusting for sociodemographic characteristics, prenatal care, and maternal health by state. These findings suggest that public health interventions that target contextual and environmental risk factors affecting non-Hispanic Black women may help to curb rising rates of preterm birth in the United States."""
+
+

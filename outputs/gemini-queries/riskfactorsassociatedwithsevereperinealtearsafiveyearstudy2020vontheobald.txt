@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsassociatedwithsevereperinealtearsafiveyearstudy2020vontheobald
+"OBJECTIVE: Our aim was to describe risk factors associated with 34DPT in operative and non-operative vaginal deliveries, over a five-year period. STUDY DESIGN: This was a retrospective cohort study including 39,227 vaginal deliveries from 2013 to 2017 in a single French University Hospital. Annual characteristics of the analyzed population were recorded. Univariate logistic regression was used to evaluate the association between these characteristics and 34DPT. Multivariate analysis was used to identify combinations of risk factors associated with instrumental delivery. RESULTS: The rate of perineal tears was constantly rising but rate of 34DPT was stable, ranging between 0.8 and 1.4% over the study period. Cesarean section rate was stable between 18.8% and 19.6%. Rate of diabetes, preeclampsia and obesity (BMI < 40) was increasing and episiotomy rate decreasing (from 19.8% to 11.8%). Operative deliveries rate remained stable between 11 and 12.8%. Multivariate regression showed that gestational age over 39 weeks (aOR 1.18, 95% CI [1.02; 1.35]), birth weight over 3500 g (aOR 1.62, 95% CI [1.05; 2.49]) were associated with 34DPT in patients without operative vaginal deliveries but not episiotomy. Gestational age (aOR 1.71, 95% CI [1.18; 2.47]), episiotomy (aOR 0.55, 95% CI [0.38; 0.79]) and diabetes (aOR 1.73, 95% CI [1.15; 2.61]) were associated with 34DPT among patients with operative vaginal deliveries. CONCLUSION: In a tertiary medical center model with low cesarean section rate, factors associated with 34DPT were different among patients with or without operative vaginal delivery. The question of the protective effect of mediolateral episiotomy against 34DPT in case of operative delivery deserves further investigations."""
+
+

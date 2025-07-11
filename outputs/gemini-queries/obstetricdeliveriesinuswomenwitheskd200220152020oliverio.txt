@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricdeliveriesinuswomenwitheskd200220152020oliverio
+"RATIONALE & OBJECTIVE: Women with end-stage kidney disease (ESKD) have decreased fertility and are at increased risk for pregnancy complications. This study examined secular trends and outcomes of obstetric deliveries in a US cohort of women with ESKD. STUDY DESIGN: Retrospective cohort study. SETTING & PARTICIPANTS: Women aged 18 to 44 years with ESKD and registered in the US Renal Data System from 2002 to 2015. EXPOSURE: ESKD modality (hemodialysis [HD], peritoneal dialysis, transplantation). OUTCOMES: Infant delivery, preterm delivery, cesarean delivery. ANALYTICAL APPROACH: Unadjusted delivery rates were expressed as number of delivering women per 1,000 patient-years among women aged 18 to 44 years within each year during the study period, stratified by ESKD modality. Logistic regression models were used to evaluate associations of delivery, preterm delivery, and cesarean delivery with patient characteristics. RESULTS: The delivery rate in women undergoing HD and women with a kidney transplant increased from 2.1 to 3.6 and 3.1 to 4.6 per 1,000 patient-years, respectively (P<0.001 for each). The delivery rate in patients undergoing peritoneal dialysis was lower and did not increase significantly (P=0.9). Women with a transplant were less likely to deliver preterm compared with women undergoing HD (OR, 0.92; 95% CI, 0.84-1.00), though more likely have a cesarean delivery (OR, 1.18; 95% CI, 1.06-1.31). For deliveries occurring in the 2012 to 2015 period, 75% of women treated with HD were prescribed 4 or fewer outpatient HD treatments per week and 25% were prescribed 5-plus treatments per week in the 30 days before delivery. LIMITATIONS: Ascertainment of outcomes and comorbid conditions using administrative claims data. CONCLUSIONS: The delivery rate in women of reproductive age with ESKD increased from 2002 to 2015 among those treated with transplantation or HD. Women with a functioning transplant were less likely to deliver preterm, but more likely to have a cesarean delivery. Prescriptions for outpatient intensified HD for pregnant women with ESKD were infrequent in 2012 to 2015."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: managementofcaesareanscarpregnancywithorwithoutmethotrexatebeforecurettagehumanchorionicgonadotropintrendsandpatientoutcomes2018wang
+"BACKGROUND: To evaluate the effects of systemic methotrexate in cesarean scar pregnancy (CSP) patients treated with ultrasound-guided suction curettage. METHODS: A retrospective review of all women presenting with CSP treated with ultrasound-guided suction curettage at Tongji Hospital, Wuhan, China, between January 1, 2013 and December 31, 2015, was conducted. Patients were grouped into those not treated with methotrexate before curettage (group 1), treated with methotrexate by intramuscular injection (group 2) and treated with methotrexate by intravenous injection (group 3). The clinical characteristics and outcomes were analyzed. RESULTS: Among 107 patients, 47 patients were not treated with methotrexate before curettage, 46 patients had methotrexate administered by intramuscular injection and 14 patients had methotrexate injected intravenously. There were no significant differences among the groups in basic and clinical characteristics, such as age, gravity, parity, positive fetal heart beat and gestational age at diagnosis. Patients presented similar initial human chorionic gonadotropin (hCG) levels in all groups. After treatment with methotrexate or curettage, the percentage changes and varied ranges of the hCG levels were also similar in all groups. There were no significant differences in intraoperative blood loss and retained products of conception among the three groups. However group 1 had significantly shorter hospital stays than the two groups that were treated with methotrexate (p<0.001). CONCLUSION: By grouping CSP patients who shared similar age, gravity, parity, fetal heart beat positive and gestational age at diagnosis, we found that the presence or absence of methotrexate treatment before curettage resulted in comparable outcomes and hCG levels, although patients who were not treated with methotrexate had significantly shorter stays in the hospital."""
+
+

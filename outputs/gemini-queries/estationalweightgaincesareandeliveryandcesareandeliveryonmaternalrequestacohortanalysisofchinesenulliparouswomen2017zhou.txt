@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgaincesareandeliveryandcesareandeliveryonmaternalrequestacohortanalysisofchinesenulliparouswomen2017zhou
+"PURPOSE: To examine the association between gestational weight gain (GWG) and cesarean delivery including cesarean delivery on maternal request (CDMR) among low-risk women. METHODS: A total of 1,009,987 Chinese nulliparous women who delivered live term singletons during 1993-2010 were included. GWG, according to maternal pre-pregnancy body mass index-specified z-scores, was categorized into five groups: less than -1.2, -1.2 to less than -0.6, -0.6 to 0.6 (reference), more than 0.6 to 1.2, and more than 1.2. Multivariate log-binomial regression models were used to estimate the adjusted risk ratios and 95% confidence intervals (95% CIs). RESULTS: GWG was positively associated with overall cesarean and CDMR after adjusting for various confounders. Adjusted risk ratios for cesarean were 0.75 (95% CI, 0.73-0.77), 0.84 (95% CI, 0.82-0.85), 1.00, 1.16 (95% CI, 1.14-1.19), and 1.32 (95% CI, 1.29-1.35) in five ascending GWG categories, and 0.70 (95% CI, 0.67-0.73), 0.80 (95% CI, 0.78-0.82), 1.00, 1.20 (95% CI, 1.18-1.23), and 1.43 (95% CI, 1.40-1.45) for CDMR. The graded positive associations were consistent across levels of maternal pre-pregnancy body mass index, and in strata defined by southern and/or northern provinces, urban and/or rural residence, maternal age at delivery, year of delivery, and level of delivering hospital. CONCLUSIONS: Even among low-risk women, higher GWG was monotonically associated with an increased risk of cesarean delivery, indicating that limiting GWG could benefit to curb the rate of both medically necessary and unnecessary cesareans."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: atpreeclampsiadiagnosistotalcellfreednaconcentrationiselevatedandcorrelateswithdiseaseseverity2021kolarova
+"Background Placental derived cell-free DNA (cfDNA), widely utilized for prenatal screening, may serve as a biomarker for preeclampsia. To determine whether cfDNA parameters are altered in preeclampsia, we conducted a case-control study using prospectively collected maternal plasma (n=20 preeclampsia, n=22 normal) using our in-house validated prenatal screening assay. Methods and Results Isolated cfDNA was quantified, sequenced using Illumina NextSeq 500, and the placental-derived fraction was determined. Clinical and test characteristics were compared between preeclampsia and controls, followed by comparisons within the preeclampsia cohort dichotomized by cfDNA concentration. Lastly, cfDNA parameters in preeclampsia were correlated with markers of disease severity. Maternal age, body mass index, gestational age at delivery, cesarean rate, and neonatal birthweight were expectedly different between groups (P<=0.05). The placental-derived cfDNA fraction did not differ between groups (21.4% versus 16.9%, P=0.06); however, total cfDNA was more than 10 times higher in preeclampsia (1235 versus 106.5 pg/uL, P<0.001). This relationship persisted when controlling for important confounders (OR 1.22, 95% CI 1.04-1.43, P=0.01). The dichotomized preeclampsia group with the highest cfDNA concentration delivered earlier (33.2 versus 36.6 weeks, P=0.02) and had lower placental-derived fractions (9.1% versus 21.4%, P=0.04). Among preeclampsia cases, higher total cfDNA correlated with earlier gestational age at delivery (P=0.01) and higher maximum systolic blood pressure (P=0.04). Conclusions At diagnosis, total cfDNA is notably higher in preeclampsia, whereas the placental derived fraction remains similar to healthy pregnancies. In preeclampsia, higher total cfDNA correlates with earlier gestational age at delivery and higher systolic blood pressure. These findings may indicate increased release of cfDNA from maternal tissue injury."""
+
+

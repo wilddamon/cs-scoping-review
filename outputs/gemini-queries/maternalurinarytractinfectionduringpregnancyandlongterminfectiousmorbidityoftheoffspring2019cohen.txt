@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalurinarytractinfectionduringpregnancyandlongterminfectiousmorbidityoftheoffspring2019cohen
+"BACKGROUND: Urinary tract infection (UTI) is a common bacterial infection in pregnant women and is associated with adverse perinatal outcomes. We sought to investigate the long-term infectious outcomes of children to mothers who were diagnosed with UTI during their pregnancy. METHODS: A population-based cohort analysis was conducted at a single tertiary medical center. The study included all singleton deliveries between the years 1991-2014, comparing offspring born to mothers diagnosed with UTI during their pregnancy with those born to non-exposed mothers. Infectious-related hospitalizations of the offspring up to the age of 18 years were assessed according to a predefined set of ICD-9 codes. A Kaplan-Meier survival curve was conducted to compare cumulative hospitalization incidence between the groups. A Cox regression model was used to adjust for confounders. RESULTS: During the study period, 243,725 deliveries met the inclusion criteria. Of them, 8034 (3.3%) were exposed to maternal UTI during pregnancy. Infectious-related hospitalizations were significantly prevalent in offspring to exposed mothers (12.3% vs. 11.0%, OR = 1.125, 95% CI 1.051-1.204, Kaplan-Meier log rank p < 0.001). In the Cox regression model, while controlling for clinically relevant confounders, maternal UTI (adjuster HR = 1.240), as well as preterm delivery (adjusted HR = 1.385) and cesarean delivery (adjusted HR = 1.198) were noted as independent risk factors for long-term infectious morbidity of the offspring. CONCLUSIONS: Maternal UTI in pregnancy may influence offspring susceptibility to pediatric infections, as it was found to be an independent risk factor for long-term infectious morbidity of the offspring."""
+
+

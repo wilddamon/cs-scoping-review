@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therelationshipbetweenbodymassindexandperceivedcontroloverlabor2023whelan
+"BACKGROUND: Individuals with an increased body mass index (BMI) (>= 30 kg/m2) experience higher rates of perinatal mental health disorders than individuals with BMI < 30. Personal experience of decreased control over labor has been associated with the development postpartum mood and anxiety disorders. However, no studies have investigated the association between BMI and experience of control over labor. This study aimed to assess perceived control over labor and compare patients with BMI >= 30 to those with BMI < 30. METHODS: We performed a secondary analysis of a cross-sectional study of postpartum patients who delivered at term (37-41 weeks gestation). Postpartum, participants completed the Labour Agentry Scale (LAS), a validated tool to assess perceived control over labor/birth. Demographic, maternal health history and obstetric/neonatal outcomes were abstracted from the patient chart. Bivariate analyses were performed between those with BMI < 30 and those with BMI >= 30 using Fisher's exact test. Continuous LAS scores were compared between patients with BMI < 30 and BMI >= 30 using Wilcoxon rank-sum tests. Higher LAS scores indicate higher perceived control over labor. Multivariable linear regression was then performed to account for confounding factors identified a priori. RESULTS: There was no difference in LAS between those with BMI >= 30 and BMI < 30. When stratified by World Health Organization (WHO) class of BMI, those with BMI >= 40 had a significantly lower LAS scores than those with BMI < 30 (147 vs. 163, p = 0.02), however, this finding was no longer significant after controlling for length of labor and cesarean birth. CONCLUSION: Only participants with the highest BMI experienced decreased control over labor, and this finding was no longer significant after controlling for mode of delivery and length of labor. Further research into the experience of birthing people with BMI >= 30 is critical to understand the increased risk of perinatal mood disorders among this population."""
+
+

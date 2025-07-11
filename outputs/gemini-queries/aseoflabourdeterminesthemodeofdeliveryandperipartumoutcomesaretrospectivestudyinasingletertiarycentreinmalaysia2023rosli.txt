@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cervicaldilatationatdiagnosisofactivephaseoflabourdeterminesthemodeofdeliveryandperipartumoutcomesaretrospectivestudyinasingletertiarycentreinmalaysia2023rosli
+"BACKGROUND: There is an increasing trend of Caesarean section rate in Malaysia. Limited evidence demonstrated the benefits of changing the demarcation of the active phase of labour. METHODS: This was a retrospective study of 3980 singletons, term pregnancy, spontaneous labouring women between 2015 and 2019 comparing outcomes between those with cervical dilation of 4 versus 6 cm at diagnosis of the active phase of labour. RESULTS: A total of 3403 (85.5%) women had cervical dilatation of 4 cm, and 577 (14.5%) at 6 cm upon diagnosis of the active phase of labour. Women in 4 cm group were significantly heavier at delivery (p = 0.015) but significantly more multiparous women were in 6 cm group (p < 0.001). There were significantly fewer women in the 6 cm group who needed oxytocin infusion (p < 0.001) and epidural analgesia (p < 0.001) with significantly lower caesarean section rate (p < 0.001) done for fetal distress and poor progress (p < 0.001 both). The mean duration from diagnosis of the active phase of labour until delivery was significantly shorter in the 6 cm group (p < 0.001) with lighter mean birth weight (p = 0.019) and fewer neonates with arterial cord pH < 7.20 (p = 0.047) requiring neonatal intensive care unit admissions (p = 0.01). Multiparity (AOR = 0.488, p < 0.001), oxytocin augmentation (AOR = 0.487, p < 0.001) and active phase of labour diagnosed at 6 cm (AOR = 0.337, p < 0.001) reduced the risk of caesarean delivery. Caesarean delivery increased the risk of neonatal intensive care admission by 27% (AOR = 1.73, p < 0.001). CONCLUSIONS: Active phase of labour at 6 cm cervical dilatation is associated with reduced primary caesarean delivery rate, labour intervention, shorter labour duration and fewer neonatal complications."""
+
+

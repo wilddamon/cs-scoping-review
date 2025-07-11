@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofcesareansectionontheseverityofpostpartumhemorrhageinchinesewomentheshanxistudy2018xu
+"Postpartum hemorrhage (PPH) is one of the most adverse obstetric outcomes. Our aim is to detect the risks of multilevel PPH in different cesarean section (CS) groups [including nulliparous CS with indications, nulliparous CS without indications, repeat cesarean (RC), vaginal birth after cesarean (VBAC), cesarean after vaginal birth (CAVB)]. We conducted a retrospective cohort study, and the data on 127 145 women collected from January 2014 to May 2016 and from 35 tertiary hospitals in Shanxi province, China, were reviewed. Based on the measuring results of PPH, an ordered logistic regression model was used to analyze the adjusted PPH risks for each of the CS groups, and comparisons were drawn between them. Finally, a total of 99 066 nulliparous (77.92%) and 28 079 multiparous (22.08%) women were observed. The number of CS cases was 61 117, and the rate for CS was 48.07%. A total of 10 029 women did not show indications for CS and accounted for 16.41% of the CS parturient, whereas 9103 women underwent a repeated cesarean, with a CS frequency of 14.89%. The number of VBAC cases was 989, whose rate was 9.88% in prior CS women. The number (proportions) of PPH was 3658 (2.88%) in LI (PPH volume: >=900 and <1500 mL), 520 (0.41%) in 12 (PPH volume: >1500 and <2100 mL), and 201 (0.16%) in L3 (PPH volume: >=2100 mL). The Ln (n=l, 2,3, etc.) represented the increasing order of PPH severity. In the adjusted results, compared with spontaneous vaginal delivery (SVD) as the reference group, in the adjusted result for nulliparous, there was a decreased PPH risk in CS with indications (OR: 2.32; CI: 2.04-2.62), which was lower than that of CS without indications (OR: 2.50; CI: 2.01-2.96). The highest PPH risk in all subgroups (i.e. nulliparous and multiparous groups) was observed in the RC (OR: 3.61; CI: 3.16-4.17), which was nearly twice higher than that of the VBAC (OR: 1.82; CI: 1.33-2.52). CAVB (OR: 1.03; CI: 0.65-1.62) showed no significant difference with the reference group. Thus, we deemed that CS should be avoided in nulliparous pregnancies unless indicated, to prevent or reduce the rates for the use of RC or VBAC which are high risks of severe PPH to the parturient women."""
+
+

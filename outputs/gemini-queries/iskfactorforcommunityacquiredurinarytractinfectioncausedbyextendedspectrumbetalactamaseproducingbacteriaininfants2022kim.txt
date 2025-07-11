@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalantibioticexposureduringpregnancyisariskfactorforcommunityacquiredurinarytractinfectioncausedbyextendedspectrumbetalactamaseproducingbacteriaininfants2022kim
+"BACKGROUND: This study aimed to investigate the risk factors for community-acquired urinary tract infection (UTI) caused by extended-spectrum beta-lactamase (ESBL)-positive bacteria in infants. METHODS: We retrospectively reviewed the medical records of infants aged < 1 year with first UTI from 2018 to 2019 at two tertiary centers in Korea. Data analyzed included clinical findings, birth history, delivery mode, milk type, use of postpartum care center, and previous use of antibiotics both in the patient and mother. RESULTS: Of 265 patients, 62 (23.4%) were diagnosed with first UTI caused by ESBL-positive bacteria at the median age of 3.6 (interquartile range (IQR) 2.3-5.4) months. Maternal use of antibiotics during pregnancy (29.0 vs. 10.3%, p < 0.001) and Klebsiella species (19.4% vs. 4.9%, p < 0.001) were significantly associated with ESBL-positive UTIs and remained valid in the multivariate analysis (odds ratio [OR], 3.40; 95% confidence interval [CI] 1.61-7.19, p = 0.001, and OR 5.26; 95% CI 2.03-13.13, p = 0.001, respectively). Previous antibiotic exposure of patients, previous hospitalization, prematurity, delivery mode, milk type, and use of postpartum care center were not significantly different between ESBL-positive and ESBL-negative groups. With respect to the clinical course of UTI, the ESBL-positive group presented a higher number of blood leukocytes (p = 0.041) and longer hospital stay (p < 0.001) than the ESBL-negative group. CONCLUSIONS: About one-fourth of infantile UTI cases were ESBL-positive. Prenatal antibiotic exposure of mothers and Klebsiella species were associated with community-acquired UTI caused by ESBL-positive bacteria."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationofpregestationalandgestationaldiabeteswithsevereneonatalmorbidityandmortality2020battarbee
+"OBJECTIVE: To estimate the association between maternal diabetes and severe neonatal morbidity. STUDY DESIGN: Retrospective cohort study of nonanomalous neonates born 24(0)-41(6) weeks' gestation from two large multisite U.S. cohorts, Cesarean Registry and Consortium on Safe Labor. The exposure was pregestational versus gestational versus no diabetes. The composite neonatal outcome included respiratory distress syndrome, mechanical ventilation, necrotizing enterocolitis, grade 3-4 intraventricular hemorrhage, and death. Multivariable logistic regression estimated the association between diabetes and neonatal morbidity. RESULT: Of 196,006 eligible neonates, 2993 (1.5%) were born to mothers with pregestational diabetes and 10,549 (5.4%) with gestational diabetes. Pregestational diabetes was associated with higher odds of neonatal morbidity versus gestational diabetes (aOR 2.27, 95% CI 1.95-2.64), as well as no diabetes (aOR 1.96, 95% CI 1.63-2.35). Gestational diabetes was associated with higher odds of neonatal morbidity versus no diabetes (aOR 1.16, 95% CI 1.04-1.30). CONCLUSION: Pregestational and gestational diabetes are risk factors for severe neonatal morbidity."""
+
+

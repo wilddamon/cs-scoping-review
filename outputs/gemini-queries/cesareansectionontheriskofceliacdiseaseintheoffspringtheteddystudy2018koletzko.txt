@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectionontheriskofceliacdiseaseintheoffspringtheteddystudy2018koletzko
+"OBJECTIVE: Cesarean section (C-section) is associated with various immune-mediated diseases in the offspring. We investigated the relationship between mode of delivery and celiac disease (CD) and CD autoimmunity (CDA) in a multinational birth cohort. METHODS: From 2004 to 2010, infants from the general population who tested positive for HLA DR3-DQ2 or DR4-DQ8 were enrolled in The Environmental Determinants for Diabetes in the Young (TEDDY) study. Children were annually screened for transglutaminase autoantibodies, if positive, they are retested after 3 to 6 months and those persistently positive defined as CDA. Associations of C-section with maternal (age, education level, parity, pre-pregnancy weight, diabetes, smoking, weight gain during pregnancy) and child characteristics (gestational age, birth weight) were examined by Fisher exact test or Wilcoxon rank-sum test. Hazard ratios (HRs) for CDA or CD were calculated by Cox proportional hazard regression models. RESULTS: Of 6087 analyzed singletons, 1600 (26%) were born by C-section (Germany 38%, United States 37%, Finland 18%, Sweden 16%), and the remaining were born vaginally without instrumental support; 979 (16%) had developed CDA and 343 (6%) developed CD. C-section was associated with lower risk for CDA (hazard ratio [HR] = 0.85; 95% confidence interval [CI] 0.73, 0.99 P = 0.032) and CD (HR = 0.75; 95% CI 0.58, 0.98; P = 0.034). After adjusting for country, sex, HLA-genotype, CD in family, maternal education, and breast-feeding duration, significance was lost for CDA (HR = 0.91; 95% CI 0.78, 1.06; P = 0.20) and CD (HR = 0.85; 95% CI 0.65, 1.11; P = 0.24). Presurgical ruptured membranes had no influence on CDA or CD development. CONCLUSION: C-section is not associated with increased risk for CDA or CD in the offspring."""
+
+

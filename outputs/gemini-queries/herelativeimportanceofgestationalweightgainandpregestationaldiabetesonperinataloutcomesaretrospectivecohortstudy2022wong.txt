@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therelativeimportanceofgestationalweightgainandpregestationaldiabetesonperinataloutcomesaretrospectivecohortstudy2022wong
+"Aims: The objective of this study is to determine the risks of macrosomia, LGA, and Caesarean section associated with a diagnosis of pre-gestational diabetes or gestational weight gain. Method(s): This is a retrospective cohort study utilizing data from the Perinatal Surveillance Database of Newfoundland & Labrador from 2001 - 2020. Multivariate logistic regression analyses were used to determine odds ratios (OR) associated with GWG and pre-gestational diabetes for the outcomes macrosomia, LGA, and CS, while controlling for other known risk factors. Result(s): There were 234 pregnancies complicated by pre-gestational diabetes and 22,048 without diabetes included. There was no significant difference in absolute GWG between groups (15.2 kg vs. 15.5 kg, p = 0.12), however more women with pre-gestational diabetes had excessive GWG (85.1% vs. 78.5%, p = 0.04). Pre-gestational diabetes was a significant predictor of LGA (OR 5.21, 95% CI 3.96 - 6.87), macrosomia (OR 2.63 95% CI 1.98 - 3.48), and Caesarean section (OR 3.44, 95% CI 2.60 - 4.56). The OR associated with excessive GWG were lower for these same outcomes (LGA OR 2.73, 95% CI 2.40 - 3.11; macrosomia 2.38, 95% CI 2.12 - 2.69; Caesarean section OR 1.29, 95% CI 1.19 - 1.39). Conclusion(s): We have identified that pre-gestational diabetes is the most significant risk factor for poor outcomes such as LGA, macrosomia, and Caesarean section, although excessive GWG also plays a role.Copyright (c) 2022 The Author(s)"""
+
+

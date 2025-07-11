@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryavailabilityiniowawasnotconstrainedbyanesthesiaworkforcelimitationsretrospectivecohortstudyofinpatientsurgerycasecounts2022thenuwara
+"Background: Our goal was to assess whether anesthesia workforce limited surgical obstetrical care in the rural US state of Iowa. All Iowa hospitals with obstetrics have anesthesia practitioners (i.e., constraints would be functional, not related to having no anesthesia coverage). Our hypothesis #1 was that scheduling for cesarean delivery would functionally be separate from other inpatient operating room scheduling. Our hypothesis #2 was absence of systematic differences among hospitals in their distributions of cesarean deliveries between weekends and regular workdays. Methods: The retrospective cohort study included all inpatient surgical cases at hospitals with cesarean births in the state of Iowa October 2015 through June 2021. There were analyzed 112 hospitals x 2100 days x 2 numbers, counts of cesarean deliveries and counts of all other surgical cases. Results: The incremental risk ratio between daily cesarean deliveries and other inpatient surgical cases was 1.00 per cesarean delivery (99% confidence interval 0.99 to 1.01). Thus, doing another cesarean delivery was not associated with either a proportional reduction (ratio <1) or increase (ratio >1) in other cases performed on the same day. Multiple sensitivity analyses showed the same results. In addition, there was no association in cesarean deliveries between hospitals' percentages on weekends and overall weekly numbers (P = 0.08). Multiple sensitivity analyses showed the same results, no systematic differences between large versus small obstetrical programs in the distributions of cesareans between weekends versus workdays. Finally, among the 19/73 hospitals ending obstetrics during the study period, all continued to perform surgery. Conclusions: Limitations in the anesthesia workforce did not constrain surgical obstetrical care statewide. Similarly, cesarean births were at most negligibly causing other inpatient surgical cases to be postponed to later days. (c) 2022 Elsevier Inc."""
+
+

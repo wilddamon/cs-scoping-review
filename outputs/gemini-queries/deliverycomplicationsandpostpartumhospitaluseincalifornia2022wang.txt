@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverycomplicationsandpostpartumhospitaluseincalifornia2022wang
+"INTRODUCTION: Research on maternal birth outcomes rarely includes postpartum complications with longitudinally linked patient data. We analyze characteristics associated with delivery complications and postpartum hospital use. METHODS: This population-based cohort study is based on administrative data from California. International Classification of Diseases, 10th Revision, codes were used to categorize the incidence of severe maternal morbidity and other route-specific delivery complications as well as preexisting and pregnancy-related conditions and principal diagnoses for postpartum hospital visits. Postpartum hospital use is a composite outcome defined as emergency department visit or hospital readmission within 90 days of birth admission discharge. Multivariable modified Poisson regression analyses were used to estimate the association of patient-level and hospital-level characteristics with the likelihood of postpartum hospital use. RESULTS: In 2017, 457,498 birth admissions occurred in California-licensed hospitals, of which 348,828 index births with linked data were analyzed. Among linked births, 34,825 (10.0%) had an inpatient admission (4,206 [1.2%]) or an emergency department visit (30,371 [9.2%]) within 90 days of birth admission discharge. Birth complications included a 1.7% severe maternal morbidity rate, 7.9% rate of vaginal birth complications, 10.0% rate of cesarean birth complications, and 2.9% frequency of long lengths of stay, all of which were significantly associated with postpartum hospital use. Other significant risk factors for postpartum hospital use were preexisting and pregnancy-related conditions, undergoing cesarean birth, being younger than 18 years old, being non-Hispanic Black, living in a high poverty ZIP code, and having Medicaid. CONCLUSION: One in 10 birthing persons had a hospital visit within 90 days postpartum. Improving postpartum care is an urgent public health priority."""
+
+

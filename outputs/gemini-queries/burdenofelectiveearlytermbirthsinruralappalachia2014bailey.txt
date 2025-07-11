@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: burdenofelectiveearlytermbirthsinruralappalachia2014bailey
+"OBJECTIVES: Infants delivered at >= 37 weeks' gestation are considered full term, but research has demonstrated those born at 37 to 38 weeks (early term) have a higher risk for poor birth outcomes than deliveries at 39 to 41 weeks (full term). Despite this, many deliveries occur electively (scheduled, no medical indication) before 39 weeks. This study examined the risks of elective early-term delivery in a disadvantaged, rural sample and compared these results with national findings.;METHODS: Data were available for 638 rural women, recruited prenatally from three counties in rural southern Appalachia, who delivered electively at >= 37 weeks.;RESULTS: Compared with electively delivered full-term infants, those delivered electively at early term were 7.7 times more likely to be low birth weight, 4.4 times more likely to have a neonatal intensive care unit admission, and 2.5 times more likely to develop jaundice. Those living furthest from the hospital were most likely to deliver electively at <39 weeks. Although rates of elective deliveries <39 weeks were no higher than national rates, adjusted odds ratios (aOR) of associated admission to a neonatal intensive care unit doubled (aOR 4.4 vs aOR 2.2).;CONCLUSIONS: Results demonstrate that initiatives targeting early-term elective deliveries are needed in rural, disadvantaged regions."""
+
+

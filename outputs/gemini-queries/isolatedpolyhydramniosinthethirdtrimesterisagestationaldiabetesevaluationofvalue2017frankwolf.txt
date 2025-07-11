@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isolatedpolyhydramniosinthethirdtrimesterisagestationaldiabetesevaluationofvalue2017frankwolf
+"We evaluated implications of testing for gestational diabetes mellitus (GDM) in pregnancies complicated by third trimester isolated polyhydramnios with previous negative diabetes screening test. In this retrospective cohort study of 104 pregnant women with polyhydramnios between 2005 and 2013, all had normal first trimester fasting glucose and normal glucose challenge test (GCT < 140 mg/dL). Late onset GDM was diagnosed in five women (4.8%) with isolated polyhydramnios, one abnormal value in the oral glucose tolerance test (OGTT) was identified in four additional women (3.8%). No significant differences were found in risk factors for GDM, mean second trimester GCT (117.5 vs. 107.2 mg/dL, p = 0.38) or fasting glucose values (82 vs. 86 mg/dL, p = 0.29) between women in the polyhydramnios group with and without late GDM diagnosis. Moreover, no significant difference was found in relation to the mode of delivery or birth weight between the studied groups (3437 +- 611 vs. 3331 +- 515 g, p = 0.63). Diagnosis of third trimester polyhydramnios was not associated with increased risk for GDM or neonatal complications."""
+
+

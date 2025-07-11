@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectionandriskofchildhoodacutelymphoblasticleukemiainapopulationbasedrecordlinkagestudyincalifornia2017wang
+"The relationship of mode of delivery to risk of childhood acute lymphoblastic leukemia (ALL) is uncertain. After linking birth records and cancer registry data from California, we conducted a population-based case-control study to investigate the role of delivery by cesarean section (C-section) in the etiology of childhood ALL. This study included 5,081 cases and 18,927 matched controls born in 1978-2009; more detailed data were available on type of C-section (i.e., elective vs. emergency) for a subset of 1,552 cases and 5,688 controls. No association was observed between C-section overall and childhood ALL risk (<15 years of age), but elective C-section was associated with a significantly elevated risk of ALL (odds ratio (OR) = 1.17, 95% confidence interval (CI): 1.01, 1.36). At the peak ages of ALL incidence (2-4 years), C-section was associated with an 11% higher risk of ALL (OR = 1.11, 95% CI: 1.01, 1.22) compared with vaginal delivery, and the magnitude of the association was larger for elective C-section (OR = 1.38, 95% CI: 1.11, 1.70). Emergency C-section was not associated with childhood ALL. Because of design features minimizing nonparticipation and inaccurate recall, this record linkage-based study is less prone to bias. Our results suggest that delivery by elective C-section was associated with a higher risk of childhood ALL, especially at the peak ages of incidence. It is important to evaluate possible mechanisms, because this potential risk factor is modifiable."""
+
+

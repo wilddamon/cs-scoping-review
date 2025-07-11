@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: failedvacuumandthelongtermneurologicalimpactontheoffspring2017mastrolia
+"Objective The objective of this study was to investigate the association between failed vacuum procedures and long-term pediatric neurological morbidity of the offspring (up to the age of 18 years). Study Design We performed a population-based cohort study to assess the risk of long-term neurological morbidity, including children who were born following either a successful operative vaginal delivery or a failed procedure leading to an emergency cesarean delivery. Results A total of 7,978 neonates underwent operative vaginal delivery during the study period, meeting the inclusion criteria. The procedure resulted in a successful vaginal delivery in 7,733 (96.9%) cases, while it failed in 245 (3.1%). Total neurological morbidity was comparable between the study groups (3.0 vs. 3.3%, p = 0.8). The Kaplan-Meier survival curve exhibited no difference in the cumulative incidence of total neurological morbidity (log rank, p = 0.967). In the Cox's regression model, a failed vacuum delivery was not associated with an increased long-term neurological morbidity, as compared with a successful procedure, after adjusting for confounders (adjusted hazard ratio: 1.04, 95% confidence interval: 0.5-2.1, p = 0.922). Conclusion A failed vacuum delivery does not appear to be associated with an increased risk for neurological morbidity of the offspring studied up to 18 years following the event."""
+
+

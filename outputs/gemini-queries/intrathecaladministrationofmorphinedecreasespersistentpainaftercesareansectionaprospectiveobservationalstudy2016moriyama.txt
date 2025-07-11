@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrathecaladministrationofmorphinedecreasespersistentpainaftercesareansectionaprospectiveobservationalstudy2016moriyama
+"PURPOSE: Chronic pain after cesarean section (CS) is a serious concern, as it can result in functional disability. We evaluated the prevalence of chronic pain after CS prospectively at a single institution in Japan. We also analyzed perioperative risk factors associated with chronic pain using logistic regression analyses with a backward-stepwise procedure. MATERIALS AND METHODS: Patients who underwent elective or emergency CS between May 2012 and May 2014 were recruited. Maternal demographics as well as details of surgery and anesthesia were recorded. An anesthesiologist visited the patients on postoperative day (POD) 1 and 2, and assessed their pain with the Prince Henry Pain Scale. To evaluate the prevalence of chronic pain, we contacted patients by sending a questionnaire 3 months post-CS. RESULTS: Among 225 patients who questionnaires, 69 (30.7%) of patients complained of persistent pain, although no patient required pain medication. Multivariate analyses identified lighter weight (p = 0.011) and non-intrathecal administration of morphine (p = 0.023) as determinant factors associated with persistent pain at 3 months. The adjusted odds ratio of intrathecal administration of morphine to reduce persistent pain was 0.424, suggesting that intrathecal administration of morphine could decrease chronic pain by 50%. In addition, 51.6% of patients had abnormal wound sensation, suggesting the development of neuropathic pain. Also, 6% of patients with abnormal wound sensation required medication, yet no patients with persistent pain required medication. CONCLUSION: Although no effect on acute pain was observed, intrathecal administration of morphine significantly decreased chronic pain after CS."""
+
+

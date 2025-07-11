@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofanovelnomogramforpredictingplacentaaccretainpatientswithscarreduterusaretrospectivecohortstudy2019yang
+"Objective: The aim of this study was to develop a nomogram to predict the risk of placenta accreta in scarred uterus patients in China. Methods: We retrospectively analyzed 8,371 singleton pregnancies with scarred uterus at Shengjing Hospital, affiliated with China Medical University. Two thirds of the patients were randomly assigned to the training set (n = 5,581), and one third were assigned to the validation set (n = 2,790). Multivariate logistic regression was performed by using the training set, and the nomogram was developed. Discrimination and calibration were performed by using both the training and validation sets. Results: The multivariate logistic regression model identified number of previous cesarean section, number of vaginal bleeding, medication during pregnancy, and placenta previa as covariates associated with placenta accreta. A nomogram was developed to predict the risk of placenta accreta in the training set with a Harrell's C-index of 0.93 and 0.927 in the training set and validation set, respectively. Calibration of the nomogram predicted placenta accreta corresponding closely with the actual placenta accreta. Conclusion: We developed a nomogram predicting the risk of placenta accreta in scarred uterus patients in China. Validation using both the training set and the validation set demonstrated good discrimination and calibration, suggesting good clinical utility."""
+
+

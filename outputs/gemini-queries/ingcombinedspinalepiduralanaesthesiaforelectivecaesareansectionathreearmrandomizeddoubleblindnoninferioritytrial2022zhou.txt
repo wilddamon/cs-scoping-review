@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofmetaraminolphenylephrineandnorepinephrineinfusionforpreventionofhypotensionduringcombinedspinalepiduralanaesthesiaforelectivecaesareansectionathreearmrandomizeddoubleblindnoninferioritytrial2022zhou
+"BACKGROUND: A direct comparison of phenylephrine, metaraminol, and norepinephrine in preventing hypotension during spinal anaesthesia for elective caesarean section has never been made.;PATIENTS AND METHODS: Seventy-five parturients scheduled for elective caesarean section were randomly assigned into the three groups. After spinal anaesthesia induction, patients received a bonus dose of vasopressor (norepinephrine 4ug, phenylephrine 50ug, or metaraminol 250ug) combined with continuous infusion (norepinephrine 8ug/mL, phenylephrine 100ug/mL, or metaraminol 500ug/mL) at a rate of 30 mL/h to prevent hypotension. The primary outcome was umbilical arterial (UA) pH and other intraoperative data were also recorded.;RESULTS: The UA pH was 7.32+/-0.03 for metaraminol, 7.31+/-0.03 for phenylephrine, and 7.31+/-0.03 for norepinephrine. The 95% CI of MD was -0.011 to 0.026 comparing metaraminol with norepinephrine and 0.0181 to 0.0182 comparing phenylephrine with norepinephrine. Both lower bounds of the 95% CI of MD were above the predetermined lower boundary of clinical non-inferiority of -0.03, indicating both metaraminol and phenylephrine were non-inferior to norepinephrine. Moreover, the incidence of hypotension was lower in metaraminol compared with norepinephrine (P = 0.01). However, the incidence of hypertension was significantly lower in both phenylephrine and metaraminol compared with norepinephrine.;CONCLUSION: Both metaraminol and phenylephrine were non-inferior to norepinephrine with respect to neonatal UA pH when used as a bolus and continuous infusion to prevent hypotension during combined spinal-epidural anaesthesia for elective caesarean section. Copyright (c) 2022 Zhou et al."""
+
+

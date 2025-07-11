@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictivevalueofddimerandanalysisofriskfactorsinpregnantwomenwithsuspectedpulmonaryembolismaftercesareansection2021zhang
+"BACKGROUND: Acute pulmonary embolism (PE) is one of the leading causes of maternal mortality, and cesarean section is an established independent risk factor for PE. The diagnostic utility of D-dimer for PE in non-pregnant women has been well-established, but its role in women with suspected PE after cesarean section is unclear. Furthermore, the optimal threshold level in this patient population is unknown. Traditional D-dimer levels have low diagnostic specificity, resulting in many pregnant women being exposed to potentially harmful radiation despite negative diagnostic imaging results. This research aimed to optimize the clinical threshold for D-dimer to improve specificity while ensuring high sensitivity and to identify risk factors for PE after cesarean section. METHODS: This retrospective study of 289 women who underwent diagnostic imaging (ventilation/perfusion [V/Q] or computed tomographic pulmonary angiography [CTPA]) for suspected acute PE after cesarean delivery from 2010 to 2021 was conducted. Clinical data and laboratory indicators within 24 h postpartum including D-dimer levels were collected for analyses. RESULTS: The final analysis included 125 patients, among whom 33 were diagnosed with acute PE (incidence of 11.42%, 95% confidence interval 7.7-15.1). The receiver operating characteristic curve analysis suggested that a D-dimer cut-off value of 800 ng/mL had specificity of 25.26% and sensitivity of 100% for detecting PE. The cut-off value was adjusted to 1000 ng/mL with a specificity of 34.74% and a sensitivity of 96.67%. Using a D-dimer cut-off value of 800 ng/mL (instead of the conventional value of 500 ng/mL) increased the number of patients excluded from suspected PE from 9.6 to 18.4% without additional false-negative results. Of note, a history of known thrombophilia was significantly more common in patients with PE than in those without (P < 0.05). No other independent risk factors were noted in our study. CONCLUSIONS: The D-dimer cut-off value of 800 ng/mL ensures high sensitivity and increases specificity compared to the conventional threshold of 500 ng/mL. Utilizing this higher threshold can reduce the number of unnecessary CT and subsequently unnecessary radiation exposure, in women after cesarean delivery. Prospective studies should also be conducted to verify these results."""
+
+

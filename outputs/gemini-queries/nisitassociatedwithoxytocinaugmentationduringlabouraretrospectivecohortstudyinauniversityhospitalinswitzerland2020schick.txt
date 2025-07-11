@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: firstassessedcervicaldilatationisitassociatedwithoxytocinaugmentationduringlabouraretrospectivecohortstudyinauniversityhospitalinswitzerland2020schick
+"OBJECTIVES: The primary objective of this study was to examine the association between the first assessed cervical dilatation in a labourward and the use of oxytocin augmentation during labour. Further analysis was performed by examining the actual stage of labour at the point oxytocin was first administered to those women. DESIGN: Retrospective cohort study with the data collected from the medical records of the hospital. SETTING: University Hospital Bern, Switzerland PARTICIPANTS: 1933 term nulliparous and multiparous women with a singleton pregnancy giving birth during the period June 2013 and May 2017, representing Robson groups 1 and 3. MEASUREMENTS AND FINDINGS: Descriptive statistics and multivariable logistic regression models were performed. It was found that for the entire process of labour, nulliparous and multiparous women (n = 1933) with a first cervical dilatation of 5 or more cm were less likely to be augmented with oxytocin (OR 0.64, 95% CI 0.46; 0.88 and OR 0.56, 95% CI 0.38; 0.82, respectively) compared to women with a first cervical dilatation of less than 5 cm. Out of these augmented women (n = 746) having a first cervical dilatation of 5 or more cm, they had a lower likelihood of being augmented during the first stage of labour compared to women with a first cervical dilatation of less than 5 cm (OR 0.45, 95% CI 0.29; 0.7 for nulliparae and OR 0.32, 95% CI 0.16; 0.6 for multiparae). Additionally, it was observed that other factors contributed to the application of oxytocin. One such example was that epidural analgesia was associated with a high risk of oxytocin augmentation in nulliparae (OR 13.88, 95% CI 9.29; 20.74) and multiparae (OR 15.52, 95% CI 9.94; 24.22). The application of oxytocin was also found to affect the caesarean section rate in nulliparous and multiparous women as it was 20% and 13% respectively for those with oxytocin versus 13% and 4% respectively for those without oxytocin. KEY CONCLUSIONS: Early admission to the labourward is associated with an increased use of oxytocin to augment labour, particularly, during the first stage of labour. Epidural analgesia is a main predictor for oxytocin augmentation in nulliparous and multiparous women. IMPLICATIONS FOR PRACTICE: Pregnant women warrant more appropriate support during early labour, avoiding early maternal exhaustion and excessive obstetrical interventions."""
+
+

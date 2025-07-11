@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: survivalstatuslengthofstayandpredictorsofmortalityamongneonatesadmittedintheneonatalintensivecareunitofguragezonepublichospitals2023chekole
+"BACKGROUND: Many countries need to accelerate their progress to achieve the sustainable development goal target of neonatal death. It is still high in Ethiopia. Thus, this study aimed to assess the mortality predictors and length of hospital stay among Neonates admitted to the Neonatal Intensive Care Unit of Gurage zone public Hospitals. METHOD: In this study, a facility-based retrospective follow-up study was applied among 375 neonates admitted to the NICU of selected public hospitals in the Gurage zone from June 1, 2019 to June 30, 2021. The researchers used Epi-Data entry 3.1 for the data entry and then exported it to STATA version 14 for analysis. The Kaplan-Meier survival curve and log-rank test were used to estimate and compare the survival time of categorical variables, respectively. RESULT: The researchers observed about 85 (22.7% with 95%CI: 18.7, 27.2) deaths from the 2305 person-days follow-up. The median survival time was 14 days. The overall incidence density rate was 36.9 per 1000 person-days observed (95%CI: 29.8, 45.6). Perinatal asphyxia (AHR: 2.9[CI: 1.8; 4.8]), cesarean section as a mode of delivery (AHR: 1.1[CI; 1.01; 1.15]), maternal age of greater or equal to 35 years (AHR: 1.1[95% CI: 1.01, 1.15]), and twin pregnancy (AHR: 2.3[95% CI: 1.2, 4.3]) were predictors of neonatal mortality. CONCLUSION: The survival rate of neonates was higher compared to other studies. So, to reduce the burden of neonatal mortality, health care providers should give special attention to twin pregnancies, neonates delivered via cesarean section, and neonates with a problem of perinatal asphyxia."""
+
+

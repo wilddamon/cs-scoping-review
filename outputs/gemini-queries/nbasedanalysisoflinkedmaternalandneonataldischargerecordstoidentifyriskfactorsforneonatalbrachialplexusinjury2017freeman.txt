@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: amultistatepopulationbasedanalysisoflinkedmaternalandneonataldischargerecordstoidentifyriskfactorsforneonatalbrachialplexusinjury2017freeman
+"OBJECTIVE: To evaluate the interaction and contribution of maternal and fetal risk factors associated with neonatal brachial plexus injury (BPI). METHODS: In a case-control study, matched maternal and neonatal discharge records were accessed from US State Inpatient Databases for New Jersey (2010-2012), Michigan (2010-2011), and Hawaii (2010-2011). Univariate and multivariate logistic regressions were used to evaluate associations between risk factors and BPI. Area under the receiver operating characteristic curve was used to build predictive models, including two stratified models evaluating deliveries among obese and diabetic cohorts. RESULTS: Among 376 325 deliveries, BPI was diagnosed in 274 (0.1%). Significant BPI risk factors included maternal obesity (odds ratio [OR] 2.7, 95% confidence interval [CI] 1.7-4.4), maternal diabetes (OR 4.6, 95% CI 3.0-7.0), use of forceps (OR 4.6, 95% CI 2.3-9.0), and vacuum assistance (OR 2.3, 95% CI 1.7-3.3). After adjusting for shoulder dystocia and other predictive factors, cesarean reduced the risk of BPI by 88% (OR 0.1, 95% CI 0.07-0.2). When stratified by obesity and diabetes, the ORs for BPI increased significantly for macrosomia, forceps, and vacuum assistance. CONCLUSION: The analysis confirms and quantifies more precisely the impact of risk factors for neonatal BPI, and provides a reliable basis for evidence-based clinical decision-making models."""
+
+

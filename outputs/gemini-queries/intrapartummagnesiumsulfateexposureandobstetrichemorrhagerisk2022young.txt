@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrapartummagnesiumsulfateexposureandobstetrichemorrhagerisk2022young
+"BACKGROUND: The gold standard intrapartum treatment for preeclampsia with severe features is magnesium sulfate in order to provide prophylaxis against eclampsia. However, though magnesium sulfate is known to have a relaxant effect on uterine muscle, there have been variable reports in the literature in regard to the association between magnesium and obstetric hemorrhage (OBH). OBJECTIVE: We aim to compare OBH incidence in patients with hypertensive disease of pregnancy (HDP) with or without exposure to intrapartum magnesium sulfate. METHODS: We performed a retrospective cohort study of all deliveries at our institution associated with a diagnosis of hypertensive disease of pregnancy (HDP) (e.g. chronic and gestational hypertension, preeclampsia with or without severe features, eclampsia, or HELLP) from January 1, 2018 to December 31, 2019. The category of HDP diagnosis was determined by a detailed chart review by trained chart abstractors. The primary outcome was total quantitative blood loss (QBL) and the rate of obstetric hemorrhage. Secondary outcomes included a composite of obstetric hemorrhage-related maternal morbidity outcomes (OBH-M), the individual composite components and the incidence of additional hemorrhage-related interventions (e.g. uterotonics and surgical interventions). We also examined the same primary and secondary outcomes in a stratified analysis based on delivery mode (i.e. vaginal deliveries only and cesarean deliveries only). RESULTS: Of 791 patients with a diagnosis of HDP, 411 patients received magnesium sulfate for eclampsia prophylaxis and 380 patients did not receive magnesium sulfate. For all delivery modes, there was a significantly higher QBL (p < .01), increased rate of OBH (p = .04) and increased OBH-M (p < .01) in deliveries associated with intrapartum exposure to magnesium compared to those without. However, our stratified analysis by delivery mode demonstrated that magnesium-related hemorrhage risk only persisted for vaginal deliveries (QBL p < .01; OBH aOR 1.47, 95% CI: 0.75-2.85; OBH-M aOR 1.47, 95% CI 1.00-7.55) with no significant hemorrhage-related differences among cesareans with or without magnesium exposure (QBL p = .51; OBH aOR 1.45, 95% CI: 0.85-2.47; OBH-M 1.50 95% CI: 0.70-3.23). CONCLUSION: Intrapartum exposure to magnesium sulfate use was associated with an increase in QBL and risk of OBH-M in vaginal deliveries, but not associated with any hemorrhage-related outcome differences in cesarean deliveries. More research is needed to explore the effects of hypertensive disease, magnesium exposure, and delivery mode on obstetric hemorrhage risk."""
+
+

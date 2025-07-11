@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: economicburdenofiadpsggestationaldiabetesdiagnosticcriteriainchinapropensityscorematchinganalysisfroma7yearretrospectivecohort2020he
+"INTRODUCTION: The International Association of Diabetes and Pregnancy Study Group (IADPSG) criteria for gestational diabetes mellitus (GDM) increased the morbidity significantly, but the cost and effectiveness of its application are still unclear. This study aimed to analyze the impact of the IADPSG criteria for diagnosing GDM in China on the perinatal outcomes, and medical expenditure of GDM women versus those with normal glucose tolerance (NGT). RESEARCH DESIGN AND METHODS: We conducted a retrospective cohort study involving 7794 women admitted at the First Affiliated Hospital of Jinan University (Guangzhou, China), from November 1, 2010 to October 31, 2017. The perinatal outcomes and medical expenditure were retrieved from the electronic medical records in the hospital. Propensity score matching (PSM, in a 1:1 ratio) algorithm was used to minimize confounding effects on the difference in the two cohorts. RESULTS: PSM minimized the difference of baseline characteristics between women with and without GDM. Of 7794 pregnant women, half (n=3897) were all of the pregnant women with GDM admitted to the hospital during the period, the other half women had NGT and were selected randomly to match with their counterparts. Adopting the IADPSG criteria was associated with reduced risk of emergency cesarean section, polyhydramnios, turbid amniotic fluid and perineal injury (p<0.01 for all) and having any one of the adverse fetal outcomes (p<0.01), including fetal distress, umbilical cord around the neck, neonatal encephalopathy, admission to neonatal intensive care unit, birth trauma, neonatal hypoglycemia and fetal death. After PSM, the median total medical expenditure by the GDM women was Y=912.9 (US$140.7 in 2015) more than that of the the NGT women (p=0.09). CONCLUSIONS: Despite the increasing medical expenditure, screening at 24-28 gestational weeks under the IADPSG guidelines with the 2-hour, 75 g oral glucose tolerance test can improve short-term maternal and neonatal outcomes."""
+
+

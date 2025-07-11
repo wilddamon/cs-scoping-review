@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesalongersecondstageoflaborworsenumbilicalarterybloodgasparametersinnewbornsaretrospectivecohortstudyof2140cases2022li
+"BACKGROUND: With the application of the new labor management model in China, the normal length of the second stage of labor is significantly longer than that of the old model. It is unclear whether a longer stage of labor worsens umbilical artery blood gas analysis (UABGA) in newborns. The aim of this study was to investigate the correlation between the second stage of labor length, UABGA results, and neonatal intensive care unit (NICU) transfer rates under the new labor management model. METHODS: This is a retrospective cohort study including full-term, cephalic, vaginal deliveries. Exclusion criteria were preterm deliveries or deliveries by cesarean section during labor. The pH, base excess (BE), and lactate results of UABGA in newborns clearly reflect neonatal metabolic acidosis and intrauterine oxygenation of the fetus. The correlation between the length of the second stage of labor and the results of UABGA and NICU transfer rate was analyzed using linear or logistic regression and curve fitting. RESULTS: Of the total 2,140 cases, after adjusting for maternal age, gestational week, high-risk pregnancy factors, body mass index (BMI) before pregnancy, induced delivery, oxytocin during labor stage, labor analgesia, abnormal fetal position in labor stage, vaginal device delivery, length of first labor stage, and weight of the newborn, every 1 hour increase in the length of the second stage of labor decreased the UABGA pH by 0.01 [95% confidence interval (CI): -0.02 to -0.01, P<0.001], decreased the UABGA BE by 0.66 mmol/L (95% CI: -0.84 to -0.48, P<0.001), increased the UABGA lactate level by 0.39 mmol/L (95% CI: 0.29 to 0.50, P<0.001), and increased the NICU transfer rate by 26% (95% CI: 1.07 to 1.48, P=0.005). In the stratified analysis, when the length of the second stage of labor increased from 3 to 4 or more hours, there was no significant change in UABGA pH, BE, lactate, or NICU transfer rates. CONCLUSIONS: Under the new criteria for the management of labor stage, the length of the second stage increasing from 3 to 4 or more hours did not negatively impact newborns. Therefore, clinician should not be too worried about the longer second stage of labor worsening adverse outcomes in newborns."""
+
+

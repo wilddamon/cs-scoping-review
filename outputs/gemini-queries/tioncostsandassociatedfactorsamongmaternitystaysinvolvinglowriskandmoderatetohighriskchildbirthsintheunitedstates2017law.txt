@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluationofhospitalizationcostsandassociatedfactorsamongmaternitystaysinvolvinglowriskandmoderatetohighriskchildbirthsintheunitedstates2017law
+"OBJECTIVES: This study aimed to assess the costs of childbirth and to identify factors associated with such hospital costs for low- and moderate/high-risk childbirth groups.;METHODS: All hospitalizations for childbirth between 2010-2014 in the Premier Perspective Hospital Database were identified. Risk category for each birth was defined by the age of the subject and/or presence of specific maternal comorbidities and obstetric risk factors. Hospital childbirth costs were determined and stratified by risk groups. Factors associated with costs for each risk group were evaluated by multiple regression.;RESULTS: Among 2,367,195 hospitalizations for childbirth, vaginal birth was the most common delivery method (n = 1,596,757; 68%). Among women characterized as moderate/high-risk, 42% (n = 642,495) had C-sections, while 11% (n = 90,211) of women categorized as low-risk had C-sections. The proportion of women with serious maternal morbidity among moderate/high-risk vs. low-risk women was 2% (n = 29,496) vs. 0.3% (n = 2749), respectively. The mean costs for moderate/high-risk vs. low-risk hospitalizations were $6145 (median = $5760) and $5397 (median = $5001), respectively (p < 0.0001). Factors significantly associated with costs for moderate/high-risk hospitalizations included delivery type (C-section vs. vaginal birth), LOS, urban/rural hospital status, geographic regions, calendar year of hospitalization, teaching status, payer types and serious maternal morbidity. Similar factors were found to impact costs among low-risk hospitalizations.;CONCLUSIONS: Characteristics such as delivery type, LOS, geographical region, teaching status, serious maternal morbidity and hospital urban/rural status were shown to impact hospital costs of childbirth. Screening and prevention strategies of factors that negatively impact costs may aid in reducing the hospitalization costs associated with childbirths."""
+
+

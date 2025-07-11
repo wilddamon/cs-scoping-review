@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyadverseoutcomesrelatedtopregravidbodymassindexandgestationalweightgainaccordingtothepresenceornotofgestationaldiabetesmellitusaretrospectiveobservationalstudy2016cosson
+"AIM: This study retrospectively evaluated the complications associated with prepregnancy overweight (OW) or obesity (OB) and gestational weight gain (GWG) in women with or without universally screened and treated gestational diabetes mellitus (GDM). METHODS: A total of 15,551 non-Asian women without pregravid diabetes or hypertension who delivered singleton babies (2002-2010) were classified according to GDM (13.5%), pregestational body mass index (BMI; normal range: 18.5-24.9kg/m(2)), OW (26.2%), OB (13.9%; BMI>=30kg/m(2)) and GWG (<7kg: 32%; 7-11.5kg: 37%; 11.6-16kg: 23%;>16kg: 8%). Main outcome measures were large/small for gestational age (LGA/SGA), caesarean section, preeclampsia, preterm delivery and shoulder dystocia. RESULTS: GDM was associated with more LGA babies [Odds Ratio (OR): 2.12, 95% confidence interval (CI): 1.85-2.43], caesarean section (OR: 1.49, 95% CI: 1.34-1.65) and preeclampsia (OR: 1.59, 95% CI: 1.21-2.09). OW/OB and GWG were associated with LGA infants whatever the GDM status, and with SGA babies only in women without GDM. LGA status was independently associated with GWG in women with GDM (11.6-16kg: OR: 1.74, 95% CI: 1.49-2.03 and>16kg OR: 3.42, 95% CI: 2.83-4.13 vs 7-11.5kg) and in women without GDM (OR: 2.14, 95% CI: 1.54-2.97 or OR: 2.65, 95% CI: 1.68-4.17, respectively), and with BMI only in women without GDM (OR: 1.12, 95% CI: 1.00-1.24, per 10kg/m(2)). SGA status was independently associated with OW (OR: 0.86, 95% CI: 0.77-0.98), OB (OR: 0.84, 95% CI: 0.72-0.98) and GWG<7kg (1.14, 95% CI: 1.01-1.29) only in women without GDM. CONCLUSION: In our European cohort and considering the triumvirate of GDM, BMI and GWG, GDM was the main contributor to caesarean section and preeclampsia. OW/OB and GWG contributed to LGA and SGA infants mainly in women without GDM."""
+
+

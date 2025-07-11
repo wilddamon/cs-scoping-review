@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithcesareandeliveryratesasingleinstitutionexperience2017mcclelland
+"BACKGROUND: The aim of this study was to identify factors associated with variability in Cesarean delivery (CD) rates amongst providers at a single institution. METHODS: A retrospective cohort analysis was carried out on all births at NYU Langone Medical Center from 2005-2013. Data was collected for subjects and linked to diagnosis codes for singleton and twin deliveries. Descriptive characteristics were generated for all deliveries, and inferential analysis was performed including multiple covariates for singleton deliveries in the 2010-2013 cohort, including both univariate and multivariate regression analyses to identify factors associated with higher CD rates. RESULTS: 37,692 deliveries were identified at our institution during the study period, performed by 88 unique providers. The mean CD rate was 29.6%, with a range for individual physicians from 9.9% to 75.6%. In multivariate regression analysis, CD rate was directly correlated with average patient age, physician male gender, proportion of high-risk deliveries, and Maternal-Fetal Medicine specialty, and it was inversely correlated with total number of deliveries by physician and forceps delivery rate. There was no significant difference in CD rates between group and solo practices. Within the same group practice, each member's CD rate was strongly correlated with the average CD rate of the group. CONCLUSION: Our study demonstrates the wide range of CD rates for providers practicing within the same institution and reiterates the association of CD rates with patient age, high-risk pregnancy, and provider volume. Among operative vaginal deliveries, forceps delivery rate was associated with lower CD rates whereas vacuum delivery rate was not. Despite these findings, practice patterns within individual practices appear to contribute significantly to the wide range of CD rates."""
+
+

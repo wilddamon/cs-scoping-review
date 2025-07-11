@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ensemblelearningforfetalultrasoundandmaternalfetaldatatopredictmodeofdeliveryafterlaborinduction2024ferreira
+"Providing adequate counseling on mode of delivery after induction of labor (IOL) is of utmost importance. Various AI algorithms have been developed for this purpose, but rely on maternal-fetal data, not including ultrasound (US) imaging. We used retrospectively collected clinical data from 808 subjects submitted to IOL, totaling 2024 US images, to train AI models to predict vaginal delivery (VD) and cesarean section (CS) outcomes after IOL. The best overall model used only clinical data (F1-score: 0.736; positive predictive value (PPV): 0.734). The imaging models employed fetal head, abdomen and femur US images, showing limited discriminative results. The best model used femur images (F1-score: 0.594; PPV: 0.580). Consequently, we constructed ensemble models to test whether US imaging could enhance the clinical data model. The best ensemble model included clinical data and US femur images (F1-score: 0.689; PPV: 0.693), presenting a false positive and false negative interesting trade-off. The model accurately predicted CS on 4 additional cases, despite misclassifying 20 additional VD, resulting in a 6.0% decrease in average accuracy compared to the clinical data model. Hence, integrating US imaging into the latter model can be a new development in assisting mode of delivery counseling. Copyright (c) 2024. The Author(s)."""
+
+

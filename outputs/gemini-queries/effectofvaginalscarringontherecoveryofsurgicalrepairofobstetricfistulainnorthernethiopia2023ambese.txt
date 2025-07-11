@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofvaginalscarringontherecoveryofsurgicalrepairofobstetricfistulainnorthernethiopia2023ambese
+"OBJECTIVE: To determine the effect of vaginal scarring on the recovery from surgical repair of obstetric fistula in Northern Ethiopia from 2015 to 2020.;METHODS: A hospital-based retrospective cohort study was conducted among 224 women who had obstetric fistula repair surgery in Northern Ethiopia from March 1 to March 31, 2020. Cox proportional hazards regression model was used to determine the adjusted predictors of recovery for each main baseline predictor variable, using 95% confidence interval (CI) and P < 0.05 to declare statistical significance.;RESULTS: The overall recovery rate was 57 of 1000 women (43 of 1000 and 73 of 1000 for women with and without vaginal scar, respectively), with an overall median time to recovery from obstetric fistula repair surgery of 15 days. Vaginal scarring (adjusted hazard ratio [aHR], 1.58 [95% CI, 1.13-2.21]), age of the patient (aHR, 4.05 [95% CI, 1.56-10.5]), mode of delivery (aHR, 2.14 [95% CI, 1.31-3.49]), place of delivery (aHR, 1.91 [95% CI, 1.17-3.12]), prior repair (aHR, 1.90 [95% CI, 1.08-3.35]), and duration of catheterization (aHR, 12.91 [95% CI, 7.21-23.13]) were independent predictors of recovery.;CONCLUSIONS: In the present study, we found that women who had no vaginal scar, age older than 30 years, facility and spontaneous vaginal delivery, first attempt repair, and shorter duration of catheterization had a shorter recover time. Copyright (c) 2022 International Federation of Gynecology and Obstetrics."""
+
+

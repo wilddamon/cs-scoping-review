@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: rateofintraoperativecrystalloidadministrationduringthoracicsurgeryiscausalinreducingpostoperativehospitallengthofstay2023smith
+"Background: Studies in thoracic surgery have long raised concerns that intraoperative administration of intravenous fluids exac-erbates or causes postoperative complications and hence advocate fluid restriction. Method(s): This retrospective 3-year study investigated the role of intraoperative crystalloid administration rates on the duration of postoperative hospital length of stay (phLOS) and on the incidences of previously reported adverse events (AEs) in 222 consecutive patients following thoracic surgery. Result(s): Higher rates of intraoperative crystalloid administration were significantly associated with shorter phLOS (P=0.0006) and with less variance in phLOS. Dose-response curves showed progressive decreases in the postoperative incidences of surgical, car-diovascular, pulmonary, renal, other, and long-term AEs with higher intraoperative crystalloid administration rates. Conclusion(s): The rate of intravenous crystalloid administration during thoracic surgery was significantly associated with duration of and variance in phLOS, and dose-response curves showed progressive decreases in the incidences of AEs associated with this surgery. We cannot confirm that restrictive intraoperative crystalloid administration benefits patients undergoing thoracic surgery.Copyright (c) 2023 by the author(s); Creative Commons Attribution License (CC BY)."""
+
+

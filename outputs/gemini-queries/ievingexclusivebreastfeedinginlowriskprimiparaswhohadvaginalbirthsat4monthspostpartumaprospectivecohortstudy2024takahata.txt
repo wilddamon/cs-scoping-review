@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: abreastmilkproductionmodelforachievingexclusivebreastfeedinginlowriskprimiparaswhohadvaginalbirthsat4monthspostpartumaprospectivecohortstudy2024takahata
+"BACKGROUND: This study aimed to investigate the thresholds of milk production for predicting the achievement of exclusive breastfeeding (EBF) at 4 months postpartum. METHODS: The inclusion criteria were singleton, low-risk primiparas, non-cesarean section, and healthy mothers and infants. Temporary feeding of artificial milk in the past was included. Women who could be judged to have intentionally used artificial milk were excluded from the analysis. Measurements of the 24-h milk production by test weights were obtained at early postpartum (days 3-4) and at 1 month postpartum. To predict the achievement of EBF at 4 months postpartum, the area under the receiver operating characteristic (ROC) curve was calculated for early postpartum and 1 month milk production. RESULTS: There were 80 eligible participants analyzed. ROC analysis of milk production for achieving EBF at 4 months revealed an area under the curve (AUC) of 0.736 (95% CI: [0.625, 0.848]) for early postpartum and an AUC of 0.854 (95% CI: [0.772, 0.936]) for 1 month postpartum. The proposed thresholds are 102 g/day (higher sensitivity) and 161 g/day (higher specificity) at early postpartum, and 527 g/day (higher sensitivity) at 1 month postpartum. CONCLUSIONS: In low-risk primiparas, the milk production models at early postpartum and 1 month postpartum showed a high accuracy for predicting the achievement of EBF at 4 months postpartum. The present study indicates that even when formula milk is temporarily used, it is still possible to reach the goal of achieving EBF."""
+
+

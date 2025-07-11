@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofintrahepaticcholestasisonpregnancyoutcomesaretrospectivecohortstudy2023chen
+"BACKGROUND: This study analyzed the pregnancy outcomes of patients with intrahepatic cholestasis of pregnancy (ICP) in Hangzhou, China. METHODS: Cases of pregnant women monitored by antepartum testing at Hangzhou Women's Hospital from January 2018 to December 2020 were reviewed. Subjects were classified into two groups according to whether they had ICP: 688 cases of ICP were assigned to an exposure group while 38,556 cases of non-ICP were assigned to a non-exposed group. Univariate analysis was performed on qualitative or quantitative data using the Chi-Squared test or Mann-Whitney U test, and the adjusted odds ratio (aOR) and 95% confidence interval (CI) of the two groups of related variables were calculated by multivariate binary logistic regression analysis. RESULTS: The incidence rate of ICP was 1.75%. Pregnant women with hepatitis B virus were correlated with ICP. Hepatitis B carriers (aOR = 3.873), preeclampsia (PE, aOR = 3.712), thrombocytopenia (aOR = 1.992), gestational hypertension (GH, aOR = 1.627), hyperlipidemia (aOR = 1.602) and gestational diabetes mellitus (GDM, aOR = 1.265) were all risk factors for ICP. In contrast, Body Mass Index (BMI) >= 30 kg/m(2) (aOR = 0.446), 25 m(2) < maternal BMI < 29.9 kg/m(2) (aOR = 0.699) and parity >= 1 (aOR = 0.722) were protective factors for ICP. Pregnant women in the ICP group had an increased risk of gestation days < 259 days (aOR = 4.574) and cesarean delivery (aOR = 1.930) after ICP, and a decreased risk of longer gestational days (aOR = 0.105), premature rupture of membranes (aOR = 0.384) and fetal macrosomia (aOR = 0.551). CONCLUSIONS: By analyzing a Chinese population with ICP, we identified that pregnant women who are hepatitis B carriers or with PE, thrombocytopenia, GH, hyperlipidemia, and GDM are at higher risk of ICP. Moreover, ICP is associated with adverse pregnancy outcomes; in particular, ICP may increase the incidence of shorter gestational days and non-vaginal delivery methods such as cesarean section but reduce the incidence of premature rupture of membranes and fetal macrosomia."""
+
+

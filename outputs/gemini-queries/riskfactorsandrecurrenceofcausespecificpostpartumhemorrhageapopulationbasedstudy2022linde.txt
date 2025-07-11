@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsandrecurrenceofcausespecificpostpartumhemorrhageapopulationbasedstudy2022linde
+"OBJECTIVE: To explore risk profiles of the different types of postpartum hemorrhage (PPH >500ml or severe PPH >1500ml) and their recurrence risks in a subsequent delivery. METHODS: With data from The Medical Birth Registry of Norway and Statistics Norway we performed a population-based cohort study including all singleton deliveries in Norway from 1967-2017. Multilevel logistic regression was used to calculate odds ratio (OR), with 95% confidence interval (CI), with different PPH types (PPH >500ml or PPH >1500ml (severe PPH) combined with retained placenta, uterine atony, obstetric trauma, dystocia, or undefined cause) as outcomes. RESULT: We identified 277 746 PPH cases of a total of 3 003 025 births (9.3%) from 1967 to 2017. Retained placenta (and/or membranes) was most often registered as severe PPH (29.3%). Maternal, fetal, and obstetric characteristics showed different associations with the PPH types. Male sex of the neonate was associated with reduced risk of PPH. This effect was strongest on PPH due to retained placenta (adjusted OR, (aOR): 0.80, 95% CI 0.78-0.82), atony (aOR 0.92, 95% CI: 0.90-0.93) and PPH with undefined cause (aOR 0.96, 95% CI: 0.95-0.97). Previous cesarean section showed a strong association with PPH due to dystocia (aOR of 13.2, 95% CI: 12.5-13.9). Recurrence risks were highest for the same type: PPH associated with dystocia (aOR: 6.8, 95% CI: 6.3-7.4), retained placenta and/or membranes (aOR: 5.9, 95% CI: 5.5-6.4), atony (aOR: 4.0, 95% CI: 3.8-4.2), obstetric trauma (aOR: 3.9, 95% CI: 3.5-4.3) and PPH of undefined cause (aOR: 2.2, 95% CI: 2.1-2.3). CONCLUSION: Maternal, fetal and obstetric characteristics had differential effects on types of PPH. Recurrence differed considerably between PPH types. Retained placenta was most frequently registered with severe PPH, and showed strongest effect of sex; delivery of a boy was associated with lower risk of PPH. Previous cesarean increased the risk of PPH due to dystocia."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofadequategestationalweightgainamongadolescentsrelativetoadultsofequivalentbodymassindexandtheriskofpretermbirthcesareandeliveryandlowbirthweight2015houde
+"OBJECTIVE: To determine whether similar odds of cesarean delivery (C/S), preterm birth (PTB), and low birth weight (LBW) are observed among adolescents compared with body mass index (BMI)-equivalent adults in cases of adequate gestational weight gain. STUDY DESIGN: We conducted a retrospective, population-based, cohort study using the Center for Disease Control and Prevention's birth data files from the United States for 2012. We selected from the cohort all singleton, cephalic pregnancies and stratified them according to maternal age, prepregnancy BMI, and gestational weight gain following the 2009 Institute of Medicine (IOM) recommendations. The effect of adequate gestational weight gain among adolescents relative to adults of equivalent BMI on the risk of C/S, PTB, and LBW was estimated using logistic regression analysis, adjusting for relevant confounders. RESULTS: We analyzed a total of 3,960,796 births, of which 1,036,646 (26.1%) met the inclusion criteria. In adolescents and adults, likelihood of achieving ideal gestational weight gain decreased with greater prepregnancy BMI. Relative to adults, the overall odds of C/S in all adolescents were (adjusted odds ratio [95% confidence interval]) 0.61 (0.58 to 0.63). When comparing equivalent BMI categories, these odds were unchanged (P < .0001). The overall adjusted odds ratio of LBW was 1.15 (1.13 to 1.16). These odds were significantly higher when BMI stratification took place, decreasing with advancing BMI categories, from 1.23 (1.14 to 1.33) among the underweight, to nonsignificant differences in the obese classes (P < .05). Finally, when including only those achieving ideal weight gain, the overall odds of premature delivery (1.17 [1.14 to 1.20]) were higher among nonobese adolescents, while they were not found among the obese. CONCLUSION: When ideal gestational weight gain is attained, only nonobese adolescents exhibit a greater risk of LBW and preterm birth relative to adults of similar BMI, whereas the risk of C/S remains lower for all adolescents, independent of BMI. This information may be useful in the counseling of adolescent pregnancies."""
+
+

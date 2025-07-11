@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isearlybilateralcompressionultrasonographyandddimermonitoringappropriatelyforprophylaxisanddiagnosisofdeepvenousthrombosisaftercesareansectionwomenasinglecenterobservationstudyofchinesehanpopulation2024chen
+"BACKGROUND: Venous thromboembolism (VTE) is most prevalent among parturients following a cesarean section (CS). The objective of this study was to assess the practical utility of bilateral compression ultrasonography (CUS) of the lower limbs, coupled with D-dimer monitoring, in the early diagnosis of VTE within the Han Chinese population. METHODS: Our prospective observational study included 742 women who underwent CUS and D-dimer testing on the first day post-CS. Subsequently, telephone or outpatient follow-ups were conducted until 42 days postpartum. States of hypercoagulation and thrombosis, as indicated by CUS, were classified as CUS abnormal. A D-dimer level >= 3 mg/l was considered the D-dimer warning value. Early ambulation and mechanical prophylaxis were universally recommended for all parturients post-CS. A sequential diagnostic strategy, based on the 2015 RCOG VTE risk-assessment tool, was employed. Therapeutic doses of low-molecular-weight heparin (LMWH) were administered for the treatment of thromboembolic disease. Prophylactic doses of LMWH were given for VTE prophylaxis in parturients with hypercoagulative status accompanied by D-dimer levels >= 3 mg/l. All high-risk women (RCOG score >= 4 points) were additionally treated with preventive LMWH. Statistical analyses were conducted using the R statistical software, with a two-sided P value < 0.05 considered statistically significant. RESULTS: Fifteen cases of VTE and 727 instances without VTE were observed. The overall VTE rate post-CS was 2.02% (15/742), with 66.7% (10/15) being asymptomatic. Eleven patients received a VTE diagnosis on the first postpartum day. Among the 41 parturients exhibiting hypercoagulation ultrasound findings and D-dimer levels >= 3 mg/l, despite receiving pharmacological VTE prophylaxis with LMWH, 4.88% (2/41) in the high-risk group were eventually diagnosed with VTE. A total of 30.86% (229/742) exhibited normal ultrasound findings and D-dimer levels < 3 mg/l on the first day post-CS, with no VTE occurrences in the postpartum follow-up. According to RCOG's recommendation, 78.03% (579/742) of cesarean delivery women should receive prophylactic anticoagulation, while only 20.62% (153/742) met our criterion for prophylactic anticoagulation. CONCLUSION: The strategy of timely routine bilateral CUS and D-dimer monitoring is conducive to the early diagnosis and treatment of VTE, significantly reducing the use of LMWH in the Chinese Han population."""
+
+

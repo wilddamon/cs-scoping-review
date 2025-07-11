@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: latepretermbirthandpreviouscesareansectionapopulationbasedcohortstudy2019yasseeniii
+"BACKGROUND: Late preterm birth (LPB) is increasingly common and associated with higher morbidity and mortality than term birth. Yet, little is known about the influence of previous cesarean section (PCS) and the occurrence of LPB in subsequent pregnancies. We aim to evaluate this association along with the potential mediation by cesarean sections in the current pregnancy. METHODS: We use population-based birth registry data (2005-2012) to establish a cohort of live born singleton infants born between 34 and 41 gestational weeks to multiparous mothers. PCS was the primary exposure, LPB (34-36 weeks) was the primary outcome, and an unplanned or emergency cesarean section in the current pregnancy was the potential mediator. Associations were quantified using propensity weighted multivariable Poisson regression, and mediating associations were explored using the Baron-Kenny approach. RESULTS: The cohort included 481,531 births, 21,893 (4.5%) were LPB, and 119,983 (24.9%) were predated by at least one PCS. Among mothers with at least one PCS, 6307 (5.26%) were LPB. There was increased risk of LPB among women with at least one PCS (adjusted Relative Risk (aRR): 1.20 (95%CI [1.16, 1.23]). Unplanned or emergency cesarean section in the current pregnancy was identified as a strong mediator to this relationship (mediation ratio = 97%). CONCLUSIONS: PCS was associated with higher risk of LPB in subsequent pregnancies. This may be due to an increased risk of subsequent unplanned or emergency preterm cesarean sections. Efforts to minimize index cesarean sections may reduce the risk of LPB in subsequent pregnancies."""
+
+

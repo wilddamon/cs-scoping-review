@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareanmyomectomyexperienceatatertiarycarecenter2018kriplani
+"Objectives: The aim of this study was to evaluate the outcomes and procedural safety of cesarean myomectomy (CM). Materials andMethods: In this retrospective cohort study 55 cases of CM--54 patients, with 1 who underwent CM twice--were analyzed at a tertiary care obstetric unit. The primary outcome measure was intraoperative blood loss during CM. Secondary objectives were drop in hemoglobulin (Hb) after surgery, duration of surgery, hospital stay, and any other complications. Outcome measures were compared between patients with <=5-cm myomas (group A) and patients with >5-cm myomas (group B). Results: Mean myoma size was 9.6 +- 2.35 (3-25) cm and mean myoma weight was 805.22 +- 221.27 (190-3530) g. Nine patients had <=5-cm myomas and 46 patients had >5-cm myomas. Eleven patients (20%) had undergone abdominal/laparoscopic myomectomy prior to the current pregnancy. Estimated blood loss was comparable between the 2 groups (555.56 +- 212.78 mL and 726.01 +- 290.16 mL; p = 0.10). Hb fall after surgery was also comparable (1.32 +- 1.31 g% and 1.94 +- 1.15 g%; p = 0.15) between the 2 groups. Duration of surgery was significantly longer in group B, compared to group A. The largest myoma removed in the series was 25 cm (3530 g). Three or more myomas were considered to be multiple myoma. The maximum number of myomas removed in one patient was 13. There was no difference in postoperative hospital stay and any other complications in the two groups. None of the patients required cesarean hysterectomy. Conclusions: CM may be considered safe and feasible for both small and large leiomyoma. Surgical expertise is the key factor and the advantage of two surgeries together should be offered to patients after counseling. (J GYNECOL SURG 34:203)"""
+
+

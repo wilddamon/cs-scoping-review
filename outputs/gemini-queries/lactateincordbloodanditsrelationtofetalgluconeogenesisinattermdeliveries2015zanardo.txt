@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lactateincordbloodanditsrelationtofetalgluconeogenesisinattermdeliveries2015zanardo
+"BACKGROUND: In the human fetus, an increased lactate and glucose level can be anticipated when hypoxia and stress are present and is likely to be a function of both anaerobic metabolism and catecholamine-mediated glycogenolysis/glycolysis.;AIM: We assessed if measurement of lactate in cord artery blood after vaginal and cesarean delivery may predict glucose concentration.;STUDY DESIGN: Umbilical artery cord blood lactacidemia, acidemia, and glucose concentration was tested by 'mini-lab' Radiometer ABL90 FLEX analyzers (Radiometer R, Copenhagen, Denmark) after vaginal delivery (VD), spontaneous (n=493) and by vacuum extractor (n=41) or by cesarean delivery (CD), elective (n=120) and emergency (n=68) in at term, vigorous neonates delivered from March to December 2012 at the 2nd level maternity ward of Policlinico Abano Terme, Abano Terme (Italy).;RESULTS: Cord blood lactacidemia and glucose levels were significantly higher in VD by vacuum extractor than in all other groups (5.32+/-1.96mmol/L, p=0.050 and 103.6+/-30.5mg/dL, p<0.001, respectively) and significantly lower in elective CD group (1.77+/-0.99mmol/L, p<0.001 and 69.8+/-13.0mg/dL, p<0.001). The cord blood lactate concentration was significantly and positively correlated with glucose levels (r=0.434, p<0.001), but significantly and negatively correlated with pH (r=-0,662, p<0.001), NaHCO3(-) (r=-0,802, p<0.001), and base excess (BE) (r=-0,698, p<0.001). However, in multivariate linear regression analysis, only BE, PaCO2 and cord blood lactate were significant predictive variables (R(2)=0.410; p<0.001) of glucose levels at birth.;CONCLUSION: Cord blood artery lactate and glucose concentration are significantly and positively correlated at birth in healthy, at term vaginally and cesarean delivered neonates, but BE is the best indicator of activated fetal gluconeogenesis. Copyright (c) 2015 Elsevier Ireland Ltd. All rights reserved."""
+
+

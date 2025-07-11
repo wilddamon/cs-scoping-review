@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforfailureinfirsttimehearingscreeningtestsamonghighriskneonatesinneonatalintensivecareunit2021zhai
+"OBJECTIVE: The aim of the study was to investigate into the risk factors for failure in the first-time screening test among high-risk neonates in neonatal intensive care unit (NICU) in order to further clarify the etiology of neonatal hearing impairment, thus providing insights into early prevention and intervention. METHODS: We performed automated auditory brainstem response (AABR), distortion product otoacoustic emission (DPOAE), and acoustic immittance (AI) on 2,194 high-risk neonates admitted into the NICU of Shanghai Children's Medical Center from January 2015 to December 2019, and the risk factors, including premature birth, hyperbilirubinemia, and infant respiratory distress syndrome, were analyzed retrospectively by the univariate kh2 test and multivariate stepwise logistic regression analysis. RESULTS: The pass rates of AABR, DPOAE, and AI were 70.21, 78.44, and 93.12%, respectively, in 2,194 cases of high-risk neonates screened, which are significantly lower than those of healthy controls. The most common diagnoses included artificial feeding, preterm birth, C-section, low birth weight (LBW), neonatal hyperbilirubinemia (NHB), neonatal respiratory distress syndrome (NRDS), congenital heart disease (CHD), gestational diabetes mellitus, pregnancy-induced hypertension syndrome, advanced maternal age (AMA), twins, and in vitro fertilization. Stepwise logistic regression analysis indicated that the AABR pass rate was negatively correlated with LBW (p = 0.002), NHB (p < 0.001), NRDS (p = 0.007), artificial or mixed feeding (p = 0.018), and CHD (p = 0.005). The pass rate of DPOAE was negatively correlated with artificial or mixed feeding (p = 0.041), NHB (p < 0.001), LBW (p = 0.007), very LBW (VLBW) (p = 0.008), and C-section (p < 0.001). The pass rate of AI was negatively correlated with revised AMA (>=40 year) (p < 0.001), NHB (p = 0.043), C-section (p = 0.005), and artificial/mixed feeding (p = 0.036). CONCLUSION: The hearing screening pass rates of high-risk neonates in the NICU were lower than those of normal neonates, among which the rate of AABR was significantly lower than that of DPOAE. NRDS, NHB, LBW, revised AMA, CHD, C-section, and artificial feeding are potential risk factors of hearing impairment. The combination of different hearing screening tests is necessary for accurate diagnosis of congenital hearing disorders."""
+
+

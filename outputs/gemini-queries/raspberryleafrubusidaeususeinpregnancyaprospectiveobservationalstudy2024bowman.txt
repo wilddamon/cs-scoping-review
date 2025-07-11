@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: raspberryleafrubusidaeususeinpregnancyaprospectiveobservationalstudy2024bowman
+"BACKGROUND: Raspberry leaf use during pregnancy in Australia is widespread. There has been little research exploring the potential beneficial or harmful effects of raspberry leaf on pregnancy, labour, and birth. More research is needed to appropriately inform childbearing women and maternity healthcare professionals on the effects of raspberry leaf so that women can make informed choices. METHODS: This study aimed to determine associations between raspberry leaf use in pregnancy and augmentation of labour and other secondary outcomes. Data was derived from questionnaires which captured demographic information and herbal use in pregnancy. Clinical outcomes were accessed from the maternity services' clinical database. Data analysis was conducted in R via package 'brms' an implementation for Bayesian regression models. RESULTS: A total of 91 completed records were obtained, 44 exposed to raspberry leaf and 47, not exposed. A smaller proportion of women in the raspberry leaf cohort had augmentation of labour, epidural anaesthesia, instrumental births, caesarean section, and postpartum haemorrhage. A larger proportion had vaginal birth and length of all phases of labour were shorter. Under these conditions the use of raspberry leaf was strongly predictive of women not having their labours medically augmented. CONCLUSIONS: While our study demonstrated that raspberry leaf was strongly predictive of women not having their labours medically augmented, the results cannot be relied on or generalised to the wider population of pregnant women. While there were no safety concerns observed in our study, this should not be taken as evidence that raspberry leaf is safe. A randomised controlled trial is urgently needed to provide women and healthcare providers with robust evidence on which to base practice."""
+
+

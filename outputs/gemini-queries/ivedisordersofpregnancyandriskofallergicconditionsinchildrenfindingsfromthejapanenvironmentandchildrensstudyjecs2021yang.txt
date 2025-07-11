@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hypertensivedisordersofpregnancyandriskofallergicconditionsinchildrenfindingsfromthejapanenvironmentandchildrensstudyjecs2021yang
+"Background: Hypertensive disorders of pregnancy (HDP) are one of the most common medical conditions that women encounter during pregnancy. Whether or not hypertensive disorders of pregnancy (HDP) are associated with allergic conditions in the offspring is unclear. This study used data from a large Japanese birth cohort to investigate whether HDP contributes to the development of allergic conditions in the offspring at 3 years. We also assessed the effect of blood pressure at different pregnancy trimesters on children's allergies. Method(s): We obtained data from the Japan Environment and Children's Study (JECS), which included 104 062 fetal records. After data selection, we analyzed 77 505 mother-child pairs, using logistic regression models to examine the relationships between HDP or the mother's blood pressure and their children's allergic conditions. In addition, we also evaluated the effect of HDP during pregnancy on allergies with a propensity score matched dataset, using a logistic regression model that predicts the conditional probability of whether a mother belonged to the HDP or non-HDP group. Result(s): Among the 77 505 mothers eligible for analysis, 2334 (3.0%) had HDP. Percentages of women with hypertension were 1.7% in early gestation, 1.0% in mid-gestation, and 1.6% in late gestation. After adjusting for multiple potential confounders, HDP contributed nothing to allergy development in offspring. Children born to women with hypertension were no more likely than those without to have allergic conditions at 3 years of age. The propensity score matched dataset showed similar findings. Conclusion(s): HDP and high blood pressure during pregnancy are apparently not risk factors for developing allergy in offspring. This information may help clinicians in counseling women who suffered HDP during pregnancy.Copyright (c) 2021 The Author(s)"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofcombinedspinalepiduralversusepiduralanalgesiaonfetalheartrateinlaboringpatientsatriskforuteroplacentalinsufficiency2022maetzold
+"BACKGROUND: The effects of neuraxial analgesia on fetal heart tracings have been studied in 'healthy' pregnancies. Our objective was to compare the impact of intrapartum epidural analgesia (EA) versus combined spinal epidural analgesia (CSE) on fetal heart rate changes in pregnancies at risk for uteroplacental insufficiency (UPI). METHODS: Singleton pregnancies diagnosed with chronic hypertension, gestational hypertension and/or preeclampsia, and/or fetal growth restriction (FGR) and receiving neuraxial analgesia intrapartum from 2012 to 2015 were studied retrospectively. The primary outcome was change in fetal heart rate (FHR) category following neuraxial analgesia. Manual review of all FHR tracings was performed and classified by the National Institute of Child Health and Human Development (NICHD) categories. Data collection included maternal demographics, blood pressure, uterine tachysystole, uterine hypertonus, mode of delivery, interventions for FHR abnormalities and neonatal outcomes. RESULTS: Of laboring patients at risk for UPI, 110 patients received EA and 127 patients received CSE. The rate and change in FHR categories and abnormalities following neuraxial analgesia were the same in both groups. Both EA and CSE resulted in a significant increase in NICHD FHR category II, from 27.3 to 65.5% for EA and 20.9 to 64.3% for CSE. The occurrence of maternal hypotension, uterine tachysystole, interventions for FHR abnormalities, and uterine hypertonus following neuraxial analgesia was not found to be significantly different between the two groups. When compared to the EA group, CSE had a higher rate of NICU admission (29.5 versus 16.4%, p = .021). CONCLUSIONS: FHR category increased following both CSE and EA. The side effects of maternal hypotension and need for fetal interventions was not different between CSE and EA."""
+
+

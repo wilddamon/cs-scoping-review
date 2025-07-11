@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inpatientpostpartumlongactingreversiblecontraceptionandsterilizationintheunitedstates200820132017moniz
+"OBJECTIVE: To measure rates of long-acting reversible contraception (LARC), including intrauterine devices and contraceptive implants, and tubal sterilization during delivery hospitalizations and correlates of their use. METHODS: This retrospective cohort study used the 2008-2013 National Inpatient Sample, a publicly available all-payer database. We identified delivery hospitalizations with the International Classification of Diseases, 9th Revision, Clinical Modification codes for intrauterine device insertion, contraceptive implant insertion, and tubal sterilization. We used weighted multivariable logistic regression to examine associations between predictors (age, delivery mode, medical comorbidity, payer, hospital type, geographic region, and year) and likelihood of LARC and sterilization and to compare characteristics of LARC and sterilization users. RESULTS: Our sample included 4,691,683 discharges, representing 22,667,204 delivery hospitalizations. Long-acting reversible contraception insertion increased from 1.86 per 10,000 deliveries (2008-2009) to 13.5 per 10,000 deliveries (2012-2013; P<.001); tubal sterilization remained stable (711-683 per 10,000 deliveries; P=.24). In multivariable analysis adjusting for all predictors, compared with neither LARC nor sterilization, LARC use was highest among women with medical comorbidities (count per 10,000 deliveries: 15.04, standard error 2.11, adjusted odds ratio [OR] 1.92, 95% confidence interval [CI] 1.72-2.13), nonprivate payer (13.50, standard error 2.14, adjusted OR 5.23, 95% CI 3.82-7.16), and at urban teaching hospitals (14.92, standard error 2.25, adjusted OR 20.85, 95% CI 12.73-34.15). Sterilization was least likely among women aged 24 years or younger (251.04, standard error 4.88, adjusted OR 0.12 95% CI 0.12-0.13, compared with 35 years or older) and most likely with cesarean delivery (1,568.74, standard error 20.81, adjusted OR 6.25, 95% CI 5.88-6.63). Comparing only LARC and sterilization users, LARC users tended to have nonprivate insurance (84.95% compared with 57.17%, adjusted OR 1.90, 95% CI 1.38-2.63) and deliver at urban teaching hospitals (94.65% compared with 45.47%, adjusted OR 38.39, 23.52-62.64) in later study years (2012-2013; 55.72% compared with 32.18%, adjusted OR 8.26, 95% CI 4.42-15.44, compared with 2008-2009). CONCLUSION: Long-acting reversible contraception insertion increased from 1.86 to 13.5 per 10,000 deliveries but remained less than 2% of the sterilization rate. Inpatient postpartum LARC insertion is more likely among sicker, poorer women delivering at urban teaching hospitals."""
+
+

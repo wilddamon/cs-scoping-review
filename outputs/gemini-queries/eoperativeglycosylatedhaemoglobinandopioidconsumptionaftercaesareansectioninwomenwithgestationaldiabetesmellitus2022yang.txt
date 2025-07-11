@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therelationshipbetweenpreoperativeglycosylatedhaemoglobinandopioidconsumptionaftercaesareansectioninwomenwithgestationaldiabetesmellitus2022yang
+"INTRODUCTION: Women with Gestational diabetes mellitus (GDM) had a higher need and consumption of analgesics than women without GDM. The preoperative level of HbA1c was associated with the postoperative consumption for analgesics in diabetic patients. This prospective observational study go further to investigate the relationship between the pre-operative HbA1c and the post-operative consumption for analgesics in women with GDM. METHODS: Women with GDM and a singleton pregnancy undergoing elective cesarean section under combined spinal-epidural anaesthesia were divided into two groups based on pre-operative HbA1c: group HbA1c < 6% and group HbA1c >= 6%. Analgesics consumption, number of patient-controlled analgesia (PCA) compression, and pain scores in 6 hours and 24 hours post-operation were compared between the two groups. Then Pearson's correlation coefficient and a stepwise multivariate linear regression were performed to investigate possible independentpredictors of post-operative 24-hour sufentanil consumption. RESULTS: Analgesics consumption was significantly lower (18.8 +- 0.4 vs 23.2 +- 4.3; 82.7 +- 2.4 vs 115.8 +- 17.4, P < 0.001), and number of PCA compressions was significantly less frequent (1 [1-2] vs 3 [1-5]; 5 [3-7] vs 7 [3-15], P < 0.001), and in group HbA1c < 6% than in group HbA1c >= 6% in 6 hours and 24 hours post-operation.The univariate analysis showed that sufentanil consumption at 24 hours post-operation was significantly related to pre-operative HbA1c (r = 0.338, P < 0.001) and parity (r = 0.184, P = 0.03) and was related to blood glucose management methods (r = 0.172, P = 0.043). Multivariate linear regression analysis showed that HbA1c was the independent factor related to post-operative 24-hour sufentanil consumption (adjusted r2 = 0.246, P < 0.001). CONCLUSIONS: This study demonstrated that in pregnant women with GDM, the pre-operative HbA1c is independently related to the need for and consumption of analgesics in 24 hours after CS."""
+
+

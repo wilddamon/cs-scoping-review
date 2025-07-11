@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fastingplasmaglucosediagnosisofgestationaldiabetesandtheriskoflargeforgestationalagearegressiondiscontinuityanalysisofroutinedata2022tennant
+"OBJECTIVE: To estimate the causal effects of fasting plasma glucose (FPG) and diagnosis of gestational diabetes (GDM) on birthweight and the risks of large for gestational age (LGA). DESIGN: Regression discontinuity analysis of routine data. SETTING: Two district general hospitals in West Yorkshire, UK. POPULATION: A cohort of 7062 women with singleton pregnancies who were screened for GDM and gave birth to a baby at >=24 weeks of gestation in 2017-2019, inclusive. METHODS: The causal effects of FPG and GDM diagnosis were estimated using the two-stage least-squares approach, around the diagnostic threshold of FPG >= 5.6 mmol/l recommended by the UK's National Institute for Health and Care Excellent (NICE), controlling for ethnicity, maternal age, parity, height and weight. MAIN OUTCOME MEASURES: Birthweight (standardised for sex and gestational age) and large for gestational age (standardised as birthweight above the 90th centile). RESULTS: For each 1 mmol/l increase in FPG the observed birthweight increased by Z-score = 0.48 standard deviations (95% CI 0.39 to 0.57) and the odds of LGA increased by OR = 2.61 (95% CI 1.86 to 3.66). Conversely, GDM diagnosis reduced the observed birthweight by Z = -0.61 (95% CI -0.94 to -0.29) and lowered the odds of LGA by OR = 0.33 (95% CI 0.15 to 0.74). Similar, but less certain, patterns were observed for caesarean section, shoulder dystocia and perinatal death. CONCLUSIONS: The relationship between FPG and LGA is potent but is dramatically reduced by GDM diagnosis (and all the consequences thereof). Women with mild hyperglycaemia (with an FPG of 5.1-5.5 mmol/l) who fall below the current NICE threshold for GDM diagnosis have the highest risks of adverse outcomes, suggesting a need to reconsider their current care. TWEETABLE ABSTRACT: Regression discontinuity analysis shows that untreated mild hyperglycaemia increases the odds of large for gestational age, but that a diagnosis of gestational #diabetes lowers the odds by three times."""
+
+

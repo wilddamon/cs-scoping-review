@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: themanagementofneonates34weeksgestationatriskofearlyonsetsepsisapilotstudy2023barbini
+"Early onset sepsis (EOS) is a potentially fatal condition in neonates, and its correct management is still challenging for neonatologists. Early antibiotic administration in the neonatal period may carry short- and long-term risks. Neonatal EOS calculator has been recently introduced as a new strategy to manage infants at risk of sepsis, and has shown promising results. Method(s): In this single-center observational retrospective study, 1000 neonates >= 34 weeks' gestation were enrolled with the aim to evaluate our standard protocol for the management of suspected EOS compared to the EOS calculator. Outcome measures included the following: (1) incidence of EOS and (2) proportion of infants in need of sepsis evaluations and antibiotics using our standard protocol versus theoretical application of EOS calculator. Result(s): A total of 223/1000 infants underwent blood investigations versus 35/1000 (3.5%) if EOS calculator had been applied (p < 0.0001; k = 0.18). Furthermore, 48/1000 infants received antibiotics with our protocol versus 35/1000 with EOS calculator (p = 0.12; k = 0.58). Three infants had a positive blood culture that EOS calculator would have missed. Conclusion(s): In our study, EOS calculator could have reduced investigations but not antibiotic therapy. EOS calculator is an effective and promising tool, but further studies are required to improve it.Copyright (c) 2023 by the authors."""
+
+

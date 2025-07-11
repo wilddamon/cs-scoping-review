@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prematuritydeliverymethodandinfantfeedingtypearenotassociatedwithpaediatriconsetinflammatoryboweldiseaseriskascottishretrospectivebirthcohortstudy2022burgess
+"BACKGROUND AND AIMS: The incidence of paediatric-onset inflammatory bowel disease [PIBD] continues to rise globally. We aimed to determine whether mode of delivery, gestational age at birth, or type of infant feeding contribute to the development of PIBD in a nationwide cohort of Scottish children. METHODS: All children born in Scotland between 1981 and 2017 were identified using linked health administrative data to determine mode of delivery, gestational age at birth, and type of infant feeding. PIBD cases were defined as onset of Crohn's disease [CD], ulcerative colitis [UC], or IBD-unclassified [IBDU] before age 16 years. Validation was performed within an entire Scottish health board [16% of total population] via individual case-note verification. Hazard ratios [HR] were calculated for each exposure using Cox proportional hazards models. RESULTS: A study population of 2 013 851 children was identified including 1721 PIBD cases. Validation of 261 PIBD patients coded as CD and/or UC identified 242 [93%] as true positive. Children delivered vaginally did not have an altered risk of developing PIBD compared with those delivered by caesarean section, adjusted HR 0.95 [95% CI 0.84-1.08] [p = 0.46]. Compared with children born at term [>=37 weeks], children born prematurely did not have an altered risk of developing PIBD, i.e., at 24-31 weeks of gestation, HR 0.99 [95% CI 0.57-1.71] [p = 0.97] and at 32-36 weeks of gestation, HR 0.96 [95% CI 0.76-1.20] [p = 0.71]. Compared with children exclusively breastfed at age 6 weeks, children exclusively formula fed did not have an altered risk of developing PIBD: adjusted HR 0.97 [95% CI 0.81-1.15] [p = 0.69]. CONCLUSIONS: This population-based study demonstrates no association between mode of delivery, gestational age, or exclusive formula feeding at 6 weeks, and the development of PIBD."""
+
+

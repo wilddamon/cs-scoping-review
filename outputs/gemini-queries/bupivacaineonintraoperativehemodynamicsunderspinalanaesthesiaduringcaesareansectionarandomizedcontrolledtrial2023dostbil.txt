@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonoftheeffectsoftwodifferentlowdosesofisobaricbupivacaineonintraoperativehemodynamicsunderspinalanaesthesiaduringcaesareansectionarandomizedcontrolledtrial2023dostbil
+"Background: The objective of this study was to conduct a randomized controlled trial in order to examine the hemodynamic impacts of two different doses of intrathecal isobaric bupivacaine (5 mg and 7 mg) when combined with 15 mug fentanyl in the context of patients undergoing caesarean section under combined spinal epidural anesthesia. Method(s): Eighty patients with American Society of Anesthesiologists physical status I and II, aged between 16-50 years, who would undergo elective caesarean section under combined spinal epidural anaesthesia were randomly allocated to Group A and Group B (n = 40, for each group). Group A patients received a solution containing 5 mg isobaric bupivacaine + 15 mug fentanyl (1.3 mL), while Group B patients received a solution containing 7 mg isobaric bupivacaine + 15 mug fentanyl (1.7 mL) intrathecally. Incidences of hypotension, intraoperative systolic blood pressure, diastolic blood pressure, heart rate, motor block resolving time, and analgesia duration were recorded. Result(s): Group A had a substantially lower incidence of hypotension than Group B (p = 0.022). Patients in Group B had significantly lower systolic blood pressure values at the 6th, 8th, 10th, 12th, 14th, 15th, and 30th minutes of the surgery compared to Group A (p = 0.012, p = 0.014, p = 0.005, p = 0.016, p < 0,001, p = 0.002, and p = 0.011; respectively). Both groups had similar diastolic blood pressure and heart rate values during surgery (p > 0.05). The motor block resolving time and analgesia duration were longer in Group B compared to Group A (p < 0.001 for both). Two (5%) patients in Group A and ten (25%) patients in Group B experienced postoperative itching (p = 0.012). Conclusion(s): We concluded that combining 5 mg isobaric bupivacaine with 15 mcg of fentanyl administered intrathecally provides adequate anaesthesia while maintaining better hemodynamic stability in patients undergoing caesarean section.Copyright (c) 2023 The Author(s)."""
+
+

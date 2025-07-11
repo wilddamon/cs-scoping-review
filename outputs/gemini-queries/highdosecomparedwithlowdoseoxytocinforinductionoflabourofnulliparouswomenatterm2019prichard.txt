@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: highdosecomparedwithlowdoseoxytocinforinductionoflabourofnulliparouswomenatterm2019prichard
+"BACKGROUND: The optimal oxytocin infusion regimen to induce labour with the lowest caesarean section rate, instrumental delivery rate and length of active labour is unclear. We compared the effect of a low-dose to high-dose oxytocin regimen to induce labour. MATERIALS AND METHODS: We conducted a retrospective study of nulliparous women induced at term in a single tertiary centre from 2009 to 2015. The oxytocin induction protocol changed from a high to low-dose regimen in November 2012, affording us the opportunity to compare outcomes 3 years prior to, and following the change in protocol. Main outcome measures were caesarean section rate, instrumental delivery rate and length of active labour. RESULTS: Four thousand eight hundred and eighty-five participants were included, 2211 were induced via the low-dose regimen, and 2674 using the high-dose regimen. There was no difference in caesarean section rate (adjusted OR 0.99; 95% CI 0.87-1.13) or instrumental delivery rates once adjusted for regional anaesthesia (adjusted OR 1.16; 95% CI 0.99-1.36) between the different regimens. Surprisingly, the length of labour was longer in the high-dose oxytocin group (adjusted mean difference 0.60 h; 95%CI 0.81-0.12). There were significantly more postpartum haemorrhage >=1000 ml (10.5% versus 7.8%, p < .001) and regional anaesthesia use (55.8% versus 52.1%, p = .03) in the low-dose cohort. There were no differences in neonatal outcomes. CONCLUSION: Outcomes between high- and low-dose oxytocin induction regimens are relatively comparable with similar caesarean section and instrumental delivery rates. Therefore, either regimen is acceptable for use for induction of labour."""
+
+

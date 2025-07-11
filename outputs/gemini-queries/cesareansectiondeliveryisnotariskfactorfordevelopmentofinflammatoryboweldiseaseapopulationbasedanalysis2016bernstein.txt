@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectiondeliveryisnotariskfactorfordevelopmentofinflammatoryboweldiseaseapopulationbasedanalysis2016bernstein
+"BACKGROUND & AIMS: Mode of birth affects development of the intestinal microbiota, and microbial dysbiosis has been associated with inflammatory bowel disease (IBD). We performed a population-based analysis to determine whether mode of delivery (cesarean section vs. vaginal delivery) affects risk of IBD. METHODS: We collected data from the University of Manitoba IBD Epidemiology Database, which contains records on all Manitobans diagnosed with IBD from 1984 through 2010. Starting in 1970, 6-digit family health registration numbers were used in Manitoba to link mothers with their offspring. Maternal health records, including dates and modes of delivery and siblings of individuals with IBD, were identified. RESULTS: We obtained data on 1671 individuals with IBD and 10,488 controls (individuals without IBD, matched by age, sex, and area of residence at IBD diagnosis) linked to mothers' obstetrical records. Higher proportions of urban than rural residents were delivered by cesarean section for IBD cases (12.8% vs. 9.7%, P = .05) and controls (13.3% vs. 9.4%, P < .0001). A higher percentage of men with Crohn's disease than women with Crohn's disease were born via cesarean section (13.5% vs. 8.4%, P = .01). Overall, there was no difference in the percentage of IBD cases born by cesarean section (11.6%) vs. controls (11.7%, P = .93). In multivariate analysis, birth by cesarean section was not associated with an increased risk of subsequent IBD, controlling for age, sex, urban residence, and income (odds ratio, 1.04; 95% confidence interval, 0.89-1.23). Persons with IBD were no more likely to have been born by cesarean section than their siblings without IBD (1740 siblings from 1615 families) (11.6% vs. 11.3%; odds ratio, 1.14; 95% confidence interval, 0.72-1.80; P = .79). CONCLUSIONS: People with IBD were not more likely to have been born via cesarean section than controls or siblings without IBD. These findings indicate that events of the immediate postpartum period that shape the developing intestinal microbiome do not affect risk for IBD."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthmonthassociateswithriskofcoronaryarterydiseaseanditscomplicationsapropensityscorematchedanalysis2019zhang
+"OBJECTIVE: Birth month and climate affect lifetime disease risk, while the underlying mechanisms remain largely elusive. It is vital to investigate the risks of coronary artery disease (CAD) and its complications in patients born in different months.;METHODS: A total of 12,263 patient medical records were reviewed from the BioBank of First Affiliated Hospital of Xinxiang Medical University, with 4729 records from patients with CAD (CAD group) and 7534 records from control patients without CAD (control group). Two groups of patients were matched by the propensity score matched method. Birth months were compared between two groups of patients. The relationships between birth month and the numbers of CAD and its complications were also investigated. Interestingly, we also explore the relationship between the birth seasons and the numbers of CAD and its complications.;RESULTS: Compared to control, CAD group had greater CAD risks for patients born in November (OR 1.390, 95% CI 1.090-1.772), December (OR 1.358, 95% CI 1.067-1.730), and February (OR 1.332, 95% CI 1.043-1.700) compared to those born in May. Compared to patients born in December, patients born in January to March and May to September had greater risk of heart failure (P<0.05). There was no difference in the incidence of myocardial infarction, conduction block, and atrial fibrillation across birth months (P>0.05). In terms of birth season, patients born in winter have greater CAD risk than those born in spring (OR 1.247, 95% CI 1.075-1.447). And there was no difference in the incidence of CAD complications across with birth seasons (P>0.05).;CONCLUSIONS: There was a correlation between birth month and CAD. People born in November, December, and February had greater CAD risk, and people born in winter had greater CAD risk. Among CAD patients, those born in January to March and May to September had the greater risk of heart failure. Copyright (c) 2019. Published by Elsevier Espana, S.L.U."""
+
+

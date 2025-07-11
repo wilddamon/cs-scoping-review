@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timingofelectivecesareansectionandneonataloutcomesintermsingletondeliveriesasinglecenterexperience2024takahashi
+"OBJECTIVE: This study aimed to evaluate the timing of elective cesarean sections at 37 to 41 weeks from a tertiary hospital in Japan. The primary outcome was the rate of adverse neonatal outcomes, especially focusing on neonates delivered at 38 weeks of gestation.;STUDY DESIGN: The study population was drawn from singleton pregnancies delivered following planned cesarean birth at the Fukuda Hospital from 2012 to 2019. Information on deliveries was obtained from the hospital database, which contains clinical, administrative, laboratory, and operating room databases.;RESULTS: After excluding women with chronic conditions, maternal complications, indications for multiple births, or a neonate with an anomaly, 2,208 neonates remained in the analysis. Among adverse neonatal outcomes, the rate was significantly higher in neonates delivered at 37 weeks of gestation (unadjusted odds ratio [OR] = 13.22 [95% confidence interval [CI]: 6.28, 27.86], p < 0.001) or 38 weeks of gestation (unadjusted OR = 1.82 [95% CI: 1.04, 3.19], p = 0.036) compared with neonates delivered at 39 to 41 weeks. The adjusted risk of any adverse outcome was significantly higher at 380-1/7 weeks (adjusted OR = 2.40 [95% CI: 1.35, 4.30], p = 0.003) and 382-3/7 weeks (adjusted OR = 1.89 [95% CI: 1.04, 3.44], p = 0.038) compared with neonates delivered at 39 to 41 weeks, respectively.;CONCLUSION: Our findings suggest that elective cesarean sections might be best scheduled at 39 weeks or later. When considering a cesarean at 38 weeks, it appears that 384/7 weeks of gestation or later could be a preferable timing in the context of reducing neonatal risks. However, as the composite outcome includes mostly minor conditions, the clinical significance of this finding needs to be carefully interpreted.;KEY POINTS: . Timing of elective cesarean sections from 37 to 41 weeks was evaluated in a Japanese tertiary hospital.. . Neonates delivered at 37 and 38 weeks had higher adverse outcome rates compared with 39 to 41 weeks.. . Scheduling elective cesarean sections at least 384/7 weeks or later may reduce neonatal risk.. Copyright Thieme. All rights reserved."""
+
+

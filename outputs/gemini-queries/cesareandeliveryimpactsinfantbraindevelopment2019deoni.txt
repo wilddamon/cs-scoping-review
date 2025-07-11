@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryimpactsinfantbraindevelopment2019deoni
+"BACKGROUND AND PURPOSE: The cesarean delivery rate has increased globally in the past few decades. Neurodevelopmental outcomes associated with cesarean delivery are still unclear. This study investigated whether cesarean delivery has any effect on the brain development of offspring. MATERIALS AND METHODS: A total of 306 healthy children were studied retrospectively. We included 3 cohorts: 2-week-old neonates (cohort 1, n = 32/11 for vaginal delivery/cesarean delivery) and 8-year-old children (cohort 2, n = 37/23 for vaginal delivery/cesarean delivery) studied at Arkansas Children's Hospital, and a longitudinal cohort of 3-month to 5-year-old children (cohort 3, n = 164/39 for vaginal delivery/cesarean delivery) studied independently at Brown University. Diffusion tensor imaging, myelin water fraction imaging, voxel-based morphometry, and/or resting-state fMRI data were analyzed to evaluate white matter integrity, myelination, gray matter volume, and/or functional connectivity, respectively. RESULTS: While not all MR imaging techniques were shared across the institutions/cohorts, post hoc analyses showed similar results of potential effects of cesarean delivery. The cesarean delivery group in cohort 1 showed significantly lower white matter development in widespread brain regions and significantly lower functional connectivity in the brain default mode network, controlled for a number of potential confounders. No group differences were found in cohort 2 in white matter integrity or gray matter volume. Cohort 3 had significantly different trajectories of white matter myelination between groups, with those born by cesarean delivery having reduced myelin in infancy but normalizing with age. CONCLUSIONS: Cesarean delivery may influence infant brain development. The impact may be transient because similar effects were not observed in older children. Further prospective and longitudinal studies may be needed to confirm these novel findings."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyfetalandneonataloutcomesamongwomenwithtraumaticbraininjury2023adams
+"OBJECTIVE: There have been no systematic studies of pregnancy outcomes among women with traumatic brain injury (TBI), potentially limiting informed clinical care for women with such injuries. The purpose of this exploratory study was to evaluate pregnancy and fetal/neonatal outcomes among women with a TBI diagnosis recorded during their delivery hospitalization compared with women without TBI. SETTING: In this cross-sectional study, we identified women with delivery hospitalizations using 2004-2014 data from the Nationwide Inpatient Sample of the Health Care and Cost Utilization Project. PARTICIPANTS: We identified deliveries to women with a TBI diagnosis on hospital discharge records, which included all diagnoses recorded during the delivery, and compared them with deliveries of women without a TBI diagnosis. MAIN MEASURES: Pregnancy outcomes included gestational diabetes; preeclampsia/eclampsia; placental abruption; cesarean delivery; and others. Fetal/neonatal outcomes included preterm birth; stillbirth; and small or large gestational age. DESIGN: We modeled risk for each outcome among deliveries to women with TBI compared with women without TBI, using multivariate Poisson regression. Models included sociodemographic and hospital characteristics; secondary models added clinical characteristics (eg, psychiatric disorders) that may be influenced by TBI. RESULTS: We identified 3 597 deliveries to women with a TBI diagnosis and 9 106 312 deliveries to women without TBI. Women with TBI were at an increased risk for placental abruption (relative risk [RR] = 2.73; 95% CI, 2.26-3.30) and associated sequelae (ie, antepartum hemorrhage, cesarean delivery). Women with TBI were at an increased risk for stillbirth (RR = 2.55; 95% CI, 1.97-3.29) and having a baby large for gestational age (RR = 1.30; 95% CI, 1.09-1.56). Findings persisted after controlling for clinical characteristics. CONCLUSIONS: Risk for adverse pregnancy outcomes, including placental abruption and stillbirth, were increased among women with TBI. Future research is needed to examine the association between TBI and pregnancy outcomes using longitudinal and prospective data and to investigate potential mechanisms that may heighten risk for adverse outcomes."""
+
+

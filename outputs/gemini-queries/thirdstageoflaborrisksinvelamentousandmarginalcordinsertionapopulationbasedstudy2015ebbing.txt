@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thirdstageoflaborrisksinvelamentousandmarginalcordinsertionapopulationbasedstudy2015ebbing
+"OBJECTIVE: To assess whether anomalous cord insertion is associated with risk of complications in the third stage of labor.;DESIGN: A population-based study.;SETTING: Norwegian Medical Birth Register.;POPULATION: All singleton births (gestational age >16 weeks and <45 weeks) during the period 1999-2011 (n = 738,443 singletons). Deliveries by cesarean were excluded, leaving 628,680 vaginal singleton deliveries for the analyses.;METHODS: Calculation of odds ratios for complications in the third stage of labor (postpartum hemorrhage, manual delivery of the placenta, curettage) in velamentous and marginal cord insertion by logistic regression with adjustment for confounders.;MAIN OUTCOME MEASURES: Complications in the third stage of labor, postpartum hemorrhage, manual placental removal and curettage.;RESULTS: Anomalous cord insertion was associated with an increased risk of complications in the third stage of labor, the risk being higher for velamentous than for marginal insertion. The risks persisted after adjusting for possible confounding factors. Velamentous cord insertion carried a 5.6% risk of a need for manual removal of the placenta, compared with the risk of 1.1% for nonvelamentous insertion (odds ratio = 5.21, 95% confidence interval 4.71-5.76) in vaginal delivery, and we found increased risks of curettage (odds ratio = 3.29, 95% confidence interval 2.87-3.77) and postpartum hemorrhage (odds ratio = 2.06, 95% confidence interval 1.77-2.39).;CONCLUSIONS: Marginal and especially velamentous cord insertion is associated with an increased risk of hemorrhage in the third stage of labor, need for manual removal of the placenta and curettage. Anomalous cord insertion can be identified prenatally and so possibly influence obstetric management. Copyright (c) 2015 Nordic Federation of Societies of Obstetrics and Gynecology."""
+
+

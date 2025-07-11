@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionratesinsouthwesternontariochangesovertimeafteradjustingforimportantmedicalandsocialcharacteristics2014brown
+"OBJECTIVE: To compare Caesarean section rates in a cohort of women in Southwestern Ontario over time, overall, and in patient subgroups defined by the Robson criteria, after adjusting for important medical and social characteristics. METHODS: We obtained data from a perinatal database on deliveries at >= 22 weeks' gestation at a level II centre and a level III centre in London, Ontario between 1999 and 2010. Caesarean section rates were examined overall and in subgroups defined by parity, presentation, plurality, gestational age, and history of previous Caesarean section. Multivariable modified Poisson regression was used to compare Caesarean section rates in 2003-2006 and 2007-2010 versus 1999-2002. RESULTS: In the fully adjusted models, the overall Caesarean section rate was significantly higher in 2007-2010 than in 1999-2002 for the level II centre (adjusted relative risk [aRR] 1.12; 95% CI 1.05 to 1.21). An increase was also seen in the level III centre in both 2003 to 2006 (aRR 1.19; 95% CI 1.14 to 1.24) and 2007 to 2010 (aRR 1.17; 95% CI 1.12 to 1.22). Similar increases were seen over time among patient subgroups. Notably, repeat Caesarean sections without labour increased at the level II centre (2003 to 2006 aRR 1.21; 95% CI 1.01 to 1.45, and 2007 to 2010 aRR 1.44; 95% CI 1.21 to 1.71) and the level III centre (2003 to 2006 aRR 1.72; 95% CI 1.53 to 1.94, and 2007 to 2010 aRR 1.77; 95% CI 1.57 to 2.00). CONCLUSION: There has been a significant increase over time in the Caesarean section rate overall and in important subgroups. This increase remains even after controlling for other factors which may explain the trend."""
+
+

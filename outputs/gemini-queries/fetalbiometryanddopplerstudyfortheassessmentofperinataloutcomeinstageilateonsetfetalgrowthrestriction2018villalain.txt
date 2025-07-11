@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalbiometryanddopplerstudyfortheassessmentofperinataloutcomeinstageilateonsetfetalgrowthrestriction2018villalain
+"OBJECTIVE: To compare perinatal outcomes on fetuses classified as stage I late-onset fetal growth restriction (FGR) depending on the estimated fetal weight (EFW) centile category and the fetal and maternal Doppler study. MATERIAL AND METHODS: Retrospective cohort study on 131 cases of stage I late-onset FGR (diagnosis >=32+0 weeks), defined as: EFW < 3rd centile and normal Doppler (G1) or EFW < 10th centile and mean uterine artery pulsatility index (PI) > 95th centile (G2) or EFW < 10th centile and mild fetal Doppler alteration: umbilical artery PI > 95th centile, middle cerebral artery PI < 5th centile, or cerebroplacental ratio < 5th centile (G3). All groups were compared to their perinatal results. RESULTS: There were 37, 30, and 64 cases in G1, G2, and G3, respectively. G1 and G2 showed lower percentages of cesarean section when compared with G3 (18.4, 22.5, and 45.3% (p < 0.01), respectively), being attributable to an excess of cesarean sections for non-reassuring fetal status. These differences remained when definitive birth weight centile was above that considered to define FGR, being 5.9, 12.5, and 41.8% (p < 0.01), respectively. DISCUSSION: In stage I late-onset FGR fetuses, abnormal fetal Doppler is associated with a poorer tolerance to vaginal delivery, even when the birth weight is > 10th centile."""
+
+

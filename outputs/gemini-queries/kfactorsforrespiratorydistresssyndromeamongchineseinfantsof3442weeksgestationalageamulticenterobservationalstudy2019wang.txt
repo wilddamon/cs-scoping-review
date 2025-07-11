@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforrespiratorydistresssyndromeamongchineseinfantsof3442weeksgestationalageamulticenterobservationalstudy2019wang
+"To compare the risk factors for respiratory distress syndrome (RDS) at different gestational ages among Chinese infants 34-42 weeks of gestational age (GA), we reviewed the clinical records of 4,032 newborns. The case (RDS) and control groups were subdivided into three groups according to GA: 34-36 weeks, 37-38 weeks, and 39-42 weeks. An Apgar score of < 7 at 5 min post-birth, male gender and gestational diabetes were independent risk factors for RDS in late preterm and term infants. For infants of 34-36 weeks GA, additional independent risk factors included placental abnormalities and cesarean section, whereas the administration of antenatal dexamethasone and increased gestational age were protective. For infants of 37-38 weeks GA, additional risk factors included meconium stained amniotic fluid and cesarean section without labor, and increased gestational age was also protective (OR = 0.59). Fetal distress and umbilical cord abnormalities were the additional risk factors for infants of 39-42 weeks gestational age, but not for infants of 37-38 weeks gestational age. The results of the current study showed that an Apgar score of < 7 at 5 min post-birth, male gender and gestational diabetes were independent risk factors for both late preterm and full-term infants with RDS. For newborns of 34-38 weeks gestational age, the incidence of RDS decreased with advancing gestational age, and cesarean section was found to increase this risk, more so in cesarean delivery without labor. The administration of antenatal dexamethasone was found to reduce the incidence of RDS in late preterm infants.Copyright (c) 2019, E-Century Publishing Corporation. All rights reserved."""
+
+

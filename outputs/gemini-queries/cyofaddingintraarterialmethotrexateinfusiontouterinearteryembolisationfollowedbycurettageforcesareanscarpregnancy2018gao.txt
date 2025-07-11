@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivecomparativestudyevaluatingtheefficacyofaddingintraarterialmethotrexateinfusiontouterinearteryembolisationfollowedbycurettageforcesareanscarpregnancy2018gao
+"PURPOSE: The study aimed to compare the efficacy of intra-arterial methotrexate (MTX) infusion combined with uterine artery embolisation (UAE) and uterine curettage with that of UAE and curettage without MTX infusion for the treatment of cesarean scar pregnancy (CSP). METHODS: In this retrospective study, data of CSP patients admitted from January 2011 to July 2015 were obtained from electronic patient records. Clinical information at baseline and after treatment were extracted and analyzed. RESULTS: A total of 93 CSP patients were included, with 57 patients receiving UAE followed by curettage (UC) and 36 patients receiving intra-arterial MTX infusion followed by UAE and curettage (MUC). The baseline characteristics were not significantly different between the two groups. Without additional intervention, 32 (88.9%) patients were successfully treated by MUC, and 49 (86.0%) patients were successfully treated by UC, defined by discontinued ectopic conceptus growth, normalized serum b-human chorionic gonadotropin (b-hCG) level, ceased vaginal bleeding and preservation of uterus, with no significant difference between the two groups. Additionally, intra-operative blood loss volume and post-operative bleeding events were not significantly different between the two groups. However, serum b-hCG decline on the first day after surgery was significantly promoted, and the hospitalization length and the time needed for serum b-hCG normalization were significantly shortened by addition of intra-arterial MTX infusion. CONCLUSIONS: Adding intra-arterial MTX to UAE and curettage significantly promoted post-operative recovery, though success rate and bleeding events were not significantly affected, suggesting that addition of intra-arterial MTX might not be necessary."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: externalvalidationandupdatingoftherossinomogramforpredictingcesareandeliveryfollowinginductionisthebishopscorevaluable2024liu
+"OBJECTIVE: This study sought to validate the Rossi nomogram in a Chinese population and then to include the Bishop score to see if it has an effect on the accuracy of the nomogram. MATERIALS AND METHODS: The Rossi predictive model was applied and externally validated in a retrospective cohort from August 2017 and July 2023 in a Chinese tertiary-level medical center. For the revision and updating of the models, the regression coefficients of all the predictors (except race) were re-estimated and then the cervical Bishop score at the time of induction was added. Each model's performance was measured using the receiver-operating characteristic and calibration plots. Decision curve analysis determined the range of the probability threshold for each prediction model that would be of clinical value. RESULTS: A total of 721 women met the inclusion criteria, of whom 183 (25.4%) underwent a cesarean delivery. The calibration demonstrated the underestimation of the original model, with an area under the curve (AUC) of 0.789 (95% confidence interval [CI] 0.753-0.825, p < 0.001). After recalibrating the original model, the discriminative performance was improved from 0.789 to 0.803. Moreover, the discriminatory power of the updated model was further improved when the Bishop score at the time of induction was added to the recalibrated multivariable model. Indeed, the updated model demonstrated good calibration and discriminatory power, with an AUC of 0.811. The decision curve analysis indicated that all the models (original, recalibrated, and updated) provided higher net benefits of between 0 and 60% of the probability threshold, which indicates the benefits of using the models to make decisions concerning patients who fall within the identified range of the probability threshold. The net benefits of the updated model were higher than those of the original model and the recalibrated model. CONCLUSION: The nomogram used to predict cesarean delivery following induction developed by Rossi et al. has been validated in a Chinese population in this study. More specifically, adaptation to a Chinese population by excluding ethnicity and including the Bishop score prior to induction gave rise to better performance. The three models (original, recalibrated, and updated) offer higher net benefits when the probability threshold is between 0 and 60%."""
+
+

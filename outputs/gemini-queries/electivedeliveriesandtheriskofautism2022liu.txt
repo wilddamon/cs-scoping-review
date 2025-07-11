@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: electivedeliveriesandtheriskofautism2022liu
+"INTRODUCTION: Cesarean section and induced deliveries have increased substantially in the U.S., coinciding with increases in autism spectrum disorder. Studies have documented associations between cesarean section deliveries and autism spectrum disorder but have not comprehensively accounted for medical risks. This study evaluates the extent to which cesarean section and induced deliveries are associated with autism spectrum disorder in low-risk births. METHODS: In this retrospective cohort study, California's birth records (1992-2012) were linked to hospital discharge records to identify low-risk births using a stringent algorithm based on Joint Commission guidelines. Autism spectrum disorder status was based on California Department of Developmental Service data. Logistic regression models were used to estimate associations between autism spectrum disorder and induced vaginal deliveries, cesarean section deliveries not following induction, and cesarean section deliveries following induction, with noninduced vaginal deliveries as the reference category. RESULTS: A total of 1,488,425 low-risk births took place in California from 1992 to 2012. The adjusted odds of autism spectrum disorder were 7% higher for induced vaginal deliveries (AOR=1.07, 95% CI=1.01, 1.14), 26% higher for cesarean section deliveries not following induction (AOR=1.26, 95% CI=1.19, 1.33), and 31% higher for cesarean section deliveries following induction (AOR=1.31, 95% CI=1.18, 1.45) than for noninduced vaginal deliveries. Lower gestational age and neonatal morbidities did not appear to be important underlying pathways. The associations were insensitive to alternative model specifications and across subpopulations. These results suggest that, in low-risk pregnancies, up to 10% of autism spectrum disorder cases are potentially preventable by avoiding cesarean section deliveries. CONCLUSIONS: After accounting for medical risks, elective deliveries-particularly cesarean section deliveries-were associated with a substantially increased risk of autism spectrum disorder."""
+
+

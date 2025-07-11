@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postpartumhaemorrhageriskpredictionmodeldevelopedbymachinelearningalgorithmsasinglecentreretrospectiveanalysisofclinicaldata2024wang
+"Background: Postpartum haemorrhage (PPH) is a serious complication and a cause of maternal mortality after delivery. This study used machine learning algorithms and new feature selection methods to build an efficient PPH risk prediction model and provided new ideas and reference methods for PPH risk management. Method(s): The clinical data of women who gave birth at Wenzhou People's Hospital from 1 January 2021, to 30 March 2022, were retrospectively analysed, and the women were divided into a high haemorrhage group (337 patients) and a low haemorrhage group (431 patients) based on the amount of blood loss. Machine learning algorithms were used to identify the features associated with postpartum haemorrhage from multiple clinical variables using feature selection methods, such as recursive feature elimination (RFE), recursive feature elimination with cross-validation (RFECV), and SelectKBest, and to establish prediction models. Result(s): For all women, the features associated with postpartum haemorrhage were 'age', 'newborn weight', 'gestational week', 'perineal laceration', and 'caesarean section'. The prediction model established by the random forest classifier performed best, with an F1 score of 0.73 and an area under the curve (AUC) of 0.84. For women who underwent caesarean section or had a vaginal delivery, the features associated with postpartum haemorrhage risk were different. The risk factors for postpartum haemorrhage in women who underwent caesarean section were 'age', 'parity', 'preterm birth', and 'placenta previa'. The prediction model established by the random forest classifier performed best, with an F1 value of 0.96 and an AUC of 0.95. The risk factors for postpartum haemorrhage in women with vaginal delivery were 'age', 'parity', 'gestational week', 'diabetes', 'assisted reproduction', 'hypertension (preeclampsia)', and 'multiple pregnancy'. The prediction model established by the AdaBoost classifier performed best, with an F1 value of 0.65 and an AUC of 0.76. Conclusion(s): Machine learning algorithms can effectively identify the features associated with postpartum haemorrhage risk from clinical variables and establish accurate prediction models, offering a novel approach for clinicians to assess the risk of and prevent postpartum haemorrhage.Copyright: (c) 2024 The Author(s). Published by IMR Press. This is an open access article under the CC BY 4.0 license."""
+
+

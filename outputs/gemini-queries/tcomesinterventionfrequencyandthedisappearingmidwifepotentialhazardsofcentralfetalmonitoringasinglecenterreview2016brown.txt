@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthoutcomesinterventionfrequencyandthedisappearingmidwifepotentialhazardsofcentralfetalmonitoringasinglecenterreview2016brown
+"INTRODUCTION: Many birth units use central fetal monitoring (CFM) under the assumption that greater surveillance improves perinatal outcomes. The unexpected loss of the CFM system at a tertiary unit provided a unique opportunity to evaluate outcomes and staff attitudes toward CFM. METHODS: This retrospective cohort study compared patient data from 2,855 electronically monitored women delivering over a 12-month period, where CFM was available for the first 6 months but unavailable for the following 6 months. Primary outcomes relating to neonatal morbidity and secondary outcomes relating to intrapartum interventions were examined. Additionally, birth unit staff members were surveyed about aspects of care related to CFM. RESULTS: There were no significant differences in perinatal outcomes between the cohorts. While unadjusted analysis suggested a lower spontaneous vaginal birth rate (55.4% vs 60.3%) and a higher cesarean delivery rate (25.1% vs 22.0%, p = 0.026), together with higher epidural (53.0% vs 49.2%, p = 0.04) and fetal blood sampling (11.8% vs 9.4%, p = 0.03) rates in the presence of CFM, these differences were lost when adjusted for prostaglandin ripening. Over half of the staff (56.0% of midwives, 54.0% of obstetricians) reported spending more time with the laboring woman in the period without CFM. CONCLUSIONS: This single institution's experience indicates that in birth units staffed for one-to-one care in labor, central fetal monitoring does not appear to be associated with either a benefit on perinatal outcomes or an increase in cesarean delivery and other interventions. However, it is associated with a reduction in the time a midwife spends with the laboring woman."""
+
+

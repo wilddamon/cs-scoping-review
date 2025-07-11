@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: suturecomparedwithstapleclosureofskinincisionforhighordercesareandeliveries2018fox
+"OBJECTIVE: To compare wound complication rates in tertiary or higher-order cesarean delivery based on wound closure technique. METHODS: We performed a retrospective cohort study of all tertiary or higher-order cesarean deliveries performed by one group practice in a large academic medical center from 2005 to 2017. We excluded patients with a vertical skin incision. Although the study was not randomized, wound closure type was relatively uniform in this practice and based on time period: before 2011, the preferred closure was staple closure; after 2011, subcuticular suture closure was preferred. All patients received preoperative antibiotics and closure of subcutaneous tissue 2 cm deep or greater. The primary outcome was a wound complication, defined as a wound infection requiring antibiotics or a wound separation requiring wound packing or reclosure any time up to 6 weeks after delivery. Regression analysis was used to control for any significant differences at baseline between the groups. RESULTS: There were 551 patients with tertiary or higher-order cesarean delivery, 192 (34.8%) of whom had staple closure and 359 (65.2%) of whom had suture closure. Suture closure was associated with a significantly lower rate of wound complication (4.7% [17/359, 95% CI 3.0%-7.5%] vs 11.5% [22/192, 95% CI 7.7%-16.7%], P=.003). On regression analysis controlling for the number of prior cesarean deliveries and the participation of a resident in the closure, suture closure remained independently associated with a lower risk of a wound complication (adjusted odds ratio 0.44, 95% CI 0.23-0.86). CONCLUSION: For women undergoing their third or higher-order cesarean delivery, suture closure is associated with a lower rate of wound complications."""
+
+

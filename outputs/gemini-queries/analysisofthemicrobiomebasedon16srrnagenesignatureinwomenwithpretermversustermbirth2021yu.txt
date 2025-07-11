@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: analysisofthemicrobiomebasedon16srrnagenesignatureinwomenwithpretermversustermbirth2021yu
+"Objective: To characterize and compare the microbiome signature in the maternal, intrauterine, and fetal environments and the associated bacterial species in women who experienced preterm birth and term birth. Method(s): A total of 140 women with singleton pregnancies were enrolled in this study. Among them, 31 experienced spontaneous preterm delivery (gestational age < 37 weeks), and 28 of them experienced vaginal delivery at term. Maternal peripheral blood, saliva, and vaginal discharge samples and fetal membrane, amniotic fluid, and cord blood samples were collected immediately after delivery under sterile conditions. DNA was isolated from the fetal membrane and umbilical cord blood samples, and the V3-V4 region of the bacterial 16S rRNA gene was sequenced. The sequence data were quality-filtered, chimera-checked, and organized into operational taxonomic units (OTUs) based on phylogeny. Principal coordinate analysis of beta diversity measures was used for visualization. The linear discriminant analysis effect size (LEfSe) algorithm and Wilcoxon test were used to differentiate the microbiomes found in the fetal membranes and cord blood in the cases of preterm birth. Result(s): OTU analysis based on the 16S rRNA gene showed similar microbiomes in the maternal peripheral blood, amniotic fluid, fetal membranes, and cord blood. However, the LEfSe algorithm revealed significantly different bacterial compositions in the fetal environment between the preterm and term groups, with some of the bacterial species originating from the maternal peripheral blood or saliva. Conclusion(s): The bacteria in the intrauterine and fetal environments may originate from other body sites through hematogenous transmission, and may cause the occurrence of preterm birth.Copyright (c) 2021 Reproductive and Developmental Medicine Published by Wolters Kluwer - Medknow."""
+
+

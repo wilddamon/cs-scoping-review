@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: efficacyofcontrastenhancedultrasoundfordiagnosisofcesareanscarpregnancytype2019wu
+"OBJECTIVES: We compared the clinical efficacy of contrast-enhanced ultrasound (CEUS) to transvaginal ultrasound (TVS) for diagnosing cesarean scar pregnancy (CSP).;METHODS: A total of 485 cases of suspected CSP were recruited from January 2017 to March 2018. All received TVS and CEUS by two sonologists blinded to diagnosis by the other. Diagnostic features of CSP that significantly differed between modalities by univariate analysis (P < .05) were included in a logistic regression model. The sensitivity, specificity, positive likelihood ratio (+LR), negative likelihood ratio (-LR), and accuracy (ACC) of CSP diagnosis by TVS and CEUS were compared according to operational and pathological outcomes as the reference standard.;RESULTS: There were 220 CSP cases (including 85 cases of type I, 93 of type II, and 42 of type III). The sensitivities of CEUS for detection of types I - III CSP were 94.1%, 92.5%, and 97.6%, respectively, and corresponding sensitivities of TVS were 82.4%, 80.6%, and 95.2%. Compared to TVS, CEUS yielded significantly better overall sensitivity (97.27% vs 88.18%), specificity (96.60% vs 75.47%), +LR (28.60 vs 3.59), -LR (0.03 vs 0.16), and diagnostic ACC (96.9% vs 81.23%) (all P < .001).;CONCLUSIONS: CEUS is superior to TVS for detecting cesarean scar pregnancy and distinguishing among CSP types."""
+
+

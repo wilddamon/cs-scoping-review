@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: onceepisiotomyalwaysepisiotomy2018zilberman
+"OBJECTIVE: To investigate the association between episiotomy and perineal damage in the subsequent delivery. STUDY DESIGN: A retrospective cohort study was conducted, comparing outcome of subsequent singleton deliveries of women with and without episiotomy in their first (index) delivery. Deliveries occurred between the years 1991-2015 in a tertiary medical center. Traumatic vaginal tears, multiple pregnancies, and cesarean deliveries (CD) in the index pregnancy were excluded from the analysis. Multiple logistic regression models were used to control for confounders. RESULTS: During the study period, 43,066 women met the inclusion criteria; of them, 50.4% (n = 21,711) had subsequent delivery after episiotomy and 49.6% (n = 21,355) had subsequent delivery without episiotomy in the index pregnancy. Patients with episiotomy in the index birth higher rates of subsequent episiotomy (17.5 vs. 3.1%; P < 0.001; OR 1.9; 95% CI). In addition, the rates of the first and second degree perineal tears as well as the third and fourth degree perineal tears were significantly higher in patients following episiotomy (33.6 vs. 17.8%; P < 0.001, and 0.2 vs. 0.1%; P = 0.002, respectively). Nevertheless, there was no significant difference at the rates of CD and instrumental deliveries, between the groups. While adjusting for maternal age, ethnicity, birth weight, and vacuum delivery-the previous episiotomy was noted as an independent risk factor for recurrent episiotomy in the subsequent delivery (adjusted OR 6.7; 95% CI 6.2-7.3, P < 0.001). The results remained significant for term (adjusted OR 6.8; 95% CI 6.2-7.4, P < 0.001) as well as preterm deliveries (adjusted OR 4.5; 95% CI 3.3-6.3, P < 0.001) in two different models. CONCLUSION: Episiotomy is an independent risk factor for recurrent episiotomy in the subsequent delivery."""
+
+

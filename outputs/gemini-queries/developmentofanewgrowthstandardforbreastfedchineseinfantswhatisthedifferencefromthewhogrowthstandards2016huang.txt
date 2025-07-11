@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofanewgrowthstandardforbreastfedchineseinfantswhatisthedifferencefromthewhogrowthstandards2016huang
+"The objectives of this longitudinal study were to examine the trajectory of breastfed infants' growth in China to update growth standards for early childhood, and to compare these updated Chinese growth standards with the growth standards recommended by the World Health Organization (WHO) in 2006.This longitudinal cohort study enrolled 1,840 healthy breastfed infants living in an 'optimal' environment favorable to growth and followed up until one year of age from 2007 to 2010. The study subjects were recruited from 60 communities in twelve cities in China. A participating infant's birth weight was measured within the first hour of the infant's life, and birth length and head circumference within 24 hours after birth. Repeated weekly and monthly anthropometric measurements were also taken. Multilevel (ML) modelling via MLwiN2.25 was fitted to estimate the growth curves of weight-for-age (WFA), length-for-age (LFA), and head circumference-for-age (HFA) for the study sample as a whole and by child sex, controlling for mode of delivery, the gravidity and parity of the mother, infant's physical measurements at birth, infant's daily food intaking frequency per day, infant's medical conditions, the season when the infant's physical measurement was taken, parents' ages, heights, and attained education, and family structure and income per month. During the first four weeks after birth, breastfed infants showed an increase in weight, length, and head circumference of 1110g, 4.9 cm, and 3.2 cm, respectively, among boys, and 980 g, 4.4 cm, and 2.8 cm, respectively, among girls. Throughout infancy, the total growth for these three was 6930 g, 26.4 cm, and 12.5 cm, respectively, among boys, and 6480 g, 25.5 cm, and 11.7 cm, respectively, among girls. As expected, there was a significant sex difference in growth during the first year. In comparison with the WHO growth standards, breastfed children in our study were heavier in weight, longer in length, and bigger in head circumference, with the exception of a few age points during the first two to four months on the upper two percentile curves.Our data suggested the growth curves for breastfed infants in China were significantly different in comparison with those based on the WHO standards. The adoption of the WHO infant growth standards among Chinese infants, as well as the methods used in the development of such growth standards in China, need careful and coordinated consideration."""
+
+

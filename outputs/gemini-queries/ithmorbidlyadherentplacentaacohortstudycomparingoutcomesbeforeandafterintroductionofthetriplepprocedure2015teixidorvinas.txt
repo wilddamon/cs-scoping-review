@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: preventionofpostpartumhemorrhageandhysterectomyinpatientswithmorbidlyadherentplacentaacohortstudycomparingoutcomesbeforeandafterintroductionofthetriplepprocedure2015teixidorvinas
+"OBJECTIVES: To evaluate patient outcomes and need for further interventions in women with a morbidly adherent placenta (MAP), before and after introduction of the Triple-P procedure involving placental non-separation, myometrial excision and reconstruction of the uterine wall. METHODS: Between December 2007 and February 2014, 30 patients with MAP were treated at our center. In 2007, we instituted a policy of bilateral prophylactic occlusion balloon catheter placement in both internal iliac arteries followed by Cesarean section with non-placental separation and preservation of the uterus. In 2010, the surgical technique was modified and the Triple-P procedure introduced. As a result, 19 women in our study received the Triple-P protocol (study group) and 11 did not (control group). The quantity of blood replacement products, estimated blood loss, and necessity for uterine arterial embolization and/or hysterectomy were recorded retrospectively and compared between the two groups. RESULTS: Placenta percreta was confirmed in six (54.5%) patients in the control group and 13 (68.4%) in the study group. Estimated mean blood loss during the procedure was lower in the study group than in the control group (1.70 L vs 2.17 L, respectively), but the difference was not statistically significant (P = 0.445). The risks of postpartum hemorrhage (PPH) and hysterectomy were statistically significantly lower in the study group (PPH, 54.5% vs 15.8%; P = 0.035; hysterectomy, 27.3% vs 0.0%; P = 0.045). As a consequence, there was a significant decrease in duration of inpatient stay in the study group (P = 0.044). CONCLUSION: Introduction of the Triple-P procedure conveyed a significantly reduced rate of hysterectomy, PPH and duration of hospital stay in patients with MAP. ."""
+
+

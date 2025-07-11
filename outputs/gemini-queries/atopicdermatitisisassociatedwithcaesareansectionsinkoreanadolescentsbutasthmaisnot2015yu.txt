@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: atopicdermatitisisassociatedwithcaesareansectionsinkoreanadolescentsbutasthmaisnot2015yu
+"AIM: Studies on the associations between mode of delivery and allergic diseases have produced different results, and research has rarely been conducted in Asian countries such as South Korea. This study assessed the relationship between mode of delivery and atopic dermatitis and asthma in Korean adolescents. METHODS: Data collected from the Korea National Health and Nutrition Examination Survey between 2010 and 2011 were used. We included 1302 adolescents aged from 12 to 18 years, and multivariable logistic regression analysis was performed. RESULTS: The odds ratio (OR) of having atopic dermatitis in adolescents born by Caesarean section compared with vaginal delivery was 1.50, with a 95% confidence interval (95% CI) of 1.01-2.22, after adjusting for age and sex. The association remained significant after further adjustments for body mass index, breastfeeding and serum 25-hydroxyvitamin D level (OR = 1.61, 95% CI = 1.05-2.47) and when fat intake was added to those variables (OR = 1.80, 95% CI = 1.14-2.85). However, asthma was not associated with mode of delivery in any of the models. CONCLUSIONS: Atopic dermatitis in adolescents was associated with Caesarean delivery, which is common in South Korea. The findings suggest that the frequency of this practice should be reconsidered and that further research with longitudinal evaluation of relevant mechanisms is needed."""
+
+

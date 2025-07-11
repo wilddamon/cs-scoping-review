@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationaldiabetesmellitusisassociatedwithantenatalhypercoagulabilityandhyperfibrinolysisacasecontrolstudyofchinesewomen2022liu
+"BACKGROUND: To determine the relationship between gestational diabetes mellitus (GDM) and coagulation/fibrinolysis abnormality in antenatal Chinese women. METHODS: Case control study: 50 women had GDM and 132 did not (the NGDM group) grouping by the International Association of Diabetes and Pregnancy Study Groups (IADPSG) criteria. Maternal plasma biochemistry and previous medical history were collected from perinatal health records. Antenatal coagulation/fibrinolysis activity (CFA) parameters were assessed using thromboelastography and routine CFA parameters, respectively. Univariate and multiple regression analyses were used to evaluate the associations between GDM and CFA parameters. Maternal age, platelet, ALT, ALP, urea nitrogen, and previous history of abortion were taken as the covariables. RESULTS: The women with GDM were significantly older than those without GDM (30.3 vs. 28.6 years, p = .012). Compared with the NGDM group, the GDM group had a significantly higher prevalence of cesarean delivery (56.0 vs. 37.9%, p = .027) and higher values of fibrinogen (FIB; 4.7 vs. 4.3 g/L, p = .001), activated partial thromboplastin time (APTT; 30.9 vs. 29.5 s, p = .010).There were no significant differences in the prevalence of maternal thrombotic events or neonatal events. GDM was significantly associated with higher APTT (b =1.41 s, 95% CI: 0.29-2.53), higher FIB (b = 0.38 g/L, 95% CI: 0.14-0.61), and higher percentage reduction in clot lysis after 30 min (LY30; b = 1.14%, 95% CI: 0.15-2.13) after adjustment for potential confounding factors. CONCLUSIONS: GDM is significantly associated with hypercoagulability and hyperfibrinolysis in these antenatal Chinese women."""
+
+

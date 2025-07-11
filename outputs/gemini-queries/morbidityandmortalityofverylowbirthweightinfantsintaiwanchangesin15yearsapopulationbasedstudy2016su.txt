@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: morbidityandmortalityofverylowbirthweightinfantsintaiwanchangesin15yearsapopulationbasedstudy2016su
+"BACKGROUND/PURPOSE: Very low birth weight (VLBW) infants account for over 50% of perinatal deaths in Taiwan. This study aimed to identify changes in parental characteristics, perinatal conditions, mortality, and major neonatal morbidities for VLBW infants in Taiwan, and to highlight the challenges faced by patients, families, and caregivers. METHODS: We conducted a retrospective cohort study to investigate the mortality and morbidity of VLBW infants registered in the Taiwan Premature Infant Follow-up Network from 1997 through 2011. The exclusion criteria included congenital anomalies and chromosome anomalies. Continuous data was represented as mean +- SD, and changes over time in the variables were tested using one-way analysis of variance, with p < 0.05 considered statistically significant. RESULTS: A total of 13,159 VLBW infants were enrolled. We found significant increases over time in the parental age and educational level, in vitro fertilization, first livebirth, multiple births, maternal transfer, cesarean section, and complete antenatal steroid use. Apgar scores at 1 minute and 5 minutes after birth increased, and the intubation rate decreased gradually. Decreasing mortality over time for each successive period was demonstrated. Incidence of some morbidities increased, such as respiratory distress syndrome and patent ductus arteriosus; in contrast, incidence of others decreased, such as sepsis, necrotizing enterocolitis, intraventricular hemorrhage, and chronic lung disease. However, retinopathy of prematurity (ROP) incidence remained constant. CONCLUSION: Although the mortality and most of the morbidity of VLBW infants improved over time, the incidence of ROP remained constant. This requires us to further evaluate our strategy for preventing ROP in the future."""
+
+

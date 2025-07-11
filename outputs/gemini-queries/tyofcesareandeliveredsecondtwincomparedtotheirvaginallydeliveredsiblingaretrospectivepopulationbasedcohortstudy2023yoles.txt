@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: longtermrespiratorymorbidityofcesareandeliveredsecondtwincomparedtotheirvaginallydeliveredsiblingaretrospectivepopulationbasedcohortstudy2023yoles
+"BACKGROUND: Offspring born via cesarean delivery (CD) may be more prone to develope long-term respiratory diseases, compared to those delivered vaginally (VD). In this study, we compared the rates of respiratory diseases between first twins VD and second twins delivered via CD. METHODS: This was a retrospective database study. All twin deliveries encompassed at the Soroka University Medical Center, a large tertiary hospital in southern Israel, between 1991 and 2020, in which the first twin was VD and the second via CD were included. Respiratory diseases included respiratory tract diseases such as bronchiolitis and bronchial asthma. The cumulative incidence of respiratory diseases was compared between the twins using Kaplan-Meier survival analysis and multivariable Cox models to adjust for confounding variables. RESULTS: A total of 395,408 deliveries occurred during the study period, with 13,402 (3.4%) of all deliveries being twins. Of these, 184 (1.4%) were first twins VD and second twins delivered via CD. The second CD twin was more likely to have a non-reassuring fetal heart rate pattern and an Apgar score less than 7 at 5 min. No other differences were found between the siblings. The incidence of long-term respiratory diseases was not statistically different between the CD and VD siblings (7.6% vs. 9.4%, respectively; OR = 0.54; 95% CI: 0.23-1.26). Similarly, the cumulative incidence of respiratory diseases was not statistically different (Kaplan-Meier, log-rank, p = .59), and in the multivariable analysis which adjusted for birthweight and fetal distress during delivery (adjusted hazard ratio = 1.06; 95% CI: 0.43-26.25). CONCLUSIONS: While the immediate outcomes for the CD twin were slightly worse compared to the VD twin, there was no difference in long-term respiratory diseases between the siblings."""
+
+

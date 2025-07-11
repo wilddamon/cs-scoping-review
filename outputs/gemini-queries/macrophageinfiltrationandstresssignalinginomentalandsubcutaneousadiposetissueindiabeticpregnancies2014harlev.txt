@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: macrophageinfiltrationandstresssignalinginomentalandsubcutaneousadiposetissueindiabeticpregnancies2014harlev
+"OBJECTIVE: To examine if, as in obesity, pregnancies complicated by gestational diabetes mellitus (GDM) exhibit increased macrophage infiltration and activated MAP-kinases in omental adipose tissue.;METHODS: Paired omental (OM) and abdominal subcutaneous (SC) fat samples were collected from 11 GDM and 20 normal pregnancies during cesarean delivery. Tissues were stained to detect macrophages, and analyzed to assess MAP-kinases.;RESULTS: OM had higher macrophage counts than SC in GDM (6.10 +/- 2.20 versus 2.53 +/- 1.45, p = 0.04), but not in normal pregnancies (p = 0.346). GDM pregnancies had more macrophages than normal pregnancies in OM (6.10 +/- 2.20 versus 1.29 +/- 0.55, p = 0.01), while only a trend was observed in SC fat (p = 0.08). Significant correlation (R = 0.619, p = 0.005) was observed between OM-macrophage infiltration and insulin resistance. Using multivariate analysis, only obesity independently associated with GDM. Expression of total p38MAP-kinase was higher in OM versus SC in both normal and GDM pregnancies, without significant differences between these groups. However, expression of activated p-p38MAP-kinase, and its upstream kinase MKK4, was comparable between fat depots.;CONCLUSION: GDM pregnancies demonstrate increased macrophage infiltration to OM fat, correlating with higher insulin resistance. As in non-pregnant-patients obesity and OM macrophage infiltration may be on the same causal pathway, leading to GDM. Yet, this occurs without activation of p38MAP-kinase signaling."""
+
+

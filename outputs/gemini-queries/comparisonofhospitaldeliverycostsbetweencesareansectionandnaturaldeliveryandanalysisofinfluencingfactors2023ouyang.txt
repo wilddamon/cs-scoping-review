@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofhospitaldeliverycostsbetweencesareansectionandnaturaldeliveryandanalysisofinfluencingfactors2023ouyang
+"OBJECTIVES: The increasing costs of hospital delivery have increased the economic burden of pregnant women, and the mode of delivery is the main factor affecting the costs of hospital delivery. This study aims to explore the difference in costs between cesarean section and natural delivery, and to provide reference for controlling the increase of hospital delivery costs.;METHODS: The data of inpatient delivery in the Hunan Maternal and Child Health Care Hospital from January 2016 to December 2020 were selected to compare the total inpatient costs and average daily costs of cesarean section and natural delivery. The linear trend model was used to analyze the trend change of inpatient delivery costs and the generalized linear model was used to analyze the influential factors for inpatient delivery costs.;RESULTS: The average hospitalization costs of cesarean section (10 447.25 yuan) were higher than that of natural delivery (5 567.95 yuan), and the average daily costs of cesarean section (1 902.57 yuan) were higher than those of natural delivery (1 666.40 yuan). There was no significant increase or decrease in trend for cesarean section, while the average annual growth rate of the costs of natural delivery was 11.79%. The main factors affecting the hospitalization costs of cesarean section and natural delivery included age, occupation, medical insurance, route of admission, length of stay, premature delivery and complications (all P<0.05).;CONCLUSIONS: The total hospitalization costs and average daily costs of cesarean section are higher than those of natural delivery, but the costs of natural delivery show a faster growth trend, and the hospitalization costs of cesarean section and natural delivery should be controlled by targeted measures."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectsofmaternalbodymassindexandpluralityonmaternalandumbilicalcordserummagnesiumlevelsinpretermbirthatlessthan32weeksofgestation2021choi
+"OBJECTIVE: To evaluate the effects of maternal body mass index (BMI) and plurality on maternal and umbilical cord serum magnesium levels after antenatal magnesium sulfate treatment. METHODS: This was a retrospective cohort analysis of 135 women treated with antenatal magnesium sulfate at less than 32 weeks of gestation between January 2012 and June 2018. Subjects were stratified into groups according to maternal BMI (group I [18.5-22.9 kg/m2], group II [23.0-24.9 kg/m2], and group III [>=25.0 kg/m2]) and plurality (singleton and twin). Univariable and multivariable analyses were performed to compare the umbilical cord serum magnesium levels between the groups. RESULTS: Maternal serum magnesium levels were not significantly different between the maternal BMI groups and singleton and twin pregnancies. Umbilical cord serum magnesium levels were significantly different among the maternal BMI groups (3.3+-1.2 mg/dL in group I, 3.3+-1.2 mg/dL in group II, and 4.0+-1.4 mg/dL in group III, P=0.003). The trend of increase in magnesium levels was statistically significant (P=0.001, Jonckheere-Terpstra test). Umbilical cord serum magnesium levels were not significantly different according to plurality. However, in the multivariable analysis, maternal BMI and plurality were not significantly associated with umbilical cord serum magnesium levels after adjusting for indication and total dose of magnesium sulfate treatment, gestational age at delivery, mode of delivery, neonatal sex, and birth weight. CONCLUSION: Maternal BMI and plurality were not significantly associated with maternal or umbilical cord serum magnesium levels after exposure to antenatal magnesium sulfate treatment."""
+
+

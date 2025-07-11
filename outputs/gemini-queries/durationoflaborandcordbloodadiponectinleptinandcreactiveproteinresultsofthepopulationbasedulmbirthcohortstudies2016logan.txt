@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverymodedurationoflaborandcordbloodadiponectinleptinandcreactiveproteinresultsofthepopulationbasedulmbirthcohortstudies2016logan
+"BACKGROUND: Numerous studies have reported associations between delivery mode and health outcomes in infancy and later life. Previous smaller studies indicated a relationship between delivery mode and newborn inflammation potentially constituting a mediating factor. We aimed to determine the influence of delivery mode and duration of labor on cord blood concentrations of adiponectin, leptin, and high-sensitivity C-reactive protein (hs-CRP).;METHODS: In the Ulm SPATZ Health Study, 934 singleton newborns and their mothers were recruited during their hospital stay in the University Medical Center Ulm, Southern Germany, from 04/2012-05/2013. Inflammatory biomarkers were measured by ELISAs (n = 836). Delivery mode was analyzed categorically (elective cesarean (reference), active labor delivery: emergency cesarean, assisted vaginal, and spontaneous vaginal); duration of labor continuously. Following log-transformation, linear regression was used to estimate geometric means ratios (GMR) adjusted for potential confounders for the effects of delivery mode and duration of labor on each biomarker separately. Independent replication was sought in the similarly conducted Ulm Birth Cohort Study recruited from 11/2000-11/2001.;RESULTS: Individually, active labor delivery modes as well as increasing duration of labor were associated with higher leptin and hs-CRP concentrations. After mutual adjustment, the associations with delivery modes were attenuated but those for duration of labor remained statistically significant (GMR (95%CI) 1.10 (1.00; 1.21) and 1.15 (1.04; 1.27) for leptin and hs-CRP per hour of labor, respectively). No significant adjusted associations were observed between delivery modes and adiponectin concentrations. These findings were replicated in an independent birth cohort study.;CONCLUSIONS: Cord blood leptin and hs-CRP concentrations were associated with duration of labor rather than delivery mode. Further research is warranted to investigate these associations with additional cytokines involved in inflammatory response to delineate the inflammatory profile. Subsequently, research on determinants of these associations and their role in development of chronic disease is needed."""
+
+

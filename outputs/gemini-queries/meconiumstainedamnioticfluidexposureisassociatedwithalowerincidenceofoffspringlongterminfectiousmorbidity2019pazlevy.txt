@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: meconiumstainedamnioticfluidexposureisassociatedwithalowerincidenceofoffspringlongterminfectiousmorbidity2019pazlevy
+"OBJECTIVE: Meconium-stained amniotic fluid (MSAF) is a well-established risk factor for immediate adverse neonatal outcomes and was recently suggested to be associated with microbial invasion of the amniotic cavity. We aimed to determine whether MSAF exposure during labor carries a longer lasting impact on pediatric infectious morbidity. STUDY DESIGN: A population-based cohort analysis was performed including all singleton deliveries occurring between 1991 and 2014 at a single tertiary medical center. Exposure was defined as the presence of MSAF during labor. Hospitalizations of the offspring up to the age of 18 years involving infectious diseases were evaluated. A Kaplan-Meier survival curve was used to compare cumulative morbidity and a Cox regression model to control for confounders. RESULTS: During the study period, 243 725 deliveries met the inclusion criteria. Of them, 35 897 (14.7%) involved MSAF. Rate of infectious-related hospitalizations of the offspring was significantly lower in children exposed to MSAF as compared with the unexposed group (10.8% vs 11.1%, P < 0.05). Specifically, hospitalizations involving respiratory infections were significantly less common among the MSAF group (5.1% vs 5.6%, P < 0.001). The survival curve demonstrated significantly lower cumulative total infectious morbidity rates in the MSAF-exposed group (log rank P < 0.001). In the Cox model, controlled for maternal age, diabetes, hypertension, mode of delivery, and gestational age, exposed children exhibited lower rates of long-term childhood infectious morbidity (adjusted HR 0.96, 95% CI 0.92-0.99, P < 0.001). CONCLUSION: Fetal exposure to MSAF during labor and delivery appears to be associated with lower rates of long-term infectious-related hospitalizations in the offspring."""
+
+

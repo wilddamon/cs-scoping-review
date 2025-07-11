@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofgestationalweightgainwithcesareansectionaprospectivebirthcohortstudyinsouthwestchina2021huang
+"BACKGROUND: Cesarean section (CS) is a rising public health issue globally, and is particularly serious in China. Numerous studies have suggested that gestational weight gain (GWG) control may be an effective way to reduce the rate of CS. However, rare study has examined the association between GWG and CS among women in Southwest China. We proposed to examine their association based on a prospective birth cohort, and further to explore the optimal GWG range. METHODS: We retrieved data from a prospective birth cohort from Sichuan Provincial Hospital for Women and Children, Southwest China. Unconditional multivariable logistic regression was used to examine the association between GWG and CS by adjusting for potential confounders. In one analysis, we incorporated the GWG as a categorical variable according to the Institute of Medicine (IOM) recommendation, similar to the method used in the majority of previous studies. In the other analysis, we directly incorporated GWG as a continuous variable and natural cubic splines were used to characterize the potential nonlinear exposure-response relationship, aiming to identify the optimal GWG. We further stratified the above analysis by pre-pregnancy BMI and GDM, and then a heterogeneity test based on a multivariate meta-analysis was conducted to examine whether the stratum specific estimations agreed with each other. RESULTS: A total of 1363 participants were included. By adopting the IOM recommendation, the adjusted OR of CS was 0.63 (0.47, 0.84) for insufficient GWG and 1.42 (1.06, 1.88) for excessive GWG. After stratification by pre-pregnancy BMI, we found a higher risk of CS in associated with excessive GWG in the stratum of underweight compared with the other strata, which implied that pre-pregnancy BMI may be an effect modifier. By applying a flexible spline regression, the optimal GWG levels in terms of reducing the CS rate based on our data were more stringent than those of IOM recommendation, which were 9-12 kg for underweight women, < 19 kg for normal weight women and < 10 kg for overweight/obese women. CONCLUSIONS: These results suggested that a more stringent recommendation should be applied in Southwest China, and that more attention should be given to underweight women."""
+
+

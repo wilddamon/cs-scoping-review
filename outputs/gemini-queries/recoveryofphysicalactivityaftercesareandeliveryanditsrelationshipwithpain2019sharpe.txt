@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: recoveryofphysicalactivityaftercesareandeliveryanditsrelationshipwithpain2019sharpe
+"Pain and physical activity are tightly intertwined. Although their relationship has been explored in chronic pain conditions, we know little about the pattern of recovery in activity and its short- and long-term relationship with pain after surgery. We recruited 103 women undergoing elective cesarean delivery and acquired daily pain assessments and hourly steps in 98 of them for 2 months after surgery. Compliance was good, with 78% of subjects missing less than 7 days of activity. Study personnel required daily checking for compliance and 20 minutes per subject per week in study. Activity increased over the first 2 postoperative months in a log(time) manner. The slope of each modeled individual curve for activity was inversely correlated (r = -0.54; P < 0.0001) with worst daily pain. After removing these 2-month trends, pain and activity within an individual day were negatively associated with each point increase in pain being inversely associated with -119 steps (95% confidence interval [CI] = -214 to -25; P = 0.013). A patient's previous experience of pain was not associated with current activity as well as current activity was not associated with future pain scores. These data, although limited by the study of a single operation in a unique social circumstance with low risk of chronic postsurgical pain, demonstrate feasibility of measuring hourly activity for 2 months after surgery. Recovery from pain and inactivity are tightly correlated, and the negative relationship between within-day pain and activity without interday carryover relationships is in stark contrast to findings in chronic pain conditions."""
+
+

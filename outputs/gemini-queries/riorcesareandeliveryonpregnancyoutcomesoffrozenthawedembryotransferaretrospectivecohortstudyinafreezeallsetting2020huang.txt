@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofapriorcesareandeliveryonpregnancyoutcomesoffrozenthawedembryotransferaretrospectivecohortstudyinafreezeallsetting2020huang
+"INTRODUCTION: The association between the mode of previous delivery and subsequent success of assisted reproductive treatment has been poorly understood. By mitigating the detrimental effect of supraphysiologic estradiol levels on endometrial receptivity, a freeze-all strategy provides a novel model to investigate the sole impact of a prior cesarean delivery (CD) on embryo transfer outcomes. MATERIAL AND METHODS: This single-center retrospective cohort study included 2660 patients who underwent their first frozen-thawed embryo transfer cycles after a freeze-all policy from January 2013 to December 2018. Patients with a history of live birth by CD were assigned to the CD group, and those with only vaginal delivery (VD) were categorized into the VD group. The primary outcome measure was live birth. Baseline characteristics of the two groups were balanced by propensity score matching in a ratio of 1:1. Univariate and multivariate logistic regression analyses were performed using the after-matching data. RESULTS: Compared with the VD group, the rates of clinical pregnancy (38.3% vs 44.5%; P = .005) and live birth (27.5% vs 33.4%; P = .003) were significantly lower in women with a history of CD. When adjusted for a number of major confounding factors, the negative association between a prior CD and frozen-thawed embryo transfer success was maintained, with the adjusted odds ratio (OR) being 0.80 (95% CI 0.66-0.96) and 0.78 (95% CI 0.63-0.95) for clinical pregnancy and live birth, respectively. Furthermore, a CD history conferred a marginally increased risk of early miscarriage (crude OR 1.48, 95% CI 1.04-2.11; adjusted OR 1.47, 95% CI 1.01-2.14), whereas the odds of multiple and ectopic pregnancy did not show significant differences before and after adjustment. CONCLUSIONS: A prior CD was associated with a decreased chance of live birth and an increased risk of early miscarriage in frozen-thawed embryo transfer cycles."""
+
+

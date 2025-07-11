@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: studyonthephysicalfactorsrelatedtotheexposuredosetoorgansatriskfromradiotherapyforcervicalcancerpatients2022zhang
+"Background: This research was performed to analyze the relationship among the physical factors of cervical cancer patients and the V40-x (volume of the x receiving 40 Gy, x is replaced by bladder or rectum below). In addition, the methods to control the factors affecting these related physical parameters are comprehensively discussed so that the side effects of radiotherapy can be reduced. Material(s) and Method(s): Sixty cervical cancer patients treated with volume-modulated-arc therapy (VMAT) were selected. Related physical parameters of the planning target volume (PTV), rectum, and bladder were collected. The Spearman analysis method was used to discuss the relationship between the physical parameters and V40-x. Result(s): The parameter of Dmax-rectum (max dose of rectum) and Vbladder (volume of the bladder) were significantly negatively correlated with V40-rectum and V40-bladder, respectively. In addition, we found three dosimetric parameters and four parameters were significantly positively correlated with V40-rectum and V40-bladder. A reduction in V40-x of the organs at risk (OARs) was also displayed in the redesigned planning dose images and the dose-volume histograms (DVH). Conclusion(s): It is recommended that patients maintain a filled bladder during localization and radiotherapy. It is also recommended that patients maintain an empty rectum during localization and radiotherapy to ensure the stability of the target. According to the correlation of the physical parameters obtained from the results, medical physics can reduce the V40-x more easily during planning design by specifically controlling some physical parameters, and this can reduce radiation toxicity more effectively.Copyright (c) 2022 Novin Medical Radiation Institute. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: appearanceofsleepcyclingafterbirthintermneonatesanelectrophysiologicstudy2020abramsky
+"BACKGROUND: Appearance of sleep cycling has been associated with good outcome in term and preterm infants, but the normal time of its appearance has not been determined. The objectives of this study were, to correlate the time of sleep cycling appearance and the length of quiet sleep in neonates with different degrees of mild perinatal stress.;METHODS: Three groups of term infants recorded with aEEG after birth were studied: infants delivered by planned cesarean section (group 1), infants with mild perinatal stress (group 2) and infants with mild neonatal encephalopathy (group 3). Groups were correlated with the appearance and length of quiet sleep.;RESULTS: In all, 132 infants were assessed. Quiet sleep appearance differed significantly between groups (p < 0.001). All infants in group 1 developed quiet sleep before the age of 6 h compared to 81% in group 2 and 52% in group 3 (p < 0.001). No differences in the quiet sleep length was found between groups. Belonging to group 3 (p < 0.001) and 1-min Apgar score (p = 0.002) significantly predicted a delay in appearance of the first quiet sleep period. Cesarean delivery significantly predicted an earlier appearance of quiet sleep (p < 0.001).;CONCLUSIONS: Appearance of quiet sleep after birth but not its length may be delayed in case of mild perinatal stress."""
+
+

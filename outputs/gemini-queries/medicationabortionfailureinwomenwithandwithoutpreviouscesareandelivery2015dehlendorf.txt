@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: medicationabortionfailureinwomenwithandwithoutpreviouscesareandelivery2015dehlendorf
+"OBJECTIVE: To investigate the association between previous cesarean delivery and medication abortion failure and the association between parity and failure.;METHODS: Data were abstracted from 2035 consecutive charts of women who underwent medication abortion in 2011. All women were at 63 days gestation or less and received mifepristone 200mg orally and misoprostol 800 mcg buccally. We used multivariate logistic regression to assess the relationship between failure, defined as requiring either curettage or additional medication, and prior cesarean delivery. We also examined the relationship between failure and parity.;RESULTS: Follow-up was available on 1609 (79%) patients. Overall, 4.5% of patients experienced failure. Neither cesarean delivery nor parity was associated with failure; 6.5% of women with prior cesarean delivery experienced failure, compared to 3.7% of nulliparous women [adjusted odds ratio (aOR), 1.79, 95% confidence interval (CI), 0.83-3.87]. With regard to parity, 4.7% of women with two or more previous births experienced failure, compared to 3.7% of nulliparous women (aOR, 1.07, 95% CI, 0.54-2.14).;CONCLUSION: We did not find significant associations between prior cesarean delivery and failure or parity and failure. A previous study of patients who had received a less effective regimen reported significant associations between cesarean delivery and failure and parity and failure. While our results do not rule out the possibility of modest associations due to our limited statistical power, they are reassuring relative to previous findings.;IMPLICATIONS: Our results suggest that if there are differences in women's odds of medication abortion failure by obstetric history, such differences are unlikely to be large. Providers and patients may factor this information into decision making about methods of pregnancy termination. Copyright (c) 2015 Elsevier Inc. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postdatesinductionwithanunfavorablecervixandriskofcesarean2019mccoy
+"Objective: To determine the risk of cesarean delivery associated with postdates induction (>=41 weeks) compared to term induction (37-40w6d) among women with an unfavorable cervix, and to examine the risk factors associated with cesarean among women undergoing postdates induction. Methods: A planned secondary analysis of a large prospective cohort study on induction (n = 854) was performed. Women with a singleton gestation, intact membranes, and an unfavorable cervix (Bishop score of <=6 and dilation <=2 cm) who were undergoing a term (>=37 weeks) induction for any indication were included. Women with a prior cesarean were excluded. The primary outcome was cesarean delivery. Relative risk of cesarean was estimated using a modified Poisson's regression model. Results: There was a significantly increased risk of cesarean for women undergoing postdates induction (n = 154) compared to women 37-40w6d (n = 700), (46.8 versus 26.0%, p < .001). This increased risk of cesarean remained after adjustment for race, parity, and pregnancy-related hypertension (aRR 1.70 [1.39-2.09], p < .001). Risk factors independently associated with cesarean among women >=41 weeks included nulliparity (aRR 3.38 95%CI (2.42-4.74)), BMI >=30 (aRR 1.72 95%CI (1.34-2.21)), and starting cervical dilation <1 cm (aRR 1.37 95%CI (1.11-1.70)). Conclusions: Women >=41 weeks undergoing an induction with an unfavorable cervix are at a significantly increased risk of cesarean compared to women 37-40w6d, with nulliparity, obesity, and cervical dilation <1 cm being independent risk factors. These data can be used to augment patient counseling and support the ongoing discussion regarding the risk of post dates induction."""
+
+

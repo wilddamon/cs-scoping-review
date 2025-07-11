@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenapreviousuneventfulvaginaldeliveryofamacrosomicneonateandfutureshoulderdystocia2021rottenstreich
+"OBJECTIVE: To examine the association between vaginal delivery of a previous macrosomic neonate (birthweight (BW)>= 4000) among non-diabetic women and the rate of shoulder dystocia (SD) in the subsequent pregnancy. STUDY DESIGN: A historical prospective cohort study in a university affiliated medical center from 2005 to 2019. Women who had a singleton pregnancy and two consecutive deliveries in our medical center were included. Women with previous GDM, SD or cesarean delivery were excluded. Univariate analysis was followed by multivariate logistic regression. RESULTS: A total of 38,942 women were included. SD incidence among the subsequent pregnancies was 0.44 % (172 women). In univariate analysis women with previous delivery of large neonates: BW>=90th percentile for gestational age and BW >= 4000 g had higher risk for subsequent SD (odds ratio 2.69 [95 % confidence interval 1.89-3.84], p < 0.01 and 2.71 [1.66-4.44], p < 0.01, respectively). However, a backward stepwise multivariate logistic regression model adjusted for significant confounders for SD in the univariate analysis, showed that women with a previous delivery of macrosomic neonate >=4000 g were not found to have higher or lower risk for SD in the subsequent delivery. CONCLUSION: Previous uneventful delivery of a macrosomic neonate to a non-diabetic mother should not be regarded as a risk factor for SD in the subsequent delivery."""
+
+

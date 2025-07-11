@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: choiceofprophylacticantibioticsandsurgicalsiteinfectionsaftercesareandelivery2018kawakita
+"OBJECTIVE: To examine the rate of surgical site infection according to the choice of antibiotics in women undergoing cesarean delivery. METHODS: We conducted a retrospective cohort study of women undergoing cesarean delivery (labored, unlabored, and scheduled) from 2012 to 2017. Women with chorioamnionitis and those who did not receive any antibiotics were excluded. Our primary outcome was defined a priori as a composite of cellulitis, endometritis, deep wound infection, abdominopelvic abscess, and sepsis. Outcomes were examined according to the choice of antibiotics: cefazolin, a standard alternative (both clindamycin and gentamicin), and inappropriate alternatives (such as clindamycin only). A multivariable logistic regression model was used to calculate the propensity score for each observation, which was the probability of receiving a particular antibiotic regimen. The propensity score-adjusted logistic regression models were conducted to calculate adjusted odds ratios (ORs) and 95% CIs. Firth's penalized likelihood approach was applied to address issues of rare events. RESULTS: Among 6,584 selected women, 6,163 (93.6%), 274 (4.2%), and 147 (2.2%) received cefazolin, a standard alternative, and inappropriate alternatives, respectively. Use of standard alternative antibiotics compared with cefazolin was not associated with increased odds of the primary outcome (crude OR 1.50 [0.92-2.46]; adjusted OR 1.63 [0.97-2.60]) but was associated with increased odds of cellulitis (crude OR 2.07 [1.16-3.70]; adjusted OR 1.93 [1.03-3.31]). Use of inappropriate alternative antibiotics compared with cefazolin was associated with increased odds of the primary outcome (crude OR 4.37 [2.80-6.83]; adjusted OR 4.13 [2.59-6.36]) as well as some components of the composite outcome such as endometritis before discharge (crude OR 6.85 [3.94-11.90]; adjusted OR 6.68 [3.69-11.44]) and cellulitis (crude OR 3.36 [1.78-6.34]; adjusted OR 3.23 [1.63-5.81]). CONCLUSION: Both standard alternative and inappropriate alternatives were associated with increased odds of surgical site infections compared with cefazolin."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofplannedcaesareandeliveryandplannedvaginaldeliveryinwomenwithatwinpregnancyanationwidecohortstudy2018goossens
+"OBJECTIVE: To compare, in women with twin pregnancy with the first twin in cephalic position, neonatal morbidity and mortality rates after planned caesarean delivery (CD) versus planned vaginal delivery (VD). STUDY DESIGN: A nationwide cohort study on women pregnant with twins and the first child in cephalic position, who delivered between 32 + 0-41 + 0 weeks between 2000 and 2012 in the Netherlands, using multivariate logistic regression analysis to compare neonatal morbidity and mortality according to planned delivery mode, and looking at subgroups 32 + 0-36 + 6 and 37 + 0-41 + 0 weeks. RESULTS: We included 21,107 women, of whom 1384 (6.6%) had a planned CD. Of the 19,723 women (93.4%) who had a planned VD, 19.7% delivered by intrapartum CD. We found no significant differences in 'any mortality' (aOR planned CD vs. planned VD 1.34 (95% CI 0.63-2.60)), the outcome 'Apgar score (AS) < 4 or death within 28 days' (aOR 1.28 (95% CI 0.77-2.11) or asphyxia-related morbidity (aOR 0.57 (95% CI 0.32-1.03)). After planned CD more prematurity-related morbidity (aOR 1.55 (95% CI 1.21-1.98)), other morbidity (aOR 1.50 (95% CI 1.26-1.78)) and 'any morbidity or mortality' (aOR 1.41 (95% CI 1.20-1.66) was noted. Trauma-associated morbidity was absent after planned CD and occurred 45 times (0.2%) after planned VD. Before 36 + 6 weeks, planned CD resulted in more perinatal mortality (aOR 2.10 (95% CI 0.92-4.76)), while asphyxia-related morbidity did not differ (aOR 0.80 (95% CI 0.41-1.54). Planned CD resulted in more 'any morbidity or mortality' (aOR 1.52 (95% CI 1.25-1.84)), 'AS < 4 or death within 28 days' (aOR 1.77 (95% CI 1.02-3.09)), prematurity-related morbidity (aOR 1.73 (95% CI 1.34-2.23)), and 'other morbidity' (aOR 1.56 (95% CI 1.28-1.90)). After 37 weeks, no significance differences in mortality, 'any morbidity or mortality <28 days' (aOR 0.96 (95% CI 1 (0.67-1.38)), or 'AS < 4 or death within 28 days' (aOR 0.41 (95% CI (0.10-1.70)) were found. There was less asphyxia-related morbidity after planned CD (aOR 0.24 (95% CI 0.06-1.002)). CONCLUSION: Planned VD results in comparable neonatal outcomes as planned CD for twin pregnancy with the first twin in cephalic position, even with a low intrapartum CD rate of 19.7%. At term, a planned CD may result in less asphyxia- and trauma-related outcomes."""
+
+

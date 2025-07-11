@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: interpregnancyweightchangeandadversematernaloutcomesaretrospectivecohortstudy2017lynes
+"PURPOSE: Examine associations between interpregnancy body mass index (BMI) change (difference in the pre-pregnancy BMIs of two consecutive pregnancies) and gestational diabetes mellitus (GDM), pre-eclampsia (PE), gestational hypertension (GHtn), primary cesarean delivery, and vaginal birth after cesarean delivery (VBAC). METHODS: Modified Poisson regression models estimated adjusted associations. RESULTS: Every 1-unit increase in interpregnancy BMI increased risks of GDM (relative risk [RR]: 1.09; 95% confidence interval [CI], 1.07-1.11), PE (RR: 1.06; 95% CI, 1.04-1.09), GHtn (RR: 1.08; 95% CI, 1.06-1.10), and primary cesarean delivery (RR: 1.03; 95% CI, 1.01-1.05) and decreased the risk of a successful VBAC (RR: 0.98; 95% CI: 0.97-0.997) in the second pregnancy. A BMI increase of >=3 units increased risks of GDM (RR: 1.71, 95% CI, 1.52-1.93), PE (RR: 1.60, 95% CI, 1.33-1.94), GHtn (RR: 1.66, 95% CI, 1.42-1.94), and primary cesarean delivery (RR: 1.29, 95% CI, 1.12-1.49) and decreased the risk of a successful VBAC (RR: 0.89; 95% CI, 0.80-0.99) compared to women with interpregnancy BMI change within -1 and +1 unit. GDM was also increased among women increasing their BMI by >=2 but <3 units (RR: 1.40; 95% CI, 1.21-1.61) and among those gaining >=1 but <2 units (RR: 1.23; 95% CI, 1.08-1.40). CONCLUSION: An interpregnancy BMI increase of >=3 units is associated with an increased risk of all outcomes. These findings emphasize the importance of interpregnancy weight management."""
+
+

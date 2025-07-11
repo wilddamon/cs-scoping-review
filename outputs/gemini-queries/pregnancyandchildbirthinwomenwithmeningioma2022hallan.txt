@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyandchildbirthinwomenwithmeningioma2022hallan
+"Background Ten percent of women of childbearing age have histologically confirmed meningioma. To date, little is known regarding pregnancy-related outcomes for women with meningioma. Methods We used a de-identified database network (TriNetX's Research Network, https://trinetx.com/) to gather information on pregnant patients with meningioma (cohort 1) versus pregnant patients without meningioma (cohort 2). The primary outcome of interest included the impact of meningioma on mortality at one year. Secondary endpoints included ectopic or molar pregnancy, cesarean section, abortion, preterm labor, depression, pre-eclampsia/eclampsia, and craniotomy. Odds ratios (OR) with 95% confidence intervals (CI) were used to measure levels of association between each cohort and the outcomes of interest. Results A total of 1,739 patients were identified in each cohort following propensity-score matching. Mortality was seen in 23 patients (1.32%) in cohort 1 versus 26 patients (1.41%) in cohort 2 (OR 0.88, 95% CI {0.50, 1.55}, p=0.66). Ectopic/ molar pregnancy was seen in 31 (1.78%) versus 42 (2.42%) patients in cohorts 1 and 2, respectively (OR 0.73, 95% CI {0.046,1.17}, p=0.19). Cesarean section was seen in 126 (7.25%) versus 164 (9.43%) patients, respectively (OR 0.75, 95% CI {0.59,0.97}, p=0.020). Abortion was seen in 128 (7.36%) versus 183 (10.52%) patients, respectively (OR 0.68, 95% CI {0.53,0.86}, p=0.0011). Preterm labor was seen in 75 (4.31%) versus 119 (6.84%) patients, respectively (OR 0.61, 95% CI {0.46,0.83}, p=0.0012). Depression was seen in 258 (14.84%) versus 270 (15.53%) patients, respectively (OR 0.95, 95% CI {0.79,1.14}, p=0.57). Pre-eclampsia/eclampsia was seen in 3.11% versus 5.52% patients, respectively (OR 0.55, 95% CI {0.39,0.77}, p=0.0005). Craniotomy was seen in 74 (4.26%) versus 0 (0%) patients in cohort 1 and cohort 2, respectively. Conclusion Patients with meningioma were not at higher risk for pregnancy complications, including ectopic/molar pregnancy, cesarean section, abortion, preterm labor, pre-eclampsia/eclampsia, and mortality, compared to their non-meningioma counterparts. Still, coordinated care by neurosurgical and obstetrical providers may benefit women with meningiomas who are planning for pregnancy or are currently pregnant."""
+
+

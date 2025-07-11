@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlyweightlossnomogramsforformulafednewborns2015miller
+"OBJECTIVES: To develop nomograms depicting percentiles of weight loss by hour of age for both vaginal and cesarean-delivered newborns who are exclusively formula fed. METHODS: Data regarding delivery mode, race/ethnicity, feeding type, and weights were extracted from electronic medical records of the birth hospitalization at 14 Kaiser Permanente Northern California hospitals between 2009 and 2013. Newborns whose first feeding was formula from a cohort of 161 471 healthy, term, singleton neonates born at >=36 weeks' gestation between 2009 and 2013 were identified. Quantile regression was used to create nomograms stratified according to delivery mode; percentiles of weight loss were estimated as a function of time among formula-fed neonates. Weights measured subsequent to any breast milk feeding were excluded. Percentiles were determined through 48 and 72 hours of age for those born vaginally and via cesarean delivery, respectively. RESULTS: A total of 7075 formula-fed newborns had weights recorded; 4525 were delivered vaginally, and 2550 were born via cesarean delivery. The median weight loss was 2.9% at 48 hours after vaginal delivery; weight loss>7% was rare. For cesarean-delivered neonates, median weight losses at 48 and 72 hours were 3.7% and 3.5%, respectively; weight loss>8% was rare. CONCLUSIONS: For newborns who are formula fed, these results provide nomograms depicting percentiles of weight loss according to mode of delivery. These plots can be used to classify early weight loss according to percentile and may enable early identification of feeding difficulties or other neonatal morbidities."""
+
+

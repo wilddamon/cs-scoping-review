@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgainandbirthoutcomeacomparisonofmethodsofaccountingforgestationalage2022richards
+"Cross-sectional studies of total gestational weight gain (GWG) and perinatal outcomes have used different approaches to operationalize GWG and adjust for duration of gestation. Using birth records from California (2007-2017), Nevada (2010-2017), and Oregon (2008-2017), we compared 3 commonly used approaches to estimate associations between GWG and cesarean delivery, small-for-gestational-age birth, and low birth weight (LBW): 1) the Institute of Medicine-recommended GWG ranges at a given gestational week, 2) total weight gain categories directly adjusting for gestational age as a covariate, and 3) weight-gain-for-gestational-age z scores derived from an external longitudinal reference population. Among 5,461,130 births, the 3 methods yielded similar conclusions for cesarean delivery and small-for-gestational-age birth. However, for LBW, some associations based on z scores were in the opposite direction of methods 1 and 2, paradoxically suggesting that higher GWG increases risk of LBW. This was due to a greater proportion of preterm births among those with high z scores, and controlling for gestational age in the z score model brought the results in line with the other methods. We conclude that the use of externally derived GWG z scores based on ongoing pregnancies can yield associations confounded by duration of pregnancy when the outcome is strongly associated with gestational age at delivery."""
+
+

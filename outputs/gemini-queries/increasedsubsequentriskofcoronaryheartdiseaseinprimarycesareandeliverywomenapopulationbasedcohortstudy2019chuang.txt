@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasedsubsequentriskofcoronaryheartdiseaseinprimarycesareandeliverywomenapopulationbasedcohortstudy2019chuang
+"BACKGROUND: Impacts of delivery modes on the subsequent risk of coronary heart disease (CHD) in pregnant women have not been elucidated. MATERIALS AND METHODS: Data of women who had undergone cesarean delivery (CD cohort) or vaginal delivery (VD cohort) between January 2000 and December 2012 from Taiwan Health Insurance Database were analyzed. All subjects were tracked until December 31, 2013. For women with multiple deliveries, only the first delivery data were included. Study end point was the diagnosis of new-onset CHD after delivery. RESULTS: In total, 51,765 subjects (CD cohort: n = 17,839; VD cohort: n = 33,926) were included. During 1-14 years of follow-up, the incidence rate of new-onset CHD in the CD cohort was significantly higher than in the VD cohort (1.3% [231/17,839] vs. 0.8% [257/33,926], p < 0.001; effect size: 0.30). Analysis revealed that the subsequent risk of CHD in the CD cohort was significantly higher than in the VD cohort (adjusted hazard ratio [HR] = 1.28, 95% confidence intervals [CI]: 1.06-1.55, p = 0.012). We performed sensitivity tests by excluding subjects who had undergone CD due to nonmedical reasons from the CD cohort. The remaining subjects were named as the *CD cohort. Analysis also revealed a higher subsequent risk of CHD in the *CD cohort than in the VD cohort (adjusted HR = 1.32, 95% CI: 1.08-1.60, p = 0.006). CONCLUSIONS: Women who had undergone primary CD, especially those who had undergone CD due to medical reasons, were associated with an ~30% higher risk of CHD than those who had undergone VD."""
+
+

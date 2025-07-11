@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: infantgrowthandtheoccurrenceofdevelopmentaldefectsofenamelin12yearolds2015wong
+"BACKGROUND/AIMS: To investigate the association between birth weight and infant growth during the first year of life and the occurrence of developmental defects of enamel (DDE) in permanent dentition. METHODS: A random sample of 668 12-year-old students was recruited from a birth cohort. Permanent incisors and first molars were clinically examined for DDE using the modified FDI (DDE) index. Multivariable negative binomial regression was used to examine the association of growth trajectory (five categories) from birth to 12 months with the occurrence of DDE (any defects, demarcated opacities, diffuse opacities, and hypoplasia) in the permanent dentition. RESULTS: The response rate was 76.9% (n = 514). Four hundred and eighty-five children had complete records of growth- and health-related data. In the unadjusted model, infants who had birth weights closer to the WHO average and rapid growth were more likely to have 'demarcated opacities' (p < 0.05), and the first 3 months of life was the 'critical period' to develop 'demarcated opacities' in permanent dentition. However, after adjusting for the confounders (gender, gestational age, mode of delivery, type of feeding, parental education, and health status), significant association with the occurrence of 'demarcated opacities' (p < 0.05) remained only for the children of trajectory V (heavier birth weights and rapid growth); no 'critical period' was found to be significantly associated with DDE. CONCLUSIONS: Infants with heavy birth weight and rapid growth during the first year of life were more vulnerable to the occurrence of DDE in terms of demarcated opacities in their permanent dentition."""
+
+

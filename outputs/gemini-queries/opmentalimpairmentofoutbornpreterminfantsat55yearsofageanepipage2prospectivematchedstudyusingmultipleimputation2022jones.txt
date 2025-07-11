@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: survivalandneurodevelopmentalimpairmentofoutbornpreterminfantsat55yearsofageanepipage2prospectivematchedstudyusingmultipleimputation2022jones
+"OBJECTIVE: To determine whether birth outside a level-3 centre (outborn) is associated with a difference in the combined outcome of mortality or moderate-to-severe neurological impairment at 5.5 years of age compared with birth in a level-3 centre (inborn) when antenatal steroids and gestational age (GA) are accounted for. DESIGN: Individual matched study nested within a prospective cohort. Each outborn infant was matched using GA and antenatal steroids with a maximum of four inborns. Conditional logistic regression was used to calculate ORs before being adjusted using maternal and birth characteristics. Analyses were carried out after multiple imputation for missing data. SETTING: EPIPAGE-2 French national prospective cohort including births up to 34 weeks GA inclusive. PATIENTS: Outborn and inborn control infants selected between 24 and 31 weeks GA were followed in the neonatal period and to 2 and 5.5 years. 3335 infants were eligible of whom all 498 outborns and 1235 inborn infants were included-equivalent to 2.5 inborns for each outborn. MAIN OUTCOME MEASURE: Survival without moderate-to-severe neurodevelopmental impairment at 5.5 years. RESULTS: Chorioamnionitis, pre-eclampsia, caesarian birth and small-for-dates were more frequent among inborns, and spontaneous labour and antepartum haemorrhage among outborns. There was no difference in the main outcome measure at 5.5 years of age (adjusted OR 1.09, 95% CI 0.82 to 1.44); sensitivity analyses suggested improved outcomes at lower GAs for inborns. CONCLUSION: In this GA and steroid matched cohort, there was no difference in survival without moderate-to-severe neurodevelopmental impairment to 5.5 years of age between inborn and outborn very preterm children. This suggests steroids might be important in determining outcomes."""
+
+

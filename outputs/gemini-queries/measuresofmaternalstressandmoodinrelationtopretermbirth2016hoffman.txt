@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: measuresofmaternalstressandmoodinrelationtopretermbirth2016hoffman
+"OBJECTIVE: To investigate the relationships between psychological and physiologic measures of stress, mood, and gestational age at delivery and preterm birth. METHOD(S): This prospective cohort study recruited healthy women in the early second trimester who were 18-45 years of age. Validated psychological measures of perceived stress, depressive symptoms, and anxiety were completed at 16, 22, 28, 34, and 40 weeks of gestation. Cortisol concentration was measured in maternal hair at 16, 28, and 40 weeks of gestation to approximate first-, second-, and third-trimester levels of physiologic stress. Statistical methods included: analyses of variance, t tests, x2, Pearson correlations, regression modeling, and mediation analysis as appropriate. Hair cortisol concentrations were natural log-transformed to normalize values. RESULT(S): Eleven (12%) of the 90 included women had a spontaneous preterm birth or preterm premature rupture of membranes. Perceived stress at 16 weeks of gestation correlated with both second-trimester cortisol concentration (r50.28, P5.007) and earlier gestational age at delivery (r520.30, P,.01). Gestational age at delivery was also negatively correlated with cortisol concentration in the second trimester (r520.25, P5.02) and second-trimester cortisol concentration was higher in preterm-(2.760.4 log-transformed pg/mg) compared with term-(2.060.7 log-transformed pg/mg, P,.001) delivered women. Using mediation statistics, the association between the psychological measure, the physiologic measure, and gestational age at delivery was mainly driven by increased physiologic stress (hair cortisol concentration) in the second trimester (difference in coefficients [standard error]520.05 [0.02]). CONCLUSION(S): Higher perceived stress in the second trimester is associated with both elevated secondtrimester hair cortisol concentration and gestational age at delivery. Physiologic measure of stress in the second trimester appears most strongly associated with preterm birth. Identification and amelioration of early pregnancy stressors may attenuate physiologic stress and ultimately affect preterm birth.Copyright (c) 2016 by The American College of Obstetricians and Gynecologists. Published by Wolters Kluwer Health, Inc. All rights reserved."""
+
+

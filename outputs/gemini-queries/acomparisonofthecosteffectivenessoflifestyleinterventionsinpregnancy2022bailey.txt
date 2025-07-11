@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparisonofthecosteffectivenessoflifestyleinterventionsinpregnancy2022bailey
+"OBJECTIVES: Lifestyle interventions during pregnancy improve maternal and infant outcomes. We aimed to compare the cost-effectiveness of 4 antenatal lifestyle intervention types with standard care.;METHODS: A decision tree model was constructed to compare lifestyle intervention effects from a novel meta-analysis. The target population was women with singleton pregnancies and births at more than 20 weeks' gestation. Interventions were categorized as diet, diet with physical activity, physical activity, and mixed (lacking structured diet and, or, physical activity components). The outcome of interest was cost per case prevented (gestational diabetes, hypertensive disorders in pregnancy, cesarean birth) expressed as an incremental cost-effectiveness ratio (ICER) from the Australian public healthcare perspective. Scenario analyses were included for all structured interventions combined and by adding neonatal intensive care unit costs. Costs were estimated from published data and consultations with experts and updated to 2019 values. Discounting was not applied owing to the short time horizon.;RESULTS: Physical activity interventions reduced adverse maternal events by 4.2% in the intervention group compared with standard care and could be cost saving. Diet and diet with physical activity interventions reduced events by 3.5% (ICER = A$4882) and 2.9% (ICER = A$2020), respectively. Mixed interventions did not reduce events and were dominated by standard care. In scenario analysis, all structured interventions combined and all interventions when including neonatal intensive care unit costs (except mixed) may be cost saving. Probabilistic sensitivity analysis showed that for physical activity and all structured interventions combined, the probability of being cost saving was 58% and 41%, respectively.;CONCLUSIONS: Governments can expect a good return on investment and cost savings when implementing effective lifestyle interventions population-wide. Copyright (c) 2021 ISPOR-The International Society for Pharmacoeconomics and Outcomes Research, Inc. Published by Elsevier Inc. All rights reserved."""
+
+

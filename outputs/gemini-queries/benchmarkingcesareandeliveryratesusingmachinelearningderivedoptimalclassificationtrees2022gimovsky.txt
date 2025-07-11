@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: benchmarkingcesareandeliveryratesusingmachinelearningderivedoptimalclassificationtrees2022gimovsky
+"OBJECTIVE: To establish a case-adjusted hospital-specific performance evaluation tool using machine learning methodology for cesarean delivery. DATA SOURCES: Secondary data were collected from patients between January 1, 2015 and February 28, 2018 using a hospital's 'Electronic Data Warehouse' database from Illinois, USA. STUDY DESIGN: The machine learning methodology of optimal classification trees (OCTs) was used to predict cesarean delivery rate by physician group, thereby establishing the case-adjusted benchmarking standards in comparison to the overall hospital cesarean delivery rate. Outcomes of specific patient populations of each participating practice were predicted, as if each were treated in the overall hospital environment. The resulting OCTs estimate physician group expected cesarean delivery outcomes, both aggregate and in specific clinical situations. DATA COLLECTION/EXTRACTION METHODS: Twelve thousand eight hunderd and forty one singleton, vertex, term deliveries, cared for by practices with >=50 births. PRINCIPAL FINDINGS: The overall rate of cesarean delivery was 18.6% (n = 2384), with a range of 13.3%-33.7% amongst 22 physician practices. An optimal decision tree was used to create a prediction model for the hospital overall, which defined 23 patient cohorts divided by 46 nodes. The model's performance for prediction of cesarean delivery is as follows: area under the curve 0.73, sensitivity 98.4%, specificity 16.1%, positive predictive value 83.7%, negative predictive value 70.6%. Comparisons with the overall hospital's specific-case adjusted benchmark groups revealed that several groups outperformed the overall hospital benchmark, and some practice groups underperformed in comparison to the overall hospital benchmark. CONCLUSIONS: OCT benchmarking can assess physician practice-specific case-adjusted performance, both overall and clinical situation-specific, and can serve as a valuable tool for hospital self-assessment and quality improvement."""
+
+

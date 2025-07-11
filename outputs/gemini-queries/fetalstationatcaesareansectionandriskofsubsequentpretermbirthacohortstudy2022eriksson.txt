@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalstationatcaesareansectionandriskofsubsequentpretermbirthacohortstudy2022eriksson
+"OBJECTIVES: An increased risk of preterm birth (PTB) following a caesarean section (CS) in the second stage of labor has been demonstrated. We aimed to investigate the relationship between the station of the presenting fetal part and the surgical technique at first CS, and the risk of subsequent PTB. STUDY DESIGN: This was a cohort study of 11,850 women in Sweden, delivered by CS in 2001-2007 at any of 23 birth units, with a second delivery in 2001-2009. Clinical information was retrieved from electronic birth records linked to national health registers. The risk of subsequent PTB was analyzed by fetal station, defined as low (at or below the ischial spines) or high (above the ischial spines), and aspects of the surgical technique at index CS. Associations were explored with logistic regression and results are presented as odds ratios (ORs) with 95% confidence intervals (CIs), by type and severity (very early < 32 gestational weeks and moderate preterm 32-36 gestational weeks) of PTB. Multiple logistic regression included adjustments for maternal age, gestational age at first delivery, and inter-delivery interval. RESULTS: Out of 11,850 women delivered by CS, 1,016 (8.6%) delivered preterm in their subsequent pregnancy. There was an increased likelihood of spontaneous PTB, but not with medically indicated PTB, after an index CS with the fetal presenting part at a low station (aOR 1.61, 95% CI 1.23-2.11). CS performed at a low station was associated with birth < 32 gestational weeks (aOR 1.73, 95% CI 1.05-2.84) and birth at 32-36 gestational weeks (aOR 1.29, 95% CI 1.00-1.65), compared with high fetal station. Thickness of the uterine wall, incision type, and closure of the uterus at index CS did not affect the risk. CONCLUSION: A primary CS at a low station was associated with a subsequent spontaneous PTB, but not medically indicated PTB. Surgical technique at index CS did not alter the risk."""
+
+

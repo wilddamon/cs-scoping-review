@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrapartumfeverandtheriskforperinatalcomplicationstheeffectoffeverdurationandpositivecultures2018ashwal
+"OBJECTIVE: To estimate the association between intrapartum fever and adverse perinatal outcome. METHODS: A retrospective cohort study of women attempting vaginal delivery at term in a tertiary hospital (2012-2015). Perinatal outcome of deliveries complicated by intrapartum fever (>=38.0 degC) were compared to women with no intrapartum fever matched by parity and gestational age at delivery in a 1:2 ratio. Maternal outcome included cesarean section (CS), operative vaginal delivery (OVD), retained placenta or post-partum hemorrhage. Neonatal outcome included 5-minute Apgar score <7, umbilical artery pH <7.1, meconium aspiration syndrome, need for mechanical ventilation or hypoxic ischemic encephalopathy. RESULTS: Overall, 309 women had intrapartum fever and 618 served as controls. Women with intrapartum fever had higher rates of OVD (34.3 versus 19.6%, p < .001) and CS (20.7 versus 8.7%, p < .001). In multivariate analysis, intrapartum fever was independently associated with adverse maternal (3.75, 95%CI 2.65-5.30, p < .001) and neonatal outcome (3.39, 95%CI 1.78-6.45, p < .001). In febrile women, fever duration was related to maternal complications, specifically to CS. In addition, maternal bacteremia and positive placental cultures were risk factors for neonatal complications compared to those with negative cultures (23.3 versus 9.8%, p = .01). CONCLUSIONS: Intrapartum fever was associated with adverse perinatal complications. The duration of intrapartum fever, maternal bacteremia, and positive cultures further increase this risk."""
+
+

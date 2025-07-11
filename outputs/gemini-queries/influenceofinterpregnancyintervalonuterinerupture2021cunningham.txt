@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: influenceofinterpregnancyintervalonuterinerupture2021cunningham
+"OBJECTIVE: This study aims to assess the independent influence of interpregnancy interval (IPI) on uterine rupture using a population-based cohort of all Ohio births, regardless of prior cesarean (PCS) or trial of labor (TOL) status. STUDY DESIGN: Population-based retrospective cohort study of all live births in Ohio (2006-2012). Frequency of uterine rupture was quantified and stratified by number of prior cesarean deliveries and IPI. The relative and adjusted risk of IPI on uterine rupture was calculated using multivariate logistic regression. RESULTS: Of 1,034,522 live births recorded during the 7-year study period, 249 cases of uterine rupture were identified for analysis. Two-thirds of uterine rupture cases (n = 158) occurred in women with one or more PCS and one-third (n = 91) had no prior cesarean. IPI 24-59 months had the lowest frequency of uterine rupture and was used as the referent group. IPI 12-23 and IPI >= 60 months were not significantly associated with risk of uterine rupture, p = .847, .540 respectively. In women with PCS, IPI < 12 months was associated with greater than two-fold increased risk of uterine rupture (aRR 2.4, CI 1.5-3.8). No association between IPI < 12 months and uterine rupture was observed in women with no PCS, p = .696. CONCLUSION: IPI < 12 months is independently associated with uterine rupture in women with prior cesarean, but does not appear to influence risk in women with an unscarred uterus."""
+
+

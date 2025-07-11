@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasedgestationalweightgainisassociatedwithahigherriskofoffspringadipositybeforefiveyearsofageapopulationbasedcohortstudy2022zhang
+"OBJECTIVE: We aim to investigate the influence of weight gain during pregnancy on the risk of offspring adiposity before five years old. METHODS: We retrospectively collected health information from the Tianjin mother-child cohort. Offspring outcome was BMI Z-score and prevalence of childhood adiposity from 0.5-5 years old. Gestational weight gain was analyzed using continuous and categorical variables evaluated by the IOM guidelines. Multivariate analysis adjusted maternal age, prepregnancy BMI, maternal height, smoking, cesarean section, gestational age at birth, birth weight, birth length, and mode of infant feeding during 0-6 months. RESULTS: Gestational weight gain contributed to offspring's BMI Z-score from 1-5 years old, and the effect was most obvious in the first half of pregnancy (multivariate analysis, at 1, 2, 2.5, 3, 4, and 5 years of age: b 0.011, 95% CI 0.008-0.014; b 0.017, 95% CI 0.015-0.020; b 0.005, 95%CI 0.002-0.008; b 0.018, 95% CI 0.015-0.021; b 0.014, 95% CI 0.009-0.020; b 0.013, 95% CI 0.005-0.021). Excessive weight gain was associated with a higher prevalence of offspring adiposity before five years, even if prepregnancy BMI is normal. Multivariate regression analysis further confirmed that excessive weight gain during the first half of pregnancy significantly increased the risk of childhood obesity at aged one and three (AOR 1.083, 95% CI 1.003-1.169; AOR 1.158, 95% CI 1.036-1.293). CONCLUSION: Offspring have a higher risk of preschool adiposity when gestational weight gain was excessive during the first half of pregnancy."""
+
+

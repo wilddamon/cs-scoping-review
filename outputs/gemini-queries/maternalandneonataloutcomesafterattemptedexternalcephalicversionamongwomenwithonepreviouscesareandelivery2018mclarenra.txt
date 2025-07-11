@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandneonataloutcomesafterattemptedexternalcephalicversionamongwomenwithonepreviouscesareandelivery2018mclarenra
+"Objective This study was aimed to evaluate success rates of (1) external cephalic version (ECV) among women with one prior cesarean delivery (CD) and (2) maternal and neonatal outcomes after ECV among women with prior CD. Study Design Two linked studies using U.S. Natality Database were performed. First we performed a retrospective cohort comparing ECV success rates of women with prior CD and women without prior CD. Then we compared the outcomes of TOLACs (trial of labor after cesarean delivery) that occurred after ECV with those that occurred without ECV. Multivariable logistic regression analysis was used to estimate adverse outcomes. Results A total of 715 women had ECV after 36 weeks with prior CD and 9,976 had ECV without prior scar. ECV success rate with scar was 80.6% and without scar was 86.4% ( p < 0.001). Seven hundred and sixteen women underwent TOLAC after ECV attempt and 234,617 underwent TOLAC without a preceding attempt. Women with preceding version had increased risks of maternal transfusion (1 vs. 0.4%, adjusted OR [odds ratio]: 2.48 [95% CI (confidence interval): 1.17-5.23]), unplanned hysterectomy (0.4 vs. 0.06%, adjusted OR: 6.90 [95% CI: 2.19-21.78]), and low 5-minute Apgar's score (2.5 vs. 1.5%, adjusted OR: 1.76 [95% CI: 1.10-2.82]). Conclusion Women with prior CD may have a decrease in the rate of successful ECV. While the absolute risks are low, ECV appears to increase risks of adverse maternal and neonatal outcomes among women undergoing a trial of labor."""
+
+

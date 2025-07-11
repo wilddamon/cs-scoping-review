@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: reducedrateofpostpartumreadmissionsamonghomelesscomparedwithnonhomelesswomeninnewyorkapopulationbasedstudyusingserialcrosssectionaldata2022sakaibizmark
+"OBJECTIVE: To assess differences in rates of postpartum hospitalisations among homeless women compared with non-homeless women. DESIGN: Cross-sectional secondary analysis of readmissions and emergency department (ED) utilisation among postpartum women using hierarchical regression models adjusted for age, race/ethnicity, insurance type during delivery, delivery length of stay, maternal comorbidity index score, other pregnancy complications, neonatal complications, caesarean delivery, year fixed effect and a birth hospital random effect. SETTING: New York statewide inpatient and emergency department databases (2009-2014). PARTICIPANTS: 82 820 and 1 026 965 postpartum homeless and non-homeless women, respectively. MAIN OUTCOME MEASURES: Postpartum readmissions (primary outcome) and postpartum ED visits (secondary outcome) within 6 weeks after discharge date from delivery hospitalisation. RESULTS: Homeless women had lower rates of both postpartum readmissions (risk-adjusted rates: 1.4% vs 1.6%; adjusted OR (aOR) 0.87, 95% CI 0.75 to 1.00, p=0.048) and ED visits than non-homeless women (risk-adjusted rates: 8.1% vs 9.5%; aOR 0.83, 95% CI 0.77 to 0.90, p<0.001). A sensitivity analysis stratifying the non-homeless population by income quartile revealed significantly lower hospitalisation rates of homeless women compared with housed women in the lowest income quartile. These results were surprising due to the trend of postpartum hospitalisation rates increasing as income levels decreased. CONCLUSIONS: Two factors likely led to lower rates of hospital readmissions among homeless women. First, barriers including lack of transportation, payment or childcare could have impeded access to postpartum inpatient and emergency care. Second, given New York State's extensive safety net, discharge planning such as respite and sober living housing may have provided access to outpatient care and quality of life, preventing adverse health events. Additional research using outpatient data and patient perspectives is needed to recognise how the factors affect postpartum health among homeless women. These findings could aid in lowering readmissions of the housed postpartum population."""
+
+

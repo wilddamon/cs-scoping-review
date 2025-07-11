@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doespreviouscesareansectionperseespeciallyitsnumberincreasetheriskofallogeneicbloodtransfusionatcesareansectionforplacentaprevia2020takahashi
+"Objective: At cesarean section (CS) for placenta previa (PP), previous CS, especially multiple CS, is reported to be associated with massive bleeding. The authors attempted to determine which causes massive bleeding, previous CS per se or previous-CS-associated factors. The need for allogeneic blood transfusion (BT) at CS was set as a marker representing massive bleeding. Materials and Meth- ods: This retrospective cohort study involved all 326 patients with PP who delivered in one institute using the same management pro- tocol. The authors evaluated the associations between the number of previous CS, maternal characteristics, and perinatal outcomes, and calculated the odds ratio (OR) for allogeneic BT according to the number of previous CS. Result(s): With an increasing number of pre- vious CS, the following significantly increased: Abnormally invasive placenta, anterior placentation, total previa, and ultrasound-de- tectable lacunae. The rates of allogeneic BT for patients with previous CS of 0x, 1x, and >2x were 6% (16/273), 37% (14/38), and 60% (9/15), respectively (p < 0.001). On adjustment for anterior placentation, total previa, and lacunae, ORs (95% confidence interval) of allogeneic BT for previous CS 1x and >2x were 6.3 (2.5-16.4) and 11.4 (3.0-42.2), respectively, with CS 0x being referent. On analy- sis of 308 (326-18) patients excluding 18 with an abnormally invasive placenta, the adjusted ORs of allogeneic BT for CS 1x and >2x were 3.5 (1.1-10.8) and 6.2 (1.1-37.3), respectively, remaining high. Conclusion(s): The number of prior CS, and, thus the previous CS per se, increases the requirement for allogeneic BT, irrespective of the presence/absence of an AIP, anterior placentation, total previa, or lacunae. Management protocol of PP women with multiple CS should be adapted accordingly.Copyright (c) 2020 Takahashi et al."""
+
+

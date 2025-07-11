@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inductionoflaborbefore40weeksisassociatedwithlowerrateofcesareandeliveryinwomenwithgestationaldiabetesmellitus2016melamed
+"BACKGROUND: In women with gestational diabetes mellitus, it is not clear whether routine induction of labor at <40 weeks of gestation is beneficial to mother and newborn infant.;OBJECTIVE: The purpose of this study was to compare outcomes among women with gestational diabetes mellitus who had induction of labor at either 38 or 39 weeks with those whose pregnancy was managed expectantly.;STUDY DESIGN: We included all women in Ontario, Canada, with diagnosed gestational diabetes mellitus who had a singleton hospital birth at >=38 + 0 weeks of gestation between April 2012 and March 2014. Data were obtained from the Better Outcomes Registry & Network Ontario, which is a province-wide registry of all births in Ontario, Canada. Women who underwent induction of labor at 38 + 0 to 38 + 6 weeks of gestation (38-IOL; n = 1188) were compared with those who remained undelivered until 39 + 0 weeks of gestation (38-Expectant; n = 5229). Separately, those women who underwent induction of labor at 39 + 0 to 39 + 6 weeks of gestation (39-IOL; n = 1036) were compared with women who remained undelivered until 40 + 0 weeks of gestation (39-Expectant; n = 2162). Odds ratios and 95% confidence intervals were adjusted for maternal age, parity, insulin treatment, and prepregnancy body mass index.;RESULTS: Of 281,480 women who gave birth during the study period, 14,600 women (5.2%) had gestational diabetes mellitus; of these, 8392 women (57.5%) met all inclusion criteria. Compared with the 38-Expectant group, those women in the 38-IOL group had lower odds for cesarean delivery (adjusted odds ratio, 0.73; 95% confidence interval, 0.52-0.90), higher odds for neonatal intensive care unit admission (adjusted odds ratio, 1.36; 95% confidence interval, 1.09-1.69), and no difference in other maternal-newborn infant outcomes. Compared with the 39-Expectant group, women in the 39-IOL group likewise had lower odds for cesarean delivery (adjusted odds ratio, 0.73; 95% confidence interval, 0.58-0.93) but no difference in neonatal intensive care unit admission (adjusted odds ratio, 0.83; 95% confidence interval, 0.61-1.11).;CONCLUSION: In women with gestational diabetes mellitus, the routine induction of labor at 38 or 39 weeks is associated with a lower risk of cesarean delivery compared with expectant management but may increase the risk of neonatal intensive care unit admission when done at <39 weeks of gestation. Copyright (c) 2016 Elsevier Inc. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: combinedeffectofhygienicandpolygenicriskscoresinchildrenwithallergicrhinitis2023choi
+"BACKGROUND: Although the development of allergic rhinitis (AR) is associated with multiple genetic and hygienic environmental factors, previous studies have focused mostly on the effect of a single factor on the development of AR. OBJECTIVE: This study aimed to investigate the combined effect of multiple genetic and hygienic environmental risk factors on AR development in school children. METHODS: We conducted a cross-sectional study, comprising 1,797 children aged 9-12 years. Weighted environmental risk score (ERS) was calculated by using four hygienic environmental factors, including antibiotic use during infancy, cesarean section delivery, breast milk feeding, and having older siblings. Weighted polygenic risk score (PRS) was calculated by using four single nucleotide polymorphisms (SNPs), including interleukin-13 (rs20541), cluster of differentiation 14 (rs2569190), toll-like receptor 4 (rs1927911), and glutathione S-transferase P1 (rs1695). Multivariable logistic regression analysis was used. RESULTS: More than three courses of antibiotic use during infancy increased the risk of current AR (adjusted odd ratio [aOR], 2.058; 95% confidence interval [CI]: 1.290-3.284). Having older siblings, especially > 2 (aOR, 0.526; 95%Cl: 0.303-0.913) had a protective effect. High ERS ( > median; aOR, 2.079; 95%Cl: 1.466-2.947) and PRS ( > median; aOR, 1.627; 95%Cl: 1.117-2.370) increased the risk of current AR independently. Furthermore, children who had both high ERS and PRS showed a higher risk of current AR (aOR, 3.176; 95%Cl: 1.787-5.645). CONCLUSIONS: Exposure to multiple hygienic risk factors during infancy increases the risk of AR in genetically susceptible children."""
+
+

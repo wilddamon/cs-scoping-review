@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalepilepsyperinataloutcomeandlongtermneurologicalmorbidityoftheoffspringapopulationbasedcohortstudy2022sarusi
+"PURPOSE: The current study was aimed to assess whether maternal epilepsy is linked to long-term neurological morbidity of the offspring, and to examine whether maternal epilepsy is associated with adverse pregnancy outcomes. METHODS: A population-based cohort study was conducted comparing perinatal outcomes of women with and without epilepsy, including long-term neurological morbidity of the offspring. Both the exposed and unexposed groups were followed up to 18 years of age for neurological-related morbidity. To assess perinatal outcomes of women with epilepsy, generalized estimation equation (GEE) models were used to control for confounders. To compare the cumulative incidence of long-term neurological morbidity a Kaplan-Meier survival curve was used. A Cox proportional hazards model was built to control for confounders. RESULTS: During the study period, 243,682 deliveries met the inclusion criteria; 711 (0.29%) were of mothers with epilepsy. Maternal epilepsy was noted as an independent risk factor for preterm delivery, cesarean delivery, and low birth weight using GEE models controlling for maternal age and parity. Offspring born to mothers with epilepsy had higher rates of long-term neurological morbidity (Kaplan-Meier log-rank test, p < 0.001). A Cox proportional hazards model, controlled for maternal age, hypertensive disorders, gestational age, and diabetes mellitus, demonstrated that being born to a mother with epilepsy was an independent risk factor for long-term neurological morbidity of the offspring (adjusted HR 2.7, 95% CI 2.12-3.56, p < 0.001). CONCLUSIONS: The pregnancy of epileptic women is independently associated with the adverse perinatal outcome as well as a higher risk for long-term neurological morbidity of the offspring."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: influenceofmaternalageonselectedobstetricparameters2019schildberger
+"Introduction In recent decades, there has been a continuous rise in the average age at which women give birth. A maternal age of 35 years and above is considered an independent risk factor in pregnancy and birth, due to higher rates of intervention. This study investigates the influence of maternal age on birth procedure, gestational age, and rate of interventions during delivery. The influence of maternal parity is also analyzed. Material and Methods Data from the Austrian Register of Births was retrospectively collected and evaluated. The collected data was the data of all singleton live births in Austria between January 1, 2008 and December 31, 2016 (n = 686 272). Multiple births and stillbirths were excluded from the study. Maternal age and parity were analyzed in relation to predefined variables (birth procedure, gestational age, episiotomy in cases of vaginal delivery, epidural anesthesia in both vaginal and cesarean deliveries, and intrapartum micro-blood gas analysis). Statistical data was evaluated using (1) descriptive univariate analysis, (2) bivariate analysis, and (3) multinomial regression models. Results The cesarean section rate and the rate of surgically-assisted vaginal deliveries increased with advancing maternal age, especially in primiparous women, while the rate of spontaneous deliveries decreased with increasing maternal age. A parity of >= 2 had a protective effect on the cesarean section rate. The rate of premature births also increased with increasing maternal age, particularly among primiparous women. Discussion Although higher maternal age has a negative effect on various obstetric parameters, it was nevertheless not possible to identify a causal connection. Maternal age should not be assessed as an independent risk factor; other factors such as lifestyle or prior chronic disease and parity must be taken into consideration."""
+
+

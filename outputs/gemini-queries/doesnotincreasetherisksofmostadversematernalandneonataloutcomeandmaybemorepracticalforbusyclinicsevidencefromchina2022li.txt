@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nonassistedhatchingtrophectodermbiopsydoesnotincreasetherisksofmostadversematernalandneonataloutcomeandmaybemorepracticalforbusyclinicsevidencefromchina2022li
+"OBJECTIVE: This study was conducted in order to investigate whether non-assisted hatching trophectoderm (TE) biopsy increases the risks of adverse perinatal outcomes in livebirths following elective single cryopreserved-thawed blastocyst transfer. PATIENTS AND METHODS: A total of 5,412 cycles from 4,908 women who achieved singleton livebirths between 2013 and 2019 were included in this retrospective cohort study. All embryos in this study were fertilized by intracytoplasmic sperm injection (ICSI) and cryopreserved through vitrification. The main intervention is to open the zona pellucida (ZP) of day 5/6 blastocyst immediately for biopsy without pre-assisted hatching. The main outcome measures are the common maternal and neonatal outcomes, including hypertensive disorders of pregnancy (HDPs), gestational diabetes mellitus (GDM), abnormal placentation, abnormalities in umbilical cord and amniotic fluid, preterm birth, cesarean section, low birth weight, postpartum hemorrhage, and prolonged hospital stay (both mothers and infants). The generalized estimation equation (GEE) was used to control the effects of repeated measurements. The non-conditional logistic regression model was used to examine the associations between embryo biopsy status and each adverse perinatal event. Given that the selection bias and changes in learning curve might affect the results, we selected 1,086 similar (matching tolerance = 0.01) cycles from the ICSI group via propensity score matching (PSM) for second comparisons and adjustment (conditional logistic regression). RESULTS: After adjusting for confounders, we confirmed that the non-assisted hatching protocol did not increase the risks of most adverse maternal and neonatal outcomes. Despite this, there were increased risks of GDM (aOR: 1.522, 95% CI: 1.141-2.031) and umbilical cord abnormalities (aOR: 11.539, 95% CI: 1.199-111.067) in the biopsy group. In the second comparisons after PSM, GDM incidence in the biopsy group was still higher (7.26% vs. 5.16%, P = 0.042), yet all measurement outcomes were equally likely to occur in both groups after the second adjustment. CONCLUSIONS: The non-assisted hatching TE biopsy does not increase the risks of most adverse perinatal outcomes. However, there is a higher GDM incidence in the biopsy group, and this association warrants further study. Considering its safety and simplicity, the non-assisted hatching protocol has the potential to become the preferred option for TE biopsy, especially in busy clinics and IVF laboratories."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrapartumprsaanewmethodtopredictfetalacidosisacasecontrolstudy2020weyrich
+"PURPOSE: Phase-rectified signal averaging method (PRSA) represents an analysis method which applied on fetal cardiotocography (CTG) allows the quantification of the speed of fetal heart rate changes. By calculating the average deceleration capacity (ADC) an assessment of the fetal autonomic nervous system (ANS) is possible. The objective of this study was to test its ability to predict perinatal acidosis. METHODS: A case-control study was performed at a University Hospital in Munich. All intrapartum CTG heart rate tracings saved during a 7-year period were considered for analysis. All neonates born with an umbilical arterial blood pH <= 7.10 were considered as cases. Controls were defined as healthy fetuses born with a pH >= 7.25. The main matching criteria were gestational age at delivery, parity, birth mode, and birth weight percentile. Exclusion criteria were a planned caesarean section, fetal malformations, and multiple pregnancies. ADC and STV were then calculated during the last 60, the last 45, and the last 30 min intervals prior to delivery. RESULTS: Of all stored birth CTG recordings, 227 cases met the inclusion criteria and were studied. ADC was significantly higher in fetuses born with acidemia (4.85 bpm +- 3.0) compared to controls (3.36 bpm +- 2.2). The area under ROC curve was 0.659 (95% CI 0.608-0.710) for ADC and 0.566 (0.512-0.620) for STV (p = 0.013). CONCLUSIONS: This study confirms that the assessment of ADC using PRSA represents a good additional tool for the prediction of acute fetal acidosis during delivery."""
+
+

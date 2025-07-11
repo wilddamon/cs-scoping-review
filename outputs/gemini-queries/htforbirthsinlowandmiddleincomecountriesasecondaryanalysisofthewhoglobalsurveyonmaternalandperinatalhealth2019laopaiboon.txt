@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anoutcomebaseddefinitionoflowbirthweightforbirthsinlowandmiddleincomecountriesasecondaryanalysisofthewhoglobalsurveyonmaternalandperinatalhealth2019laopaiboon
+"BACKGROUND: 2500 g has been used worldwide as the definition of low birthweight (LBW) for almost a century. While previous studies have used statistical approaches to define LBW cutoffs, a LBW definition using an outcome-based approach has not been evaluated. We aimed to identify an outcome-based definition of LBW for live births in low- and middle-income countries (LMICs), using data from a WHO cross-sectional survey on maternal and perinatal health outcomes in 23 countries. METHODS: We performed a secondary analysis of all singleton live births in the WHO Global Survey (WHOGS) on Maternal and Perinatal Health, conducted in African and Latin American countries (2004-2005) and Asian countries (2007-2008). We used a two-level logistic regression model to assess the risk of early neonatal mortality (ENM) associated with subgroups of birthweight (< 1500 g, 1500-2499 g with 100 g intervals; 2500-3499 g as the reference group). The model adjusted for potential confounders, including maternal complications, gestational age at birth, mode of birth, fetal presentation and facility capacity index (FCI) score. We presented adjusted odds ratios (aORs) with 95% confidence intervals (CIs). A lower CI limit of at least two was used to define a clinically important definition of LBW. RESULTS: We included 205,648 singleton live births at 344 facilities in 23 LMICs. An aOR of at least 2.0 for the ENM outcome was observed at birthweights below 2200 g (aOR 3.8 (95% CI; 2.7, 5.5) of 2100-2199 g) for the total population. For Africa, Asia and Latin America, the 95% CI lower limit aORs of at least 2.0 were observed when birthweight was lower than 2200 g (aOR 3.6 (95% CI; 2.0, 6.5) of 2100-2199 g), 2100 g (aOR 7.4 (95% CI; 5.1, 10.7) of 2000-2099 g) and 2200 g (aOR 6.1 (95% CI; 3.4, 10.9) of 2100-2199 g) respectively. CONCLUSION: A birthweight of less than 2200 g may be an outcome-based threshold for LBW in LMICs. Regional-specific thresholds of low birthweight (< 2200 g in Africa, < 2100 g in Asia and < 2200 g in Latin America) may also be warranted."""
+
+

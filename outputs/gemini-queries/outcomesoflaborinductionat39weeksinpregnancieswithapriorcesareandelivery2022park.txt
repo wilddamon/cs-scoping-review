@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesoflaborinductionat39weeksinpregnancieswithapriorcesareandelivery2022park
+"BACKGROUND: The optimal timing of induction for those undergoing a trial of labor after cesarean section has not been established. The little data which supports the consideration of induction at 39 weeks gestation excludes those with a history of prior cesarean section. OBJECTIVE: To determine the risks and benefits of elective induction of labor (IOL) at 39 weeks compared with expectant management (EM) until 42 weeks in pregnancies complicated by one previous cesarean delivery. STUDY DESIGN: This is a retrospective cohort analysis of singleton non-anomalous pregnancies in the United States between January 2015 and December 2017. Data was provided by the CDC National Center for Health Statistics, Division of Vital Statistics. Analyses included only pregnancies with a history of one previous cesarean delivery (CD). Perinatal outcomes of pregnancies electively induced at 39 weeks (IOL) were compared to pregnancies that were induced, augmented or underwent spontaneous labor between 40 and 42 weeks (EM). Unlabored cesarean deliveries were excluded. Outcomes of interest included: cesarean delivery, intra-amniotic infection, blood transfusion, adult intensive care unit (ICU) admission, uterine rupture, hysterectomy, 5-minute Apgar score <= 3, prolonged neonatal ventilation, neonatal ICU (NICU) admission, neonatal seizure, perinatal/neonatal death. Log-binomial regression analysis was performed to calculate the relative risk (RR) for each outcome of interest, adjusting for confounding variables. RESULTS: There were 50,136 pregnancies included for analysis with 9,381 women in the IOL group. Compared with EM, IOL at 39 weeks decreased the risk of intra-amniotic infection (1.7% vs 3.0%, p < .001; aRR: 0.58, 95% CI: [0.49-0.68]), blood transfusion (0.3% vs. 0.5%, p = .03; aRR: 0.66, 95% CI: [0.45-0.98]), and low 5-minute Apgar score (0.31% vs 0.47%, p = .031; aRR: 0.66, 95% CI: [0.44-0.97]). Conversely, IOL increased the risk of cesarean delivery (49.0% vs 27.6%, p < .001; aRR: 1.72, 95% CI: [1.68-1.77]). Furthermore, in the EM group, 919 pregnancies developed preeclampsia and 42 progressed to eclampsia. There were no differences in other perinatal outcomes. CONCLUSION: In pregnancies complicated by one previous cesarean delivery, elective induction of labor at 39 weeks reduced the risk of intra-amniotic infection, blood transfusion, and low 5-minute Apgar score while increased the risk of repeat cesarean delivery."""
+
+

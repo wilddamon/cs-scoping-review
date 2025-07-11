@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyandpreeclampsiaareassociatedwithacuteadverseperipheralarterialevents2021decarlo
+"OBJECTIVE: Acute peripheral arterial events, such as aortic dissection, carotid artery dissection, vertebral artery dissection, and ruptured renoviseral aneurysms, have been reported during pregnancy in case series, but there is a paucity of population-based data. This study sought to establish pregnancy and preeclampsia as risk factors for acute peripheral arterial events. Approach and Results: All women who gave birth between 1998 and 2020 within a multicenter health care system were identified. Births that occurred in women <18 or >50 years of age were excluded. Primary outcome was any acute peripheral arterial event that was symptomatic or required intervention. Cox regression model was used to evaluate the association between vascular events and pregnancy as a time-varying covariate. The pregnancy exposure period was from the estimated date of conception to 3 months postpartum. There were 277 697 pregnancies (81.3% deliveries, 17.0% abortions, and 1.7% ectopics) among 176 635 women with 1.68 million patient-years of total follow-up (median, 7.9 years; interquartile range, 2.4-16.2). Preeclampsia complicated 5.3% of pregnancies; 67 790 of 225 763 (30.0%) deliveries were delivered by cesarean. Ninety-six acute arterial events occurred during follow-up, of which 24 occurred during pregnancy, including the postpartum period. Pregnancy (hazard ratio, 1.85 [95% CI, 1.01-3.38]; P=0.046) and preeclampsia (hazard ratio, 10.9 [95% CI, 5.24-22.7]; P<0.001) were significant independent predictors of acute arterial events.;CONCLUSIONS: While taking into account limitations from estimating conception and outcome dates, pregnancy, especially when complicated by preeclampsia, is associated with an increased risk of acute peripheral arterial events."""
+
+

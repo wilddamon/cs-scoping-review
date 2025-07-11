@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparisonofpredictiveperformancesbetweenoldversusnewcriteriainariskbasedscreeningstrategyforgestationaldiabetesmellitus2020hong
+"Background: The definition of the high-risk group for gestational diabetes mellitus (GDM) defined by the American College of Obstetricians and Gynecologists was changed from the criteria composed of five historic/demographic factors (old criteria) to the criteria consisting of 11 factors (new criteria) in 2017. To compare the predictive performances between these two sets of criteria. Method(s): This is a secondary analysis of a large prospective cohort study of non-diabetic Korean women with singleton pregnancies designed to examine the risk of GDM in women with nonalcoholic fatty liver disease. Maternal fasting blood was taken at 10 to 14 weeks of gestation and measured for glucose and lipid parameters. GDM was diagnosed by the two-step approach. Result(s): Among 820 women, 42 (5.1%) were diagnosed with GDM. Using the old criteria, 29.8% (n=244) of women would have been identified as high risk versus 16.0% (n=131) using the new criteria. Of the 42 women who developed GDM, 45.2% (n=19) would have been mislabeled as not high risk by the old criteria versus 50.0% (n=21) using the new criteria (1-sensitivity, 45.2% vs. 50.0%, P>0.05). Among the 778 patients who did not develop GDM, 28.4% (n=221) would have been identified as high risk using the old criteria versus 14.1% (n=110) using the new criteria (1-specificity, 28.4% vs. 14.1%, P<0.001). Conclusion(s): Compared with the old criteria, use of the new criteria would have decreased the number of patients identified as high risk and thus requiring early GDM screening by half (from 244 [29.8%] to 131 [16.0%]).Copyright (c) 2020 Korean Diabetes Association."""
+
+

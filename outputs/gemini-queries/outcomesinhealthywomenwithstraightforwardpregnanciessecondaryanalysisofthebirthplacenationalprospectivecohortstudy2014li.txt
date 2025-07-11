@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofmaternalageandplannedplaceofbirthonintrapartumoutcomesinhealthywomenwithstraightforwardpregnanciessecondaryanalysisofthebirthplacenationalprospectivecohortstudy2014li
+"OBJECTIVES: To describe the relationship between maternal age and intrapartum outcomes in 'low-risk' women; and to evaluate whether the relationship between maternal age and intrapartum interventions and adverse outcomes differs by planned place of birth. DESIGN: Prospective cohort study. SETTING: Obstetric units (OUs), midwifery units and planned home births in England. PARTICIPANTS: 63 371 women aged over 16 without known medical or obstetric risk factors, with singleton pregnancies, planning vaginal birth. METHODS: Log Poisson regression was used to evaluate the association between maternal age, modelled as a continuous and categorical variable, and risk of intrapartum interventions and adverse maternal and perinatal outcomes. MAIN OUTCOME MEASURES: Intrapartum caesarean section, instrumental delivery, syntocinon augmentation and a composite measure of maternal interventions/adverse outcomes requiring obstetric care encompassing augmentation, instrumental delivery, intrapartum caesarean section, general anaesthesia, blood transfusion, third-degree/fourth-degree tear, maternal admission; adverse perinatal outcome (encompassing neonatal unit admission or perinatal death). RESULTS: Interventions and adverse maternal outcomes requiring obstetric care generally increased with age, particularly in nulliparous women. For nulliparous women aged 16-40, the risk of experiencing an intervention or adverse outcome requiring obstetric care increased more steeply with age in planned non-OU births than in planned OU births (adjusted RR 1.21 per 5-year increase in age, 95% CI 1.18 to 1.25 vs adjusted RR 1.12, 95% CI 1.10 to 1.15) but absolute risks were lower in planned non-OU births at all ages. The risk of neonatal unit admission or perinatal death was significantly raised in nulliparous women aged 40+ relative to women aged 25-29 (adjusted RR 2.29, 95% CI 1.28 to 4.09). CONCLUSIONS: At all ages, 'low-risk' women who plan birth in a non-OU setting tend to experience lower intervention rates than comparable women who plan birth in an OU. Younger nulliparous women appear to benefit more from this reduction than older nulliparous women."""
+
+

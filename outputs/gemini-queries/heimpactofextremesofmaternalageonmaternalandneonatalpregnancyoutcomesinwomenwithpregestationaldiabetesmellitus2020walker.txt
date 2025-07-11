@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofextremesofmaternalageonmaternalandneonatalpregnancyoutcomesinwomenwithpregestationaldiabetesmellitus2020walker
+"Background:. Diabetes mellitus (DM) during pregnancy increases the risk for many complications such as preeclampsia and cesarean section. Teen (age <20) and advanced maternal age (AMA, age >=35) pregnancies are both at increased risk for maternal and neonatal morbidity and mortality. Understanding the risks and complications unique to teen and AMA women with pregestational DM is imperative to providing care and improving outcomes.Objective:. This study sought to determine how maternal and neonatal outcomes are affected by pregestational DM in teen and AMA pregnancies.Study design:. This is a retrospective cohort study of 1.58 million pregnancies in California from 2005 through 2008s, of which 10,034 diabetic women with nonanomalous, singleton pregnancies were identified. Women with gestational DM were excluded. Maternal outcomes examined include preeclampsia, placental abruption, chorioamnionitis, preterm delivery, and cesarean section. Neonatal outcomes include size for gestational age, birth weight >4000 g, shoulder dystocia, brachial plexus injury, jaundice, and intrauterine fetal demise (IUFD). Multivariate regression analyses and chi-squared test were used for statistical comparisons and a p-value of less than .05 was used to indicate statistical significance.Results:. Compared to women of age 20-34 years with pregestational DM as the reference group, women <20 years old with DM had higher rates of preeclampsia (aOR 1.72; 95% CI 1.29-2.29; p-value < .001) and lower rates of cesarean delivery (aOR 0.63; 95% CI 0.47-0.85; p < .001). Neonates of teen mothers were more likely to be large for gestational age (LGA; > 90%ile; aOR 1.60; 95% CI 1.14-2.23; p = .006), whereas neonates in the maternal age category of 35-39 years had lower rates of LGA >90%ile (aOR 0.81; 95% CI 0.70-0.92; p = .001). Odds of IUFD were greatest in women age 35-39 years old (aOR 1.73; 95% CI 1.05-2.85; p = .031). Analysis examining women >40 years old showed no statistically significant difference in outcomes.Conclusion: Pregnancy outcomes in women with pregestational diabetes differ depending on maternal age category. Teens are at higher risk for preeclampsia and LGA neonates, but at lower risk for cesarean. Women aged 35-39 years are at higher risk for cesarean delivery, are less likely to have LGA neonates, and more likely to experience IUFD. Understanding the etiologies behind these differences may lead to improvements in these clinical outcomes."""
+
+

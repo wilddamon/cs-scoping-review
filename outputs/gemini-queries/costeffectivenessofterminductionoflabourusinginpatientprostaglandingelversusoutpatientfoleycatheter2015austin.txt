@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: costeffectivenessofterminductionoflabourusinginpatientprostaglandingelversusoutpatientfoleycatheter2015austin
+"OBJECTIVE: Evaluating cost-effectiveness of induction of labour (IOL) using outpatient mechanical cervical ripening using a Foley catheter (OFC) compared to inpatient chemical ripening using prostin gel (IPG).;STUDY DESIGN: Cost-effectiveness analysis from a hospital perspective alongside a RCT. Women in a metropolitan Australian maternity hospital with an unfavourable cervix requiring IOL at term were randomised to IPG (n = 51) or OFC (n = 50). Primary economic measures were mean patient costs, incremental cost per predelivery inpatient hour prevented, and incremental cost per vaginal delivery within 12 h of admission to the birthing unit. Bootstrapping estimates were used to construct 95% confidence intervals. Estimates of net monetary benefit were calculated to aid interpretation of the results.;RESULTS: Mean hospital costs per woman were nonsignificantly higher ($6524 OFC vs $5876 IPG) and mean difference $643; 95% CI -$366 to $1652. OFC group experienced fewer predelivery inpatient hours, resulting in an incremental cost per inpatient hour prevented of $57 (95% CI -$79.44 to $190.65). However, OFC patients were less likely to deliver vaginally within 12 h of admission to birthing unit. Other cost influencing clinical outcomes, including caesarean section rates and total inpatient hours, were not statistically different. Results were not sensitive to changes in costs or the cost-effectiveness thresholds.;CONCLUSION: OFC had fewer inpatient hours and costs prior to birth. However, OFC did not reduce overall inpatient hours and failed to achieve comparable rates of vaginal delivery within 12 h of birthing unit admission. Therefore, OFC is unlikely to be considered cost-effective compared to IPG in current hospital settings. Copyright (c) 2015 The Royal Australian and New Zealand College of Obstetricians and Gynaecologists."""
+
+

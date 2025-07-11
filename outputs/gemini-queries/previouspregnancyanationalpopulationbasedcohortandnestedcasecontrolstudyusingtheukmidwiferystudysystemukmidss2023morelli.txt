@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesforwomenadmittedforlabourcaretoalongsidemidwiferyunitsintheukfollowingapostpartumhaemorrhageinapreviouspregnancyanationalpopulationbasedcohortandnestedcasecontrolstudyusingtheukmidwiferystudysystemukmidss2023morelli
+"BACKGROUND: Women who have experienced a postpartum haemorrhage (PPH) 'requiring treatment or transfusion' are typically advised to plan birth in obstetric-led settings in subsequent pregnancies. Many UK alongside midwifery units (AMU) admit women for labour care following a previous PPH. We aimed to describe outcomes in women admitted for labour care to AMUs following a previous PPH, compare outcomes with other multiparous women admitted to the same AMUs, and explore risk factors for recurrence. METHODS: A national cohort and nested case-control study using the UK Midwifery Study System (UKMidSS), between August 2018 and April 2019. Multivariable Poisson regression and logistic regression were performed to compare outcomes and investigate risk factors for recurrence. FINDINGS: Women who experienced a previous PPH were significantly more likely than comparison women to: have a PPH requiring transfer to obstetric care (4*2% vs. 2*4%, aRR=1*65, 95% CI 1*14-2*38), be transferred to obstetric care for any reason (17*8% vs 11*9%; aRR=1*41; 95% CI 1*09-1*83), and have any PPH>= 500 ml (22*7% vs 11*1%, aRR=1*86, 95% CI 1*49-2*32). Among women with a previous PPH, previous blood loss > 1500 ml; uterotonics for previous PPH; Caesarean associated with previous PPH; gestation at admission and higher birthweight were independent risk factors for PPH. CONCLUSION: Women considering birth in an AMU after a previous PPH should be advised that they are at increased risk of experiencing a subsequent PPH requiring transfer to obstetric care, compared with other multiparous women who have not had a PPH. The absolute risk of a subsequent PPH in this group is low and comparable to the overall risk of having a PPH among women having a spontaneous vaginal birth in England."""
+
+

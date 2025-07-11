@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: admissioncardiotocographyversusintermittentauscultationofthefetalheartinlowriskpregnancyduringevaluationforpossiblelabouradmissionamulticentrerandomisedtrialtheadcartrial2019smith
+"OBJECTIVE: To assess the effect of admission cardiotocography (ACTG) versus intermittent auscultation (IA) of the fetal heart (FH) in low-risk pregnancy during assessment for possible labour on caesarean section rates.;DESIGN: A parallel multicentre randomised trial.;SETTING: Three maternity units in the Republic of Ireland.;POPULATION: Healthy, low-risk pregnant women, at term and >= 18 years old, who provided written informed consent.;METHODS: Women were randomised to receive IA of the FH or 20 minutes ACTG on admission for possible labour onset, using remote telephone randomisation. Both groups received IA during labour, with conversion to continuous CTG as clinically indicated.;MAIN OUTCOME MEASURES: Caesarean section (primary outcome), obstetric interventions (e.g. continuous CTG during labour, fetal blood sampling, augmentation of labour) and neonatal morbidity (e.g. metabolic acidosis, admission to the neonatal intensive care unit, neonatal death).;RESULTS: Based on 3034 women (1513 and 1521 randomised to IA and ACTG, respectively), there was no statistical difference between the groups in caesarean section [130 (8.6%) and 105 (6.9%) for IA and ACTG groups, respectively; relative risk (RR) 1.24; 95% CI 0.97-1.58], or in any other outcome except for use of continuous CTG during labour, which was lower in the IA group (RR 0.90, 95% CI 0.86-0.93).;CONCLUSION: Our study demonstrates no differences in obstetric or neonatal outcomes between IA and ACTG for women with possible labour onset, other than an increased risk for continuous CTG in women receiving ACTG.;TWEETABLE ABSTRACT: No differences in outcomes between intermittent auscultation and admission cardiotocography for women with possible labour onset. Copyright (c) 2018 Royal College of Obstetricians and Gynaecologists."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverybycaesareansectionandoffspringadiposityandcardiometabolichealthatages65115and16yearsresultsfromtheprobitcohortinbelarus2021rifasshiman
+"BACKGROUND: Caesarean delivery has been associated with later adiposity, perhaps via early programming or perhaps because of residual confounding by maternal or birth characteristics. OBJECTIVES: Examine associations of caesarean delivery with adiposity and cardio-metabolic biomarkers. METHODS: Observational analysis of 15 069 children in the PROBIT cohort in Belarus. We examined measures of child anthropometry and blood pressure at 6.5, 11.5 and 16 years and fasting blood (11.5 years). RESULTS: Caesarean-delivered children were slightly heavier at 6.5 (mean BMI 15.8 vs. 15.6 kg/m(2) ), 11.5 (18.4 vs. 18.2) and 16 years (21.5 vs. 21.3). After adjustment for prenatal characteristics including maternal third trimester BMI, however, we observed no association of caesarean versus vaginal delivery with child BMI (b 0.05 kg/m(2) ; 95%CI: -0.03, 0.14), sum of skinfolds (0.14 mm; -0.13, 0.42), waist circumference (-0.07 cm; -0.23, 0.10), obesity (OR 0.99; 0.76, 1.29), or systolic (-0.20 mmHg; -0.70, 0.30) or diastolic (-0.17 mmHg, -0.60, 0.26) blood pressure at 6.5 years; results were similar at 11.5 and 16 years. At 11.5 years, we observed a modest association of caesarean delivery with fasting insulin (0.33 mU/L; 0.00, 0.65). CONCLUSIONS: Caesarean delivery had little or no association with adiposity or related cardio-metabolic biomarkers in childhood. Adjustment for maternal BMI attenuated all outcome effect estimates."""
+
+

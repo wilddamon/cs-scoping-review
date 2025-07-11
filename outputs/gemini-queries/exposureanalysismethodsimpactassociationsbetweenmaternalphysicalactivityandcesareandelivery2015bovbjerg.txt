@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exposureanalysismethodsimpactassociationsbetweenmaternalphysicalactivityandcesareandelivery2015bovbjerg
+"BACKGROUND: Previous studies report conflicting results regarding a possible association between maternal physical activity (PA) and cesarean delivery.;METHODS: Seven-day PA recalls were collected by telephone from pregnant women (n = 1205) from North Carolina, without prior cesarean, during 2 time windows: 17 to 22 weeks and 27 to 30 weeks completed gestation. PA was treated as a continuous, nonlinear variable in binomial regressions (log-link function); models controlled for primiparity, maternal contraindications to exercise, preeclampsia, pregravid BMI, and percent poverty. We examined both total PA and moderate-to-vigorous PA (MVPA) at each time. Outcomes data came from medical records.;RESULTS: The dose-response curves between PA or MVPA and cesarean risk at 17 to 22 weeks followed an inverse J-shape, but at 27 to 30 weeks the curves reversed and were J-shaped. However, only (total) PA at 27 to 30 weeks was strongly associated with cesarean risk; this association was attenuated when women reporting large volumes of PA (> 97.5 percentile) were excluded.;CONCLUSION: We did not find evidence of an association between physical activity and cesarean birth. We did, however, find evidence that associations between PA and risk of cesarean may be nonlinear and dependent on gestational age at time of exposure, limiting the accuracy of analyses that collapse maternal PA into categories."""
+
+

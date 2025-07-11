@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectoflowmolecularweightheparincombinedwithairpressureinthepreventionoflowerextremityvenousthrombosisaftercesareansectionasinglecenterretrospectivestudy2023guo
+"In this study, we investigated the effect of low-molecular-weight heparin combined with pneumatic pressure in preventing lower extremity deep vein thrombosis after cesarean section, as well as on the visual analog scale (VAS) score. 120 women who underwent cesarean sections at full term in our hospital from January 2019 to January 2022 were included and divided into a control group (55 cases) and an observation group (65 cases) based on the different treatment methods: the control group was treated with low-molecular-weight heparin and the observation group was treated with pneumatic compression therapy based on the control group. The 2 groups were analyzed for thrombosis, clinical efficacy of the treatment methods, and VAS scores. The incidence of deep vein thrombosis in the observation group were significantly lower than in the control group (4.62% vs 21.82%, P < .05). There were no statistically significant differences in activated partial thromboplastin time, prothrombin time, and thrombin time between the 2 groups (P > .05) before treatment; however, after treatment, activated partial thromboplastin time, prothrombin time, and thrombin time in the observation group were significantly higher than those in the control group (P < .05). The clinical efficacy was significantly higher in the observation group compared with the control group (95.38% vs 78.18%, respectively). The VAS scores in the observation group were significantly lower than those in the control group (P < .05). Hence, low-molecular-weight heparin combined with pneumatic pressure therapy significantly reduces the incidence of lower limb deep vein thrombosis after cesarean section. It also improves the coagulation index and reduces post-operative pain. Therefore, it should be considered for use in clinical practice."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectsofpriorcesareansectiononoutcomesoflaparoscopichysterectomyperformedbyfellowshiptrainedminimallyinvasivegynecologicsurgeons2024silverstein
+"Objective: History of cesarean section (CS) can affect future hysterectomy; however most studies on this include all routes of hysterectomy. This study aimed to evaluate the effect of history of CS on laparoscopic and robotic hysterectomies by minimally invasive gynecologic surgery (MIGS) fellowship-trained surgeons. Materials and Methods: This retrospective, cross-sectional study was of patients who had laparoscopic hysterectomy at a single tertiary-care center in the southeastern United States. A convenience sample was collected of all patients who underwent laparoscopic hysterectomy with a MIGS-trained surgeon from 2016 to 2019. Primary outcomes were estimated blood loss (EBL), operative time, and intra- and postoperative complication rates, including blood transfusions, conversion to laparotomy, vascular or visceral injury, surgical-site complications, and emergency-room visits. Measures were compared between patients with a history of CS and those without a history of CS, using kh2 and Student's t-tests. Log-linear models with constant coefficient of variation and logistic-regression models adjusted for body mass index (BMI) were used to estimate the association between history of CS and surgical outcomes. Results: A total of 484 hysterectomies were included. 152 patients had at least 1 CS and 332 did not have any CS. There were no significant demographic differences between the groups. In patients with a history of CS, 69 (45%) had 1, 52 (34%) had 2, and 30 (21%) had 3 or more prior CS. When comparing the cohort with a history of CS and the cohort without a history of CS, log-linear and logistic regression models adjusted for BMI did not show any difference between EBL (mean 62 mL versus 57 mL), operative time (mean 152 minutes versus 148 minutes), or total complication rate (27% versus 25%). There was no relationship between number of prior CS and operative outcomes. Conclusions: Neither a history of any CS nor the total number of prior CS affected EBL, operative time, or intraoperative or postoperative complications of laparoscopic hysterectomies performed by MIGS-trained surgeons. This can be helpful for counseling patients and setting expectations of surgical complexity and complication risks. (J GYNECOL SURG 40:156)"""
+
+

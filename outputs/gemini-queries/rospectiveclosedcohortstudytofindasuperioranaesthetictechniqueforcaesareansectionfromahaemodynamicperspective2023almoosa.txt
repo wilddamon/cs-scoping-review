@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: afiveyearretrospectiveclosedcohortstudytofindasuperioranaesthetictechniqueforcaesareansectionfromahaemodynamicperspective2023almoosa
+"Background A cesarean section (CS) is common and requires a safe and effective anesthetic technique for the safety of both the mother and the fetus. This study aims to compare the intraoperative hemodynamic safety profile with general anesthesia (GA) and regional anesthesia (RA) and propose a superior technique for cesarean from the hemodynamic perspective. Methods After obtaining ethical committee approval, a retrospective closed cohort study was conducted on patients who underwent cesarean with GA and RA. This study was conducted at a tertiary-level university hospital in Oman from January 2015 to December 2019. The investigators collected maternal and fetal data (hypotension, bradycardia, blood loss, APGAR score, fetal mortality, complications, and length of stay) from January 2015 to December 2019. The primary outcome was the incidence of intraoperative hypotension, and the secondary outcomes studied were significant blood loss and APGAR score in both anesthesia techniques. Results A total of 2500 cesarean patients were studied, of whom 1379 received RA and 1121 received GA. The overall hypotension (systolic BP<90 mm Hg) rate observed was 40.1%; it was significantly lower with GA as compared to RA (32.1% versus 46.5%, respectively, P<0.001, OR 0.545, 95% CI 0.462 to 0.643). Consequently, the requirement for vasopressors was low with GA compared to RA (1.6% versus 23.1%, P<0.001, OR 0.054, 95% CI 0.034 to 0.088). Blood loss (>1 L) was remarkably higher in GA as compared to the RA (15.5% versus 8.9%, respectively, P<0.001, OR 1.916, 95% CI 1.499 to 2.448). APGAR scores were lower with GA than RA (2.8% versus 0.9%, P<0.001). Bradycardia and fetal mortality were almost equal in both groups. Conclusion GA is associated with significantly better hemodynamic stability during the cesarean section."""
+
+

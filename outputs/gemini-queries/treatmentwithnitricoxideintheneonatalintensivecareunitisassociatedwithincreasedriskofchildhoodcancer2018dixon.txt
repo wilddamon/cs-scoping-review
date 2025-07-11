@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: treatmentwithnitricoxideintheneonatalintensivecareunitisassociatedwithincreasedriskofchildhoodcancer2018dixon
+"AIM: This study aimed to determine whether neonatal intensive care therapies increase the risk of carcinogenesis in childhood.;METHODS: This study used population-based data on 1 072 957 infants born in New South Wales, Australia, between 2000 and 2011 and multivariate logistic regression to examine any associations between therapies used in the neonatal intensive care unit and diagnoses of cancer until mid 2012.;RESULTS: A total of 1126 of 1 072 957 (0.1%) children were diagnosed with cancer. Cancer risk was significantly increased by preterm birth (gestation <37 weeks; adjusted odds ratio (aOR) 1.3 (95% confidence interval: 1.0-1.6), birth weight >=4 kg (aOR 1.4, 1.2-1.6) and caesarean delivery (aOR 1.2, 1.1-1.4). Extremely preterm (<28 weeks of gestation) infants were more likely to develop hepatic tumours (aOR 12.7, 3.3-48.3) than term infants. The only therapy used in the neonatal intensive care that was independently associated with an increased risk of cancer was nitric oxide (aOR 8.6, 4.3-17.4). Eight of the 790 (1%) infants treated with nitric oxide developed cancer (gestation range 30-41 weeks, age of cancer diagnosis: four months-five years).;CONCLUSION: Treatment with nitric oxide was associated with a higher risk of childhood cancer. These findings require further research. Copyright (c)2018 Foundation Acta Paediatrica. Published by John Wiley & Sons Ltd."""
+
+

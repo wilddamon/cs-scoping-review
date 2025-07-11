@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anesthesiasexandmiscarriagehistorymayinfluencetheassociationbetweencesareandeliveryandautismspectrumdisorder2021yang
+"BACKGROUND: To explore the association between cesarean section (CS) and risk of autism spectrum disorder (ASD), and evaluate the possible factors influencing this association.;METHODS: In total, 950 patients diagnosed with ASD and 764 healthy controls were recruited in this study. Socio-demographic characteristics and prenatal, perinatal, and neonatal characteristics were compared between the two groups. Univariate and multivariable conditional logistic regression analyses were applied to adjust for confounders. Further stratified analyses based on sex and miscarriage history were similarly performed to explore the factors influencing the association between CS and ASD.;RESULTS: CS was evidently associated with an elevated risk of ASD (adjusted odds ratio [aOR] = 1.606, 95% confidence interval (CI) = 1.311-1.969). Unlike regional anesthesia (RA), only CS performed under general anesthesia (GA) consistently elevated the risk of ASD (aOR = 1.887, 95% CI = 1.273-2.798) in females and males in further stratified analysis. The risk of children suffering from ASD following emergency CS was apparently increased in males (aOR = 2.390, 95% CI = 1.392-5.207), whereas a higher risk of ASD was observed among voluntary CS and indicated CS subgroups (aOR = 2.167, 95% CI = 1.094-4.291; aOR = 2.919, 95% CI = 1.789-4.765, respectively) in females. Moreover, the interaction term of CS and past miscarriage history (beta = - 0.68, Wald chi2 = 7.5, df = 1, p = 0.006)) was similarly defined as influencing ASD.;CONCLUSIONS: The exposure of children to GA during CS may explain the possible/emerging association between CS and ASD. In addition, sex and miscarriage history could equally be factors influencing the association between CS and ASD."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: roleofabdominalaorticballoonplacementinplannedconservativemanagementofplacentapreviawithplacentaincretaorpercreta2021lu
+"Background: We investigated the role of balloon placement in the abdominal aorta (BPAA) in planned conservative management of placenta previa with placenta increta or percreta and the effects of BPAA on perinatal adverse maternal events. Methods: This retrospective case-control study included women with placenta previa (increta or percreta), who underwent pregnancy termination at the Qilu Hospital of Shandong University between January 2016 and June 2019. Patients were categorized into the BPAA and non-BPAA groups based on the BPAA placement before delivery. The Chi-square and non-parametric rank-sum tests were used for the intergroup comparison of patient characteristics. The propensity score matching algorithm was used to minimize the intergroup differences in clinical characteristics. Logistic regression analysis was used to identify the factors associated with a high risk of adverse pregnancy outcomes. The area under the receiver operating characteristic curve [area under the curve (AUC)] was used to evaluate the classification of the selected high-risk factors. Results: The study included 260 patients, and 104 patients were identified after propensity score matching. In the post-matched cohort, intraoperative blood loss was significantly lower in the BPAA than in the non-BPAA group (median 1,000 vs. 2,250 ml, P < 0.001). Intraoperative B-Lynch suture was performed in fewer patients in the BPAA (15.4 vs. 34.6%, P = 0.024) than in the non-BPAA group. The packed red blood cell (PRBC) transfusion rate was lower in the BPAA group (median 4 vs. 8 units, P < 0.001). Overall, 46 (45.1%) patients developed adverse maternal events; however, the rate of adverse maternal events was lower in the BPAA group (19.6 vs. 80.4%, P < 0.001). No ligation of the ascending branch of the uterine artery (P = 0.034), no BPAA (P < 0.001), intraplacental vascular lacunae (P = 0.046), and cervical hypervascularity (P = 0.001) were associated with a high risk of adverse perinatal maternal events. The AUC of the high-risk factors was 0.89 in the post-matched and 0.76 in the pre-matched cohorts. Conclusion: Planned conservative management using BPAA significantly minimized the intraoperative blood loss, the need for a B-Lynch suture, and PRBC transfusion in patients with severe placenta accreta spectrum and placenta previa."""
+
+

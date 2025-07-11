@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: qualityoflifeduringpregnancyistherealinkwithbreastfeedingatbirth2020morin
+"Background: In France, the proportion of children who are exclusively breastfed has been decreasing in recent years. The aim of the study is to assess the link between quality of life (QOL) in pregnant women from the first trimester to the end of pregnancy using the French version EQ5D-3L questionnaire and the feeding method at birth (breast or bottle). Materials and Methods: Five hundred pregnant adult women were monitored between 2015 and 2017 at the Toulouse University Hospital (France). The data were collected monthly. After analyzing the QOL (EQ-5D-Index) and health status (EQ-5D-Visual Analogue Scale) for 1 month, we carried out a nine-group category analysis based on their QOL in the third month (low QOL [score <0.50 out of 1], intermediate [score between 0.50 and 0.90 out of 1], or high [score >=0.90 out of 1]) and then based on changes in their QOL between the third and eighth month [marked reduction (low >0.6 point), intermediate (low between 0.1 and 0.6 point), and slight reduction (low <0.1 points increase)]. Results: Around1,847 questionnaires were collected and analyzed from 500 women. The monthly analysis did not highlight any link between QOL or health status reported during pregnancy and the feeding method at birth. As regard to the category analysis, following adjustment, the logistic regression model shows that breastfeeding is not linked to QOL in the third month of pregnancy (p = 0.171) or to changes in QOL during pregnancy (p = 0.426). However, there is less of a tendency to breastfeed in individuals with a high QOL in the third month of pregnancy compared to an intermediate QOL during the third month of pregnancy (p = 0.06). Conclusion: In this cohort of pregnant women for whom QOL was assessed throughout pregnancy, no link between QOL and feeding method was highlighted."""
+
+

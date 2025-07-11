@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: variationininductionoflabourratesacrossirishhospitalsacrosssectionalstudy2016sinnott
+"BACKGROUND: In developed countries, rates of induction of labour (IOL) have increased and vary between hospitals. We aimed to identify whether national variations could be explained by sociodemographic, clinical and organisational differences. METHODS: Two national databases in Ireland that routinely collect clinical and administrative data, the National Perinatal Reporting System and the Hospital Inpatient Enquiry Scheme, were used to analyse data for all women with singleton births weighing >=500 g in 2009. We used logistic multilevel models to examine variation between hospitals, and to determine how much variation was due to individual level sociodemographic, clinical and organisational variables. Analyses were stratified for nulliparas, multiparas without prior caesarean section (CS) and multiparas with prior CS. RESULTS: Of 69 304 eligible births, the rate of IOL nationally was 25.0% (range 14.5-33.2%).In nulliparas, the mean rate was 30.9% (range 18.6-45.7%). The rate was 24.8% (13.5-33.3%) and 3.8% (0.0-10.2%) for multiparas without and with prior CS, respectively. In nulliparas and multiparas without prior CS IOL was predicted by maternal birth in Ireland, increasing birthweight, antepartum complications, giving birth on a weekday and the model of obstetric care. Even after adjusting for known sociodemographic and clinical variables, variation between hospitals remained. CONCLUSION: We found that clinical, sociodemographic and organisational factors all contributed to variation. However, unexplained variation persisted possibly due to organisational factors such as hospital-specific policies on IOL. The results indicate that the prevalence of antenatal complications, changing immigration patterns and policies on IOL after previous CS are factors likely to influence future IOL rates."""
+
+

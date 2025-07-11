@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inductionoflaborintwinpregnanciesaretrospectivecohortstudy2022mikaelsen
+"OBJECTIVE: To investigate outcomes in spontaneous and induced twin deliveries. Secondary aims were to study impact of delivery interval and breech presentation of the first twin. METHODS: This retrospective cohort study comprised 354 twin deliveries at a tertiary Norwegian hospital. Spontaneous labor onset and induction of labor were compared in women with planned vaginal delivery and gestational age >= 34 weeks. The main outcome was intrapartum cesarean section. Secondary outcomes were umbilical arterial pH and five-minute Apgar scores. RESULTS: Among the induced labors, 63/229 (27.5%) women underwent intrapartum cesarean section, compared to 45/125 (36%) in spontaneous labors (P = 0.10). Odds ratio for intrapartum cesarean section in induced labors was 0.65 (95% CI 0.40-1.04) after adjusting for maternal age and parity. Median umbilical arterial pH was significantly lower in the second twins in both spontaneous and induced labors, 7.28 (6.94-7.43) vs. 7.32 (7.16-7.42), and 7.27 (6.90-7.48) vs. 7.29 (7.08-7.45), respectively. pH < 7.00 rarely occurred. Second twins born after a delivery interval > 30 min had a significantly higher frequency of pH < 7.10 than those with a shorter interval, P < 0.01. No significant difference was found in frequency of pH < 7.10 between breech-presenting and cephalic-presenting first twins (P = 0.65). One unexpected intrapartum fetal death occurred after labor induction. CONCLUSION: Our results support spontaneous onset and induction of labor as safe. Intrapartum cesarean section rates did not differ significantly between spontaneous and induced labors. Delivery interval > 30 min was associated with a lower pH in the second twin."""
+
+

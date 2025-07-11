@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: todrainornottodrainintraperitonealclosedsuctiondrainageplacementduringcesareandelivery2021drukker
+"INTRODUCTION: Intraperitoneal closed suction drains are occasionally placed during cesarean delivery. This study aims to ascertain the prevalence, associated factors, outcome, and risks of intraperitoneal closed-suction drain placed during cesarean delivery. MATERIAL AND METHODS: A retrospective cohort study of all women undergoing cesarean delivery in a single center from 2005 to 2015. We excluded cases of cesarean hysterectomy and women who had hollow viscus injury. Cesarean deliveries were categorized into two groups based on intraperitoneal drain use: drain + and drain-.The study aims were to describe: (1) drain use prevalence; (2) factors associated with drain use; (3) interval to relaparotomy due to intraperitoneal bleeding and outcome of drain use; and (4) unique drain-related adverse outcome. Statistics: univariate, multivariable, and inverse probability treatment weighting (IPTW) analysis. RESULTS: After applying the inclusion and exclusion criteria, 16 581 (99.3%) cesareans were included. An intraperitoneal drain was used in 1264 (7.6%) cesareans, ranging from 4.4 to 18.8% in women with no and four or more cesareans, respectively. Comparing the drain + and drain- groups, multivariable analysis revealed that the factors associated with the use of a drain included (OR, 95%CI) uterine rupture (5.14, 3.15-8.38), intrapartum fever (2.65, 1.87-3.75), previous cesareans (2.29, 2.00-2.68), second-stage cesarean (2.21, 1.64-2.74), preterm delivery (1.89, 1.63-2.19), spontaneous onset of labor (1.42, 1.24-1.63), and maternal age greater than 35 years (1.35, 1.19-1.54); p < .001 for all. Of the forty-four women (0.27%) who underwent relaparotomy for intraperitoneal bleeding, there were fourteen in the intraperitoneal drain group. Inverse probability treatment weighting analysis demonstrated that median (interquartile range) times (hours) to relaparotomy were significantly shorter in the drain + group [3.5 (3.3-10.0) versus 12.5 (7.9-15.6), p < .001] and that puerperal fever incidence was higher in the drain + group (2.2 vs. 1.4%, p < .001). The incidence of relaparotomy to remove a retained drain or drain fragment was 0.48% (6/1264). CONCLUSIONS: Drain use in our study resulted in a shorter time to relaparotomy for intraperitoneal hemorrhage. However, it was associated with a higher risk for puerperal fever and a 0.5% risk for relaparotomy for removal of the drain.KEY MESSAGEIntraperitoneal drain placed during cesarean is used more often in complicated surgeries and is associated with a shorter interval to relaparotomy."""
+
+

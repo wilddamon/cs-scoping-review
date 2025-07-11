@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ariskpredictionmodelofseriousadverseeventsaftercardiaccatheterizationforchineseadultspatientswithmoderateandseverecongenitalheartdisease2022hu
+"Background: There are almost 2 million adult patients with congenital heart disease in China, and the number of moderate and severe patients is increasing. However, few studies have investigated the risk of serious adverse events (SAE) after catheterization among them. The aim of this study was to identify risk factors for SAE related to cardiac catheterization and to provide the risk scoring model for predicting SAE. Method(s): A total of 690 patients with moderate and severe adult patients with congenital heart disease (ACHD) who underwent cardiac catheterization in Wuhan Asian Heart Hospital Affiliated to Wuhan University of Science and Technology from January 2018 to January 2022 were retrospectively collected and subsequently divided into a modeling group and a verification group. A univariate analysis was performed on the identified SAE risk factors, and then significant factors were included in the multivariate logistic regression model to screen for independent predictors of SAE. The receiver operating characteristic curve (ROC) and the Hosmer-Lemeshow test were used to evaluate the discrimination and calibration of the model, respectively. Result(s): A SAE occurred in 69 (10.0%) of the 690 catheterization procedures meeting inclusion criteria. The established SAE risk calculation formula was logit(p) = -6.134 + 0.992 x pulmonary artery hypertension (yes) + 1.459 x disease severity (severe) + 2.324 x procedure type (diagnostic and interventional) + 1.436 x cTnI (>=0.028 microg/L) + 1.537 x NT-proBNP (>=126.65 pg/mL). The total score of the final risk score model based on the effect size of each predictor was 0 to 7, involving pulmonary artery hypertension (1 point), disease severity (1 point), procedure type (2 points), cTnI (1 point) and NT-proBNP (2 points), and the score greater than 3 means high risk. The C-statistic of the area under the ROC curve was 0.840 and 0.911 for the derivation and validation cohorts, respectively. According to the Hosmer-Lemeshow test, the p values in the modeling group and the verification group were 0.064 and 0.868, respectively. Conclusion(s): The risk prediction model developed in this study has high discrimination and calibration, which can provide reference for clinical prediction and evaluation of SAE risk after cardiac catheterization in patients with moderate and severe ACHD.Copyright (c) 2023 The Author(s). Published by IMR Press."""
+
+

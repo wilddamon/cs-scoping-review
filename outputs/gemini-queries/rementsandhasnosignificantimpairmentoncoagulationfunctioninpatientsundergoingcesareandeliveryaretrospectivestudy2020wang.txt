@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intraoperativecellsalvageisassociatedwithreducedallogeneicbloodrequirementsandhasnosignificantimpairmentoncoagulationfunctioninpatientsundergoingcesareandeliveryaretrospectivestudy2020wang
+"OBJECTIVE: The aim of the study is to examine the association between Intraoperative cell salvage (ICS), allogeneic blood transfusion (ABT) and coagulation function in obstetrics. METHODS: A total of 486 pregnant women undergoing cesarean delivery, of whom 157 were enrolled in this retrospective study. Patients were divided into ICS group (n = 101, ICS used during operation) and control group (n = 56, ICS not used during operation). Clinical data, including plasma prothrombin time (PT), activated partial thromboplastin time (APTT), fibrinogen (Fib) and thrombin time (TT) levels, were collected from all patients preoperatively (within 12-24 h) and postoperatively (within 6-12 h) and analyzed by t test, two-way repeated-measures ANOVA and Spearman's correlation. RESULTS: The use of ICS is associated with lower requirement rate for ABT (P < .001), while the blood loss was similar between the two groups (P = .990). Mean volume of ICS transfusion was 432.65 mL. Compared to preoperative values, the postoperative PT and APTT levels were significantly increased, while Fib was decreased in the two groups (all P < .01). No significant difference in coagulation function was observed between groups in preoperative and postoperative phase (P > .05). Furthermore, PT, APTT and TT after surgery were not correlated with the transfused volume of salvaged blood (P > .05) while the levels of Fib were negatively correlated with the volume (P < .01). In addition, there were no transfusion reactions in both two groups. CONCLUSIONS: Intraoperative cell salvage is correlated with reduced allogeneic blood requirements but did not impair blood coagulation significantly in patients undergoing cesarean delivery."""
+
+

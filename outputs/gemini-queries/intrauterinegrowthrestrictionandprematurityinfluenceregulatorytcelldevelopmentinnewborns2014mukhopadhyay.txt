@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrauterinegrowthrestrictionandprematurityinfluenceregulatorytcelldevelopmentinnewborns2014mukhopadhyay
+"PURPOSE: The aim of this study was to determine the relationship of birth weight and gestational age with regulatory T cells (Tregs) in cord blood of human newborns.;METHODS: Cord blood mononuclear cells (CBMCs) of 210 newborns were analyzed using flow cytometry to identify Tregs (CD3(+), CD4(+), CD25(high), FoxP3(high)) and measure FoxP3 mean fluorescence intensity (MFI). Suppressive index (SI) was calculated as FoxP3 MFI per Treg.;RESULTS: Mode of delivery had no significant effect on Tregs at birth. Term babies with growth restriction had fewer Tregs than their appropriate weight counterparts but equivalent SI. Preterm babies had higher percentages of Tregs, but lower SI than term controls. SI steadily increased through gestation.;CONCLUSIONS: Intrauterine growth restriction is correlated with fewer circulating Tregs and prematurity with decreased functionality of Tregs compared to term appropriate weight infants. This may have implications in diseases such as necrotizing enterocolitis that disproportionately affect premature and lower birth weight infants. Copyright (c) 2014 Elsevier Inc. All rights reserved."""
+
+

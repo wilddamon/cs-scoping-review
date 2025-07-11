@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: estimatedbloodlossinpregnantwomenwithcardiacdiseasecomparedwithlowriskwomenarestrospectivecohortstudy2019chong
+"BACKGROUND: Women with cardiac disease are thought to be at increased risk of post-partum haemorrhage. We sought to assess the estimated blood loss (EBL) in our cohort of women with and without cardiac disease (CD) in a quaternary hospital in the UK. Our population consisted of both congenital and acquired CD; and low risk women who delivered in our unit between 01/01/2012-30/09/2016.;METHODS: Data were collected using computerised hospital records. CD was classified according to the modified WHO classification (mWHO). The primary outcome measure was estimated blood loss (mL).;RESULTS: A total of 5413 women with a singleton fetus in the cephalic presentation delivered during the study period (159 women with CD and 5254 controls). In the CD group, active management of the third stage of labour was consistent with that used in low risk women in 98% (152/155) of cases. Multivariable analyses demonstrated no significant difference in EBL between women with CD vs controls. The adjusted average blood losses were 247.2 ml, 241.8 ml and 295.9 ml in the control group, mWHO 1-2 and 3-4, respectively (p = 0.165).;CONCLUSIONS: Women with CD have comparable EBL to low risk women when management of the active third stage of labour is the same."""
+
+

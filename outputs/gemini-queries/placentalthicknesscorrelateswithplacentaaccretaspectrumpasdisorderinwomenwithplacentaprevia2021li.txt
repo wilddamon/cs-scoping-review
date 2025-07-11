@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: placentalthicknesscorrelateswithplacentaaccretaspectrumpasdisorderinwomenwithplacentaprevia2021li
+"OBJECTIVE: To evaluate the association of placental thickness with placenta accreta spectrum disorder in placenta previa. METHODS: In this IRB-approved, retrospective study, ultrasound (US) reports were retrospectively queried for keyword previa. US performed closest to mid-gestation were included. Three measurements were performed at the thickest portion of the placenta on longitudinal transabdominal images. Operative reports and surgical pathology were used as the reference standard. Statistical analysis was performed using unpaired T-tests and receiver operating curve (ROC) analysis. RESULTS: Sixty-five patients with placenta previa were included: 38 with PAS disorder and 27 without PAS disorder, clinically or pathologically. 38/38 (100%) patients of PAS group and 16/27 (59.3%) patients of non-PAS group had history of prior cesarean section. The average placental thickness was 4.3 cm (range 1.8 cm to 7.8 cm) for PAS group and 3.0 cm (range 0.6 cm to 5.3 cm) for non-PAS group (p < 0.001). Placental thickness in patients without PAS disorder and history of prior cesarean section was 3.1 (+- 1.1) cm. This was statistically different from patients who had history of prior cesarean section with PAS diagnosis (4.3 cm, P<0.01). Using ROC analysis, a threshold measurement of 4.5 cm leads to sensitivity of 50% and specificity of 96%. CONCLUSION: Our results demonstrate that among women with placenta previa, increased placental thickness at lower uterine segment correlates with placenta accreta spectrum disorder. A threshold of 4.5 cm can be useful for screening patients with placenta previa and risks factors for PAS."""
+
+

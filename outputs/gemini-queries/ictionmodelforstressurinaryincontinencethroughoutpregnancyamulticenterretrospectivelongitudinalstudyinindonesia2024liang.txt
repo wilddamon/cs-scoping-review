@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandinternalvalidationofariskpredictionmodelforstressurinaryincontinencethroughoutpregnancyamulticenterretrospectivelongitudinalstudyinindonesia2024liang
+"BACKGROUND: This study aimed to develop a risk prediction model for stress urinary incontinence (SUI) throughout pregnancy in Indonesian women. METHODS: We conducted a multicenter retrospective longitudinal study involving pregnant women in Indonesia, who sought care at obstetrics clinics from January 2023 to March 2023, encompassing all stages of pregnancy. We collected data on their predictive factors and SUI outcome. SUI was diagnosed based on responses to the 'leaks when you are physically active/exercising' criterion in the ICIQ-UI-SF questionnaire during our investigation of the participants. The models underwent internal validation using a bootstrapping method with 1000 resampling iterations to assess discrimination and calibration. RESULTS: A total of 660 eligible pregnant women were recruited from the two study centers, with an overall SUI prevalence of 39% (258/660). The final model incorporated three predictive factors: BMI during pregnancy, constipation, and previous delivery mode. The area under the curve (AUROC) was 0.787 (95% CI: 0.751-0.823). According to the max Youden index, the optimal cut-off point was 44.6%, with a sensitivity of 79.9% and specificity of 65.9%. A discrimination slope of 0.213 was found. CONCLUSION: The developed risk prediction model for SUI in pregnant women offers a valuable tool for early identification and intervention among high-risk SUI populations in Indonesian pregnant women throughout their pregnancies. These findings challenge the assumption that a high BMI and multiple previous deliveries are predictors of SUI in Indonesian women. Further research is recommended to validate the model in diverse populations and settings."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isprophylacticintraoperativeabdominalaorticballoonocclusionbeneficialinpregnancieswithplacentapreviaandplacentaaccretaspectrumduringcesareansectiona5yearretrospectivestudy2023wang
+"OBJECTIVE: To assess whether prophylactic intraoperative abdominal aortic balloon occlusion (IAABO) is indeed beneficial in pregnancies with placenta previa (PP) and placenta accreta spectrum (PAS) during cesarean section. METHODS: A retrospective case-control study included 251 pregnancies with PP and/or PAS. All enrolled patients were divided into a PP/PAS group, a PP + PAS group, and an IAABO group. The demographic characteristics and maternal and neonatal outcomes were compared. RESULTS: There was no significant difference in blood loss and transfusion between the IAABO group and the PP + PAS group (P > 0.05). However, blood loss and red blood cell and fresh frozen plasma transfusion in the above two groups were significantly higher than in the PP/PAS group (P < 0.05). More pregnancies in the IAABO group had to undergo uterine artery embolization (29.2%) or hysterectomy (20.8%), and this percentage was significantly higher than that in the other two groups (P < 0.001). All neonatal characteristics did not show differences between the IAABO group and PP + PAS group (P > 0.05). IAABO led to femoral artery thrombosis in three cases and minor postoperative renal injury in one case. CONCLUSION: IAABO only acted as a less important supporting technique during cesarean section. There was no evidence suggesting that IAABO could significantly control the massive hemorrhage in pregnancies with PP and PAS during cesarean delivery."""
+
+

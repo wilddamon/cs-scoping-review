@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsforfailureofvacuumassistedvaginaldeliveryacasecontrolstudy2016verhoeven
+"OBJECTIVE: To identify potential predictors for failed vacuum-assisted delivery. STUDY DESIGN: Retrospective case-control study conducted in two perinatal centers in the Netherlands. Cases were women who underwent a failed vacuum-assisted delivery between 1997 and 2011. A failed vacuum extraction was defined as a delivery that was started as vacuum extraction but was converted to a cesarean section because of failure to progress. As controls we studied two successful vacuum extractions that were performed before the failed one. We used multivariable logistic regression to assess the risk for failed vacuum extraction. RESULTS: Between 1997 and 2011, 6734 trials of vacuum extraction were performed of which 309 failed (4.6%). These 309 cases were compared to the data of 618 women who underwent a successful vacuum extraction. Predictors for failed vacuum-assisted vaginal delivery were increasing gestational age (OR 1.2 per week), maternal height (OR 0.97 per cm), previous vaginal birth as compared to nulliparae (OR 0.32), estimated fetal weight >=3750g as compared to <3250g (OR 5.7), epidural analgesia (OR 3.0), augmentation (OR 1.4), failure to progress as indication for trial of vacuum delivery (OR 1.7), station of descent of the fetal head (OR 0.31 per station more descended), and occiput posterior position (OR 2.6). The area under the receiver-operating characteristic curve of a prediction model integrating these indicators was 0.83. CONCLUSION: Failed vacuum extraction can be predicted accurately using both ante- and intrapartum characteristics. There is a strong need for prospective studies on the subject."""
+
+

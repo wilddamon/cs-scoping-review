@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incrementalcostofprematuritybyweekofgestationalage2019walsh
+"Objective ?This study was aimed to compare health care costs and utilization at birth through 1 year, between preterm and term infants, by week of gestation. Methods ?A cross-sectional study of infants born at >= 23 weeks of gestational age (GA) at Kaiser Permanente Northern California facilities between 2000 and 2011, using outcomes data from an internal neonatal registry and cost estimates from an internal cost management database. Adjusted models yielded estimates for cost differences for each GA group. Results ?Infants born at 25 to 37 weeks incur significantly higher birth hospitalization costs and experience significantly more health care utilization during the initial year of life, increasing progressively for each decreasing week of gestation, when compared with term infants. Among all very preterm infants (<= 32 weeks), each 1-week decrease in GA is associated with incrementally higher rates of mortality and major morbidities. Conclusion ?We provide estimates of potential cost savings that could be attributable to interventions that delay or prevent preterm delivery. Cost differences were most extreme at the lower range of gestation (<= 30 weeks); however, infants born moderately preterm (31-36 weeks) also contribute substantially to the burden, as they represent a higher proportion of total births.Copyright (c) 2019 Georg Thieme Verlag KG."""
+
+

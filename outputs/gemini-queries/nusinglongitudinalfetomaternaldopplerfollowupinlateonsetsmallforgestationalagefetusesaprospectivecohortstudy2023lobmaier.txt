@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomeanditspredictionusinglongitudinalfetomaternaldopplerfollowupinlateonsetsmallforgestationalagefetusesaprospectivecohortstudy2023lobmaier
+"PURPOSE: To describe the perinatal outcome of a prospective cohort of late-onset small-for-gestational-age (SGA) fetuses and to test adverse perinatal outcome (APO) prediction using Doppler measurements. METHODS: Singleton pregnancies from 32 weeks with suspicion of SGA (followed-up each 2 weeks) and randomly selected healthy controls at a university hospital were included. The whole SGA group was divided into the FGR subgroup or SGA percentile 3-10 subgroup. The following Doppler measurements were evaluated prospectively: umbilical artery (UA) pulsatility index (PI), middle cerebral artery (MCA) PI, cerebro-placental ratio (CPR), and mean uterine artery (mUtA) PI. APO was defined as arterial cord blood pH <= 7.15 and/or 5-minute Apgar <= 7 and/or emergency operative delivery and/or admission to the neonatal unit. Induction of labor was indicated according to a stage-based protocol. RESULTS: A total of 149 SGA and 143 control fetuses were included. The number of operative deliveries was similar between both groups (control: 29 %, SGA: 28 %), especially the cesarean delivery rate after the onset of labor (11 % vs. 10 %). Most SGA cases ended up in induction of labor (61 % vs. 31 %, p < 0.001). The areas under the curve (AUC) for APO prediction were similar using the last UA PI, MCA PI, CPR, and mUtA PI and barely reached 0.60. The AUC was best for the FGR subgroup, using the minimal CPR or maximum mUtA PI z-score of all longitudinal measurements (AUC = 0.63). CONCLUSION: SGA fetuses do not have a higher rate of operative delivery if managed according to a risk stratification protocol. Prediction of APO is best for SGA and FGR using the 'worst' CPR or mUtA PI but it remains moderate."""
+
+

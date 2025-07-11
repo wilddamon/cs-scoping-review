@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doespretermbirthincreasetheinitiationofantidepressantuseduringthepostpartumapopulationbasedinvestigation2024esposito
+"Background: Preterm birth may affect maternal mental health. We explored the relationship between preterm birth and the risk of initiating antidepressant use during the year after birth. Method(s): We conducted a population-based investigation using regional healthcare utilization databases. The exposure considered was preterm birth. The outcome was having at least one prescription for antidepressant medications during the year after birth. We used a log-binomial regression model including terms for maternal age at birth, nationality, educational level, parity, modality of conception, modality of delivery, use of other psychotropic drugs, and diabetes to estimate relative risk (RR) and 95% confidence intervals (CI) for the association between preterm birth and the initiation of antidepressant use. In addition, the absolute risk differences (ARD) were also computed according to the timing of birth. Result(s): The cohort included 727,701 deliveries between 2010 and 2020 in Lombardy, Northern Italy. Out of these, 6,522 (0.9%) women had at least one prescription for antidepressant drugs during the year after birth. Preterm births were related to a 38% increased risk of initiation of antidepressant use during the year after birth (adjusted RR = 1.38; 95% CI: 1.25-1.52) for moderate to late preterm and to 83% (adjusted RR = 1.83; 95% CI: 1.46-2.28) for extremely and very preterm. Excluding women with only one antidepressant prescription, the association was consistent (adjusted RR = 1.41, 95%CI: 1.23-1.61 for moderate to late preterm and adjusted RR = 1.81, 95% CI: 1.31-2.49 for extremely and very preterm). Also, excluding women who used other psychotropics, the association remained consistent (adjusted RR = 1.39, 95%CI: 1.26-1.54 and adjusted RR = 1.91, 95% CI: 1.53-2.38, respectively for moderate to late and extremely and very preterm). Conclusion(s): Women who delivered preterm may have an excess risk of initiation of antidepressant consumption during the first year after birth.Copyright (c) 2024 Esposito, Cantarutti, Lupattelli, Franchi, Corrao and Parazzini."""
+
+

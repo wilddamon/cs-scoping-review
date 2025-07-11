@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lowerlimbsvenouscompressionreducestheincidenceofmaternalhypotensionfollowingepiduralanalgesiaduringtermlabor2017peyronnet
+"OBJECTIVE(S): Every year in France, 10% to 20% of the 600 000 women given epidural analgesia during labor experience hypotension, which in 15% of cases is associated with fetal heart rate abnormalities. The efficiency of lower limbs venous compression in preventing the occurrence of maternal hypotension after neuraxial anesthesia has already been demonstrated, but only in the context of scheduled cesarean section. We assessed the preventive effect of medical lower limbs venous compression on the incidence of maternal hypotension after epidural analgesia during spontaneous term labor. STUDY DESIGN: This before/after, single-center study in a university hospital included 93 women in spontaneous labor at term who between 1 January and 31 March 2015 with epidural analgesia plus lower limbs compression and 202 women in spontaneous labor at term who delivered between 1 and 31 December 2014 with epidural analgesia without lower limbs compression (control group). The main outcome was maternal hypotension (systolic blood pressure <90mmHg and/or delta >20%) in the 15min after epidural analgesia. RESULTS: In the lower limbs compression group the incidence of hypotension 15min after epidural analgesia was significantly lower than in the control group (3.23% versus 23.3%, adjusted odds ratio=0.1 [0.03; 0.35]). The incidence of fetal heart rate abnormalities was unsignificantly lower in the lower limbs compression group than in the control group (10.7% versus 16.34%, p=0.22). CONCLUSION: The results suggest that medical lower limbs compression (20-36mmHg) in women in spontaneous labor at term, could significantly reduce the incidence of maternal hypotension following epidural analgesia. A prospective, randomized, open trial would allow confirmation of these preliminary results."""
+
+

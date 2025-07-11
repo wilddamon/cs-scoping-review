@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clinicalmanagementoftheinductionoflaborinintrauterinefetaldeathevaluationofincidenceofcesareansectionandrelatedconditions2014donascimento
+"OBJECTIVE: To assess the incidence and conditions associated with cesarean section in a cohort of pregnant women with intrauterine fetal death (IUFD), and clinical management to anticipate the childbirth.;METHODS: It was a retrospective cohort study with 163 mothers with IUFD, at the second half of pregnancy, who were managed to anticipate childbirth using pharmacological preparations and/or a mechanical method (Foley catheter) in a teaching hospital in Rio de Janeiro State, Brazil. Cox regression was used to evaluate the effect of the clinical methods on the kind of delivery.;RESULTS: The Subgroups A (misoprostol or Oxytocin), B (misoprostol and Oxytocin), and C (Foley catheter alone or combined with misoprostol and/or Oxytocin) were formed according to the applied methods. Nine out of 163 cases ended with cesarean section. The incidence of cesarean section was 3.5 per 1,000 people-hours, meaning that a pregnant woman with IUFD had a 15.6% risk of cesarean section during the first 48 hours of clinical management to anticipate childbirth. The conditions significantly associated with the mode of delivery were placental abruption (HR: 44.97), having two or more previous cesarean deliveries (HR: 10.03), and mechanical method with Foley catheter (HR: 5.01).;CONCLUSION: Cesarean section was an essential conduct in this cohort and followed previous cesarean delivery and placental abruption. The effect of the mechanical method on the abdominal route suggests that the Foley catheter method was used in the most difficult cases and that the surgery was performed to ensure maternal health."""
+
+

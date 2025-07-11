@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outofhospitalbirthsincalifornia199120112018girsen
+"OBJECTIVE: We investigated the frequencies and characteristics of out-of-hospital births in a 20-year period in California, where 1 of every 7 births in the United States occurs. STUDY DESIGN: Birth certificate records of deliveries in California between 1991 and 2011 were analyzed. Out-of-hospital births were assessed by year, parity, gestational age and maternal race/ethnicity. RESULTS: In the 20-year period there were 10 593,904 deliveries, of which 46 243 occurred out of hospital (0.44%). Out-of-hospital births decreased from 0.54 to 0.38% per year between 1991 and 2004, and increased from 0.41% in 2005 to 0.61% in 2011. In contrast, preterm out-of-hospital births declined from 7.2% in 2006 to 5.0% in 2011. The frequency of vaginal birth after cesarean in the out-of-hospital birth cohort increased from 1.2% (n=19) in 1996 to 4.2% (n=82) in 2011. CONCLUSION: California birth records from a 20-year period show an increase in out-of-hospital births from years 2005 to 2011, following a period of decline from 1991 to 2004."""
+
+

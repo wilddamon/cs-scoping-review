@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aregionalsurveyevaluatingpatientexperienceseekingtrialoflaboraftercesarean2022davidson
+"OBJECTIVE: To evaluate access to trial of labor after cesarean (TOLAC) in a large metropolitan city.;STUDY DESIGN: In 2012, a public tertiary care hospital in Houston, TX promoted its TOLAC services on social media, resulting in a surge of self-referrals. In 2018, an electronic survey was distributed by email to 200 women who had previously contacted the hospital regarding TOLAC and posted on 2 local social media TOLAC sites. Women were asked to participate if they ever sought TOLAC in the Houston area. Data were analyzed for trends in patient experience seeking TOLAC and comparisons were made based on number of prior cesarean deliveries (CD) and race/ethnicity.;RESULTS: The survey was open for responses for 1 month, with 128 completed surveys by the end of the study time period. Of the respondents, most (64%) had 1 prior CD and identified as White (63%). Most (60%) of all women reported contacting >=3 providers before finding one that offered TOLAC, with no difference reported for women with 1 vs 2 prior CD (p = .2). Over half (52%) reported their experience seeking TOLAC to be difficult with more difficulty noted by those with 2 vs 1 prior CD, (61.8% vs 42.7%,) but not statistically significant (p = .06). White women were more likely to report an easier experience seeking TOLAC compared to Black women (55.6% vs 30%, p = .04). Overall, 37% attempted TOLAC at the reference hospital. Black (50%) and Hispanic (68.2%) women were significantly more likely to have delivered at the reference hospital than White women (24%) (p < .05).;CONCLUSION: Our results suggest that women seeking TOLAC have difficulty finding providers who offer the service. This may be especially true for Black and Hispanic women and women with >1 prior CD. Women may utilize social media forums for resources and recommendations and such platforms may represent an underutilized opportunity to identify regional TOLAC services."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nulliparouswomeninthesecondstageoflaborchangesindeliveryoutcomesbetweentwocohortsfrom2000and20112015fitzwater
+"OBJECTIVE: To evaluate changes over the past decade in the mode of delivery and second-stage duration in nulliparous women. METHODS: We conducted a retrospective cohort study at a single institution of nulliparous women reaching complete cervical dilation with singleton gestations 36 weeks or greater from January 1, 2011, to December 31, 2012, and compared these with a prior cohort prospectively collected from July 28, 2000, to February 28, 2003. We excluded pregnancies with prenatally diagnosed fetal anomalies. The primary outcome was cesarean delivery. Secondary outcomes included second-stage duration, rates of operative vaginal delivery (forceps and vacuum collectively), and indications for cesarean delivery and operative vaginal delivery. RESULTS: There were 1,023 mother-neonate pairs in the prior cohort and 1,476 in the current cohort. In the prior and current cohorts, respectively, 2% compared with 6% underwent cesarean delivery, 21% compared with 10% underwent operative vaginal delivery, and 77% compared with 84% had spontaneous vaginal delivery (all P<.01). Compared with the prior cohort, the adjusted odds (OR) of cesarean delivery (compared with any vaginal birth) for current patients was 1.74 (95% confidence interval [CI] 1.04-2.91), and in a separate regression model, the adjusted OR of operative vaginal delivery (compared with spontaneous vaginal delivery or cesarean delivery) was 0.42 (95% CI 0.33-0.54). Median (25th, 75th percentile) second-stage duration significantly increased from 38 (20, 71) to 42 (22, 87) minutes (P<.01), but this difference was nullified after adjusting for confounders. CONCLUSION: Comparing cohorts from 2000 and 2011, although the second-stage duration has not changed appreciably, nulliparous women in the second stage of labor at our institution are twice as likely to undergo cesarean delivery and half as likely to undergo operative vaginal delivery. LEVEL OF EVIDENCE: II."""
+
+

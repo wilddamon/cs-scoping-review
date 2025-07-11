@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retainedplacentaandpostpartumhemorrhagetimeisnoteverything2021franke
+"PURPOSE: Postpartum hemorrhage is the major cause of maternal mortality worldwide. Retained placenta accounts for nearly 20% of severe cases. We investigated the influence of the time factor and retained placenta etiology on postpartum hemorrhage dynamics.;METHODS: Our retrospective study analyzed a single-center cohort of 296 women with retained placenta. Blood loss was measured using a validated and accurate technique based on calibrated blood collection bags, backed by the post- vs pre-partum decrease in hemoglobin. We evaluated the relationship between these two blood loss parameters and the duration of the third stage of labor using Spearman rank correlation, followed by subgroup analysis stratified by third stage duration and retained placenta etiology.;RESULTS: Correlation analysis revealed no association between third stage duration and measured blood loss or decrease in hemoglobin. A shorter third stage (< 60 min) was associated with significantly increased uterine atony (p = 0.001) and need for blood transfusion (p = 0.006). Uterine atony was significantly associated with greater decrease in hemoglobin (p < 0.001), higher measured blood loss (p < 0.001), postpartum hemorrhage (p = 0.048), and need for blood transfusion (p < 0.001).;CONCLUSION: Postpartum blood loss does not correlate with third stage duration in women with retained placenta. Our results suggest that there is neither a safe time window preceding postpartum hemorrhage, nor justification for an early cut-off for manual removal of the placenta. The prompt detection of uterine atony and immediate prerequisites for manual removal of the placenta are key factors in the management of postpartum hemorrhage. Copyright (c) 2021. The Author(s)."""
+
+

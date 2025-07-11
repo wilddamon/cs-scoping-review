@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryandtheriskofallergicrhinitisinchildren2020richards
+"BACKGROUND: Cesarean delivery (C-section) may influence the infant microbiome and affect immune system development and subsequent risk for allergic rhinitis (AR). OBJECTIVE: To investigate the association between C-section and AR at ages 6, 8, and 10 years. METHODS: Data were collected prospectively through Kaiser Permanente Northern Californias (KPNC) integrated healthcare system. Children were eligible if they were born in a KPNC hospital and remained in the KPNC system for minimum 6 years (n = 117,768 age 6; n = 75,115 age 8; n = 40,332 age 10). Risk ratios (RR) for C-section and AR were estimated at each follow-up age and adjusted for important covariates, including intrapartum antibiotics, pre-pregnancy body mass index, maternal allergic morbidities, and breastfeeding. Subanalyses considered information on C-section indication, labor, and membrane rupture. RESULTS: After adjusting for confounders, we did not observe an association between C-section and AR at follow-up ages 6, 8, or 10 years (RR [CI]: 6 years, 0.98 [0.91, 1.04]; 8 years, 1.00 [0.95, 1.07]; 10 years, 1.03 [0.96, 1.10]). In stratified analyses, there was limited evidence that C-section increases the risk of AR in certain subgroups (eg, children of non-atopic mothers, second or higher birth order children), but most estimated risk ratios were consistent with no association. Estimated associations were unaffected by participant attrition, missing data, or intrapartum antibiotics. CONCLUSION: C-section delivery was not associated with AR at follow-up ages of 6, 8, or 10 years in a large contemporary US cohort."""
+
+

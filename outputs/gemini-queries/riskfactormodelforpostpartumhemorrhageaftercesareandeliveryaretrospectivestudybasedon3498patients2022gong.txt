@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactormodelforpostpartumhemorrhageaftercesareandeliveryaretrospectivestudybasedon3498patients2022gong
+"This study aimed to investigate the risk factors of patients with postpartum hemorrhage (PPH) after cesarean delivery (CD) and to develop a risk-factor model for PPH after CD. Patients were selected from seven affiliated medical institutions of Chongqing Medical University from January 1st, 2015, to January 1st, 2020. Continuous and categorical variables were obtained from the hospital's electronic medical record systems. Independent risk factors were identified by univariate analysis, least absolute shrinkage and selection operator and logistic regression. Furthermore, logistic, extreme gradient boosting, random forest, classification and regression trees, as well as an artificial neural network, were used to build the risk-factor model. A total of 701 PPH cases after CD and 2797 cases of CD without PPH met the inclusion criteria. Univariate analysis screened 28 differential indices. Multi-variable analysis screened 10 risk factors, including placenta previa, gestational age, prothrombin time, thrombin time, fibrinogen, anemia before delivery, placenta accreta, uterine atony, placental abruption and pregnancy with uterine fibroids. Areas under the curve by random forest for the training and test sets were 0.957 and 0.893, respectively. The F1 scores in the random forest training and test sets were 0.708. In conclusion, the risk factors for PPH after CD were identified, and a relatively stable risk-factor model was built."""
+
+

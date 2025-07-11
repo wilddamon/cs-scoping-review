@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesinmaternalgravesdiseaseapopulationbasedmotherinfantdyadcohortstudy2024cohensela
+"Background: Graves' disease has been associated with adverse pregnancy, labor and delivery, and neonatal outcomes. Thyroid function levels, assessed during newborn screening (NBS), can serve as indicators of the adaptation in the hypothalamic-pituitary-thyroid axis. We utilized data from the national thyroid NBS program to investigate the characteristics of the mother-infant dyad of term infants born to mothers with past or active Graves' disease. Methods: The dataset of the Israeli NBS for thyroid function was linked with the electronic records of a tertiary medical center to generate a unified database of mothers and their term infants born between 2011 and 2021. The MDClone big data platform extracted maternal, pregnancy, disease course, labor and delivery, and neonatal characteristics of the mother-infant dyads. Results: Out of 103,899 registered mother-infant dyads, 292 (0.3%) mothers had past or active Graves' disease. A forward multivariate linear regression demonstrated that Graves' disease did not significantly affect NBS total thyroxine (tT4) levels (p = 0.252). NBS tT4 levels in infants born to mothers with active Graves' disease were higher than those observed in the general Israeli population (p < 0.001). Mothers with Graves' disease more frequently used assisted reproductive technology (12.7% vs. 9.0%, respectively, p = 0.012; odds ratio [OR] = 1.46 [CI 1.03-2.07], p = 0.031), and had more gestational hypertension (3.9% vs. 1.1%, p < 0.001; OR = 3.53 [CI 1.92-6.47], p < 0.001), proteinuria (2.5% vs. 0.9%, p < 0.001; OR = 3.03 [CI 1.43-6.45], p = 0.004), cesarean sections (26.4% vs. 19.7%, p = 0.029; OR = 1.46 [CI 1.13-1.90], p = 0.004), prelabor rupture of membranes (15.4% vs. 4.1%, p < 0.001; OR = 4.3 [CI 3.13-5.91], p < 0.001), and placental abnormalities (5.1% vs. 2.0%, p < 0.001; OR = 2.64 [CI 1.57-4.44]; p < 0.001). Their infants had lower adjusted birthweight z-scores (-0.18 +- 0.94 vs. -0.03 +- 0.90, p = 0.007) and were more likely to be small for gestational age (12.0% vs. 8.1%, p = 0.005; OR = 1.54 [CI 1.08-2.19], p = 0.018). Conclusions: Neonatal thyroid function levels were affected by maternal Graves' disease only when the disease was active during gestation. Moreover, maternal Graves' disease was also associated with an increased risk of adverse outcomes for the mother-infant dyad."""
+
+

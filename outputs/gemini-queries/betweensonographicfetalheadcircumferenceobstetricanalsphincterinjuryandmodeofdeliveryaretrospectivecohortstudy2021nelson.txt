@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweensonographicfetalheadcircumferenceobstetricanalsphincterinjuryandmodeofdeliveryaretrospectivecohortstudy2021nelson
+"BACKGROUND: There is no consensus to the implications of an increased sonographic fetal head circumference (HC) and its impact on delivery. AIM: To examine if there is any association between sonographic fetal HC, obstetric anal sphincter injury (OASIS) and mode of delivery. MATERIALS AND METHODS: A retrospective cohort study of term, singleton births between April 2017 and March 2019 at a large regional hospital in Australia with a third trimester ultrasound. Logistic regressions were performed investigating sonographic fetal HC and additional risk factors for OASIS. Further multinomial logistic regressions assessed the relationship between the sonographic HC and mode of delivery. Odds ratios and their 95% CIs were reported. RESULTS: Of 667 eligible women, 487 (73%) had vaginal births, with 32 (6.6%) sustaining an OASIS and 180 (27%) had caesarean sections (CS). The sonographic fetal HC did not show an association with OASIS (odds ratio 1.005; CI 0.99-1.01, P = 0.447). A statistically significant association (P < 0.05) with OASIS was found with Asian ethnicity (4.38; 1.5-11.32), prolonged second stage (>=2 h) (4.26; 1.57-10.49) and occiput posterior position (4.01; 1.08-11.92). For women with a sonographic fetal HC >= 90th percentile, the odds of having CS compared to a spontaneous vaginal birth are 2.77 (95% CI: 1.36, 5.62; P = 0.005) times higher than those who have a HC < 90th percentile. CONCLUSION: This study does not support the use of sonographic fetal HC in assessing a woman's risk of sustaining an OASIS. Sonographic fetal HC is associated with mode of delivery."""
+
+

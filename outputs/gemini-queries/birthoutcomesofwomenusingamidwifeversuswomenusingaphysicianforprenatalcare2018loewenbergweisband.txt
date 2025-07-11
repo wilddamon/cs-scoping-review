@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthoutcomesofwomenusingamidwifeversuswomenusingaphysicianforprenatalcare2018loewenbergweisband
+"INTRODUCTION: Few studies have compared midwife-led and physician-led care in the United States. Our objective was to compare the frequency of birth interventions and maternal and neonatal outcomes between women who received prenatal care from a midwife and those who received care from a physician, among women who were low risk when they initiated prenatal care. METHODS: We performed a retrospective cohort study of women giving birth at a large public hospital who had at least one prenatal visit before 20 weeks' gestation in the years 2012 through 2015. We classified women according to prenatal care provider type (midwife vs physician) at first prenatal visit and compared birth outcomes between the groups, using intent-to-treat analyses. We used modified Poisson regression to calculate adjusted risk ratios (aRRs) for common outcomes and logistic regression with Firth's bias correction to produce adjusted odds ratios (aORs) for rare outcomes. As a sensitivity analysis, we performed a matched propensity score analysis to account for potential confounding by indication. RESULTS: Midwives provided care to 8.2% of the women; physicians provided care to 91.8% of the women. Women in midwifery care were less likely to be black, have Medicaid insurance, or have a history of pregnancy complications or previous cesarean births compared with women who received care from physicians. Women in midwifery care had lower risks of cesarean (aRR, 0.66; 95% CI, 0.57-0.78) and preterm birth (aRR, 0.58; 95% CI, 0.42-0.79), with no increased odds of neonatal intensive care unit admissions, neonatal deaths, or severe maternal morbidity. Women in midwifery care had increased odds of postpartum hemorrhage and shoulder dystocia (aOR, 3.26; 95% CI, 1.40-7.58, and aOR, 1.80; 95% CI, 1.01-3.22, respectively); however, these did not remain significant in the propensity score analysis. DISCUSSION: Among women with low-risk pregnancies, midwifery care was associated with substantially fewer preterm births and labor interventions."""
+
+

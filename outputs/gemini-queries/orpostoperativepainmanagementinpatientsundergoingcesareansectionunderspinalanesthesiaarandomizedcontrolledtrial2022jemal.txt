@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: analgesicefficacyofspinalmorphineincomparisonwithtransversusabdominisplaneblockforpostoperativepainmanagementinpatientsundergoingcesareansectionunderspinalanesthesiaarandomizedcontrolledtrial2022jemal
+"Background: Cesarean section (CS) has been one of the most frequently performed major surgical interventions and causes severe postoperative pain. Spinal opioid and abdominal field block have been investigated as effective analgesia for postoperative pain and reduce the need for systemic medications and associated side effects. The aim of the current study is to compare spinal morphine (SM) and bilateral landmark oriented transversus abdominis plane (TAP) block for postoperative pain management. Method(s): In this randomized controlled trial, 114 pregnant mothers scheduled for CS under spinal anesthesia were allocated randomly to receive either SM 0.1 mg (group SM; n = 56) or bilateral landmark-oriented TAP block with 20 ml of 0.25% of bupivacaine (group TAP; n = 52). A comparison of numerical variables between study groups was done using unpaired student t-test and Mann-Whitney test for symmetric and asymmetric data, respectively. Time to event variable was analyzed by using Kaplan-Meir's survival function. A p-value of < 0.05 was considered statistically significant. Result(s): A total of 114 patients were recruited and randomly assigned and received interventions. Among them, 108 patients completed this study. Time to first analgesic request was significantly shorter in the TAP block compared to SM. Twenty-four-hour median morphine consumption was reduced in the SM group compared to the TAP block (p < 0.001). Median postoperative pain score during movement and rest shows statistically significant differences between groups (p < 0.001). Conclusion(s): The addition of preservative-free 100 mug SM provides prolonged postoperative analgesia time, superior postoperative analgesia, and less postoperative opioid consumption compared to the TAP block.Copyright (c) 2022 Jemal, Mohammed, Tesema, Ahmed, Mohammed, Regasa and Obsa."""
+
+

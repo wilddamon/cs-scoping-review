@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionandriskoftype1diabeteswholeofpopulationstudy2019begum
+"AIM: A hypothesized mechanism for increased type 1 diabetes risk among caesarean births is lack of exposure to the vaginal microbiota. Children born by prelabour caesarean are not exposed to the vaginal microbiota, whereas caesarean births during labour (intrapartum) may be exposed. The aim of this study was to estimate type 1 diabetes risk among children born by caesarean compared with normal vaginal delivery.;METHODS: This whole-of-population study linked routinely collected, de-identified administrative data from the South Australian Early Childhood Data Project for all births from 1999 to 2013. Type 1 diabetes cases were identified using inpatient hospitalizations from 2001 to 2014 (ICD-10-AM codes E10-E109). Type 1 diabetes risk for caesarean was assessed by Cox regression using two models: (i) caesarean vs. vaginal and (ii) prelabour or intrapartum caesarean vs. vaginal. Analyses were adjusted for confounding and multiple imputation was used to address missing data.;RESULTS: A total of 286 058 children born between 1999 and 2013 contributed to 2 200 252 person-years, of which 557 had type 1 diabetes. Of all births, 90 546 (31.7%) were caesarean, and of these 53.1% were prelabour and 46.9% intrapartum caesarean. Compared with vaginal delivery, the adjusted hazard ratio for type 1 diabetes was 1.05 [95% confidence interval (CI) 0.86-1.28) for caesarean, 1.02 (95% CI 0.79-1.32) for prelabour caesarean and 1.08 (95% CI 0.82-1.41) for intrapartum caesarean.;CONCLUSION: There may be a small increased type 1 diabetes risk following caesarean, but confidence intervals included the null. The lower estimate for prelabour compared with intrapartum caesarean, and the potential for unmeasured confounding suggest that neonatal vaginal microbiota might not be involved in type 1 diabetes. Copyright (c) 2019 Diabetes UK."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thetimingofinitiationofpharmacotherapyforwomenwithgestationaldiabetesmellitus2020harrison
+"BACKGROUND: The decision to initiate pharmacotherapy is integral in the care for pregnant women with gestational diabetes mellitus (GDM). We sought to compare pregnancy outcomes between two threshold percentages of elevated glucose values prior to initiation of pharmacotherapy for GDM. We hypothesized that a lower threshold at pharmacotherapy initiation will be associated with lower rates of adverse perinatal outcomes. METHODS: This was a retrospective cohort study of women with GDM delivering in a single tertiary care center. Pregnancy outcomes were compared using bivariable and multivariable analyses between women who started pharmacotherapy (insulin or oral hypoglycemic agent) after a failed trial of dietary modifications at two different ranges of elevated capillary blood glucose (CBG) values: Group 1 when 20-39% CBG values were above goal; Group 2 when >=40% CBG values were above goal. The primary outcome was a composite GDM-associated neonatal adverse outcome that included: macrosomia, large for gestational age (LGA), shoulder dystocia, hypoglycemia, hyperbilirubinemia requiring phototherapy, respiratory distress syndrome, stillbirth, and neonatal demise. Secondary outcomes included cesarean delivery, preterm birth (< 37 weeks), neonatal intensive care unit (NICU) admission, and small for gestational age (SGA). RESULTS: A total of 417 women were included in the study. In univariable analysis, the composite neonatal outcome was statistically significantly higher in Group 2 compared to Group 1 (47.9% vs. 31.4%, p = 0.001). In addition, rates of preterm birth (15.7% vs 7.4%, p = 0.011), NICU admission (11.7% vs 4.0%, p = 0.006), and LGA (21.2% vs 9.1% p = 0.001) were higher in Group 2. In contrast, higher rates of SGA were noted in Group 1 (8.0% vs. 2.9%, p = 0.019). There was no difference in cesarean section rates. These findings persisted in multivariable analysis after adjusting for confounding factors (composite neonatal outcome aOR = 0.50, 95%CI [0.31-0.78]). CONCLUSIONS: Initiation of pharmacotherapy for GDM when 20-39% of CBG values are above goal, compared to >=40%, was associated with decreased rates of adverse neonatal outcomes attributable to GDM. This was accompanied by higher rates of SGA among women receiving pharmacotherapy at the lower threshold. Additional studies are required to identify the optimal threshold of abnormal CBG values to initiate pharmacotherapy for GDM."""
+
+

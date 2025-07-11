@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: experiencewithintramuscularglucagonforinfantswithearlyneonatalhypoglycemia2019smolkin
+"Parenteral options for treating neonatal hypoglycemia (NH) include: intramuscular (i.m.) glucagon or intravenous (i.v.) glucose 10%. So far, the role of i.m. glucagon in treating NH has not been adequately assessed. We retrospectively studied 236 neonates with NH. One hundred and twenty-one infants received oral glucose-fortified-milk-based formula (OGFM) and their blood glucose level (BGL) was maintained thereafter. Two groups of infants required intervention: (a) OGFM + i.m. glucagon (n = 77, 32.6%) and (b) OGFM + i.v. glucose bolus (n = 38, 16.1%). BGL1, BGL2 and BGL3 denote pre-treatment BGL, 2-2.5 h post-treatment and BGL within 2.5-4 h post-treatment; respectively. The two groups were compared regarding two outcome measures: Outcome no. 1: BGL2 >= 45 mg/dL and outcome no. 2: BGL3 >= 45 mg/dL. Compared to i.v. glucose, the i.m. glucagon group had significantly more infants with BGL2 >= 45 mg/dL (40% vs. 76%, p = 0.028), and marginal significant difference regarding BGL3 >= 45 mg/dL (62% vs. 77%, p = 0.08). Univariate analysis showed that i.m. glucagon, male gender, vacuum extraction, cesarean delivery and one or more NH risk factors were significantly associated with outcome measure no. 1. I.m. glucagon, small for gestational age status, cesarean delivery, BGL1 and NH risk factors were associated with outcome measure no. 2. Multi-variate analysis showed that i.m. glucagon was significantly and independently associated with BGL2 >= 45 mg/dL. I.m. glucagon is worth consideration as a treatment option for NH."""
+
+

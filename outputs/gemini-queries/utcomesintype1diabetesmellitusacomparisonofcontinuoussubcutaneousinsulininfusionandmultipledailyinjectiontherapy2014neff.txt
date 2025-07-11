@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prepregnancycareandpregnancyoutcomesintype1diabetesmellitusacomparisonofcontinuoussubcutaneousinsulininfusionandmultipledailyinjectiontherapy2014neff
+"BACKGROUND: Pre-pregnancy care improves pregnancy outcomes in type 1 diabetes mellitus (T1DM). Continuous subcutaneous insulin infusion (CSII) therapy and multiple daily injection (MDI) therapy can both be used to achieve glycaemic targets, but few data are available to compare their efficacy in pre-pregnancy care. AIM: To compare MDI and CSII in pre-pregnancy care in T1DM. METHODS: Retrospective database review of women with T1DM attending the Dublin Diabetes in Pregnancy Centre. RESULTS: 464 women with T1DM (40 treated with CSII) were included. Women attending for pre-pregnancy care had lower HbA1c levels at booking to antenatal services [52 +- 10 mmol/mol (6.9 +- 0.9 %) vs. 62 +- 16 mmol/mol (7.8 +- 1.5 %), p < 0.001], and booked at an earlier gestation (6 +- 2 vs. 8 +- 6 weeks, p < 0.001). In those who attended for pre-pregnancy care, the CSII group had lower HbA1c levels at booking than those using MDI [48 +- 8 mmol/mol (6.5 +- 0.7 %) vs. 53 +- 10 mmol/mol (7.0 +- 0.9 %), p = 0.03]. Gestational age at delivery and birth weight did not differ between groups. Caesarean section rates were associated with CSII use (p < 0.001), duration of diabetes (p = 0.002), and parity (p = 0.006). Nulliparous women using CSII with a longer history of diabetes were more likely to deliver by Caesarean section. There was no perinatal mortality. CONCLUSIONS: Pre-pregnancy care delivered by a specialist multi-disciplinary team effectively reduces HbA1c levels peri-conception. CSII use results in lower HbA1c levels in pre-pregnancy care in selected individuals and should be considered in women with T1DM planning pregnancy."""
+
+

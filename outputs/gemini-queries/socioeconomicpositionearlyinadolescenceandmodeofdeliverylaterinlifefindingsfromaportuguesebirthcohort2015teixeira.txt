@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: socioeconomicpositionearlyinadolescenceandmodeofdeliverylaterinlifefindingsfromaportuguesebirthcohort2015teixeira
+"OBJECTIVE: This study assessed the influence of socioeconomic position at 12 years of age (SEP-12) on the variability in cesarean rates later in life. METHODS: As part of the Portuguese Generation XXI birth cohort we evaluated 7358 women with a singleton pregnancy who delivered at five Portuguese public hospitals serving the region of Porto (April/2005-September/2006). Based on the twelve items that described socioeconomic circumstances at age 12, a latent class analysis was used to classify women's SEP-12 as high, intermediate and low. Multiple Poisson regression was used to estimate adjusted risk ratio (RR) and respective 95% confidence interval (95% CI). RESULTS: The cesarean rates in high, intermediate and low SEP-12 were, respectively, 40.9%, 37.5% and 40.5% (p = 0.100) among primiparous women; 14.2%, 11.6% and 15.5% (p = 0.04) among multiparous women with no previous cesarean and 78.6%, 72.2% and 70.0% (p = 0.08) among women with a previous cesarean. A low to moderate association between SEP-12 and cesarean rates was observed among multiparous women with a previous cesarean, illustrating that women from higher SEP-12 were more likely to have a surgical delivery (RR = 1.12;95%CI:1.01-1.24 comparing high with low SEP-12 and RR = 1.03:95%CI:0.94-1.14 comparing intermediate with low SEP-12) not explained by potential mediating factors. No such association was found either in primiparous or in multiparous women without a previous cesarean. CONCLUSIONS: The association between SEP-12 and cesarean rates suggests the effect of past socioeconomic context on the decision concerning the mode of delivery, but only among women who experienced a previous cesarean. Accordingly, it appears that early-life socioeconomic circumstances drive cesarean rates but the effect can be modified by lived experiences concerning childbirth."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: capturingthedynamicsofmicrobialinteractionsthroughindividualspecificnetworks2023yousefi
+"Longitudinal analysis of multivariate individual-specific microbiome profiles over time or across conditions remains dauntin. Most statistical tools and methods that are available to study microbiomes are based on cross-sectional data. Over the past few years, several attempts have been made to model the dynamics of bacterial species over time or across conditions. However, the field needs novel views on handling microbial interactions in temporal analyses. This study proposes a novel data analysis framework, MNDA, that combines representation learning and individual-specific microbial co-occurrence networks to uncover taxon neighborhood dynamics. As a use case, we consider a cohort of newborns with microbiomes available at 6 and 9 months after birth, and extraneous data available on the mode of delivery and diet changes between the considered time points. Our results show that prediction models for these extraneous outcomes based on an MNDA measure of local neighborhood dynamics for each taxon outperform traditional prediction models solely based on individual-specific microbial abundances. Furthermore, our results show that unsupervised similarity analysis of newborns in the study, again using the notion of a taxon's dynamic neighborhood derived from time-matched individual-specific microbial networks, can reveal different subpopulations of individuals, compared to standard microbiome-based clustering, with potential relevance to clinical practice. This study highlights the complementarity of microbial interactions and abundances in downstream analyses and opens new avenues to personalized prediction or stratified medicine with temporal microbiome data."""
+
+

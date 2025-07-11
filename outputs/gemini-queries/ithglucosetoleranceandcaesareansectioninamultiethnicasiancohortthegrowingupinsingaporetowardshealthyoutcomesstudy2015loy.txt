@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofmaternalvitamindstatuswithglucosetoleranceandcaesareansectioninamultiethnicasiancohortthegrowingupinsingaporetowardshealthyoutcomesstudy2015loy
+"OBJECTIVE: Epidemiological studies relating maternal 25-hydroxyvitamin D (25OHD) with gestational diabetes mellitus (GDM) and mode of delivery have shown controversial results. We examined if maternal 25OHD status was associated with plasma glucose concentrations, risks of GDM and caesarean section in the Growing Up in Singapore Towards healthy Outcomes (GUSTO) study. METHODS: Plasma 25OHD concentrations, fasting glucose (FG) and 2-hour postprandial glucose (2HPPG) concentrations were measured in 940 women from a Singapore mother-offspring cohort study at 26-28 weeks' gestation. 25OHD inadequacy and adequacy were defined based on concentrations of 25OHD <=75nmol/l and >75nmol/l respectively. Mode of delivery was obtained from hospital records. Multiple linear regression was performed to examine the association between 25OHD status and glucose concentrations, while multiple logistic regression was performed to examine the association of 25OHD status with risks of GDM and caesarean section. RESULTS: In total, 388 (41.3%) women had 25OHD inadequacy. Of these, 131 (33.8%), 155 (39.9%) and 102 (26.3%) were Chinese, Malay and Indian respectively. After adjustment for confounders, maternal 25OHD inadequacy was associated with higher FG concentrations (b = 0.08mmol/l, 95% Confidence Interval (CI) = 0.01, 0.14), but not 2HPPG concentrations and risk of GDM. A trend between 25OHD inadequacy and higher likelihood of emergency caesarean section (Odds Ratio (OR) = 1.39, 95% CI = 0.95, 2.05) was observed. On stratification by ethnicity, the association with higher FG concentrations was significant in Malay women (b = 0.19mmol/l, 95% CI = 0.04, 0.33), while risk of emergency caesarean section was greater in Chinese (OR = 1.90, 95% CI = 1.06, 3.43) and Indian women (OR = 2.41, 95% CI = 1.01, 5.73). CONCLUSIONS: 25OHD inadequacy is prevalent in pregnant Singaporean women, particularly among the Malay and Indian women. This is associated with higher FG concentrations in Malay women, and increased risk of emergency caesarean section in Chinese and Indian women."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: enhancingpatientmobilityfollowingcesareandeliverytheefficacyofanimprovedpostpartumprotocolassessedwithpedometers2020ganerherman
+"BACKGROUND: The incidence of thromboembolic complications is highest in the immediate postpartum period, especially following caesarean delivery (CD). Ambulation following CD is important in their prevention. We examined the effect of an educational protocol on patients' mobility following CD, with the use of digital step counters (pedometers).;METHODS: Starting February 2018, we implemented an educational protocol at the maternity ward, which included nurses' tutoring and subsequent patients' education, regarding the importance of early ambulation. Following CD, ambulation was initiated 4 h following surgery (as compared to 6 h prior). Scheduled IV acetaminophen was administered at six-hour intervals for 48 h (as compared to only 24 h prior), while additional analgesics were given upon patient request. We compared maternal demographics, delivery and postpartum course between the pre-protocol group (n = 101) and the post-protocol group (n = 100). All patients were asked to wear pedometers for 48 h following the delivery to assess ambulation.;RESULTS: Patients' demographics, surgical and post-partum course were non-significant between the groups, except for surgical length (48.5 +/- 14.6 vs. 53.5 +/- 15.3 min in the pre and post protocol groups, respectively, p = 0.02). The pre-protocol group was treated with more additional analgesics (p = 0.02). A higher number of steps was taken in the post-protocol group as compared to the pre-protocol group (4394 +/- 2985 vs.3551 +/- 2931, respectively p = 0.04). In a linear regression analysis in which the number of steps served as the dependent variable, this educational protocol was independently associated with a higher number of steps [coefficient 988 steps, 95% CI 137-1838, p = 0.02], as was smoking, after adjustment for surgical length, emergent surgery, maternal age and body mass index.;CONCLUSION: An educational protocol which included earlier ambulation and regular interval pain control was associated with improved ambulation following CD."""
+
+

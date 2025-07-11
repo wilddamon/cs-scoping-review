@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: documentedblactamallergyandriskforcesareansurgicalsiteinfection2022johnston
+"OBJECTIVE: To examine the relationship between documented b-lactam allergy and cesarean delivery (CD) surgical site infection (SSI). Study Design. We conducted a retrospective cohort analysis of women who underwent CD at Ben Taub Hospital and Texas Children's Pavilion for Women (Houston, TX) from August 1, 2011, to December 31, 2019. The primary exposure was a documented b-lactam allergy, and the second exposure of interest was the type of perioperative antibiotic received. The primary outcome was the prevalence of SSI. Maternal characteristics were stratified by the presence or absence of a documented b-lactam allergy, and significance was evaluated using Pearson's chi-squared test for categorical variables and t-test for continuous variables. A logistic regression model estimated odds of SSI after adjusting for possible confounders. RESULTS: Of the 12,954 women included, 929 (7.2%) had a documented b-lactam allergy while 12,025 (92.8%) did not. Among the 929 women with a b-lactam allergy, 495 (53.3%) received non-b-lactam perioperative prophylaxis. SSI occurred in 38 (4.1%) of women who had a b-lactam allergy versus 238 (2.0%) who did not (p <= 0.001). b-Lactam allergy was associated with higher odds of SSI compared to no allergy (adjusted odds ratio (aOR) = 1.97; 95%confidence interval (CI) = 1.24-3.14; p = 0.004) after controlling for age, race, ethnicity, insurance status, delivery body mass index (BMI), tobacco use, intra-amniotic infection in labor, duration of membrane rupture, preterm delivery, delivery indication, diabetes, hypertension, group B Streptococcus colonization, and type of perioperative antibiotic received. CONCLUSION: The presence of a b-lactam allergy is associated with increased odds of developing a CD SSI after controlling for possible confounders, including the type of perioperative antibiotic received."""
+
+

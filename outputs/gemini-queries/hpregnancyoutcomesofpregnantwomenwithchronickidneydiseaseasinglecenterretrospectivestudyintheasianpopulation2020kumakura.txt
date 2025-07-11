@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: kidneyfunctionbloodpressureandproteinuriawereassociatedwithpregnancyoutcomesofpregnantwomenwithchronickidneydiseaseasinglecenterretrospectivestudyintheasianpopulation2020kumakura
+"BACKGROUND: Studies among pregnant Asian women with chronic kidney disease (CKD) have not been widely performed; therefore, clinical criteria for these patients have not been well established. METHODS: We conducted a retrospective study among pregnant women with CKD who received prenatal care at our institution for 8 consecutive years. Primary outcome was the development of severe adverse events (SAEs). We analyzed correlations between primary outcome and CKD parameters [age, body mass index (BMI), estimated glomerular filtration rate (eGFR), urinary protein-creatinine ratio (UP), systolic blood pressure (SBP), diastolic blood pressure (DBP), and not normal blood pressure (non-NBP)] at the time of referral. Secondary outcomes were low birth weight (LBW), preterm delivery (PreD), and small for gestational age (SGA). We divided into two categories, CKD stage G1, and G2 or higher according to eGFR, and proteinuria negative and proteinuria positive according to UP, respectively. RESULTS: We observed 89 pregnancies. SAE was observed in 28 pregnancies. In live birth cases, there were 28 PreD, 28 LBW and 13 SGA. Major SAEs included preeclampsia, superimposed preeclampsia, unscheduled cesarean section, neonatal intensive care unit admission, and fetal death. Stepwise logistic regression analysis selected eGFR (OR = 0.847, p = 0.026), SBP (OR = 1.897, p = 0.006) and proteinuria positive (OR = 2.96, p = 0.046) as the significant predictors of SAEs. There were no significant differences among the baseline characteristics stratified by SGA. CONCLUSIONS: This is the first study to report pregnancy outcomes among Japanese non-disease-oriented patients with CKD. In Asians, especially in the Japanese population, kidney function, blood pressure and proteinuria might affect pregnancy outcomes."""
+
+

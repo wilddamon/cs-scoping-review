@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antenatalmaternityleaveandchildbirthusingthefirstbabystudyapropensityscoreanalysis2017goodman
+"BACKGROUND: Most employed American women work during pregnancy and continue working through the month they deliver. Yet, few studies estimate the relationship between maternity leave taken during pregnancy and maternal health. We evaluate the association of antenatal leave (ANL) uptake with obstetric outcomes, assessing the potential role of protective and adverse selection pathways on this relationship. METHODS: We sample 1,740 employed women who delivered at term from the First Baby Study, a prospective cohort of nulliparous women in Pennsylvania. We use propensity scores to estimate the relationship between ANL and negative delivery outcomes (labor induction, long labor duration, unplanned cesarean delivery, and self-reported negative birth experience). We estimated propensity scores using a range of employment, health, and sociodemographic variables. RESULTS: One-half of the sampled women worked until the day before or day of delivery. Women who stopped working at least 2 days before delivery experienced 16% more negative delivery outcomes, on average, than women who worked until delivery, driven largely by a 25% higher predicted probability of unplanned cesarean section deliveries. These robust findings hold up to a range of sensitivity analyses and demonstrate selective mechanisms operating in ANL uptake. CONCLUSION: Our findings suggest that, even after controlling for an extensive set of observable employment, health, and sociodemographic characteristics, women who take ANL continue to differ in unobserved characteristics that lead to negative delivery outcomes. Like most U.S. states, Pennsylvania does not grant paid maternity leave. In a context of limited maternity leave availability, only relatively unhealthy women take ANL."""
+
+

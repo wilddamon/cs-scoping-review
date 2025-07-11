@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationoftreatmentofchorioamnionitiswithnonbetalactamantibioticsandpostcesareaninfectiousmorbidity2020glover
+"OBJECTIVE: Chorioamnionitis (CAM) is associated with postcesarean (CS) infectious morbidity (IM). Beta-lactam antibiotics (BLA) are used to treat CAM. It is uncertain if women who cannot receive BLA attain similar benefit from treatment of CAM with non-BLA.;STUDY DESIGN: Retrospective cohort of women with CAM is delivered by CS in the maternal-fetal medicine units CS registry. We compared IM in women who received BLA versus women who received non-BLA. The primary outcome was a composite of endometritis, wound complication, necrotizing fasciitis, septic pelvic thrombophlebitis, and pelvic abscess. Multivariable logistic regression estimated odds ratios for the association of non-BLA treatment with IM outcomes.;RESULTS: A total of 3,063 (93%) women received BLA, and 232 (7%) received non-BLA. Groups had similar rates of composite post-CS IM (10.6 vs. 12.1%, p = 0.5). After adjusting for confounders, treatment of CAM with non-BLA was not associated with post-CS IM (adjusted odds ratio [AOR] 1.1, 95% confidence interval [CI] 0.6-1.7), endometritis (AOR 1.1, 95% CI 0.7-1.8), or wound complications (AOR 1.2, 95% CI 0.5-3.2).;CONCLUSION: Women with CAM who receive non-BLA and require CS may not be at increased risk of postoperative infections complications, compared to women who receive BLA. Copyright Thieme Medical Publishers 333 Seventh Avenue, New York, NY 10001, USA."""
+
+

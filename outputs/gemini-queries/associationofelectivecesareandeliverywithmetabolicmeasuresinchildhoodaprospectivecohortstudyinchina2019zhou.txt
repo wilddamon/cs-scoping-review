@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofelectivecesareandeliverywithmetabolicmeasuresinchildhoodaprospectivecohortstudyinchina2019zhou
+"BACKGROUND AND AIMS: Cesarean delivery may increase the risk of childhood obesity, a precursor of metabolic syndrome (MetS). We aimed to investigate the association of elective cesarean delivery (ElCD) with MetS and its components in a Chinese birth cohort. METHODS AND RESULTS: This cohort included 1467 children (737 delivered by ElCD and 730 by spontaneous vaginal delivery [SVD]) who were followed up at the age of 4-7 years in 2013. MetS was defined as the presence of >=3 components: central obesity, hypertriglyceridemia, low high-density lipoprotein (HDL), high fasting glucose, and hypertension. Of the 1467 children, 93 (6.3%) were categorized as having MetS: 50 (6.8%) delivered by ElCD and 43 (5.9%) by SVD. After multivariable adjustment, ElCD was not associated with MetS (adjusted odds ratio [AOR] 1.15, 95% confidence interval [CI] 0.74, 1.78) or certain components including hypertriglyceridemia, low HDL, and high fasting glucose but was associated with central obesity (AOR 1.33, 95% CI 1.02, 1.72) and hypertension (AOR 1.50, 95% CI 1.15, 1.96), as well as higher levels of total cholesterol (3.43 vs. 3.04 mmol/L; P < 0.001), low-density lipoprotein-cholesterol (1.77 vs. 1.67 mmol/L, P = 0.002), fasting glucose (5.08 vs. 5.02 mmol/L, P = 0.022), systolic (97.57 vs. 94.69 mmHg, P < 0.001)/diastolic blood pressure (63.72 vs. 62.24 mmHg, P < 0.001), and BMI (15.46 vs. 14.83 kg/m(2), P < 0.001) than SVD. CONCLUSIONS: ElCD is not associated with MetS in early to middle childhood but is associated with its components including central obesity and hypertension, as well as various continuous indices."""
+
+

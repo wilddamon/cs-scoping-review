@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: previouscaesareandeliveryandthepresenceofcaesareanscardefectscouldaffectpregnancyoutcomesafterinvitrofertilizationfrozenthawedembryotransferaretrospectivecohortstudy2022zhang
+"BACKGROUND: Due to various iatrogenic and social factors, the global caesarean delivery (CD) rate has risen sharply in the past 30 years. It is more complicated and dangerous for women with a scarred uterus to experience pregnancy again than for women with a previous vaginal delivery (VD). In this study we investigated the impact of previous caesarean delivery (CD) and caesarean scar defects (CSDs) on pregnancy outcomes after in vitro fertilization frozen-thawed embryo transfer (IVF-FET). METHODS: We conducted a retrospective cohort study that included 1122 women aged < 40 years who had a history of only one parturition (after 28 weeks of pregnancy) and who underwent their first FET cycle between January 2014 and January 2020. Patients were divided into the CD group, VD group, and CSD group. Thereafter, according to the number of transferred embryos, the CD, VD, and CSD groups were divided into the single embryo transfer (SET) group and the double embryo transfer (DET) group. Outcome measures in this study were live birth, clinical pregnancy, multiple pregnancy, ectopic pregnancy, pregnancy loss, pregnancy complications, preterm birth, and neonatal birth weight. Multivariate logistic regression was performed to evaluate the relationship between pregnancy outcomes and CD. RESULTS: In SET patients, the clinical pregnancy and live birth rates were decreased in the CSD group compared with the VD and CD groups. In DET patients, the clinical pregnancy and live birth rates were significantly lower in theCSD group than in the CD and VD groups. After adjustment for confounders, previous CD and CSD were associated with a significantly lower clinical pregnancy rate and live birth rate than previous VD in the total sample. This effect was observed in DET patients, but not in SET patients. Additionally, DET patients with previous CD had a significantly higher multiple pregnancy rate (AOR = 0.47, 95% CI = 0.29, 0.75, P = 0.002) than those with previous VD, but no significant associations were observed in CSD and multiple pregnancies (AOR = 0.55, 95% CI = 0.23, 1.34, P = 0.192) between DET patients with CD and those with VD after adjusting for potential confounders. CONCLUSIONS: Our study showed that during an FET cycle, previous CD and the presence of a CSD could negatively affect pregnancy outcomes especially in DET patients."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskscoringsystemwithmriforintraoperativemassivehemorrhageinplacentapreviaandaccreta2020chen
+"BACKGROUND: Placenta previa and accreta are serious obstetric conditions that are associated with a high risk of intraoperative massive hemorrhage. PURPOSE: To develop a scoring system for intraoperative massive hemorrhage combining MRI and clinical characteristics to predict the risk of massive hemorrhage in placenta previa and accreta STUDY TYPE: Retrospective cohort study. SUBJECTS: In all, 374 patients consisting of 259 patients with placenta previa and accreta after previous cesarean section (CS) for the derivation cohort and 115 patients for the validation cohort. FIELD STRENGTH/SEQUENCE: 1.5T single-shot fast spin-echo sequence. [Correction added on October 23, 2019, after first online publication: The field strength in the preceding sentence was corrected.] ASSESSMENT: Using the derivation cohort, clinical and MRI data were collected and multivariable logistic regressions analysis was conducted to develop a scoring system for prediction of intraoperative massive bleeding (blood loss volume > 2000 mL). Finally, the scoring system was validated on 115 patients. STATISTICAL TESTS: Student's t-test, Mann-Whitney U-test, X (2) statistics, multivariable analysis, and receiver operating characteristic (ROC) analysis. RESULTS: Ten indicators, including clinically maternal age (1 point), preoperative hemoglobin level (1 point), gravidity number (1 point), number of CS (1 point), and MRI T(2) dark intraplacental bands (4 points), cervical canal length (3 points), placenta thickness on the uterine scar area (4 points), empty vascular shadow of the uterus (1 point), low signal discontinuity in the muscular layer of the posterior wall of the bladder (6 points) and attachment position of the placenta (1 point) were imputed. From the ROC analysis, a total score of 7 points was identified as the optimal cutoff value, allowing good differentiation of intraoperative massive bleeding in the derivation cohort (AUC, 0.863; 95% confidence interval [CI]: 0.811-0.916) and in the validation cohort (AUC, 0.933; 95% CI: 0.885-0.980). DATA CONCLUSION: The scoring system for intraoperative massive hemorrhage consists of MRI and clinical indicators, and using a cutoff value of 7 points for a high risk of massive bleeding, the developed scoring system could accurately assess the risk of intraoperative massive hemorrhage in patients with placenta previa and accreta. This scoring system can potentially reduce the incidence of intraoperative massive bleeding by identifying patients at high risk. LEVEL OF EVIDENCE: 3 Technical Efficacy: Stage 5 J. Magn. Reson. Imaging 2020;51:947-958."""
+
+

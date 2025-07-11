@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postnatalbloodpressureinthepretermsmallforgestationalageneonate2018dizon
+"OBJECTIVE: Determine how blood pressure differs in premature infants born small for gestational age (SGA). DESIGN: A retrospective study was conducted on inborn infants 24-32 weeks gestation. Mean arterial blood pressure (MAP) was collected and averaged every 12 h for the first 96 h of life. For each time point, the difference MAP in SGA vs. AGA infants was evaluated with t-testing. Linear mixed-effects modeling was performed to model MAP over time accounting for GA, BW, gender, and SGA status. RESULTS: 356 subjects were evaluated. 52 (14.6%) were SGA. SGA infants were smaller, more likely male, exposed to maternal hypertension, born via caesarian section, and have chronic lung disease and retinopathy of prematurity. MAP in the SGA group more closely matched the MAP of AGA babies of similar GA for the first 24 h of life. Subsequently, SGA infants had lower MAPs more closely resembling their weight-matched counterparts. Mixed modeling showed GA to be significant, p < 0.0001 while BW though still marginally significant had less of an effect, p = 0.049. CONCLUSION: SGA infants have blood pressure that is strongly associated with GA in the first 24 hours of life, but then fails to increase at the same rate as their AGA counterparts."""
+
+

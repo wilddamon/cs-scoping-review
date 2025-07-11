@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: weightgaininpregnancydoestheinstituteofmedicinehaveitright2015truong
+"OBJECTIVE: We aimed to examine whether women who adhered to Institute of Medicine (IOM) guidelines for gestational weight gain (GWG) had improved perinatal outcomes. STUDY DESIGN: This is a population-based retrospective cohort study of nulliparous women with term singleton vertex births in the United States from 2011 through 2012. Women with medical or obstetric complications were excluded. Prepregnancy body mass index was calculated using reported weight and height. Women were categorized into 4 groups based on GWG and prepregnancy body mass index: (1) weight gain less than, (2) weight gain within, (3) weight gain 1-19 lb in excess of, and (4) weight gain >=20 lb in excess of the IOM guidelines. The kh(2) test and multivariable logistic regression analysis were used for statistical comparisons. RESULTS: Compared to women who had GWG within the IOM guidelines, women with excessive weight gain, particularly >=20 lb, were more likely to have adverse maternal outcomes (preeclampsia: adjusted odds ratio [aOR], 2.78; 95% confidence interval [CI], 2.82-2.93; eclampsia: aOR, 2.51; 95% CI, 2.27-2.78; cesarean: aOR, 2.1; 95% CI, 2.14-2.19), blood transfusion (aOR, 1.22; 95% CI, 1.11-1.33), and neonatal outcomes (5-minute Apgar <4: aOR, 1.22; 95% CI, 1.14-1.31; ventilation use >6 hours: aOR, 1.24; 95% CI, 1.15-1.33; seizure: aOR, 1.53; 95% CI, 1.24-1.89). Women who gained less than IOM guidelines had lower risks of hypertensive disorders of pregnancy and obstetric interventions but were more likely to have small-for-gestational-age neonates (aOR, 1.55; 95% CI, 1.52-1.59). CONCLUSION: Women whose GWG is in excess of IOM guidelines have higher risk of adverse maternal and neonatal outcomes, particularly in women with >=20 lb excess weight gain above guidelines while women who had weight gain below the IOM guidelines were less likely to have maternal morbidity but had higher odds of small for gestational age."""
+
+

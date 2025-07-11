@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acuteurinaryretentionaftercesareandeliveryacasecontrolstudy2014kandadai
+"INTRODUCTION: This study aimed to identify risk factors for postpartum urinary retention (PPUR) after cesarean delivery (CD). METHODS: A case-control study design was used. Cases of PPUR after CD were identified using billing codes for CD and 'urinary retention' and confirmed by chart review. Matched controls were identified in a 2:1 ratio using an obstetrics database and billing data. Patient demographics, operative, and anesthetic data were collected. Fisher exact tests and Wilcoxon rank sum tests were used to determine differences in medical risk factors, postoperative analgesic use, and catheter management between cases and controls. A modified Poisson conditional multivariate regression with robust error variances was used to estimate the odds ratios (ORs) for significant predictors. RESULTS: Thirty-four confirmed cases of PPUR were matched with 68 controls. The mean ages of cases and controls were 31 and 32 years, respectively. Cases and controls differed in gestational age (P = 0.01), diagnosis of diabetes (P = 0.05), and use of postoperative intravenous and oral narcotics (P < 0.01 and P = 0.03, respectively). In a multivariate model including these factors, increasing gestational age was associated with decreased risk of PPUR [OR, 0.07; 95% confidence interval (CI), 0.01-0.48; P < 0.01], whereas use of postoperative intravenous narcotics (OR, 4.51; 95% CI, 1.09-18.67; P = 0.038) and oral narcotics (OR, 4.99; 95% CI, 1.10-22.65; P = 0.037) were associated with increased risk. CONCLUSIONS: After matching for obstetric factors, use of postoperative narcotic analgesia was associated with increased risk of PPUR. Other operative and anesthetic factors had no association. Multicenter prospective studies are needed to investigate this association."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prepregnancyobesityandbirthoutcomes2016averett
+"OBJECTIVE: To investigate the association between prepregnancy obesity and birth outcomes using fixed effect models comparing siblings from the same mother. METHODS: A total of 7496 births to 3990 mothers from the National Longitudinal Survey of Youth 1979 survey are examined. Outcomes include macrosomia, gestational length, incidence of low birthweight, preterm birth, large and small for gestational age (LGA, SGA), c-section, infant doctor visits, mother's and infant's days in hospital post-partum, whether the mother breastfed, and duration of breastfeeding. Association of outcomes with maternal pre-pregnancy obesity was examined using Ordinary Least Squares (OLS) regression to compare across mothers and fixed effects to compare within families. RESULTS: In fixed effect models we find no statistically significant association between most outcomes and prepregnancy obesity with the exception of LGA, SGA, low birth weight, and preterm birth. We find that prepregnancy obesity is associated with a with lower risk of low birthweight, SGA, and preterm birth but controlling for prepregnancy obesity, increases in GWG lead to increased risk of LGA. CONCLUSIONS: Contrary to previous studies, which have found that maternal obesity increases the risk of c-section, macrosomia, and LGA, while decreasing the probability of breastfeeding, our sibling comparison models reveal no such association. In fact, our results suggest a protective effect of obesity in that women who are obese prepregnancy have longer gestation lengths, and are less likely to give birth to a preterm or low birthweight infant."""
+
+

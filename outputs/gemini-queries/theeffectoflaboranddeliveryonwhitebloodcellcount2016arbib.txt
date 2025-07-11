@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectoflaboranddeliveryonwhitebloodcellcount2016arbib
+"OBJECTIVE: To explore post-partum white blood cell (WBC) count, and possible factors affecting it. STUDY DESIGN: Retrospective cohort analysis of 12 079 healthy women, delivering a singleton term fetus with an uncomplicated course of labor, delivery and puerperium. All women delivered in a single tertiary, university-affiliated medical center from 2009 to 2014. Student's t-test, Mann-Whitney's U-test, kh(2) test and ANOVA were used to compare between variables. Multiple variable analyses was performed to allow adjustment for potential covariates and confounders. The main outcome measures included post-partum WBC count and the difference in the post-partum versus ante-partum WBC count, in association to mode of delivery, type of analgesia, timing of cesarean delivery and perineal trauma. RESULTS: The mean post-partum WBC count was 13.39 +- .24 x 10(9)/L (range 1.20-37.30 x 10(9)/L). There is a significant increase in the WBC after delivery (2.1 9 +- 3.33 x 10(9)/L) with significant differences according to mode of delivery (2.34 +- 3.48, 3.32 +- 3.69 and 1.6 0 +- 2.87 x 10(9)/L for spontaneous, assisted and cesarean deliveries. Multiple variables can affect post-partum leukocytosis, including: age, parity, gestational age, mode of delivery, type of anesthesia, timing of cesarean delivery in relation to labor onset and the extent of perineal trauma. CONCLUSIONS: Post-partum leukocytosis is a physiological phenomenon with a wide normal variation and multiple contributing factors. As a single parameter, post-partum leukocytosis should not prompt further work up."""
+
+

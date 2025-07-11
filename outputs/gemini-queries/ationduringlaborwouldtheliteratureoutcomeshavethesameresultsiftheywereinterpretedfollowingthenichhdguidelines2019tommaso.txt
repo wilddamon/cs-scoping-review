@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: continuouselectronicfetalheartmonitoringversusintermittentauscultationduringlaborwouldtheliteratureoutcomeshavethesameresultsiftheywereinterpretedfollowingthenichhdguidelines2019tommaso
+"BACKGROUND: All guidelines regarding electronic fetal heart monitoring (EFM) before 2008 were designed to avoid more hypoxia than acidosis. In addition, the results of the Cochrane meta-analysis of 2013 do not show a significant improvement in neonatal outcomes using EFM or intermittent auscultation (IA). OBJECTIVES: We retrospectively evaluated the results on delivery outcomes arising from a comparison between EFM and IA during labor of 2 specific and high-quality trials. We hypothesized that revisiting the delivery outcomes through the adoption of the recent National Institute of Child Health and Human Development (NICHHD) guidelines, the reported delivery outcomes would be different. MATERIAL AND METHODS: The study retrospectively evaluated the results on delivery outcomes arising from the comparison between EFM and IA during labor of the 'Dublin trial' and 'Vintzileos trial' published, respectively, in 1985 and 1993. A translational model was constructed to recalculate these results, applying a correction factor to estimate the number of pathological patterns using the NICHHD guidelines for EFM. RESULTS: After the reevaluation of the 2 trials using the proposed correction factor, the comparison of the recalculated cesarean section and operative delivery rates for fetal distress between EFM and IA group were no longer statistically significant, both in the Dublin trial and Vintzileos trial. Even the comparison of the recalculated incidence of the rate of non-reassuring fetal heart rate (FHR) patterns in the EFM and IA groups has not given any indication of significance for the Vintzileos trial. CONCLUSIONS: Our results lead to reconsidering the results of the Dublin trial and Vintzileos trial in terms of operational rates of births, hypothesizing that these results would have been significantly lower if FHR traces were interpreted using the current NICHHD guidelines, which aim to identify potential acidotic fetuses rather than hypoxic ones."""
+
+

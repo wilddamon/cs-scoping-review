@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gettingthefirstbirthrightaretrospectivestudyofoutcomesforlowriskprimiparouswomenreceivingstandardcareversusmidwiferymodelofcareinthesametertiaryhospital2015wong
+"BACKGROUND: There is national and international concern for increasing obstetric intervention in childbirth and rising caesarean section rates. Repeat caesarean section is a major contributing factor, making primiparous women an important target for strategies to reduce unnecessary intervention and surgeries in childbirth. AIM: The aim was to compare outcomes for a cohort of low risk primiparous women who accessed a midwifery continuity model of care with those who received standard public care in the same tertiary hospital. METHODS: A retrospective comparative cohort study design was implemented drawing on data from two databases held by a tertiary hospital for the period 1 January 2010 to 31 December 2011. Categorical data were analysed using the chi-squared statistic and Fisher's exact test. Continuous data were analysed using Student's t-test. Comparisons are presented using unadjusted and adjusted odds ratios, with 95% confidence intervals (CIs) and p-values with significance set at 0.05. RESULTS: Data for 426 women experiencing continuity of midwifery care and 1220 experiencing standard public care were compared. The study found increased rates of normal vaginal birth (57.7% vs. 48.9% p=0.002) and spontaneous vaginal birth (38% vs. 22.4% p=<0.001) and decreased rates of instrumental birth (23.5% vs. 28.5% p=0.050) and caesarean sections (18.8% vs. 22.5% p=0.115) in the midwifery continuity cohort. There were also fewer interventions in this group. No differences were found in neonatal outcomes. CONCLUSION: Strategies for reducing caesarean section rates and interventions in childbirth should focus on primiparous women as a priority. This study demonstrates the effectiveness of continuity midwifery models, suggesting that this is an important strategy for improving outcomes in this population."""
+
+

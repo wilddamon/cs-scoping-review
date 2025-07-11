@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: utilityofintrapartumtransperinealultrasoundtopredictcasesoffailureinvacuumextractionattemptandneedofcesareansectiontocompletedelivery2016sainz
+"OBJECTIVES: We aim to evaluate the predictive capacity of intrapartum transperineal ultrasound (ITU) to predict cases of failure in fetal extraction in operative deliveries with vacuum. Prospective, observational study performed on 61 nulliparous women, >= 37 weeks, singleton pregnancies at full dilatation who underwent transperineal ultrasound before placement of vacuum to complete fetal extraction. Working on the transperineal longitudinal plane, we evaluated the following: Angle of Progression (AoP), Progression Distance (PD) and head direction. In the transverse plane, midline angle (MLA) and head-perineum distance were assessed. Vacuum extractions were classified as easy (EG) (three or less vacuum pulls), difficult (DG) (more than three vacuum pulls) or impossible (IG) (delivery completed by cesarean section). Occipito-posterior presentations were not evaluated. RESULTS: Fifty-two patients were studied (26-EG, 19-DG and 7-IG). No differences in obstetric, intrapartum or neonatal characteristics were observed between study groups, with the following exceptions: weight at birth (3147 g-EG, 3523 g-DG and 3588 g-IG) and number of vacuum pulls (1.4-EG, 4.4-DG and 4.1-IG; p < 0.0005). The AoP pushing was 133.1deg +- 13.6-EG, 112.8deg +- 12.8-DG and 99.1deg +- 8.9-IG (p < 0.0005); 'head-up' direction was identified in 84.6% of EG, 36.8% of DG and 28.6% of IG (p < 0.001); PD were 37.0 +- 10.4 mm, 33.3 +- 23.3 mm and 20.8 +- 9.5 mm (p < 0.0005); MLA were 35.0deg +- 19.6, 55.3deg +- 24.4 and 76.0deg +- 23.2 (p = 0.003); and head-perineum distances were 41.8 +- 6.6 mm, 49.2 +- 9.8 mm and 48.0 +- 3.4 mm (p = 0.072), respectively. CONCLUSION: We have observed that the presence of an AoP with pushing <105deg, a PD <25 mm, a 'head-down' direction and a >45deg MLA are very unfavorable ITU parameters which can be used to identify cases of high risk of fetal extraction failure in vacuum-assisted deliveries."""
+
+

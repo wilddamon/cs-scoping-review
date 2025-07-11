@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: labouranddeliveryinterventionsinwomenwithintellectualanddevelopmentaldisabilitiesapopulationbasedcohortstudy2016brown
+"BACKGROUND: Our objectives were to: (1) examine the occurrence of labour induction, caesarean section, and operative vaginal delivery in women with intellectual and developmental disabilities compared to those without and (2) determine whether pre-pregnancy health conditions and pregnancy complications explain any elevated occurrence of these interventions.;METHODS: We conducted a population-based study using linked Ontario (Canada) administrative data. We identified deliveries to women with (N=3932) and without (N=382,774) intellectual and developmental disabilities (2002-2011). Modified Poisson regression was used to estimate adjusted relative risks (aRR) and 95% CIs for interventions, controlling for sociodemographic characteristics. We used generalised estimating equations to determine whether pre-pregnancy health conditions and pregnancy complications explained any statistically significantly elevated aRRs.;RESULTS: After controlling for socio-demographic characteristics, women with intellectual and developmental disabilities were more likely to have labour inductions (aRR, 1.13; 95% CI 1.06 to 1.20) and caesarean sections (aRR, 1.09; 95% CI 1.03 to 1.16) but not operative vaginal deliveries, compared to the referent group. Pre-pregnancy health conditions explained 12.9% of their elevated aRR for labour induction. Pre-pregnancy health conditions and maternal complications explained 27.8% and 13.3%, respectively, of their elevated aRR for caesarean section.;CONCLUSIONS: Women with intellectual and developmental disabilities are slightly more likely to have labour inductions and caesarean sections than women without intellectual and developmental disabilities. The elevated occurrence of these interventions is not fully explained by their pre-pregnancy health conditions or pregnancy complications. Non-medical issues should be evaluated for their influence on the timing of labour and delivery in this population. Copyright Published by the BMJ Publishing Group Limited. For permission to use (where not already granted under a licence) please go to http://www.bmj.com/company/products-services/rights-and-licensing/"""
+
+

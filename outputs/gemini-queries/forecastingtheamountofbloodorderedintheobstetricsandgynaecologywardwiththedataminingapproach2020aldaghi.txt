@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: forecastingtheamountofbloodorderedintheobstetricsandgynaecologywardwiththedataminingapproach2020aldaghi
+"Preoperative blood ordering is frequently used in the obstetrics and gynecology ward of university hospitals in Iran, even for surgeries that rarely require blood transfusions. This routine procedure is an inefficient use of resources and rising costs, wasting time and cause shortage for essential patients. So this study was carried out to propose a new optimal system based on data mining techniques for ordering blood. This cross-sectional study examined the number of units cross-matched and transfused during surgery in the obstetrics and gynecology ward from 2013 to 2015. Data was collected for 1097 patients. Statistical analyzing was applied on data to prove that; the current blood ordering was not optimal. So with use of blood indices, C/T ratio, the new blood ordering variable was introduced. Then decision tree was applied on data with use of Rapid miner. Decision tree evaluation measures were rMSE and accuracy. A total of 1097 patients were examined for which 9747 units of blood were ordered. There was a significant difference between the number of cross-matched and transfused units according to all variables. The new method reduced the cross-matched units about 71.50%. The accuracy of proposed decision tree based on new blood ordering variable (according to C/T index) was 96.10%. The effective variables of blood ordered were type of surgery, blood group and amount of hemoglobin. The recent blood ordering variable prevent blood shortages, reduce costs. Excessive blood ordering is common in the obstetrics and gynecology department. According to proper results of new ordering variable, we suggest to apply this procedure in all hospitals in order to reduce extra costs and the optimal management of blood ordering.Copyright (c) 2019, Indian Society of Hematology and Blood Transfusion."""
+
+

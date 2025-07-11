@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postpartumemergencydepartmentvisitsandinpatientreadmissionsinamedicaidpopulationofmothers2017ehrenthal
+"BACKGROUND: Little comprehensive literature exists to broadly examine risk factors for emergency department (ED) utilization or inpatient admission after obstetrical delivery. MATERIALS AND METHODS: We conducted a retrospective cohort study of Medicaid-insured women from 2009 to 2012 who delivered at a regional perinatal center in the Mid-Atlantic. Women were included if Medicaid was the primary payer of record for the delivery and there was continuous 9-month predelivery Medicaid eligibility. Electronic obstetrical data were linked to Medicaid claims for 9-month prenatal and 6-month postpartum care following delivery. Negative binomial regression was used to examine factors associated with an ED visit; multivariable logistic regression was used to examine factors associated with hospital admission. RESULTS: Following 4484 births, 1564 (34.9%) mothers had an ED visit, and 298 (6.6%) a hospital admission, within 6 months of delivery. Mother's race was significantly associated with both ED visits and inpatient admissions, whereas age and marital status were associated with ED use. Medical comorbidities, tobacco and substance use, cesarean delivery, and severe obstetrical morbidity were associated with both ED visits and hospital admission. In addition, both prenatal opioid use and bipolar disorder increased the odds of ED use and hospital admission. CONCLUSIONS: Medical, social, and behavioral characteristics of women, as well as cesarean delivery, were associated with increased medical utilization in the postpartum."""
+
+

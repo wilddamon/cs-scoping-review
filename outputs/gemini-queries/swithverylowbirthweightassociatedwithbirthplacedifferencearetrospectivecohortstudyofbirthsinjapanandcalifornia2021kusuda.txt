@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesofinfantswithverylowbirthweightassociatedwithbirthplacedifferencearetrospectivecohortstudyofbirthsinjapanandcalifornia2021kusuda
+"OBJECTIVE: To determine whether outcomes among infants with very low birth weight (VLBW) vary according to the birthplace (Japan or California) controlling for maternal ethnicity.;STUDY DESIGN: Severe intraventricular hemorrhage (IVH) and mortality were ascertained for infants with VLBW born at 24-29 weeks of gestation during 2008-2017 and retrospectively analyzed by the country of birth for mothers and infants (Japan or California).;RESULTS: Rates of severe IVH, mortality, or combined IVH/mortality were lower in the 24 095 infants born in Japan (5.1%, 5.0%, 8.8% respectively) compared with infants born in California either to 157 mothers with Japanese ethnicity (12.5%, 9.7%, 17.8%) or to a comparison group of 6173 non-Hispanic white mothers (8.4%, 8.8%, 14.6%). ORs for adverse outcomes were increased for infants born in California to mothers with Japanese ethnicity compared with infants born in Japan for severe IVH (OR, 3.31; 95% CI, 1.93-5.68), mortality (3.73; 95% CI, 2.03-6.86), and the combined outcome (3.26; 95% CI, 2.02-5.27). The odds of these outcomes also were increased for infants born in California to non-Hispanic white mothers compared with infants born in Japan. Outcomes of infants born in California did not differ by Japanese or non-Hispanic white maternal ethnicity.;CONCLUSIONS: Low rates of severe IVH and mortality for infants with VLBW born in Japan were not seen in infants born in California to mothers with Japanese ethnicity. Differences in systems of regional perinatal care, social environment, and the quality of perinatal care may partially account for these differences in outcomes. Copyright (c) 2020 Elsevier Inc. All rights reserved."""
+
+

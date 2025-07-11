@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: terminductionoflaborandsubsequentpretermbirth2014levine
+"OBJECTIVE: Although the rate of inductions continues to rise, there is a paucity of data investigating subsequent pregnancy outcomes after induction. Our objective was to compare term inductions with term spontaneous labor and evaluate the rate of subsequent spontaneous preterm birth (sPTB).;STUDY DESIGN: A retrospective cohort study of women with 2 consecutive deliveries from 2005 through 2010 was performed. Term inductions or term spontaneous labor in the index pregnancy was included, and those with a prior sPTB were excluded. Data were obtained through chart abstraction. The primary outcome was sPTB (<37 weeks) in a subsequent pregnancy. Categorical variables were compared with chi(2) analyses, and logistic regression was used to calculate odds.;RESULTS: Eight hundred eighty-seven women were included (622 inductions, 265 spontaneous labor). The overall subsequent sPTB rate was 7.2%. Term inductions were less likely to have a subsequent sPTB compared with term spontaneous labor (6% vs 11%; odds ratio [OR], 0.49; 95% confidence interval, 0.29-0.81; P = .005). This remained after adjusting for confounders (adjusted OR, 0.55; P = .04). The sPTB risk depended on gestational age of index delivery. At 37-38.9 weeks, the sPTB rate after spontaneous labor was 24% vs 9% after induction (OR, 3.0; 95% confidence interval, 1.44-6.16; P = .003). This was not significant for 39-39.9 weeks (P = .2) or 40 weeks or longer (P = .8).;CONCLUSION: Induction is not a risk factor for subsequent sPTB. Spontaneous labor, however, in the early term period is associated with subsequent sPTB. Further investigation among early term deliveries is warranted to evaluate the risk of sPTB and target interventions in this cohort. Copyright (c) 2014 Mosby, Inc. All rights reserved."""
+
+

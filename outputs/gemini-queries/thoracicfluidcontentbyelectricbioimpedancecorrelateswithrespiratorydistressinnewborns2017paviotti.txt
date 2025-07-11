@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thoracicfluidcontentbyelectricbioimpedancecorrelateswithrespiratorydistressinnewborns2017paviotti
+"OBJECTIVE: The objective of the study was to compare thoracic fluid content (TFC) between newborn infants with and without respiratory distress. We tested the hypothesis that TFC would be higher in infants with respiratory distress.;STUDY DESIGN: A total of 96 newborn infants, gestational age 37.9 (2.6) weeks, were enrolled at birth. TFC by electrical bioimpedance was recorded within 3 h after birth (TFC1) and at 24 h of life (TFC2).;RESULTS: TFC1 was higher in infants with respiratory distress at birth (76.8 (24.9) versus 61.6 (16.1) 1 KOhm-1, P<0.0005). The association was independent from gestational age and mode of delivery. TFC2 was independently associated with respiratory distress at 24 h of life (adjusted coefficient b=0.5 (s.d. 0.02), P=0.02).;CONCLUSION: TFC by electric bioimpedance independently correlated with the presence of respiratory distress at birth and at 24 h of life in late preterm and term newborn infants."""
+
+

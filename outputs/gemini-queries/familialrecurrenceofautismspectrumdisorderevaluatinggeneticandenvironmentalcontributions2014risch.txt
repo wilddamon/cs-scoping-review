@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: familialrecurrenceofautismspectrumdisorderevaluatinggeneticandenvironmentalcontributions2014risch
+"OBJECTIVE: This study was designed to examine the pattern of familial recurrence of autism spectrum disorder (ASD) in terms of genetic and environmental contributions related to timing of birth. METHOD: The authors linked California Department of Developmental Services records with state birth certificates to identify all siblings and half siblings of individuals affected with ASD born between 1990 and 2003. A total of 6,616 full siblings, 644 maternal half siblings, and 299 paternal half siblings born after ASD index cases were used to calculate recurrence risks. Control families, identified through matching to cases, were included for comparison (a total of 29,384 siblings). RESULTS: The overall sibling recurrence risk was 10.1%, compared with a prevalence of 0.52% in siblings of controls. The recurrence risk in second-born children was higher (11.5%) than in later-born siblings (7.3%); a similar pattern was observed for maternal half siblings (6.5% for second-born compared with 3.0% for later-born siblings; 4.8% overall). The recurrence risk was significantly higher for siblings who immediately followed the index case in birth order compared with those later in birth order. The recurrence risk for paternal half siblings (2.3%) was half the overall recurrence risk for maternal half siblings but was similar to that for later-born maternal half siblings. An exponential effect of short interbirth interval was observed, with the recurrence risk reaching 14.4% for an interbirth interval of 18 months or less, compared with 6.8% for an interval of 4 years or more. An identical phenomenon was observed in maternal half siblings. CONCLUSIONS: The results support genetic susceptibility in the familial recurrence of ASD along with factors related to timing of birth."""
+
+

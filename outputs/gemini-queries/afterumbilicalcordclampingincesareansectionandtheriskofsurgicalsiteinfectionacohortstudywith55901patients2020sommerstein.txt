@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antimicrobialprophylaxisadministrationafterumbilicalcordclampingincesareansectionandtheriskofsurgicalsiteinfectionacohortstudywith55901patients2020sommerstein
+"BACKGROUND: The World Health Organization (WHO) recommends administration of surgical antimicrobial prophylaxis (SAP) in cesarean section prior to incision to prevent surgical site infections (SSI). This study aimed to determine whether SAP administration following cord clamping confers an increased SSI risk to the mother. METHODS: Study design: Cohort. SETTING: 75 participating Swiss hospitals, from 2009 to 2018. PARTICIPANTS: A total of 55,901 patients were analyzed. MAIN OUTCOME MEASURES: We assessed the association between SAP administration relative to incision and clamping and the SSI rate, using generalized linear multilevel models, adjusted for patient characteristics, procedural variables, and health-care system factors. RESULTS: SAP was administered before incision in 26'405 patients (47.2%) and after clamping in 29,496 patients (52.8%). Overall 846 SSIs were documented, of which 379 (1.6% [95% CI, 1.4-1.8%]) occurred before incision and 449 (1.7% [1.5-1.9%]) after clamping (p = 0.759). The adjusted odds ratio for SAP administration after clamping was not significantly associated with an increased SSI rate (1.14, 95% CI 0.96-1.36; p = 0.144) when compared to before incision. Supplementary and subgroup analyses supported these main results. CONCLUSIONS: This study did not confirm an increased SSI risk for the mother in cesarean section if SAP is given after umbilical cord clamping compared to before incision."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofcesareansectionandinfectiousoutcomesamonginfantsat1yearofagelogisticregressionanalysisusingdataof104065recordsfromthejapanenvironmentandchildrensstudy2024maeda
+"BACKGROUND: There has been a recent decrease in the prevalence of infectious diseases in children worldwide due to the usage of vaccines. However, the association between cesarean delivery and infectious diseases remains unclear. Here, we aimed to clarify the association between cesarean delivery and the development of infectious diseases. METHODS: This study is a cross-sectional study. We used data from the Japan Environment and Children's Study, which is a prospective, nationwide, government-funded birth cohort study. The data of 104,065 records were included. Information about the mode of delivery, central nervous system infection (CNSI), otitis media (OM), upper respiratory tract infection (URTI), lower respiratory tract infection (LRTI), gastrointestinal infection (GI), and urinary tract infection (UTI) was obtained from questionnaires and medical records transcripts. Multiple logistic regression analysis was used to assess the association between cesarean delivery and CNSI, OM, URTI, LRTI, GI, and UTI risk. RESULTS: We included a total of 74,477 subjects in this study, of which 18.4% underwent cesarean deliveries. After adjusting for the perinatal, socioeconomic, and postnatal confounding factors, children born by cesarean delivery did not have an increased risk of developing CNSI (95% confidence interval [CI] 0.46-1.35), OM (95% CI 0.99-1.12), URTI (95% CI 0.97-1.06), LRTI (95% CI 0.98-1.15), GI (95% CI 0.98-1.11), or UTI (95% CI 0.95-1.45). CONCLUSIONS: This nationwide cohort study did not find an association between cesarean delivery and CNSI, OM, URTI, LRTI, GI, and UTI. However, further studies are needed to evaluate the role of cesarean delivery in the development of infectious diseases."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparativestudyonriskofbirthdefectsinsingletonartbirthunderhighlevelsofestrogenafterfreshembryotransferandfrozenembryotransfer2022liu
+"OBJECTIVE: To investigate whether high estrogen (E2) levels caused by controlled ovarian hyperstimulation affect the birth defect rate in singleton assisted reproductive technology (ART) birth after conceived by fresh embryo transfer and frozen embryo transfer (FET). METHODS: This was a retrospective cohort study. A total of 581 women with singletons, as well as those who have become pregnant and have had an unwanted abortion under high E2 levels on trigger day were divided into three groups. Group A received FET and the E2 levels on trigger day were higher than 5000 pg/ml. Group B received fresh embryo transfer and the E2 levels were between 3000 and 5000 pg/ml. Group C received FET and the E2 levels were between 3000 and 5000 pg/ml. RESULTS: There were no significant differences in birth weight, delivery mode, preterm birth rate, and fetal sex between the three groups (p > .05). Birth defect rate in Group B was higher than that in Group A and C, and the rate between Group B and C had significant differences (p < .05). After adjusting for maternal age, BMI, and type of infertility, only a FET cycle is significantly associated with decreased birth defect rate. CONCLUSION: Fresh embryo transfer under supraphysiological level of estrogen exposure may increase the birth defect rate of ART singletons. Even after prenatal screening and diagnosis, a part of birth defect could not be detected during pregnancy. When the estrogen levels on trigger day were no lower than 3000 pg/ml, FET should be advocated to reduce the occurrence of such risk."""
+
+

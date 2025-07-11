@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrapartumcorticosteroidusesignificantlyincreasestheriskofgestationaldiabetesinwomenwithinflammatoryboweldisease2015leung
+"BACKGROUND AND AIMS: Women with inflammatory bowel disease (IBD) may be at higher risk of adverse pregnancy outcomes. This study compared perinatal outcomes in women with and without IBD. METHODS: The population-based Data Integration, Measurement, and Reporting (DIMR) administrative discharge database was used to identify women (>=18 years of age) in Alberta, Canada, with IBD who delivered a baby between 2006 and 2009 inclusive. Women without IBD were randomly sampled and matched in a 3:1 ratio to IBD cases by age at conception (+-1 year). Odds ratios of gestational diabetes, preterm birth, low birth weight, cesarean section, and neonatal intensive care unit admission were calculated. RESULTS: One hundred and sixteen IBD patients were age-matched to 381 pregnant women without IBD. Gestational diabetes, preterm birth, and cesarean section were more common in women with IBD compared with controls (6.9 versus 1.8%, p = 0.03; 12.9 versus 0.3%, p < 0.0001; 43.1 versus 21.0%, p = 0.009, respectively). On multivariate analysis, women with IBD were independently more likely to have gestational diabetes (odds ratio [OR] = 4.3; 95% confidence interval [CI] 1.2-16.3), preterm birth (OR = 19.7, 95% CI 2.2-173.9), and to deliver by cesarean section (OR = 2.7, 95% CI 1.6-4.6) after adjusting for age and smoking status. CONCLUSION: Intrapartum corticosteroid use significantly increases the risk of gestational diabetes in women with IBD. Furthermore, IBD patients are at higher risk of preterm delivery and are more likely to undergo cesarean section compared with a healthy age-matched population. The finding of a higher risk of gestational diabetes is a novel finding not previously reported in the IBD literature."""
+
+

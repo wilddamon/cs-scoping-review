@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomeofpregnanciesfollowinginvitrofertilizationandovulationinduction2014silberstein
+"OBJECTIVE: To investigate pregnancy outcome in patient who conceived by assisted reproductive techniques.;METHODS: A retrospective population-based study was conducted, comparing obstetrical complications and neonatal outcomes of singleton pregnancies conceived by in vitro fertilization (IVF; n = 1296) and ovulation induction (n = 1988) as compared to singleton pregnancies conceived spontaneously (n = 172 288). Multivariable models were constructed to control for confounders.;RESULTS: A significant linear association (using the chi-square test for trends) was documented among the three groups in adverse outcomes such as gestational diabetes mellitus (17.3% in the IVF, 14.2% in the ovulation induction, 6.6% in the comparison group, p < 0.001), severe preeclampsia (2.7% in the IVF, 1.8% in the ovulation induction, 1.1% in the comparison group, p < 0.001) and perinatal mortality (3.3% in the IVF, 2.1% in the ovulation induction, 1.3% in the comparison group, p < 0.001). In vitro fertilization and ovulation induction treatments were found to be independent risk factors for gestational diabetes mellitus, using two different multiple logistic regression models controlling for confounders such as maternal age (adjusted OR = 1.77, 95% CI:1.52-2.07, p < 0.001 and adjusted OR = 1.93, 95% CI:1.69-2.21, p < 0.001; respectively).;CONCLUSIONS: Pregnancies conceiving following assisted reproductive techniques are at an increased risk for adverse obstetrics outcomes. The risk is higher for pregnancies following IVF compared with these conceived following ovulation induction."""
+
+

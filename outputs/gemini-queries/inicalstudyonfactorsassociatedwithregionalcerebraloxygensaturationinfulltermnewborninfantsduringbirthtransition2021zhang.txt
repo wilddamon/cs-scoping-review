@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: asinglecenterobservationalclinicalstudyonfactorsassociatedwithregionalcerebraloxygensaturationinfulltermnewborninfantsduringbirthtransition2021zhang
+"BACKGROUND Hypoxic hypoperfusion injury in the brain is a cause of potential injury and even death in the growth period of newborns. Therefore, monitoring regional cerebral oxygen saturation (CrSO2) during this period is particularly important. This observational clinical study from a single center aimed to investigate the factors associated with CrSO2 in full-term newborn infants during birth transition. MATERIAL AND METHODS We enrolled 84 full-term newborn infants delivered by cesarean section. We started the stopwatch with the obstetrician clamping the newborns' umbilical cords and recorded the values of newborns' CrSO2, pulse oxygen saturation (SpO2), pulse rate (PR), end-tidal carbon dioxide (EtCO2), and respiratory rate (RR) at 2 min, 5 min, and 10 min. We weighed the newborns before they left the operating room and used statistical methods to compare the correlation between each observation factor. RESULTS Pearson correlation coefficients between CrSO2 and SpO2 measured at 2 min, 5 min, and 10 min were 0.491, 0.599, and 0.587, respectively (P<0.01). Pearson correlation coefficients between CrSO2 and EtCO2 measured at 2 min, 5 min, and 10 min were -0.304, -0.443, and -0.243, respectively (P<0.05). Regardless of a newborn's weight, PR, or RR, the correlation between any of those factors and the value of CrSO2 measured at the corresponding time point had no significance (P>0.05). CONCLUSIONS This study showed a correlation between CrSO2 and SpO2 and CrSO2 and EtCO2 during birth transition of full-term infants delivered by elective cesarean section, but CrSO2 had no significant correlation with neonatal weight, PR, or RR."""
+
+

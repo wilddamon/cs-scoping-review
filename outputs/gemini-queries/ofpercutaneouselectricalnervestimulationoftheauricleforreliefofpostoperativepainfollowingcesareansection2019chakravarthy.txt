@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluationofpercutaneouselectricalnervestimulationoftheauricleforreliefofpostoperativepainfollowingcesareansection2019chakravarthy
+"Objective: Percutaneous electrical nerve stimulation is a nonpharmacologic modality of analgesia. This study was conducted to evaluate such a technology (ANSiStim(tm), DyAnsys Inc., San Mateo, CA) prospectively, in conjunction with standard analgesia per patient demand, for managing postoperative pain following lower-segment cesarean section. Materials and Methods: One hundred parturients were randomized into 2 equal groups (controls and study cases). The latter cohort consisted of parturients for whom nerve stimulation was exerted on the pinna. Pain scores were compared across subjects at corresponding time points with 17 intervals in 48 hours, and, in totality, using estimated area under the curves of numerical scores. Conditional inference analysis was also performed. Results: Ninety-six parturients were finally included. The device was well-tolerated by a majority of parturients. Pain scores were significantly lower in the study group, both at corresponding time intervals and in totality. (H - 15)*(0.74 - H)*(H(2) - 17H + 110)/440, where H was the corresponding hour, fit the pain scores in the control group. Controls could be detected at the 11 hour with greater pain scores (>= 4), whereas smaller scores (<= 2) at the 42nd hour mostly revealed that electrical stimulation was performed (p < 0.001). Requirements for supplementary analgesics were lower for subjects who were given the electroanalgesia. Conclusions: Neurostimulation via the ANSiStim(tm) is a safe and reasonably effective ambulatory analgesic adjuvant following abdominal delivery. There are no serious adverse effects."""
+
+

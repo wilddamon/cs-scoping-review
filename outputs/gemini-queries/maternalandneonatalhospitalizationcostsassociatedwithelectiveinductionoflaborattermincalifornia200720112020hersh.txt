@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandneonatalhospitalizationcostsassociatedwithelectiveinductionoflaborattermincalifornia200720112020hersh
+"OBJECTIVE: To compare hospitalization costs of pregnancies managed by elective induction of labor to those with spontaneous labor in a large cohort of pregnant women. METHODS: We conducted a retrospective cohort study of women with singleton, nonanomalous births in California from 2007 to 2011. We excluded women with placenta previa, breech presentation, prior cesarean delivery, planned cesarean delivery, medically indicated induction of labor, gestational age less than 37 weeks or at or greater than 41 weeks, and stillbirths. We adjusted hospital charges using a cost-to-charge ratio and costs included hospitalization costs for admission for delivery only. We estimated the difference in costs between elective induction of labor (resulting in a vaginal or cesarean delivery) and spontaneous labor for both women and neonates, stratified by mode of delivery, parity, gestational age at delivery and geographic location. We conducted analyses using Kruskal-Wallis equality-of-populations rank tests with a significance level of 0.05. RESULTS: In a California cohort of 1,278,151 women, 190,409 (15%) had an elective induction of labor. Median maternal hospitalization costs were $10,175 (interquartile range: $7,284-$14,144) with induction of labor and $9,462 (interquartile range: $6,667-$13,251) with spontaneous labor (P<.01) for women who had a vaginal delivery, and $20,294 (interquartile range: $15,367-$26,920) with induction of labor and $18,812 (interquartile range: $13,580-$25,197) with spontaneous labor (P<.01) for women who had a cesarean delivery. Maternal median hospitalization costs were significantly higher in the setting of elective induction of labor regardless of parity, mode of delivery, and gestational age at delivery. Alternatively, median hospitalization costs for neonates of women who had an elective induction of labor were significantly lower. CONCLUSION: Further research regarding approaches to induction of labor is necessary to determine whether strategies to reduce health care costs without affecting or even improving outcomes could help curb costs associated with induction of labor."""
+
+

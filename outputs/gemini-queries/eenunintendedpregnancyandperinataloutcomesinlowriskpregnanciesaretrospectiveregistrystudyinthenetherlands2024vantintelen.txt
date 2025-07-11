@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenunintendedpregnancyandperinataloutcomesinlowriskpregnanciesaretrospectiveregistrystudyinthenetherlands2024vantintelen
+"INTRODUCTION: People with unintended pregnancies might be at increased risk of adverse perinatal outcomes due to structural factors, distress, or delayed prenatal care. Existing studies addressing this association yielded inconsistent findings. Using contemporary data from a large Dutch midwifery care registry, we investigated the association between unintended pregnancy ending in birth and neonatal outcomes, parental morbidity, and obstetric interventions. We extend previous research by exploring whether delayed initiation of prenatal care mediates these associations. METHOD: This study used data (N = 9803) from a Dutch nationally representative registry of people with low-risk pregnancies receiving primary midwife-led care in the Netherlands between 2012 and 2020. Using logistic (mediation) regression analyses adjusted for potential confounders we investigated associations between unintended pregnancy and neonatal outcomes (low Apgar score, small for gestational age, and prematurity), parental morbidity (hypertension and gestational diabetes mellitus), and obstetric interventions (induction of labor, pain medication, assisted vaginal birth, and cesarean birth) and whether delayed initiation of prenatal care mediated these associations. RESULTS: Unintended pregnancies were associated with increased odds of low Apgar scores (odds ratio [OR], 1.68; 95% CI, 1.09 -2.59), preterm birth (OR, 1.27; 95% CI, 1.02-1.58), small for gestational age (OR, 1.19; 95% CI, 1.00-1.41), and induction of labor (OR, 1.14; 95% CI, 1.01-1.28). Conversely, unintended pregnancy was associated with a decreased odds of cesarean birth (OR, 0.83; 95% CI, 0.71-0.97). The timing of prenatal care initiation did not mediate any of these associations. DISCUSSION: Our findings suggest that people in primary midwifery-led care with unintended pregnancies ending in birth are at increased risk for adverse perinatal health outcomes and that structural factors might underlie this link. Health care professionals and policy makers should attend to their own biases and offer nonjudgmental, tailored preventive preconception care and antenatal care strategies for people with higher vulnerabilities."""
+
+

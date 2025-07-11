@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforneonatalmortalityinpretermnewbornsintheextremesouthofbrazil2020tietzmann
+"Neonatal mortality still remains a complex challenge to be addressed. In Brazil, 60% of neonatal deaths occur among preterm infants with a gestational age of 32 weeks or less (<=32w). The aim of this study was to evaluate the factors involved in the high mortality rates among newborns with a gestational age <=32w in a socioeconomically developed southern city in Brazil. Data on retrospective births and deaths (2000-2014) were analyzed from two official Brazilian national databases. The risk of neonatal death for all independent variables (mother's age and schooling, prenatal visits, birth hospital, delivery method, gestational age, and the newborn's sex, age, and birth year, gemelarity, congenital anomalies and birthplace) was assessed with a univariable and a multivariable model of Cox's semiparametric proportional hazards regression (p < 0.05). Data of 288,904 newborns were included, being 4,514 with a gestational age <=32w. The proportion of these early newborns remained stable among all births, while the neonatal mortality rate for this group tended to decrease (p < 0.001). The adjusted risk was significantly for lower birthweight infants (mean 659.13 g) born from Caesarean (HR 0.58 [95% CI 0.47-0.71]), but it was significantly higher for heavier birth weight infants (mean 2,087.79) also born via Caesarean section (HR 3.71 [95% CI 1.5-9.15]). Newborns with lower weight seemed to benefit most from Cesarean deliveries. Effort towards reducing unacceptably high surgical deliveries must take into account cases that the operations may be lifesaving for mother and/or the baby."""
+
+

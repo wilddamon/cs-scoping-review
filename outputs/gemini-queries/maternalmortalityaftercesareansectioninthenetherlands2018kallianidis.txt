@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalmortalityaftercesareansectioninthenetherlands2018kallianidis
+"OBJECTIVES: Maternal mortality is rare in high-resource settings. This hampers studies of the association between maternal mortality and mode of birth, although this topic remains of importance, given the changing patterns in mode of birth with increasing cesarean section rates in most countries. Purpose of this study was to examine incidence of cesarean section-related maternal mortality in the Netherlands and association of surgery with the chain of morbid events leading to death. STUDY DESIGN: We performed a retrospective cohort study using the Confidential Enquiry into Maternal Deaths, including all 2,684,946 maternities in the Netherlands between January 1st, 1999, and December 31st, 2013, registered in the Dutch Perinatal Registry. All available medical records of cases reported to the Dutch Maternal Mortality and Severe Morbidity Audit Committee were assessed by two researchers, and one or two additional experts in case of contradicting opinions, based on a set of pre-identified clinical criteria. Main outcome measures were (1) incidence and relative risk of maternal death following cesarean section and vaginal birth and (2) incidence of death directly related to cesarean section and death in which cesarean section was one of the contributing factors. RESULTS: Risk of death after cesarean section was 21.9 per 100.000 cesarean sections (86/393,443) versus 3.8 deaths per 100.000 vaginal births (88/2,291,503): Relative Risk (RR) 5.7 (95% Confidence Interval [CI] 4.2-7.7). Death directly related to complications of cesarean section occurred in 8/86 women: 2 per 100,000 cesarean sections. With addition of 43 women in which cesarean section did not initiate, but contributed to the chain of events leading to mortality, risk of death increased to 13 per 100,000 cesarean sections (51/393,443; RR 3.4; 95%CI 2.4-4.8). At the start of cesarean section, pre-existing morbidity was present in 70/86 women (81.4%). CONCLUSIONS: Compared to vaginal birth, maternal mortality after cesarean section was three times higher following exclusion of deaths that had no association with surgery. In approximately one in ten deaths after cesarean section, surgery did in fact initiate the chain of morbid events."""
+
+

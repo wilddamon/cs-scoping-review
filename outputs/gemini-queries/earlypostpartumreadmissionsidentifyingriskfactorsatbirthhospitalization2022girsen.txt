@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlypostpartumreadmissionsidentifyingriskfactorsatbirthhospitalization2022girsen
+"BACKGROUND: The high maternal mortality and severe morbidity rates in the United States compared with other high-income countries have received national attention. Characterization of postpartum hospital readmissions within the first days after delivery hospitalization discharge could help to identify patients who need additional preparedness for discharge. OBJECTIVE(S): This study aimed to investigate conditions at birth associated with postpartum readmissions occurring within 0 to 6 days and at 7 to 29 days after discharge from the delivery hospitalization. STUDY DESIGN: We analyzed linked vital statistics and hospital discharge records of patients who gave birth in California during 2007 to 2018. We investigated hospital readmissions within 30 days after birth hospitalization discharge. We used multivariable logistic regression to investigate factors associated with early readmission (0-6 days) and later readmission (7-29 days) compared with no readmission within 30 days (reference). The risk factors assessed included maternal medical or obstetrical conditions before and at birth, birth hospitalization length of stay, and mode of delivery. Severe maternal morbidity was defined as the presence of any of the 21 indicators recommended by the Centers for Disease Control and Prevention. RESULT(S): Among 5,248,746 pregnant patients, 23,636 (0.45%) had an early postpartum readmission, whereas 24,712 (0.47%) had a later postpartum readmission. After adjustments, early readmission was most strongly associated with sepsis (adjusted odds ratio, 4.63; 95% confidence interval, 3.87-5.53), severe maternal morbidity (adjusted odds ratio, 3.46; 95% confidence interval, 3.28-3.65) at birth hospitalization, or preeclampsia before birth hospitalization (adjusted odds ratio, 3.67; 95% confidence interval, 3.54-3.81). The associations between later readmission and sepsis and severe maternal morbidity were similar, whereas the association between preeclampsia and later readmission was less strong (adjusted odds ratio, 1.65; 95% confidence interval, 1.57-1.73). CONCLUSION(S): Pregnant patients with sepsis or severe maternal morbidity during delivery hospitalization or preeclampsia before birth hospitalization were at the highest risk for readmission within 6 days of discharge. These findings may be informative for efforts to improve postpartum care.Copyright (c) 2022 The Authors"""
+
+

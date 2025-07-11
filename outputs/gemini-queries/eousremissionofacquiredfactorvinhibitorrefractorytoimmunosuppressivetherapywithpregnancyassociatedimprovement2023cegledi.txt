@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: delayedspontaneousremissionofacquiredfactorvinhibitorrefractorytoimmunosuppressivetherapywithpregnancyassociatedimprovement2023cegledi
+"Introduction: Acquired factor V inhibitor (AFVI) is a rare autoimmune bleeding disorder. The treatment of AFVI is challenging, and patients often require both bleeding control and inhibitor eradication. Methods: We conducted a retrospective analysis of the medical records of a 35-year-old Caucasian woman who presented with severe AFVI-induced bleeding and subsequent immunosuppressive therapy. Results: To provide haemostasis, rFVIIa was given with good efficacy. The patient was treated with various combinations of immunosuppressive regimens over the course of 2.5 years, including plasmapheresis plus immunoglobulins, dexamethasone + rituximab, cyclophosphamide + dexamethasone + rituximab + cyclosporine, cyclosporin + sirolimus + cyclophosphamide + dexamethasone, bortezomib + sirolimus + methylprednisolone, and sirolimus + mycophenolate mofetil. Although these treatment modalities resulted in intermittent partial reversals of AFVI over 2.5 years, eventually the inhibitor became therapy-resistant. However, following the discontinuation of all immunosuppressive therapy, the patient experienced a partial spontaneous remission, which was followed by a pregnancy. During the pregnancy, the FV activity increased to 54% and the coagulation parameters returned to normal levels. The patient underwent Caesarean section without any bleeding complications and delivered a healthy child. Discussion: The use of an activated bypassing agent for bleeding control is effective in patients with severe AFVI. The presented case is unique because the treatment regimens included multiple combinations of immunosuppressive agents. This demonstrates that AFVI patients may undergo spontaneous remission even after multiple courses of ineffective immunosuppressive protocols. Additionally, pregnancy-associated improvement of AFVI is an important finding that warrants further investigation. Copyright (c) 2023 Cegledi, Dolgos, Fekete, Gopcsa, Varkonyi, Vilimi, Mikala and Bodo."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clindamycingentamicinandriskofclostridiumdifficileinfectionandacutekidneyinjuryduringdeliveryhospitalizations2020duffy
+"OBJECTIVE: To describe risk of Clostridium difficile infection associated with clindamycin and acute kidney injury associated with gentamicin during delivery hospitalizations.;METHODS: Women admitted for delivery from January 2006 to March 2015 were analyzed using an inpatient administrative database. Primary outcomes were C difficile infection and acute kidney injury. C difficile infection was compared between women receiving clindamycin (with or without other antibiotics) and women receiving antibiotics other than clindamycin. Acute kidney injury was compared between women receiving gentamicin (with or without other antibiotics), women receiving antibiotics other than gentamicin, and women receiving no antibiotics. Unadjusted and adjusted log linear models analyzing the role of patient demographics, mode of delivery, and hospital-level characteristics were created evaluating risk of C difficile infection and acute kidney injury with risk ratios (RRs) and adjusted risk ratios with 99% CIs as measures of association. A sensitivity analysis for gentamicin and acute kidney injury was performed restricted to women with preeclampsia.;RESULTS: Of 5,657,523 women admitted for delivery hospitalization, 266,402 (4.7%) received clindamycin and 165,726 (2.9%) received gentamicin. C difficile infection was diagnosed in 0.04% of women receiving clindamycin. Compared with women receiving other antibiotics, clindamycin was associated with a nearly threefold increased risk of C difficile infection (RR 2.93, 99% CI 2.21-3.90). Acute kidney injury was diagnosed in 0.24% of women receiving gentamicin. Gentamicin was associated with a threefold increased risk of acute kidney injury (RR 3.01, 99% CI 2.62-3.45) compared with women receiving other antibiotics, whereas receipt of no antibiotics was associated with significantly lower risk (RR 0.18, 99% CI 0.15-0.20). In adjusted analyses, these associations retained significance. Significantly increased risk of acute kidney injury was noted for women with preeclampsia receiving gentamicin (RR 2.04, 99% CI 1.64-2.53).;CONCLUSION: Receipt of clindamycin was associated with significantly increased likelihood for C difficile infection and receipt of gentamicin with significantly increased likelihood of acute kidney injury, although the absolute risk of these complications was low."""
+
+

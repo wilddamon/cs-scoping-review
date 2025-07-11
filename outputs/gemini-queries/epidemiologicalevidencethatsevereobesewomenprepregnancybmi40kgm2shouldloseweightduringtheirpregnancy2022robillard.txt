@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: epidemiologicalevidencethatsevereobesewomenprepregnancybmi40kgm2shouldloseweightduringtheirpregnancy2022robillard
+"OBJECTIVES: Defining the optimal gestational weight gain (optGWG) allowing to have 'normal shaped' babies (10% of Small for gestational age, SGA, and10% of large LGA babies) in severe obese women (pre-pregnancy BMI >=40 kg/m(2)). STUDY DESIGN: South-Reunion University's maternity (Reunion Island, Indian Ocean). 20 year-observational cohort study (2001-2019). Epidemiological perinatal data base with information on obstetrical and neonatal risk factors. All consecutive term (37-42 weeks gestation) singleton pregnancies (>21 weeks) live birth pregnancies delivered in the maternity. MAIN OUTCOME MEASURES: OptGWG to obtain newborns as close as possible of the 10% SGA/LGA goal for each BMI categories, 15-19.9, 20-24.9 ..., as well as severe obese >=40 kg/m(2). RESULTS: Of the 71,318 singleton term live births (37 weeks onward), we could define the maternal pre-pregnancy body mass index and the GWG in of 61,764 patients (86.6%). Severe obese 40 kg/m(2) losing 5-9.9 kg have 12.9% of LGA and 11.9% of SGA babies. Those losing 10 kg and more 12.7% of LGA and 7.3% of SGA. Our formerly proposed linear equation (validated from 15 to 40 kg/m(2)) may be prolonged at 45 kg/m(2). opGWG(kg) = - 1.2pp BMI(Kg/m2) + 42 +- 2kg. CONCLUSION: In our population, a 32 kg/m(2) obese should gain 3.6 kg (instead of 5-9 kg, IOM 2009). A very obese 40 kg/m(2) should lose 6 kg, and a severe obese 45 kg/m(2) lose 12 kg."""
+
+

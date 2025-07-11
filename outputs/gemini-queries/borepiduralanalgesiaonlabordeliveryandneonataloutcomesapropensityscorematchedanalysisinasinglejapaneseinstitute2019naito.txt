@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectoflaborepiduralanalgesiaonlabordeliveryandneonataloutcomesapropensityscorematchedanalysisinasinglejapaneseinstitute2019naito
+"Purpose: Lumbar epidural analgesia (LEA) is the most widely used method in reducing labor pain. Previous RCTs have shown that LEA does not increase cesarean section rates; however, the results are inconsistent and may vary depending on the different backgrounds. Therefore, we aimed to study whether LEA would affect the course of labor in our institute. Method(s): Delivery records from October 2013 to April 2016 were collected. Deliveries at gestational age < 36 weeks and multiple pregnancies were excluded. All cases were divided into the non-epidural labor (NEL) group or the epidural labor (EL) group. We performed a propensity score matching analysis to balance intergroup differences. Our primary outcome was a mode of delivery (spontaneous, assisted vaginal, cesarean). Secondary outcomes were lengths of labor and outcomes of the neonates. Result(s): During the study period, 2632 cases met the inclusion criteria. All analyses were performed after propensity score matching (218 pairs). The percentage of assisted vaginal delivery increased by the use of LEA (11.5% in NEL group vs 25.7% in EL group; p < 0.001), but the rate of cesarean section was similar (12.8% vs 17.0%; p = 0.23). The durations of the first and second stages of labor were prolonged by the use of LEA in both primipara and multipara women. Outcomes of the neonates were similar in both groups. Conclusion(s): Use of LEA did not increase the rate of cesarean section when analyzed by propensity score-matched analysis in our institute.Copyright (c) 2019, The Author(s)."""
+
+

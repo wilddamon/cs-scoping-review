@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adetailedobservationalstudyofmaternalandneonatalvariablesaffectingthethyroidstimulatinghormonelevelsinneonates2021verma
+"Background: Thyroid hormones are essential for fetal growth and the central nervous system development. Thyroid-stimulating hormone (TSH) is the key regulatory hormone. Their levels are quite dynamic in the perinatal period and are influenced by multiple factors. These factors should be taken into consideration during newborn screening. This study aimed to observe the impact of maternal and neonatal factors on neonatal TSH status. Result(s): Neonatal TSH (nTSH) depicted a positive correlation with parity (p = 0.066) while negative correlation recorded with maternal blood haemoglobin (p = 0.007) among maternal factors. New-born length (p = 0.027) and birth weight (p < 0.001) exhibited a negative correlation with nTSH among neonatal factors. Conclusion(s): This study concludes that among all the maternal and neonatal factors, birth weight shows the most influence on nTSH. However, the effect may be compounded by other factors. As these risk elements rarely occur singly, it is often difficult to find the exposure which confer the risk on children. These factors should be considered while interpreting the result of the screening program.Copyright (c) 2021, The Author(s)."""
+
+

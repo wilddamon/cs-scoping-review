@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: constructionofapredictionmodelandapreventioncontrolsystemforcesareansectionratebasedontherobsonclassificationsystem2021dong
+"OBJECTIVE: To systematically explore the risk factors that influence cesarean section rate, and establish a prediction model to investigate a system effectively reducing cesarean section rates. METHODS: This retrospective study was carried out in the medical institutions in Xingtai city, where cesarean section could be conducted. The data of parturients who gave birth to children in the past five years were collected using the hospital information system. Based on the Robson's ten group classification system, parturients were grouped. The difference of cesarean section rate in each group and its main influencing factors were then analyzed. The above factors and factors such as age, education background, and knowledge on childbirth were independent variables, while cesarean section was the dependent variable. A logistic regression model was constructed to determine the correlation between relevant influencing factors and cesarean section. RESULTS: In the past 5 years, cesarean section rate in Xingtai city had been maintained at a relatively high level. Cesarean section rates in the R2 and R5 groups were the highest. Parity, fetal position, number of fetuses, and gestational weeks were all factors affecting cesarean section rate (all P < 0.01). After screening the above factors using logistic regression analysis, a regression equation was established: logistic (p) = -1.061 + 1.107 * parity + 0.196 * fetal position + 2.245 * number of fetuses - 0.070 * gestational week + 0.234 * age - 0.278 * education background + 0.623 * knowledge on childbirth. CONCLUSION: The Robson classification system plays an important role in evaluating and supervising parturients' conditions. Based on the Robson classification system, we find that parity, fetal position, number of fetuses, and gestational weeks are the main factors influencing cesarean section rate. Using logistic regression analysis, a prediction model, with guiding significance on the control of cesarean section rate, is established."""
+
+

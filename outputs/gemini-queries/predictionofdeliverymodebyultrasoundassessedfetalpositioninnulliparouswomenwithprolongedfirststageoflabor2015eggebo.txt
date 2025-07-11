@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofdeliverymodebyultrasoundassessedfetalpositioninnulliparouswomenwithprolongedfirststageoflabor2015eggebo
+"OBJECTIVES: To ascertain if fetal head position on transabdominal ultrasound is associated with delivery by Cesarean section in nulliparous women with a prolonged first stage of labor. METHODS: This was a prospective observational study performed at Stavanger University Hospital, Norway, and Addenbrooke's Hospital, Cambridge, UK, between January 2012 and April 2013. Nulliparous pregnant women with a singleton cephalic presentation at term and prolonged labor had fetal head position assessed by ultrasound. The main outcome was Cesarean section vs vaginal delivery, and secondary outcomes were association of fetal head position with operative vaginal delivery and duration of remaining time in labor. RESULTS: Fetal head position was assessed successfully by ultrasound examination in 142/150 (95%) women. In total, 19/50 (38%) women with a fetus in the occiput posterior (OP) position were delivered by Cesarean section compared with 16/92 (17%) women with a fetus in a non-OP position (P = 0.01). On multivariable logistic regression analysis, the OP position predicted delivery by Cesarean section with an odds ratio (OR) of 2.9 (95% CI, 1.3-6.7; P = 0.01) and induction of labor with an OR of 2.4 (95% CI, 1.0-5.6; P = 0.05). Fetal head position was not associated with operative vaginal delivery or with remaining time in labor. The agreement between a digital and an ultrasound assessment of OP position was poor (Cohen's kappa = 0.19; P = 0.18). CONCLUSION: OP fetal head position assessed by transabdominal ultrasound was significantly associated with delivery by Cesarean section."""
+
+

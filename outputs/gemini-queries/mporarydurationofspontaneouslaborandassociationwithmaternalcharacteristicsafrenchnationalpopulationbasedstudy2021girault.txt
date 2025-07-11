@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: contemporarydurationofspontaneouslaborandassociationwithmaternalcharacteristicsafrenchnationalpopulationbasedstudy2021girault
+"BACKGROUND: The objective of this study was to describe labor duration of women managed with current obstetric practices in a French national population-based cohort and to assess the association of age and BMI on this duration. METHODS: All women in the French perinatal survey of 2016 with a singleton cephalic fetus, delivering at term after a spontaneous labor were included. Duration of labor was defined as time between admission to the labor ward and birth. Duration of total labor and first and second stage of labor were described. Then, duration of labor was estimated according to maternal age and BMI, using Kaplan-Meier's method and compared with the log-rank test after stratification on parity. Intrapartum cesarean birth was considered as a censoring event. Multivariable modeling was performed using Cox's proportional hazard's method. RESULTS: Data of 3120 nulliparous and 4385 multiparous women were analyzed. Median labor duration was 6.1 hours ([5th; 95th percentile]) [1.4; 12.6] and 3.1 hours [0.3; 8.5] in nulliparous and multiparous women. Multivariable Cox analysis showed no independent association of maternal age and duration of labor. Nulliparous obese women had significantly lower odds of having a shorter labor than women with a BMI < 25 kg/m(2) , HR: 0.75; 95% CI [0.64-0.88], but BMI was not associated with labor duration in multiparous women. CONCLUSIONS: Our study provides important information for both women and care practitioners on what to expect when entering the labor ward. There appears to be little association between maternal characteristics and labor duration, with the exception of BMI in nulliparous women."""
+
+

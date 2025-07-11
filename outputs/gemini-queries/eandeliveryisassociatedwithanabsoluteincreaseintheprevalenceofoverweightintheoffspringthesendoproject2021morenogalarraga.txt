@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareandeliveryisassociatedwithanabsoluteincreaseintheprevalenceofoverweightintheoffspringthesendoproject2021morenogalarraga
+"AIM: The association between caesarean delivery and the risk of overweight/obesity in the offspring has been previously reported using conventional measures of association (relative risks or odds ratios). We aimed at refining the existing evidence by calculating the marginal effect of the exposure and estimating the unmeasured residual confounding. METHODS: In the 'SEguimiento del Nino para un Desarrollo Optimo' Project, a dynamic multipurpose paediatric cohort study, we collected information from parents through self-administered online questionnaires. We estimated the offspring's risk of overweight/obesity at age 4-6 years, associated with the type of delivery through marginal effect of the exposure. Unmeasured residual confounding was assessed using the E-value. RESULTS: Among 407 participants (mean-age: 5.0 years (standard deviation: 0.9)), 86 (21.1%) were born by caesarean delivery. Children born by caesarean delivery had higher odds of overweight/obesity than those born vaginally. Subgroup analyses showed similar results. The multivariable adjusted marginal effect showed that caesarean delivery was associated with an 8.0% (95% confidence interval: 0.2-15.7) absolute increase in the prevalence of overweight/obesity. The estimated residual confounding showed an E-value of 4.03, higher than the OR obtained for all the confounding factors we accounted for. CONCLUSIONS: Caesarean delivery was associated with an 8% absolute increase in the risk of overweight/obesity that is very unlikely explained by residual confounding."""
+
+

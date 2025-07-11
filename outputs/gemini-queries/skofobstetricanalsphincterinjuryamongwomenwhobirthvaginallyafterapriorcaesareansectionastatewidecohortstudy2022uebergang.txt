@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofobstetricanalsphincterinjuryamongwomenwhobirthvaginallyafterapriorcaesareansectionastatewidecohortstudy2022uebergang
+"OBJECTIVE: Vaginal birth after caesarean (VBAC) has been suggested to be associated with an increased risk of obstetric anal sphincter injury (compared with primiparous women who birth vaginally). However, prior studies have been small or have used outdated methodology. We set out to validate whether the risk of obstetric anal sphincter injury among women having their first VBAC is greater than that among primiparous women having a vaginal birth. DESIGN: State-wide retrospective cohort study. SETTING: Victoria, Australia. POPULATION: All births (455 000) between 2009 and 2014. METHODS: The risk of severe perineal injury between the first vaginal birth and the first VBAC was compared, after adjustment for potential confounding variables. Covariates were examined using logistic regression for categorical data and the Wilcoxon rank-sum test for continuous data. Missing data were handled using multiple imputation; the analysis was performed using regression adjustment and stata 16 multiple imputation and suite of effects commands. RESULTS: Women having a VBAC (n = 5429) were significantly more likely than primiparous women (n = 123 353) to sustain a third- or fourth-degree tear during vaginal birth (7.1 versus 5.7%, p < 0.001). After adjustment for mode of birth, body mass index, maternal age, infant birthweight, episiotomy and epidural, there was a 21% increased risk of severe perineal injury (RR 1.21, 95% CI 1.07-1.38). CONCLUSIONS: Women having their first VBAC have a significantly increased risk of sustaining a third- or fourth-degree tear, compared with primiparous women having a vaginal birth. Patient counselling and professional guidelines should reflect this increased risk."""
+
+

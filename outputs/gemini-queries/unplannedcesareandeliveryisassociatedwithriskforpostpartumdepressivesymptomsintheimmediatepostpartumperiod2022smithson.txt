@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: unplannedcesareandeliveryisassociatedwithriskforpostpartumdepressivesymptomsintheimmediatepostpartumperiod2022smithson
+"PURPOSE: Postpartum depression (PPD) is a common pregnancy complication. The association between cesarean delivery (CD) and PPD has shown conflicting results in prior studies, although emergent CD appears to be a clear risk factor. Establishing PPD risk is critical and may, however, be related to the unplanned nature of the CD, rather than the surgery itself. Our objective was to determine whether women who underwent unplanned CD were more likely than those with vaginal delivery to have higher depressive symptoms and thus screen positive for PPD risk in the immediate postpartum period. MATERIALS AND METHODS: This cohort study was conducted at a community medical center using data for deliveries between 8/2015-1/2016. Women were screened in the hospital for depressive symptoms (PPD risk) using the Edinburgh Postnatal Depression Scale (EPDS) within 4 days post-delivery. Logistic regression, adjusting for maternal race/ethnicity and parity, was performed to evaluate the association between delivery route (vaginal vs planned vs unplanned CD) and PPD risk (EPDS >= 10). RESULTS: A total of 2094 women had complete data for analysis. Overall, 44 women (2.1%) screened positive for PPD risk. Logistic regression results showed that unplanned CD was significantly associated with PPD risk (OR = 2.28, 95% CI 1.13-4.57, p = .022), after adjusting for parity and race/ethnicity. Planned CD was not associated with PPD risk. CONCLUSION: Unplanned CD may be an independent risk factor for PPD risk in the immediate postpartum period. This finding might explain why some previous studies have demonstrated different results with regards to risk of CD where the unplanned nature of the delivery was not accounted for."""
+
+

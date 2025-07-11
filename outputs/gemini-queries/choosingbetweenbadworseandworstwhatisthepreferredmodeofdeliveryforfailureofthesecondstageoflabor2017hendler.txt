@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: choosingbetweenbadworseandworstwhatisthepreferredmodeofdeliveryforfailureofthesecondstageoflabor2017hendler
+"OBJECTIVE: To determine the preferred mode of delivery (vacuum, forceps or cesarean delivery) for second-stage dystocia. METHODS: Retrospective cohort study of women delivered by forceps, vacuum or cesarean delivery due to abnormalities of the second stage of labor. Primary outcome included neonatal and maternal composite adverse effects. RESULTS: A total of 547 women were included: 150 (27.4%) had forceps delivery, 200 (36.5%) had vacuum extraction, and 197 (36.1%) had cesarean section. The rate of neonatal composite outcome was significantly increased in vacuum extraction (27%) compared to forceps delivery (14.7%) or cesarean section (9.7%) (p < 0.001). There was no difference in the rate of maternal composite outcome among the groups. Both operative vaginal delivery modes were associated with significantly lower rate of postpartum infection compared to cesarean delivery (0% versus 3%, p = 0.004). CONCLUSION: Operative vaginal delivery was associated with reduced postpartum infection compared to cesarean section. Forceps delivery was associated with reduced risk for adverse neonatal outcome compared to vacuum extraction, with no increase in the risk of composite maternal complications."""
+
+

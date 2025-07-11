@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prebirthcohortstudyofatopicdermatitisandseverebronchiolitisduringinfancy2016balekian
+"BACKGROUND: Infants hospitalized for bronchiolitis (i.e. severe bronchiolitis) are at increased risk of childhood asthma. There are many known risk factors for severe bronchiolitis, including cardiac and pulmonary diseases. Less is known about the association between atopic diseases and risk of severe bronchiolitis. We sought to further examine risk factors for severe bronchiolitis, focusing on atopic dermatitis (AD). METHODS: We conducted a nested cohort study within the Massachusetts General Hospital Obstetric Maternal Study (MOMS), a prospective cohort of pregnant women enrolled during 1998-2006. Children of mothers enrolled in MOMS were included in the analysis if they received care within our health system (n = 5407). Potential risk factors for bronchiolitis and hospitalization data were extracted from the children's electronic health records; we also examined pregnancy and perinatal risk factors collected from the underlying MOMS data. RESULTS: During the first year of life, 125 infants (2.3%) had severe bronchiolitis. Eighteen of these patients had AD; 11 (61%) were diagnosed with AD prior to bronchiolitis hospitalization. In unadjusted analyses, AD was associated with severe bronchiolitis (kh(2) 14.6; p < 0.001). In multivariable analyses adjusting for nine known risk factors for severe bronchiolitis, including demographics, birth season, disposition at birth, cardiac disease, maternal parity, and delivery mode, AD was associated with increased odds of severe bronchiolitis (odds ratio 2.72, 95% confidence interval 1.60-4.63). CONCLUSIONS: Atopic dermatitis is significantly associated with severe bronchiolitis in infancy. The mechanism of the AD-bronchiolitis association is unclear and merits further study; this research may shed light on the pathogenesis of asthma."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postpartumcareformothersdiagnosedwithhepatitisbduringpregnancy2015chang
+"Objective We sought to determine rates of maternal postpartum hepatitis B virus (HBV) follow-up with a HBV specialist and identify factors associated with poor follow-up, as prior research has focused on infant outcomes and not maternal care. Study Design We conducted a retrospective review of data from Partners HealthCare system, the largest health care system in Massachusetts, and identified women with chronic HBV who delivered from 2002 through 2012. Results We identified 291 women (mean age 31.5 years, 51% Asian) with incident HBV during pregnancy. In all, 47% had postpartum follow-up with a HBV specialist, but only 19% also had appropriate laboratory tests (hepatitis B e antigen [HBeAg], hepatitis B e antibody, HBV DNA, and ALT) within 1 year of their HBV diagnosis. Mothers with HBV follow-up were more likely to have a primary care physician (PCP) within the Partners HealthCare system (66% vs 38%, P <.0001), a positive HBeAg (20% vs 8%, P =.004), and elevated AST values (17% vs 8%, P =.02). On multivariable logistic regression analysis, a mother who had a PCP (odds ratio, 2.50; 95% confidence interval, 1.37-4.59) or positive HBeAg (odds ratio, 4.45; 95% confidence interval, 1.64-12.06) had a greater likelihood of having HBV follow-up. Conclusion Only 19% of HBV-infected mothers met care guidelines 1 year after being diagnosed with HBV. Inadequate postpartum HBV care affects women of all races/ethnicities. Women who had a PCP as well as those who were HBeAg positive were more likely to be referred for postpartum follow-up with a HBV specialist, suggesting that providers might be referring patients when they perceive HBV to be more serious or complex.Copyright (c) 2015 Elsevier Inc. All rights reserved."""
+
+

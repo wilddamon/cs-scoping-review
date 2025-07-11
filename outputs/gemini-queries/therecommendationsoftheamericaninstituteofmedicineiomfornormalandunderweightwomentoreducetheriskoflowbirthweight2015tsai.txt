@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therecommendationsoftheamericaninstituteofmedicineiomfornormalandunderweightwomentoreducetheriskoflowbirthweight2015tsai
+"OBJECTIVE: The recommendations of the American Institute of Medicine (IOM) were revised recently in order to enhance maternal and neonatal health. The aim of our study was to investigate the risk of low birth weight (LBW) among women who follow the IOM recommendations. MATERIALS AND METHODS: Gestational weight gain (GWG) and rate of weight gain (RWG) across the different periods of pregnancy among women who delivered LBW fetuses were analyzed retrospectively. The logistic regression was used to analyze the risk of LBW and to identify recommendations. RESULTS: From January 2008 to December 2009, 117 out of 4924 (2.4%) women delivered term LBW fetuses. After exclusions, 88 LBW and 91 control subjects were enrolled into the study. There was increased risk of cesarean delivery [odds ratio (OR) with 95% confidence interval (CI): 2.53 (1.33-4.83)] and neonatal asphyxia within 7 days of birth [OR 95% CI: 5.71 (1.21-26.83)] for the LBW group compared with the control group. Normal weight women [body mass index (BMI): 18.5-24.9 kg/m(2)] who followed the GWG and RWG recommendations of the IOM had no increased risk of LBW. However, there was a two-to three-fold increased LBW risk among normal weight women who followed the IOM guidelines when, during the 2(nd) trimester, their GWG was <=7 kg [OR 95% CI: 2.21 (1.28-6.49)] or their RWG was <=0.45 kg/week [OR 95% CI: 3.14 (1.32-7.47)]. Among underweight women (BMI < 18.5 kg/m(2)), if, during the 2(nd) and 3(rd) trimesters, they followed the lower range of the GWG and RWG recommendations of the IOM there was a five-fold increased risk of LBW if the GWG was <=13 kg [OR 95% CI: 5.29 (1.61-25.51)]; or the RWG was <=0.45 kg/week [OR 95% CI: 5.35 (1.61-24.66)]. CONCLUSION: For underweight women, it is suggested that they follow the upper range of the IOM recommendation in order to avoid LBW. For normal weight women, although the IOM guidelines provide a good basis, it is suggested that they carefully follow the recommended GWG and the RWG values during the 2(nd) trimester, which is a very important period for fetal growth."""
+
+

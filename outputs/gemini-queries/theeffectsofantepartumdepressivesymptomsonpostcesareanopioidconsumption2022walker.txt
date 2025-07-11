@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectsofantepartumdepressivesymptomsonpostcesareanopioidconsumption2022walker
+"OBJECTIVE: The study aimed to test the hypothesis that higher Edinburgh Postnatal Depression Scale (EPDS) scores are associated with increased pain scores and opioid use during postpartum hospitalization following cesarean section. STUDY DESIGN: We conducted a retrospective cohort of English or Spanish-speaking women >=18 years who had prenatal care for a singleton gestation and delivered by cesarean at >=36 weeks within a tertiary center during 2017. Exclusions included women with fetal anomalies, intrauterine fetal demise, sickle cell disease, previously diagnosed pain disorders (e.g., chronic pain or fibromyalgia), substance use disorder (based on documented prescription or use of methadone or buprenorphine), or reoperation during hospital stay. Women without an EPDS recorded antenatally were also excluded. Major depressive symptoms (MDS) were defined as a documented antenatal EPDS >=12. Women with and without MDS were compared, and multivariable linear regression models were generated to evaluate associations between MDS status and both pain scores and opioid use. RESULTS: Of the 891 women meeting other inclusion criteria, 676 (76%) had documented antenatal EPDS scores, and 104 (15.4%) of those had MDS. Women with MDS were more likely to be use tobacco and have general anesthesia for cesarean delivery, but groups were otherwise similar. Women with MDS reported higher daily and average pain scores postpartum (2.4 vs. 1.7 average; p < 0.001). Women with MDS used more morphine milligram equivalents (MME) each day during their postpartum hospitalization, leading to a higher total MME use (121 mg [60.5-214.5] vs. 75 mg [28.5-133.5], p < 0.001). CONCLUSION: We found an association between antepartum depressive symptoms and acute pain after cesarean delivery leading to increased opioid use. Given the current focus on opioid stewardship, further research into this association, exploration of tailored pain control, and determining whether treatment of antepartum MDS reduces postpartum pain, and therefore opioid use, will be of the utmost priority. KEY POINTS: * Women with MDS report higher pain scores postcesarean.. * Women with MDS use more opioids postcesarean.. * Future studies are needed for the treatment of MDS.."""
+
+

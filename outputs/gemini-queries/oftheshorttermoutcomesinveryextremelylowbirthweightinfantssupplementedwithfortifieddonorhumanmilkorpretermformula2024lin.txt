@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonoftheshorttermoutcomesinveryextremelylowbirthweightinfantssupplementedwithfortifieddonorhumanmilkorpretermformula2024lin
+"Abstract Objective To compare the short-term outcomes of very low birth weight (VLBW) and extremely low birth weight (ELBW) infants supplementarily fed with fortified donor human milk (DHM) or preterm formula (PF) when the mother's own milk (MOM) is insufficient. Methods This retrospective cohort study included 91 VLBW or ELBW preterm infants with birth weight<1 500 g who were hospitalized in Peking Union Medical College Hospital from October 1, 2017, to September 30, 2020. Based on the supplemental feeding method when MOM was insufficient, these infants were divided into the DHM group (n=51) and PF group (n=40). Mann-Whitney U, t-test, Chi-square test, or Fisher's exact test were used to compare the short-term clinical outcomes during hospitalization between the two groups. Results (1) There were no statistically significant differences between the 91 preterm infants in the DHM group and PF group in their gestational age, birth weight, sex ratio, birth mode, mothers' age at delivery, or the proportion of infants of small gestational age (all P>0.05). (2) The feeding volume in the DHM group was significantly greater than that in the PF group on the 14th day after birth [(108.2+/-53.1) vs. (81.0+/-47.8) ml/(kg.d), t=0.78, P=0.020]. Moreover, the time to achieve the feeding amounts up to 120 ml/(kg.d) and 150 ml/(kg.d) for infants in the DHM group were significantly shorter than those in the PF group [(17.5+/-10.2) vs. (30.0+/-12.0) d, t=4.38; (22.1+/-13.3) vs. (32.3+/-11.9) d, t=0.02; both P<0.05]; (3) Lower proportion of peripherally inserted central catheter (PICC) [58.8% (30/51) vs. 100% (40/40), chi2=21.88, P<0.001] and shorter PICC duration were observed in the DHM group [10.0 (0.0-19.0) vs. 29.0 (17.0-40.5) d, Z=5.56, P<0.001] compared to the PF group. The times of red blood cell transfusions and the incidence of late sepsis in the DHM group were less than those in the PF group [0.0 (0.0-2.0) vs. 2.0 (1.0-3.0) times, Z=4.44, P<0.001; 23.5% (12/51) vs. 50.0% (20/40), chi2=6.39, P=0.011]. There were no statistically significant differences observed in the incidence of bronchopulmonary dysplasia, neonatal necrotizing enterocolitis, retinopathy of prematurity, and the length of hospitalization (all P>0.05). Conclusion When MOM is insufficient, supplementing VLBW and ELBW infants with fortified donor human milk can shorten the time to achieve enteral nutrition and reduce the use rate and time of PICC, the incidence of late-onset sepsis, and the times of red blood cell transfusion.Copyright (c) 2024 Chinese Medical Journals Publishing House Co.Ltd. All rights reserved."""
+
+

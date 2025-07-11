@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: oxidativeandinflammatorymarkersarehigherinfulltermnewbornssufferingfunisitisandhigheroxidativemarkersareassociatedwithadmission2022kamei
+"The aim of this study was to assess whether oxidative and inflammatory mediators in the cord blood of newborns with funisitis and chorioamnionitis can serve as indicators of their inflammatory status, and whether there is a positive association between higher mediator levels and an increased risk of admission to the neonatal intensive care unit (NICU). This study was conducted prospectively in a neonatology department of a university hospital. In total, 52 full-term newborns were evaluated, including 17 funisitis cases, 13 chorioamnionitis cases, and 22 control newborns without funisitis or chorioamnionitis. Cord blood samples were measured for oxidative stress and inflammatory status markers. The oxidative stress markers included the total nitric oxide (NO), total hydroperoxide (TH), biological antioxidant potential (BAP), and TH/BAP ratio, comprising the oxidative stress index (OSI). Inflammatory markers included interleukin (IL)-1b, IL-6, IL-8, IL-10, tumor necrosis factor alpha (TNFalpha), interferon gamma (IFNgamma), and complement component C5a. TH, OSI, IL-1b, IL-6, and IL-8 concentrations were higher in the funisitis group than in the chorioamnionitis and control groups. C5a was higher in the funisitis and chorioamnionitis groups than in the control group. Among all enrolled newborns, 14 were admitted to the NICU. Multiple logistic regression analysis showed that elevated umbilical cord blood levels of OSI and TH were associated with a higher risk of admission to the NICU (OSI: R = 2.3, 95% CI 1.26-4.29, p = 0.007 and TH: R = 1.02, 95%CI = 1.004-1.040, p = 0.015). In conclusion, OSI and TH in cord blood from full-term newborns can provide an index of inflammatory status, and higher levels are associated with the risk of admission to the NICU and, therefore, could serve as an early indicator of inflammatory conditions in newborns.Copyright (c) 2022 by the authors. Licensee MDPI, Basel, Switzerland."""
+
+

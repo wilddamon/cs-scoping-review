@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectsofusingbarbedsutureinmyomectomyonadhesionformationandadversepregnancyoutcome2023won
+"Background: There is still concern regarding postoperative adhesion formation and adverse effects on pregnancy outcomes caused by barbed suture (BS) after myomectomy. The aim of this study was to compare the postoperative adhesion and pregnancy outcomes between conventional suture (CS) and BS after minimally invasive myomectomy (MIM) by robotic myomectomy (RM) or laparoscopic myomectomy (LM). Method(s): The medical records of 94 women who had undergone MIM with CS and 97 who had undergone MIM with BS and achieved pregnancy were reviewed. Postoperative adhesion was evaluated following cesarean section. Result(s): The number of removed myomas was greater (5.3 +/- 4.6 vs. 3.5 +/- 3.1, p = 0.001) and the size of the largest myoma was larger (7.0 +/- 2.2 vs. 5.8 +/- 2.7 cm, p = 0.001) in the BS group relative to the CS group. A total of 98.9% of patients in the CS group and 45.4% in the BS group had undergone LM (p < 0.001), while the others underwent RM. There was no significant difference in the presence of postoperative adhesion at cesarean section between the BS and CS groups (45.5 vs. 43.7%, p = 0.095). Additionally, there were no intergroup differences in pregnancy complications such as preterm labor, placenta previa, accrete or abruption. Note also that in our logistic regression analysis, the suture type (BS or CS) was excluded from the independent risk factors regarding postoperative adhesion formation. Conclusion(s): Our data indicated that the incidence of postoperative adhesion after MIM with BS was similar when compared with CS. Also it seems that the suture type does not have a significant effect on pregnancy outcomes.Copyright (c) 2022 by the authors."""
+
+

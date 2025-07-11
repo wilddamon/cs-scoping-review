@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivecasecontrolstudyofthedeterminantsofirondeficiencyanemiaininfantsinanurbancommunityinshanghaichinabetween201020152020wang
+"BACKGROUND Iron deficiency anemia (IDA) is a global public health problem. This study aimed to analyze the social determinants of IDA in infants living in Shanghai, China, between 2010-2015. MATERIAL AND METHODS Data were analyzed retrospectively from the Shanghai Children's Health Check Record system in the Tangqiao Community Health Service Center for infants aged <24 months between January 1, 2010, and December 31, 2015. A study group was identified with IDA, and an age-matched and gender-matched healthy control group was identified. RESULTS The five-year prevalence rate of IDA was 11.49% (150/1305). Infants with IDA had significantly lower birth weights (3228.720+-456.200 gm vs. 3376.870+-393.719 gm; P<0.01), a higher percentage of premature births (10.67% vs. 1.33%; P<0.001), a longer exclusive breastfeeding period (10.63+-4.844 months vs. 7.08+-5.039 months; P<0.001), a higher rate of exclusive breastfeeding within four months after birth (P<0.001), a later start for complementary feeding (7.32+-1.633 months vs. 6.93+-1.794 months; P<0.05), and a higher rate of starting complementary feeding after 6 months of age (P<0.05). There were no significant differences between the two groups for maternal child-bearing age, mode of delivery, infant birth height, and birth rank. CONCLUSIONS The introduction of an iron-fortified formula for exclusively breastfed infants at 4 months of age, starting complementary feeding promptly before 6 months of age, and improving perinatal care for pregnant women to avoid premature birth and reduce low birth weight may be effective measures to prevent IDA."""
+
+

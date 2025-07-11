@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aorticisthmusdopplerinnormalandsmallforgestationalagefetusesanditsassociationwithpredictionofadverseperinataloutcome2021sharma
+"OBJECTIVE: To establish reference ranges for aortic isthmus Doppler indices in appropriate-for-gestational-age (AGA) fetusesand to evaluate its association with perinatal outcome in small-for-gestational-age (SGA) fetuses.;METHODS: Prospective cohort observational study in which 30 pregnant women with SGA fetuses and 60 women with AGA fetuses were recruited from the prenatal clinic of the hospital. The AGA group was eventually followed from 24 weeks by 4-weekly Doppler assessment, and the SGA group was examined as per institutional protocol. We analyzed the data using STATA version 14.0 statistical software. Continuous variables were examined for normality assumption using the Kolmogorov-Smirnov test. To develop a nomogram for appropriate gestational age, we adopted a mixed linear model analysis. For each of the variables Ao pulsatility index (PI), Ao peak systolic velocity (PSV), Ao systolic nadir (Ns), and Ao isthmic systolic index (ISI) mean predicted values, 3rd centile and 97th centile were calculated based on the parameter estimation of mixed model. Observed data for each of the variables in the SGA group were plotted in the nomogram developed for the AGA group to show the trend of SGA data in comparison to AGA data.;RESULTS: The total number of observations made on 60 AGA and 30 SGA fetuses were 240 and 67, respectively. Nomograms for the 3rd and 97th centiles were derived for Ao PI, Ao PSV, Ao Ns, and Ao ISI. Mean Ao PI values were significantly higher in SGA group (2.37 vs 2.22; P < .05); mean Ao PSV was significantly lower in the SGA group (67.1 vs 76.3; P < .05), but mean Ao Ns and mean Ao ISI values were significantly higher in the SGA group (-5.24 vs 2.0 and -0.04 vs -0.01; P < .05).;CONCLUSIONS: Aortic Doppler assessment seems to provide beneficial information for monitoring small fetuses. Ao PI and Ao ISI, which were raised in fetuses with SGA, can be used in prognosis. Copyright (c) 2020 International Federation of Gynecology and Obstetrics."""
+
+

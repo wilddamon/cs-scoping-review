@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therelationshipbetweenthedifferentlowbirthweightstrataofnewbornswithinfantmortalityandtheinfluenceofthemainhealthdeterminantsintheextremesouthofbrazil2019vilanova
+"BACKGROUND: Low birth weight (LBW) newborns present different health outcomes when classified in different birth weight strata. This study evaluated the relationship of birth weight with Infant mortality (IM) through the influence of biological, social, and health care factors in a time series. METHODS: Retrospective cohort study with data collected from Information Systems (Live Births and Mortality). The mortality trends were performed for each birth weight stratum: extremely low, < 1000 g; very low, 1000-1499 g; low, 1500-2499 g; insufficient, 2500-2999 g; adequate, 3000-3900 g; and macrosomia, > 4000 g. Chi-square tests analyzed IM rates. Sequential Poisson regression analyzed the impact of the determinant factors. RESULTS: A total of 277,982 newborns were included in the study and 2088 died before their first year. There was a tendency for a decrease in mortality in all strata of weight. With the exception of macrosomics, all other strata had a higher risk for IM when compared with adequate birth weight. Extremely LBW newborns presented higher risk for mortality when born in a public hospital. A higher percentage of infant deaths were associated with lower maternal age and lower schooling for all strata. Prenatal care with less than three visits demonstrated a risk for IM in low, insufficient, and adequate birth weight strata. The cesarean section was a protective factor for IM in Extremely and Very LBW strata and it was a risk factor in adequate birth weight stratum. CONCLUSIONS: LBW had a greater association with IM, especially those children of younger mothers and those born in public hospitals."""
+
+

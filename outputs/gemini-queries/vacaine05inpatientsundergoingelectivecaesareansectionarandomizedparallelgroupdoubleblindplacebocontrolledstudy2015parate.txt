@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofadditionoflowdosefentanyltoepiduralbupivacaine05inpatientsundergoingelectivecaesareansectionarandomizedparallelgroupdoubleblindplacebocontrolledstudy2015parate
+"BACKGROUND: Opioids have synergistic action with local anesthetics which may alter characteristics of epidural block. Giving opioids to mother before delivery of baby is still fully not accepted with some fearing risk of neonatal depression. AIMS: Our primary aim was to evaluate the analgesic effect of addition of 50 mg fentanyl to epidural 0.5% bupivacaine in patients undergoing elective caesarean section using visual analog scale. The secondary aim was to assess onset of analgesia, volume of drug required to achieve T6 level, grade and duration of motor block and Apgar score. MATERIALS AND METHODS: In this prospective, randomized, double blind, placebo controlled study 64 patients scheduled for elective caesarean section under epidural anesthesia were randomly divided into two groups of 32 each. The fentanyl group received 1 ml of 50 mg fentanyl and the saline group received 1 ml of normal saline mixed with 10 ml of 0.5% bupivacaine for epidural anesthesia. VAS score, time to achieve T6 level, dose of bupivacaine, intraoperative analgesic consumption and duration of analgesia, grade and duration of motor block and any adverse maternal and neonatal effects were noted. STATISTICAL ANALYSIS: Data was analyzed using Students t test, chi-square test and Mann-Whitney U-test. The values of P<0.05 were considered statistically significant. RESULTS: Fentanyl improved the VAS score significantly (1.6+-1.32) compared to the saline group (3.77+-1.0, P<0.0001). It also reduced the intraoperaitve analgesic supplementation compared to the saline group. (P=0.031). The postoperative duration of analgesia was prolonged in the fentanyl group (275.80+-13.61 min) compared to the saline group (191.47+-12.16 min, P<0.0001). The other characteristics of epidural block were unaltered. CONCLUSION: Addition of 50 mg fentanyl to epidural 0.5% bupivacaine significantly reduces the VAS score. It also reduces intra-operative analgesia supplementation and prolongs the duration of postoperative analgesia without altering the other characteristics of block. The neonatal outcome is not affected with addition of fentanyl before delivery of baby."""
+
+

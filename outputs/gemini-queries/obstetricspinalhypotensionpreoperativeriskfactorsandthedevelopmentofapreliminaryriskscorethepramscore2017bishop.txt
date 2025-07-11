@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricspinalhypotensionpreoperativeriskfactorsandthedevelopmentofapreliminaryriskscorethepramscore2017bishop
+"BACKGROUND: Obstetric spinal hypotension is a common and important problem during caesarean delivery. Identifying patients at risk for hypotension may guide clinical decision-making and allow timeous referral. OBJECTIVE: Using preoperative risk factors, to develop a simple scoring system to predict systolic hypotension. METHODS: This prospective, single-centre, observational study of patients undergoing elective or urgent caesarean delivery assessed body mass index, baseline heart rate, baseline mean arterial pressure (MAP), maternal age, urgency of surgery (elective v. non-elective) and preoperative haemoglobin concentration as predictors of spinal hypotension (systolic blood pressure &lt;90 mmHg). We used empirical cut-point estimations in a logistic regression model to develop a scoring system for prediction of hypotension. RESULTS: From 504 eligible patients, preoperative heart rate (odds ratio (OR) 1.02, 95% confidence interval (CI) 1.00 - 1.03; p=0.012), preoperative MAP (OR 0.97, 95% CI 0.95 - 0.98; p&lt;0.001) and maternal age (OR 1.05, 95% CI 1.02 - 1.08; p=0.002) were found to be predictors of hypotension. We derived a preliminary scoring system (pulse rate &gt;90 bpm, age &gt;25 years, MAP &lt;90 mmHg - the PRAM score) for the prediction of systolic hypotension following obstetric spinal anaesthesia. Patients with three factors had a 53% chance of developing hypotension, compared with the overall incidence of 30%. The PRAM score showed good discrimination, with a c-statistic of 0.626 (95% CI 0.576 - 0.676) and good calibration. CONCLUSIONS: Preoperative heart rate, preoperative MAP and maternal age were predictive of hypotension in elective and emergency caesarean delivery. The PRAM score shows promise as a simple, practical means to identify these patients preoperatively, but requires prospective validation."""
+
+

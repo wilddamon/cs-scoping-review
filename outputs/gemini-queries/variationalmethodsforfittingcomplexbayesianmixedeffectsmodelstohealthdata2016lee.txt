@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: variationalmethodsforfittingcomplexbayesianmixedeffectsmodelstohealthdata2016lee
+"We consider approximate inference methods for Bayesian inference to longitudinal and multilevel data within the context of health science studies. The complexity of these grouped data often necessitates the use of sophisticated statistical models. However, the large size of these data can pose significant challenges for model fitting in terms of computational speed and memory storage. Our methodology is motivated by a study that examines trends in cesarean section rates in the largest state of Australia, New South Wales, between 1994 and 2010. We propose a group-specific curve model that encapsulates the complex nonlinear features of the overall and hospital-specific trends in cesarean section rates while taking into account hospital variability over time. We use penalized spline-based smooth functions that represent trends and implement a fully mean field variational Bayes approach to model fitting. Our mean field variational Bayes algorithms allow a fast (up to the order of thousands) and streamlined analytical approximate inference for complex mixed effects models, with minor degradation in accuracy compared with the standard Markov chain Monte Carlo methods."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofsevereretinopathyofprematurityandbronchopulmonarydysplasiawithadverseneurodevelopmentaloutcomesinpreterminfantswithoutseverebraininjury2021bae
+"Although impaired neurodevelopment is strongly associated with severe brain injury, most preterm infants survive without severe brain injury. In this study, the association of impaired neurodevelopment and neonatal morbidities of preterm infants was assessed after excluding those with severe brain injury. This was a retrospective study of very low birthweight infants in a single tertiary center. After excluding infants with severe brain injury, the study population was categorized as infants without intraventricular hemorrhage (IVH) and with low-grade IVH. Neurodevelopmental outcomes at a corrected age (CA) of 18-24 months were evaluated using the Bayley Scales of Infant and Toddler Development 3rd Edition (Bayley-III). Cerebral palsy (CP), hearing impairment and blindness were also assessed and compared. Of 240 infants, 25 (11.6%) infants had combined neurodevelopmental impairment (NDI). In the multivariate analysis for combined NDI, small for gestational age (SGA) (adjusted OR 6.820, 95% confidence intervals (CI) 1.770-26.307), moderate to severe bronchopulmonary dysplasia (BPD) (aOR 3.21, 95% CI 1.032-9.999) and severe retinopathy of prematurity (ROP) (aOR 5.669, 95% CI 1.132-28.396) were associated with combined NDI. Among neonatal morbidities, moderate to severe BPD and severe ROP were associated with adverse neurodevelopmental outcomes in preterm infants without severe brain injury.Copyright (c) 2021 by the authors. Licensee MDPI, Basel, Switzerland."""
+
+

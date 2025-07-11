@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofcesareandeliveryonlongtermriskofsmallbowelobstruction2018abenhaim
+"OBJECTIVE: To evaluate the association of cesarean deliveries on the incidence of small bowel obstruction. METHODS: We formed a population-based cohort of all women with a first live birth between 1998 and 2007 using the U.K. Clinical Practice Research Datalink. Women were followed until 2015, the occurrence of a small bowel obstruction, or loss to follow-up. Cesarean delivery was identified from the Hospital Episode Statistics and small bowel obstruction events were identified using the Classification of Interventions and Procedures and International Classification of Diseases, 10th Revision codes. Cox proportional hazard models, with cesarean delivery defined as a time-dependent exposure, estimated the adjusted hazard ratios and 95% CIs of small bowel obstruction associated with cesarean delivery. RESULTS: The cohort included 81,480 women with a median follow-up of 8.0 years (range 6 months to 16.6 years), during which 575 new small bowel obstructions occurred (incidence 9.1/10,000 person-years). Risk of small bowel obstruction was higher among women with a cesarean delivery compared with women without (16.3 vs 6.4 patients/10,000 person-years, odds ratio [OR] 2.54, 95% CI 2.15-3.00). Increasing number of cesarean deliveries was associated with an increasing risk of small bowel obstruction (OR 1.61, 95% CI 1.46-1.78, per additional cesarean delivery). Repeated small bowel obstructions were more common among women with a cesarean delivery and the association remained when restricting to small bowel obstruction requiring surgical management. CONCLUSION: Although rare, small bowel obstructions are increased among women who have undergone a cesarean delivery. With increasing rates of cesarean deliveries worldwide, small bowel obstructions and related morbidities may become a more prevalent women's health concern."""
+
+

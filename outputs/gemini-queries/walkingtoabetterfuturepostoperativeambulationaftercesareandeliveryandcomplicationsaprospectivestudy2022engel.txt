@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: walkingtoabetterfuturepostoperativeambulationaftercesareandeliveryandcomplicationsaprospectivestudy2022engel
+"OBJECTIVE: To assess the correlation between maternal mobility after cesarean delivery and postoperative morbidity. METHODS: A prospective study was conducted in a tertiary hospital among patients after cesarean delivery. The women were recruited after surgery and before ambulation. Each participant received an accelerometer and routine instructions for mobilization. The patients were asked to wear the accelerometer constantly. It was collected at discharge. Electronic files were reviewed and patients' outcomes were analyzed. The Mann-Whitney U test was used to compare groups and a receiver operating characteristic curve was calculated for the threshold of number of steps. RESULTS: Data were analyzed for 199 patients, among which 107 (54.4%) deliveries were urgent and 90 (45.6%) were elective. The median number of steps was higher for multiparous women compared to nulliparous women (P = 0.035). Patients who developed complications after discharge walked significantly less during their hospitalization compared to those who did not. There was a trend toward increased risk for in-hospitalization complications among patients who walked less while hospitalized. A threshold of more than 9716 steps per hospitalization was found to be associated with fewer post-discharge complications. CONCLUSION: There is a significant correlation between the extent of ambulation after cesarean delivery and fewer postoperative complications."""
+
+

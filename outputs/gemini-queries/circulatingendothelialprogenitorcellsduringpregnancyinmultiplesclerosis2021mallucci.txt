@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: circulatingendothelialprogenitorcellsduringpregnancyinmultiplesclerosis2021mallucci
+"BACKGROUND: Endothelial progenitor cells (EPCs) have been shown to increase during physiological pregnancy and are believed to play a fundamental role in the process of placentation. Reduced levels of EPCs during pregnancy have been associated with preeclampsia and miscarriage. Women with multiple sclerosis (MS) are not at increased risk of preeclampsia nor of general adverse obstetric outcome, in contrast with some other autoimmune diseases.;OBJECTIVE: The aim of this study was to evaluate circulating EPCs levels in pregnant patients with MS.;METHODS: CD34+ and CD133+ were longitudinally detected by flow cytometry in the maternal plasma of 29 healthy controls and 9 MS patients and in the cord blood of their newborns.;RESULTS: EPCs were affected by pregnancy with the same trend in both groups (CD34+ p = 0.0342; CD133+ p = 0.0347). EPCs during pregnancy were increased in MS (mean +/- SD: CD34+ cells 0.038 +/- 0.010; CD133+ 0.024 +/- 0.009) with respect to healthy controls (mean +/- SD: CD34+ cells 0.022 +/- 0.006; CD133+ 0.016 +/- 0.004), CD34+ p = 0.0004; CD133+ p = 0.0109. EPCs levels of the cord blood of MS patients' newborns mild correlated with maternal EPC levels at delivery (CD34+: spearman's Rho 0.658, p = 0.054; CD133+: spearman's Rho 0.758, p = 0.018).;CONCLUSIONS: This work identified increased circulating EPC levels during pregnancy, following the same trend both in MS patients and healthy controls. Despite the similar trend, the levels of circulating EPCs were significantly higher in MS patients with respect to the control population. A correlation was also found in MS patients between cord blood EPCs and circulating EPCs at delivery."""
+
+

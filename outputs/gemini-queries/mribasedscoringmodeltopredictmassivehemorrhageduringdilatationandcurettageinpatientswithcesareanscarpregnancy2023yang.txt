@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: mribasedscoringmodeltopredictmassivehemorrhageduringdilatationandcurettageinpatientswithcesareanscarpregnancy2023yang
+"OBJECTIVE: To construct a scoring model based on MRI signs to predict massive hemorrhage during dilatation and curettage in cesarean scar pregnancy (CSP) patients. MATERIALS AND METHODS: The MRIs of CSP patients admitted to a tertiary referral hospital between February 2020 and July 2022 were retrospectively reviewed. The included patients were randomly assigned to the training and validation cohorts. The univariate and multivariate logistic regression analyses were adopted to identify the independent risk factors for massive hemorrhage (the amount of bleeding >= 200 ml) during the dilatation and curettage. A scoring model predicting intraoperative massive hemorrhage was established where each positive independent risk factor was assigned 1 point, and the predictive power of this model was evaluated both in the training and validation cohorts via the receiver operating characteristic curve. RESULTS: A total of 187 CSP patients were enrolled, who were divided into the training cohort (31 in 131 patients had massive hemorrhage) and validation cohort (10 in 56 patients had massive hemorrhage). The independent risk factors for intraoperative massive hemorrhage included cesarean section diverticulum area (OR = 6.957, 95% CI 1.993-21.887; P = 0.001), uterine scar thickness (OR = 5.113, 95% CI 2.086-23.829; P = 0.025) and gestational sac diameter (OR = 3.853, 95% CI 1.103-13.530; P = 0.025). A scoring model with a total point of 3 was developed and the CSP patients were divided into low-risk (Total points < 2) and high-risk groups (Total points >= 2) for intraoperative massive hemorrhage accordingly. This model possessed high prediction performance both in the training cohort (area under the curve [AUC] = 0.896, 95% CI 0.830-0.942) and validation cohort (AUC = 0.915, 95% CI 0.785-1.000). CONCLUSION: We first constructed a MRI-based scoring model for predicting intraoperative massive hemorrhage in CSP patients, which could help the decision-making of the patients' therapy strategies. Low-risk patients can be cured by D&C alone to reduce the financial burden, while high-risk patients require more adequate preoperative preparation or consideration of changing surgical approaches to reduce bleeding risk."""
+
+

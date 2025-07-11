@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofadvancedmaternalageontheoutcomeoftwinpregnancies2018gluck
+"PURPOSE: To assess the effect of advanced maternal age on the obstetrics and neonatal outcome of twin pregnancies. METHODS: A retrospective study of 716 dichorionic-diamniotic twin pregnancies delivered at our institute. The study population was divided into two groups: women aged 35-39 years (group A, n = 142) and women aged >= 40 years (Group B, n = 48). The control group consisted of women younger than 35 years (group C, n = 516). RESULTS: The rate of cesarean section (CS) was significantly higher among women older than 35 years compared to the control group (A 76.8% and B 87.5% vs C 65.7%, P = 0.001). Women older than 35 years were also at higher risk for developing hypertensive disorders (A 7.0%, B 14.6%, vs C 5.4%, P = 0.04). On multivariate regression analysis, maternal age was found to be independently associated with a higher rate of CS (odds ratio vs reference group C: group A 1.6, 95% CI 1.08-2.6; group B 3.2, 95% CI 1.3-7.8). There was no difference between the groups in the rate of neonatal complications. CONCLUSION: Women with twin pregnancy, older than 35 years, have a significantly higher rate of CS and hypertensive disorder. This rate increases with maternal age, with no increased rate of neonatal complications."""
+
+

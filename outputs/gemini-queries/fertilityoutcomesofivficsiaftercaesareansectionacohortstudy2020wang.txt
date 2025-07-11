@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fertilityoutcomesofivficsiaftercaesareansectionacohortstudy2020wang
+"RESEARCH QUESTION: The study objective was to evaluate the impact of a previous Caesarean section on fertility outcomes in women undergoing IVF/intracytoplasmic sperm injection (ICSI). DESIGN: A retrospective cohort study was designed that included 1793 women undergoing IVF/ICSI who had had a previous delivery from January 2015 to December 2016. The primary outcome was live birth. Secondary outcomes were implantation, clinical pregnancy, miscarriage, ectopic pregnancy, multiple pregnancy and perinatal complications. RESULTS: Of the 1793 women included, 796 had had a previous Caesarean section and 997 a previous vaginal delivery. Propensity score matching in a 1:1 ratio resulted in 538 women per group. Compared with women with a previous vaginal delivery, women with a previous Caesarean section had a lower live birth rate (30.1% versus 38.1%, odds ratio [OR] 0.70, 95% confidence interval [CI] 0.54-0.90) and a higher miscarriage rate (25.9% versus 17.5%, OR 1.65, 95% CI 1.06-2.56). Among other secondary outcomes, implantation rates were 32.9% and 37.1% (OR 0.83, 95% CI 0.69-1.01), and clinical pregnancy rates were 42.4% and 46.8% (OR 0.84, 95% CI 0.66-1.06), in the Caesarean section group and vaginal delivery group, respectively. There were no statistically significant differences in terms of ectopic pregnancy, multiple pregnancy or perinatal outcomes between the groups. Further adjustment for confounders did not change the result of the primary outcome (OR 0.64, 95% CI 0.49-0.84). CONCLUSIONS: Women undergoing IVF/ICSI who have had a previous Caesarean section have a lower live birth rate and a higher miscarriage rate than those with a previous vaginal delivery."""
+
+

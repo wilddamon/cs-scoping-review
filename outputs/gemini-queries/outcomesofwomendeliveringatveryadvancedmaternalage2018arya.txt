@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesofwomendeliveringatveryadvancedmaternalage2018arya
+"BACKGROUND: The purpose of this study was to evaluate the maternal outcome in women with very advanced maternal age (VAMA) at childbirth (>45 years) compared to advanced maternal age (35-39 and 40-44 years).;METHODS: Retrospective cohort study using the Texas Public Use Data File, years 2013-2014. Maternal age was a three-level variable: 35-39 (referent), 40-44, and 45-59 years (VAMA). Adjusted risk ratios (aRRs) for the two older age groups for various obstetrical and nonobstetrical complications were calculated from log-binomial regression models.;RESULTS: The sample consisted of 96,879 deliveries. In univariate analyses, a higher frequency (p < 0.05) of gestational diabetes, pregestational diabetes, chronic hypertension, pregnancy related hypertensive disorders, multiple gestation, oligohydramnios, polyhydramnios, placenta previa, postpartum hemorrhage, small for gestational age, intrauterine fetal death, and length of stay were noted in the two older maternal age groups compared to the youngest maternal age group. Multiple gestations were noted to be more frequent in the two older groups: the VAMA group had a 336% increase in their risk (aRR = 4.36, 95% CI: 3.68-5.17), while women 40-44 years of age experienced a 17% increase in their risk (aRR = 1.17, 95% CI: 1.07-1.29) compared to women in the 35-39 year group. The risk of the following outcomes was approximately doubled in VAMA women compared to the referent (all statistically significant): small for gestational age (aRR = 1.92), stillbirth (aRR = 2.12), and intrauterine fetal death (aRR = 1.96).;CONCLUSIONS: This population-based study detected a dose-response association between maternal age and the risk of multiple maternal and fetal complications."""
+
+

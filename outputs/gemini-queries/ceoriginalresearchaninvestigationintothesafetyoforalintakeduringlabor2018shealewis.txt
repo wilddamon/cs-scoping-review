@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ceoriginalresearchaninvestigationintothesafetyoforalintakeduringlabor2018shealewis
+": Purpose: The purpose of this study was to compare the maternal and neonatal outcomes among laboring women permitted ad lib oral intake with those permitted nothing by mouth except for ice chips. DESIGN: This was a quantitative retrospective observational cross-sectional study. SAMPLE: The initial data set consisted of all closed medical records for 2,817 women who were admitted to a suburban community hospital in the northeastern United States between January 2008 and December 2012. Some subjects' records were missing either covariate data or outcomes data, resulting in final sample sizes of 2,797 women (for comparison across covariates) and 2,784 women (for comparison across outcomes). METHODS: A deidentified limited data set was extracted from the electronic health record for descriptive and inferential comparisons between groups. Demographics and maternal comorbidities present on admission were compared between groups before data analysis. Outcome comparisons were obtained with traditional between-groups analysis and propensity score matching. RESULTS: The groups were found to be sufficiently equivalent for comparison. The group permitted nothing by mouth was significantly more likely to have unplanned cesarean section births than the group permitted ad lib oral intake. There were no significant differences in unplanned maternal ICU admissions postpartum, in neonate condition as determined by Apgar scores, or in the need for a higher level of care. Allowing women ad lib oral intake during labor caused no increase in morbidity, and there were no mortalities in either group. CONCLUSION: Allowing women ad lib oral intake during labor does not increase adverse maternal or neonatal outcomes. It stands to reason that allowing such intake could increase patient satisfaction. Further study is needed to determine what types of food and drink are most beneficial as well as what types are preferred."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthoutcomesamongwomenwithcongenitalneuromusculardisabilities2022huezogarcia
+"BACKGROUND: Women with disabilities are at an increased risk for adverse birth outcomes; however, research among women with congenital neuromuscular disabilities (cNMD) is limited. OBJECTIVE: To describe characteristics and compare birth outcomes among women with and without cNMD. METHODS: Data were from the Slone Birth Defects Study (case-control, conducted from 1976 to 2015), which collected information on demographic, reproductive, and lifestyle characteristics. cNMD included spina bifida, cerebral palsy, muscular dystrophy, contractures, or arthrogryposis and were identified by participant report. Those with cNMD were matched to participants without cNMD by interview year and study site. We use modified Poisson regression to estimate relative risks (RR) for low birthweight, macrosomia, preterm birth, and small/large-for-gestational age (SGA/LGA). Given the case-control design and overrepresentation of infants with congenital anomalies, data were weighted to reflect a 3% national prevalence of infants with congenital anomalies. RESULTS: Women with cNMD (n = 125) were more likely to be white, nulliparous, have a cesarean section, have an unplanned pregnancy, report a pre-pregnancy BMI >=25 kg/m(2), smoke during pregnancy, and report genitourinary infections. Women with cNMD had infants with shorter gestational length (mean difference: -7.44 days, 95% CI: -13.94, -0.95) compared to women without cNMD. cNMD was associated with higher risk of preterm birth (RR = 3.98, 95% CI: 1.33, 11.95) and SGA (RR = 2.14, 95% CI: 0.74, 6.15). CONCLUSION: Women with cNMD were more likely to deliver preterm and have an SGA infant. These findings highlight disparities faced by women with cNMD and stress the need to provide optimal perinatal and reproductive care."""
+
+

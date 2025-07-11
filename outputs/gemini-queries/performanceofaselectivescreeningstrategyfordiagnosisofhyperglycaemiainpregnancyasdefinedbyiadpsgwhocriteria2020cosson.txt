@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: performanceofaselectivescreeningstrategyfordiagnosisofhyperglycaemiainpregnancyasdefinedbyiadpsgwhocriteria2020cosson
+"AIM: Our study evaluated the performance of a selective screening strategy for hyperglycaemia in pregnancy (HIP) based on the presence of risk factors (RFs; body mass index>=25kg/m2, age>=35years, family history of diabetes, personal history of HIP or macrosomic infant) to diagnose HIP and to predict HIP-related events.;METHODS: Women with no known diabetes who had undergone complete universal screening (early, before 22weeks of gestation and, if normal, in the second part of pregnancy) at our department (2012-2016) were selected, resulting in four groups of women according to the presence of HIP and/or RFs, with a predefined composite endpoint (preeclampsia or large-for-gestational-age infant or shoulder dystocia).;RESULTS: Included were 4518 women: 23.5% had HIP and 71.1% had at least one RF. The distribution among our four groups was: HIP-/RF- (n=1144); HIP-/RF+ (n=2313); HIP+/RF- (n=163); and HIP+/RF+ (n=898). HIP was more frequent when RFs were present rather than absent (33.1% vs 15.4%, respectively; P<0.001). Incidence of the composite endpoint differed significantly (P<0.0001) across groups [HIP-/RF- 6.3%; HIP-/RF+ 13.2%; HIP+/RF- 8.6%; and HIP+/RF+ 17.1% (HIP effect: P<0.05; RF effect: P<0.001; interaction HIP * RF: P=0.94)] and significantly increased with the number of RFs (no RF: 6.3%, 1 RF: 10.8%, 2 RFs: 14.7%, 3 RFs: 28.0%, 4-5 RFs: 25.0%; P<0.0001).;CONCLUSION: RFs are predictive of HIP, although 15.4% of women with HIP have no RFs. Also, irrespective of HIP status, RFs are predictive of HIP-related events, suggesting that overweight/obesity, the only modifiable RFs, could be targets of interventions to improve pregnancy prognosis. Copyright (c) 2019 Elsevier Masson SAS. All rights reserved."""
+
+

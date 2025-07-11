@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricoutcomesofanafrocaribbeancohortfollowinguniversalscreeningandtreatmentofsubclinicalhypothyroidism2015johnson
+"OBJECTIVE: Restoration of euthyroidism with l-thyroxine reportedly reduces obstetric complications associated with subclinical hypothyroidism (SCH). The objective was to determine if obstetric outcomes of treated subjects were equivalent to euthyroid subjects. METHODS: This was a prospective cohort study. Subjects were considered euthyroid if serum thyroidstimulating hormone (TSH) was 0.4-3 mIU/L and free thyroxine (FT4) 10.29-17.05 pmol/L with negative thyroid peroxidase antibodies (TPOAb). Subclinical hypothyroidism was diagnosed if FT4 was 10.29-24.45 pmol/L and TSH 2.5-3 mU/L with positive TPOAb, or TSH > 3.0 mU/L regardless of antibody status. Subclinical hypothyroidism subjects were treated with l-thyroxine until TSH < 2.5 mIU/L. Data were analysed with Stata (StataCorp, USA). RESULTS: Seven hundred and sixty-nine singleton pregnancies were screened; 96% at 14 weeks gestation. Five hundred and eleven (66%) were euthyroid by study definition. Prevalence of SCH was 1.9% (15/769); 26% (4/15) were TPOAb positive. Eighty-one per cent were treated according to protocol; compliance was 54%. Mean gestational age (GA) at first endocrinologist visit was 22.7 +- 2.7 weeks. Normal TSH was documented in 36% at GA 33 +- 2.94 weeks. Subjects with SCH had significantly greater pre-existing history of preterm premature rupture of membranes (PPROM) and preterm labour, Caesarean sections for non-reassuring fetal heart rate and neonatal necrotizing enterocolitis. CONCLUSION: L-thyroxine appeared to reduce obstetric complications. However, prevalence of SCH was low and compliance was < 50%."""
+
+

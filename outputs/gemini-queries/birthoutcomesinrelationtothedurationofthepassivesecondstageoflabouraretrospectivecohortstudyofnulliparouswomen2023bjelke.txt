@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofdeliveryandbirthoutcomesinrelationtothedurationofthepassivesecondstageoflabouraretrospectivecohortstudyofnulliparouswomen2023bjelke
+"OBJECTIVE: To investigate the mode of delivery and birth outcomes in relation to the duration of the passive second stage of labour in nulliparous women. METHODS AND FINDINGS: A retrospective cohort study of all nulliparous women (n = 1131) at two delivery units in Sweden. Maternal and obstetric data were obtained from electronic medical records during 2019. The passive second stage was defined as the complete dilation of the cervix until the start of the active second stage. The duration of the passive second stage was categorized into three groups: 0 to 119 min (0 to <2 h), 120-239 min (2- <4h) and >=240 min (>=4h). Differences between the groups were examined using t-test and Chi2-tests and regression analyses were used to analyse adjusted odds ratio with 95% confidence intervals. The primary outcome was mode of delivery in relation to the duration of the passive second stage and the secondary outcomes covered a series of adverse maternal and neonatal birth outcomes. The rates of instrumental and caesarean deliveries increased as the duration of the passive second stage increased. A >=4-hour duration of the passive second stage was associated with a nine-times increased risk of caesarean section, and a four-times risk of instrumental delivery compared to a duration of <2 hours in the adjusted analyses. No differences were found in the maternal birth outcomes. The risk of a 5-minute Apgar score <7 was increased in the 2-<4h group. A longer passive second stage was not associated with an increased risk of negative birth experience. CONCLUSIONS: Our study demonstrates an increased risk of operative delivery for a longer duration (>2h) of the passive second stage in nulliparous women, although most of the women gave birth by spontaneous vaginal delivery even after >=4 hours. There was no evidence of an increased risk of adverse maternal outcomes in a longer duration of the passive second stage but there were indications of increased adverse neonatal outcomes. Assessment of fetal well-being is important when the duration of the passive phase is prolonged."""
+
+

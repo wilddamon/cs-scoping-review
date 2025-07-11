@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perfusionindexanditscorrelationwithintraoperativehypotensioninlowersegmentcesareansectionunderspinalanesthesiaaprospectiveobservationalstudyinatertiarycarehospitalineasternindia2022inamanamelluri
+"Background Hypotension is commonly encountered in patients undergoing lower-segment cesarean section (LSCS) under the subarachnoid block (SAB) owing to decreased vascular resistance caused by the sympathetic blockade and decreased cardiac output because of blood pooling in blocked areas of the body. Perfusion index (PI) is a good indicator of systemic vascular resistance and can foretell hypotension. This study aimed to associate baseline PI with intraoperative hypotension after SAB in LSCS. Methodology This was a prospective observational study with a sample size of 50. The baseline PI was recorded every 10 seconds for one minute in a supine position on the right index finger at room temperature of 26degC to 28degC. The blood pressure (BP) and heart rate (HR) were recorded at an interval of one minute for three minutes. The mean of PI, BP, and HR were taken as the preoperative value. Spinal anesthesia was administered as per institutional protocol. Hypotension, defined as mean arterial pressure (MAP) <20% of baseline or MAP <60 mmHg was treated with vasopressors. Regression analysis with the Spearman correlation coefficient was done to correlate PI and hypotension. Results The incidence of hypotension in parturients with PI <2.85 was 28.6% (5/20) and in parturients with PI >2.85 was 82.8% (p < 0.001). The requirement of sympathomimetics was higher in parturients with PI >2.85.The area under the receiver operating characteristic curve was 0.8883. A cut-off PI value of 2.85 can identify parturients at risk for central neuraxial block-induced hypotension with a sensitivity of 80% and a specificity of 75% (p < 0.001). Conclusions The PI is a useful tool for predicting hypotension in healthy parturients undergoing elective cesarean section under SAB."""
+
+

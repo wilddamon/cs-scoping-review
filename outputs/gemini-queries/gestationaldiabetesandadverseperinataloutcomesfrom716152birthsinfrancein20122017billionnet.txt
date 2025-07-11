@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationaldiabetesandadverseperinataloutcomesfrom716152birthsinfrancein20122017billionnet
+"AIMS/HYPOTHESIS: The aim of this study was to assess the risk of adverse perinatal outcomes in gestational diabetes mellitus (GDM) in a large national cohort. METHODS: All deliveries taking place after 22 weeks in France in 2012 were included by extracting data from the hospital discharge database and the national health insurance system. The diabetic status of mothers was determined by the use of glucose-lowering agents and by hospital diagnosis. Outcomes were analysed according to the type of diabetes and, in the GDM group, whether or not diabetes was insulin-treated. RESULTS: The cohort of 796,346 deliveries involved 57,629 (7.24%) mothers with GDM. Mother-infant linkage was obtained for 705,198 deliveries. The risks of adverse outcomes were much lower with GDM than with pregestational diabetes. After limiting the analysis to deliveries after 28 weeks to reduce immortal time bias, the risks of preterm birth (OR 1.3 [95% CI 1.3, 1.4]), Caesarean section (OR 1.4 [95% CI 1.4, 1.4]), pre-eclampsia/eclampsia (OR 1.7 [95% CI 1.6, 1.7]), macrosomia (OR 1.8 [95% CI 1.7, 1.8]), respiratory distress (OR 1.1 [95% CI 1.0, 1.3]), birth trauma (OR 1.3 [95% CI 1.1, 1.5]) and cardiac malformations (OR 1.3 [95% CI 1.1, 1.4]) were increased in women with GDM compared with the non-diabetic population. Higher risks were observed in women with insulin-treated GDM than those with diet-treated GDM. After limiting the analysis to term deliveries, an increased risk of perinatal mortality was observed. After excluding women suspected to have undiagnosed pregestational diabetes, the risk remained moderately increased only for those with diet-treated GDM (OR 1.3 [95% CI 1.0, 1.6]). CONCLUSIONS/INTERPRETATION: GDM is associated with a moderately increased risk of adverse perinatal outcomes, which is higher in insulin-treated GDM than in non-insulin-treated GDM for most outcomes."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricandneonatalrisksamongobesewomenwithoutchronicdisease2016kim
+"OBJECTIVE: To investigate whether prepregnancy obesity is associated with adverse pregnancy outcomes among women without chronic disease. METHODS: Singleton deliveries (N=112,309) among mothers without chronic diseases in the Consortium on Safe Labor, a retrospective U.S. cohort, were analyzed using Poisson regression with robust variance estimation. Relative risks and 95% confidence intervals (CIs) estimated perinatal risks in relation to prepregnancy obesity status adjusted for age, race-ethnicity, parity, insurance, smoking and alcohol use during pregnancy, and study site. RESULTS: Obstetric risks were variably (and mostly marginally) increased as body mass index (BMI) category and obesity class increased. In particular, the risk of gestational hypertensive disorders, gestational diabetes, cesarean delivery, and induction increased in a dose-response fashion. For example, the percentage of gestational diabetes among obese class III women was 14.6% in contrast to 2.8% among women with normal BMIs (corresponding relative risks [95% CI] 1.99 [1.86-2.13], 2.94 [2.73-3.18], 3.97 [3.61-4.36], and 5.47 [4.96-6.04] for overweight, obese class I, obese class II, and obese class III women, respectively) compared with women with normal BMIs. Similarly, neonatal risks increased in a dose-response fashion with maternal BMI status including preterm birth at less than 32 weeks of gestation, large for gestational age (LGA), transient tachypnea, sepsis, and intensive care unit admission. The percentage of LGA neonates increased from 7.9% among women with normal BMIs to 17.3% among obese class III women and relative risks increased to 1.52 (1.45-1.58), 1.74 (1.65-1.83), 1.93 (1.79-2.07), and 2.32 (2.14-2.52) as BMI category increased. CONCLUSION: Prepregnancy obesity is associated with increased risks of a wide range of adverse pregnancy and neonatal outcomes among women without chronic diseases."""
+
+

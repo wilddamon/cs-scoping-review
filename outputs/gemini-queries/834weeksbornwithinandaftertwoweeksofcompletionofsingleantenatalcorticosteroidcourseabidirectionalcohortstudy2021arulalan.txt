@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofrespiratorydistresssyndromeamongstpretermtwins2834weeksbornwithinandaftertwoweeksofcompletionofsingleantenatalcorticosteroidcourseabidirectionalcohortstudy2021arulalan
+"BACKGROUND: The literature on neonatal outcomes in preterm twins delivered before 34 weeks but within and after 14 days of a single initial steroid course is limited.;MATERIAL AND METHODS: This bidirectional (226 prospective and 42 retrospectives) cohort study was performed at a tertiary care teaching hospital in South India. We compared the respiratory distress syndrome and neonatal death amongst preterm twins from 28 to 34 weeks born < 14 days (Group A, n=268) and after 14 days (Group B, n=268) of completion of a single course of antenatal steroids. We used multivariable regression analysis (log-binomial model) to adjust for confounding variables. We generated a propensity-matched score with probit regression to analyse outcomes (respiratory distress and neonatal deaths).;RESULTS: The two groups had significant differences in the distribution of birthweight, gestation period and mode of delivery. On adjusted analysis, the period of gestation below 33 weeks and weight below 1.5 kg had the maximum influence on respiratory and other morbidities, and weight less than 1 kg on neonatal death. [adjusted relative risk (ARR) 26.06, (95%CI=2.37-285.5), p=0.008]. On propensity scoring after matching all these variables, we found an [ARR of 2.0 (95% CI: 1.03-3.88), P=0.017] for neonatal death after 14 days of steroid injection. The ARR for respiratory distress syndrome was 1.13 in those born after 14 days of steroids, though it did not reach statistical significance.;CONCLUSION: On propensity scoring, the steroid-delivery interval more than 14 days was associated with a significantly increased risk (ARR of 2) of neonatal death. Copyright (c) 2022 Monisha J Arulalan et. al., published by Sciendo."""
+
+

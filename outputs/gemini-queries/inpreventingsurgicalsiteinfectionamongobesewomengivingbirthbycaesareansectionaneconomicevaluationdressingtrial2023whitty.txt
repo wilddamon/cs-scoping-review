@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: costeffectivenessofclosedincisionnegativepressurewoundtherapyinpreventingsurgicalsiteinfectionamongobesewomengivingbirthbycaesareansectionaneconomicevaluationdressingtrial2023whitty
+"BACKGROUND: There is growing evidence regarding the potential of closed incision negative pressure wound therapy (ci-NPWT) to prevent surgical site infections (SSIs) in healing wounds by primary closure following a caesarean section (CS).;AIM: To assess the cost-effectiveness of ci-NPWT compared to standard dressings for prevention of SSI in obese women giving birth by CS.;MATERIALS AND METHODS: Cost-effectiveness and cost-utility analyses from a health service perspective were undertaken alongside a multicentre pragmatic randomised controlled trial, which recruited women with a pre-pregnancy body mass index >=30 kg/m2 giving birth by elective/semi-urgent CS who received ci-NPWT (n = 1017) or standard dressings (n = 1018). Resource use and health-related quality of life (SF-12v2) collected during admission and for four weeks post-discharge were used to derive costs and quality-adjusted life years (QALYs).;RESULTS: ci-NPWT was associated with AUD$162 (95%CI -$170 to $494) higher cost per person and an additional $12 849 (95%CI -$62 138 to $133 378) per SSI avoided. There was no detectable difference in QALYs between groups; however, there are high levels of uncertainty around both cost and QALY estimates. There is a 20% likelihood that ci-NPWT would be considered cost-effective at a willingness-to-pay threshold of $50 000 per QALY. Per protocol and complete case analyses gave similar results, suggesting that findings are robust to protocol deviators and adjustments for missing data.;CONCLUSIONS: ci-NPWT for the prevention of SSI in obese women undergoing CS is unlikely to be cost-effective in terms of health service resources and is currently unjustified for routine use for this purpose. Copyright (c) 2023 The Authors. Australian and New Zealand Journal of Obstetrics and Gynaecology published by John Wiley & Sons Australia, Ltd on behalf of Royal Australian and New Zealand College of Obstetricians and Gynaecologists."""
+
+

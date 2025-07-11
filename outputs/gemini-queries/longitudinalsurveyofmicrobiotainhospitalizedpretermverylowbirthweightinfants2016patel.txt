@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: longitudinalsurveyofmicrobiotainhospitalizedpretermverylowbirthweightinfants2016patel
+"OBJECTIVES: The aim of the present study was to examine the changes in bacteria in hospitalized preterm infants during the first month of life. METHODS: Rectal swabs were collected daily from 12 preterm infants. DNA was extracted from swabs from day of birth and weekly thereafter. Bacterial taxa were identified with next generation sequencing using universal bacterial primers targeted at the 16S ribosomal DNA on a 454 Roche titanium platform. Sequences were clustered into operational taxonomic units, and taxonomy was assigned against the Greengenes databank using Quantitative Insights Into Microbial Ecology version 1.4. Quantitative polymerase chain reaction was used to determine the abundance of Bifidobacterium spp. Functional assessment of the microbiome was performed with Phylogenetic Investigation of Communities by Reconstruction of Unobserved States (PICRUSt). RESULTS: Average birth weight and gestational age were 1055 g and 28 weeks, respectively. There were 6 to 35 different bacterial families identified in the day-of-birth samples, unrelated to the mode of delivery. Richness decreased through hospitalization (week 1, 16.9 +- 7.7 vs weeks 3-5, 10.7 +- 3.4, P < 0.001). The Shannon diversity index demonstrated the lowest diversity at birth, an increase at week 2, followed by a rapid decline at weeks 3 to 5, suggesting the development of a more uniform microbiota composition after 2 weeks of stay at a neonatal intensive care unit. Enterobacteriaceae, Staphylococcaceae, and Enterococcaceae constituted the majority of the bacterial families. Bifidobacterium spp were infrequently detected at extremely low levels. PICRUSt analysis revealed the enhancement of peroxisome, PPAR, and adipocytokine signaling; plant-pathogen interaction; and aminobenzoate degradation pathways in week 1 samples. CONCLUSIONS: Our results suggest that although preterm infants have individualized microbiota that are detectable at birth, the differences decrease during the neonatal intensive care unit hospitalization with increasing prominence of pathogenic microbiota."""
+
+

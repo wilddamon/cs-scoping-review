@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareandeliveryandtheriskofatopicdermatitisinchildren2020richards
+"BACKGROUND: Caesarean delivery (C-section) may disrupt maternal-infant microbial transfer and alter immune system development and subsequent risk for atopic dermatitis. OBJECTIVE: Investigate the association between C-section and atopic dermatitis by age four and examine potential sources of bias in the relationship in a large cohort study. METHODS: Maternal and child information was collected through Kaiser Permanente Northern California's (KPNC) integrated healthcare system. Data sources included electronic medical records, pharmacy databases, state birth records, and prospectively collected breastfeeding surveys. Children were eligible if they were born in a KPNC or contracting hospital between 2005 and 2014 and had continuous enrolment in the KPNC system for at least four years (n = 173 105). Modified Poisson regression with robust variance estimation was used to estimate the association between C-section and atopic dermatitis overall and when stratified by demographic and labour and delivery characteristics. RESULTS: Although unadjusted analyses showed a positive association between C-section and atopic dermatitis [RR(95%CI): 1.06(1.03, 1.10)], this effect was attenuated towards the null after adjustment [aRR(95%CI): 1.02(0.99, 1.05)]. In stratified analyses, there was evidence that C-section increased atopic dermatitis risk among certain subgroups (eg firstborns, overweight/obese pre-pregnancy BMI), but associations were weak. C-section delivery conditions indicative of the least exposure to maternal microbiome (ie no labour, short interval between membrane rupture and delivery) showed no evidence of association with atopic dermatitis. Estimated associations were not strongly influenced by intrapartum antibiotics, breastfeeding, missing data, or familial factors. CONCLUSION: Caesarean delivery was not associated with atopic dermatitis by age four in this large US cohort. This association did not appear to be biased by intrapartum antibiotics, breastfeeding behaviour, C-section indication, missing covariates, or familial factors."""
+
+

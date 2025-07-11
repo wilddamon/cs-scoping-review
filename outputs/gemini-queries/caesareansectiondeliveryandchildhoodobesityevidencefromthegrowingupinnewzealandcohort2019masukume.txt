@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectiondeliveryandchildhoodobesityevidencefromthegrowingupinnewzealandcohort2019masukume
+"BACKGROUND: Epidemiological studies have reported conflicting results in the association between Caesarean section (CS) birth and childhood obesity. Many of these studies had small sample sizes, were unable to distinguish between elective/planned and emergency CS, and did not adjust for the key confounder maternal pre-pregnancy body mass index (BMI). We investigated the association between CS delivery, particularly elective/planned and childhood obesity, using the Growing Up in New Zealand prospective longitudinal cohort study. METHODS: Pregnant women planning to deliver their babies on the New Zealand upper North Island were invited to participate. Mode of delivery was categorised into spontaneous vaginal delivery (VD) (reference), assisted VD, planned CS and emergency CS. The main outcome was childhood obesity defined according to the International Obesity Taskforce criteria at age 24 and 54 months. Multinomial logistic regression and mixed-effects linear regression models were fitted with associations adjusted for several potential confounders. RESULTS: Of the 6599 infants, 1532 (23.2%) were delivered by CS. At age 24 months, 478 (9.3%) children were obese. There was a statistically significant association between planned CS adjusted relative risk ratio (aRRR=1.59; (95% CI 1.09 to 2.33)) and obesity but not for emergency CS (aRRR=1.27; (95% CI 0.89 to 1.82)). At age 54 months there was no association between planned CS (aRRR=0.89; (95% CI 0.54 to 1.45)) and obesity as well as for emergency CS (aRRR=1.19; (95% CI 0.80 to 1.77)). At all-time points those born by planned CS had a higher mean BMI (adjusted mean difference=0.16; (95% CI 0.00 to 0.31), p=0.046). CONCLUSIONS: Planned CS was an independent predictor of obesity in early childhood. This suggests that birth mode influences growth, at least in the short term. This association occurred during a critical phase of human development, the first 2 years of life, and if causal might result in long-term detrimental cardiometabolic changes."""
+
+

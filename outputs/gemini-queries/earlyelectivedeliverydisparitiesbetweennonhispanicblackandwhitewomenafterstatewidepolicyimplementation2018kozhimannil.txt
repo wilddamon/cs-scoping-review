@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlyelectivedeliverydisparitiesbetweennonhispanicblackandwhitewomenafterstatewidepolicyimplementation2018kozhimannil
+"BACKGROUND: In 2011, Oregon implemented a policy that reduced the state's rate of early (before 39 weeks' gestation) elective (without medical need) births. OBJECTIVE: This analysis measured differential policy effects by race, examining whether Oregon's policy was associated with changes in non-Hispanic Black-White disparities in early elective cesarean and labor induction. METHODS: We used Oregon birth certificate data, defining prepolicy (2008-2010) and postpolicy (2012-2014) periods, including non-Hispanic Black and White women who gave birth during these periods (n = 121,272). We used longitudinal spline models to assess policy impacts by race and probability models to measure policy-associated changes in Black-White disparities. RESULTS: We found that the prepolicy Black-White differences in early elective cesarean (6.1% vs. 4.3%) were eliminated after policy implementation (2.8% vs. 2.5%); adjusted models show decreases in the odds of elective early cesarean among Black women after the policy change (adjusted odds ratio, 0.47; 95% confidence interval, 0.22-1.00; p = .050) and among White women (adjusted odds ratio, 0.79; 95% confidence interval, 0.67-0.93; p = .006). Adjusted probability models indicated that policy implementation resulted in a 1.75-percentage point narrowing (p = .011) in the Black-White disparity in early elective cesarean. Early elective induction also decreased, from 4.9% and 4.7% for non-Hispanic Black and non-Hispanic White women to 3.8% and 2.5%, respectively; the policy was not associated with a statistically significant change in disparities. CONCLUSIONS: A statewide policy reduced racial disparities in early elective cesarean, but not early elective induction. Attention to differential policy effects by race may reveal changes in disparities, even when that is not the intended focus of the policy."""
+
+

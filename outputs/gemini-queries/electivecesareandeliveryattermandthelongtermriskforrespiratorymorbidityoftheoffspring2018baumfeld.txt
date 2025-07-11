@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: electivecesareandeliveryattermandthelongtermriskforrespiratorymorbidityoftheoffspring2018baumfeld
+"Maternal morbidity is associated with cesarean deliveries. However, new evidence suggests that short- and long-term neonatal morbidity is also associated. This includes respiratory morbidity with conflicting results. To determine whether mode of delivery has an impact on the long-term risk for respiratory morbidity in the offspring, a population-based cohort analysis was conducted including all singleton term deliveries occurring between 1991 and 2014 at a single tertiary medical center. A comparison was performed between children delivered via elective cesarean delivery (CD) and those delivered vaginally. Multiple gestations and fetuses with congenital malformations were excluded from the analysis as were all cases of urgent CDs. Pediatric hospitalizations involving respiratory morbidity of offspring up to the age of 18 years were evaluated. A Kaplan-Meier survival curve was used to compare cumulative respiratory morbidity incidence and a Cox regression model to control for confounders. During the study period, 132,054 term deliveries met the inclusion criteria; 8.9% were via elective CDs (n = 11,746) and 91.1% (n = 120,308) were vaginal deliveries. Hospitalizations of the offspring involving respiratory morbidity were significantly more common in offspring delivered by CDs (5.2 vs. 4.3% in vaginal deliveries, p < 0.001). The Kaplan-Meier survival curve demonstrated a significantly higher cumulative incidence of respiratory morbidity in the elective CD group (log rank p < 0.001). In a Cox proportional hazards model, while controlling for maternal age, gestational age, and birthweight, CD exhibited a significant and independent association with long-term respiratory morbidity of the offspring (adjusted hazard ratio = 1.22 (CI, 1.12-1.33), p < 0.001).Conclusion: Elective cesarean delivery at term is a significant risk factor for long-term pediatric respiratory morbidity of the offspring. What is Known: * Cesarean delivery is a major surgery with known possible complications. * Cesarean delivery has possible immediate complications for the newborn including respiratory complications. What is New: * Our study shows more long term respiratory morbidity in the CD group including asthma and obstructive sleep apnea. * Different possible explanations have been proposed including exposure to maternal flora during vaginal delivery and the stress hormones secreted during contractions and delivery."""
+
+

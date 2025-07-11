@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofprelaborcesareandeliverywithreducedmortalityintwinsbornnearterm2015roberts
+"OBJECTIVE: To examine short-term and longer-term outcomes for twins born at or near term, comparing prelabor cesarean delivery with birth after a trial of labor. METHODS: This study was conducted on a retrospective cohort of twin pregnancies delivered at 36 weeks of gestation or greater from 2000 to 2009. Pregnancies with an antenatal death, lethal anomaly, birth weight discordance 25% or more, or birth weight less than 2,000 g or more than 4,000 g were excluded. Outcomes included severe hypoxia, stillbirth and neonatal death, and hospital admissions or death during the first 5 years of life. RESULTS: Approximately 45% of 7,099 twin pregnancies were delivered by prelabor cesarean delivery. Compared with delivery after labor, prelabor cesarean delivery was associated with significantly reduced risks of adverse neonatal and child outcomes including severe birth hypoxia (0.08% compared with 0.75%, relative risk 0.10, 95% confidence interval [CI] 0.04-0.26), neonatal death (0.00% compared with 0.15%, relative risk 0.05, 95% CI 0.00-0.82), and death up to 5 years of age (0.16% compared with 0.40%, relative risk 0.41, 95% CI 0.20-0.85). Whereas total mortality for first twins was similar after labor (0.15%) compared with prelabor cesarean delivery (0.16%), total mortality was four times more common in second twins born after labor (0.64%) compared with second twins born after prelabor cesarean delivery (0.16%). CONCLUSION: Compared with prelabor cesarean delivery, twin pregnancies at and beyond 36 weeks of gestation delivered after labor have increased risks for birth outcomes associated with hypoxia, with second twins having significantly increased mortality up to 5 years of age. However, the absolute mortality rate for relatively uncomplicated twin pregnancies delivered at or near term is low and needs to be balanced against maternal morbidity. LEVEL OF EVIDENCE: II."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsinfluencingexclusivebreastfeedingdurationinpakistanapopulationbasedcrosssectionalstudy2021arif
+"BACKGROUND: Breastfeeding has the most profound impact on infant health and wellness, and also have significant implications for the mother. The duration of the breastfeeding determines the infant's protection from malnutrition and other common infectious diseases; consequently, the World Health Organization (WHO) recommends exclusive breastfeeding (EBF) six months, followed by gradual weaning and breastfeeding until the baby is two years old. In Pakistan, the practice of breastfeeding is heavily dependent upon certain demographic, economic, social, and biological factors, which ultimately impact the quality of care provided to the infant and their health. The aim of this paper, therefore, is to measure the impact of these factors on the exclusive breastfeeding duration in Pakistan. METHODS: The data for the study has been collected from Pakistan Demographic and Health Survey (PDHS) for the year 2017-18. Binary logistic regression model and survival analysis are used to determine the relationship between the independent and dependent variables. RESULTS: We use a binary logistic regression to estimate the effect of each factor on the duration of EBF. The binary logistic regression finds significant relationships between region, maternal education, wealth index, size of a child, watching television, delivery by cesarean, and maternal age and EBF. We then use log-likelihood, AIC, BIC criteria to determine if a parametric or non-parametric model would provide a better fit; based on these results we fit an Inverse Gaussian (Weibull) distribution for the survival analysis. These results show that there are more significant factors associated with EBF duration in parametric survival analysis than in the binary logistic regression results. Thus, the survival analysis is a better method for predicting the relationship between the duration of EBF and its factors. Furthermore, logically EBF is designated to be done for six months which would not be properly gauged with a binary response variable. CONCLUSIONS: The results of this study provide proof that exclusive breastfeeding is a common practice among women in Pakistan, and to improve the quality of post-natal care, health policy in the country needs to focus on the existing demographic and social factors which are found significant in this study."""
+
+

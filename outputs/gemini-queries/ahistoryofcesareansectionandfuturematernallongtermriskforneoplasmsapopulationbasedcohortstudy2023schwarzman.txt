@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ahistoryofcesareansectionandfuturematernallongtermriskforneoplasmsapopulationbasedcohortstudy2023schwarzman
+"OBJECTIVE: Mode of delivery has long-term implications on the mother, including recent data regarding the level of transmission of fetal microchimeric cells (FMc) and their possible effect on cancer development. We aimed to evaluate the association between cesarean section (CS) and future risk for neoplasms. STUDY DESIGN: A population-based cohort analysis comparing the long-term risk for neoplasms between patients that delivered only by CS to those that delivered only vaginally (VD). Neoplasms were pre-defined based on ICD-9 codes. Deliveries occurred between the years 1991-2017 in a tertiary medical center. Kaplan-Meier survival curves were used to compare the cumulative incidence of neoplasms and Cox proportional hazards models were constructed to control for confounders. RESULTS: During the study period 105,992 patients met the inclusion criteria; 14150 (13.4%) of patients had only CS and 91842 (86.6%) had VD (comparison group). The CS group had significantly higher incidence of benign and malignant neoplasms (4.73 per 1000 patient-years versus 3.88 per 1000 patient-years, OR = 1.26, 95% CI 1.16-1.37; p = 0.001; 2.19 per 1000 patient-years of follow up versus 1.93 per 1000 patient-years, OR = 1.16, 95% CI 1.03-1.31; p = 0.013). Specifically, the CS group had higher incidence of uterine cancer (1.2 versus 0.06 per 1000 patient-years, OR = 1.97, 95% CI 1.14-3.39; p = 0.013). The cumulative incidence of benign, malignant and uterine neoplasms was significantly higher in the CS group (Log rank test p = 0.001; 0.036 and 0.014; respectively). Importantly, no significant association was found with breast and ovarian malignancies.' When performing a Cox regression model controlling for confounders, the risk for malignancy-related hospitalizations remained significant (adjusted HR = 1.22, 95% CI 1.01-1.48; p = 0.031) but not for uterine cancer (adjusted HR = 1.6, 95% CI 0.9-2.8; p = 0.103). CONCLUSION: Our findings provide support to linkage between delivery by cesarean section and future maternal malignancy."""
+
+

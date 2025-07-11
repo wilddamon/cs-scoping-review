@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: magnitudeofchangeinfetalcerebroplacentalratiointhirdtrimesterandriskofadversepregnancyoutcome2017flatley
+"OBJECTIVES: To evaluate whether the magnitude of change in the cerebroplacental ratio (CPR) after 30 weeks' gestation is a better predictor of adverse pregnancy outcome compared with a single CPR measurement at 35-37 weeks. A secondary aim was to evaluate whether the utility of CPR at 35-37 weeks was enhanced after adjusting for change in gestational age. METHODS: This was a retrospective cohort study of women who had at least two ultrasound scans between 30 and 37 weeks' gestation, with the final scan at 35-37 weeks. Exclusion criteria were major congenital abnormality, aneuploidy, multiple pregnancy and unknown middle cerebral artery pulsatility index or umbilical artery pulsatility index. A normal reference range for CPR was derived from a separate cohort of women with normal outcome and a Generalised Additive Model for Location, Scale and Shape was fitted to derive standardized centiles. These reference centiles were then used to calculate Z-scores for the study cohort. Logistic regression models and receiver-operating characteristics (ROC) curves were used to evaluate the predictive utility of CPR Z-score at last CPR measurement and the change in CPR on mode of delivery, neonatal outcome and composite neonatal outcome. The area under the ROC curve (AUC) for each model was compared before and after adjustment for parity, hypertension, diabetes, body mass index and smoking status. RESULTS: A total of 1860 women met the inclusion criteria. There was no association between the magnitude of change in CPR and composite adverse pregnancy outcome (P = 0.92). Of the outcomes that made up the composite, an increase in CPR Z-score over time was associated with a lower risk for emergency Cesarean delivery (P < 0.001) and emergency Cesarean delivery for non-reassuring fetal status (P = 0.02). It was also associated with a lower risk of birth weight < 10(th) centile (P = 0.01) and hypoglycemia (P = 0.001). There was no significant difference between the AUCs of last CPR Z-score and last CPR Z-score adjusted for the change in gestational age in predicting pregnancies at risk for adverse outcome. CONCLUSIONS: Our results suggest that both the individual CPR Z-score and the magnitude and direction of change in CPR Z-score can identify pregnancies at risk of various adverse perinatal outcomes. However, the CPR Z-score at 35-37 weeks' gestation appears to be a better predictor. Copyright (c) 2016 ISUOG. Published by John Wiley & Sons Ltd."""
+
+

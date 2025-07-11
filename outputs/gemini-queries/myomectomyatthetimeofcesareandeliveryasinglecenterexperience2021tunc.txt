@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: myomectomyatthetimeofcesareandeliveryasinglecenterexperience2021tunc
+"Background: The aim of this study was to examine the results of myomectomy for the removal of intramural and large myomas during cesarean section and to decrease the possibility of myomectomies in the future. Method(s): Data from 99 patients who underwent cesarean myomectomy and 100 patients who underwent only cesarean section in our hospital between December 2015 and September 2020 were analyzed retrospectively. Age, gravida, parity, gestational week, cesarean section indication, previous delivery method, preoperative and postoperative hemoglobin value, performance of blood transfusion, duration of operation, length of hospital stay, and the number, diameter, location, and type of myomas were recorded. Result(s): The mean diameter of myomas in the patients was 5.9 +/- 1.80 cm (4-15 cm). Among the patients, 90.9% had (Federation of Gynecology and Obstetrics) FIGO type 5-6 myomas, and 9.1% had FIGO type 3-4 myomas. The mean gestational week of all cases was 36.7+/-2.8 weeks. Compared to the control group, the patients who underwent cesarian myomectomy had a higher duration of operation (45.1 +/- 13 min to 25.8+/-5 min, p<0.001), hospital stay (2.4+/-0.9 days to 1.9+/-0.3 days, p<0.001), and blood transfusion (0.09+/-0.31 unit to 0.01+/-0.1 unit, p < 0.05). However, none of the patients underwent hysterectomy, relaparotomy, or other major complications. Conclusion(s): Performing myomectomy during cesarean section increases the duration of hospitalization and the amount of blood transfusion but does not cause major complications and provides patients the benefit of avoiding a second surgery.Copyright (c) 2021 S.O.G. CANADA Inc.. All rights reserved."""
+
+

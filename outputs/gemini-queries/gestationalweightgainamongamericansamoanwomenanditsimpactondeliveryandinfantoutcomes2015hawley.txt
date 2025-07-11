@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgainamongamericansamoanwomenanditsimpactondeliveryandinfantoutcomes2015hawley
+"BACKGROUND: As obesity has increased worldwide, so have levels of obesity during pregnancy and excess gestational weight gain (GWG). The aim of this paper was to describe GWG among American Samoan women and examine the association between GWG and four adverse pregnancy and infant outcomes: cesarean delivery, small- and large-for-gestational age (SGA/LGA), and infant overweight/obesity.;METHODS: Data were extracted from prenatal care records of 632 Samoan women. Mixed-effects growth models were used to produce individual weight-for-gestational week curves from which second and third trimester weight gain was estimated. Binary logistic regression was used to examine associations between GWG and the outcomes of interest.;RESULTS: Most women were overweight/obese in early pregnancy (86%) and 78% exceeded the Institute of Medicine GWG guidelines. Greater GWG in the second trimester and early pregnancy weight were independently associated with increased odds of a c-section (OR 1.40 [95% CI: 1.08, 1.83]) and OR 1.51 [95% CI: 1.17, 1.95], respectively). Risk of delivering a LGA infant increased with greater third trimester weight gain and higher early pregnancy weight, while second trimester weight gain was negatively associated with SGA. Risk of infant overweight/obesity at 12 months increased with early pregnancy weight (OR: 1.23 [95% CI: 1.01, 1.51]) and infant birthweight.;CONCLUSIONS: The high levels of pregnancy obesity and excessive GWG in American Samoa suggest that it is important for physicians to encourage women into prenatal care early and begin education about appropriate GWG and the potential risks of excess weight gain for both the mother and baby."""
+
+

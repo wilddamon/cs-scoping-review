@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectoffertilitytreatmentonadverseperinataloutcomesinwomenagedatleast40years2018harlev
+"OBJECTIVE: To compare perinatal outcomes between spontaneous conception and assisted reproductive technologies (ART) among patients of advanced maternal age. METHODS: The present retrospective study included data from singleton pregnancies of women aged at least 40 years who delivered between January 1, 1991, and December 31, 2013, at Soroka University Medical Center, Beer Sheva, Israel. Demographic, obstetric, and perinatal data were compared between pregnancies conceived with ART (in vitro fertilization [IVF] or ovulation induction) and those conceived spontaneously. Multiple regression models were used to define independent predictors of adverse outcomes. RESULTS: A total of 8244 singleton pregnancies were included; 229 (2.8%) following IVF, 86 (1.0%) following ovulation induction, and 7929 (96.2%) were spontaneous. Preterm delivery (P<0.001), fetal growth restriction (FGR) (P<0.001), and cesarean delivery (P<0.001) demonstrated linear associations with the conception mode; the highest rates for each were observed for IVF, with decreased rates for ovulation induction and spontaneous conception. The incidence of gestational diabetes and hypertensive disorders were highest among pregnancies following ART. No association was observed between conception mode and perinatal mortality. Multivariate logistic regression demonstrated that IVF was independently associated with increased odds of preterm delivery (P<0.001) and FGR (P=0.027) compared with spontaneous conception. CONCLUSIONS: Among patients of advanced maternal age, ART were independently associated with increased FGR and preterm delivery rates compared with spontaneous pregnancies; perinatal mortality was comparable."""
+
+

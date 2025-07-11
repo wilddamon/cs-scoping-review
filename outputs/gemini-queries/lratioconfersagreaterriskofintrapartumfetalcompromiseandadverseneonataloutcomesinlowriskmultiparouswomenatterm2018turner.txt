@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: alowfetalcerebroplacentalratioconfersagreaterriskofintrapartumfetalcompromiseandadverseneonataloutcomesinlowriskmultiparouswomenatterm2018turner
+"BACKGROUND: A low fetal cerebroplacental ratio (CPR) and nulliparity have independently been shown to be associated with adverse obstetric and perinatal outcomes. OBJECTIVES: To assess the effect of parity on the CPR and investigate the utility of a CPR threshold of <10(th) centile for predicting adverse outcomes. We hypothesised that nulliparous women would have a lower CPR than multiparous women, impacting the diagnostic performance of the <10(th) centile threshold. This is an important consideration for interpretation of a low CPR in clinical practice. STUDY DESIGN: This was a retrospective cohort study of low risk, singleton pregnancies delivering at term in Australia's largest maternity hospital. The primary outcome was emergency caesarean section for intrapartum fetal compromise (EmCS IFC). Data was dichotomised according to parity and further by CPR <10(th) centile. Multiple logistic regression was performed. RESULTS: 4737 women were included for analysis, 2333 were nulliparous and 2404 were multiparous. Overall the z-score (mean [SD])(CPR standardised for gestation) was lower in nulliparous compared to multiparous women (-0.16 [-1.73 - 1.42] vs 0.04 [-1.63 - 1.69], p < 0.001). Multiparous women had a non-significantly lower mean z-score for those who delivered by EmCS IFC than nulliparous women (-0.52 [-2.23 - 2.02] vs -0.45 [-2.22 - 1.1]). Nulliparous women had greater odds of having a CPR <10(th) centile compared to the multiparous cohort (OR 1.24, 95% CI 1.02-1.5 vs. OR 0.81, 95% CI 0.7-0.98, p < 0.001). A CPR thresholdd <10(th) centile in nulliparous women was associated with increased odds of intrapartum fetal compromise (IFC), EmCS IFC (aOR 1.72, 95CI 1.2-2.6, p < 0.05) and birthweight <10(th) centile. A low CPR in multiparous women was associated with increased odds of all adverse perinatal outcomes measured: IFC, meconium stained liquor, EmCS IFC (aOR 4.99, 95%CI 2.5-9.9, p < 0.001), birthweight <10(th) centile, acidosis, neonatal intensive care admission and severe composite neonatal outcome. These aORs were associated with specificities of >90% and false positive rates of <10% for all outcomes in multiparous women. CONCLUSIONS: A CPR <10(th) centile in multiparous women confers greater odds of adverse perinatal outcomes and as such of the influence of parity should be taken into account when decisions regarding clinical management are made because of a low CPR."""
+
+

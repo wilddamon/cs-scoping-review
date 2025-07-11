@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pruritusaftercontinuousadministrationofepiduralmorphineforpostcesareandeliveryanalgesiaacasecontrolstudy2021tian
+"BACKGROUND: Pruritus is one of the most common side effects of epidural morphine administered for post-surgery analgesia, and pregnant women tend to be highly susceptible. The relative contributions of morphine concentration, local anesthetics, and level of pain to pruritus after epidural morphine for post-cesarean delivery analgesia remain unclear. Accordingly, the present study aimed to identify risk factors for pruritus after continuous administration of epidural morphine for post-cesarean delivery analgesia. METHODS: This case control study was based on routinely collected clinical data. Participants included women who had undergone cesarean section and adopted a patient-controlled analgesia pump for postoperative analgesia. A series of logistic regression analyses were performed. Interaction terms were added to explore the moderation effects of combined local anesthetics and pain level on associations between morphine concentration and pruritus. Robustness of the results was checked through sensitivity analysis using propensity scores matching approach. RESULTS: Higher morphine concentration, assisted reproductive treatment, and multipara and cesarean section history were significantly more prevalent in the pruritus group than in the control group. The probabilities of pruritus at morphine concentrations of 10, 15, 20, 25, 30 and 40 mg/mL increased sequentially from 0.05, 0.1, 0.2, 0.35, 0.54 to 0.84, respectively. The trend remained steep in the ropivacaine stratum and became flatter when combined with levobupivacaine. At mild pain combined with levobupivacaine, the incidence of pruritus increased from 0.33 (95% confidence interval [CI] 0.1-0.68) in the 10 mg/mL morphine group to 0.48 (95% CI 0.1-0.88) in the 40 mg/mL morphine group. In the stratum of moderate pain combined with levobupivacaine, the incidence increased from 0.4 (95% CI 0.04-0.92) to 0.56 (95% CI 0.03-0.98). The results in the sensitivity analysis were in consistent with above findings. CONCLUSIONS: Higher concentrations of morphine, multipara, and assisted reproductive treatment were factors associated with a higher probability of pruritus. Pain level or combined local anesthetics could moderate the association between morphine concentration and pruritus."""
+
+

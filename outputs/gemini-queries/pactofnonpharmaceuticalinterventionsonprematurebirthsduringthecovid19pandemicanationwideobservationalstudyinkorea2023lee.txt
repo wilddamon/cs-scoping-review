@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofnonpharmaceuticalinterventionsonprematurebirthsduringthecovid19pandemicanationwideobservationalstudyinkorea2023lee
+"Background: Non-pharmaceutical interventions (NPIs), such as social distancing and hand washing, have been associated with a decline in the preterm birth rate worldwide. We aimed to evaluate whether the preterm birth rate in Korea during the coronavirus disease 2019 lockdown has changed compared to that in previous years.;Method: A birth registry from the Korea Statistical Information Service, which is a nationwide official database, was used to include all births claimed to have occurred between 2011 and 2020. Newborns with gestational age (GA) less than 22 weeks and birth weight less than 220 g were excluded. The pre-NPI period was designated as January 2011 to January 2020, and the NPI period was defined as February 2020 to December 2020. We assessed the effect of NPI on the incidence of prematurity per 100 births using an interrupted time-series quasi-experimental design and implementing an autoregressive integrated moving average (ARIMA) model.;Results: From 2011 to 2020, a total of 3,931,974 live births were registered, among which 11,416 were excluded. Consequently, the final study population included 3,920,558 live births (both singleton and multiple births) among which 275,009 (7.0%) were preterm. The preterm birth rate was significantly higher during the NPI period (8.68%) compared to that in the pre-NPI period (6.92%) (P < 0.001). The ARIMA model showed that in all singleton and multiple births, except those in July (observed 9.24, expected 8.54, [95% prediction interval {PI} 8.13-8.96], percent difference 7.81%), September (observed 7.89, expected 8.35, [95% PI 7.93-8.76], percent difference -5.66%), and December (observed 9.90, expected 9.40, [95% PI 8.98-9.82], percent difference 5.2%), most observed values were within the 95% PI of the expected values and showed an increasing trend.;Conclusion: In this nationwide observational study, the trend in premature birth rate did not significantly change due to NPI implementation in Korea, as it had been increasing since 2011. The trend of Korea's birth rate appears to be unaffected by the implementation of NPIs; however, further studies with a longer follow-up period are needed. Copyright (c) 2023 Lee, Park, Lee, Han, Jung, Lim, Baek, Kang, Park and Ahn."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: personalizedweightchangepredictioninthefirstweekoflife2019wilbaux
+"BACKGROUND & AIMS: Almost all neonates show physiological weight loss and consecutive weight gain after birth. The resulting weight change profiles are highly variable as they depend on multiple neonatal and maternal factors. This limits the value of weight nomograms for the early identification of neonates at risk for excessive weight loss and related morbidities. The objective of this study was to characterize weight changes and the effect of supplemental feeding in late preterm and term neonates during the first week of life, to identify and quantify neonatal and maternal influencing factors, and to provide an educational online prediction tool. METHODS: Longitudinal weight data from 3638 healthy term and late preterm neonates were prospectively recorded up to 7 days of life. Two-thirds (n = 2425) were randomized to develop a semi-mechanistic model characterizing weight change as a balance between time-dependent rates of weight gain and weight loss. The dose-dependent effect of supplemental feeding on weight gain was characterized. A population analysis applying nonlinear mixed-effects modeling was performed using NONMEM 7.3. The model was evaluated on the remaining third of neonates (n = 1213). RESULTS: Key population characteristics (median [range]) of the whole sample were gestational age 39.9 [34.4-42.4] weeks, birth weight 3400 [1980-5580] g, maternal age 32 [15-51] years, cesarean section 26%, and girls 50%. The model demonstrated good predictive performance (bias 0.01%, precision 0.56%), and is able to accurately predict individual weight change (bias 0.15%, precision 1.43%) and the dose-dependent effects of supplemental feeding up to 1 week after birth based on weight measurements during the first 3 days of life, including birth weight, and the following characteristics: gestational age, gender, delivery mode, type of feeding, maternal age, and parity. CONCLUSIONS: We present the first mathematical model not only to describe weight change in term and late preterm neonates but also to provide an educational online tool for personalized weight prediction in the first week of life."""
+
+

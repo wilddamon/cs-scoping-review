@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalleadexposureandcordblooddnamethylationinprogressanepigenomewideassociationstudy2020heiss
+"The effects of prenatal lead exposure on child development include impaired growth and cognitive function. DNA methylation might be involved in the underlying mechanisms and previous epigenome-wide association studies reported associations between lead exposure during pregnancy and cord blood methylation levels. However, it is unclear during which developmental stage lead exposure is most harmful. Cord blood methylation levels were assayed in 420 children from a Mexican pre-birth cohort using the Illumina Infinium MethylationEPIC microarray. Lead concentrations were measured in umbilical cord blood as well as in blood samples from the mothers collected at 2nd and 3rd trimester and delivery using inductively coupled plasma-mass spectrometry. In addition, maternal bone lead levels were measured in tibia and patella using X-ray fluorescence. Comprehensive quality control and preprocessing of microarray data was followed by an unbiased restriction to methylation sites with substantial variance. Methylation levels at 202 111 cytosine-phosphate-guanine sites were regressed on each exposure adjusting for child sex, leukocyte composition, batch variables, gestational age, birthweight-for-gestational-age, maternal age, maternal education and mode of delivery. We find no association between prenatal lead exposure and cord blood methylation. This null result is strengthened by a sensitivity analysis showing that in the same dataset known biomarkers for birthweight-for-gestational-age can be recovered and the fact that phenotypic associations with lead exposure have been described in the same cohort."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thenotsosterilewombevidencethatthehumanfetusisexposedtobacteriapriortobirth2019stinson
+"The human microbiome includes trillions of bacteria, many of which play a vital role in host physiology. Numerous studies have now detected bacterial DNA in first-pass meconium and amniotic fluid samples, suggesting that the human microbiome may commence in utero. However, these data have remained contentious due to underlying contamination issues. Here, we have used a previously described method for reducing contamination in microbiome workflows to determine if there is a fetal bacterial microbiome beyond the level of background contamination. We recruited 50 women undergoing non-emergency cesarean section deliveries with no evidence of intra-uterine infection and collected first-pass meconium and amniotic fluid samples. Full-length 16S rRNA gene sequencing was performed using PacBio SMRT cell technology, to allow high resolution profiling of the fetal gut and amniotic fluid bacterial microbiomes. Levels of inflammatory cytokines were measured in amniotic fluid, and levels of immunomodulatory short chain fatty acids (SCFAs) were quantified in meconium. All meconium samples and most amniotic fluid samples (36/43) contained bacterial DNA. The meconium microbiome was dominated by reads that mapped to Pelomonas puraquae. Aside from this species, the meconium microbiome was remarkably heterogeneous between patients. The amniotic fluid microbiome was more diverse and contained mainly reads that mapped to typical skin commensals, including Propionibacterium acnes and Staphylococcus spp. All meconium samples contained acetate and propionate, at ratios similar to those previously reported in infants. P. puraquae reads were inversely correlated with meconium propionate levels. Amniotic fluid cytokine levels were associated with the amniotic fluid microbiome. Our results demonstrate that bacterial DNA and SCFAs are present in utero, and have the potential to influence the developing fetal immune system.Copyright (c) 2019 Frontiers Media S.A. All Rights Reserved."""
+
+

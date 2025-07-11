@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationsbetweenmaternalthyroidfunctionandbirthoutcomesinchinesemotherchilddyadsaretrospectivecohortstudy2020chen
+"Objective: Although research suggests a close association between maternal thyroid function and birth outcomes, no clear conclusion has been reached. We aimed to explore this potential association in a retrospective cohort study. Method(s): This study included 8985 mother-child dyads. The maternal serum free tetraiodothyronine (FT4), thyroid-stimulating hormone (TSH), and thyroid peroxidase antibody (TPO Ab) concentrations and birth outcome data were reviewed from medical records. Subjects with TPO Ab concentrations of >34 and <=34 IU/ml were classified into the TPO Ab positivity (+) and TPO Ab negativity (-) groups, respectively. Result(s): Compared with subjects in the normal group (0.1 <= TSH < 2.5 mIU/L and TPO Ab-), those with TSH concentrations of 2.5-4.0 mIU/L and TPO Ab- had a 0.65-fold lower risk of low birth weight (LBW). In contrast, those with TSH concentrations of >4.0 mIU/L, regardless of the TPO Ab status, had a 2.01-fold increased risk of LBW. Subclinical hypothyroidism, regardless of the TPO Ab status, was associated with a 1.94-fold higher risk of LBW when compared with that in subjects with euthyroidism and TPO Ab-. No other significant associations were observed. Conclusion(s): A maternal TSH concentration of 2.5-4.0 mIU/L was associated with a lower risk of LBW when combined with TPO Ab-, whereas subjects with a TSH concentration of >4.0 mIU/L had an increased risk of LBW. Subclinical hypothyroidism appears to be associated with a higher risk of LBW.(c) Copyright (c) 2021 Chen, Pang, Lu, Li, Zhou, Ye, Yang, Shen, Lin, Fan, Lu and Liu."""
+
+

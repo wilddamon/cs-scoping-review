@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofbirthhouronneonatalmorbidityandmortalityinverylowbirthweightinfantsinateachinghospital2023houjaghani
+"Objective: With the increase in the preterm birth rate, the factors influencing mortality and morbidity in very-low-birth weight neonates have gained importance in recent years. The results of available studies on the influence of birth hour on the mortality and morbidity rates of preterm infants are contradictory. Moreover, no study on this topic has been conducted in our region. Material(s) and Method(s): This retrospective cohort study was conducted on 127 very-low-birth weight newborns based on birth hour. The newborns were divided into 2 groups, the first born during working hours (7:00 am to 11:59 pm) and the second born during after-hours care (12-6:59 am). Mortality and major diseases were compared using Statistical Package for the Social Sciences by Fisher's exact tests, Pearson's chi-squared test, and independent t-tests. The statistical significance level for all analyses was set at P <.05 and the CI at 95%. Result(s): Based on the results of this study in terms of neonatal mortality and major morbidities such as intraventricular hemorrhage and the need for prolonged mechanical ventilation, no significant difference was found between the 2 groups, but the difference in appearance, pulse, grimace, activity, respiration (APGAR) score at the fifth minute was statistically significant and was lower at the working hours. Conclusion(s): The results of the study may be due to appropriate allocation of resources, assign-ment of tasks, and professionalism of care in our study area. Further study is needed to deter-mine the differences in clinical care processes that cause these results.Copyright (c) 2023, AVES. All rights reserved."""
+
+

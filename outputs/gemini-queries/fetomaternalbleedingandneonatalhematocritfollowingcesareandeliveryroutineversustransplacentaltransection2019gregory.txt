@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetomaternalbleedingandneonatalhematocritfollowingcesareandeliveryroutineversustransplacentaltransection2019gregory
+"Objective To evaluate fetomaternal bleeding following routine cesarean delivery compared with cesarean delivery involving transplacental transection. Study Design A prospective cohort study evaluating cesarean delivery in which the placenta was transected (cases) versus controls (placenta not transected) from January 2016 to April 2018. A maternal Kleihauer-Betke's (KB) test and newborn hematocrit were performed shortly after delivery. Results The rate of a positive KB test was not significantly different between cases ( n = 31) and controls ( n = 61) (19 vs. 14%; odds ratio [OR]: 1.44; 95% confidence interval [CI]: 0.46-4.49; p = 0.74). Median neonatal hematocrits were not different. However, the rate of newborn hematocrits <40% at delivery was higher in cases compared with controls (23 vs. 3%; OR: 8.90; 95% CI: 1.72-45.90; p = 0.005). Conclusion A cesarean requiring transplacental transection to accomplish delivery does not significantly increase the rate of fetomaternal bleeding but is associated with a higher likelihood of newborn hematocrit <40% at delivery."""
+
+

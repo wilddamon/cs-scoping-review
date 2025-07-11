@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofbilateraltransversusabdominisplaneblockandwoundinfiltrationwithbupivacaineforpostoperativeanalgesiaaftercesareandelivery2017gorkem
+"Objective: The study aimed to compare efficacy, safety, pain intensity and analgesic consumption in patients receiving either bilateral transversus abdominis plane (TAP) block or wound infiltration with bupivacaine after cesarean delivery (CD). Material(s) and Method(s): A total of 216 parturient women undergoing CD under general anesthesia were randomly allocated into five groups: i) controls (group 1), ii) TAP placebo (group 2), iii) TAP (group 3), iv) wound infiltration placebo (group 4), and, v) wound infiltration (group 5). Pain intensity was assessed using a visual analogue scale (VAS). Analgesic consumptions were recorded by a blinded nurse at 6, 12, and 18 hours postoperatively. Result(s): The baseline characteristics of the five groups were similar in terms of age, history of CD, and body mass indices (p > 0.05). There were significant intergroup differences in VAS scores between all groups at the zero time-point (p=0.03), at the 6th hour (p=0.02), 12th hour (p=0.02), and at the 18th hour (p=0.02). Group 3 patients had lower pain scores and consumed less diclofenac than group 2 patients only within 12 hours postoperatively whereas pain intensity and analgesic consumption were not different between group 5 and group 4 patients. Group 5 patients received significantly less pethidine than group 4 and group 1 patients (p < 0.001). Conclusion(s): TAP block provided better pain relief and less analgesic requirement than bupivacaine wound infiltration early after CD. Given the similar amounts of diclofenac but lower amounts of pethidine administered in the wound infiltration group, wound infiltration of bupivacaine seems promising in terms of reducing opioid use after CD under general anesthesia, especially when TAP block is not used.Copyright (c) 2017 by the Turkish-German Gynecological Education and Research Foundation."""
+
+

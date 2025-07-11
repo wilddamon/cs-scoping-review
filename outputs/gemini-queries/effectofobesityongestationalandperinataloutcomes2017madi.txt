@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofobesityongestationalandperinataloutcomes2017madi
+"Purpose To assess the impact of pre-pregnancy obesity (body mass index [BMI] >= 30 kg/m(2)) on the gestational and perinatal outcomes. Methods Retrospective cohort study of 731 pregnant women with a BMI >= 30 kg/m(2) at the first prenatal care visit, comparing them with 3,161 women with a BMI between 18.5 kg/m(2) and 24.9 kg/m(2). Maternal and neonatal variables were assessed. Statistical analyses reporting the demographic features of the pregnant women (obese and normal) were performed with descriptive statistics followed by two-sided independent Student's t tests for the continuous variables, and the chi-squared (kh(2)) test, or Fisher's exact test, for the categorical variables. We performed a multiple linear regression analysis of newborn body weight based on the mother's BMI, adjusted by maternal age, hyperglycemic disorders, hypertensive disorders, and cesarean deliveries to analyze the relationships among these variables. All analyses were performed with the R (R Foundation for Statistical Computing, Vienna, Austria) for Windows software, version 3.1.0. A value of p < 0.05 was considered statistically significant. Results Obesity was associated with older age [OR 9.8 (7.8-12.2); p < 0.01], hyperglycemic disorders [OR 6.5 (4.8-8.9); p < 0.01], hypertensive disorders [OR 7.6 (6.1-9.5); p < 0.01], caesarean deliveries [OR 2.5 (2.1-3.0); p < 0.01], fetal macrosomia [OR 2.9 (2.3-3.6); p < 0.01] and umbilical cord pH [OR 2.1 (1.4-2.9); p < 0.01). Conversely, no association was observed with the duration of labor, bleeding during labor, Apgar scores at 1 and 5 minutes after birth, gestational age, stillbirth and early neonatal mortality, congenital malformations, and maternal and fetal injury. Conclusion We observed that pre-pregnancy obesity was associated with maternal age, hyperglycemic disorders, hypertension syndrome, cesarean deliveries, fetal macrosomia, and fetal acidosis."""
+
+

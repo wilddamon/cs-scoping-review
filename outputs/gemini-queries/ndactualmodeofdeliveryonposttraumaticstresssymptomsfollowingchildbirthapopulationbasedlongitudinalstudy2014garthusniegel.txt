@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinfluenceofwomenspreferencesandactualmodeofdeliveryonposttraumaticstresssymptomsfollowingchildbirthapopulationbasedlongitudinalstudy2014garthusniegel
+"BACKGROUND: This study aimed to examine whether a mismatch between a woman's preferred and actual mode of delivery increases the risk of post-traumatic stress symptoms after childbirth. METHODS: The study sample consisted of 1,700 women scheduled to give birth between 2009 and 2010 at Akershus University Hospital, Norway. Questionnaire data from pregnancy weeks 17 and 32 and from 8 weeks postpartum were used along with data obtained from hospital birth records. Post-traumatic stress symptoms were measured with the Impact of Event Scale. Based on the women's preferred and actual mode of delivery, four groups were established: Match 1 (no preference for cesarean section, no elective cesarean section, N = 1,493); Match 2 (preference for cesarean section, elective cesarean section, N = 53); Mismatch 1 (no preference for cesarean section, elective cesarean section, N = 42); and Mismatch 2 (preference for cesarean section, no elective cesarean section, N = 112). Analysis of variance (ANOVA) and analysis of covariance (ANCOVA) were conducted to examine whether the level of post-traumatic stress symptoms differed significantly among these four groups. RESULTS: Examining differences for all four groups, ANOVA yielded significant overall group differences (F = 11.96, p < 0.001). However, Bonferroni post-hoc tests found significantly higher levels of post-traumatic stress symptoms only in Mismatch 2 compared to Match 1. This difference could be partly explained by a number of risk factors, particularly psychological risk factors such as fear of childbirth, depression, and anxiety. CONCLUSIONS: The results suggest increased post-traumatic stress symptoms in women who preferred delivery by cesarean section but delivered vaginally compared to women who both preferred vaginal delivery and delivered vaginally. In psychologically vulnerable women, such mismatch may threaten their physical integrity and, in turn, result in post-traumatic stress symptoms. These women, who often fear childbirth, may prefer a cesarean section even though vaginal delivery is usually the best option in the absence of medical indications. To avoid potential trauma, fear of childbirth and maternal requests for a cesarean section should be taken seriously and responded to adequately."""
+
+

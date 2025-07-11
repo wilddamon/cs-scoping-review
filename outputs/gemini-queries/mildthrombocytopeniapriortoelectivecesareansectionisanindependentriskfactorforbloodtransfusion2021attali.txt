@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: mildthrombocytopeniapriortoelectivecesareansectionisanindependentriskfactorforbloodtransfusion2021attali
+"PURPOSE: Thrombocytopenia is the second most common hematological disorder in pregnancy and complicates approximately 10% of all pregnancies. The data regarding the association of mild thrombocytopenia in women undergoing cesarean section and risk of bleeding or bleeding-related complications are scarce. Thus, the aim of the current study was to assess the association of mild thrombocytopenia with hemorrhage-related morbidities, among patients undergoing elective cesarean section. METHODS: We performed a retrospective cohort study, in a single tertiary university-affiliated medical center, between 1 January 2012 and 31 May 2019. Medical charts of women who underwent elective cesarean section at term (37(+0/7)-41 + (6/7) weeks of gestations) were retrieved and analyzed. We compared women with mild thrombocytopenia (platelet count of 100-149 x 10(3)/mL) to women with normal platelet count (150-450 x 10(3)/mL). The primary outcome was the need for red blood cell transfusion during the index admission. A secondary outcome was severe bleeding not requiring blood transfusion defined as postpartum hemoglobin decline of >= 3 g/dL as compared to the prepartum levels. RESULTS: During the study period, 1577 women were included in the final analysis, of them 396 (25.11%) had mild thrombocytopenia prior to delivery. As compared to the control group, women with mild thrombocytopenia had higher rates of blood transfusion (3.79 vs. 1.52%, p = 0.01), and had a significant decline in hemoglobin levels. In a multivariable logistic regression model, mild thrombocytopenia was independently associated with blood transfusion with adjusted OR of 2.34 (95% CI 1.10-4.96, p = 0.03). CONCLUSION: Preoperative mild thrombocytopenia is associated with an increased risk of blood loss and blood transfusion in women undergoing elective CS. More studies are required to assess those observations in context of urgent cesarean sections and whether any preventive measures can reduce the risk for bleeding."""
+
+

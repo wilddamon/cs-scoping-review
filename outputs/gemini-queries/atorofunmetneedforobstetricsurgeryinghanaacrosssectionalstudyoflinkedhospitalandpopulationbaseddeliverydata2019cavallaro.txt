@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: testingtheassumptionsofanindicatorofunmetneedforobstetricsurgeryinghanaacrosssectionalstudyoflinkedhospitalandpopulationbaseddeliverydata2019cavallaro
+"BACKGROUND: The Unmet Obstetric Need (UON) indicator has been widely used to estimate unmet need for life-saving surgery at birth; however, its assumptions have not been verified. The objective of this study was to test two UON assumptions: (a) Absolute maternal indications (AMIs) require surgery for survival and (b) 1%-2% of deliveries develop AMIs, implying that rates of surgeries for AMIs below this threshold indicate excess mortality from these complications. METHODS: We used linked hospital and population-based data in central Ghana. Among hospital deliveries, we calculated the percentage of deliveries with AMIs who received surgery, and mortality among AMIs who did not. At the population level, we assessed whether the percentage of deliveries with surgeries for AMIs was inversely associated with mortality from these complications, stratified by education. RESULTS: A total of 380 of 387 (98%) hospital deliveries with recorded AMIs received surgery; an additional eight women with no AMI diagnosis died of AMI-related causes. Among the 50 148 deliveries in the population, surgeries for AMIs increased from 0.6% among women with no education to 1.9% among women with post-secondary education (P < .001). However, there was no association between AMI-related mortality and education (P = .546). Estimated AMI prevalence was 0.84% (95% CI: 0.76%-0.92%), below the assumed 1% minimum threshold. DISCUSSION: Obstetric providers consider AMIs absolute indications for surgery. However, low rates of surgeries for AMIs among less educated women were not associated with higher mortality. The UON indicator should be used with caution in estimating the unmet need for life-saving obstetric surgery; innovative approaches are needed to identify unmet need in the context of rising cesarean rates."""
+
+

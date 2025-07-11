@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: conservativesurgicalmanagementofearlypostpartumhemorrhagea12yearexperienceinatertiarycarecenterinthesouthofthailand2022klangsin
+"BACKGROUND/PURPOSE OF THE STUDY: To evaluate the success rate and predictive factors of success in conservative surgical management of early postpartum hemorrhage (PPH). METHODS: A retrospective study was conducted at a tertiary care hospital in the south of Thailand, from January 2006 to December 2017. PPH with conservative surgical management including Bakri balloon tamponade, B-Lynch uterine compression sutures, arterial embolization, vessel ligations, and combined surgical procedures was reviewed. The procedures were considered successful if bleeding could be controlled without subsequent hysterectomy. Multivariate logistic regression analysis was used to identify predictive factors for success of conservative surgical treatment. RESULTS: Among 39,327 deliveries, 1461 (3.7%) patients had early PPH, and 92 cases received conservative surgical management. Most patients (92.4%) underwent cesarean section. Median (IQR) blood loss before conservative surgery was 1800 (1100, 2575) mL, and median (IQR) time from early PPH to conservative surgical management was 41 (25.5, 60.0) minutes. The overall success rate of conservative surgical management was 80.4%, meanwhile the postoperative complication rate was 27.2%. The predictive factors significantly associated with success were maternal age < 35 years (odds ratio [OR] 4.53, 95% confidence interval [CI] 1.27-16.23; p = 0.02), blood loss before conservative surgery < 1800 mL (OR 5.82, 95% CI 1.45-23.33; p = 0.01), and time to start conservative surgery <= 40 min (OR 4.76, 95% CI 1.13-20.12; p = 0.03). CONCLUSION: The overall success rate of conservative surgical procedures was high. Maternal age < 35 years, blood loss before conservative management < 1800 mL, and time to conservative surgery <= 40 min were predictive factors of success."""
+
+

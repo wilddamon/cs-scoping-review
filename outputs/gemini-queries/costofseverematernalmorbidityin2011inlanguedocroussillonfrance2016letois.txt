@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: costofseverematernalmorbidityin2011inlanguedocroussillonfrance2016letois
+"Background Severe maternal morbidity is an indicator of maternal health encompassing various conditions. Economic data on this topic are lacking. The objective was to estimate the cost of severe maternal morbidity from the payer's perspective (National Health Insurance) and to identify the factors associated with high costs. Methods This study was ancillary to the observational multicenter study MOMAT. All cases of severe maternal morbidity occurring between January and December 2011 in all maternities located in the Languedoc-Roussillon region were prospectively included in the latter. Inpatient costs were estimated using national tariffs. Results A total of 438 cases of severe maternal morbidity (495 stays) were recorded. The mean inpatient cost was 4124 euros (SD = 5045). The likelihood of costly stays was significantly increased for patients with a history of caesarean section (OR = 3.32, 95% CI: 1.54 to 7.17), with multiple causes of severe maternal morbidity (OR = 7.51, 95% CI: 4.07 to 13.86) and having a length of stay above 7 days (OR = 4.30, 95% CI: 2.13 to 8.69). Conclusion Hospital stays due to severe maternal morbidity pose a high burden on the payer. These costs depend on the cause of the morbidity and are mainly explained by patient-level factors. This raises the issues of how these rare and heterogeneous stays are coded and grouped.Copyright (c) 2016 Elsevier Masson SAS"""
+
+

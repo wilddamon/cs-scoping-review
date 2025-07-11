@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hospitaldifferencesinratesofcesareandeliveriesinthesardinianregionanobservationalstudy2014cannas
+"Background: The rates of cesarean deliveries have been increasing steadily in several European countries in recent decades, with Italy having the second-highest rate (38% in 2010), causing concern and debate about the appropriateness of many interventions. Moreover, some recent studies suggest that rates of common obstetric interventions are not homogeneous across hospitals, maybe not only because of patient case mix but also possibly because of different hospital practices and cultures. Thus, it is important to investigate whether the variation in rates of cesarean sections can be traced back to patient characteristics or whether it depends upon context variables at the hospital level.; Methods: using official hospital abstracts on deliveries that occurred in sardinia over a two-year period, we implement multilevel logistic regression models in order to assess whether the observed differences in cesarean rates across hospitals can be justified by case-mix differences across hospitals.; Results: The between-hospital variation in rates of cesarean delivery is estimated to be 0.388 in the model with only the intercept and 0.382 in the model controlling for the mother's clinical and sociodemographic characteristics.; Conclusions: The results show that taking into account the individual characteristics of delivered mothers is not enough to justify the observed variation across hospital rates, suggesting the important role of unobserved variables at the hospital level in determining cesarean section rates. (c) 2014, Prex S.p.A. All Rights reserved."""
+
+

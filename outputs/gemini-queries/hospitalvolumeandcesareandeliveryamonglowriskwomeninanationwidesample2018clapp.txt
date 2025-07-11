@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hospitalvolumeandcesareandeliveryamonglowriskwomeninanationwidesample2018clapp
+"OBJECTIVE: We sought to determine if hospital delivery volume was associated with a patient's risk for cesarean delivery in low-risk women. STUDY DESIGN: This study retrospectively examines a cohort of 1 657 495 deliveries identified in the 2013 Nationwide Readmissions Database. Hospitals were stratified by delivery volume quartiles. Low-risk patients were identified using the Society for Maternal-Fetal Medicine definition (n=845 056). A multivariable logistic regression accounting for hospital-level clustering was constructed to assess the factors affecting a patient's odds for cesarean delivery. RESULTS: The range of cesarean delivery rates was 2.4-51.2% among low-risk patients, and the median was 16.5% (IQR 12.8-20.5%). The cesarean delivery rate was higher in the top two-volume-quartile hospitals (17.4 and 18.2%) compared to the bottom quartiles (16.4 and 16.3%) (P<0.001). Hospital volume was not associated with a patient's odds for cesarean delivery after adjusting for patient and other hospital characteristics (P=0.188). CONCLUSION: Hospital delivery volume is not an independent predictor of cesarean delivery in this population."""
+
+

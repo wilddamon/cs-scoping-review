@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenmorbidityamongtermnewbornsandlowriskcaesareandeliveryrates2022clapp
+"OBJECTIVE: To examine the association between county-level caesarean delivery (CD) rates among women at low risk and morbidity among term newborns. DESIGN: Cross-sectional study. SETTING: Population-based study of US county-level birth data from 2015 to 2017. POPULATION: Nulliparous women with term, singleton, vertex-presenting infants (NTSV) at low risk for morbidity. METHODS: The primary exposure was county-level CD rates. MAIN OUTCOME MEASURES: The outcome was morbidity among the low-risk NTSV cohort, categorised as severe (5-minute Apgar score of <=3, assisted ventilation for >=6 hours, severe neurologic injury or seizure, transfer or death) or moderate (5-minute Apgar score of <7 but >3, administration of antibiotics or assisted ventilation at delivery). We used linear regression models to determine the association between county NTSV CD and neonatal morbidity rates with cluster robust standard errors. RESULTS: The analysis included data from 2 753 522 births in 952 counties from all 48 states. The mean NTSV CD rate was 23.6% (standard deviation 4.8%). The median severe and moderate neonatal morbidity rates were 15.2 (interquartile range, IQR 9.4-23.6) and 52.5 (IQR 33.4-75.7) per 1000 births, respectively. In the unadjusted analysis using the risk-adjusted exposure and outcome, every percentage point increase in the CD rate of a county was associated with 0.6 (95% CI -0.9, -0.3) and 2.3 fewer (95% CI -3.4, -1.1) cases of severe and moderate neonatal morbidity per 1000 live births. After adjustment for other county factors, the relationships remained significant. These findings were tested in multiple sensitivity analyses. CONCLUSIONS: Lower county-level NTSV CD rates were associated with a small increase in morbidity among term newborns in the USA. TWEETABLE ABSTRACT: Lower county-level caesarean delivery rates were associated with an increase in morbidity among term newborns in the USA."""
+
+

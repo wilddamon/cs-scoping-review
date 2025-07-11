@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anobservationalstudyoftherapeutichypothermiaandfactorsassociatedwithmortalityinlatepretermandtermneonateswithhypoxicischemicencephalopathyinamiddleincomecountry2022boo
+"OBJECTIVES: To investigate the types of therapeutic hypothermia (TH) used and risk factors associated with mortality in late-preterm and term neonates (LPTN, gestation of >=35 weeks) with hypoxic-ischemic encephalopathy (HIE) in a middle-income country. DESIGN: This was an observational retrospective cohort study. SETTING: A total of 44 neonatal intensive care units (NICUs) in the Malaysian National Neonatal Registry participated in the study. PATIENTS: All LPTN without major malformations and diagnosed to have HIE were included. MAIN OUTCOME MEASURES: Number of in-hospital mortality, and types of TH used [no TH, TH using commercially available servo-controlled devices (SCDs), passive TH by exposing neonates to NICU's air-conditioned ambient temperature with/without the use of cooled gel packs (P+-CGPs)]. RESULTS: Of a total of 2,761 HIE neonates, 66.3% received TH. All NICUs provided TH; 55.4% NICUs had SCDs, which was administered to 43.6% (248/569) of severe, 51.6% (636/1,232) of moderate, and 18.6% (179/960) of mild HIE neonates. P+-CGPs was used on 26.9% of severe, 33.4% of moderate, and 21.1% of mild HIE neonates. There were 338 deaths. Multiple logistic regression analysis showed that 5-min Apgar scores <5 (aOR: 1.436; 95% CI: 1.019, 2.023), Cesarean section (aOR: 2.335; 95% CI: 1.700, 3.207), receiving no TH (aOR: 4.749; 95% CI: 3.201, 7.045), TH using P+-CGPs (aOR: 1.553; 95% CI: 1.031, 2.338), NICUs admitted <50 HIE cases (aOR: 1.898; 95% CI: 1.225, 2.940), NICUs admitted 50-<100 HIE cases (aOR: 1.552; 95% CI: 1.065, 2.260), moderate HIE (aOR: 2.823; 95% CI: 1.495, 5.333), severe HIE (aOR: 34.925, 95% CI: 18.478, 66.012), Thompson scores of 7-13 (aOR: 1.776; 95% CI: 1.023,3.082), Thompson scores of >=14 (aOR: 3.641; 95% CI: 2.000, 6.629), pneumothorax (aOR: 3.435; 95% CI: 1.996, 5.914), and foreigners (aOR: 1.646; 95% CI: 1.006, 2.692) were significant risk factors associated with mortality. CONCLUSION: Both SCD and P+-CGP were used for TH. Moderate/severe HIE and receiving passive/no TH were among the risk factors associated with mortality."""
+
+

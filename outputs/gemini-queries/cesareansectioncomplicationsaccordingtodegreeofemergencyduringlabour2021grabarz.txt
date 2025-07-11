@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectioncomplicationsaccordingtodegreeofemergencyduringlabour2021grabarz
+"OBJECTIVE: Evaluate the complications rate of cesarean section delivery based on degree of labour emergency. STUDY DESIGN: Monocentric (Lille, France), retrospective study of all term, singleton, and cesarean deliveries during labour. Three groups were categorized based on the degree of emergency according to a color code: green (no time limit between surgical decision and birth), orange (birth within 30 min), and red (birth within 20 min). Scheduled cesareans were excluded. Complications were defined as minor/major and intra-/post-operative. RESULTS: A total of 881 patients were included. Among these, 303 (34.5 %) were in the green group, 353 (40.1 %) in the orange group, and 225 (25.4 %) in the red group. Major intra-operative complications, mainly postpartum hemorrhage, were more frequent in the red group compared with the green group (16.9 % vs. 9.9 %, p = 0.05; OR 1.9; 95 % CI [1.1-3.1]). Among the minor complications, there was no difference on moderate postpartum hemorrhage and four times uterine artery wounds in the red group (1.7 % vs. 7.1 %, respectively; p = 0.007; OR 4.6; 95 % CI [1.6-12.6]). The overall major post-operative complication rate, mainly infectious morbidity, was 6.1 % and this was more frequent in the red group compared with the green group (12.4 % vs. 1.7 %, respectively; p < 0.0001; OR 8.5; 95 % CI [3.2-22.3]). CONCLUSION: Pre- and post-operative complications of cesarean section delivery during labour (i.e., emergency cesarean) increase with the degree of labour emergency. It would be ideal to identify women in labour who are at increased risk of emergency cesarean earlier, so that the situation does not escalate to a red code cesarean."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: dietormedicallytreatedgestationaldiabetesisthereanydifferenceforobstetricalandneonatalcomplicationsafrenchcohortstudy2014blachier
+"OBJECTIVE: The aim of the present study was to determine specific obstetrical and neonatal complications associated with diet-treated gestational diabetes (DTGD) and medically treated gestational diabetes (MTGD). METHODS: This is a prospective cohort study of women followed in the Robert Debre Hospital (France, Paris) and who have given birth between 1 January, 2004, and 19 November, 2010. Clinical, biological, maternal and neonatal data were reported in the maternity database. Associations between obstetrical and neonatal complications and gestational diabetes were evaluated by estimating odd ratios (ORs) and their 95% CIs, using a logistic regression model. RESULTS: 16,244 pregnancies were included in the study. 1515 (9.3%) women had gestational diabetes: 1108 (7.3%) had DTGD, 243 (1.7%) had MTGD. After full adjustment, MTGD was associated with an increased risk of nonscheduled cesarean (ORnonscheduled=2.3; 95% CI: 1.6-3.3; P<0.001) while DTGD was not (ORnonscheduled=1.0; 95% CI: 0.8-1.3; P<0.96). Clinical macrosomia was positively associated with DTGD (OR=2; 95% CI: 1.7-2.4; P<0.0001) or MTGD (OR=2.9; 95% CI: 2.1-3.9; P<0.0001). CONCLUSION: This study confirms that macrosomia is the main complication of DTGD. By contrast, DTGD was not associated with neonatal hypoglycemia and cesarean, while these complications were associated with MTGD."""
+
+

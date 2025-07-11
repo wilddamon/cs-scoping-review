@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforadverseoutcomesinvaginalpretermbreechlabor2021toijonen
+"PURPOSE: To assess the risk factors for adverse outcomes in attempted vaginal preterm breech deliveries. METHODS: A retrospective case-control study, including 2312 preterm breech deliveries (24 + 0 to 36 + 6 gestational weeks) from 2004 to 2018 in Finland. The preterm breech fetuses with adverse outcomes born vaginally or by emergency cesarean section were compared with the fetuses without adverse outcomes with the same gestational age. A multivariable logistic regression analysis was used to calculate the risk factors for adverse outcomes (umbilical arterial pH below 7, 5-min Apgar score below 4, intrapartum stillbirth and neonatal death < 28 days of age). RESULTS: Adverse outcome in vaginal preterm breech delivery was associated with maternal obesity (aOR 32.19, CI 2.97-348.65), smoking (aOR 2.29, CI 1.12-4.72), congenital anomalies (aOR 4.50, 1.56-12.96), preterm premature rupture of membranes (aOR 1.87, CI 1.00-3.49), oligohydramnios (28-32 weeks of gestation: aOR 6.50, CI 2.00-21.11, 33-36 weeks of gestation: aOR 19.06, CI 7.15-50.85), epidural anesthesia in vaginal birth (aOR 2.44, CI 1.19-5.01), and fetal growth below the second standard deviation (28-32 weeks of gestation: aOR 5.89, CI 1.00-34.74, 33-36 weeks of gestation: aOR 12.27, CI 2.81-53.66). CONCLUSION: The study shows that for each subcategory of preterm birth, there are different risk factors for adverse neonatal outcomes in planned vaginal breech delivery. Due to the extraordinary increased risk of adverse outcomes, we would recommend a planned cesarean section in very preterm breech presentation (28 + 0 to 32 + 6 weeks) with severe maternal obesity, oligohydramnios, or fetal growth restriction and in moderate to late preterm breech presentation (33 + 0 to 36 + 6 weeks) with oligohydramnios or fetal growth restriction."""
+
+

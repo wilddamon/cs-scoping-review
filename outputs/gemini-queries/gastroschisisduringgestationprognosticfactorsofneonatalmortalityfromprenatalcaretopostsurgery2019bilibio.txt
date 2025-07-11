@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gastroschisisduringgestationprognosticfactorsofneonatalmortalityfromprenatalcaretopostsurgery2019bilibio
+"OBJECTIVE: To evaluate the prognostic factors related to mortality in neonates with gastroschisis, ranging from prenatal care to corrective surgery. STUDY DESIGN: A retrospective cohort study was conducted and included neonates with gastroschisis who underwent surgical correction from 2010 to 2015. The patients were divided into two groups based on postoperative outcomes: those who were discharged and those who died postoperatively. Data regarding demographics, prenatal history, delivery route, surgery and postoperative outcomes were collected in both groups. RESULTS: In total, 168 patients were eligible; 82 (48.8%) were discharged, and 86 (51.2%) died postoperatively. Fewer prenatal visits (4.85 versus 6.05 visits, P = 0.004), delayed prenatal diagnosis (27.6 versus 22.2 weeks of gestational age, P = 0.005), low birth weight (2159 versus 2444 g, P < 0.001), intestinal injury (OR 5.5, P = 0.001) and sepsis (OR 112.1, P < 0.001) were associated with infant mortality. The type of delivery and the mean time between birth and the first corrective surgery (16.2 versus 21.1 h, P = 0.071) were not associated with increased neonatal mortality; however, the newborns who underwent their first corrective surgery after less than 4 h of life had lower mortality, and surgery performed after more than 4 h of life increased the risk of mortality (OR 2.7, CI 1.2-6.3, P 0.014). CONCLUSION: The mortality rate was high (51.2%) and was associated with inadequate prenatal care, low birth weight, gestational age, the severity of intestinal injury, infection and septicemia."""
+
+

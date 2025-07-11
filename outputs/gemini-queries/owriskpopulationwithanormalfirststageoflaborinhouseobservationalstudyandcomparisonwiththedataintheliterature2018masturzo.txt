@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timeremaininginlaborandprobabilityofvaginaldeliveryasafunctionoftheangleofprogressioninalowriskpopulationwithanormalfirststageoflaborinhouseobservationalstudyandcomparisonwiththedataintheliterature2018masturzo
+"BACKGROUND: The aim of the study was to investigate whether the angle of progression (AoP), as measured by transperineal ultrasound, was predictive of both the time remaining in labor and vaginal delivery. METHODS: This was a prospective observational cohort study involving 270 low-risk women with singleton pregnancies at term. The AoP, measured at the end of the first stage of labor, was used as a predictive variable of time remaining in labor and mode of delivery. The Kaplan Meier and Cox algorithms were used to evaluate the time elapsed between AoP measurement and delivery as a function of AoP. Instead, logistic regression was used to calculate the adjusted probability of vaginal delivery as a function of AoP. RESULTS: Of the 270 women enrolled, 15 (5.6%) delivered by cesarean section and 33 (12.1%) by vacuum or forceps. The AoP, stratified by quartiles, was a significant predictor of the time remaining in labor, even after adjustment for possible confounders (Body Mass Index [BMI], oxytocin administration and parity). The mean+-SD second stage of labor length for each AoP quartile was 134+-25, 126+-18, 96+-33 and 58+-23 minutes (P value<0.001, ANOVA). The mean+-SD probability of a vaginal delivery expressed as a function of the AoP quartile (adjusted for BMI) was 51.5+-0.16%, 81.5+-0.10%, 97.0+-0.16% and 99.3+-0.004% at the AoP of the 1st, 2nd, 3rd and 4th quartiles, respectively, (P value<0.001 ANOVA). CONCLUSIONS: The AoP was directly associated with the time remaining in labor and was predictive of a successful vaginal delivery; however, the impact on clinical practice seems low."""
+
+

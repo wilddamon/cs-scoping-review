@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionimprovesneonataloutcomesonlyfrom240weeksforperiviablebreechbutnotforcephalicinfants2021boyd
+"Background: Although caesarean delivery at periviable gestations may minimize birth trauma, it may not necessarily improve perinatal outcomes. The aim of this study was to assess the impact of mode of birth on outcomes for breech versus cephalic presentation at 22 + 0-25 + 6 weeks.Methods: Retrospective cohort study of single, nonanomalous infants at 22 + 0-25 + 6 weeks gestation born at a tertiary center in Australia. Neonatal outcomes were analyzed comparing both breech and cephalic presentation and mode of delivery.Results: Six hundred and eighty eight women fulfilled the inclusion criteria with 39.7% (273/688) breech and 60.3% (415/688) cephalic infants. Survival was 31.5% (86/273) and 38.1% (158/415) in the breech and cephalic cohorts respectively. Vaginal breech infants had reduced odds of survival compared to the vaginal cephalic group (aOR 0.37, 95% CI 0.17-0.75, p < .01) with no difference in survival if delivery occurred by caesarean section. Vaginal breech birth had higher odds of very low Apgar scores, stillbirth, and neonatal death. At 22 + 0-22 + 6 weeks, outcomes were universally fatal. At 24 + 0-24 + 6 and 25 + 0-25 + 6 weeks, vaginal breech birth had lower odds of survival (aOR 0.33, 95% CI 0.13-0.84, p < .05 and aOR 0.10, 95% CI 0.03-0.34, p < .001 respectively) compared to caesarean breech births.Conclusions: Caesarean section improves perinatal outcomes for periviable breech infants > 24 + 0 weeks."""
+
+

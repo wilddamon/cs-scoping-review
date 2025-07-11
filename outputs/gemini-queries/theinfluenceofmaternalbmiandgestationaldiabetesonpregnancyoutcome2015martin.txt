@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinfluenceofmaternalbmiandgestationaldiabetesonpregnancyoutcome2015martin
+"AIMS: To evaluate the effect of maternal body mass index (BMI) on gestational diabetes (GDM) and the risk of adverse pregnancy outcomes in women who are overweight or obese. METHODS: A prospective cohort study nested within the LIMIT randomised controlled trial. A total of 1030 women were recruited between 10 and 20 weeks' gestation, with a BMI>=25 kg/m(2), and were grouped into BMI subclasses utilising World Health Organisation criteria. Women underwent a fasting oral glucose tolerance test at 26-28 weeks' gestation, and a diagnosis of GDM was made if fasting blood glucose was >=5.5 mmol/L or >=7.8 mmol/L after 2h. Maternal and neonatal health outcomes were evaluated. RESULTS: The prevalence of GDM increased with increasing maternal BMI (6.74% overweight vs 13.42% obese subclass 1 vs 12.79% obese subclass 2 vs 20.00% obese subclass 3). Women who were diagnosed with GDM were significantly less likely to give birth to an infant with birth weight above 4 kg (RR 0.60; 95% CI 0.36 to 1.00; p=0.05). The need for caesarean delivery (RR 1.27; 95% CI 1.07 to 1.50; p=0.006) and incidence of birth weight >90% (RR 1.38; 95% CI 1.07 to 1.77; p=0.01) was significantly increased in women who were obese, independent of GDM. CONCLUSION: Increasing maternal BMI is a significant risk factor for the development of GDM, and our findings demonstrate a considerably higher prevalence than has been previously described. Raised maternal BMI is a risk factor for high infant birth weight, which may be modified by lifestyle intervention."""
+
+

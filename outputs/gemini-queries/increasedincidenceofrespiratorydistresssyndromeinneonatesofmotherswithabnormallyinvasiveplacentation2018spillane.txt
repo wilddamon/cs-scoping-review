@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasedincidenceofrespiratorydistresssyndromeinneonatesofmotherswithabnormallyinvasiveplacentation2018spillane
+"BACKGROUND: The incidence of abnormally invasive placentation (AIP) is increasing. Most of these pregnancies are delivered preterm. We sought to characterize neonatal outcomes in AIP pregnancies. METHODS: In this retrospective case-control study (2006-2015), AIP neonates (n = 108) were matched to two controls each for gestational age, antenatal glucocorticoid exposure, sex, plurity, and delivery mode. Medical records were reviewed for neonatal and maternal characteristics/outcomes. Univariate and multivariate Poisson regressions were performed to determine relative risk ratios (RR). RESULTS: There were no mortalities. All neonatal outcomes were similar except for respiratory distress syndrome (RDS), which affected 37% of AIP neonates (versus 21% of controls). AIP neonates required respiratory support (64.8% vs. 51.9%) and continuous positive airway pressure (53.7% vs. 42.1%) for a longer duration. Univariate regression yielded elevated RRs for RDS for AIP (RR 1.78, 95% CI 1.24-2.54), placenta previa (RR = 1.94, 95% CI 1.36-2.76), and placenta previa with bleeding (RR 2.29, 95% CI 1.36-3.86). One episode of bleeding had a RR of 2.43 (95% CI 1.57-3.76), 2 or more episodes had a RR of 2.95 (95% CI 1.96-4.44), and bleeding/abruption as the delivery indication had a RR of 2.57 (95% CI 1.82-3.64). A multivariate regression stratifying for AIP and evaluating the combined and individual associations of AIP, bleeding, placenta previa, and GA, resulted in elevated RRs for placenta previa alone (RR 2.16, 95% CI 1.15-4.06) and placenta previa and bleeding (RR 1.69, 95% CI 1.001-2.85). CONCLUSIONS: The increased incidence of RDS at later gestational ages in AIP is driven by placenta previa. AIP neonates required respiratory support for a longer duration than age-matched controls. Providers should be prepared to counsel expectant parents and care for affected neonates."""
+
+

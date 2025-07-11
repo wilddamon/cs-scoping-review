@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingpostpartumhemorrhagepphduringcesareandeliveryusingtheleicesterpphpredicttoolaretrospectivecohortstudy2018dunkerton
+"OBJECTIVE: The aim of the present study was to develop a toolkit combining various risk factors to predict the risk of developing a postpartum hemorrhage (PPH) during a cesarean delivery. STUDY DESIGN: A retrospective cohort study of 24,230 women who had cesarean delivery between January 2003 and December 2013 at a tertiary care teaching hospital within the United Kingdom serving a multiethnic population. Data were extracted from hospital databases, and risk factors for PPH were identified. Hothorn et al recursive partitioning algorithm was used to infer a conditional decision tree. For each of the identified combinations of risk factors, two probabilities were calculated: the probability of a patient producing >=1,000 and >= 2,000 mL blood loss. RESULTS: The Leicester PPH predict score was then tested on the randomly selected remaining 25% (n = 6,095) of the data for internal validity. Reliability testing showed an intraclass correlation of 0.98 and mean absolute error of 239.8 mL with the actual outcome. CONCLUSION: The proposed toolkit enables clinicians to predict the risk of postpartum hemorrhage. As a result, preventative measures for postpartum hemorrhage could be undertaken. Further external validation of the current toolkit is required."""
+
+

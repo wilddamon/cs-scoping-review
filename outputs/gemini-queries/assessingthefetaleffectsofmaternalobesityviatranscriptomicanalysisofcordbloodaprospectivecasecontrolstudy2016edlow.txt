@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessingthefetaleffectsofmaternalobesityviatranscriptomicanalysisofcordbloodaprospectivecasecontrolstudy2016edlow
+"OBJECTIVE: To analyse fetal gene expression at term using umbilical cord blood, in order to provide insights into the effects of maternal obesity on human development. DESIGN: Prospective case-control study. SETTING: Academic tertiary care centre. POPULATION: Eight obese (body mass index >=30 kg/m(2)) and eight lean (body mass index <25 kg/m(2)) pregnant women undergoing prelabour caesarean delivery at term. METHODS: Women were matched for gestational age and fetal sex. Cord blood RNA was extracted and hybridised to gene expression arrays. Differentially regulated genes were identified using paired t-tests and the Benjamini-Hochberg correction. Functional analyses were performed using Ingenuity Pathway Analysis, BioGPS and Gene Set Enrichment Analysis with a fetal-specific annotation. Z-scores >=2.0 or P-values <0.01 were considered significant. MAIN OUTCOME MEASURE: Functions of differentially regulated genes in fetuses of obese women. RESULTS: A total of 701 differentially regulated genes were identified, producing an expression profile implicating neurodegeneration, decreased survival of sensory neurons, and decreased neurogenesis in the fetuses of obese women. Upstream regulators related to inflammatory signalling were significantly activated; those related to insulin receptor signalling, lipid homeostasis, regulation of axonal guidance, and cellular response to oxidative stress were significantly inhibited. Of 26 tissue-specific genes that were differentially regulated in fetuses of obese women, six mapped to the fetal brain. CONCLUSION: Maternal obesity affects fetal gene expression at term, implicating dysregulated brain development, inflammatory and immune signalling, glucose and lipid homeostasis, and oxidative stress. This may have implications for postnatal neurodevelopment and metabolism."""
+
+

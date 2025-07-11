@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: managementofcesareanscarpregnancyimportanceofgestationalageatdiagnosisanddiseasetypeasinglecenters5yearsofexperienceinvolving223cases2023yang
+"OBJECTIVE: This study aims to evaluate the importance of the gestational age at diagnosis and the types of cesarean scar pregnancy (CSP) for treatment outcomes and to identify the optimal treatment based on both the gestational age at diagnosis and the CSP type. METHODS: A retrospective cohort study included 223 pregnant women diagnosed with CSP at Peking University First Hospital, Beijing, China, between 2014 and 2018. All CSP cases underwent ultrasound-guided vacuum aspiration followed by supplementary curettage. Adjuvant treatment modalities included intramuscular injection of systemic methotrexate, uterine artery embolization, and hysteroscopy before ultrasound-guided vacuum aspiration. Linear regression was used to determine the relationship between intraoperative blood loss and gestational age at diagnosis, CSP type, highest b-human chorionic gonadotropin level, and management procedures. RESULTS: None of the patients required blood transfusions or hysterectomies. Patients presenting at <8, 8-10, and >10 weeks had median estimated blood loss of 5, 10, and 35 ml, respectively. Patients with type I CSP, type II CSP, and type III CSP had median blood loss of 5, 5 and 10 ml, respectively. Multivariate linear regression analysis demonstrated that the gestational age at diagnosis (p < 0.001) and type of CSP (p = 0.023) were independent predictors of intraoperative estimated blood loss. For type I CSP patients, ultrasound-guided vacuum aspiration followed by supplementary curettage alone was performed in 15 of 34 (44.1%) patients, including 12/27 (44.4%) diagnosed at <8 weeks, 2/6 (33.3%) at 8-10 weeks, and 1/1 for >10 weeks. In type II CSP patients, fewer cases were managed by ultrasound-guided vacuum aspiration followed by supplementary curettage alone as the gestational age at diagnosis increased [18/96 (18.8%) for <8 weeks, 7/41 (17.1%) for 8-10 weeks, none for >10 weeks]. Most type III CSP patients (41/45, 91.1%) needed treatments in addition to the ultrasound-guided vacuum aspiration regardless of the gestational age at diagnosis. All CSP patients were treated successfully and did not require readmission or further medical interventions. CONCLUSION: Gestational age at diagnosis of CSP and its type show a strong correlation with estimated blood loss during ultrasound-guided vacuum aspiration. With careful management, CSPs may be treated at any gestational week, regardless of their type, with minimal intraoperative bleeding."""
+
+

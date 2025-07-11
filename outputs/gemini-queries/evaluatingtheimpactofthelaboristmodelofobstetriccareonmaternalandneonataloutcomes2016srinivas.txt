@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluatingtheimpactofthelaboristmodelofobstetriccareonmaternalandneonataloutcomes2016srinivas
+"BACKGROUND: The laborist model of obstetric care represents a change in care delivery with the potential of improving maternal and neonatal outcomes. OBJECTIVE: We evaluated the effectiveness of the laborist model of care compared to the traditional model of obstetric care using specific maternal and neonatal outcome measures. STUDY DESIGN: This is a population cohort study with laborist and nonlaborist hospitals matched 1:2 on delivery volume, geography, teaching status, and neonatal intensive care unit level using data from the National Perinatal Information Center/Quality Analytic Services database. A before-and-after study design with an untreated comparison group analyzed with the method of difference-in-differences was used to examine the impact of laborists on maternal and neonatal outcome measures within the 3 years after implementing the laborist system, after adjusting for secular trends, sociodemographic factors, and maternal medical conditions. The final outcome measures evaluated included cesarean delivery, chorioamnionitis, induction of labor, preterm birth, prolonged length of stay, Apgar at 5 minutes of <7, birth asphyxia, birth injury, birth trauma, and neonatal death. RESULTS: We studied nearly 550,000 women from 24 hospitals (8 laborist and 16 nonlaborist hospitals) from 1998 through 2011. Implementation of laborists was associated with fewer labor inductions (adjusted odds ratio, 0.85; 95% confidence interval, 0.71-0.99) and decreased rate of preterm birth (adjusted odds ratio, 0.83; 95% confidence interval, 0.72-0.96) after controlling for confounders. Laborists did not impact the cesarean delivery rate, chorioamnionitis, or prolonged length of stay. CONCLUSION: Implementation of the laborist model was associated with a significant reduction in labor induction rate and preterm birth without adversely affecting other outcomes."""
+
+

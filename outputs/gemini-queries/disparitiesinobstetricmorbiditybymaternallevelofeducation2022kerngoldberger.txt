@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: disparitiesinobstetricmorbiditybymaternallevelofeducation2022kerngoldberger
+"BACKGROUND: Maternal race and socioeconomic status are predictors of obstetric morbidity and mortality in the U.S. A better understanding of the role that maternal education plays in these disparities could enable and target better interventions to improve obstetric outcomes. OBJECTIVE: This study aims to assess the impact of the level of education on morbidity. STUDY DESIGN: We conducted a retrospective nested cohort study from a multicenter observational cohort of women undergoing cesarean delivery. Nulliparous women with live, non-anomalous singleton gestations who underwent primary cesarean section and had education status recorded were included. Education level was categorized as none, elementary, high school, some college, and a college degree. The primary outcome was a composite of maternal cesarean complications including hysterectomy, uterine atony, blood transfusion, surgical injury, arterial ligation, infection, wound complication, and ileus. A composite of neonatal morbidity was evaluated as a secondary outcome. We then created a multivariable logistic regression model adjusting for selected demographic and obstetric variables that may influence the likelihood of the primary outcome. RESULTS: 10,344 women met inclusion criteria with a 20.3% incidence of the primary outcome. After adjusting for potential confounding variables including race and medical co-morbidities, the incidence of maternal cesarean complications was found to be higher for women with only elementary (OR 1.34, 95% CI 1.01-1.78) and high school (OR 1.24, 95% CI 1.03-1.48) education, compared to women with a college degree. There was also higher neonatal morbidity among women with high school (OR 1.39, 95% CI 1.20-1.62) and some college (OR 1.23, 95% CI 1.04-1.46) education, compared to women with a college degree. CONCLUSION: These findings suggest that efforts to alleviate adverse outcomes in obstetrics should target patient counseling and health literacy as differences in educational background are closely associated with disparities in maternal and neonatal morbidity."""
+
+

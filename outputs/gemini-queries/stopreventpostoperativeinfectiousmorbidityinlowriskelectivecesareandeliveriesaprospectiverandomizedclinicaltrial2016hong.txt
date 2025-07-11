@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antibioticprophylaxistopreventpostoperativeinfectiousmorbidityinlowriskelectivecesareandeliveriesaprospectiverandomizedclinicaltrial2016hong
+"OBJECTIVE: To determine the effectiveness and cost of antibiotic chemoprophylaxis in reducing infectious morbidity in low-risk women undergoing elective cesarean delivery. METHODS: A prospective randomized clinical trial was performed at a single tertiary care center in Jinan, China between November 2012 and December 2013. Women were randomized to receive either antibiotic prophylaxis or no antibiotics prior to elective cesarean delivery at term. The infectious morbidity (fever, surgical site infection - SSI, endometritis and urinary tract infection), routine blood tests and hospital costs were measured. RESULTS: Total of 414 women were enrolled into the study; and 202 women received antibiotic chemoprophylaxis and 212 women received no antibiotics. Demographic and clinical characteristics were similar between the two groups. Total of one case in the treatment group and four case in the non-treatment group developed endometritis, giving the postoperative infection rate of 1.2%, which was not statistically significant between the two groups (kh(2) = 1.679, p = 0.195). The secondary outcomes were also not different between the two groups, except the costs of hospitalization, which was significantly higher in the treatment group (p < 0.001). CONCLUSIONS: In low-risk women undergoing elective cesarean delivery at term, prophylactic antibiotics did not reduce the risk of postoperative infection, but significantly increased the cost of hospitalization."""
+
+

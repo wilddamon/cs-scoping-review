@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ariskpredictionmodelofperinatalbloodtransfusionforpatientswhounderwentcesareansectionacasecontrolstudy2022wang
+"BACKGROUND: Severe obstetric hemorrhage is a leading cause of severe maternal morbidity. A perinatal blood transfusion is the key factor in the treatment of severe obstetric hemorrhage. Our aim is to identify patients with a high risk of perinatal blood transfusions before Cesarean Section, which can promote the effectiveness of the treatment of severe obstetric hemorrhage, as well as improve obstetric preparations. METHODS: This study retrospectively analyzed the data of 71 perinatal blood transfusion patients and 170 controls, who were both underwent Cesarean Section from July 2018 to September 2019. These data were included in the training set to build the risk prediction model of needing blood transfusion. Additionally, the data of 148 patients with the same protocol from October 2019 to May 2020 were included in the validation set for model validation. A multivariable logistic regression model was used. A risk prediction nomogram was formulated per the results of the multivariate analysis. RESULTS: The strongest risk factors for perinatal blood transfusions included preeclampsia (OR = 6.876, 95% CI: 2.226-23.964), abnormal placentation (OR = 5.480, 95% CI: 2.478-12.591), maternal age (OR = 1.087, 95% CI: 1.016-1.166), predelivery hemoglobin (OR = 0.973, 95% CI: 0.948-0.998) and predelivery fibrinogen (OR = 0.479, 95% CI: 0.290-0.759). A risk prediction model of perinatal blood transfusions for cesarean sections was developed (AUC = 0.819; sensitivity: 0.735; specificity: 0.848; critical value: 0.287). CONCLUSIONS: The risk prediction model can identify the perinatal blood transfusions before Cesarean Section. With the nomogram, the model can be further quantified and visualized, and clinical decision-making can subsequently be further simplified and promoted."""
+
+

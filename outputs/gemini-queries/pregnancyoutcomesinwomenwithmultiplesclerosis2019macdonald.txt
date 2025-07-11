@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinwomenwithmultiplesclerosis2019macdonald
+"Few studies have assessed the risk of adverse pregnancy outcomes in women with multiple sclerosis (MS). We used 2 large US administrative databases, the Truven Health MarketScan Database (2011-2015; Truven Health Analytics Inc., Ann Arbor, Michigan) and the Nationwide Inpatient Sample (2007-2011), to identify delivery cohorts. MS and pregnancy outcomes (infections, cesarean delivery, preterm delivery, poor fetal growth, preeclampsia, chorioamnionitis, postpartum hemorrhage, stillbirth, and infant malformations) were identified during pregnancy and at delivery. We calculated adjusted risk ratios according to MS status and relapse(s) in the year before delivery. Among over 5 million pregnancies, we identified 3,875 pregnancies in women with MS. Women with MS had an increased risk of infections during pregnancy (Truven Health: adjusted risk ratio (aRR) = 1.22, 95% confidence interval (CI): 1.16, 1.27) and preterm delivery (Truven Health: aRR = 1.19 (95% CI: 1.04, 1.35); Nationwide Inpatient Sample: aRR = 1.30 (95% CI: 1.16, 1.44)). The risks of other outcomes were similar for women with and without MS. In the Truven Health database, risk ratios for the pregnancy outcomes in women experiencing relapses versus those without relapses were between 0.9 and 1.4, and confidence intervals overlapped the null. Overall, women with MS had an increased risk of infections and preterm delivery; however, their risks for other adverse pregnancy outcomes were not elevated. Disease activity before delivery was not a strong predictor of outcomes."""
+
+

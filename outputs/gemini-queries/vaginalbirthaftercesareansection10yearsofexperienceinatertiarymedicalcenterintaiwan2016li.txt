@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vaginalbirthaftercesareansection10yearsofexperienceinatertiarymedicalcenterintaiwan2016li
+"OBJECTIVE: Because of the increased risk of uterine rupture and other morbidities, instances of trial of labor after cesarean (TOLAC) have decreased in number each year. Nevertheless, under careful assessment and advanced medical care, TOLAC is still a safe option for delivery. The objective of this study is to find the factors that impact the success rate for TOLAC and to compare the results with Taiwan national registry data. MATERIALS AND METHODS: A longitudinal cohort study that includes a total of 254 cases of women receiving TOLAC in a tertiary medical center over a period of 10 years. RESULTS: A total of 254 participants who underwent TOLAC, which accounts for 1.67% of total labor instances (254/15,166), were enrolled for analysis. The success rate of TOLAC was found to be 80.70% (205/254), including 146 (57.5%) normal deliveries, 45 (17.7%) vacuum-assisted deliveries, and 14 (5.5%) forceps-assisted deliveries. The conversion rate to cesarean section was 19.3%. There were no uterine rupture cases in our study, and there were only two suspected cases, which turned out to have no actual rupture. When analyzing the factors affecting the results of TOLAC, we found that a successfully spontaneously delivered baby had a lower birth weight than the failed TOLAC cases that were converted to cesarean delivery (mean, 2989 g vs. 3379 g; p < 0.001). Among the patients who were converted to cesarean section, the most common reason was dysfunctional labor (79.6%), followed by fetal distress (14.3%). CONCLUSION: Under intensive care and observation, TOLAC section may still be a feasible choice. Nevertheless, the body weight of the baby has been shown to be a factor that can influence the success rate."""
+
+

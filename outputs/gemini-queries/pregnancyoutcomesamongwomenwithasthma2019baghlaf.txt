@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesamongwomenwithasthma2019baghlaf
+"PURPOSE: The purpose of this study is to examine the association between maternal asthma and pregnancy, delivery and neonatal outcomes. MATERIALS AND METHODS: We carried out a retrospective cohort study using the Health Care Cost and Utilization Project-Nationwide Inpatient Sample (HCUP-NIS) database from 2003 to 2011. Among women who delivered during this time period, we compared pregnancy, delivery, and neonatal outcomes in asthmatics versus non-asthmatics. Multivariate logistic regression was used to estimate adjusted odds ratios and 95% confidence intervals. RESULTS: In a cohort of 7,772,999 pregnant women, 223,236 (2.9%) had asthma. The prevalence of asthma-complicated pregnancies rose over the study period from 1.9% in 2003 to 3.7% in 2011 (p < .001). Pregnant asthmatics had more pre-existing health conditions, such as diabetes, chronic hypertension, obesity, and thyroid disease, and were more likely to smoke. Even after adjustment for these comorbidities, and other covariates, within statistical models, asthma was found to be associated with greater risk of several pregnancy complications: gestational hypertension, preeclampsia, gestational diabetes, placenta previa, preterm premature rupture of membranes, placental abruption, chorioamnionitis, preterm delivery, postpartum hemorrhage, venous thromboembolism, caesarean section delivery, and maternal mortality. Neonates born to asthmatics had greater risk of being small for gestational age and for having congenital anomalies, and lower risk of intrauterine fetal death. CONCLUSIONS: Asthma is associated with an increase in adverse pregnancy, labor, and neonatal outcomes. Close surveillance of asthmatic patients during the prenatal period is warranted and care in a tertiary hospital is advised."""
+
+

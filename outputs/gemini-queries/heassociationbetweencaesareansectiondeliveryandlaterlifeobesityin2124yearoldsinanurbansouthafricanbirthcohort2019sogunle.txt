@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweencaesareansectiondeliveryandlaterlifeobesityin2124yearoldsinanurbansouthafricanbirthcohort2019sogunle
+"BACKGROUND: Obesity is an important public health problem and rates have reached epidemic proportions in many countries. Studies have explored the association between infants delivered by caesarean section and their later life risk of obesity, in many countries outside Africa. As a result of the increasing caesarean section and obesity rates in South Africa, we investigated the association in this country. METHODS: This was a retrospective analysis of data that were collected from a prospective South African birth cohort (Birth to Twenty Plus), established in 1990. A total of 889 young adults aged 21-24 years were included in the analysis. Poisson regression models were fitted to assess the association between mode of delivery and early adulthood obesity. RESULTS: Of the 889 young adults, 106 (11.9%) were obese while 72 (8.1%) were delivered by caesarean section; of which 14 (19.4%) were obese. Caesarean section delivery was significantly associated with obesity in young adults after adjusting for potential confounders like young adults' sex and birth weight, mothers' parity, and education (incidence rate ratio 1.64, 95% CI 1.01-2.68, p = 0.045). CONCLUSION: The association of caesarean section with early adulthood obesity should be interpreted with caution because data on certain key confounding factors such as mothers' pre-pregnancy body mass index and gestational diabetes were not available. Further research from Africa, with larger sample sizes and databases with useful linking of maternal and infant data, should be conducted."""
+
+

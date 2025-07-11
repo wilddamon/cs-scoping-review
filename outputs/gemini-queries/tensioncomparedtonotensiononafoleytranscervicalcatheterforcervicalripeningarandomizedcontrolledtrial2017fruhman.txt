@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: tensioncomparedtonotensiononafoleytranscervicalcatheterforcervicalripeningarandomizedcontrolledtrial2017fruhman
+"BACKGROUND: Cervical ripening of an unfavorable cervix can be achieved by placement of a transcervical catheter. Advantages of this method include both lower cost and lower risk of tachysystole than other methods. Despite widespread use with varying degrees of applied tension, an unanswered question is whether there is an advantage to placing the transcervical catheter to tension compared with placement without tension. OBJECTIVE: The purpose of this study was to determine whether tension placed on a transcervical balloon catheter that is inserted for cervical ripening results in a faster time to delivery. STUDY DESIGN: This was a prospective, randomized controlled trial; 140 women who underwent cervical ripening (Bishop score, <=6) were assigned randomly to a balloon catheter with applied tension vs no tension. Tension was created when the catheter was taped to the patient's thigh and tension was reapplied in 30-minute increments. There were 67 patients in the tension group and 73 patients in the no tension group. Low-dose oxytocin (maximum, 6 mU/min) was administered after catheter placement. The primary outcome was time from catheter insertion to delivery. A secondary outcome was time from insertion to catheter expulsion. The Kolmogorov-Smirnov test was used to determine whether the data were distributed normally. Survival curves that used lifetables were constructed from time of catheter insertion to delivery and from time of catheter insertion to catheter expulsion and were compared with the use of the Wilcoxon (Gehan) Breslow statistic. A probability value of <.05 was set to denote statistical significance. RESULTS: Baseline characteristics were similar between groups. The median time from catheter insertion to delivery was not significantly different between the tension group and the no tension group (16.2 vs 16.9 hours; P=.814). The median time from catheter insertion to expulsion, however, was significantly less in the tension group vs the no tension group (2.6 vs 4.6 hours; P<.001), respectively. Vaginal delivery within 24 hours was not significantly different between the tension and no tension groups (41/52 [79%] vs 37/52 [71%]; P=.365) nor were there significant differences in cesarean delivery rates between the tension and no tension groups (17/67 [25%] vs 27/73 [37%]; P=.139). CONCLUSION: Application of tension did not result in faster delivery times but did result in faster times to catheter expulsion."""
+
+

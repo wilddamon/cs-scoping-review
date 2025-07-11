@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandbirthcharacteristicsaredeterminantsofoffspringthyroidfunction2016korevaar
+"BACKGROUND: Intrauterine adaptation to the outside environment is an important mechanism via which the fetus increases its chance to thrive after birth. Therefore, various maternal-, pregnancy-, and labor-related factors are potential determinants of thyroid function of the offspring. Animal studies suggest that very high maternal thyroid hormone levels during pregnancy can alter the development of the hypothalamic-pituitary-thyroid axis set point of the child. However, to what extent maternal and birth characteristics (including maternal thyroid function, smoking, and birth weight) are associated with thyroid function of the offspring is currently unknown. METHODS: We selected 4273 mother-child pairs from a large population-based prospective cohort with data available on maternal gestational TSH and free T4 (FT4) levels and newborn TSH and FT4 (n = 3339; at birth) or childhood TSH and FT4 (n = 2523; median age, 6 y). We used multivariable (non)linear regression models to study the association of potential determinants (including maternal TSH, FT4, thyroid peroxidase antibodies, iodine excretion, age, body mass index, smoking status, parity, pre-eclampsia, fetal distress, gestational age at birth, birth weight, mode of delivery, and thyroid function-associated single nucleotide polymorphisms) with newborn and childhood TSH and FT4. RESULTS: There was a strong association of maternal TSH and FT4 levels during pregnancy with newborn and childhood TSH and FT4 levels, respectively (for both, P < .0001). Maternal FT4 was also associated with newborn TSH levels (P = .0009). Birth weight, fetal distress, gestational age at birth and maternal parity were all associated with newborn TSH and/or FT4 (P < .0001), but these associations did not persist into childhood. Genetic risk scores for TSH and FT4 were strongly associated with newborn and childhood thyroid function (P <= .0005). The association between maternal and offspring thyroid function did not change after correction for genetic risk scores. CONCLUSIONS: In this study, childhood thyroid function was predominantly determined by maternal TSH or FT4 levels and thyroid-specific single nucleotide polymorphisms. Effects of stress-related changes in thyroid function at birth were transient. Other potential factors were not associated with offspring thyroid function."""
+
+

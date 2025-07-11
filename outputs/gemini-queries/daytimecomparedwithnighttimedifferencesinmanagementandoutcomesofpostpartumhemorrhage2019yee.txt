@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: daytimecomparedwithnighttimedifferencesinmanagementandoutcomesofpostpartumhemorrhage2019yee
+"OBJECTIVE: To assess whether postpartum hemorrhage management or subsequent morbidity differs based on whether delivery occurred during the day or night. METHODS: We conducted a secondary analysis of a multicenter observational obstetric cohort of more than 115,000 mother-neonate pairs from 25 hospitals (2008-2011). This analysis included women delivering singleton or twin births who experienced postpartum hemorrhage (estimated blood loss greater than 500 cc for vaginal delivery, estimated blood loss greater than 1,000 cc for cesarean delivery, or documented treatment for postpartum hemorrhage). Nighttime delivery was defined as that occurring between 8 PM and 6 AM. The primary outcome was a composite of maternal morbidity (death, hysterectomy, intensive care unit admission, transfusion, or unanticipated procedure for bleeding). Secondary outcomes included estimated blood loss, uterotonic use, and procedures to treat bleeding that occurred during the postpartum hospitalization. Multivariable logistic, linear, quantile, and multinomial regression models were used to assess associations between nighttime delivery and outcomes, adjusting for potential patient-level confounders and hospital as a fixed effect. RESULTS: In total, 2,709 (34.2%) of 7,917 women with postpartum hemorrhage delivered at night. Women who delivered at night were younger, had a lower body mass index, and were more likely to have government-sponsored insurance, be nulliparous, have hypertension, use neuraxial analgesia, and deliver vaginally. After adjusting for potential confounders, the primary composite outcome of maternal morbidity was similar regardless of night compared with day delivery (15.5% night vs 17.5% day; adjusted odds ratio 0.89, 95% CI 0.77-1.03). Some secondary outcomes, including mean EBL, frequency of uterotonic use, and time from delivery to first uterotonic dose, differed on unadjusted analyses, but these associations did not persist in multivariable analysis. The study had limited power to assess differences in uncommon outcomes. CONCLUSION: Nighttime delivery was not associated with significant differences in postpartum hemorrhage-related management or morbidity."""
+
+

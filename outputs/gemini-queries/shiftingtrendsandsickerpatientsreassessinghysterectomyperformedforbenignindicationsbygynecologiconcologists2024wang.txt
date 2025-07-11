@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: shiftingtrendsandsickerpatientsreassessinghysterectomyperformedforbenignindicationsbygynecologiconcologists2024wang
+"OBJECTIVE: To assess trends and differences in patient characteristics, complications, and distributions of hysterectomy for benign indications by benign gynecologists (BG) and gynecologic oncologists (GO). METHODS: This retrospective cohort study identified patients undergoing hysterectomy for benign indications using the National Surgical Quality Improvement Program data from 2014 to 2021. Exclusions were made for gynecologic or disseminated cancers, ascites, non-gynecologic surgeons, and cesarean hysterectomies. Primary outcome was major (>=Grade 3) 30-day complications, categorized into any complications, wound, cardiovascular and pulmonary, renal, infectious, andthromboembolic complications. Thirty-day readmissions, reoperations, and mortality were also analyzed. Propensity score matching was performed in a 1:1 match of GO to BG patients and was compared. Linear regressions assessed trends. RESULTS: Among 198,767 patients, 18% (n = 37,707) underwent hysterectomy for benign indications with GO. GO patients exhibited more risk factors for complications and differed significantly from BG patients in comorbidities and perioperative characteristics. Overall, GO patients had higher major complication rates (3.1% vs 2.2%, p < 0.001) and for several other composite complications. After matching, compared to BG, GO-performed hysterectomies had similar rates of major complications (3.0% vs 3.0%, p = 0.55) and no differences in other composite complications, except fewer reoperations (1.2 % vs 1.5%, p < 0.01) and wound complications (0.4% vs 0.5%, p = 0.02) in GO patients. Over the eight years, the percentage of GO-performed hysterectomy (b = 0.41, R(2) = 0.71,p < 0.01) increased significantly whereas BG-performed surgeries decreased by the same magnitude. BG had a significant decrease in frail patients (b = -0.47, R(2) = 0.90, p < 0.01), but GO did not (b = -0.36, R(2) = 0.38, p = 0.10). CONCLUSIONS: GO are performing more hysterectomies for benign indications on higher-risk patients. However, on a matched cohort, risks of major complications were similar between GO and BG."""
+
+

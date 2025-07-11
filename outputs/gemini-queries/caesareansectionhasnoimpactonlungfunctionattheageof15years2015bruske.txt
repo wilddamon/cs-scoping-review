@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionhasnoimpactonlungfunctionattheageof15years2015bruske
+"BACKGROUND: Epidemiological studies and meta-analyses have shown an increased risk of childhood asthma for children born by Caesarean Section (C-Section). OBJECTIVE: To investigate the effect of delivery by C-Section on lung function and asthma in adolescence in a population-based prospective birth cohort of healthy full term newborns. METHODS: Questionnaire data on mode of delivery and asthma as well as spirometric measurements were available for 1850 adolescents at the age of 15 years, who participated in a follow-up examination of the GINIplus study. Linear regression models were used to examine associations between mode of delivery and lung function parameters. Two reference populations (Lunokid and GLI) were used to calculate the standardized z-scores of lung function parameters. RESULTS: The mean difference in lung function parameters for adolescents born by C-Section, compared to vaginal delivery was not statistically significant. The risk for developing asthma by the age of 15 years was not higher in children born by C-Section-OR: 0.87 (95% CI: 0.57, 1.33) adjusted for sex, age, study center, and parental education level. CONCLUSION: C-Section was not associated with impaired lung function or an increased risk of asthma at the age of 15 years in our birth cohort of healthy full term neonates."""
+
+

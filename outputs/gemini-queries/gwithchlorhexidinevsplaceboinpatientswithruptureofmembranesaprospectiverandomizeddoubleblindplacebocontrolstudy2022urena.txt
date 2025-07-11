@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: preoperativevaginalcleansingwithchlorhexidinevsplaceboinpatientswithruptureofmembranesaprospectiverandomizeddoubleblindplacebocontrolstudy2022urena
+"BACKGROUND: XXX OBJECTIVE: This study aimed to demonstrate that vaginal cleansing with a 4% chlorhexidine solution before cesarean delivery in patients with a history of rupture of membranes prevents postoperative infectious complications (endometritis, surgical site infections). STUDY DESIGN: A total of 204 patients with premature rupture of membranes or who were in labor for more than 6 hours after membranes ruptured were randomized before a cesarean delivery to preoperative vaginal cleansing with a chlorhexidine solution (n=97 patients) or to placebo cleansing with saline solution (n=107 patients). The management of the rupture of membranes and the cesarean delivery procedure were conducted according to standard local protocols for both groups, including the use of antibiotics. RESULTS: Vaginal cleansing with chlorhexidine reduced the risk for endometritis after cesarean delivery in patients with rupture of membranes when compared with placebo cleansing (chlorhexidine, 7.21% vs placebo, 18.8%; relative risk, 0.39; 95% confidence interval, 0.17-0.87; P=.015). Likewise, there was a statistically significant reduction in the number of cases of puerperal fever (chlorhexidine, 9.28% vs placebo, 19.8%; relative risk, 0.47; 95% confidence interval, 0.23-0.98; P=.037). There was a statistical difference between the groups in prolongation of hospitalization for >72 hours (chlorhexidine, 1.03% vs placebo, 7.55%; relative risk, 0.14; 95% confidence interval, 0.02-1.08; P=.02), although the confidence interval suggests that the effect was by chance. There were no statistical differences in surgical site infection at 7 days (chlorhexidine, 1.03% vs placebo, 0.94%; relative risk, 1.1; 95% confidence interval, 0.07-17.4; P=.94) and 15 days after the procedure (chlorhexidine, 1.03% vs placebo, 0%; relative risk, 3.31 [using a continuity correction]; 95% confidence interval, 0.14-80.21; P=.29). CONCLUSION: The use of chlorhexidine for vaginal cleansing before a cesarean delivery in patients with rupture of membranes reduced the risk for endometritis and puerperal fever. It also reduced the number of cases that required hospitalization for more than 3 days, but the confidence interval suggests that it could be by chance. It has no effect on the number of cases with surgical site infection."""
+
+

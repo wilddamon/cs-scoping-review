@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: emergencydepartmentcareinthepostpartumperiodcaliforniabirths200920112017batra
+"OBJECTIVE: To use population data to identify patient characteristics associated with a postpartum maternal emergency department visit within 90 days of discharge after birth. METHODS: This retrospective cross-sectional study analyzed linked maternal discharge and emergency department data for all live California births from 2009 to 2011. The primary outcome was at least one emergency department visit within 90 days of hospital discharge after birth. Secondary outcomes included three or more visits within 90 days ('high utilization') and inpatient readmission. Independent variables included demographics (age, race or ethnicity, payer, income) and clinical characteristics (length of stay, antepartum complications, mode of delivery, and severe maternal morbidity at delivery). Multilevel logistic regression identified variables associated study outcomes; we validated the predictive model with a split-sample approach and receiver operating characteristic curve analysis. RESULTS: Of 1,071,232 deliveries included, 88,674 women (8.3%) visited the emergency department at least once in the 90 days after delivery discharge. Emergency department use was significantly associated with Medicaid insurance (adjusted odds ratio [OR] 2.15, 95% CI 2.08-2.21), age younger than 20 years (adjusted OR 2.08, 95% CI 1.98-2.19), severe maternal morbidity at delivery (adjusted OR 1.58, 95% CI 1.49-1.71), antepartum complications (adjusted OR 1.46, 95% CI 1.42-1.50), and cesarean delivery (adjusted OR 1.40, 95% CI 1.37-1.44). Approximately one fifth of visits occurred within 4 days of discharge, and more than half were within 3 weeks. High utilizers comprised 0.5% of the entire sample (5,171 women) and only 1.2% of women presenting for emergency department care were readmitted. Receiver operating curve model analysis using the validation sample supported predictive accuracy for postpartum emergency department use (area under the curve=0.95). CONCLUSION: One in 12 California women visited the emergency department in the first 90 days after postpartum discharge. Women at increased risk for postpartum emergency department use per our validated model (eg, low income, birth complications) may benefit from earlier scheduled postpartum visits."""
+
+

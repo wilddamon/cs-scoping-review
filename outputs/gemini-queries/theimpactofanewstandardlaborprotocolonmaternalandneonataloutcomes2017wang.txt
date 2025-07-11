@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofanewstandardlaborprotocolonmaternalandneonataloutcomes2017wang
+"PURPOSE: To analyze the clinical outcomes following the implementation of a new standard labor procedure. METHODS: This was a retrospective analysis that included a study group consisting of patients managed based on a new standard labor protocol and a control group comprising patients managed under an old standard labor protocol. The following maternal and perinatal outcomes were compared in the two groups: the indications for a cesarean section and the incidence of cesarean section, postpartum hemorrhage, fetal distress, neonatal asphyxia and pediatric intervention. We also compared the average number of days spent in the hospital, the incidence of medical disputes and hospitalization expenses. RESULTS: The cesarean section rates for the study and control groups were 19.29% (401/2079) and 33.53% (753/2246), respectively (P < 0.05). The main indications for a cesarean section in the study group were arrest of the active phase of labor, fetal distress and intrapartum fever; the percentages of each indication were significantly different from those of the control group (P < 0.001). The rates of postpartum hemorrhage in the study group and control group were 7.74% (130/1678) and 8.1% (121/1493), respectively (P = 0.710). The incidence rates of severe perineal lacerations were 0.48% (8/1678) for the study group and 0.2% (3/1493) for the control group (P = 0.187). The rates of forceps use were 4.29% (72/1678) in the study group and 2.41% (36/1493) in the control group (P = 0.004). The incidence rate of fetal distress in the study group was 6.24% (169/2709) and 4.67% (105/2246) (P = 0.006) in the control group. No significant difference was observed in the incidence of neonatal asphyxia and pediatric interventions between the two groups (0.74% (20/2709) vs. 8.12% (220/2709) and 17 (0.76%) vs. 161 (7.17%), respectively). The average length of hospital stay was 4.74 +- 1.15 and 2.13 +- 1.23 days (P < 0.01). The incidence of medical disputes was significantly different between the two groups: 1.44% (30/2079) in the study group and 0.53% (12/2246) in the control group (P < 0.01). The hospitalization expenses were 5401.29 +- 296.33 yuan in the study group and 5253.53 +- 3655.79 yuan in the control group (P = 0.06). CONCLUSIONS: The implementation of the new labor protocol reduced the cesarean section rate without negatively impacting maternal and neonatal outcomes. In practice, bed turnover and the hospital utilization rate should be better controlled, patient-doctor communication should be strengthened and the quality of obstetrical service should be improved."""
+
+

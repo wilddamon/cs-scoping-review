@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsofmoreseverehypotensionafterspinalanesthesiaforcesareansection2024li
+"BACKGROUND: The aim of this study was to examine the risk factors associated with the use of vasopressors to prevent hypotension that occurs after spinal anesthesia during cesarean section. Although the prophylactic use of vasopressors is already suggested as routine care in many parts of the world, the occurrence of spinal anesthesia-induced hypotension (SAIH) is still common in parturients. METHODS: This retrospective study included parturients receiving elective cesarean deliveries under spinal anesthesia from April 2016 to March 2020. Risk factors related to ephedrine dosage were analyzed using a hurdle model, and risk factors related to SAIH were further analyzed with logistic regression. RESULTS: Five risk factors, namely maternal body mass index (BMI, p < 0.001), baseline systolic blood pressure (SBP, p < 0.001), baseline heart rate (HR, p = 0.047), multiparity ( p = 0.003), and large fetal weight ( p = 0.005) were significantly associated with the requirement for ephedrine. Furthermore, a higher ephedrine dosage was significantly associated with maternal BMI ( p < 0.001), baseline SBP ( p < 0.001), baseline HR ( p < 0.001), multiparity ( p = 0.027), large fetal weight ( p = 0.030), maternal age ( p = 0.009), and twin pregnancies ( p < 0.001). Logistic regression analysis also showed that the same five risk factors-maternal BMI ( p = 0.030), baseline SBP ( p < 0.001), baseline HR ( p < 0.001), multiparity ( p < 0.001), and large fetal weight ( p < 0.001)-were significantly associated with SAIH, even in cases where vasopressors were administered. CONCLUSION: These findings can be useful for clinicians when deciding the dose of prophylactic ephedrine or phenylephrine to prevent SAIH."""
+
+

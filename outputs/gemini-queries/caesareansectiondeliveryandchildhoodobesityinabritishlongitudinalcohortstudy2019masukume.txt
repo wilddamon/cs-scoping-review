@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectiondeliveryandchildhoodobesityinabritishlongitudinalcohortstudy2019masukume
+"BACKGROUND: Several studies reported an association between Caesarean section (CS) birth and childhood obesity. However, there are several limitations in the current literature. These include an inability to distinguish between planned and emergency CS, small study sample sizes and not adjusting for pre-pregnancy body-mass-index (BMI). We examined the association between CS delivery and childhood obesity using the United Kingdom Millennium Cohort Study (MCS). METHODS: Mother-infant pairs were recruited into the MCS. Use of sampling weights ensured the sample was representative of the population. The exposure was categorised as normal vaginal delivery (VD) [reference], assisted VD, planned CS and emergency CS. Childhood obesity prevalence, at age three, five, seven, eleven and fourteen years was calculated using the International Obesity Taskforce criteria. Mixed-effects linear regression models were fitted with associations adjusted for several potential confounders like maternal age, pre-pregnancy BMI, education and infant macrosomia. Linear regression models were fitted evaluating body fat percentage (BF%), at age seven and fourteen years. RESULTS: Of the 18,116 infants, 3872 (21.4%) were delivered by CS; 9.2% by planned CS. Obesity prevalence was 5.4%, 5.7%, 6.5%, 7.1% and 7.6% at age three, five, seven, eleven and fourteen years respectively. The mixed-effects linear regression model showed no association between planned (adjusted mean difference = 0.00; [95% confidence interval (CI) -0.10; 0.10], p-value = 0.97) or emergency CS (adjusted mean difference = 0.08; [95% CI -0.01; 0.17], p-value = 0.09) and child BMI. At age seven years, there was no association between planned CS and BF% (adjusted mean difference = 0.13; [95% CI -0.23; 0.49]); there was no association at age fourteen years. CONCLUSIONS: Infants born by planned CS did not have a significantly higher BMI or BF% compared to those born by normal VD. This may suggest that the association, described in the literature, could be due to the indications/reasons for CS birth or residual confounding."""
+
+

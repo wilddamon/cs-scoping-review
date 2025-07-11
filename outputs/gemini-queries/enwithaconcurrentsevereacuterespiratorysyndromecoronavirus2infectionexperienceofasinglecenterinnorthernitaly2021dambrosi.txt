@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: managementofgestationaldiabetesinwomenwithaconcurrentsevereacuterespiratorysyndromecoronavirus2infectionexperienceofasinglecenterinnorthernitaly2021dambrosi
+"OBJECTIVE: In this study we describe the management of women with gestational diabetes (GD) and an ongoing severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. The aim of the study is to evaluate whether coronavirus disease 2019 (COVID-19) can further complicate pregnancies, and if the protocol we usually use for GD pregnancies is also applicable to patients who have contracted a SARS-CoV-2 infection.;METHODS: This is a retrospective study analyzing all pregnant women with GD and concomitant COVID-19 admitted to our institution for antenatal care between March 1 and April 30, 2020.;RESULTS: Among pregnant women with GD and a concomitant SARS-CoV-2 infection, the mean age was 32.9 (SD 5.6) years. Two patients (33%) were of white racial origin and four (67%) were of non-white racial origin. All patients were diagnosed with COVID-19 during the third trimester of pregnancy. Two women were asymptomatic and four were symptomatic. Only two (33.3%) women received treatment with insulin. None of the patients required intensive care or mechanical ventilation. No complications were found among the neonates.;CONCLUSION: COVID-19 was not found to worsen the prognosis of patients with GD or of their offspring. Glycemic monitoring, diet therapy, and insulin, when needed, are sufficient for good metabolic control and favorable maternal and fetal outcomes. Copyright (c) 2020 International Federation of Gynecology and Obstetrics."""
+
+

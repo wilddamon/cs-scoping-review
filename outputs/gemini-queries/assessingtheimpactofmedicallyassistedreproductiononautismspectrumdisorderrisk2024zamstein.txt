@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessingtheimpactofmedicallyassistedreproductiononautismspectrumdisorderrisk2024zamstein
+"PURPOSE: Techniques of medically assisted reproduction interact with the embryo at crucial developmental stages, yet their impact on the fetus and subsequent child's health remains unclear. Given rising infertility rates and more frequent use of fertility treatments, we aimed to investigate if these methods heighten the risk of autism spectrum disorder (ASD) in children.;METHODS: A population-based cohort study was conducted at Soroka University Medical Center, a tertiary referral hospital, encompassing singleton births. The incidence of ASD in offspring, incorporating either hospital or community-based diagnoses, was compared in relation to the conception method. To examine the cumulative incidence of ASD, a Kaplan-Meier survival curve was utilized. Cox proportional hazards model was employed to adjust for confounders.;RESULTS: Among 115,081 pregnancies, 0.5% involved ovulation induction (OI) and 1.7% in vitro fertilization (IVF), with the rest conceived naturally. Fertility treatments were more common in older patients and linked to more diabetes, hypertensive disorders, preterm, and cesarean deliveries. Out of 767 ASD diagnoses, offspring from OI and IVF had higher initial ASD rates (2.1% and 1.3%) than natural conceptions (0.6%). In a Cox model accounting for maternal age, ethnicity, and gender, neither OI nor IVF was significantly associated with ASD. The adjusted hazard ratios were 0.83 (95% CI 0.48-1.43) for OI and 1.34 (95% CI 0.91-1.99) for IVF. When considering fertility treatments combined, the association with ASD remained non-significant (aHR 1.11, 95% CI 0.80-1.54, p = 0.52).;CONCLUSION: Fertility treatments, including OI and IVF, do not exhibit a significant association with heightened ASD risk in offspring. Copyright (c) 2024. The Author(s)."""
+
+

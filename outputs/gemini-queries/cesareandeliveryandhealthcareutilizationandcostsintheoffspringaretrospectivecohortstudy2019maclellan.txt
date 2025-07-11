@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryandhealthcareutilizationandcostsintheoffspringaretrospectivecohortstudy2019maclellan
+"OBJECTIVE: To examine the association between cesarean delivery and healthcare utilization and costs in offspring from birth until age 7 years. STUDY DESIGN: A retrospective cohort study of singleton term births in the Canadian province of Nova Scotia between 2003 and 2007 followed until age 7 years was conducted using data from the Nova Scotia Atlee Perinatal Database and administrative health data. The main exposure was mode of delivery (cesarean delivery vs vaginal birth); the outcome was healthcare utilization and costs during the first 7 years of life. Associations were modeled using multiple regression adjusting for maternal prepregnancy weight and sociodemographic factors. RESULTS: In total, 32 464 births were included in the analysis. Compared with children born by vaginal birth, children born by cesarean delivery had more physician visits (incidence rate ratio 1.06, 95% CI 1.05-1.08) and longer hospital stays (incidence rate ratio 1.12, 95% CI 1.03-1.21) and were more likely to be high utilizers of physician visits (OR 1.23, 95% CI 1.10-1.37). Physician and hospital costs were $775 higher for children born by cesarean delivery compared with vaginal birth. CONCLUSIONS: Cesarean delivery compared with vaginal birth is associated with small but statistically significant increases in healthcare utilization and costs during the first 7 years of life."""
+
+

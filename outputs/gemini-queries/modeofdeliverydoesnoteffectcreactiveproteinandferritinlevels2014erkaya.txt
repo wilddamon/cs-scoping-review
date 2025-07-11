@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofdeliverydoesnoteffectcreactiveproteinandferritinlevels2014erkaya
+"Objective: C-reactive protein (CRP), a marker of systemic inflammation, increases rapidly in ischemia or traumatic injury. Ferritin, an acute phase reactant, has been found to be elevated in many chronic inflammation-related diseases. The aim of the present prospective study was to investigate and compare serum CRP and ferritin levels after vaginal birth and cesarean section. Method(s): One hundred sixty pregnant women who gave birth in our hospital were included in the study. Vaginal birth (n=80) and cesarean section (n=80) groups were matched for age and gestational age. In all subjects, CRP and plasma levels of ferritin were determined. Result(s): Maternal age, gestational age and body mass index were not significantly different between the groups. Ferritin levels were similar in vaginal birth and cesarean section subjects. There were also no significant differences in serum concentrations of CRP between the two groups. Serum CRP was 5.8 +/- 3.7mg/L in vaginal birth group and 7.0 +/- 6.8mg/L in cesarean section group (p=0.190). Conclusion(s): In conclusion, our findings reveal that mode of delivery has no effect on the acute-phase proteins namely, ferritin and CRP."""
+
+

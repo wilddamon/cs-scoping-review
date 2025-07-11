@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: validationofupdatedantenatalvaginalbirthaftercaesareansectionpredictionmodelwithoutraceandethnicityinaustralia2023liu
+"BACKGROUND: The Grobman antenatal nomogram to predict likelihood of successful vaginal birth after caesarean section (VBAC) has been validated in multiple institutions. However, due to concerns regarding inclusion of ethnicity, a new nomogram has been developed. AIM: The aim was to evaluate the efficacy of the updated Grobman nomogram without ethnicity in a regional hospital in Australia. MATERIALS AND METHODS: This was a retrospective cohort study of women electing to have a VBAC at a regional hospital over a nine-year period. Maternal demographics and obstetric outcomes were collected. Women were assigned a predicted likelihood of successful VBAC using the updated Grobman nomogram, with variables such as age, pre-pregnancy weight, height and arrest disorder as indications for previous caesarean birth, previous vaginal birth, previous VBAC and treated chronic hypertension. The predicted likelihood of successful VBAC was compared with actual successful VBAC rates. RESULTS: A total of 541 women attempted VBAC with a VBAC success rate of 74.3% (402/541). The nomogram demonstrated good fit, with a receiver operating curve area under the curve of 0.707 (95% confidence interval 0.659-0.755). Using a cut-off value of 0.5, the success rate of classification with this model was 74.3%. On comparing each predicted decile, the nomogram performed poorly in those predicted to have a <40% chance of successful VBAC. CONCLUSIONS: This study confirms the use of the updated Grobman nomogram without ethnicity, alongside usual counselling, to provide individualised advice for informed decision-making. However, clinicians should be mindful of the limitation of poor accuracy in women with a low predicted probability of VBAC."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectivenessofartificialintelligenceinassistingmotherswithassessinginfantstoolconsistencyinabreastfeedingcohortstudyinchina2024wu
+"Breastfeeding is widely recognized as the gold standard for infant nutrition, benefitting infants' gastrointestinal tracts. Stool analysis helps in understanding pediatric gastrointestinal health, but the effectiveness of automated fecal consistency evaluation by parents of breastfeeding infants has not been investigated. Photographs of one-month-old infants' feces on diapers were taken via a smartphone app and independently categorized by Artificial Intelligence (AI), parents, and researchers. The accuracy of the evaluations of the AI and the parents was assessed and compared. The factors contributing to assessment bias and app user characteristics were also explored. A total of 98 mother-infant pairs contributed 905 fecal images, 94.0% of which were identified as loose feces. AI and standard scores agreed in 95.8% of cases, demonstrating good agreement (intraclass correlation coefficient (ICC) = 0.782, Kendall's coefficient of concordance W (Kendall's W) = 0.840, Kendall's tau = 0.690), whereas only 66.9% of parental scores agreed with standard scores, demonstrating low agreement (ICC = 0.070, Kendall's W = 0.523, Kendall's tau = 0.058). The more often a mother had one or more of the following characteristics, unemployment, education level of junior college or below, cesarean section, and risk for postpartum depression (PPD), the more her appraisal tended to be inaccurate (p < 0.05). Each point increase in the Edinburgh Postnatal Depression Scale (EPDS) score increased the deviation by 0.023 points (p < 0.05), which was significant only in employed or cesarean section mothers (p < 0.05). An AI-based stool evaluation service has the potential to assist mothers in assessing infant stool consistency by providing an accurate, automated, and objective assessment, thereby helping to monitor and ensure the well-being of infants."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: racialandethnicinequitiesincesareanbirthandmaternalmorbidityinalowrisknulliparouscohort2022debbink
+"OBJECTIVE: To evaluate race and ethnicity differences in cesarean birth and maternal morbidity in low-risk nulliparous people at term. METHODS: We conducted a secondary analysis of a randomized trial of expectant management compared with induction of labor in low-risk nulliparous people at term. The primary outcome was cesarean birth. Secondary outcome was maternal morbidity, defined as: transfusion of 4 or more units of red blood cells, any transfusion of other products, postpartum infection, intensive care unit admission, hysterectomy, venous thromboembolism, or maternal death. Multivariable modified Poisson regression was used to evaluate associations between race and ethnicity, cesarean birth, and maternal morbidity. Indication for cesarean birth was assessed using multivariable multinomial logistic regression. A mediation model was used to estimate the portion of maternal morbidity attributable to cesarean birth by race and ethnicity. RESULTS: Of 5,759 included participants, 1,158 (20.1%) underwent cesarean birth; 1,404 (24.3%) identified as non-Hispanic Black, 1,670 (29.0%) as Hispanic, and 2,685 (46.6%) as non-Hispanic White. Adjusted models showed increased relative risk of cesarean birth among non-Hispanic Black (adjusted relative risk [aRR] 1.21, 95% CI 1.03-1.42) and Hispanic (aRR 1.26, 95% CI 1.08-1.46) people compared with non-Hispanic White people. Maternal morbidity affected 132 (2.3%) individuals, and was increased among non-Hispanic Black (aRR 2.05, 95% CI 1.21-3.47) and Hispanic (aRR 1.92, 95% CI 1.17-3.14) people compared with non-Hispanic White people. Cesarean birth accounted for an estimated 15.8% (95% CI 2.1-48.7%) and 16.5% (95% CI 4.0-44.0%) of excess maternal morbidity among non-Hispanic Black and Hispanic people, respectively. CONCLUSION: Non-Hispanic Black and Hispanic nulliparous people who are low-risk at term undergo cesarean birth more frequently than low-risk non-Hispanic White nulliparous people. This difference accounts for a modest portion of excess maternal morbidity."""
+
+

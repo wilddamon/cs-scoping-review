@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancieswithanoutcomeoffetaldeathpresenthigherriskofdelaysinobstetriccareacasecontrolstudy2019martins
+"The objective of this study was identify the association between delays in the care provided to pregnant women and the fetal death outcome, in a tertiary reference maternity hospital in the Northeastern Brazil. A case-control study, with 72 cases of fetal death and 144 controls (live births) in women admitted to the Obstetrics Service of the Assis Chateaubriand Teaching Maternity Hospital, in Fortaleza, Ceara. Controls were matched (2:1) by the approximate gestational age of the case. The groups were compared using the three delays model of obstetric care. The Pearson's Chi-square test and the Fisher's exact test were used to compare the groups. P <0.05 was considered statistically significant. The Group with fetal death had a smaller number of prenatal consultations (> 6 consultations: 27.8% in cases, 40.3% in controls, p = 0.003), less risk classification of pregnancy (41.7% vs 55.9%, p = 0.048), less guidance about the health facility for delivery (44.5% vs 64%, p = 0.009), lower frequency of cesarean sections (25.4% vs 65.7%) and higher frequency of hemorrhagic syndromes (33.3% vs 19.4%, p = 0.024) and syphilis (15.3% vs 4.2%, p = 0*004). Variables that persisted significantly associated with fetal death in the logistic regression were: Refusal of assistance (OR = 4.07, IC 95%: 1.08-15.3), Absence or inadequacy of prenatal care (OR = 2.69, IC 95%: 1.07-6.75), Delay in diagnosis (OR = 10.3, IC 95%: 2.58-41.4) and Inadequate patient conduct (OR = 4.88; IC 95%: 1.43-16.6). Despite of having a higher frequency of obstetric complications, gestations with fetal death are more prone to delays in obstetric care."""
+
+

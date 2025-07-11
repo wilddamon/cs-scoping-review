@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithdifferentlevelsofpostpartumhemorrhageinpatientsexperiencingbloodtransfusionduringcesareansection2016huang
+"Objective: This study aimed to examine risk factors correlated with different levels of blood loss during cesarean section (CS), with an emphasis on massive obstetric hemorrhage. Method(s): A retrospective study was conducted involving 271 women who experienced postpartum hemorrhage (PPH) during CS from January 2006 to December 2013: Based on the volume of blood loss during CS, these women were divided into 3 groups: low (<1500 ml), moderate (>=1500 ml and <3000 ml) and massive (>=3000 ml). All cases received packed red blood cell (PRBC) transfusions. Risk factors were compared between the low and moderate, low and massive, and moderate and massive PPH groups. Result(s): Women with placenta previa (PP) were more likely to have moderate bleeding (adjusted odds ratio [aOR], 2.947; 95% confidence interval [CI], 1.336-6.498) but less likely to have massive bleeding (aOR, 2.322; 95% CI, 0.854-6.310). Placenta accreta may increase the risk of moderate (aOR, 2.358; 95% CI, 1.130-5.397) or massive PPH (aOR, 3.242; 95% CI, 1.209-8.692). Pernicious placenta previa (PPP) significantly increased the risk of massive bleeding (aOR, 20.234; 95% CI, 3.617-113.250). Conclusion(s): Various risk factors are associated with the severity of PPH. In particular, PPP was a significant indicator of massive PPH.Copyright (c) 2016, E-Century Publishing Corporation. All rights reserved."""
+
+

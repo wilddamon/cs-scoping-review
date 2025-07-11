@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incisionalherniarepairaftercaesareansectionapopulationbasedstudy2015shand
+"BACKGROUND: Incisional hernias occur at surgical abdominal incision sites, but the association with caesarean section (CS) has not been examined. AIM: To determine whether CS is a risk factor for incisional hernia repair. MATERIALS AND METHODS: Population-based cohort study in Australia using linked birth and hospital data for women who gave birth from 2000 to 2011. Survival analysis was used to explore the association between CS and subsequent incisional hernia repair. Analyses were adjusted for confounding factors, including other abdominal surgery. The main outcome measure was surgical repair of an incisional hernia. RESULTS: Of 642,578 women, 217,555 (33.9%) had at least one CS and 1,554 (0.2%) women had a subsequent incisional hernia repair. The rate of incisional hernia repair in women who had ever had a caesarean section was 0.47%, compared to 0.12% in women who never had a caesarean section. After controlling for the duration of follow-up and known explanatory variables (eg other abdominal surgery, parity and multiple pregnancy), the adjusted hazard ratio (aHR) was 2.73 (95% confidence interval (CI) 2.45-3.06, P < 0.001). Incisional hernia repair risk increased with number of caesarean sections: women with two CS had a threefold increased risk of incisional hernia repair, which increased to sixfold after five CS (aHR = 6.29, 95% CI 3.99-9.93, P < 0.001) compared to women with no CS. CONCLUSIONS: There was a strong association between maternal CS and subsequent incisional hernia repair, which increased as the number of CSs increased, but the absolute risk of incisional hernia repair was low."""
+
+

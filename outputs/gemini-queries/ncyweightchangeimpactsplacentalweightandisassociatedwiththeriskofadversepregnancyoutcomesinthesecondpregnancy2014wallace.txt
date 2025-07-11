@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: interpregnancyweightchangeimpactsplacentalweightandisassociatedwiththeriskofadversepregnancyoutcomesinthesecondpregnancy2014wallace
+"BACKGROUND: The inter-pregnancy period is considered a teachable moment when women are receptive to weight- management guidance aimed at optimising pregnancy outcome in subsequent pregnancies. In population based studies inter-pregnancy weight change is associated with several adverse pregnancy outcomes but the impact on placental size is unknown.;METHODS: The association between inter-pregnancy weight change and the primary risk of adverse pregnancy outcomes in the second pregnancy was investigated in 12,740 women with first two consecutive deliveries at a single hospital using logistic regression.;RESULTS: Compared with women who were weight stable, weight loss (>1BMI unit) between pregnancies was associated with an increased risk of spontaneous preterm delivery, low placental weight and small for gestational age (SGA) birth, while weight gain (>3BMI units) increased the risk of pre-eclampsia, gestational hypertension, emergency caesarean section, placental oversize and large for gestational age (LGA) birth at the second pregnancy. The relationship between weight gain and pre-eclampsia risk was evident in women who were overweight at first pregnancy only (BMI >=25 units), while that between weight loss and preterm delivery was confined to women with a healthy weight at first pregnancy (BMI <25 units). In contrast, the association between weight loss and SGA was independent of first pregnancy BMI. A higher percentage of women who were obese at first pregnancy were likely to experience a large weight gain (P < 0.01) or weight loss (P < 0.001) between consecutive pregnancies compared with the normal BMI reference group.;CONCLUSION: Inter-pregnancy weight change in either direction increases the risk of a number of contrasting pregnancy complications, including extremes of placental weight. The placenta may lie on the causal pathway between BMI change and the risk of LGA or SGA birth."""
+
+

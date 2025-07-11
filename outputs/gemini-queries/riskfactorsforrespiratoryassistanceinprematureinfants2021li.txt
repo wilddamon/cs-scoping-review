@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforrespiratoryassistanceinprematureinfants2021li
+"Premature infants are prone to dyspnea after birth due to immature development, and some infants require respiratory assistance. However, the risk factors for respiratory assistance in premature infants are rarely reported. The present study enrolled 3,394 premature infants (665 infants had been provided with respiratory assistance and 2,729 had not used respiratory assistance) to retrospectively analyze the risk factors associated with respiratory aid. The multivariate logistic regression analysis demonstrated that placental abnormality [odds ratio (OR)=1.284; P=0.048], the male sex (OR=0.696; P=0.001), delivery via cesarean section (OR=1.538; P<0.001), low 1-min Apgar score (OR=0.727; P<0.001), low birth weight (OR=0.999; P=0.005) and low gestational age (OR=0.616; P<0.001) were independent risk factors for respiratory assistance in premature infants. Overall, a number of risk factors, including placental abnormality, cesarean section, low 1-min Apgar score, low birth weight and small gestational age, were identified for respiratory assistance in premature infants. By conducting a risk assessment of risk factors at birth and using this information to provide timely respiratory assistance, the survival rates of premature infants may increase."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveriesandmaternalweightretention2017kapinos
+"BACKGROUND: Cesarean delivery accounts for nearly one-third of all births in the U.S. and contributes to an additional $38 billion in healthcare costs each year. Although Cesarean delivery has a long record of improving maternal and neonatal mortality and morbidity, increased utilization over time has yielded public health concerns and calls for reductions. Observational evidence suggests Cesarean delivery is associated with increased maternal postpartum weight, which may have significant implications for the obesity epidemic. Previous literature, however, typically does not address selection biases stemming from correlations of pre-pregnancy weight and reproductive health with Cesarean delivery. METHODS: We used fetal malpresentation as a natural experiment as it predicts Cesarean delivery but is uncorrelated with pre-pregnancy weight or maternal health. We used hospital administrative data (including fields used in vital birth record) from the state of Wisconsin from 2006 to 2013 to create a sample of mothers with at least two births. Using propensity score methods, we compared maternal weight prior to the second pregnancy of mothers who delivered via Cesarean due to fetal malpresentation to mothers who deliver vaginally. RESULTS: We found no evidence that Cesarean delivery in the first pregnancy causally leads to greater maternal weight, BMI, or movement to a higher BMI classification prior to the second pregnancy. CONCLUSIONS: After accounting for correlations between pre-pregnancy weight, gestational weight gain, and mode of delivery, there is no evidence of a causal link between Cesarean delivery and maternal weight retention."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectionisassociatedwithincreasedriskofpostpartumdepressivesymptomsinjapanthekyushuokinawamaternalandchildhealthstudy2021yokoyama
+"BACKGROUND: The association between cesarean section and the risk of postpartum depressive symptoms remains controversial. The present prebirth cohort study examined this issue in Japan. METHODS: Study subjects were 1310 women. Information under study was obtained using a self-administered questionnaire. Postpartum depressive symptoms were defined as a total Edinburgh Postnatal Depression Scale score of nine or higher between three and four months postpartum. Multivariate logistic regression analysis was used to adjust for age, body mass index, gestational weeks at baseline, gestational weeks at delivery, number of children at baseline, previous miscarriage or stillbirth, previous abortion, history of depression, family history of depression, region of residence, employment status, educational level, household income, family structure, breastfeeding status, smoking during pregnancy, infant's birthweight, and infant's sex. RESULTS: Postpartum depressive symptoms were identified in 8.2%. After adjustment for the confounding factors, compared with vaginal delivery, cesarean section was independently associated with an increased risk of postpartum depressive symptoms: the adjusted odds ratio (OR) was 1.95 (95% confidence interval [CI]: 1.16-3.23). This positive association was more apparent among those who had no other children at baseline than among those who already had one or more children: the adjusted ORs were 2.94 (95% CI: 1.35-6.26) and 1.45 (95% CI: 0.68-2.92), respectively; however, this interaction was not significant. LIMITATIONS: Information on whether each cesarean section was emergency or elective and other obstetric complications was not available. CONCLUSIONS: Cesarean section may be associated with an increased risk of postpartum depressive symptoms, especially among women without children at baseline."""
+
+

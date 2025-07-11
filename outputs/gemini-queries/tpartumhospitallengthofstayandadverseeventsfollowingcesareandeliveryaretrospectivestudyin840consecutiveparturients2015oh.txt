@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofanestheticpredictorsonpostpartumhospitallengthofstayandadverseeventsfollowingcesareandeliveryaretrospectivestudyin840consecutiveparturients2015oh
+"BACKGROUND: Cesarean deliveries are increasing, and associated postoperative adverse events are extending hospitalizations. The aims of the present study were to analyze the role of anesthestic predictors during cesarean delivery on the incidences of extended postpartum hospital length of stay (>4 postoperative days) and adverse events. METHODS: The medical records of 840 consecutive patients who underwent cesarean delivery during a 1-year period were abstracted. Previously reported anesthetic predictors underwent recursive partitioning with 5-fold cross-validation and with LogWorth values >=2.0 statistically significant at the <0.01 level. RESULTS: In this study of 840 cesarean delivery patients, 120 parturients (14.3%; confidence interval 12.1%-16.8%) experienced extended postpartum hospital length of stay (>4 hospital days). One anesthetic predictor associated with extended postpartum hospital length of stay was type of anesthetic technique: a 25.6% incidence in parturients receiving general or epidural anesthesia compared to a 9.6% incidence in parturients receiving either spinal or combined spinal-epidural anesthesia (LogWorth value of 7.3). When the amount of intravenous fluids intraoperatively administered to Americian Society of Anesthesiologists Physical Status III and IV parturients was >=2,000 mL, the incidence of extended postpartum hospital length of stay decreased from a baseline value of 30.0% to 17.3% (LogWorth value of 2.8). The incidence of adverse events ranged from 0%-5.0%. All regional anesthetic techniques were significantly associated with a decreased incidence of adverse events: 0.7% with spinal anesthesia, 1.9% with epidural anesthesia, and 3.2% with combined spinal-epidural anesthesia when compared to the 51.4% incidence associated with general anesthesia (LogWorth value of 4.0). CONCLUSION: These findings suggest that type of anesthetic technique and amount of intraoperative fluids administered during cesarean delivery have important effects on the incidences of extended postpartum hospital length of stay and adverse events following cesarean delivery."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparativestudyofcircularopeningandconcentricsuturingcesareansectionwithstandardlowersegmentcesareansection2015shinde
+"Introduction: Cesarean section is one of the most commonly performed surgeries in the world. Because of the huge numbers, even a small improvement in technique can cause a significant impact on the morbidity rates and cost burden. Objectives: (1) To study the feasibility of an innovative technique, circular opening and concentric suturing (COCS) method of cesarean operation. (2) To compare this novel technique with standard lower segment cesarean section (LSCS). (3) To study the merits and demerits of this technique. Design: A prospective comparative study was performed in a single unit of Obstetrics and Gynecology Department at a tertiary hospital for 3 years. Materials and Methods: Patients were recruited with well-defined inclusion and exclusion criteria and they were divided into two groups with 30 patients in each group: one operated by standard LSCS and the other operated by the 'circular opening method.' Result: The time to baby delivery after uterine incision measured in seconds was 18.7+-2.95 seconds in group 1 and 19.0+-2.76 seconds in group 2 and the difference was not statistically significant ( p=0.720), whereas the time to uterine closure after baby delivery was less in the COCS group (8.2+-1.41 minutes) than in the LSCS group (9.6+-1.74 minutes) and was statistically significant ( p=0.001). This suggests that the innovative technique of COCS does not delay the baby delivery and it requires less uterine closure time. Conclusion: From this study we conclude that this novel method is feasible. There are no demerits, but the subsequent behavior of scar in future pregnancies needs to be studied. (J GYNECOL SURG 31:318)"""
+
+

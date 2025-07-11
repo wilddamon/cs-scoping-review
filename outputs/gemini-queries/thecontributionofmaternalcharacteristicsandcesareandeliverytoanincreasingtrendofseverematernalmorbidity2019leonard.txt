@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thecontributionofmaternalcharacteristicsandcesareandeliverytoanincreasingtrendofseverematernalmorbidity2019leonard
+"BACKGROUND: Severe maternal morbidity - life-threatening childbirth complications - has more than doubled in the United States over the past 15 years, affecting more than 50,000 women (1.4% of deliveries) annually. During this time period, maternal age, obesity, comorbidities, and cesarean delivery also increased and may be related to the rise in severe maternal morbidity. We sought to evaluate: (1) the association of advanced maternal age, pre-pregnancy obesity, pre-pregnancy comorbidities, and cesarean delivery with severe maternal morbidity, and (2) whether changes in the prevalence of these risk factors affected the trend of severe maternal morbidity. METHODS: This population-based cohort study used linked birth record and patient discharge data from live births in California during 2007-2014 (n = 3,556,206). We used multivariable logistic regression models to assess the association of advanced maternal age (>=35 years), pre-pregnancy obesity (body mass index >=30 kg/m(2)), pre-pregnancy comorbidity (index of 12 conditions), and cesarean delivery with severe maternal morbidity prevalence and trends. Severe maternal morbidity was identified by an index of 18 diagnosis and procedure indicators. We estimated odds ratios, predicted prevalence, and population attributable risk percentages. RESULTS: The prevalence of severe maternal morbidity increased by 65% during 2007-2014. Advanced maternal age, pre-pregnancy obesity, and pre-pregnancy comorbidity also increased during this period, but cesarean delivery did not. None of these risk factors affected the increasing trend of severe maternal morbidity. However, the pre-pregnancy risk factors together were estimated to contribute to 13% (95% confidence interval: 12, 14%) of severe maternal morbidity cases in the study population overall, and cesarean delivery was estimated to contribute to 37% (95% confidence interval: 36, 38%) of cases. CONCLUSIONS: Pre-pregnancy health and cesarean delivery are important risk factors for severe maternal morbidity but do not explain an increasing trend of severe maternal morbidity in California during 2007-2014. Investigation of other potential contributors is needed in order to identify ways to reverse the trend of severe maternal morbidity."""
+
+

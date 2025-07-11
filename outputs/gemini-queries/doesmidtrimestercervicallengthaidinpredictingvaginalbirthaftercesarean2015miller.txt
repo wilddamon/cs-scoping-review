@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesmidtrimestercervicallengthaidinpredictingvaginalbirthaftercesarean2015miller
+"OBJECTIVE: A longer midtrimester cervical length (CL) is associated with an increased chance of cesarean delivery, but CL has not been used to predict the chance of successful trial of labor after cesarean delivery (TOLAC). The objective of this study was to identify whether midtrimester CL improves the prediction of vaginal birth after cesarean delivery (VBAC) among women undergoing a TOLAC.;STUDY DESIGN: Women with 1 prior cesarean and a singleton gestation in the vertex position who had a routine CL assessment between 18 and 24 weeks and chose to undergo a TOLAC were identified. Midtrimester CL and characteristics identifiable in early prenatal care that have been used in a validated predictive model for VBAC (ie, age, body mass index, race/ethnicity, prior vaginal delivery, prior VBAC, and indication for prior cesarean delivery) were abstracted from the medical record. Multivariable regressions with VBAC as the dependent variable, with and without CL, were created and their predictive capacity compared using receiver-operating characteristic curves and reclassification tables.;RESULTS: Of the 678 women who met inclusion criteria, 517 (76.3%) experienced a VBAC. Mean midtrimester CL was lower in women who achieved a VBAC compared with those who required a cesarean delivery in labor (4.3 +/- 0.8 cm vs 4.7 +/- 0.8 cm, P < .001). In a multivariable logistic regression, midtrimester CL (centimeters) was significantly associated with a reduced chance of VBAC (adjusted odds ratio [aOR], 0.60; 95% confidence interval [CI], 0.47-0.76). Although the addition of CL improved the area under the receiver-operating characteristic curve (aOR, 0.695 [95% CI, 0.648-0.743] vs aOR, 0.727 [95% CI, 0.681-0.773]; P = .03), it did not significantly enhance the clinical value of the model, as quantified by net reclassification improvement (P = .11).;CONCLUSION: Shorter midtrimester CL is associated with a greater chance of vaginal birth after a TOLAC. However, midtrimester CL does not significantly improve the clinical value of a previously developed VBAC prediction model. Copyright (c) 2015 Elsevier Inc. All rights reserved."""
+
+

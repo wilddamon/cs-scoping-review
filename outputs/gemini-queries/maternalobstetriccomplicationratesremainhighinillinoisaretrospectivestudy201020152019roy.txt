@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalobstetriccomplicationratesremainhighinillinoisaretrospectivestudy201020152019roy
+"BACKGROUND: Quality measures for maternal childbirth outcomes remain controversial, although there is a consensus that maternal morbidity has been increasing in recent years. To determine whether childbirth safety has declined in Illinois, the likelihood of maternal obstetric complications was modeled by using both an established measure of severe maternal morbidity and a more expansive complication coding algorithm. METHODS: In a retrospective cohort study of 792,122 deliveries at 127 Illinois hospitals from July 2010 to September 2015, International Classification of Diseases, Ninth Revision (ICD-9) codes were used to identify Centers for Disease Control and Prevention-defined severe maternal morbidity, as well as other maternal complications defined by a route of delivery-specific algorithm originally used to evaluate the quality of obstetrics residency programs. Poisson and logistic regression were used to analyze the likelihood of delivery complications during the study period, controlling for maternal sociodemographic and clinical characteristics. RESULTS: The severe maternal morbidity rate was 0.99% for vaginal and 3.76% for cesarean deliveries. The maternal complication rates were much higher-9.44% for vaginal and 14.66% for cesarean deliveries. After controlling for patient characteristics, severe maternal morbidity remained constant, but there was a statistically significant, approximately 20% increase in the incidence of other maternal complications from 2010 to 2015 for both vaginal and cesarean deliveries. CONCLUSION: Severe maternal morbidity remained stable during the study period, but other maternal complications increased significantly. Severe maternal morbidity may undercount potentially preventable complications. New, more reliable measures of preventable delivery complications may have to be based on electronic health record standards."""
+
+

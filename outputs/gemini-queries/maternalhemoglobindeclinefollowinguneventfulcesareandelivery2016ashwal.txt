@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalhemoglobindeclinefollowinguneventfulcesareandelivery2016ashwal
+"OBJECTIVE: To assess hemoglobin (Hb) decline following elective and non-elective uneventful cesarean section (CS). METHODS: A retrospective cohort study of all women with singleton pregnancy who underwent uneventful CS defined as clinical estimation of intra-operative bleeding < 1000 ml. Hemoglobin decline (pre- and post-CS levels difference) of women with non-elective CS (during labor/delivery process) were compared to those who underwent elective CS (no labor). Cases complicated by placenta previa/abruption were excluded. RESULTS: Overall 2767 women underwent uneventful CS, of them, 954 (34.5%) were non-elective and 1813 (65.5%) were elective. Hemoglobin decline was higher in the non-elective group (1.5 +- 1.3 versus 1.0 +- 1.2 g/dL, p < 0.001). This was also observed in the nulliparous patients as well as in those with previous single CS subgroups. The rate of Hb decline >=3 g/dL and the rate of post-CS Hb < 7 g/dL were higher in the non-elective group (8.9% versus 3.1%, p < 0.001 and 2.3% versus 0.4%, p = 0.001, respectively). On multivariable analysis, non-elective CS was found to be significantly associated with Hb decline of >=3 g/dl after surgery (aOR = 2.10, 95% CI 1.36-3.23, p = 0.001) and need for blood products transfusion (aOR = 2.24, 95% CI 1.04-4.83, p = 0.03). CONCLUSION: Non-elective CS was associated with an increased risk of Hb decline and blood product transfusion even in an apparent uneventful operation."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inductionoflaborversusexpectantmanagementinpatientswithidiopathicpolyhydramnios2024schoen
+"OBJECTIVE: To evaluate whether induction of labor is associated with lower risk of cesarean section compared to expectant management in patients with isolated polyhydramnios. STUDY DESIGN: This is a single-center, retrospective cohort study of patients with pregnancies complicated by idiopathic polyhydramnios, documented between 34 and 38 weeks gestation, who were delivered between July 2012 and February 2020. The primary outcome was cesarean delivery. Secondary outcomes included chorioamnionitis, endometritis, postpartum hemorrhage, preeclampsia/gestational hypertension, and composite neonatal morbidity. RESULTS: There were 194 patients included with idiopathic polyhydramnios - 115 underwent induction and 79 patients were expectantly managed. Planned induction was associated with a lower rate of CD compared with expectant management but did not meet statistical significance (19.1 % vs 30.4 %, aOR 0.51, 95 % CI 0.24, 1.05). A similar effect was seen when stratifying for parity: both nulliparous (9.1 % vs 16.3 %, aOR 0.59, 95 % CI 0.17, 1.98) and multiparous (32.7 % vs 47.2 %, aOR 0.45, 95 % CI 0.18, 1.15) patients had a lower CD rate when there was a planned induction, though neither group met statistical significance. No differences in maternal or fetal secondary outcomes were identified (chorioamnionitis, endometritis, postpartum hemorrhage, preeclampsia/gestational hypertension, composite neonatal morbidity). CONCLUSION: Lower rates of cesarean section were associated with labor induction for patients with isolated polyhydramnios, but confidence intervals did not reach statistical significance."""
+
+

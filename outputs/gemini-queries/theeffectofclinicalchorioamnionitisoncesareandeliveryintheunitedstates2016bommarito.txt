@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofclinicalchorioamnionitisoncesareandeliveryintheunitedstates2016bommarito
+"OBJECTIVE: To examine the association of clinical chorioamnionitis on cesarean delivery in a national sample of hospital discharges. DATA SOURCE: Hospital discharge data from the 1998-2010 Nationwide Inpatient Sample. STUDY DESIGN: We performed a cross-sectional study and general linear modeling was used to determine the association of clinical chorioamnionitis on risk of cesarean delivery. PRINCIPAL FINDINGS: A total of 10,843,682 deliveries and 51,799,431 nationally weighted deliveries were identified. Clinical chorioamnionitis was present in 2.9 percent of cesarean and 1.3 percent of vaginal deliveries (p < .001). In multivariate analysis, clinical chorioamnionitis was associated with a 1.39-fold increased risk of cesarean delivery. Compared with women without clinical chorioamnionitis at an urban/teaching hospital, women with clinical chorioamnionitis at an urban/teaching, urban/nonteaching, and rural hospital were 1.4-1.5 times more likely to have cesarean delivery. Compared with women without clinical chorioamnionitis in the Midwest, the relative risk for cesarean in women with clinical chorioamnionitis was 1.54 for women in the South, 1.47 in the Northeast, 1.39 in the Midwest, and 1.34 in the West. CONCLUSIONS: Women with clinical chorioamnionitis were more likely to have cesarean delivery than those without clinical chorioamnionitis, and the risk of cesarean delivery varied significantly by hospital location, teaching status, and U.S. region."""
+
+

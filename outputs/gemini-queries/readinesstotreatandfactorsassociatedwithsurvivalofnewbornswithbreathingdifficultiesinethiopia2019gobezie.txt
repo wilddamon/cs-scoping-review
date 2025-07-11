@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: readinesstotreatandfactorsassociatedwithsurvivalofnewbornswithbreathingdifficultiesinethiopia2019gobezie
+"BACKGROUND: Ethiopia is one of five countries that account for half of the world's 2.6 million newborn deaths. A quarter of neonatal deaths in Ethiopia are caused by birth asphyxia. Understanding different dimensions of the quality of care for newborns with breathing difficulties can lead to improving service provision environments and practice. We describe facility readiness to treat newborns with breathing difficulties, the extent to which newborn resuscitation is provided, and by modeling the survival of newborns with difficulties breathing, we identify key factors that suggest how mortality from asphyxia can be reduced.;METHODS: We carried out a secondary analysis of the 2016 Ethiopia Emergency Obstetric and Newborn Care Assessment that included 3804 facilities providing childbirth services and 2433 chart reviews of babies born with difficulties breathing. We used descriptive statistics to assess health facilities' readiness to treat these newborns and a binary logistic regression to identify factors associated with survival.;RESULTS: Over one-quarter of facilities did not have small-sized masks (size 0 or 1) to complete the resuscitation kits. Among the 2190 cases with known survival status, 49% died before discharge, and among 1035 cases with better data quality, 29% died. The odds of surviving birth asphyxia after resuscitation increased eightfold compared to newborns not resuscitated. Other predictors for survival were the availability of a newborn corner, born at term or post-term, normal birth weight (>=2500 g) and delivered by cesarean or assisted vaginal delivery.;CONCLUSION: The survival status of newborns with birth asphyxia was low, particularly in the primary care facilities that lacked the required resuscitation pack. Newborns born in a facility with better data quality were more likely to survive than those born in facilities with poor data quality. Equipping health centers/clinics with resuscitation packs and reducing the incidence of preterm and low birth weight babies should improve survival rates."""
+
+

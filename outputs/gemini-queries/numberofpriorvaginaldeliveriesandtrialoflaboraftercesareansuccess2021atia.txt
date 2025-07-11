@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: numberofpriorvaginaldeliveriesandtrialoflaboraftercesareansuccess2021atia
+"OBJECTIVE: Prior vaginal delivery (VD), including vaginal birth after cesarean (VBAC), is one of the greatest predictors of successful trial of labor after cesarean (TOLAC) and uterine rupture. We aimed to evaluate VBAC and uterine rupture rates associated with TOLAC in women with VD prior to cesarean delivery (CD) or with prior VBAC, and the cumulative effect of the number of prior VD's. STUDY DESIGN: This retrospective study included women having TOLAC between 2005-2019. The study compared the caesarean and uterine rupture rates of TOLAC in women with only prior VD as compared to women with only prior VBAC. Comparison analysis was performed by univariate analysis and followed by adjusted multiple logistic regression models. Receiver operating characteristic (ROC) and decision tree analyses (chi-square automatic interaction detection algorithm) was conducted to evaluate the influence of the number of prior VD's on the likelihood of successful TOLAC. RESULTS: Overall, 9,038 women met the inclusion criteria. Women with prior VBAC and prior VD showed significantly higher rates of successful VBAC compared to those with no prior VD or prior VBAC (96 % and 86 % vs 76 %; p < 0.01). However, women with prior VBAC but not women with prior VD showed significantly lower rates of uterine rupture compare to women with no prior VD or VBAC (0.1 % vs 0.6 % and 0.6 %; p < 0.01). The prevented fraction of TOLAC success was significantly higher in women with prior VBAC than that of women with VD prior to CD (83 % vs. 42 %, p < 0.01). ROC curve showed that the number of prior VBACs was a better predictor of TOLAC success and uterine rupture than the number of prior VD's. However, each single variable was found to have low positive predictive value (PPV) and requires other variables to improve the prediction. Finally, decision tree analysis demonstrated significant association between TOLAC success rate and prior VBAC, prior VD, and CD indications, without any association with the number of prior deliveries. CONCLUSION: Prior VBAC has some prediction value for TOLAC success and uterine rupture. However, it has low PPV as a single variable and requires other variables to improve the prediction. The number of prior VDs is not improving prediction."""
+
+

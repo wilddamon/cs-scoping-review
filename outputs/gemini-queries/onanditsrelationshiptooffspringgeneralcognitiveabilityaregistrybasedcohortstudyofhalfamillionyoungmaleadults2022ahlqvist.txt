@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionanditsrelationshiptooffspringgeneralcognitiveabilityaregistrybasedcohortstudyofhalfamillionyoungmaleadults2022ahlqvist
+"BACKGROUND: A relationship between caesarean section and offspring cognitive ability has been described, but data are limited, and a large-scale study is needed. OBJECTIVE: To determine the relationship between mode of delivery and general cognitive ability. METHODS: A cohort of 579 244 singleton males, born between 1973 and 1987 who conscripted before 2006, were identified using the Swedish population-based registries. Their mode of delivery was obtained from the Swedish Medical Birth registry. The outcome measure was a normalised general cognitive test battery (mean 100, SD 15) performed at military conscription at around age 18. FINDINGS: Males born by caesarean section performed poorer compared with those born vaginally (mean score 99.3 vs 100.1; adjusted mean difference -0.84; 95% CI -0.97 to -0.72; p<0.001). Both those born by elective (99.3 vs 100.2; -0.92; 95% CI -1.24 to -0.60; p<0.001) and non-elective caesarean section (99.2 vs 100.2; -1.03; 95% CI -1.34 to -0.72; p=0.001), performed poorer than those born vaginally. In sibling analyses, the association was attenuated to the null (100.9 vs 100.8; 0.07; 95% CI -0.31 to 0.45; p=0.712). Similarly, neither elective nor non-elective caesarean section were associated with general cognitive ability in sibling analyses. CONCLUSION: Birth by caesarean section is weakly associated with a lower general cognitive ability in young adult males. However, the magnitude of this association is not clinically relevant and seems to be largely explained by familial factors shared between siblings. CLINICAL IMPLICATION: Clinicians and gravidas ought not to be concerned that the choice of mode of delivery will impact offspring cognitive ability."""
+
+

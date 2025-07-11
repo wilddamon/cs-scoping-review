@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: useofhemoglobina1casanearlypredictorofgestationaldiabetesmellitus2014fong
+"OBJECTIVE: The purpose of this study was to assess an early hemoglobin A1c (HgbA1c) value from 5.7-6.4% as an early predictor of progression to gestational diabetes (GDM).;STUDY DESIGN: A retrospective cohort study was performed on all women who delivered at a single institution over 2 years who had an early screening HgbA1c test performed at <=20 weeks of gestation. Women with known preexisting diabetes mellitus or HgbA1c values >=6.5% were excluded. The primary outcome was GDM development. Secondary outcomes included delivery route, maternal weight gain, birthweight, and neonatal morbidities. Women with an HgbA1c value of 5.7-6.4% were compared with those with an HgbA1c level of <5.7%.;RESULTS: Nearly one-third of those patients in the HgbA1c 5.7-6.4% group (27.3%) experience the development of GDM compared with only 8.7% in the HgbA1c <5.7% group (odds ratio, 3.9; 95% confidence level, 2.0-7.7). This 3-fold increase remained significant (adjusted odds ratio, 2.4) after adjustment for age, prepregnancy body mass index, gestational age at HgbA1c collection, gestational age at screening, ethnicity, and method of screening. There were no significant differences in the need for medical treatment, weight gain, delivery route, birthweight, macrosomia, or neonatal morbidities.;CONCLUSION: More than 10% of patients in our cohort had an early screening HgbA1c value of 5.7-6.4%. Women in this group have a significantly higher risk of progression to GDM compared with women with normal HgbA1c values and should be considered for closer GDM surveillance and possible intervention. Copyright (c) 2014 Elsevier Inc. All rights reserved."""
+
+

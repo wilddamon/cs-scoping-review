@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalextraabdominalboweldilatationisariskfactorforintrapartumfetalcompromiseforfetuseswithgastroschisis2015brown
+"OBJECTIVE: The aim of this study was to investigate the prenatal ultrasound features that were associated with intrapartum fetal distress in fetuses with gastroschisis. METHODS: This was a retrospective observational study of all cases of gastroschisis referred to and delivering at the Mater Mothers' Hospital in Brisbane, Australia. Maternal demographics, prenatal ultrasound features including the presence of bowel dilatation, umbilical artery and middle cerebral artery Doppler indices and amniotic fluid volume as well as intrapartum outcome details were analysed using univariate and multivariate logistic regression to ascertain factors predictive of intrapartum compromise. RESULTS: The study cohort included 155 cases of gastroschisis over a 16-year period. The overall perinatal loss rate was 5.9% (four intrauterine fetal deaths, four neonatal deaths and one termination of pregnancy). The live birth rate was 96.8% (150/155). Fetal heart rate abnormalities occurred in 55.1% of cases. The overall caesarean section rate was 40.9% (63/154), of which 63.5% (40/63) was emergency procedures. Both univariate and multivariate analysis confirmed that only extra-abdominal bowel dilatation was a risk factor for intrapartum fetal compromise necessitating emergency delivery. CONCLUSIONS: Extra-abdominal bowel dilatation is a risk factor for intrapartum fetal compromise (OR 2.2; 95%CI 1.03-4.7) and emergent delivery."""
+
+

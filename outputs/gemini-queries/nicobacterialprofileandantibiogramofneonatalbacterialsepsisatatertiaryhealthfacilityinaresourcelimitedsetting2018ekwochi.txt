@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: a4yearprospectivestudyofclinicobacterialprofileandantibiogramofneonatalbacterialsepsisatatertiaryhealthfacilityinaresourcelimitedsetting2018ekwochi
+"Background: In the developing countries, neonatal sepsis (NNS) contributes significantly to neonatal admissions and deaths. Its symptoms are usually nonspecific, and definitive laboratory diagnosis can be challenging in a resource-limited setting. Therefore, early empirical antibiotic therapy antibiotics are important in these localities, and this makes it important to document local organisms and their antibiotic sensitivity pattern. Unfortunately, no previous study in our setting has documented these. Method(s): This study involved newborns (inborn and outborn) admitted with sepsis (cases) within the 1st month of life at the Enugu State University Teaching Hospital (ESUTH), Enugu, Southeast Nigeria. Controls were included for the analysis, and data were collected over a 4-year period from January 2013 to December 2016. Result(s): In all, 1920 newborns were admitted to the Special Care Baby Unit of ESUTH during the study period. Fifty-seven were managed for culture-proven sepsis, resulting in an in-hospital incidence rate of 29.7 per 1000 admitted newborns (95% confidence interval 21.9-37.4). A total 228 newborns were recruited (57 cases and 171 controls; ratio of 1:3). The most common presenting symptom and sign were fever (84.2%) and depressed primitive reflexes (50.9%), respectively. A case-fatality rate of 7.4% was observed. Newborn's place of birth (P = 0.02) and the final outcome (P = 0.004) were significantly associated with the development of sepsis, while gender (P = 0.12), birth weight (P = 0.33), gestational age (P = 0.53), and mode of delivery (P = 0.74) were not. Nearly 60% of the organisms implicated were coliforms, while one-quarter were Staphylococcus aureus. The most sensitive antibiotics were the fluoroquinolones, particularly ciprofloxacin, while amoxicillin, ampicillin, and clindamycin were generally not effective. Conclusion(s): NNS in our environment is commonly caused by coliforms and S. aureus and being outborn is a significant determinant. Antibiotic resistance follows recognized patterns, but the quinolones, despite their inconclusive safety profile in children, are most sensitive.Copyright (c) 2018 Journal of Clinical Neonatology Published by Wolters Kluwer - Medknow."""
+
+

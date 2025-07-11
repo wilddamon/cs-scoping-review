@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inadequateweightgainaccordingtotheinstituteofmedicine2009guidelinesinwomenwithgestationaldiabetesfrequencyclinicalpredictorsandtheassociationwithpregnancyoutcomes2020xie
+"BACKGROUND: In the care of women with gestational diabetes mellitus (GDM), more attention is put on glycemic control than in factors such as gestational weight gain (GWG). We aimed to evaluate the rate of inadequate GWG in women with GDM, its clinical predictors and the association with pregnancy outcomes. METHODS: Cohort retrospective analysis. OUTCOME VARIABLES: GWG according to Institute of Medicine 2009 and 18 pregnancy outcomes. Clinical characteristics were considered both as GWG predictors and as covariates in outcome prediction. STATISTICS: descriptive, multinomial and logistic regression. RESULTS: We assessed 2842 women diagnosed with GDM in the 1985-2011 period. GWG was insufficient (iGWG) in 50.3%, adequate in 31.6% and excessive (eGWG) in 18.1%; length of follow-up for GDM was positively associated with iGWG. Overall pregnancy outcomes were satisfactory. GWG was associated with pregnancy-induced hypertension, preeclampsia, cesarean delivery and birthweight-related outcomes. Essentially, the direction of the association was towards a higher risk with eGWG and lower risk with iGWG (i.e., with Cesarean delivery and excessive growth). CONCLUSIONS: In this cohort of women with GDM, inadequate GWG was very common at the expense of iGWG. The associations with pregnancy outcomes were mainly towards a higher risk with eGWG and lower risk with iGWG."""
+
+

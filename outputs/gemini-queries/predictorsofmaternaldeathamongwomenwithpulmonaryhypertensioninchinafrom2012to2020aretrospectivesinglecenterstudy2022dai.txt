@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsofmaternaldeathamongwomenwithpulmonaryhypertensioninchinafrom2012to2020aretrospectivesinglecenterstudy2022dai
+"Background: Previous studies have suggested that pregnant women with pulmonary hypertension (PH) have high maternal mortality. However, indexes or factors that can predict maternal death are lacking. Method(s): We retrospectively reviewed pregnant women with PH admitted for delivery from 2012 to 2020 and followed them for over 6 months. The patients were divided into two groups according to 10-day survival status after delivery. Predictive models and predictors for maternal death were identified using four machine learning algorithms: naive Bayes, random forest, gradient boosting decision tree (GBDT), and support vector machine. Result(s): A total of 299 patients were included. The most frequent PH classifications were Group 1 PH (73.9%) and Group 2 PH (23.7%). The mortality within 10 days after delivery was 9.4% and higher in Group 1 PH than in the other PH groups (11.7 vs. 2.6%, P = 0.016). We identified 17 predictors, each with a P-value < 0.05 by univariable analysis, that were associated with an increased risk of death, and the most notable were pulmonary artery systolic pressure (PASP), platelet count, red cell distribution width, N-terminal brain natriuretic peptide (NT-proBNP), and albumin (all P < 0.01). Four prediction models were established using the candidate variables, and the GBDT model showed the best performance (F1-score = 66.7%, area under the curve = 0.93). Feature importance showed that the three most important predictors were NT-proBNP, PASP, and albumin. Conclusion(s): Mortality remained high, particularly in Group 1 PH. Our study shows that NT-proBNP, PASP, and albumin are the most important predictors of maternal death in the GBDT model. These findings may help clinicians provide better advice regarding fertility for women with PH.Copyright (c) 2022 Dai, Jiang, Li, Shao, Wang, Wang, Jia, Liu, An, Jing and Cheng."""
+
+

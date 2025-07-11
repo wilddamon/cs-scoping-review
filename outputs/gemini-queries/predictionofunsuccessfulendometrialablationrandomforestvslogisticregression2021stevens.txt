@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofunsuccessfulendometrialablationrandomforestvslogisticregression2021stevens
+"Background: Five percent of pre-menopausal women experience abnormal uterine bleeding. Endometrial ablation (EA) is one of the treatment options for this common problem. However, this technique shows a decrease in patient satisfaction and treatment efficacy on the long term. Study objective: To develop a prediction model to predict surgical re-intervention (for example re-ablation or hysterectomy) within 2 years after endometrial ablation (EA) by using machine learning (ML). The performance of the developed prediction model was compared with a previously published multivariate logistic regression model (LR). Design(s): This retrospective cohort study, with a minimal follow-up time of 2 years, included 446 pre-menopausal women (18+) that underwent an EA for complaints of heavy menstrual bleeding. The performance of the ML and the LR model was compared using the area under the receiving operating characteristic (ROC) curve. Result(s): We found out that the ML model (AUC of 0.65 (95% CI 0.56-0.74)) is not superior compared to the LR model (AUC of 0.71 (95% CI 0.64-0.78)) in predicting the outcome of surgical re-intervention within 2 years after EA. Based on the ML model, dysmenorrhea and duration of menstruation have the highest impact on the surgical re-intervention rate. Conclusion(s): Although machine learning techniques are gaining popularity in development of clinical prediction tools, this study shows that ML is not necessarily superior to the traditional statistical LR techniques. Both techniques should be considered when developing a clinical prediction model. Both models can identify the clinical predictors to surgical re-intervention and contribute to the shared decision-making process in the clinical practice.Copyright (c) The Author(s)."""
+
+

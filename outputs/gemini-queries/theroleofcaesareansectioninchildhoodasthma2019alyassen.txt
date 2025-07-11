@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theroleofcaesareansectioninchildhoodasthma2019alyassen
+"OBJECTIVE: As indicated by previous studies, children born via Caesarean section may have an increased risk of developing asthma compared with those born via vaginal delivery. The aim of this study is to assess the association between a Caesarean section and the risk of childhood asthma. Methods: This was a case-control study carried out in Basrah, Iraq including 952 children aged 3-12 years. Four hundred and seven asthmatic cases and a control group of 545 age-matched non-asthmatic children were enrolled. Binary logistic regression was used to assess the relationship between asthma and birth via Caesarean section. RESULTS: The mean age of the children was 6.7+-2.5 years. Two-hundred eighty-three children (29.7%) were delivered via Caesarean section. The binary logistic regression analysis showed that delivery via Caesarean section was found to be an independent significant risk factor for asthma (OR=3.37; 95% CI=1.76-6.46; p<0.001). In addition, many other risk factors were found to be significant predictors of asthma, including bottlefeeding (OR=27.29; 95% CI=13.54-54.99; p<0.001) and low birth weight (OR=16.7; 95% CI=6.97-37.49; p<0.001). CONCLUSION: Caesarean section is significantly associated with an increased risk of childhood asthma."""
+
+

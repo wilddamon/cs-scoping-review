@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofgeneralanesthesiaonmotherinfantbondingforpuerperantswhoundergoemergencycesareandeliveries2020nitahara
+"Background Mother-infant bonding is an emerging perinatal issue. While emergency cesarean deliveries are associated with a risk of bonding disorders, the mode of anesthesia used for emergency cesarean deliveries has never been studied in this context. We aimed to investigate the impact of administering general anesthesia and neuraxial anesthesia to women undergoing cesarean deliveries on mother-infant bonding. Methods This was a retrospective, propensity score-matched multivariable analysis of 457 patients who underwent emergency cesarean deliveries between February 2016 and January 2019 at a single teaching hospital in Japan. The Mother-Infant Bonding Scale (MIBS) scores at hospital discharge and the 1-month postpartum outpatient visit were evaluated in the general anesthesia and the neuraxial anesthesia groups. A high score on the MIBS indicates impaired mother-infant bonding. Results The primary outcome was the MIBS score at hospital discharge in propensity score-matched women. After propensity score matching, the median [interquartile range (IQR)] MIBS scores were significantly higher in the general anesthesia group than those in the neuraxial anesthesia group at hospital discharge [2 (1-4) vs. 2 (0-2); P = 0.015] and at the 1-month postpartum outpatient visit [1 (1-3) vs. 1 (0-2); P = 0.046]. In linear regression analysis of matched populations, general anesthesia showed a significant and positive association with the MIBS scores at hospital discharge [beta coefficient 0.867 (95% confidence interval [CI] 0.147-1.59); P = 0.019] but not at the 1-month postpartum outpatient visit [0.455 (-0.134 to 1.044); P = 0.129]. Conclusion General anesthesia for emergency cesarean delivery is an independent risk factor associated with impaired mother-infant bonding."""
+
+

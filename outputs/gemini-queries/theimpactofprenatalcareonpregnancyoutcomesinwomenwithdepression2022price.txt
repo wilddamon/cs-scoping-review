@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofprenatalcareonpregnancyoutcomesinwomenwithdepression2022price
+"OBJECTIVE: Depression occurs in 7-13% of pregnant women and is associated with increased risk during pregnancy including increased rates of cesarean delivery, preterm birth, and preeclampsia. Prenatal care is thought to decrease adverse outcomes in pregnancy. This study aimed to examine how delayed access to prenatal care affects maternal and neonatal outcomes in a cohort of women suffering from depression. STUDY DESIGN: This is a retrospective cohort study of linked vital statistics and hospital discharge data among singleton, non-anomalous births in California between 2005 and 2008 comparing outcomes of all women with depression who received prenatal care prior to the third trimester versus women with depression who received prenatal care only during the third trimester or none at all. Outcomes included birthweight, stillbirth, neonatal demise, preeclampsia, preterm delivery and infant death. Statistical methods for outcome analysis included chi-square and multivariate logistic regression, adjusting for statistically significant and biologically plausible coexisting risk factors such as age, parity, gestational age, ethnicity, socioeconomic status, and substance abuse. RESULTS: Of the 14,242 women with depression in our sample, those with no prenatal care prior to the third trimester of gestation had higher odds of stillbirth (7.50; 2.34-23.97), neonatal death (4.42; 1.14-17.18), preterm delivery before 32 weeks (2.13; 1.08-4.17), SGA <5% (1.76; 1.10-2.81) and severe preeclampsia (1.92; 1.03-13.58). CONCLUSION: In women with depression during pregnancy, receiving late or no prenatal care prior to the third trimester of pregnancy is associated with greater odds of neonatal and maternal morbidities, as well as, greater odds of fetal and neonatal mortality."""
+
+

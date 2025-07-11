@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: racialdisparitiesinallergicoutcomespersisttoage10yearsinblackandwhitechildren2020sitarik
+"BACKGROUND: Previous analyses in the WHEALS birth cohort demonstrated that black children are more likely to experience allergic outcomes than white children by age 2 years. The results could not be explained by a host of variables. OBJECTIVE: Assess whether racial disparities persisted to age 10 years and determine whether any differences could be explained by a panel of variables related to early life exposures in WHEALS. METHODS: At age 10 years, WHEALS children (n = 481) completed skin prick testing, spirometry and methacholine challenge, and a physician examination for eczema and asthma. Allergen-specific immunoglobulin Es (sIgE) and total IgE were measured. Inverse probability weighting with logistic and linear regression models was used to assess associations between race (black or white) and the outcomes. RESULTS: Black children fared worse than white children with respect to each outcome. Black children were more likely to have eczema, asthma, sensitization (>=1 sIgE >= 0.35 IU/L) and at least 1 positive skin pick test; however, some variability was present in the magnitudes of association within subgroups defined by delivery mode, sex of the child, prenatal indoor dog exposure, and firstborn status. In some subgroups, black children were also more likely to have higher total IgE and worse pulmonary function test measures (PC 20 <= 25 mg/mL, % predicted forced vital capacity [FVC], forced expiratory volume in 1 second [FEV(1)]/FVC, forced expiratory flow from 25% to 75% of vital capacity [FEF(25-75)]). Confounding did not explain these differences. CONCLUSION: Racial differences persisted in this cohort through age 10 years. Future studies should include potentially important, but rarely studied factors such as segregation and structural racism, because these factors could explain the observed racial differences."""
+
+

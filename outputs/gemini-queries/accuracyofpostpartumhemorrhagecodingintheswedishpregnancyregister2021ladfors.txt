@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: accuracyofpostpartumhemorrhagecodingintheswedishpregnancyregister2021ladfors
+"INTRODUCTION: Postpartum hemorrhage (PPH) is recognized as a leading cause of obstetric morbidity and mortality. Population-wide studies have used International Classification of Diseases (ICD) diagnostic codes to track and report the prevalence of PPH. Although the 10th revision (ICD-10) was introduced in Sweden in 1997, the accuracy of ICD-10 codes for PPH is not known. Thus, the aim was to determine the accuracy of diagnostic coding for PPH in the Swedish Pregnancy Register. MATERIAL AND METHODS: We performed a retrospective cohort study of 609 807 deliveries in Sweden between 2014 and 2019. Information on ICD-10 codes for PPH and estimated blood loss were extracted from the Swedish Pregnancy Register. Using an estimated blood loss >1000 mL as the reference standard, we evaluated the diagnostic accuracy of ICD-10 codes for PPH by estimating sensitivity, specificity, positive predictive value and negative predictive value with exact binomial 95% confidence intervals (CIs). In our secondary analysis, we assessed the ICD-10 coding accuracy for severe PPH, defined as an estimated blood loss >1000 mL and transfusion of at least 1 unit of red blood cells registered in the Scandinavian Donations and Transfusion database. RESULTS: Of the 609 807 deliveries, 43 312 (7.1%) had an ICD-10 code for PPH and 45 071 (7.4%) had an estimated blood loss >1000 mL. The ICD codes had a sensitivity of 88.5% (95% CI 88.2-88.7), specificity of 99.4% (95% CI 99.4-99.4), positive predictive value of 92.0% (95% CI 91.8-92.3) and negative predictive value of 99.1% (95% CI 99.1-99.1). In our secondary analysis, on deliveries with severe PPH, the sensitivity for an ICD code was 91.3% (95% CI 90.7-91.9), whereas specificity was 83.5% (95% CI 82.3-84.6). CONCLUSIONS: Our findings indicate that ICD-10 codes for PPH in Sweden have moderately high sensitivity and excellent specificity. These results suggest that PPH diagnostic codes in medical records and linked pregnancy and birth registers can be used for research, quality improvement and reporting PPH prevalence in Sweden."""
+
+

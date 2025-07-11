@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: bacteriaprofilesandriskfactorsforprovenearlyonsetsepsisinpretermneonates2021hu
+"OBJECTIVES: To fill this gap in the literature and establish a prediction model. METHODS: This retrospective study was conducted in a Neonatal Intensive Care Unit between April 2018 and April 2019. Sixty-five sepsis cases were clinically diagnosed with early-onset neonatal sepsis (EONS) and confirmed by bacterial culture, and 91 newborns were enrolled as control. Multivariate analysis was used to analyze the data, and the predictive efficiency of the prediction model was verified using the Hosmer-Lemeshow goodness-of-fit test and receiver operating characteristic (ROC) curve. RESULTS: There were differences in multiple gestation birth, cesarean section, gestational age, birth weight, Apgar scores at 1 and 5 minutes, and laboratory parameters including white blood cells, neutrophils, lymphocytes, platelets, C-reactive protein (CRP), procalcitonin (PCT), and interleukin-6 (IL-6) between the groups. Multivariable logistic analysis showed that the Apgar score at 5 minutes and CRP, PCT, and IL-6 levels remained independent significant predictors of EONS (p=0.002, p=0.020, p=0.002, p=0.021, respectively). According to multivariate logistic regression analysis, the risk prediction model was logit p=24.280-3.270 x Apgar score at 5 minutes + 1.396 x CRP + 3.409 x PCT + 0.034 x IL-6 (Lemeshow goodness-of-fit test p=0.143). Receiver operating characteristic curve analysis indicated that the area under the curve was 0.968 (95% confidence interval: 0.936-1.000, p<0.05), and the sensitivity was 90.8% and specificity was 97.8%. CONCLUSION: The Apgar score at 5 minutes and CRP, PCT, and IL-6 levels are risk factors for EONS. The risk prediction model is highly efficient in predicting EONS among preterm infants."""
+
+

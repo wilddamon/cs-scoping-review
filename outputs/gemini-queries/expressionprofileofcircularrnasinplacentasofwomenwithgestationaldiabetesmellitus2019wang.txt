@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: expressionprofileofcircularrnasinplacentasofwomenwithgestationaldiabetesmellitus2019wang
+"Forty-five pregnant women who underwent cesarean section, including 30 cases of gestational diabetes mellitus (GDM) and 15 normal pregnant women, were enrolled in this study to examine the differential expression of circular RNAs (circRNAs) in the placentas of women with GDM by RNA sequencing (RNA-seq) analysis. The differentially expressed circRNAs were analyzed bioinformatically using Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment and circRNA-microRNA (miRNA) interaction prediction. Quantitative real-time polymerase chain reaction (qRT-PCR) was used to verify the results. A total of 8,321 circRNAs were identified in the human placenta, among which 46 were differentially expressed (fold change >=2 and p < 0.05), including three that were upregulated and 43 that were downregulated. According to the GO and KEGG enrichment results, these circRNAs may be associated with vital biological processes, cellular components, molecular functions, and signaling pathways. In particular, KEGG analysis shown they may be involved in advanced glycation end products-receptor for advanced glycation end products (AGE-RAGE) signaling pathway in diabetic complications, indicating that these circRNAs might participate in the occurrence and pathogenesis of GDM. qRT-PCR verified that the expression of circ_5824, circ_3636, and circ_0395 was consistent with RNA-seq analysis; their expression levels were significantly lower in the GDM group than in the control group. The circRNA-miRNA interaction was analyzed according to the molecular sponge mechanism, and its potential function is discussed. These results shed light on future functional studies of circRNAs related to GDM."""
+
+

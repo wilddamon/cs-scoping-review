@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternaloutcomesinassociationwithmotorvehiclecrashesduringpregnancyanationwidepopulationbasedretrospectivestudy2023chang
+"BACKGROUND: Limited studies have assessed the association of motor vehicle crashes (MVCs) during pregnancy with adverse maternal outcomes using a population-based nationwide dataset that covers all MVCs. METHODS: A total of 20 844 births from women who had been involved in MVCs during pregnancy were obtained from the National Birth Notification (BN) Database in Taiwan. We randomly selected 83 274 control births from women in the BN matched on age, gestational age and crash date. All study subjects were linked to medical claims and the Death Registry to identify the maternal outcomes after crashes. Conditional logistic regression models were used to estimate the adjusted odds ratio (aOR) and 95% CI of adverse outcomes associated with MVCs during pregnancy. RESULTS: Pregnant women involved in MVCs had significantly higher risks of placental abruption (aOR=1.51, 95% CI 1.30 to 1.74), prolonged uterine contractions (aOR=1.31, 95% CI 1.11 to 1.53), antepartum haemorrhage (aOR=1.19, 95% CI 1.12 to 1.26) and caesarean delivery (aOR=1.05, 95% CI 1.02 to 1.09) than the controls. Such elevated risks tended to be higher in the MVCs with greater severity. Scooter riders had higher ORs of various adverse maternal outcomes than car drivers. CONCLUSIONS: Women involved in MVCs during pregnancy were at increased risk of various adverse maternal outcomes, especially in those with severe MVCs and riding scooters at MVCs. These findings suggest that clinicians should be aware of these effects, and educational materials that include the above information should be provided as part of prenatal care."""
+
+

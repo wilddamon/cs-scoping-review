@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionrateandcostcontroleffectivenessofcasepaymentreforminthenewcooperativemedicalschemefordeliveryevidencefromxicountychina2018liu
+"BACKGROUND: In China, increases in both the caesarean section (CS) rates and delivery costs have raised questions regarding the reform of the medical insurance payment system. Case payment is useful for regulating the behaviour of health providers and for controlling the CS rates and excessive increases in medical expenses. New Cooperative Medical Scheme (NCMS) agencies in Xi County in Henan Province piloted a case payment reform (CPR) in delivery for inpatients. We aimed to observe the changes in the CS rates, compare the changes in delivery-related variables, and identify variables related to delivery costs before and after the CPR in Xi County. METHODS: Overall, 28,314 cases were selected from the Xi County NCMS agency from 2009 to 2010 and from 2014 to 2015. One-way ANOVA and chi-square tests were used to compare the distributions of CS and vaginal delivery (VD) before and after the CPR under different indicators. We applied multivariate linear regressions for the total medical cost of the VD and CS groups and total samples to identify the relationships between medical expenses and variables. RESULTS: The CS rates in Xi County increased from 26.1% to 32.5% after the CPR. The length of stay (LOS), total medical cost, and proportion of county hospitals increased in the CS and VD groups after the CPR, which had significant differences. The total medical cost in the CS and VD groups as well as the total samples was significantly influenced by inpatient age, LOS, and hospital type, and had a significant correlation with the CPR in the VD group and the total samples. CONCLUSION: The CPR might fail to control the growth of unreasonable medical expenses and regulate the behaviour of providers, which possibly resulted from the unreasonable compensation standard of case payments, prolonged LOS, and the increasing proportion of county hospitals. The NCMS should modify the case payment standard of delivery to inhibit providers' motivation to render CS services. The LOS should be controlled by implementing clinical guidelines, and a reference system should be established to guide patients in choosing reasonable hospitals."""
+
+

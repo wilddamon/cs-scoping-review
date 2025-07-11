@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinstituteofmedicineguidelinesforgestationalweightgainafteradiagnosisofgestationaldiabetesandpregnancyoutcomes2015harper
+"OBJECTIVE: The objective of this study was to assess the impact of gestational weight gain outside the Institute of Medicine (IOM) recommendations after the diagnosis of gestational diabetes (GDM) on perinatal outcomes. MATERIALS AND METHODS: This was a retrospective cohort study. Women were classified as gestational weight gain (GWG) within, less than, or greater than IOM recommendations for body mass index as calculated by gestational weight gain per week after a diagnosis of GDM. Outcomes assessed were preeclampsia, cesarean delivery, A2 GDM, birth weight, small for gestational age (SGA), large for gestational age (LGA), macrosomia, and preterm delivery. Groups were compared using analysis of variance and chi-square test for trend, as appropriate. Backward stepwise logistic regression was used to adjust for significant confounding factors. RESULTS: Of 635 subjects, 92 gained within, 175 gained less than, and 368 gained more than IOM recommendations. The risk of cesarean delivery and A2 GDM was increased in those gaining above the IOM recommendations compared with within. For every 1-lb/week increase in weight gain after diagnosis of GDM, there was a 36 to 83% increase in the risk of preeclampsia, cesarean delivery, A2 GDM, macrosomia, and LGA, without decreases in SGA or preterm delivery. CONCLUSION: Weight gain more than the IOM recommendations per week of gestation after a diagnosis of GDM is associated with adverse pregnancy outcomes."""
+
+

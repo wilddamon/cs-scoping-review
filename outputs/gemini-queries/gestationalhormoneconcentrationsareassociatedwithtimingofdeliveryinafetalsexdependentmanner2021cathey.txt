@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalhormoneconcentrationsareassociatedwithtimingofdeliveryinafetalsexdependentmanner2021cathey
+"Background: Early delivery remains a significant public health problem that has long-lasting impacts on mother and child. Understanding biological mechanisms underlying timing of labor, including endocrine disruption, can inform prevention efforts. Method(s): Gestational hormones were measured among 976 women in PROTECT, a longitudinal birth cohort in Puerto Rico. We evaluated associations between hormone concentrations at 18 and 26 weeks gestation and gestational age at birth, while assessing effect modification by fetal sex. Exploratory analyses assessed binary outcomes of overall preterm birth (PTB, <37 weeks gestation) and the spontaneous PTB subtype, defined as preterm premature rupture of membranes, spontaneous preterm labor, or both. Multivariable logistic and linear regressions were fit using visit-specific hormone concentrations, and fetal sex-specific effects were estimated using interaction terms. Main outcome models were adjusted for maternal age, education, marital status, alcohol consumption, environmental tobacco smoke exposure, and pre-pregnancy body mass index (BMI). Exploratory models adjusted for maternal age and education. Result(s): We observed reduced gestational age at birth with higher circulating CRH (beta: -2.73 days, 95% CI: -4.97, -0.42), progesterone (beta: -4.90 days, 95% CI: -7.07, -2.73), and fT4 concentrations (beta: -2.73 days, 95% CI: -4.76, -0.70) at 18 weeks specifically among male fetuses. Greater odds of overall and spontaneous PTB were observed among males with higher CRH, estriol, progesterone, total triiodothyronine (T3), and free thyroxine (fT4) concentrations. Greater odds of PTB among females was observed with higher testosterone concentrations. Conclusion(s): Various associations between hormones and timing of delivery were modified by fetal sex and timing of hormone measurement. Future studies are needed to understand differential mechanisms involved with timing of labor between fetal sexes.(c) Copyright (c) 2021 Cathey, Watkins, Rosario, Vega, Mukherjee, O'Neill, Loch-Caruso, Alshawabkeh, Cordero and Meeker."""
+
+

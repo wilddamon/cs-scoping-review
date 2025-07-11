@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retrospectivestudyofmaternalandneonataloutcomesafterinductioncomparedtospontaneousstartoflabourinwomenwithonepreviousbirthinuncomplicatedpregnancies4132020lindegren
+"OBJECTIVES: To study the association between induction and outcome among two-parous women in uncomplicated pregnancies >= 41+3, stratified by first labour delivery mode and conditions present at first delivery. METHODS: The Swedish Medical Birth Register was used to identify 58,964 uncomplicated singleton pregnancies among women with one previous birth between 1998 and 2014. Women with any registered pregnancy complications were excluded to minimise the risk for indication bias. The outcomes considered were emergency caesarean section (CS), and poor neonatal outcome (Apgar score <7 at 5 min, neonatal death, or meconium aspiration). RESULTS: Women who were induced at their second labour had higher emergency CS rates compared to women in spontaneously started deliveries (adjusted risk ratio, ARR: 2.11; 95% CI: 2.00-2.23). Low Apgar score was more common after induction compared to spontaneously started labours (1.0 vs. 0.7%) (ARR: 1.44; 95% CI: 1.18-1.77). Increased CS rates were also found when comparing induction at 41 + 3 to 41 + 6 weeks to labour at 42 weeks or more, regardless of labour start (ARR 1.39; 95% CI: 1.26-1.52). CONCLUSIONS: We found an increased risk of CS and poor neonatal outcome after second labour induction in prolonged pregnancies. The second labour vaginal success rate after induction was highly dependent, on first labour delivery mode, but also on diagnoses and conditions present at the first delivery."""
+
+

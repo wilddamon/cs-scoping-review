@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: likelihoodofcontinuedchildbearingaftercesareandeliveryintheunitedstates2014masinter
+"OBJECTIVE: To estimate the likelihood of continued childbearing as a function of mode of delivery and number of cesarean deliveries and to explore whether it varies by sociodemographic characteristics. METHODS: Cross-sectional data from the 2006-2010 National Survey of Family Growth were used to conduct an analysis of U.S. childbearing women. The birth trajectory for respondents who identified a live, singleton, first birth was assessed through four births. Population-weighted analyses were performed to test the association between route of delivery and sociodemographic characteristics with the likelihood of subsequent birth. RESULTS: Among 6,526 respondents, cesarean delivery, regardless of birth order, was associated with a lower likelihood of future birth, which decreased in a dose-response fashion as the number of cesarean deliveries increased. Among women with three births, those with two or three cesarean deliveries were 37% and 59% less likely (P<.05), respectively, to have a fourth birth when compared with women with three vaginal deliveries, adjusting for confounders. When interaction terms were added to the model, lower income women were significantly more likely to have a fourth birth after undergoing two or three cesarean deliveries than women with higher incomes (adjusted incidence rate ratio 2.50, 95% confidence interval [CI] 1.23-5.05 and adjusted incidence rate ratio 2.39, 95% CI 1.01-5.65, respectively). CONCLUSIONS: U.S. women who have cesarean deliveries are less likely to continue childbearing, especially because they undergo higher numbers of cesarean deliveries; however, this relationship is attenuated among low-income women. Given the risks associated with multiple cesarean deliveries, these findings underscore the need to further examine this relationship and what factors may be driving the income-based difference in childbearing after cesarean deliveries. LEVEL OF EVIDENCE: II."""
+
+

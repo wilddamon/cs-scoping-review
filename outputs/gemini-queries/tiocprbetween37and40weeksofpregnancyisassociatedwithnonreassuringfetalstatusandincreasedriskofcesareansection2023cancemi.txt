@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: longitudinalchangeincerebroplacentalratiocprbetween37and40weeksofpregnancyisassociatedwithnonreassuringfetalstatusandincreasedriskofcesareansection2023cancemi
+"OBJECTIVE: To evaluate in low-risk pregnancies if longitudinal change in cerebro-placental ratio (CPR) between 37 and 40 weeks of pregnancy is associated with cesarean section (CS) for non-reassuring fetal status (NRFS) during labor. METHODS: This is a prospective observational study of women with singleton low-risk pregnancies who underwent an ultrasound scan at 36 + 0 to 37 + 6 and 39 + 0 to 41 + 6 weeks of pregnancy, when the CPR was calculated from the middle cerebral artery (MCA) and umbilical artery (UA) pulsatility indices. Managing professionals were kept blinded to the Doppler results. The association of the longitudinal change between both CPR (z-velocity) to CS for NRFS was evaluated by logistic regression. RESULTS: A total of 401 pregnancies were included. The mean time interval between both CPR evaluations was 21 days (SD 7). A CS for fetal distress was performed in 7% of pregnancies. Independent of the CPR at 37 weeks, the likelihood of CS for fetal distress was significantly decreased by the longitudinal changes from 37 to 40 weeks (OR 0.61, 95%CI 0.4-0.92; p=.018). This association remained significant after further adjustment for potential confounders (nulliparity, maternal weight at booking and estimated fetal weight at 37): (OR 0.64, 95%CI 0.41-0.98; p=.044). CONCLUSIONS: The longitudinal change of CPR between 37 and 40 weeks is associated with the need for CS for NRFS during labor."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionandadiposityat618and30yearsofageresultsfromthreepelotasbrazilbirthcohorts2017barros
+"BACKGROUND: Association between caesarian section (C-section) and obesity is controversial and mostly based on body mass index (BMI), which has inherent limitations. Using direct estimates of body fat mass, we aimed to assess the association between C-section and adiposity using fat mass index and BMI z-score in three birth cohort studies from Pelotas, Brazil. METHODS: We measured weight, height and fat mass (using dual X-ray absorptiometry (DXA)) at ages 6, 18 and 30 years among participants in the 2004, 1993 and 1982 population-based Pelotas Birth Cohort Studies, respectively. We used multiple linear regression analysis to examine the crude and adjusted association between C-section and the body composition indicators. We also modelled height as an outcome to explore the presence of residual confounding. RESULTS: We observed that fat mass index and BMI z-score were strongly and positively associated with C-section in the crude analysis. However, when we adjusted for socioeconomic characteristics, maternal BMI, parity, age and smoking during pregnancy, effect estimates were attenuated towards the null, except for 30-year-old women. In those women from the 1982 cohort, C-section remained associated with fat mass index (b = 0.82; CI95% 0.32;1.32) and BMI z-score (b = 0.15; CI95% 0.03;0.28), even after adjusting for all potential confounders, suggesting an increase in fat mass index and BMI at 30 years among those born by C-section. CONCLUSION: We found no consistent association of C-section with fat mass index measured by DXA and BMI z-score in individuals aged 6, 18 and 30 years, except for women in the latter group, which might be explained by residual confounding. Confounding by socioeconomic and maternal characteristics accounted for all the other associations."""
+
+

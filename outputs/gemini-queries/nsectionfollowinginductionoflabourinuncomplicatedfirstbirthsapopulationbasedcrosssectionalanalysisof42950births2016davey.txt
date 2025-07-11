@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionfollowinginductionoflabourinuncomplicatedfirstbirthsapopulationbasedcrosssectionalanalysisof42950births2016davey
+"BACKGROUND: The impact of elective induction of labour at term on the increasing caesarean section (CS) rate is unclear. A Cochrane Systematic Review that concluded that elective induction was associated with a reduction in CS was based on trials that mostly reflect outdated obstetric care, or were flawed. The findings of other studies vary widely in the magnitude and direction of the relationship between elective induction and CS. This inconsistency may be due to the heterogeneity in the methods used to induce or augment labour, such that the relationship with CS is not constant across methods. METHODS: Using validated, routinely-collected data on all births in Victoria in 2000-2005, all singleton, cephalic, first births following uncomplicated pregnancies at 37-40 completed weeks' gestation ('standard primiparae') were identified (n = 42,950). As well as comparing induced with non-induced labour, method of birth was compared between those women experiencing spontaneous labour without augmentation, and women undergoing each method of augmentation or induction using adjusted multinomial logistic regression. Proportions, chi-square tests, adjusted Relative Risk Ratios (aRRR) and 95% confidence intervals are presented. RESULTS: Ten percent of 'standard primiparae' had labour induced for no apparent medical indication. Women whose labour was induced were significantly more likely than those who laboured spontaneously to have a CS (26.5 and 12.5% respectively (OR 2.54, 95% CI 2.4, 2.7, p < 0.001). After adjustment for maternal age, epidural analgesia, birthweight, gestation, and public/private admission status, each method of induction or augmentation remained associated with a significant increase in the risk of CS (adjusted ORs range 1.48 to 4.13, p-values all <0.0001). Perinatal death did not differ by onset of labour. CONCLUSION: Induction of labour in medically uncomplicated nulliparous women at term carries a more than doubling of risk of emergency CS, compared with spontaneous labour, with no impact on perinatal mortality. All methods of induction and augmentation of labour were associated with an increase in the rate of CS. Women included in this study had no apparent medical indication for induction of labour or any complication of pregnancy, so the increase in CS was not due to identifiable underlying risk factors. These results suggest that, in the absence of direction from well-designed, contemporary RCTs, minimising unindicated inductions before 41 weeks' gestation has the potential to reduce the rate of CS."""
+
+

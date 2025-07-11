@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: epiduraladministrationof2mepivacaineafterspinalanesthesiadoesnotpreventintraoperativenauseaandvomitingduringcesareansectionaprospectivedoubleblindedrandomizedcontrolledtrial2022kita
+"BACKGROUND: Intraoperative nausea and vomiting (IONV) is a common symptom during cesarean section (CS) delivery causing significant discomfort to patients. Combined spinal and epidural anesthesia (CSEA) can provide both intraoperative anesthesia and postoperative analgesia. During CSEA, it is reasonable to administer local anesthetics to the epidural space before patient complaints to compensate for the diminished effect of spinal anesthesia. Therefore, we hypothesized that intraoperative epidural administration of 2% mepivacaine would reduce the incidence of IONV. METHODS: Patients who were scheduled for elective CS were randomly allocated to 2 groups. Patients and all clinical staff except for an attending anesthesiologist were blinded to the allocation. After the epidural catheter was inserted at the T11-12 or T12-L1 interspace, spinal anesthesia was performed at the L2-3 or L3-4 interspace to intrathecally administer 10 mg of 0.5% hyperbaric bupivacaine. Twenty min after spinal anesthesia, either 5 mL of 2% mepivacaine (group M) or saline (group S) was administered through an epidural catheter. Vasopressors were administered prophylactically to keep both the systolic blood pressure >= 80 % of the baseline value with the absolute value >= 90 mm Hg and the mean blood pressure >= 60 mm Hg. The primary endpoint was the incidence of IONV. The secondary endpoints were degree of nausea, the degree and incidence of pain, and Bromage score. RESULTS: Ninety patients were randomized, and 3 patients were excluded from the final analysis. There was no significant difference in the incidence of IONV between the groups (58% in group M and 61% in group S, respectively, P = .82). In contrast, the incidence and degree of intraoperative pain in group M were significantly lower compared to group S. In addition, the incidence of rescue epidural administration of fentanyl (18% vs 47%) or mepivacaine (2.3% vs 25%) for intraoperative pain was lower in group M compared to group S. CONCLUSIONS: Our results indicate that epidural administration of 2% mepivacaine 20 minutes after spinal anesthesia does not reduce the incidence of IONV in CS under CSEA. However, intraoperative epidural administration of 2% mepivacaine was found to improve intraoperative pain."""
+
+

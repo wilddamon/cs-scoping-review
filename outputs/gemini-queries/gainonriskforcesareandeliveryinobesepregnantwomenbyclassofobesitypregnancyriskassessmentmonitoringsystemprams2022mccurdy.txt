@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: influenceofweightgainonriskforcesareandeliveryinobesepregnantwomenbyclassofobesitypregnancyriskassessmentmonitoringsystemprams2022mccurdy
+"BACKGROUND: Currently, all obese women in the United States (US) are recommend to gain the same amount of weight during pregnancy, regardless of class of obesity. Limited literature has looked at the risk of cesarean, and possible mitigation of this risk, by specific class of obesity. OBJECTIVE: To determine the influence of weight gain on the odds of cesarean delivery for obese women (as determined by pre-pregnancy body mass index [BMI]), by class of obesity. STUDY DESIGN: Retrospective cohort, from the Pregnancy Risk Assessment Monitoring System (PRAMS) in the US. Specifically, the unadjusted odds of cesarean delivery were determined for each class of BMI (underweight, normal weight, overweight, class I obesity, class II obesity, and class III obesity). These odds were then adjusted by demographic and prenatal care factors influencing either weight gain during pregnancy or risk of cesarean delivery. Finally, the association of weight gain (insufficient <11 lbs, adequate 11-20 lbs, and excessive >20 lbs) on the odds of cesarean delivery in obese women was noted via multivariate logistic regression analysis. RESULTS: 60,431 women (including 21,208 with a cesarean delivery) were included in this study, with an adjusted odds ratios (OR) of cesarean delivery by BMI: underweight 0.92 (95% CI 0.83, 1.01), normal weight (referent group), overweight 1.38 (95% CI 1.32, 1.45), class I obesity 1.77 (95% CI 1.68, 1.88), class II obesity 2.17 (95% CI 2.02, 2.34), and class III obesity 3.07 (95% CI 2.82, 3.34). Class I and II obese women are more likely to have a cesarean with excessive weight gain, with class I OR 1.20 (95% CI 1.06, 1.36) and class II OR 1.24 (1.04, 1.48) when compared to women in their same class of obesity with adequate weight gain. There was no difference in risk for cesarean for class III obese women by weight gain. CONCLUSION: Although obesity is a known risk factor for cesarean delivery, this risk is thought to be mitigatable by appropriate weight gain during the pregnancy. Weight gain of 11-20 pounds was associated with the least risk of cesarean delivery among obese (specifically class I and II) individuals."""
+
+

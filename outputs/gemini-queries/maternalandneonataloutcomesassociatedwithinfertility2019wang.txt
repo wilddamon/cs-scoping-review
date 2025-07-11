@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandneonataloutcomesassociatedwithinfertility2019wang
+"Objective: To investigate perinatal outcomes in a cohort of fertile and infertile nulliparous women. Design: Retrospective cohort study. Setting: Academic medical center. Patients: All nulliparous women delivering singletons >=24-week gestation at our center from 1 January 2012 to 31 December 2012 were included. Women were classified into two groups - fertile and infertile - based on a chart review at the time of delivery. Outcome measure: Perinatal outcomes of interest included mode of delivery, gestational age at delivery, and birth weight. Results: A total of 3293 mother/infant dyads fulfilled the inclusion criteria. Of these, 277 women (8.4%) were classified as infertile. Infertile women were significantly older than fertile women. In bivariate analyses, infertile women were more likely to undergo cesarean delivery (51.8 versus 36.1%, p < .001) and deliver at an earlier gestational age (38.9 +- 2.3 versus 39.4 +- 1.7 weeks, p < .0001). Infertility was no longer significantly associated with cesarean delivery after adjusting for maternal age. Infertility remained associated with an earlier gestational age at delivery after adjusting for maternal age and maternal race (b coefficient -0.42, 95%CI -0.64, -0.2). There was no difference in infant birth weight. Late preterm deliveries (34-36 completed gestational weeks) accounted for 8.3% of deliveries for infertile women compared to 4.3% for fertile women (p = .032). Conclusions: We conclude that the increased risk of cesarean section associated with infertility is driven by maternal age. Late preterm infants represent a key cohort for further evaluation in the perinatal outcomes of infertile women."""
+
+

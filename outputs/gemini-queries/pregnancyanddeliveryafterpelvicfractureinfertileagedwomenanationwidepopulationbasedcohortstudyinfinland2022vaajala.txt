@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyanddeliveryafterpelvicfractureinfertileagedwomenanationwidepopulationbasedcohortstudyinfinland2022vaajala
+"OBJECTIVE: Only a few small studies have assessed the effects of pelvic fractures on pregnancies, deliveries, and rates of cesarean sections. We aimed to evaluate the effect of pelvic fractures on subsequent pregnancy and delivery in Finland. STUDY DESIGN: In this retrospective register-based nationwide cohort study, data on all fertile-aged (aged 15-49) women with a pelvic fracture during our study period (1998-2018) were retrieved from the Care Register for Health Care. The data were subsequently combined with data from the National Medical Birth Register. Women with pelvic fracture before pregnancy were compared with a no-fracture group consisting of 621 141 women who had had 1 156 723 singleton deliveries without a preceding pelvic fracture. We used logistic regression to analyze preterm deliveries, cesarean sections, and neonatal health. Results are reported as adjusted odds ratios (AOR) with 95% confidence intervals (CI). RESULTS: A total of 2 878 women with a previous pelvic fracture were identified. Of these, 596 women had 1024 singleton deliveries after pelvic fracture. In the no-fracture group, 621 141 women had 1 156 378 singleton deliveries. Compared to the no-fracture group, women with a previous pelvic fracture had higher rates of cesarean sections (22.6% vs 15.9%) (AOR 1.55 CI 1.32-1.80), higher rate of preterm deliveries (6.2% vs 4.6%) (1.32 CI 1.01-1.69), and a higher rate of neonates requiring intensive care unit treatment (13.5% vs 10.0%) (AOR 1.35 CI 1.13-1.62). CONCLUSION: Vaginal delivery was the primary mode of delivery despite the higher rate of cesarean section among women with a previous fracture of the pelvis. The rate for preterm deliveries and need for neonatal intensive care was also higher, but the clinical importance of these findings is unclear. Our results suggest that vaginal delivery after fractures of the pelvic circle is generally safe for both mother and neonate."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trendsinmaternalprepregnancybodymassindexbmianditsassociationwithbirthandmaternaloutcomesincalifornia20072016aretrospectivecohortstudy2019ratnasiri
+"OBJECTIVE: To determine recent trends in maternal prepregnancy body mass index (BMI) and to quantify its association with birth and maternal outcomes. METHODS: A population-based retrospective cohort study included resident women with singleton births in the California Birth Statistical Master Files (BSMF) database from 2007 to 2016. There were 4,621,082 women included out of 5,054,968 women registered in the database. 433,886 (8.6%) women were excluded due to invalid or missing information for BMI. Exposures were underweight (BMI < 18.5 kg/m2), normal weight (18.5-24.9 kg/m2), overweight (25.0-29.9 kg/m2), and obese (>= 30 kg/m2) at the onset of pregnancy. Obesity was subcategorized into class I (30.0-34.9 kg/m2), class II (35.0-39.9 kg/m2), and class III (>= 40 kg/m2), while adverse outcomes examined were low birth weight (LBW), very low birth weight (VLBW), macrosomic births, preterm birth (PTB), very preterm birth (VPTB), small-for-gestational-age birth (SGA), large-for-gestational-age birth (LGA), and cesarean delivery (CD). Descriptive analysis, simple linear regression, and multivariate logistic regression were performed, and adjusted odds ratios (AORs) with 95% confidence intervals (CIs) for associations were estimated. RESULTS: Over the ten-year study period, the prevalence of underweight and normal weight women at time of birth declined by 10.6% and 9.7%, respectively, while the prevalence of overweight and obese increased by 4.3% and 22.9%, respectively. VLBW increased significantly with increasing BMI, by 24% in overweight women and by 76% in women with class III obesity from 2007 to 2016. Women with class III obesity also had a significant increase in macrosomic birth (170%) and were more likely to deliver PTB (33%), VPTB (66%), LGA (231%), and CD (208%) than women with a normal BMI. However, obese women were less likely to have SGA infants; underweight women were 51% more likely to have SGA infants than women with a normal BMI. CONCLUSIONS: In California from 2007 to 2016, there was a declining trend in women with prepregnancy normal weight, and a rising trend in overweight and obese women, particularly obesity class III. Both extremes of prepregnancy BMI were associated with an increased incidence of adverse neonatal outcomes; however, the worse outcomes were prominent in those women classified as obese."""
+
+

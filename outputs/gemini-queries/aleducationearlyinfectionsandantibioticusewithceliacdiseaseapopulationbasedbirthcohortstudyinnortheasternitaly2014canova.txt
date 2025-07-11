@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofmaternaleducationearlyinfectionsandantibioticusewithceliacdiseaseapopulationbasedbirthcohortstudyinnortheasternitaly2014canova
+"We conducted a population-based birth cohort study of approximately 203,000 babies born in northeastern Italy (1989-2012) to investigate perinatal variables, early infections leading to hospital admission, and antibiotic use in the first 12 months of life as possible risk factors for celiac disease (CD). Incident CD cases were identified from pathology reports, hospital discharge records, and exemptions from prescription charges for clinical tests. Multivariate Poisson regression models were fitted to estimate incidence rate ratios (IRRs). A total of 1,227 children had CD; CD was histopathologically confirmed in 866 (71%). Female sex, maternal age, and high maternal educational level were found to be significantly associated with CD. Gastrointestinal infections were strongly associated with a subsequent diagnosis of CD (IRR = 2.04, 95% confidence interval (CI): 1.30, 3.22). Antibiotic use was significantly associated with CD onset (IRR = 1.24, 95% CI: 1.07, 1.43), with a dose-response relationship for number of courses (P-trend < 0.01). Cephalosporin use strongly increased the risk of CD (IRR = 1.42, 95% CI: 1.18, 1.73). Use of antibiotics (supported by the dose-response relationship) and gastrointestinal infections in the first year of life may facilitate the early onset of CD by altering intestinal microflora and the gut mucosal barrier. Perinatal factors, including cesarean section, had little influence on the risk of childhood CD."""
+
+

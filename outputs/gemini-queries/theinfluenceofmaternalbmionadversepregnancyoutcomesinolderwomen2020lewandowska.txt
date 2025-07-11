@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinfluenceofmaternalbmionadversepregnancyoutcomesinolderwomen2020lewandowska
+"As mothers age, the risk of adverse pregnancy outcomes may increase, but the results so far are controversial and several issues remain unknown, such as the impact of maternal weight on the effects associated with older age. In a prospective cohort of 912 Polish women with singleton pregnancies (recruited in 2015-2016), we assessed the pregnancy outcomes depending on the mother's age (18-24, 25-29, 30-34, 35-39, and >=40 years). Women aged >=35 years (vs. <35 years) were assessed in terms of body mass index (BMI). Multidimensional logistic regression was used to calculate the odds ratios (with 95% confidence intervals) of the pregnancy results. The risk profiles (using the Lowess method) were applied to determine the threshold risk. We found that both the youngest and the oldest group members displayed higher adjusted odds ratios of preeclampsia (PE), intrauterine growth restriction (IUGR), and preterm birth <37th week (U-shaped risk). In the remaining cases, the age >=40 years, compared to the youngest age 18-24 years, was associated with a higher adjusted risk of gestational hypertension (GH) (AOR = 5.76, p = 0.034), gestational diabetes mellitus GDM-1 (AOR = 7.06, p = 0.016), cesarean section (AOR = 6.97, p <0.001), and low birth weight LBW (AOR = 15.73, p = 0.033) as well as macrosomia >4000 g (AOR = 8.95, p = 0.048). We found that older age >=35 years (vs. <35 years) was associated with higher adjusted odds ratios of all the pregnancy outcomes investigated. In obese women, these adverse older age related results were found to be more intense in GH study, as well as (though weaker) in birth <37th week study, small-for-gestational age birth weight (SGA), LBW, large-for-gestational age birth weight (LGA), and macrosomia. In overweight women, these adverse older age related results were found to be more intense in preterm birth study, as well as (though weaker) in SGA and LBW. In underweight women, adverse pregnancy outcomes related to older age were more intense in a study of cesarean section. At the same time, underweight was associated with reversal of some negative effects of older age (we found lower odds ratios of GDM-1 diabetes). The maternal threshold age above which the risk of GH, PE, GDM, caesarean section, and preterm birth increased was 33-34 years (lower than the threshold of 35 years assumed in the literature), and the threshold risk of IUGR, LBW, SGA, LGA, and macrosomia was 36-37 years. Main conclusions: Older maternal age was associated with a higher chance of all kinds of obstetric complications. Older women should particularly avoid obesity and overweight."""
+
+

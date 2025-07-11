@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: racialandethnicdisparitiesamongwomenundergoingatrialoflaboraftercesareandeliveryperformanceofthevbaccalculatorwithandwithoutpatientsraceethnicity2022buckley
+"The Maternal Fetal Medicine Units Network (MFMU) vaginal birth after cesarean (VBAC) calculator is a clinical tool designed to predict trial of labor after cesarean delivery (TOLAC) success. The calculator has come under scrutiny for its inclusion of race and ethnicity, which systematically predicts a lower likelihood of success for patients who identify as African American or Hispanic. We hypothesized that the calculator would predict VBAC more accurately without the use of race or ethnicity. A retrospective chart review including all patients undergoing TOLAC from 2016 to 2019 was conducted. A multivariate logistic regression was used to compare one model that utilizes the original variables in predicting VBAC (model 1) and another that uses the same variables except for race and ethnicity (model 2). In model 1, race and ethnicity were the only variables not associated with the probability of successful TOLAC (p = 0.065). The area under the curve (AUC) for models 1 and 2 were 0.77 and 0.78, respectively. There was not a statistically significant difference between the predictive abilities of the two models (p = 0.40). Rates of PPH (p = 0.001), abruption (p = 0.04), intra-amniotic infection (p < 0.0001), and other postpartum complications (p = 0.005) differed significantly by race and ethnicity. The use of race and ethnicity did not contribute to the accuracy of VBAC prediction. The use of race and ethnicity in this predictive model should be omitted to prevent inherent bias and discrimination. There were also significant racial and ethnic differences in overall postpartum complication rates."""
+
+

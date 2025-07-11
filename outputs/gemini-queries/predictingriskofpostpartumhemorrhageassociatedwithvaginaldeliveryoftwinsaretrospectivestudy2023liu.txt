@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingriskofpostpartumhemorrhageassociatedwithvaginaldeliveryoftwinsaretrospectivestudy2023liu
+"Many studies have only focused on the risk factors for postpartum hemorrhage (PPH) in singleton vaginal deliveries and twin cesarean deliveries. We analyzed the factors of influencing PPH occurrence in twin vaginal deliveries and developed a nomogram for clinical application. This retrospective study included 274 pregnant women with twin pregnancies who were hospitalized for delivery from January 2014 to December 2018. The patients opted for vaginal delivery and experienced spontaneous labor. Univariate analysis of PPH risk factors was performed. Multivariate analysis was performed using the least absolute shrinkage and selection operator (LASSO) to obtain relevant factors and build a prediction model, which was presented as a nomogram. The model was internally validated by bootstrap self-sampling method. Model accuracy was evaluated with the concordance index (C-index). There were 36 (13.14%) and 238 (86.9%) patients in the PPH and no PPH groups, respectively. Univariate analysis identified twin chorionicity, hypertensive disorders complicating pregnancy (HDCP), anemia in pregnancy, delivery mode of the second twin, oxytocin use during labor, postpartum curettage, cervical laceration, intrapartum fever, fibrinogen degradation products (FDP), and platelet count (PLT) as significant PPH factors. On multivariate analysis, HDCP, anemia in pregnancy, intrapartum fever, oxytocin use during labor, fetal distress, PLT, direct bilirubin, and FDP were noted as significant PPH factors and were included in the prediction model. A C-index of 0.816 was noted after internal validation, and the calibration curve showed good consistency. We developed a model to predict PPH risk in the vaginal delivery of twin pregnancies and visualized it with a nomogram that can be applied clinically to assess PPH risk and aid PPH prevention."""
+
+

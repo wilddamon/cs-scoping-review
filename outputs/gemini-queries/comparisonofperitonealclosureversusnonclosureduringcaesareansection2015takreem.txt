@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofperitonealclosureversusnonclosureduringcaesareansection2015takreem
+"BACKGROUND: In modern obstetrics caesarean sections are commonly used and in all caesarean sections either peritoneal closure is done or not. This cases series was conducted to record outcomes in our setup.;METHODS: Cases of caesarean sections were followed for adhesions and non-adhesions in peritoneal closure and non-closure cases from 1't January to December 2011 at DHQ Hospital Haripur. In non-peritoneal closure cases adhesions were marked. as compare to non-adhesions in peritoneal closure cases.;RESULTS: Sixty-five cases of peritoneal closure and 30 cases of non-peritoneal closure were followed up. There were more cases of adhesions in non-closure group (p<0.05).;CONCLUSION: Peritoneal closure is beneficial in routine caesarean sections."""
+
+

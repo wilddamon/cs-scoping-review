@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: expulsionrateofintrauterinedevicemediatevsimmediatepuerperiumperiod2020hochmuller
+"OBJECTIVE: To evaluate the rate of expulsion of intrauterine device (IUD) inserted during the immediate and mediate puerperium. To evaluate whether the type of delivery is a predictor of expulsion of the IUD when inserted in the puerperium period. MATERIAL AND METHODS: This was a prospective observational study. Patients whose IUD (TCU-380 copper) was placed during the puerperal period were divided in two groups according to the time of placement: immediate and mediate puerperium. The decision regarding the time of IUD insertion was made in a non-randomized manner. Analysis was performed using chi-square, Mann-Whitney U, and Spearman's correlation tests and logistic regression analysis. RESULTS: The total rate of IUD expulsions was 28.8% (49/170). There was no significant association between the occurrence of expulsion and the timing of IUD insertion (immediate vs mediate puerperium; 26.6% vs 34.78%, p=0.296). Among patients experiencing expulsion, 79.6% (39/49) underwent insertion after vaginal delivery and 20.4% (10/49) during cesarean section (CS). The type of delivery was a significant predictor for IUD expulsion (p<0.0001). Vaginal delivery was fourfold more likely to be associated with IUD expulsion inserted in the puerperal period than CS (odds ratio: 4.23, 95% confidence interval: 1.94-9.25). There was no significant correlation between the period between IUD insertion and the diagnosis of expulsion in regard to number of pregnancies (r=-0.160, p=0.271) or gestational age at delivery (r=-0.058, p=0.939). CONCLUSION: Vaginal delivery was the most prevalent type of delivery in patients who underwent IUD insertion during the immediate and mediate puerperium. The risk of IUD expulsion after vaginal delivery was greater than CS."""
+
+

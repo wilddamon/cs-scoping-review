@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesamongdeafwomeninwashingtonstate198720122017schiff
+"OBJECTIVE: To evaluate pregnancy and neonatal outcomes among deaf women using population-based vital records data in Washington State from 1987 to 2012. METHODS: We performed a retrospective cohort study using the Washington State birth and fetal death records linked to state hospital discharge records to identify women with diagnosis codes for deafness indicated at their delivery hospitalization and compared them with randomly selected women without these codes. Pregnancy conditions and outcomes evaluated included gestational diabetes, preeclampsia, placental abruption, labor induction, and cesarean delivery. Neonatal outcomes evaluated included preterm gestational age (less than 28, 28 to less than 37 weeks) at delivery and low birth weight. We also assessed length of maternal and neonatal delivery hospitalization. We performed Poisson regression to estimate relative risks (RRs) and 95% CIs for each outcome, adjusting for birth year, maternal age, and parity. RESULTS: Most adverse pregnancy and neonatal outcomes were similar for deaf and comparison women. Among women who underwent vaginal delivery, deaf women were more than twofold (RR 2.15, 95% CI 1.43-3.22) more likely to have a delivery hospitalization of 4 or more days (6.0% compared with 2.8%). We found a modestly increased risk of cesarean delivery (RR 1.15, 95% CI 1.01-1.30), with 29.9% of deaf compared with 25.6% of nondeaf women having a cesarean delivery. CONCLUSION: Deaf women are not at increased risk of the majority of adverse pregnancy and neonatal outcomes. Obstetric care providers may use our findings in counseling this special population of prenatal patients."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofcesareanversusvaginaldeliveryofextremelypretermgestationsinbreechpresentationretrospectivecohortstudy2019niles
+"Objective: As survival increases at earlier gestational ages, the optimal mode of delivery, especially in cases of breech presentation, is of increasing importance. The objective of this study was to compare outcomes of vaginal delivery (VD) and cesarean section (CS) births for infants in breech presentation at borderline viability. Study design: A retrospective chart review of live breech births between 23 + 0 and 25 + 6 weeks gestation at a tertiary university center from 2003 to 2013 was conducted. Those delivered vaginally were compared with those delivered by CS. Stillbirths and deliveries where no resuscitation was intended were removed from the analysis. Variables were compared using a Student t-test (continuous), Mann-Whitney U test (categorical), or a Chi-squared test (count). Logistic regression analysis was performed to further evaluate the results. Results with p < .05 were considered significant. Results: One hundred seventy-six births were included, 36 VD and 140 CS. Baseline characteristics were similar between groups. Gestational age at delivery was significantly higher in CS deliveries (24.9 +- 0.6 versus 24.5 +- 0.7, p = .0007). The rate of neonatal death (23.6% versus 44.4%, p = .0127) was significantly lower in those born by CS. All other neonatal outcomes including Apgar scores at one and 5 min, cord gases, birth weight, length of stay in NICU, incidence of respiratory complications, and incidence of high-grade IVH demonstrated no significant differences. Logistic regression suggested that male sex, lower birth weight, and earlier gestational age are significantly associated with neonatal mortality. Thirty percent of uterine incisions were of the classical, high transverse or inverted-T types. The estimated blood loss was significantly higher in CS births (706.6 +- 226.4 versus 327.4 +- 174.1 mL, p < .0001), but there was no difference in the rate of blood transfusion. Conclusion: CS delivery of breech infants at borderline viability had a protective effect on neonatal mortality compared to VD depending on the regression model utilized. Infant sex, birth weight, and gestational age also contribute significantly to neonatal mortality. A prospective study of planned method of delivery is recommended to further explore this finding."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverymodeandneurologicalcomplicationsinverylowbirthweightinfants2024costa
+"OBJECTIVE: The risk of intraventricular hemorrhage (IVH) and periventricular leukomalacia is associated with low birth weight and gestational age. Caesarean section (CS) may reduce the risk of IVH, although it has been a matter of debate. The aim of this study was to evaluate the influence of the mode of delivery (MOD) on the development of IVH and cystic periventricular leukomalacia (cPVL). STUDY DESIGN: We analyzed an initial cohort of 11,023 very low birth weight (VLBW) infants born between January 2010 and December 2019. Infants with major malformations and gestational age <23 weeks and >=32 weeks were excluded. A final cohort of 8,251 newborns was analyzed. Data was collected from Portuguese National very low birth weight registry. Cases were classified as vaginal delivery (VD) or CS. Outcome was assessed in univariate and logistic regression analyses. RESULTS: The median gestational age was 29 weeks (IQR 3.3) and the median weight was 1,100 g (IQR 555). The prevalence of IVH was significantly higher in the VD group versus the CS group, across all grading levels:1,144 newborns had grade I IVH (16% VD vs. 14% CS, p <0.01), 706 had grade II IVH (12% VD vs. 7.6% CS, p <0.01), and 777 had grade III IVH (14% VD vs. 7.9% CS, p <0.01). Post-hemorrhagic ventricular dilatation occurred in 457 newborns (8.3% VD vs. 4.6% CS, p <0.01) and 456 newborns had periventricular hemorrhagic infarction (8.4% VD vs. 4.5% CS, p <0.01). There was no association between MOD and cPVL. After applying a logistic regression analysis, including known risk factors for IVH and cPVL, VD was independently associated with an increased risk of IVH (odds ratio [OR] 1.600[1.423-1.799], p <0.001) and its complications (OR 1.440[1.195-1.735], p <0.001). MOD was not associated with an increased risk of cPVL. CONCLUSION: Our study suggests that CS is associated with a reduced risk of IVH and its complications in preterm VLBW infants < 32 weeks of gestational age. A CS should be considered in this group of infants to prevent the development of IVH and its complications. KEY POINTS: * IVH and cPVL are risk factors for neurological disabilities.. * CS may decrease the risk of IVH in preterms <32 weeks GA.. * There is no association between the MOD and cPVL.."""
+
+

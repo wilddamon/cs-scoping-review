@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparingcohortincidenceofschizophreniawiththatofbipolardisorderandaffectivepsychosisinindividualsborninstockholmcounty195519672015soderlund
+"BACKGROUND: Perinatal factors are associated with increased risk for both schizophrenia and bipolar disorder. Improvements in obstetric and maternal healthcare and positive socioeconomic development in Sweden from the 1950s onwards could be expected to affect incidence estimates. However, commonly incidence rates are calculated during a specific year, i.e. time of diagnosis, which mirrors proximal precipitating risk factors. To examine whether incidence estimates are compatible with the hypothesis of an impact of perinatal exposures on the risk of the different disorders we here instead calculate incidence rates for consecutive birth cohorts born between 1955 and 1967. We hypothesized that schizophrenia incidence would be more affected compared to bipolar disorder and other affective psychoses since most perinatal risk factors are more pronounced in schizophrenia aetiology.;METHOD: Birth cohorts of individuals born in Sweden and resident in Stockholm (N = 2,16,322), were followed in The National Patient Register regarding incident inpatient episodes Incident cases/10,000 person-years and birth cohort were calculated. Linear regression was used to estimate change in incidence rate.;RESULTS: We found stable birth cohort-based incidence estimates for bipolar disorder and other affective psychoses, but a continuous reduction in incidence estimates for schizophrenia as well as other non-affective psychoses in subsequent birth cohorts from 1955 to 1967.;CONCLUSIONS: The consecutive birth cohort-based incidence estimates unveiled patterns that are compatible with the hypothesis of an impact of early life exposures decreasing over time, in the aetiology of schizophrenia, whereas this pattern is less apparent in affective psychoses.."""
+
+

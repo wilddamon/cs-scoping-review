@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exuterointrapartumtherapyininfantswithcongenitaldiaphragmaticherniaapropensityscorematchinganalysis2022zhao
+"OBJECTIVE: Previous studies have shown that ex utero intrapartum therapy (EXIT) is safe and feasible for newborns with congenital diaphragmatic hernia (CDH). This study reports our experience with EXIT in fetuses with CDH in an attempt to explore the efficacy of EXIT on the survival rate of this population. METHODS: A retrospective analysis of the clinical data of 116 children with CDH was conducted. The children were assigned to EXIT and non-EXIT groups. Propensity score matching (PSM) toward clinical data was performed, and the clinical characteristics and outcomes were compared. Taking survival at discharge as the main outcome, logistic regression analysis was carried out to explore the efficacy of EXIT on survival. RESULTS: During the study period, 30 of 116 children received EXIT. After PSM, the survival rates of the EXIT group and the non-EXIT group were 82.76% (24/29) and 48.28% (14/29), respectively (p=0.006). EXIT (OR=0.083, 95% CI=0.013to 0.525, p=0.008), liver herniation (OR=16.955, 95% CI=2.342 to 122.767, p=0.005), and gestational age at diagnosis (OR=0.662, 95% CI=0.497 to 0.881, p=0.005) were independent mortality-related risk factors of all children with CDH. Ninety-nine of 116 children underwent surgery. After PSM, the postoperative survival rates of the EXIT group and non-EXIT group were 84.6% (22/26) and 76.9% (20/26), respectively (p=0.754). Liver herniation (OR=10.451, 95% CI=1.641 to 66.544, p=0.013) and gestational age at diagnosis (OR=0.736, 95% CI=0.577 to 0.938, p=0.013) were independent mortality-related risk factors of children after surgery. CONCLUSION: EXIT can be performed safely for selected prenatally diagnosed CDH neonates with potentially better survival and does not cause more maternal complications compared with traditional cesarean section."""
+
+

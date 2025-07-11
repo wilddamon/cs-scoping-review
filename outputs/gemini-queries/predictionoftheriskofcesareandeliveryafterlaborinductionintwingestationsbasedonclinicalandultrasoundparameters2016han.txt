@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionoftheriskofcesareandeliveryafterlaborinductionintwingestationsbasedonclinicalandultrasoundparameters2016han
+"AIMS: To develop a model based on clinical and ultrasound parameters to predict the risk of cesarean delivery after labor induction in near-term twin gestations. METHODS: This retrospective cohort study included 189 consecutive women with twin gestations at >= 36.0 weeks scheduled for labor induction. The Bishop score and transvaginal ultrasonographic measurements of cervical length were obtained immediately before labor induction. Parameters studied included maternal age, height, weight, parity, gestational age, Bishop score, cervical length, epidural analgesia, method of conception, chorionicity and birth weight. Prostaglandin E2 (dinoprostone) and oxytocin were used for labor induction. Logistic regression analysis and receiver operating characteristic curve were used to generate a predictive model for cesarean delivery. RESULTS: Fifty (26.5%) of the 189 women had cesarean deliveries. According to logistic regression analysis, maternal height (P = 0.004), parity (P = 0.005) and cervical length (P = 0.016), but not Bishop score (P = 0.920), were identified as independent predictors of cesarean delivery. A risk score based on a model of these three parameters was calculated for each patient. The model was shown to have an adequate goodness of fit (P = 0.201) and the area under the curve was 0.722, indicating fairly good discrimination. CONCLUSIONS: Maternal height, parity and cervical length were independent parameters for predicting the risk of cesarean delivery after labor induction in twin gestations. A predictive model using these parameters may provide useful information for deciding whether or not to induce labor."""
+
+

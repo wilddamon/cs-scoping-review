@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesofoutbornverylowbirthweightinfantsinjapan2021hirata
+"BACKGROUND: Outcomes of prenatal covariate-adjusted outborn very-low-birth-weight infants (VLBWIs) (<=1500 g) remain uncertain. OBJECTIVE: To compare morbidity and mortality between outborn and inborn VLBWIs. DESIGN: Observational cohort study using inverse-probability-of-treatment weighting. SETTING: Neonatal Research Network of Japan. PATIENTS: Singleton VLBWIs with no major anomalies admitted to a neonatal intensive care unit from 2012 to 2016. METHODS: Inverse-probability-of-treatment weighting with propensity scores was used to reduce imbalances in prenatal covariates (gestational age (GA), birth weight, small for GA, sex, maternal age, premature rupture of membranes, chorioamnionitis, preeclampsia, maternal diabetes mellitus, antenatal steroids and caesarean section). The primary outcome was severe intraventricular haemorrhage (IVH). The secondary outcomes were outcomes at resuscitation, other neonatal morbidities and mortality. RESULTS: The full cohort comprised 15 842 VLBWIs (668 outborns). The median (IQR) GA and birth weight were 28.9 (26.4-31.0) weeks and 1128 (862-1351) g for outborns and 28.7 (26.3-30.9) weeks and 1042 (758-1295) g for inborns. Outborn VLBWIs had a higher incidence of severe IVH (8.2% vs 4.1%; OR, 3.45; 95% CI 1.16 to 10.3) and pulmonary haemorrhage (3.7% vs 2.8%; OR, 5.21; 95% CI 1.41 to 19.2). There were no significant differences in Apgar scores, oxygen rates at delivery, intubation ratio at delivery, persistent pulmonary hypertension of the newborn, IVH of any grade, periventricular leukomalacia, chronic lung disease, oxygen at discharge, patent ductus arteriosus, retinopathy of prematurity, necrotising enterocolitis, sepsis or mortality. CONCLUSION: Outborn delivery of VLBWIs was associated with an increased risk of severe IVH."""
+
+

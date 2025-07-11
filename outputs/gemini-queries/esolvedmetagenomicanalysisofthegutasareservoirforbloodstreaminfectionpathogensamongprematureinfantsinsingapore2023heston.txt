@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: strainresolvedmetagenomicanalysisofthegutasareservoirforbloodstreaminfectionpathogensamongprematureinfantsinsingapore2023heston
+"BACKGROUND: Gut dysbiosis contributes to the high risk of bloodstream infection (BSI) among premature infants. Most prior studies of the premature infant gut microbiota were conducted in Western countries and prior to development of current tools for strain-resolved analysis. METHODS: We performed metagenomic sequencing of weekly fecal samples from 75 premature infants at a single hospital in Singapore. We evaluated associations between clinical factors and gut microbiota composition using PERMANOVA and mixed effects linear regression. We used inStrain to perform strain-level analyses evaluating for gut colonization by BSI-causing strains. RESULTS: Median (interquartile range) gestation was 27 (25, 29) weeks, and 63% of infants were born via Cesarean section. Antibiotic exposures (PERMANOVA; R(2) = 0.017, p = 0.001) and postnatal age (R(2) = 0.015, p = 0.001) accounted for the largest amount of variability in gut microbiota composition. Increasing postnatal age was associated with higher relative abundances of several common pathogens (Enterococcus faecalis: p < 0.0001; Escherichia coli: p < 0.0001; Klebsiella aerogenes: p < 0.0001; Klebsiella pneumoniae: p < 0.0001). Antibiotic exposures were generally associated with lower relative abundances of both frequently beneficial bacteria (e.g., Bifidobacterium species) and common enteric pathogens (e.g., Enterobacter, Klebsiella species). We identified strains identical to the blood culture isolate in fecal samples from 12 of 16 (75%) infants who developed BSI, including all infections caused by typical enteric bacteria. CONCLUSIONS: Antibiotic exposures were the dominant modifiable factor affecting gut microbiota composition in a large cohort of premature infants from South-East Asia. Strain-resolved analyses indicate that the gut is an important reservoir for organisms causing BSI among premature infants."""
+
+

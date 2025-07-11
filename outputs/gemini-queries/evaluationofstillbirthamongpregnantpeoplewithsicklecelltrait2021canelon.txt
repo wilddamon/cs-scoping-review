@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluationofstillbirthamongpregnantpeoplewithsicklecelltrait2021canelon
+"IMPORTANCE: Relative to what is known about pregnancy complications and sickle cell disease (SCD), little is known about the risk of pregnancy complications among those with sickle cell trait (SCT). There is a lack of clinical research among sickle cell carriers largely due to low sample sizes and disparities in research funding. OBJECTIVE: To evaluate whether there is an association between SCT and a stillbirth outcome. DESIGN, SETTING, AND PARTICIPANTS: This retrospective cohort study included data on deliveries occurring between January 1, 2010, and August 15, 2017, at 4 quaternary academic medical centers within the Penn Medicine health system in Pennsylvania. The population included a total of 2482 deliveries from 1904 patients with SCT but not SCD, and 215 deliveries from 164 patients with SCD. Data were analyzed from May 3, 2019, to September 16, 2021. EXPOSURES: The primary exposure of interest was SCT, identified using clinical diagnosis codes recorded in the electronic health record. MAIN OUTCOMES AND MEASURES: A multivariate logistic regression model was constructed to assess the risk of stillbirth using the following risk factors: SCD, numbers of pain crises and blood transfusions before delivery, delivery episode (as a proxy for parity), prior cesarean delivery, multiple gestation, patient age, marital status, race and ethnicity, ABO blood type, Rhesus (Rh) factor, and year of delivery. RESULTS: This cohort study included 50 560 patients (63 334 deliveries), most of whom were aged 25 to 34 years (29 387 of 50 560 [58.1%]; mean [SD] age, 29.5 [6.1] years), were single at the time of delivery (28 186 [55.8%]), were Black or African American (23 777 [47.0%]), had ABO blood type O (22 879 [45.2%]), and were Rhesus factor positive (44 000 [87.0%]). From this general population, 2068 patients (4.1%) with a sickle cell gene variation were identified: 1904 patients (92.1%) with SCT (2482 deliveries) and 164 patients (7.9%) with SCD (215 deliveries). In the fully adjusted model, SCT was associated with an increased risk of stillbirth (adjusted odds ratio [aOR], 8.94; 95% CI, 1.05-75.79; P = .045) while adjusting for the risk factors of SCD (aOR, 26.40; 95% CI, 2.48-280.90; P = .007) and multiple gestation (aOR, 4.68; 95% CI, 3.48-6.29; P < .001). CONCLUSIONS AND RELEVANCE: The results of this large, retrospective cohort study indicate an increased risk of stillbirth among pregnant people with SCT. These findings underscore the need for additional risk assessment during pregnancy for sickle cell carriers."""
+
+

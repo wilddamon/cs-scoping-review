@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingpretermbirthusingexplainablemachinelearninginaprospectivecohortofnulliparousandmultiparouspregnantwomen2023khan
+"Preterm birth (PTB) presents a complex challenge in pregnancy, often leading to significant perinatal and long-term morbidities. 'While machine learning (ML) algorithms have shown promise in PTB prediction, the lack of interpretability in existing models hinders their clinical utility. This study aimed to predict PTB in a pregnant population using ML models, identify the key risk factors associated with PTB through the SHapley Additive exPlanations (SHAP) algorithm, and provide comprehensive explanations for these predictions to assist clinicians in providing appropriate care. This study analyzed a dataset of 3509 pregnant women in the United Arab Emirates and selected 35 risk factors associated with PTB based on the existing medical and artificial intelligence literature. Six ML algorithms were tested, wherein the XGBoost model exhibited the best performance, with an area under the operator receiving curves of 0.735 and 0.723 for parous and nulliparous women, respectively. The SHAP feature attribution framework was employed to identify the most significant risk factors linked to PTB. Additionally, individual patient analysis was performed using the SHAP and the local interpretable model-agnostic explanation algorithms (LIME). The overall incidence of PTB was 11.23% (11 and 12.1% in parous and nulliparous women, respectively). The main risk factors associated with PTB in parous women are previous PTB, previous cesarean section, preeclampsia during pregnancy, and maternal age. In nulliparous women, body mass index at delivery, maternal age, and the presence of amniotic infection were the most relevant risk factors. The trained ML prediction model developed in this study holds promise as a valuable screening tool for predicting PTB within this specific population. Furthermore, SHAP and LIME analyses can assist clinicians in understanding the individualized impact of each risk factor on their patients and provide appropriate care to reduce morbidity and mortality related to PTB."""
+
+

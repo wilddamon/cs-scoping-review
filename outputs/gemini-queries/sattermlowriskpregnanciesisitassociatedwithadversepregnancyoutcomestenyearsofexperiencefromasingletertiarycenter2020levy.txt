@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: reducedfetalmovementsattermlowriskpregnanciesisitassociatedwithadversepregnancyoutcomestenyearsofexperiencefromasingletertiarycenter2020levy
+"OBJECTIVE: We aimed to assess the outcomes of low-risk pregnancies complicated by isolated reduced fetal movements (RFM) at term.;STUDY DESIGN: The study population were patients at term, with singleton, low-risk, pregnancies who presented to our obstetric-triage and delivered during the subsequent 2 weeks. The study group included patients with an isolated complaint of RFM (RFM group). The control group included patients without history of RFM (control group). The pregnancy, delivery, and neonatal outcomes were compared between the groups. Severe and mild composites of adverse neonatal outcomes were defined. Multivariate regression analyses were performed to identify independent association with adverse neonatal outcomes.;RESULTS: Among the 13,338 pregnant women, 2762 (20.7%) were included in the RFM group and 10,576 (79.3%) in the control group. The RFM group had higher rates of nulliparity (p < 0.001), and smoking (p < 0.001). At admission, the RFM group had higher rates of IUFD (p < 0.001). The RFM group had higher rates of Cesarean delivery due to non-reassuring fetal monitor (p < 0.001), and mild adverse neonatal outcomes (p = 0.001). RFM was associated with mild adverse outcome independent of background confounders (aOR = 1.4, 95% CI 1.2-2.6, p < 0.001).;CONCLUSION: Patients presented with isolated RFM at term had higher rates of IUFD at presentation and significant adverse outcomes at delivery."""
+
+

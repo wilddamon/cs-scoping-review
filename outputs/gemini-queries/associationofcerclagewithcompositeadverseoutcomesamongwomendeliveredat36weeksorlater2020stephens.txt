@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofcerclagewithcompositeadverseoutcomesamongwomendeliveredat36weeksorlater2020stephens
+"OBJECTIVE: This study aimed to compare the maternal and neonatal adverse outcomes among singletons delivered at 36 weeks or later with cerclage during index pregnancy versus those without cerclage. STUDY DESIGN: This retrospective cohort study utilized the U.S. vital statistics datasets from 2011 to 2013. Inclusion criteria were women with nonanomalous singletons, with and without cerclage placement, without diabetes or hypertensive disorders, and delivered at 36 to 41 weeks. The coprimary outcomes were composite maternal and neonatal adverse outcomes. Composite maternal adverse outcome included admission to intensive care unit, maternal transfusion, ruptured uterus, unplanned hysterectomy, or unplanned operating room procedure. Composite neonatal adverse outcome included Apgar score less than 5 at 5 minutes, assisted ventilation for more than 6 hours, neonatal seizure, birth injury, or neonatal death. Secondary outcomes were chorioamnionitis and cesarean delivery. Multivariable Poisson's regression models with error variance were used while adjusting for confounders. Adjusted relative risk (aRR) with 95% confidence intervals (CIs) were calculated. RESULTS: Of the 8,508,228 women who met inclusion criteria, 0.2% had a cerclage and reached 36 weeks. Composite maternal (aRR: 2.04; 95% CI: 1.76-2.36) and neonatal (aRR: 1.28; 95% CI: 1.11-1.47) adverse outcomes were significantly higher among those with cerclage than those without cerclage. Chorioamnionitis (aRR: 1.47; 95% CI: 1.30-1.67) and cesarean delivery (aRR: 1.10; 95% CI: 1.08-1.12) were also significantly higher in women with cerclage than those without cerclage. CONCLUSION: There is an association between increased composite maternal and neonatal adverse outcomes among women with cerclage who delivered at 36 to 41 weeks as compared with those without cerclage. KEY POINTS: * Cerclage is associated with increased composite maternal adverse outcome in women at 36-41 weeks.. * Cerclage is associated with increased composite neonatal adverse outcome in women at 36-41 weeks.. * Increased chorioamnionitis and cesarean delivery rates are associated with cerclage in women at 36-41 weeks.."""
+
+

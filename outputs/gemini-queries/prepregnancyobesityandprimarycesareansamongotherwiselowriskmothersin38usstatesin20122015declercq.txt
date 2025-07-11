@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prepregnancyobesityandprimarycesareansamongotherwiselowriskmothersin38usstatesin20122015declercq
+"BACKGROUND: The United States has recently experienced increases in both its rate of obesity and its cesarean rate. Our objective was to use a new item measuring prepregnancy body mass index (BMI) on the U.S. Standard Certificate of Live Birth to examine at a population level the relationship between maternal obesity and primary cesarean delivery for women at otherwise low risk for cesarean delivery.;METHODS: By 2012, 38 states with 86 percent of United States births had adopted the U.S. Standard Certificate. The sample was limited to the 2,233,144 women who had a singleton, vertex, term (37-41 weeks) birth in 2012 and no prior cesarean. We modeled the likelihood of a primary cesarean by BMI category, controlling for maternal socio-demographic and medical characteristics.;RESULTS: Overall, 46.4 percent of otherwise low-risk mothers had a prepregnancy BMI in the overweight (25.1%) or obese (21.3%) categories, with the obese category distributed as follows: obese I (BMI 30.0-34.9, 12.4%); obese II (BMI 35.0-39.9, 5.5%); and obese III (BMI 40+, 3.5%). Obesity rates were highest among American Indian and Alaska Native (32.5%) and non-Hispanic black mothers (30.5%). After adjustment for demographic and medical risks, the adjusted risk ratios (95% confidence intervals) of cesarean for low-risk primiparas were: 1.61 (1.60-1.63) for obese I, 1.86 (1.83-1.88) for obese II, and 2.21 (2.18-2.25) for obese III mothers compared with mothers in the normal weight category.;DISCUSSION: A relationship between prepregnancy obesity and primary cesarean delivery among relatively low-risk mothers remained even after controlling for social and medical risk factors. Copyright (c) 2015 Wiley Periodicals, Inc."""
+
+

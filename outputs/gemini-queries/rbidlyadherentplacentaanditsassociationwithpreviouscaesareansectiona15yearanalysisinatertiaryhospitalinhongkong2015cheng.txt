@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: risingincidenceofmorbidlyadherentplacentaanditsassociationwithpreviouscaesareansectiona15yearanalysisinatertiaryhospitalinhongkong2015cheng
+"OBJECTIVES: To identify the incidence of morbidly adherent placenta in the context of a rising caesarean delivery rate within a single institution in the past 15 years, and to determine the contribution of morbidly adherent placenta to the incidence of massive postpartum haemorrhage requiring hysterectomy.;SETTING: A regional obstetric unit in Hong Kong.;PATIENTS: Patients with a morbidly adherent placenta with or without previous caesarean section scar from 1999 to 2013.;RESULTS: A total of 39 patients with morbidly adherent placenta were identified during 1999 to 2013. The overall rate of morbidly adherent placenta was 0.48/1000 births, which increased from 0.17/1000 births in 1999-2003 to 0.79/1000 births in 2009-2013. The rate of morbidly adherent placenta with previous caesarean section scar and unscarred uterus also increased significantly. Previous caesarean section (odds ratio=24) and co-existing placenta praevia (odds ratio=585) remained the major risk factors for morbidly adherent placenta. With an increasing rate of morbidly adherent placenta, more patients had haemorrhage with a consequent increased need for peripartum hysterectomy. No significant difference in the hysterectomy rate of morbidly adherent placenta in caesarean scarred uterus (19/25) compared with unscarred uterus (8/14) was noted. This may have been due to increased detection of placenta praevia by ultrasound and awareness of possible adherent placenta in the scarred uterus, as well as more invasive interventions applied to conserve the uterus.;CONCLUSION: Presence of a caesarean section scar remained the main risk factor for morbidly adherent placenta. Application of caesarean section should be minimised, especially in those who wish to pursue another future pregnancy, to prevent the subsequent morbidity consequent to a morbidly adherent placenta, in particular, massive postpartum haemorrhage and hysterectomy."""
+
+

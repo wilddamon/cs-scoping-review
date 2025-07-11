@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandfetalriskfactorsassociatedwithlatepreterminfants2020vanin
+"OBJECTIVE: To determine maternal and fetal risk factors associated with the birth of late preterm infants in comparison to those born at term.;METHODS: A case-control study was carried out in a tertiary center for high-risk pregnancies. For the cases, the study enrolled post-partum mothers and their respective newborns with gestational ages equal or greater than 34 weeks and less than 37 weeks. As controls, the post-partum mothers and their newborns with gestational ages of 37 weeks or greater were selected. The sample was calculated with a ratio of two controls for each case, resulting in 423 patients. Association studies were performed using the chi-square test or Fisher's exact test and logistic regression analysis.;RESULTS: The variables associated with late prematurity were inadequate prenatal (Odds Ratio [OR] 1.23; confidence interval of 95% [95%CI] 1.12-1.34; p<=0.001), premature rupture of membranes (OR 4.98; 95%CI 2.66-9.31; p<=0.001), length of hospital stay >=24 hours until birth (OR 0.18; 95%CI 0.06-0.52; p<=0.001), cesarean section (OR 2.74; 95%CI 1.69-4.44; p<=0.001) and small for gestational age newborn (OR 3.02; 95%CI 1.80-5.05; p<=0.001).;CONCLUSIONS: Inadequate prenatal care and membranes' premature rupture were found as factors associated with the late preterm birth. It is important to identify the factors that allow intervention with adequate prenatal care in order to reduce poor outcomes due to late prematurity."""
+
+

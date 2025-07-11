@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: highratesofvenousthromboembolismamongdeliveriescomplicatedbycancer2023cate
+"BACKGROUND: Venous thromboembolism (VTE) risk is increased independently by both cancer and pregnancy. OBJECTIVES: To estimate VTE risk in the postpartum period among patients delivering with a cancer diagnosis, stratified by cancer type and delivery route. METHODS: We performed a retrospective cohort study utilizing the large, all-payer Nationwide Readmissions Database from October 2015 through December 2020. We identified delivery hospitalizations, cancer diagnoses, and VTE using patient demographics and diagnosis codes. The primary outcome was VTE incidence at 42 and 330 days from delivery admission date, comparing patients with and without cancer diagnoses. A secondary analysis included VTE risk stratified by cancer diagnosis and delivery route. Outcomes were compared using inverse probability-weighted survival curves. RESULTS: The study population included 9 793 503 delivery hospitalizations (weighted estimate, 18 207 346), with a weighted estimate of 10 428 (0.06%) pregnant patients with cancer. Individuals with cancer were older, with higher rates of comorbid conditions, than those without cancer. VTE incidence in individuals with cancer at 42 and 330 days was 1.11% and 2.19%, respectively, vs 0.11% and 0.14%, respectively, in those without cancer. At 330 days, this finding was significant in both unadjusted (relative risk, 15.52; 95% CI, 11.54-19.51) and adjusted (relative risk, 9.68; 95% CI, 7.18-12.18) models. Stratification by cancer type and delivery route demonstrated elevated VTE risk across cancer types, with cesarean delivery conferring a greater risk. CONCLUSION: Cancer in pregnancy confers excess thromboembolic risk extending beyond the immediate postpartum period. Further study is needed to identify optimal VTE prophylactic strategies for this population."""
+
+

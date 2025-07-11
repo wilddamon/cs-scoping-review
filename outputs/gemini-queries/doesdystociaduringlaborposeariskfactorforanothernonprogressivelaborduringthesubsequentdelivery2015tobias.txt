@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesdystociaduringlaborposeariskfactorforanothernonprogressivelaborduringthesubsequentdelivery2015tobias
+"OBJECTIVE: To establish whether failure to progress during labor poses a risk factor for another non-progressive labor (NPL) during the subsequent delivery. METHODS: A retrospective cohort study including singleton pregnancies that failed to progress during the previous labor and resulted in a cesarean section (CS) was conducted. Parturients were classified into three groups for both previous and subsequent labors: CS due to NPL stage I, stage II and an elective CS as a comparison group. RESULTS: Of 202 462 deliveries, 10 654 women met the inclusion criteria: 3068 women were operated due to NPL stage I and 1218 due to NPL stage II. The comparison group included 6368 women. Using a multivariable logistic regression models, NPL stage I during the previous delivery was found as an independent risk factor for another NPL stage I in the subsequent labor (adjusted odds ratio [OR] = 2.9; 95% confidence interval [CI] = 2.4-3.7; p < 0.001). Similarly, NPL at stage I or II was found to be an independent risk factor for a NPL stage II during the subsequent labor (adjusted OR = 1.4; 95% CI = 1.1-2.1; p = 0.033; adjusted OR = 5.3; 95% CI = 3.7-7.5; p < 0.001; respectively). CONCLUSION: A previous CS due to a NPL is an independent risk factor for another NPL in the subsequent pregnancy and for recurrent cesarean delivery."""
+
+

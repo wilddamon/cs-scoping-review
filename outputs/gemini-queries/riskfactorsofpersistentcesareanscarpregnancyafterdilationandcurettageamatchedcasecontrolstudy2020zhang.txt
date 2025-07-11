@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsofpersistentcesareanscarpregnancyafterdilationandcurettageamatchedcasecontrolstudy2020zhang
+"OBJECTIVES: To investigate the risk factors of persistent cesarean scar pregnancy (PCSP) after dilation and curettage (D&C). MATERIALS AND METHODS: A retrospective, age-matched case-control study including 45 cases of PCSP patients after D&C was conducted between January 2013 and April 2018. For each case, 4 women who had been diagnosed with CSP and had the same age and same hospitalization period as the case group but no residual CSP tissue after D&C were selected as the controls (Control group, n = 180). Conditional logistic regression analysis was used to assess the risk factors of PCSP after D&C. RESULTS: After conditional logistic regression, the 3 factors associated with PCSP after D&C were maximum diameter of CSP mass (or gestational sac) >=4.5 cm (adjusted odds ratio [aOR] 6.51, 95% CI 1.39-30.47), myometrial thickness at the implantation site <2 mm (aOR 3.58, 95% CI 1.37-9.38) and a <=66.42% decrease rate in b-hCG levels on the first day after D&C (aOR 18.58, 95% CI 5.80-59.57). ROC analysis showed that the indicator [(hCG(0)-hCG(1))/hCG(0)*100%] has a good predictive value for PCSP, and the area under the curve (AUC) is 0.745; when the cut-off value is equal to 66.42%, the indicator has the best predictive value, with a sensitivity of 82.2% and a specificity of 67.7%. CONCLUSIONS: For these high-risk patients with PCSP, choosing individualized treatment options and proper management could reduce the incidence of PCSP."""
+
+

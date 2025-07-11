@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theunderlyingcausesofrespiratorydistressinlatepretermandfullterminfantsaredifferentfromthoseofearlypreterminfants2020li
+"Background: A diagnosis of neonatal respiratory distress syndrome (RDS) is common among newborns in China. Some latepreterm and full-term (LP/FT) infants with respiratory distress (RD) symptoms but not primary surfactant deficiency are also diagnosed with RDS and given exogenous surfactant replacement therapy (SRT). Objectives: An increasing number of neonatologists have proposed that RD etiologies should be specifically classified to guide clinical treatment. Methods: The therapeutic effects of SRT on infants of different gestational ages (GAs) were compared in a large retrospective multicenter cohort study performed at 26 Neonatal Intensive Care units in China. The cause of RD at different GAs was further analyzed by comparing the different risk factors closely related to RDS severity at different GAs. Results: Analysis of 1240 infants diagnosed with RDS showed that SRT was less effective in LP/FT infants than in early-preterm (EP) infants. GA< 30 weeksandnoprenatal corticosteroid use were closely related toRDSseverity in EP infants, whereas perinatal infectionand perinatal hypoxia-associated risk factors and a high cesarean rate were closely related to RDS severity in LP/FT infants. Conclusions: The causes of RD might differ between LP/FT and EP infants, and the diagnosis of RDS might be overused in LP/FT infants. RD in LP/FT infants is more likely related to perinatal infection, perinatal hypoxia, elective cesarean and hereditary factors, which are important causes of neonatal pulmonary edema. Newstrategies for the treatment of refractoryRDin LP/FT infants should concentrate more on pulmonary edema and neonatal ARDS."""
+
+

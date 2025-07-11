@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therateofintrapartumcesareandeliverybasedonestimatedfetalweightincomparisontopreviouschildsbirthweight2024kawakita
+"OBJECTIVE: The aim of the study is to examine whether an estimated fetal weight of the current pregnancy greater than previous birth weight is associated with increased odds of intrapartum cesarean delivery. STUDY DESIGN: We conducted a retrospective cohort study of all women who had more than one singleton pregnancy at 23 weeks' gestation or greater at a single labor and delivery unit. We only analyzed the second pregnancy in the dataset. We excluded women who had preterm birth in the second pregnancy. Women were categorized according to the difference between estimated fetal weight and previous birth weight-estimated fetal weight close to previous birth weight within 500 g (similar weight group); estimated fetal weight significantly (more than 500 g) greater than previous birth weight (larger weight group); and estimated fetal weight significantly (more than 500 g) lower than previous birth weight (smaller weight group). The primary outcome was intrapartum cesarean delivery. Multivariable logistic regression was performed to calculate adjusted odds ratios (aORs) with 95% confidence interval (95% confidence interval [CI]) after adjusting for predefined covariates. RESULTS: Of 1,887 women, there were 1,415 (75%) in the similar weight group, 384 (20%) in the greater weight group, and 88 (5%) in the smaller weight group. Individuals in the larger weight group compared with those in the similar weight group had higher odds of undergoing intrapartum cesarean delivery (11.2 vs. 4.5%; aOR 2.91; 95% CI 1.91-4.45). The odds of intrapartum cesarean delivery in the smaller weight group compared with those in the similar weight group were not increased (3.4 vs. 4.5%; crude OR 0.75; 95%CI 0.23-2.42). CONCLUSION: The difference between current estimated fetal weight and previous birth weight plays an important role in assessing the risk of intrapartum cesarean delivery. KEY POINTS: * Estimated fetal weight compared with previous birth weight is an important factor.. * Cesarean delivery is infrequent if estimated fetal weight is similar to previous birth weight.. * Larger estimated fetal weight greater than the previous birth weight is associated with cesarean delivery.."""
+
+

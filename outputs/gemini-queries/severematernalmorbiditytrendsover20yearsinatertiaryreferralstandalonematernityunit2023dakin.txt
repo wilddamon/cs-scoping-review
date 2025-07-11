@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severematernalmorbiditytrendsover20yearsinatertiaryreferralstandalonematernityunit2023dakin
+"OBJECTIVE: Severe maternal morbidity (SMM) is a better indicator of quality of care than maternal mortality, which is a rare event. Risk factors such as advanced maternal age, caesarean section (CS) and obesity are increasing. The aim of this study was to examine the rate and trends in SMM at our hospital over a 20-year period. STUDY DESIGN: Retrospective review was performed of cases of SMM from January 1st 2000 to December 31st 2019. Yearly rates for SMM and Major Obstetric Haemorrhage (MOH) were calculated (per 1000 maternities) and linear regression analysis was used to model the trends over time. Average SMM and MOH rates were also calculated for the periods 2000-2009 and 2010-2019 and compared using a chi-square test. The patient demographics of the SMM group were compared to the background population delivered at our hospital using a chi-square test. RESULTS: 702 women with SMM were identified out of 162,462 maternities over the study period yielding an incidence of 4.3 per 1000 maternities. When the two time periods (2000-2009 and 2010-2019) are compared, the rate of SMM increased 2.4 vs 6.2 (p < 0.001), largely due to an increase in MOH 1.72 vs 3.86 (p < 0.001) and pulmonary embolus (PE) also increased 0.2 vs 0.5 (p = 0.012). Intensive-care unit (ICU) transfer rates more than doubled 0.19 vs 0.44 (p = 0.006). Eclampsia rates decreased 0.3 vs 0.1 (p = 0.047) but the rate of peripartum hysterectomy 0.39 vs 0.38 (p = 0.495), uterine rupture 0.16 vs 0.14 (p = 0.867), cardiac arrest (0.04 vs 0.04) and cerebrovascular accidents (CVA) (0.04 vs 0.04) remained unchanged. Maternal age > 40 years 9.7% vs 5% (p = 0.005), previous CS 25.7% vs 14.4%; p < 0.001 and multiple pregnancy 8 vs 3.6% (p = 0.002) were more prevalent in the SMM cohort compared to the hospital population. CONCLUSIONS: Overall, rates of SMM have increased threefold and transfer for ICU care has doubled over 20 years in our unit. The main driver is MOH. The rate of eclampsia has decreased and peripartum hysterectomy, uterine rupture, CVA and cardiac arrest remain unchanged. Advanced maternal age, previous caesarean delivery and multiple pregnancy were more prevalent in the SMM cohort compared to the background population."""
+
+

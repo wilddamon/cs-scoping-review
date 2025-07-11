@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectsofintrapartumsyntheticoxytocinonmaternalpostpartummoodfindingsfromaprospectiveobservationalstudy2019takacs
+"Postpartum depression (PPD) affects up to 19% of all mothers, with detrimental effects on both mother and child. The antidepressant and anxiolytic effects of plasma oxytocin are well-documented, but it is still disputable whether synthetic oxytocin (synOT) may protect women against postpartum mood alterations. The current study examined the association between synOT intrapartum and maternal mood postpartum using a prospective design. Two hundred sixty women were screened for depressive symptoms in the last trimester of pregnancy and then again 6 weeks and 9 months postpartum using the Edinburgh Postnatal Depression Scale. They also completed Maternity Blues Questionnaire in the first postpartum week. The data concerning the intrapartum interventions and health status of the newborn were extracted from the medical records. Cox proportional hazards regression adjusted for a history of depression, mode of delivery, and childbirth experience showed that synOT predicted a significantly lower risk of PPD (HR = 0.65, 95% CI 0.45-0.95, p = 0.025). The risk factors for PPD included a history of depression (HR = 3.20, 95% CI 2.33-4.40, p < 0.001) and negative childbirth experience (HR = 1.39, 95% CI 1.01-1.90, p = 0.040). Logistic regression adjusted for the same covariates found no significant effect of synOT on maternity blues (OR = 0.64, 95% CI 0.31-1.32, p = 0.23). While synOT administered intrapartum does not affect maternal mood immediately, it may come to effect some weeks after childbirth to protect mothers from developing PPD symptoms."""
+
+

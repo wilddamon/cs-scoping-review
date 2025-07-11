@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofcesareansectiononneonataloutcomeofinfantsbornat23weeksofgestation2014furukawa
+"OBJECTIVE: Determine the impact of cesarean section (CS) on neonatal outcome of infants born at 23weeks of gestation. METHODS: A retrospective study was performed involving 34 infants born at 23weeks and 91 infants born at 24-26weeks. Indications necessitating delivery were severe pregnancy induced hypertension, non-reassuring fetal heart rate patterns (NRFHRs), or intrauterine infection (IUI). Obstetrical indication for CS included NRFHR and breech presentation. Poor outcome included neonatal death or cerebral palsy. Univariate and multiple logistic analyses were performed to determine the effect of CS for obstetrical indications on poor outcome. RESULTS: The incidence of poor outcome was significantly higher at 23weeks (number of poor outcomes/total number: 22/34) compared to that (31/91) at 24-26weeks (p<0.01). The incidence of a poor outcome was significantly higher at 23weeks for infants having NRFHR (11/16) compared to those at 24-26weeks (15/43, p=0.02). However, the incidence of a poor outcome was similar in infants with IUI (6/10 at 23weeks versus 5/11 at 24-26weeks, p=0.41). Vaginal birth in cases of obstetrical indication for CS at 23weeks was associated with higher risk of a poor outcome (odds ratio: 8.2). In contrast, the risk at 24-26weeks was not higher (OR, 0.8). After adjustment using variables of vaginal birth and IUI, vaginal birth significantly affected poor outcome (OR, 13.0). CONCLUSION: Poor neonatal outcome was closely related to the mode of delivery, suggesting that CS for obstetrical indication at 23weeks may improve neonatal outcome."""
+
+

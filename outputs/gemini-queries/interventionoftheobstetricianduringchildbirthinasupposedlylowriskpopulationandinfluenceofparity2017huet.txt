@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: interventionoftheobstetricianduringchildbirthinasupposedlylowriskpopulationandinfluenceofparity2017huet
+"OBJECTIVE: Compare obstetrician intervention and calling rates during labour and delivery between low-risk and high-risk women and study the influence of parity on these rates. MATERIAL AND METHODS: Descriptive retrospective study conducted on 227 patients in a university maternity unit (level 3 university hospital maternity unit) between 1st and 30th January 2014. The low- and high-risk populations were characterised according to the French National Authority for Health (HAS) and NICE guidelines. The obstetrician intervention criteria were: Caesarean section, instrumental vaginal delivery, artificial delivery/uterus examination and postpartum haemorrhage. The obstetrical team also had to call the obstetrician in case of foetal heart rate abnormalities, scalp blood pH measurement, third and/or fourth degree perineal tears, labour dystocia, or any other severe event occurring during labour or delivery. RESULTS: In univariate analysis, the obstetrician intervention rates were respectively 44.5% and 34.4% in the high- and low-risk groups (P=0.13). The obstetrician calling rates were similar between the two groups. Using logistic regression model including parity, the obstetrician intervention rate became significantly higher in the 'high-risk' group (OR 2.044, 95% CI 1.129-3.703, P=0.018). In the low-risk population, the intervention rate was significantly increased for nulliparous women compared with multiparas (47.5% versus 9.7%, P<0.001, OR=8.2, CI 95% 2.2 to 46.9). CONCLUSION: One third of the women defined as low-risk patients appear to need an obstetrician intervention during labour and delivery, with a major influence of parity."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: progressofinducedlaborintrialoflaboraftercesareandelivery2015sondgeroth
+"OBJECTIVE: The purpose of this study was to compare the first stage of labor progress in women who undergo an induction of labor after cesarean delivery with women who have spontaneous labor after cesarean delivery. STUDY DESIGN: We conducted a retrospective cohort study of consecutive women who had been admitted for delivery with a vertex-presenting fetus who achieved vaginal delivery after cesarean delivery. We compared women who underwent an induction of labor after cesarean delivery with women with spontaneous labor after cesarean delivery. Labor curves were constructed with a repeated-measures analysis; interval-censored regression was used to estimate the median time spent to dilate 1 cm, stratified by induction status, and adjusted by obesity, macrosomia, epidural, and previous vaginal delivery. RESULTS: Of 473 laboring women with a previous cesarean delivery, 234 women (49%) were induced. After adjustment for obesity, macrosomia, epidural, and previous vaginal delivery, women who underwent an induction had significantly longer labors than those women who experienced spontaneous labor. The median time to dilate from 4-10 cm took 5.6 hours (95% confidence interval, 1.8-18.0 hours) in the induction group and 3.2 hours (95% confidence interval, 1.0-10.3 hours) in the spontaneous labor group (P < .01). The time to progress 1 cm in dilation from 3-7 cm was different; however, after 7 cm, the time to progress 1 cm was not statistically different. CONCLUSION: Women who undergo an induction of labor after cesarean delivery have a longer latent labor phase, but a similar active phase than those women who experience spontaneous labor. When making the diagnosis of labor dystocia for women who undergo an induction of labor after cesarean delivery, clinicians should use the same normative standards for labor treatment of women without a previous cesarean delivery as has been shown in previous work."""
+
+

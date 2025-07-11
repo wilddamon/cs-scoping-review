@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalvisitutilizationandoutcomesinpregnantwomenwithtypeiiandgestationaldiabetes2017carter
+"OBJECTIVE: To investigate the association between the number of prenatal visits (PNVs) and pregnancy outcomes in women with gestational diabetes (GDM) and Type 2 diabetes mellitus (DM). STUDY DESIGN: A 4-year prospective cohort study of women with GDM and DM and was conducted. Patients 75th percentile for number of PNVs were compared with those 25th percentile. The primary outcomes were large for gestational age (LGA) with birth weight >90% and neonatal intensive care unit (NICU) admission for >24 h. Secondary neonatal outcomes included severe LGA (>95%), shoulder dystocia, hyperbilirubinemia requiring phototherapy, neonatal hypoglycemia, low 5 min APGAR score (<7) and preterm birth (prior to 37 weeks). Secondary maternal outcomes included mean third trimester fasting blood glucose, hemoglobin A1c (Hgb A1c) in labor, preeclampsia, gestational weight gain over Institute of Medicine recommendations, mode of delivery and maternal readmission within 30 days. Logistic regression was used to adjust for maternal race, nulliparity and body mass index. RESULTS: Of the 305 women, 4 were excluded for unknown number of PNVs. Among the 301 included, the average number of visits was 12. Rates of LGA were similar between the high (28%) compared with low (18%) utilization groups (adjusted odds ratio (aOR) 1.69; 95% confidence interval (CI) 0.81-3.54). The high utilization group was 85% less likely to deliver an infant requiring NICU admission (aOR 0.15; 95% CI 0.04-0.53) and 59% less likely to have a preterm birth (aOR 0.41; 95% CI 0.21-0.80). A time-to-event analysis to account for the fact that patients who delivered earlier had fewer weeks to experience PNVs showed that the risk for NICU admission was still significantly lower in the high PNV utilization group (hazard ratio 0.15; 95% CI 0.04-0.51) after adjusting for confounders in a Cox proportional hazard model. The mean Hgb A1c at the time of delivery was significantly better in the high (6.4%) compared with low (6.9%) utilization groups (P=0.01). There were no differences in other maternal outcomes based on prenatal care utilization. CONCLUSIONS: Diabetic women with high PNV utilization have better glycemic control in the 3 months prior to delivery and are significantly less likely to deliver preterm infants or infants requiring NICU admission. There may be innovative ways to provide prenatal care for GDM and DM to optimize maternal and neonatal outcomes."""
+
+

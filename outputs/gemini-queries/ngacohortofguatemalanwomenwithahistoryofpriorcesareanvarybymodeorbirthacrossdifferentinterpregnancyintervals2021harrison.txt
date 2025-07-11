@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: howbirthoutcomesamongacohortofguatemalanwomenwithahistoryofpriorcesareanvarybymodeorbirthacrossdifferentinterpregnancyintervals2021harrison
+"OBJECTIVES: Our objectives were to analyze how pregnancy outcomes varied by cesarean birth as compared to vaginal birth across varying interpregnancy intervals (IPI) and determine if IPI modified mode of birth. METHODS: This secondary analysis used data from a prospective registry of home and hospital births in Chimaltenango, Guatemala from January 2017 through April 2020, through the Global Network for Women's and Children's Health Research. Bivariate comparisons and multivariable logistic regression were used to answer our study question, and the data was analyzed with STATA software v.15.1. RESULTS: Of 26,465 Guatemalan women enrolled in the registry, 2794 (10.6%) had a history of prior cesarean. 560 (20.1%) women delivered by vaginal birth after cesarean with the remaining 2,233 (79.9%) delivered by repeat cesarean. Repeat cesarean reduced the risk of needing a dilation and curettage compared to vaginal birth after cesarean, but this association did not vary by IPI, all p-values > p = 0.05. Repeat cesarean delivery, as compared to vaginal birth after cesarean, significantly reduced the likelihood a woman breastfeeding within one hour of birth (AOR ranged from 0.009 to 0.10), but IPI was not associated with the outcome. Regarding stillbirth, repeat cesarean birth reduced the likelihood of stillbirth as compared to vaginal birth (AOR 0.2), but again IPI was not associated with the outcome. CONCLUSION: Outcomes by mode of delivery among a Guatemalan cohort of women with a history of prior cesarean birth do not vary by IPI."""
+
+

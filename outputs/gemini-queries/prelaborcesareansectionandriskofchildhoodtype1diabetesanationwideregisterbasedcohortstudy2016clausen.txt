@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prelaborcesareansectionandriskofchildhoodtype1diabetesanationwideregisterbasedcohortstudy2016clausen
+"BACKGROUND: Unfavorable conditions associated with cesarean section may influence the risk of type 1 diabetes in offspring, but results from studies are conflicting. We aimed to evaluate the association between prelabor cesarean section and risk of childhood type 1 diabetes. METHODS: A Danish nationwide cohort study followed all singletons born during 1982-2010. Four national registers provided information on mode of delivery, outcome, and confounders. The risk of childhood type 1 diabetes with onset before the age of 15 years was assessed by Cox regression. A total of 1,760,336 singletons contributed 20,436,684 person-years, during which 4,400 were diagnosed with childhood type 1 diabetes. RESULTS: The hazard ratio (HR) for childhood type 1 diabetes was increased in children delivered by prelabor cesarean section compared with vaginal delivery when adjusted for year of birth, parity, sex, parental age, and education and paternal type 1 diabetes status at childbirth (HR = 1.2; 95% confidence interval [CI] = 1.0, 1.3), but not after additional adjustment for maternal type 1 diabetes status at childbirth (HR = 1.1; 95% CI = 0.95, 1.2). Delivery by intrapartum cesarean section was not associated with childhood type 1 diabetes. Paternal type 1 diabetes was a stronger risk factor for childhood type 1 (HR = 12; 95% CI = 10, 14) than maternal type 1 diabetes (HR = 6.5; 95% CI = 5.2, 8.0). CONCLUSIONS: Delivery by prelabor cesarean section was not associated with an increased risk of childhood type 1 diabetes in the offspring."""
+
+

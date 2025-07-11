@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsassociatedwithadversematernaloutcomesfollowingintrapartumcesareanbirthasecondaryanalysisofthewhoglobalsurveyonmaternalandperinatalhealth200420082020harrison
+"BACKGROUND: To identify risk factors associated with a composite adverse maternal outcomes in women undergoing intrapartum cesarean birth. METHODS: We used the facility-based, multi-country, cross-sectional WHO Global Survey of Maternal and Perinatal Health (2004-2008) to examine associations between woman-, labor/obstetric-, and facility-level characteristics and a composite adverse maternal outcome of postpartum morbidity and mortality. This analysis was performed among women who underwent intrapartum cesarean birth during the course of labor. RESULTS: We analyzed outcomes of 29,516 women from low- and middle-income countries who underwent intrapartum cesarean birth between the gestational ages of 24 and 43 weeks, 3.5% (1040) of whom experienced the composite adverse maternal outcome. In adjusted analyses, factors associated with a decreased risk of the adverse maternal outcome associated with intrapartum cesarean birth included having four or more antenatal visits (AOR 0.60; 95% CI: 0.43-0.84; p = 0.003), delivering in a medium- or high-human development index country (vs. low-human development index country: AOR 0.07; 95% CI: 0.01-0.85 and AOR 0.02; 95% CI: 0.001-0.39, respectively; p = 0.03), and malpresentation (vs. cephalic: breech AOR 0.52; CI: 0.31-0.87; p = 0.04). Women who were medically high risk (vs. not medically high risk: AOR 1.81; CI: 1.30-2.51, p < 0.0004), had less education (0-6 years) (vs. 13+ years; AOR 1.64; CI: 1.03-2.63; p = 0.01), were obstetrically high risk (vs. not high risk; AOR 3.67; CI: 2.58-5.23; p < 0.0001), or had a maternal or obstetric indication (vs. elective: AOR 4.74; CI: 2.36-9.50; p < 0.0001) had increased odds of the adverse outcome. CONCLUSION: We found reduced adverse maternal outcomes of intrapartum cesarean birth in women with >= 4 antenatal visits, those who delivered in a medium or high human development index country, and those with malpresenting fetuses. Maternal adverse outcomes associated with intrapartum cesarean birth were medically and obstetrically high risk women, those with less education, and those with a maternal or obstetric indication for intrapartum cesarean birth."""
+
+

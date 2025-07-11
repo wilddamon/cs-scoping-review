@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theprevalenceandriskpredictorsofcesareanscardefectat6weekspostpartuminshanghaichinaaprospectivecohortstudy2019pan
+"INTRODUCTION: The aim of this study was to explore the prevalence and predictors of cesarean scar defect (CSD) at 6 weeks postpartum in Shanghai, China. MATERIAL AND METHODS: Women scheduled to receive a cesarean section (CS) were recruited from a university hospital. Surgery-related factors, pregnancy complications, routine examinations, perioperative medications, and physical signs were collected and transvaginal ultrasonography was performed to assess the presence of a CSD at 6 weeks postpartum. Multivariate logistic regression was applied to identify the predictors for CSD. RESULTS: A CSD was detected in 223 of 514 women (43.4%, 95% CI 39.1%-47.7%) by transvaginal ultrasonography. Of women with normal temperature (T < 37.5degC, CSD prevalence 33.9%, 95% CI 28.4%-39.5%), women with postpartum fever (T >= 38degC, CSD 44.1%, 95% CI 31.0%-57.1%), and women who were subfebrile in the postpartum (37.5 <= T <= 38.0degC, CSD 58.3%, 95% CI 50.9%-65.7%), the latter two had significantly increased risk for CSD (adjusted odds ratio [aOR] 2.7, 95% CI 1.3-5.2 and aOR 3.3, 95% CI 2.1-5.3, respectively). In comparison to single-dose antibiotic administration (CSD 49.0%, 95% CI 43.8%-54.3%), multi-dose antibiotic administration (CSD 31.1%, 95% CI 23.8%-38.3%) had a protective effect (aOR 0.4, 95% CI 0.3-0.7). Postpartum fever, intrapartum infection, emergency CS, and cervical dilation >= 3 cm were found to be the main predictors of multi-dose antibiotics management. Low platelet count postpartum (defined as <= 150 x 10(9) /L) and high fibrinogen pre-CS (defined as >= 4.5 g/L) increased CSD risk (aOR 2.0, 95% CI 1.1-3.6 and 1.7, 95% CI 1.1-2.5, respectively). CONCLUSIONS: The prevalence of CSD in the Chinese population is high enough to be a concern. Perioperative infection and hypercoagulability should be considered CSD predictors, and multi-dose antibiotics have a protective effect."""
+
+

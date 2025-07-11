@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nterminalprobtypenatriureticpeptideandcardiactroponintinnonimmunehydrops2016lee
+"AIM: We analyzed the N-terminal pro-B-type natriuretic peptide (NT-proBNP) and cardiac troponin T (cTnT) in non-immune hydrops cases, to determine whether congestive heart failure or inadequate cardiac output may be mechanisms underlying abnormal fluid collection in hydrops.;METHODS: The study population consisted of singleton neonates with non-immune hydrops and healthy control neonates, matched for both gestational age at delivery and mode of delivery. The subjects were divided into three groups: group 1, hydrops of cardiac origin (n=6); group 2, hydrops of non-cardiac origin (n=17); and group 3, control (n=23). The NT-proBNP and cTnT were measured in the cord blood collected at the time of delivery.;RESULTS: The median cord blood concentrations of NT-proBNP and cTnT were not different between the hydrops (groups 1 and 2) or control cases. However, the NT-proBNP level was elevated in group 1 compared with groups 2 and 3. The concentrations of cTnT did not differ among the three groups.;CONCLUSIONS: The concentration of NT-proBNP was only elevated in cases of hydrops of cardiac origin. Congestive heart failure might not be the underlying mechanism of fluid collection in cases of non-immune hydrops of non-cardiac origin, and NT-proBNP may be a promising tool to differentiate the origin of hydrops. Copyright (c) 2016 Japan Society of Obstetrics and Gynecology."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofprenatalcovid19vaccinationondeliveryandneonataloutcomesresultsfromanewyorkcitycohort2023ibroci
+"Research suggest prenatal vaccination against coronavirus disease-19 (COVID-19) is safe. However, previous studies utilized retrospectively collected data or examined late pregnancy vaccinations. We investigated the associations of COVID-19 vaccination throughout pregnancy with delivery and neonatal outcomes. We included 1,794 mother-neonate dyads enrolled in the Generation C Study with known prenatal COVID-19 vaccination status and complete covariate and outcome data. We used multivariable quantile regressions to estimate the effect of prenatal COVID-19 vaccination on birthweight, delivery gestational age, and blood loss at delivery; and Poisson generalized linear models for Caesarean delivery (CD) and Neonatal Intensive Care Unit (NICU) admission. Using the above methods, we estimated effects of trimester of vaccine initiation on these outcomes. In our sample, 13.7% (n = 250) received at least one prenatal dose of any COVID-19 vaccine. Vaccination was not associated with birthweight (b = 12.42 g [-90.5, 114.8]), gestational age (b = 0.2 days [-1.1, 1.5]), blood loss (b = -50.6 ml [-107.0, 5.8]), the risks of CD (RR = 0.8; [0.6, 1.1]) or NICU admission (RR = 0.9 [0.5, 1.7]). Trimester of vaccine initiation was also not associated with these outcomes. Our findings suggest that there is no associated risk between prenatal COVID-19 vaccination and adverse delivery and neonatal outcomes in a cohort sample from NYC."""
+
+

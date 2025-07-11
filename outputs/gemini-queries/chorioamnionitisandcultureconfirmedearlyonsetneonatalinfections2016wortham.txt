@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: chorioamnionitisandcultureconfirmedearlyonsetneonatalinfections2016wortham
+"Background: Current guidelines for prevention of neonatal group B streptococcal disease recommend diagnostic evaluations and empirical antibiotic therapy for well-appearing, chorioamnionitis-exposed newborns. Some clinicians question these recommendations, citing the decline in early-onset group B streptococcal disease rates since widespread intrapartum antibiotic prophylaxis implementation and potential antibiotic risks. We aimed to determine whether chorioamnionitis-exposed newborns with culture-confirmed, earlyonset infections can be asymptomatic at birth. Method(s): Multicenter, prospective surveillance for early-onset neonatal infections was conducted during 2006-2009. Early-onset infection was defined as isolation of a pathogen from blood or cerebrospinal fluid collected <=72 hours after birth. Maternal chorioamnionitis was defined by clinical diagnosis in the medical record or by histologic diagnosis by placental pathology. Hospital records of newborns with early-onset infections born to mothers with chorioamnionitis were reviewed retrospectively to determine symptom onset. Result(s): Early-onset infections were diagnosed in 389 of 396 586 live births, including 232 (60%) chorioamnionitis-exposed newborns. Records for 229 were reviewed; 29 (13%) had no documented symptoms within 6 hours of birth, including 21 (9%) who remained asymptomatic at 72 hours. Intrapartum antibiotic prophylaxis exposure did not differ significantly between asymptomatic and symptomatic infants (76% vs 69%; P =.52). Assuming complete guideline implementation, we estimated that 60 to 1400 newborns would receive diagnostic evaluations and antibiotics for each infected asymptomatic newborn, depending on chorioamnionitis prevalence. Conclusion(s): Some infants born to mothers with chorioamnionitis may have no signs of sepsis at birth despite having culture-confirmed infections. Implementation of current clinical guidelines may result in early diagnosis, but large numbers of uninfected asymptomatic infants would be treated.Copyright (c) 2016 by the American Academy of Pediatrics."""
+
+

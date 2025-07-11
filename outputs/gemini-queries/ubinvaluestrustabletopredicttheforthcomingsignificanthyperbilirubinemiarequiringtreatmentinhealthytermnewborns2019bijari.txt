@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: arecordbloodbilirubinvaluestrustabletopredicttheforthcomingsignificanthyperbilirubinemiarequiringtreatmentinhealthytermnewborns2019bijari
+"Background: Jaundice is a clinical condition that is often observed in pediatric practice and constitutes one of the major issues within the neonatal period. As severe jaundice causes neurotoxicity (kernicterus), the diagnosis and treatment of severe hyperbiliru-binemia is very important. Early prediction will help in early discharge and will prevent hospitalization of babies and mothers. On the other hand, predicting outcome in high risk neonates for subsequent hyperbilirubinemia is required. Objective(s): This study investigates the predictive value of umbilical cord serum bilirubin (UCSB) for subsequent hyperbilirubine-mia which is a required treatment in healthy term newborns. Method(s): In this prospective study, 238 healthy term newborns were inducted into the study. Soon after delivery, the cord blood was sent for serum bilirubin analysis. Newborns were followed up by TCB (transcutaneous bilirubinometry) until the third day post birth and those who showed significantly high TCB values, according to the hour-specific normogram, received the appropriate intervention and treatment. The data were analyzed using t-Test, ROC (receiver operating characteristic) curve, and chi-square tests. Result(s): Of 238 newborns, 27 (11.4%) cases developed hyperbilirubinemia (bilirubin >= 15 mg/dL), which required phototherapy. There were no significant differences between the cases who did and who did not develop hyperbilirubinemia (bilirubin < 15 mg/dL) with respect to various factors that might be associated with the risk of hyperbilirubinemia such as mode of delivery and gender. However, two groups were significantly different in terms of cord bilirubin levels. ROC (receiver operating characteristic) analysis showed that the critical value of umbilical cord serum bilirubin (UCSB) >= 2.25 mg/dl had high sensitivity (92.6%), good positive and negative predictive value (66% and 69% respectively). Conclusion(s): UCSB level >= 2.25 mg/dL can be a useful predictor of hyperbilirubinemia in healthy term newborns on the third day. Therefore, infants with UCSB level >= 2.25 mg/dL should be followed up strictly either in a hospital or in an outpatient department on the third day, whereas neonates with cord bilirubin level < 2.25 mg/dL are probably safe for early discharge.Copyright (c) 2019, Author(s)."""
+
+

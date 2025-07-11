@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: reassessingthedurationofthesecondstageoflaborinrelationtomaternalandneonatalmorbidity2018grantz
+"OBJECTIVE: To assess the morbidity associated with continuing the second-stage duration of labor, weighing the probability of spontaneous vaginal birth without morbidity compared with birth with serious maternal or neonatal complications. METHODS: In a retrospective cohort, we analyzed singleton, vertex births at 36 weeks of gestation or greater without prior cesarean delivery (n=43,810 nulliparous and 59,605 multiparous women). We calculated rates of spontaneous vaginal birth and composite serious maternal or neonatal complications. Results were stratified by parity (nulliparous or multiparous) and epidural status (yes or no). Competing risks models were created for 1) spontaneous vaginal birth with no morbidity, 2) birth with maternal or neonatal morbidity, and 3) no spontaneous vaginal birth and no morbidity, and our main interest was in comparing number 1 against number 2. RESULTS: Rates of spontaneous vaginal birth without morbidity were slightly higher after the first half hour (greater than 0.5-1.0 hours) for nulliparous women, after which rates decreased with increasing second-stage duration. For multiparous women, rates of spontaneous vaginal birth without morbidity decreased with increasing second-stage duration. For illustration, for a nulliparous woman with an epidural at 3.0 hours of the second stage of labor who extended by another 1.0 hour, her likelihood of delivering by spontaneous vaginal birth was 31.4% compared with her likelihood of birth with any serious complication in the subsequent hour, which was 7.6%. The percentage of cesarean deliveries for nonreassuring fetal heart rate tracing were higher for women without compared with women with an epidural. CONCLUSION: Rates of spontaneous vaginal birth without serious morbidity steadily decreased for increasing second-stage duration except for the first half hour for nulliparous women. We did not observe an inflection point at a particular hour mark for either spontaneous vaginal delivery without morbidity or births with morbidity. Our findings will assist in decision-making for extending second-stage duration."""
+
+

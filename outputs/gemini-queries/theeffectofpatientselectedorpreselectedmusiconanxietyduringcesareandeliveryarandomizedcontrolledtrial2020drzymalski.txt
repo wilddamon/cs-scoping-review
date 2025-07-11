@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofpatientselectedorpreselectedmusiconanxietyduringcesareandeliveryarandomizedcontrolledtrial2020drzymalski
+"Background: Women undergoing cesarean delivery may have significant anxiety prior to surgery. Nonpharmacological approaches to anxiety reduction are favored in this patient population.Objective: The aim of this study was to determine the effects of patient-selected or preselected music on anxiety in parturients undergoing scheduled cesarean delivery.Materials and methods: This is a prospective, randomized controlled trial (IRB protocol #2015P002043; ClinicalTrials.gov, NCT02732964), of 150 parturients undergoing elective cesarean delivery. Parturients were randomized to patient-selected music (Pandora((r))), preselected music (Mozart), or no music (control). The primary outcome was anxiety after music exposure (versus no music) in the preoperative holding room. Secondary outcomes included postoperative anxiety, postoperative pain, and patient satisfaction.Results: Baseline anxiety and anxiety following preoperative exposure did not differ in the Pandora versus control group (3.8 +- 2.4 versus 4.6 +- 2.6, mean difference -0.8 [95% CI -1.8 to 0.2], p = .12), but was lower in the Mozart group versus control group (3.5 +- 2.5 versus 4.6 +- 2.5, mean difference -1.1 [95% CI -2.2 to -0.1], p = .03). Postoperative anxiety did not differ in the Pandora versus control group (1.0 +- 1.4 versus 1.3 +- 2.0, mean difference -0.3 [95% CI -1.0 to 0.4], p = .43), or in the Mozart versus control group (0.8 +- 1.3 versus 1.3 +- 2.0, mean difference -0.5 [95% CI -1.2 to 0.2], p = .15). Postoperative pain was not different in the Pandora group versus control group (0.8 +- 1.5 versus 1.4 +- 1.9, mean difference -0.6 [95% CI -1.3 to 0.1], p = .10), but was lower in the Mozart versus control group (0.6 +- 1.3 versus 1.4 +- 1.9, mean difference -0.8 [95% CI -1.4 to -0.1], p = .03). Total patient satisfaction scores were not different among the control, Pandora, and Mozart groups.Conclusion: While preselected Mozart music results in lower anxiety prior to cesarean delivery, patient-selected Pandora music does not. Further investigation to determine how music affects patients, clinicians, and the operating room environment during cesarean delivery is warranted.Clinical trial registration: NCT02732964."""
+
+

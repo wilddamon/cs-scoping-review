@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrapartumantibioticexposureandbodymassindexinchildren2021koebnick
+"BACKGROUND: Intrapartum antibiotic prophylaxis (IAP) reduces a newborn's risk of group B streptococcal infection (GBS) but may lead to an increased childhood body mass index (BMI). METHODS: This was a retrospective cohort study of infants (n = 223 431) born 2007-2015 in an integrated healthcare system. For vaginal delivery, we compared children exposed to GBS-IAP and to any other type or duration of intrapartum antibiotics to no antibiotic exposure. For cesarean delivery, we compared children exposed to GBS-IAP to those exposed to all other intrapartum antibiotics, including surgical prophylaxis. BMI over 5 years was compared using nonlinear multivariate models with B-spline functions, stratified by delivery mode and adjusted for demographics, maternal factors, breastfeeding, and childhood antibiotic exposure. RESULTS: In vaginal deliveries, GBS-IAP was associated with higher BMI from 0.5 to 5.0 years of age compared to no antibiotics (P < .0001 for all time points, DBMI at age 5 years 0.12 kg/m2, 95% confidence interval [CI]: .07-.16 kg/m2). Other antibiotics were associated with higher BMI from 0.3 to 5.0 years of age. In cesarean deliveries, GBS-IAP was associated with increased BMI from 0.7 years to 5.0 years of age (P < .05 for 0.7-0.8 years, P < .0001 for all other time points) compared to other antibiotics (DBMI at age 5 years 0.24 kg/m2, 95% CI: .14-.34 kg/m2). Breastfeeding did not modify these associations. CONCLUSIONS: GBS-IAP was associated with a small but sustained increase in BMI starting at very early age. This association highlights the need to better understand the effects of perinatal antibiotic exposure on childhood health."""
+
+

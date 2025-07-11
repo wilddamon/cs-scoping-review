@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonatalmortalityandlongtermoutcomeofinfantsbornbetween27and32weeksofgestationalageinbreechpresentationtheepipagecohortstudy2016azria
+"OBJECTIVE: To determine whether breech presentation is an independent risk factor for neonatal morbidity, mortality, or long-term neurologic morbidity in very preterm infants.;DESIGN: Prospective population-based cohort.;POPULATION: Singletons infants without congenital malformations born from 27 to 32 completed weeks of gestation enrolled in France in 1997 in the EPIPAGE cohort.;METHODS: The neonatal and long-term follow-up outcomes of preterm infants were compared between those in breech presentation and those in vertex presentation. The relation of fetal presentation with neonatal mortality and neurodevelopmental outcomes was assessed using multiple logistic regression models.;RESULTS: Among the 1518 infants alive at onset of labor included in this analysis (351 in breech presentation), 1392 were alive at discharge. Among those eligible to follow up and alive at 8 years, follow-up data were available for 1188 children. Neonatal mortality was significantly higher among breech than vertex infants (10.8% vs. 7.5%, P = 0.05). However the differences were not significant after controlling for potential confounders. Neonatal morbidity did not differ significantly according to fetal presentation. Severe cerebral palsy was less frequent in the group born in breech compared to vertex presentation but there was no difference after adjustment. There was no difference according to fetal presentation in cognitive deficiencies/learning disabilities or overall deficiencies.;CONCLUSION: Our data suggest that breech presentation is not an independent risk factor for neonatal mortality or long-term neurologic deficiencies among very preterm infants."""
+
+

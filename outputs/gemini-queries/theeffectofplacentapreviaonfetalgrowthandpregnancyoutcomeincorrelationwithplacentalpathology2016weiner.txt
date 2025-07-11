@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofplacentapreviaonfetalgrowthandpregnancyoutcomeincorrelationwithplacentalpathology2016weiner
+"OBJECTIVE: To compare the clinical characteristics and placental histopathology between pregnancies complicated by placenta previa and controls.;STUDY DESIGN: Between 2009 and 2015, cesarean deliveries (CDs) of 119 pregnancies with placenta previa were identified from which maternal outcomes, neonatal outcomes and placental pathology were reviewed. Results were compared with CDs matched for maternal age and pregnancy complications (control group, n=119). Placental lesions were classified into maternal and fetal vascular supply lesions and inflammatory response. Composite neonatal outcome was defined as one or more of early neonatal complications. Small-for-gestational age (SGA) was defined as birth weight 10th percentile.;RESULTS: Placentas from the previa group had higher rates of weights <10th percentile (P<0.001) and of maternal and fetal vascular supply lesions (P<0.001, for both). Higher rate of SGA (P=0.003) and worse composite neonatal outcome (P<0.001) were also observed in the previa group as compared with controls. After controlling for potential confounding bias using multivariable logistic regression models, placenta previa remained statistically significantly associated with placental maternal (adjusted odds ratio (aOR) 2.48, 95% confidence interval (CI) 1.2-4.9, P=0.009) and fetal (aOR 7.05, 95% CI 2.4-20.2, P<0.001) vascular supply lesions, SGA (aOR 10, 95% CI 2.3-44.2, P=0.002) and adverse neonatal outcome (aOR 6.87, 95% CI 2.9-11.8, P<0.001).;CONCLUSIONS: More placental vascular supply lesions, higher rate of SGA and worse neonatal outcome characterized pregnancies with placenta previa in the current study. These findings may suggest that abnormal placentation is accompanied by suboptimal implantation that interferes with fetal growth."""
+
+

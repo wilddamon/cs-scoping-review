@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivestudyof17patientswhohadexcisionofabdominalwallendometriosisaftercaesareansectionoveran11yearperiod2017krepelka
+"Introduction: The aim of our study was to retrospectively learn about the incidence of abdominal wall endometriosis (AWE) after caesarean section (CS) in our Perinatal Centre (Perinatal Centre of the Institute for the Care of Mother and Child), one of the largest in the Czech Republic. Method(s): This is a retrospective review of hospital records on 18,454 caesarean deliveries between 2003 and 2014. Result(s): A total of 17 cases of caesarean scar endometriosis (also known as AWE) were identified. The median age was 36.0 (33.5-43.5) years. In 10 patients, the cyclic pain was present. The median interval between CS and first symptoms was 3.0 (1.0-6.5) years. Ultrasound supported the diagnosis by the identification of hypoechogenic lesions in all patients. The median interval between symptoms development and surgical excision was 1.0 year (1.0-4.0 years). Excision was the mode of treatment. Excisions with clear margins (15 cases) were curative to all those patients. Two patients with involved margins had recurrences at 6 and 8 months, respectively, and were treated with a second resection with no further surgery. No malignant transformation cases were identified. Conclusion(s): Physicians should be highly suspicious of CS scar endometriosis, especially after uterine surgery. Complete excision is the only curative treatment.Copyright (c) 2017 Wichtig Publishing."""
+
+

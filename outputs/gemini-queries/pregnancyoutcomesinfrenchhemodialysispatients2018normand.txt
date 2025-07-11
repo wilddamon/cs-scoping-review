@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinfrenchhemodialysispatients2018normand
+"BACKGROUND: Pregnancy in hemodialysis (HD) women is a rare event and often associated with maternal and fetal complications. Scarcity of available data from large cohorts impedes fair medical counseling.;METHODS: This is a descriptive, retrospective, multi-centric study. Pregnant women on HD during the period from 1985 to 2015 in France were included. The primary outcome was a living infant discharged from hospital, while secondary outcomes included gestational age and birth weight.;RESULTS: We identified 100 pregnancies in 84 women on HD, from 41 centers. Chronic HD was initiated during pregnancy for 17.7% (14/79) of patients explaining a 19.8% prevalence of catheter (19/96) and a preserved residual diuresis for 50% of pregnancy (43/86). Seventy-six (89.4%) women performed daily dialysis during the third trimester (6 times per week). Our primary outcome was met for 78% of newborns with a mean gestational age of 33.2 +/- 3.9 weeks and a mean birth weight of 1,719 +/- 730 g.;CONCLUSIONS: Our study is one of the largest series of -pregnancies in HD patients. Despite recent progresses, these pregnancies remain at high risk, reinforcing the need for an early nephrologist-obstetrician skilled team co-management. Copyright (c) 2018 S. Karger AG, Basel."""
+
+

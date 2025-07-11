@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryandriskofinfantleukemiaareportfromthechildrensoncologygroup2018marcotte
+"Background: Studies have reported increased risks of pediatric acute lymphoblastic leukemia (ALL) among children born by cesarean delivery (CD). However, no previous study has examined the impact of CD on risk of infant leukemia specifically. Methods: In this study, 443 infants diagnosed with acute leukemia, including both ALL and acute myelogenous leukemia (AML), were identified at Children's Oncology Group institutions between January 1996 and December 2006; 324 controls frequency matched by year of birth were identified though random digit dialing and random selection from U.S. birth registries. Using interview data and, for a subset of participants, medical record data, we analyzed CD overall and by indications that likely resulted in pre-labor CD (PLCD) or emergency CD (ECD). Odds ratios (ORs) and 95% confidence intervals (CIs) for risk of ALL and AML were estimated using multivariable unconditional logistic regression models, adjusted for year of birth, birth weight, and maternal race. Results: We observed an increased point estimate for the association between CD and ALL (OR, 1.52 and 95% CI, 1.02-2.25). We did not observe an association between CD and AML (OR, 1.02 and 95% CI, 0.64-1.62). In analyses of indication for CD, we observed elevated effect estimates for the associations of both PLCD and ECD and infant ALL. Conclusions: Our analysis suggests an increased risk of infant ALL following CD, including both PLCD and ECD. Altered microbiota colonization may be involved in development of leukemia in infants, but clear biological mechanisms have yet to be determined. Impact: This study provides the first in-depth examination of CD and infant leukemia. Cancer Epidemiol Biomarkers Prev; 27(4); 473-8. (c)2018 AACR. Copyright (c)2018 American Association for Cancer Research."""
+
+

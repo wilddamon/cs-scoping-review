@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nonsteroidalantiinflammatorydrugallergylabelingisassociatedwithincreasedpostpartumopioidutilization2024li
+"BACKGROUND: Current guidelines recommend a stepwise approach to postpartum pain management, beginning with acetaminophen and nonsteroidal anti-inflammatory drugs (NSAIDs), with opioids added only if needed. Report of a prior NSAID-induced adverse drug reaction (ADR) may preclude use of first-line analgesics, despite evidence that many patients with this allergy label may safely tolerate NSAIDs. OBJECTIVE: We assessed the association between reported NSAID ADRs and postpartum opioid utilization. METHODS: We performed a retrospective cohort study of birthing people who delivered within an integrated health system (January 1, 2017, to December 31, 2020). Study outcomes were postpartum inpatient opioid administrations and opioid prescriptions at discharge. Statistical analysis was performed on a propensity score-matched sample, which was generated with the goal of matching to the covariate distributions from individuals with NSAID ADRs. RESULTS: Of 38,927 eligible participants, there were 883 (2.3%) with an NSAID ADR. Among individuals with reported NSAID ADRs, 49.5% received inpatient opioids in the postpartum period, compared to 34.5% of those with no NSAID ADRs (difference = 15.0%, 95% confidence interval 11.4-18.6%). For patients who received postpartum inpatient opioids, those with NSAID ADRs received a higher total cumulative dose between delivery and hospital discharge (median 30.0 vs 22.5 morphine milligram equivalents [MME] for vaginal deliveries; median 104.4 vs 75.0 MME for cesarean deliveries). The overall proportion of patients receiving an opioid prescription at the time of hospital discharge was higher for patients with NSAID ADRs compared to patients with no NSAID ADRs (39.3% vs 27.2%; difference = 12.1%, 95% confidence interval 8.6-15.6%). CONCLUSION: Patients with reported NSAID ADRs had higher postpartum inpatient opioid utilization and more frequently received opioid prescriptions at hospital discharge compared to those without NSAID ADRs, regardless of mode of delivery."""
+
+

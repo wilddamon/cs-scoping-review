@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinfluenceofhomeenvironmentandwoundcarepracticeonsurgicalsiteinfectionamongpostcesareansectionwomenindodomatanzania2022peter
+"Background: Post caesarean section surgical site infections continue to be the problem of wound management that contribute to high maternal morbidity. This study assessed the prevalence of post caesarean section surgical site infections and the influence of home environment and wound care practices at home on surgical site infections among post cesarean section women in Dodoma region-Tanzania. Method(s): This was a hospital-based analytical cross-sectional study involved 183 randomly selected post caesarean section women during postnatal clinic visit within two weeks post discharge. Wound assessment and isolation of microbes were used to confirm the infection, while questionnaire was used to assess the wound care practices and characteristics of home environment. Logistic regression models were employed, and the level of significance was set at p <= 0.05. Result(s): The prevalence of post caesarean surgical site infections was 20.8 %, and the common isolated microbes were Staphylococcus aureus (52.6 %). Most isolates were sensitive to ciprofloxacin (81.5 %). Women with poor wound care practices had 6 times greater odds of developing surgical site infections (AOR = 5.95; p-value 0.004). The home environment condition did not influence the development of surgical site infections but it was related with good wound care practices. Conclusion(s): The post cesarean section surgical site infections rate after being discharged is high in Dodoma and it is directly influenced by the poor wound care practices and indirectly by the unconducive home environment. Efforts need to be directed to ensure women adhere to infection prevention measures when caring for their wound at home while taking into consideration their physical home environment they are living in.Copyright (c) 2022 The Authors"""
+
+

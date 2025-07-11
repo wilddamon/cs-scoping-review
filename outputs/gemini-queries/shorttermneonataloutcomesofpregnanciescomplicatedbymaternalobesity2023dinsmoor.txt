@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: shorttermneonataloutcomesofpregnanciescomplicatedbymaternalobesity2023dinsmoor
+"BACKGROUND: Maternal obesity complicates a high number of pregnancies. The degree to which neonatal outcomes are adversely affected is unclear. OBJECTIVE: This study aimed to evaluate neonatal outcomes of pregnancies complicated by maternal obesity. STUDY DESIGN: This study was a secondary analysis of a cohort of deliveries occurring on randomly selected days at 25 hospitals from 2008 to 2011. Data were collected by certified abstractors. This analysis included singleton deliveries between 24 and 42 weeks of gestation. Body mass index was calculated on the basis of maternal height and most recent weight before delivery. Normal and overweight (reference group; body mass index, 18.5-29.9 kg/m(2)), obese (body mass index, 30.0-39.9 kg/m(2)), morbidly obese (body mass index, 40.0-49.9 kg/m(2)), and super morbidly obese (body mass index, >=50 kg/m(2)) patients were compared. Patients in the reference group were matched in a 1:1 ratio with those in all other groups with obesity using the baseline characteristics of age, race and ethnicity, previous cesarean delivery, preexisting diabetes mellitus, chronic hypertension, parity, cigarette use, and insurance status. The primary outcome was composite neonatal morbidity, including fetal or neonatal death, hypoxic-ischemic encephalopathy, respiratory distress syndrome, intraventricular hemorrhage grade 3 or 4, necrotizing enterocolitis, sepsis, birth injury, seizures, or ventilator use. We used a modified Poisson regression to examine the associations between body mass index and composite neonatal outcome. Preterm delivery at <37 weeks of gestation and the presence of maternal preeclampsia or eclampsia were included in the final model because of their known associations with neonatal outcomes. RESULTS: Overall, 52,162 patients and their neonates were included after propensity score matching. Of these, 21,704 (41.6%) were obese, 3787 (7.3%) were morbidly obese, and 590 (1.1%) were super morbidly obese. A total of 2103 neonates (4.0%) had the composite outcome. Neonates born to pregnant people with morbid obesity had a 33% increased risk of composite neonatal morbidity compared with those in the reference group (adjusted odds ratio, 1.33; 95% confidence interval, 1.17-1.52), but no significant association was observed for persons with obesity (adjusted odds ratio, 1.05; 95% confidence interval, 0.97-1.14) or with super morbid obesity (adjusted odds ratio, 1.18; 95% confidence interval, 0.86-1.64). CONCLUSION: Compared with the reference group, gravidas with morbid obesity were at higher risk of composite neonatal morbidity."""
+
+

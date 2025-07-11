@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryoutcomesforpatientswithcoronavirusdisease2019intheusa2023mazzeffi
+"INTRODUCTION: Coronavirus disease-2019 (COVID-19) may have increased morbidity and mortality in patients having Cesarean delivery (CD) in the USA. METHODS: We performed a retrospective cohort study of patients who had CD in 2020 using the national inpatient sample. After stratification by COVID-19 status, demographics, comorbidities, complications, mortality, and costs were compared. RESULTS: There were 31,444,222 hospitalizations in the USA in 2020 with a mortality rate of 2.8%. Among these, 1,453,945 patients had COVID-19 and mortality was 13.2%. There were 1,108,755 patients who had CD and 15,550 had COVID-19. Patients with COVID-19 more frequently had Medicaid and were Hispanic. Patients with COVID-19 had more comorbidities including chronic hypertension, diabetes mellitus, pre-eclampsia, and eclampsia. Mortality in CD patients with COVID-19 was 30 in 10,000 patients, while for non-COVID-19 patients, it was 1 in 10,000 patients, P < 0.001. The crude odds ratio for mortality in COVID-19 patients was 32.1 (95% confidence interval = 22.9 to 44.7), P < 0.001 and the adjusted odds ratio was 29.3 (95% confidence interval = 20.7 to 41.4), P < 0.001. CONCLUSIONS: CD patients with COVID-19 had 30-fold higher mortality before widespread vaccination was available with Hispanic and Medicaid patients disproportionately impacted. Potential explanations for this disparity include reduced access to personal protective equipment (e.g., masks) and testing, as well as socio-economic factors. Further research is needed to understand the factors that contributed to disparities in infection and clinical outcomes among obstetric patients during the COVID-19 pandemic. In future pandemics, enhanced efforts will be needed to protect economically disadvantaged women who are pregnant."""
+
+

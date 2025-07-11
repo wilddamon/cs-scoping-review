@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timingofdeliveryinwomenwithprioruterineruptureadecisionanalysis2021frank
+"Background: Uterine rupture is an obstetric complication with high rates of associated maternal and neonatal morbidity and mortality. However, limited guidance for the timing of delivery in women with a history of prior uterine rupture exists.Objective: To determine the optimal gestational age of delivery in women with prior uterine rupture.Study design: A decision-analytic model was built using TreeAge software to compare the outcomes of repeat cesarean delivery when performed at 32, 33, 34, 35, or 36 weeks gestation in a theoretical cohort of 1000 women with prior uterine rupture. Strategies involved expectant management until a later gestational age accounting for the risks of spontaneous uterine rupture, spontaneous labor, uterine rupture following spontaneous labor, and stillbirth during each successive week that a woman was still pregnant. Maternal outcomes included uterine rupture, hysterectomy, and death. Neonatal outcomes included hypoxic-ischemic encephalopathy, cerebral palsy, and death. Probabilities were derived from the literature and total quality-adjusted life years (QALYs) were calculated. Sensitivity analyses were used to vary model inputs to investigate the robustness of our baseline assumptions.Results: In our theoretical cohort of 1000 pregnant women with a history of prior uterine rupture, cesarean delivery at 34 weeks maximized maternal and neonatal QALYs. Compared to delivery at 36 weeks, delivery at 34 weeks would prevent 38.6 uterine ruptures, 0.079 maternal deaths, 6.10 hysterectomies, and 12.1 neonatal deaths but results in 4.70 more cases of cerebral palsy. Univariate sensitivity analysis found that repeat cesarean at 34 weeks remained the optimal strategy until the probability of spontaneous repeat uterine rupture (baseline estimate: 0.68%) fell below 0.2% or rose above 0.9%, at which point, a strategy of delivery at 35 or 32 weeks became optimal, respectively. However, Monte Carlo simulation demonstrated that delivery at 35 weeks was the optimal strategy 37% of the time, whereas 34 weeks was the optimal strategy 17% of the time.Conclusion: The optimal time for repeat cesarean delivery in women with prior uterine rupture appears to be between 34-0/7 and 35-6/7 weeks gestation."""
+
+

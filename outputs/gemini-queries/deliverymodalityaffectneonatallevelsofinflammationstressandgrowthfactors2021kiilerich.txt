@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverymodalityaffectneonatallevelsofinflammationstressandgrowthfactors2021kiilerich
+"Introduction: As part of the study CODIBINE, Correlations and Diagnoses for Biomarkers in New-borns, the main objective of the study was to explore neonatal inflammation, stress, neurodevelopment, and growth factors after in-labor and pre-labor cesarean section compared to vaginal delivery. Increasing evidence has shown that birth delivery mode has an impact on imminent and long-term child health. However, the effect of the timing of cesarean section is insufficiently elucidated. The main objective of the study was to explore the effect of different delivery modes, vaginal delivery compared to cesarean section with or without initiation of labor, on the infants. Methods: We designed a retrospective cohort study, including dried blood spot samples from mature (gestational age >= 37) newborns delivered in the years 2009-2011. The newborns were divided into three groups after delivery mode: (1) pre-labor cesarean section (n = 714), i.e., cesarean delivery without initiation of labor, (2) in-labor cesarean section (n = 655), i.e., cesarean section after initiation of labor, and (3) vaginal delivery (n = 5,897). We measured infant levels of inflammatory (IL-18, MCP-1, CRP, sTNF RI), stress (HSP-70), growth (EGF, VEGF-A), and neurotrophic factors (BDNF, NT-3, S100B) 2-4 days after birth. Results: The neonatal levels of inflammatory and stress markers were significantly lower, while the levels of growth factors were higher after pre-labor cesarean section compared to vaginal delivery. The biomarker levels were similar after in-labor cesarean section and vaginal delivery. Removing cases with pre-labor rupture of membranes and artificial rupture of membranes in the calculations did not change the results. The levels of neurotrophic factors were unaffected by delivery form. Males had generally higher levels of inflammation and lower levels of growth and neurotrophic factors. Overall, the levels of inflammatory markers increased, and the growth factors decreased with increasing gestational age. Conclusion: The present study of the biomarker levels after birth suggests that the labor process has an important effect on the fetal immune system and level of stress, regardless if the delivery ends with cesarean section or vaginal birth."""
+
+

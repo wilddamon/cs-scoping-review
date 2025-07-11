@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweennumberofrepeatcesareandeliveriesandadverseoutcomesamonglowriskpregnancies2022backley
+"OBJECTIVE: To investigate maternal and neonatal adverse outcomes among low-risk pregnancies delivered at 37 weeks or more by repeat cesarean deliveries (CD). METHODS: A population-based, retrospective study using the US vital statistics data sets (2014-2018) evaluating low-risk pregnancies with a non-anomalous singleton non-laboring repeat CD from 37 to 41 weeks of pregnancy. Women with hypertensive disorders or diabetes were excluded. Primary outcome was composite maternal adverse outcome (CMAO). Secondary outcome was composite neonatal adverse outcome (CNAO). Multivariable Poisson regression models were used to estimate the association between number of repeat CD and outcomes (using adjusted relative risks [aRR] and 95% confidence interval [CI]). RESULTS: Of the 19 623 195 live births, 1 747 610 (8.9%) met the inclusion criteria and among them, 1 144 186 (65.5%) were to women who had one prior CD, 454 817 (26.0%) had two prior CD, 119 087 (6.8%) had three prior CD, and 29 520 (1.7%) had four or more prior CD. Compared with individuals with one prior CD, the risk of CMAO was higher in individuals with two (aRR 1.41, 95% CI 1.34-1.48), three (aRR 1.96, 95% CI 1.83-2.10), and four or more (aRR 2.98, 95% CI 2.69-3.29) prior CD. An increased risk of CNAO was also found with an increasing number of repeat CD. CONCLUSION: Among women with low-risk pregnancies undergoing repeat CD, increasing number of prior CD was associated with a higher risk of adverse outcomes."""
+
+

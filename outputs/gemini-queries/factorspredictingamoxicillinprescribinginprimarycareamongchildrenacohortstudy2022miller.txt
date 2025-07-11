@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorspredictingamoxicillinprescribinginprimarycareamongchildrenacohortstudy2022miller
+"BACKGROUND: Antibiotic prescribing during childhood, most commonly for respiratory tract infections (RTIs), contributes to antimicrobial resistance, which is a major public health concern. AIM: To identify factors associated with amoxicillin prescribing and RTI consultation attendance in young children in primary care. DESIGN AND SETTING: Cohort study in Bradford spanning pregnancy to age 24 months, collected 2007-2013, linked to electronic primary care and air pollution data. METHOD: Amoxicillin prescribing and RTI consultation rates/1000 child-years were calculated. Mixed-effects logistic regression models were fitted with general practice (GP) surgery as the random effect. RESULTS: The amoxicillin prescribing rate among 2493 children was 710/1000 child-years during year 1 (95% confidence interval [CI] = 677 to 744) and 780/1000 (95% CI = 745 to 816) during year 2. During year 1, odds of amoxicillin prescribing were higher for boys (adjusted odds ratio [aOR] 1.36, 95% CI = 1.14 to 1.61), infants from socioeconomically deprived households (aOR 1.36, 95% CI = 1.00 to 1.86), and infants with a Pakistani ethnic background (with mothers born in the UK [aOR 1.44, 95% CI = 1.06 to 1.94] and outside [aOR 1.42, 95% CI = 1.07 to 1.90]). During year 2, odds of amoxicillin prescribing were higher for infants with a Pakistani ethnic background (with mothers born in the UK [aOR 1.46, 95% CI = 1.10 to 1.94] and outside [aOR 1.56, 95% CI = 1.19 to 2.04]) and those born <39 weeks gestation (aOR 1.20, 95% CI = 1.00 to 1.45). Additional risk factors included caesarean delivery, congenital anomalies, overcrowding, birth season, and childcare attendance, with GP surgery explaining 7%-9% of variation. CONCLUSION: Socioeconomic status and ethnic background were associated with amoxicillin prescribing during childhood. Efforts to reduce RTI spread in household and childcare settings may reduce antibiotic prescribing in primary care."""
+
+

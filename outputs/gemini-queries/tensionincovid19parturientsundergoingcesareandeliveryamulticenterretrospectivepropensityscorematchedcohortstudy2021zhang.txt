@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theriskofneuraxialanesthesiarelatedhypotensionincovid19parturientsundergoingcesareandeliveryamulticenterretrospectivepropensityscorematchedcohortstudy2021zhang
+"Background: SARS-CoV-2 infection was referred to sympathetic hyperactivity, which might increase the susceptibility of neuraxial anesthesia-related hypotension resulted from sympathetic inhibition. We conducted a multicenter, retrospective, propensity score matched (PSM) cohort study to determine whether COVID-19 parturients have an increased risk of hypotension after neuraxial anesthesia for cesarean delivery. Methods: Clinical data of COVID-19 parturients were collected from the electronic medical records from 1th January to 31th May, 2020 in three hospitals of Hubei Province, China. Information of Control parturients (without COVID-19) were obtained at the same institutions over a similar period in 2019. All American Society of Anaesthesiologists (ASA) Physical Status II full termed pregnant women who received cesarean delivery under neuraxial anesthesia were included. The primary objective was to obtain and compare the incidence of neuraxial anesthesia-related hypotension. Secondary objectives were the analysis of anesthetic implementation and administration, intraoperative maternal vital signs and adverse reactions, and neonatal Apgar scores at 1 and 5 min after delivery. The clinical characteristics of COVID-19 parturients were also analyzed. PSM was derived to balance the predictors for neuraxial anesthesia-related hypotension based on previous studies. Results: In present study, 101 COVID-19 parturients and 186 Control parturients were derived from 1,403 cases referenced to propensity score matching. The incidence of neuraxial anesthesia-related hypotension was 57.4% in COVID-19 parturients and 41.9% in Control parturients with an incidence risk ratio (IRR) of 1.37 (95% CI 1.08-1.74; P = 0.012; post-hoc Cramer's V = 0.15) in the PSM cohort. The incidences of nausea, vomiting, dizziness, and shaking were significantly higher in the COVID-19 group than Control group (48.5 vs. 17.2%, P < 0.001; 10.9 vs. 4.3%, P = 0.03; 18.8 vs. 3.2%, P < 0.001; 51.5 vs. 18.3%, P < 0.001; respectively). The Apgar scores at 1 min was significantly lower in newborns from COVID-19 parturients than that in Control babies (P = 0.04). Conclusions: An increased risk of neuraxial anesthesia-related hypotension in COVID-19 parturients undergoing cesarean delivery should be stressed."""
+
+

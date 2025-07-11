@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofcesareandeliverywithchildhoodhospitalizationforinfectionsbefore13yearsofage2021auger
+"OBJECTIVES: To determine the association between cesarean delivery and childhood infections up to 13 years of age. STUDY DESIGN: We conducted a longitudinal cohort study of 731 803 children born between 2006 and 2016 at all hospitals in the province of Quebec, Canada. We followed children born by cesarean, operative vaginal, and nonoperative vaginal delivery up to 13 years of age. Outcomes included hospitalization for otitis media, respiratory, infectious enteritis, and other infections. We estimated hazard ratios with 95% CIs for the association between mode of delivery and childhood infections, adjusted for patient characteristics. RESULTS: At age 3-4 years, cesarean delivery was associated with a 1.07-fold greater risk of otitis media (95% CI, 1.03-1.11), a 1.15-fold greater risk of respiratory infection (95% CI, 1.09-1.22), and a 1.13-fold greater risk of infectious enteritis (95% CI, 1.03-1.25) compared with nonoperative vaginal delivery. However, operative vaginal delivery was associated with these same outcomes. Both cesarean and operative vaginal delivery were more strongly associated with infection hospitalization before age 1 year, but associations disappeared after 5 years. CONCLUSIONS: Cesarean delivery is associated with infection hospitalization before but not after age 5 years. However, associations were also present for operative vaginal delivery, which suggests that mechanisms other than exposure to maternal vaginal flora explain the relationship."""
+
+

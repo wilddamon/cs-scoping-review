@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinwomenwithautoimmunehepatitisanationwidepopulationbasedcohortstudywithhistopathology2023sharma
+"BACKGROUND & AIMS: Autoimmune hepatitis (AIH) is a chronic inflammatory liver condition that predominantly affects women. However, pregnancy risks remain unclear. METHODS: A nationwide population-based cohort study (ESPRESSO) in Sweden from 1992 to 2016 including 309 singleton births in women with AIH and 1532 matched births in women from the general population was performed. AIH was diagnosed as a combination of administrative coding from medical diagnosis of AIH and liver biopsy data from Sweden's 28 pathology departments. Using conditional logistic regression, odds ratios (ORs) for adverse pregnancy outcomes were determined. RESULTS: Among 306 live births to women with AIH, 51 (16.7%) were preterm, compared with 70 of 1524 (4.6%) reference births. This corresponded to an OR of 5.10 for preterm birth (95% confidence interval [CI], 3.29-7.92), with similar odds using sibling comparators. Women with AIH with and without cirrhosis had similar odds for preterm birth. The AIH association was particularly strong with medically indicated preterm birth (OR, 13.01; 95% CI, 5.50-30.79). AIH was associated with low birth weight (OR, 5.31; 95% CI, 2.82-9.99) and low 5-minute Apgar score (OR, 3.46; 95% CI, 1.14-10.49) offspring, but we found no association with congenital malformations (OR, 1.14; 95% CI, 0.68-1.91), small for gestational age (OR, 1.04; 95% CI, 0.38-2.85), stillbirth (OR, 0.59; 95% CI, 0.02-18.88), or neonatal death (OR, 7.42; 95% CI, 0.65-84.25). Maternal AIH was linked to an increased odds of cesarean section (OR, 1.44; 95% CI, 1.04-2.00) and preeclampsia (OR, 3.65; 95% CI, 2.01-6.64), but not to gestational diabetes. CONCLUSIONS: Maternal AIH was associated with a 5-fold higher odds of preterm birth, and cirrhosis at diagnosis did not add to the impact of AIH on preterm birth. Future studies are needed to understand how to reduce this risk."""
+
+

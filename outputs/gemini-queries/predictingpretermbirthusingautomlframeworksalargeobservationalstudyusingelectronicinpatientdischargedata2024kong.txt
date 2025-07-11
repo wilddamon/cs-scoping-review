@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingpretermbirthusingautomlframeworksalargeobservationalstudyusingelectronicinpatientdischargedata2024kong
+"Background: To develop and compare different AutoML frameworks and machine learning models to predict premature birth. Method(s): The study used a large electronic medical record database to include 715,962 participants who had the principal diagnosis code of childbirth. Three Automatic Machine Learning (AutoML) were used to construct machine learning models including tree-based models, ensembled models, and deep neural networks on the training sample (N = 536,971). The area under the curve (AUC) and training times were used to assess the performance of the prediction models, and feature importance was computed via permutation-shuffling. Result(s): The H2O AutoML framework had the highest median AUC of 0.846, followed by AutoGluon (median AUC: 0.840) and Auto-sklearn (median AUC: 0.820), and the median training time was the lowest for H2O AutoML (0.14 min), followed by AutoGluon (0.16 min) and Auto-sklearn (4.33 min). Among different types of machine learning models, the Gradient Boosting Machines (GBM) or Extreme Gradient Boosting (XGBoost), stacked ensemble, and random forrest models had better predictive performance, with median AUC scores being 0.846, 0.846, and 0.842, respectively. Important features related to preterm birth included premature rupture of membrane (PROM), incompetent cervix, occupation, and preeclampsia. Conclusion(s): Our study highlights the potential of machine learning models in predicting the risk of preterm birth using readily available electronic medical record data, which have significant implications for improving prenatal care and outcomes.Copyright 2024 Kong, Tao, Xiao, Xiong, Wei and Cai."""
+
+

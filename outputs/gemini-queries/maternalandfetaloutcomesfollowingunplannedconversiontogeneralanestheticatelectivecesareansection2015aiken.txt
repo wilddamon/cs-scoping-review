@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandfetaloutcomesfollowingunplannedconversiontogeneralanestheticatelectivecesareansection2015aiken
+"OBJECTIVE: To investigate risk factors predicting unplanned conversion to general anesthesia during elective cesarean section, and to examine maternal and fetal outcomes associated with unplanned conversion compared with other modes of anesthesia. STUDY DESIGN: A retrospective cohort at a UK center (2008 to 2013). Women (4337) underwent elective cesarean section. Delivery outcomes were compared according to anesthesia type using logistic regression. RESULT: Women (1.6%) underwent unplanned conversion to general anesthetic. Unplanned conversion was associated with higher parity (odds ratio (OR) 3.82, confidence interval (CI; (1.58 to 9.62)) and maternal age 40 (OR 4.40, CI (1.08 to 29.88)). Compared with spinal anesthetic, unplanned conversion was associated with increased likelihood of maternal hemorrhage 1.5 l (OR 5.74, CI (1.90 to 14.01)) and delayed neonatal respiration (OR 4.76, CI (1.76 to 11.05)). Adverse outcomes were not significantly more likely compared with planned general anesthetic. CONCLUSION: Higher parity and maternal age are risk factors for unplanned conversion to general anesthetic. There is no increase in the likelihood of adverse outcomes with unplanned versus planned general anesthetic."""
+
+

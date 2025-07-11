@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsforasuccessfulexternalcephalicversionasinglecentreexperience2016ebner
+"PURPOSE: The external cephalic version (ECV) is one of the options patients presenting with a breech pregnancy should be offered. Various fetal, maternal and other predictors for a successful ECV have been published in the past.;METHODS: This is a retrospective multivariate analysis of our ECV patient database at the Department of Obstetrics and Gynaecology at the University Hospital Ulm. In an outpatient setting, patients with fetal breech position were routinely offered an ECV attempt after 36 weeks of gestation if the patient was willing to consent. Contraindications for ECV were placental abruption, placenta praevia, uterus malformations, regular contractions, premature rupture of membranes, and non-reassuring fetal heart rate patterns.;RESULTS: From January 1st 2010 to July 31st 2013, 444 patients with a minimum of 36 weeks gestational age (i.e. >35 + 6 weeks) attended our clinic with a breech presentation. Of those 118 had an ECV attempt and an extended ultrasound examination within 21 days. In 33 patients the procedure was successful (success rate 28 %). A multivariate binary logistic regression analysis revealed that an increased Amniotic Fluid Index (AFI; p < 0.001), at least one prior vaginal delivery (p = 0.002) or a high estimated fetal weight (p = 0.045) were significant independent predictors for a successful ECV. In our series no delivery occurred within 48 h after the ECV.;CONCLUSIONS: An ECV is a safe procedure. ECV should be offered as an option for the mother-to-be on the basis of an informed consent. Identified fetal and maternal factors can help to estimate the chances of success and in particular multi-parity and increased amniotic fluid seem to be associated with successful ECV."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theriskofcesareandeliveryafterlaborinductionamongwomenwithpriorpregnancycomplicationsasubgroupanalysisoftheaffirmstudy2019skeith
+"BACKGROUND: To determine the risk of cesarean delivery after labor induction among patients with prior placenta-mediated pregnancy complications (pre-eclampsia, late pregnancy loss, placental abruption or intrauterine growth restriction).;METHODS: The AFFIRM database includes patient level data from 9 randomized controlled trials that evaluated the role of LMWH versus no LMWH during pregnancy to prevent recurrent placenta-mediated pregnancy complications. The primary outcome of this sub-study was the proportion of women who had an unplanned cesarean delivery after induction of labor compared to after spontaneous labor.;RESULTS: There were 512 patients from 7 randomized trials included in our sub-study. There was no difference in the risk of cesarean delivery between women with labor induction (21/148, 14.2%) and spontaneous labor (79/364, 21.7%) (odds ratio (OR) 0.60, 95% CI, 0.35-1.01; p = 0.052). Among 274 women who used LMWH prophylaxis during pregnancy, the risk of cesarean delivery was lower among those that underwent labor induction (9.8%) compared to spontaneous labor (22.4%) (OR 0.38, 95% CI, 0.17-0.84; p = 0.01).;CONCLUSIONS: The risk of cesarean delivery is not increased after labor induction among a higher risk patient population with prior pregnancy complications. Our results suggest that women who receive LMWH during pregnancy might benefit from labor induction."""
+
+

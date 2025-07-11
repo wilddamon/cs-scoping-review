@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: realworldevaluationofadversepregnancyoutcomesinwomenwithgestationaldiabetesmellitusinthegermanhealthcaresystem2020reinders
+"AIMS: This study aims to estimate the incidence of adverse pregnancy outcomes in women with gestational diabetes mellitus (GDM) in Germany. METHODS: Pregnant women were identified from a health claims database for the year of 2016. Three groups were defined: general population without GDM, women with GDM without treatment and women with GDM and insulin treatment. Operationalisation of outcomes was aligned with the hyperglycaemia and adverse pregnancy outcomes (HAPO) study. RESULTS: The cohort consisted of 58,297 mother-child pairs. Of those, 7245 had a GDM diagnosis and 1407 had a GDM diagnosis with a prescription of insulin. Adverse pregnancy outcomes were higher in both GDM groups compared to the control group. Birthweight (OR 2.08 [95% CI 1.50-2.90]), primary caesarean section (OR 1.70 [95% CI 1.48-1.95]), intensive neonatal care (OR 1.25 [95% CI 1.04-1.50]), preeclampsia (OR 1.51 [95% CI 1.23-1.85]), and clinical neonatal hypoglycaemia (OR 5.32 [95% CI 4.27-6.62]) were higher in the GDM+insulin group in comparison to a control group after adjustment for potential confounders. CONCLUSION: Most of the adverse pregnancy outcomes were moderately higher in both identified GDM groups in comparison to women without GDM. Women receiving insulin treatment are at an increased risk of most of the defined adverse pregnancy outcomes."""
+
+

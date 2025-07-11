@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectoftwintotwindeliverytimeintervalsonneonataloutcomeforsecondtwins2018lindroos
+"BACKGROUND: The objective was to examine the effect of twin-to-twin delivery intervals on neonatal outcome for second twins. METHODS: This was a retrospective, hospital-based study, performed at a university teaching hospital in Western Sweden. Twin deliveries between 2008 and 2014 at >=32 + 0 weeks of gestation, where the first twin was delivered vaginally, were included. Primary outcome was a composite outcome of metabolic acidosis, Apgar < 4 at 5 min or peri/neonatal mortality in the second twin. Secondary outcome was a composite outcome of neonatal morbidity. RESULTS: A total of 527 twin deliveries were included. The median twin-to-twin delivery interval time was 19 min (range 2-399 min) and 68% of all second twins were delivered within 30 min. Primary outcome occurred in 2.6% of the second twins. Median twin-to-twin delivery interval was 34 min (8-78 min) for the second twin with a primary outcome, and 19 min (2-399 min) for the second twin with no primary outcome (p = 0.028). Second twins delivered within a twin-to-twin interval of 0-30 min had a higher pH in umbilical artery blood gas than those delivered after 30 min (pH 7.23 and pH 7.20, p < 0.0001). Secondary outcome was not associated with twin-to-twin delivery interval time. The combined vaginal-cesarean delivery rate was 6.6% (n = 35) and the rate was higher with twin-to-twin delivery interval > 30 min (p < 0.0001). CONCLUSIONS: An association, but not necessarily a causality, between twin-to-twin delivery interval and primary outcome was seen. An upper time limit on twin-to-twin delivery time intervals may be justified. However, the optimal time interval needs further studies."""
+
+

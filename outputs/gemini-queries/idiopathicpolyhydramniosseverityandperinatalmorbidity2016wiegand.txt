@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: idiopathicpolyhydramniosseverityandperinatalmorbidity2016wiegand
+"Objective To estimate the association between the severity of idiopathic polyhydramnios and adverse outcomes. Study Design Retrospective cohort study of deliveries at one hospital from 2000 to 2012 with an amniotic fluid index (AFI) measurement >=24 + 0 weeks' gestation. Pregnancies complicated by diabetes, multiples, or fetal anomalies were excluded. Exposure was the degree of polyhydramnios: normal (AFI 5-24 cm), mild (>= 24-30 cm), and moderate-severe (> 30 cm). Primary outcomes were perinatal mortality, neonatal intensive care unit (NICU) admission, and postpartum hemorrhage. Results There were 10,536 pregnancies: 10,188 with a normal AFI, 274 mild (78.74%), and 74 moderate-severe polyhydramnios (21.26%). Adverse outcomes were increased with idiopathic polyhydramnios: NICU admission (adjusted odds ratio [AOR] 3.71, 95% confidence interval [CI] 2.77-4.99), postpartum hemorrhage (AOR 15.81, 95% CI 7.82-31.96), macrosomia (AOR 3.41, 95% CI 2.61-4.47), low 5-minute Apgar score (AOR 2.60, 95% CI 1.57-4.30), and cesarean (AOR 2.16, 95% CI 1.74-2.69). There were increasing odds of macrosomia (mild: AOR 3.19, 95% CI 2.36-4.32; moderate-severe: AOR 4.44, 95% CI 2.53-7.79) and low 5-minute Apgar score (mild: AOR 2.24, 95% CI 1.23-4.08; moderate-severe: AOR 3.93, 95% CI 1.62-9.55) with increasing severity of polyhydramnios. Conclusion Idiopathic polyhydramnios is independently associated with increased risks of morbidity. There appears to be a dose-response relationship for neonatal macrosomia and low 5-minute Apgar score risks."""
+
+

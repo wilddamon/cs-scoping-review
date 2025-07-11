@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: serumnterminalprobtypenatriureticpeptideasabiomarkerofcriticalpulmonarystenosisinneonates2021lin
+"Objectives: To determine the efficacy of serum N-terminal pro-B-type natriuretic peptide (NT-proBNP) levels in predicting critical pulmonary stenosis (CPS) in neonates. Method(s): All neonates with pulmonary stenosis (PS) admitted to the neonatal intensive care unit of Xinhua Hospital from October 2014 to December 2020 were retrospectively reviewed. Infants with serum NT-proBNP levels measured within 48 h after birth were enrolled and divided into CPS and non-CPS groups. Serum NT-proBNP levels and cardiac Doppler indices were compared between the two groups. Correlations were determined using the Spearman's rank correlation coefficient. Receiver operator characteristic curve analysis was used to explore the predictive value of NT-proBNP for identifying neonatal CPS. Result(s): Among 96 infants diagnosed with PS by echocardiography, 46 were enrolled (21 and 25 in the non-CPS and CPS groups, respectively). Serum NT-proBNP levels were significantly higher in the CPS group than in the non-CPS group [3,600 (2,040-8,251) vs. 1,280 (953-2,386) pg/ml, P = 0.003]. Spearman's analysis suggested a positive correlation between Ln(NT-proBNP) levels and the transvalvular pulmonary gradient (r = 0.311, P = 0.038), as well as between Ln(NT-proBNP) levels and pulmonary artery velocity (r = 0.308, P = 0.040). Receiver operating characteristic curve analysis showed that a cutoff serum NT-proBNP level of 2,395 pg/ml yielded a 66.7 and 78.9% sensitivity and specificity for identifying CPS, respectively. The area under the curve was 0.784 (95% CI, 0.637-0.931). A positive correlation was found between Ln(NT-proBNP) and length of hospital stay (r = 0.312, P < 0.05). Conclusion(s): Serum NT-proBNP level was positively correlated with PS severity and could be used as a biomarker to identify CPS in neonates.Copyright (c) 2022 Lin, Chen, Zhou, Chen and Xia."""
+
+

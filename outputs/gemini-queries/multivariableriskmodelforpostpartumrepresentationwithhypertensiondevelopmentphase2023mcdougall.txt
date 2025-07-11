@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: multivariableriskmodelforpostpartumrepresentationwithhypertensiondevelopmentphase2023mcdougall
+"OBJECTIVES: Postpartum hypertension is one of the leading causes of re-presentation to hospital postpartum and is associated with adverse long-term cardiovascular risk. Postpartum blood pressure monitoring and management interventions have been shown to reduce hospital re-presentation, complications and long-term blood pressure control. Identifying patients at risk can be difficult as 40%-50% present with de novo postpartum hypertension. We aim to develop a risk model for postpartum re-presentation with hypertension using data readily available at the point of discharge. DESIGN: A case-control study comparing all patients who re-presented to hospital with hypertension within 28 days post partum to a random sample of all deliveries who did not re-present with hypertension. Multivariable analysis identified risk factors and bootstrapping selected variables for inclusion in the model. The area under the receiver operator characteristic curve or C-statistic was used to test the model's discriminative ability. SETTING: A retrospective review of all deliveries at a tertiary metropolitan hospital in Melbourne, Australia from 1 January 2016 to 30 December 2020. RESULTS: There were 17 746 deliveries, 72 hypertension re-presentations of which 51.4% presented with de novo postpartum hypertension. 15 variables were considered for the multivariable model. We estimated a maximum of seven factors could be included to avoid overfitting. Bootstrapping selected six factors including pre-eclampsia, gestational hypertension, peak systolic blood pressure in the delivery admission, aspirin prescription and elective caesarean delivery with a C-statistic of 0.90 in a training cohort. CONCLUSION: The development phase of this risk model builds on the three previously published models and uses factors readily available at the point of delivery admission discharge. Once tested in a validation cohort, this model could be used to identify at risk women for interventions to help prevent hypertension re-presentation and the short-term and long-term complications of postpartum hypertension."""
+
+

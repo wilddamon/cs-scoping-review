@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: quantitativecomparisonofentropyanalysisoffetalheartratevariabilityrelatedtothedifferentstagesoflabor2014lim
+"BACKGROUND: The interpretation of the fetal heart rate (FHR) signal considering labor progression may improve perinatal morbidity and mortality. However, there have been few studies that evaluate the fetus in each labor stage quantitatively. AIM: To evaluate whether the entropy indices of FHR are different according to labor progression. STUDY DESIGN: A retrospective comparative study of FHR recordings in three groups: 280 recordings in the second stage of labor before vaginal delivery, 31 recordings in the first stage of labor before emergency cesarean delivery, and 23 recordings in the pre-labor before elective cesarean delivery. SUBJECTS: The stored FHR recordings of external cardiotocography during labor. OUTCOME MEASURES: Approximate entropy (ApEn) and sample entropy (SampEn) for the final 2000 RR intervals. RESULTS: The median ApEn and SampEn for the 2000 RR intervals showed the lowest values in the second stage of labor, followed by the emergency cesarean group and the elective cesarean group for all time segments (all P<0.001). Also, in the second stage of labor, the final 5 min of 2000 RR intervals had a significantly lower median ApEn (0.49 vs. 0.44, P=0.001) and lower median SampEn (0.34 vs. 0.29, P<0.001) than the initial 5 min of 2000 RR intervals. CONCLUSIONS: Entropy indices of FHR were significantly different according to labor progression. This result supports the necessity of considering labor progression when developing intrapartum fetal monitoring using the entropy indices of FHR."""
+
+

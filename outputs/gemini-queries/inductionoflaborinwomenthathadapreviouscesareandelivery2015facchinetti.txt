@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inductionoflaborinwomenthathadapreviouscesareandelivery2015facchinetti
+"OBJECTIVE: This study aims to evaluate factors that predict the likelihood of the success of induction of labor (IOL) in women that had a previous cesarean section (pCS). METHODS: Pregnant women with one pCS performed more than 18 months prior were included in this retrospective observational study. Of the 242 eligible women, 234 were enrolled; 120 (51.3%) of these women delivered vaginally (VD), with the remainder receiving a repeat CS. RESULTS: The main reasons for IOL were premature rupture of membranes (PROM) (37.1%) and post-date pregnancy (26.5%). Babies with a birth weight>=4000 g were more prevalent in women undergoing CS (21/114; 18.4%, p<0.02) and were associated with the failure of IOL. Uterine rupture during labor (1.3%) occurred in three cases. Having had a previous vaginal delivery (VD) (p=0.01), not being African (p=0.022), and receiving IOL for PROM (p=0.04) with a cervical Bishop score>=5 (p=0.015) significantly predicted the occurrence of a VD, with an 15% variance (p<0.001). An age>35 years appears to not affect the success of induction. CONCLUSIONS: A successful IOL should be expected in Caucasian women induced for PROM with a favorable Bishop score."""
+
+

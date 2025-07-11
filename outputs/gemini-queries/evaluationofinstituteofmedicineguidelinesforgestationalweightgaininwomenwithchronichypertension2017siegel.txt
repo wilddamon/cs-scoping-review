@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluationofinstituteofmedicineguidelinesforgestationalweightgaininwomenwithchronichypertension2017siegel
+"Objective To assess the impact of gestational weight gain (GWG) outside the Institute of Medicine (IOM) recommendations on perinatal outcomes in pregnancies complicated by chronic hypertension (HTN). Methods The study consisted of a retrospective cohort of all singletons with HTN from 2000 to 2014. Maternal outcomes examined were superimposed preeclampsia and cesarean delivery. Neonatal outcomes were small for gestational age (SGA), large for gestational age (LGA), and preterm birth (PTB). Groups were compared using analysis of variance and chi-squared test for trend. Backward stepwise logistic regression was adjusted for confounding factors. Results Of 702 subjects, 106 (15.1%) gained within, 176 (25.0%) gained less, and 420 (59.8%) gained more weight than the IOM recommendations. After adjusting for confounders, GWG above IOM recommendations remained associated with LGA (adjusted odds ratio [AOR]: 2.53, confidence interval [CI] 95%:1.29-4.95). Weight gain less than recommended was associated with a decreased risk of superimposed preeclampsia (AOR: 0.49, CI 95%: 0.26-0.93) without increasing the risk of SGA (AOR: 1.03, CI 95%: 0.571.86). Conclusion Women with pregnancies complicated by chronic HTN should be counseled regarding the association of LGA with excessive GWG. Additionally, they should be counseled that weight gain below recommendations may be associated with a decreased risk of superimposed preeclampsia; however, this association deserves further investigation."""
+
+

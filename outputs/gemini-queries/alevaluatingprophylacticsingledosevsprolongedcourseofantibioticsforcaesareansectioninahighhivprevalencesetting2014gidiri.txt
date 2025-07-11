@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: arandomizedclinicaltrialevaluatingprophylacticsingledosevsprolongedcourseofantibioticsforcaesareansectioninahighhivprevalencesetting2014gidiri
+"The evidence that perioperative antibiotics for caesarean delivery are effective in reducing infective morbidity is unequivocal. In developing countries, especially those with high HIV-prevalence, clinicians have increasingly become anxious about the efficacy of perioperative antibiotics, hence the adoption of treatment regimens, as described in this study. We set out to investigate if these fears have a basis by conducting a randomised clinical trial. The setting was two tertiary units in a developing country with a significant HIV-prevalence. The outcome measures assessed were: pyrexia, wound infection, admission with puerperal sepsis, laparotomy for pelvic abscess and duration of hospital stay. There was no statistically significant difference between the two arms of the study with regard to the above outcomes. Our conclusion is that the two antibiotic regimens are equivalent in preventing infection, therefore there is no justification for subjecting patients to week-long antibiotics and the unnecessary increase in nurse workload."""
+
+

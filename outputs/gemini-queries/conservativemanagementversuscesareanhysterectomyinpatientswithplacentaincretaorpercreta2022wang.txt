@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: conservativemanagementversuscesareanhysterectomyinpatientswithplacentaincretaorpercreta2022wang
+"OBJECTIVE: To compare conservative management and cesarean hysterectomy in patients with placenta increta or percreta. MATERIALS AND METHODS: In this multicenter retrospective study, we recorded data on 2219 patients with placenta increta or percreta from 20 tertiary care centers in China from 1 January 2011 to 31 December 2015. Propensity score analysis was used to control for baseline characteristics. We divided patients into conservative management (C) and hysterectomy (H) groups. The primary outcome was operative/postoperative maternal morbidity; secondary outcomes were maternal-neonatal outcomes. RESULTS: In total, 17.9% (398/2219) of patients had placenta increta and percreta; 82.1% (1821/2219) of the patients were in group C. After propensity score matching, 140 pairs of patients from the two groups underwent one-to-one matching. Group C showed less average blood loss within 24 h of surgery (1518 +- 1275 vs. 4309 +- 2550 ml in group H, p<.001). There were more patients with blood loss >1000 ml in group H than in group C (93.6% [131/140] vs. 61.4% [86/140], p<.001). More patients received blood transfusions in group H than in group C (p=.014). There was no significant difference between the groups in terms of bladder injury, postoperative anemia, fever, and disseminated intravascular coagulation. Neonatal outcomes in the two groups were similar. CONCLUSION: Either conservative management or hysterectomy should be considered after thorough evaluation and detailed discussion of risks and benefits. A balance between bleeding control and fertility can be achieved."""
+
+

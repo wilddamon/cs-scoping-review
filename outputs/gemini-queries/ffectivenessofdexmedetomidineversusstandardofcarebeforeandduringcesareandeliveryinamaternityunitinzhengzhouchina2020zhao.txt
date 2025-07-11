@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retrospectivecomparisonofthesafetyandeffectivenessofdexmedetomidineversusstandardofcarebeforeandduringcesareandeliveryinamaternityunitinzhengzhouchina2020zhao
+"BACKGROUND The objective of the present study was to test the hypothesis that intravenous dexmedetomidine is safe and effective when administered to women before and during cesarean section. MATERIAL AND METHODS The analysis included 392 women who received spinal anesthesia and no analgesia prior to undergoing elective cesarean delivery. Of them, 115 women received dexmedetomidine before anesthesia and during delivery (DX cohort), 109 received normal saline before anesthesia and during delivery and dexmedetomidine after delivery (SC cohort), and 168 received normal saline only before anesthesia and during delivery (CN cohort). Data about the women's consumption of sufentanil and ondansetron during hospitalization, onset of lactation, and hospital stays were retrospectively collected and analyzed. RESULTS Most of the women in the study were primiparous (362/392). The women in the DX cohort received less sufentanil during their hospital stays than those in either of the other 2 cohorts (SC comparison: 151.45+-11.15 mg vs. 175.12+-25.15 mg, P<0.0001, q=8.776; CN comparison: 151.45+-11.15 mg vs. 185.42+-37.45 mg, P<0.0001, q=13.911). Also, the women in the DX cohort received less ondansetron before discharge and had shorter times to first lactation and hospital stays than those in the SC and CN cohorts. CONCLUSIONS Administering dexmedetomidine before spinal anesthesia appears to be safe and effective for women undergoing elective cesarean delivery."""
+
+

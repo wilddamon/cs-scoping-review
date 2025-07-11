@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingpooroutcomesandtheneedforsurgicaltreatmentinneonateswithmeconiumperitonitis2020feng
+"OBJECTIVE: The objective of this study is to determine factors associated with poor outcomes and the need for surgical treatment in neonates with meconium peritonitis (MP).;METHODS: We evaluated the association between prenatal ultrasound features, maternal characteristics, and the likelihood of surgery, mortality, and serious morbidity in 49 neonates with a prenatal diagnosis of MP, who were born in Guangzhou Women and Children's Medical Center between January 2011 and December 2016.;RESULTS: Thirty of 49 neonates (61.2%) required surgical treatment, and 17 (34.7%) had a poor outcome. Independent predictors of need for surgical treatment were polyhydramnios, maternal intrahepatic cholestasis of pregnancy (associated with lower risk), and persistence of peritoneal fluid. The model correctly predicted 70.0% of the neonates who required surgery (at a 10% false-positive rate; area under the curve [AUC]: 0.86 [95% CI, 0.75-0.97]). For poor outcomes, independent predictors were low gestational age at birth, persistence of peritoneal fluid, and polyhydramnios. For the latter, the model only achieved a detection rate of 52.9% (10% false-positive rate, AUC: 0.82 [95% CI, 0.70-0.94]).;CONCLUSIONS: A combination of prenatal ultrasound features and maternal characteristics correctly predicted 70.0% the need for neonatal surgery. Prediction of poor outcome-based prenatal ultrasound features and gestational age did not perform well. Copyright (c) 2019 John Wiley & Sons, Ltd."""
+
+

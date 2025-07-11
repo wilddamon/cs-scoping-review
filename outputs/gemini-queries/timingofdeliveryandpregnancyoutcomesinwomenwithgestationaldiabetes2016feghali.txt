@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timingofdeliveryandpregnancyoutcomesinwomenwithgestationaldiabetes2016feghali
+"BACKGROUND: Women with gestational diabetes mellitus (GDM) commonly undergo induction of labor (IOL) at term, but the risks and benefits of IOL are incompletely understood.;OBJECTIVE: We examined the relationship among gestational age, IOL, and the rate of cesarean delivery (CD) in women with GDM.;STUDY DESIGN: We identified 863 women with GDM who underwent either IOL or spontaneous labor >=37 0/7 weeks. Demographic, cervical favorability, and outcome data were abstracted from the medical record. We compared the CD rate in women undergoing IOL at each week of gestation with expectant management to a later gestational age.;RESULTS: When compared to women who were expectantly managed, IOL at 37 weeks (adjusted odds ratio [aOR], 1.53; 95% confidence interval [CI], 0.76-3.06; P = .23), 38 weeks (aOR, 2.07; 95% CI, 0.89-4.80; P = .09), and 39 weeks (aOR, 0.79; 95% CI, 0.44-1.42; P = .43)) was associated with similar risk for CD as expectant management after adjustment for nulliparity, body mass index, baseline simplified Bishop score, and maternal age. CD rates were higher in nulliparous women, but did not differ significantly in those undergoing IOL or expectant management. In multiparous women, IOL was significantly associated with an increased risk for CD at 38 weeks (aOR, 7.47; 95% CI, 1.6-34.8; P = .01) and rates of CD (17.39% vs 2.2%, P = .001) were significantly higher in multiparous women with an unfavorable Bishop score induced <39 weeks. Neonatal morbidity was similar across gestational ages after adjustment for maternal body mass index and maternal glycemic control.;CONCLUSION: IOL results in similar risk for CD as expectant management between 37-40 weeks of gestation. Rates of CD differed based on cervical exam and parity. These findings suggest that gestational age alone does not significantly impact maternal and neonatal outcomes, but that decisions regarding delivery in women with GDM should take into account cervical exam and parity. Copyright (c) 2016 Elsevier Inc. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandperinataloutcomesinwomen40yearsundergoinginductionoflaborcomparedwithwomen35yearsresultsfrom4027mothers2022claramontenieto
+"AIM: Cesarean section is known to be increased with advanced maternal age in women undergoing induction of labor (IOL), but there is less information regarding other possible adverse maternal and fetal outcomes. METHODS: Retrospective cohort study of singleton, nulliparous, at-term women undergoing IOL between January 2007 and September 2020. Outcomes studied were: cesarean section, failed induction rate, fetal distress, post-partum hemorrhage, post-partum hysterectomy, and need of transfusion. Neonatal variables analyzed were: Apgar score, umbilical cord pH, need of admission to neonatal intensive care unit, and mortality. RESULTS: A total of 4027 women met the inclusion criteria; 1968 (48.9%) of mothers were <35 years, 1283 (31.9%) were 35-39 years, 658 (16.3%) were 40-44 years, and 118 (2.9%) were >=45 years. Results showed a significantly increased incidence of c-section in women >=35 years, with an OR 1.79 (95% CI 1.50-2.14) for women 40-44 years and OR 3.95 (95% CI 2.66-5.98) for women >=45 years. The main indication for cesarean delivery was failed IOL, and this risk was also significantly increased in women >=40 years. These differences remained significant after adjustment for confounding factors. No other adverse maternal or fetal outcomes showed an association with age. CONCLUSION: Maternal age >=40 years was associated with an increased risk of c-section after IOL at term compared with younger women, mainly because of failed induction, but no association with other adverse maternal or neonatal outcomes were found in our population. Risks and benefits of IOL in older women should be individually evaluated and adequately discussed with mothers."""
+
+

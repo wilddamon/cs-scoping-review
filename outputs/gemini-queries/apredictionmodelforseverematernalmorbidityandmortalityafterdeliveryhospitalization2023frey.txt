@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apredictionmodelforseverematernalmorbidityandmortalityafterdeliveryhospitalization2023frey
+"OBJECTIVE: To develop a risk stratification model for severe maternal morbidity (SMM) or mortality after the delivery hospitalization based on information available at the time of hospital discharge. METHODS: This population-based cohort study included all pregnancies among Ohio residents with Medicaid insurance from 2012 to 2017. Pregnant individuals were identified using linked live birth and fetal death records and Medicaid claims data. Inclusion was restricted to those with continuous postpartum Medicaid enrollment and delivery at 20 or more weeks of gestation. The primary outcome of the study was SMM or mortality after the delivery hospitalization and was assessed up to 42 days postpartum and up to 1 year postpartum separately. Variables considered for the model included patient-, obstetric health care professional-, and system-level data available in vital records or Medicaid claims data. Parsimonious models were created with logistic regression and were internally validated. Receiver operating characteristic curves were used to evaluate model performance, and model calibration was assessed. RESULTS: There were 343,842 pregnant individuals who met inclusion criteria with continuous Medicaid enrollment through 42 days postpartum and 287,513 with continuous enrollment through 1 year. After delivery hospitalization discharge, the incidence of SMM or mortality was 140.5 per 10,000 pregnancies through 42 days of delivery and 330.7 per 10,000 pregnancies through 1 year postpartum. The final model predicting SMM or mortality through 42 days postpartum included maternal prepregnancy body mass index, age, gestational age at delivery, mode of delivery, chorioamnionitis, and maternal diagnosis of cardiac disease, preeclampsia or gestational hypertension, or a mental health condition. Similar variables were included in the model predicting SMM or mortality through 365 days with chronic hypertension, pregestational diabetes, and illicit substance use added and chorioamnionitis removed. Both models demonstrated moderate prediction (area under the curve [AUC] 0.77, 95% CI 0.76-0.78 for 42-day model; AUC 0.72, 95% CI 0.71-0.73 for the 1-year model) and good calibration. CONCLUSION: A prediction model for SMM or mortality up to 1 year postpartum was created and internally validated with information available to health care professionals at the time of hospital discharge. The utility of this model for patient counseling and strategies to optimize postpartum care for high-risk individuals will require further evaluation."""
+
+

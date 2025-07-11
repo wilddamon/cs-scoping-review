@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofcaesareandeliveryafterinductionoflabourstratifiedbyfoetalsex2017hadar
+"This study describes a retrospective analysis of all women admitted for induction of labour (IoL), carrying a viable singleton foetus, after 34 + 0 weeks of gestation. We aimed to evaluate if foetal sex has an impact on the rate of caesarean delivery following labour induction. Our results demonstrate that among the 1062 women who met the inclusion criteria, 49% (521/1062) were carrying a male foetus. Other than a lower rate of Oxytocin use for the female sex pregnancies, there were no significant differences in pre-labour and labour characteristics between male or female sex pregnancies. There was no difference in caesarean delivery rate between groups (14.4% vs. 14.2%, male vs. female, respectively, p = .505). We concluded conclude that foetal sex does not impact the caesarean delivery rate among women undergoing IoL, regardless of the indication for induction and the indication for the caesarean delivery. Impact statement Male sex foetuses are at increased risk for adverse perinatal outcomes including, among others, an increased risk for caesarean delivery. The possible contribution of male sex to caesarean delivery after labour induction has not been specifically explored. Following induction of labour, there is no difference in failed induction or caesarean delivery rate between male and female sex pregnancies. Induction of labour may be safely employed for both male and female foetuses."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: delayedcolonizationofbifidobacteriumsppandlowprevalenceofbinfantisamonginfantsofasianancestryborninsingaporeinsightsfromthegustocohortstudy2024xu
+"Background: The loss of ancestral microbes, or the "disappearing microbiota hypothesis" has been proposed to play a critical role in the rise of inflammatory and immune diseases in developed nations. The effect of this loss is most consequential during early-life, as initial colonizers of the newborn gut contribute significantly to the development of the immune system.;Methods: In this longitudinal study (day 3, week 3, and month 3 post-birth) of infants of Asian ancestry born in Singapore, we studied how generational immigration status and common perinatal factors affect bifidobacteria and Bifidobacterium longum subsp. infantis (B. infantis) colonization. Cohort registry identifier: NCT01174875.;Results: Our findings show that first-generation migratory status, perinatal antibiotics usage, and cesarean section birth, significantly influenced the abundance and acquisition of bifidobacteria in the infant gut. Most importantly, 95.6% of the infants surveyed in this study had undetectable B. infantis, an early and beneficial colonizer of infant gut due to its ability to metabolize the wide variety of human milk oligosaccharides present in breastmilk and its ability to shape the development of a healthy immune system. A comparative analysis of B. infantis in 12 countries by their GDP per capita showed a remarkably low prevalence of this microbe in advanced economies, especially Singapore.;Conclusion: This study provides new insights into infant gut microbiota colonization, showing the impact of generational immigration on early-life gut microbiota acquisition. It also warrants the need to closely monitor the declining prevalence of beneficial microbes such as B. infantis in developed nations and its potential link to increasing autoimmune and allergic diseases. Copyright (c) 2024 Xu, Duar, Quah, Gong, Tin, Chan, Sim, Tan, Chong, Gluckman, Frese, Kyle and Karnani."""
+
+

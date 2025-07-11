@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lowerurinarytractinjuriesduringhysterectomyinwomenwithahistoryoftwoormorecesareandeliveriesasecondaryanalysis2014duong
+"INTRODUCTION AND HYPOTHESIS: To evaluate lower urinary tract injuries in women with >=2 prior cesarean deliveries (CD) undergoing benign hysterectomies.;METHODS: This is a planned secondary analysis of all hysterectomies performed from 2000 to 2009 at Grady Memorial Hospital. Demographic, operative and postoperative data were reviewed. Women undergoing benign hysterectomies with >=2 CD were compared with women with no prior CD. Categorical variables were analyzed using Chi-squared or Fisher's exact test, while Student's t test was used for continuous variables. Logistic regression was used for multivariate analysis.;RESULTS: 2,214 women met the inclusion criteria (284 with >=2 CD, 1,930 with no CD). The proportion of women having vaginal hysterectomy, abdominal hysterectomy, and laparoscopically assisted vaginal hysterectomy were 38%, 53%, and 9% respectively. Women with multiple CD had greater blood loss and longer operative times. They also required more transfusions (23% vs 15%, P = 0.001) and developed more abdominal wounds (6% vs 3%, P = 0.002) or urinary infections (6% vs 3%, P = 0.03). Women with >=2 CD were at greater risk of incidental cystotomies (OR: 8.55, 95% CI: 3.98-18.36).;CONCLUSIONS: Multiple prior cesarean deliveries increase a woman's risk of cystotomy during hysterectomy. They also require more transfusions and develop more urinary or abdominal wound infections."""
+
+

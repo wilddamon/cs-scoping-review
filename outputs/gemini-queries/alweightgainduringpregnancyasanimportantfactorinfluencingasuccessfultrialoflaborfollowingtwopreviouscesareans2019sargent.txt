@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgainduringpregnancyasanimportantfactorinfluencingasuccessfultrialoflaborfollowingtwopreviouscesareans2019sargent
+"OBJECTIVE: We sought to identify factors associated with a successful trial of labor (TOL) following two cesarean deliveries (CDs) in a contemporary North American cohort. STUDY DESIGN: This is a retrospective cohort study of term, nonanomalous, singleton, vertex pregnancies attempting a vaginal birth after cesarean (VBAC) following a history of two previous CDs in the United States from 2012 to 2014. Maternal and intrapartum factors were analyzed using chi-square tests and multivariable logistic regression. RESULTS: A total of 22,762 women met the inclusion criteria and underwent TOL. Of these, 12,192 (53.6%) had a VBAC. Using multivariate logistic regression, previous vaginal delivery and delivery at 40 to 41 weeks' gestation were associated with VBAC; maternal age, education, Medicaid insurance, non-Caucasian race/ethnicity, weight (overweight or obese), and gestational weight gain above the Institute of Medicine guidelines (adjusted odds ratio: 0.88; 95% confidence interval: 0.81-0.95) were associated with CD. Induction of labor did not affect the VBAC rate. CONCLUSION: For those desiring a TOL after two previous CDs, prospective studies are needed to assess interventions that limit gestational weight gain as well as the safety and optimal timing of an induction of labor. The decision to attempt a TOL should be guided by counseling regarding the risks, benefits, and chances of a successful TOL."""
+
+

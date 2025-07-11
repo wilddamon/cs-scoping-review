@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalweightestimationingestationaldiabeticpregnanciescomparisonbetweenconventionalandthreedimensionalfractionalthighvolumemethodsusinggestationadjustedprojection2014pagani
+"OBJECTIVES: To evaluate the accuracy of gestation-adjusted birth-weight estimation using a three-dimensional (3D) fractional thigh volume (TVol) method in pregnant women with gestational diabetes mellitus (GDM), and to compare it with the conventional two-dimensional method of Hadlock et al.;METHODS: Pregnant women with GDM were referred at 34 to 36 + 6 weeks' gestation for ultrasound examination. Estimated fetal weight (EFW) was obtained using both the Hadlock and the TVol methods. Using a gestation-adjusted projection method, predicted birth weight was compared to actual birth weight at delivery.;RESULTS: Based on 125 pregnancies, the TVol method with gestation-adjusted projection had a mean (+/- SD) percentage error in estimating birth weight of -0.01 +/- 5.0 (95% CI, -0.96 to 0.98)% while the method of Hadlock with gestation-adjusted projection had an error of 1.28 +/- 9.1 (95% CI, -0.33 to 2.87)%. The mean percentage error of the two methods was significantly different (P = 0.039), while the random error was not (P = 1.0). For the prediction of macrosomia (birth weight >= 4000 g, n = 19), sensitivity was 84 and 63% for the TVol and Hadlock methods, respectively (95% CI for difference -2 to 44%, P = 0.22) and specificity was 96 and 89% for the TVol and Hadlock methods, respectively (95% CI for difference 5-9%, P = 0.01).;CONCLUSIONS: In women with GDM, a new method of estimating birth weight based on 3D-TVol measurements performed at 34 + 0 to 36 + 6 weeks' gestation and gestation-adjusted projection of estimated fetal weight, is more accurate than the standard method based on Hadlock's formula in predicting birth weight. The TVol method has comparable sensitivity but higher specificity than the Hadlock method in predicting neonatal macrosomia. Copyright (c) 2013 ISUOG. Published by John Wiley & Sons Ltd."""
+
+

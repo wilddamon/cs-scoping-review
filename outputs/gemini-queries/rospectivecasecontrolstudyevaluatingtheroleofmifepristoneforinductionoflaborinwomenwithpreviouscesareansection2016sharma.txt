@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivecasecontrolstudyevaluatingtheroleofmifepristoneforinductionoflaborinwomenwithpreviouscesareansection2016sharma
+"OBJECTIVE: To investigate the role of 'mifepristone' for induction of labor (IOL) in pregnant women with prior cesarean section (CS). METHODS: In this retrospective study, all pregnant women with prior CS who received oral mifepristone (400 mg) for IOL (as per clear obstetric indications) [group 1] were compared with pregnant women with prior CS who had spontaneous onset of labor (SOL) [group 2], with respect to incidence of vaginal delivery, CS, duration of labor, and various maternal and fetal outcomes. RESULTS: During the study period, 72 women received mifepristone (group 1) for IOL and 346 had SOL (group 2). In group 1 after mifepristone administration, 40 (55.6 %) women had labor onset, and 24 (33.3 %) women had cervical ripening (Bishop Score >= 8) within 48 h. There were no statistically significant differences with respect to duration of labor (p value: 0.681), mode of delivery (i.e., normal delivery or CS-p value: 0.076 or 0.120, respectively), or maternal (blood loss or scar dehiscence/rupture uterus), or fetal outcomes (NICU admission) compared to women with previous CS with SOL (group 2). However, the need of oxytocin (p value 0.020) and dose of oxytocin requirement (p value 0.008) were more statistically significant in group 1. CONCLUSION: Mifepristone may be considered as an agent for IOL in women with prior CS."""
+
+

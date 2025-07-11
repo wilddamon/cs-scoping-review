@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: differenceinoutcomesofcategory1caesareansectionpatientsinrelationtotypeofanaesthesiaadministeredatertiaryuniversityhospitalexperience2018adlan
+"Background: Category-1 caesarean section denotes cases of immediate risk and a life threat to either mother or fetus and delivery is imminent. General anaesthesia (GA) is often the method of choice but it carries significant life threatening risks to the mother. Regional anaesthesia (RA) i.e. single shot spinal anaesthesia, should be considered; as in competent hands it can be performed as quickly and is much safer than GA. Objective(s): To compare the maternal and fetal outcomes between GA and RA and to prove that at least 50% of category-1 cases do not require general anaesthesia. Material(s) and Method(s): Data collection of all category-1 caesarean sections were divided and analysed via the anaesthetic regime used (GA or RA). Result(s): The caesarean section was 47.4%. GA rate of category-1 was 24.3%. No significant difference of fetal outcome between GA and RA. The difference of maternal pre and post-operative haemoglobin is significantly larger in the GA group. Conclusion(s): RA is a safer method of anaesthesia in more than half the cases of category-1. GA is still a primary method of choice in some cases. Proper and effective communication between obstetricians, anaesthetists, and midwives is vital to ensure the safest treatment is given to patients.Copyright (c) 2018. All rights reserved."""
+
+

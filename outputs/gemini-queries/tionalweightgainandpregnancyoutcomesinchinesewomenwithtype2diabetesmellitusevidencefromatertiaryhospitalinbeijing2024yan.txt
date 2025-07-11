@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgainandpregnancyoutcomesinchinesewomenwithtype2diabetesmellitusevidencefromatertiaryhospitalinbeijing2024yan
+"Objective: To examine the effects of gestational weight gain on pregnancy outcomes and determine the optimal range of weight gain during pregnancy for Chinese women with type 2 diabetes mellitus. Method(s): This retrospective cohort study included 691 Chinese women with type 2 diabetes mellitus from 2012 to 2020. The study utilized a statistical-based approach to determine the optimal range of gestational weight gain. Additionally, multivariate logistic regression analysis was conducted to assess the impact of gestational weight gain on pregnancy outcomes. Result(s): (1) In the obese subgroup, gestational weight gain below the recommendations was associated with decreased risks of large for gestational age (adjusted odds ratio [aOR] 0.19; 95% confidence interval [CI] 0.06-0.60) and macrosomia (aOR 0.18; 95% CI 0.05-0.69). In the normal weight subgroup, gestational weight gain below the recommendations of the Institute of Medicine was associated with decreased risks of preeclampsia (aOR 0.18; 95% CI 0.04-0.82) and neonatal hypoglycemia (aOR 0.38; 95% CI 0.15-0.97). (2) In the normal weight subgroup, gestational weight gain above the recommendations of the Institute of Medicine was associated with an increased risk of large for gestational age (aOR 4.56; 95% CI 1.54-13.46). In the obese subgroup, gestational weight gain above the recommendations was associated with an increased risk of preeclampsia (aOR 2.74; 95% CI 1.02, 7.38). (3) The optimal ranges of gestational weight gain, based on our study, were 9-16 kg for underweight women, 9.5-14 kg for normal weight women, 6.5-12 kg for overweight women, and 3-10 kg for obese women. (4) Using the optimal range of gestational weight gain identified in our study seemed to provide better prediction of adverse pregnancy outcomes. Conclusion(s): For Chinese women with type 2 diabetes, inappropriate gestational weight gain is associated with adverse pregnancy outcomes, and the optimal range of gestational weight gain may differ from the Institute of Medicine recommendations.Copyright (c) 2024 Yan, Jia, Zheng, Yuan, Wang, Zhang and Li."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: noobviousimpactofcaesareandeliveryonchildhoodallergicoutcomesfindingsfromaustraliancohorts2020liao
+"BACKGROUND AND OBJECTIVE: As caesarean delivery and childhood allergy continue to rise, their inter-relationships may change. We examined whether caesarean delivery predicts allergic disease and impaired lung function in two contemporary harmonised population-based cohorts. METHODS: Parent-reported asthma and eczema data were drawn from two prospective Australian infant cohorts, HealthNuts (n=5276, born 2006-2010) and the Longitudinal Study of Australian Children (LSAC, n=5107, born 2003-2004) at age 6-7 years, and spirometric lung function from LSAC's Child Health CheckPoint (n=1756) at age 11-12 years. Logistic regression estimated associations between delivery mode and current asthma and eczema at 6-7 years, and linear regression examined lung function at 11-12 years. Models were adjusted for potential confounding factors. RESULTS: Complete case analysis included 3135 HealthNuts and 3654 LSAC children (32.2% and 30.9% born by caesarean, respectively). An association was evident between caesarean delivery and asthma at age 6-7 years in HealthNuts (adjusted OR (aOR) 1.25, 95% CI 1.00 to 1.57) but not in LSAC (aOR 1.05, 95% CI 0.86 to 1.28), while neither study showed clear associations with eczema (HealthNuts: aOR 1.09, 95% CI 0.88 to 1.35; LSAC: aOR 0.89, 95% CI 0.69 to 1.15). Spirometric lung function parameters at age 11-12 years were similar by delivery mode. Associations were not modified by duration of breast feeding, maternal history of asthma/eczema, childcare attendance, number of older siblings or pet exposure. CONCLUSIONS: In two unselected populations using harmonised protocols, the likely association of caesarean delivery with developing childhood allergy was small."""
+
+

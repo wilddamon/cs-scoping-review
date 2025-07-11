@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: humanumbilicalcordbloodrelaxationtimesandsusceptibilityat3t2018portnoy
+"PURPOSE: To characterize the magnetic susceptibility and relaxation times (T(1) and T(2) ) of fetal blood at 3 T as a function of the hematocrit (Hct) and oxygen saturation (sO(2) ). METHODS: Susceptibility and relaxometry measurements were performed on cord blood specimens (N = 90, derived from six caesarean deliveries) with a range of hematocrits and oxygen saturations (0.09 < Hct < 0.82, 7 < sO(2) < 100%). To obtain simple, analytic relationships between MRI properties and blood properties, data were fit to established two-compartment (plasma and erythrocytes) models. RESULTS: Two-compartment models effectively described the cord blood data. The root-mean-squared deviation between the model and the data was 6.3, 10.3, and 1.3% for fits to T(1) , T(2) , and susceptibility measurements. Relaxometry data and estimated T(1) and T(2) model parameters were generally consistent with those reported in cord blood at 1.5 T and comparable to published values for adult blood. Notably, the measured value of Dkh(deo) , the susceptibility difference between fully oxygenated (sO(2) = 100%) and deoxygenated (sO(2) = 0) cord blood was approximately 20% lower than the established adult blood value (Dkh(deo,cord) = 2.64 ppm, Dkh(deo,adult) = 3.4 ppm). CONCLUSIONS: The described models and associated parameter values can be used to inform acquisition parameters, and interpret fetal/neonatal blood susceptibility measurements and relaxometry data acquired at 3 T with respect to hematocrit and sO(2) . Magn Reson Med 79:3194-3206, 2018. (c) 2017 International Society for Magnetic Resonance in Medicine."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinthyroidcancersurvivorsapropensityscorematchedcohortstudy2022cao
+"Background: Some female thyroid cancer survivors wish to become pregnant following their cancer treatment. Current studies have shown inconsistent results on pregnancy outcomes in these survivors; however, detailed information on the pathological type, treatment, and gestational thyroid function of these patients are not yet well documented, making the refined assessment of the influence of a history of thyroid cancer and related treatments on pregnancy outcomes challenging. Objective(s): To investigate the risk of adverse pregnancy outcomes in thyroid cancer survivors. Method(s): This was a retrospective cohort study. We included all women aged between 19 and 45 years old who delivered between January 2019 and June 2020 in West China Second University Hospital of Sichuan University. Women with tumors other than thyroid cancer or other thyroid diseases were excluded. The included women were divided into survivors of thyroid cancer (survivors) and women without any history of thyroid disease (controls). Propensity score matching and logistic regression were used to control confounding variables. Result(s): All 18,332 women who met the inclusion criteria were included in the study (96 survivors of papillary thyroid cancer and 18,236 controls). After propensity score matching, 96 survivors and 192 controls were included. The survivors had higher levels of free thyroxine (15.47 [13.61-17.67] vs. 14.38 [13.20-15.81] pmol/mL; P<0.001) and higher levels of thyroid peroxidase antibodies (TPOAb) (43.55 [31.43-71.43] vs. 35.95 [28.00-48.03] U/mL; P=0.008) but similar levels of thyroid stimulating hormone (1.46 [0.56-3.15] vs. 1.36 [0.81-1.92] mIU/mL; P=0.142) than the controls. There were no significant differences in adverse pregnancy outcomes between survivors and controls. Fetal macrosomia was lower among survivors (OR: 0.077, 95% CI: 0.009-0.668. P=0.020) than controls. Additionally, survivors had reduced weight gain during pregnancy (13.0 [10.0-15.0] vs. 14.00 [11.00-16.00] kg, P=0.005) and reduced placental weight (563.0 [514.5-620.0] vs. 572.0 [520.0-650.0] g, P=0.019), albeit with small absolute differences. Thyroidectomy or radioiodine therapy did not adversely affect pregnancy outcomes. Conclusion(s): A history of treated papillary thyroid cancer was not associated with adverse pregnancy outcomes.Copyright (c) 2022 Cao, Zhu, Zhang, Li and Huang."""
+
+

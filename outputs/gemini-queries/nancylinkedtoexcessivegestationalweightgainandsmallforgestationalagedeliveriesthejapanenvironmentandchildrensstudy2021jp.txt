@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lackofconcernaboutbodyimageandhealthduringpregnancylinkedtoexcessivegestationalweightgainandsmallforgestationalagedeliveriesthejapanenvironmentandchildrensstudy2021jp
+"BACKGROUND: Pregnant women in Japan express various reasons for limiting gestational weight gain (GWG). We aimed to identify and characterise groups where the women share common reasons to limit GWG and to examine how these groups are associated with inappropriate GWG and abnormal foetal size. METHODS: We prospectively studied information from the Japan Environment and Children's Study (JECS) on 92,539 women who gave birth to live singletons from 2011 through 2014. Pregnant women were recruited during early pregnancy. Their reasons for limiting GWG and other information were collected through self-reported questionnaires and medical records. We applied latent class analysis to group the women based on their reported reasons. We used multinomial logistic regression to compare the risks of inappropriate (inadequate and excessive) GWG and abnormal foetal size (determined by new-born weight for gestational age) between the identified groups. RESULTS: We identified three groups: Group 1 (76.7%), concerned about delivery and new-born health (health-conscious women); Group 2 (14.5%), concerned about body shape, delivery, and new-born health (body-shape- and health-conscious women); and Group 3 (8.8%), women without strong reasons to limit GWG (women lacking body-shape and health consciousness). Compared with Group 1 members, Group 2 members tended to be younger, have lower pre-pregnancy weight, be unmarried, be nulliparous, have practiced weight loss before pregnancy, and not have chronic medical conditions. Group 3 members tended to be less educated, unmarried, multiparous, smokers, and have a higher prevalence of pre-pregnancy underweight and previous caesarean delivery. Relative to Group 1, Group 2 had a lower unadjusted risk for inadequate GWG (relative risk ratio [RRR] = 0.86, 95% CI: 0.81-0.90) and large-for-gestational-age birth (RRR = 0.91, 95% CI 0.86-0.97), whereas Group 3 had a higher unadjusted risk for excessive GWG (RRR = 1.36, 95% CI: 1.29-1.43) and small-for-gestational-age (SGA) births (RRR = 1.15, 95% CI: 1.05-1.25). CONCLUSIONS: In this Japanese nationwide birth cohort study, pregnant women who were less conscious about body shape and health had complex risks for excessive GWG and SGA birth. Health care providers should consider a woman's perception of GWG when addressing factors affecting GWG and foetal growth."""
+
+

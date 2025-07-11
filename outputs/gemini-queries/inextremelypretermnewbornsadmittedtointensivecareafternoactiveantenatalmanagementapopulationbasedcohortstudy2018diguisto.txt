@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonataloutcomesinextremelypretermnewbornsadmittedtointensivecareafternoactiveantenatalmanagementapopulationbasedcohortstudy2018diguisto
+"OBJECTIVE: To evaluate the association between active antenatal management and neonatal outcomes in extremely preterm newborns admitted to a neonatal intensive care unit (NICU). STUDY DESIGN: This population-based cohort study was conducted in 25 regions of France. Infants born in 2011 between 22(0/7) and 26(6/7) weeks of gestation and admitted to a NICU were included. Infants with lethal congenital malformations or death in the delivery room were excluded. A multilevel multivariable analysis was performed, accounting for clustering by mother (multiple pregnancies) and hospital plus individual characteristics, to estimate the association between the main exposure of no active antenatal management (not receiving antenatal corticosteroids, magnesium sulfate, or cesarean delivery for fetal indications) and a composite outcome of death or severe neonatal morbidity (including severe forms of brain or lung injury, retinopathy of prematurity, and necrotizing enterocolitis). RESULTS: Among 3046 extremely preterm births, 783 infants were admitted to a NICU. Of these, 138 (18%) did not receive active antenatal management. The risk of death or severe morbidity was significantly higher for infants without active antenatal management (crude OR, 2.60; 95% CI, 1.44-4.66). This finding persisted after adjustment for gestational age (OR, 2.08; 95% CI, 1.19-3.62) and all confounding factors (OR, 1.86; 95% CI, 1.09-3.20). CONCLUSIONS: The increased risk of severe neonatal outcomes for extremely preterm babies admitted to a NICU without optimal antenatal management should be considered in individual-level decision making and in the development of professional guidelines for the management of extremely preterm births."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acasecontrolstudyontheseveritypostpartumdepressionamongcovid19positivemother2022araiana
+"Background: COVID19 pandemic has caused a variety of psychological problems including panic disorder, anxiety and depression. It is also associated with adverse psychological outcomes in pregnant women. The aim of this study was to compare the severity of postpartum depression in pregnant women with and without COVID-19 during the coronavirus epidemic. Method(s): This case-control study was performed on 102 pregnant women referred to the hospitals of (XXX). Using questionnaire, consisting of demographic and maternal data (age, number of pregnancies, type of delivery, history of any disease, history of drug use, breastfeeding experience, separation of mother from infant due to coronavirus) and score from Edinburgh postnatal depression scale (EPDS) score data from all the participants obtained and analyzed statistically using SPSSv23. Result(s): The results showed that the mean EPDS score in COVID-positive mothers was 26.64 and in COVID-negative mothers was 24.76, which was statistically significant, p < 0.001. The score did not vary among the two group with respect to age group and type of delivery method. The score was significantly higher among the women with 3-4 pregnancies. Conclusion(s): COVID-positive status is associated with increased postnatal depression among women. Perinatal and postnatal psychological consultancy is required in such patients along with monitoring of maternal and neonate physical and mental health.Copyright (c) 2021 The Authors"""
+
+

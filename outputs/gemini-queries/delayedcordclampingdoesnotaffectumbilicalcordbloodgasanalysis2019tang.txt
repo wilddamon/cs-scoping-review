@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: delayedcordclampingdoesnotaffectumbilicalcordbloodgasanalysis2019tang
+"BACKGROUND: Although delayed umbilical cord clamping has been shown to have significant benefits for both term and preterm infants, currently, data on its impact on blood gas analysis have been scant and conflicting. METHODS: In a retrospective review, we compared the demographic characteristics and blood gas parameters of 114 delayed cord clamping (DCC-births between 45 and 90 s in length; 109 being for 60 s) versus 407 early cord clamping births (ECC-immediately after delivery) collected over a 1-year period. Intrapartum care and timing of cord clamping for individual cases were performed at the discretion of obstetricians. The differences were assessed for statistical and clinical significance. RESULTS: The DCC group was found to have significantly higher mean Apgar scores at both 1 and 5 min (p < 0.05), as well as lower percentages of nulliparous births, cesarean-section deliveries, epidural anesthesia usage, and major pregnancy-related complications. No significant differences in maternal age, gestational age, neonate birthweight, sex, or in the presence of meconium at birth were observed. A higher umbilical artery pO(2) in the DCC group [21 (9) vs. 19 (10) mmHg, p < 0.05] was the only statistically significant difference found out of all the blood gas parameters analyzed. CONCLUSIONS: In this study, infants selected for the DCC procedure were found to be overall lower risk than those delivered as per the standard ECC procedure. No clinically significant difference in any blood gas parameter was observed, and therefore, no adjustment to clinical reference intervals is needed for DCC blood gas samples taken after a 1-min delay period."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofgeneralanesthesiaandneuraxialanesthesiaincaesareansectionwithmaternalpostpartumdepressionaretrospectivenationwidepopulationbasedcohortstudy2022hung
+"Although cesarean section (CS) has become a common method of child delivery in recent decades, the choice between general anesthesia (GA) and neuraxial anesthesia (NA) for CS must be carefully considered. Depending on the type of anesthesia used in CS, a major outcome observed is the occurrence of postpartum depression (PPD). This study investigated the association between PPD risk and the anesthesia method used in CS by using data from three linked nationwide databases in Taiwan, namely, the National Health Insurance Research Database, the National Birth Reporting Database, and the National Death Index Database. After propensity score matching by baseline depressive disorders, maternal demographics, status at delivery, infant's health, maternal diseases during pregnancy, and age of partner, we included women who had natural births (n = 15,706), cesarean sections with GA (n = 15,706), and cesarean sections with NA (n = 15,706). A conditional logistic regression was used to estimate the odds ratios and 95% confidence intervals (CIs) of PPDs, including depression, sleep disorder, and medication with hypnotics or antidepressants, under anesthesia during CS. The prevalence rates of combined PPDs were 26.66%, 43.87%, and 36.30% in natural births, CS with GA, and CS with NA, respectively. In particular, the proportions of postpartum use of hypnotic drugs or antidepressants were 21.70%, 39.77%, and 31.84%, which were significantly different. The aORs (95% CIs) were 2.15 (2.05-2.25) for the included depressive disorders, 1.10 (1.00-1.21) for depression, 1.03 (0.96-1.11) for sleep disorder, and 2.38 (2.27-2.50) for medication with hypnotics or antidepressants in CS with GA compared with natural births. Women who underwent CS with GA had a significantly higher risk of depressive disorders and a higher need for antidepressants for sleep problems than those who underwent CS with NA. The risks of PPD were significantly associated with the anesthesia method, especially GA. Our results can assist physicians in carefully considering the appropriate anesthesia method for CS delivery, particularly with regard to postpartum drug abuse and drug safety."""
+
+

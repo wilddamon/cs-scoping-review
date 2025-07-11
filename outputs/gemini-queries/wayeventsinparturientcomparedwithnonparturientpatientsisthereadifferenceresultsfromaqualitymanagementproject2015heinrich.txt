@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adverseairwayeventsinparturientcomparedwithnonparturientpatientsisthereadifferenceresultsfromaqualitymanagementproject2015heinrich
+"AIM: The fear of airway problems often leads to prolonged attempts to obtain neuroaxial (spinal anesthesia or epidural anesthesia) anesthesia in obstetric anesthesia. The aim of this institutional quality management study was to revisit existing anesthesia care in the obstetric department, focusing on the frequency of delayed or failed neuroaxial anesthesia as well as the risk of airway problems in parturient and non-obstetric patients. METHODS: The clinical records from 8 consecutive years (2005-2013) were analyzed retrospectively. Cases of cesarean delivery with general anesthesia were analyzed and compared with an age-matched group of female patients undergoing non-obstetric abdominal or gynecological surgery with rapid sequence induction. Poor laryngeal visualization (Cormack-Lehane grade III or IV) and failed intubation were recorded. RESULTS: The records of 6393 cesarean deliveries including 851 with general anesthesia were analyzed. In 175 cases insufficient or delayed onset of regional anesthesia led to requirement for general anesthesia. The rate of poor laryngoscopic view in parturient women undergoing cesarean delivery was 14/851, and 4/814 in the reference group (P = 0.023). Failed intubation occurred in three patients undergoing cesarean delivery (0.4%) and in one non-obstetric patient (0.1%; P = 0.339). CONCLUSION: The rate of failed intubations in patients undergoing cesarean delivery may be equivalent to non-obstetric patients. In time-challenging cesarean deliveries, delay of conversion from non-successful neuroaxial anesthesia to general anesthesia in order to avoid adverse airway events does not appear to be justified."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: likelihoodofcesareandeliveryafterapplyingleadingactivelabordiagnosticguidelines2017neal
+"BACKGROUND: Friedman, the United Kingdom's National Institute for Health and Care Excellence (NICE), and the American College of Obstetricians and Gynecologists/Society for Maternal-Fetal Medicine (ACOG/SMFM) support different active labor diagnostic guidelines. Our aims were to compare likelihoods for cesarean delivery among women admitted before vs in active labor by diagnostic guideline (within-guideline comparisons) and between women admitted in active labor per one or more of the guidelines (between-guideline comparisons). DESIGN: Active labor diagnostic guidelines were retrospectively applied to cervical examination data from nulliparous women with spontaneous labor onset (n = 2573). Generalized linear models were used to determine outcome likelihoods within- and between-guideline groups. RESULTS: At admission, 15.7%, 48.3%, and 10.1% of nulliparous women were in active labor per Friedman, NICE, and ACOG/SMFM diagnostic guidelines, respectively. Cesarean delivery was more likely among women admitted before vs in active labor per the Friedman (AOR 1.75 [95% CI 1.08-2.82] or NICE guideline (AOR 2.55 [95% CI 1.84-3.53]). Between guidelines, cesarean delivery was less likely among women admitted in active labor per the NICE guideline, as compared with the ACOG/SMFM guideline (AOR 0.55 [95% CI 0.35-0.88]). CONCLUSION: Many nulliparous women are admitted to the hospital before active labor onset. These women are significantly more likely to have a cesarean delivery. Diagnosing active labor before admission or before intervention to speed labor may be one component of a multi-faceted approach to decreasing the primary cesarean rate in the United States. The NICE diagnostic guideline is more inclusive than Friedman or ACOG/SMFM guidelines and its use may be the most clinically useful for safely lowering cesarean rates."""
+
+

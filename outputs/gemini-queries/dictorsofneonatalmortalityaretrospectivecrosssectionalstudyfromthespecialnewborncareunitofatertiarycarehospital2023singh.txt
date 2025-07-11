@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsofneonatalmortalityaretrospectivecrosssectionalstudyfromthespecialnewborncareunitofatertiarycarehospital2023singh
+"Background In India, a significant number of newborns die each year, with Madhya Pradesh having the highest neonatal mortality rate. However, there is a lack of information on factors that can predict neonatal mortality. Objective This study aimed to examine the factors influencing neonatal mortality among neonates admitted to a tertiary care centre's special newborn care unit (SNCU). Methods This retrospective record-based observational study was done at a tertiary care centre, where data from the special newborn care unit (SNCU) from 1st January 2021 to 31st December 2021 was used. We included data of all newborns who were treated in SNCU during the said period and excluded those who got referred or left against medical advice. We abstracted data on age at admission, gender, category, maturity status, birth weight, place of delivery, mode of transport, type of admission, indication of admission, duration of stay and outcome. Qualitative variables were described using frequency and percentage. The chi-square test was used to find out the association of different variables with the outcome, while multivariate logistic regression was conducted to identify risk factors of neonatal mortality. A p-value of <0.05 was considered significant. Results We finalized data of 1052 neonates for analysis. Among them, 846 neonates were successfully discharged while 206 neonates were deceased. The major cause of admission was perinatal asphyxia followed by prematurity. The major cause of mortality in this study was sepsis followed by respiratory distress syndrome, birth asphyxia, and prematurity. Mortality of neonates was significantly associated with maturity status, birth weight, place of delivery, age during admission and duration of stay. Prematurity (OR=3.762, 95% CI:1.93-7.33), birth weight 1000-1499g (OR=4.78, 95% CI:2.21-10.32), birth weight <1000g (OR=25.11, 95% CI:5.71-110.24), age at admission <1-day (OR=2.312, 95% CI:1.03-5.19), duration of stay 1-3-days (OR=12.98, 95% CI:7.48-22.52) and <1-day (OR=1271.88, 95% CI:121.39-13325.69) were significant predictors of mortality in our study. Conclusion Our study emphasizes monitoring and addressing risk factors like maturity status, birth weight, and age at admission to reduce neonatal mortality, with a focus on early management of preterm births and low birth weight."""
+
+

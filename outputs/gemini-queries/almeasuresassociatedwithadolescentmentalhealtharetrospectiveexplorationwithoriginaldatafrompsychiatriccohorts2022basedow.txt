@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: areperinatalmeasuresassociatedwithadolescentmentalhealtharetrospectiveexplorationwithoriginaldatafrompsychiatriccohorts2022basedow
+"BACKGROUND: Perinatal markers of prenatal development are associated with offspring psychiatric symptoms. However, there is little research investigating the specificity of perinatal markers for the development of specific disorders. This study aimed to explore if perinatal markers are specifically associated with adolescent substance use disorder (SUDs). METHODS: Adolescent participants from two study centers, one for SUD patients (n = 196) and one for general psychopathology (n = 307), were recruited for participation. Since the SUD participants presented with a number of comorbid disorders, we performed a 1-on-1 matching procedure, based on age, gender, and specific pattern of comorbid disorders. This procedure resulted in n = 51 participants from each group. From all participants and their mothers we recorded perinatal markers (mode of birth, weeks of completed pregnancy, birth weight, Apgar score after 5 min) as well as intelligence quotient (IQ). The SUD sample additionally filled out the Youth Safe Report (YSR) as well as the PQ-16 and the DUDIT. We aimed to distinguish the two groups (SUD sample vs. general psychiatric sample) based on the perinatal variables via a logistic regression analysis. Additionally, linear regressions were performed for the total group and the subgroups to assess the relationship between perinatal variables and IQ, YSR, DUDIT and PQ-16. RESULTS: The perinatal variables were not able to predict group membership (X(2) [4] = 4.77, p = .312, Cox & Snell R2 = 0.053). Odds ratios indicated a small increase in probability to belonging to the general psychiatric sample instead of the SUD sample if birth was completed via C-section. After Bonferroni-correction, the linear regression models showed no relation between perinatal markers and IQ (p = .60, R2 = 0.068), YSR (p = .09, R2 = 0.121), DUDIT (p = .65, R2 = 0.020), and PQ-16 (p = .73, R2 =0.021). CONCLUSION: Perinatal markers were not able to distinguish SUD patients from patients with diverse psychopathologies. This pattern contradicts previous findings, perhaps because our chosen markers reflect general processes instead of specific mechanistic explanations. Future studies should take care to investigate specific prenatal markers and associate them with psychopathology on the symptom level."""
+
+

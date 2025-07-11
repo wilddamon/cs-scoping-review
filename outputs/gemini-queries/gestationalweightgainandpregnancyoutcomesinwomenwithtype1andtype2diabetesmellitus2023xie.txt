@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgainandpregnancyoutcomesinwomenwithtype1andtype2diabetesmellitus2023xie
+"AIMS: We aimed to explore the relationship between gestational weight gain (GWG) after Institute of Medicine (IOM) and pregnancy outcomes in women with type 1 and type 2 diabetes. METHODS: Retrospective cohort study at a tertiary medical center (1981-2011). OUTCOME VARIABLES: 2 maternal and 14 fetal. Main exposure variable: GWG according to IOM. We calculated crude and adjusted ORs as well as population attributable (PAF) and preventable fractions (PPF) for significant positive and negative associations, respectively. RESULTS: We evaluated 633 pregnant women with type 1 or type 2 diabetes. GWG was insufficient (iGWG) in 16.7% and excessive (eGWG) in 50.7%. In the adjusted analysis, GWG according to IOM was significantly associated with maternal outcomes (pregnancy-induced hypertension and cesarean delivery) and four fetal outcomes (large-for-gestational age, macrosomia, small-for-gestational age and neonatal respiratory distress). The association with large-for-gestational age newborns was negative for iGWG (0.48, CI 95% 0.25-0.94) and positive for eGWG (1.76, CI 95% 1.18-2.63). In addition, iGWG was associated with a higher risk of small-for-gestational age newborns and respiratory distress and eGWG with a higher risk of pregnancy-induced hypertension, caesarean delivery and macrosomia. PAF and PPF ranged from the 20.4% PPF of iGWG for large-for-gestational age to 56.5% PAF of eGWG for macrosomia. CONCLUSION: In this cohort of women with type 1 or type 2 diabetes, inadequate GWG after IOM was associated with adverse pregnancy outcomes; associations were unfavorable for eGWG and mixed for iGWG. The attributable fractions were not moderate, pointing to the potential impact of modifying inadequate GWG."""
+
+

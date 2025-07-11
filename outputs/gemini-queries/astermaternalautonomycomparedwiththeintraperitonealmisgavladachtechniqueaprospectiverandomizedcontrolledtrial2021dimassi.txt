@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theextraperitonealfrenchambulatorycesareansectiontechniqueleadstoimprovedpainscoresandafastermaternalautonomycomparedwiththeintraperitonealmisgavladachtechniqueaprospectiverandomizedcontrolledtrial2021dimassi
+"OBJECTIVE: To determine whether the French AmbUlatory Cesarean Section (FAUCS) technique reduces postoperative pain and promotes maternal autonomy compared with the Misgav Ladach cesarean section (MLCS) technique in elective conditions. STUDY DESIGN: One hundred pregnant women were randomly, but in a non-blinded manner, assigned to undergo FAUCS or MLCS. The primary outcome was a postoperative mean pain score (PMPS), and secondary outcomes were a combined pain/medication score, time to regain autonomy, surgical duration, calculated blood loss, surgical complications, and neonatal outcome. RESULTS: Women in the FAUCS group experienced less pain than those in the MLCS group (PMPS = 1.87 [1.04-2.41] vs. 2.93 [2.46-3.75], respectively; p < 0.001). Six hours after surgery, the combined pain/medication score for FAUCS patients was 33% lower than that for MLCS patients (p < 0.001). FAUCS patients more rapidly regained autonomy, with 94% reaching autonomy within 12 h vs. 4% of MLCS patients (p < 0.001). There were no differences in maternal surgical or neonatal complications between groups. CONCLUSIONS: Our results indicate that FAUCS can reduce postoperative pain and accelerate recovery, suggesting that this technique might be superior to MLCS and should be more widely used. One potentially key difference between FAUCS and MLCS is that MLCS includes 100 mcg spinal morphine anesthesia in addition to the same anesthesia used by FAUCS. Any interpretation of apparent differences must take the presence/absence of morphine into account."""
+
+

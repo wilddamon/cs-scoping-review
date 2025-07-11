@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandneonataloutcomesoftrialoflaborcomparedwithelectivecesareandeliveryaccordingtopredictedlikelihoodofvaginaldelivery2022downs
+"OBJECTIVE: The vaginal birth after cesarean (VBAC) calculator developed by the Maternal-Fetal Medicine Units Network (MFMU) helps to identify the likelihood of VBAC. We sought to compare adverse maternal and neonatal outcomes of trial of labor after cesarean (TOLAC) to those of elective cesarean delivery after stratifying by VBAC likelihood. STUDY DESIGN: This was a retrospective cohort study of all women whose primary low transverse segment cesarean delivery and subsequent singleton term delivery with vertex presentation occurred at an academic center from January 2009 to June 2018. Only data from the second pregnancy were analyzed. The final analysis included 835 women. The MFMU VBAC calculator was used to assess the likelihood of VBAC. The two primary outcomes were composite adverse maternal (death or severe maternal complications) and neonatal outcomes (perinatal death or severe neonatal complications). The analyses were stratified based on the VBAC likelihood (less than 60% and 60-100%). Multivariable logistic regression was used to calculate adjusted odds ratio (OR) and 95% confidence interval (CI), controlling for predefined covariates. RESULTS: Among women with VBAC likelihood less than 60%, TOLAC compared with elective cesarean was associated with increased odds of the primary adverse maternal outcome (16.4% vs. 4.2%; adjusted OR 4.60 [95%CI 1.48-14.35]) and the primary adverse neonatal outcome (17.8% vs. 6.3%; adjusted OR 3.93 [95%CI 1.31-11.75]). Among women with VBAC likelihood of 60-100%, TOLAC compared with elective cesarean was associated with decreased odds of the primary adverse maternal outcome (6.4% vs. 11%; adjusted OR 0.47 [95%CI 0.25-0.89]) and similar odds of the primary adverse neonatal outcome (6.7% vs. 8.3%; adjusted OR 0.98 [95%CI 0.52-1.84]). CONCLUSIONS: Among women with a history of a primary low transverse cesarean delivery, those who underwent TOLAC compared to those who had elective cesarean had increased odds of adverse maternal and neonatal outcomes when VBAC likelihood was less than 60%."""
+
+

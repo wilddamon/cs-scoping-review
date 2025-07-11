@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prognosticfactorsofneonatalsepsismortalityindevelopingcountry2023rasyida
+"Purpose: Sepsis is the most common cause of neonatal death accounting for 30-50% of mortality annually in developing countries. This study was to determine the prognostic factors of neonatal sepsis mortality. Method(s): A retrospective cohort was conducted in Dr. R. Sosodoro Djatikoesoemo Governor Hospital from April 2021 to September 2021 on 121 neonates in the neonatal intensive care unit (NICU) diagnosed with sepsis. The inclusion criteria were neonates aged 0-28 days, admitted to the NICU, and diagnosed with sepsis. The exclusion criteria were incomplete data and the presence of congenital abnormalities. A chi2 test was performed on the sex, gestational age, mode of delivery, birth weight, APGAR score, birthplace, and blood culture. A normality test was performed on leukocytes, lymphocytes, neutrophils, platelets, C-reactive protein (CRP), and length of stay. Then performed a Mann-Whitney test. Result(s): Birth weight (P=0.038), gestational age (P=0.009), and blood culture (P=0.014) showed a significant relationship with the neonatal sepsis outcome while Mann-Whitney test showed significant differences in the platelets (P=0.018), CRP (P=0.002), and length of stay (P<0.001). Multivariate analysis showed that 3 prognostic factors associated with neonatal sepsis mortality were prematurity (odds ratio [OR], 3.906; 95% confidence interval [CI], 1.344-11.356; P=0.012), low birth weight (LBW, OR, 2.833; 95% CI, 1.030-7.790; P=0.044), and gram-negative bacteria (OR, 4.821; 95% CI, 1.018-22.842; P=0.047). Conclusion(s): Prematurity, LBW, and gram-negative bacteria were associated with the prognostic factors of neonatal sepsis.Copyright (c) 2023 The Korean Society of Pediatric Infectious Diseases."""
+
+

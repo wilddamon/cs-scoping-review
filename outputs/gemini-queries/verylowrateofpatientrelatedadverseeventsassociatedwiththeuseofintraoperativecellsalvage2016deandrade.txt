@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: verylowrateofpatientrelatedadverseeventsassociatedwiththeuseofintraoperativecellsalvage2016deandrade
+"BACKGROUND: The rate of patient-related clinical adverse events (AEs) associated with the use of intraoperative cell salvage (ICS) was analyzed.;STUDY DESIGN AND METHODS: The perfusion service and electronic risk management databases in a nine-hospital regional health care system were reviewed over an approximately 11-year period. The number of ICS cases performed during this period and basic patient demographics were also extracted.;RESULTS: There were 43,198 patients for whom ICS was utilized during the study period. Recovered blood was returned to 33,351 (77.2%) patients. Electronic comments on the ICS procedure were found in 2348 of 33,351 (7.0%) cases. The vast majority of comments (2203/2348, 93.8%) described minor events that did not lead to patient-related AEs such as the surgeon requested higher than normal suction pressure or that no RBCs were returned. Only 144 of 2348 (6.1%) of the comments described procedural or equipment-related events or potential AEs. From these comments two potential AEs were identified: the first was a post-Cesarean section patient who became acutely tachycardic, hypertensive, and dyspneic with rigors. The second was a patient with postpartum hemorrhage who experienced acute dyspnea and hypotension. Both patients were rapidly stabilized and discharged from the hospital shortly thereafter without further complications. It is unclear if these events were caused by ICS reinfusion. No air emboli were reported. The overall rate of patient-related AEs associated with ICS reinfusion was between 0 and 2 per 33,351 (0%-0.006%).;CONCLUSIONS: The use of ICS is safe with a very low rate of patient-related AEs. Copyright (c) 2016 AABB."""
+
+

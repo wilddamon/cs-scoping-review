@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofmaternalandsocialcharacteristicswithagestandardisedbirthweight2022vilcins
+"Objectives: To identify the maternal and social characteristics associated with age standardised birthweight in a modern developed setting. Method(s): Birth records (n = 414,478) were obtained for live, singleton births in the period 2007-2015 in Queensland, Australia. Age-standardised birth weights were calculated and a multinomial logistic regression was performed to obtain odds ratios and 95% confidence intervals for a range of maternal and social characteristics. Result(s): Mothers who smoke (OR 2.82, 95% CI 2.72-2.93), and mothers from Southern and Central Asia (OR 3.30, 95% CI 3.08-3.53) had the highest odds of delivering small for gestational age babies. Smoking alone accounted for 21% of low birthweight. Pre-existing diabetes (OR 5.98, 95% CI 5.12-6.99) had the highest odds ratio for large for gestational age births; however, maternal overweight and obesity accounted for 24% of all cases due to its greater prevalence in the population. Conclusion for practice: Smoking continues to be an important modifiable predictor of low birthweight. The predictors associated with large for gestational age are modifiable, with maternal overweight and obesity the largest contributor to high birthweight. Significance: Maternal characteristics are changing alongside broader population change, with mothers often older and heavier than in previous decades. This study provides an update to the role of maternal and social characteristics in optimal birthweight within a large developed population. The present study finds a range of traditional and emerging risk factors remain important. Population attributable risk fractions show that maternal overweight and smoking are the most important modifiable risk factors for birthweight extremes (foetal macrosomia and small for gestational age, respectively). Public health efforts to address these risk factors could reduce up to 20% of birth weight extremes.Copyright (c) 2020, Springer-Verlag GmbH Germany, part of Springer Nature."""
+
+

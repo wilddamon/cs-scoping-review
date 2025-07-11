@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: emergingfatalibcc12hypervirulentmultiresistantstreptococcusagalactiaeinyounginfantswithbloodstreaminfectioninchina2021liu
+"Streptococcus agalactiae [also known as group B Streptococcus (GBS)] is a tremendous threat to young infants. Eighty pediatric GBS infection cases were enrolled from a teaching hospital in Shanghai between 2009 and 2020; among them, 72.5% (58/80) were diagnosed with bloodstream infection (BSI). Sequence types (STs) and serotypes of associated GBS strains were identified, and most of the Ib/clonal complex (CC)12 (86.7%, 13/15) strains caused BSIs, which was significantly higher than that of the genetically related clone Ib/CC10 (20%, 2/10; p < 0.05). Ib/CC12 BSI (30.8%) mortality was significantly higher than that of non-Ib/CC12 BSI (2.2%; p < 0.05). Virulence genes associated with adhesion, invasion, and immune evasion were detected using polymerase chain reaction. The fbsA and gbsPC1 positive rates of Ib/CC12 strains was higher than that of non-Ib/CC12 strains, whereas cpsIaJ, cpsJ, cpsI, and cpsG positive rates were lower than those of non-Ib/CC12 (p < 0.05). In in vitro studies, the Ib/CC12 strains had strong invasiveness in RAW264.7 cells, but less invasiveness in human umbilical vein endothelial cells, human brain microvascular endothelial cells, and human mammary epithelial cells when compared to other two clones. In the in vivo model, the Ib/CC12 GBS invaded the circulation system more rapidly after intraperitoneal injection, was more difficult to eradicate by phagocytes, and caused significantly higher mortality than Ib/CC10 and III/ST17 (p < 0.05). Genome analysis showed that the Ib/CC12 strains had two clustered regularly interspaced short palindromic repeat-Cas systems and carried more antibiotic resistant genes, which conferred resistance to macrolides, clindamycin, aminoglycosides, and tetracycline. The Ib/CC12 strains had 45 unique annotated genes compared to that of Ib/CC10, including the pathogen-related toxin/antitoxin system, PezA/T. In conclusion, Ib/CC12 is an emerging hypervirulent multiresistant GBS clone that causes invasive and fatal infections in pediatric patients. The prevention and control of Ib/CC12 GBS infection should be emphasized.Copyright (c) 2021 Liu, Chen, Guan, Yu, Yu, Zhao, Liu and Shen."""
+
+

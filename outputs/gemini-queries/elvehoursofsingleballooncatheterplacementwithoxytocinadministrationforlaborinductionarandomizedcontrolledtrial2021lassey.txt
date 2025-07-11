@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sixversustwelvehoursofsingleballooncatheterplacementwithoxytocinadministrationforlaborinductionarandomizedcontrolledtrial2021lassey
+"BACKGROUND: Induction of labor is common in the United States. Multiple previous studies have tried to outline a faster time to delivery to improve maternal and fetal outcomes.;OBJECTIVE: This study aimed to evaluate whether women who undergo induction of labor with a single-balloon catheter and oxytocin have a shorter time to delivery with planned removal of the catheter at 6 vs 12 hours.;STUDY DESIGN: In this randomized controlled trial, induction of labor was performed using a combination of single-balloon catheter and oxytocin. Term women, both nulliparous and multiparous, aged 18 to 50 years old with cephalic singletons were included if they were undergoing induction of labor with a Bishop score of <6 and cervical dilation of <2 cm. Women were randomized to planned removal of the single-balloon catheter at 6 hours vs 12 hours. The primary outcome was time from catheter insertion to delivery. We were powered to show a 4-hour time difference with a sample size of 89 women per group (n=178). Planned sensitivity analyses were performed to account for cesarean delivery in labor.;RESULTS: From February 2019 to June 2020, 237 women were screened, 178 women were randomized, and 177 women were included in the final analysis (89 women in the 6-hour group and 88 women in the 12-hour group). Insertion to delivery time was significantly shorter in the 6-hour group (19.2 vs 24.3 hours; P=.04), and the proportion of women delivered by 24 hours was significantly greater in the 6-hour group (67.4% vs 47.4%; P<.01). There was no difference in the Bishop score at removal of the catheter or secondary maternal or neonatal outcomes. In a Cox proportional-hazards model censoring for cesarean delivery, the 6-hour group had a significantly shorter insertion to delivery time (hazard ratio, 0.67; P=.02).;CONCLUSION: Induction of labor with a single-balloon catheter and oxytocin with planned removal of the catheter at 6 hours rather than 12 hours results in a shorter time from insertion to delivery without increasing the rate of cesarean delivery. Decreasing the length of time a single-balloon catheter is in place should be considered in clinical protocols. Copyright (c) 2021 Elsevier Inc. All rights reserved."""
+
+

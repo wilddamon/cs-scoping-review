@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: priortermdeliveryincreasesriskofsubsequentrecurrentpretermbirthanunexpectedfinding2022suff
+"BACKGROUND: Women with a prior pregnancy at term are generally considered to be at reduced risk for subsequent spontaneous preterm birth (sPTB), whereas a previous sPTB is a major predictor for a future sPTB. AIMS: The objective of this study was to investigate the risk of recurrent sPTB in women with a prior term birth and a subsequent sPTB. MATERIALS AND METHODS: This is a retrospective cohort study conducted at St Thomas' Hospital in London, UK. There were 430 women included: 230 with a term birth (caesarean section or vaginal delivery) preceding a sPTB (term + sPTB group) and 200 with a prior sPTB only (sPTB only group). The primary outcome was sPTB, <37 weeks gestation. RESULTS: Of the term + sPTB group, 38.7% (89/230) had a recurrent sPTB compared to 20% (40/200) in the sPTB only group (P < 0.0001), with a relative risk (RR) of 1.9. Of women who had a term caesarean section and a subsequent PTB, 50% (30/60) had a further sPTB (RR 2.5 compared to the sPTB only group), while 34.7% (59/170) of women who had a term vaginal birth and subsequent sPTB, had a further sPTB (RR 1.7 compared to the sPTB only group). CONCLUSION: In women who have had a previous sPTB, the risk of a recurrence is much higher than in women with a prior term birth. The aetiology of PTB may be different in this subgroup of women and needs to be further elucidated to determine how best to identify and treat them."""
+
+

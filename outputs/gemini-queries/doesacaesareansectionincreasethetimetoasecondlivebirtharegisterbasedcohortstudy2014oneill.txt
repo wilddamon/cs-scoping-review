@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesacaesareansectionincreasethetimetoasecondlivebirtharegisterbasedcohortstudy2014oneill
+"STUDY QUESTION: Does a primary Caesarean section influence the rate of, and time to, subsequent live birth compared with vaginal delivery? SUMMARY ANSWER: Caesarean section was associated with a reduction in the rate of subsequent live birth, particularly among elective and maternal-requested Caesareans indicating maternal choice plays a role. WHAT IS KNOWN ALREADY: Several studies have examined the relationship between Caesarean section and subsequent birth rate with conflicting results primarily due to poor epidemiological methods. STUDY DESIGN, SIZE, DURATION: This Danish population register-based cohort study covered the period from 1982 to 2010 (N = 832 996). PARTICIPANTS/MATERIALS, SETTING, METHODS: All women with index live births were followed until their subsequent live birth or censored (maternal death, emigration or study end) using Cox regression models. MAIN RESULTS AND THE ROLE OF CHANCE: In all 577 830 (69%) women had a subsequent live birth. Women with any type of Caesarean had a reduced rate of subsequent live birth (hazard ratio [HR] 0.86, 95% confidence intervals [CI] 0.85, 0.87) compared with spontaneous vaginal delivery. This effect was consistent when analyses were stratified by type of Caesarean: emergency (HR 0.87, 95% CI 0.86, 0.88), elective (HR 0.83, 95% CI 0.82, 0.84) and maternal-requested (HR 0.61, 95% CI 0.57, 0.66) and in the extensive sub-analyses performed. LIMITATIONS, REASONS FOR CAUTION: Lack of biological data to measure a woman's fertility is a major limitation of the current study. Unmeasured confounding and limited availability of data (maternal BMI, smoking, access to fertility services and maternal-requested Caesarean section) as well as changes in maternity care over time may also influence the findings. WIDER IMPLICATIONS OF THE FINDINGS: This is the largest study to date and shows that Caesarean section is most likely not causally related to a reduction in fertility. Maternal choice to delay or avoid childbirth is the most plausible explanation. Our findings are generalizable to other middle- to high-income countries; however, cross country variations in Caesarean section rates and social or cultural differences are acknowledged. STUDY FUNDING/COMPETING INTERESTS: Funding was provided by the National Perinatal Epidemiology Centre, Cork, Ireland and conducted as part of the Health Research Board PhD Scholars programme in Health Services Research (Grant No. PHD/2007/16). L.C.K. is a Science Foundation Ireland Principal Investigator (08/IN.1/B2083) and the Director of the SFI funded Centre, INFANT (12/RC/2272). The authors have no competing interests to declare."""
+
+

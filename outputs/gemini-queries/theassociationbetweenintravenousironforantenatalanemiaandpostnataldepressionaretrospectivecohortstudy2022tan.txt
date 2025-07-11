@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenintravenousironforantenatalanemiaandpostnataldepressionaretrospectivecohortstudy2022tan
+"PURPOSE: Determine if intravenous iron for antenatal anemia is associated with reduced incidence of postnatal depression (PND) within 12 months. METHODS: This retrospective cohort study included adult women with antenatal anemia (hemoglobin value of < 11.0 g/dL within 3 months before delivery). PND was defined as Edinburgh Postnatal Depression Scale (EPDS) or Patient Health Questionnaire-9 (PHQ-9) >= 10. Data on intravenous iron, lowest hemoglobin concentration, EPDS and PHQ-9 scores, insurance status, history of anxiety, depression, chronic pain, and substance use, obstetric complications, labor analgesia, and mode of delivery were obtained. Standardized mean difference (SMD) was estimated and multivariable logistic regression models were constructed with adjustment for potential confounders with absolute SMD of >= 0.1. RESULTS: Data from 3988 women were analyzed. The 368 (9.2%) women who received intravenous iron therapy had lower antenatal hemoglobin levels, were more likely to be African American or single/widowed women, and more commonly had Medicaid coverage, repeat cesarean delivery, and history of depression compared to those who did not receive intravenous iron therapy. Unadjusted analysis showed women who received intravenous iron had higher incidence of PND (18.5%) than those who did not (13.4%) (p = 0.008). Multivariable analysis showed no significant association between intravenous iron and PND incidence (aOR 1.21, 95%CI 0.89-1.63, p = 0.232), although history of depression (aOR 2.42, 95%CI 1.91-3.08, p < 0.001), higher gravidity (aOR 1.09, 95%CI 1.02-1.17, p = 0.016), and Medicaid insurance (aOR 1.44, 95%CI 1.16-1.80, p = 0.001) were independently associated with PND. CONCLUSION: Intravenous iron for antenatal anemia was not associated with significant change in the incidence of PND."""
+
+

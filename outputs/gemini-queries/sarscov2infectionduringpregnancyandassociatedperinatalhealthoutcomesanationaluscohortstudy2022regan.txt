@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sarscov2infectionduringpregnancyandassociatedperinatalhealthoutcomesanationaluscohortstudy2022regan
+"BACKGROUND: Although severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection has been associated with increased risk of adverse perinatal health outcomes, few large-scale, community-based epidemiological studies have been conducted. METHODS: We conducted a national cohort study using deidentified administrative claims data for 78 283 pregnancies with estimated conception before 30 April 2020 and pregnancy end after 11 March 2020. We identified SARS-CoV-2 infections using diagnostic and laboratory testing data, and compared the risk of pregnancy outcomes using Cox proportional hazard models treating coronavirus disease 2019 (COVID-19) as a time-varying exposure and adjusting for baseline covariates. RESULTS: Of the pregnancies, 2655 (3.4%) had a documented SARS-CoV-2 infection. COVID-19 during pregnancy was not associated with risk of miscarriage, antepartum hemorrhage, or stillbirth, but was associated with 2-3 fold higher risk of induced abortion (adjusted hazard ratio [aHR], 2.60; 95% confidence interval [CI], 1.17-5.78), cesarean delivery (aHR, 1.99; 95% CI, 1.71-2.31), clinician-initiated preterm birth (aHR, 2.88; 95% CI, 1.93-4.30), spontaneous preterm birth (aHR, 1.79; 95% CI, 1.37-2.34), and fetal growth restriction (aHR, 2.04; 95% CI, 1.72-2.43). CONCLUSIONS: Prenatal SARS-CoV-2 infection was associated with increased risk of adverse pregnancy outcomes. Prevention could have fetal health benefits."""
+
+

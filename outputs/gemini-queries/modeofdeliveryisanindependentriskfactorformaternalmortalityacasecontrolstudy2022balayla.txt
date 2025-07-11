@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofdeliveryisanindependentriskfactorformaternalmortalityacasecontrolstudy2022balayla
+"BACKGROUND AND OBJECTIVES: In contrast to the global trend, the maternal mortality ratio (MMR) in the United States has increased in recent decades. During this time, the cesarean section rate has concurrently and steadily increased. Herein, we sought to determine whether the mode of delivery is an independent risk factor for maternal in-hospital mortality. MATERIALS AND METHODS: We conducted a retrospective, population-based, 1:1 matched, case-control study on all births recorded in the Health - Care Cost and Utilization Project - Nationwide Inpatient Sample between 2005 and 2014. We compared cases of maternal mortality and survival on a number of clinical characteristics. We conducted two different multivariate logistic regression analysis models, obtaining the adjusted odds ratios to determine the independent effect of mode of delivery on maternal mortality relative to surviving controls. RESULTS: We found a total of 617 cases of maternal mortality, which corresponds to an in-hospital MMR of 6.9/100,000 in our cohort. We matched 617 controls to mortality cases by year and geographic location. Relative to surviving controls, cases of maternal mortality were older, more likely to be African American, of lesser income, more likely to use Medicaid as payment, to have prolonged admissions, and more likely to have severe obstetrical complications including preterm delivery, postpartum hemorrhage, eclampsia, peripartum cardiomyopathy, pulmonary emboli, and disseminated intravascular coagulation (DIC). Relative to unassisted vaginal delivery, adjusted logistic regression analysis reveals no excess mortality observed with assisted vaginal delivery: OR 1.35, 95% CI [0.59-3.51]. However, after adjusting for demographic and obstetrical confounders, a significant risk of maternal mortality was observed with cesarean delivery: OR 3.21, 95% CI [2.80-3.61], p-value = .0001. This risk was more pronounced amongst primary cesarean deliveries: OR 5.72, 95% CI [4.92-6.51], p-value = .0001. CONCLUSION: Cesarean delivery, and particularly primary cesarean delivery, is an independent risk factor for maternal in-hospital mortality. Measures taken to reduce the cesarean section rate may impact the rising maternal mortality ratio (MMR) in the United States."""
+
+

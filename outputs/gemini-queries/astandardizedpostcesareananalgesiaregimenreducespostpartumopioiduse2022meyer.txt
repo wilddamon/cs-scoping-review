@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: astandardizedpostcesareananalgesiaregimenreducespostpartumopioiduse2022meyer
+"BACKGROUND: Optimal post-cesarean pain control is important. With the rising opioid epidemic it is imperative to maximize non-opioid based primary approaches to post-cesarean pain control. In 2018, we implemented a standardized post-cesarean analgesia regimen.;OBJECTIVE: To determine if implementation of a standardized postoperative analgesic regimen decreases opioid use following cesarean birth.;STUDY DESIGN: A standardized postoperative analgesia protocol was implemented in June 2018, which included scheduled oral acetaminophen (975 mg every 6 h) and nonsteroidal anti-inflammatory drugs (NSAIDs) (ketorolac 15 mg IV every 6 h for 5 doses followed by ibuprofen 600 mg oral every 6 h) with opioids available for breakthrough pain. There was no prior standardized protocol. A before-and-after study design was used to compare oral morphine milligram equivalents (MME) for nine months prior to and nine months after this protocol was implemented, excluding the two month period of protocol rollout. Women with opioid use disorder or postoperative intubation were excluded. The primary outcome was the cumulative MME used in the first 72 h postoperatively. Total dose at 12, 24, and 48 h were also compared.;RESULTS: Of 2340 women who underwent cesarean birth during the study period (1 July 2017 - 30 April 2019), 2001 women met inclusion criteria (914 before 10 April 2018 (pre-protocol) and 1087 after 17 June 2018 (post-protocol)). Baseline characteristics of the two groups were similar, including gestational age at delivery, maternal body mass index (BMI), planned versus unplanned cesarean birth, and type of intraoperative anesthesia used. The cumulative opioid dose in the first 72 h postoperatively was 216.3 +/- 84.3 MME prior to implementation compared to 171.5 +/- 91.5 MME following implementation (p < .001). The average cumulative MME use was higher in the pre-protocol period compared to post-protocol at all time periods: 12 h (57.3 +/- 23.8 vs 48.6 +/- 26.2 MME, p < .001), 24 h (98.1 +/- 34.1 vs 82.1 +/- 38.8 MME, p < .001), and 48 h (165.8 +/- 58.3 vs 134.9 +/- 66.2 MME, p < .001). The average pain scores were lower in the pre-protocol group (3 vs 3.3, p < .001).;CONCLUSION: Scheduled administration of acetaminophen and NSAIDs following cesarean birth significantly decreased the cumulative dose of opioids used in the first 72 h postoperatively."""
+
+

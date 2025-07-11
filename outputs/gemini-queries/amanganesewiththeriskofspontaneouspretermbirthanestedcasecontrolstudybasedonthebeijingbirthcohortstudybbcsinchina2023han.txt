@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofmaternalplasmamanganesewiththeriskofspontaneouspretermbirthanestedcasecontrolstudybasedonthebeijingbirthcohortstudybbcsinchina2023han
+"We performed this study to clarify the dynamic changes in maternal manganese (Mn) concentration during pregnancy and its association with spontaneous preterm birth (SPB). A nested case-control study was conducted based on the Beijing Birth Cohort Study (BBCS) from 2018 to 2020. Singleton pregnancy women aged 18-44 (n = 488) were involved in the study, including 244 cases of SPB and 244 controls. All of the participants provided blood samples twice (in their first and third trimesters). Inductively coupled plasma mass spectrometry (ICP-MS) was used for the laboratory analysis, and unconditional logistic regression was used for the statistical analysis. We found that the maternal Mn levels were significantly higher in the third trimester than those in the first trimester (median: 1.23 vs. 0.81 ng/mL). The SPB risk was increased to 1.65 (95% CI: 1.04-2.62, p = 0.035) in the highest Mn level (third tertile) in the third trimester, especially in normal-weight women (OR: 2.07, 95% CI: 1.18-3.61, p = 0.011) or non-premature rupture of membrane (PROM) women (OR: 3.93, 95% CI: 2.00-7.74, p < 0.001). Moreover, a dose-dependent relationship exists between the SPB risk and maternal Mn concentration in non-PROM women (P trend < 0.001). In conclusion, dynamic monitoring of maternal Mn level during pregnancy would be helpful for SPB prevention, especially in normal-weight and non-PROM women.Copyright (c) 2023 by the authors."""
+
+

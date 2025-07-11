@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: letrozolestimulatedendometrialpreparationprotocolisasuperioralternativetohormonereplacementtreatmentforfrozenembryotransferinwomenwithpolycysticovarysyndromeacohortstudy2023wang
+"BACKGROUND: The current routine endometrial preparation protocol for women with polycystic ovary syndrome (PCOS) is hormone replacement treatment (HRT). Letrozole is rarely used in frozen embryo cycles. Evidence confirming whether letrozole-stimulated (LS) protocol is suitable for frozen embryo transfer in patients with PCOS and for whom is suitable remains lacking. METHODS: This was a retrospective cohort study involving all frozen embryo transfer cycles with LS and HRT for PCOS during the period from Jan 2019 to December 2020 at a tertiary care center. Multivariate Logistic regression was used to analyze the differences in clinical pregnancy rate, live birth rate, miscarriage rate, the incidence of other pregnancy and obstetric outcomes between LS and HRT protocols after adjusting for possible confounding factors. Subgroup analysis was used to explore the population for which LS protocol was suitable. RESULTS: The results of multivariate logistic regression showed that LS was significantly associated with a higher clinical pregnancy rate (70.9% vs. 64.4%;aOR:1.41, 95%CI: 1.18,1.68), live birth rate (60.5% vs. 51.4% aOR:1.49, 95%CI: 1.27,1.76), and a lower risk of miscarriage (14.7% vs. 20.1% aOR: 0.68, 95%CI: 0.53,0.89), hypertensive disorders of pregnancy (6.7% vs. 8.9% aOR: 0.63, 95%CI: 0.42,0.95), and gestational diabetes mellitus (16.7% vs. 20.7% aOR:0.71, 95%CI: 0.53,0.93) than HRT. There were no significant differences in other outcomes such as preterm birth, cesarean delivery, small for gestational age, or large for gestational age between the two endometrial preparation protocols. Subgroup analysis showed that LS had higher live birth rates than HRT in most of the subgroups; in the three subgroups of maternal age >= 35 years, menstrual cycle < 35 days, and no insulin resistance, the live birth rates of the two endometrial preparation protocols were comparable. CONCLUSIONS: LS protocol could improve the live birth rate and reduce the incidence of miscarriage, hypertensive disorders of pregnancy and gestational diabetes mellitus in patients with PCOS. LS protocol is suitable for all types of patients with PCOS. LS should be considered the preferred endometrial preparation protocol for women with PCOS."""
+
+

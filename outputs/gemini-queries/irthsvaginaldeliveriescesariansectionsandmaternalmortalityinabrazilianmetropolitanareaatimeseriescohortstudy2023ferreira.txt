@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofthecovid19pandemiconbirthsvaginaldeliveriescesariansectionsandmaternalmortalityinabrazilianmetropolitanareaatimeseriescohortstudy2023ferreira
+"PURPOSE: The COVID-19 pandemic posed a worldwide challenge, leading to radical changes in healthcare. The primary objective of the study was to assess the impact of the COVID-19 pandemic on birth, vaginal delivery, and cesarian section (c-section) rates. The secondary objective was to compare the maternal mortality before and after the pandemic. PATIENTS AND METHODS: Time-series cohort study including data of all women admitted for childbirth (vaginal delivery or c-section) at the maternities in the Public Health System of Federal District, Brazil, between March 2018 and February 2022, using data extracted from the Hospital Information System of Brazilian Ministry of Health (SIH/DATASUS) on September 30, 2022. Causal impact analysis was used to evaluate the impact of COVID-19 on birth, vaginal delivery, and c-section using the CausalImpact R package, and a propensity score matching was used to evaluate the effect on maternal mortality rate using the Easy R (EZR) software. RESULTS: There were 150,617 births, and considering total births, the effect of the COVID-19 pandemic was not statistically significant (absolute effect per week: 5.5, 95% CI: -24.0-33.4). However, there was an increase in c-sections after COVID-19 (absolute effect per week: 18.1; 95% CI: 11.9-23.9). After propensity score matching, the COVID-19 period was associated with increased maternal mortality (OR: 3.22, 95% CI: 1.53-6.81). The e-value of the adjusted OR for the association between the post-COVID-19 period and maternal mortality was 5.89, with a 95% CI: 2.43, suggesting that unmeasured confounders were unlikely to explain the entirety of the effect. CONCLUSION: Our study revealed a rise in c-sections and maternal mortality during the COVID-19 pandemic, possibly due to disruptions in maternal care. These findings highlight that implementing effective strategies to protect maternal health in times of crisis and improve outcomes for mothers and newborns is crucial."""
+
+

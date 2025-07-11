@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thesurgicalburdenofdiseaseandperioperativemortalityinpatientsadmittedtohospitalsinvictoriaaustraliaapopulationlevelobservationalstudy2019fehlberg
+"OBJECTIVES: Comprehensive reporting of surgical disease burden and outcomes are vital components of resilient health systems but remain under-reported. The primary objective was to identify the Victorian surgical burden of disease necessitating treatment in a hospital or day centre, including a thorough epidemiology of surgical procedures and their respective perioperative mortality rates (POMR). DESIGN: Retrospective population-level observational study. SETTING: The study was conducted in Victoria, Australia. Access to data from the Victorian Admitted Episodes Dataset was obtained using the Dr Foster Quality Investigator tool. The study included public and private facilities, including day-case facilities. PARTICIPANTS: From January 2014 to December 2016, all admissions with an International Statistical Classification of Diseases-10 code matched to the Global Health Estimates (GHE) disease categories were included. PRIMARY AND SECONDARY OUTCOME MEASURES: Admissions were assigned a primary disease category according to the 23 GHE disease categories. Surgical procedures during hospitalisations were identified using the Australian Refined Diagnosis Related Groups (AR-DRG). POMR were calculated for GHE disease categories and AR-DRG procedures. RESULTS: A total of 4 865 226 admitted episodes were identified over the 3-year period. 1 715 862 (35.3%) of these required a surgical procedure. The mortality rate for those undergoing a procedure was 0.42%, and 1.47% for those without. The top five procedures performed per GHE category were lens procedures (162 835 cases, POMR 0.001%), caesarean delivery (76 032 cases, POMR 0.01%), abortion with operating room procedure (65 451 cases, POMR 0%), hernia procedures (52 499 cases, POMR 0.05%) and other knee procedures (47 181 cases, POMR 0.004%). CONCLUSIONS: Conditions requiring surgery were responsible for 35.3% of the hospital admitted disease burden in Victoria, a rate higher than previously published from Sweden, New Zealand and the USA. POMR is comparable to other studies reporting individual procedures and conditions, but has been reported comprehensively across all GHE disease categories for the first time."""
+
+

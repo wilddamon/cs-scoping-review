@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theburdenofearlyonsetsepsisinemiliaromagnaitalya4yearpopulationbasedstudy2016berardi
+"OBJECTIVE: To provide the first Italian data on pathogens causing early-onset sepsis (EOS) and their antimicrobial susceptibility, after the successfully prevention of Group B streptococcus (GBS) EOS. METHODS: Retrospective area-based cohort study from Emilia-Romagna (Italy). Cases of EOS registered (from 2009 to 2012) in all gestational age neonates were reviewed. RESULTS: Live births (LB) numbered 146 682. Ninety neonates had EOS and 12 died (incidence rates of 0.61 and 0.08/1000 LB, respectively). EOS and mortality were the highest among neonates with a birth weight <1000 g (20.37/1000 LB and 8.49/1000 LB, respectively). The most common pathogens were GBS (n = 27, 0.18/1000 LB) and Escherichia coli (n = 19, 0.13/1000 LB). Most infants affected by E. coli EOS were born preterm (n = 13), had complications (n = 4) or died (n = 7). Among 90 isolates tested, only 3 were resistant to both first line empirical antibiotics. Multivariate logistic regression analysis showed that low gestational age, caesarean section and low platelet count at presentation were significantly associated with death or brain lesions (area under ROC curve = 0.939, H-L = 0.944, sensitivity 76.0%, specificity 90.7%). CONCLUSIONS: GBS slightly exceeds E. coli as a cause of EOS. However, E. coli is the prominent cause of death, complications and in most cases affects preterm neonates. Empirical antimicrobial therapy of EOS seems appropriate."""
+
+

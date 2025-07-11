@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlylifeantibioticuseandsubsequentdiagnosisoffoodallergyandallergicdiseases2017hirsch
+"BACKGROUND: Antibiotic use in early life has been linked to disruptions in the microbiome. Such changes can disturb immune system development. Differences have been observed in the microbiota of children with and without allergies, but there have been few studies on antibiotic use and allergic disease. OBJECTIVE: We evaluated associations of early-life antibiotic use with subsequent occurrence of food allergy and other allergies in childhood using electronic health record data. METHODS: We used longitudinal data on 30 060 children up to age 7 years from Geisinger Clinic's electronic health record to conduct a sex- and age-matched case-control study to evaluate the association between antibiotic use and milk allergy, non-milk food allergies, and other allergies. For each outcome, we estimated conditional logistic regression models adjusting for race/ethnicity, history of Medical Assistance, and mode of birth delivery. Models were repeated separately for penicillins, cephalosporins and macrolides. RESULTS: There were 484 milk allergy cases, 598 non-milk food allergy cases and 3652 other allergy cases. Children with three or more antibiotic orders had a greater odds of milk allergy (Odds Ratio; 95% Confidence interval) (1.78; 1.28-2.48), non-milk food allergy (1.65; 1.27-2.14), and other allergies (3.07; 2.72-3.46) compared with children with no antibiotic orders. Associations were strongest at younger ages and differed by antibiotic class. CONCLUSIONS AND CLINICAL RELEVANCE: We observed associations between antibiotic orders and allergic diseases, providing evidence of a potentially modifiable clinical practice associated with paediatric allergic disease. Differences by antibiotic class should be further explored, as this knowledge could inform paediatric treatment decisions."""
+
+

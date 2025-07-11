@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: headinjuriesrelatedtobirthtraumainlowbirthweightneonatesduringvacuumextraction2023cohen
+"Introduction Preterm delivery (gestational age < 34 w) is a relative contraindication to vacuum extraction. Current data do not differentiate clearly between preterm delivery and low birthweight. We aimed to evaluate the impact of non-metal vacuum cup extraction on neonatal head injuries related to birth trauma in newborns with low birthweights (< 2500 g). Materials and Methods A retrospective cohort of 3377 singleton pregnancies delivered by vacuum extraction from 2014 to 2019. All were gestational age >= 34 w. We compared 206 (6.1%) neonates with low birthweights < 2500 g to 3171 (93.9%) neonates with higher birthweights, divided into 3 subgroups (2500-2999 g, 3000-3499 g, and >= 3500 g). A primary composite outcome of neonatal head injuries related to birth trauma was defined. Results The lowest rates of subgaleal hematoma occurred in neonates < 2500 g (0.5%); the rate increased with every additional 500 g of neonatal birthweight (3.5%, 4.4% and 8.0% in the 2500-2999 g, 3000-3499 g, and >= 3500 g groups, respectively; p = 0.001). Fewer cephalohematomas occurred in low birthweight neonates (0.5% in < 2500 g), although the percentage increased with every additional 500 g of birthweight (2.6%, 3.3% and 3.7% in the 2500-2999 g, 3000-3499 g, and >= 3500 g groups, respectively, p = 0.020). Logistic regression found increasing birthweight to be a significant risk factor for head injuries during vacuum extraction, with adjusted odds ratios of 8.12, 10.88, and 13.5 for 2500-2999 g, 3000-3499 g, and >= 3500 g, respectively (p = 0.016). NICU hospitalization rates were highest for neonates weighing < 2500 g (10.2%) compared to the other groups (3.1%, 1.7% and 3.3% in 2500-2999 g, 3000-3499 g, >= 3500 respectively, p < 0.001). Conclusions Vacuum extraction of neonates weighing < 2500 g at 34 w and beyond seems to be a safe mode of delivery when indicated, with lower rates of head injury related to birth trauma, compared to neonates with higher birthweights."""
+
+

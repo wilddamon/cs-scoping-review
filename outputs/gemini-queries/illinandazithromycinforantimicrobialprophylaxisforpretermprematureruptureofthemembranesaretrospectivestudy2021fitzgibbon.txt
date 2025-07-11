@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: erythromycincomparedtoamoxicillinandazithromycinforantimicrobialprophylaxisforpretermprematureruptureofthemembranesaretrospectivestudy2021fitzgibbon
+"Antimicrobial prophylaxis is widely recommended for pregnant women who have preterm premature rupture of the membranes. Erythromycin prophylaxis was used during an initial period (control) and then changed to intravenous amoxicillin for 48 h, followed by 5 days of oral amoxicillin along with a single dose of azithromycin (case). Healthcare records were reviewed retrospectively. The primary outcome was latency (between membrane rupture and delivery) and the secondary outcomes were mode of delivery, maternal high dependency unit (HDU) admission, and several laboratory parameters. There were 78 women in the case group (amoxicillin and azithromycin) and controls were selected on a 1:1 ratio. There was no statistically significant difference between cases and controls with respect to group B Streptococcus or E.coli carriage, previous preterm birth, assissted fertility and parity. No babies had a positive blood culture with Group B Streptococcus. There was a longer latency to delivery for those prescribed amoxicillin and azithromycin (median = 5.5 days), compared with controls on erythromycin (median = 2 days, p < .001). There was no difference in the mode of delivery or maternal HDU admission. Given the potential sequelae of preterm birth, this warrants further prospective investigation in a randomised control trial.IMPACT STATEMENTWhat is already known on this subject? Antimicrobial prophylaxis is recommended for women who have preterm premature rupture of the membranes (PPROM). It has been shown to increase latency of delivery. However there are different regimens recommended in North America (amoxicillin and a macrolide) and the United Kingdom (macrolide monotherapy).What do the results of this study add? This study has shown that in our population, women who were prescribed the PPROM regimen of amoxicillin with azithromycin had a longer median latency from time of rupture of membranes to delivery, than women in a historical control group who were prescribed erythromycin monotherapy.What are the implications of these findings for clinical practice and/or further research? This retrospective study has shown that there may be a difference in latency between different antimicrobial prophylaxis regimens for PPROM. A randomised control trial, with sufficient patient numbers, is needed to determine the best regimen for prophylaxis, and would allow harmonisation of international guidelines."""
+
+

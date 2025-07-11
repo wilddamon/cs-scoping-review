@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: bodymassindexandadverseoutcomesamongsingletonswithcerclage2021stephens
+"OBJECTIVE: To compare the neonatal and maternal adverse outcomes among women with cerclage and prepregnancy body mass index (BMI) < versus > 30 kg/m(2) STUDY DESIGN: This retrospective cohort study utilized the U.S. Vital Statistics Datasets from 2011-2013. Inclusion criteria were women with non-anomalous singletons, with cerclage placement, without diabetes or hypertensive disorders, and who delivered at 20-41 weeks. The primary outcome was the composite neonatal adverse outcome (Apgar score below 5 at 5 min, birth injury, assisted ventilation for more than 6 h, neonatal seizure, or neonatal death). The secondary outcomes included the composite maternal adverse outcome (admission to intensive care unit, maternal transfusion, ruptured uterus, unplanned hysterectomy, or unplanned operating room procedure), chorioamnionitis, and cesarean delivery. Multivariable Poisson regression models with robust error variance were used, while adjusting for confounders. Adjusted relative risk with 95 % confidence intervals were calculated. RESULTS: Of the 22,466 live births that met the inclusion criteria during the study period, 6427 (28.6 %) had cerclage and prepregnancy BMI >= 30 kg/m(2). The composite neonatal adverse outcome was significantly increased (aRR 1.45; 95 % CI 1.33-1.60) among women with cerclage and BMI >= 30 kg/m(2) when compared to those with BMI < 30 kg/m(2). The composite maternal adverse outcome was similar (aRR 0.93; 95 % CI 0.72-1.20) among the two groups. Chorioamnionitis (aRR 1.46; 95 % CI 1.24-1.72) and cesarean delivery (aRR 1.24; 95 % CI 1.19-1.29) were higher in women with cerclage and BMI >= 30 kg/m(2). CONCLUSION: Among pregnancies with cerclage and delivery at 20-41 weeks, the risk of the composite neonatal adverse outcome was modestly increased in newborns delivered by women with BMI >= 30 kg/m(2) than those delivered by women with BMI < 30 kg/m(2). No significant difference was found in the risk of the composite maternal adverse outcome."""
+
+

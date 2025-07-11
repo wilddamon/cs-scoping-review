@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trisomy18pregnanciesisthereanincreasedmaternalrisk2017dotterskatz
+"Objective Characterize the impact of a trisomy 18 (T18) fetus on maternal and obstetric outcomes in a cohort including T18-affected deliveries. Study Design Retrospective cohort study of singleton deliveries in California from 2005 to 2008 using linked vital statistics and the International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9) data to compare deliveries affected by T18 to those without known aneuploidy. Outcomes of interest included gestational diabetes mellitus (GDM), preterm delivery (PTD), preeclampsia, cesarean delivery (CD), and intrauterine fetal demise (IUFD). The x2 and paired t-tests were used to compare the outcomes. Multiple logistic regression was used to further characterize these risks and control potential confounders. Results Of 2,029,000 deliveries, 298 involved T18. Compared with unaffected deliveries, T18 was associated with GDM (10.7 vs. 6.5%, p = 0.003), PTD < 37 (40.6 vs. 9.9%, p < 0.001 ) and < 32 weeks (14.8 vs. 1.4%, p < 0.001 ), and cesarean section (56 vs. 30.2%, p < 0.001), but not preeclampsia. In adjusted analyses, T18 pregnancies were associated with an increased risk of PTD < 37 and < 32 weeks (adjusted odds ratio [AOR]: 5.48, 95% confidence interval [CI]: 4.29, 6.99; AOR: 10.4, 95% CI: 7.26, 14.8), and an increased odd of CD for primiparous and multiparous women (AOR: 2.41, 95% CI: 1.48, 3.91 ; AOR: 5.42, 95% CI: 3.90, 7.53). Risk of GDM did not persist. Conclusion Unlike trisomy 13 (T13), pregnancies complicated by fetal T18 did not appear to result in an increased risk of preeclampsia. However, there is an increased risk of a range of other obstetric complications."""
+
+

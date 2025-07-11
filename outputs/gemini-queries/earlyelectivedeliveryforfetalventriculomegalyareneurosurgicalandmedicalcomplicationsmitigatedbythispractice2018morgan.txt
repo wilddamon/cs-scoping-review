@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlyelectivedeliveryforfetalventriculomegalyareneurosurgicalandmedicalcomplicationsmitigatedbythispractice2018morgan
+"PURPOSE: Antenatally diagnosed ventriculomegaly (VM) requires the balance of risks of neurological injury with premature delivery. The purpose of this study was to evaluate outcomes related to early elective delivery due to fetal VM at our institution.;METHODS: We retrospectively assessed 120 babies (2008-2012) with antenatally diagnosed fetal VM. Inclusion criteria for ("early") cohort were (1) elective delivery occurred for expedited neurosurgical intervention between 32 and 36 weeks EGA and (2) fetal VM noted on official antenatal ultrasound. The comparative "near term" cohort differed only in that delivery occurred at 37+ weeks EGA. Statistical significance for comparative analyses set a priori at p < 0.05.;RESULTS: Babies electively delivered early had a lower birthweight (p < 0.0001), greater ventricle width (p < 0.0001), and underwent initial CSF diversion sooner (p = 0.014). The early cohort (n = 22), compared to near term (n = 50), had a lower birthweight (p < 0.0001), greater ventricle width (p < 0.0001), and underwent initial CSF diversion sooner (p = 0.014). The early cohort required more repeat procedures: (45 vs. 22% p = 0.021), and VPS removals after VPS infections (41 vs. 12%, p = 0.010). Additionally, newborn respiratory failure (32 vs. 6%, p = 0.037) was more common. Finally, of four babies who died in the early cohort, 2/4 died for prematurity-associated pulmonary hypoplasia.;CONCLUSIONS: While early elective delivery for fetal VM expedites intervention for rapidly expanding ventricles, few benefits were identified. Our study concluded those infants that were delivered earlier had increased VPS infections, repeat neurosurgical procedures, and medical co-morbidities. A multi-institutional prospective observational study would be needed in order to confirm the clinical implications of such practice."""
+
+

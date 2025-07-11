@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareanbirthandriskofobesityfrombirthtoadolescenceacohortstudy2022dalmaso
+"BACKGROUND: Recent studies have shown associations between cesarean birth and overweight. However, very few studies have evaluated weight gain or adiposity throughout life, and the majority are restricted to analysis during childhood. The purpose of this study was to analyze the effect of cesarean birth on obesity risk from birth to adolescence. METHODS: The study sample was drawn from live births that occurred in 1999 and 2000 in Mato Grosso-Brazil. Participants were evaluated once when they were between 0 and 5 years of age and again after approximately 10 years (2009-2011). To measure the association between cesarean birth and obesity (Body Mass Index/age &gt;+2 z-scores), we used generalized estimation equations (GEE) with binomial distribution and log-binomial models for repeated measures, controlled by the following confounding factors: weight and length at birth, sex, gestational age, breastfeeding, maternal age and schooling, economic class in childhood, and maternal smoking during pregnancy. The exposure-time interaction term was evaluated to verify differences in the change in the risk of obesity over time. RESULTS: 56.8% of children in the sample were born by cesarean birth. Children born by cesarean had a higher risk of obesity from birth through adolescence (RR = 1.22, 95% CI = 1.02; 1.46), even after adjusting for covariates, when compared with those born vaginally. However, the time-exposure interaction term was not significant, which indicates that there was no increased risk of obesity over time. CONCLUSION: Cesarean birth was positively associated with obesity from birth to adolescence, with a persistent risk in the period evaluated."""
+
+

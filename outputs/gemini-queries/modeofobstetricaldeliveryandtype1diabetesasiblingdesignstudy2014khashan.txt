@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofobstetricaldeliveryandtype1diabetesasiblingdesignstudy2014khashan
+"OBJECTIVES: We investigated the association between cesarean section (CS) and type 1 diabetes (T1D), and if the association remains after accounting for familial confounding by using a sibling-control design. METHODS: We conducted a population-based cohort study of all singleton live births in Sweden between 1982 and 2009, followed by sibling-control analyses. T1D diagnoses were identified from the Swedish National Patient Register. Mode of delivery was categorized into unassisted vaginal delivery (reference group), instrumental vaginal delivery (IVD), emergency CS, and elective CS. The statistical analysis was conducted in 2 steps: firstly log-linear Poisson regression with aggregated person-years by using the full cohort; secondly, conditional logistic regression for sibling-control analyses. The sibling analysis included siblings who were discordant for both mode of delivery and T1D. RESULTS: In the cohort analyses (N = 2 638 083), there was an increased risk of childhood T1D among children born by elective CS (adjusted relative risk [RR] = 1.15 [95% confidence interval: 1.06-1.25]) and IVD (RR=1.14 [1.06-1.23]) but not emergency CS (RR = 1.02 [0.95-1.11]) when compared with children born by unassisted vaginal birth. However, the effect of elective CS and IVD on childhood T1D almost disappeared and became nonsignificant in the sibling-control analyses. CONCLUSIONS: The present findings suggest a small association between elective CS and IVD and T1D. The sibling-control results, however, suggest that these findings are not consistent with causal effects of mode of delivery on T1D and may be due to familial confounders such as genetic susceptibility and environmental factors."""
+
+

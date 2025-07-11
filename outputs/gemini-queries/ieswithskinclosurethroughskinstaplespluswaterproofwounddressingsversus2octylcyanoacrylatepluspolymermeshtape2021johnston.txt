@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clinicalandeconomicoutcomesofcesareandeliverieswithskinclosurethroughskinstaplespluswaterproofwounddressingsversus2octylcyanoacrylatepluspolymermeshtape2021johnston
+"PURPOSE: To compare clinical and economic outcomes of cesarean deliveries with skin closure through skin staples plus waterproof wound dressings (SSWWD) versus 2-octyl cyanoacrylate plus polymer mesh tape (2OPMT). We hypothesized that cesarean deliveries with skin closure through 2OPMT may be associated with a lower rate of wound complications and infections as compared with skin closure through SSWWD; we also hypothesized that, accordingly, 2OPMT may be associated with lower hospital length of stay (LOS), hospital costs, and all-cause readmissions as compared with SSWWD. METHODS: Retrospective, observational study using a research database derived from administrative records routinely contributed by hundreds of hospitals in the USA. We queried the database for patients aged 18-49 years who had an in-hospital low transverse cesarean delivery between 1 January, 2012 and 31 March, 2017. Using records of medical supplies used during deliveries, we identified deliveries for which skin closure was performed by either SSWWD (SSWWD group) or 2OPMT (2OPMT group). Our primary study outcome was a composite endpoint of infection/wound complication diagnosis during the hospital stays in which the deliveries were performed. Our secondary outcomes included: length of stay (LOS) and total hospital costs for the hospital stays in which the deliveries were performed, and all-cause readmissions (30/60/90 days post discharge) to the same hospital in which the delivery was performed. We compared outcomes between propensity-score matched groups using regressions accounting for hospital-level clustering and non-Gaussian empirical outcome distributions. RESULTS: Each group comprised 2133 patients (4266 total patients; mean age = 30.3 years [SD = 4.6]). Compared with the SSWWD group, the 2OPMT group had statistically significant lower rates of complications (infection, 0.7 versus 1.6%, p = .011; wound complication, 0.6 versus 1.3%, p = .036; composite, 0.9 versus 2.0%, p = .002), shorter LOS (mean = 3.5 days [SD = 1.6] versus 3.7 days [SD = 1.8], p = .007), and lower total hospital costs (mean = $8879 [SD = $3157] versus $9313 [SD = $3311], p = .025). Between-group differences for 30/60/90-day all-cause readmissions were statistically insignificant. CONCLUSIONS: This large observational study is the first of its kind and provides evidence that cesarean delivery skin closure with 2OPMT is associated with lower rates of in-hospital infection and wound complications, lower LOS, lower total hospital costs as compared with SSWWD."""
+
+

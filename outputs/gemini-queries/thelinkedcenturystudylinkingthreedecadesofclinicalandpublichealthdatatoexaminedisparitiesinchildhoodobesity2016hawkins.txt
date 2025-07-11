@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thelinkedcenturystudylinkingthreedecadesofclinicalandpublichealthdatatoexaminedisparitiesinchildhoodobesity2016hawkins
+"Background: Despite the need to identify the causes of disparities in childhood obesity, the existing epidemiologic studies of early life risk factors have several limitations. We report on the construction of the Linked CENTURY database, incorporating CENTURY (Collecting Electronic Nutrition Trajectory Data Using Records of Youth) Study data with birth certificates; and discuss the potential implications of combining clinical and public health data sources in examining the etiology of disparities in childhood obesity. Method(s): We linked the existing CENTURY Study, a database of 269,959 singleton children from birth to age 18 years with measured heights and weights, with each child's Massachusetts birth certificate, which captures information on their mothers' pregnancy history and detailed socio-demographic information of both mothers and fathers. Result(s): Overall, 74.2 % were matched, resulting in 200,343 children in the Linked CENTURY Study with 1,580,597 well child visits. Among this cohort, 94.0 % (188,334) of children have some father information available on the birth certificate and 60.9 % (121,917) of children have at least one other sibling in the dataset. Using maternal race/ethnicity from the birth certificate as an indicator of children's race/ethnicity, 75.7 % of children were white, 11.6 % black, 4.6 % Hispanic, and 5.7 % Asian. Based on socio-demographic information from the birth certificate, 20.0 % of mothers were non-US born, 5.9 % smoked during pregnancy, 76.3 % initiated breastfeeding, and 11.0 % of mothers had their delivery paid for by public health insurance. Using clinical data from the CENTURY Study, 22.7 % of children had a weight-for-length >= 95th percentile between 1 and 24 months and 12.0 % of children had a body mass index >= 95th percentile at ages 5 and 17 years. Conclusion(s): By linking routinely-collected data sources, it is possible to address research questions that could not be answered with either source alone. Linkage between a clinical database and each child's birth certificate has created a unique dataset with nearly complete racial/ethnic and socio-demographic information from both parents, which has the potential to examine the etiology of racial/ethnic and socioeconomic disparities in childhood obesity.Copyright (c) 2016 Hawkins et al."""
+
+

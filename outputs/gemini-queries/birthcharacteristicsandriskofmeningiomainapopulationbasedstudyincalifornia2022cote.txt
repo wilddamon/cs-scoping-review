@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthcharacteristicsandriskofmeningiomainapopulationbasedstudyincalifornia2022cote
+"BACKGROUND: We evaluated the potential role of birth characteristics in the etiology of early-onset meningioma. METHODS: Leveraging a population-based linkage of California birth records (from 1978 to 2015) and cancer registry data (from 1988 to 2015), we identified 362 nonmalignant meningioma cases aged 0-37 years and selected 18 100 controls matched on year of birth. Cases and controls were compared with regard to birth characteristics, with adjusted odds ratios (ORs) and 95% confidence intervals (CIs) estimated from unconditional multivariable logistic regression models. We also conducted stratified analyses by race/ethnicity and age. RESULTS: Female sex (compared to male: OR = 1.43, 95% CI: 1.16 to 1.79; P < .01) and Black race (compared to White: OR = 1.46, 95% CI: 1.02 to 2.07; P = .04) were associated with higher risk of meningioma. Higher birth order (OR = 0.90, 95% CI: 0.81 to 0.99 per additional birth position; P = .04) was associated with a lower risk. No significant associations were observed between birthweight, gestational age, delivery mode, maternal age, or maternal education and meningioma risk. In the non-Latino White subgroup, higher birthweight was associated with a higher risk of meningioma (OR = 1.20, 95% CI: 1.02 to 1.41 per 500 grams; P = .03), but this was not recapitulated in the Latino subgroup. In age-stratified analyses, female sex was a risk factor for those diagnosed at the age of 20-37 years but not among younger individuals. CONCLUSIONS: In this large population-based study less prone to selection and recall bias, higher birth order was associated with a reduced risk of early-onset meningioma, while female sex and Black race were linked to an increased risk. There were also indications of differential associations by race/ethnicity and age of diagnosis."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therelationbetweenheadcircumferenceandmidpelviccircumferenceasimpleindexforcephalopelvicdisproportionevaluation2021liberty
+"INTRODUCTION: Cephalopelvic disproportion (CPD) is one of the most common obstetric complications. Since CPD is the disproportion between the fetal head and maternal bony pelvis, evaluation of the head circumference (HC) relative to the maternal bony pelvis may be a useful adjunct to pre-labor CPD evaluation. The aim of the present study was a proof-of-concept evaluation of the ratio between HC and pelvic circumference (PC) as a predictor of CPD. METHODS: Of 11,822 deliveries, 104 cases that underwent an abdominopelvic CT for any medical indication and who underwent normal vaginal deliveries (NVDs) (n = 84) or cesarean deliveries (CD) due to CPD (n = 20) were included retrospectively. Maternal pelvis dimensions were reconstructed and neonatal HC, as a proxy for fetal HC, was measured. The correlation between cases of CPD and cephalopelvic circumference index (CPCI), which represents the ratio between the HC and PC in percentage (HC/PC x 100), was evaluated. RESULTS: The mid-pelvis CPCI (MP-CPCI) was larger in CD groups as compared to the NVD group: 103 +- 11 versus 97 +- 8%, respectively (p = 0.0003). In logistic regression analysis, the MP-CPCI was found to be independently associated with CD due to CPD: each 1% increase in MP-CPCI increased the likelihood of CD for CPD by 11% (adjusted odds ratio [aOR] 1.11, 95% CI, 1.03-1.19, p = 0.004). The aOR for CD due to CPD increased incrementally as the MP-CPCI increased, from 3.56 (95% CI, 1.01-12.6) at MP-CPCI of 100 to 5.6 (95% CI, 1.63-19.45) at 105, 21.44 (95% CI, 3.05-150.84) at 110, and 28.88 (95% CI, 2.3-362.27) at MP-CPCI of 115. CONCLUSIONS: The MP-CPCI, representing the relative dimensions of the fetal HC and maternal PC, is a simple tool that can potentially distinguish between parturients at lower and higher risk of CPD. Prospective randomized studies are required to evaluate the feasibility of prenatal pelvimetry and MP-CPCI to predict the risk of CPD during labor."""
+
+

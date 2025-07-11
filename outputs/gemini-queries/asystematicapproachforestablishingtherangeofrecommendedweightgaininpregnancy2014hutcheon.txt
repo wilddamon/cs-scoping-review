@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: asystematicapproachforestablishingtherangeofrecommendedweightgaininpregnancy2014hutcheon
+"BACKGROUND: Current approaches for establishing public health guidelines on the recommended range of weight gain in pregnancy are subjective and nonsystematic.;OBJECTIVE: In this article, we outline how decision-making on gestational weight-gain guidelines could be aided by quantitative approaches used in noninferiority trials.;DESIGN: We reviewed the theoretical application of noninferiority margins to pregnancy weight-gain guidelines. A worked example illustrated the selection of the recommended range of pregnancy weight gain in women who delivered at the Magee-Womens Hospital, Pittsburgh, PA, in 2003-2010 by identifying weight-gain z scores in which risk of unplanned cesarean delivery, preterm birth, small-for-gestational-age infant, and large-for-gestational-age infant were not meaningfully increased (based on noninferiority margins of 10% and 20%).;RESULTS: In normal-weight women, lowest risk of adverse perinatal outcome was observed at a weight-gain z score of -0.2 SDs. With a noninferiority margin of 20%, risks of adverse outcome were not meaningfully increased from the -0.2-SD reference value between z scores of -0.97 and +0.33 SDs (which corresponded to 11.3-18.4 kg). In overweight women, the recommended range was much broader: -2.11 to +0.29 SDs (4.4-18.1 kg).;CONCLUSION: The new approach illustrated in this article has a number of advantages over current methods for establishing pregnancy weight-gain guidelines because it is systematic, it is reproducible, and it provides a tool for policy makers to derive guidelines that explicitly reflect values at which risk of adverse outcome becomes meaningfully increased. Copyright (c) 2014 American Society for Nutrition."""
+
+

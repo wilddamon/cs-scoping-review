@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancydeliveryandneonataloutcomesamongwomenwithdiabeticretinopathy2022alnoman
+"OBJECTIVES: Diabetic retinopathy is a common microvascular complication of diabetes. Despite that, there are few studies in the literature to address pregnancy, delivery, or neonatal outcomes among women with diabetic retinopathy. METHODS: We conducted a retrospective study using the Health Care Cost and Utilization Project-Nationwide Inpatient Sample Database over 11 years from 2004 to 2014. A delivery cohort was created using ICD-9 codes. ICD-9 code 250 or 249 was used to extract the cases of maternal diabetic retinopathy. A multivariant logistic regression model was used to adjust for statistically significant variables (p-value <= .05). RESULTS: There were a total of 9,096,788 deliveries during the study period. Of those, 86 615 pregnant women were found to have Diabetes Mellites (DM). Diabetic retinopathy was present in 1233 of the patients with DM. Diabetic retinopathy increased the likelihood of developing pregnancy-induced HTN (p < .0001), Preeclampsia (p < .0001), and Preeclampsia and eclampsia superimposed on preexisting HTN (p < .0001). In addition, in women with DM, the presence of diabetic retinopathy increased the risk of Preterm delivery (p = .002), cesarean section (p < .0001), requiring transfusion (p < .0001), and undergoing hysterectomy (p = .001), and were less likely to have a spontaneous vaginal delivery (p < .0001). However, the presence of diabetic retinopathy in women with DM did not increase the risk of the fetus being small at delivery, having intrauterine fetal demise, or congenital anomalies. CONCLUSION: Women with diabetic retinopathy should be counseled about their increased risk of pregnancy-induced HTN, preeclampsia, premature delivery, cesarean section, transfusion, and hysterectomy."""
+
+

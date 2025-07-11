@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectsofinuterocordbloodcollectiononpostcesareanhemoglobinlevels2015kalafat
+"OBJECTIVE: To assess effects of in utero cord blood collection on postoperative hemoglobin, hematocrit levels.;STUDY DESIGN: Elective cesarean deliveries in which cord blood was collected were compared with match paired elective cesarean deliveries without cord blood collection. Pre-post-operative hemoglobin and hematocrit level differences were compared between study groups with Student's t test. Multivariate regression models were used to address confounders. Correlation between volume of collected UCB and mean decrease in blood count parameters was analyzed.;RESULTS: A total of 399 cesarean deliveries during a 12 months period were included in the analysis. Mean decrease in hemoglobin levels was 1.08g/dL (SD=1.0) in UCB collected group compared to 0.84g/dL (SD=1.0) in control group (p=0.002). Mean decrease in hematocrit levels was 3.1% (SD=3.4) in cord blood collected cesarean delivery group compared to 1.9% (SD=2.4) in control group (p=0.002). Univariate analysis has shown the collected UCB volume to be uncorrelated with the change in hemoglobin levels (r=0.013). Multivariate regression models, after adjusting for birth weight, age and number of prior cesarean, have shown the UCB collection to be significantly associated with the mean decrease in blood count parameters (estimate=0.23g/dL, t=-2.23, p=0.02).;CONCLUSION: In utero UCB collection is associated with a small increase in bleeding of little clinical importance. Amount of UCB is not associated with amount of change in hemoglobin and hematocrit levels. In utero UCB collection seems to be safe for expectant mothers scheduled for low-risk cesarean delivery. Copyright (c) 2015 Elsevier Ireland Ltd. All rights reserved."""
+
+

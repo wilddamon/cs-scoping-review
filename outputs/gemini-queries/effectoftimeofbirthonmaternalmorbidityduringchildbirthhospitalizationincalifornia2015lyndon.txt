@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectoftimeofbirthonmaternalmorbidityduringchildbirthhospitalizationincalifornia2015lyndon
+"OBJECTIVE: This observational study aimed to determine the relationship between time of birth and maternal morbidity during childbirth hospitalization. STUDY DESIGN: Composite maternal morbidities were determined using International Classification of Diseases, Ninth Revision, Clinical Modification and vital records codes, using linked hospital discharge and vital records data for 1,475,593 singleton births in California from 2005 through 2007. Time of birth, day of week, and sociodemographic, obstetric, and hospital volume risk factors were estimated using mixed effects logistic regression models. RESULTS: The odds for pelvic morbidity were lowest between 11 PM-7 AM compared to other time periods and the reference value of 7-11 AM. The odds for pelvic morbidity peaked between 11 AM-7 PM (adjusted odds ratio [AOR], 1101-1500 = 1.07; 95% confidence interval [CI], 1.06-1.09; 1501-1900 = 1.08; 95% CI, 1.06-1.10). Odds for severe morbidity were higher between 11 PM-7 AM (AOR, 2301-0300 = 1.31; 95% CI, 1.21-1.41; 0301-0700 = 1.30; 95% CI, 1.20-1.41) compared to other time periods. The adjusted odds were not statistically significant for weekend birth on pelvic morbidity (AOR, Saturday = 1.00; 95% CI, 0.98-1.02]; Sunday = 1.01; 95% CI, 0.99-1.03) or severe morbidity (AOR, Saturday = 1.09; 95% CI, 1.00-1.18; Sunday = 1.03; 95% CI, 0.94-1.13). Cesarean birth, hypertensive disorders, birthweight, and sociodemographic factors that include age, race, ethnicity, and insurance status were also significantly associated with severe morbidity. CONCLUSION: Even after controlling for sociodemographic factors and known risks such as cesarean birth and pregnancy complications such as hypertensive disorders, birth between 11 PM-7 AM is a significant independent risk factor for severe maternal morbidity."""
+
+

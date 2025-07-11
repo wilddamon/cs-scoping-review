@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: interhospitalcomparisonofcesareandeliveryratesshouldnotbeconsideredtoreflectqualityofcarewithoutconsiderationofpatientheterogeneityanobservationalstudy2020murphy
+"OBJECTIVE: Contemporary approaches to monitoring quality of care in obstetrics often focus on comparing Cesarean Delivery rates. Varied rates can complicate interpretation of quality of care. We previously developed a risk prediction tool for nulliparous women who may require intrapartum Cesarean delivery which identified five key predictors. Our objective with this study was to ascertain if patient heterogeneity can account for much of the observed variation in Cesarean delivery rates, thereby enabling Cesarean delivery rates to be a better marker of quality of care. MATERIALS AND METHODS: This is a secondary analysis of the Genesis study. This was a large prospective study of 2336 nulliparous singleton pregnancies recruited at seven hospitals. A heterogeneity score was calculated for each hospital. An adjusted Cesarean delivery rate was also calculated incorporating the heterogeneous risk score. RESULTS: A cut-off at the 90th percentile was determined for each predictive factor. Above the 90th percentile was considered to represent 'high risk' (with the exception of maternal height which identified those below the 10th percentile). The patient heterogeneous risk score was defined as the number of risk factors > 90th percentile (<10th percentile for height). An unequal distribution of high-risk patients between centers was observed (p < 0.001). The correlation between the Cesarean delivery rate and the patient heterogeneous risk score was high (0.76, p < 0.05). When adjusted for patient heterogeneity, Cesarean delivery rates became closer aligned. CONCLUSION: Inter-institutional diversity is common. We suggest that crude comparison of Cesarean delivery rates between different hospitals as a marker of care quality is inappropriate. Allowing for marked differences in patient characteristics is essential for correct interpretation of such comparisons."""
+
+

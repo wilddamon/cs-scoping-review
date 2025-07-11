@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectivenessofvaginalprogesteroneinreducingpretermbirthinhighriskpatientsdiagnosedwithshortcervicallengthafter24weeksaretrospectivecohortstudy2023luxenbourg
+"Objective: To assess the impact of progesterone treatment on maternal and neonatal outcomes in women with a history of preterm birth and short cervical length diagnosed after 24 weeks of gestation. Method(s): A retrospective cohort study included women with a history of preterm birth and a transvaginal sonographic cervical length measurement of <= 25 mm, diagnosed between 24+0 and 33+6 weeks of gestation. Exclusion criteria included prior progesterone treatment, cervical cerclage, or pessary. The study population was divided into the progesterone treatment group and the non-treatment group. Result(s): The study included 104 women, with 46.2% (48/104) receiving progesterone treatment and 53.8% (56/104) not receiving treatment. The rate of spontaneous preterm birth before 37 weeks of gestation was 43% (24/56) in the non-treatment group and 31% (15/48) in the progesterone treatment group (P = 0.14); the rate of spontaneous preterm birth before 34 weeks was 7% (4/56) in the non-treatment group and 0% (0/48) in the progesterone treatment group (P = 0.05). Progesterone treatment was associated with a significant decrease in neonatal intensive care unit admissions (OR 0.20, 95% CI 0.05-0.74) and in the neonatal hospitalization period (mean difference in days 2.43, 95% CI 0.44-4.42). The risk of recurrent spontaneous preterm birth was highest (71%) among women with two or more previous preterm deliveries who did not receive progesterone treatment, and lowest (24%) among women with one previous preterm delivery who received progesterone treatment. Conclusion(s): Progesterone treatment was associated with a reduction in rates of spontaneous preterm birth before 34 weeks of gestation, neonatal intensive care unit admission, and neonatal length of stay in high-risk patients, even when initiated after 24 weeks of gestation.Copyright (c) 2023 Luxenbourg, Porat, Romero, Raif Nesher, Haj Yahya, Sompolinsky, Hochler, Ezra and Kabiri."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofbetalactamallergystatusontherateofsurgicalsiteinfectionsaretrospectivecohortstudy2022wilhelm
+"OBJECTIVE: To determine if patients with reported BL allergies have increased odds of developing SSI compared to reported NBL allergic patients. SUMMARY OF BACKGROUND DATA: SSI represent a significant risk of morbidity and mortality for patients. Cefazolin-based perioperative antibiotic prophylaxis is the guideline-recommended drug-of-choice for most procedures. Due to over-reporting of BL allergies, many patients may not receive guideline-directed cephalosporin-based prophylaxis, which may result in an increased SSI rate. METHODS: A single-center retrospective cohort design study was performed. Data was collected on all targeted surgical procedures: cesarean section, vaginal, and abdominal hysterectomy, colon, laminectomy, and spinal fusion surgeries. RESULTS: During the study period, 2676 procedures were analyzed with 454 (17%) and 2222 (83%) in reported BL and NBL allergic cohorts, respectively. Significantly more SSI developed in the BL cohort versus NBL cohort (3.1% vs 1.5%, odds ratio 2.015; 95% confidence interval, 1.090-3.724; P = 0.023). Through a multivariate logistic regression, receipt of a NBL antibiotic regimen was the only variable to have a significant effect on SSI rate (adjusted odds ratio, 3.815; 95% confidence interval, 1.142-12.749; P = 0.030). CONCLUSION: Reported BL allergic patients have an increased odds of developing SSI in comparison to NBL allergic patients. The increased risk is likely related to administration of NBL antibiotic regimens in comparison to BL-based regimens. Thorough antibiotic allergy history collection can be a valuable SSI prevention tool to safely increase the proportion of patients receiving BL regimen."""
+
+

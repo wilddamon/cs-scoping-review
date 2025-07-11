@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenmaternalexposuretosecondhandsmokeduringpregnancyandtheirchildrenscerebralpalsyshandongchina2020ren
+"INTRODUCTION: Tobacco use poses a threat to the health of pregnant women and their children. Our study assessed the association between maternal exposure to secondhand smoke (SHS) during pregnancy and children's cerebral palsy (CP) in Shandong, China. METHODS: In our observational study, 5067 mother-child pairs were included from Shandong Province, China. Mothers filled in questionnaires about exposure to SHS during pregnancy. Statistical analysis and logistic regression models were built in R program to estimate the association in adjusted odds ratio (AOR) between SHS exposure during pregnancy and risk of children's CP, after adjustment for potential confounders including delivery mode and baby's birthweight. RESULTS: Exposure to SHS was noted among 3663 (72.3%) of the 5067 non-smoking mothers during their pregnancy. Of the 239 CP children within the study, 192 (80.3%) were exposed to SHS during pregnancy. Children born to mothers exposed to SHS during pregnancy had a higher risk of CP (AOR=1.44; 95% CI: 1.02-2.04) than those born to non-exposed mothers, the risk increased by exposure time in the logistic regression model. The association between SHS exposure during pregnancy and CP children remained significant when adjusting for delivery mode and infant's birthweight due to their significant association with CP, with an AOR of 1.46 (95% CI: 1.13-1.91) for 1-4 days/week and 1.63 (95% CI: 1.22-2.01) for 5-7 days/week exposure to SHS. CONCLUSIONS: Our study suggests that maternal exposure to secondhand smoke during pregnancy is associated with children's CP. Future preventive interventions of CP should include strategies that target the antenatal women who are exposed to SHS."""
+
+

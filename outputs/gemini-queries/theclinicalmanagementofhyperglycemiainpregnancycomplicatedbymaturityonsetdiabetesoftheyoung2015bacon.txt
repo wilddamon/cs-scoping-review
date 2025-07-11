@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theclinicalmanagementofhyperglycemiainpregnancycomplicatedbymaturityonsetdiabetesoftheyoung2015bacon
+"OBJECTIVE: Women with maturity-onset diabetes of the young (MODY) are often first identified and diagnosed with diabetes during pregnancy. Genetics and hyperglycemia play an important role in determining fetal size in MODY pregnancies. The principal objective of the current study is to determine the outcomes and clinical management of hyperglycemia in pregnancies complicated by glucokinase gene (GCK) and hepatocyte nuclear factor (HNF)-1a MODY mutations. STUDY DESIGN: A retrospective chart review of 37 women with a GCK/HNF-1a mutation was conducted. Data on variables such as birthweight, mode of delivery, and the treatment of hyperglycemia were available on 89 pregnancies. RESULTS: The birthweight in unaffected GCK offspring was significantly higher than in the affected GCK offspring (4.8 [4.1-5.2] kg vs 3.2 [3.1-3.7] kg; P = .01). Seven-point home blood glucose monitoring over a 7-day period in each trimester demonstrated higher fasting and postprandial glycemic excursions in the first trimester of GCK pregnancies when compared to HNF-1a pregnancies (fasting 104 [90-115] mg/dL vs 84 [77-88] mg/dL; P = .01 and postprandial 154 [135-196] mg/dL vs 111 [100-131] mg/dL; P = .04) despite insulin treatment. There was a higher percentage of miscarriages in the GCK group when compared to the HNF-1a MODY group (33.3% vs 14%; P = .07), which was similar to the background population. Insulin initiated at an early gestation appeared to lower the incidence of macrosomia in GCK unaffected offspring. CONCLUSION: Hyperglycemia in HNF-1a pregnancies is easily managed with current insulin protocols; in contrast, glycemic excursions are difficult to manage in GCK pregnancies. There was an increased percentage of miscarriages in GCK pregnancies highlighting the importance of a diagnosis of GCK-MODY in women prior to conception and the necessity for preconception care."""
+
+

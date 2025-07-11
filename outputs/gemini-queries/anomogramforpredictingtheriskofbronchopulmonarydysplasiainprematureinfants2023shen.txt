@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anomogramforpredictingtheriskofbronchopulmonarydysplasiainprematureinfants2023shen
+"BACKGROUND: Bronchopulmonary dysplasia (BPD) is a prevalent and critical complication among premature infants, with potentially long-lasting adverse effetcs. The present study aimed to establish a nomogram model to predict the risk of BPD in premature infants born at <32 weeks gestational age. METHODS: A retrospective single-center study was conducted on premature infants admitted to the neonatal intensive care unit (NICU) of the Children's Hospital of Nanjing Medical University from January 2018 to December 2020. Data were collected from clinical medical records, including the perinatal data and the critical information after birth. Clinical parameters and features were analyzed using univariate and multivariate logistic regression. A nomogram based on clinical data was established and validated using bootstrapping samples. The specificity and sensitivity of the nomogram were estimated using the receiver operating characteristic (ROC) based area under the curve (AUC). RESULTS: A total of 542 premature babies were included, and 152 infants (28.04%) were diagnosed with BPD. Birth weight, cesarean delivery, invasive/non-invasive ventilation at day 7 and 14 were identified as significant factors (p < 0.05) using univariate and the multivariate logistic regression analysis, and were entered into a nomogram. The calibration curve for BPD probability demonstrated a favorable concurrence between actual probability and predicted ability of the BPD nomogram. The nomogram showed potential differentiation, with an AUC of 0.925, 89.90% sensitivity, 76.71% specificity, and 86.35% accuracy. CONCLUSION: The nomogram developed in this study provides a straightforward tool to predict the probability of BPD and assist clinicians in optimizing treatment regimens for premature infants born at <32 weeks gestational age. This study highlights the importance of identifying and monitoring significant clinical factors associated with BPD in premature infants to improve clinical outcomes."""
+
+

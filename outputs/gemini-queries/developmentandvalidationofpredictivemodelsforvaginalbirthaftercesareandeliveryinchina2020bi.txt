@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofpredictivemodelsforvaginalbirthaftercesareandeliveryinchina2020bi
+"BACKGROUND The rate of delivery by cesarean section is rising in China, where vaginal birth after cesarean (VBAC) is in its early stages. There are no validated screening tools to predict VBAC success in China. The objective of this study was to identify the variables predicting the likelihood of successful VBAC to create a predictive model. MATERIAL AND METHODS This multicenter, retrospective study included 1013 women at >=28 gestational weeks with a vertex singleton gestation and 1 prior low-transverse cesarean from January 2017 to December 2017 in 11 public tertiary hospitals within 7 provinces of China. Two multivariable logistic regression models were developed: (1) at a first-trimester visit and (2) at the pre-labor admission to hospital. The models were evaluated with the area under the receiver operating characteristic curve (AUC) and internally validated using k-fold cross-validation. The pre-labor model was calibrated and a graphic nomogram and clinical impact curve were created. RESULTS A total of 87.3% (884/1013) of women had successful VBAC, and 12.7% (129/1013) underwent unplanned cesarean delivery after a failed trial of labor. The AUC of the first-trimester model was 0.661 (95% confidence interval [CI]: 0.61-0.712), which increased to 0.758 (95% CI: 0.715-0.801) in the pre-labor model. The pre-labor model showed good internal validity, with AUC 0.743 (95% CI: 0.694-0.785), and was well calibrated. CONCLUSIONS VBAC provides women the chance to experience a vaginal delivery. Using a pre-labor model to predict successful VBAC is feasible and may help choose mode of birth and contribute to a reduction in cesarean delivery rate."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perioperativecomplicationsinwomenundergoingthermalballoonendometrialablationafteroneormorecesareandeliveries2024enzelsberger
+"OBJECTIVE: To determine whether thermal ballon endometrial ablation can be safely performed after one or more cesarean sections. STUDY DESIGN: Retrospective cohort study including all women who underwent thermal balloon endometrial ablation at the Kepler University Hospital, Austria, between November 2017 and December 2022. For the analysis of the study endpoints, the dataset was divided into two groups: women with at least one cesarean section, and women without a history of cesarean section. Complications were classified according to the Clavien-Dindo classification. Association was tested using Fisher's exact test. RESULTS: Of the 361 women included, 29.3 % (n = 105) had at least one previous cesarean section. The association between intraoperative uterine rupture and previous cesarean section was not statistically significant (0 % vs. 1 %; p = 0.292). Only one uterine rupture was observed in the cesarean section group, which was located at the uterine fundus after a preoperatively unknown previous uterine perforation during IUD insertion. Secondary endpoints (overall complication rate, postoperative endometritis, vesicouterine fistula, different grades of Clavien-Dindo-classification) showed no significant associations either, even when considering the number of previous cesarean sections. The readmission rate to the clinic for bleeding disorders was 11.4 % in both groups (p = 1.00). CONCLUSION: Women who have had one or more prior cesarean sections with transverse isthmocervical hysterotomy do not appear to have an increased risk of complications in a subsequent thermal balloon endometrial ablation."""
+
+

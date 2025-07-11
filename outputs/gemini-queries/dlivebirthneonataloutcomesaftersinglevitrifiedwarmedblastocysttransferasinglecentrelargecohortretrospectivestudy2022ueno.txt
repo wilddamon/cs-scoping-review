@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: correlationbetweenanannotationfreeembryoscoringsystembasedondeeplearningandlivebirthneonataloutcomesaftersinglevitrifiedwarmedblastocysttransferasinglecentrelargecohortretrospectivestudy2022ueno
+"PROPOSE: Does an annotation-free embryo scoring system based on deep learning and time-lapse sequence images correlate with live birth (LB) and neonatal outcomes? METHODS: Patients who underwent SVBT cycles (3010 cycles, mean age: 39.3 +- 4.0). Scores were calculated using the iDAScore software module in the Vitrolife Technology Hub (Vitrolife, Gothenburg, Sweden). The correlation between iDAScore, LB rates, and total miscarriage (TM), including 1st- and 2nd-trimester miscarriage, was analysed using a trend test and multivariable logistic regression analysis. Furthermore, the correlation between the iDAScore and neonatal outcomes was analysed. RESULTS: LB rates decreased as iDAScore decreased (P < 0.05), and a similar inverse trend was observed for the TM rates. Additionally, multivariate logistic regression analysis showed that iDAScore significantly correlated with increased LB (adjusted odds ratio: 1.811, 95% CI: 1.666-1.976, P < 0.05) and decreased TM (adjusted odds ratio: 0.799, 95% CI: 0.706-0.905, P < 0.05). There was no significant correlation between iDAScore and neonatal outcomes, including congenital malformations, sex, gestational age, and birth weight. Multivariate logistic regression analysis, which included maternal and paternal age, maternal body mass index, parity, smoking, and presence or absence of caesarean section as confounding factors, revealed no significant difference in any neonatal characteristics. CONCLUSION: Automatic embryo scoring using iDAScore correlates with decreased miscarriage and increased LB and has no correlation with neonatal outcomes."""
+
+

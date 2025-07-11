@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalintrapartumandneonatalfactorsincreasetheriskofeosinophilicesophagitis2023kurt
+"INTRODUCTION: Early-life exposures have been associated with an increased risk of eosinophilic esophagitis (EoE); however, most studies to date have been conducted at referral centers and are subject to recall bias. By contrast, we conducted a nationwide, population-based and registry-based case-control study of prenatal, intrapartum, and neonatal exposures, using data collected prospectively through population-based Danish health and administrative registries. METHODS: We ascertained all EoE cases in Denmark (birth years 1997-2018). Cases were sex and age matched to controls (1:10) using risk-set sampling. We obtained data on prenatal, intrapartum, and neonatal factors, i.e., pregnancy complications, mode of delivery, gestational age at delivery, birthweight (expressed as a z-score), and neonatal intensive care unit (NICU) admission. We used conditional logistic regression to compute the crude and adjusted odds ratios (aOR) of EoE in relation to each prenatal, intrapartum, and neonatal factor, thus providing an estimate of incidence density ratios with 95% confidence intervals (CI). RESULTS: In the 393 cases and 3,659 population controls included (median age at index date, 11 years [interquartile range, 6-15]; 69% male), we observed an association between gestational age and EoE, peaking at 33 vs 40 weeks (aOR 3.6 [95% CI 1.8-7.4]), and between NICU admission and EoE (aOR 2.8 [95% CI 1.2-6.6], for a NICU hospitalization of 2-3 weeks vs no admission). In interaction analyses, we observed a stronger association between NICU admission and EoE in infants born at term than in preterm infants (aOR 2.0 [95% CI 1.4-2.9] for term infants and aOR 1.0 [95% CI 0.5-2.0] for preterm infants). We also observed an association between pregnancy complications and EoE (aOR 1.4 [95% CI 1.0-1.9]). Infants who were very growth restricted at birth had an increased rate of EoE (aOR 1.4 [95% CI: 1.0-1.9] for a z-score of -1.5 vs a z-score of 0). Mode of delivery was not associated with EoE. DISCUSSION: Prenatal, intrapartum, and neonatal factors, particularly preterm birth and NICU admission, were associated with development of EoE. Further research is needed to elucidate the mechanisms underlying the observed associations."""
+
+

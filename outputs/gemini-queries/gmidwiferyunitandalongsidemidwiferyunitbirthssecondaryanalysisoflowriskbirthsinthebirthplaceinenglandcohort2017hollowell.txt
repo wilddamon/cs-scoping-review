@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparisonofintrapartuminterventionsandadverseoutcomesbyparityinplannedfreestandingmidwiferyunitandalongsidemidwiferyunitbirthssecondaryanalysisoflowriskbirthsinthebirthplaceinenglandcohort2017hollowell
+"BACKGROUND: For low risk women, there is good evidence that planned birth in a midwifery unit is associated with a reduced risk of maternal interventions compared with planned birth in an obstetric unit. Findings from the Birthplace cohort study have been interpreted by some as suggesting a reduced risk of interventions in planned births in freestanding midwifery units (FMUs) compared with planned births in alongside midwifery units (AMUs). However, possible differences have not been robustly investigated using individual-level Birthplace data. METHODS: This was a secondary analysis of data on 'low risk' women with singleton, term, 'booked' pregnancies collected in the Birthplace national prospective cohort study. We used logistic regression to compare interventions and outcomes by parity in 11,265 planned FMU births and 16,673 planned AMU births, adjusted for potential confounders, using planned AMU birth as the reference group. Outcomes considered included adverse perinatal outcomes (Birthplace primary outcome measure), instrumental delivery, intrapartum caesarean section, 'straightforward vaginal birth', third or fourth degree perineal trauma, blood transfusion and maternal admission for higher-level care. We used a significance level of 1% for all secondary outcomes. RESULTS: There was no significant difference in adverse perinatal outcomes between planned AMU and FMU births. The odds of instrumental delivery were reduced in planned FMU births (nulliparous: aOR 0.63, 99% CI 0.46-0.86; multiparous: aOR 0.41, 99% CI 0.25-0.68) and the odds of having a 'straightforward vaginal birth' were increased in planned FMU births compared with planned AMU births (nulliparous: aOR 1.47, 99% CI 1.17-1.85; multiparous: 1.86, 99% CI 1.35-2.57). The odds of intrapartum caesarean section did not differ significantly between the two settings (nulliparous: p = 0.147; multiparous: p = 0.224). The overall pattern of findings suggested a trend towards lower intervention rates and fewer adverse maternal outcomes in planned FMU births compared with planned AMU births. CONCLUSIONS: The findings support the recommendation that 'low risk' women can be informed that planned birth in an FMU is associated with a lower rate of instrumental delivery and a higher rate of 'straightforward vaginal birth' compared with planned birth in an AMU; and that outcomes for babies do not appear to differ between FMUs and AMUs."""
+
+

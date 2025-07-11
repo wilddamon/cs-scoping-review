@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinwomenwithlongdurationtype1diabetes25yearsofexperience2020wenderozegowska
+"AIMS: Our study aimed to examine the pregnancy outcomes (maternal and fetal) concerning different models of antenatal care across a period of over 25 years (1993-2018) in 459 women with type 1 diabetes. Data from patients with a history of the condition lasting at least 15 years were considered eligible for analysis. METHODS: The study group was divided into three cohorts based on the different models of treatment used in Poznan University Hospital, Poland: 1993-2000 (cohort I, n = 91), 2001-2005 (cohort II, n = 83), 2006-2018 (cohort III, n = 284). To identify predictors for the selected dichotomous outcomes, we calculated the risks for fetal or maternal complications as dependent variables for cohorts II and III against cohort I, using multivariate logistic regression analysis. RESULTS: The mean gestational age was 36.8 +- 2.4 weeks in the total cohort. The percentages of deliveries before the 33rd and the 37th weeks was high. We observed a decreasing percentage during the following periods, from 41.5% in the first period to 30.4% in the third group. There was a tendency for newborn weight to show a gradual increase across three time periods (2850, 3189, 3321 g, p < 0.0001). In the last period, we noticed significantly more newborns delivered after 36 weeks with a weight above 4000 g and below 2500 g. Caesarean section was performed in 88% of patients from the whole group, but in the subsequent periods this number visibly decreased (from 97.6%, 86.7%, to 71%, p = 0.001). The number of emergency caesarean sections was lowest in the third period (27.5%, 16.7%, 11.2%, p = 0.006). We observed a decreasing number of 'small for gestational age' newborns (SGA) in consecutive periods of treatment (from 24.4% to 8.7%, p = 0.002), but also a higher percentage of 'large for gestational age' (LGA) newborns (from 6.1% to 21.6%, p = 0.001). Modification of treatment might be associated with the gradual reduction of SGA rates (cohort I 3.6%, cohort III 2.3% p < 0,0005). CONCLUSIONS: Strict glycemic and blood pressure control from the very beginning of pregnancy, as well as modern fetal surveillance techniques, may contribute to the improvement of perinatal outcomes in women with long-duration type 1 diabetes."""
+
+

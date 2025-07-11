@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aclinicalanalysisofveryandextremelylowbirthweightpreterminfants2021wang
+"Objective: To investigate the clinical characteristics, treatment strategies, and outcomes of very low birth weight (VLBW)/extremely low birth weight (ELBW) preterm infants in Weihai from January 2017 to December 2019. Method(s): 107 VLBW/ELBW preterm infants admitted to our hospital were recruited as the study cohort and divided into three groups: the < 1000 g group (n = 11 cases), the >= 1000~1250 g group (n = 32 cases), and the >= 1250~1500 g group (n = 64 cases). The clinical characteristics of the VLBW/ELBW preterm infants in each group were analyzed, and the hospitalization duration times, the survival rates, the ventilator use, the main complications, and the follow-ups in each group were compared statistically. Result(s): There were significant differences in the occurrences of maternal anemia during pregnancy, the birth weights, the gestational ages, the births of singletons, twins, or multiples, the hospitalization duration times, the occurrences of late-onset sepsis (LOS), and the occurrences of periventricular intraventricular hemorrhages (PIVH) among the three groups (P < 0.05). Our multivariate logistic regression and ROC curve analyses showed that the lower the gestational age (OR = 12.56, 95% CI: 2.45~14.63, P = 0.01), the lower the birth weight (OR = 8.69, 95% CI: 1.95~10.34, P = 0.03), and the premature rupture of membranes (OR = 6.44, 95% CI: 1.03~9.77, P = 0.04) and LOS (OR = 9.64, 95% CI: 1.67~18.99, P = 0.02) would induce a higher death rate among premature infants. Furthermore, after one year of follow-up, the psychomotor development indexes (PDI) of the different birth weight groups were increased along with the birth weight, and the differences were statistically significant (chi2 = 4.19, 4.99, P = 0.027, 0.01). Conclusion(s): Strengthening perinatal health care and actively preventing and treating various complications are of great significance in improving the survival rate and long-term quality of life of VLBW/ELBW premature infants.Copyright (c) 2021 E-Century Publishing Corporation. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofsubcutaneousirrigationonwoundcomplicationsaftercesareansectionsaprospectiverandomisedstudy2018aslancetin
+"OBJECTIVE: To assess the effectiveness of subcutaneous saline irrigation in preventing wound complications after cesarean sections. STUDY DESIGN: Patients undergoing primary cesarean sections were randomly assigned to either the subcutaneous saline irrigation group or the control group. The participants were asked to come to the hospital for routine inspection of the skin incision on day 7 and day 30 postoperatively. The wounds were inspected for hematoma, seroma, separation and signs of superficial infection. The prime outcome was the comparison of the superficial surgical site infection (SSI) rates among the groups. Additionally, factors associated with wound complications were also analyzed using logistic regression. RESULTS: A total of 204 women undergoing primary cesarean sections were randomized, and 185 were included in the final analysis. There was no significant difference in terms of SSI rates among the groups (14.3% in the saline group vs 12.8% in the control group, p = 0.76). However, the existences of hematoma and seroma were significantly lower in the saline irrigation group compared to the control group. CONCLUSION: Irrigation of subcutaneous tissue decreases the occurrences of both postoperative hematoma and seroma in women undergoing primary cesarean sections."""
+
+

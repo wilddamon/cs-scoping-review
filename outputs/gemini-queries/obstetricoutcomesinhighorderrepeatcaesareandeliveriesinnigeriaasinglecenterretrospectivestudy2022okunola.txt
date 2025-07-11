@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricoutcomesinhighorderrepeatcaesareandeliveriesinnigeriaasinglecenterretrospectivestudy2022okunola
+"OBJECTIVE: Our aim was to evaluate the trend of effect of prior caesarean delivery (CD) on obstetric outcomes; and to investigate the existence of a threshold for order of CD associated with geometrical increase in complications. MATERIALS AND METHODS: We performed a retrospective cohort study of 942 parturients who undergone CD between June 2012 and May 2015 in a teaching hospital in Nigeria. The participants were stratified by the order of caesarean deliveries. We used linear-to-linear association to assess presence of a trend between the order of CD and categorical variables while Jonckheere-Terpstra was used to investigate whether a trend exist between order of CD and continuous variables. We also used multivariate logistic regression to evaluate the relative risk ratio of the outcome variables for each order of CD. RESULTS: Composite adverse maternal outcome depicted a significant increasing trend from 1(st) CD (5.2%) to the 5(th)CD (50%). The relative risk ratio for composite adverse maternal outcome increased arithmetically from 1(st) CD to 3(rd) CD: RRR2.21, 95%CI 1.2-3.98 for 2(nd)CD; RRR3.39, 95%CI 1.60-9.27 for 3(rd)CD; followed by a geometric increase between 3(rd)CD and 4(th)CD (RRR11.64, 95%CI 3.20-18.86). In contrast, composite adverse fetal outcome did not depict a significant trend. However, perinatal death increased significantly from primary CD (4.6%) to 5(th)CD (33.3%). CONCLUSION: Maternal and fetal complications of repeat CD increase with increasing order of CD; and this trend became astronomical after the third CD. Couples should be counselled that both maternal and fetal complications increase with each additional CD and advised strongly to forgo future pregnancies after the 3(rd) CD."""
+
+

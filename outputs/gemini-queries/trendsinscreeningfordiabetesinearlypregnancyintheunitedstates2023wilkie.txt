@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trendsinscreeningfordiabetesinearlypregnancyintheunitedstates2023wilkie
+"Objective: The aim of this study was to characterize current diabetes screening practices in the first trimester of pregnancy in the United States, evaluate patient characteristics and risk factors associated with early diabetes screening, and compare perinatal outcomes by early diabetes screening. Methods: This was a retrospective cohort study of US medical claims data of persons diagnosed with a viable intrauterine pregnancy and who presented for care with private insurance before 14 weeks of gestation, without pre-existing pregestational diabetes, from the IBM MarketScan((r)) database for the period January 1, 2016, to December 31, 2018. Univariate and multivariate analyses were used to evaluate perinatal outcomes. Results: A total of 400,588 pregnancies were identified as eligible for inclusion, with 18.0% of persons receiving early screening for diabetes. Of those with laboratory order claims, 53.1% underwent hemoglobin A1c testing, 30.0% underwent fasting glucose testing, and 16.9% underwent oral glucose tolerance testing. Compared with those who did not undergo early diabetes screening, those who did were more likely to be older; obese; having a history of gestational diabetes, chronic hypertension, polycystic ovarian syndrome, or hyperlipidemia; and having a family history of diabetes. In adjusted logistic regression, history of gestational diabetes (adjusted odds ratio 3.99; 95% confidence interval 3.73-4.26) had the strongest association with early diabetes screening. Adverse perinatal outcomes, including a higher rate of cesarean delivery, preterm delivery, preeclampsia, and gestational diabetes, occurred more frequently among women who underwent early diabetes screening. Conclusions: First-trimester early diabetes screening was mostly commonly performed by hemoglobin A1c evaluation, and persons who underwent early diabetes screening were more likely to experience adverse perinatal outcomes."""
+
+

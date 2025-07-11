@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: significantintraventricularhemorrhageismorelikelyinverypreterminfantsbornbyvaginaldeliveryamulticentreretrospectivecohortstudy2019gamaleldin
+"OBJECTIVES: The objective of this study is to determine the association between mode of delivery (vaginal delivery [VD] versus cesarean section [CS]) and the rate of significant intraventricular hemorrhage (sIVH) in preterm infants. METHODS: A multicenter retrospective cohort study, based on data collected from the Vermont Oxford Network database. Infants born between 23 and 31(+6) weeks of gestational age between 2001 and 2014 were identified. Exposure was the mode of birth (VD versus CS). Primary outcome was development of sIVH. Data were analyzed using univariate and multivariate statistical methods. RESULTS: A total of 1575 infants were eligible. Nine hundred and two infants were born by CS and 673 by VD. Univariable analysis showed that infants born vaginally were more likely to have sIVH (p < .001), die before discharge (p < .001), have a composite poor outcome (death, sIVH or PVL), need oxygen therapy at 36-week corrected gestation (p = .010) and have a longer hospital stay (p = .006). After adjusting for available confounders, multivariable analysis persistently showed that infants between 23 and 27 weeks born by CS were less likely to develop sIVH [OR 1.61 (1.01-2.58), p = .049]. CONCLUSIONS: sIVH is less common in very preterm infants (23-27 weeks of gestation) delivered by CS. However, neurodevelopmental risks associated with survival at this early age, as well as increased maternal morbidities must also be considered."""
+
+

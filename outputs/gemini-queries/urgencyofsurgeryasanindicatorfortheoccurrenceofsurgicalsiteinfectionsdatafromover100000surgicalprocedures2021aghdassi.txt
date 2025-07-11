@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: urgencyofsurgeryasanindicatorfortheoccurrenceofsurgicalsiteinfectionsdatafromover100000surgicalprocedures2021aghdassi
+"BACKGROUND: The risk for surgical site infections (SSIs) is influenced by patient- and procedure-related factors. Urgent surgery represents a challenge in operative medicine and is frequently linked to a variety of complications, including SSIs. AIM: We aimed to investigate whether urgency was significantly associated with SSI occurrence, and determine whether collection of this variable provided useful information for SSI surveillance. METHODS: We performed a retrospective data analysis of caesarean sections (C-sections) and colon surgeries conducted between 2017 and 2019 within the German national SSI surveillance network. A multivariable logistic regression model was utilized to determine the influence of urgency on SSI occurrence. For this purpose, data on procedures and SSIs were associated with available department- and patient-related parameters. FINDINGS: A total of 115,648 procedures were included in the analysis: 78,288 C-sections and 37,360 colon surgeries. For C-sections, the SSI rate per 100 procedures was 0.98 (95% confidence interval: 0.85-1.11) for urgent and 0.46 (0.40-0.53) for elective procedures (P<0.001). For open colon surgeries, SSI rates were 9.66 (8.89-10.49) for urgent and 8.60 (8.13-9.11) for elective procedures (P<0.001). For laparoscopic colon surgeries, SSI rates did not differ significantly. Multivariable analysis revealed that urgency significantly increased the likelihood of SSI occurrence only for C-sections. CONCLUSION: Urgency significantly increased the SSI risk of C-sections, but not colon surgeries. Hence, collection of this variable is useful for SSI surveillance of C-sections, but may be dispensable for other procedures. Future analyses on the matter should therefore focus on other procedure types."""
+
+

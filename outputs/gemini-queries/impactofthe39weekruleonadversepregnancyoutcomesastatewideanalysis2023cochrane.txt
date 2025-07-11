@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofthe39weekruleonadversepregnancyoutcomesastatewideanalysis2023cochrane
+"BACKGROUND: The "39-week rule," adopted by the American College of Obstetricians and Gynecologists circa 2009, discouraged routine elective induction of labor in early-term gestations (37 weeks 0 days-38 weeks 6 days) to decrease the risk of adverse neonatal outcomes. However, little research exists regarding any unintended adverse pregnancy outcomes associated with this policy shift.;OBJECTIVE: This study aimed to quantify the difference in incidence of adverse pregnancy outcomes before and after the implementation of the 39-week rule.;STUDY DESIGN: Deidentified data from all births in the state of South Carolina from 2000 to 2008 (before the 39-week rule) and from 2013 to 2017 (after statewide implementation and enforcement of the rule) were obtained from the South Carolina Revenue and Fiscal Affairs Office. Demographic data and International Classification of Diseases 9/10 codes were obtained for each birth. Our primary outcome was the incidence of any of the following adverse pregnancy outcomes: cesarean delivery, hypertensive disorders, chorioamnionitis, postpartum hemorrhage, high-degree lacerations, placental abruption, and intensive care unit admission. Propensity score analysis was used to control for age, body mass index, and race. After stratification by propensity score, the Cochran-Mantel-Haenszel test was used to compare the prerule and postrule groups.;RESULTS: A total of 633,985 births were eligible for inclusion-412,632 from 2000 to 2008, and 221,353 from 2013 to 2017. There was a significant increase in the primary outcome in the postrule period (39.94% pre vs 42.76% post; P<.01). The incidence of all hypertensive disorders was significantly increased in the postrule period compared with the prerule period (7.75% pre vs 10.1% post; P<.01). The incidence of chorioamnionitis and cesarean delivery also increased in the postrule period (1.45% pre vs 1.92% post; P<.01; 29.6% pre vs 31.82% post; P<.01; respectively).;CONCLUSION: There was a significant increase in the primary outcome following the implementation of the 39-week rule. Although the policy shift was driven by a desire to decrease adverse neonatal outcomes, aggregate benefit was not observed for pregnancy outcomes. Copyright (c) 2023 Elsevier Inc. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prevalenceandriskfactorsofseverepostpartumhemorrhagearetrospectivecohortstudy2021liu
+"BACKGROUND: Although maternal deaths are rare in developed regions, the morbidity associated with severe postpartum hemorrhage (SPPH) remains a major problem. To determine the prevalence and risk factors of SPPH, we analyzed data of women who gave birth in Guangzhou Medical Centre for Critical Pregnant Women, which received a large quantity of critically ill obstetric patients who were transferred from other hospitals in Southern China. METHODS: In this study, we conducted a retrospective case-control study to determine the prevalence and risk factors for SPPH among a cohort of women who gave birth after 28 weeks of gestation between January 2015 and August 2019. SPPH was defined as an estimated blood loss >=1000 mL and total blood transfusion>=4 units. Logistic regression analysis was used to identify independent risk factors for SPPH. RESULTS: SPPH was observed in 532 mothers (1.56%) among the total population of 34,178 mothers. Placenta-related problems (55.83%) were the major identified causes of SPPH, while uterine atony without associated retention of placental tissues accounted for 38.91%. The risk factors for SPPH were maternal age < 18 years (adjusted OR [aOR] = 11.52, 95% CI: 1.51-87.62), previous cesarean section (aOR = 2.57, 95% CI: 1.90-3.47), history of postpartum hemorrhage (aOR = 4.94, 95% CI: 2.63-9.29), conception through in vitro fertilization (aOR = 1.78, 95% CI: 1.31-2.43), pre-delivery anemia (aOR = 2.37, 95% CI: 1.88-3.00), stillbirth (aOR = 2.61, 95% CI: 1.02-6.69), prolonged labor (aOR = 5.24, 95% CI: 3.10-8.86), placenta previa (aOR = 9.75, 95% CI: 7.45-12.75), placenta abruption (aOR = 3.85, 95% CI: 1.91-7.76), placenta accrete spectrum (aOR = 8.00, 95% CI: 6.20-10.33), and macrosomia (aOR = 2.30, 95% CI: 1.38-3.83). CONCLUSION: Maternal age < 18 years, previous cesarean section, history of PPH, conception through IVF, pre-delivery anemia, stillbirth, prolonged labor, placenta previa, placental abruption, PAS, and macrosomia were risk factors for SPPH. Extra vigilance during the antenatal and peripartum periods is needed to identify women who have risk factors and enable early intervention to prevent SPPH."""
+
+

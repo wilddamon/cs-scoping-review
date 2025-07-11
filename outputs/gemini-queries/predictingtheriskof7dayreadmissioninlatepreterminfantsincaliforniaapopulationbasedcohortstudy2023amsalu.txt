@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingtheriskof7dayreadmissioninlatepreterminfantsincaliforniaapopulationbasedcohortstudy2023amsalu
+"Background and aims: The American Academy of Pediatrics describes late preterm infants, born at 34 to 36 completed weeks' gestation, as at-risk for rehospitalization and severe morbidity as compared to term infants. While there are prediction models that focus on specific morbidities, there is limited research on risk prediction for early readmission in late preterm infants. The aim of this study is to derive and validate a model to predict 7-day readmission. Method(s): This is a population-based retrospective cohort study of liveborn infants in California between January 2007 to December 2011. Birth certificates, maintained by California Vital Statistics, were linked to a hospital discharge, emergency department, and ambulatory surgery records maintained by the California Office of Statewide Health Planning and Development. Random forest and logistic regression were used to identify maternal and infant variables of importance, test for association, and develop and validate a predictive model. The predictive model was evaluated for discrimination and calibration. Result(s): We restricted the sample to healthy late preterm infants (n = 122,014), of which 4.1% were readmitted to hospital within 7-day after birth discharge. The random forest model with 24 variables had better predictive ability than the 8 variable logistic model with c-statistic of 0.644 (95% confidence interval 0.629, 0.659) in the validation data set and Brier score of 0.0408. The eight predictors of importance length of stay, delivery method, parity, gestational age, birthweight, race/ethnicity, phototherapy at birth hospitalization, and pre-existing or gestational diabetes were used to drive individual risk scores. The risk stratification had the ability to identify an estimated 19% of infants at greatest risk of readmission. Conclusion(s): Our 7-day readmission predictive model had moderate performance in differentiating at risk late preterm infants. Future studies might benefit from inclusion of more variables and focus on hospital practices that minimize risk.Copyright (c) 2023 The Authors. Health Science Reports published by Wiley Periodicals LLC."""
+
+

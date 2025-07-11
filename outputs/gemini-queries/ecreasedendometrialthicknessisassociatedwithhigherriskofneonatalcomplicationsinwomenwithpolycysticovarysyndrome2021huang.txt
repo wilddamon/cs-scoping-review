@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: decreasedendometrialthicknessisassociatedwithhigherriskofneonatalcomplicationsinwomenwithpolycysticovarysyndrome2021huang
+"Purpose: To evaluate the association of endometrial thickness (EMT) with obstetric and neonatal outcomes in women with polycystic ovary syndrome (PCOS). Method(s): A total of 1755 subfertile PCOS women with singleton livebirths after frozen-thawed embryo transfer were included between January 2009 and September 2019. Main obstetric outcomes were hypertensive disorders in pregnancy and abnormal placentation. Main neonatal outcomes were preterm birth (PTB), low birthweight (LBW) and small-for-gestational age (SGA). Crude and adjusted odds ratios (ORs) with 95% confidence intervals (CIs) were estimated by univariate and multivariate logistic regression analyses. Result(s): Each millimeter decrease in EMT was related to a 9% (adjusted OR 1.09, 95% CI 1.00-1.19; P = 0.053), 14% (adjusted OR 1.14, 95% CI 1.02-1.28; P = 0.002) and 22% (adjusted OR 1.22, 95% CI 1.07-1.38; P = 0.003) higher risk of PTB, LBW and SGA, respectively. Compared to women with EMT >13 mm, women with EMT <=8 mm also had significantly higher risk of PTB (adjusted OR 3.79, 95% CI 1.53-9.39; P = 0.004), LBW (adjusted OR 4.33, 95% CI 1.39-13.50; P = 0.012) and SGA (adjusted OR 6.38, 95% CI 1.78-22.83; P = 0.004). These associations remained consistent in further subgroup analysis by endometrial preparation regimen and in sensitivity analyses among nulligravida women or women without adverse obstetric outcomes. No significant differences were found in the incidence of several pregnancy complications across EMT categories. Conclusion(s): Decreased EMT was independently associated with increased risk of PTB, LBW and SGA in women with PCOS.Copyright (c) 2021 Huang, Lin, Xia, Tian, Xu, Liu, Zhu and Wu."""
+
+

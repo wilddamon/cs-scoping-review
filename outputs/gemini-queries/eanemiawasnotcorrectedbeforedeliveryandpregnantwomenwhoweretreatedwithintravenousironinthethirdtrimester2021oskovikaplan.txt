@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofthematernalandneonataloutcomesofpregnantwomenwhoseanemiawasnotcorrectedbeforedeliveryandpregnantwomenwhoweretreatedwithintravenousironinthethirdtrimester2021oskovikaplan
+"AIM: Anemia is one of the most common problems of pregnancy. In this study, we aimed to compare the maternal and fetal outcomes in labor and delivery in women whose anemia was treated with intravenous iron and women who delivered with uncorrected anemia. MATERIALS: METHODS: This retrospective case-control study was carried out in a tertiary obstetric care center. Term (> 37 weeks), singleton, low-risk pregnant women who were admitted for delivery were evaluated. Seventy-two pregnant women who had intravenous ferric carboxymaltose treatment in the third trimester were compared with 72 women who were anemic (Hb < 10 g/dL) at the time Queryof admission for delivery. RESULTS: The groups were similar in terms of age, parity, and gestational age. The mean gestational age of the study group was 38.6 weeks. Their mean Hb of 8.2 +- 0.8 g/dL improved to 11.1 +- 1.3 g/dL prior birth. The mean Hb of the anemic group was 9.1 +- 0.5 g/dL upon admission for birth. The mean APGAR scores, admission to neonatal intensive care unit, and the rates of preterm delivery, small for gestational age, and low-birth weight infant were similar between groups. The primary cesarean section rate was significantly higher in anemic women (4.2% vs. 19.4%; p < 0.001) and the need for postpartum blood transfusion also decreased with iv iron treatment (8.3% vs. 29.2%; p = 0.02). CONCLUSION: Correction of anemia with intravenous ferric carboxymaltose in the third trimester does not significantly change neonatal outcomes but it is effective in reducing maternal morbidity."""
+
+

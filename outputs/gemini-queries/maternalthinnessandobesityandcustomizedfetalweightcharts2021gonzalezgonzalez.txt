@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalthinnessandobesityandcustomizedfetalweightcharts2021gonzalezgonzalez
+"OBJECTIVE: The aim of the study was to determine if customized fetal growth charts developed excluding obese and underweight mothers (CC(18.5-25)) are better than customized curves (CC) at identifying pregnancies at risk of perinatal morbidity.;MATERIAL AND METHODS: Data from 20,331 infants were used to construct CC and from 11,604 for CC(18.5-25), after excluding the cases with abnormal maternal BMI. The 2 models were applied to 27,507 newborns and the perinatal outcomes were compared between large for gestational age (LGA) or small for gestational age (SGA) according to each model. Logistic regression was used to calculate the OR of outcomes by the group, with gestational age (GA) as covariable. The confidence intervals of pH were calculated by analysis of covariance.;RESULTS: The rate of cesarean and cephalopelvic disproportion (CPD) were higher in LGAonly by CC(18.5-25) than in LGAonly by CC. In SGAonly by CC(18.5-25), neonatal intensive care unit (NICU) and perinatal mortality rates were higher than in SGAonly by CC. Adverse outcomes rate was higher in LGAonly by CC(18.5-25) than in LGAonly by CC (21.6%; OR = 1.61, [1.34-193]) vs. (13.5%; OR = 0.84, [0.66-1.07]), and in SGA only by CC(18.5-25) than in SGAonly by CC (9.6%; OR = 1.62, [1.25-2.10] vs. 6.3%; OR = 1.18, [0.85-1.66]).;CONCLUSION: The use of CC(18.5-25) allows a more accurate identification of LGA and SGA infants at risk of perinatal morbidity than conventional CC. This benefit increase and decrease, respectively, with GA. Copyright (c) 2021 S. Karger AG, Basel."""
+
+

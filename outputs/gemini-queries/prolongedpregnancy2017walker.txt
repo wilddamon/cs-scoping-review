@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prolongedpregnancy2017walker
+"Prolonged pregnancy is defined by duration greater than 294 days from the last menstrual period, or equivalent gestational age calculated by ultrasonic fetal biometry. The latter is a more accurate method for establishing the diagnosis. The specific causes of prolonged pregnancy are unknown, but identified risk factors are nulliparity, increased maternal weight, and previous history of prolonged pregnancy. Prolonged pregnancy is associated with obstetrical and neonatal adverse outcomes, and the risks appear to increase along a spectrum with the degree of prolongation. Prolonged pregnancy may be avoided by interventions to cause delivery prior to 294 days gestation, including complementary therapies, labour induction, or caesarean section. The risks of these interventions must be considered in the context of the low absolute risks of prolonged pregnancy. There remains no clear evidence of benefit in these strategies from well-designed prospective studies. However, retrospective studies have shown reduced perinatal problems when methods to avoid prolonged pregnancy have been utilized. In addition to consideration of risks, decision-making in cases of prolonged pregnancy must also take into account healthcare resources and maternal wishes."""
+
+

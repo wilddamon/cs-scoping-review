@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofdeliveryamonghivinfectedpregnantwomeninphiladelphia200520132015thompson
+"OBJECTIVE: Current guidelines call for HIV-infected women to deliver via scheduled Caesarean when the maternal HIV viral load (VL) is >1,000 copies/ml. We describe the mode of delivery among HIV-infected women and evaluate adherence to relevant recommendations. STUDY DESIGN: We performed a population-based surveillance analysis of HIV-infected pregnant women in Philadelphia from 2005 to 2013, comparing mode of delivery (vaginal, scheduled Caesarean, or emergent Caesarean) by VL during pregnancy, closest to the time of delivery (<=1,000 copies/ml versus an unknown VL or VL >1,000 copies/ml) and associated factors in multivariable analysis. RESULTS: Our cohort included 824 deliveries from 648 HIV-infected women, of whom 69.4% had a VL <=1,000 copies/ml and 30.6% lacked a VL or had a VL >1,000 copies/ml during pregnancy, closest to the time of delivery. Mode of delivery varied by VL: 56.6% of births were vaginal, 30.1% scheduled Caesarean, and 13.3% emergent Caesarean when the VL was <=1,000 copies/ml; when the VL was unknown or >1,000 copies/ml, 32.9% of births were vaginal, 49.9% scheduled Caesarean and 17.5% emergent Caesarean. In multivariable analyses, Hispanic women (adjusted odds ratio (AOR) 0.17, 95% Confidence Interval (CI) 0.04-0.76) and non-Hispanic black women (AOR 0.27, 95% CI 0.10-0.77) were less to likely to deliver via scheduled Caesarean compared to non-Hispanic white women. Women who delivered prior to 38 weeks' gestation (AOR 0.37, 95% CI 0.18-0.76) were also less likely to deliver via scheduled Caesarean compared to women who delivered after 38 weeks' gestation. An interaction term for race and gestational age at delivery was significant in multivariable analysis. Non-Hispanic black (AOR 0.06, 95% CI 0.01-0.36) and Hispanic women (AOR 0.03, 95% CI 0.00-0.59) were more likely to deliver prematurely and less likely to deliver via scheduled C-section compared to non-Hispanic white women. Having a previous Caesarean (AOR 27.77, 95% CI 8.94-86.18) increased the odds of scheduled Caesarean delivery. CONCLUSIONS: Only half of deliveries for women with an unknown VL or VL >1,000 copies/ml occurred via scheduled Caesarean. Delivery prior to 38 weeks, particularly among minority women, resulted in a missed opportunity to receive a scheduled Caesarean. However, even when delivering at or after 38 weeks' gestation, a significant proportion of women did not get a scheduled Caesarean when indicated, suggesting a need for focused public health interventions to increase the proportion of women achieving viral suppression during pregnancy and delivering via scheduled Caesarean when indicated."""
+
+

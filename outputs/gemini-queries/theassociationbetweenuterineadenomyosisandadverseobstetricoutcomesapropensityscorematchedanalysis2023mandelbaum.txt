@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenuterineadenomyosisandadverseobstetricoutcomesapropensityscorematchedanalysis2023mandelbaum
+"INTRODUCTION: This study examined obstetric outcomes in patients diagnosed with uterine adenomyosis. MATERIAL AND METHODS: This historical cohort study queried the Healthcare Cost and Utilization Project's National Inpatient Sample. The study population was all hospital deliveries in women aged 15-54 years between January 2016 and December 2019. The exposure was a diagnosis of uterine adenomyosis. The main outcome measures were obstetric characteristics, including placenta previa, placenta accreta spectrum, and placental abruption. Secondary outcomes were delivery complications including severe maternal morbidity. Analytic steps to assess these outcomes included (i) a 1-to-N propensity score matching to mitigate and balance prepregnancy confounders to assess obstetric characteristics, followed by (ii) an adjusting model with preselected pregnancy and delivery factors to assess maternal morbidity. Sensitivity analyses were also performed with restricted cohorts to account for prior uterine scar, uterine myoma, and extra-uterine endometriosis. RESULTS: After propensity score matching, 5430 patients with adenomyosis were compared to 21 720 patients without adenomyosis. Adenomyosis was associated with an increased odds of placenta accreta spectrum (adjusted-odds ratio [aOR] 3.07, 95% confidence interval [CI] 2.01-4.70), placenta abruption (aOR 3.21, 95% CI: 2.60-3.98), and placenta previa (aOR 5.08, 95% CI: 4.25-6.06). Delivery at <32 weeks of gestation (aOR 1.48, 95% CI: 1.24-1.77) and cesarean delivery (aOR 7.72, 95% CI: 7.04-8.47) were both increased in women with adenomyosis. Patients in the adenomyosis group were more likely to experience severe maternal morbidity at delivery compared to those in the nonadenomyosis group (aOR 1.86, 95% CI: 1.59-2.16). Results remained robust in the aforementioned several sensitivity analyses. CONCLUSIONS: This national-level analysis suggests that a diagnosis of uterine adenomyosis is associated with an increased risk of placental pathology (placenta accreta spectrum, placenta abruption, and placental previa) and adverse maternal outcomes at delivery."""
+
+

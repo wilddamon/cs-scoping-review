@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: mediationofadversepregnancyoutcomesinautoimmuneconditionsbypregnancycomplicationsamediationanalysisofautoimmuneconditionsandadversepregnancyoutcomes2020bandoli
+"OBJECTIVE: Autoimmune conditions are associated with an increased risk of adverse pregnancy complications and outcomes, suggesting that pregnancy complications may mediate the excess risk. We performed a causal mediation analysis to quantify the mediated effects of autoimmune conditions on adverse pregnancy outcomes. METHODS: We queried a California birth cohort created from linked birth certificates and hospital discharge summaries. From 2,963,888 births, we identified women with rheumatoid arthritis (RA), systemic lupus erythematosus (SLE), psoriasis, and inflammatory bowel disease (IBD). Pregnancy complications included preeclampsia/hypertension, gestational diabetes mellitus, and infection in pregnancy. Adverse pregnancy outcomes were preterm birth, cesarean delivery, and small for gestational age. We performed a mediation analysis to estimate the total effects of each autoimmune condition and adverse pregnancy outcome and the indirect effects through pregnancy complications. RESULTS: All 4 autoimmune conditions were associated with preterm birth and cesarean delivery, and RA, SLE, and IBD were associated with offspring that were small for gestational age. The strongest mediator of RA, SLE, and psoriasis was preeclampsia/hypertension, accounting for 20-33% of the excess risk of preterm births and 10-19% of excess cesarean deliveries. Gestational diabetes mellitus and infections generally mediated <10% of excess adverse pregnancy outcomes. Of the 4 autoimmune conditions, selected pregnancy complications mediated the least number of adverse pregnancy outcomes among women with IBD. CONCLUSION: We found evidence that some excess risk of adverse pregnancy outcomes is mediated through pregnancy complications, particularly preeclampsia/hypertension. Quantifying excess risk and associated pathways provides insight into the underlying etiologies of adverse pregnancy outcomes and can inform intervention strategies."""
+
+

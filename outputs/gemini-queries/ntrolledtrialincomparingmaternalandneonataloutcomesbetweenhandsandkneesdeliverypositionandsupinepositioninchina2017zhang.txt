@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: arandomisedcontrolledtrialincomparingmaternalandneonataloutcomesbetweenhandsandkneesdeliverypositionandsupinepositioninchina2017zhang
+"BACKGROUND: the supine position is the most frequently offered for birth delivery in China and many other countries, but the hands-and-knees position is now gaining prominence with doctors in China. This study aims to examine the differences in maternal and neonatal outcomes among low-risk women who gave birth either in the hands-and-knees position or the supine position.;METHODS: a randomised controlled trial was conducted in 11 hospitals in China from May to December in 2012. In total, 1400 women were recruited and randomly allocated to either the experimental group (n=700, 446 completed the protocol) who delivered in hands-and-knees position and the control group (n=700, 440 completed the protocol) who delivered in supine position. Women who could not maintain the randomised position during the second stage of labour were allowed to withdraw from the study. The primary maternal outcome measured was rate of episiotomy. Secondary outcomes included degree of perineum laceration, rate of emergency caesarean section, rate of shoulder dystocia, and duration of labour, postpartum bleeding, neonatal Apgar score, and the rate of neonatal asphyxia. Because outcome data were only collected for women who gave birth in the randomised position, per-protocol analyses were used to compare groups. The primary outcome, episiotomy, was also compared between groups using logistic regression adjusting for maternal age,gestational age at birth, whether the woman was primiparous, the process of second stage of labour and birthweight.;FINDINGS: as compared with the control group, the experimental group had lower rates of episiotomy and second-degree perineum laceration (including episiotomy), and higher rates of intact perineum and first-degree perineum laceration, with a longer duration of second stage of labour. No significant differences were found in the amount of postpartum bleeding, shoulder dystocia, neonatal asphyxia and neonatal Apgar scores at 1minute and 5minutes. Adjusted for maternal age, gestational age, parity, duration of second stage of labour and birth weight, the hands-and-knees position reduced the need for episiotomy (OR=0.024, p<0.001).;CONCLUSIONS: this study provided evidence that women who could maintain the hands-and-knees position during the second stage of labour had lower rates of episiotomy and second-degree perineum laceration (including episiotomy). Both midwives and obstetricians are suggested to learn the skills to assist women with delivery in this position. Copyright (c) 2017 Elsevier Ltd. All rights reserved."""
+
+

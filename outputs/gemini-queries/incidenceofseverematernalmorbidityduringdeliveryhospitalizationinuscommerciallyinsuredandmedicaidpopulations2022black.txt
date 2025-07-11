@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incidenceofseverematernalmorbidityduringdeliveryhospitalizationinuscommerciallyinsuredandmedicaidpopulations2022black
+"Objective: To estimate the incidence rate and associated risk factors of severe maternal morbidity (SMM) in commercially and Medicaid-insured women. Materials and Methods: This was a retrospective cohort study of women with a live inpatient delivery recorded in 2016 in the MarketScan((r)) databases for commercially insured and Medicaid populations. The incidence of SMM, defined by the Center for Disease Control and Prevention's algorithm of International Classification of Diseases, 10th edition diagnostic and procedural codes, was determined. Measurements also included the association of SMM in bivariate analyses with patient characteristics and the association of SMM with delivery type, gestation type, maternal age, and race in multivariate logistic regression analysis, adjusted for pre-existing conditions and pregnancy-related complications. Results: The incidence of SMM per 10,000 deliveries was 111.4 in the Commercial and 109.6 in the Medicaid population. The most frequent SMM indicators were eclampsia and blood transfusion in the Commercial population (35.0 and 25.7 per 10,000 deliveries, respectively) and eclampsia and adult respiratory distress syndrome in the Medicaid population (45.5 and 14.9 per 10,000 deliveries, respectively). A cesarean delivery was associated with SMM in both Commercial (odds ratio [OR] 3.37; 95% confidence interval [CI] 1.51-1.84) and Medicaid populations (OR 1.99; 95% CI 1.80-2.17). A multifetal gestation was also associated with SMM in both Commercial (OR 3.37; 95% CI 2.80-4.10) and Medicaid populations (OR 2.26; 95% CI 1.86-2.75). Conclusion: SMM occurred in 1.1% of live inpatient deliveries. A cesarean delivery, multifetal gestation, race, region, and several pre-existing comorbidities and obstetric complications were associated with SMM."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingtherelationbetweenbiopsychosocialfactorsandtypeofchildbirthusingthedecisiontreemethodacohortstudy2021hajimirzaie
+"BACKGROUND: With the growing rate of cesarean sections, rising morbidity and mortality thereafter is an important health issue. Predictive models can identify individuals with a higher probability of cesarean section, and help them make better decisions. This study aimed to investigate the biopsychosocial factors associated with the method of childbirth and designed a predictive model using the decision tree C4.5 algorithm. METHODS: In this cohort study, the sample included 170 pregnant women in the third trimester of pregnancy referring to Shahroud Health Care Centers (Semnan, Iran), from 2018 to 2019. Blood samples were taken from mothers to measure the estrogen hormone at baseline. Birth information was recorded at the follow-up time per 30-42 days postpartum. Chi square, independent samples t test, and Mann-Whitney were used for comparisons between the two groups. Modeling was performed with the help of MATLAB software and C4.5 decision tree algorithm using input variables and target variable (childbirth method). The data were divided into training and testing datasets using the 70-30% method. In both stages, sensitivity, specificity, and accuracy were evaluated by the decision tree algorithm. RESULTS: Previous method of childbirth, maternal body mass index at childbirth, maternal age, and estrogen were the most significant factors predicting the childbirth method. The decision tree model's sensitivity, specificity, and accuracy were 85.48%, 94.34%, and 89.57% in the training stage, and 82.35%, 83.87%, and 83.33% in the testing stage, respectively. CONCLUSION: The decision tree model was designed with high accuracy successfully predicted the method of childbirth. By recognizing the contributing factors, policymakers can take preventive action.It should be noted that this article was published in preprint form on the website of research square (https://www.researchsquare.com/article/rs-34770/v1)."""
+
+

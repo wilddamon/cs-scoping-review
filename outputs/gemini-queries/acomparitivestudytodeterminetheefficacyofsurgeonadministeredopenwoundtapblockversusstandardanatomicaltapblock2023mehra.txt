@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparitivestudytodeterminetheefficacyofsurgeonadministeredopenwoundtapblockversusstandardanatomicaltapblock2023mehra
+"Background: The rates of Cesarean delivery (CS) have increased in the present time and postoperative pain is of great concern, affecting postoperative recovery and bonding with the new born. Multimodal analgesia (MMA) is recommended for providing effective pain relief after CS. MMA regimes including regional anesthesia techniques such as nerve block and local infiltration have been suggested to reduce opioids and non-steroidal anti-inflammatory associated side effects. Transversus abdominis plane (TAP) blocks are a widely used regional anesthetic procedure that introduces local anesthetics into the neurovascular plane via the 'Triangle of Petit'. Material(s) and Method(s): This was a prospective comparative study conducted on 58 ASA grade II patients undergoing cesarean section, divided into two groups, O and T (29 in each group). In group O, patient received 20 ml of 0.25% bupivacaine with 4 mg dexamethasone bilaterally through open wound after closure of peritoneum in between the muscle layer in a fan shaped manner. Group T, received 20 ml of 0.25% bupivacaine with 4 mg dexamethasone bilaterally through standard anatomical TAP block. Pulse rate, mean blood pressure and oxygen saturation were monitored every 5 min during the intraoperative phase until the patient shifted out of the OT, then in immediate postoperative period hourly for first three hours, then three hourly after the completion of surgery for upto 24 hours. Pain was assessed using the VAS score at above mentioned intervals. Result(s): It was observed that post operative pain relief was better in group O patient and need for rescue analgesia was more in group T patients. Conclusion(s): Open wound TAP block, administered by surgeon's provides long lasting analgesia with lesser requirement of postoperative rescue analgesics in first twenty-four hours after surgery.Copyright (c) 2023 Society for Healthcare and Research Development. All Rights Reserved."""
+
+

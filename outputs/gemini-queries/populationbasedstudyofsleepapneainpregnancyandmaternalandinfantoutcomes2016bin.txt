@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: populationbasedstudyofsleepapneainpregnancyandmaternalandinfantoutcomes2016bin
+"STUDY OBJECTIVES: To examine the association between sleep apnea and pregnancy outcomes in a large population-based cohort. METHODS: Population-based cohort study using linked birth and hospital records was conducted in New South Wales, Australia. Participants were all women who gave birth from 2002 to 2012 (n = 636,227). Sleep apnea in the year before pregnancy or during pregnancy was identified from hospital records. Outcomes of interest were gestational diabetes, pregnancy hypertension, planned delivery, caesarean section, preterm birth, perinatal death, 5-minute Apgar score, admission to neonatal intensive care or special care nursery, and infant size for gestational age. Maternal outcomes were identified using a combination of hospital and birth records. Infant outcomes came from the birth record. Modified Poisson regression models were used to examine associations between sleep apnea and each outcome taking into account maternal age, country of birth, socioeconomic disadvantage, smoking, obesity, parity, pre-existing diabetes and hypertension. RESULTS: Sleep apnea was significantly associated with pregnancy hypertension (adjusted RR 1.43; 95% CI 1.18-1.73), planned delivery (1.15; 1.07-1.23), preterm birth (1.50; 1.21-1.84), 5-minute Apgar < 7 (1.60; 1.07-2.38), admission to neonatal intensive care/special care nursery (1.26; 1.11-1.44), large-for-gestational-age infants (1.27; 1.04-1.55) but not with gestational diabetes (1.09; 0.82-1.46), caesarean section (1.06; 0.96-1.17), perinatal death (1.73; 0.92-3.25), or small-for-gestational-age infants (0.81; 0.61-1.08). CONCLUSIONS: Sleep apnea is associated with higher rates of obstetric complications and intervention, as well as preterm delivery. Future research should examine if these are independent of obstetric history."""
+
+

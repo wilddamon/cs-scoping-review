@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: differencesinpregnancyoutcomesandobstetriccarebetweenasylumseekingandresidentwomenacrosssectionalstudyinagermanfederalstate201020162018bozorgmehr
+"BACKGROUND: Despite large numbers of asylum seekers, there is a lack of evidence on pregnancy outcomes and obstetric care of asylum seeking women in Germany. METHODS: Cross-sectional study (2010-2016) using administrative data of the main referral hospital for pregnant asylum seekers of the reception center of a large federal state in South Germany. INCLUSION CRITERIA: women aged 12-50 years, admitted in relation to pregnancy, childbirth or post-partum complications. OUTCOMES: differences between asylum seekers and residents in the prevalence of high-risk pregnancy conditions, abortive outcomes/stillbirths, peri- and postnatal maternal complications, neonatal complications, and caesarean sections. ANALYSIS: odds ratios (OR) and 95% confidence intervals (CI) obtained by single and multiple logistic regression analysis. Attributable fractions among the exposed (Afe) and among the total population (Afp) were calculated for selected outcomes. RESULTS: Of 19,864 women admitted in relation to pregnancy, childbirth or post-partum complications, 2.9% (n = 569) were asylum seekers. Adjusted odds for high-risk pregnancy conditions (OR = 0.76, 95%CI: 0.63-0.91, p < 0.0001), caesarean sections (OR = 0.84, 95%CI 0.66-1.07, p = 0.17) and perinatal complications (OR = 0.65, 95%CI: 0.55-0.78, p < 0.0001) were lower; those for abortive outcomes/stillbirths (OR = 1.58, 95%CI: 1.11-2.20, p = 0.01) and postnatal complications (OR = 1.80, 95%CI: 0.93-3.19, p = 0.06) higher among asylum seeking women relative to residents in models adjusted for age, length of admission, and high-risk pregnancy conditions. The Afe for abortive outcomes and stillbirths among asylum seekers was 40.3% (95% CI, 16.3-56.5) and the Afp was 1.8%. The Afe for postnatal complications was 53.1% (95% CI, 7.1-74.0) and the Afp was 3.1%. CONCLUSION: Asylum seeking women are at higher risk of abortive outcomes/stillbirths and show a tendency towards higher postnatal complications. This excess risk calls for adequate responses by health care providers and policy makers to improve outpatient postnatal care in reception centers and mitigate adverse birth outcomes among asylum seeking women. Although further research is needed, scaling-up midwivery care, improving outreach by maternity care teams, and routinely identifying and addressing mental illness by psychosocial services could be ways forward to improve outcomes in this population."""
+
+

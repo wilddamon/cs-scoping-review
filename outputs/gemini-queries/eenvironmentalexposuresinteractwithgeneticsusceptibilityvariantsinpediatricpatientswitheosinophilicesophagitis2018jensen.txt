@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlylifeenvironmentalexposuresinteractwithgeneticsusceptibilityvariantsinpediatricpatientswitheosinophilicesophagitis2018jensen
+"BACKGROUND: Although eosinophilic esophagitis (EoE) is associated with certain gene variants, the rapidly increasing incidence of EoE suggests that environmental factors contribute to disease development. OBJECTIVE: We tested for gene-environment interaction between EoE-predisposing polymorphisms (within TSLP, LOC283710/KLF13, CAPN14, CCL26, and TGFB) and implicated early-life factors (antibiotic use in infancy, cesarean delivery, breast-feeding, neonatal intensive care unit [NICU] admission, and absence of pets in the home). METHODS: We conducted a case-control study using hospital-based cases (n = 127) and control subjects representative of the hospital catchment area (n = 121). We computed case-only interaction tests and in secondary analyses evaluated the combined and independent effects of genotype and environmental factors on the risk of EoE. RESULTS: Case-only analyses identified interactions between rs6736278 (CAPN14) and breast-feeding (P = .02) and rs17815905 (LOC283710/KLF13) and NICU admission (P = .02) but not with any of the factors examined. Case-control analyses suggested that disease risk might be modifiable in subjects with certain gene variants. In particular, breast-feeding in those with the susceptibility gene variant at rs6736278 (CAPN14) reduced the risk of EoE (adjusted odds ratio, 0.08; 95% CI, 0.01-0.59). Admission to the NICU in those without the susceptibility gene variant at rs17815905 (LOC283710/KLF13) significantly increased the risk of having disease (adjusted odds ratio, 4.83; 95% CI, 1.49-15.66). CONCLUSIONS: The interplay of gene (CAPN14 and LOC283710/KLF13) and early-life environment factors (breast-feeding and NICU admission) might contribute to EoE susceptibility."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: longertraveltimetodistricthospitalworsensneonataloutcomesaretrospectivecrosssectionalstudyoftheeffectofdelaysinreceivingemergencycesareansectioninrwanda2017niyitegeka
+"BACKGROUND: In low-resource settings, access to emergency cesarean section is associated with various delays leading to poor neonatal outcomes. In this study, we described the delays a mother faces when needing emergency cesarean delivery and assessed the effect of these delays on neonatal outcomes in Rwanda. METHODS: This retrospective study included 441 neonates and their mothers who underwent emergency cesarean section in 2015 at three district hospitals in Rwanda. Four delays were measured: duration of labor prior to hospital admission, travel time from health center to district hospital, time from admission to surgical incision, and time from decision for emergency cesarean section to surgical incision. Neonatal outcomes were categorized as unfavorable (APGAR <7 at 5 min or death) and favorable (alive and APGAR >=7 at 5 min). We assessed the relationship between each type of delay and neonatal outcomes using multivariate logistic regression. RESULTS: In our study, 9.1% (40 out of 401) of neonates had an unfavorable outcome, 38.7% (108 out of 279) of neonates' mothers labored for 12-24 h before hospital admission, and 44.7% (159 of 356) of mothers were transferred from health centers that required 30-60 min of travel time to reach the district hospital. Furthermore, 48.1% (178 of 370) of cesarean sections started within 5 h after hospital admission and 85.2% (288 of 338) started more than 30 min after the decision for cesarean section was made. Neonatal outcomes were significantly worse among mothers with more than 90 min of travel time from the health center to the district hospital compared to mothers referred from health centers located on the same compound as the hospital (aOR = 5.12, p = 0.02). Neonates with cesarean deliveries starting more than 30 min after decision for cesarean section had better outcomes than those starting immediately (aOR = 0.32, p = 0.04). CONCLUSIONS: Longer travel time between health center and district hospital was associated with poor neonatal outcomes, highlighting a need to decrease barriers to accessing emergency maternal services. However, longer decision to incision interval posed less risk for adverse neonatal outcome. While this could indicate thorough pre-operative interventions including triage and resuscitation, this relationship should be studied prospectively in the future."""
+
+

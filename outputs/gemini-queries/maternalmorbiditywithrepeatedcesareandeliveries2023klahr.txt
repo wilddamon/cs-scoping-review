@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalmorbiditywithrepeatedcesareandeliveries2023klahr
+"OBJECTIVE: This study aimed to estimate the association between adverse maternal outcomes and the number of repeated cesarean deliveries (CDs) in a single obstetrical practice. STUDY DESIGN: Retrospective cohort study of all CDs between 2005 and 2020 in a single maternal fetal medicine practice. We used electronic records to get baseline characteristics and pregnancy/surgical outcomes based on the number of prior CDs. We performed two subgroup analyses for women with and without placenta previa. Chi-square for trend and one-way analysis of variance (ANOVA) were used. RESULTS: A total of 3,582 women underwent CD and met inclusion criteria. Of these women, 1,852 (51.7%) underwent their first cesarean, 950 (26.5%) their second, 382 (10.7%) their third, 191 (5.3%) their fourth, 117 (3.3%) their fifth, and 84 (2.3%) their sixth or higher CDs. The incidence of adverse outcomes (placenta accreta, uterine window, uterine rupture, hysterectomy, blood transfusion, cystotomy, bowel injury, need for a ventilator postpartum, intensive care unit admission, wound complications, thrombosis, reoperation, and maternal death) increased with additional CDs. However, the absolute rates remained low. In women without a placenta previa, the likelihood of adverse outcome did not differ across groups. In women with a placenta previa, adverse outcomes increased with increasing CDs. However, the incidence of placenta previa did not increase with increasing CDs (<5% in each group). The incidence of a uterine dehiscence increased significantly with additional CDs: first, 0.2%; second, 2.0%; third, 6.6%; fourth, 10.3%; fifth, 5.8%; and sixth or higher, 10.4% (p < 0.001). CONCLUSION: Maternal morbidity increases with CDs, but the absolute risks remain low. For women without placenta previa, increasing CDs is not associated with maternal morbidity. For women with placenta previa, risks are highest, but the incidence of placenta previa does not increase with successive CDs. The likelihood of uterine dehiscence increases significantly with increasing CDs which should be considered when deciding about timing of delivery in this population. KEY POINTS: * Maternal morbidity increase with each CD.. * Absolute adverse outcomes remains low in highest order CDs.. * In women without placenta previa, there is no added morbidity with additional CDs.."""
+
+

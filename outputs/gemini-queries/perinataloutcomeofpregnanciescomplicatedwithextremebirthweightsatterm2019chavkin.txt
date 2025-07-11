@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomeofpregnanciescomplicatedwithextremebirthweightsatterm2019chavkin
+"OBJECTIVE: The objective of this study is to investigate whether an abnormal birthweight at term, either small for gestational age (SGA, < 5th centile for gestational age) or large for gestational age (LGA, > 95th centile for gestational age), is a risk factor for perinatal complications as compared with birthweight appropriate for gestational age (AGA). METHODS: A population-based retrospective cohort analysis of all singleton pregnancies delivered between 1991 and 2014 at Soroka Medical Center. Congenital malformations and multiple pregnancies were excluded. A multivariable generalized estimating equation regression model was used to control for maternal clusters and other confounders. RESULTS: During the study period, 228,242 births met the inclusion criteria, of them 91% were AGA (n = 207,652), 4.7% SGA, and 4.3% LGA. SGA significantly increased the risk for perinatal mortality (aOR 5.6, 95%CI 4.5-6.8) and low 5-min Apgar scores (aOR 2.2, 95%CI 2.0-2.4), while LGA did not. SGA and LGA were both significant risk factors for cesarean delivery. LGA was significantly associated with shoulder dystocia and post-partum hemorrhage (aOR =13.6, 95%CI 10.9-17.0, and aOR 1.7, 95%CI 1.2-2.6, respectively). CONCLUSIONS: Extreme birthweights at term are significantly associated with adverse maternal and neonatal outcomes. As opposed to SGA, LGA is not independently associated with perinatal mortality."""
+
+

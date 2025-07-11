@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: preventiveinductionoflaborfornonurgentindicationsattermandmaternalandneonataloutcomes2016zhang
+"BACKGROUND: Induction of labor (IOL) is a common practice in many parts of the world. However, the benefits and risks of preventive IOL for the mother and baby have yet to be critically assessed. This study is to investigate the effects of preventive IOL for non-urgent indications at term on maternal and neonatal outcomes.;METHODS: In this study, we applied a propensity score model to mimic a randomized clinical trial. Maternal and neonatal outcomes were compared between women with preventive IOL at 37-39 weeks of gestation and women with ongoing pregnancy (expectant management). The subjects were from the Consortium on Safe Labor, a study of over 200,000 births from 19 hospitals across the US from 2002 to 2008.;RESULTS: Both nulliparous and multiparous women induced preventively for non-urgent indications at 37-38 weeks' gestation had lower rates of cesarean delivery compared to those delivered at later gestational weeks. However, preventive IOL was associated with increased risks of adverse neonatal outcomes (adjusted odds ratio [aOR] = 1.68, 95% confidence interval [CI], 0.97-2.92 for nulliparas; aOR = 2.22, 1.32-3.74 for multiparas) and admission to NICU (aOR = 1.48, 0.99-2.20 for nulliparas; aOR = 2.08, 1.47-2.96 for multiparas) at 37 weeks' gestation. A longer maternal hospital stay was found among all women with preventive IOL.;CONCLUSIONS: Preventive IOL for non-urgent indications may be associated with a decreased risk of cesarean delivery at early term but increased risks of adverse neonatal outcomes at 37 weeks. It also results in a longer hospital stay than expectant management."""
+
+

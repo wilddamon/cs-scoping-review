@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricaloutcomesofpatientswithepilepsyinacanadiantertiarycarecenter201420202023hebert
+"BACKGROUND: There is a paucity of data on the obstetrical outcomes of Canadian pregnant patients with epilepsy, which may differ from the average Canadian pregnancy and from other populations of pregnant patients with epilepsy. METHODS: Pregnant patients with epilepsy were identified from a prospectively collected database of patients seen at the maternal-fetal medicine obstetrics program of Mount Sinai Hospital (Toronto, Canada) between January 1, 2014, and November 20, 2020. Pregnancy, delivery, and neonatal outcome data were retrieved from this database and described using 95% binomial confidence intervals. Comparisons of obstetrical outcomes over the same period among the Canadian population average, obtained from publicly available national health data, were done using one-proportion Z-tests for nominal variables and one-sample t-tests for continuous variables. RESULTS: In total, 282 pregnancies, from 224 patients, were included, which resulted in 274 live births. Mean maternal age was 32.8 years (s.d. = 4.6; population average [m] = 30.9; p < 0.01), and 53% were primiparous (CI(95%) = 49%-61%; m = 43%; p < 0.01). The observed rates of obstetrical complications were gestational hypertension 9% (CI(95%)=6%-13%; m=7%; p=0.19), gestational diabetes 5% (CI(95%) = 3%-8%; m = 9%; p = 0.02), cesarean section 44% (CI(95%) = 38%-50%; m = 28%; p < 0.01), postpartum hemorrhage 5% (CI(95%) = 3%-8%; m = 0.5%; p < 0.01), stillbirth 1% (CI(95%) = 0%-2%; m=1%; p > 0.99), and prematurity 9% (CI(95%) = 6%-13%; m = 8%; p = 0.44). CONCLUSION: In this cohort of Canadian pregnant patients with epilepsy from an urban tertiary care center, observed rates of obstetrical complications were rare and no higher than in the Canadian population over the same period, with the exception of cesarean section and postpartum hemorrhage. Future prospective studies that include primary care and rural settings are needed to increase the generalizability of those results."""
+
+

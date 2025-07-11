@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: eclampsiainvitrofertilizationandtheriskofpretermbirtharetrospectivecohortstudybasedon2880759samples2023wang
+"Background: Eclampsia and in vitro fertilization (IVF) are independent risk factors for preterm birth. Understanding the combined effects of multiple risk factors for preterm birth is critical to making accurate and personalized risk predictions. This study aimed to explore the interaction between eclampsia and IVF on the risk of preterm birth. Method(s): A total of 2,880,759 eligible participants from Birth Data Files in the National Vital Statistics System (NVSS) database 2019 were enrolled in this retrospective cohort study. Some characteristics were collected, such as maternal age, prepregnancy body mass index (BMI), history of preterm birth, paternal age, race, newborn sex. Preterm birth was defined as <37 weeks gestation. Univariate and multivariate logistic regression models were utilized to assess the associations between eclampsia, IVF and preterm birth. The odds ratio (OR) and 95% confidence interval (CI) were calculated in this study. Relative excess risk due to interaction (RERI), attributable proportion (AP) and synergy index (S) were adopted to evaluate the interaction between eclampsia and IVF on the risk of preterm birth. Result(s): The age of mothers and fathers, the number of multiple births, the proportion of mothers with a history of preterm birth, pregnancy infections, eclampsia and IVF among the preterm birth group were all higher than those among the non-preterm birth group. The incidence of preterm birth in eclampsia and IVF population was approximately 37.31% and 22.96%, separately. After adjusting some covariates, subjects with both eclampsia and IVF had a higher risk of preterm birth (OR =9.197, 95% CI: 6.795-12.448, P<0.001). Furthermore, the results (RERI =3.426, 95% CI: 0.639-6.213, AP=0.374, 95% CI: 0.182-0.565, S =1.723, 95% CI: 1.222-2.428) suggested that the interaction between eclampsia and IVF on preterm birth was statistically significant, indicating a synergistic interaction. Conclusion(s): Eclampsia and IVF might interact in a synergistic manner to increase the risk of preterm birth. Awareness of the risk profile associated with preterm birth is crucial for pregnant woman with IVF to implement dietary and lifestyle modifications.Copyright (c) Translational Pediatrics. All rights reserved."""
+
+

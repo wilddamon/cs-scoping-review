@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apredictionmodelforcesareandeliverybasedontheglycemiainthesecondtrimesteranestedcasecontrolstudyfromtwocenters2023zhang
+"OBJECTIVE: Maternal glycemia is associated with the risk of cesarean delivery (CD); therefore, our study aims to developed a prediction model based on glucose indicators in the second trimester to earlier identify the risk of CD. METHODS: This was a nested case-control study, and data were collected from the 5th Central Hospital of Tianjin (training set) and Changzhou Second People's Hospital (testing set) from 2020 to 2021. Variables with significant difference in training set were incorporated to develop the random forest model. Model performance was assessed by calculating the area under the curve (AUC) and Komogorov-Smirnoff (KS), as well as accuracy, sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV). RESULTS: A total of 504 eligible women were enrolled; of these, 169 underwent CD. Pre-pregnancy body mass index (BMI), first pregnancy, history of full-term birth, history of livebirth, 1 h plasma glucose (1hPG), glycosylated hemoglobin (HbA1c), fasting plasma glucose (FPG), and 2 h plasma glucose (2hPG) were used to develop the model. The model showed a good performance, with an AUC of 0.852 [95% confidence interval (CI): 0.809-0.895]. The pre-pregnancy BMI, 1hPG, 2hPG, HbA1c, and FPG were identifies as the more significant predictors. External validation confirmed the good performance of our model, with an AUC of 0.734 (95%CI: 0.664-0.804). CONCLUSIONS: Our model based on glucose indicators in the second trimester performed well to predict the risk of CD, which may reach the earlier identification of CD risk and may be beneficial to make interventions in time to decrease the risk of CD."""
+
+

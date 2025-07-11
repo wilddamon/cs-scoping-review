@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antepartumdepressivesymptomsareassociatedwithsignificantpostpartumopioiduse2023sudhof
+"BACKGROUND: Antepartum depression is common, and outside of childbirth preoperative anxiety and depression have been associated with heightened postoperative pain. In light of the national opioid epidemic, the relationship between antepartum depressive symptoms and postpartum opioid use is particularly relevant. OBJECTIVE: This study evaluated the association between antepartum depressive symptoms and significant postpartum opioid use during birth hospitalization. STUDY DESIGN: This retrospective cohort study at an urban academic medical center from 2017 to 2019 included patients who received prenatal care at the medical center and linked pharmacy and billing data with electronic medical records. The exposure was antepartum depressive symptoms, defined as Edinburgh Postnatal Depression Scale >=10 during the antepartum period. The outcome was significant opioid use, defined as: (1) any opioid use following vaginal birth and (2) the top quartile of total opioid use following cesarean delivery. Postpartum opioid use was quantified using standard conversions for opioids dispensed on postpartum days 1 to 4 to calculate morphine milligram equivalents. Poisson regression was used to calculate risk ratios and 95% confidence intervals, stratified by mode of delivery and adjusted for suspected confounders. Mean postpartum pain score was a secondary outcome. RESULTS: The cohort included 6094 births; 2351 births (38.6%) had an antepartum Edinburgh Postnatal Depression Scale score. Of these, 11.5% had a maximum score >=10. Significant opioid use was observed in 10.6% of births. We found that individuals with antepartum depressive symptoms were more likely to have significant postpartum opioid use, with an adjusted risk ratio of 1.5 (95% confidence interval, 1.1-2.0). When stratified by mode of delivery, this association was more pronounced for cesarean births, with an adjusted risk ratio of 1.8 (95% confidence interval, 1.1-2.7), and was no longer significant for vaginal births. Mean pain scores after cesarean delivery were significantly higher in parturients with antepartum depressive symptoms. CONCLUSION: Antepartum depressive symptoms were associated with significant postpartum inpatient opioid use, especially following cesarean delivery. Whether identifying and treating depressive symptoms in pregnancy may impact the pain experience and opioid use postpartum warrants further investigation."""
+
+

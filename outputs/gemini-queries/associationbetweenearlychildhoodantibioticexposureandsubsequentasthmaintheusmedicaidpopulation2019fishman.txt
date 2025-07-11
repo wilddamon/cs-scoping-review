@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenearlychildhoodantibioticexposureandsubsequentasthmaintheusmedicaidpopulation2019fishman
+"BACKGROUND: Although socioeconomically disadvantaged children have an increased risk of asthma, the association between early-childhood antibiotics and the incidence of asthma among such children has had limited study. OBJECTIVE: To examine the association between antibiotic fills in the first 2 years of life and risk of developing asthma among children enrolled in Medicaid plans. METHODS: This retrospective cohort study of children with continuous medical and pharmacy coverage from birth to 2.5 years of age was performed from July 1, 2012, to November 31, 2018. We excluded children with a diagnosis of asthma before 2.5 years of age. Hazard ratios (HRs) and 95% CIs were estimated from Cox proportional hazards regression models. Covariates included sex, preterm birth, cesarean delivery, and mother's asthma status. RESULTS: There were 79,582 children in the study cohort of whom 29,931 (37.6%) had 0 antibiotic prescriptions filled, 27,403 (34.4%) had 1 or 2 prescriptions filled, and 22,248 (28.0%) had 3 or more prescriptions filled. A total of 2381 new cases of asthma were observed in 89,545 person-years of follow-up. After adjustment, receipt of 1 or 2 antibiotics was associated with an increased risk of developing asthma, relative to 0 antibiotics (HR, 1.34; 95% CI, 1.21-1.49), and receipt of 3 or more antibiotics was associated with greater increased risk relative to 0 antibiotics (HR, 1.71; 95% CI, 1.54-1.90). After adjustment, the absolute risk of developing asthma by age 4.0 years increased from 2.7% (0 antibiotics) to 3.6% (1-2 antibiotics) and 4.5% (>=3 antibiotics). CONCLUSION: Antibiotic prescriptions filled in the first 2 years of life were associated with an increased risk of asthma diagnosis from 2.5 to 5 years of age in a Medicaid population."""
+
+

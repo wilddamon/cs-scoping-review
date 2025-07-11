@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskcalculatortopredictcesareandeliveryamongwomenundergoinginductionoflabor2020rossi
+"OBJECTIVE: To develop and validate a predictive risk calculator for cesarean delivery among women undergoing induction of labor. METHODS: We performed a population-based cohort study of all women who had singleton live births after undergoing induction of labor from 32 0/7 to 42 6/7 weeks of gestation in the United States from 2012 to 2016. The primary objective was to build a predictive model estimating the probability of cesarean delivery after induction of labor using antenatal factors obtained from de-identified U.S. live-birth records. Multivariable logistic regression estimated the association of these factors on risk of cesarean delivery. K-fold cross validation was performed for internal validation of the model, followed by external validation using a separate live-birth cohort from 2017. A publicly available online calculator was developed after validation and calibration were performed for individual risk assessment. The seven variables selected for inclusion in the model by magnitude of influence were prior vaginal delivery, maternal weight at delivery, maternal height, maternal age, prior cesarean delivery, gestational age at induction, and maternal race. RESULTS: From 2012 to 2016, there were 19,844,580 live births in the United States, of which 4,177,644 women with singleton gestations underwent induction of labor. Among these women, 800,423 (19.2%) delivered by cesarean. The receiver operating characteristic curve for the seven-variable model achieved an area under the curve (AUC) of 0.787 (95% CI 0.786-0.788). External validation demonstrated a consistent measure of discrimination with an AUC of 0.783 (95% CI 0.764-0.802). CONCLUSION: This validated predictive model uses seven variables that were obtainable from the patient's medical record and discriminates between women at increased or decreased risk of cesarean delivery after induction of labor. This risk calculator, found at https://ob.tools/iol-calc, can be used in addition to the Bishop score by health care providers in counseling women who are undergoing an induction of labor and allocating appropriate resources for women at high risk for cesarean delivery."""
+
+

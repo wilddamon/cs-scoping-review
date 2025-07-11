@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofmaternalmorbiditywithincreasingnumberofcesareans2019sondgeroth
+"OBJECTIVE: To estimate the risk of perioperative morbidity with increasing number of cesareans. STUDY DESIGN: We conducted a retrospective cohort study from 2004 to 2010. Patients delivered by cesarean were included. Outcome measures were a composite organ injury (bowel or bladder), hysterectomy, hemorrhage requiring transfusion, severe morbidity, or surgical site complications. The Cochran-Armitage's test of trend was used to assess increasing incidence of each morbidity with number of prior cesareans. Multivariable logistic regression was used to estimate adjusted risks for each morbidity with increasing number of cesareans compared with primary cesarean. RESULTS: Of the 15,872 women in the cohort, 5,144 had cesarean delivery: 3,113 primary, 1,310 one prior, 510 two prior, and 211 three or more prior cesareans. There was a significant increase in organ injury, hysterectomy, and surgical site complications with increasing number of cesareans. In multivariable analysis, the risk of organ injury and hysterectomy was increased compared with primary cesarean after two prior cesareans, and after three or more cesareans for hemorrhage requiring transfusion and surgical site complications. CONCLUSION: The risks of organ injury and hysterectomy are increased after two or more prior cesareans, and risks of hemorrhage and surgical site complications are increased after three or more cesareans."""
+
+

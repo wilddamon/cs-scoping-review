@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inductionoflabourwithadoubleballooncathetercomparisonofeffectivenessofsixversustwelvehoursinsertiontimeaprospectivecasecontrolstudy2023strossner
+"Introduction Induction of labour is a common obstetric procedure to initiate or augment contractions when labour is delayed or uncertain. The double balloon catheter is a safe and effective mechanical method for cervical ripening during induction of labour. This study evaluates the effectiveness of reducing double balloon catheter insertion time from 12 to 6 hours. Methods 248 women undergoing induction with a double balloon catheter at term were divided into two groups: catheter placed for 12 hours at 8 pm in the first half of 2021 (P12) and catheter placed for 6 hours at 7 am in the second half of 2021 (P6). T-tests, chi-squared tests, and Wilcoxon signed rank test were used for statistical analysis. Primary and secondary endpoints included induction to delivery interval, prostaglandin to delivery interval, mode of delivery, and maternal and neonatal outcomes. Results The P6 group had a significantly reduced induction to delivery interval of 558 min (P6: 1348 min, P12: 1906 min, p < 0.01, 95 % CI: 376-710) within demographically comparable groups. Multiparous women also showed a significant reduction in prostaglandin to delivery interval of 260 min (P6: 590 min, P12: 850 min, p = 0.038, 95 % CI: 9-299). There were no significant differences in mode of delivery, maternal blood loss, or neonatal outcome. Conclusion Reducing double balloon catheter placement time from 12 to 6 hours resulted in almost 9 hours less induction to delivery interval without adverse effects on maternal and neonatal outcome.Copyright (c) 2023. The Author(s)."""
+
+

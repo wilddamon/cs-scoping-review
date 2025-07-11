@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: efficacyofthenichdvaginalbirthaftercesareandeliverycalculatorasinglecenterexperience2020wyckoff
+"Objective: As the cesarean delivery rate has risen future pregnancy outcomes are impacted including the decision to undergo a repeat cesarean or a vaginal birth after cesarean (VBAC) in the subsequent pregnancy. A calculator was developed by the maternal fetal medicine units (MFMUs) network in 2007 to estimate the chance of successful VBAC and is used widely. The purpose of this study was to investigate the calculator's validity on our obstetric patient population.Study design: This was a retrospective study of patients attempting a VBAC delivery at a single center from January 2012 to June 2014. Chances for success were estimated using the MFMU network VBAC calculator in 201 evaluable patients. We then compared the calculator's results with the outcomes observed. In order to determine if the MFMU VBAC calculator was accurately predicting successful vaginal deliveries, we discretized our dataset by binning into MFMU score deciles. Each decile was then tested for significant deviations from the predicted success rate using an exact binomial test. Significance was determined at 0.05 levels.Results: Two hundred and one patients were included. Our results demonstrated higher actual VBAC success than anticipated by using the MFMU network calculator for patients with scores in the 40-80% decile range. When stratified by race, we found the calculator to be a better predictor of success in African-American patients, as the calculator appears to underestimate success in white and Hispanic patients.Conclusion: Calculators are helpful to facilitate patient counseling and shared decision-making regarding the patient's choice for VBAC. When providing such counseling, the potential for reduced predicted VBAC success in the mid-decile range with the MFMU calculator should be recognized."""
+
+

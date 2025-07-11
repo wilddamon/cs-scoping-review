@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofperipartumclostridioidesdifficileinfectiononpregnancyandneonataloutcomesanobservationalstudy2023saha
+"BACKGROUND: The incidence of Clostridioides difficile infection (CDI) in peripartum women is rising, but limited data on its effect on maternal and neonatal outcomes are available. OBJECTIVE: To study the effect of peripartum CDI on pregnancy and neonatal outcomes. DESIGN: Retrospective cohort study. METHODS: Patients with peripartum CDI 12 weeks before pregnancy through 6 weeks postpartum (January 1996-February 2018) were matched with controls (peripartum women without CDI) 1:1 by age, year of delivery, and prior pregnancies. McNemar's test and conditional logistic regression were used to analyze the effect of CDI on pregnancy and neonatal outcomes (complications, mode of delivery). p < 0.05 was considered statistically significant. RESULTS: Overall, 101 cases and 100 controls (1997-2018) were included; median age 27 (range, 20-41) years. Timing of CDI was as follows: pre-pregnancy: 15.8% (n = 16), during pregnancy: 51.5% (n = 52), and postpartum: 32.7% (n = 33). The commonest risk factor was outpatient/emergency room visits. Pregnancy and neonatal outcomes were analyzed for 67 matched pairs with CDI before or during pregnancy. Cases had higher odds of cesarean delivery (p = 0.02) and lower odds of Group B Streptococcus (GBS) infection/colonization (p = 0.03). Odds of cesarean delivery remained high after controlling for labor arrest disorders [odds ratio (OR): 17.23 (95% confidence interval (CI), 2.19-543.19; p = 0.004)]; odds of GBS remained low after controlling for antibiotic use (OR: 0.25, 95% CI, 0.04-0.99; p = 0.049). Neonatal outcomes were similar in cases and controls. CDI treatment did not affect treatment-related or delivery outcomes. CONCLUSION: Peripartum CDI was associated with higher odds of cesarean delivery and lower odds of GBS infections. Larger studies exploring the effect of CDI on pregnancy and neonatal outcomes are needed."""
+
+

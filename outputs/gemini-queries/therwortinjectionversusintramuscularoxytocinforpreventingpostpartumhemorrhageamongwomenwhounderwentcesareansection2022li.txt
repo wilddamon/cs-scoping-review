@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectsofmotherwortinjectionversusintramuscularoxytocinforpreventingpostpartumhemorrhageamongwomenwhounderwentcesareansection2022li
+"Objectives: Subject to ethical constraints, real-world data are an important resource for evaluating treatment effects of medication use during pregnancy and the postpartum period. This study investigated whether motherwort injection, a traditional Chinese medicine preparation, was more effective than intramuscular (IM) oxytocin for preventing postpartum hemorrhage (PPH) in a real-world setting when intravenous (IV) oxytocin is administered. Methods: We conducted an active-controlled, propensity-score matched cohort study using an established pregnancy registry database. Women who underwent cesarean section and received IV oxytocin at the third stage of labor were included. We used an active-comparator design to minimize indication bias, in which we compared IM motherwort injection in the uterus versus IM oxytocin, both on top of IV oxytocin use. We applied 1:1 propensity-score matching (PSM) to balance patient baseline characteristics and used a logistic regression model to estimate treatment effect (i.e., risk difference (RD) and odds ratio (OR)) by using the counterfactual framework. The outcomes of interest were blood loss over 500 ml within 2 h after delivery (PPH, primary) and blood loss over 1,000 ml (severe PPH, secondary). We conducted four sensitivity analyses to examine the robustness of the results. Results: A total of 22,519 pregnant women underwent cesarean sections, among which 4,081 (18.12%) PPH and 480 (2.13%) severe PPH occurred. Among included women, 586 (2.60%) were administrated with IM motherwort injection, and 21,933 (97.40%) used IM oxytocin. After PSM, patient baseline characteristics were well balanced. Compared with IM oxytocin, the use of IM motherwort injection was associated with significantly lower risk of PPH (RD -25.26%, 95% CI -30.04% to -20.47%, p < 0.001; OR 0.25, 95% CI 0.18 to 0.32, p < 0.001) and severe PPH (RD -3.58%, 95% CI -5.87% to -1.30%, p < 0.001; OR 0.39, 95% CI 0.20 to 0.71, p < 0.002). Sensitivity analyses showed that the results were similar. Conclusion: With the use of data from a real-world setting, the findings consistently showed that among women undergoing cesarean section who had received IV oxytocin, the additional use of IM motherwort injection could achieve a lower risk of PPH as compared to the additional use of IM oxytocin. Our study suggested a paradigm for investigating the treatment effect of Chinese herbal medicine in the real-world practice setting."""
+
+

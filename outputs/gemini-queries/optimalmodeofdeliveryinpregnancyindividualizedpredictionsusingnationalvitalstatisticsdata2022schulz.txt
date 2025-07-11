@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: optimalmodeofdeliveryinpregnancyindividualizedpredictionsusingnationalvitalstatisticsdata2022schulz
+"Child birth via Cesarean section accounts for approximately 32% of all births each year in the United States. A variety of risk factors and complications can lead caregivers and patients to plan for a Cesarean delivery in advance before onset of labor. However, a non-trivial subset of Cesarean sections (~25%) are unplanned and occur after an initial trial of labor is attempted. Unfortunately, patients who deliver via unplanned Cesarean sections have increased maternal morbidity and mortality rates and higher rates of neonatal intensive care admissions. In an effort to develop models aimed at improving health outcomes in labor and delivery, this work seeks to explore the use of national vital statistics data to quantify the likelihood of an unplanned Cesarean section based on 22 maternal characteristics. Machine learning techniques are used to ascertain influential features, train and evaluate models, and assess accuracy against available test data. Based on cross-validation results from a large training cohort (n = 6,530,467 births), the gradient-boosted tree algorithm was identified as the best performer and was evaluated on a large test cohort (n = 10,613,877 births) for two prediction scenarios. Area under the receiver operating characteristic curves of 0.77 or higher and recall scores of 0.78 or higher were obtained and the resulting models are well calibrated. Combined with feature importance analysis to explain why certain maternal characteristics lead to a specific prediction in individual patients, the developed analysis pipeline provides additional quantitative information to aid in the decision process on whether to plan for a Cesarean section in advance, a substantially safer option among women at a high risk of unplanned Cesarean delivery during labor."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofcesareandeliveryinclassiiiobesenulliparouswomenanexternallyvalidatedmodelusingmachinelearning2023lodi
+"BACKGROUND: class III obese women, are at a higher risk of cesarean section during labor, and cesarean section is responsible for increased maternal and neonatal morbidity in this population. OBJECTIVE: the objective of this project was to develop a method with which to quantify cesarean section risk before labor. METHODS: this is a multicentric retrospective cohort study conducted on 410 nulliparous class III obese pregnant women who attempted vaginal delivery in two French university hospitals. We developed two predictive algorithms (a logistic regression and a random forest models) and assessed performance levels and compared them. RESULTS: the logistic regression model found that only initial weight and labor induction were significant in the prediction of unplanned cesarean section. The probability forest was able to predict cesarean section probability using only two pre-labor characteristics: initial weight and labor induction. Its performances were higher and were calculated for a cut-point of 49.5% risk and the results were (with 95% confidence intervals): area under the curve 0.70 (0.62,0.78), accuracy 0.66 (0.58, 0.73), specificity 0.87 (0.77, 0.93), and sensitivity 0.44 (0.32, 0.55). CONCLUSIONS: this is an innovative and effective approach to predicting unplanned CS risk in this population and could play a role in the choice of a trial of labor versus planned cesarean section. Further studies are needed, especially a prospective clinical trial. FUNDING: French state funds 'Plan Investissements d'Avenir' and Agence Nationale de la Recherche."""
+
+

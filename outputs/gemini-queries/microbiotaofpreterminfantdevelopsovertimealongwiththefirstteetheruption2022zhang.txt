@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: microbiotaofpreterminfantdevelopsovertimealongwiththefirstteetheruption2022zhang
+"Objective: The temporal growth of the infant microbiome in the early years of life influences short- and long-term infant health. The aim of this longitudinal study was to investigate bacterial dynamics in the microbiome of preterm infants during tooth eruption. Method(s): Saliva samples from normally delivered (n = 24) and preterm infants (n = 31) were collected 30 days after birth and after the eruption of two primary mandibular incisors. Based on Illumina MiSeq Sequencing of the 16S rRNA gene, the dynamic microbial changes of newborns at two-time points were investigated. Meanwhile, the Human Oral Microbiome Database was adopted for assigning taxonomy. Result(s): Using alpha and beta diversity analyses, different shift patterns of microbiome structures in preterm and healthy participants and bacterial diversity over time were observed. The relative abundance and shifts trend, along with the two lower primary central incisors eruption, of core oral flora varies in full-term and preterm groups, including Gemella spp., Rothia mucilaginosa, Veillonella atypica, etc. Several microorganisms colonize later in the oral microbiome development of premature babies, such as Gemella spp. In addition to teeth eruption, the growth of the saliva microbiome in preterm infants could be influenced by breastfeeding durations and birth weight. Conclusion(s): This study provided insights into how the oral microbiota changes during tooth eruption in preterm infants and how the colonization of the oral cavity with bacteria in preterm infants differs significantly from that in full-term infants.Copyright (c) 2022 Zhang, Wu, Feng, Cao, Feng and Chen."""
+
+

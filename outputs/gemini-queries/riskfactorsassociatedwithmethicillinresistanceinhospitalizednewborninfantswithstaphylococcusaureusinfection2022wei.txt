@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsassociatedwithmethicillinresistanceinhospitalizednewborninfantswithstaphylococcusaureusinfection2022wei
+"Background: An increasing number of infections due to methicillin-resistant Staphylococcus aureus (S. aureus) have been reported worldwide. To explore the risk factors associated with methicillin-resistance among the neonates with confirmed S. aureus infections and thereby to help selection of appropriate empirical antibiotics. Method(s): We compared a group of hospitalized neonates with culture confirmed methicillin-resistant S. aureus (MRSA) infections to a group with methicillin-sensitive S. aureus (MSSA) based on antimicrobial susceptibility reports. We used multivariable regression analysis to determine the risk factors for neonatal MRSA infections. Result(s): There was no difference in the ratio of local to systemic infections or mortality between the two groups. However, the total hospitalization days and the medical care expenses in the MRSA group were significantly increased when compared to that of the MSSA group. Prior use of antibiotics for more than 48 hours was an independent risk factor for neonatal acquisition of MRSA infections, while exclusive breast milk feeding was a protective factor against MRSA infections. Conclusion(s): Restrictions on antibiotic abuse and promotion of breast milk feeding may protect newborns from MRSA infections. Prior history of antibiotic use and exclusive breast milk feeding may be important factors to consider in the selection of appropriate empirical antibiotics for use in neonates prior to the availability of the results of antimicrobial susceptibility testing.Copyright (c) 2022 Wei et al. Tand incorporate the."""
+
+

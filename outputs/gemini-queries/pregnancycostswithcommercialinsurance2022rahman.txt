@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancycostswithcommercialinsurance2022rahman
+"BACKGROUND: Costs for obstetrical care may be increasing for both patients and insurers.;OBJECTIVE: To examine predictors of and trends in the cost of medical care during pregnancy.;STUDY DESIGN: We performed a study of pregnancies from 2009 to 2019 covered by commercial insurance resulting in term, singleton delivery hospitalizations and included in the MarketScan database. The analysis categorized pregnancies based on whether delivery occurred via cesarean versus vaginal delivery and whether pre-gestational diabetes or chronic hypertension was present. We estimated inflation-adjusted total medical costs from 273 days before through 42 days after delivery hospitalization discharge. The analysis evaluated costs for inpatient services, outpatient services, and outpatient drugs separately and trended these costs over the study period. The analysis dichotomized total medical costs into insurer liability versus out-of-pocket patient costs. The study used quantile regression models fit separately to evaluate costs for vaginal and cesarean delivery including demographic and medical characteristics.;RESULTS: The analysis included 1,952,432 pregnancies covered by commercial insurance. From 2009 to 2019, median total medical costs increased from $14,091 (IQR $11,122-$18,417) to $19,645 (IQR $14,676-$27,959) with median inpatient costs increasing 36% and median outpatient costs increasing 43%. Out-of-pocket costs rose 65% for inpatient services and 120% for outpatient services. Median total pregnancy costs were higher for women with chronic hypertension (median $22,268, IQR $16,809-$30,901, p < .01), pregestational diabetes (median $20,786, IQR $15,702-$28,714, p < .01), and cesarean delivery (median $20,098, IQR $15,748-$26,889 versus median $14,904, IQR $11,728-$19,785 for vaginal delivery, p < .01). In adjusted analyses, chronic hypertension, diabetes, and cesarean delivery were associated with increased median total costs.;CONCLUSION: Total and out-of-pocket medical costs for maternity care are increasing among commercially insured patients. Chronic hypertension, pregestational diabetes, and cesarean delivery are important predictors of costs."""
+
+

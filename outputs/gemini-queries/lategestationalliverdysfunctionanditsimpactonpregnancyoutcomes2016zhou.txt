@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lategestationalliverdysfunctionanditsimpactonpregnancyoutcomes2016zhou
+"OBJECTIVE: The aim of this study was to investigate the impacts of late gestational liver dysfunction and its impact on pregnancy outcomes.;MATERIALS AND METHODS: The patients hospitalized for liver dysfunction in their late pregnancy between 2010-2012 were set as the observation group, and the pregnant women with normal liver function at the same period were randomly selected and set as the control group. The impacts towards the pregnancy outcomes were compared between these two groups and the impacts of different-degree transaminase increasing towards the pregnancy outcome were analyzed.;RESULTS: The incidence rates of cesarean section, post-partum hemorrhage, fetal distress, premature birth, premature rupture of membranes (PROM) of the observation group and the transaminase-severely-increased group (the severe group) were higher, and the differences were statistically significant (p < 0.01 or < 0.05); while only the cesarean rate of the mild and moderate group was significantly different from the control group (p < 0.01 or < 0.05). The ratios of intrahepatic cholestasis in pregnancy (ICP), gestational hypertension + HELLP syndrome, acute fatty liver in pregnancy (AFLP) of the severe group were higher than the mild and moderate group, and the differences were statistically significant; the non-alcoholic fatty liver disease (NAFLD) group and the unknown cause group mainly showed a mildly increased transaminase; the distributions of viral hepatitis in pregnancy (VHP), post-viral-hepatitis-B cirrhosis, biliary tract disease, and infected toxic liver dysfunction in different-degree increased transaminase groups had no significant difference.;CONCLUSIONS: Liver dysfunction in later pregnancy, especially with severe transaminase increase, might significantly increase the risk of adverse maternal events. The major causes of severe liver dysfunction in late pregnancy were ICP, gestational hypertensive disorders, and AFLP."""
+
+

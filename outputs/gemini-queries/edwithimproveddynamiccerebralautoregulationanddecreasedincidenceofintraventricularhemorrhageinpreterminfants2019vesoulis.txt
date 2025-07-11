@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: delayedcordclampingisassociatedwithimproveddynamiccerebralautoregulationanddecreasedincidenceofintraventricularhemorrhageinpreterminfants2019vesoulis
+"Delayed cord clamping (DCC) improves neurologic outcomes in preterm infants through a reduction in intraventricular hemorrhage (IVH) incidence. The mechanism behind this neuroprotective effect is not known. Infants born <28 wk gestation were recruited for longitudinal monitoring. All infants underwent 72 h of synchronized near-infrared spectroscopy (NIRS) and mean arterial blood pressure (MABP) recording within 24 h of birth. Infants with DCC were compared with control infants with immediate cord clamping (ICC), controlling for severity of illness [clinical risk index for babies (CRIB-II) score], chorioamnionitis, antenatal steroids, sedation, inotropes, and delivery mode. Autoregulatory dampening was calculated as the transfer function gain coefficient between the MABP and NIRS signals. Forty-five infants were included (DCC; n = 15, paired 2:1 with ICC controls n = 30). ICC and DCC groups were similar including gestational age (25.5 vs. 25.2 wk, P = 0.48), birth weight (852.3 vs. 816.6 g, P = 0.73), percent female (40 vs. 40%, P = 0.75), and dopamine usage (27 vs. 23%, P = 1.00). There was a significant difference in IVH incidence between the DCC and ICC groups (20 vs. 50%, P = 0.04). Mean MABP was not different (35.9 vs. 35.1 mmHg, P = 0.44). Compared with the DCC group, the ICC group had diminished autoregulatory dampening capacity (-12.96 vs. -15.06 dB, P = 0.01), which remained significant when controlling for confounders. Dampening capacity was, in turn, strongly associated with decreased risk of IVH (odds ratio = 0.14, P < 0.01). The results of this pilot study demonstrate that DCC is associated with improved dynamic cerebral autoregulatory function and may be the mechanism behind the decreased incidence of IVH. NEW & NOTEWORTHY The neuroprotective mechanism of delayed cord clamping in premature infants is unclear. Delayed cord clamping was associated with improved cerebral autoregulatory function and a marked decrease in intraventricular hemorrhage (IVH). Improved dynamic cerebral autoregulation may decrease arterial baroreceptor sensitivity, thereby reducing the risk of IVH."""
+
+

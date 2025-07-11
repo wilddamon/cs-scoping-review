@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalglucoseandldlcholesterollevelsarerelatedtoplacentalleptingenemethylationandtogetherwithnutritionalfactorslargelyexplainahighermethylationlevelamongethnicsouthasians2021sletner
+"Background: Leptin, mainly secreted by fat cells, plays a core role in the regulation of appetite and body weight, and has been proposed as a mediator of metabolic programming. During pregnancy leptin is also secreted by the placenta, as well as being a key regulatory cytokine for the development, homeostatic regulation and nutrient transport within the placenta. South Asians have a high burden of type 2 diabetes, partly attributed to a "thin-fat-phenotype". Objective(s): Our aim was to investigate how maternal ethnicity, adiposity and glucose- and lipid/cholesterol levels in pregnancy are related to placental leptin gene (LEP) DNA methylation. Method(s): We performed DNA methylation analyses of 13 placental LEP CpG sites in 40 ethnic Europeans and 40 ethnic South Asians participating in the STORK-Groruddalen cohort. Result(s): South Asian ethnicity and gestational diabetes (GDM) were associated with higher placental LEP methylation. The largest ethnic difference was found for CpG11 [5.8% (95% CI: 2.4, 9.2), p<0.001], and the strongest associations with GDM was seen for CpG5 [5.2% (1.4, 9.0), p=0.008]. Higher maternal LDL-cholesterol was associated with lower placental LEP methylation, in particular for CpG11 [-3.6% (-5.5, -1.4) per one mmol/L increase in LDL, p<0.001]. After adjustments, including for nutritional factors involved in the one-carbon-metabolism cycle (vitamin D, B12 and folate levels), ethnic differences in placental LEP methylation were strongly attenuated, while associations with glucose and LDL-cholesterol persisted. Conclusion(s): Maternal glucose and lipid metabolism is related to placental LEP methylation, whilst metabolic and nutritional factors largely explain a higher methylation level among ethnic South Asians.Copyright (c) 2021 Sletner, Moen, Yajnik, Lekanova, Sommer, Birkeland, Jenum and Bottcher."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationsofpretermandearlytermbirthwithsuspecteddevelopmentalcoordinationdisorderanationalretrospectivecohortstudyinchildrenaged310years2023liu
+"Background: This study analyzed the motor development and suspected developmental coordination disorder of very and moderately preterm (< 34+0 gestational age), late preterm (34+0-36+6 gestational week), and early-term (37+0-38+6 gestational week) children compared to their full-term peers with a national population-based sample in China. Method(s): A total of 1673 children (799 girls, 874 boys) aged 3-10 years old were individually assessed with the Movement Assessment Battery for Children-second edition (MABC-2). The association between gestational age and motor performance of children was analyzed using a multilevel regression model. Result(s): The global motor performance [beta = - 5.111, 95% confidence interval (CI) = - 9.200 to - 1.022; P = 0.015] and balance (beta = - 5.182, 95% CI = - 5.055 to - 1.158; P = 0.003) for very and moderately preterm children aged 3-6 years old were significantly lower than their full-term peers when adjusting for confounders. Late preterm and early-term children showed no difference. Moreover, very and moderately preterm children aged 3-6 years had a higher risk of suspected developmental coordination disorder (DCD) (<= 5 percentile of MABC-2 score) when adjusting for potential confounders [odds ratio (OR) = 2.931, 95% CI = 1.067-8.054; P = 0.038]. Late preterm and early-term children showed no difference in motor performance from their full-term peers (each P > 0.05). Conclusion(s): Our findings have important implications for understanding motor impairment in children born at different gestational ages. Very and moderately preterm preschoolers have an increased risk of DCD, and long-term follow-up should be provided for early detection and intervention.Copyright (c) 2022, The Author(s)."""
+
+

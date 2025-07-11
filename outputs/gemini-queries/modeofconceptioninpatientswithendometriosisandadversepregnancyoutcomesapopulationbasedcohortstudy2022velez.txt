@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofconceptioninpatientswithendometriosisandadversepregnancyoutcomesapopulationbasedcohortstudy2022velez
+"OBJECTIVE: To evaluate the association between endometriosis and adverse pregnancy outcomes. DESIGN: Population-based retrospective cohort study using linked universal health databases through ICES Ontario. PATIENT(S): All singleton pregnancies with an estimated date of confinement between October 2006 and February 2014. INTERVENTION(S): Endometriosis was determined based on a surgical and/or medical diagnosis (defined as an in-hospital admission or surgery with a diagnosis code of International Classification of Diseases [ICD]9-617 or ICD10-N80 and/or 2 medical consults billed as ICD9-617). MAIN OUTCOME MEASURE(S): The association between endometriosis and pregnancy outcomes was quantified by relative risks, derived using modified Poisson regression, and adjusted for maternal age, income quintiles, and history of fibroids (aRR). Mediation analysis was conducted to estimate direct effects of endometriosis diagnosis and indirect effects through mode of conception, namely: infertility without fertility treatment (known infertility but conceived without assistance), ovulation induction or intrauterine insemination, and in vitro fertilization or intracytoplasmic sperm injection, relative to unassisted conception. RESULT(S): A total of 19,099 pregnancies had an antecedent diagnosis of endometriosis, while 768,350 did not. Mean time (standard deviation) from endometriosis diagnosis to the index pregnancy was 5.6 (4.3) years. Endometriosis was associated with an increased risk of hypertensive disorders of pregnancy (aRR, 1.09; 95% confidence interval [CI], 1.02-1.16), preterm birth <37 weeks (aRR, 1.26; 95% CI, 1.20-1.33), early preterm birth <34 weeks (aRR, 1.33; 95% CI, 1.17-1.50), placenta previa (aRR, 2.07; 95% CI, 1.84-2.33), placenta abruption (aRR, 1.55; 95% CI, 1.31-1.83), other placental disorders (aRR, 1.77; 95% CI, 1.36-2.30), cesarean delivery (aRR, 1.18; 95% CI, 1.16-1.21), and stillbirth (aRR, 1.32; 95% CI, 1.09-1.59). Mediation analysis suggests that endometriosis directly affects most adverse pregnancy outcomes studied, except for stillbirth where infertility diagnosis or fertility treatment indirectly accounted for part of the increased risk. CONCLUSION(S): Endometriosis was associated with adverse pregnancy, independent of infertility diagnosis, or fertility treatment. Future studies should investigate the mechanisms of action and potential interventions."""
+
+

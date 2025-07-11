@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: primaryandrepeatcesareandeliveriesapopulationbasedstudyintheunitedstates197920102017ananth
+"BACKGROUND: Despite the temporal increase in cesarean deliveries, the extent to which maternal age, period, and maternal birth cohorts may have contributed to these trends remains unknown. METHODS: We performed an analysis of 123 million singleton deliveries in the United States (1979-2010). We estimated rate ratio (RR) with 95% confidence interval (CI) for primary and repeat cesarean deliveries. We examined changes in cesarean rates with weighted Poisson regression models across three time-scales: maternal age, year of delivery, and birth cohort (mother's birth year). RESULTS: The primary cesarean rate increased by 68% (95% confidence interval [CI]: 67%, 69%) between 1979 (11.0%) and 2010 (18.5%). Repeat cesarean deliveries increased by 178% (95% CI: 176, 179) from 5.2% in 1979 to 14.4% in 2010. Cesarean rates increased with advancing age. Compared with 1979, the RR for the period effect in primary and repeat cesarean deliveries increased up to 1990, fell to a nadir at 1993, and began to rise thereafter. A small birth cohort effect was evident, with women born before 1950 at increased risk of primary cesarean; no cohort effect was seen for repeat cesarean deliveries. Adjustment for maternal BMI had a small effect on these findings. Period effects in primary cesarean were explained by a combination of trends in obesity and chronic hypertension, as well as demographic shifts over time. CONCLUSIONS: Maternal age and period appear to have important contributions to the temporal increase in the cesarean rates, although the effect of parity on these associations remains undetermined."""
+
+

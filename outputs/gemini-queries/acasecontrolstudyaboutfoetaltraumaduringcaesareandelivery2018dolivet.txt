@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acasecontrolstudyaboutfoetaltraumaduringcaesareandelivery2018dolivet
+"OBJECTIVE: The caesarean section rate is gradually increasing in most countries. The frequency of occurrence of foetal injury per birth is estimated to 1%. The majority of these injuries presents a low functional impact, but remains responsible for a significant neonatal morbidity. Even though the foetal risk factors are well documented in cases of vaginal birth, they have not been accurately identified for caesarean section. The aim of this study is to identify the risk factors for neonatal fracture during caesarean section. METHODS: We conducted a retrospective case-control study comparing complicated caesarean sections foetal fracture with uncomplicated caesarean sections in a tertiary teaching hospital. We collected all the caesarean sections carried out between 1st January 2003 and 1st September 2015 and selected those the medical files of which presented a foetal fracture diagnosis. RESULTS: We identified 10 fractures during the study period, including four skull fractures, three long bone fractures, three clavicle fractures. In all these cases there were no complications with a median perspective of six years (median=6, IQR=4). The push method, which is performed during a caesarean section at the second stage of labour, is identified as a risk factor for foetal trauma in our study (OR: 20.2 [2.8-116.85], p<0.01). A significant correlation was found between transverse lie and foetal trauma (OR: 16.67, CI [1.39; 123.18], p=0.0137). CONCLUSION: Foetal trauma during caesarean delivery is a rare event for which the prognosis is most often favourable. Data in the literature on the subject are minimal. This study highlighted transverse lie and the push method as risks factors for foetal fractures during caesarean sections. This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors."""
+
+

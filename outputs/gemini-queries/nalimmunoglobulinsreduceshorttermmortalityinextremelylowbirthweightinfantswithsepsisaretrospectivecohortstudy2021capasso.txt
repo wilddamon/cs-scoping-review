@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: igmandigaenrichedpolyclonalimmunoglobulinsreduceshorttermmortalityinextremelylowbirthweightinfantswithsepsisaretrospectivecohortstudy2021capasso
+"BACKGROUND: Immunoglobulin supplementation is a debated strategy in fighting sepsis. We evaluated a polyclonal IgM and IgA enriched immunoglobulin (IgMeIVIG) preparation in reducing the short-term mortality in extremely low birth weight neonates (ELBW) with proven infection. METHODS: ELBW infants born from January 2008 to December 2014 were eligible for this retrospective case-control analysis if they were symptomatic and had a positive blood culture after 72 hours of life. Patients received antibiotic treatment with or without IgMeIVIG (intravenously, 250 mg/kg/day for 3 days) within the 24 hours from clinical suspicion as per indication of the attending physician. Short-term (7 and 21 days) mortality was the study primary outcome while secondary outcomes were: mortality at discharge, intraventricular hemorrhage, necrotizing enterocolitis, bronchopulmonary dysplasia, periventricular leukomalacia, and retinopathy of prematurity. RESULTS: Each group was composed by thirty-nine infants. Both groups were similar for antenatal steroids, mode of delivery, birth weight, gestational age and SNAPII score as indicator of disease severity. Infants receiving IgMeIVIG had a significantly lower short-term mortality compared with neonates receiving antibiotics alone: 6/39 (15%) vs. 14/39 (36%); P=0.038. No differences in other outcomes were found. CONCLUSIONS: This study shows that IgMeIVIG may have a role as adjuvant therapy in ELBW infants with proven sepsis. We warrant future prospective, blinded RCT studies where IgMeIVIG can be consistently used if needed throughout the NICU admission in ELBW septic neonates to appropriately evaluate its effect on mortality at discharge."""
+
+

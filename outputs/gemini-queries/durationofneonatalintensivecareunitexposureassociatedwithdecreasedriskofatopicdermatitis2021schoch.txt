@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: durationofneonatalintensivecareunitexposureassociatedwithdecreasedriskofatopicdermatitis2021schoch
+"BACKGROUND/OBJECTIVES: Premature infants have lower rates of atopic dermatitis (AD) compared with full-term infants, though little is known about the factors contributing to this association. We explored the infant and environmental factors that may contribute to the association between prematurity and atopic dermatitis, including mode of delivery, birthweight, gestation, and duration of stay in the neonatal intensive care unit (NICU). METHODS: This was a single-center retrospective study. Independent samples t tests or chi-square tests were used to compare groups on continuous and categorical variables, respectively. Logistic regression then examined the association of the predictor variables with AD. RESULTS: Four thousand sixteen mother-infant dyads were included. Infants had a higher risk of developing AD if they were delivered vaginally (P = .013), did not stay in the NICU (P < .001), had a longer gestation (P = .001), or had a higher birthweight (P = .002). In modeling atopic dermatitis with the predictor variables, only NICU length of stay remained significantly associated with a lower risk of AD (P = .004). CONCLUSION: Infants had a lower risk of developing AD if they had a longer stay in the NICU."""
+
+

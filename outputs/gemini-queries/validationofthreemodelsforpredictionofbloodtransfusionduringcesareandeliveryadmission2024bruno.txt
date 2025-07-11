@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: validationofthreemodelsforpredictionofbloodtransfusionduringcesareandeliveryadmission2024bruno
+"OBJECTIVE: Prediction of blood transfusion during delivery admission allows for clinical preparedness and risk mitigation. Although prediction models have been developed and adopted into practice, their external validation is limited. We aimed to evaluate the performance of three blood transfusion prediction models in a U.S. cohort of individuals undergoing cesarean delivery. STUDY DESIGN: This was a secondary analysis of a multicenter randomized trial of tranexamic acid for prevention of hemorrhage at time of cesarean delivery. Three models were considered: a categorical risk tool (California Maternal Quality Care Collaborative [CMQCC]) and two regression models (Ahmadzia et al and Albright et al). The primary outcome was intrapartum or postpartum red blood cell transfusion. The CMQCC algorithm was applied to the cohort with frequency of risk category (low, medium, high) and associated transfusion rates reported. For the regression models, the area under the receiver-operating curve (AUC) was calculated and a calibration curve plotted to evaluate each model's capacity to predict receipt of transfusion. The regression model outputs were statistically compared. RESULTS: Of 10,785 analyzed individuals, 3.9% received a red blood cell transfusion during delivery admission. The CMQCC risk tool categorized 1,970 (18.3%) individuals as low risk, 5,259 (48.8%) as medium risk, and 3,556 (33.0%) as high risk with corresponding transfusion rates of 2.1% (95% confidence interval [CI]: 1.5-2.9%), 2.2% (95% CI: 1.8-2.6%), and 7.5% (95% CI: 6.6-8.4%), respectively. The AUC for prediction of blood transfusion using the Ahmadzia and Albright models was 0.78 (95% CI: 0.76-0.81) and 0.79 (95% CI: 0.77-0.82), respectively (p = 0.38 for difference). Calibration curves demonstrated overall agreement between the predicted probability and observed likelihood of blood transfusion. CONCLUSION: Three models were externally validated for prediction of blood transfusion during cesarean delivery admission in this U.S. COHORT: Overall, performance was moderate; model selection should be based on ease of application until a specific model with superior predictive ability is developed. KEY POINTS: * A total of 3.9% of individuals received a blood transfusion during cesarean delivery admission.. * Three models used in clinical practice are externally valid for blood transfusion prediction.. * Institutional model selection should be based on ease of application until further research identifies the optimal approach.."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: normallaborcurveintwingestation2021hochler
+"BACKGROUND: Failure to progress is one of the leading indications for cesarean delivery in trials of labor in twin gestations. However, assessment of labor progression in twin labors is managed according to singleton labor curves. OBJECTIVE: This study aimed to establish a partogram for twin deliveries that reflects normal and abnormal labor progression and customized labor curves for different subgroups of twin labors. STUDY DESIGN: This was a multicenter, retrospective cohort analysis of twin deliveries that were recorded in 3 tertiary medical centers between 2003 and 2017. Eligible parturients were those with twin gestations at >=34 weeks' gestation with cephalic presentation of the presenting twin and >=2 cervical examinations during labor. Exclusion criteria were elective cesarean delivery without a trial of labor, major fetal anomalies, and fetal demise. The study group comprised twin gestations, whereas singleton gestations comprised the control group. Statistical analysis was performed using Python 3.7.3 and SPSS, version 27. Categorical variables were analyzed using chi-square tests. Student t test and Mann-Whitney U test were applied to analyze the differences in continuous variables, as appropriate. RESULTS: A total of 1375 twin deliveries and 142,659 singleton deliveries met the inclusion criteria. Duration of the active phase of labor was significantly longer in twin labors than in singleton labors in both nulliparous and multiparous parturients; the 95th percentile duration was 2 hours longer in nulliparous twin labors and >3.5 hours longer in multiparous twin labors than in singleton labors. The cervical dilation progression rate was significantly slower in twin deliveries than in singleton deliveries with a mean rate in twin deliveries of 1.89 cm/h (95th percentile, 0.51 cm/h) and a mean rate of 2.48 cm/h (95th percentile, 0.73 cm/h) in singleton deliveries (P<.001). In addition, epidural use further slowed labor progression in twin deliveries. The second stage of labor was also markedly longer in twin deliveries, both in nulliparous and multiparous women (95th percentile, 3.04 vs 2.83 hours, P=.002). CONCLUSION: Twin labors are characterized by a slower progression of the active phase and second stage of labor compared with singleton labors in nulliparous and multiparous parturients. Epidural analgesia further slows labor progression in twin labors. Implementation of these findings in clinical management might lower cesarean delivery rates among cases with protracted labor in twin gestations."""
+
+

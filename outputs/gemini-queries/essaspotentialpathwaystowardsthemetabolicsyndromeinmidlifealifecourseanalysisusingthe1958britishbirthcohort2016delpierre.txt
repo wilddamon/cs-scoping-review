@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theearlylifenutritionalenvironmentandearlylifestressaspotentialpathwaystowardsthemetabolicsyndromeinmidlifealifecourseanalysisusingthe1958britishbirthcohort2016delpierre
+"BACKGROUND: Lifecourse studies suggest that the metabolic syndrome (MetS) may be rooted in the early life environment. This study aims to examine the pathways linking early nutritional and psychosocial exposures and the presence of MetS in midlife. METHODS: Data are from the National Child Development Study including individuals born during 1 week in 1958 in Great Britain and followed-up until now. MetS was defined based on the National Cholesterol Education Program Adult Treatment Panel III classification. Mother's pre-pregnancy body mass index (BMI) was used as a proxy of the early nutritional environment and Adverse Childhood Experiences (ACE) as a proxy for early psychosocial stress. Socioeconomic characteristics, pregnancy and birth conditions were extracted as potential confounders. Adult health behaviors, BMI, socioeconomic environment and psychological state were considered as mediating variables. Multivariate models were performed by including variables sequentially taking a lifecourse approach. RESULTS: 37.5 % of men and 19.8 % of women had MetS. Participants with an obese/overweight mother presented a higher risk of MetS than those whose mother had a normal pre-pregnancy BMI. Men exposed to two ACE or more, and women exposed to one ACE, were more at risk of MetS compared to unexposed individuals. After including confounders and mediators, mother's pre-pregnancy BMI was still associated with MetS in midlife but the association was weakened after including participant's adult BMI. ACE was no longer associated with MetS after including confounders in models. CONCLUSIONS: The early nutritional environment, represented by mother's pre-pregnancy BMI, was associated with the risk of MetS in midlife. An important mechanism involves a mother-to-child BMI transmission, independent of birth or perinatal conditions, socioeconomic characteristics and health behaviors over the lifecourse. However this mechanism is not sufficient for explaining the influence of mother's pre-pregnancy BMI which implies the need to further explore other mechanisms in particular the role of genetics and early nutritional environment. ACE is not independently associated with MetS. However, other early life stressful events such as emergency caesarean deliveries and poor socioeconomic status during childhood may contribute as determinants of MetS."""
+
+

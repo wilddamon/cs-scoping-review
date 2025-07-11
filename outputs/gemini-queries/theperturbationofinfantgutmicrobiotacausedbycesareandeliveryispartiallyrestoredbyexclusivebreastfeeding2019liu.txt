@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theperturbationofinfantgutmicrobiotacausedbycesareandeliveryispartiallyrestoredbyexclusivebreastfeeding2019liu
+"Early establishment of the infant gut microbiome has been attributed to various environmental factors that may influence long-term health. The aim of this study was to determine the single and combined impacts of the delivery mode, feeding pattern and postnatal antibiotic exposure on the initial establishment of infant gut microbiome at 6 weeks postpartum. A cross-sectional study was conducted at a single center in China. Fecal samples were collected from 120 infants at 6 weeks postpartum. The V3-V4 regions of 16S rRNA gene were analyzed by Illumina sequencing, and clinical information was obtained from medical records and questionnaire survey. Compared with vaginally delivered infants, the gut microbial community structure of cesarean delivered infants were significantly different (P = 0.044), in parallel with the decreased relative abundance of Bifidobacterium (P = 0.028), which contrasts with the normal gut microbial establishment. Using the vaginally delivered and exclusively breastfed (VB) infants as a reference, the comparative analysis of cesarean delivered and exclusively breastfed (CB) infants with cesarean delivered and mixed-fed (CM) infants showed that both within- and between-group UniFrac distance were significantly smaller in CB infants (P < 0.001, P < 0.001). LEfSe analysis showed that the relative abundances of Enterococcus, Veillonella, and Faecalibacterium were significantly different between CB and CM infants, whereas the relative abundances of those genera in VB infants were close to those of CB infants, and distinct from those of CM infants. Additionally, no significant difference of microbial composition, alpha diversity, or community structure was observed between postnatal antibiotics exposed infants and unexposed infants. In summary, delivery mode had a significant impact on the infant gut microbial community structure and composition, and the gut microbiota was disturbed in infants delivered by cesarean section. However, our study showed that this disturbance of gut microbiota in cesarean delivered infants was partially restored by exclusive breastfeeding in comparison with mixed feeding. No distinct impact of postnatal antibiotic exposure on infant gut microbiome was found at 6 weeks of age."""
+
+

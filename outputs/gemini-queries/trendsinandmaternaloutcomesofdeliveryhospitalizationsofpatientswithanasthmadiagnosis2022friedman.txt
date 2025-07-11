@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trendsinandmaternaloutcomesofdeliveryhospitalizationsofpatientswithanasthmadiagnosis2022friedman
+"OBJECTIVE: To characterize asthma prevalence and outcomes during U.S. delivery hospitalizations. METHODS: For this repeated cross-sectional analysis, deliveries to women aged 15-54 years with asthma were identified in the 2000-2018 National Inpatient Sample, which approximates a 20% stratified sample of all hospitalizations nationally. Temporal trends in asthma were analyzed using joinpoint regression to estimate the average annual percent change with 95% CIs. The association of asthma with other comorbid conditions was analyzed. The relationship between asthma and several adverse maternal outcomes was analyzed with unadjusted and adjusted logistic regression models, with unadjusted odds ratios and adjusted odds ratios (aORs) as measures of effect. Risk for and trends in a composite of rare, but severe, respiratory complications also were analyzed. RESULTS: An estimated 73,109,790 delivery hospitalizations from 2000 to 2018 were included in the analysis, of which 2,221,644 (3.0%) had a diagnosis of asthma. (Unweighted, the study sample included 15,213,024 deliveries, of which 462,276 [3.0%] had a diagnosis of asthma.) Asthma diagnoses rose from 1.2% in 2000 to 5.3% in 2018, representing an average annual percent change of 8.3% (95% CI 7.4-9.2%). Asthma was more common among women with obesity and chronic hypertension. In adjusted analyses, asthma was associated with severe maternal morbidity (aOR 1.50, 95% CI 1.45-1.55), preeclampsia and gestational hypertension (aOR 1.29, 95% CI 1.26-1.30), postpartum hemorrhage (aOR 1.21, 95% CI 1.19-1.24), cesarean delivery (aOR 1.16, 95% CI 1.15-1.18), gestational diabetes (aOR 1.20, 95% CI 1.18-1.21), venous thromboembolism (aOR 1.79, 95% CI 1.65-1.95), and preterm delivery (aOR 1.27, 95% CI 1.25-1.29). From 2000 to 2018, severe respiratory complications decreased from 72 per 10,000 deliveries with asthma to 14 per 10,000 deliveries with asthma (average annual percent change -9.4%, 95% CI -13.3% to -5.3%). This decreasing risk was offset on a population level by an increase in the risk of asthma. CONCLUSION: Asthma is increasing during deliveries, is associated with adverse maternal outcomes, and is associated with comorbid conditions. Severe respiratory complications are decreasing proportionately among deliveries with asthma, but are stable on a population basis."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timingofcowsmilkproteinintroductionandchildhoodadversereactionstocowsmilk2023olmstead
+"PURPOSE OF THE STUDY: To examine the relationship between cow's milk protein introduction (CMPI) timing and the occurrence of cow's milk adverse reactions (CMAR) in childhood, considering potential interactions regarding formula supplementation immediately after birth. STUDY POPULATION: The study examined 1298 mother-child pairs from Project Viva, a prospective prebirth cohort study, who had data available regarding the timing of CMPI and the presence or absence of cow's milk allergy, intolerance, or sensitivity. The study excluded one child with galacto-semia. The remaining participants were tracked from delivery to early adolescence via in-person research visits. METHODS: This is a population-based cohort study in the Boston, Massachusetts area. Questionnaires administered at different stages of childhood assessed the timing of CMPI (<2 weeks, 2 weeks to <6 months, $6 months), CMAR, cow's milk sensitization, and cow's milk allergy. Multivariable logistic regression models were used, accounting for parental atopy history, delivery mode, gestational age at delivery, child race, and median household. Impact modification by breastfeeding status and postdelivery hospital formula supplementation were also examined. RESULTS: Of the participants, 32% of children were introduced to cow's milk protein within the first 2 weeks after birth, 38% between 2 weeks and 6 months, and 30% at 6 months or later. Children introduced to cow's milk at 6 months or later had over twice the risk of CMAR between ages 2 and 13 years compared with those introduced before 2 weeks (odds ratio, 2.1; 95% confidence interval, 1.2-3.7). Children with early CMPI (<2 weeks) who did not receive a formula supplement at delivery had a 4 times higher predicted probability of early childhood CMAR than children with early CMPI who did receive a formula supplement (adjusted odds ratio of 5.1 [95% confidence interval, 1.6-16.2]). Children who were administered formula postdelivery with early CMPI exhibited the lowest overall risk of CMAR. Timing of CMPI was not associated with either serum evidence of sensitization to milk or IgE-mediated milk allergy. CONCLUSIONS: This study aligns with extant evidence suggesting the early introduction of cow's milk protein is protective against cow's milk adverse reactions later in childhood. Additionally, it is indicated that the ideal timing for CMPI may be contingent upon hospital formula supplementation postdelivery."""
+
+

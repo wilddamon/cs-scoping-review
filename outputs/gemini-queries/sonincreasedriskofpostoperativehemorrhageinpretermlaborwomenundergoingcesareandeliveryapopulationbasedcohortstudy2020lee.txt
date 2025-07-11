@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: differentimpactsofvarioustocolyticagentsonincreasedriskofpostoperativehemorrhageinpretermlaborwomenundergoingcesareandeliveryapopulationbasedcohortstudy2020lee
+"Tocolytic agents, commonly used for inhibiting preterm labor, pose the risk of uterine atony, leading to postpartum hemorrhage. This study elucidated the effects of different tocolytic agents on postoperative hemorrhage among women in preterm labor undergoing Cesarean delivery (CD). Data from Taiwan National Health Insurance Research Database were analyzed. The risk (adjusted hazard ratio [aHR] and 95% confidence intervals [CI]) of postoperative hemorrhage in CD women with preterm labor diagnosis using tocolytic agents (Tocolysis group) comparing to CD women not using tocolytic agents (Control group) were determined. Impacts of different tocolytic agents in this regard were also investigated. Our data revealed that the incidence (11.7% vs 2.6%, P < .001) and risk (aHR: 1.21, 95% CI: 1.12-1.31, P < .001) of postoperative hemorrhage were significantly higher in the Tocolysis group (n = 15,317) than in the Control group (n = 244,096). Ritodrine was the most frequently used tocolytic agent (80.5%), followed by combination therapy (using more than one tocolytic agents) (8.5%), magnesium sulfate (MgSO4, 4.6%), calcium channel blockers (3.8%), betamimetics other than ritodrine (1.9%), prostaglandin synthase inhibitors (0.5%), and nitrates (0.1%). Barring those using calcium channel blockers and combination therapy, the use of MgSO4 (aHR: 1.43, P = .001), betamimetics other than ritodrine (aHR: 1.71, P < .001), prostaglandin synthase inhibitors (aHR: 2.67, P < .001) and nitrates (aHR: 3.30, P = .001) was associated with higher risks of postoperative hemorrhage compared with ritodrine. In conclusion, CD women with preterm labor diagnosis using tocolytic agents exhibit an increased risk of postoperative hemorrhage and that this risk varies with the use of different tocolytic agents."""
+
+

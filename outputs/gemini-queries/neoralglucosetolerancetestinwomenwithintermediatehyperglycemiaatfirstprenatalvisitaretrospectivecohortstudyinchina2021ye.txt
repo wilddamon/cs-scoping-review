@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlyversusroutineoralglucosetolerancetestinwomenwithintermediatehyperglycemiaatfirstprenatalvisitaretrospectivecohortstudyinchina2021ye
+"BACKGROUND AND OBJECTIVES: Intermediate hyperglycemia in the first half of pregnancy, defined as a fasting plasma glucose level between 5.1- 6.9 mM, increases the risk of gestational diabetes mellitus, but clinical evidence for further management is lacking. We aim to evaluate the effectiveness of an early oral glucose tolerance test (OGTT) followed by the identification of intermediate hyperglycemia on pregnancy outcomes in real world setting. SUBJECTS AND METHODS: A retrospective cohort study was conducted at the Obstetrics and Gynecology Hospital, Shanghai, China, between 2013 and 2017. Women with intermediate hyperglycemia at the first prenatal visit were identified and underwent an immediate (within one week) or a routine OGTT (24-28 gw) according to their wishes and received nutrition and exercise advice. Women diagnosed of gestational diabetes (GDM) were managed by standard interventions. Primary outcome was larger for gestational age (LGA). Secondary outcomes were primary cesarean delivery, preterm birth, shoulder dystocia or forceps delivery, preeclampsia, neonatal hypoglycemia, hyperbilirubinemia, and low Apgar score. Logistic regressions with or without a further propensity score-matched analysis were performed. RESULTS: Among 42406 women involved, 1104 (2.6%) with intermediate hyperglycemia at the first prenatal visit were identified, of whom 176 (15.9%) underwent an early OGTT and 741 (67.1%) received a routine OGTT. Logistic regression showed that an early OGTT was not significantly associated with an altered risk of LGA (adjusted OR 1.13, 95% CI 0.73-1.75) but was related to an increased odds for neonatal hyperbilirubinemia (adjusted OR 2.89; 95% CI 1.55-5.37). No significant associations were observed for other secondary outcomes. These trends remained consistent in propensity score-matched models. CONCLUSIONS: Our data from a real-world setting did not support that an early OGTT among women with intermediate hyperglycemia at the first prenatal visit improved pregnancy outcomes."""
+
+

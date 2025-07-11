@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: durationoflaboramongwomenwithhypertensivedisordersofpregnancyaswedishregistercohortstudy2020hastie
+"OBJECTIVE: Preeclampsia is a severe obstetric complication affecting 2-8% of pregnancies. There is a common belief that women with preeclampsia experience a shorter duration of labor, where it is thought that increased inflammation that occurs with the disease facilitates labor. However, little evidence exists to support or refute this. Thus, we undertook a register-based cohort study investigating the association between hypertensive disorders of pregnancy and labor duration. STUDY DESIGN: This was a Swedish register-based cohort study of nulliparous women with spontaneous or induced onset of labor at >34 weeks of gestation with a singleton fetus in cephalic presentation. Information of duration of labor was retrieved from electronic birth records and compared between women with hypertensive disorders and normotensives pregnancies. Data was represented as mean adjusted difference in hours (adjusted for pre-gestational disorders, maternal characteristics and mode of delivery) and adjusted hazard ratios (aHR), with an event defined as vaginal birth and women with intrapartum caesarean section censored. An aHR >1 indicated shorter duration of labor. RESULTS: Among 101,531 women, 5548 (5.5%) developed a hypertensive disorder of pregnancy. The overall mean duration of labor was 9.43 (SD 5.32) hours. Women with hypertensive disorders experienced a shorter duration of labor compared to normotensive women, with an adjusted mean difference of -0.68 h (95% CI -0.90, -0.47) for gestational hypertension and -1.53 h (95% CI -1.72, -1.35) for preeclampsia. This corresponded to an aHR of 1.05 (95% CI 1.01, 1.10) and 1.12 (95% CI 1.08, 1.17), respectively. However, when we confined the analysis to those who labored spontaneously, the presence of hypertensive disorders did not alter duration of labor (aHR 0.98, 95% CI 0.95,1.01). Only women who were induced and also had hypertensive disorders experienced a shorter duration of labor (aHR 1.07, 95% CI 1.04,1.09). CONCLUSIONS: Hypertensive disorders did not alter labor duration among women with spontaneous onset of labor, however an association was observed among women who were induced."""
+
+

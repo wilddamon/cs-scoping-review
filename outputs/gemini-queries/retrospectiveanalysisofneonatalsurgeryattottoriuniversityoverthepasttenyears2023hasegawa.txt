@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retrospectiveanalysisofneonatalsurgeryattottoriuniversityoverthepasttenyears2023hasegawa
+"Background In recent years, the number of neonatal surgeries has been on the rise despite the decline in the number of births, and we examined the actual trends and problems at Tottori University Hospital located in the Sanin region. Methods Medical records were retrospectively searched for patients who underwent major surgery during the neonatal period (within 30 days of age) at the Tottori University Hospital over the past 10 years (Jan. 2011 to Dec. 2020). Results Sixty-five cases were included. Early birth infants (< 37 gestational weeks) comprised 15 cases (23%) and low birth weight (< 2500 g) infants involved 27 cases (42%). In the latter half (2016-2020), early birth and low birth weight infants were significantly less than in the first half (2011-2015). The common diseases were anorectal malformation (14 cases), esophageal atresia (10), duodenal atresia (10), and diaphragmatic hernia (9). Prenatal diagnosis was obtained in 26 cases (40%), with high diagnostic rate obtained in duodenal atresia (100%), abdominal wall defect (100%), ileal atresia (75%), meconium peritonitis (67%), and diaphragmatic hernia (67%). Fifty-five cases (85%) were operated on within 7 days of age. Other major malformations were associated in 23 cases (35%). There were 6 deaths (9%), of which 3 cases were low birth weight infants with gastrointestinal perforation, 2 cases with severe chromosomal abnormalities (esophageal atresia, omphalocele), and 1 case with diaphragmatic hernia with severe pulmonary hypertension. Home medical care has been required with gastrostomy tube in 2 cases. Conclusion Neonatal surgery at Tottori University has been well performed as required with acceptable results along with the progression of other perinatal care. However, further investigation for improvements in premature delivery or organ hypoplasia may be required.Copyright (c) 2023 Tottori University Medical Press."""
+
+

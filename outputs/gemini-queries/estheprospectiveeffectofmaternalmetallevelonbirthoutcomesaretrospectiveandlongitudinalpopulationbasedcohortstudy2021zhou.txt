@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fastingplasmaglucosemediatestheprospectiveeffectofmaternalmetallevelonbirthoutcomesaretrospectiveandlongitudinalpopulationbasedcohortstudy2021zhou
+"Objective: Previously, we found that the presence of maternal serum metals before the 24th week of gestation prospectively increased fasting plasma glucose (FPG) at 24-28 weeks. We further explored the prospective association between levels of metals and neonatal outcomes and assessed the mediating effects of FPG on these relationships. Method(s): A total of 7,644 pregnant women were included in a retrospective cohort study, and the relationships between metals [manganese (Mn), copper (Cu), lead (Pb), zinc (Zn), and magnesium (Mg)] and birth outcomes were explored. Quantile and linear regressions were performed to detect the shifts and associations between metals and neonatal size distribution focused on the 10th, 50th, and 90th percentiles. Mediation analysis was performed to assess the mediating effect of FPG on metals and birth outcomes. Result(s): After adjustment, a 50% increase in Mn and Zn levels was related to a 0.136-cm (95% CI: 0.067-0.205) and 0.120-cm (95% CI: 0.046-0.193) increase in head circumference, respectively. Based on head circumference distribution, the magnitude of the association with Mn was smaller at the upper tail, while the magnitude of correlation with Zn was greater at the upper tail. A 50% increase in Mn and Zn levels was related to a 0.135-cm (95% CI: 0.058-0.212) and 0.095-cm (95% CI: 0.013-0.178) increase in chest circumference, respectively. The magnitude of the association with Mn increased with increasing chest circumference, while the magnitude of correlation with Zn decreased with increasing chest circumference. FPG explained 10.00% and 17.65% of the associations of Mn with head and chest circumference. A positive indirect effect of Zn associated with head circumference (0.004, 95% CI: 0.002-0.006) and chest circumference (0.005, 95% CI: 0.003-0.008) through FPG was also observed, and the estimated proportion of the mediating effect was 13.79% and 26.32%, respectively. Conclusion(s): Maternal serum Mn and Zn levels before the 24th week of gestation may prospectively increase the circumference of the neonatal head and chest. FPG at 24-28 weeks had positive mediating effects on these relationships. Further research is needed to identify a balance between maternal blood glucose and birth size.Copyright (c) 2021 Zhou, Yu, Chen, Li, Wang, Yang, Rao, Lin, Fan, Wang, Gou, Guo, Suo, Huang and Liu."""
+
+

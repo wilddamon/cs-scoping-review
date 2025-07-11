@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: livebirthoutcomesininfertilepatientswithclassiiiandclassivobesityfollowingfreshembryotransfer2021romanski
+"OBJECTIVE: Assess the effect of class III (body mass index [BMI, kg/m(2)] 40-49.9) and class IV obesity (>= 50) on clinical pregnancy and live birth outcomes after first oocyte retrieval and fresh embryo transfer cycle. DESIGN: Cohort study SETTING: Academic center PATIENTS: Patients undergoing their first oocyte retrieval with planned fresh embryo transfer in our clinic between 01/01/2012 and 12/31/2018. Patients were stratified by BMI: 18.5-24.9 (n = 4913), 25-29.9 (n = 1566) 30-34.9 (n = 559), 35-39.9 (n = 218), and >= 40 (n = 114). INTERVENTION: None MAIN OUTCOME MEASURE: Live birth rate RESULTS: Following embryo transfer, there were no differences in pregnancy rates across all BMI groups (p value, linear trend = 0.86). However among pregnant patients, as BMI increased, a significant trend of a decreased live birth rate was observed (p value, test for linear trend = 0.004). Additionally, as BMI increased, a significant trend of an increased miscarriage rate was observed (p value, linear trend = < 0.001). Compared to the normal-weight cohort, women with a BMI >= 40 had a significantly higher rate of cancelled fresh transfers after retrieval (18.4% vs. 8.2%, OR 2.51; 95%CI 1.55-4.08). Among singleton deliveries, a significant trend of an increased c-section rate was identified as the BMI increased (p value, linear trend = <0.001). CONCLUSION: Overall, patients with a BMI > 40 have worse IVF treatment outcomes compared to normal-weight patients. After embryo transfer, their pregnancy rate is comparable to normal-weight women; however, their miscarriage rate is higher, leading to a lower live birth rate for pregnant women in this population. Patients with a BMI > 40 have a c-section rate that is 50% higher than normal-weight patients."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: screeningforsmallforgestationalagefetuses2020hansen
+"INTRODUCTION: It is well established that correct antenatal identification of small-for-gestational-age (SGA) fetuses reduces their risk of adverse perinatal outcome with long-term consequences. Ultrasound estimates of fetal weight (EFW(us) ) are the ultimate tool for this identification. It can be conducted as a 'universal screening', that is, all pregnant women at a specific gestational age. However, in Denmark it is conducted as 'selective screening', that is, only on clinical indication. The aim of this study was to assess the performance of the Danish national SGA screening program and the consequences of false-positive and false-negative SGA cases. MATERIAL AND METHODS: In this retrospective cohort study, we included 2928 women with singleton pregnancies with due dates in 2015. We defined 'risk of SGA' by an EFW(us) <= -15% of expected for the gestational age and 'SGA' as birthweight <=-22% of expected for gestational age. RESULTS: At birth, the prevalence of SGA was 3.3%. The overall sensitivity of the Danish screening program was 62% at a false-positive rate of 5.6%. Within the entire cohort, 63% had an EFW(us) compared with 79% of the SGA cases. The sensitivity was 79% for those born before 37 weeks of gestation but only 40% for those born after 40 weeks of gestation. The sensitivity was also associated with birthweight deviation; 73% among extreme SGA cases (birthweight deviation <=-33%) and 55% among mild SGA (birthweight deviation between -22% and -27%). False diagnosis of SGA was associated with an increased rate of induction of labor (OR(adj) = 2.51, 95% CI 1.70-3.71) and cesarean section (OR(adj) = 1.44, 95% CI 0.96-2.18). CONCLUSIONS: The performance of the Danish national screening program for SGA based on selective EFW(us) on clinical indication has improved considerably over the last 20 years. Limitations of the program are the large proportion of women referred to ultrasound scan and the low performance post-term."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregestationalversusgestationaldiabetesapopulationbasedstudyonclinicalanddemographicdifferences2014fong
+"AIMS: To assess the clinical and demographic differences in patients with pre-gestational diabetes mellitus (PGDM) compared to those with gestational diabetes (GDM).;METHODS: Using the 2001-2007 California Health Discharge Database, we identified 22,331 cases of PGDM and 147,097 cases of GDM via ICD-9-CM codes after excluding cases which were missing race or age data or with extremes of age. Data analyzed included demographics, pre-existing medical conditions, antepartum complications, and intrapartum complications. Logistic regression was used to adjust for potential confounders.;RESULTS: Both PGDM and GDM incidences increased during the study period. Advancing age was associated with increased prevalence of both diseases. Although Asians were found to have the highest prevalence of GDM, they, along with Caucasians, were found have the lowest prevalence of PGDM. Conditions with increased frequency in PGDM versus GDM included chronic hypertension, renal disease, thyroid dysfunction, fetal CNS malformation, fetal demise, pyelonephritis, and eclampsia. Subjects with PGDM were more likely than those with GDM to have a shoulder dystocia, failed induction of labor, or undergo cesarean delivery.;CONCLUSIONS: We have demonstrated clinical morbidities and demographic factors which differ in patients with PGDM compared to patients with GDM. Our findings suggest PGDM to be associated with significantly higher morbidity when compared to GDM. Our findings also suggest that races with the highest tendency for GDM during pregnancy may not necessarily have the highest tendency for PGDM outside of pregnancy. Copyright (c) 2013."""
+
+

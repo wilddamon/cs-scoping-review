@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsofsevereandcriticaldiseaseinpregnantwomenwithsarscov22022limaye
+"BACKGROUND/OBJECTIVE: SARS-CoV-2 continues to spread widely in the US and worldwide. Pregnant women are more likely to develop severe or critical illness than their non-pregnant counterparts. Known risk factors for severe and critical disease outside of pregnancy, such as asthma, diabetes, and obesity have not been well-studied in pregnancy. We aimed to determine which clinical and pregnancy-related factors were associated with severe and critical COVID illness in pregnancy. STUDY DESIGN: This was a retrospective cohort study of women with confirmed intrauterine pregnancy and positive nasopharyngeal swab for SARS-CoV-2 who presented to an academic medical center in New York City from 1 March 2020 to 1 July 2020. Severe and critical COVID-19 disease was defined by World Health Organization criteria. Women with severe/critical disease were compared to women with asymptomatic/mild disease. Continuous variables were compared with Mann-Whitney or t-test and categorical variables were compared using chi-square and Fisher's exact. Statistical significance was set at p < .05. Multivariable logistic regression was performed including variables that were significantly different between groups. RESULTS: Two hundred and thirty-three patients were included, 186 (79.8%) with asymptomatic/mild disease and 47 (20.2%) with severe/critical disease. Women with asymptomatic/mild disease were compared to those with severe/critical disease. Women with severe/critical disease were more likely to have a history of current or former smoking (19.6 vs. 5.4%, p = .004), COVID-19 diagnosis in the 2nd trimester (42.6 vs. 11.8%, p = .001), and asthma or other respiratory condition (21.3 vs. 7.0%, p = .01). Women with severe/critical disease were more likely to have cesarean delivery (35.5 vs. 15.6%, p < .01) and preterm delivery <37 weeks (25.8 vs. 3.8%, p < .01). After adjustment, history of smoking remained significantly predictive of severe/critical disease [aOR 3.84 (95% CI, 1.25-11.82)]. CONCLUSION: Pregnant women with a history of smoking, asthma, or other respiratory condition, and COVID-19 diagnosis in the second trimester of pregnancy were more likely to develop severe/critical disease. These findings may be useful in counseling women on their individual risk of developing the severe or critical disease in pregnancy and may help determine which women are good candidates for vaccination during pregnancy."""
+
+

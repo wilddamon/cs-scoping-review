@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluatinggestationalweightgainrecommendationsinpregestationaldiabetes2015siegel
+"OBJECTIVE: The Institute of Medicine (IOM) does not provide recommendations for gestational weight gain (GWG) specific to women with pregestational diabetes. We aimed to assess the impact of GWG outside the IOM recommendations on perinatal outcomes. STUDY DESIGN: We performed a retrospective cohort study of all singletons with pregestational diabetes from 2008 through 2013. Women were classified as GWG within, less than, or greater than IOM recommendations for body mass index per week of pregnancy. Maternal outcomes examined were cesarean delivery, preeclampsia, and percentage of visits with glycemic control (>50% blood sugars at goal). Neonatal outcomes were birthweight, small for gestational age (<10th percentile), large for gestational age (LGA) (>90th percentile), macrosomia (>4000 g), preterm delivery (<37 weeks), and birth injury (shoulder dystocia, fracture, brachial plexus injury, cephalohematoma). Groups were compared using analysis of variance and kh(2) test, as appropriate. Backwards stepwise logistic regression was used to adjust for confounding factors. RESULTS: Of 340 subjects, 37 (10.9%) were within, 64 (18.8%) less than, and 239 (70.3%) greater than IOM recommendations. The incidence of cesarean delivery, preeclampsia, glycemic control, preterm delivery, and birth injury were not significantly different between GWG groups. The incidence of LGA and macrosomia increased as GWG category increased (adjusted odds ratio [AOR], 3.08; 95% confidence interval [CI], 1.13-8.39 and AOR, 4.02; 95% CI, 1.16-13.9, respectively) without decreasing the incidence of small for gestational age (AOR, 0.34; 95% CI, 0.10-1.19). Increases in the risk in LGA and macrosomia were not explained by differences in glycemic control by GWG groups. CONCLUSION: Women with pregestational diabetes mellitus should be counseled to gain within the IOM recommendations to avoid LGA and macrosomic newborns."""
+
+

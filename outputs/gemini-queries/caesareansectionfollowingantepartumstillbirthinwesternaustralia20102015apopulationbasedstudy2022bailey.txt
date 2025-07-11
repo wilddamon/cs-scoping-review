@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionfollowingantepartumstillbirthinwesternaustralia20102015apopulationbasedstudy2022bailey
+"BACKGROUND: There is scant literature about antepartum stillbirth management but guidelines usually recommend reserving caesarean sections for exceptional circumstances. However, little is known about caesarean section rates following antepartum stillbirth in Australia. AIMS: We aimed to describe the onset of labour, mode of birth, and use of analgesia and anaesthesia following antepartum stillbirth and to identify factors associated with caesarean section. MATERIAL AND METHODS: In this retrospective cohort study, we used a population-based dataset of all singleton antepartum stillbirths >=20 weeks gestation in Western Australia between 2010-2015. The overall, primary and repeat caesarean section rates for antepartum stillbirths were calculated and multivariable Poisson regression analyses were performed to identify associated factors, and to calculate relative risks (RRs) and 95% confidence intervals (CIs). RESULTS: This study included 634 antepartum stillbirths. Labour was spontaneous for 134 (21.1%), induced for 457 (72.1%), and 43 (6.8%) had a prelabour caesarean section. The overall, primary and repeat caesarean section rates were 8.5%, 4.6% and 23.0% respectively and increased with gestation (P trends all <0.01). Other factors associated with an increased caesarean section risk included: any placenta praevia or placental abruption, birth at a metropolitan private hospital, large-for-gestational-age birthweight, and any maternal chronic condition. During labour, the most frequently used types of analgesia were systemic narcotics (46.0%) and regional blocks (34.7%) while among those who had a caesarean section, 40.7% had a general anaesthetic. CONCLUSIONS: In Western Australia between 2010-2015, the caesarean section rates among women with antepartum stillbirths were low, in line with current guidelines."""
+
+

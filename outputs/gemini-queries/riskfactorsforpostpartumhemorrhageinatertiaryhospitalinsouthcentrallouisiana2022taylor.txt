@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforpostpartumhemorrhageinatertiaryhospitalinsouthcentrallouisiana2022taylor
+"BACKGROUND: Postpartum hemorrhage (PPH) is the most common cause of maternal mortality worldwide. Predicting PPH remains difficult, and risk factors vary among populations. We aimed to determine prevalence, risk factors, and causes for PPH in our obstetric population in South-Central Louisiana. METHODS: We conducted a retrospective cohort study utilizing medical records for deliveries between October 2015 and September 2020 at Woman's Hospital, a tertiary hospital in South-Central Louisiana. PPH was defined by the current American College of Obstetricians and Gynecologists' (ACOG) criteria as cumulative blood loss greater than or equal to 1000 mL within 24 h after the birth process regardless of route of delivery. Logistic regression assessed the association of PPH and possible risk factors: anemia at the time of delivery, race, parity, delivery mode, body mass index, age, and health insurance. An additional logistic regression also investigated risk factors within our cohort for severe maternal morbidity among patients who experienced PPH including the same covariates. RESULTS: A total of 30,674 deliveries were included in our cohort, among which PPH occurred in 12.3% (n = 3773). Patients experiencing PPH were more likely to be of Black race, Medicaid-eligible, deliver via cesarean section, and have lower hemoglobin and hematocrit at time of delivery compared to patients without PPH (all p < .001). Anemia at delivery (aOR = 1.28; 95%CI = 1.154-1.419), cesarean delivery (aOR = 8.796; 95%CI = 7.731-10.007), BMI > 40kg/m(2) (aOR = 1.363; 95%CI = 1.186-1.567), and Black race (aOR = 1.233; 95%CI = 1.099-1.383) were the strongest predictors of PPH. Among cesarean cases (n = 10,888), Black race and BMI > 40 kg/m(2) were the strongest predictors for PPH. Among patients who experienced PPH, anemia was associated with a higher likelihood of experiencing a severe maternal morbidity event (aOR = 2.587; 95%CI = 1.990-3.364). CONCLUSION: Consistent with literature in the United States, Black race, increased BMI, cesarean delivery, and anemia were associated with risk of PPH. Anemia at delivery increased the risk for severe maternal morbidity among patients experiencing PPH."""
+
+

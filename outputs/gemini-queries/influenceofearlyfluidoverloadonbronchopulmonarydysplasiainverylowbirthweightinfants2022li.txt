@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: influenceofearlyfluidoverloadonbronchopulmonarydysplasiainverylowbirthweightinfants2022li
+"Objective: This study aimed to determine the influence of fluid overload on bronchopulmonary dysplasia (BPD) in very low-birth-weight infants (VLBWI) within 1 week after birth. Method(s): This was a retrospective case control study conducted in the Jingzhou Central Hospital. The clinical data of VLBWI (with a birth weight [BW] < 1,500 g and 26 weeks <= gestational age [GA] < 32 weeks) who were admitted to the neonatal intensive care unit of this hospital from January 2016 to December 2021 were analyzed retrospectively. A total of 157 cases were enrolled and divided into a BPD group (n = 60) and a non-BPD group (n = 97) according to whether BPD was present. The general condition, fluid intake, and fluid overload of the two groups of neonates within 1 week after birth were compared. The logistic regression was used to assess the association between infant characteristics and BPD. The ROC curve was used to assess how well the 7 day cumulative fluid overload predicted BPD, and to identify an optimal cut off for prediction. Result(s): The comparison of the patients' general condition revealed that the neonates in the BPD group had a younger GA, lower BW, lower 5-min Apgar score, longer duration of invasive mechanical ventilation, and higher incidence of intrauterine infections and administration of surfactants (P < 0.05). The differences in the other indicators were not statistically significant between the two groups. The logistic regression analysis revealed that a younger GA, the presence of intrauterine infection, and a 7-day cumulative fluid overload were the risk factors for the development of BPD. A ROC curve was plotted with the 7-day cumulative fluid overload as the test variable and BPD as the status variable. The area under the curve was 0.75 (95% confidence interval: 0.664-0.826, P = 0.042), with a sensitivity of 76.7% and a specificity of 70.1%, corresponding to a 7-day cumulative fluid overload of 36.2%. Conclusion(s): A younger GA, the presence of intrauterine infection, and a 7-day cumulative fluid overload were risk factors for the development of BPD. A 7 day cumulative fluid overload threshold of 36.2% best predicted the development of BPD.Copyright (c) 2022 Li, Zhu, Liu, Yi and He."""
+
+

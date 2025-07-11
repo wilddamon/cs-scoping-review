@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: controlcrosssectionalstudyevaluatinganantibioticpreventionstrategyin30pregnanciesundercleanintermittentselfcatheterizationandreviewofliterature2016michau
+"Objective: To assess the efficacy and safety of a weekly oral cycling antibiotic (WOCA) strategy to prevent UTI in women.Materials and Methods: We performed a monocentric, comparative, retrospective, cross-sectional study on pregnant women under clean intermittent self catheterization between January 2008 and December 2014. WOCA consisted the administration of a single-dose antibiotic, alternating antibiotic A and B once every 2 weeks, according to previous urine cultures.Results: Twenty-five women carried out 30 pregnancies. Thirteen pregnancies (43.3%) were in the WOCA group (WCG) strategy and 17 were in the non-WOCA group (NWCG) (56.7%). In the 19 (63.3%) pregnancies with urinary tract infection (UTI), 5 (38.4%) were in WCG, 14 (82.3%) were not (P = .023). There were more cystitis in NWCG (76.5% vs 23.1% P = .009) but more colonization in WCG (46.2% vs 5.8% P = .025). UTIs were due to Escherichia coli, Enterobacter cloacae, and Klebsiella pneumoniae. There was a nonsignificant increase in preterm birth in NWCG (35.3% vs 7.7% P = .10), no small for gestational age neonates, and no significant difference for the mode of delivery, birthweight, and neonatal outcome.Conclusion: According to our result, WOCA seems safe and effective on symptomatic UTI frequency and could be promoted to help physicians to manage specific risks in pregnancy."""
+
+

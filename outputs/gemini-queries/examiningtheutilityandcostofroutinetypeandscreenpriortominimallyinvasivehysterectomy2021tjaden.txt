@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: examiningtheutilityandcostofroutinetypeandscreenpriortominimallyinvasivehysterectomy2021tjaden
+"BACKGROUND AND OBJECTIVES: Pre-operative type and screen (T&S) is typically obtained if a patient is expected to require a blood transfusion; however, in cases of minimal blood loss, routine T&S may be unnecessary. The objective of our study was to examine the utility and cost of routine pre-operative T&S prior to minimally invasive hysterectomies (MIH).;METHODS: We performed a retrospective chart review of all MIH from January 1, 2018 to December 31, 2019. Patient demographics and surgical parameters were abstracted. The proportion of MIH with a preoperative T&S was compared to the rate of peri-operative blood transfusion. Statistical tests were used where appropriate. Logistic regression was used to examine the relationship between pre-operative hemoglobin (Hgb) and peri-operative transfusion.;RESULTS: Patients (n = 307) with a mean age of 54 (standard deviation = 12.6) underwent MIH. T&S was ordered in 42.7% of cases, with 2.9% requiring a blood transfusion. Two-thirds of women receiving a transfusion had a history of anemia (p = .004). Women with a pre-operative Hgb < 10.6 gm/dL (n = 30) had a 27% probability of a transfusion, while those with a pre-operative Hgb > 10.6 gm/dL (n = 264) had a 99% probability of no transfusion. A T&S costs ~$190 at our institution; if routine T&S was eliminated prior to MIH, cost savings is projected to be ~$11,590 annually.;CONCLUSION: Approximately 42.7% of MIH had T&S ordered, but only 2.9% received transfusions. Most patients who required a transfusion had a history of anemia. Significant cost savings could be incurred if routine T&S was eliminated prior to MIH. Copyright (c) 2021 by SLS, Society of Laparoscopic & Robotic Surgeons."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: transfusionrequirementswithhybridmanagementofplacentaaccretaspectrumincorporatingtargetedembolizationandaselectiveuseofdelayedhysterectomy2022gatta
+"OBJECTIVE: This study compares the number of units of red blood cells (RBCs) transfused in patients with placenta accreta spectrum (PAS) treated with or without a multidisciplinary algorithm that includes placental uterine arterial embolization (P-UAE) and selective use of either immediate or delayed hysterectomy.;STUDY DESIGN: This is a retrospective study of deliveries conducted at a tertiary care hospital from 2001 to 2018 with pathology-confirmed PAS. Those with previable pregnancies or microinvasive histology were excluded. To improve the equity of comparison, analyses were made separately among scheduled and unscheduled cases, therefore patients were assigned to one of four cohorts as follows: (1) scheduled/per-algorithm, (2) scheduled/off-algorithm, (3) unscheduled/per-algorithm, or (4) unscheduled/off-algorithm. Primary outcomes included RBCs transfused and estimated blood loss (EBL). Secondary outcomes included perioperative complications and disposition.;RESULTS: Overall, 95 patients were identified, with 87 patients meeting inclusion criteria: 36 treated per-algorithm (30 scheduled and 6 unscheduled) and 51 off-algorithm patients (24 scheduled and 27 unscheduled). Among scheduled deliveries, 9 (30.0%) patients treated per-algorithm received RBCs compared with 20 (83.3%) patients treated off-algorithm (p < 0.01), with a median (interquartile range [IQR]) of 3.0 (2.0, 4.0) and 6.0 (2.5, 7.5) units transfused (p = 0.13), respectively. Among unscheduled deliveries, 5 (83.3%) per-algorithm patients were transfused RBCs compared with 25 (92.6%) off-algorithm patients (p = 0.47) with a median (IQR) of 4.0 (2.0, 6.0) and 8.0 (3.0, 10.0) units transfused (p = 0.47), respectively. Perioperative complications were similar between cohorts.;CONCLUSION: A multidisciplinary algorithm including P-UAE and selective use of delayed hysterectomy is associated with a lower rate of blood transfusion in scheduled but not unscheduled cases.;KEY POINTS: . An algorithm with delayed hysterectomy had less transfusion in scheduled, but not unscheduled, cases.. . Over time, more cases were managed per algorithm; among scheduled cases, the transfusion rate and volume transfused decreased.. . There were similar transfusion outcomes among off-algorithm cases, regardless if delivery was scheduled.. Copyright Thieme. All rights reserved."""
+
+

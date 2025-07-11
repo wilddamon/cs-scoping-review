@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomesafterbariatricsurgerycomparedwithamatchedcontrolgroup2023boller
+"OBJECTIVE: To evaluate perinatal outcomes associated with pregnancy after bariatric surgery within a large integrated health care system using propensity score matching. METHODS: We conducted a retrospective cohort study that evaluated perinatal outcomes in pregnant patients after bariatric surgery from January 2012 through December 2018. History of bariatric surgery was identified by using International Classification of Diseases codes and a clinical database. Primary outcomes were preterm birth (PTB), gestational hypertension, preeclampsia, impaired glucose tolerance or gestational diabetes, a large-for-gestational-age (LGA) or small-for-gestational-age (SGA) neonates, and cesarean birth. Propensity scores were estimated by using logistic regression that accounted for age at delivery, prepregnancy body mass index, year of delivery, parity, neighborhood deprivation index, race and ethnicity, insurance status, initiation of prenatal visit in the first trimester, smoking during pregnancy, chronic hypertension, and preexisting diabetes. Five patients in the control group were matched to each patient in the case group on linear propensity score, and modified Poisson regression was used to adjust for covariates. Sensitivity analyses by timing and type of surgery were performed. RESULTS: We identified a case cohort of 1,591 pregnancies in patients after bariatric surgery and a matched cohort of 7,955 pregnancies in patients who had not undergone bariatric surgery. Demographic characteristics were similar in both groups. In multivariate models, pregnancy after bariatric surgery was associated with a decreased risk of preeclampsia (7.5% vs 10.2%, adjusted relative risk [aRR] 0.72, 95% CI 0.60-0.86), gestational diabetes or impaired fasting glucose (23.5% vs 35.0%, aRR 0.73, 95% CI 0.66-0.80), and LGA (10.6% vs 19.9%, aRR 0.56, 95% CI 0.48-0.65) and an increased risk of SGA (10.9% vs 6.6%, aRR 1.51, 95% CI 1.28-1.78). No significant differences were observed in PTB, gestational hypertension and cesarean delivery. CONCLUSION: Pregnancy after bariatric surgery in a racially and ethnically diverse cohort of patients is associated with decreased risk of preeclampsia, gestational diabetes or impaired fasting glucose, and LGA neonates; it is also associated with an increased risk of SGA neonates compared with pregnant patients in a matched control group."""
+
+

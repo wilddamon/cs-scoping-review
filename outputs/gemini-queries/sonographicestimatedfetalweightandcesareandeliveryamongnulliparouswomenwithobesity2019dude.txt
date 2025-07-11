@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sonographicestimatedfetalweightandcesareandeliveryamongnulliparouswomenwithobesity2019dude
+"Objective This study was aimed to examine the association between having an ultrasound estimate of fetal weight (US-EFW) and mode of delivery among obese women. Study Design A retrospective cohort study of nulliparous women with a body mass index of >= 35 kg/m (2) who delivered term singleton gestations. We examined whether having had an US-EFW within 35 days of delivery, or an US-EFW >= 90th percentile for gestational age, was associated with intrapartum cesarean delivery. Results Of 2,826 women, 22.5% ( n = 636) had an US-EFW within 35 days of delivery. Having an US-EFW was associated with increased frequency of cesarean (43.1% for those with an US-EFW versus 30.0% for those without, p < 0.001); this finding persisted when controlling for confounders (adjusted odds ratio [aOR] 1.48, 95% confidence interval [CI] 1.21-1.81). Of the 636 women with an US-EFW, 22.5% ( n = 143) had an US-EFW >= 90th percentile for gestational age, which was associated with increased frequency of an intrapartum cesarean (60.8% for those with an US-EFW >= 90th percentile vs. 37.9% for those with an US-EFW of < 90th percentile, p < 0.001), even when accounting for confounders (aOR = 1.78, 95% CI: 1.10-2.87). Conclusion The presence of an US-EFW among nulliparous obese women was associated with undergoing intrapartum cesarean delivery."""
+
+

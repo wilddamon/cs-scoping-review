@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: reportedrespectfulmaternitycarereceivedduringchildbirthathealthfacilitiesacrosssectionalsurveyineasternprovincerwanda2024muhayimana
+"BACKGROUND: Respectful maternity care (RMC) fosters positive childbirth experiences and ensures safe motherhood. While past Rwandan studies on childbirth predominantly focused on negative experiences, our research delved into positive experiences. This study aimed to assess the RMC level experienced by women during childbirth in health facilities of Eastern Province of Rwanda. METHODOLOGY: We conducted a cross-sectional survey on 610 mothers at their discharge across five public hospitals. We used a 15-items RMC questionnaire developed by White Ribbon Alliance, version of 2019. To manage the right-skewed data, we employed a median cut-off, categorizing experiences into binary outcome (low and high RMC score). We performed stepwise backward elimination logistic regression model to identify predictors of high RMC. FINDINGS: The majority (70.2%) reported experiencing RMC. The most acclaimed RMC items (over 90%) included allowance of food and fluid intake (98.5%), non-discrimination (96.2%), receipt of necessary services (96.1%), and privacy (91.3%). The chi-square analysis showed an association between reported high RMC and marital status (p-value = 0.006), occupation (p-value = 0.001), and mode of delivery (p-value = 0.001). Caesarean section delivery was associated with high RMC in multivariate logistic regression with a p-value of 0.001, the adjusted odds ratio was 2.11 with a CI [1.40-3.17]. CONCLUSION: The reported RMC items and care appreciated at high level should be sustained. Regardless of mode of delivery, all mothers should experience consistent, utmost respect throughout the childbirth and should receive RMC at maximum level."""
+
+

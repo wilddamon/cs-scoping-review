@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prolongedsecondstageoflabourmaternalinfectiousdiseaseurinaryretentionandothercomplicationsintheearlypostpartumperiod2016stephansson
+"Objective: To study the association between duration of second stage of labour and risks of maternal complications (infection, urinary retention, haematoma or ruptured sutures) in the early postpartum period.Design: Population-based cohort study.Setting and Sample: We included 72 593 mothers with singleton vaginal deliveries at >=37 weeks of gestation in cephalic presentation, using the obstetric database from the Stockholm-Gotland region in Sweden, 2008-12.Methods: Logistic regression analysis. Odds ratios (ORs) with 95% confidence intervals (95% CI) were calculated and adjustments were made for maternal age, body mass index, height, smoking, cohabitation, gestational age, labour induction, epidural analgesia and oxytocin augmentation.Results: Rates of any complication varied by parity from 7.3% in parous women with previous caesarean section, 4.8% in primiparas and 1.7% in parous women with no previous caesarean section. Compared with a second stage <1 hour, the adjusted ORs for any complication (95% CI) in primiparas were for 1 to <2 hours 1.28 (1.11-1.47); 2 to <3 hours 1.54 (1.32-1.79), 3 to <4 hours 1.63 (1.38-1.93) and >=4 hours 2.08 (1.74-2.49). The corresponding adjusted ORs for parous women without previous caesarean were 2.27 (1.78-2.90), 2.97 (2.09-4.22), 3.65 (2.25-5.94) and 3.16 (1.44-6.94), respectively. The adjusted ORs for women with previous caesarean were for 1 to <2 hours 1.62 (1.13-2.32); 2 to <3 hours 1.56 (1.00-2.43), 3 to <4 hours 2.42 (1.52-3.87), and >=4 hours 2.31 (1.25-4.24).Conclusions: Risks of maternal complications in the postpartum period increase with duration of second stage of labour also after accounting for maternal, pregnancy and delivery characteristics. Special attention has to be given to parous women with previous caesarean deliveries."""
+
+

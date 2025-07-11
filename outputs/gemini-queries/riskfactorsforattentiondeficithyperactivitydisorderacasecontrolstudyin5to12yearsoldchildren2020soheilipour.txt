@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforattentiondeficithyperactivitydisorderacasecontrolstudyin5to12yearsoldchildren2020soheilipour
+"Background and aims. Attention deficit/hyperactivity disorder (ADHD) is a common neurodevelopmental disorder known by a pattern of diminished sustained attention and increased impulsivity or hyperactivity. This study aimed to evaluate the risk factors associated with ADHD. Methods. This case-control study included 297 ADHD children aged 5-12 years admitted to Tehran Institute of Psychiatry, Iran (2012-2013). They were compared with 297 non-ADHD (as controls matched to cases 1:1) who were of the same age (+/-1 years) selected from outpatients in general pediatric medical centers in Tehran. ADHD Rating Scale IV (ADHD-RS-IV)-Home Version was used to confirm ADHD. Data were analyzed using conditional binary logistic regression. Results. Mean+/-SD age were 8.18+/-3.11 and 8.11+/-2.9 years in the case and control groups, respectively (P=0.61). Mean+/-SD birth weight (BW) was higher in ADHD patients compared with the controls (3245.09+/-0.66 vs 3026.56+/-0.45 gr, P=0.045). The results showed that odds of ADHD in children with high BW (>3500g) was 3.36 (1.96-5.78) times the odds of ADHD in normal BW children (2500-3500g) controlling for other risk factors. ADHD risk in low BW children (<2500 g) was not statistically different compared with normal BW children [OR:1.74 (0.7-3.7)]. Experience of neonatal disease, fewer offspring, lower level of mothers' education, and preterm delivery were also risk factors for higher odds of ADHD. Conclusion. Based on our sample, preterm birth, neonatal disease, high BW, lower level of mother's education, and fewer offspring were ADHD risk factors.Copyright (c) 2020. All Rights Reserved."""
+
+

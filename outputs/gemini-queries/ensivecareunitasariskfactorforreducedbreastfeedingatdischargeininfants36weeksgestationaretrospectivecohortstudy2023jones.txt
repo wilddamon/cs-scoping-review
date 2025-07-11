@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: investigatingshortstayadmissiontoaneonatalintensivecareunitasariskfactorforreducedbreastfeedingatdischargeininfants36weeksgestationaretrospectivecohortstudy2023jones
+"OBJECTIVE: This study aims to determine the effect of infant-mother separation following a short-stay (<=72 hours) admission to a Level 5 neonatal unit versus no admission on infant-feeding outcomes at hospital discharge. DESIGN: Retrospective cohort study. SETTING: An Australian Level 5 neonatal unit within a tertiary referral hospital. PARTICIPANTS: Mothers and their infants born between 1 January 2018 and 31 December 2020 had a short-stay admission to the neonatal unit or no admission. All participants met admission criteria to the postnatal ward and were discharged home at <=72 hours (n=12 540). Postnatal ward admission criteria included >=36 weeks' gestation and birth weight >=2.2 kg. MAIN OUTCOME MEASURES: Infant feeding at discharge from hospital. Multivariate logistic regression analysis was conducted, adjusting for confounders associated with known breastfeeding issues. These included age, ethnicity, parity, obesity, socioeconomic score, hypertensive disorders of pregnancy, diabetes, infant gestation and birthweight centile, caesarean section birth, postpartum haemorrhage and skin-to-skin contact. RESULTS: Of the 12 540 live births meeting inclusion criteria, 1000 (8%) infants were admitted to the neonatal unit. The primary reasons for admission were suspicion of sepsis (24%), maternal diabetes (19%) and jaundice (16%). We found a reduction in full breast feeding at hospital discharge in cases of a short admission to the neonatal unit compared with no admission (aOR 0.40; 95% CI 0.34 to 0.47; p<0.001). We identified that women of different ethnicities had differing levels of risk for formula supplementation at hospital discharge. The ethnic grouping least likely to be fully breast feeding at discharge was Southeast Asian women (aOR 0.47; 95% CI 0.39 to 0.57; p<0.001). CONCLUSIONS: Identifying mother-infant dyads at risk of non-exclusive breast feeding at hospital discharge will help target resources for practice improvement."""
+
+

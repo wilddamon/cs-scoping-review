@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlyversusdelayedamniotomyduringlaborinductionwithoxytocininwomenwithbishopsscoreof6arandomizedtrial2018bala
+"OBJECTIVE: To study the effect of "early amniotomy" {initiating induction of labor (IOL) with amniotomy followed by oxytocin} versus "late amniotomy" (initiating IOL with oxytocin followed by amniotomy 4-8 h later) in induced labor.;METHODS AND MATERIALS: One hundred and fifty women with Bishop's score of >=6 undergoing IOL were randomized into "early amniotomy" and "delayed amniotomy".;RESULTS: Early amniotomy resulted in a reduced induction-delivery interval (IDI) (7.35 versus 11.66 h with delayed amniotomy, p = .000) but higher the caesarean section (CS) rate was observed (10.7 versus 2.7% with delayed amniotomy, p = .049). With early amniotomy, the proportion of women delivering within 12 h was higher (86.7 versus 60%, p = .000) and the maximum oxytocin concentration used was lower (30.05 versus 39.68 mU/min, p = .001) as compared to delayed amniotomy. The neonatal outcomes were similar in the two groups. Early amniotomy detected meconium prior to initiating uterine contractions with oxytocin in three women who underwent CS for meconium.;CONCLUSION: Initiating IOL with amniotomy in women with a favorable cervix was efficacious in expediting delivery, but it resulted in a higher CS rate. The higher CS rate was partly due to CS for meconium detected as a result of early amniotomy. Clinical Trials Registry (CTRI), India: Registration number CTRI/2015/01/005418."""
+
+

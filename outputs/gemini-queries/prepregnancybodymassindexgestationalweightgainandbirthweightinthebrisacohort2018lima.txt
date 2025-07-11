@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prepregnancybodymassindexgestationalweightgainandbirthweightinthebrisacohort2018lima
+"OBJECTIVE To analyze the effects of maternal pre-pregnancy body mass index and weight gain during pregnancy on the baby's birth weight. METHODS We conducted a cross-sectional study with 5,024 mothers and their newborns using a Brazilian birth cohort study. In the proposed model, estimated by structural equation modeling, we tested socioeconomic status, age, marital status, pre-pregnancy body mass index, smoking habit and alcohol consumption during pregnancy, hypertension and gestational diabetes, gestational weight gain, and type of delivery as determinants of the baby's birth weight. RESULTS For a gain of 4 kg/m2 (1 Standard Deviation [SD]) in pre-pregnancy body mass index, there was a 0.126 SD increase in birth weight, corresponding to 68 grams (p < 0.001). A 6 kg increase (1 SD) in gestational weight gain represented a 0.280 SD increase in newborn weight, correponding to 151.2 grams (p < 0.001). The positive effect of pre-pregnancy body mass index on birth weight was direct (standardized coefficient [SC] = 0.202; p < 0.001), but the negative indirect effect was small (SC = -0.076, p < 0.001) and partially mediated by the lower weight gain during pregnancy (SC = -0.070, p < 0.001). The positive effect of weight gain during pregnany on birth weight was predominantly direct (SC = 0.269, p < 0.001), with a small indirect effect of cesarean delivery (SC = 0.011; p < 0.001). Women with a higher pre-pregnancy body mass index gained less weight during pregnancy (p < 0.001). CONCLUSIONS The effect of gestational weight gain on the increase in birth weight was greater than that of pre-pregnancy body mass index."""
+
+

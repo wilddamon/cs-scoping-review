@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: implicationsofcaesareansectionforchildrensschoolachievementapopulationbasedstudy2016smithers
+"BACKGROUND: Caesarean birth is one of the most frequently performed major obstetrical interventions. Although there is speculation that caesarean at term may have consequences for children's later health and development, longer-term studies are needed. AIM: We aimed to evaluate risks to poor school achievement among children born by caesarean section compared with spontaneous vaginal birth. MATERIALS AND METHODS: This population-based observational study involved linkage of routinely collected perinatal data with children's school assessments. Perinatal data included all children born in South Australia from 1999 to 2005. Participants were children born by elective caesarean (exposed, n = 650) or vaginal birth (unexposed, n = 2959), to women who previously had a caesarean delivery. School assessments were reported via a standardised national assessment program for children attending grade three (at ~eight years of age). Assessments included reading, writing, spelling, grammar and numeracy and were categorised according to performing at above or <=National Minimum Standards (NMS). Statistical analyses involved augmented inverse probability weighting (apiw) and accounted for a range of maternal, perinatal and sociodemographic characteristics. RESULTS: Children performing <=NMS for vaginal birth versus caesarean section were as follows: reading 144/640 (23%) and 688/2921 (24%), writing 69/636(11%) and 351/2917 (12%), spelling 128/646 (20%) and 684/2937 (23%), grammar 132/646 (20%) and 655/2937 (22%), and numeracy 151/634 (24%) and 729/2922 (25%). Both the raw data and the aipw analyses suggested little differences in school achievement between children born by caesarean versus vaginal birth. CONCLUSION: Analyses that carefully controlled for a wide range of confounders suggest that caesarean section does not increase the risk of poor school outcomes at age eight."""
+
+

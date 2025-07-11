@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectoflabourinductionontheriskofcaesareandeliveryusingpropensityscorestocontrolconfoundingbyindication2016danilack
+"OBJECTIVE: To use propensity score methods to control for confounding by indication in the association between labour induction and caesarean delivery. DESIGN: Cross-sectional analysis of administrative hospital discharge data supplemented by medical record information. SETTING: Fourteen US member hospitals of the National Perinatal Information Center. SAMPLE: A cohort of 166 559 singleton liveborn deliveries in the period 2007-2012. METHODS: We used propensity scores (PSs) to balance 83 covariates between induced and non-induced women, and compared estimates with traditional covariate adjustment. We estimated PSs for labour induction versus expectant management of pregnancy each week from 34 to 42 weeks of gestation. We estimated risk ratios (RRs) for the association between labour induction and primary caesarean delivery from models with no adjustment, traditional adjustment of five covariates, matched PS, and adjustment for continuous PS. MAIN OUTCOME MEASURE: Caesarean delivery in current or subsequent week of gestation. RESULTS: In crude models labour induction increased the risk of caesarean delivery in all weeks (RR 1.06-1.52), excepting 39 weeks of gestation (RR 0.89). After matching on PS, the analysis showed a significantly decreased risk of caesarean delivery with labour induction during weeks 35-39 (RR 0.77-0.92), and a significantly elevated risk at weeks 40 (RR 1.22) and 41 (RR 1.39). Traditional covariate and PS adjustment resulted in RRs between those from crude and PS-matched models. CONCLUSIONS: There is evidence of considerable confounding by indication in the association of labour induction and caesarean delivery, particularly for preterm deliveries. Using PS methods, we found a reduced risk of caesarean delivery with labour induction before 40 weeks of gestation, and an elevated risk for weeks 40-42. TWEETABLE ABSTRACT: With confounding adjustment, labour induction does not increase the risk of caesarean at 34-39 weeks of gestation."""
+
+

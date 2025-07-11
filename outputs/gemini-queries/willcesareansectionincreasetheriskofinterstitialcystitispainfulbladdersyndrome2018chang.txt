@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: willcesareansectionincreasetheriskofinterstitialcystitispainfulbladdersyndrome2018chang
+"AIMS: A high number of patients with interstitial cystitis/painful bladder syndrome (IC/PBS) have a history of pelvic surgeries, and cesarean section is one of the most common pelvic surgeries in women. This study aimed to investigate if cesarean section increases the risk of IC/PBS. METHODS: Women who exclusively gave birth through cesarean section or vaginal delivery were identified from a nationwide database between 2002 and 2013. All were followed up during the study period to detect the event of IC/PBS. The IC/PBS hazard ratio (HR) in the cesarean cohort was compared with the vaginal delivery cohort with and without matching for confounding factors. RESULTS: The unmatched group included 22 158 cesarean deliveries and 40 214 vaginal deliveries. The IC/PBS HR in the cesarean cohort compared with that in the vaginal delivery cohort was 1.370 (95% confidence interval [CI], 0.903-2.079; P = 0.139). In the matched group, 8368 women were matched in each cesarean and vaginal delivery cohort using propensity scores for age and comorbidities. The IC/PBS HR was 0.725 (95%CI, 0.358-1.471; P = 0.373). Both HRs in these two groups were not significantly different. The incidence density of IC/PBS in delivered women, non-delivery women, and the general female population were not significantly different either (0.310, 0.255, and 0.292 per 1000 person-years, respectively; P = 0.549). CONCLUSIONS: The risk of IC/PBS was not different between cesarean and vaginal delivery after controlling the confounding factors in this cohort study. Cesarean section has no causal effect on IC/BPS. Furthermore, delivery was not a risk factor for IC/PBS."""
+
+

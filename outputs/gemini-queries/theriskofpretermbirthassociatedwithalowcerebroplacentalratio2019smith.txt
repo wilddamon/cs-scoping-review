@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theriskofpretermbirthassociatedwithalowcerebroplacentalratio2019smith
+"OBJECTIVE: This paper investigated whether a cerebroplacental ratio (CPR) < 10th centile (measured between 23 + 0-36 + 0 weeks gestation) is predictive of any preterm birth, birth within 2 weeks of the ultrasound scan or spontaneous preterm birth. METHODS: This was a retrospective cohort study of 8977 women during 2014 and 2015 at a major tertiary referral hospital. Selection criteria included women who had a nonanomalous, singleton fetus and underwent an ultrasound scan between 23 + 0-36 + 6 weeks gestation. RESULTS: A low CPR increased the risk of preterm birth or birth within 2 weeks of the scan with the highest odds of birth within 2 weeks seen at 28-week gestation (odds ratio (OR) 3.78, 95%CI 1.63-8.77) - the mode of delivery was most likely emergency caesarean section for nonreassuring fetal status (aOR 2.11, 95%CI 1.69-2.64, p < .001). Neonatal outcomes were worse in the low CPR cohort particularly with higher odds of death (aOR 2.30, 95%CI 1.46-3.63) and composite adverse outcome (aOR 1.46, 95%CI 1.24-1.73). The low CPR cohort had a significantly shorter interval to delivery (Cox Proportional Hazard - aHR 1.41, 95%CI 1.33-1.51, p < .001) and earlier gestation at birth. CONCLUSIONS: A low CPR is associated with an increased risk of preterm birth and birth within 2 weeks but not spontaneous preterm birth."""
+
+

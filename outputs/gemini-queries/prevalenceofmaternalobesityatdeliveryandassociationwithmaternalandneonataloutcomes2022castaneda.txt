@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prevalenceofmaternalobesityatdeliveryandassociationwithmaternalandneonataloutcomes2022castaneda
+"INTRODUCTION: Maternal obesity has been linked to adverse outcomes for mothers and their offspring, including, but not limited to gestational hypertension (gHTN), gestational diabetes (GDM), pre-eclampsia, fetal macrosomia, and emergency cesarean section. Recent investigations have also shown that obesity, as defined by a body mass index (BMI) >= 30, especially severe obesity (BMI >= 40), is a risk factor for both hospitalization and death from COVID-19. OBJECTIVES: The objective of this study is to determine the prevalence and association of maternal obesity at delivery with adverse antenatal, intrapartum, and neonatal outcomes in a cohort of consecutive delivering patients at a tertiary care center in Iowa from May to September 2020. A secondary objective is to determine if maternal obesity has any relationship to past or current COVID-19 infection status at the time of delivery. This is a secondary analysis of a prospective cohort study to analyze obstetric outcomes among COVID-19 infected and uninfected patients. METHODS: We conducted a prospective cohort study using demographic and clinical data obtained from the electronic medical record. Excess plasma was collected from routine blood samples obtained at delivery admission to determine the seroprevalence of COVID-19 antibody using the DiaSorin and Roche antibody assays. Frequency variables were each calculated separately, and a comparison of maternal and neonatal outcomes was conducted using the generalized linear mixed modeling (GLMM) framework to account for varying distributions (normal and binary). RESULTS: 1001 women delivered during the study period and 89.7% met criteria for being overweight or obese; 17.9% met criteria for severe obesity. Women with obesity had 49.8% lower odds of possessing private insurance, and women with severe obesity were less than half as likely to plan to breastfeed at the time of discharge. Women with obesity of any kind had a significantly increased odds of GDM and gHTN, and an increased risk of an infant with macrosomia, hypoglycemia, and NICU admission. No significant association was found between BMI and COVID-19 infection or disease severity. CONCLUSION: This study provides insight into obstetric complications facing women with obesity, especially those with severe obesity. This report serves to highlight potential challenges, such as insurance status and labor complications, that impact women of high BMI to a greater degree when compared to their normal-weight counterparts."""
+
+

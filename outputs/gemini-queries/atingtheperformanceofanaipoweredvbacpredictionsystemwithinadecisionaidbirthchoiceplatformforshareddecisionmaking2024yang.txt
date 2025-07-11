@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluatingtheperformanceofanaipoweredvbacpredictionsystemwithinadecisionaidbirthchoiceplatformforshareddecisionmaking2024yang
+"BACKGROUND: Vaginal birth after cesarean (VBAC) is generally regarded as a safe and viable birthing option for most women with prior cesarean delivery. Nonetheless, concerns about heightened risks of adverse maternal and perinatal outcomes have often dissuaded women from considering VBAC. This study aimed to assess the performance of an artificial intelligence (AI)-powered VBAC prediction system integrated into a decision-aid birth choice platform for shared decision-making (SDM). MATERIALS AND METHODS: Employing a retrospective design, we collected medical records from a regional hospital in northern Taiwan from January 2019 to May 2023. To explore a suitable model for tabular data, we compared two prevailing modeling approaches: tree-based models and logistic regression models. We subjected the tree-based algorithm, CatBoost, to binary classification. RESULTS: Forty pregnant women with 347 records were included. The CatBoost model demonstrated a robust performance, boasting an accuracy rate of 0.91 (95% confidence interval (CI): 0.86-0.94) and an area under the curve of 0.89 (95% CI: 0.86-0.93), surpassing both regression models and other boosting techniques. CatBoost captured the data characteristics on the significant impact of gravidity and the positive influence of previous vaginal birth, reinforcing established clinical guidelines, as substantiated by the SHapley Additive exPlanations analysis. CONCLUSION: Using AI techniques offers a more accurate assessment of VBAC risks, boosting women's confidence in selecting VBAC as a viable birthing option. The seamless integration of AI prediction systems with SDM platforms holds a promising potential for enhancing the effectiveness of clinical applications in the domain of women's healthcare."""
+
+

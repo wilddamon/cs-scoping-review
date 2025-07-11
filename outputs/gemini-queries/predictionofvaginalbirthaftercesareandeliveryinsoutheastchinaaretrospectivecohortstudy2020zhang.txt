@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofvaginalbirthaftercesareandeliveryinsoutheastchinaaretrospectivecohortstudy2020zhang
+"BACKGROUND: We aimed to develop and validate a nomogram for effective prediction of vaginal birth after cesarean (VBAC) and guide future clinical application. METHODS: We retrospectively analyzed data from hospitalized pregnant women who underwent trial of labor after cesarean (TOLAC), at the Fujian Provincial Maternity and Children's Hospital, between October 2015 and October 2017. Briefly, we included singleton pregnant women, at a gestational age above 37 weeks who underwent a primary cesarean section, in the study. We then extracted their sociodemographic data and clinical characteristics, and randomly divided the samples into training and validation sets. We employed the least absolute shrinkage and selection operator (LASSO) regression to select variables and construct VBAC success rate in the training set. Thereafter, we validated the nomogram using the concordance index (C-index), decision curve analysis (DCA), and calibration curves. Finally, we adopted the Grobman's model to perform comparisons with published VBAC prediction models. RESULTS: Among the 708 pregnant women included according to inclusion criteria, 586 (82.77%) patients were successfully for VBAC. Multivariate logistic regression models revealed that maternal height (OR, 1.11; 95% CI, 1.04 to 1.19), maternal BMI at delivery (OR, 0.89; 95% CI, 0.79 to 1.00), fundal height (OR, 0.71; 95% CI, 0.58 to 0.88), cervix Bishop score (OR, 3.27; 95% CI, 2.49 to 4.45), maternal age at delivery (OR, 0.90; 95% CI, 0.82 to 0.98), gestational age (OR, 0.33; 95% CI, 0.17 to 0.62) and history of vaginal delivery (OR, 2.92; 95% CI, 1.42 to 6.48) were independently associated with successful VBAC. The constructed predictive model showed better discrimination than that from the Grobman's model in the validation series (c-index 0.906 VS 0.694, respectively). On the other hand, decision curve analysis revealed that the new model had better clinical net benefits than the Grobman's model. CONCLUSIONS: VBAC will aid in reducing the rate of cesarean sections in China. In clinical practice, the TOLAC prediction model will help improve VBAC's success rate, owing to its contribution to reducing secondary cesarean section."""
+
+

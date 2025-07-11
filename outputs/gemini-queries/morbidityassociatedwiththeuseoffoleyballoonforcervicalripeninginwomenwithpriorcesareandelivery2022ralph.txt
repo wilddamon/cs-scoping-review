@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: morbidityassociatedwiththeuseoffoleyballoonforcervicalripeninginwomenwithpriorcesareandelivery2022ralph
+"OBJECTIVE: We evaluated the morbidity of Foley balloon for cervical ripening in comparison to oxytocin alone in women with a prior cesarean delivery. STUDY DESIGN: A four-hospital retrospective review of all women with viable singleton pregnancies and history of a single prior cesarean delivery presenting for cervical ripening between 1994 and 2015. Exposure groups were either Foley balloon or oxytocin, at the treating physician's discretion. The primary outcome was defined as maternal morbidity, evaluated by a composite that included hemorrhage, and/or uterine infection, and/or uterine rupture. We defined two secondary outcomes: neonatal morbidity, and vaginal delivery rate. Neonatal morbidity was evaluated by a composite that included five-minute APGAR score <7 and/or NICU admission. We adjusted results for potential confounding variables, including hospital site, maternal age and race, initial cervical dilation, and gestational age at delivery. RESULTS: We identified 688 patients who received ripening, 276 by Foley balloon and 412 by oxytocin. There was no significant difference in the primary outcome of maternal morbidity between groups: 38 (13.8%) in the Foley balloon group and 79 (19.2%) in the oxytocin group (aOR 1.43; 95% CI, 0.90-2.27). There was no significant difference in the secondary outcome of neonatal morbidity: 31 (11.3%) in the Foley balloon group and 51 (12.4%) in the oxytocin group (aOR 1.02; 95% CI, 0.57-1.80). The rate of vaginal delivery was significantly less in the Foley balloon group compared to the oxytocin group: 56.2% vs 64.1%, p = .037. CONCLUSION: When cervical ripening with either Foley balloon or oxytocin was utilized at the physician's discretion in women with prior cesarean, there was no identified difference in maternal and neonatal morbidity, but the rate of successful vaginal delivery was lower."""
+
+

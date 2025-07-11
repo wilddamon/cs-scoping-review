@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: longtermeffectofpregnancyrelatedfactorsonthedevelopmentofendometrialneoplasiaanationwideretrospectivecohortstudy2019cho
+"OBJECTIVE: By identifying pregnancy-related risk factors for endometrial neoplasia, women's risk of developing this disease after childbirth can be predicted and high-risk women can be screened for early detection. METHODS: Study data from women who gave birth in Korea in 2007 were collected from the Korea National Health Insurance (KNHI) claims database between 2007 and 2015. The adjusted hazard ratios (HRs) and 95% confidence intervals (CIs) for the development of endometrial neoplasia were estimated by multivariate Cox proportional hazards models. RESULTS: Data from 386,614 women were collected for this study. By 2015, 3,370 women from the initial cohort had been diagnosed with endometrial neoplasia secondary to delivery. Multivariate Cox proportional hazards regression revealed that preeclampsia (HR 1.55, 95% CI 1.29, 1.86), advanced maternal age (>= 35; HR 1.52, 95% CI 1.39, 1.66), multifetal pregnancy (HR 1.81, 95% CI 1.46, 2.23), multiparity (HR 1.16, 95% CI 1.08, 1.24), cesarean section (HR 1.15, 95% CI 1.07, 1.23) and delivery of a large-for-gestational-age infant (HR 1.19, 95% CI 1.02, 1.39) were independent risk factors for future endometrial neoplasia. The risk for endometrial neoplasia increased as the number of risk factors increased (risk factors >=3: HR 2.11, 95% CI 1.86-2.40). CONCLUSION: This study showed that six pregnancy-related factors-advanced maternal age, multiparity, multifetal pregnancy, cesarean section, delivery of a large-for-gestational-age infant, and preeclampsia-are positively correlated with future development of endometrial neoplasia, including endometrial hyperplasia or cancer. Close observation and surveillance are warranted to enable early diagnosis of endometrial diseases, including endometrial cancer after pregnancy in high-risk women. However, due to unavailability of clinical information, many clinical/epidemiological factors can become confounders. Further research is needed on factors associated with the risk of endometrial neoplasia."""
+
+

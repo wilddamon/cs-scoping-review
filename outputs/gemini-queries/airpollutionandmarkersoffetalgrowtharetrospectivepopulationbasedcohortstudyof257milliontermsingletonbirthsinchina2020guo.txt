@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ambientairpollutionandmarkersoffetalgrowtharetrospectivepopulationbasedcohortstudyof257milliontermsingletonbirthsinchina2020guo
+"BACKGROUNDS: Evidence is scarce on the relation between maternal exposure to ambient air pollution during pregnancy and fetal growth in developing countries. Moreover, the current evidence is inconsistent. We aimed to investigate the association of trimester-specific exposure to air pollution with risk of being born small for gestational age (SGA) and birth weight-markers of fetal growth-among Chinese term births. METHODS: This retrospective population-based cohort study consisted of 2,567,457 singleton term live-births from January 1, 2014 to December 31, 2017 across 123 Chinese districts and counties. Personal exposure to ambient air pollutants including carbon monoxide (CO), sulfur dioxide (SO(2)), nitrogen dioxide (NO(2)), ozone (O(3)), particulate matter with aerodynamic diameter < 2.5 mm (PM(2.5)), and PM(10) was assigned using the inverse distance weighting spatial interpolation algorithm. Generalized estimating equations (GEE) logistic regression models were performed to estimate the associations between trimester-specific exposure to air pollution and risk of SGA or low birth weight (LBW), and GEE linear regression to examine the associations between the exposure and term birth weight, adjusting for maternal demographics, maternal cigarette smoking status during pregnancy, mode of delivery, gravidity, gestational age, year and month of conception, neonate's sex, and meteorological factors. Stratified and sensitivity analyses were also performed. RESULTS: When mother exposed to ambient air pollutants over the entire pregnancy, per IQR increment (0.122 mg/m(3)) in ambient CO concentrations was associated with higher risk of SGA (odds ratio (OR) = 1.04, 95% confidence interval (CI): 1.02, 1.05) and reduced birth weight among term births (-5.95 g, 95% CI: -8.01, -3.89). This association was also pronounced in the second and third trimesters. Term birth weight was negatively associated with per IQR increase of O(3) (-3.52 g, 95% CI: -6.23, -0.81), PM(2.5) (-5.93 g, 95% CI: -8.36, -3.49) and PM(10) (-7.78 g, 95% CI: -10.41, -5.16) during the entire pregnancy, respectively. No significant association was detected between maternal exposure to air pollutants and term LBW. Effect estimates of heterogeneity suggested that maternal age and infant sex modified the impact of air pollution on birth weight. CONCLUSIONS: The findings suggest that maternal exposure to air pollution during pregnancy is adversely affecting fetal growth. Further studies are warranted to integrate these findings and take clinical or public health interventions in pregnancy."""
+
+

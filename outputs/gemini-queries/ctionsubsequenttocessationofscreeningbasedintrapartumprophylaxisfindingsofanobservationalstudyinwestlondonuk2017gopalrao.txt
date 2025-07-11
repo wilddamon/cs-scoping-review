@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlyonsetgroupbstreptococcuseogbsinfectionsubsequenttocessationofscreeningbasedintrapartumprophylaxisfindingsofanobservationalstudyinwestlondonuk2017gopalrao
+"OBJECTIVES: To describe the impact on early-onset group B Streptococcus (EOGBS) infection rates following reversion from screening-based to risk-based intrapartum antimicrobial prophylaxis (IAP) for prevention. SETTING: Maternity services provided by secondary healthcare organisation in North West London. PARTICIPANTS: All women who gave birth in the healthcare organisation between April 2016 and March 2017. There were no exclusions. DESIGN: Observational study comparing EOGBS rates in the postscreening period (2016-2017) with prescreening (2009-2013) and screening periods (2014-2015). METHODS: Local guidelines for risk-based IAP were reintroduced in April 2016. Compliance with guidelines was audited. Gestational age, mode of delivery, maternal demographics and EOGBS rates in three time periods were compared using Poisson regression analysis. EOGBS was defined through GBS being cultured from blood, cerebrospinal fluid or other sterile fluids within 6 days of birth. PRIMARY OUTCOME: EOGBS rates/1000 live births in prescreening, screening and postscreening periods RESULTS: Incremental changes in maternity population were observed throughout the study period (2009 onwards), in particular the ethnic profile of mothers. Of the 5033 live births in postscreening period, 9 babies developed EOGBS infection. Only one of the mothers of affected babies had a risk factor indicating use of IAP. Comparison of postscreening period with screening period showed a fivefold increase in EOGBS rates after adjustment for ethnicity (1.79 vs 0.33/1000 live births; risk ratio =5.67, p=0.009). There was no significant difference between prescreening and postscreening periods with rates of infection reverting to their prescreening level. CONCLUSIONS: This study provides further evidence of efficacy of screening-based IAP compared with risk-based IAP in prevention of EOGBS in newborns in an area of high incidence."""
+
+

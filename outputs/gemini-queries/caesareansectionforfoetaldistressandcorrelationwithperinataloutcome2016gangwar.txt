@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionforfoetaldistressandcorrelationwithperinataloutcome2016gangwar
+"BACKGROUND: The main documented indication of intrapartum caesarean section is foetal distress (MacKenzie and Cooke in BMJ 323(7318):930, 2001). Foetal distress indicates foetal hypoxia and acidosis during intrauterine life. PURPOSE: To correlate the diagnosis of foetal distress and perinatal outcome. METHODS: This was a prospective observational study of women who underwent caesarean section for foetal distress as detected by cardiotocography and not responding to intrauterine resuscitation. The foetal Apgar score at 1 and 5 min was recorded and cord blood pH was measured in all cases. The neonatal outcome was studied with regard to the need for supportive ventilation and admission to NICU/nursery. RESULTS: In our study, 14.38 % cases diagnosed with foetal distress subsequently had poor outcome. Twenty-one babies had a 5-min Apgar score <7, required immediate resuscitation and were admitted in NICU. Twelve foetuses had a 1-min Apgar score <4, while there were three cases of severe birth asphyxia (Apgar score <4 at 5 min); of these, two babies died. The neonatal outcome was poorer in cases with associated complicating factors. CONCLUSION: The diagnosis of foetal distress is imprecise and a poor predictor of foetal outcome-the result is a tendency for unnecessary caesarean sections. On the contrary, lack of adverse outcome could reflect that our unit makes decisions at a time before clinically significant foetal compromise occurs."""
+
+

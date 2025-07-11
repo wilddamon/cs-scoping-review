@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofthegutmicrobiotamobilomewithhospitallocationandbirthweightinpreterminfants2017ravi
+"BackgroundThe preterm infant gut microbiota is vulnerable to different biotic and abiotic factors. Although the development of this microbiota has been extensively studied, the mobilome-i.e. the mobile genetic elements (MGEs) in the gut microbiota-has not been considered. Therefore, the aim of this study was to investigate the association of the mobilome with birth weight and hospital location in the preterm infant gut microbiota. Methods The data set consists of fecal samples from 62 preterm infants with and without necrotizing enterocolitis (NEC) from three different hospitals. We analyzed the gut microbiome by using 16S rRNA amplicon sequencing, shot-gun metagenome sequencing, and quantitative PCR. Predictive models and other data analyses were performed using MATLAB and QIIME. ResultSThe microbiota composition was significantly different between NEC-positive and NEC-negative infants and significantly different between hospitals. An operational taxanomic unit (OTU) showed strong positive and negative correlation with NEC and birth weight, respectively, whereas none showed significance for mode of delivery. Metagenome analyses revealed high levels of conjugative plasmids with MGEs and virulence genes. Results from quantitative PCR showed that the plasmid signature genes were significantly different between hospitals and in NEC-positive infants. Conclusion Our results point toward an association of the mobilome with hospital location in preterm infants."""
+
+

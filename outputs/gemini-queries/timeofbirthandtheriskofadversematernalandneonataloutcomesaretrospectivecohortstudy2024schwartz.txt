@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timeofbirthandtheriskofadversematernalandneonataloutcomesaretrospectivecohortstudy2024schwartz
+"Objectives: To determine whether in a labor floor housed continuously by senior physicians the risk of adverse maternal and neonatal outcome is affected by time of delivery. Methods: This retrospective cohort study, conducted at a tertiary medical center, assessed singleton term deliveries from 1 January 2011 to 30 January 2020. Participants were categorized based on delivery timing, correlating with nursing shifts, to evaluate perinatal outcomes. The primary endpoint included adverse maternal outcomes such as emergency Cesarean section, anal sphincter injuries, blood product transfusions, and postpartum surgeries (laparotomy/laparoscopy). Secondary outcomes focused on neonatal health indicators, including low Apgar scores, ICU admissions, respiratory issues, extended hospital stays, and neurological complications. Results: 87,863 deliveries were available for analysis with equal distribution during the day. The risk of adverse composite maternal outcome was highest during the evening (aOR 1.25, 95% CI 1.18-1.32) and lowest during the night (aOR 0.94, 95% CI 0.88-0.99) compared to daytime deliveries. This difference was primarily driven by the highest rate of emergency CD in the evening. Neonatal outcomes were comparable, except for length of stay > 5 days, which was more frequent among newborns delivered during the evening and night shifts compared to the morning shift (aOR 1.19, 95% CI 1.07-1.33 and aOR 1.17, 95% CI 1.05-1.31, respectively). Conclusions: In term pregnancies, the evening shift is associated with the highest risk of adverse maternal and neonatal outcomes despite physician seniority."""
+
+

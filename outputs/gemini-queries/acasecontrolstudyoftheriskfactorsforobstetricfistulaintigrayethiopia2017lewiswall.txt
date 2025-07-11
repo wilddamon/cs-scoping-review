@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acasecontrolstudyoftheriskfactorsforobstetricfistulaintigrayethiopia2017lewiswall
+"INTRODUCTION AND HYPOTHESIS: We tested the null hypothesis that there were no differences between patients with obstetric fistula and parous controls without fistula. METHODS: A unmatched case-control study was carried out comparing 75 women with a history of obstetric fistula with 150 parous controls with no history of fistula. Height and weight were measured for each participant, along with basic socio-demographic and obstetric information. Descriptive statistics were calculated and differences between the groups were analyzed using Student's t test, Mann-Whitney U test where appropriate, and Chi-squared or Fisher's exact test, along with backward stepwise logistic regression analyses to detect predictors of obstetric fistula. Associations with a p value <0.05 were considered significant. RESULTS: Patients with fistulas married earlier and delivered their first pregnancies earlier than controls. They had significantly less education, a higher prevalence of divorce/separation, and lived in more impoverished circumstances than controls. Fistula patients had worse reproductive histories, with greater numbers of stillbirths/abortions and higher rates of assisted vaginal delivery and cesarean section. The final logistic regression model found four significant risk factors for developing an obstetric fistula: age at marriage (OR 1.23), history of assisted vaginal delivery (OR 3.44), lack of adequate antenatal care (OR 4.43), and a labor lasting longer than 1 day (OR 14.84). CONCLUSIONS: Our data indicate that obstetric fistula results from the lack of access to effective obstetrical services when labor is prolonged. Rural poverty and lack of adequate transportation infrastructure are probably important co-factors in inhibiting access to needed care."""
+
+

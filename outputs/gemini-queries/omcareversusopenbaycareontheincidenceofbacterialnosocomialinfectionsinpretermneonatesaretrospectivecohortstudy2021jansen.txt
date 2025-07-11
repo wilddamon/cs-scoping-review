@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofsingleroomcareversusopenbaycareontheincidenceofbacterialnosocomialinfectionsinpretermneonatesaretrospectivecohortstudy2021jansen
+"Introduction: Nosocomial infections (NIs) are a major source of iatrogenic harm in neonatal intensive care units (NICUs). The influence of the infrastructure of NICUs on NIs is not well documented. This study aims to examine the effect of single-room units (SRU) versus open-bay units (OBU) on the incidence of NIs, including central-line-associated bloodstream infections (CLABSI), in preterm neonates. Method(s): All preterm neonates (< 32 weeks gestational age) admitted to our NICU were included. Two study periods were compared: one prior to (May 2015-May 2017) and one following (May 2017-May 2019) transition from OBU to SRU. Incidence density (number of infections per 1000 patient-days) and cumulative incidence (number of infections per 100 neonates) for NIs were calculated. CLABSIs were calculated per 1000 central-line days. U chart analysis was performed to determine special-cause variation in quarterly CLABSI and NI rates. Multivariate competing risk regression was performed to identify independent NI risk factors. Result(s): Of the 712 included infants, 164 (23%) infants acquired >= 1 NIs. No differences were found in incidence density (13.68 vs. 12.62, p = 0.62) or cumulative incidence of NI (23.97 vs. 22.02, p = 0.59) between OBU and SRU. CLABSIs showed a similar non-significant reduction after the move (14.00 vs. 10.59, p = 0.51). U chart analysis did not identify unit transition as a potential source of special-cause variation for CLABSI and NI. Competing risks regression analysis revealed longer duration of invasive mechanical ventilation as a significant risk factor for NI (subhazards ratio: 1.03 per day on ventilation, p = 0.01). Conclusion(s): Single-rooms are not associated with a significant reduction in NIs in the NICU. This study therefore does not add evidence that could support the transition to SRUs if based only on a large multimodal infection control strategy. Recommendations to build SRUs would require a wider justification, also taking into account other SRU benefits.Copyright (c) 2020, The Author(s)."""
+
+

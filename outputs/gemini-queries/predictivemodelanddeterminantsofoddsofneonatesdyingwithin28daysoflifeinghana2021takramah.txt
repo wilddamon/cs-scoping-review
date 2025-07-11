@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictivemodelanddeterminantsofoddsofneonatesdyingwithin28daysoflifeinghana2021takramah
+"BACKGROUND: One of the priorities and important current problem in public health research globally is modeling of neonatal mortality and its risk factors in using the appropriate statistical methods. It is believed that multiple risk factors interplay to increase the risk of neonatal mortality. To understand the risk factors of neonatal mortality in Ghana, the current study carefully evaluated and compared the predictive accuracy and performance of two classification models. METHODS: This study reviewed the birth history data collected on 5884 children born in the 5 years preceding the 2014 Ghana Demographic and Health Survey (GDHS). The 2014 GDHS is a cross-sectional nationally representative household sample survey. The relevant variables were selected using leaps-and-bounds method, and the area under curves were compared to evaluate the predictive accuracy of unweighted penalized and weighted single-level multivariable logistic regression models for predicting neonatal mortality using the 2014 GDHS data. RESULTS: The study found neonatal mortality prevalence of 2.8%. A sample of 4514 children born in the 5 years preceding the 2014 GDHS was included in the inferential analysis. The results of the current study show that for the unweighted penalized single-level multivariable logistic model, there is an increased risk of neonatal death among babies born to mothers who received prenatal care from non-skilled worker [OR: 3.79 (95% CI: 2.52, 5.72)], multiple births [OR: 3.10 (95% CI: 1.89, 15.27)], babies delivered through caesarian section [OR: 2.24 (95% CI: 1.30, 3.85)], and household with 1 to 4 members [OR: 5.74 (95% CI: 3.16, 10.43)], respectively. The predictive accuracy of the unweighted penalized and weighted single-level multivariable logistic regression models was 82% and 80%, respectively. CONCLUSION: The study advocates that prudent and holistic interventions should be institutionalized and implemented to address the risk factors identified in order to reduce neonatal death and, by large, improve child and maternal health outcomes to achieve the SDG target 3.2."""
+
+

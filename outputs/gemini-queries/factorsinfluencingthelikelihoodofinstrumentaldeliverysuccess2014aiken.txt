@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsinfluencingthelikelihoodofinstrumentaldeliverysuccess2014aiken
+"OBJECTIVE: To evaluate risk factors for unsuccessful instrumental delivery when variability between individual obstetricians is taken into account. METHODS: We conducted a retrospective cohort study of attempted instrumental deliveries over a 5-year period (2008-2012 inclusive) in a tertiary United Kingdom center. To account for interobstetrician variability, we matched unsuccessful deliveries (case group) with successful deliveries (control group) by the same operators. Multivariate logistic regression was used to compare successful and unsuccessful instrumental deliveries. RESULTS: Three thousand seven hundred ninety-eight instrumental deliveries of vertex-presenting, single, term newborns were attempted, of which 246 were unsuccessful (6.5%). Increased birth weight (odds ratio [OR] 1.11; P<.001), second-stage labor duration (OR 1.01; P<.001), rotational delivery (OR 1.52; P<.05), and use of ventouse compared with forceps (OR 1.33; P<.05) were associated with unsuccessful outcome. When interobstetrician variability was controlled for, instrument selection and decision to rotate were no longer associated with instrumental delivery success. More senior obstetricians had higher rates of unsuccessful deliveries (12% compared with 5%; P<.05) but were used to undertake more complicated cases. Cesarean delivery during the second stage of labor without previous attempt at instrumental delivery was associated with higher birth weight (OR 1.07; P<.001), increased maternal age (OR 1.03; P<.01), and epidural analgesia (OR 1.46; P<.001). CONCLUSION: Results suggest that birth weight and head position are the most important factors in successful instrumental delivery, whereas the influence of instrument selection and rotational delivery appear to be operator-dependent. Risk factors for lack of instrumental delivery success are distinct from risk factors for requiring instrumental delivery, and these should not be conflated in clinical practice."""
+
+

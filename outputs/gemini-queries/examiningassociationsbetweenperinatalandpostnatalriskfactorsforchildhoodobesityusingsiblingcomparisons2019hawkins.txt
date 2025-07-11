@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: examiningassociationsbetweenperinatalandpostnatalriskfactorsforchildhoodobesityusingsiblingcomparisons2019hawkins
+"Background: One of the major criticisms of observational studies examining risk factors for childhood obesity is unmeasured confounding. We examined the associations between breastfeeding initiation, cesarean delivery, prenatal smoking, and gestational diabetes mellitus (GDM) with childhood obesity using both a traditional observational approach and a sibling-pair design with family fixed effects. Methods: We used data from the Linked the Collecting Electronic Nutrition Trajectory Data Using e-Records of Youth (CENTURY) Study, a clinical database created through the linkage of well-child visits with children's birth certificates, with obesity measured at 2 (N = 55,058) and 5 (N = 43,894) years of age. We conducted three sets of regression models: (1) full sample to examine the adjusted association between each risk factor and obesity with clustering by family; (2) rerun only among siblings with clustering by family; and (3) fixed effects analysis among siblings. Results: Across risk factors, 30%-39% of children had siblings. In the full sample, breastfeeding initiation was associated with a lower BMI z-score, while cesarean delivery and smoking during pregnancy were associated with a higher BMI z-score. Effect sizes were consistent in models with siblings only. However, in the fixed effects models, the coefficients attenuated and were no longer significant for each of these risk factors. We found no association between GDM and child BMI z-score in any of the models. Results were consistent for childhood obesity as a dichotomous measure and at 5 years of age. Conclusions: Our findings suggest that unmeasured genetic, environmental, and familial factors are likely confounding associations between breastfeeding, cesarean delivery, prenatal smoking, and GDM with childhood obesity in observational studies."""
+
+

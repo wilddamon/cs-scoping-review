@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: attributablefactorsfortherisingcesareandeliveryrateover3decadesanobservationalcohortstudy2022devries
+"BACKGROUND: Cesarean delivery rates continue to rise globally, the reasons for which are incompletely understood. OBJECTIVE: We aimed to characterize the attributable factors for the increasing cesarean delivery rates over a 30-year period within our health network. STUDY DESIGN: This was a planned observational cohort study across 2 hospitals (a large tertiary referral hospital and a metropolitan hospital) in Sydney, Australia using data from a previously published study. The following 2 time periods were compared: 1989-99 and 2009-16, between which the cesarean delivery rate increased from 19% to 30%. The participants were all women who had a cesarean delivery after 24 weeks' gestational age. The data were analyzed using multiple imputation and robust Poisson regression to calculate the differences in the adjusted and unadjusted relative risk of cesarean delivery and estimate the changes in the cesarean delivery rate attributable to maternal and clinical factors. The primary outcome was cesarean delivery. RESULTS: After 576 exclusions, 102,589 births were included in the analysis. Fifty-six percent of the increase in the rate of cesarean delivery was attributed to changes in the distribution of the maternal age, body mass index, and parity and to a history of previous cesarean delivery. An additional 10% of the increase was attributed to changes in the obstetrical management of the following high-risk pregnancies: multiple gestation, malpresentation (mainly breech), and preterm singleton birth. When prelabor cesarean deliveries for maternal choice, suspected fetal compromise, previous pregnancy issues, and suspected large fetus were excluded, 78% of the increase was attributed to either maternal factors or changes in the obstetrical management of these high-risk pregnancies. CONCLUSION: Most of the steep rise in the cesarean delivery rate from 19% to 30% was attributed to changes in the maternal demographic and clinical factors. This observation is relevant to developing preventative strategies that account for nulliparity, age, body mass index, and management of high-risk pregnancies."""
+
+

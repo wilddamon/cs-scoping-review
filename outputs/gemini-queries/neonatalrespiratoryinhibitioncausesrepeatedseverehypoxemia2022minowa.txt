@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonatalrespiratoryinhibitioncausesrepeatedseverehypoxemia2022minowa
+"OBJECTIVE: The goal of this study was to verify the details of neonatal respiratory inhibition (NRI) in healthy infants. METHODS: We screened for NRI in 521 infants who weighed at least 2000 g and who were born at a gestational age of at least 36 weeks. Respiratory inhibition was defined as severe hypoxemia, accompanied by clinical manifestations of central cyanosis and a decrease in SpO(2) to less than 70%. NRI consists of feeding hypoxemia, respiratory inhibition after crying (RIAC), and respiratory inhibition after gastroesophageal reflux (RIGER). The subjects were monitored continuously via pulse oximetry from birth until discharge. To identify the details of NRI, we analyzed detailed notes taken by both parents and medical staff during monitoring using specific software designed to interpret pulse oximetry measurements. The mothers of infants with feeding hypoxemia received nursing guidance. RESULTS: NRI was observed in 268 (51.4%) infants (feeding hypoxemia in 227 (43.6%); RIAC in 121 (23.2%); and RIGER in 12 (2.3%)). Among perinatal factors, NRI was related to diabetes mellitus (p = .008; odds ratio = 3.290; 95% CI: 1.371-7.895), twin pregnancy (p = .032; odds ratio = 2.061; 95% CI: 1.062-3.998), and cesarean section (p = .036; odds ratio = 1.537; 95% CI: 1.027-2.299) using multiple logistic regression analysis. Almost all infants with RIAC and RIGER, even those with severe cases, recovered until discharge. However, 93 (41.0%) infants with feeding hypoxemia needed additional feeding control after being discharged. Despite the provision of nursing guidance in feeding control, 143 (63.0%) infants experienced feeding hypoxemia continuously. The more frequently the infants experienced feeding hypoxemia, the more severe the degree of feeding hypoxemia became. Breastfeeding reduced the frequency and degree of feeding hypoxemia compared to bottle-feeding. CONCLUSIONS: NRI was often observed in healthy infants. Breastfeeding and careful feeding control should be recommended to mothers of infants with repeated feeding hypoxemia."""
+
+

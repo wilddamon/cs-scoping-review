@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandperinatalrisksformonozygotictwinsconceivedfollowingfrozenthawedembryotransferaretrospectivecohortstudy2024lin
+"BACKGROUND: The present study aimed to explore the maternal and perinatal risks in cases of monozygotic twins (MZT) following frozen-thawed embryo transfer (FET). METHODS: All twin births that were conceived following FET from 2007 to 2021 at Shanghai Ninth People's Hospital in Shanghai, China were retrospectively reviewed. The exposure variable was twin type (monozygotic and dizygotic). The primary outcome was the incidence of neonatal death while secondary outcomes included hypertensive disorders of pregnancy, gestational diabetes, intrahepatic cholestasis of pregnancy, placenta previa, placental abruption, preterm premature rupture of the membranes, Cesarean delivery, gestational age, birth weight, weight discordance, stillbirth, birth defects, pneumonia, respiratory distress syndrome, necrotizing enterocolitis, and neonatal jaundice. Analysis of the outcomes was performed using logistic regression models to estimate odds ratios (ORs) and 95% confidence intervals (CIs). The causal mediation analysis was conducted. A doubly robust estimation model was used to validate the results. Kaplan-Meier method was used to calculate survival probability. The sensitivity analysis was performed with a propensity score-based patient-matching model. RESULTS: Of 6101 dizygotic twin (DZT) and 164 MZT births conceived by FET, MZT showed an increased risk of neonatal death based on the multivariate logistic regression models (partially adjusted OR: 4.19; 95% CI, 1.23-10.8; fully adjusted OR: 4.95; 95% CI, 1.41-13.2). Similar results were obtained with the doubly robust estimation. Comparing MZT with DZT, the neonatal survival probability was lower for MZT (P < 0.05). The results were robust in the sensitivity analysis. Females with MZT pregnancies exhibited an elevated risk of preterm premature rupture of the membranes (adjusted OR: 2.42; 95% CI, 1.54-3.70). MZT were also associated with higher odds of preterm birth (prior to 37 weeks) (adjusted OR: 2.31; 95% CI, 1.48-3.67), low birth weight (adjusted OR: 1.92; 95% CI, 1.27-2.93), and small for gestational age (adjusted OR: 2.18; 95% CI, 1.21-3.69) in the fully adjusted analyses. The effect of MZT on neonatal death was partially mediated by preterm birth and low birth weight (P < 0.05). CONCLUSIONS: This study indicates that MZT conceived by FET are related to an increased risk of neonatal death, emphasizing a potential need for comprehensive antenatal surveillance in these at-risk pregnancies."""
+
+

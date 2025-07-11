@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neurofilamentlightchainbloodbiomarkerofneonatalneuronalinjury2018depoorter
+"Background: Neurofilament light chain (NfL) is a highly promising biomarker of neuroaxonal injury that has mainly been studied in adult neurodegenerative disease. Its involvement in neonatal disease remains largely unknown. Our aim was to establish NfL plasma concentrations in preterm and term infants in the first week of life. Methods: Plasma NfL was measured by single molecule array immunoassay in two neonatal cohorts: cohort 1 contained 203 term and preterm infants, median gestational age (GA) 37.9 weeks (interquartile range [IQR] 31.9-39.4), in whom venous and arterial umbilical cord blood was sampled at birth and venous blood at day of life (DOL) 3; cohort 2 contained 98 preterm infants, median GA 29.3 weeks (IQR 26.9-30.6), in whom venous blood was sampled at DOL 7. Results: Median NfL concentrations in venous blood increased significantly from birth (18.2 pg/mL [IQR 12.8-30.8, cohort 1]) to DOL 3 (50.9 pg/mL [41.3-100, cohort 1]) and DOL 7 (126 pg/mL [78.8-225, cohort 2]) (p < 0.001). In both cohorts NfL correlated inversely with birth weight (BW, Spearman's rho -0.403, p < 0.001, cohort 1; R -0.525, p < 0.001, cohort 2) and GA (R -0.271, p < 0.001, cohort 1; R -0.487, p < 0.001, cohort 2). Additional significant correlations were found for maternal age at delivery, preeclampsia, delivery mode, 5-min Apgar, duration of oxygen supplementation, sepsis, and brain damage (intraventricular hemorrhage or periventricular leukomalacia). Multivariable logistic regression analysis identified the independent predictors of NfL in cohort 1 as BW (beta = -0.297, p = 0.003), delivery mode (beta = 0.237, p = 0.001) and preeclampsia (beta = 0.183, p = 0.022) and in cohort 2 as BW (beta = -0.385, p = 0.001) and brain damage (beta = 0.222, p = 0.015). Conclusion: Neonatal NfL levels correlate inversely with maturity and BW, increase during the first days of life, and relate to brain injury factors such as intraventricular hemorrhage and periventricular leukomalacia, and also to vaginal delivery."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: twinsversussingletonpregnanciesoutcomesinsmallforgestationalagelatepretermdeliveries2020walker
+"Background: Compared to singleton pregnancies, small for gestational age (SGA) and twin gestations experience adverse maternal and neonatal outcomes. Specific data regarding outcomes in late preterm SGA twin gestations are lacking.Objective: This study sought to compare pregnancy outcomes of late preterm (>=34 and <37 weeks) SGA twins versus singletons. In addition, we sought to stratify the comparisons by <10 and <5 percentile categories.Study design: In this retrospective cohort of 1.85 million pregnancies, we identified 10,646 nonanomalous, SGA, late preterm singleton and twin pregnancies. Births at gestational ages <34 and >=37 weeks were excluded. Multivariate regression analyses and Chi-squared test were used for statistical comparisons and a p-value of less than 0.05 was used to indicate statistical significance.Results: After controlling for race, education, parity, prenatal care, diabetes, and hypertensive disease, twin pregnancies were less likely to experience neonatal death (aOR 0.14; 95% CI 0.03-0.63; p = .01) and intrauterine fetal demise (IUFD) (aOR 0.16; 95% CI 0.08-0.31; p < .001) compared to SGA <10 percentile singletons. Cesarean rates were higher in SGA <10 [percentile twin pregnancies (aOR 3.40; 95% CI 3.01-3.90; p < .001) as were postpartum hemorrhage (aOR 2.01; 95% CI 1.52-2.67; p < .001) and transfusion (aOR 1.54; 95% CI 1.52-2.67; p = .024).Conclusion: Late preterm SGA twin pregnancies were more like to be complicated by cesarean delivery, postpartum hemorrhage, and maternal transfusion compared to singleton pregnancies. However, neonatal death and IUFD were less common in SGA twin gestations."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricoutcomesassociatedwithinductionoflabouraftercaesareansection2018gobillot
+"PURPOSE: To evaluate the efficiency and safety of inducing labour with oxytocin in women with a single prior Caesarean section, with particular focus on the Bishop score. METHODS: Between January 1, 2013 and March 31, 2017, we included all women with a singleton full-term pregnancy and single prior Caesarean section in this monocentric retrospective observational study. Women for whom vaginal delivery was not recommended and those who went into spontaneous labour were excluded. The choice between induction of labour and caesarean section was made by the obstetrician and the patient, taking into account both the patient's personal medical history and the clinical observations on admission to hospital. The primary outcome was the rate of vaginal delivery. RESULTS: Out of 966 women with no contraindication to trial of labour after previous caesarean delivery (TOLAC), 248 were induced, with a vaginal delivery rate of 58.5% (95% CI [52.06; 64.67]). This rate was 81.7% (67/82) among women with Bishop >=6 and 47% (78/166) if Bishop was <6. Eight cases of uterine rupture were reported in the induction of labour group. Regarding maternal morbidity, this was the main difference between the caesarean section and the induction of labour groups (p=0.049). Neonatal morbidity was low in both groups. CONCLUSIONS: The rate of vaginal delivery after induction of labour with oxytocin infusion was satisfactory. Nevertheless, maternal morbidity and especially the risk of uterine rupture were not minor. It is thus essential before inducing labour to inform the woman about the rate of success of TOLAC and the risks of uterine rupture."""
+
+

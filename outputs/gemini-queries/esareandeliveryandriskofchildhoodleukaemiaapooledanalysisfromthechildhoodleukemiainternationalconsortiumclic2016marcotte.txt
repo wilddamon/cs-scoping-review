@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareandeliveryandriskofchildhoodleukaemiaapooledanalysisfromthechildhoodleukemiainternationalconsortiumclic2016marcotte
+"BACKGROUND: Results from case-control studies have shown an increased risk of acute lymphoblastic leukaemia (ALL) in young children born by caesarean delivery, and prelabour caesarean delivery in particular; however, an association of method of delivery with childhood leukaemia subtypes has yet to be established. We therefore did a pooled analysis of data to investigate the association between childhood leukaemia and caesarean delivery. METHODS: We pooled data from 13 case-control studies from the Childhood Leukemia International Consortium done in nine countries (Canada, Costa Rica, Egypt, France, Germany, Greece, Italy, New Zealand, and the USA) for births from 1970-2013. We analysed caesarean delivery overall and by indications that probably resulted in prelabour caesarean delivery or emergency caesarean delivery. We used multivariable logistic regression models, adjusted for child's birthweight, sex, age, ethnic origin, parental education, maternal age, and study, to estimate odds ratios (ORs) and 95% CIs for the risk of ALL and acute myeloid leukaemia (AML) in children aged 0-14 years at diagnosis. FINDINGS: The studies provided data for 8780 ALL cases, 1332 AML cases, and 23 459 controls, of which the birth delivery method was known for 8655 (99%) ALL cases, 1292 (97%) AML cases, and 23 351 (>99%) controls. Indications for caesarean delivery were available in four studies (there were caesarean deliveries for 1061 of 4313 ALL cases, 138 of 664 AML cases, and 1401 of 5884 controls). The OR for all indications of caesarean delivery and ALL was 1*06 (95% CI 0*99-1*13), and was significant for prelabour caesarean delivery and ALL (1*23 [1*04-1*47]; p=0*018). Emergency caesarean delivery was not associated with ALL (OR 1*02 [95% CI 0*81-1*30]). AML was not associated with caesarean delivery (all indications OR 0*99 [95% CI 0*84-1*17]; prelabour caesarean delivery 0*83 [0*54-1*26]; and emergency caesarean delivery 1*05 [0*63-1*77]). INTERPRETATION: Our results suggest an increased risk of childhood ALL after prelabour caesarean delivery. If this association is causal, maladaptive immune activation due to an absence of stress response before birth in children born by prelabour caesarean delivery could be considered as a potential mechanism. FUNDING: National Cancer Institute."""
+
+

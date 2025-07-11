@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: diagnosticutilityofinterleukin6inearlyonsetsepsisamongtermnewbornsimpactofmaternalriskfactorsandcrpevaluation2024schleier
+"(1) Background: Interleukin-6 (IL-6) levels act as an early infection marker preceding C-reactive protein (CRP) elevation. This study seeks to analyze IL-6 behavior in suspected early-onset sepsis (EOS) cases among term newborns, comparing it to that of CRP and evaluating IL-6's diagnostic utility. We also aim to assess the impact of maternal risk factors on EOS in term newborns, quantifying their influence for informed decision making. (2) Methods: The retrospective data analysis included 533 term newborns who were admitted to our hospital because of suspected EOS. IL-6, CRP, and the impact of maternal risk factors were analyzed in the context of EOS using binomial test, Chi-squared test, logistic and linear regression. (3) Results: In the cases of EOS, both IL-6 and CRP were elevated. The increase in CRP can be predicted by the initial increase in IL-6 levels. Among the assessed risk factors, intrapartum maternal fever (adjusted odds ratio 18.1; 95% CI (1.7-4.1)) was identified as the only risk factor significantly associated with EOS. (4) Conclusion(s): Employing IL-6 as an early infection marker enhanced EOS diagnostic precision due to its detectable early rise. However, caution is required, as elevations in IL-6 and CRP levels do not exclusively indicate EOS. Increased CRP levels in healthy newborns with maternal risk factors may be attributed to dynamics of vaginal labor.Copyright (c) 2023 by the authors."""
+
+

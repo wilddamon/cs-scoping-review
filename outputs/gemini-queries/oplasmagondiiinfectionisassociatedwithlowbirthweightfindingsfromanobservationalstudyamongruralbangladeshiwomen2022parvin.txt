@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: toxoplasmagondiiinfectionisassociatedwithlowbirthweightfindingsfromanobservationalstudyamongruralbangladeshiwomen2022parvin
+"Gestational Toxoplasma gondii (T. gondii) infection may cause substantial adverse effects on developing fetuses, newborns and also mothers. This study aims to estimate the seroprevalence of T. gondii among rural Bangladeshi pregnant women and determine the risk of a low birth weight (LBW). We followed a longitudinal design where 208 pregnant women were followed until the birth of their infants. Levels of IgG and IgM of T. gondii were assessed using chemiluminescent immunoassay. Modified Poisson regression was used to estimate crude and adjusted associations and multiple regression analysis was performed to understand the confounding and modifying effects of the variables. Thirty-nine (19%) children were born with LBW, among whom 15 (39%) mothers were positive for T. gondii IgG during pregnancy. After adjusting for several confounders and modifiers, pregnant women with T. gondii IgG or IgM seropositivity were significantly associated with LBW of infants (aRR: 2.00, 95% CI: 1.17-3.42). The strength of this association increased after adjusting for maternal education (aRR: 4.88, 95% CI: 1.74-13.69). The final model had an AROC of 0.84 with a sensitivity of 36% and specificity of 97%. Although causality is yet to be established, the study observed an association between T. gondii infection during pregnancy among rural Bangladeshi women and LBW of newborns.Copyright (c) 2022 by the authors. Licensee MDPI, Basel, Switzerland."""
+
+

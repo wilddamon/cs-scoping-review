@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theincidenceandfactorsassociatedwithfailedspinalanesthesiaamongparturientsunderwentcesareansection2019aprospectiveobservationalstudy2020ashagrie
+"Background: Spinal anesthesia is the method of choice for cesarean section as it is associated with low occurrence of intra-operative and post-operative morbidities. Despite this significant move towards spinal anesthesia, it has a risk of failure reported in the range of 1-17%. Failed spinal is a disgusting event for the mother and the anesthetist that may lead to decreased maternal satisfaction and may potentially impact fetal and maternal outcomes. Objective(s): The study was designed to determine the incidence and factors associated with failed spinal anesthesia during cesarean section. Method(s): A prospective institution based observational study was conducted on 275 parturients from October 1st to December 31st, 2019. After collection, the data was data entered and analyzed by SPSS version 21. The main outcome measure was the incidence of failed spinal anesthesia and the chi-square test was used to compare failure rates and multivariable regression analysis was performed to investigate potential factors. Result(s): The study involved 275 parturients and the overall incidence of failed spinal was 19.5%. Co-morbidity (OR = 9.615; CI = 1.255-7.368), emergency procedure (AOR = 2.191; CI = 1.087-4.417), needle size (2.3; CI = 0.92-0.615), anesthetist's experience (AOR = 4.23; CI = 2.14-8.34), surgeon's experience (AOR = 2.530; CI = 1.319-4.853), bloody CSF flow (AOR = 2.440; CI = 0.103-0.582), and volume of local anesthetics (AOR = 2.781; CI = 1.432-5.398) were significantly associated with failed spinal anesthesia. Conclusions and recommendations: The incidence of failed spinal anesthesia was found to be high compared to previous studies. Since the study tried to identify risk factors for failure, we should act accordingly to minimize the failure rate.Copyright (c) 2020 The Author(s)"""
+
+

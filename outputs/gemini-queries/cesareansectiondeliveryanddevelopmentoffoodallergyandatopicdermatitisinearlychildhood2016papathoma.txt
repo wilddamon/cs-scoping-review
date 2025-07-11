@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectiondeliveryanddevelopmentoffoodallergyandatopicdermatitisinearlychildhood2016papathoma
+"BACKGROUND: Delivery by Cesarean section (CS) may predispose to allergic disorders, presumably due to alterations in the establishment of normal gut microbiota in early infancy. In this study, we sought to investigate the association between CS and physician-diagnosed food allergy and atopic dermatitis during the first 3 years of life, using data from a homogeneous, population-based, birth cohort. METHODS: A total of 459 children born and cared for in the same tertiary maternity unit were examined at birth and followed up at 1, 6, 12, 18, 24, 30 and 36 months of age. Participants with symptoms suggestive of food allergy or atopic dermatitis were evaluated by a pediatric allergy specialist to confirm the diagnosis based on well-defined criteria. RESULTS: The rate of CS was 50.8% (n = 233). Food allergy was diagnosed in 24 participants (5.2%) while atopic dermatitis was diagnosed in 62 children (13.5%). Cesarean section (OR 3.15; 95% CI 1.14-8.70), atopic dermatitis of the child (OR 3.01; 95% CI 1.18-7.80), parental atopy (OR 4.33; 95% CI 1.73-12.1), and gestational age (OR 1.57; 95% CI 1.07-2.37) were significant and independent predictors of food allergy. Children with at least one allergic parent delivered by CS had higher probability of developing food allergy compared with vaginally delivered children of non-allergic parents (OR 10.0; 95% CI 3.06-32.7). Conversely, the effect of CS on atopic dermatitis was not significant (OR 1.35; 95% CI 0.74-2.47). CONCLUSIONS: Delivery by CS predisposes to the development of food allergy but not atopic dermatitis in early childhood. Cesarean section delivery seems to upregulate the immune response to food allergens, especially in children with allergic predisposition."""
+
+

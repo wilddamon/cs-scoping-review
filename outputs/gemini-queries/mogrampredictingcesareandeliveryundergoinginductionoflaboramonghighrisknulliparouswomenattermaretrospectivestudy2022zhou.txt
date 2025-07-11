@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nomogrampredictingcesareandeliveryundergoinginductionoflaboramonghighrisknulliparouswomenattermaretrospectivestudy2022zhou
+"BACKGROUND: Our aim was to create and validate a nomogram predicting cesarean delivery after induction of labor among nulliparous women at term. METHODS: Data were obtained from medical records from Nanjing Drum Tower Hospital. Nulliparous women with singleton pregnancies undergoing induction of labor at term were involved. A total of 2950 patients from Jan. 2014 to Dec. 2015 were served as derivation cohort. A nomogram was constructed by multivariate logistic regression using maternal, fetal and pregnancy characteristics. The predictive accuracy and discriminative ability of the nomogram were internal validated by 1000-bootstrap resampling, followed by external validation of a new dataset from Jan. 2016 to Dec. 2016. RESULTS: Logistic regression revealed nine predictors of cesarean delivery, including maternal height, age, uterine height, abdominal circumference, estimated fetal weight, indications for induction of labor, initial cervical consistency, cervical effacement and station. Nomogram was well calibrated and had an AUC of 0.73 (95% confidence interval [CI], 0.70-0.75) after bootstrap resampling for internal validation. The AUC in external validation reached 0.67, which was significantly higher than that of three models published previously (P<0.05). CONCLUSIONS: This validated nomogram, constructed by variables that were obtained form medical records, can help estimate risk of cesarean delivery before induction of labor."""
+
+

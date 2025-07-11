@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developingandvalidatingnomogramtopredictseverepostpartumhemorrhageinwomenwithplacentapreviaundergoingcesareandeliveryamulticenterretrospectivecasecontrolstudy2021dang
+"OBJECTIVE: Developing and validating nomogram to predict severe postpartum hemorrhage (SPPH) in women with placenta previa (PP) undergoing cesarean delivery. METHODS: We conducted a multicenter retrospective case-control study in five hospitals. In this study, 865 patients from January, 2018 to June, 2020 were enrolled in the development cohort, and 307 patients from July, 2020 to June, 2021 were enrolled in the validation cohort. Independent risk factors for SPPH were obtained by using the multivariate logistic regression, and preoperative nomogram and intraoperative nomogram were developed, respectively. We compared the discrimination, calibration, and net benefit of the two nomograms in the development cohort and validation cohort. Then, we tested whether the intraoperative nomogram could be used before operation. RESULTS: There were 204 patients (23.58%) in development cohort and 80 patients (26.06%) in validation cohort experienced SPPH. In development cohort, the areas under the receiver operating characteristic (ROC) curve (AUC) of the preoperative nomogram and intraoperative nomogram were 0.831 (95% CI, 0.804, 0.855) and 0.880 (95% CI, 0.854, 0.905), respectively. In validation cohort, the AUC of the preoperative nomogram and intraoperative nomogram were 0.825 (95% CI, 0.772, 0.877) and 0.853 (95% CI, 0.808, 0.898), respectively. In the validation cohort, the AUC was 0.839 (95% CI, 0.789, 0.888) when the intraoperative nomogram was used before operation. CONCLUSION: We developed the preoperative nomogram and intraoperative nomogram to predict the risk of SPPH in women with PP undergoing cesarean delivery. By comparing the discrimination, calibration, and net benefit of the two nomograms in the development cohort and validation cohort, we think that the intraoperative nomogram performed better. Moreover, application of the intraoperative nomogram before operation can still achieve good prediction effect, which can be improved if the severity of placenta accreta spectrum (PAS) can be accurately distinguished preoperatively. We expect to conduct further prospective external validation studies on the intraoperative nomogram to evaluate its application value."""
+
+

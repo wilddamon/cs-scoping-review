@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adversepregnancyoutcomesaftertreatmentforcervicalintraepithelialneoplasia2016bjorge
+"OBJECTIVE: To explore associations between specific treatments for intraepithelial or early invasive cervical lesions and adverse pregnancy outcomes.;METHODS: We conducted a population-based cohort study in which treatment data from the Cancer Registry of Norway were linked to the Medical Birth Registry of Norway to identify adverse pregnancy outcomes. All women (n=545,243) with singleton births (N=943,321) in Norway during 1998-2014 were included; 9,554 of births were in women treated before delivery. Hazard ratios (HRs) with 95% confidence intervals (CIs) were derived from Cox regression models.;RESULTS: There was a significant association between preterm birth and previous treatment of cervical lesions overall (9.7 compared with 5.3%; HR 1.8, 95% CI 1.7-2.0). The strongest associations were seen for cold knife (13 compared with 5.3%; HR 2.6, 95% CI 1.3-5.3) and laser conization (12 compared with 5.3%; HR 2.3, 95% CI 2.0-2.5). The association was stronger for preterm birth at earlier gestational ages and increased with amount of tissue excised. Furthermore, the association weakened with calendar year of treatment. There was also an association with increased risks of spontaneous abortion (0.5 compared with 0.2%; HR 2.5, 95% CI 1.7-3.7), and the strongest associations were seen for laser conization (0.6 compared with 0.2%; HR 3.0, 95% CI 1.8-5.3) and a loop electrosurgical excision procedure (LEEP) (0.4 compared with 0.2%; HR 2.3, 95% CI 1.3-4.0).;CONCLUSION: Treatment with major excisional procedures, including LEEP, was associated with increased risks of preterm birth and spontaneous abortion. The risk of preterm birth was highest at early gestational ages and for those with the largest amount of tissue excised. Women should be informed about their future risk of adverse pregnancy outcomes, particularly preterm birth, after excisional treatment for cervical lesions."""
+
+

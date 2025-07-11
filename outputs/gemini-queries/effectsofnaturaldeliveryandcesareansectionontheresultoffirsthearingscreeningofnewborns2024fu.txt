@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectsofnaturaldeliveryandcesareansectionontheresultoffirsthearingscreeningofnewborns2024fu
+"BACKGROUND: Early detection and intervention of hearing issues in newborns are crucial for their auditory and speech development, necessitating newborn hearing screenings. This study aimed to investigate the impact of delivery methods, specifically natural delivery and cesarean section, on newborn hearing screening outcomes.;METHODS AND MATERIAL: A retrospective analysis was conducted on data from 600 newborns delivered at The First Affiliated Hospital of Shaoyang University between January 2020 and January 2023. The initial hearing screenings used the AccuScreen otoacoustic emission instrument. The study examined the influence of delivery method on the pass rates of newborns' first hearing screenings within and beyond 48 h postbirth.;RESULTS: The pass rates for the initial hearing screenings, conducted within and after 48 h of birth, were significantly higher in the natural delivery group compared to the cesarean section group (P < 0.05). Furthermore, multivariate analysis identified the delivery method as a significant factor influencing the pass rates of newborns' first hearing screenings.;CONCLUSIONS: The mode of delivery appears to affect the results of the initial hearing screenings of newborns, though further research is needed to validate these findings. Copyright (c) 2024 Noise & Health."""
+
+

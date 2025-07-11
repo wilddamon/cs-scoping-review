@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theoptimalcutofflevelofddimerduringpregnancytoexcludedeepveinthrombosisandtheassociationbetweenddimerandpostpartumhemorrhageincesareansectionpatients2021orita
+"OBJECTIVE: The main purpose was to clarify the optimal D-dimer cutoff level during pregnancy to exclude deep vein thrombosis (DVT) prior to Cesarean section. The secondary purpose was to determine whether D-dimer can predict severe postpartum hemorrhage (PPH) in Cesarean section patients.;METHODS: Two hundred and seventy eight elective Cesarean section cases were enrolled. Clinical factors and blood parameters at 34-37 weeks of gestation were analyzed. To detect DVT, lower extremities veins were examined using color Doppler ultrasonography in cases with D-dimer level >= 1.5 mug/mL. In addition, postpartum blood loss amounts during Cesarean section were recorded.;RESULTS: Five DVT cases occurred in 250 singleton pregnancies, and 2 DVT cases occurred in 28 twin pregnancies. The overall incidence of DVT was 2.5%. The D-dimer level was higher in DVT cases than in non-DVT cases (3.84+/-1.97 vs. 2.31+/-1.48 mug/mL, P<0.01). The optimal D-dimer cutoff level was 2.6 mug/mL with a negative predic tive value of 99.5%, and sensitivity of 85.7%. PPH during Cesarean section was positively correlated with D-dimer level in all pregnancies. However, this relationship disappeared after excluding twin pregnancies.;CONCLUSION: A D-dimer level < 2.6 mug/mL at 34-37 weeks of gestation has the potential to exclude DVT. D-dimer can be an independent predictor for severe PPH for all Cesarean section cases, including twin pregnancies."""
+
+

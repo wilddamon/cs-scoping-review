@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: arechildrenbornbycesareandeliveryathigherriskforrespiratorysequelae2022salem
+"BACKGROUND: Globally, the number of children born by cesarean delivery is constantly increasing. However, hormonal and physiological changes associated with labor and vaginal delivery are considered necessary for lung maturation. OBJECTIVE: We aimed to assess whether the mode of delivery is associated with changes in respiratory and atopic outcomes during infancy and at school age. STUDY DESIGN: We included 578 children, born at >=37 weeks of gestation, from a prospective birth cohort study. We compared weekly respiratory symptoms throughout the first year of life and infant lung function (tidal breathing and multiple-breath washout) at 5 weeks of age between children born by cesarean delivery (N=114) and those born by vaginal delivery (N=464) after term pregnancy in healthy women. At a follow-up visit conducted at 6 years of age (N=371, of which 65 were delivered by cesarean delivery), we assessed respiratory, atopic, and lung function outcomes (spirometry, body plethysmography, and multiple-breath washout). We performed adjusted regression analyses to examine the association between cesarean delivery and respiratory and atopic outcomes. To account for multiple testing, we used the Bonferroni correction, which led to an adapted significance level of P<.002. RESULTS: During infancy, children born by cesarean delivery did not have more respiratory symptoms than those born by vaginal delivery (median, 4 weeks; interquartile range, 7 weeks vs median, 5 weeks; interquartile range, 7 weeks; adjusted incidence rate ratio, 0.8; 95% confidence interval, 0.6-1.0; P=.02). Infant lung function was similar between the groups. Children born by cesarean delivery did not have a higher incidence of 'ever wheezing' (adjusted odds ratio, 0.9; 95% confidence interval, 0.5-1.8; P=.78) or current asthma (adjusted odds ratio, 0.4; 95% confidence interval, 0.0-3.5; P=.42) at school age than those born by vaginal delivery. There was no difference in the lung function parameters between the groups. CONCLUSION: Cesarean delivery was not associated with respiratory symptoms in the first year of life, nor with different respiratory or atopic outcomes at school age, when compared with vaginal delivery. Our results indicate that there are no long-term consequences on the respiratory health of the child associated with cesarean delivery."""
+
+

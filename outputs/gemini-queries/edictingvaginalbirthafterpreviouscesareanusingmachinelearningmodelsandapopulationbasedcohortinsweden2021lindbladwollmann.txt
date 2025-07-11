@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingvaginalbirthafterpreviouscesareanusingmachinelearningmodelsandapopulationbasedcohortinsweden2021lindbladwollmann
+"INTRODUCTION: Predicting a woman's probability of vaginal birth after cesarean could facilitate the antenatal decision-making process. Having a previous vaginal birth strongly predicts vaginal birth after cesarean. Delivery outcome in women with only a cesarean delivery is more unpredictable. Therefore, to better predict vaginal birth in women with only one prior cesarean delivery and no vaginal deliveries would greatly benefit clinical practice and fill a key evidence gap in research. Our aim was to predict vaginal birth in women with one prior cesarean and no vaginal deliveries using machine-learning methods, and compare with a US prediction model and its further developed model for a Swedish setting. MATERIAL AND METHODS: A population-based cohort study with a cohort of 3116 women with only one prior birth, a cesarean, and a subsequent trial of labor during 2008-2014 in the Stockholm-Gotland region, Sweden. Three machine-learning methods (conditional inference tree, conditional random forest and lasso binary regression) were used to predict vaginal birth after cesarean among women with one previous birth. Performance of the new models was compared with two existing models developed by Grobman et al (USA) and Fagerberg et al (Sweden). Our main outcome measures were area under the receiver-operating curve (AUROC), overall accuracy, sensitivity and specificity of prediction of vaginal birth after previous cesarean delivery. RESULTS: The AUROC ranged from 0.61 to 0.69 for all models, sensitivity was above 91% and specificity below 22%. The majority of women with an unplanned repeat cesarean had a predicted probability of vaginal birth after cesarean >60%. CONCLUSIONS: Both classical regression models and machine-learning models had a high sensitivity in predicting vaginal birth after cesarean in women without a previous vaginal delivery. The majority of women with an unplanned repeat cesarean delivery were predicted to succeed with a vaginal birth (ie specificity was low). Additional covariates combined with machine-learning techniques did not outperform classical regression models in this study."""
+
+

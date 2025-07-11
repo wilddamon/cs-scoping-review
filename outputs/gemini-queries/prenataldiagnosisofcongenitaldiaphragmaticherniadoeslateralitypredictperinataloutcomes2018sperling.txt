@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenataldiagnosisofcongenitaldiaphragmaticherniadoeslateralitypredictperinataloutcomes2018sperling
+"OBJECTIVE: The objective of this study was to examine laterality as a predictor of outcomes among fetuses with prenatally diagnosed congenital diaphragmatic hernia (CDH). METHODS: This is a retrospective cohort study of pregnancies with CDH evaluated at our center from 2008 to 2016 compared cases with right-sided CDH (RCDH) versus left-sided CDH (LCDH). The primary outcome was survival to discharge. Secondary outcomes included ultrasound predictors of poor prognosis (liver herniation, stomach herniation, lung area-to-head circumference ratio [LHR]), concurrent anomalies, hydrops, stillbirth, preterm birth, mode of delivery, small for gestational age, use of extracorporeal membrane oxygenation, and length of stay. Terminations and stillbirths were excluded from analyses of neonatal outcomes. RESULTS: In this study, 157 (83%) LCDH and 32 (17%) RCDH cases were identified. Survival to discharge was similar (64 vs. 66.4%, p = 0.49) with regard to laterality. RCDH had higher rates of liver herniation (90.6 vs. 72%, p = 0.03), hydrops fetalis (15.6 vs. 1.3%, p < 0.01), and lower LHR (0.87 vs. 0.99, p = 0.04). LCDH had higher rates of stomach herniation (69.4 vs. 12.5%, p < 0.01). Rates of other outcomes were similar in univariate analyses. Adjusting for microarray abnormalities, the odds for survival to discharge for RCDH compared with LCDH was 0.93 (0.38-2.30, p = 0.88). CONCLUSION: Compared with LCDH, fetuses with RCDH had higher rates of adverse ultrasound predictors, but equivalent survival."""
+
+

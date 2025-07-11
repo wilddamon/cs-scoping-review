@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsfortransfusionincesareansectiondeliveriesatatertiaryhospital2016bao
+"BACKGROUND: The purpose of this study was to determine which variables are associated with different levels of transfusion for cesarean delivery. STUDY DESIGN AND METHODS: This was a retrospective study conducted in a tertiary hospital. A total of 271 patients receiving blood transfusions for postpartum hemorrhage (PPH) during a cesarean section and up to 24 hours after cesarean delivery between January 2006 and December 2013 were eligible for inclusion. Women in the transfused group were stratified into three subgroups according to number of units of red blood cells transfused: fewer than 5 units (mild transfusion), 5 to 10 units (moderate transfusion), and 10 or more units (massive transfusion). An additional 271 patients who delivered by cesarean section and suffered from PPH but did not require blood transfusion were selected as the nontransfused group. RESULTS: There were 271 patients who required a blood transfusion for PPH. The blood transfusion rate was 0.53% (271/50,699). After potential confounders were adjusted for, when compared with the nontransfused group, assisted reproductive technologies was a risk factor for mild transfusion (adjusted odds ratio [AOR] 2.452, 95% CI 1.250-4.808) and moderate transfusion (AOR 2.075, 95% CI 1.069-4.028); placenta previa was a risk factor for moderate transfusion (AOR 2.736, 95% CI 1536-4.874); and pernicious placenta previa was a risk factor for all transfusion subgroups (AOR 14.211, 95% CI 1.452-39.089; AOR 12.462, 95% CI 1.275-121.749; AOR 73.636, 95% CI 9.041-599.742). More women were treated with intrauterine balloon pressure and uterine compression sutures in the mild, moderate, and massive transfusion groups. CONCLUSION: Placenta previa was a risk factor associated with moderate transfusion, and pernicious placenta previa was the only modifiable prepartum risk factor independently associated with all transfused subgroups."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: iscesareandeliverypreferableintwinpregnanciesat36weeksgestation2016dong
+"BACKGROUND: The optimal mode of delivery in twin pregnancies remains controversial. A recent randomized trial did not find any benefit of planned cesarean vs. vaginal delivery at 32-38 weeks gestation, but the trial was not powered to detect a moderate effect. We aimed to evaluate the impact of cesarean delivery on perinatal mortality and severe neonatal morbidity in twin pregnancies at >=32 weeks through a large database exploration approach with the power to detect moderate risk differences. METHODS: In a retrospective birth cohort study using the U.S. matched multiple births, 1995-2000 (the available largest multiple birth dataset), we compared perinatal outcomes in twins (n = 181,810 pregnancies) delivered at 32-41 weeks gestation without congenital anomalies. The primary outcome was a composite of perinatal death and severe neonatal morbidity. Cox regression was used to estimate the adjusted hazard ratio (aHR) controlling for the propensity to cesarean delivery, fetal characteristics (sex, birth weight, birth weight discordance, same-sex twin or not) and twin-cluster level dependence. Prospective risks were calculated using the fetuses-at-risk denominators. RESULTS: The overall rates of the primary outcome were slightly lower in intended cesarean (6.20%) vs. vaginal (6.45%) deliveries. The aHRs of the primary outcome were in favor of vaginal delivery at 32 (aHR = 1.06, p = 0.03) or 33 (aHR = 1.22, p<0.001) weeks, neutral at 34-35 weeks, but in favor of cesarean delivery at 36 (aHR = 0.94, p = 0.004), 37, 38 and 39+ weeks (aHR: 0.72 to 0.78, all p<0.001). The lower risk of the primary outcome for cesarean vs. vaginal deliveries at 36+ weeks of gestation remained when the analyses were restricted to different-sex (dichorionic) twins (aHR = 0.84, 95% CI 0.80-0.88). CONCLUSION: Cesarean delivery may be beneficial for perinatal outcomes overall in twin pregnancies at >=36 weeks gestation."""
+
+

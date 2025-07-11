@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonataloutcomesinpregnantwomenwithpulmonaryarterialhypertensionassociatedwithheartdisease2023ma
+"BACKGROUND: As an increasing number of women with pulmonary arterial hypertension (PAH) choose to become pregnant, outcomes in newborns have become a priority. The main purpose of this study was to compare the neonatal outcomes in pregnant women with PAH associated with heart disease.;METHODS: A single-center retrospective study was performed. Pregnancy with heart disease is divided into three groups: no PAH, mild PAH and severe PAH. Neonatal outcomes of pregnant women were compared among groups. Meanwhile, multivariable analyses were used to investigate the association between maternal PAH and adverse neonatal events.;RESULTS: A total of 127 pregnant women with heart disease were enrolled. Of these, 82 (64.6%) had no PAH, 19 (15%) had mild PAH and 26 (20.4%) had severe PAH. The offspring of women with severe PAH had a higher risk of preterm delivery, low birth weight, neonatal respiratory distress syndrome (NRDS), neonatal intensive care unit (NICU) admission and recurrence of congenital heart disease (CHD). Compared to the women without PAH, only the risk of preterm delivery (32-36 weeks) and NICU admission were slightly higher in mothers with mild PAH; other neonatal events were similar. Multivariate regression analyses showed that the risk of preterm delivery (<37 weeks) increased with the increasing severity of maternal PAH, with an OR of 3.1 (95% CI, 1.1-8.8) for mild and 21.9 (95%CI, 4.8-99.4) for severe PAH. The same pattern was observed for NICU admission. Mothers with severe PAH were independently associated with low birth weight (OR 13, 95%CI 4.3-39, P < 0.001), NRDS (OR 17.9, 95%CI 5.5-58.9, P < 0.001) and recurrence of CHD (OR 4.47, 95%CI 1.7-11.6, P = 0.002).;CONCLUSION: Pregnancy in women with severe PAH can significantly increase the risks of neonatal events. While neonatal outcomes in pregnant women with mild PAH were considered optimistic in the present study, a multidisciplinary management of PAH in pregnancy would be necessary to have consistently good outcomes. Copyright (c) 2023 Taiwan Pediatric Association. Published by Elsevier B.V. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theintraoperativeuseofinternaliliacarteryballooncathetersincesareandeliveriesforabnormalinvasiveplacentationa3yearretrospectivecohortreviewindohaqatar2021ahmed
+"BACKGROUND: Abnormal invasive placentation leads to massive intraoperative hemorrhage and maternal morbidity. This study aimed to assess the impact of the preoperative use of internal iliac artery balloon occlusion (IIABO) catheters in patients who had a cesarean delivery (CD) for invasive placentation, commonly known as the placenta accreta spectrum. METHODS: This retrospective cohort study reviewed 67 pregnancies complicated by abnormal invasive placenta and confirmed intraoperatively. Preoperative planned placement of IIABO was performed in 33 women who underwent elective CD. Senior Obstetricians with the necessary expertise performed all CDs. The primary outcome measures were: intraoperative blood loss, blood transfusion requirement, duration of surgery and the need for hemostatic measures. Univariate comparison between the groups and regression analysis of the primary outcome and controlling for confounders, were performed. RESULTS: No statistically significant difference was observed between the groups with intraoperative hemorrhage volume of above 3000 mL (unadjusted odds ratio [OR] 0.94 [no-IIABO group as the reference]; p = 0.895) and the median duration of surgery (median 107, interquartile range [IQR] 80-135 vs. median 96, IQR 75-121; p = 0.3508). More than 40% of the IIABO group required intraoperative transfusion of packed red blood cells above six units (14 [42.4%] vs. 10 [29.4%]; p = 0.357]), and 30% required additional postoperative transfusion (10 [30.3%] vs. 8 [23.5%]; p = 0.706]), although not statistically significant. Multivariate logistic regression analysis showed that the difference remained nonsignificant after covariate adjustment (adjusted OR 0.585, p = 0.456). Cesarean hysterectomy was performed in fewer cases (seven [21.1%]) in the IIABO group than in the no-IIABO group (10 [29.4%]), although this difference was not significant (unadjusted OR 0.65, p = 0.442). CONCLUSIONS: The placement of IIABO catheters is an invasive procedure, which consumes time and resources. Its value as a means of reducing intraoperative blood loss or preserving the uterus in patients with abnormal placental adherence appears questionable. In this cohort study, there was no statistical difference in blood loss, and the need for other steps to control hemorrhage between women with and without IIABO catheters."""
+
+

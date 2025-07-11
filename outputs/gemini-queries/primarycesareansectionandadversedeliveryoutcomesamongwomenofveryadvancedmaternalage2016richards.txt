@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: primarycesareansectionandadversedeliveryoutcomesamongwomenofveryadvancedmaternalage2016richards
+"OBJECTIVE: To assess associations between primary cesarean delivery and adverse delivery outcomes with very advanced maternal age. STUDY DESIGN: We conducted a population-based cohort study including 78,880 births to mothers 25 years and older with singleton births from 2003 to 2012 using Washington State birth certificates and hospital discharge data, excluding births to women with a prior cesarean section. The primary outcome was mode of delivery. Secondary outcomes included maternal transfusion, chorioamnionitis, severe perineal lacerations and prolonged length of stay. Outcomes of births to women of advanced maternal age (35 to 39, 40 to 44) and very advanced maternal age (45 to 49, 50) were compared with referent births among women aged 25 to 34 years. General linear models with a log-link function were used to calculate unadjusted and adjusted relative risks and 95% confidence intervals (CIs). RESULT: Proportions and risks of primary cesarean section increased with age (25 to 34 years, referent: 20.0%; 35 to 39 years: 25.9%, relative risk (RR)=1.25 (95% CI=1.20 to 1.29); 40 to 44 years: 30.9%, RR=1.45 (95% CI=1.40 to 1.50); 45 to 49 years: 35.7%, RR=1.59 (95% CI=1.45 to 1.75); and 50 years: 60.7%, RR=2.44 (95% CI=1.95 to 3.05); P-trend <0.001). Associations did not differ between primiparous and multiparous women. No differences were noted for measures of maternal morbidity, except there was a trend of increasing risk of prolonged length of stay among births to older women (P-trend <0.001). CONCLUSION: Primary cesarean delivery risk continues to increase above age 35 regardless of prior vaginal birth, with the highest risk among women aged 50 years and older."""
+
+

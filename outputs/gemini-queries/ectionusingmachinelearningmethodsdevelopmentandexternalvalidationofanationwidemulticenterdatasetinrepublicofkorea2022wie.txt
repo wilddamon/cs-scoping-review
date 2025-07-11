@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofemergencycesareansectionusingmachinelearningmethodsdevelopmentandexternalvalidationofanationwidemulticenterdatasetinrepublicofkorea2022wie
+"This study was a multicenter retrospective cohort study of term nulliparous women who underwent labor, and was conducted to develop an automated machine learning model for prediction of emergent cesarean section (CS) before onset of labor. Nine machine learning methods of logistic regression, random forest, Support Vector Machine (SVM), gradient boosting, extreme gradient boosting (XGBoost), light gradient boosting machine (LGBM), k-nearest neighbors (KNN), Voting, and Stacking were applied and compared for prediction of emergent CS during active labor. External validation was performed using a nationwide multicenter dataset for Korean fetal growth. A total of 6549 term nulliparous women was included in the analysis, and the emergent CS rate was 16.1%. The C-statistics values for KNN, Voting, XGBoost, Stacking, gradient boosting, random forest, LGBM, logistic regression, and SVM were 0.6, 0.69, 0.64, 0.59, 0.66, 0.68, 0.68, 0.7, and 0.69, respectively. The logistic regression model showed the best predictive performance with an accuracy of 0.78. The machine learning model identified nine significant variables of maternal age, height, weight at pre-pregnancy, pregnancy-associated hypertension, gestational age, and fetal sonographic findings. The C-statistic value for the logistic regression machine learning model in the external validation set (1391 term nulliparous women) was 0.69, with an overall accuracy of 0.68, a specificity of 0.83, and a sensitivity of 0.41. Machine learning algorithms with clinical and sonographic parameters at near term could be useful tools to predict individual risk of emergent CS during active labor in nulliparous women."""
+
+

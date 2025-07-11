@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hospitalacquiredconditionsandlengthofstayinthepregnancyandpuerperalcycle2019silva
+"OBJECTIVE: To analyze the impact of the Hospital-Acquired Conditions (HAC) in women in the puerperal and pregnancy cycle during length of stay.;METHODS: This cross-sectional study was conducted with 113,456 women, between July 2012 and July 2017, in Brazil's national hospitals of the supplementary healthcare networks and philanthropists accredited to the Unified Health System (SUS). Data on hospital discharges were collected using the Diagnosis-Related Groups (DRG Brasil R) system. All DRGs of the major diagnostic category 14 (MDC14), including pregnancy, childbirth and puerperium, were included. The impact of HAC on length of stay was estimated by Student's t-test, and the effect size by Cohen's d, which allows to assess clinical relevance.;RESULTS: The most prevalent diagnostic categories related to MDC14 were vaginal and cesarean deliveries without complicating diagnoses, both at institutions accredited to SUS and those for supplementary health care. The prevalence of HAC was 3.8% in supplementary health and 2.5% in SUS. Hospitals providing services to supplementary health care providers had a longer length of stay considering HAC for patients classified as DRG: cesarean section with complications or comorbidities at admission (p < 0.001; Cohen's d = 0.74), cesarean section without complications or comorbidities at admission (p < 0.001, Cohen's d = 0.31), postpartum and post abortion without listed procedure (p < 0.001, Cohen's d = 1.05), and other antepartum diagnoses with medical complications (p < 0.001; Cohen's d = 0.77).;CONCLUSIONS: This study showed that the prevalence of HAC was low both in the institutions accredited to attend by SUS and in those of supplementary health; however, its presence contributes to increasing the length of stay in cases of cesarean sections without complications or comorbidities in supplementary health institutions."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenmaternaldepressivesymptomswithoverweightobesityamongchildrenaged05yearsaccordingtothe2016demographicandfamilyhealthsurvey2020echevarriacastro
+"Background: Overweight and obesity among children under the age of 5 have become a public health problem. The worldwide prevalence is 4.9% and 6.0%, whereas in Peru it is 7.4% and 1.9%, respectively. The causes of these problems are multifactorial and must be studied to prevent the multiple consequences on children's health. Methods: Secondary data analysis of the 2016 Demographic and Family Health Survey (DHS). The sample size was 7935 children and their mothers. The dependent variable was childhood overweight/obesity, measured according to the Z-score of the BMI >2 standard deviation (SD), while the main independent variable consisted of the maternal depressive symptoms (DS) (Patient Health Questionnaire-9 score >10 points). The software STATA/MP 14.0 was used for statistical analysis. Results: The prevalence of overweight/obesity among children aged 0-5 years was 4.5% and the prevalence of moderate and severe maternal DS was 7.1%. No maternal depressive symptoms were found to be associated with the outcome [adjusted PR = 1.36 95% confidence interval (CI) = 0.59-3.09 p = 0.47]. An association was found between socioeconomic status (SES) Q3 (adjusted PR = 3.86 95% CI = 1.9-7.6 p < 0.0001), Q4 (adjusted PR = 5.53 95% CI = 2.76-11.1 p < 0.0001), Q5 (adjusted PR = 6.9 95% CI = 3.24-14.7 p = < 0.0001), maternal BMI (adjusted PR = 1.06 95% CI = 1.03-1.08 p < 0.0001), and cesarean delivery (adjusted PR = 1.42 95% CI = 1.01-1.99 p = 0.042). Conclusions: No association was found between maternal depressive symptoms and overweight/obesity among children aged 0-5 years. The upper SES quintiles, maternal BMI, and cesarean delivery were associated with the outcome."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthbycaesareansectionandtheriskofadultpsychosisapopulationbasedcohortstudy2016oneill
+"Despite the biological plausibility of an association between obstetric mode of delivery and psychosis in later life, studies to date have been inconclusive. We assessed the association between mode of delivery and later onset of psychosis in the offspring. A population-based cohort including data from the Swedish National Registers was used. All singleton live births between 1982 and 1995 were identified (n= 1,345,210) and followed-up to diagnosis at age 16 or later. Mode of delivery was categorized as: unassisted vaginal delivery (VD), assisted VD, elective Caesarean section (CS) (before onset of labor), and emergency CS (after onset of labor). Outcomes included any psychosis; nonaffective psychoses (including schizophrenia only) and affective psychoses (including bipolar disorder only and depression with psychosis only). Cox regression analysis was used reporting partially and fully adjusted hazard ratios (HR) with 95% confidence intervals (CI). Sibling-matched Cox regression was performed to adjust for familial confounding factors. In the fully adjusted analyses, elective CS was significantly associated with any psychosis (HR 1.13, 95% CI 1.03, 1.24). Similar findings were found for nonaffective psychoses (HR 1.13, 95% CI 0.99, 1.29) and affective psychoses (HR 1.17, 95% CI 1.05, 1.31) (kh(2)for heterogeneityP= .69). In the sibling-matched Cox regression, this association disappeared (HR 1.03, 95% CI 0.78, 1.37). No association was found between assisted VD or emergency CS and psychosis. This study found that elective CS is associated with an increase in offspring psychosis. However, the association did not persist in the sibling-matched analysis, implying the association is likely due to familial confounding by unmeasured factors such as genetics or environment."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: healthoutcomesassociatedwithclinicianinitiateddeliveryforhypertensivedisordersat3438weeksgestation2022savitz
+"BACKGROUND: Clinicians caring for the nearly 10% of patients in the United States with nonsevere hypertensive disorders in late pregnancy need better evidence to balance risks and benefits of clinician-initiated delivery. METHODS: We conducted a record-based cohort study of maternal and infant health outcomes among deliveries from 2002-2013 at Women & Infants Hospital of Rhode Island. Participants had gestational hypertension or nonsevere preeclampsia before 39 weeks' gestation (N=4,295). For each gestational week from 34 to 38, we compared outcomes between clinician-initiated deliveries (induction of labor or prelabor cesarean) and those not initiated in that week, using propensity score models to control confounding by indication. RESULTS: The analysis predicted an increment in risk of adverse maternal and infant outcomes sustained through week 37 if all patients underwent clinician-initiated delivery, with risk differences on the order of 0.2 for maternal outcomes and 0.3 for infant outcomes weeks 34 and 35. For women undergoing clinician-initiated delivery, the analysis identified increased risk of progression to severe disease in weeks 35 and 36, increases in all adverse infant outcomes only in week 34, increases in Neonatal Intensive Care Unit admission and infant hospital stay in weeks 35 and 36, and no meaningful increase in any of the adverse outcomes in weeks 37 or 38. CONCLUSIONS: We estimate that hypertensive pregnancies chosen for intervention were minimally harmed by early delivery after 34 weeks' gestation but predict benefit from extension to 37 weeks. Our study also showed adverse infant health consequences associated with routine delivery prior to 37 weeks."""
+
+

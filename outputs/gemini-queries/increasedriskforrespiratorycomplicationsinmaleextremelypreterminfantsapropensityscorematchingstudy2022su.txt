@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasedriskforrespiratorycomplicationsinmaleextremelypreterminfantsapropensityscorematchingstudy2022su
+"Background: Many factors can affect the clinical outcome of extremely premature infants (EPIs), but the effect of sex is paradoxical. This study used propensity score matching to adjust baseline information to reassess the clinical outcome of EPIs based on sex. Method(s): A retrospective analysis was performed on EPIs admitted in the Department of Neonatology of the Third Affiliated Hospital of Guangzhou Medical University from 2011 to 2020. A propensity score matching (PSM) analysis was used to adjust the confounding factors including gestational age, birth weight, 1-minute Apgar score <= 3, withholding or withdrawing life-sustaining treatment(WWLST), mechanical ventilation, duration of mechanical ventilation, the mother with advanced age (>=35 years old), complete-course antenatal steroid therapy and hypertensive disorders of pregnancy. The survival rate at discharge and the incidence of major complications were evaluated between the male and female groups. Result(s): A total of 439 EPIs were included, and 240 (54.7%) infants were males. After matching the nine confounding factors, 148 pairs of infants were finally enrolled. There was no significant difference in the survival rate at discharge, as well as the mortality of activating treatment or WWLST between the two groups (all P>0.05). However, the incidence of respiratory distress syndrome, bronchopulmonary dysplasia (BPD), and moderate to severe BPD in the male group was significantly increased (all P<0.01), especially at birth weight between 750 and 999 grams. Conclusion(s): The male EPIs have a higher risk of respiratory complications than females, particularly at 750 to 999 grams of birth weight.Copyright (c) 2022 Su, Lin, Fan, Jia, Shi, Huang, Wei, Cui and Wu."""
+
+

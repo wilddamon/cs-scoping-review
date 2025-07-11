@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timingofdeliveryinwomenwithprepregnancydiabetesmellitusapopulationbasedstudy2019brown
+"Objectives: Controversy exists about the timing of delivery of women with pre-pregnancy type 1 and 2 diabetes mellitus (PDM). This study aims to compare maternal and neonatal outcomes after induction of labor (IOL) at 38 weeks' gestation versus expectant management from 39 weeks onward. Research design and methods: This was a retrospective population-based cohort study using data from the Better Outcomes Registry and Network in Ontario Canada. Included were all women with PDM, who had a singleton hospital birth at >=380/7 weeks' gestation from 2012 to 2017. Maternal and perinatal outcomes were compared between 937 pregnancies that underwent IOL at 380/7 -386/7 weeks ('38-IOL group') versus 1276 pregnancies expectantly managed resulting in a birth at >=390/7 weeks ('39-Exp group'). The primary outcome was all-cause cesarean delivery. Multivariable modified Poisson regression was performed to generate adjusted relative risks (aRR) and 95% CIs, adjusted for parity, maternal age, pre-pregnancy body mass index and PDM type. Other outcomes included instrumental delivery, neonatal intensive care unit (NICU) admission, and newborn metabolic disturbances. Result(s): Cesarean delivery occurred in 269 women (28.7%) in the 38-IOL group versus 333 women (26.1%) in the 39-Exp group - aRR 1.07 (95% CI 0.94 to 1.22). The respective rates of instrumental delivery were 11.2% and 10.2% (aRR 1.25, 95% CI 0.98 to 1.61). NICU admission was more common in the 38-IOL group (27.6%) than in the 39-Exp group (16.8%) (aRR 1.61, 95% CI 1.36 to 1.90), as were jaundice requiring phototherapy (12.4% vs 6.2%) (aRR 1.93, 95% CI 1.46 to 2.57) and newborn hypoglycemia (27.3% vs 14.7%) (aRR 1.74, 95% CI 1.46 to 2.07). Conclusion(s): In pregnant women with PDM, IOL at 380/7 -386/7 weeks was not associated with a higher risk of cesarean delivery, compared with expectant management, but was associated with a higher risk of certain adverse neonatal outcomes.Copyright (c) 2019 Author(s)."""
+
+

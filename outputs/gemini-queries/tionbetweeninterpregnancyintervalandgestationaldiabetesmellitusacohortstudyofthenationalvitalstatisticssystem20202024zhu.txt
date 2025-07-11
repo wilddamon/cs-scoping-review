@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweeninterpregnancyintervalandgestationaldiabetesmellitusacohortstudyofthenationalvitalstatisticssystem20202024zhu
+"OBJECTIVE: To assess the association between interpregnancy interval (IPI) and gestational diabetes mellitus (GDM). METHODS: Data of this retrospective cohort study were obtained from the National Vital Statistics System (NVSS) 2020. The participants were divided into different groups according to different IPI (<6, 6-11, 12-17, 18-23, 24-59 (reference), 60-119, >=120 months). Multivariate logistic models were constructed to evaluate the association between IPI and GDM. Subgroup analysis was further performed. RESULTS: A total of 1 515 263 women were included, with 123 951 (8.18%) having GDM. Compared with the 24-59 months group, the <6 months (odds ratio [OR] 0.64, 95% confidence interval [CI] 0.46-0.90, P = 0.009), 12-17 months (OR 0.96, 95% CI 0.94-0.98, P < 0.001), and 18-23 months (OR 0.94, 95% CI 0.93-0.96, P < 0.001) groups had a significantly lower risk of GDM, while the 60-119 months (OR 1.13, 95% CI 1.11-1.15, P < 0.001) and >=120 months (OR 1.18, 95% CI 1.15-1.21, P < 0.001) groups had a significantly higher risk of GDM. No significant difference was observed in the risk of GDM between the 6-11 and 24-59 months groups (P = 0.542). The PI-GDM association varied across different groups of age, pre-pregnancy body mass index, pre-pregnancy smoking status, history of cesarean section, history of preterm birth, prior terminations, and parity. CONCLUSION: An IPI of 18-23 months may be a better interval than 24-59 months in managing the risk of GDM."""
+
+

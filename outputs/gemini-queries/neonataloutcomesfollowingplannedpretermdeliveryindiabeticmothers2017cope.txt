@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonataloutcomesfollowingplannedpretermdeliveryindiabeticmothers2017cope
+"OBJECTIVE: Women with diabetes may need elective preterm delivery due to pregnancy or diabetes related complications. The aim of this study was to describe the neonatal outcomes arising from elective preterm delivery in diabetic women.;METHOD: Suitable patients were identified by the obstetric team at Hull Royal Infirmary Women and Children's Hospital and data was extracted from their case notes. 45 diabetic women with planned preterm delivery were identified within a set time frame, resulting in 48 babies.;RESULTS: Of the 48 babies born, 47 survived. 36 out of 48 were delivered via caesarean section. Gestational ages ranged from 29+3 to 36+6 weeks, and 24 out of 48 (50%) had a birth weight greater than the 90th centile for gestational age.34 out of the 48 babies experienced some form of neonatal complication and were admitted to the neonatal unit. The median duration of stay in the neonatal unit was 7 days. 14 of the surviving neonates suffered from respiratory distress, although only 4 required surfactant therapy to regain respiratory function. However, the incidence of serious neonatal complications in those born after 34 weeks was shown to be low.;CONCLUSIONS: Elective preterm delivery after 34 weeks had little effect on overall neonatal outcome. Therefore it could be proposed that elective preterm delivery after 34 weeks gestation may be an acceptable option in diabetic women if there are maternal or obstetric complications."""
+
+

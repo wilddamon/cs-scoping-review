@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: improvedsurvivalandneurodevelopmentaloutcomesamongextremelyprematureinfantsbornnearthelimitofviability2016younge
+"Background: Infants born near the limit of viability are at high risk for death or adverse neurodevelopmental outcomes. It is unclear whether these outcomes have improved over the past 15 years. Aim(s): To determine if death and neurodevelopmental impairment have declined over the past 15 years in infants born at 22 to 24 weeks' gestation. Study design: Retrospective cohort study. Subjects: We identified infants born at 22 to 24 weeks' gestation in our center in two epochs: 1998-2004 (Epoch 1) and 2005-2011 (Epoch 2). Outcome measures: The primary outcome, death or neurodevelopmental impairment, was evaluated at 17-25 months' corrected gestational age with neurologic exams and Bayley Scales of Infant Development. Perinatal characteristics, major morbidities, and outcomes were compared between epochs. Result(s): Birth weight and gestational age were similar between 170 infants in Epoch 1 and 187 infants in Epoch 2. Mortality was significantly lower in Epoch 2, 55% vs. 42% (p = 0.02). Among surviving infants, late-onset sepsis (p < 0.01), bronchopulmonary dysplasia (p < 0.01), and surgical necrotizing enterocolitis (p = 0.04) were less common in Epoch 2. Neurodevelopmental impairment among surviving infants declined from 68% in Epoch 1 to 47% in Epoch 2, p = 0.02. Odds of death or NDI were significantly lower in Epoch 2 vs. Epoch 1, OR = 0.31 (95% confidence interval; 0.16, 0.58). Conclusion(s): Risk of death or neurodevelopmental impairment decreased over time in infants born at 22 to 24 weeks' gestation.Copyright (c) 2016 Elsevier Ireland Ltd."""
+
+

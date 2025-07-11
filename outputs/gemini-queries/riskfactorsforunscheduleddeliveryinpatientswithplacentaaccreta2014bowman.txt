@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforunscheduleddeliveryinpatientswithplacentaaccreta2014bowman
+"OBJECTIVE: Patients with suspected placenta accreta have improved outcomes with scheduled delivery. Our objective was to identify risk factors for unscheduled delivery in patients with suspected placenta accreta. STUDY DESIGN: This was a cohort study of women with antenatally suspected placenta accreta. Women who delivered prior to a planned delivery date were compared with women who had a scheduled delivery. Data were analyzed using a Student t test, kh(2), logistic regression, and survival analyses. Variables included in the analyses were episodes of antenatal vaginal bleeding, preterm premature rupture of membranes (PPROM), uterine contractions, prior cesarean deliveries, interpregnancy interval, parity, and patient demographic factors. A value of P < .05 was considered significant. RESULTS: Seventy-seven women with antenatal suspicion for placenta accreta were identified. Thirty-eight (49.4%) had an unscheduled delivery. Demographics were similar between groups. Unscheduled patients delivered earlier (mean 32.3 vs 35.7 weeks, P < .001) and were significantly more likely to have had vaginal bleeding (86.8% vs 35.9%, P < .001) and uterine activity (47.4% vs 2.6%, P < .001). Each episode of antenatal vaginal bleeding was associated with an increased risk of unscheduled delivery (adjusted odds ratio, 3.8; 95% confidence interval, 1.8-7.8). Risk of earlier delivery was even greater when associated with PPROM (P < .001). CONCLUSION: Among women with suspected placenta accreta, those with antenatal vaginal bleeding were more likely to require unscheduled delivery. This risk increases further in the setting of PPROM and/or uterine contractions. These clinical factors should be considered when determining the optimal delivery gestational age for women with placental accreta."""
+
+

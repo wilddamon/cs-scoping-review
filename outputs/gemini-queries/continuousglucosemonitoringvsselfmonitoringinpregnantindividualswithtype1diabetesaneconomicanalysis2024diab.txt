@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: continuousglucosemonitoringvsselfmonitoringinpregnantindividualswithtype1diabetesaneconomicanalysis2024diab
+"BACKGROUND: In the United States, approximately 1% of pregnancies are complicated by pregestational diabetes. Individuals with type 1 diabetes have an increased risk of adverse maternal and neonatal outcomes. While continuous glucose monitoring has demonstrated benefits for patients with type 1 diabetes, its cost is higher than traditional intermittent fingerstick monitoring, particularly if used only during pregnancy.;OBJECTIVE: To develop an economic analysis model to compare in silico the cost of continuous glucose monitoring and self-monitoring of blood glucose in a cohort of pregnant individuals with type 1 diabetes mellitus.;STUDY DESIGN: We developed an economic analysis model to compare two glucose monitoring strategies in pregnant individuals with type 1 diabetes: continuous glucose monitoring and self-monitoring. The model considered hypertensive disorders of pregnancy, large for gestational age, cesarean delivery, neonatal intensive care unit (NICU) admission, and neonatal hypoglycemia. The primary outcome was the total cost per strategy in 2022 USD from a health system perspective, with self-monitoring as the reference group. Probabilities, relative risks, and costs were extracted from the literature, and the costs were adjusted to 2022 US dollars. Sensitivity analyses were conducted by varying parameters based on the probability, relative risk, and cost distributions. The robustness of the results was tested through 1000 Monte Carlo simulations.;RESULTS: In the base-case analysis, the cost of pregnancy using continuous glucose monitoring was $26,837 compared to $29,039 for self-monitoring, resulting in a cost reduction of $2,202 per individual. The parameters with the greatest effect on the incremental cost included the relative risk of NICU admission, cost of NICU admission, continuous glucose monitoring costs, and usual care costs. Monte Carlo simulations indicated that continuous glucose monitoring was the optimal strategy 98.7% of the time. One-way sensitivity analysis showed that continuous glucose monitoring was more economical if the relative risk of NICU admission with continuous glucose monitoring vs. self-monitoring was below 1.15.;CONCLUSION: Compared to self-monitoring, continuous glucose monitoring is an economical strategy for pregnant individuals with type 1 diabetes mellitus. Copyright (c) 2024. Published by Elsevier Inc."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessingrevitalizeshouldthedefinitionofpostpartumhemorrhagedifferbymodeofdelivery2017hamm
+"Background Obstetrical hemorrhage is a leading cause of morbidity and mortality, yet is inconsistently defined. In 2014, the American Congress of Obstetricians and Gynecologists (ACOG) reVITALize program redefined postpartum hemorrhage (PPH) as greater than 1,000 mL blood loss regardless of the mode of delivery (MOD). Objective We sought to assess the reVITALize definition's validity by understanding whether the definition of PPH should, as proposed by ACOG, be one value regardless of MOD. Study Design This is a retrospective study of all women who delivered at the hospital of the University of Pennsylvania from October 15, 2013 through December 15, 2013. Results A total of 592 of the 626 (95%) women were included. The average reported estimated blood loss (EBL) for vaginal delivery (VD) was significantly lower than for cesarean delivery (CD) ([350 +-170 mL) and [880 +- 360 mL]; p < 0.001). The average hemoglobin (Hb) drop was only slightly lower for VD compared with CD ([1.4 +- 1.0 g/dL {11.5% drop}] and [1.9 +- 1.2 g/dL {16.2% drop}], respectively, p < 0.001). The association between EBL and observed Hb drop differed in accuracy by MOD. Conclusion Likely based on historic perceptions, obstetric providers estimate blood loss for VD as less than half that of CD. However, using objective measures, blood loss is more similar than perceived between VD and CD, supporting the ACOG reVITALize single definition of PPH regardless of MOD."""
+
+

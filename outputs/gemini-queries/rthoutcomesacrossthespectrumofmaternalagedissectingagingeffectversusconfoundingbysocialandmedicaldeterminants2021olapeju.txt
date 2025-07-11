@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthoutcomesacrossthespectrumofmaternalagedissectingagingeffectversusconfoundingbysocialandmedicaldeterminants2021olapeju
+"BACKGROUND: Given the trend of increasing maternal age and associated adverse reproductive outcomes in the US, this study aimed to assess whether this association is due to an independent aging or confounded by sociodemographic, biomedical, or behavioral determinants in a predominantly Black US population. METHODS: Data was from 8509 women enrolled in the Boston Birth Cohort. Adverse reproductive outcomes included spontaneous preterm delivery, cesarean delivery, and low birth weight. Covariates included sociodemographic (parity, race/ethnicity, education, marital status, income, receipt of public assistance, nativity); biomedical (obesity, hypertensive disorders, diabetes mellitus); and behavioral (consistent intake of multivitamin supplements, support from father of baby, support from family, major stress in pregnancy, cigarette smoking, alcohol intake). Analysis included Lowess and marginal probability plots, crude and adjusted sequential logistic regression models to examine age-outcome associations and to what degree the association can be explained by the above covariables. RESULT: Overall, the study sample had high levels of spontaneous preterm birth (18%), cesarean delivery (33%) and low birth weight (26%). Unadjusted models showed no significant difference odds of spontaneous preterm birth by maternal age but higher odds of cesarean section (aOR: 1.77, 95% CI: 1.60, 1.95) and low birth weight (aOR: 1.15, 95% CI: 1.04, 1.28) among women 30 years or older. Adjustment for sociodemographic factors, biomedical conditions and behavioral factors revealed higher odds of spontaneous preterm birth: (aOR: 1.30, 95% CI: 1.14, 1.49), cesarean section deliveries (aOR: 1.68, 95% CI: 1.51, 1.87) and low birth weight (aOR: 1.36, 95% CI: 1.21, 1.53). Across all ages, optimal BMI status and consistent multivitamin supplement intake were protective of spontaneous preterm birth and low birth weight. CONCLUSION: In this high-risk minority population, we demonstrated that the association between increasing maternal age and adverse pregnancy outcomes was due to an independent aging effect and the presence of confounding by sociodemographic, biomedical, and behavioral factors. Some modifiable risk factors to counteract aging effect, include optimizing BMI and consistent intake of multivitamin supplement. A fundamental change in how care is provided to women, particularly low income Black women, is needed with emphasis on the protective role of optimal nutritional status. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT03228875."""
+
+

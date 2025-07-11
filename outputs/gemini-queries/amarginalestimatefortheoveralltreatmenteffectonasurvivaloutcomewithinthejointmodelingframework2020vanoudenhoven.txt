@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: amarginalestimatefortheoveralltreatmenteffectonasurvivaloutcomewithinthejointmodelingframework2020vanoudenhoven
+"Joint models for longitudinal and survival data are increasingly used and enjoy a wide range of application areas. In this article, we focus on the application of joint models on clinical trial data with special interest in the treatment effect on the survival outcome. Within a joint model, the estimated treatment effect on the survival outcome is an aggregate comprising the indirect treatment effect through the longitudinal outcome and the direct treatment effect on the survival outcome. This overall treatment effect is, however, conditional on random effects, and therefore has a subject-specific interpretation. The conditional interpretation arises from the shared random effects between the longitudinal and survival process in combination with the nonlinear link function of the survival model. The overall treatment effect is, therefore, not valid for population-based inference, which is the goal for most clinical trials. We propose a method to obtain a marginal estimate of the overall treatment effect on the survival outcome in a joint model. Additionally, we extend our proposal to allow for different parameterizations for the association between the longitudinal and survival outcome. The proposed method is demonstrated on data of a clinical study on the effect of synbiotic on the gut microbiota of cesarean delivered infants, where we estimate the marginal overall treatment effect on the risk of eczema or atopic dermatitis using longitudinal information on fecal bifidobacteria."""
+
+

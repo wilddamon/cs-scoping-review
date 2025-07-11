@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: immunecellinfiltrateattheuteroplacentalinterfaceisalteredinplacentaaccretaspectrumdisorders2020hecht
+"PURPOSE: To characterize the immune cell infiltrate associated with maternal vascular remodeling in 12 cases of cesarean hysterectomy from women with placenta accreta spectrum (PAS) disorder. METHODS: Myometrial vessels were evaluated by hematoxylin and eosin and immunohistochemistry stains on tissue microarrays that included samples from the myometrium, deep to the implantation site. Vessels were quantified based on physiologic conversion and immune cell infiltrates. Placental bed biopsies from cases of repeat cesarean section, and decidual vessels from delivered non-PAS placentas were used as controls. RESULTS: Immune cells, predominantly macrophages and T-cells, were present as a band along the placental-myometrial interface in PAS cases. However, within the myometrium, the infiltrate showed a perivascular accentuation. The infiltrates around and within vessel walls were composed of T-cells (CD3) and macrophages (CD68), with fewer NK (CD56), Treg (FoxP3) and rare B-cells (CD20). Plasma cells (CD138) were absent. The majority of vessels with immune cell infiltrates had undergone complete or partial physiologic conversion by trophoblast. However, a subset of unconverted vessels in the myometrium had a similar immune cell infiltration. Control blood vessels showed a similar pattern of leukocytes infiltration in the decidua and placental bed biopsies, but with a lower density. CONCLUSIONS: Our findings suggest that myometrial vascular changes in PAS resemble the physiological changes of vessels noted in the implantation site of normal pregnancies. The presence of perivascular immune cell infiltrates in the absence of adjacent trophoblast suggests that the process may be initiated by paracrine effects rather than direct contact or endovascular growth of trophoblast."""
+
+

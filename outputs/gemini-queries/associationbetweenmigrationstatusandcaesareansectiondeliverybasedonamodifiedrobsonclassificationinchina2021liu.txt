@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenmigrationstatusandcaesareansectiondeliverybasedonamodifiedrobsonclassificationinchina2021liu
+"BACKGROUND: China has one of the highest caesarean section (C-Section) rates in the world. In recent years, China has been experiencing a massive flow of migration due to rapid urbanization. In this study, we aimed to differentiate the rates of C-Section between migrants and residents, and explore any possible factors which may moderate the association between migrant status and C-Section rates. METHODS: We conducted a retrospective cohort study in Shanghai, China. All deliveries were classified using the modified Robson Classification. The association between women's migrant status and C-Section rates was assessed using the Poisson regression of sandwich estimation, after adjusting for possible factors. RESULTS: Of the 40,621 women included in the study, 66.9% were residents and 33.1% were internal migrants. The rate of C-Section in migrants was lower than that of residents in all subjects (39.9 and 47.7%) and in group 1 subjects (based on the Robson Classification) using a modified Robson Classification. There was an association between migrant status and caesarean delivery on maternal request that was statistically significant (RR = 0.664, p < 0.001), but the association was weakened after adjusting for such factors as maternal age at delivery (aRR = 0.774, p = 0.02), ethnicity (aRR = 0.753, p < 0.001), health insurance (aRR = 0.755, p < 0.001), and occupation (aRR = 0.747, p = 0.004), but had no significant changes when adjusting for health conditions (aRR = 0.668, p = 0.001) and all considering variables (aRR = 0.697, p = 0.002). In group 1 subjects, the effect of migrant status on maternal requested intrapartum C-Section was also statistically significant (RR = 0.742, p = 0.004). CONCLUSION: C-Section rates are lower among migrant women than residents, especially on maternal request. The medical practitioners should further reinforce the management of elective C-Section in resident women."""
+
+

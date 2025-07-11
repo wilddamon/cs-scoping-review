@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thedynamicsofepiduralandopioidanalgesiaduringlabour2016zondag
+"PURPOSE: To investigate the association of analgesia, opioids or epidural, or the combination of both with labour duration and spontaneous birth in nulliparous women. METHODS: A secondary data analysis of an existing cohort study was performed and included nulliparous women (n = 2074). Durations of total labour and first and second labour stage were calculated with Kaplan-Meier estimation for the four different study groups: no analgesia (n = 620), opioid analgesia (n = 743), epidural analgesia (n = 482), and combined application (n = 229). Labour duration was compared by Cox regression while adjusting for confounders and censoring for operative births. Logistic regression was used to investigate the association between the administration of different types of analgesia and mode of birth. RESULTS: Most women in the combined application group were first to receive opioid analgesia. Women with no analgesia had the shortest duration of labour (log rank p < 0.001) and highest chance of a spontaneous birth (p < 0.001). If analgesia was administered, women with opioids had a shorter first stage (p = 0.018), compared to women with epidural (p < 0.001) or women with combined application (p < 0.001). Women with opioids had an increased chance to reach full cervical dilatation (p = 0.006). Women with epidural analgesia (p < 0.001) and women with combined application (p < 0.001) had a prolonged second stage and decreased chance of spontaneous birth compared to women without analgesia. CONCLUSIONS: Women with opioids had a prolonged first stage, but increased chance to reach full cervical dilatation. Women with epidural analgesia and women with both opioid and epidural analgesia had a prolonged first and second stage and a decreased chance of a spontaneous birth."""
+
+

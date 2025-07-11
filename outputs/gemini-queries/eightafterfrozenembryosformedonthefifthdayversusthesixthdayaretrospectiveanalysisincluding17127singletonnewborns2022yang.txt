@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthweightafterfrozenembryosformedonthefifthdayversusthesixthdayaretrospectiveanalysisincluding17127singletonnewborns2022yang
+"Background: Transferring blastocysts frozen on day 6 (D6) may adversely affect the pregnancy rate compared with day 5 (D5). Moreover, it remains unclear whether delayed embryo transfer affects neonatal birth weight. Method(s): A retrospective cohort study consisting of 17,127 singleton births from single frozen embryo transfer (FET) cycles, between January 2011 and January 2020, was performed including 14,166 blastocysts frozen on D5 and 2,961 on D6. The primary outcomes of this study were neonatal birth weight and incidence of small for gestational age (SGA), large for gestational age (LGA), low birth weight (LBW), and macrosomia. Result(s): The mean neonatal birth weight in the D5 group (3.47 +/- 0.49 kg) was significantly higher compared with the D6 group (3.45 +/- 0.50 kg), although the discrepancy was only 0.02 kg. Multiple linear regression analysis for birth weight between the two groups showed no statistically significant difference (beta= -0.01 t= -1.218; P>0.05). Logistic regression analysis revealed that the risks of SGA (OR 1.166; 95%CI, 0.911-1.491; P>0.05), LGA (OR 0.917; 95%CI, 0.831-1.012; P>0.05), LBW (OR 1.192; 95%CI, 0.926-1.533; P>0.05), and macrosomia (OR 0.975; 95%CI, 0.864-1.100; P>0.05) were similar in the two groups after adjusting for confounders. Conclusion(s): In the FET cycle, the neonatal birth weight and incidence of LGA, SGA, LBW, or macrosomia were similar between the D5 and D6 groups, suggesting that delayed blastocyst transfer would not affect the neonatal birth weight.Copyright (c) 2022 Yang, Wang, Cao, Liu, Yuan, Xu and Tang."""
+
+

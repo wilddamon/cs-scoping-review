@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareandeliveryisassociatedwithchildhoodgeneralobesitybutnotabdominalobesityiniranianelementaryschoolchildren2014salehiabargouei
+"AIM: This study examined the association between Caesarean delivery and general and abdominal obesity among children. METHODS: In a cross-sectional study, 635 children aged from 6 to 12 years of age (476 girls and 159 boys) were randomly selected from Isfahan elementary schools. Weight, height and waist circumference were measured. General obesity and abdominal obesity were defined based on World Health Organization growth charts and Iranian national cut-off points, respectively. Parents were asked about delivery type and other factors potentially related to childhood obesity using a self-administered questionnaire. The association between delivery type and obesity was examined using univariate and multivariate logistic regression models. RESULTS: The overall prevalence of general and central obesity was 17.6% and 17.1%, respectively, and Caesarean delivery was significantly associated with general obesity after controlling for potential confounders (OR: 2.46; 95% CI: 1.30-4.63, p = 0.005). We observed a significant association between Caesarean delivery and abdominal obesity in crude analyses (OR: 1.66; 1.02-2.69, p = 0.04), but this disappeared after adjusting for covariates (OR: 1.96; 0.82-4.69, p = 0.13). CONCLUSION: Our results suggest that Caesarean delivery is adversely associated with general childhood obesity, but not abdominal obesity. This provides support for recommending vaginal births, unless contraindicated. Further research in large populations is required to confirm these findings."""
+
+

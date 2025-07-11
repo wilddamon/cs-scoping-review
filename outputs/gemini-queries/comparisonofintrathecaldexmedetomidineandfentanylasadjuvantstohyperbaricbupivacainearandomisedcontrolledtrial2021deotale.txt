@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofintrathecaldexmedetomidineandfentanylasadjuvantstohyperbaricbupivacainearandomisedcontrolledtrial2021deotale
+"Introduction: Subarachnoid block using bupivacaine along with fentanyl is routinely used in regional anaesthesia technique in lower limb and lower abdominal surgeries. However, fentanyl is often associated with various side-effects. The use of dexmedetomidine as an alternative to fentanyl in regional blocks is emerging due to minimal adverse effects and prolonged duration of action. Aim(s): To compare intrathecal dexmedetomidine and fentanyl as adjuvants to hyperbaric bupivacaine. Material(s) and Method(s): The prospective, randomised study was performed on 100 patients, divided into two groups. Group I patients were administered with bupivacaine 12.5 mg (2.5 mL) + fentanyl 25 microg (0.5 mL) whereas group II patients received bupivacaine 12.5 mg (2.5 mL) +dexmedetomidine 5 microg (0.5 mL). Postanaesthesia Heart Rate (HR) and Blood Pressure (BP) were recorded. The onset of sensory and motor block, level of sensory block, time for two segment regression, motor and sensor recovery, duration, quality of analgesia and Visual Analog Scale (VAS) score were recorded. Data were analysed using R Studio V 1.2.5001 software. Wilcoxon sign rank test and independent sample t-test were used to find the difference between mean. The p<0.05 was considered statistically significant. Result(s): Time for onset of sensory block (p=0.0027), motor block (p<0.001) and peak sensory block (p<0.001) was significantly high in group I patients. Most of the patients of group I had a T8 level of sensory block (38%) while in group II 36% of patients had T6 level of sensory block. Time for full motor recovery (p=0.0015) and sensor recovery (p<0.001) was high in group II patients. Conclusion(s): Dexmedetomidine is associated with long-term motor and sensory block, excellent analgesia and there was less demand for rescue analgesics as compared to fentanyl.Copyright (c) 2021 Journal of Clinical and Diagnostic Research. All rights reserved."""
+
+

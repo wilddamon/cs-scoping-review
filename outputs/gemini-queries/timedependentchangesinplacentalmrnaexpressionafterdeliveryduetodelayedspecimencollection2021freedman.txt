@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timedependentchangesinplacentalmrnaexpressionafterdeliveryduetodelayedspecimencollection2021freedman
+"PROBLEM: Current scientific guidelines recommend collecting placental specimens within two hours of delivery for gene expression analysis. However, collecting samples in a narrow time window is a challenge in the dynamic and unpredictable clinical setting, so delays in placental specimen collection are possible. The purpose of our analysis was to investigate temporal changes in placental gene expression by longitudinally sampling placentas over a 24 h period. METHOD OF STUDY: Eight placentas from individuals with uncomplicated, term pregnancies delivered by scheduled cesarean section were collected and sampled following the placental delivery and again at 1, 2, 4, 6, and 24 h post-delivery. At each time point, biopsies of chorionic villous tissue were taken from 3 cotyledons to account for intra-placental heterogeneity. The 3 biopsies from each time point were pooled prior to RNA extraction. Expression of 382 mRNA transcripts was quantified using the NanoString nCounter System. Fold change values were calculated for each time point relative to delivery, and a fold change threshold of 1.25 was used to determine a meaningful change from delivery. RESULTS: Based on a fold change threshold of 1.25, 84.3% of transcripts were stable for at least 1 h, 80.2% were stable for at least two hours, and 20.6% of transcripts were stable through the collection at 24 h. CONCLUSION: Our results suggest that for some mRNA transcripts, expression changes as time to sample collection increases. We have developed a Web application to allow investigators to explore transcripts relevant to their research interests and to set appropriate thresholds to aid in determining whether placentas with delayed sample collection can be included in analyses (https://placentaexpression.foundationsofhealth.org/)."""
+
+

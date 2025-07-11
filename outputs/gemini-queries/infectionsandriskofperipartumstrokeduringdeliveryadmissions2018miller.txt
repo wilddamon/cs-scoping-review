@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: infectionsandriskofperipartumstrokeduringdeliveryadmissions2018miller
+"BACKGROUND AND PURPOSE: Peripartum strokes during delivery admissions are rare but have high maternal morbidity. Infections have been proposed as a possible stroke trigger. We hypothesized that women who had infections diagnosed at the time of delivery admission would have higher risk of stroke during their delivery hospitalization. METHODS: We conducted a case-control study using state inpatient administrative databases for California (2007-2011), Florida (2009-2011), and New York (2009-2011). Women whose admission included a vaginal or cesarean delivery, with a new diagnosis of stroke during the admission, were considered cases and were randomly matched to 3 in-state controls by age/admission year and presence and severity of hypertensive disorders of pregnancy. The primary exposure of interest was infection of any type present on admission. Secondary exposures included race/ethnicity, payer status, delivery method, and known vascular risk factors such as chronic hypertension, diabetes mellitus, smoking, alcohol abuse, hypercoagulable states, coagulopathies, and renal disease. We used multivariable conditional logistic regression to estimate the odds ratios and 95% confidence intervals for the association of infections and known vascular risk factors with stroke risk. RESULTS: A total of 455 cases (mean age, 29.8), of whom 195 (42.9%) had hypertensive disorders of pregnancy, were matched with 1365 controls. Infection of any type present on admission increased the odds of stroke diagnosis during the admission (adjusted odds ratio, 1.74; 95% confidence interval, 1.29-2.35). Risk was higher for genitourinary infections (adjusted odds ratio, 2.56; 95% confidence interval, 1.25-5.24) and sepsis (adjusted odds ratio, 10.4; 95% confidence interval, 2.15-20.0). The association between infection and stroke during delivery admission did not differ by the presence of hypertensive disorders of pregnancy. CONCLUSIONS: Infections present on admission increased stroke risk during delivery admissions in women with and without hypertensive disorders of pregnancy. The results were driven by genitourinary infections and sepsis. Infections may be an underrecognized precipitant of peripartum stroke."""
+
+

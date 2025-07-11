@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: peripartummorbidityaftercesareandeliveryforarrestofdilationat4to5cmcomparedwith6to10cm2018dahlke
+"OBJECTIVE: Given that recent consensus guidelines established to decrease cesarean delivery (CD) rates use 6 cm to define the onset of the active phase of labor, our objective was to evaluate maternal and neonatal outcomes after CD for the indication of arrest of dilation at 4 to 5 cm compared with >= 6 cm. STUDY DESIGN: We performed a secondary analysis using data from the Maternal Fetal-Medicine Units Network Cesarean Registry. We included nulliparous women with term, singleton, vertex gestations who underwent primary CD for arrest of dilation. We compared those who reached a maximum cervical dilation of 4 to 5 cm with those of >=6 cm. Our primary outcome was composite maternal morbidity that included chorioamnionitis, endometritis, transfusion, wound complication, operative injury, intensive care unit admission, or death. RESULTS: Of the 73,257 women in the dataset, 5,681 met the inclusion criteria. After adjusting for confounders, there was no difference in composite maternal (adjusted odds ratio [aOR]: 1.19; 95% confidence interval [CI]: 0.94-1.52) or neonatal morbidity (aOR: 0.94; 95% CI: 0.79-1.10) between the groups. CONCLUSION: In this historical cohort, maternal and neonatal outcomes after CD for arrest of dilation >= 6 cm were comparable to those performed at 4 to 5 cm and support recent labor management guidelines."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incidenceofmaternalandneonataloutcomesinpregnanciescomplicatedbyovarianmasses2015nazer
+"PURPOSE: The purpose of our study is to estimate the incidence of adnexal mass and ovarian cancers during pregnancy and to evaluate their effects on obstetrical and fetal outcomes. METHODS: We conducted a population-based cohort study using data from The Healthcare Cost and Utilization Project-Nationwide Inpatient Sample. Cases of ovarian mass during delivery were identified using International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM). Women were categorized into subgroups of malignant and benign masses. Logistic regression analysis was used to evaluate maternal and fetal outcomes. RESULTS: There were 7,785,583 deliveries between 2003 and 2011, of which 19,591 were diagnosed with ovarian masses during delivery, representing 0.25 % of all deliveries. Among these, 1:200 were malignant. The overall malignancy rate was 0.12/10,000 deliveries. Apart from the increased rate of cesarean section, OR 5.92 (95 % CI 4.12-8.40), and the risk of thrombosis, OR 5.52 (95 % CI 1.96-15.53), there was no significant increase in maternal morbidity or mortality. Prematurity, OR 2.24 (95 % CI 1.48-3.40), was the only significant newborn risk in women with malignant ovarian tumors. Newborns of women with an ovarian mass had comparable risks of intrauterine growth restriction, preterm rupture of membrane and intrauterine death. CONCLUSION: The diagnosis of ovarian mass is rare during pregnancy and it is associated with an extremely low malignancy rate. Pregnant woman with a confirmed malignant ovarian tumor should be counseled regarding risks of prematurity, thrombosis and hysterectomy."""
+
+

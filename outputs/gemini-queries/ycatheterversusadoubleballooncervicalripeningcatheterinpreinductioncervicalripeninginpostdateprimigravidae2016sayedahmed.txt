@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: useofthefoleycatheterversusadoubleballooncervicalripeningcatheterinpreinductioncervicalripeninginpostdateprimigravidae2016sayedahmed
+"AIM: To compare the efficacy of two mechanical devices for pre-induction of labor cervical ripening: the Foley catheter and the Cook cervical ripening balloon.;METHODS: This interventional study included 78 postdate primigravid women randomly allocated into two groups: the Foley or Cook balloon catheter. Removal of the catheters was planned approximately 12 h after insertion if spontaneous expulsion had not occurred. The main outcome measures included changes in Bishop score, insertion to delivery time, mode of delivery and occurrence of adverse effects.;RESULTS: Spontaneous expulsion of the Foley catheter was encountered more frequently than the Cook (89.2% vs 78.4%; P = 0.03). However, the median Bishop score was significantly higher when using the Cook compared with the Foley catheter after balloon removal (6 vs 5; P = 0.03). The duration from balloon insertion to expulsion and from insertion to delivery was significantly shorter in the Foley group compared with the Cook balloon group (6:19 +/- 2:1 vs 7:26 +/- 2:25 h; P = 0.03 and 13:50 +/- 4:00 vs 15:16 +/- 4:30 h; P = 0.03, respectively). There were no significant differences in other outcomes, such as the amount of oxytocin units used, mode of delivery, pain encountered during or after insertion and overall patient satisfaction.;CONCLUSIONS: Use of the Cook cervical ripening catheter results in greater cervical ripening compared with the Foley catheter. However, the duration from balloon insertion to expulsion and then delivery were significantly shorter when using the Foley catheter; therefore, we recommend its use, particularly in low resource settings. Copyright (c) 2016 Japan Society of Obstetrics and Gynecology."""
+
+

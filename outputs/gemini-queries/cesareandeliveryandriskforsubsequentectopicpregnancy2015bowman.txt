@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryandriskforsubsequentectopicpregnancy2015bowman
+"OBJECTIVE: This study aims to examine the risk for subsequent ectopic pregnancy in women with prior cesarean delivery.;STUDY DESIGN: Women with a history of at least one cesarean delivery in the state of Utah during 1996 to 2011 were identified and compared with women with vaginal delivery only. The primary outcome was subsequent ectopic pregnancy. Data were analyzed by multivariate logistic regression and stratified by first, second, or third live births. Model covariates included maternal age, ethnicity, marital status, education level, gravidity, and prior ectopic pregnancy.;RESULTS: Overall, 260,249 women with at least one live birth were identified. After exclusions, 255,082, 154,930, and 70,228 women had at least one, two, and three prior live births that lead to 531, 199, and 62 subsequent ectopic pregnancies, respectively. Women who had one prior cesarean delivery were not at increased risk for subsequent ectopic pregnancy in relation to women with no prior cesarean delivery. However, women with two of two, two of three, or three of three prior cesareans had increased risk for subsequent ectopic pregnancy with odds ratios (95% confidence interval) of 1.54 (1.06-2.22), 3.50 (1.49-8.24), and 1.99 (1.00-3.98), respectively.;CONCLUSION: History of two or three cesarean deliveries is associated with increased risk for subsequent ectopic pregnancy. Copyright Thieme Medical Publishers 333 Seventh Avenue, New York, NY 10001, USA."""
+
+

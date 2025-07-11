@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofgestationaldiabetesmellitusonpregnancyoutcomesamongyoungerandolderwomenanditsadditiveinteractionwithadvancedmaternalage2023li
+"BACKGROUND: The prevalence of gestational diabetes mellitus (GDM) and advanced maternal age (AMA, >= 35 years) has shown an increasing trend worldwide. This study aimed to evaluate the risk of pregnancy outcomes among younger (20-34 years) and older (>= 35 years) women with GDM and further analyze the epidemiologic interaction of GDM and AMA on these outcomes. METHODS: This historical cohort study included 105 683 singleton pregnant women aged 20 years or older between January 2012 and December 2015 in China. Stratified by maternal age, the associations between GDM and pregnancy outcomes were analyzed by performing logistic regression. Epidemiologic interactions were assessed by using relative excess risk due to interaction (RERI), attributable proportion due to interaction (AP), and synergy index (SI) with their 95% confidence intervals (95%CIs). RESULTS: Among younger women, individuals with GDM had a higher risk of all maternal outcomes, preterm birth (relative risk [RR] 1.67, 95%CI 1.50-1.85), low birthweight (RR 1.24, 95%CI 1.09-1.41), large for gestational age (RR 1.51, 95%CI 1.40-1.63), macrosomia (RR 1.54, 95%CI 1.31-1.79), and fetal distress (RR 1.56, 95%CI 1.37-1.77) than those without GDM. Among older women, GDM increased the risk of gestational hypertension (RR 2.17, 95%CI 1.65-2.83), preeclampsia (RR 2.30, 95%CI 1.81-2.93), polyhydramnios (RR 3.46, 95%CI 2.01-5.96), cesarean delivery (RR 1.18, 95%CI 1.10-1.25), preterm birth (RR 1.35, 95%CI 1.14-1.60), large for gestational age (RR 1.40, 95%CI 1.23-1.60), macrosomia (RR 1.65, 95%CI 1.28-2.14) and fetal distress (RR 1.46, 95%CI 1.12-1.90). Additive interactions of GDM and AMA on polyhydramnios and preeclampsia were found, with RERI of 3.11 (95%CI 0.05-6.16) and 1.43 (95%CI 0.09-2.77), AP of 0.51 (95%CI 0.22-0.80) and 0.27 (95%CI 0.07-0.46), and SI of 2.59 (95%CI 1.17-5.77) and 1.49 (95%CI 1.07-2.07), respectively. CONCLUSION: GDM is an independent risk factor for multiple adverse pregnancy outcomes, and may exert additive interactions with AMA on the risk of polyhydramnios and preeclampsia."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: amnioticfluidvolumeinnormalsingletonpregnanciesmodelingwithquantileregression2014sandlin
+"PURPOSE: To develop uniform and reliable reference ranges for amniotic fluid volume (AFV) across gestation in normal singleton pregnancies using quantile regression (QR).;METHODS: An analysis of true AFVs determined by dye-dilution techniques or by direct measurement at cesarean delivery in normal singleton pregnancies. AFV centiles were established by QR, a flexible semi-parametric approach of estimating rates of change across the entire distribution of AFV rather than just in the mean as is observed with standard linear regression.;RESULTS: The study evaluated 379 women with normal singleton pregnancies between 16 and 41 weeks gestation. QR was used to determine the association between AFV and gestational age (GA). A second-order quantile regression model indicated a nonlinear relationship between AFV and gestational age at the upper centile range (>=80th percentile).;CONCLUSION: This study defines normative centile charts for true AFVs between 16 and 41 weeks gestation in normal singleton pregnancies using QR. This statistical approach more appropriately reflects true AFV across gestation at each centile of interest (e.g. 5th, 50th, 95th, etc.) as compared to standard linear regression."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalopioidsusageandcesareandeliveryratesaretrospectivecrosssectionalanalysis2021knoll
+"OBJECTIVE: The growing opioid crisis increasingly affects maternal care in the US and it is unknown if opioid use puts pregnant women at increased odds for cesarean delivery (CD). Understanding how opioids influence CD trends is important in improving maternal and neonatal outcomes. This study aims to understand the association of opioid use with CD in the context of the demographic, clinical, behavioral, and health system complexity. METHODS: This retrospective cross-sectional analysis used representative data from the 2012-2014 National Inpatient Sample. Opioid use during pregnancy, CD, and other clinical variables were identified using ICD9 codes. Characteristics were assessed using bivariate and multivariate statistics. A logistic regression model was used to determine the association between opioid use and CD while controlling for confounders. Adjustments were made for rural/urban hospital location, regional median income, maternal age, race, and medical and pregnancy-related conditions. RESULTS: The rate of CD in the overall sample was about 30%. Among opioids-users, the overall proportion of CD was significantly less (24.7%). The adjusted odds ratio for CD among opioids users was 0.74 (CI: 0.73-0.76, p < 0.001). This finding is unique to pregnant women who are covered by public insurance. In rural areas, the relationship between opioid use and CD was not significant. CONCLUSION: Opioid use during pregnancy is associated with lower CD rates in urban settings. This evidence suggests that maternal care varies between rural and urban areas in relation to CD of pregnant opioid users compared to non-opioid users."""
+
+

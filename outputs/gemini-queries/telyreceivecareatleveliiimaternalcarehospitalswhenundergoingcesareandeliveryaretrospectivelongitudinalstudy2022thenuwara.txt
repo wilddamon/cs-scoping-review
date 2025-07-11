@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: patientsiniowacountieslackinghospitalswithlaboranddeliveryservicesdisproportionatelyreceivecareatleveliiimaternalcarehospitalswhenundergoingcesareandeliveryaretrospectivelongitudinalstudy2022thenuwara
+"Introduction Many obstetrical patients from rural areas in the United States lack hospitals that provide labor and delivery care. Our objective was to examine the effects of such patients on caseloads of cesarean deliveries at Iowa hospitals with level III maternal care, as defined by the Iowa Department of Public Health (e.g., with obstetric anesthesiologists). Methods This retrospective longitudinal study included every discharge with cesarean delivery in the state of Iowa from October 2015 through June 2021. There were N=60,534 such deliveries from 76 hospitals, of which three were level III, and the rest were level I or II. Poisson regression models with robust variance estimation and controlling for geography, maternal risk factors, and insurance, were used to evaluate the binary outcome of whether patients received care at the university level III hospital in Eastern Iowa, or not. Similar models were also developed for care at the two private level III hospitals in Central Iowa, or not. Differences in the mean probabilities of receiving care at the level III hospitals were then estimated using logistic regression, with results reported in units of changes in cases per week at the hospitals. Results Statewide, the university level III hospital performed 7.4% of the cesarean deliveries, and the two private level III hospitals performed 23.4%. Patients from counties in which no cesarean deliveries were performed during the quarter of the year when they underwent a cesarean delivery disproportionately received care at level III hospitals versus levels I and II hospitals. Lower 99% confidence limits for incremental risk ratios were 1.46 and 4.20, respectively. Cesarean deliveries among patients residing in counties where no hospital had a labor and delivery ward were distributed unequally between the counties of the hospitals with level III maternal care. There were approximately 1.09 (standard error 0.10) extra cesarean deliveries per week at the university hospital versus 5.81 (standard error 0.11) at the private hospitals. The 1.09 vs 5.81 difference was caused, in part, by the effects of insurance and other hospitals with similar services. Conclusions Patients residing in counties without labor and delivery care disproportionately go to level III hospitals. These results can help anesthesiologists, obstetricians, and analysts at hospitals with large tertiary (level III) programs interpret their annual increases in total obstetric anesthesia activity."""
+
+

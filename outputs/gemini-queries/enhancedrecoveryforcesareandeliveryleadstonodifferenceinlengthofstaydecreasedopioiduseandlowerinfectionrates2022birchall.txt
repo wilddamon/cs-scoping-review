@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: enhancedrecoveryforcesareandeliveryleadstonodifferenceinlengthofstaydecreasedopioiduseandlowerinfectionrates2022birchall
+"OBJECTIVE: The primary objective of this study was to report surgical outcomes for cesarean delivery (CD) patients following the implementation of an Enhanced Recovery after Surgery (ERAS) pathway based on the ERAS Society recommendations. The primary outcome for which the study was powered was the length of stay (LOS). METHODS: This IRB-approved cohort study was conducted at a single tertiary-care labor and delivery unit and utilized a pre-post intervention design. Our ERAS for CD protocol was designed using the ERAS Society recommendations and implemented globally for every patient admitted to the labor and delivery unit including both scheduled and unscheduled cases. The study was designed to have at least 85% power to detect a 6-h difference in length of stay (LOS) between the pre-intervention and post-intervention cohorts, assuming a standard deviation of 18 h. A total of 339 records were included for data analysis, 170 in the pre-intervention cohort and 169 in the post-intervention cohort. To assess the difference between groups with respect to the primary outcome of LOS, linear regression was used with and without adjusting for covariates. Differences in dichotomous secondary outcomes were assessed using binary logistic regression. Differences in continuous secondary outcomes were assessed via a two-sample t-test or Wilcoxon rank sum test. Individual components of protocol adherence were compared using chi-square tests. RESULTS: Mean LOS was 80.5 +- 22.9 h and 82.3 +- 28.0 h, pre- and post-intervention respectively. There was no difference in LOS between the 2 cohorts (difference of means = 1.8 h; 95% confidence interval (CI): (-3.7, 7.3); p = .51). Cesarean procedure infection decreased from 11.8% pre-intervention to 5.3% post-intervention, corresponding to a 58% decrease in odds of cesarean procedure infection (odds ratio (OR)=0.42; 95% CI: (0.19, 0.96); p = .04). Inpatient opioid use also significantly decreased in the post-intervention cohort with a median MME per 12 h-period of 5.1 (25(th) percentile = 2.2, 75(th) percentile = 7.8) pre-intervention and 3.3 (25(th) percentile = 1.0, 75(th) percentile = 7.6) post-intervention (p = .04). CONCLUSION: The results of this study support the implementation of an ERAS for CD protocol based on ERAS Society recommendations as evidenced by the statistically significant decrease observed in both procedure-related infection rates and inpatient opioid use. We did not find a significant difference in LOS, which leaves room for further investigation into factors that impact LOS after CD."""
+
+

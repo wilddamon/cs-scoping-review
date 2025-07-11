@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofimplementingquantitativebloodlossassessmentatthetimeofdelivery2019coviello
+"OBJECTIVE: To evaluate the ability of estimated blood loss (EBL) and quantitative blood loss (qBL) to predict need for blood transfusion in women with postpartum hemorrhage (PPH). STUDY DESIGN: This is a retrospective chart review that identified women with PPH (>1,000 mL for vaginal or cesarean delivery) between September 2014 and August 2015, reported by EBL (n = 92), and October 2015 and September 2016, reported by qBL (n = 374). The primary metric was the area under the receiver-operating characteristic curve for blood transfusion. RESULTS: The rate of PPH by EBL and qBL was 2.8 and 10.8%, respectively (p < 0.01). The rate of transfusion for women meeting criteria for PPH by EBL and QBL were 2% (66/3,307) and 2.7% (93/3,453), respectively (p = 0.06). Postpartum transfusion was predicted by an EBL of 1,450 mL with AUC 0.826 and qBL 1,519 mL with AUC 0.764, for all modes of delivery. Postpartum vital signs and change in pre- and postdelivery hematocrit were poor predictors for transfusion. CONCLUSION: The rates of PPH increased with the implementation of qBL. Overall, qBL did not perform better than EBL in predicting the need for blood transfusion."""
+
+

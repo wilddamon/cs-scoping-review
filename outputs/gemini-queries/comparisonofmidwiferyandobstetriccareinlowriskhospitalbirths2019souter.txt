@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofmidwiferyandobstetriccareinlowriskhospitalbirths2019souter
+"OBJECTIVE: To compare midwife and obstetrician labor practices and birth outcomes in women with low-risk pregnancies delivered in the hospital. METHODS: We conducted a retrospective cohort study of singleton births of 37 0/7-42 6/7 weeks of gestation at 11 hospitals between January 1, 2014, and December 31, 2018. Exclusions included intrapartum transfer from home-birth center, antepartum stillbirth, previous cesarean delivery, practitioner other than midwife or obstetrician, prelabor cesarean, prepregnancy maternal disease, and pregnancy complications or risk factors. Interventions (induction, artificial rupture of membranes, epidural, oxytocin, and episiotomy), mode of delivery, maternal outcomes (third- or fourth-degree laceration, postpartum hemorrhage, blood transfusion, and severe maternal morbidity), and newborn outcomes (shoulder dystocia, 5-minute Apgar score less than 7, resuscitation at delivery, birth trauma, and neonatal intensive care unit admission) were examined by practitioner type. We used modified Poisson regression models adjusted for individual confounders to assess risk ratios, stratified by parity, for health care provider type and perinatal outcomes. RESULTS: The study cohort comprised 23,100 births (3,816 midwife and 19,284 obstetrician). Compared with obstetricians, midwifery patients had significantly lower intervention rates, an approximately 30% lower risk of cesarean delivery in nulliparous patients (adjusted relative risk [aRR] 0.68; 95th% CI 0.57-0.82), and an approximately 40% lower risk of cesarean in multiparous patients (aRR 0.57; 95th% CI 0.36-0.89). Operative vaginal birth was also less common in nulliparous patients (aRR 0.73; 95th% CI 0.57-0.93) and multiparous patients (aRR 0.30; 95th% CI 0.14-0.63). Shoulder dystocia was more common in multiparous patients receiving midwifery care (aRR 1.42; 95th% CI 1.04-1.92). CONCLUSIONS: In low-risk pregnancies, midwifery care in labor was associated with decreased intervention, decreased cesarean and operative vaginal births, and, in multiparous women, an increased risk for shoulder dystocia. Greater integration of midwifery care into maternity services in the United States may reduce intervention in labor and potentially even cesarean delivery, in low-risk pregnancies. Larger research studies are needed to evaluate uncommon but important maternal and newborn outcomes."""
+
+

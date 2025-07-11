@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlytermdeliveryisassociatedwithincreasedneonatalrespiratorymorbidity2021bulut
+"BACKGROUND: The recent increase in early term birth rates represents a growing challenge to public health given the association between early term birth and neonatal morbidities. We compared the risk of respiratory morbidity between early term and full-term infants. METHODS: This retrospective cohort population study included infants born at 37-41 weeks' gestation in a single tertiary care university hospital between 2014 and 2016. Newborns were categorized as early term (37-38 weeks) and full term (39-41 weeks). The primary outcome was respiratory morbidity. RESULTS: Of the 4,894 babies born at 37-41 weeks gestational age, 31% (n = 1,521) were early term births. The rate of cesarean deliveries, which were often elective, was higher for early term than for full-term newborns (P = 0.001). Compared with full-term newborns, early term newborns, had significantly higher risks of respiratory morbidity (13.2 % vs 6.3 %; odds ratio [OR], 2.28, P = 0.001), respiratory distress syndrome (0.5 % vs 0 %, P = 0.001), transient tachypnea of the newborn (11.2 % vs 4.6 %; OR, 2.72, P = 0.001), continuous positive airway pressure use (9.7 % vs 3.7 %; OR, 2.82, P = 0.001), and ventilation support (1.4% vs 0.4%; OR, 4.11, P = 0.001). CONCLUSIONS: The elevated frequency of respiratory morbidity in early term infants emphasizes the importance of early term birth interventions. More than half of the early term births were elective cesarean sections; interventions should therefore focus on reducing elective cesarean procedures at the time of first birth."""
+
+

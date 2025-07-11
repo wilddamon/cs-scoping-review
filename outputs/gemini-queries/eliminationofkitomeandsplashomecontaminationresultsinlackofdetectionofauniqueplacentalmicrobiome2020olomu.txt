@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: eliminationofkitomeandsplashomecontaminationresultsinlackofdetectionofauniqueplacentalmicrobiome2020olomu
+"BACKGROUND: A placental microbiome, which may be altered in gestational diabetes mellitus (GDM), has been described. However, publications raising doubts about the existence of a placental microbiome that is different than contaminants in DNA extraction kits and reagents ('kitomes') have emerged. The aims of this study were to confirm the existence of a placental microbiome distinct from contaminants and determine if it is altered in GDM mothers. RESULTS: We first enrolled normal weight, obese and GDM mothers (N = 17) at term elective cesarean section delivery in a pilot case control study. Bacterial DNA was extracted from placental parenchyma, maternal and cord blood, maternal vaginal-rectal swabs, and positive and negative controls with the standard Qiagen/MoBio Power Soil kit. Placentas had significantly higher copies of bacterial 16S rRNA genes than negative controls, but the placental microbiome was similar in all three groups and could not be distinguished from contaminants in blank controls. To determine the source and composition of the putative placental bacterial community identified in the pilot study, we expanded the study to 10 subjects per group (N = 30) and increased the number and variety of negative controls (N = 53). We modified our protocol to use an ultraclean DNA extraction kit (Qiagen QIAamp UCP with Pathogen Lysis Tube S), which reduced the 'kitome' contamination, but we were still unable to distinguish a placental microbiome from contaminants in negative controls. We noted microbial DNA from the high biomass vaginal-rectal swabs and positive controls in placental and negative control samples and determined that this resulted from close proximity well-to-well cross contamination or 'splashome'. We eliminated this source of contamination by repeating the sequencing run with a minimum of four wells separating high biomass from low biomass samples. This reduced the reads of bacterial 16S rRNA genes in placental samples to insignificant numbers. CONCLUSIONS: We identified the problem of well-to-well contamination ('splashome') as an additional source of error in microbiome studies of low biomass samples and found a method of eliminating it. Once 'kitome' and 'splashome' contaminants were eliminated, we were unable to identify a unique placental microbiome."""
+
+

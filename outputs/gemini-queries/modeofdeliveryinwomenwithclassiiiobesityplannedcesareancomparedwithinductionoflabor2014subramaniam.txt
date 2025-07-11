@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofdeliveryinwomenwithclassiiiobesityplannedcesareancomparedwithinductionoflabor2014subramaniam
+"OBJECTIVE: To compare maternal and neonatal outcomes between planned cesarean delivery and induction of labor in women with class III obesity (body mass index >=40 kg/m(2)). STUDY DESIGN: In this retrospective cohort study, we identified all women with a body mass index >=40 kg/m(2) who delivered a singleton at our institution from January 2007 to February 2013 via planned cesarean or induction of labor (regardless of eventual delivery route) at 37-41 weeks. Patients in spontaneous labor were excluded. The primary outcome was a composite of maternal morbidity including death as well as operative, infection, and thromboembolic complications. The secondary outcome was a neonatal morbidity composite. Additional outcomes included individual components of the composites. Student t, kh(2), and Fisher exact tests were used for statistical analysis. To calculate adjusted odds ratios, covariates were analyzed via multivariable logistic regression. RESULTS: There are 661 mother-infant pairs that met enrollment criteria-399 inductions and 262 cesareans. Groups were similar in terms of prepregnancy weight, pregnancy weight gain, and delivery body mass index. Of the 399 inductions, 258 had cervical ripening (64.7%) and 163 (40.9%) had a cesarean delivery. After multivariable adjustments, there was no significant difference in the maternal morbidity composite (adjusted odds ratio, 0.98; 95% confidence interval, 0.55-1.77) or in the neonatal morbidity composite (adjusted odds ratio, 0.81; 95% confidence interval, 0.37-1.77) between the induction and cesarean groups. CONCLUSION: In term pregnant women with class III obesity, planned cesarean does not appear to reduce maternal and neonatal morbidity compared with induction of labor."""
+
+

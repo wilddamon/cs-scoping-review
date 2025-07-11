@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparisonofperinataloutcomesinsingletonsandmultiplesbornafterinvitrofertilizationorintracytoplasmicsperminjectionstratifiedforneonatalriskcriteria2014vanheesch
+"OBJECTIVE: To compare perinatal singleton and multiple outcomes in a large Dutch in vitro fertilization (IVF)/intracytoplasmic sperm injection (ICSI) population and within risk subgroups. Newborns were assigned to a risk category based on gestational age, birthweight, Apgar score and congenital malformation. DESIGN: Register-based retrospective cohort study. SETTING: Netherlands Perinatal Registry data. SAMPLE: A total of 3041 singletons and 1788 multiple children born from IVF/ICSI in 2003-2005. METHODS: Student's t-test or Mann-Whitney U-test was used to analyze continuous data, chi-squared analyses were used for categorical data. Multivariate logistic and linear regression analysis was performed to analyze whether the risk stratification criteria were associated with neonatal hospital admission and length of stay. MAIN OUTCOME MEASURES: Start of labor, mode of delivery, gestational age, birthweight, 5-min Apgar score, congenital malformation, neonatal hospital admission, neonatal intensive care unit admission and mortality. RESULTS: IVF/ICSI-conceived multiples had considerably poorer outcomes than singletons in terms of cesarean section rate, preterm birth, birthweight, being small-for-gestational-age, Apgar score, neonatal hospital admission, neonatal intensive care unit admission and neonatal mortality. As opposed to the results found in the total study population and the low-risk and moderate-risk populations, high-risk multiples showed better outcomes than high-risk singletons regarding cesarean section rate, birthweight and Apgar score. All risk stratification variables were associated with being hospitalized after birth. Length of stay was associated with all risk stratification criteria except Apgar score. CONCLUSIONS: Perinatal outcomes in IVF/ICSI-conceived multiples are considerably poorer than in singletons. This finding mainly pertains to low-risk children. High-risk multiples had significantly better perinatal outcomes than high-risk singletons."""
+
+

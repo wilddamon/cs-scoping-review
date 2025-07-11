@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aclinicalstudyongestationaldiabetesmellitusandthehearingofnewborns2021zhou
+"Objective: This study aimed to explore the impact of gestational diabetes mellitus (GDM) on the results of newborn hearing screening. Method(s): A total of 666 pregnant women who gave birth in the Obstetric Department of Sunshine Ronghe Hospital from August 2017 to May 2018 were randomly selected, and 69 of these pregnant women had GDM and were assigned into group 1 (excluding other diseases). The average age of these patients was 31.07 years. A further 597 pregnant women had no GDM and were assigned into group 2 (excluding other diseases). The average age of these patients was 30.02 years. The results of newborn hearing screening results in group 1 and group 2 were compared. Result(s): Comparisons of abnormal hearing screening between 2 groups are significant different (P < 0.05). In the GDM group, the results of hearing screening of newborns delivered by vaginal delivery and cesarean delivery were compared, yielding a P-value of > 0.05, and the difference was not statistically significant. In the non-GDM group, the results of hearing screening of newborns delivered by vaginal delivery and cesarean delivery were compared, yielding a P-value of >0.05, and the difference was not statistically significant. Conclusion(s): GDM increases the incidence of abnormal hearing in newborns.Copyright (c) 2021 Zhou et al."""
+
+

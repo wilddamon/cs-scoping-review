@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: bloodtransfusionduringpregnancybirthandthepostnatalperiod2014patterson
+"OBJECTIVES: To identify risk factors for transfusion and trends in transfusion rates across pregnancy and the postnatal period.;METHODS: Linked hospital and birth data on all births in hospitals in New South Wales, Australia, between 2001 and 2010 were used to identify blood transfusions for women during pregnancy, at birth, and in the 6 weeks postpartum. Poisson regression was used to identify risk factors for red cell transfusion in the birth admission. Separate models were fitted for cesarean and vaginal births.;RESULTS: Between 2001 and 2010, there were 12,147 transfusions across 891,914 pregnancies, with a transfusion rate of 1.4%. The transfusion rate increased steadily from 1.2% in 2001 to 1.6% in 2010. The majority of transfusions (91%) occurred during the birth admission, and 81% of these transfusions were associated with a diagnosis of hemorrhage. Women with bleeding or platelet disorders (vaginal: number transfused 529, relative risk [RR] 7.8, 99% confidence interval [CI] 6.9-8.7, cesarean: n=592, RR 8.7, CI 7.7-9.7) and placenta previa: (vaginal n=73, RR 4.6, CI 3.4-6.3, cesarean: n=875, RR 5.7, CI 5.1-6.4) were at highest risk of transfusion. Among vaginal births, increased risk was evident for forceps (n=1,036, RR 2.8, CI 2.5-3.0) or vacuum births (n=1,073, RR 1.9, CI 1.7-2.0) compared with nonoperative births.;CONCLUSIONS: Rates of obstetric blood product transfusion have increased by 33% since 2001, with the majority of this associated with hemorrhage. Women with bleeding or platelet disorders and placenta previa are at increased risk of transfusion and should be treated accordingly.;LEVEL OF EVIDENCE: II."""
+
+

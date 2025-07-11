@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesafterearlyamniotomyamongclassiiiobesegravidasundergoinginductionoflabor2019pasko
+"OBJECTIVE: We sought to evaluate differences in pregnancy outcomes following early amniotomy in women with class III obesity (body mass index >=40 kg/m(2)) undergoing induction of labor. STUDY DESIGN: This is a retrospective cohort study of women with class III obesity undergoing term induction of labor from January 2007 to February 2013. Early amniotomy was defined as artificial membrane rupture at less than 4 cm cervical dilation. The primary outcome was cesarean delivery. Secondary outcomes included length of labor, a maternal morbidity composite, and a neonatal morbidity composite. A subgroup analysis examined the effect of parity. Multivariable logistic regression was used to adjust for covariates. RESULTS: Of 285 women meeting inclusion criteria, 107 (37.5%) underwent early amniotomy and 178 (62.5%) underwent late amniotomy. Early amniotomy was associated with cesarean delivery after multivariable adjustments (adjusted odds ratio [aOR], 2.05; 95% confidence interval [CI], 1.21-3.47). There were no significant differences in length of labor or maternal and neonatal morbidity between groups. When stratified by parity, early amniotomy was associated with increased cesarean delivery (aOR, 3.10; 95% CI, 1.47-6.58) only in nulliparous women. CONCLUSION: Early amniotomy among class III obese women, especially nulliparous women, undergoing labor induction may be associated with an increased risk of cesarean delivery."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionsprenatalandpostnatalconditionsandchildhoodacutelymphoblasticleukaemiaacasecontrolstudyinthestateofsaopaulobrazil2020junqueira
+"INTRODUCTION: Brazil has high rates of caesarean sections, which has been suggested as a risk factor for acute lymphoblastic leukaemia (ALL). In addition, some pre- and postnatal conditions have been identified as relevant in the etiology of ALL. OBJECTIVES: Investigate the association of caesarean sections, pre- and postnatal conditions with childhood ALL in the State of Sao Paulo. METHODS: Population-based case-control study including children that are below10 years old. Information on study variables was obtained through face to face interviews, through a questionnaire, and the State of Sao Paulo Declarations of Live Births database. The conditional and unconditional logistic regression approaches were used to calculate the odds ratio (OR) of the associations between caesarean sections, pre- and postnatal conditions with ALL, and 95 % confidence intervals (95 % CI). RESULTS: We observed a weak and non-statistically significant risk for ALL among children exposed to caesarean sections (unconditional logistic regression OR 1.08; 95 % CI 0.70-1.66; conditional logistic regression OR 1.21; 95 % CI 0.72-2.02), but among children under 3 years old and born through a caesarean sections, the risk of ALL was greater (unconditional logistic regression OR 1.70; 95 % CI 0.69-4.21). A negative association for ALL was observed among children with mothers who reported 12 years of schooling or more (unconditional logistic regression OR 0.34; 95 % CI 0.16-0.69). CONCLUSIONS: We found a tenuous suggestive association between caesarean sections and childhood ALL. The mother's high level of education showed an inverse association with ALL."""
+
+

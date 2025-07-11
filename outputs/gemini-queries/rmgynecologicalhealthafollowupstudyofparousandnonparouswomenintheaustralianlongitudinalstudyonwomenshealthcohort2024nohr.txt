@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: paritymodeofbirthandlongtermgynecologicalhealthafollowupstudyofparousandnonparouswomenintheaustralianlongitudinalstudyonwomenshealthcohort2024nohr
+"BACKGROUND: Although gynecological health issues are common and cause considerable distress, little is known about their causes. We examined how birth history is associated with urinary incontinence (UI), severe period pain, heavy periods, and endometriosis. METHODS: We studied 7700 women in the Australian Longitudinal Study on Women's Health with an average follow-up of 10.9 years after their last birth. Surveys every third year provided information about birth history and gynecological health. Logistic regression was used to estimate how parity, mode of birth, and vaginal tears were associated with gynecological health issues. Presented results are adjusted odds ratios (OR) with 95% confidence intervals. RESULTS: UI was reported by 16%, heavy periods by 31%, severe period pain by 28%, and endometriosis by 4%. Compared with women with two children, nonparous women had less UI (OR 0.35 [0.26-0.47]) but tended to have more endometriosis (OR 1.70 [0.97-2.96]). Also, women with only one child had less UI (OR 0.77 [0.61-0.98]), but more severe period pain (OR 1.24 [1.01-1.51]). Women with 4+ children had more heavy periods (OR 1.42 [1.07-1.88]). Compared with women with vaginal birth(s) only, women with only cesarean sections or vaginal birth after cesarean section had less UI (ORs 0.44 [0.34-0.58] and 0.55 [0.40-0.76]), but more endometriosis (ORs 1.91 [1.16-3.16] and 2.31 [1.25-4.28]) and heavy periods (ORs 1.21 [1.00-1.46] and 1.35 [1.06-1.72]). Vaginal tear(s) did not increase UI after accounting for parity and birth mode. CONCLUSION: While women with vaginal childbirth(s) reported more urinary incontinence, they had less menstrual complaints and endometriosis."""
+
+

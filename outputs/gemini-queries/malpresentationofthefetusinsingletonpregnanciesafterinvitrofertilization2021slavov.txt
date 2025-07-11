@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: malpresentationofthefetusinsingletonpregnanciesafterinvitrofertilization2021slavov
+"BACKGROUND: There are some data in the literature that show an increased incidence of breech presentation and other non-cephalic presentations in vitro fertilization (IVF) singleton pregnancies compared to spontaneous ones. AIM: The purpose of our study was to compare IVF and spontaneous singleton pregnancies in terms of frequency of breech presentation and its impact on the mode of delivery. Furthermore, we wanted to study the rate of transverse and oblique lie in both groups. MATERIALS AND METHODS: We conducted a prospective and retrospective study at "Maichin Dom" University Hospital in Sofia, Bulgaria for the period from January 2013 to December 2017 and analyzed 402 singleton IVF pregnancies and compared them with 523 spontaneous singleton pregnancies. The primary outcome was a breech presentation of the fetus. RESULT(S): We found a significantly higher rate of breech presentation in IVF compared to spontaneous pregnancies (p < 0.001). According to gestational age, the difference between the groups persisted when the pregnancy was at least the 32nd week of gestation. We found no difference in the frequency of vaginal birth in the two groups when the fetus was in breech presentation CONCLUSION(S): IVF singleton pregnancies are associated with a higher risk of breech presentation. Further research is needed to determine the factors contributing to the higher incidence of breech presentation among patients undergoing IVF.Copyright (c) 2021 Sergei Svetoslavov Slavov."""
+
+

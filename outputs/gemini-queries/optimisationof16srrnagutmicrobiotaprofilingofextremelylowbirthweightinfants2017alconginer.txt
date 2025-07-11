@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: optimisationof16srrnagutmicrobiotaprofilingofextremelylowbirthweightinfants2017alconginer
+"BACKGROUND: Infants born prematurely, particularly extremely low birth weight infants (ELBW) have altered gut microbial communities. Factors such as maternal health, gut immaturity, delivery mode, and antibiotic treatments are associated with microbiota disturbances, and are linked to an increased risk of certain diseases such as necrotising enterocolitis. Therefore, there is a requirement to optimally characterise microbial profiles in this at-risk cohort, via standardisation of methods, particularly for studying the influence of microbiota therapies (e.g. probiotic supplementation) on community profiles and health outcomes. Profiling of faecal samples using the 16S rRNA gene is a cost-efficient method for large-scale clinical studies to gain insights into the gut microbiota and additionally allows characterisation of cohorts were sample quantities are compromised (e.g. ELBW infants). However, DNA extraction method, and the 16S rRNA region targeted can significantly change bacterial community profiles obtained, and so confound comparisons between studies. Thus, we sought to optimise a 16S rRNA profiling protocol to allow standardisation for studying ELBW infant faecal samples, with or without probiotic supplementation. METHODS: Using ELBW faecal samples, we compared three different DNA extraction methods, and subsequently PCR amplified and sequenced three hypervariable regions of the 16S rRNA gene (V1 + V2 + V3), (V4 + V5) and (V6 + V7 + V8), and compared two bioinformatics approaches to analyse results (OTU and paired end). Paired shotgun metagenomics was used as a 'gold-standard'. RESULTS: Results indicated a longer bead-beating step was required for optimal bacterial DNA extraction and that sequencing regions (V1 + V2 + V3) and (V6 + V7 + V8) provided the most representative taxonomic profiles, which was confirmed via shotgun analysis. Samples sequenced using the (V4 + V5) region were found to be underrepresented in specific taxa including Bifidobacterium, and had altered diversity profiles. Both bioinformatics 16S rRNA pipelines used in this study (OTU and paired end) presented similar taxonomic profiles at genus level. CONCLUSIONS: We determined that DNA extraction from ELBW faecal samples, particularly those infants receiving probiotic supplementation, should include a prolonged beat-beating step. Furthermore, use of the 16S rRNA (V1 + V2 + V3) and (V6 + V7 + V8) regions provides reliable representation of ELBW microbiota profiles, while inclusion of the (V4 + V5) region may not be appropriate for studies where Bifidobacterium constitutes a resident microbiota member."""
+
+

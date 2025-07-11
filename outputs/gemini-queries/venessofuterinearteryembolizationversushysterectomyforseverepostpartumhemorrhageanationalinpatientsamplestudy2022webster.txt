@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: utilizationandcomparativeeffectivenessofuterinearteryembolizationversushysterectomyforseverepostpartumhemorrhageanationalinpatientsamplestudy2022webster
+"PURPOSE: To identify differences in mortality or length of hospital stay for mothers treated with uterine artery embolization (UAE) or hysterectomy for severe postpartum hemorrhage (PPH), as well as to analyze whether geographic or clinical determinants affected the type of therapy received.;MATERIALS AND METHODS: This National Inpatient Sample study from 2005 to 2017 included all patients with live-birth deliveries. Severe PPH was defined as PPH that required transfusion, hysterectomy, or UAE. Propensity score weighting-adjusted demographic, maternal, and delivery risk factors were used to assess mortality and prolonged hospital stay.;RESULTS: Of 9.8 million identified live births, PPH occurred in 31.0 per 1,000 cases. The most common intervention for PPH was transfusion (116.4 per 1,000 cases of PPH). Hysterectomy was used more frequently than UAE (20.4 vs 12.9 per 1,000 cases). The following factors predicted that hysterectomy would be used more commonly than UAE: previous cesarean delivery, breech fetal position, placenta previa, transient hypertension during pregnancy without pre-eclampsia, pre-existing hypertension without pre-eclampsia, pre-existing hypertension with pre-eclampsia, unspecified maternal hypertension, and gestational diabetes (all P < .001). Delivery risk factors associated with greater utilization of hysterectomy over UAE included postterm pregnancy, premature rupture of membranes, cervical laceration, forceps vaginal delivery, and shock (all P < .001). There was no difference in mortality between hysterectomy and UAE. After balancing demographic, maternal, and delivery risk factors, the odds of prolonged hospital stay were 0.38 times lower with UAE than hysterectomy (P < .001).;CONCLUSIONS: Despite similar mortality and shorter hospital stays, UAE is used far less than hysterectomy in the management of severe PPH. Copyright (c) 2021 SIR. Published by Elsevier Inc. All rights reserved."""
+
+

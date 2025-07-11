@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: costeffectivenessofcarbetocinversusoxytocinforpreventionofpostpartumhemorrhageresultingfromuterineatonyinwomenathighriskforbleedingincolombia2018gilrojas
+"OBJECTIVE: To assess the cost-effectiveness of carbetocin versus oxytocin for prevention of postpartum hemorrhage (PPH) due to uterine atony after vaginal delivery/cesarean section in women with risk factors for bleeding.;METHODS: A decision tree was developed for vaginal delivery and another one for cesarean, in which a sequential analysis of the results was obtained with the use of carbetocin and oxytocin for prevention of PPH and related consequences. A third-party payer perspective was used; only direct medical costs were considered. Incremental costs and effectiveness in terms of quality-adjusted life years (QALYs) were evaluated for a one-year time horizon. The costs were expressed in 2016 Colombian pesos (1 USD = 3,051 Col$).;RESULTS: In the vaginal delivery model, the average cost of care for a patient receiving prophylaxis with uterotonic agents was Col$ 347,750 with carbetocin and Col$ 262,491 with oxytocin, while the QALYs were 0.9980 and 0.9979, respectively. The incremental cost-effectiveness ratio is above the cost-effectiveness threshold adopted by Colombia. In the model developed for cesarean section, the average cost of a patient receiving prophylaxis with uterotonics was Col$ 461,750 with carbetocin, and Col$ 481,866 with oxytocin, and the QALYs were 0.9959 and 0.9926, respectively. Carbetocin has lower cost and is more effective, with a saving of Col$ 94,887 per avoided hemorrhagic event.;CONCLUSION: In case of elective cesarean delivery, carbetocin is a dominant alternative in the prevention of PPH compared with oxytocin; however, it presents higher costs than oxytocin, with similar effectiveness, in cases of vaginal delivery. Copyright Thieme Revinter Publicacoes Ltda Rio de Janeiro, Brazil."""
+
+

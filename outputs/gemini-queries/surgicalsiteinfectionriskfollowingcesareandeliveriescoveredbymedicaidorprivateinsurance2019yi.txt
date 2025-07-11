@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: surgicalsiteinfectionriskfollowingcesareandeliveriescoveredbymedicaidorprivateinsurance2019yi
+"OBJECTIVE: To compare risk of surgical site infection (SSI) following cesarean delivery between women covered by Medicaid and private health insurance. STUDY DESIGN: Retrospective cohort. STUDY POPULATION: Cesarean deliveries covered by Medicaid or private insurance and reported to the National Healthcare Safety Network (NHSN) and state inpatient discharge databases by hospitals in California (2011-2013). METHODS: Deliveries reported to NHSN and state inpatient discharge databases were linked to identify SSIs in the 30 days following cesarean delivery, primary payer, and patient and procedure characteristics. Additional hospital-level characteristics were obtained from public databases. Relative risk of SSI by primary payer primary payer was assessed using multivariable logistic regression adjusting for patient, procedure, and hospital characteristics, accounting for facility-level clustering. RESULTS: Of 291,757 cesarean deliveries included, 48% were covered by Medicaid. SSIs were detected following 1,055 deliveries covered by Medicaid (0.75%) and 955 deliveries covered by private insurance (0.63%) (unadjusted odds ratio, 1.2; 95% confidence interval [CI], 1.1-1.3; P &lt; .0001). The adjusted odds of SSI following cesarean deliveries covered by Medicaid was 1.4 (95% CI, 1.2-1.6; P &lt; .0001) times the odds of those covered by private insurance. CONCLUSIONS: In this, the largest and only multicenter study to investigate SSI risk following cesarean delivery by primary payer, Medicaid-insured women had a higher risk of infection than privately insured women. These findings suggest the need to evaluate and better characterize the quality of maternal healthcare for and needs of women covered by Medicaid to inform targeted infection prevention and policy."""
+
+

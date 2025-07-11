@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionandhospitalizationforrespiratorysyncytialvirusinfectionapopulationbasedstudy2015kristensen
+"BACKGROUND AND OBJECTIVE: Hospitalization for respiratory syncytial virus (RSV) infection and asthma share common determinants, and meta-analyses indicate that children delivered by caesarean section (CS) are at increased risk of asthma. We aimed to investigate whether birth by CS is associated with an increased risk of hospitalization for RSV illness. METHODS: This was a population-based national register-based cohort study, conducted between January, 1997 and June, 2003, which included all children born in Denmark and all hospitalizations for RSV disease in them from 0 to 23 months of age. We used Cox regression with adjustment for prematurity, asphyxia, birthweight, multiple births, single parenthood, maternal smoking during pregnancy, older siblings and asthma diagnoses up to 2 weeks before hospitalization for RSV infection, to compare the effects of acute or elective CS versus vaginal delivery, on subsequent hospitalization for RSV disease. A test for homogeneity was used to assess for effect over time. RESULTS: 399,175 children with 10,758 hospitalizations for RSV illness were included; 31,715 were born by acute CS and 30,965 by elective CS. Adjusted hazard ratios for hospitalization for RSV infection in children born by acute CS and by elective CS were 1.09 (1.01-1.17) and 1.27 (1.19-1.36), respectively. The effect of elective CS remained unchanged throughout the first 2 years of life (P = 0.53), whereas the effect of acute CS was only present in the second year of life (P = 0.001). CONCLUSION: Delivery by caesarian section is associated with an increased risk of hospitalization for RSV infection. This effect continues at least throughout the first 2 years of life."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: usingpulmonaryarteryaccelerationtimetoevaluatepulmonaryhemodynamicchangesonpreterminfantswithrespiratorydistresssyndrome2021wang
+"Background: Pulmonary artery acceleration time (PAAT) is a reliable and non-invasive method for assessing pulmonary hemodynamics. To date, few studies have used PAAT to assess preterm infants, especially those with respiratory distress syndrome (RDS). This study aimed to assess changes in PAAT among preterm infants with RDS undergoing pulmonary surfactant (PS) therapy or not, and determine its potential effects on the pulmonary vascular disease (PVD) outcomes of preterm infants with RDS in the late postnatal period. Method(s): The risk of RDS was reviewed in 62 preterm infants with a gestational age of 26-31 weeks. The infants receiving PS therapy were allocated to the PS group, and the others were allocated to the control group. PAAT, right ventricular ejection time (RVET), and other ultrasonic parameters at 3 different time points after birth were studied and compared. Result(s): Infants in the PS group had a significantly lower PAAT (52.7+/-5.9 vs. 59.6+/-8.7; P=0.001) and PAAT/RVET (0.30+/-0.03 vs. 0.33+/-0.03; P=0.001) than those in the control group at 36 weeks postmenstrual age (PMA). No significant increases in PAAT/RVET were detected at 3 different times for the PS group (P=0.117), but both PAAT and PAAT/RVET increased significantly with time after birth in the control group (P<0.001). Conclusion(s): Preterm infants with RDS might still have PVD in the late postnatal period and thus require long-term follow-up observation. PAAT appears to be a reliable non-invasive screening measure for evaluating pulmonary hemodynamics in preterm infants with RDS and late PVD.Copyright (c) 2021 AME Publishing Company. All rights reserved."""
+
+

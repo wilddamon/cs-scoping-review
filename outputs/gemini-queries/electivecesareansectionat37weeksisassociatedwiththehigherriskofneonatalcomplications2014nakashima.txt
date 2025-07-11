@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: electivecesareansectionat37weeksisassociatedwiththehigherriskofneonatalcomplications2014nakashima
+"Elective Cesarean section performed before 39 weeks of gestation may be associated with increased risk of neonatal complications. We retrospectively investigated differences in the neonatal complication rate between 684 newborns delivered by elective Cesarean section at 37 weeks of gestation (n = 390) and those delivered by the same procedure at 38 weeks (n = 294) between 2006 and 2012 at our hospital in order to ascertain whether adverse outcomes differ between the groups. Newborns delivered at 37 weeks had a significantly higher incidence of neonatal intensive care unit admission (p = 0.03), adverse respiratory complications (p < 0.01), low birth weight (p < 0.001), and hypoglycemia (p < 0.005) than those delivered at 38 weeks. Compared with normal weight neonates, low birth weight neonates were more likely to have hypoglycemia (p < 0.001). Multivariate logistic regression analysis revealed that an adverse respiratory outcome was independently associated with gestational age (p < 0.01; odds ratio [OR], 3.26; 95% confidence interval [CI], 1.36-7.81), while hypoglycemia was independently associated with birth weight (p < 0.01; OR, 16.34; 95% CI, 7.72-34.56). Respiratory disorders were significantly associated with gestational age even in normal birth weight newborns without any other complications such as hyperbirilubinemia, hypoglycemia or bacterial infections. In conclusion, the incidence of neonatal complications was higher in newborns delivered at 37 weeks of gestation than in those delivered at 38 weeks via elective Cesarean section. Thus, the procedure should be scheduled at 38 weeks to improve neonatal outcomes."""
+
+

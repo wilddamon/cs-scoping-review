@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: issonographicallymeasuredcervicallengthat37weeksofgestationassociatedwithintrapartumcesareansectionaprospectivecohortstudy2018devries
+"INTRODUCTION: Cesarean section rates continue to increase globally. Prediction of intrapartum cesarean section could lead to preventive measures. Our aim was to assess the association between sonographically measured cervical length at 37 weeks of gestation and cesarean section among women planning a vaginal birth. The population was women with a low-risk pregnancy or with gestational diabetes. MATERIAL AND METHODS: This was a prospective cohort study conducted in a tertiary referral hospital in Sydney, Australia. In all, 212 women with a low-risk pregnancy or with gestational diabetes were recruited including 158 nulliparous and 54 parous women. Maternal demographic, clinical and ultrasound characteristics were collected at 37 weeks of gestation. Semi-Bayesian logistic regression and Markov chain Monte Carlo simulation were used to assess the relation between cervical length and cesarean section in labor. RESULTS: Rates of cesarean section were 5% (2/55) for cervical length <=20 mm, 17% (17/101) for cervical length 20-32 mm, and 27% (13/56) for cervical length >32 mm. These rates were 4, 22 and 33%, respectively, in nulliparous women. In the semi-Bayesian analysis, the odds ratio for cesarean section was 6.2 (95% confidence interval 2.2-43) for cervical length 20-32 mm and 10 (95% confidence interval 4.8-74) for cervical length >32 mm compared with the lowest quartile of cervical length, after adjusting for maternal age, parity, height, prepregnancy body mass index, gestational diabetes, induction of labor, neonatal sex and birthweight centile. CONCLUSIONS: Cervical length at 37 weeks of gestation is associated with intrapartum cesarean section."""
+
+

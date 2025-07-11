@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: implementationofastandardizedpostcesareandeliveryordersetwithmultimodalcombinationanalgesiareducesinpatientopioidusage2020bornstein
+"Background: Opioid use has emerged as a leading cause of death in the US. Given that 1 in 300 opioid-naive patients exposed to opioids after cesarean birth will become persistent users, hospitals should strive to limit exposure to these medications. We set out to evaluate whether transitioning to a standardized order set based on multimodal combination analgesic therapy decreases the exposure to opioids after cesarean delivery. Methods: Our health system's post-cesarean pain management electronic medical record (EMR) order set was changed from standing NSAIDs (Ibuprofen 600 mg every 6 h) and additional acetaminophen and opioid medications (Oxycodone 5 mg/acetaminophen 325 mg every 3 h or Oxycodone 10 mg/acetaminophen 650 mg every 6 h for moderate and severe pain, respectively) as needed (PRN) to a multimodal combination therapy with acetaminophen (975 mg every 6 h) and NSAIDs (Ibuprofen 600 mg every 6 h) as primary analgesics and opioids PRN (Oxycodone immediate release (IR) 5 mg every 3 h for moderate to severe pain). We performed a retrospective analysis across seven hospitals comparing inpatient opioid use, administration of other analgesics, and severe pain episodes (pain score >= 7) between the patients who were treated before and after implementation of the multimodal order set. Chi square and Student t-test were used for statistical analysis with significance determined as p < 0.05. Results: A total of 12,898 cesarean births were included (8696 prior and 4202 after implementation). The multimodal order set was associated with marked decrease in the incidence of post cesarean opioid use (45.4% vs. 67.5%; p < 0.0001), lower average opioid dose (26.7 mg vs. 36.6 mg of oxycodone; p < 0.0001), and increased dose of acetaminophen (8422 mg vs. 4563 mg; p < 0.0001), while severe pain scores were less frequent (46.3% vs. 56.6%, p < 0.0001). Conclusions: Multimodal analgesic therapy for post-cesarean pain management reduces inpatient opioid use while improving pain control. Incorporation of a multimodal order set as a default in the EMR facilitates effective and widespread implementation on a large scale. Obstetric units should consider standardizing post-cesarean pain management orders to include routine (not PRN) multimodal combination therapy with acetaminophen and NSAIDs as primary analgesics."""
+
+

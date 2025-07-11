@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: childrenwithidiopathicshortstaturehavesignificantlydifferentgutmicrobiotathantheirnormalheightsiblingsacasecontrolstudy2024lazar
+"Objectives: To investigate the role of gut microbiota (GM) in pathogenesis of idiopathic short stature (ISS) by comparing GM of ISS children to their normal-height siblings. Method(s): This case-control study, conducted at the Schneider Children's Medical Center's Institute for Endocrinology and Diabetes between 4/2018-11/2020, involved 30 pairs of healthy pre-pubertal siblings aged 3-10 years, each comprising one sibling with ISS and one with normal height. Outcome measures from fecal analysis of both siblings included GM composition analyzed by 16S rRNA sequencing, fecal metabolomics, and monitoring the growth of germ-free (GF) mice after fecal transplantation. Result(s): Fecal analysis of ISS children identified higher predicted levels of genes encoding enzymes for pyrimidine, purine, flavin, coenzyme B, and thiamine biosynthesis, lower levels of several amino acids, and a significantly higher prevalence of the phylum Euryarchaeota compared to their normal-height siblings (p<0.001). ISS children with higher levels of Methanobrevibacter, the dominant species in the archaeal gut community, were significantly shorter in stature than those with lower levels (p=0.022). Mice receiving fecal transplants from ISS children did not experience stunted growth, probably due to the eradication of Methanobrevibacter caused by exposure to oxygen during fecal collection. Discussion(s): Our findings suggest that different characteristics in the GM may explain variations in linear growth. The varying levels of Methanobrevibacter demonstrated within the ISS group reflect the multifactorial nature of ISS and the potential ability of the GM to partially explain growth variations. The targeting of specific microbiota could provide personalized therapies to improve growth in children with ISS.Copyright (c) 2024 Lazar, Eshel, Moadi, Yackobovitch-Gavan, Bar-Maisels, Shtaif, Nevo, Phillip, Turjeman, Koren and Gat-Yablonski."""
+
+

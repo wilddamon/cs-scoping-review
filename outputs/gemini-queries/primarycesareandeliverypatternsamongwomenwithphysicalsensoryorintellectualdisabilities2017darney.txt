@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: primarycesareandeliverypatternsamongwomenwithphysicalsensoryorintellectualdisabilities2017darney
+"BACKGROUND: Little is known about the relationship between disability and mode of delivery. Prior research has indicated elevated risk of cesarean delivery among women with certain disabilities, but has not examined patterns across multiple types of disability or by parity. OBJECTIVE: This study sought to determine whether physical, sensory, or intellectual and developmental disabilities are independently associated with primary cesarean delivery. METHODS: We conducted a retrospective cohort study of all deliveries in California from 2000 to 2010 using linked birth certificate and hospital discharge data. We identified physical, sensory, and intellectual and developmental disabilities using International Classification of Diseases, 9th revision, clinical modification codes. We used logistic regression to examine the association of these disabilities and primary cesarean delivery, controlling for sociodemographic characteristics and comorbidities, and stratified by parity. RESULTS: In our sample, 0.45% of deliveries (20,894/4,610,955) were to women with disabilities. A greater proportion of women with disabilities were nulliparous, had public insurance, and had comorbidities (e.g., gestational diabetes) compared with women without disabilities (p < .001 for all). The proportion of primary cesarean in women with disabilities was twice that in women without disabilities (32.7% vs. 16.3%; p < .001; adjusted odds ratio, 2.05; 95% confidence interval, 1.94-2.17). The proportion of deliveries by cesarean was highest among women with physical disabilities due to injuries compared with women without disabilities (57.8% vs. 16.3%; p < .001; adjusted odds ratio, 6.83; 95% confidence interval, 5.46-8.53). CONCLUSIONS: Women across disability subgroups have higher odds of cesarean delivery, and there is heterogeneity by disability type. More attention is needed to this population to ensure better understanding of care practices that may impact maternal and perinatal outcomes."""
+
+

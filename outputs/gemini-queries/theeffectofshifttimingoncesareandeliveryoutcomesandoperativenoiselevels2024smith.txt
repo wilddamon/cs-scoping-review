@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofshifttimingoncesareandeliveryoutcomesandoperativenoiselevels2024smith
+"OBJECTIVE: Intraoperative noise exposure has been associated with an increased risk of complications, communication errors, and stress among surgical team members. This study evaluates intraoperative noise levels in cesarean deliveries during different shift times, for example, night shifts, day shifts, and hand-off times between shifts. STUDY DESIGN: This is a secondary analysis of a prospective observational study which measured volume in decibels, percentage of time above safe levels (>60 dB), startle noise events (events with rapid increase of decibel level above baseline noise), and peak levels (>75 dB) for cesarean deliveries during a 3-month preintervention and postintervention study. This secondary analysis of noise data evaluated whether there were differences in noise for cases occurring during day shifts (6:31 a.m.-4:59 p.m.), night shifts (6:01 p.m.-5:29 a.m.), and hand-off times (5:30 a.m.-6:30 a.m. and 5:00 p.m.-6:00 p.m.). Correlates and postoperative complications during the respective shifts were additionally analyzed. RESULTS: Noise data were collected for a total of 312 cesarean deliveries; 203 occurred during the day shift, 94 during the night shift, and 15 during hand-off times. Median noise in decibels, median noise at various key intraoperative points, number of startle events, percentage of time above 60 dB, and above 75 dB had no significant differences throughout the various shift times. Significantly larger numbers of postpartum hemorrhages, unscheduled, urgent, and STAT cesarean deliveries occurred at hand-off times and on night shifts. CONCLUSION: Noise levels during cesarean deliveries did not significantly vary when comparing night shifts, day shifts, and hand-off times, despite significantly higher numbers of urgent and STAT cases occurring overnight and during hand-off times. However, more than 60% of case time had noise levels exceeding those considered safe. This suggests that ambient background noise may be contributing more to overall noise levels rather than the specific clinical scenario at hand. KEY POINTS: * Noise in cesarean delivery operating rooms frequently exceeded recommended levels.. * Noise in cesarean delivery operating rooms did not vary with shift type.. * Hand-off times had higher rates of urgent and STAT cesareans.. * Night shifts had higher rates of urgent and STAT cesareans.."""
+
+

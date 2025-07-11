@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vitaminb12insufficiencyinducescholesterolbiosynthesisbylimitingsadenosylmethionineandmodulatingthemethylationofsrebf1andldlrgenes2015adaikalakoteswari
+"Background: The dietary supply of methyl donors such as folate, vitamin B12, betaine, methionine, and choline is essential for normal growth, development, and physiological functions through the life course. Both human and animal studies have shown that vitamin B12 deficiency is associated with altered lipid profile and play an important role in the prediction of metabolic risk, however, as of yet, no direct mechanism has been investigated to confirm this. Result(s): Three independent clinical studies of women (i) non-pregnant at child-bearing age, (ii) in early pregnancy, and (iii) at delivery showed that low vitamin B12 status was associated with higher total cholesterol, LDL cholesterol, and cholesterol-to-HDL ratio. These results guided the investigation into the cellular mechanisms of induced cholesterol biosynthesis due to vitamin B12 deficiency, using human adipocytes as a model system. Adipocytes cultured in low or no vitamin B12 conditions had increased cholesterol and homocysteine levels compared to control. The induction of cholesterol biosynthesis was associated with reduced s-adenosylmethionine (AdoMet)-to-s-adenosylhomocysteine (AdoHcy) ratio, also known as methylation potential (MP). We therefore studied whether reduced MP could lead to hypomethylation of genes involved in the regulation of cholesterol biosynthesis. Genome-wide and targeted DNA methylation analysis identified that the promoter regions of SREBF1 and LDLR, two key regulators of cholesterol biosynthesis, were hypomethylated under vitamin B12-deficient conditions, and as a result, their expressions and cholesterol biosynthesis were also significantly increased. This finding was further confirmed by the addition of the methylation inhibitor, 5-aza-2'-deoxycytidine, which resulted in increased SREBF1 and LDLR expressions and cholesterol accumulation in vitamin B12-sufficient conditions. Finally, we observed that the expression of SREBF1, LDLR, and cholesterol biosynthesis genes were increased in adipose tissue of vitamin B12 deficient mothers compared to control group. Conclusion(s): Clinical data suggests that vitamin B12 deficiency is an important metabolic risk factor. Regulation of AdoMet-to-AdoHcy levels by vitamin B12 could be an important mechanism by which it can influence cholesterol biosynthesis pathway in human adipocytes.Copyright (c) 2015 Adaikalakoteswari et al."""
+
+

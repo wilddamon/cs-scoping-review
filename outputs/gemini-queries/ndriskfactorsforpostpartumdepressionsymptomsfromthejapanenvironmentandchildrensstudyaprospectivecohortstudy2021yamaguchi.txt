@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgainandriskfactorsforpostpartumdepressionsymptomsfromthejapanenvironmentandchildrensstudyaprospectivecohortstudy2021yamaguchi
+"BACKGROUND: The relationship between postpartum depression symptoms (PPDS) and gestational weight gain is controversial. We aimed to examine the risk of gestational weight gain for PPDS at 1 month postpartum based on the pre-pregnancy body mass index (BMI). METHODS: A prospective cohort study recruited 80 927 Japanese women 2011-2014. They categorized according to their pre-pregnancy BMI into group 1 (<18.5 kg/m(2)), group 2 (18.5 to <20.0 kg/m(2)), group 3 (20.0 to <23.0 kg/m(2)), group 4 (23.0 to <25.0 kg/m(2)), and group 5 (>=25.0 kg/m(2)). Multiple logistic regression analysis was performed for each BMI category to identify potential risk factors of insufficient or excessive gestational weight gain associated with PPDS, following adjustments for maternal age, education, annual household income, smoking, parity, mode of delivery, cessation of breast feeding, psychological stress, and daily energy intakes during pregnancy. RESULTS: Among participants in group 3, insufficient gestational weight gain was a risk factor for PPDS (adjusted odds ratio: 1.24, 95% confidence interval: 1.14-1.36). This result was not modified by intermediate factors. LIMITATIONS: The criteria of appropriate gestational weight gain were determined from the adverse pregnancy outcomes not validated for PPDS. Other confounding factors for PPDS like psychotic disorders were not examined. CONCLUSIONS: For women with a pre-pregnancy BMI between 20.0 and <23.0 kg/m(2), insufficient gestational weight gain is a risk factor for PPDS. Therefore, monitoring gestational weight gain is recommended for the early detection of PPDS in these women."""
+
+

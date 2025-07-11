@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: useofautomatedfetalheartrateanalysistoidentifyriskfactorsforumbilicalcordacidosisatbirth2019houzedelaulnoit
+"OBJECTIVE: To identify clinical parameters and intrapartum fetal heart rate parameters associated with a risk of umbilical cord acidosis at birth, using an automated analysis method based on empirical mode decomposition. METHODS: Our single-center study included 381 cases (arterial cord blood pH at birth pHa <=7.15) and 1860 controls (pHa >=7.25) extracted from a database comprising 8,383 full datasets for over-18 mothers after vaginal or caesarean non-twin, non-breech deliveries at term (>37 weeks of amenorrhea). The analysis of a 120-min period of the FHR recording (before maternal pushing or the decision to perform a caesarean section during labor) led to the extraction of morphological, frequency-related, and long- and short-term heart rate variability variables. After univariate analyses, sparse partial least square selection and logistic regression were applied. RESULTS: Several clinical factors were predictive of fetal acidosis in a multivariate analysis: nulliparity (odds ratio (OR) 95% confidence interval (CI)]: 1.769 [1.362-2.300]), a male fetus (1.408 [1.097-1.811]), and the term of the pregnancy (1.333 [1.189-1.497]). The risk of acidosis increased with the time interval between the end of the FHR recording and the delivery (OR [95%CI] for a 1-min increment: 1.022 [1.012-1.031]). The risk factors related to the FHR signal were mainly the difference between the mean baseline and the mean FHR (OR [95%CI]: 1.292 [1.174-1.424]), the baseline range (1.027 [1.014-1.040]), fetal bradycardia (1.038 [1.003-1.075]) and the late deceleration area (1.002 [1.000-1.005]). The area under the curve for the multivariate model was 0.79 [0.76; 0.81]. CONCLUSION: In addition to clinical predictors, the automated FHR analysis highlighted other significant predictors, such as the baseline range, the instability of the FHR signal and the late deceleration area. This study further extends the routine application of automated FHR analysis during labor and, ultimately, contributes to the development of predictive scores for fetal acidosis."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: chineseherbalmedicineshavepotentiallybeneficialeffectsontheperinataloutcomesofpregnantwomen2022shen
+"Introduction: Tocolytic treatment is beneficial to pregnant women with a risk of premature labor or miscarriage. However, previous reports have shown that progestogen might not be effective and ritodrine may increase the risk of maternal vascular-related diseases. Chinese herbal products (CHP) are used as alternative therapies for pregnant women. The goal was to evaluate the efficacy of combined tocolytic therapy and CHP therapy in pregnancy outcomes for pregnant women in Taiwan. Material(s) and Method(s): We conducted a retrospective cohort study based on the National Health Insurance Research Database. A total of 47,153 pregnant women treated with tocolytics aged 18-50 years from 2001 to 2015 were selected from two million random samples. According to the medical use of tocolytics and CHP, we divided the users into two groups: western medicine (WM) only (n = 40,961) and WM/CHP (n = 6,192) groups. A propensity score (PS)-matched cohort (6,192 pairs) was established based on baseline confounders. All participants were followed up to perinatal outcomes. Conditional logistic regression analysis was used to examine the effects of CHP use on the odds of miscarriage and preterm birth. Result(s): The adjusted odds ratio (OR) for premature birth in the WM/CHP group (n = 411, 6.64%) was significantly lower than in the WM group (n = 471, 7,61%) (0,86, 95% confidence interval [CI], 0.74-0.99). Further subgroup analysis based on the usage of formulae that activate blood and remove stasis or purgative formulae, the adjusted OR of preterm birth of those using these formulae was significantly lower in the WM/CHP group (n = 215, 6.32%) than that in the WM group (n = 265, 7.77%) (OR: 0.79, 95% CI: 0.65-0.96). Conclusion(s): We found that the combination of CHP and tocolytics can be beneficial to pregnant women in the prevention of premature birth. Further research is required to investigate causal relationships.Copyright (c) 2022 Shen, Chang, Chen, Wu, Wen and Wu."""
+
+

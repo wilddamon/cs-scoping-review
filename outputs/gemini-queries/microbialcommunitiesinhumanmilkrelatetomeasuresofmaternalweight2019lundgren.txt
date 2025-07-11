@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: microbialcommunitiesinhumanmilkrelatetomeasuresofmaternalweight2019lundgren
+"The process of breastfeeding exposes infants to bioactive substances including a diversity of bacteria from breast milk as well as maternal skin. Knowledge of the character of and variation in these microbial communities, as well as the factors that influence them, is limited. We aimed to identify profiles of breastfeeding-associated microbial communities and their association with maternal and infant factors. Bilateral milk samples were collected from women in the New Hampshire Birth Cohort Study at approximately 6 weeks postpartum without sterilization of the skin in order to capture the infant-relevant exposure. We sequenced the V4-V5 hypervariable region of the bacterial 16S rRNA gene in 155 human milk samples. We used unsupervised clustering (partitioning around medoids) to identify microbial profiles in milk samples, and multinomial logistic regression to test their relation with maternal and infant variables. Associations between alpha diversity and maternal and infant factors were tested with linear models. Four breastfeeding microbiome types (BMTs) were identified, which differed in alpha diversity and in Streptococcus, Staphylococcus, Acinetobacter, and Pseudomonas abundances. Higher maternal pre-pregnancy BMI was associated with increased odds of belonging to BMT1 [OR (95% CI) = 1.13 (1.02, 1.24)] or BMT3 [OR (95% CI) = 1.12 (1.01, 1.25)] compared to BMT2. Independently, increased gestational weight gain was related to reduced odds of membership in BMT1 [OR (95% CI) = 0.66 (0.44, 1.00) per 10 pounds]. Alpha diversity was positively associated with gestational weight gain and negatively associated with postpartum sample collection week. There were no statistically significant associations of breastfeeding microbiota with delivery mode. Our results indicate that the breastfeeding microbiome partitions into four profiles and that its composition and diversity is associated with measures of maternal weight."""
+
+

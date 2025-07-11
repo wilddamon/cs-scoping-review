@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: repeatlowordercaesareandeliveryriskfactorsforcomplicationsaretrospectivelongitudinalstudy2023reichman
+"One-third of cesarean deliveries (CDs) are repeat operations, of which the majority are low-order, second (CD2) and third (CD3). The study objectives were to identify risk factors for a complicated maternal CD among women undergoing a repeat low-order CD and to develop a predictive model for at-risk women. A retrospective longitudinal follow-up study was conducted in a single medical center, during 2005-2016. Women who underwent both CD2 and CD3 at the site were included. Those with placenta accreta or a caesarean hysterectomy were excluded. A composite complicated maternal CD was defined by either uterine rupture/dehiscence, blood transfusion, relaparotomy, admission to the intensive care unit or prolonged operative time >90th percentile. Data was analyzed comparing between CD2 to CD3, each woman served as her own control. Univariate analysis followed by a multivariate logistic regression modeling were performed with an OR of 95% CI defining significance. The study group comprised of 1,331 women. A complicated CD occurred in 159 (12%) vs. 226 (17%) of CD2 vs. CD3 respectively, (p<0.001). Women with a complicated CD2 were at higher risk for complications in CD3, aOR 2.3 (95% CI 1.5, 3.3). Sub-Saharan African origin and preterm delivery at CD3 were both risk factors for a complicated CD3, aOR 3.7 (95% CI 1.9, 7.3) and aOR 1.7 (95% CI 1.1, 2.7), respectively. The multivariate regression model included 1328 cases, was statistically significant, kh2(7) = 50.760, p <0.001, explained 6.3% of the variance of composite complicated maternal CD3 and correctly classified 82.9% of cases. Although a complicated CD2, Sub-Saharan African origin and preterm delivery are risk factors for maternal complications in CD3, it is hard to predict which specific women will experience complications. Sensitivity, specificity, positive and negative predictive value of a complicated CD2 for detecting complications in CD3 were 21%, 90%, 30% and 85% respectively."""
+
+

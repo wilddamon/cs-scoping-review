@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthoutcomesofhispanicwomenandrisksorstrengthsassociatedwithethnicityandtexasborderresidence2014walker
+"OBJECTIVE: To assess Hispanic ethnicity, border residence, or their interaction for association with risk of high gestational weight gain (GWG) and related outcomes. DESIGN: Retrospective analysis of 2009 birth data. SETTING: Texas. PARTICIPANTS: Participants included 146,458 Hispanic and 104,399 non-Hispanic (NH) White women. METHODS: We used adjusted odds ratios (AOR) in logistic regression analyses to test the association of Hispanic ethnicity, border residence, and their interaction with high GWG, cesarean birth, macrosomia, and breastfeeding status at discharge. RESULTS: After adjusting for covariates, risk of inadequate or excessive GWG was not associated with being a border resident, but Hispanic women compared to NH White women had an increased risk of inadequate GWG (AOR = 1.21, 99% confidence interval [CI] [1.17, 1.26]) and decreased risk of excessive GWG (AOR = 0.77, 99% CI [0.74, 0.79]). Risk of cesarean birth was increased for border residents (AOR = 1.22, 99% CI [1.05, 1.42]), and this risk was increased further among border residents who were Hispanic (AOR = 1.52, 99% CI [1.30, 1.77]). CONCLUSION: We found strengths and vulnerabilities among Hispanic and border-residing women. Hispanic women were at lower risk of excessive GWG than NH White women. Border-residing Hispanic women were at greater risk of cesarean birth than other women."""
+
+

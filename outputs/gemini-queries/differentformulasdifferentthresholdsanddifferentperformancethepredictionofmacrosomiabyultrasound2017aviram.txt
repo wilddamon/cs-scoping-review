@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: differentformulasdifferentthresholdsanddifferentperformancethepredictionofmacrosomiabyultrasound2017aviram
+"OBJECTIVE: The sonographic prediction of fetal macrosomia affects obstetrical decision regarding the timing and mode of delivery. We aimed to compare the accuracy of various formulas for prediction of macrosomia at different thresholds. STUDY DESIGN: This was a retrospective cohort study of singleton gestations at term, with fetal biometrical measurements taken up to 7 days prior to delivery (2007 to 2014). Sonographic estimated fetal weight was calculated using 20 previously published formulas. Macrosomia prediction was evaluated for every formula utilizing: (1) measures of accuracy (sensitivity, specificity and so on); (2) comparison of the systematic and random errors (SE and RE), and the proportion of estimates within 10% of actual birth weight for macrosomic and non-macrosomic neonates. Performance measurements were evaluated for different macrosomia thresholds: 4000, 4250 and 4500 g. Best performing formula for every threshold was defined as the one with the lowest Euclidean distance (=SQRT(SE(2)+RE(2))). RESULTS: Out of 7977 women who met the inclusion criteria, 754 (9.4%) delivered a neonate weighing 4000 g, 266 (3.3%) delivered a neonate weighing4250 g and 75 (0.9%) delivered a neonate weighing4500 g. Considerable variability was noted between the accuracy parameters of the different formulas, with Woo's formula integrating Abdominal circumference (AC) and femur length (FL) as the most sensitive formula with the highest negative predictive value for all thresholds and Woo's formula using AC, FL and biparietal diameter (BPD) as the most specific for all thresholds. The same formula also demonstrated the best overall accuracy. Regardless of threshold chosen, 80% or more of formulas demonstrated negative systematic error, meaning lower EFW than actual birthweight. As for the Euclidean distance, Hadlock's formula (AC, FL and BPD) ranked the highest for the 4000 and 4250 g thresholds, whereas Shepard's formula (AC and BPD) ranked the highest for the 4500 g threshold. CONCLUSION: Considerable variability exist between formulas for prediction of neonatal macrosomia. Formulas by Hadlock's and Shepard's utilizing AC, BPD+-FL were most accurate for macrosomia prediction at 4000, 4250 and 4500 g thresholds, respectively."""
+
+

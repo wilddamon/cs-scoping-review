@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thecrystalloidcoloadclinicallyaseffectiveascolloidpreloadforpreventinghypotensionfromspinalanaesthesiaforcaesareandelivery2019riley
+"OBJECTIVE: Colloid preloading diminishes post-spinal hypotension. However, whether colloid preloading is superior to crystalloid co-loading is uncertain. In this retrospective study, we compared the effects of a colloid preload versus a crystalloid co-load on vasopressor requirements and maternal haemodynamics among women undergoing elective caesarean delivery (CD) with spinal anaesthesia.;METHODS: We extracted data from the medical records of 160 healthy women who underwent elective CD with spinal anaesthesia at an academic obstetric centre before and after an institutional fluid-loading protocol change. Patients received a 500 mL 6% hydroxyethyl starch preload or a 1000 mL crystalloid co-load. The primary outcome was the total phenylephrine dose administered from spinal block placement to delivery.;RESULTS: Our cohort comprised 79 women in the colloid group and 77 women in the crystalloid group. The mean phenylephrine use was significantly lower in the colloid group than in the crystalloid group (489+/-403 mug vs. 647+/-464 mug, respectively, p=0.02). The maximal drop in systolic blood pressure was greater in the colloid group than in the crystalloid group (36+/-20 mmHg vs. 29+/-16 mmHg, respectively, p=0.02). There were no clinically significant differences between the groups in heart rate, blood loss, temperature and Apgar scores.;CONCLUSION: Vasopressor use was lower in colloid preloading than in crystalloid co-loading. However, differences in all outcome measures were minimal and likely clinically insignificant, suggesting that both fluid-loading techniques are appropriate to use for the prevention of spinal hypotension in women undergoing CD."""
+
+

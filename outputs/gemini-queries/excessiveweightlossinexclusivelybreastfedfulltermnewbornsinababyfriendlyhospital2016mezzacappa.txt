@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: excessiveweightlossinexclusivelybreastfedfulltermnewbornsinababyfriendlyhospital2016mezzacappa
+"OBJECTIVE: To determine the risk factors for weight loss over 8% in full-term newborns at postpartum discharge from a Baby Friendly Hospital.;METHODS: The cases were selected from a cohort of infants belonging to a previous study. Healthy full-term newborns with birth weight >=2.000g, who were exclusively breastfed, and excluding twins and those undergoing phototherapy as well as those discharged after 96 hours of life, were included. The analyzed maternal variables were maternal age, parity, ethnicity, type of delivery, maternal diabetes, gender, gestational age and appropriate weight for age. Adjusted multiple and univariate Cox regression analyses were used, considering as significant p<0.05.;RESULTS: We studied 414 newborns, of whom 107 (25.8%) had excessive weight loss. Through the univariate regression, risk factors associated with weight loss >8% were caesarean delivery and older maternal age. At the adjusted multiple regression analysis, the model to explain the weight loss was cesarean delivery (relative risk: 2.27 and 95% of confidence interval: 1.54 to 3.35).;CONCLUSIONS: The independent predictor for weight loss >8% in exclusively breastfed full-term newborns in a Baby-Friendly Hospital was the cesarean delivery. It is possible to reduce the number of cesarean sections to minimize neonatal excessive weight loss and the resulting use of infant formula during the first week of life. Copyright (c) 2015 Sociedade de Pediatria de Sao Paulo. Publicado por Elsevier Editora Ltda. All rights reserved."""
+
+

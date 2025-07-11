@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforperinatalstrokeinterminfantsacasecontrolstudyinaustralia2023roy
+"AIM: The aetiology of perinatal stroke is poorly understood. This study aimed to prospectively confirm the risk factors and identify any previously unknown variables. METHODS: A prospective case-control study was conducted in Australia. Univariate odds ratios (ORs), associated 95% confidence intervals (CIs) and multivariable logistic regression models fitted with backwards stepwise variable selection were used. RESULTS: Sixty perinatal stroke cases reported between 2017 and 2019 included 95% (57/60) with multiple risk factors. Univariate analysis identified emergency caesarean section rather than NVD (P < 0.01), low Apgar score (<7) at 1, 5 and 10 min of age (P < 0.01), resuscitation at birth (P < 0.01), abnormal cord blood gas (P < 0.01), neonatal infection/sepsis (P < 0.01), congenital heart disease (P < 0.01) and hypoglycaemia (P < 0.01) as significant risk factors. Multivariate analysis found smoking during pregnancy (OR: 1.48; 95% CI: 1.09-1.99), 1-min Apgar score < 7 (OR: 1.54; 95% CI: 1.15-2.08), 10-min Apgar score < 7 (OR: 1.26; 95% CI: 1.02-1.54) and hypoglycaemia (OR: 1.49; 95% CI: 1.07-2.06). CONCLUSIONS: Perinatal stroke is associated with multiple risk factors. Exposure to smoking, 10-min Apgar score < 7, neonatal infection and hypoglycaemia were independent risk factors. Emergency caesarean section, resuscitation at birth and abnormal cord blood gas were additional risk factors."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesthedeliverymodeaffectpostbirthneonatalserumcreactiveproteinlevelsacausaleffectanalysis2022kozlovski
+"AIM: To determine if the delivery mode has a causal effect on neonatal serum C-reactive protein (CRP) levels. If such a causal effect exists, we aim to quantify its magnitude. METHODS: We investigated the causal effect of the delivery mode on serum CRP levels 6-8 h after delivery, with appropriate statistical tools for retrospective studies, combining classical and machine-learning methods. The statistical inference is followed by sensitivity analysis to quantify the magnitude of unobserved bias required in order to alter the study's conclusion. RESULTS: This retrospective study reviewed laboratory records of neonates after birth who underwent blood tests due to suspected sepsis. A total of 440 newborns were included, 324 of which underwent a vaginal delivery, 59 an urgent caesarean delivery, and 57 an elective caesarean delivery. Our results revealed that serum CRP values following elective caesarean deliveries were 50% less than those following a vaginal delivery (P = 0.030; -0.907; 95% CI [-1.545, -0.268] in log-CRP units). No significant effect was found for urgent caesarean deliveries compared to vaginal deliveries (P = 0.887). Those results were strengthened by (1) a sensitivity magnitude of 1.6 to unobserved bias and (2) non-significant effects when analysis is repeated on blood collected 12-24 h after birth. CONCLUSION: CRP concentrations in neonatal blood during the first 6-8 h of life are higher following vaginal deliveries compared to elective caesarean deliveries. Further studies with the intent of improving EONS detection should include information on the delivery mode."""
+
+

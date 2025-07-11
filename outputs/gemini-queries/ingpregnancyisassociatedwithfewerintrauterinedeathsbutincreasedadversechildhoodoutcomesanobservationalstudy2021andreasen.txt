@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: detectionofgrowthrestrictedfetusesduringpregnancyisassociatedwithfewerintrauterinedeathsbutincreasedadversechildhoodoutcomesanobservationalstudy2021andreasen
+"OBJECTIVE: Exploring associations between antenatal detection of fetal growth restriction (FGR) and adverse outcome. DESIGN: Retrospective, observational, register-based study. SETTING: Zealand, Denmark. POPULATION OR SAMPLE: Children born from 1 September 2012 to 31 August 2015. METHODS: Diagnoses from birth until 1 January 2018 were retrieved from The National Patient Registry. Detection was defined as estimated fetal weight less than the 2.3rd centile. Cox regression was used to associate detection status with the hazard rate of adverse outcome, adjusted for fetal weight deviation, maternal age, ethnicity, body mass index and smoking. MAIN OUTCOME MEASURES: Adverse neonatal outcome, adverse neuropsychiatric outcome, respiratory disorders, endocrine disorders, gastrointestinal/urogenital disorders. RESULTS: A total of 2425 FGR children were included. An association was found for gastrointestinal/urogenital disorders (hazard ratio [HR] 1.68, 95% CI 1.26-2.23, P < 0.001) and respiratory disorders (HR 1.22, 95% CI 1.02-1.46, P = 0.03) in detected versus undetected infants. For adverse neuropsychiatric outcome, HR was 1.32 (95% CI 1.00-1.75, P = 0.05). There was no evidence of an association between detection and adverse neonatal outcome (HR 1.00, 95% CI 0.62-1.61, P = 0.99) and endocrine disorders (HR 1.39, 95% CI 0.88-2.19, P = 0.16). Detected infants were smaller (median -28% versus -25%, P < 0.0001), more often born preterm (odds ratio [OR] 4.15, 3.12-5.52, P < 0.0001) and more often born after induction or caesarean section (OR 5.19, 95% CI 4.13-6.51, P < 0.0001). Stillbirth risk was increased in undetected FGR fetuses (OR 2.63, 95% CI 1.37-5.04, P = 0.004). CONCLUSIONS: We found an association between detection of FGR and risk of adverse childhood conditions, possibly caused by prematurity. Iatrogenic prematurity may be inevitable in stillbirth prevention, but is accompanied by a risk of long-term childhood conditions. TWEETABLE ABSTRACT: Antenatal detection of growth-restricted fetuses is associated with adverse childhood outcomes but fewer intrauterine deaths."""
+
+

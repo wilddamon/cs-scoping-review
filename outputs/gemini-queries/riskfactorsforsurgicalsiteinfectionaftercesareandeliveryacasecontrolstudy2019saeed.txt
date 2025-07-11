@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforsurgicalsiteinfectionaftercesareandeliveryacasecontrolstudy2019saeed
+"BACKGROUND: The cesarean delivery (CD) rate is increasing worldwide. Surgical site infection (SSI) incidence is likely to follow an upward trajectory. We examined the incidence and risk factors for SSI after CD. METHODS: A case-control study of women who had a lower-segment CD during the study period was performed at Ireland's Cork University Maternity Hospital. Cases were patients who presented to the hospital with SSI and who met the criteria of the U.S. Centers for Disease Control and Prevention. Controls were randomly selected from the discharge register of CDs at a ratio of 2:1. Data were extracted from the medical records. A multivariable stepwise logistic regression model approach was used, and the results were expressed as adjusted odds ratios (aORs). RESULTS: The SSI rate was 2%. The greatest contribution to risk of SSI was associated with maternal obesity (aOR, 4.76; 95% confidence interval [CI], 2.00-11.32) and hypertensive disorders (aOR, 6.67; 95% CI, 1.54-28.99]. There was also an increased risk for women who underwent an emergency CD (aOR, 3.50; 95% CI, 1.09-11.30), for women who had >=5 vaginal examinations (aOR, 3.24; 95% CI, 0.92-11.41), and for women without hypertensive disorders who delivered a baby weighing <3,500 g (aOR, 2.18; 95% CI, 1.08-4.37). CONCLUSIONS: Obesity, hypertensive disorders, emergency CD, and multiple vaginal examinations were independent risk factors for SSI after CD."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: reasonsfornonexclusivebreastfeedinginthefirst6months2018zielinska
+"BACKGROUND: Maternal sociodemographic, delivery- and infant-related factors as well as hospital practice are relevant for breast-feeding practice. The aim of this study was to identify the sociodemographic and delivery-related factors that may affect exclusive breast-feeding (EBF) of infants aged 0-6 months in Poland.;METHODS: A total of 446 mothers (18-42 years old) of infants aged 0-6 months were interviewed using the computer-assisted Web interview method. The questionnaire collected information about maternal sociodemographic situation and anthropometrics, delivery-related factors, and infant feeding-related factors. Data were analyzed using the chi-squared test and Mann-Whitney U-test. Predictors of non-exclusive breast-feeding (N-EBF) in the first 6 months of life were assessed on multivariate logistic regression.;RESULTS: A total of 43% of mothers did not breast-feed exclusively (n = 191; N-EBF group) and 57% did breast-feed exclusively during the study period (n = 255; EBF group). After adjustment for other potential risk factors, the highest risk factors for N-EBF were maternal age <20 years (OR, 6.12; P <= 0.01), and inadequate breast-feeding knowledge (OR, 3.43; P <= 0.01), whereas the lowest risk was associated with pre-pregnancy intention to breast-feed (OR, 0.35; P <= 0.01), very good knowledge about breast-feeding (OR, 0.45; P <= 0.001) and maternal age 26-30 years (OR, 0.48; P <= 0.001). In a multivariate model, maternal education, employment status and preterm delivery were no longer statistically significant.;CONCLUSIONS: Breast-feeding practice is influenced by a variety of factors, including sociodemographic and psychosocial conditions, maternal obesity and mode of delivery. Further work is needed to establish the role of education and prophylactic programs in modifying the aforementioned risk factors. Copyright (c) 2017 Japan Pediatric Society."""
+
+

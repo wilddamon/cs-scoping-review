@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofcombinationofwarmintravenousfluidinfusionandforcedairwarmingversusforcedairwarmingaloneonmaternaltemperatureandshiveringduringcesariandeliveryunderspinalanesthesia2020meghana
+"Objective: Administration of warm intravenous (IV) fluid infusion and use of forced air warmers is the most easy and physiologically viable method for maintaining normothermia during surgery and postsurgical periods This study was conducted to assess the effect of combination of active warming (AW) methods namely warm IV fluid infusion and forced air warming versus forced air warming only (WA) on maternal temperature during elective C-delivery under spinal anesthesia.;Materials and Methods: A total of 100 patients scheduled for elective c-section were grouped into those who received both warmed IV fluid infusion and forced air warmer (Combination of active warming WI= 50) and those who received only forced air warmer (WA = 50). Core body temperature and shivering incidence were recorded using a tympanic thermometer from prespinal till the end of surgery every 10 min and in postanesthesia care unit (PACU) at 0, 15, and 30 min.;Results: Core temperature showed statistically significant difference in 15, 35, 45, and 55 min between air warmer and warm infusion groups and in PACU at 0, 15, and 30 min, it was statistically significant (P = 0.000) among WI group (mean temperature = 36.79degreeC) when compared to WA group (mean temperature = 35.96degreeC). There was a lower incidence of shivering in WI compared to WA group, which is statistically significant.;Conclusion: Combination of warm Intravenous fluid infusion and Forced air warming is better than forced air warming alone. In maintaining near normal maternal core body temperature during elective cesarean section following spinal anesthesia. Combined warming method also reduces shivering incidence."""
+
+

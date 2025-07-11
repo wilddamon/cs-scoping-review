@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonoftheeffectofcaseloadmidwiferyprogramandstandardmidwiferyledcareonprimiparousbirthoutcomesaretrospectivecohortmatchingstudy2019gidaszewski
+"BACKGROUND: The effectiveness of continuity of care during the perinatal period is well documented, but implementing continuity of care model to practice requires evaluation. AIM: To evaluate the effect of a caseload midwifery program (CMP) on birth outcomes and rates of perinatal interventions at a metropolitan tertiary hospital in Australia, compared with standard midwifery-led care (SMC). METHODS: This was a retrospective, matched-cohort study. We extracted the data of 1000 nulliparous women from records of 19,001 women who gave birth at the hospital from 2011 to 2014. We used basic statistical tests to compare baseline demographic data, and logistic regression to calculate odds ratios, to evaluate maternal and neonatal outcomes. RESULTS: Adjusted regression analysis for the primary outcome showed that compared with women who received SMC, women who received care through CMP had an increased rate of normal vaginal birth (69% vs. 50%, OR = 1.79, 95%, CI = 1.38-2.32). Assessment of secondary outcomes showed that the women in CMP group had decreased rates of instrumental birth (15% vs. 26%, OR = 0.48, 95% CI = 0.35-0.66), episiotomy (23% vs. 40%, OR = 0.43, 95% CI = 0.33-0.57), epidural analgesia (33% vs. 43%, OR = 0.64, 95% CI = 0.50-0.83) and amniotomy (35% vs. 50%, OR = 0.56, 95% CI = 0.43-0.72). The CMP group also had greater rates of water immersion (54% vs. 22%, OR = 4.18, 95% CI = 3.17-5.5), physiological 3rd stage (7% vs. 1%, OR = 11.71, 95% CI = 3.56-38.43) and 2nd degree tear (34% vs. 24%, OR = 1.60, 95% CI = 1.21-2.11). There were no significant differences between the two groups for rates of other secondary outcomes including Caesarean section, cervical ripening procedures, third- and fourth-degree tears, postpartum haemorrhage and neonatal outcomes. CONCLUSION: CMP care is associated with increased rate of normal vaginal birth which supports wider implementation of the model. In addition, using routinely collected data and a cohort matching design can be an effective approach to evaluate maternal and neonatal outcomes."""
+
+

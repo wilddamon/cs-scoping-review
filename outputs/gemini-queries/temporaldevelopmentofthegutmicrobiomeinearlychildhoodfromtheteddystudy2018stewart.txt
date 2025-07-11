@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: temporaldevelopmentofthegutmicrobiomeinearlychildhoodfromtheteddystudy2018stewart
+"The development of the microbiome from infancy to childhood is dependent on a range of factors, with microbial-immune crosstalk during this time thought to be involved in the pathobiology of later life diseases(1-9) such as persistent islet autoimmunity and type 1 diabetes(10-12). However, to our knowledge, no studies have performed extensive characterization of the microbiome in early life in a large, multi-centre population. Here we analyse longitudinal stool samples from 903 children between 3 and 46 months of age by 16S rRNA gene sequencing (n = 12,005) and metagenomic sequencing (n = 10,867), as part of the The Environmental Determinants of Diabetes in the Young (TEDDY) study. We show that the developing gut microbiome undergoes three distinct phases of microbiome progression: a developmental phase (months 3-14), a transitional phase (months 15-30), and a stable phase (months 31-46). Receipt of breast milk, either exclusive or partial, was the most significant factor associated with the microbiome structure. Breastfeeding was associated with higher levels of Bifidobacterium species (B. breve and B. bifidum), and the cessation of breast milk resulted in faster maturation of the gut microbiome, as marked by the phylum Firmicutes. Birth mode was also significantly associated with the microbiome during the developmental phase, driven by higher levels of Bacteroides species (particularly B. fragilis) in infants delivered vaginally. Bacteroides was also associated with increased gut diversity and faster maturation, regardless of the birth mode. Environmental factors including geographical location and household exposures (such as siblings and furry pets) also represented important covariates. A nested case-control analysis revealed subtle associations between microbial taxonomy and the development of islet autoimmunity or type 1 diabetes. These data determine the structural and functional assembly of the microbiome in early life and provide a foundation for targeted mechanistic investigation into the consequences of microbial-immune crosstalk for long-term health."""
+
+

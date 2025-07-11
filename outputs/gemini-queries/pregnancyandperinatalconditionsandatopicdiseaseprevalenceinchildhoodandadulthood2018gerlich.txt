@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyandperinatalconditionsandatopicdiseaseprevalenceinchildhoodandadulthood2018gerlich
+"BACKGROUND: Previous studies showed controversial results for the influence of pregnancy-related and perinatal factors on subsequent respiratory and atopic diseases in children. The aim of this study was to assess the association between perinatal variables and the prevalence of asthma, bronchial hyperreactivity (BHR), flexural eczema (FE), allergic rhinitis, and sensitization in childhood and early adulthood.;METHODS: The studied population was first examined in Munich and Dresden in 1995/1996 at age 9-11 years. Participants were followed until age 19-24 years using questionnaires and clinical examinations. Associations between perinatal data and subsequent atopic diseases were examined using logistic regression analyses adjusting for potential confounders.;RESULTS: Cesarean section was statistically significantly associated with BHR in early adulthood (odds ratio 4.8 [95% confidence interval 1.5-15.2]), while assisted birth was associated with presence of asthma symptoms in childhood (2.2 [1.2-3.9]), FE symptoms (2.2 [1.2-4.3]) and doctor's diagnosis of atopic dermatitis (1.9 [1.0-3.4]) in childhood, and sensitization in early adulthood (2.2 [1.1-4.3]). Lower birth length (1.9 [1.1-3.2]), lower birthweight (0.5 [0.3-0.9]), and higher birthweight (0.6 [0.4-1.0]) were predictive of sensitization in early adulthood compared to average birth length and birthweight, respectively. None of the other perinatal factors showed statistically significant associations with the outcomes.;CONCLUSIONS: Our results indicate that children who are born by cesarean section and especially by assisted birth, might be at greater risk for developing asthma, FE, and sensitization and should hence be monitored. Prenatal maternal stress might partly explain these associations, which should be further investigated. Copyright (c) 2017 EAACI and John Wiley and Sons A/S. Published by John Wiley and Sons Ltd."""
+
+

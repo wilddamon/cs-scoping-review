@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: serumprocalcitoninlevelsinincisionalsurgicalsiteinfectionsrequiringasecondarysutureaftercesareansections2019aslancetin
+"Purpose: Surgical site infections (SSIs) after cesarean section cause maternal morbidity and economic and emotional burdens on society. Our aim is to measure procalcitonin (PCT) levels in patients who developed incisional SSIs after cesarean section while also comparing PCT concentrations between patients who underwent a secondary suture and who did not require a secondary suture. Methods: Ninety-four patients who developed incisional SSI after cesarean section were enrolled in our study. At the time of admission, serum PCT, C-reactive protein (CRP), and white blood cell (WBC) counts were measured. The study population was grouped into two, based on the need of a secondary suture and the patients baseline blood tests were compared. Results: The mean serum CRP level was not significant among the groups; however, the median serum PCT level was significantly higher in patients who required a secondary suture (0.21 vs. 0.05 ng/ml, p <= .0001). Serum PCT levels were positively correlated with the length of hospital stay (r = 0.72, p = .0001). Area under the curve (AUC) for PCT in predicting the need of a secondary suture was 0.85 (95% CI: 0.772-0.922) and the cutoff point was 0.142 ng/ml with a sensitivity of 75% and specificity of 97.8% (p = .0001). Conclusion: Serum PCT is a promising marker for both diagnosing and predicting the severity of SSIs after cesarean sections. Trial registration: ClinicalTrials.gov identifier: NCT03223233."""
+
+

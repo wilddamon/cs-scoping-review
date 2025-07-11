@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: restrictiveuseofempiricalantibioticsisassociatedwithimprovedshorttermoutcomesinverylowbirthweightinfantsasinglecenterretrospectivecohortstudyfromchina2023chu
+"Antibiotics are essential for treating neonatal sepsis, but abuse or inappropriate use of antibiotics have harmful adverse effects. The inappropriate use of antibiotics has led to the significant increase in bacterial antimicrobial resistance in the neonatal intensive care unit (NICU). The aim of this study was to retrospectively analyze the changes in antibiotic usages in a NICU after the implementation of an antibiotic stewardship program and to determine the impact of this implementation on the short-term clinical outcomes of very low birth weight (VLBW) infants. The antibiotic stewardship program was initiated in the NICU in early 2015. For analysis, all eligible VLBW infants born from 1 January 2014 to 31 December 2016 were enrolled, and we classified the year 2014 as pre-stewardship, 2015 as during stewardship, and 2016 as post-stewardship. A total of 249 VLBW infants, including 96 cases in the 2014 group, 77 cases in the 2015 group, and 76 cases in the 2016 group, were included for final analysis. Empirical antibiotics were used in over 90% of VLBW infants in all three groups during their NICU stay. Over the 3-year period, the duration of an initial antibiotic course was significantly reduced. The proportion of patients receiving an initial antibiotic course for <=3 days gradually increased (2.1% vs. 9.1% vs. 38.2%, p < 0.001), while the proportion of babies treated with an initial antibiotic course >7 days significantly decreased (95.8% vs. 79.2% vs. 39.5%, p < 0.001). The total days of antibiotic usage during the entire NICU stay also showed a significant reduction (27.0 vs. 21.0 vs. 10.0, p < 0.001). After adjusting for confounders, the reduction in antibiotic usage was associated with decreased odds of having an adverse composite short-term outcome (aOR = 5.148, 95% CI: 1.598 to 16.583, p = 0.006). To assess the continuity of antibiotic stewardship in the NICU, data from 2021 were also analyzed and compared to 2016. The median duration of an initial antibiotic course further decreased from 5.0 days in 2016 to 4.0 days in 2021 (p < 0.001). The proportion of an initial antibiotic course in which antibiotics were used for <=3 days increased (38.2% vs. 56.7%, p = 0.022). Total antibiotic usage days during the entire NICU stay also decreased from 10.0 days in 2016 to 7.0 days in 2021 (p = 0.010). The finding of this study strongly suggests that restricting antibiotic use in VLBW infants is beneficial and can be achieved safely and effectively in China.Copyright (c) 2023 by the authors."""
+
+

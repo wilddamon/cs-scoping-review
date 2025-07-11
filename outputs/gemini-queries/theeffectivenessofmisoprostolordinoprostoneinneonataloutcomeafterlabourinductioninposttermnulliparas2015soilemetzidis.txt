@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectivenessofmisoprostolordinoprostoneinneonataloutcomeafterlabourinductioninposttermnulliparas2015soilemetzidis
+"OBJECTIVE: The object of this study was to investigate the efficacy of vaginal administration of misoprostol versus dinoprostone in neonatal outcome.;MATERIALS AND METHODS: The first Group A included 77 pregnant women, who requested pregnancy termination one week after labour term and received vaginally misoprostol 50 microg, while the other 69 pregnant women in Group B were vaginally administrated three mg dinoprostone. According to the authors' protocol this procedure was repeated after six hours for a maximum of two times.;RESULTS: The labour duration was longer in Group B (p = 0.000), while the APGAR score was better in Group A (p = 0.015). In Group A the labour modus was as follows: 86.9% normal vaginal labour, 3.8% vacuum extraction, and 9.3% cesarean section, while in Group B it was 82.83% normal vaginal labour, 3.07% vacuum extraction, and 14.1% cesarean section.;CONCLUSION: Misoprostol has advantages according to neonatal outcome compared to administration of dinoprostone."""
+
+

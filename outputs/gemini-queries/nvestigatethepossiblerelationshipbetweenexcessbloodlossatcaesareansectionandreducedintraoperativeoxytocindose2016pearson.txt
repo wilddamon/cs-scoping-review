@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retrospectivestudytoinvestigatethepossiblerelationshipbetweenexcessbloodlossatcaesareansectionandreducedintraoperativeoxytocindose2016pearson
+"OBJECTIVE: To investigate a possible relationship between the oxytocin dose at caesarean section and blood loss. STUDY DESIGN: Retrospective analysis of computerised data for all caesarean sections in a UK maternity unit delivering 6000 women annually during 1995-2009 and thus for seven years before and after the 2001 recommended change in oxytocin dose. Validation of computerised and hand-checked clinical data for 1996 and 2006 was performed and annual frequency of blood loss >1000 ml was observed. RESULTS: Validation showed most variables recorded were similar for both acquisition methods. For 17,405 (98.9%) caesarean sections with blood loss recorded, excess or severe loss occurred in 127 (1.6%) of 7177 cases during 1995-2001 compared with 362 (4.0%) of 9035 during 2003-2009 (OR 2.317, CI 1.888-2.843). It was significantly more frequent with multiple than singleton pregnancies (OR 1.946, CI 1.417-2.673), with general than neuraxial anaesthesia (OR 4.296, CI 3.479-5.305) and with non-longitudinal than longitudinal fetal lie (OR 1.942, CI 1.501-2.512). Excluding these three groups, excess blood loss was still more frequent during 2003-2009 than 1995-2001 (OR 3.181, CI 2.374-4.263). Oxytocin given during labour did not influence the frequency of excess blood loss. CONCLUSIONS: The increased rate of excess blood loss at caesarean section during the latter period could be the result of the reduced oxytocin dose. If similar observations are made by others, this possible relationship should be investigated with appropriate objective randomised studies."""
+
+

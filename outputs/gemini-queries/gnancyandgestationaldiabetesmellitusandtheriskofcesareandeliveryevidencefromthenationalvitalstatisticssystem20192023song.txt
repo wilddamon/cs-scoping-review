@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: interactionbetweensmokingduringpregnancyandgestationaldiabetesmellitusandtheriskofcesareandeliveryevidencefromthenationalvitalstatisticssystem20192023song
+"OBJECTIVE: To explore the interaction between smoking during pregnancy (SDP) and gestational diabetes mellitus (GDM) on the risk of cesarean delivery. METHODS: This retrospective cohort study utilized data from the National Vital Statistics System (NVSS) 2019. The NVSS database provides data on births and deaths as well as maternal characteristics in the United States. The duration of follow-up was 38.74 +- 2.12 weeks. The outcome was the method of delivery, including vaginal and cesarean delivery. The multivariate logistic regression model was adopted to assess the associations of SDP and GDM with the method of delivery. The interaction between SDP and GDM was examined via calculating the relative excess risk of interaction (RERI), the attributable proportion of interaction (API) and the synergy index (S). Subgroup analyses were conducted based on age, race, prepregnancy body mass index (BMI), and primiparity. RESULTS: The study included 3352615 puerperae. Compared with women who did not smoke during pregnancy, those who smoked during pregnancy had a significantly higher risk of cesarean delivery [odds ratio (OR)=1.07, 95% confidence intervals (CI): 1.05-1.10, p < 0.001]; women with GDM had a significantly greater risk of cesarean delivery than those without (OR = 1.31, 95%CI: 1.30-1.33, p < 0.001). In contrast to women who did not smoke during pregnancy and did not have GDM, those who smoked during pregnancy and had GDM exhibited an increased risk of a cesarean section (OR = 1.47, 95%CI: 1.40-1.54, p < 0.001). RERI was 0.08 (95%CI: 0.01-0.15), API was 0.06 (95%CI: 0.01-0.10), and S was 1.21 (95%CI: 1.04-1.40) suggested that there was an interaction between SDP and GDM, and it was a synergistic effect. There was a synergism between SDP and GDM in women of non-advanced age (RERI = 0.07, 95%CI: 0.001-0.15; API = 0.05, 95%CI: 0.003-0.10; S = 1.17, 95%CI: 1.001-1.36), in white women (RERI = 0.08, 95%CI: 0.004-0.16; API = 0.05, 95%CI: 0.01-0.10; S = 1.19, 95%CI: 1.02-1.39), in women who were overweight before pregnancy (RERI = 0.13, 95%CI: 0.05-0.21; API = 0.08, 95%CI: 0.04-0.13; S = 1.33, 95%CI: 1.14-1.55), and in primiparae (RERI = 0.20, 95%CI: 0.08-0.31; API = 0.12, 95%CI: 0.06-0.19; S = 1.50, 95%CI: 1.23-1.84). CONCLUSION: SDP and GDM were associated with an increased risk of cesarean delivery, and a synergistic effect existed between SDP and GDM on the risk of cesarean delivery, especially in women of non-advanced age, white women, women who were overweight before pregnancy, and primiparae."""
+
+

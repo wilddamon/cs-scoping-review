@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverymodeandfetaloutcomeinattemptedvaginaldeliveriesafterpreviouscesareansectionanationwideregisterbasedcohortstudyinfinland2023vaajala
+"PURPOSE: Even though the risks and advantages of repeat Cesarean sections (CSs) and vaginal births after cesarean section (VBACs) are well studied, there is a scarcity of information on the effects of previous CS on maternal and fetal outcomes during subsequent deliveries. The aim of this study is to evaluate delivery mode and fetal outcomes in a trial of labor after cesarean section (TOLAC). METHODS: In this nationwide retrospective cohort study, data from the National Medical Birth Register (MBR) were used to evaluate the outcomes of TOLACs. TOLACs were compared to the outcomes of the trial of labor after previous successful vaginal delivery. A multivariable logistic regression model was used to assess the primary outcomes (delivery mode, neonatal intensive care unit, and perinatal/neonatal mortality). Adjusted odds ratios (aORs) with 95% confidence intervals (CIs) were used for comparison. RESULTS: A total of 29 352 (77.0%) women attempted vaginal delivery in the TOLAC group. In the control group, 169 377 (97.2%) women attempted vaginal delivery. The adjusted odds for urgent CS (aOR 13.05, CI 12.59-13.65) and emergency CS (aOR 3.65, CI 3.26-4.08) were notably higher in the TOLAC group when compared to the control group. The odds for neonatal intensive care unit treatment (aOR 2.05, CI 1.98-2.14), perinatal mortality (aOR 2.15, CI 1.79-2.57), and neonatal mortality (aOR 1.75, CI 1.20-2.49) were higher in the TOLAC group. CONCLUSIONS: The odds for emergency CS were higher among women who underwent TOLAC. The odds for neonatal intensive care and perinatal mortality were also higher, and further research is needed to identify those expecting women who are better suited for TOLAC to minimize the risk for a neonate. The results of this study should be acknowledged by the mother and the clinician when considering the possibility of vaginal births after cesarean section."""
+
+

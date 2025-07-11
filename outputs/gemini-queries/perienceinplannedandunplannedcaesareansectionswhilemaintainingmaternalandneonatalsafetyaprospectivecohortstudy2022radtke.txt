@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: charitecaesareanbirthimprovesbirthexperienceinplannedandunplannedcaesareansectionswhilemaintainingmaternalandneonatalsafetyaprospectivecohortstudy2022radtke
+"Background: In this study, we aimed to assess the safety of a modified caesarean delivery (Charite caesarean birth) in an extended frame of indications, and to examine its impact on parents' birth experience and long-term effects. Method(s): This prospective cohort study was performed from January to June 2019. A standardized questionnaire was given to all women who gave birth as an inpatient delivery. Eight months after hospital discharge, all women who gave consent were sent a follow-up questionnaire including questions on current feelings, breast feeding, bonding, and support system, as well as a screening for postnatal depression. Indications for caesarean delivery included preterm birth, fetal malpresentation, fetal malformation, twin pregnancy, and maternal pre-existing conditions. Result(s): The study cohort included 110 women. The mode of delivery was spontaneous in 49%, per vacuum extraction in 15%, conventional caesarean section in 7%, and Charite caesarean birth in 29%. The groups with Charite versus conventional caesarean delivery did not significantly differ in neonatal admission rates, umbilical cord parameters, maternal blood loss, or duration of surgery. Compared to conventional caesarean delivery, women who underwent a Charite caesarean delivery were significantly more satisfied with their birth experience. At follow-up, the mode of delivery was not associated with significant differences in postnatal depression, breast feeding, or bonding parameters. Conclusion(s): Outside of emergency situations, Charite caesarean birth improves patients' well-being, without increased maternal and neonatal morbidity.Copyright: (c) 2022 The Author(s)"""
+
+

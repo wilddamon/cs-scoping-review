@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: selectionofhigherriskpregnanciesintoveteranshealthadministrationprogramsdiscoveriesfromlinkeddepartmentofveteransaffairsandcaliforniabirthdata2018shaw
+"OBJECTIVE: To describe variation in payer and outcomes in Veterans' births. DATA/SETTING: Secondary data analyses of deliveries in California, 2000-2012. STUDY DESIGN: We performed a retrospective, population-based study of all live births to Veterans (confirmed via U.S. Department of Veterans Affairs (VA) enrollment records), to identify payer and variations in outcomes among: (1) Veterans using VA coverage and (2) Veteran vs. all other births. We calculated odds ratios (aOR) adjusted for age, race, ethnicity, education, and obstetric demographics. METHODS: We anonymously linked VA administrative data for all female VA enrollees with California birth records. PRINCIPAL FINDINGS: From 2000 to 2012, we identified 17,495 births to Veterans. VA covered 8.6 percent (1,508), Medicaid 17.3 percent, and Private insurance 47.6 percent. Veterans who relied on VA health coverage had more preeclampsia (aOR 1.4, CI 1.0-1.8) and more cesarean births (aOR 1.2, CI 1.0-1.3), and, despite similar prematurity, trended toward more neonatal intensive care (NICU) admissions (aOR 1.2, CI 1.0-1.4) compared to Veterans using other (non-Medicaid) coverage. Overall, Veterans' birth outcomes (all-payer) mirrored California's birth outcomes, with the exception of excess NICU care (aOR 1.15, CI 1.1-1.2). CONCLUSIONS: VA covers a higher risk fraction of Veterans' births, justifying maternal care coordination and attention to the maternal-fetal impacts of Veterans' comorbidities."""
+
+

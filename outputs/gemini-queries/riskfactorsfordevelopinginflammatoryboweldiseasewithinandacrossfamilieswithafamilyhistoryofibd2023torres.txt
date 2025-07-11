@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsfordevelopinginflammatoryboweldiseasewithinandacrossfamilieswithafamilyhistoryofibd2023torres
+"INTRODUCTION: A family history of inflammatory bowel disease [IBD] is the strongest risk factor for disease. However, some first-degree relatives (FDRs) will develop disease, while others will not. METHODS: Using the nationwide Danish National Patient Register, we examined risk factors in families with two or more affected FDRs. First, we compared exposures between siblings with and without IBD within the same family [within-family analysis]. Second, we compared exposures between individuals with and without IBD across all families [across-family analysis]. Exposures included sex, birth order, mode of delivery, antibiotics, personal and family history of immune-mediated diseases, gastrointestinal infections, and surgical history preceding diagnosis. Uni- and multivariable conditional logistic regression analyses were conducted. RESULTS: In the 'within-family analysis', 1669 families were included [1732 cases, 2447 controls]. Female sex (adjusted odds ratio [aOR]: 1.40, 95% confidence interval [CI] 1.23, 1.59), history of ankylosing spondylitis [aOR: 2.88, 95% CI 1.05, 7.91] and exposure to antibiotics [aOR: 1.28, 95% CI 1.02, 1.61] increased the risk for IBD. In the 'across-family analysis', 1254 cases and 37 584 controls were included, confirming an association with prior ankylosing spondylitis [aOR: 3.92, 95% CI 1.38, 11.12] and exposure to antibiotics [aOR: 1.29, 95% CI 1.04, 1.60]. Having two or more relatives [aOR: 6.26, 95% CI 1.34, 29.29] or a sibling with IBD [aOR: 1.36, 95% CI 1.18, 1.57] increased the risk of IBD. Appendectomy reduced the risk of ulcerative colitis [aOR: 0.32, 95% CI 0.14, 0.72]. CONCLUSION: In families with IBD, we identified risk factors for the unaffected FDR to develop disease. These findings provide an opportunity for counselling IBD relatives."""
+
+

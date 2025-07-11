@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: patientledrapidtitrationofbasalinsuliningestationaldiabetesisassociatedwithimprovedglycaemiccontrolandlowerbirthweight2022mcgovern
+"AIMS: Elevated fasting blood glucose in gestational diabetes (GDM) is a key predictor of high birthweight babies and adverse pregnancy outcomes but is hard to treat. We implemented a simple, patient-led, insulin dose titration algorithm aiming to improve fasting glycaemic control in GDM. METHODS: In women with GDM, initiating basal insulin, we recommended a daily four-unit dose increase after every fasting glucose value >=5.0 mmol/mol (90 mg/dl). This approach augmented our pre-existing intensive (weekly) specialist nursing input. Using a before-and-after retrospective observational study design, we examined insulin doses and glucose values at 36 weeks gestation and maternal and neonatal outcomes in 105 women completing pregnancy before and 93 women after the intervention. RESULTS: The baseline characteristics of women in the before and after groups were the same. Women initiated on insulin after implementation (n = 30 before, n = 43 after) achieved substantially higher doses at 36 weeks (53 vs. 36 units/day; 0.56 vs. 0.37 units/kg/day; p = 0.027). 36-week mean fasting glucose was lower in those on insulin after implementation (4.6 vs. 5.1 mmol/L [83 vs. 92 mg/dl]; p = 0.031). Birthweight was significantly reduced (birthweight Z-scores 0.34 vs. 0.92; p = 0.005). There was no significant difference in macrosomia (after; 2% vs. before; 17% p = 0.078) or caesarean sections (after; 33% vs. before; 47%; p = 0.116). No women experienced severe hypoglycaemia. There were no outcome differences before versus after intervention in women not treated with insulin. CONCLUSIONS: Patient-led daily insulin titration in gestational diabetes leads to higher insulin dose use lower fasting glucose and is associated with lower birthweight without causing significant hypoglycaemia."""
+
+

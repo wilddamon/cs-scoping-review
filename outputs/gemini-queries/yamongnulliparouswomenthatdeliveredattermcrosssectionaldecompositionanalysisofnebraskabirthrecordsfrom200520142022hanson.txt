@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: racialdisparitiesincaesareandeliveryamongnulliparouswomenthatdeliveredattermcrosssectionaldecompositionanalysisofnebraskabirthrecordsfrom200520142022hanson
+"BACKGROUND: Previous studies suggest higher rates of caesarean section among women who identify as racial/ethnic minorities. The objective of this study was to understand factors contributing to differences in caesarean rates across racial and ethnic groups. METHODS: Data was collected from 2005 to 2014 Nebraska birth records on nulliparous, singleton births occurring on or after 37 weeks gestation (n = 87,908). Risk ratios (RR) and 95% confidence intervals (CI) for caesarean were calculated for different racial and ethnic categories, adjusting for maternal age, marital status, county of residence, education, insurance status, pre-pregnancy BMI, and smoking status. Fairlie decomposition technique was utilized to quantify the contribution of individual variables to the observed differences in caesarean. RESULTS: In the adjusted analysis, relative to non-Hispanic (NH) White race, both Asian-NH (RR 1.21, 95% CI 1.14, 1.28) and Black-NH races (RR 1.13, 95% CI 1.08, 1.19) were associated with a significantly higher risk for caesarean. The decomposition analysis showed that among the variables assessed, maternal age, education, and pre-pregnancy BMI contributed the most to the observed differences in caesarean rates across racial/ethnic groups. CONCLUSION: This analysis quantified the effect of social and demographic factors on racial differences in caesarean delivery, which may guide public health interventions aimed towards reducing racial disparities in caesarean rates. Interventions targeted towards modifying maternal characteristics, such as reducing pre-pregnancy BMI or increasing maternal education, may narrow the gap in caesarean rates across racial and ethnic groups. Future studies should determine the contribution of physician characteristics, hospital characteristics, and structural determinants of health towards racial disparities in caesarean rates."""
+
+

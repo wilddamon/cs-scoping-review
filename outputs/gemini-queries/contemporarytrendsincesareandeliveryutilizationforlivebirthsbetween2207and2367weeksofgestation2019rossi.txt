@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: contemporarytrendsincesareandeliveryutilizationforlivebirthsbetween2207and2367weeksofgestation2019rossi
+"OBJECTIVE: In 2014, the Society for Maternal-Fetal Medicine, the Eunice Kennedy Shriver National Institute of Child Health and Human Development, the American Academy of Pediatrics, and the American College of Obstetricians and Gynecologists published an executive summary of a joint workshop to establish obstetric interventions to be considered for periviable births. We sought to evaluate changes in practice patterns since the publication of these guidelines. METHODS: We conducted a population-based cohort study of all singleton live births delivered between 22 0/7 and 23 6/7 weeks of gestation in the United States within two time epochs: pre-executive summary (Epoch 1: 2012-2013) and post-executive summary (Epoch 2: 2015-2016) guideline release. The primary outcome was the difference in the rate of cesarean delivery between pre-executive summary and post-executive summary guideline publication. Secondary outcomes included differences in rates of individual and composite neonatal interventions (neonatal intensive care unit admission, ventilation, surfactant and antibiotic administration), maternal adverse outcomes (intensive care unit admission, transfusion, hysterectomy, uterine rupture), and neonatal mortality. Multivariable logistic regression estimated the association of delivery epoch with outcomes. RESULTS: There were 15,846,405 live births in the United States between 2012-2013 and 2015-2016, of which 14,799 (0.1%) were singletons delivered between 22 and 24 weeks of gestation. Among these live births, 7,374 (52.3%) were delivered in Epoch 1 and 7,425 (47.7%) in Epoch 2. Cesarean delivery rates increased from Epoch 1 to Epoch 2 (24.3% vs 28.4%, P<.001), which was attributable to increased cesarean utilization during the 23rd week (36.3% vs 40.8%, difference 4.5%, 95% CI 2.3-6.6). Likewise, the rate of composite neonatal interventions increased (50.6% vs 56.9%, difference 6.3%, 95% CI 4.6-8.0) between Epochs 1 and 2, in association with a slight reduction in neonatal mortality (67.2% vs 64.6%, P=.009). There was no statistically significant difference in composite (8.9% vs 9.5%, P=.261) adverse maternal outcomes between delivery epochs. CONCLUSION: The frequency of delivery by cesarean in the 23rd week increased by 4.5% after publication of the periviable birth executive summary. The observed increase in cesarean delivery and composite neonatal interventions between delivery cohorts was associated with a small reduction in neonatal mortality."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: busydayeffectontheuseofobstetricalinterventionsandepiduralanalgesiaduringlabouracrosssectionalregisterstudyof601247deliveries2022vilkko
+"BACKGROUND: Daily delivery volume might affect the quality of obstetric care. We explored the busy day effect on selected obstetrical interventions and epidural analgesia performed during labour in different sized delivery hospitals and on the Finnish obstetric ecosystem. METHODS: We conducted a cross-sectional study on Finnish Medical Birth Register data of singleton pregnancies (N = 601,247) from 26 delivery hospitals from 2006 to 2016. Delivery hospitals were stratified by annual delivery volume: C (category) 1: < 1000, C2: 1000-1999, C3: 2000-2999, C4: >=3000, and C5: university hospitals. The exposure variables were defined as quiet, optimal, and busy days determined based on daily delivery volume distribution in each hospital category. Quiet and busy days included approximately 10% of the lowest and highest delivery volume days, while the rest were defined as optimal. Outcome measures were unplanned caesarean section (CS), instrumental delivery, induction of labour, and epidural analgesia. We compared the incidence of outcomes in quiet vs. optimal, busy vs. optimal, and busy vs. quiet days using logistic regression. The statistical significance level was set at 99% to reduce the likelihood of significant spurious findings. RESULTS: In the total population, the incidence of instrumental delivery was 8% (99% CI 2-15%) lower on quiet than on optimal days. In smaller hospitals (C1 and C2), unplanned caesarean sections were performed up to one-third less frequently on busy than optimal and quiet days. More (27%, 99% CI 12-44%) instrumental deliveries were performed in higher delivery volume hospitals (C4) on busy than quiet days. In C1-C3, deliveries were induced (12-35%) less often and in C5 (37%, 99% CI 28-45%) more often on busy than optimal delivery days. More (59-61%) epidural analgesia was performed on busy than optimal and quiet days in C4 and 8% less in C2 hospitals. CONCLUSIONS: Pooled analysis showed that busyness had no effect on outcomes at the obstetric ecosystem level, but 10% fewer instrumental deliveries were performed in quiet than on busy days overall. Furthermore, dissecting the data shows that small hospitals perform less, and large non-tertiary hospitals perform more interventions during busy days."""
+
+

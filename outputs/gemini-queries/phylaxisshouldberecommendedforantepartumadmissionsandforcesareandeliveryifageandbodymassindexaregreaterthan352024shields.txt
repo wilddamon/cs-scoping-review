@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: venousthromboembolismprophylaxisshouldberecommendedforantepartumadmissionsandforcesareandeliveryifageandbodymassindexaregreaterthan352024shields
+"OBJECTIVE: Venous thromboembolism (VTE) is a major cause of maternal morbidity and mortality. Current expanded treatment recommendations result in the inclusion of a large percent of the obstetric population, which has limited their adoption. The purpose of this study was to identify a population at high risk for VTE, with minimal impact on the number of patients that would qualify for expanded treatment. STUDY DESIGN: We performed a retrospective analysis from a large obstetric population. ICD-10 codes for VTE were used to identify patients presenting for obstetric or postpartum (PP) care from January 2016 to March 2018. The review focused on high risk factors (history of VTE or high risk thrombophilia), antepartum hospital admissions that were >72 hours in the previous 30 days, use of sequential compression devices, body mass index (BMI), age, and mode of delivery. Pharmacologic treatment efficacy was set at 90%, 75%, or 50%. RESULTS: During the 27-month review period there were 120,235 deliveries and 93 had a VTE event in the index pregnancy or within 4 weeks PP (7.7/10,000 births). A history of VTE or high risk thrombophilia was seen in 25.8% of cases. Antepartum admission was noted in 40.9%, and the combination of cesarean delivery (CS) with age and BMI >= 35 (Age+BMI+CS) was noted in 17.3% of postpartum cases. Targeting these latter two groups for VTE prophylaxis with a 75% efficacy, 34% of the VTE events would likely have been prevented, while increasing the total population treated by approximately 2%. CONCLUSION: Expanding pharmacologic prophylactic coverage to include an antepartum admission of >72 hours and those with Age+BMI+CS would result in about a one-third reduction in total VTE events with about 2% requiring treatment. This data supports some of the suggested recommendations for expanded pharmacologic DVT prophylaxis."""
+
+

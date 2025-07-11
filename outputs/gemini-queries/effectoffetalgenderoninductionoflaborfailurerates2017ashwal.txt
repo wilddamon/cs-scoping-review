@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectoffetalgenderoninductionoflaborfailurerates2017ashwal
+"PURPOSE: To evaluate gender effect on induction of labor (IoL) failure rates stratified by indication to delivery. METHODS: Retrospective cohort analysis of singleton pregnancies 34-42 weeks undergoing cervical ripening using controlled-release PGE2 vaginal insert. IoL Indications were divided into: (1) maternal; (2) hypertensive disorders; (3) premature rupture of membrane or (4) fetal (growth abnormalities, oligohydramnios, postdate, etc,). IoL failure was defined as: (1) Bishop-score <=7 after 24 hours of PGE2; (2) cesarean delivery due to failed induction; (3) fetal distress followed by PGE2 removal and emergent cesarean. IoL failure rates were stratified by neonatal gender and indication to induction. Logistic regression analysis was utilized to control outcomes to potential confounders. RESULTS: Overall, 1062 pregnancies were included - 521 (49%) had male fetuses. IoL indications did not differ by gender. IoL failure rate was 20.1% (213/1062) - 76% for unfavorable Bishop-score after PGE2 removal; 5.2% for failed induction and 18.8% for fetal-distress while on PGE2. Overall, 14.3% delivered by cesarean section. There were no differences in IoL failure as a group or by indications to induction stratified by fetal gender (21.7% vs. 18.5%, male vs. females, p < 0.05). CONCLUSIONS: IoL failure rate is not affected by fetal gender regardless of indication to induction."""
+
+

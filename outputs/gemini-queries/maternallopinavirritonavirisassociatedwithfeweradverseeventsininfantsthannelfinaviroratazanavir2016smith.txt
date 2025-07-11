@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternallopinavirritonavirisassociatedwithfeweradverseeventsininfantsthannelfinaviroratazanavir2016smith
+"Combination antiretroviral therapy (cART) is successfully used for prevention of perinatal HIV transmission. To investigate safety, we compared adverse events (AE) among infants exposed to different maternal cART regimens. We reviewed 158 HIV-uninfected infants born between 1997 and 2009, using logistic regression to model grade >=1 AE and grade >=3 AE as a function of maternal cART and confounding variables (preterm, C-section, illicit drug use, race, ethnicity, infant antiretrovirals, and maternal viremia). Frequently used cART regimens included zidovudine (63%), lamivudine (80%), ritonavir-boosted lopinavir (37%), nelfinavir (26%), and atazanavir (10%). At birth, anemia occurred in 13/140 infants (9%), neutropenia in 27/107 (25%), thrombocytopenia in 5/133 (4%), and liver enzyme elevation in 21/130 (16%). Corresponding rates of AE at 4 weeks were 59/141 (42%), 54/130 (42%), 3/137 (2%), and 3/104 (3%), respectively. Serious AE (grade >= 3) exceeded 2% only for neutropenia (13% at birth; 9% at 4 weeks). Compared with infants exposed to maternal lopinavir/ritonavir, infants exposed to nelfinavir and atazanavir had a 5-fold and 4-fold higher incidence of AE at birth, respectively. In conclusion, hematologic and hepatic AE were frequent, but rarely serious. In this predominantly protease inhibitor-treated population, lopinavir/ritonavir was associated with the lowest rate of infant AE."""
+
+

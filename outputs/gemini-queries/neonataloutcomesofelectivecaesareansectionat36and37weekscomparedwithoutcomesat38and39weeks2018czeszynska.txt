@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonataloutcomesofelectivecaesareansectionat36and37weekscomparedwithoutcomesat38and39weeks2018czeszynska
+"Introduction: Not only late-preterm newborns but also those born as near-term are at increased risk of complications in the first hours of postnatal adaptation. Aim of the study: The aim of the retrospective study was to compare the postnatal status and adaptation disorders in neonates born with elective caesarean section at 36, 37, 38, and 39 weeks of pregnancy in a level-three perinatal care department. Material(s) and Method(s): The research was carried out in a group of 200 newborns born in one year, 2015, and hospitalised from birth in the Department of Neonatology, Pomeranian Medical University in Szczecin. Postnatal status and occurrence of complications during the adaptation period were compared. The obtained results were compared between subgroups using appropriate statistical analysis methods. Result(s): In the group of newborns born in weeks 36 and 37 of pregnancy, significantly lower (p < 0.00001, p < 0.0002) birthweight (2688 g, 3208 g vs. 3524 g), lower Apgar score in the first and fifth minute of life (Me 9, 10 vs. 10; p < 0.00001, p < 0.05), and lower frequency of breastfeeding from birth (p < 0.0001, p < 0.002) were found in comparison to those born in the 39th week of pregnancy (22%, 70% vs. 94%). In addition, the tendency for hypothermia was significantly more frequently (p < 0.001, p < 0.02) observed (36%, 26% vs. 8%), these newborns were more often required to stay in the observation room (80%, 28% vs. 8%; p < 0.0001, p < 0.01) and in the incubator (74%, 26% vs. 8%; p < 0.0001, p < 0.02), and significantly more often demonstrated symptoms of respiratory failure (48%, 18% vs. 4%; p < 0.0001, p < 0.05). The length of hospitalisation was also significantly longer (7.18, 5.42 vs. 4.46 days; p < 0.0002, p < 0.05). Conclusion(s): Due to the high risk of complications during the adaptation period, especially from the respiratory system, an elective caesarean section performed before the 38th week of pregnancy is not an optimal solution for the newborn, unless there are important medical indications for such a termination of pregnancy. The most optimal term for elective caesarean section from the point of view of the newborn's interests is the 38th or 39th week of pregnancy.Copyright (c) 2018 Termedia Publishing House Ltd.. All rights reserved."""
+
+

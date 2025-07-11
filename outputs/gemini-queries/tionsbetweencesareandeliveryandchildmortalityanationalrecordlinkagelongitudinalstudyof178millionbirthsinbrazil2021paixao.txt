@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationsbetweencesareandeliveryandchildmortalityanationalrecordlinkagelongitudinalstudyof178millionbirthsinbrazil2021paixao
+"BACKGROUND: There is an increasing use of cesarean delivery (CD) based on preference rather than on medical indication. However, the extent to which nonmedically indicated CD benefits or harms child survival remains unclear. Our hypothesis was that in groups with a low indication for CD, this procedure would be associated with higher child mortality and in groups with a clear medical indication CD would be associated with improved child survival chances. METHODS AND FINDINGS: We conducted a population-based cohort study in Brazil by linking routine data on live births between January 1, 2012 and December 31, 2018 and assessing mortality up to 5 years of age. Women with a live birth who contributed records during this period were classified into one of 10 Robson groups based on their pregnancy and delivery characteristics. We used propensity scores to match CD with vaginal deliveries (1:1) and prelabor CD with unscheduled CD (1:1) and estimated associations with child mortality using Cox regressions. A total of 17,838,115 live births were analyzed. After propensity score matching (PSM), we found that live births to women in groups with low expected frequencies of CD (Robson groups 1 to 4) had a higher death rate up to age 5 years if they were born via CD compared with vaginal deliveries (HR = 1.25, 95% CI: 1.22 to 1.28; p < 0.001). The relative rate was greatest in the neonatal period (HR = 1.39, 95% CI: 1.34 to 1.45; p < 0.001). There was no difference in mortality rate when comparing offspring born by a prelabor CD to those born by unscheduled CD. For the live births to women with a CD in a prior pregnancy (Robson group 5), the relative rates for child mortality were similar for those born by CD compared with vaginal deliveries (HR = 1.05, 95% CI: 1.00 to 1.10; p = 0.024). In contrast, for live births to women in groups with high expected rates of CD (Robson groups 6 to 10), the child mortality rate was lower for CD than for vaginal deliveries (HR = 0.90, 95% CI: 0.89 to 0.91; p < 0.001), particularly in the neonatal period (HR = 0.84, 95% CI: 0.83 to 0.85; p < 0.001). Our results should be interpreted with caution in clinical practice, since relevant clinical data on CD indication were not available. CONCLUSIONS: In this study, we observed that in Robson groups with low expected frequencies of CD, this procedure was associated with a 25% increase in child mortality. However, in groups with high expected frequencies of CD, the findings suggest that clinically indicated CD is associated with a reduction in child mortality."""
+
+

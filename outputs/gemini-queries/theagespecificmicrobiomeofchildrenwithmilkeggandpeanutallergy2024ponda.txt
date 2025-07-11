@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theagespecificmicrobiomeofchildrenwithmilkeggandpeanutallergy2024ponda
+"BACKGROUND: Immune regulation by gut microbiota is affected by dysbiosis and may precede food allergy onset. Prior studies lacked comparisons stratified by age and clinical phenotype. OBJECTIVE: To assess the microbiome of children with food allergy (<3 years, 3-18 years) compared with similar aged children without food allergy. METHODS: A real-world prospective cross-sectional study performed from 2014 to 2019 recruited children highly likely to have milk, egg, or peanut allergy defined by history and serum IgE or confirmed by food challenge. 16S ribosomal RNA sequencing identified stool microbial DNA. Alpha and beta diversity was compared between groups with food allergy and healthy controls stratified by age. Differential abundance for non a priori taxa was accepted at absolute fold-change greater than 2 and q value less than 0.05. RESULTS: A total of 70 patients were included (56 with food allergy and 14 healthy controls). Groups were not significantly different in age, gender at birth, race, mode of delivery, breastfeeding duration, or antibiotic exposure. Younger children with food allergy had similar alpha diversity compared with controls. Beta diversity was significantly different by age (P = .001). There was differential abundance of several a priori (P < .05) taxa (including Clostridia) only in younger children. Both a priori (including Coprococcus and Clostridia) and non a priori (q < 0.05) Acidobacteria_Gp15, Aestuariispira, Tindallia, and Desulfitispora were significant in older children with food allergy, especially with peanut allergy. CONCLUSION: Dysbiosis associates with food allergy, most prominent in older children with peanut allergy. Younger children with and without food allergy have fewer differences in gut microbiota. This correlates with clinical observations of persistence of peanut allergy and improved efficacy and safety of oral immunotherapy in younger children. Age younger than 3 years should be considered when initiating therapeutic interventions."""
+
+

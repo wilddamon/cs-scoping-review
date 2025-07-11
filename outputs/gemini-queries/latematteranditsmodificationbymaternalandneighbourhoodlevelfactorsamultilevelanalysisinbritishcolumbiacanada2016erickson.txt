@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thereductionofbirthweightbyfineparticulatematteranditsmodificationbymaternalandneighbourhoodlevelfactorsamultilevelanalysisinbritishcolumbiacanada2016erickson
+"Background: The purpose of this research was to determine the relationship between modeled particulate matter (PM2.5) exposure and birth weight, including the potential modification by maternal risk factors and indicators of socioeconomic status (SES). Method(s): Birth records from 2001 to 2006 (N = 231,929) were linked to modeled PM2.5 data from a national land-use regression model along with neighbourhood-level SES and socio-demographic data using 6-digit residential postal codes. Multilevel random coefficient models were used to estimate the effects of PM2.5, SES and other individual and neighbourhood-level covariates on continuous birth weight and test interactions. Gestational age was modeled with a random slope to assess potential neighbourhood-level differences of its effect on birth weight and whether any between-neighbourhood variability can be explained by cross-level interactions. Result(s): Models adjusted for individual and neighbourhood-level covariates showed a significant non-linear negative association between PM2.5 and birth weight explaining 8.5 % of the between-neighbourhood differences in mean birth weight. A significant interaction between SES and PM2.5 was observed, revealing a more pronounced negative effect of PM2.5 on birth weight in lower SES neighbourhoods. Further positive and negative modification of the PM2.5 effect was observed with maternal smoking, maternal age, gestational diabetes, and suspected maternal drug or alcohol use. The random intercept variance indicating between-neighbourhood birth weight differences was reduced by 75 % in the final model, while the random slope variance for between-neighbourhood gestational age effects remained virtually unchanged. Conclusion(s): We provide evidence that neighbourhood-level SES variables and PM2.5 have both independent and interacting associations with birth weight, and together account for 49 % of the between-neighbourhood differences in birth weight. Evidence of effect modification of PM2.5 on birth weight across various maternal and neighbourhood-level factors suggests that certain sub-populations may be more or less vulnerable to relatively low doses PM2.5 exposure.Copyright (c) 2016 Erickson et al."""
+
+

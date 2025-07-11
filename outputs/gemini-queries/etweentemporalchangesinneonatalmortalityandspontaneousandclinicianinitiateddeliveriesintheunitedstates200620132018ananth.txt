@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweentemporalchangesinneonatalmortalityandspontaneousandclinicianinitiateddeliveriesintheunitedstates200620132018ananth
+"Importance: Preterm and postterm deliveries have declined since 2005 in the United States, but the association between these changes and neonatal mortality remains unknown.;Objective: To estimate changes in the gestational age distribution among spontaneous and clinician-initiated deliveries between 2006 and 2013 and associated changes in neonatal mortality.;Design, Setting, and Participants: A retrospective cohort analysis was conducted of 22 million singleton live births without major malformations in the United States from 2006 to 2013. Data analysis was performed from August to October 2017.;Main Outcomes and Measures: Changes in gestational age distribution among spontaneous and clinician-initiated deliveries at extremely preterm (20-27 weeks), very preterm (28-31 weeks), moderately preterm (32-33 weeks), late preterm (34-36 weeks), early term (37-38 weeks), term (39-40), late term (41 weeks), and postterm (42-44 weeks) gestations and changes in neonatal mortality rates at less than 28 days between 2006 and 2013. These changes were estimated from log-linear Poisson regression models with robust variance, adjusted for confounders.;Results: Among 22 million births, 12493531 (56.7%) were spontaneous and 9557815 (43.3%) were clinician-initiated deliveries. Among spontaneous deliveries, the proportion of births at 20 to 27, 28 to 31, 32 to 33, 34 to 36, and 37 to 38 weeks declined. Among clinician-initiated deliveries, the proportion of births at 34 to 36 and 37 to 38 weeks declined and the proportion at 39 to 40 weeks increased. Among spontaneous deliveries, overall neonatal mortality rates declined from 1.8 to 1.3 per 1000 live births, mainly at 20 to 27 weeks (adjusted annual decline, 1%; 95% CI, -2% to -1%) and 28 to 31 weeks (adjusted annual decline, 6%; 95% CI, -8% to -5%). Among clinician-initiated deliveries, overall mortality rates remained unchanged (2.1 to 2.2 per 1000 live births). However, mortality rates declined (0.6 to 0.5 per 1000 live births) at 39 to 40 weeks by 1% (95% CI, -3% to -0.4%) annually, adjusted for confounders.;Conclusions and Relevance: In the United States, there was a decline in spontaneous deliveries associated with an overall decline in neonatal mortality. Although clinician-initiated deliveries increased at 39 to 40 weeks, neonatal mortality at that gestation declined."""
+
+

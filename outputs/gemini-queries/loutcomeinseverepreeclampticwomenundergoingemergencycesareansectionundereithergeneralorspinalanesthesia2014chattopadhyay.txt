@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetomaternaloutcomeinseverepreeclampticwomenundergoingemergencycesareansectionundereithergeneralorspinalanesthesia2014chattopadhyay
+"This prospective observational study compared the effects of general and spinal anesthesia in 173 severe preeclamptic women undergoing emergency cesarean section. 146 (84.5%) patients underwent spinal anesthesia (SA) and 27 (15.5%) patients had general anesthesia (GA). Most of the patients were primigravid and nulliparous. Intraoperatively SA group required more intravenous fluid and vasopressor support, while GA group required more preoperative labetalol injection for blood pressure control. Overall 13.3% of patients required critical care, particularly GA group (44.4% versus 7.5%; P < 0.001). Patients receiving GA had a higher mortality (25.9% versus 1.4%; P < 0.001). The length of hospital stay was comparable. Significantly more neonates of patients receiving GA were found to be preterm (77.8% versus 44.5%; P < 0.01) and required advanced resuscitation. GA group also had higher neonatal mortality (29.6% versus 11%; P < 0.05). To conclude, severe preeclamptic mothers receiving general anesthesia and their babies required more critical care support. Maternal as well as neonatal mortality was significantly higher with general anesthesia."""
+
+

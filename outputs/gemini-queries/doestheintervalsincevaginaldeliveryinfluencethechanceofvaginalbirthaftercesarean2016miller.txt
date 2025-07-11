@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doestheintervalsincevaginaldeliveryinfluencethechanceofvaginalbirthaftercesarean2016miller
+"OBJECTIVE: To examine the association between interval since vaginal delivery and vaginal birth after cesarean (VBAC). METHODS: Women with one prior low transverse cesarean and a prior vaginal delivery undergoing a trial of labor after cesarean at term were included in this cohort study. Multivariable analyses were performed to determine whether length of time since prior vaginal delivery was independently associated with VBAC and, if so, whether its inclusion enhanced the predictive capacity of previously published models. RESULTS: Of the 5628 women included, 4901 (87%) achieved a VBAC. Each additional year since vaginal delivery decreased the odds of VBAC by 11% (95% CI: 10-13%). When added to an existing predictive model that included only factors available at early prenatal care, interval since vaginal delivery marginally improved the model's predictive ability (area under the curve [AUC] 0.73 versus 0.71, p < 0.01). When added to a model that included factors available proximate to the time of delivery, the addition of interval since vaginal delivery did not change the AUC (0.76 versus 0.75, p = 0.08). CONCLUSIONS: A longer interval since vaginal delivery is associated with a decreased odd of VBAC. However, the addition of this interval to VBAC prediction models does not substantively improve their predictive ability."""
+
+

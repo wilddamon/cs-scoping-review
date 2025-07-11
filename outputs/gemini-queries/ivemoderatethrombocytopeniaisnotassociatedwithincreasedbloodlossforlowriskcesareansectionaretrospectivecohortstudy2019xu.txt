@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: preoperativemoderatethrombocytopeniaisnotassociatedwithincreasedbloodlossforlowriskcesareansectionaretrospectivecohortstudy2019xu
+"BACKGROUND: The occurrence of thrombocytopenia is as high as 7-12% in pregnancy, yet minimum platelet count safe for cesarean section remains unknown. METHODS: In this retrospective noninferior cohort study, we consecutively included patients undergoing cesarean section for a period of 6 years in a tertiary hospital and excluded patients at very high risk for excessive hemorrhage. The included patients with preoperative platelet count of 50-100 x 10(9)/L were defined as the thrombocytopenic group. The control group were eligible patients with preoperative platelet count>150 x 10(9)/L, matched to the thrombocytopenic group by age and operation timing in a 1:2 ratio. Mixed effect model was used to analyze the effect of thrombocytopenia based on a noninferiority assumption. The predefined noninferiority delta of bleeding was 50 mL. RESULTS: There was no significant difference of the calculated blood loss between the thrombocytopenic and the control group (mean difference = 8.94, 95% CI - 28.34 mL to 46.09 mL). No statistical difference was observed in the requirement for blood transfusion, visually estimated blood loss, or the incidence of adverse events between groups. Although there were more patients admitted to intensive care unit (odds ratio = 12, 95% CI 2.69-53.62, p = 0.001) in the thrombocytopenic group, most of them required critical care for reasons other than hemorrhage. The thrombocytopenic group had longer length of hospital stay (mean difference = 0.40 days, 95% CI 0.09-0.71, p = 0.011), but the difference was considered as clinically insignificant. CONCLUSIONS: Preoperative moderate thrombocytopenia is not associated with increased blood loss, blood transfusion, or occurrence of adverse events in patients undergoing cesarean section in absence of additional bleeding risk."""
+
+

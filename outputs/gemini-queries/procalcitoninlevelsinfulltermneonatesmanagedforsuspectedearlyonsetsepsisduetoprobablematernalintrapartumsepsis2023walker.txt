@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anevaluationintoprocalcitoninlevelsinfulltermneonatesmanagedforsuspectedearlyonsetsepsisduetoprobablematernalintrapartumsepsis2023walker
+"Purpose: To investigate procalcitonin (PCT) levels in full-term neonates managed for suspected early onset sepsis (EOS) due to probable maternal intrapartum sepsis. Method(s): Prospective longitudinal observational study at University Hospitals of Bristol NHS Foundation trust. Included were a total of 117 neonates managed for suspected EOS from June to October 2020. In addition to routine full-blood-counts and c-reactive protein (CRP) tests, serum PCT levels were also measured as part of the septic screen and follow-up blood tests. Placentas were sent for histopathology analysis. Neonatal parameters were used to categorize cases into: "high-suspicion bacterial sepsis (BS)," "equivocal BS" and "low-suspicion BS." Statistical test Kruskal-Wallis compared categories with biomarker values and placental histopathology scores. Result(s): A higher percentage of PCT levels showed elevation in comparison to CRP levels in the initial testing (55.3% versus 5.9%) and follow-up testing (98.9% versus 35%). There was a significant difference between the "low-suspicion BS" and "high-suspicion BS" categories for both the initial and follow-up PCT results. 71.2% of placentas showed varying degrees of chorioamnionitis. Conclusion(s): This study provides evidence to the physiological rise in PCT during the first few days of life. The significant difference in PCT levels according to clinical severity shows that PCT could be utilized in calculating odds for EOS, but as a standalone test will have limited use.Copyright (c) 2023 National Neonatology Forum."""
+
+

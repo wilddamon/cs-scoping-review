@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thetemporaleffectofcategoryiifetalmonitoringonneonataloutcomes2018weissbach
+"OBJECTIVE: To correlate the duration of Category II cardiotocograms (CTG) with adverse neonatal outcomes associated with perinatal asphyxia and determine the duration before fetal compromise. STUDY DESIGN: This retrospective, observational study used electronic medical record data from a cohort of 271 patients, delivered by C-section due to non-reassuring fetal heart rate, at a tertiary medical center, from 2015 through 2017. Duration of Category II CTG, variability, tachycardia and deceleration frequency were analyzed and correlated to immediate postnatal outcomes. including cord pH <= 7, cord base excess >12, 1- and 5-min Apgar scores <=7, need for ventilation, need for chest compressions, NICU admission, hypoglycemia and convulsions. Intrapartum fever and meconium stained amniotic fluid were correlated to the same outcomes. Categorical and continuous variables were analyzed using chi-square and t-tests, respectively. P < 0.05 was considered significant. RESULTS: The mean duration of Category II CTG was 146 min (range 17-553). Longer duration did not result in increased rates of adverse neonatal outcomes. In contrast, reduced fetal heart rate (FHR) variability, fetal tachycardia and intrapartum fever did show increased rates of adverse neonatal outcomes, as follows: patients exhibiting reduced vs. normal (FHR) variability had 12.9% vs. 1.4% cord pH <= 7, P = 0.006 and 12.5% vs. 1.3% cord BE > 12, P = 0.004: patients with fetal tachycardia vs. normal baseline FHR exhibited 48% vs. 17.9% 1-minute Apgar score <=7, P = 0.0004; 8% vs. 0.8% 5-minute Apgar score <=7, P = 0.04; and 48% vs. 18.7% ventilation support, P < 0.001; patients with intrapartum fever vs. normal temperature, cord BE > 12 was seen in 9.7% vs. 1.7%, P = 0.035; 1-minute Apgar score was <=7 in 35.5% vs. 18.7%, P = 0.03; 5-minute Apgar score <=7 in 9.7% vs. 0.4%, P = 0.005; need for ventilation in 35.5% vs. 19.6%, P = 0.042; need for chest compressions in 6.45% vs. none, P = 0.013; and NICU admission in 12.9% vs. 2.5%, P = 0.018. CONCLUSIONS: Our results suggest that the duration of Category II CTG alone does not appear to predict perinatal asphyxia. Parameters associated with perinatal asphyxia are reduced FHR variability, fetal tachycardia and intrapartum fever. Therefore, when contemplating intervention during labor to avoid fetal asphyxia, these parameters should be strongly considered."""
+
+

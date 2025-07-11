@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonataloutcomesofverypretermorverylowbirthweighttriplets2018shah
+"OBJECTIVES: To compare the neonatal outcomes of very preterm triplets with those of matched singletons using a large international cohort. METHODS: A retrospective matched-cohort study of preterm triplets and singletons born between 2007 and 2013 in the International Network for Evaluation of Outcomes in neonates database countries and matched by gestational age, sex, and country of birth was conducted. The primary outcome was a composite of mortality or severe neonatal morbidity (severe neurologic injury, treated retinopathy of prematurity, and bronchopulmonary dysplasia). Unadjusted and adjusted odds ratios with 95% confidence intervals (CIs) were calculated for model 1 (maternal hypertension and birth weight z score) and model 2 (variables in model 1, antenatal steroids, and mode of birth). Models were fitted with generalizing estimating equations and random effects modeling to account for clustering. RESULTS: A total of 6079 triplets of 24 to 32 weeks' gestation or 500 to 1499 g birth weight and 18 232 matched singletons were included. There was no difference in the primary outcome between triplets and singletons (23.4% vs 24.0%, adjusted odds ratio: 0.91, 95% CI: 0.83-1.01 for model 1 and 1.00, 95% CI: 0.90-1.11 for model 2). Rates of severe neonatal morbidities did not differ significantly between triplets and singletons. The results were also similar for a subsample of the cohort (1648 triplets and 4944 matched singletons) born at 24 to 28 weeks' gestation. CONCLUSIONS: No significant differences were identified in mortality or major neonatal morbidities between triplets who were very low birth weight or very preterm and matched singletons."""
+
+

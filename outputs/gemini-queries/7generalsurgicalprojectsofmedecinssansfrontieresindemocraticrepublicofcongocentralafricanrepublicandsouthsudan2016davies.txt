@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perioperativemortalityanalysisof3yearsofoperativedataacross7generalsurgicalprojectsofmedecinssansfrontieresindemocraticrepublicofcongocentralafricanrepublicandsouthsudan2016davies
+"BACKGROUND: The African continent has the greatest burden of surgical disability-adjusted life years, yet the least is known about operative care here. This analysis describes the surgical patients admitted to 7 hospitals supported by the Medecins Sans Frontieres (MSF) over 3 years in 3 conflict-affected countries-Eastern Democratic Republic of Congo, Central African Republic, and South Sudan.;METHODS: A standardized operative data collection tool was used for routine collection of operative inpatient data between 2011 and 2013 at 7 MSF surgical facilities. Surgical records of 14,482 patients were analyzed to describe surgical epidemiology, major procedures, and perioperative mortality. The perioperative mortality rate (POMR) was calculated within 2 days of admission (POMR2) and within 30 days from admission (POMR30). The POMR is used as a marker of quality of operative care.;RESULTS: Caesarean delivery was the most common major procedure performed and had a POMR30 of 5.28 per 1,000 admissions. The overall inpatient mortality was 19.67 per 1,000 admissions. Children had greater POMR than adults for the same procedure types (47.97 vs 15.89 deaths per 1,000 admissions, P < .001); 85.1% of all major procedures were emergency procedures and between 3 and 30% of admissions were related to violence. After adjustment, perioperative death was associated with emergency surgery, violence, and age younger than 15 years.;CONCLUSION: POMRs varied by age group and type of major procedure performed. Collecting surgical data is achievable and can inform future planning and support for national surgical programs. More information is needed on operative outcomes in adults and children in low-resource settings to improve quality and access to care. Copyright (c) 2016 Elsevier Inc. All rights reserved."""
+
+

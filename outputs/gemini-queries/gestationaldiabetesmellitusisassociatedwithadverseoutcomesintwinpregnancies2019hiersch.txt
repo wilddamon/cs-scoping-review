@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationaldiabetesmellitusisassociatedwithadverseoutcomesintwinpregnancies2019hiersch
+"BACKGROUND: Among singleton pregnancies, gestational diabetes mellitus is associated with adverse outcomes. In twin pregnancies, this association may be attenuated, given the higher rate of prematurity and the a priori increased risk of some of these complications. OBJECTIVE: Our aim was to test the hypothesis that gestational diabetes mellitus is less likely to be associated with adverse pregnancy outcomes in twin compared with singleton gestations. METHODS: This retrospective cohort study comprised all twin and singleton live births in Ontario, Canada, 2012-2016. Pregnancy outcomes were compared between women with vs without gestational diabetes mellitus, analyzed separately for twin and singleton births. Adjusted risk ratios and 95% confidence intervals were generated using modified Poisson regression, adjusting for maternal age, nulliparity, smoking, race, body mass index, preexisting hypertension, and assisted reproductive technology. RESULTS: A total of 270,843 women with singleton (n = 266,942) and twin (n = 3901) pregnancies met the inclusion criteria. In both the twin and singleton groups, gestational diabetes mellitus was associated with (adjusted risk ratio, [95% confidence interval]) cesarean delivery (1.11 [1.02-1.21] and 1.20 [1.17-1.23], respectively) and preterm birth at <37(0/7) weeks (1.21 [1.08-1.37] and 1.48 [1.39-1.57]) and at <34(0/7) weeks (1.45 [1.03-2.04] and 1.25 [1.06-1.47]). In singletons, but not twins, gestational diabetes mellitus was associated with gestational hypertension (1.66 [1.55-1.77]) and preeclampsia. With respect to neonatal outcomes, gestational diabetes mellitus was associated with birthweight greater than the 90th percentile in both twins and singletons, with the risk being 2-fold higher in twins (2.53 [1.52-4.23] vs 1.18 [1.13-1.23], respectively, P = .004). Gestational diabetes mellitus was associated with jaundice in both twins (1.56 [1.10-2.21]) and singletons (1.49 [1.37-1.62) but was associated with the following complications only in singletons: neonatal intensive care unit admission (1.44 [1.38-1.50]), respiratory morbidity (1.09 [1.02-1.16]), and neonatal hypoglycemia (3.20 [3.01-3.40]). CONCLUSION: In contrast to singleton pregnancies, gestational diabetes mellitus in twins was not associated with hypertensive complications and certain neonatal morbidities. Still, the current study highlights that gestational diabetes mellitus is associated with some adverse pregnancy outcomes including accelerated fetal growth also in twin pregnancies."""
+
+

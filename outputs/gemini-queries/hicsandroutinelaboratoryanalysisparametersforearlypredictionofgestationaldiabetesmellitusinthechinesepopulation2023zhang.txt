@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: integrationofclinicaldemographicsandroutinelaboratoryanalysisparametersforearlypredictionofgestationaldiabetesmellitusinthechinesepopulation2023zhang
+"Gestational diabetes mellitus (GDM) is one of the most common complications in pregnancy, impairing both maternal and fetal health in short and long term. As early interventions are considered desirable to prevent GDM, this study aims to develop a simple-to-use nomogram based on multiple common risk factors from electronic medical health records (EMHRs). A total of 924 pregnant women whose EMHRs were available at Peking University International Hospital from January 2022 to October 2022 were included. Clinical demographics and routine laboratory analysis parameters at 8-12 weeks of gestation were collected. A novel nomogram was established based on the outcomes of multivariate logistic regression. The nomogram demonstrated powerful discrimination (the area under the receiver operating characteristic curve = 0.7542), acceptable agreement (Hosmer-Lemeshow test, P = 0.3214) and favorable clinical utility. The C-statistics of 10-Fold cross validation, Leave one out cross validation and Bootstrap were 0.7411, 0.7357 and 0.7318, respectively, indicating the stability of the nomogram. A novel nomogram based on easily-accessible parameters was developed to predict GDM in early pregnancy, which may provide a paradigm for repurposing clinical data and benefit the clinical management of GDM. There is a need for prospective multi-center studies to validate the nomogram before employing the nomogram in real-world clinical practice.Copyright (c) 2023 Zhang, Dai, Zhang, Sun, Sun, Wang, Li and Zhang."""
+
+

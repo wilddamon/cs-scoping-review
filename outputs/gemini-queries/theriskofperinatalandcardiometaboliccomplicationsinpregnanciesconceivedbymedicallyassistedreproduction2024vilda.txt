@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theriskofperinatalandcardiometaboliccomplicationsinpregnanciesconceivedbymedicallyassistedreproduction2024vilda
+"PURPOSE: To examine the impact of medically assisted fertility treatments on the risk of developing perinatal and cardiometabolic complications during pregnancy and in-hospital deliveries. METHODS: We conducted a retrospective cohort study using medical health records of deliveries occurring in 2016-2022 at a women's specialty hospital in a southern state of the Unites States (US). Pregnancies achieved using medically assisted reproductive (MAR) techniques were compared with unassisted pregnancies using propensity score matching (PSM), based on demographic, preexisting health, and reproductive factors. Study outcomes included cesarean delivery, gestational diabetes mellitus (GDM), hypertensive disorders of pregnancy (HDP), delivery complications, and postpartum readmission. We used Poisson regression with robust standard errors to generate risk ratios (RRs) and 95% confidence intervals (CIs) for all study outcomes. RESULTS: Among 57,354 deliveries, 586 (1.02%) pregnancies were achieved using MAR and 56,768 (98.98%) were unassisted ('non-MAR'). Compared to the non-MAR group, MAR pregnancies had significantly higher prevalence of all study outcomes, including GDM (15.9% vs. 11.2%, p < 0.001), HDP (28.2% vs. 21.1%, p < 0.001), cesarean delivery (56.1% vs. 34.6%, p < 0.001), delivery complications (10.9% vs. 6.8%, p = 0.03), and postpartum readmission (4.3% vs. 2.7%, p = 0.02). In a PSM sample of 584 MAR and 1,727 unassisted pregnancies, MAR was associated with an increased risk of cesarean delivery (RR = 1.11, 95% CI = 1.01-1.22); whereas IVF was associated with an increased risk of cesarean delivery (RR = 1.15, 95% CI = 1.03-1.28) and delivery complications (RR = 1.44, 95% CI = 1.04-2.01). CONCLUSIONS: Women who conceived with MAR were at increased risk of cesarean deliveries, and those who conceived with IVF were additionally at risk of delivery complications."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acompositescoreforpredictingverticaltransmissionofhepatitiscamulticenterstudy2024wasuwanich
+"Background: Prevention of the vertical transmission of the hepatitis C virus (HCV) presents an obstetric challenge. There are no approved antiviral medications for the treatment or prevention of HCV for pregnant patients. Objective(s): We aimed to create a composite score to accurately identify a population of pregnant patients with HCV who have high potential for vertical transmission. Study Design: In a retrospective, multicenter cohort study, we identified pregnant patients with hepatitis C with linked data to their infants who have had HCV RNA or HCV antibody testing. Demographic data, including age and race/ethnicity, as well as clinical and laboratory data, including tobacco/alcohol use, infections, liver function tests, the HCV RNA titer, HCV antibody, HCV genotype, absolute lymphocyte count, and platelet count, were collected. Data were analyzed using logistic regression and receiver operating characteristics (ROCs) and internally validated using the forward selection bootstrap method. Result(s): We identified 157 pregnant patients and 163 corresponding infants. The median maternal delivery age was 29 (IQR: 25-33) years, and the majority (141, or 89.8%) were White. A high HCV RNA titer, high absolute lymphocyte count, and high platelet count were associated with vertical transmission. A high HCV RNA titer had an AUROC of 0.815 with sensitivity, specificity, a positive predictive value, and a negative predictive value of 100.0%, 59.1%, 17.6%, and 100.0%, respectively. A composite score combining the three risk factors had an AUROC of 0.902 (95% CI = 0.840-0.964) but with a risk of overfitting. Conclusion(s): An HCV RNA titer alone or a composite score combining the risk factors for HCV vertical transmission can potentially identify a population of pregnant patients where the rate of vertical transmission is high, allowing for potential interventions during antepartum care.Copyright (c) 2024 by the authors."""
+
+

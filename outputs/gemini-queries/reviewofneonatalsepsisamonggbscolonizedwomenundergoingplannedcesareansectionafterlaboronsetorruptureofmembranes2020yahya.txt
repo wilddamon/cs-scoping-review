@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivereviewofneonatalsepsisamonggbscolonizedwomenundergoingplannedcesareansectionafterlaboronsetorruptureofmembranes2020yahya
+"BACKGROUND: Sepsis is a leading cause of mortality and morbidity in neonates, with group B streptococcus (GBS) remaining the most frequent pathogen isolated from term infants. Surveillance data showed that the majority of cases of early-onset GBS disease were neonates born to women who either received no or suboptimal intrapartum antibiotic prophylaxis with a notable portion of those women having a missed opportunity to receive >=4 hours of chemoprophylaxis. Women planning delivery by cesarean section who present in labor or rupture of membranes prior to their scheduled surgery are unlikely to receive optimal GBS chemoprophylaxis and thus their neonates are at risk of having sepsis. Materials and Methods. A retrospective cohort study of women-infant dyads was extracted from the Consortium on Safe Labor dataset. Women who had an unlabored cesarean section at >=37 + 0 week gestation were selected and divided into four groups based on GBS status and timing of cesarean section with respect to onset of labor or rupture of membranes. The rate of neonatal sepsis and the patterns of intrapartum antibiotic chemoprophylaxis were determined. RESULTS: The sepsis rate (4.5%) among neonates of GBS-colonized women having their unlabored cesarean section after onset of labor or rupture of membranes was significantly higher than that in any other group in this study. In this group, 9.4% of women received chemoprophylaxis for >=4 hours, while 31% had a missed opportunity to receive >=4 hours of chemoprophylaxis. CONCLUSION: This study suggests that neonates of GBS-colonized women having a planned cesarean section after onset of labor or rupture of membranes are at increased risk of having a sepsis diagnosis. This finding suggest the need for additional studies to assess the risk of sepsis among neonates of women in this group."""
+
+

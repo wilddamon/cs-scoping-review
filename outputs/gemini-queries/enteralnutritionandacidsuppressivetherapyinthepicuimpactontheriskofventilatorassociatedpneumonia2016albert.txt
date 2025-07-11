@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: enteralnutritionandacidsuppressivetherapyinthepicuimpactontheriskofventilatorassociatedpneumonia2016albert
+"OBJECTIVE: Enteral nutrition has been implicated as a risk factor for ventilator-associated pneumonia. We explored the prevalence of ventilator-associated pneumonia and its association with clinical and nutrition-related therapies in mechanically ventilated children. DESIGN: Prospective, multicenter, cohort study. SETTING: Fifty-nine PICU in 15 countries. PATIENTS: Children less than 18 years old, mechanically ventilated for more than 48 hours. INTERVENTIONS: None. Multivariable logistic regression to determine factors associated with ventilator-associated pneumonia. MEASUREMENTS AND MAJOR RESULTS: Data are presented as median (interquartile range) or counts (%). We enrolled 1,245 subjects (45% women; 42% surgical), age 20 months (4-84 mo), and duration of mechanical ventilation 7 days (3-13 d). Culture-positive ventilator-associated pneumonia was diagnosed in 80 patients (6.4%); duration of mechanical ventilation for this subgroup was 17 days (8-39 d). Enteral nutrition was delivered in 985 patients (79%), initiated within 48 hours in 592 patients (60%), and via postpyloric route in 354 patients (36%). Acid-suppressive agents were used in 763 patients (61%). The duration of enteral nutrition (p = 0.21), route (gastric vs postpyloric) of delivery (p = 0.94), severity of illness (p = 0.17), and diagnostic category on admission (p = 0.31) were not associated with ventilator-associated pneumonia. After adjusting for enteral nutrition days, illness severity, and site, ventilator-associated pneumonia was significantly associated with mechanical ventilation more than 10 days (odds ratio, 3.7; 95% CI, 2.2-6.5; p < 0.001), PICU length of stay more than 10 days (odds ratio, 1.8; 95% CI, 1.1-3.1; p = 0.029), and the use of acid-suppressive medication (odds ratio, 2.0; 95% CI, 1.2-3.6; p = 0.011). CONCLUSIONS: Ventilator-associated pneumonia was diagnosed in 6.5% of mechanically ventilated children in a heterogeneous multicenter cohort. We did not find a link between enteral nutrition duration or route of delivery and ventilator-associated pneumonia. In addition to duration of mechanical ventilation and length of PICU stay, the use of acid-suppressive therapy independently increased the likelihood of developing ventilator-associated pneumonia in this population. This association must be further explored in clinical trials."""
+
+

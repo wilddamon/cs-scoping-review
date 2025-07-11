@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenadvancedmaternalageandmaternalandneonatalmorbidityacrosssectionalstudyonaspanishpopulation2019casteleiro
+"BACKGROUND AND OBJECTIVE: Over recent decades, a progressive increase in the maternal age at childbirth has been observed in developed countries, posing a health risk for both women and infants. The aim of this study was to analyze the association between advanced maternal age (AMA) and maternal and neonatal morbidity. MATERIAL AND METHODS: A cross-sectional study of 3,315 births was conducted in the north of Spain in 2014. We compared childbirth between women aged 35 years or older, with a reference group of women aged between 24 and 27 years. AMA was categorized based on ordinal ranking into 35-38 years, 39-42 years, and >42 years to estimate a dose-response pattern (the older the age, the greater the risk). As an association measure, crude and adjusted Odds Ratios (OR) were estimated by non-conditional logistic regression and 95% Confidence Intervals (95%CI) were calculated. RESULTS: Repeated abortions were more common among women of AMA in comparison to pregnant women aged 24-27 years (reference group): adjusted OR = 2.68; 95%CI (1.52-4.73). A higher prevalence of gestational diabetes was also observed among women of AMA, reaching statistical significance when restricted to first time mothers: adjusted OR = 8.55; 95%CI (1.12-65.43). In addition, the possibility of an instrumental delivery was multiplied by 1.6 and the possibility of a cesarean by 1.5 among women of AMA, with these results reaching statistical significance, and observing a dose-response pattern. Lastly, there were associations between preeclampsia, preterm birth (<37 weeks) and low birthweight, however without reaching statistical significance. CONCLUSION: Our results support the association between AMA and suffering repeated abortions. Likewise, being of AMA was associated with a greater risk of suffering from gestational diabetes, especially among primiparous women, as well as being associated with both instrumental deliveries and cesareans among both primiparous and multiparous women."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sleepdisordersandallergicdiseasesinchinesetoddlers2017wang
+"OBJECTIVE: Optimal sleep is important for child growth, development, and immune function. We aimed to explore whether sleep disorders were associated with the risk of allergic diseases in Chinese toddlers.;METHODS: This study included 566 children (aged 23.9 +/- 0.7 months; 51.1% boys) in Shanghai, China. Sleep parameters (total sleep time, sleep onset latency, nocturnal awaking and snoring) were assessed by an expanded version of the Brief Infant Sleep Questionnaire (BISQ-expanded). Information on four allergic diseases (wheeze, eczema, food allergy, and allergic rhinitis) in the past year was collected via standard questionnaire and judged by pediatricians. We used logistic regression to calculate odds ratios (ORs) and their 95% confidence intervals (CIs) for having any/and each of the four allergic diseases, based on sleep parameters, adjusting for children's age and gender, mode of delivery, any breastfeeding duration, children's body mass index (BMI), children's exposure to passive smoking, maternal education, family income, family allergic history, and children's antibiotic use.;RESULTS: There were 23.3% of children with at least one of the four allergic diseases. Snoring was significantly associated with increased odds of having any allergy (adjusted OR = 1.95; 95% CI: 1.17, 3.26), eczema (OR = 1.83, 95% CI: 1.03, 3.23) and food allergy (OR = 4.31, 95% CI: 1.23, 15.14), after adjustment for potential confounders. Nocturnal awaking >=2 times per night was associated with higher risk of food allergy (OR = 3.92, 95% CI: 1.00, 15.35) and wheeze (OR = 6.16, 95% CI: 1.28, 29.74).;CONCLUSION: In this study, presence of certain sleep disorders was associated with higher risk of having allergic diseases in Chinese toddlers. Copyright (c) 2017. Published by Elsevier B.V."""
+
+

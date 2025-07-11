@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweeninterdeliveryintervalandadverseperinataloutcomesinadiverseuspopulation2016yee
+"OBJECTIVE: The objective of this study was to investigate the association between interdelivery interval (IDI) and subsequent perinatal outcomes in a large population-based cohort. STUDY DESIGN: Retrospective cohort study of primiparous women with singleton gestations giving birth in the US in 2011 to 2012. IDI was defined as the time between last live birth and index live birth. IDI was categorized as 4 to 17 months, 18 to 36 months (referent), 37 to 60 months and >60 months. Statistical comparisons were made using chi-square tests and multivariable logistic regression models to control for confounding. Covariates included maternal age, prior preterm birth, prior cesarean and medical comorbidities. RESULTS: Of the 1 964 523 women meeting study criteria, 9.0% had an IDI of 4 to 17 months, 39.7% 18 to 36 months, 26.8% 37 to 60 months and 24.5% >60 months. Short IDI was associated with preterm delivery (<37 weeks; 13.8 vs 8.8%, (adjusted odds ratio (aOR) 1.51, 95% confidence interval (CI) 1.48 to 1.53)) and adverse perinatal outcomes including low 5-min Apgar, small for gestational age (SGA) status and neonatal intensive care unit (NICU) admission. Women with long IDI had a higher risk of induction of labor, cesarean delivery, chorioamnionitis, maternal ICU admission, preterm delivery and SGA status, 5-min Apgar score <4, and NICU admission. CONCLUSIONS: Compared with women with 18 to 36 month IDIs, women with either shorter or very long IDIs were at an increased risk of adverse maternal and neonatal outcomes."""
+
+

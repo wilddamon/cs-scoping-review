@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vaginalbirthafteracaesareansectionthedevelopmentofawesterneuropeanpopulationbasedpredictionmodelfordeliveriesatterm2014schoorel
+"OBJECTIVE: To develop and internally validate a model that predicts the outcome of an intended vaginal birth after caesarean (VBAC) for a Western European population that can be used to personalise counselling for deliveries at term. DESIGN: Registration-based retrospective cohort study. SETTING: Five university teaching hospitals, seven non-university teaching hospitals, and five non-university non-teaching hospitals in the Netherlands. POPULATION: A cohort of 515 women with a history of one caesarean section and a viable singleton pregnancy, without a contraindication for intended VBAC, who delivered at term. METHODS: Potential predictors for a vaginal delivery after caesarean section were chosen based on literature and expert opinions. We internally validated the prediction model using bootstrapping techniques. MAIN OUTCOME MEASURES: Predictors for VBAC. For model validation, the area under the receiver operating characteristic curve (AUC) for discriminative capacity and calibration-per-risk-quantile for accuracy were calculated. RESULTS: A total of 371 out of 515 women had a VBAC (72%). Variables included in the model were: estimated fetal weight greater than the 90(th) percentile in the third trimester; previous non-progressive labour; previous vaginal delivery; induction of labour; pre-pregnancy body mass index; and ethnicity. The AUC was 71% (95% confidence interval, 95% CI = 69-73%), indicating a good discriminative ability. The calibration plot shows that the predicted probabilities are well calibrated, especially from 65% up, which accounts for 77% of the total study population. CONCLUSION: We developed an appropriate Western European population-based prediction model that is aimed to personalise counselling for term deliveries."""
+
+

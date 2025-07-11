@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandperinatalfactorsareassociatedwithriskofpediatriccentralnervoussystemtumorsandpoorersurvivalafterdiagnosis2021adelfahmideh
+"Central nervous system (CNS) tumors are the most common solid tumors in children. Findings on the role of maternal and perinatal factors on the susceptibility or outcome of these tumors are inconclusive. Therefore, we investigated the association between these early-life factors, risk, and survival of pediatric CNS tumors, using data from one of the world's largest and most diverse cancer registries. Information on pediatric CNS tumor cases (n = 1950) for the period 1995-2011 was obtained from the Texas Cancer Registry. Birth certificate controls were frequency-matched on birth year at a ratio of 10:1 for the same period. Evaluated maternal and perinatal variables were obtained from birth records. Unconditional logistic regression was used to generate adjusted odds ratios (ORs) and 95% confidence intervals (CIs) for etiological factors. Additionally, Cox proportional hazards regression was employed to assess adjusted hazard ratios (HRs) and 95% CIs for survival factors. The results indicated that Hispanic and non-Hispanic black mothers were less likely to have children with CNS tumors compared to non-Hispanic white mothers (OR 0.88 [95% CI 0.78-0.98] P-value = 0.019; OR 0.79 [95% CI 0.67-0.93 P-value = 0.004], respectively). Infants born large for gestational age (OR 1.26 [95% CI 1.07-1.47] P-value = 0.004) and those delivered pre-term (OR 1.19 [95% CI 1.04-1.38] P-value = 0.013) showed an increased risk of CNS tumors. Infants born by vaginal forceps or vacuum delivery had a higher risk of CNS tumors compared to those born by spontaneous vaginal delivery (OR 1.35 [95% CI 1.12-1.62] P-value = 0.002). Additionally, offspring of Hispanic and non-Hispanic black mothers showed a higher risk of death (HR 1.45 [95% CI 1.16-1.80] P-value = 0.001; HR 1.53 [95% CI 1.12-2.09] P-value = 0.008, respectively). Infants born by cesarean had a higher risk of death compared to those delivered vaginally (HR 1.28 [95% CI 1.05-1.57] P-value = 0.016). These findings indicate the important role of maternal and perinatal characteristics in the etiology and survival of these clinically significant malignancies."""
+
+

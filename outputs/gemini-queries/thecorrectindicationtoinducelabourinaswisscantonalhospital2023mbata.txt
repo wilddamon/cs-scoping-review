@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thecorrectindicationtoinducelabourinaswisscantonalhospital2023mbata
+"Background: Induction of labour (IOL) is a way to stimulate the onset of labour using mechanical and pharmacological methods. IOL is one of the most frequently performed obstetric procedures worldwide. We aimed to determine compliance with guidelines and to investigate factors associated with the success of labour. Method(s): In this retrospective, observational study, we analysed all induced deliveries in a Swiss hospital between January 2020 and December 2022. Result(s): Out of 1705 deliveries, 349 women underwent IOL, and 278 were included in this study, with an average age of 32 years (range 19-44 years). Most of the women were induced for missed deadlines (20.1%), the premature rupture of membranes (16.5%), and gestational diabetes mellitus (9.3%), and there was a good adherence to the guideline, especially with the indication and IOL monitoring (100%). However, an improvement needs to be made in measuring and documenting the Bishop score (41%). The success of labour was associated with multiparity (81.8% vs. 62.4% p = 0.001) and maternal non-obesity (73.4 vs. 54.1% p = 0.026). Conclusion(s): An improvement is needed in the measurement and documentation of the Bishop score. Further research is needed to confirm the found associations between parity, obesity, and the success of IOL.Copyright (c) 2023 by the authors."""
+
+

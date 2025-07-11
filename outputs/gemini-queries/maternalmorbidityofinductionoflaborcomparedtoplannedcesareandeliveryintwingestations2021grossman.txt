@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalmorbidityofinductionoflaborcomparedtoplannedcesareandeliveryintwingestations2021grossman
+"OBJECTIVE: To compare maternal morbidity associated with induction of labor (IOL) with planned cesarean delivery (CD) in twin gestations. METHODS: This was a retrospective cohort study of vertex-presenting twin pregnancies >=24-week gestation delivering at our institution from 2016 to 2017. We compared patients undergoing IOL with patients undergoing planned CD. Demographic and pregnancy outcome data were abstracted from the medical record. Our primary outcome was composite maternal morbidity including severe postpartum hemorrhage (PPH) (EBL >1500 cc), hysterectomy, transfusion, ICU admission, use of >=2 uterotonic medications or maternal death. These morbidities were also assessed independently. Secondary analyses of maternal morbidity among unplanned CD versus planned CD and successful IOL versus planned CD was also performed. Chi-square, Mann-Whitney U and multivariate logistic regression were used in statistical analysis. RESULTS: Of 211 twin gestations included, 70.6% were nulliparous, the median age was 35.5 years [32-38], and the median gestational age at delivery was 37 weeks [35-38]. One hundred and five underwent IOL and 106 had a planned CD. Composite morbidity was higher in the IOL group versus planned CD group (30.5 versus 11.3%, p = .001). In the IOL group, 64 (61.0%) achieved a vaginal delivery. Patients in the planned CD group were more likely to be >35 years of age (62.3 versus 48.6%, p = .045), nulliparous (80.2 versus 61.0%, p = .002) and deliver preterm (53.8 versus 38.1%, p = .022). Patients with a planned CD had a significantly lower risk of composite morbidity compared to those who had CD after failed IOL (11.3 versus 48.8%, p <= .001) and there was no significant difference in composite morbidity in the successful IOL compared to the planned CD group (18.8 versus 11.3%, p = .18). There were four peri-partum hysterectomies, all within the IOL group. CONCLUSION: Labor induction in twins was associated with increased maternal morbidity compared to planned CD. The increase in adverse maternal outcomes was due to those who underwent an IOL and ultimately required CD."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severeacutematernalmorbidityintwincomparedwithsingletonpregnancies2019madar
+"OBJECTIVE: To investigate the association between twin pregnancy and severe acute maternal morbidity, overall and by timing (before, during or after delivery) and underlying causal condition. METHODS: We conducted a cohort-nested case-control analysis from the EPIMOMS prospective study conducted in six French regions from 2012-2013 (N=182,309 deliveries). The case group comprised 2,500 women with severe acute maternal morbidity (defined by a national expert consensus process) occurring from 22 weeks of gestation and up to 42 days postpartum. A random sample of 3,650 women who gave birth without severe acute maternal morbidity made up the control group. The association between twin pregnancy and severe acute maternal morbidity was analyzed with multilevel multivariable logistic regression. The role of cesarean delivery as an intermediate factor between twin pregnancy and severe acute maternal morbidity was assessed by path analysis. RESULTS: The population-based incidence of severe acute maternal morbidity was 6.2% (n=197/3,202, 95% CI 5.3-7.1) in twin pregnancies, and 1.3% (n=2,303/179,107, 95% CI 1.2-1.3) in singleton pregnancies. After controlling for confounders, the risk of severe acute maternal morbidity was higher in twin than in singleton pregnancies (adjusted odds ratio [OR] 4.2, 95% CI 3.1-5.8), both antepartum and intrapartum or postpartum, and regardless of the category of causal condition (severe hemorrhage, severe hypertensive complications, or other conditions). The association was also found for the most severe near-miss cases (adjusted OR 5.1, 95% CI 3.5-7.3). In path analysis, cesarean delivery mediated 20.6% (95% CI 12.9-28.2) of the total risk of intrapartum or postpartum severe acute maternal morbidity associated with twin pregnancy. CONCLUSION: Compared with women with singleton pregnancies, women with twin pregnancies have a fourfold increased risk for severe maternal complications both before and after delivery. About one fifth of the association between twin pregnancy and intrapartum or postpartum severe acute maternal morbidity may be mediated by cesarean delivery."""
+
+

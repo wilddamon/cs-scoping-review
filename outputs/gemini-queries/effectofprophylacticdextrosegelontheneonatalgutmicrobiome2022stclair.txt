@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofprophylacticdextrosegelontheneonatalgutmicrobiome2022stclair
+"OBJECTIVE: To determine the effect of prophylactic dextrose gel on the infant gut microbiome. DESIGN: Observational cohort study nested in a randomised trial. SETTING: Three maternity hospitals in New Zealand. PATIENTS: Infants at risk of neonatal hypoglycaemia whose parents consented to participation in the hypoglycaemia Prevention in newborns with Oral Dextrose trial (hPOD). Infants were randomised to receive prophylactic dextrose gel or placebo gel, or were not randomised and received no gel (controls). Stool samples were collected on days 1, 7 and 28. MAIN OUTCOME MEASURES: The primary outcome was microbiome beta-diversity at 4 weeks. Secondary outcomes were beta-diversity, alpha-diversity, bacterial DNA concentration, microbial community stability and relative abundance of individual bacterial taxa at each time point. RESULTS: We analysed 434 stool samples from 165 infants using 16S rRNA gene amplicon sequencing. There were no differences between groups in beta-diversity at 4 weeks (p=0.49). There were also no differences between groups in any other microbiome measures including beta-diversity (p=0.53 at day 7), alpha-diversity (p=0.46 for day 7 and week 4), bacterial DNA concentration (p=0.91), microbial community stability (p=0.52) and microbial relative abundance at genus level. There was no evidence that exposure to any dextrose gel (prophylaxis or treatment) had any effect on the microbiome. Mode of birth, type of milk fed, hospital of birth and ethnicity were all associated with differences in the neonatal microbiome. CONCLUSIONS: Clinicians and consumers can be reassured that dextrose gel used for prophylaxis or treatment of neonatal hypoglycaemia does not alter the neonatal gut microbiome. TRIAL REGISTRATION NUMBER: 12614001263684."""
+
+

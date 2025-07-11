@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anecrotizingenterocolitisassociatedgutmicrobiotaispresentinthemeconiumresultsofaprospectivestudy2016heida
+"BACKGROUND: Anomalous intestinal microbiota development is supposedly associated with development of necrotizing enterocolitis (NEC). Our aim in this study was to identify the intestinal microbiota of patients at risk for NEC.;METHODS: In a prospective trial that investigated prognostic factors for development of NEC in high-risk neonates (NTR4153), 11 NEC cases were gestational age/birthweight matched with controls (ratio of 1:2). Feces were collected twice a week. We used the first feces sample of each patient (meconium), as well as the last 2 feces samples prior to development of NEC. DNA was extracted, and the bacterial 16S rRNA genes were analyzed on a MiSeq sequencer.;RESULTS: The presence and abundance of Clostridium perfringens (8.4%) and Bacteroides dorei (0.9%) in meconium were increased in neonates who developed NEC compared with controls (0.1% and 0.2%; both species, P < .001). In post-meconium samples, the abundance of staphylococci became negatively associated with NEC development (P = .1 and P = .01 for consecutive samples); Clostridium perfringens continued to be more prevalent in NEC cases. Early enteral feeding and, in particular, breast milk were correlated with an increase in lactate-producing bacilli in post-meconium samples (rho = -0.45; P = .004).;CONCLUSIONS: A NEC-associated gut microbiota can be identified in meconium samples; C. perfringens continues to be associated with NEC from the first meconium till just before NEC onset. In contrast, in post-meconium, increased numbers of staphylococci were negatively associated with NEC. These findings suggest causality but this causality should be verified in trials of induced infection in animals, targeted antibiotics, and/or probiotics.;CLINICAL TRIALS REGISTRATION: CALIFORNIA trial, registered under trial number NTR4153 in the Dutch Trial Registry. Copyright (c) The Author 2016. Published by Oxford University Press for the Infectious Diseases Society of America. All rights reserved. For permissions, e-mail journals.permissions@oup.com."""
+
+

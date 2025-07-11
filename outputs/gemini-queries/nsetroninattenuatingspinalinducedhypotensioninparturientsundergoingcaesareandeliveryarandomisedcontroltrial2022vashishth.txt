@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: efficacyofvariabledosesofprophylacticintravenousondansetroninattenuatingspinalinducedhypotensioninparturientsundergoingcaesareandeliveryarandomisedcontroltrial2022vashishth
+"Introduction Spinal anaesthesia is frequently associated with adverse effects like maternal hypotension and bradycardia. This effect is due to a decrease in systemic vascular resistance, a decrease in central venous pressure or Bezold-Jarisch Reflex (mediated by 5-HT3 receptors). We aimed to measure the effect of three different doses of prophylactic intravenous ondansetron (5-HT3 antagonists) with a placebo on maternal haemodynamics. Methods A prospective randomised control study was done over 240 parturients, aged 19-35 years. They were randomly allocated into four groups (n=60) Group O4, Group O6, Group O8 and Group S to receive either intravenous ondansetron 4 mg, 6 mg, 8 mg or 0.9% normal saline respectively. Haemodynamic variables (systolic blood pressure [SBP], diastolic blood pressure [DBP], mean arterial pressure [MAP], heart rate [HR]) were recorded at 2-minute intervals for the first 20 minutes and at 5-minute intervals for further 30 minutes. Results A significant decrease in haemodynamic parameters was observed in group S when compared with ondansetron groups at various time intervals (p<0.05). The difference was most significant in groups O6 and O8. Development of nausea and vomiting was significantly higher in Group S compared to ondansetron groups (p< 0.005). The requirement for ephedrine was more in Group S in comparison to ondansetron groups (p<0.0001). Conclusion All three groups of ondansetron showed a decrease in the incidence of hypotension and use of vasopressor but Group O6 and O8 were more effective in attenuating spinal-induced hypotension in parturients undergoing caesarean section."""
+
+

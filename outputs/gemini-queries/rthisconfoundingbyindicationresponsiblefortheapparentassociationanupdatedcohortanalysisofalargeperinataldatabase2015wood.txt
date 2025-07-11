@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectionandsubsequentstillbirthisconfoundingbyindicationresponsiblefortheapparentassociationanupdatedcohortanalysisofalargeperinataldatabase2015wood
+"BACKGROUND: Several studies and a recent meta-analysis have suggested that previous Cesarean section may increase the risk of stillbirth in a subsequent pregnancy. Given the high rates of Cesarean section in contemporary obstetric practice, this is of considerable public health importance. We sought to evaluate the potential that this association is the result of residual confounding bias. METHODS: A large perinatal database (Alberta Perinatal Health Project) was searched to identify a matched set of first and second births from the years 1992-2006. Data on pregnancy outcomes, demographics and potential confounding factors were obtained. RESULTS: The cohort was comprised of 98538 matched first and second births. Multivariate analysis did not reveal an association between previous Cesarean section and stillbirth, OR = 1.38 (0.98, 1.93). Restricting the analysis to a low risk group further attenuated the association, OR = .99 (0.62, 1.52). Analysis of the risk by indication for Cesarean section found that the risk was not increased for previous dystocia, OR = .91 (0.53, 1.55) nor for breech presentation, OR = 1.06 (0.50, 2.28) but only for other indications including non reassuring fetal status and fetal distress, OR = 1.96 (1.29, 2.98). CONCLUSIONS: The results of our cohort analysis suggest that previous Cesarean section does not cause an increased risk of stillbirth."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareanscarpregnancywithexpectantmanagement2022fu
+"AIM: This study aimed to ascertain whether the lower anterior myometrial thickness (MT) between the bladder and the gestational sac in early pregnancy can be used to predict clinical outcomes in women with cesarean scar pregnancy (CSP) after expectant management. METHODS: We retrospectively analyzed the clinical data and early pregnancy ultrasound images of 21 patients who received expectant management for CSP. Among them, 11 patients with serious complications during pregnancy, such as intraoperative blood loss >=1000 mL or with severe forms of morbidly adherent placenta (MAP; placenta increta or placenta percreta), were assigned to group A. The remaining 10 patients without serious complications during pregnancy were assigned to group B. The difference in MT between groups A and B was analyzed using nonparametric Mann-Whitney U test. RESULTS: There was a statistically significant difference in MT between the groups (U = 20.000, p = 0.013). The area under the receiver operating characteristics (ROC) curve was 0.818, and the optimal cut-off value for MT was 3.3 mm. CONCLUSION: Lower anterior MT around the gestational sac was correlated with severe complications, such as massive intraoperative bleeding or severe forms of MAP in patients with CSP."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prevalenceandassociatedriskfactorsforobesityduringpregnancyovertime2015stuber
+"Objective: The increasing prevalence of obesity is having an impact on morbidity worldwide. Since young mature women are equally affected by the general increase in weight, the aim of the study was to evaluate the prevalence of obesity together with associated maternal risk factors, complications during pregnancy, and fetal outcomes in a local cohort for the years 2006 and 2011. Study Design: Maternal and fetal records of women who delivered at the University of Wurzburg, with a 5-year interval (2006 and 2011) between investigations, were retrospectively analyzed. Descriptive statistics included prevalence of obesity, maternal weight gain, as well as several complications during pregnancy and fetal characteristics. The association between maternal or fetal complications and extent of maternal obesity was analyzed. Results: Our analysis included 2838 mothers with singleton pregnancies who delivered in 2006 (n = 1293) or 2011 (n = 1545) in our department. We found that neither pre-pregnancy body mass index (23.77 +- 4.85 vs. 24.09 +- 5.10 kg/m(2), p = 0.25) nor weight gain (14.41 +- 5.77 vs. 14.78 +- 5.65 kg; p = 0.09) increased significantly over time. But the majority of all overweight (71 %) or obese (60.4 %) mothers gained more weight than generally recommended. The prevalence of gestational diabetes, gestational hypertension, and preeclampsia increased significantly and was associated with high pre-pregnancy body mass index, as was delivery by cesarean section. However, obesity was not associated with prolonged pregnancy and did not seem to negatively affect fetal outcome. Conclusion: There is a trend to increasing weight gain during pregnancy, and the majority of mothers, especially those with a high pre-pregnancy body mass index, exceeded the weight gain recommendations. Associated risk factors such as gestational diabetes, hypertension, and delivery by cesarean section are increasing."""
+
+

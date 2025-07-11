@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: uterineruptureacomparativeevaluationofunscarredandscarreduterus2021bhatti
+"Objective: To evaluate and compare outcomes and treatment options of uterine rupture in unscarred and scarred uterus. Methodology: This prospective study of 100 cases (50 unscarred uterus and 50 scarred) for rupture was carried out from January 2016 to March 2019 at Sheikh Zaid Women Hospital, Larkana, Pakistan. Demographic details, multiparity and details of mismanaged labor, outcomes and surgical management were recorded. Result(s): During the study period, 15,299 admissions were recorded and 100 cases of uterine rupture were collected, 50 without scarring to the uterine walls and 50 with the previous history of cesarean section. The death rate was high in unscarred uterus and more were undelivered. Hysterectomy was done in 10%, with 16% ICU care and 10% associated cervical and broad ligament trauma. Conclusion(s): Poor antenatal care, illiteracy, obstructed labor, late arrival, poor contraception are main reason for unscarred uterine rupture while in scarred planned/unplanned VBAC and multiparty with less gap between two births are considered as main risk factor. It is important to increase awareness regarding contraception, mismanaged labor, early referral, and repeat elective section to decrease feto maternal morbidity. (Rawal Med J 202;46:8869-8728).Copyright (c) 2021, Pakistan Medical Association. All rights reserved."""
+
+

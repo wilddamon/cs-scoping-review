@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofcerebralpalsyamongtheoffspringofimmigrants2014ray
+"BACKGROUND: Cerebral palsy (CP) has a multifactorial etiology, and placental vascular disease may be one major risk factor. The risk of placental vascular disease may be lower among some immigrant groups. We studied the association between immigrant status and the risk of CP. METHODS: We conducted a population-based retrospective cohort study of all singleton and twin livebirths in Ontario between 2002-2008, and who survived >=28 days after birth. Each child was assessed for CP up to age 4 years, based on either a single inpatient or >=2 outpatient pediatric diagnoses of CP. Relative to non-immigrants (n = 566,668), the risk of CP was assessed for all immigrants (n = 177,390), and further evaluated by World region of origin. Cox proportional hazard ratios (aHR) were adjusted for maternal age, income, diabetes mellitus, obesity, tobacco use, Caesarean delivery, year of delivery, physician visits, twin pregnancy, preterm delivery, as well as small- and large-for-gestational age birthweight. RESULTS: There were 1346 cases of CP, with a lower rate among immigrants (1.45 per 1000) than non-immigrants (1.92 per 1000) (aHR 0.77, 95% confidence interval [CI] 0.67 to 0.88). Mothers from East Asia and the Pacific (aHR 0.54, 95% CI 0.39 to 0.77) and the Caribbean (aHR 0.58, 95% CI 0.37 to 0.93) were at a significantly lower risk of having a child with CP. Whether further adjusting for preeclampsia, gestational hypertension, placental abruption or placental infraction, or upon using a competing risk analysis that further accounted for stillbirth and neonatal death, these results did not change. CONCLUSIONS: Immigration and ethnicity appear to attenuate the risk of CP, and this effect is not fully explained by known risk factors."""
+
+

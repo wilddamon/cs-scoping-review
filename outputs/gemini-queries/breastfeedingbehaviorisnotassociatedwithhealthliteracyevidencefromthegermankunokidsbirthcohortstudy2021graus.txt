@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: breastfeedingbehaviorisnotassociatedwithhealthliteracyevidencefromthegermankunokidsbirthcohortstudy2021graus
+"PURPOSE: Despite the health benefits of full breastfeeding for both infants and mothers, less than 50% of mothers in Germany practice this method for at least 4 months after childbirth. Because of the growing importance of health literacy to improve public health, we investigated the role of maternal health literacy in breastfeeding behavior.;METHODS: We analyzed the data of 1172 mother-child dyads of the KUNO-Kids health study of the University Children's and Maternity Hospital Regensburg. Maternal health literacy was assessed with the HLS-EU-Q47 questionnaire (sub-index health care) up to 48 h after childbirth. Outcome was analyzed 6 months after childbirth and categorized into full breastfeeding for less than 4 months or for at least 4 months. The association between breastfeeding and maternal health literacy was calculated with univariable and multivariable logistic regression analyses.;RESULTS: 38.8% of mothers showed inadequate or limited health literacy. 75.9% of mothers had fully breastfed their child for at least 4 months. Univariable logistic regression analysis showed that health literacy and full breastfeeding for at least 4 months were not associated (OR = 0.995 [CI 0.977-1.015], p = 0.60). After adjusting for all potentially confounding variables with a significant association (p <= 0.05) on both health literacy and breastfeeding, the multivariable model showed no association between health literacy and breastfeeding (OR = 0.984 [CI 0.963-1.007], p = 0.170).;CONCLUSION: Surprisingly, we found no association between health literacy and breastfeeding behavior in our study. Therefore, future research with comparable measurements of health literacy and breastfeeding is required to validate this result and to identify reasons for early breastfeeding cessation. Copyright (c) 2021. The Author(s)."""
+
+

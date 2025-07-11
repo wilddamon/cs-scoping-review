@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofanomogramforpredictingplacentaaccretaspectruminpregnancieswithonepreviouscesareandelivery2024wu
+"OBJECTIVE: This study aimed to develop and validate a prenatal nomogram to predict the risk of placenta accreta spectrum (PAS) in women with one previous cesarean delivery. METHODS: This retrospective study enrolled 5157 pregnant women with one previous cesarean delivery in China from January 2021 to January 2023. The nomogram was developed from a training cohort of 3612 pregnant women and tested on a validation cohort of 1545 pregnant women. Multivariate regression analysis was performed using the minimum value of the Akaike information criterion to select prognostic factors that can be included in the nomogram. We evaluated the nomogram by the area under the receiver operating characteristic (ROC) curve, calibration curves, and the decision curve analysis (DCA). RESULTS: PAS occurred in 199 (5.51%) and 80 (5.18%) patients in the training and validation cohorts, respectively. Backward stepwise algorithms in the multivariable logistic regression model determined abortion, hypertensive disorders complicating pregnancy, fetal position, and placenta previa as relevant PAS predictors. The area under the ROC curve for the nomogram was 0.770 (95% confidence interval [CI] 0.733-0.807) and 0.791 (95% CI 0.730-0.853) for the training and validation cohorts, respectively. The calibration curves indicated that the nomogram's prediction probability was consistent with the actual probability. The DCA curve revealed that the nomogram has potential clinical benefit. CONCLUSION: A prenatal nomogram was developed for PAS in our study, which helped obstetricians determine potential patients with PAS and make sufficient preoperative preparation to reduce maternal and neonatal complications."""
+
+

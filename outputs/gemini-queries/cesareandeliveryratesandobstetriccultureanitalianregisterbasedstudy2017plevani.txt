@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryratesandobstetriccultureanitalianregisterbasedstudy2017plevani
+"INTRODUCTION: Cesarean delivery rates are rising due to multiple factors, including less use of operative vaginal delivery and vaginal birth after cesarean delivery, which often reflect local obstetric practices. Objectives of the study were to analyze the relations between cesarean delivery, these practices, and perinatal outcomes.;MATERIAL AND METHODS: We included all deliveries in the 72 hospitals of Lombardia, a region in northern Italy, during the year 2013. The delivery certificate was used as data source. Pearson's correlation coefficient and logistic regression were used for statistical analysis.;RESULTS: We included 87 896 deliveries. The number of deliveries per hospital ranged from 140 to 6123. The rate of cesarean delivery was 28.3% (range 9.9-86.4%), operative vaginal delivery 4.7% (range 0.2-10.0%), and vaginal birth after cesarean 17.3% (range 0-79.2%). We found a significant inverse correlation between rates of overall cesarean delivery and operative vaginal delivery (r = -0.25, p = 0.04). The correlation between rate of overall cesarean delivery and vaginal birth after cesarean was also inverse and significant (r = -0.57, p < 0.001). There was no association between overall cesarean delivery rate and the rates of Apgar score at 5 min <7 in term and late preterm neonates (r = -0.92, p = 0.46) and of perinatal mortality (r = -0.19, p = 0.13), respectively. The associations were independent of hospital volume of activity.;CONCLUSIONS: An obstetric practice that encourages vaginal instrumental delivery in delayed second stage of labor or vaginal birth after previous cesarean delivery, could reduce the rising cesarean delivery rate. This will require a change in obstetric culture, continuing education of healthcare providers, and leadership. Copyright (c) 2016 Nordic Federation of Societies of Obstetrics and Gynecology."""
+
+

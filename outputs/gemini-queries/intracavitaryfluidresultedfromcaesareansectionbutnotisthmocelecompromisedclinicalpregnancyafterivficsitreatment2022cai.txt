@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intracavitaryfluidresultedfromcaesareansectionbutnotisthmocelecompromisedclinicalpregnancyafterivficsitreatment2022cai
+"The aim of this study was to explore whether the presence of intra-cavitary fluid (ICF) influences the pregnancy outcomes of patients with caesarean section (CS) in embryo transfer cycles. A total of 8494 transferred cycles of 4924 women were enrolled in this retrospective study and separated into three subgroups by previous delivery method and the presence of intra-cavity fluid, a caesarean group with ICF (CS-ICF, n = 649), a caesarean group without ICF (CS-noICF, n = 3207), and the remaining 4638 cycles without ICF were included in the vaginal delivered group (VD, n = 4638). Baseline characteristics and clinical outcome were compared. Propensity score matching (PSM) was conducted to adjust confounding factors between groups. Patients in the CS-ICF group were of younger age (36.49 +- 4.19 vs 37.34 +- 4.25, 37.32 +- 4.86, P < 0.001), had better ovary reserve, and had more blastocyst transferred compared with the CS-noICF and VD groups. However, cycles in the CS-ICF group achieved unsatisfactory clinical pregnancy outcomes. PSM analysis for comparability and differences in clinical outcomes still existed. The clinical pregnancy rate was significantly lower in the CS-ICF group than in the CS-noICF group (35.1% vs 41.7% for CS-noICF group, 48.1% for VD group, P < 0.001). Subgroup analysis of fresh embryo transferred cycles, the differences in clinical outcomes disappeared after PSM analysis, while the clinical pregnancy rate was still lowest among the three matched groups of FET cycles (36.4% vs 50.3% for VD group, P < 0.001). The presence of intra-cavitary fluid (ICF), but not necessarily the isthmocele, significantly compromises the clinical pregnancy rate in patients with previous CS undergoing IVF/ICSI treatment."""
+
+

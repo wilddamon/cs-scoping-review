@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aneconomicanalysisoftrialoflaboraftercesareandelivery2016friedman
+"OBJECTIVE: Given that cesarean delivery is one of the most commonly performed surgical procedures in the United States and an important contributor to obstetric care costs, this analysis sought to examine maternal hospital costs associated with trial of labor after cesarean delivery (TOLAC) versus repeat cesarean delivery (RCD). METHODS: A national sample was used to identify women with singleton pregnancy who underwent either TOLAC or RCD from 2006 to 2012. Women with diagnoses that could confound cost via extended hospital length of stay prior to delivery were excluded. Other medical and obstetric covariates that could influence cost were included in an adjusted model. RESULTS: A total of 485,247 women were identified, including 365,596 (75.3%) cesarean deliveries without labor, 41,988 (8.6%) successful and 77,663 (16.0%) unsuccessful TOLAC deliveries. The inflation-adjusted median costs in this cohort were $5512 for cesarean without labor, $4175 for successful TOLAC, $5166 for all TOLAC attempts, and $5759 for failed TOLAC. In a multivariable model, hospital region was a major predictor of median cost as were demographic variables and medical comorbidities. CONCLUSION: TOLAC is associated with modest reductions of cost for maternal hospitalizations. However, other medical, demographic and hospital factors appear to be more important factors."""
+
+

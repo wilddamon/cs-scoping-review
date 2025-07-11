@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofprenatalantibioticexposureonneonataloutcomesofpreterminfants2021kim
+"Purpose: Antibiotic exposure during pregnancy may affect the fetus and newborn in many ways. This study investigated the impact of prenatal antibiotic exposure duration on neonatal outcomes in very preterm (VP) or very low birth weight (VLBW) infants. Method(s): From September 2015 to December 2020, preterm infants with gestational age less than 32 weeks or with a BW less than 1,500 g who were admitted to the neonatal intensive care unit, and their mothers were enrolled. Prenatal antibiotic exposure was defined as antibiotics received by mothers before delivery, and the patients were categorized into the non-antibiotic group, short-duration (SD; <=7 days) group, or long-duration (LD; >7 days) groups. Result(s): A total of 93 of 145 infants were exposed to prenatal antibiotics, among which 35 (37.6%) were in the SD group and 58 (62.4%) were in the LD group. Infants in the LD group had a significantly higher birth weight-for-gestational-age (BW/GA) Z-score than those in the non-antibiotic group, even after the adjustment for confounding factors (beta, 0.258; standard error, 0.149; P<0.001). Multivariate logistic regression analysis showed that prolonged prenatal antibiotic exposure was independently associated with death (adjusted odds ratio [aOR], 8.926; 95% confidence interval [CI], 1.482-53.775) and composite outcomes of death, necrotizing enterocolitis (NEC), and late-onset sepsis (LOS) (aOR, 2.375; 95% CI, 1.027-5.492). Conclusion(s): Prolonged prenatal antibiotic exposure could increase the BW/GA Z-score and the risk of death and composite outcomes of death, NEC, and LOS in VP or VLBW infants.Copyright (c) 2021 The Korean Society of Pediatric Infectious Diseases This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License."""
+
+

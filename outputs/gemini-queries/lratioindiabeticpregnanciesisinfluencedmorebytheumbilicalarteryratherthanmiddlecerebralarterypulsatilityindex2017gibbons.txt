@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thefetalcerebroplacentalratioindiabeticpregnanciesisinfluencedmorebytheumbilicalarteryratherthanmiddlecerebralarterypulsatilityindex2017gibbons
+"OBJECTIVE: This study aimed to assess the relationship between the cerebro-placental ratio (CPR) and intrapartum and perinatal outcomes in pregnancies complicated by pre-existing insulin dependent diabetes (pT1DM) mellitus, pre-existing non-insulin dependent diabetes mellitus (pT2DM) and gestational diabetes mellitus (GDM). STUDY DESIGN: This was a retrospective cohort study of 1281 women with diabetes mellitus birthing at the Mater Mothers' Hospital in Brisbane between 2007 and 2015. The CPR in non-anomalous singleton fetuses was measured between 34+0 and 36+6 weeks gestation and compared between types of DM treatment groups and correlated with intrapartum and perinatal outcomes. RESULTS: Of the study cohort, 9.7% (124/1281) had pT1DM, 5.3% (68/1281) had pT2DM and 85.0% (1089/1281) had GDM. Of women with pT2DM and GDM, 61.8% (42/68) and 28.9% (315/1089) respectively, required insulin during pregnancy. Women with pT1DM had an increased odds of having a CPR <5th centile (OR 3.73, 95%CI: 1.90-6.96, p=0.0001) or a CPR <10th centile (OR 3.01, 95% CI: 1.80-4.91, p<0.0001) respectively. The odds of a UA PI >90th centile (OR 2.69, 95% CI: 1.60-4.39, p=0.0001) was higher in the pT1DM cohort. There was however no significant difference in the mean MCA PI between the three groups. Stratification by CPR centiles (<10th centile vs. >=10th centile) demonstrated a lower birth weight in the CPR <10th centile cohort for all DM categories. The proportion of neonates with birth weights <10th centile were higher in the CPR <10th centile cohort with the GDM cohort having an odds ratio of 8.28 (95% CI 4.22-16.13, p<0.0001) of this complication. The CPR <10th centile cohort also had a greater proportion of adverse composite neonatal outcome regardless of type of DM. CONCLUSIONS: Regardless of the type of DM, a low CPR was associated with poorer neonatal outcomes. Women with pT1DM also had the highest mean UA PI and lowest mean CPR despite no difference in the mean MCA PI between the three groups."""
+
+

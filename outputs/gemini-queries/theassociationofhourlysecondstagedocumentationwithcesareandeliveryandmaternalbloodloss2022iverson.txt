@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationofhourlysecondstagedocumentationwithcesareandeliveryandmaternalbloodloss2022iverson
+"PURPOSE OF THE ARTICLE: Cesarean rates and maternal morbidity increase with the duration of the second stage of labor. We studied the effect of hourly evaluation and documentation during the second stage of labor on maternal and fetal outcomes. MATERIALS AND METHODS: We performed a retrospective cohort study of all women who delivered at our urban, tertiary care hospital and underwent a second stage of greater than 60 min between 1 June 2016 and 31 May 2019. There were 1498 patients with complete data. Four hundred forty patients had hourly evaluation and documentation throughout the second stage and 1058 did not. We performed t-tests, Chi-squared, and regression analyses to compare cesarean delivery rate, second-stage duration, quantitative blood loss, hemorrhage and blood transfusion rates, and fetal outcomes. We performed regression analyses to evaluate for independent effect of this intervention on each outcome. RESULTS: Patients with hourly evaluation and documentation had a decreased likelihood of cesarean delivery (8.2% vs. 20.3%, p < .001), shorter second-stage of labor (98.1 min vs. 177.5 min, p < .001), decreased quantitative blood loss (514.4 mL vs. 667.7 mL, p < .001), and hemorrhage rate (12.5% vs. 19.9%, p < .001). Hourly evaluation was associated with decreased transfusion rates (3.2% vs. 5.6%, p = .05) but was not related to the number of units transfused. Regression analyses confirmed the impact of hourly documentation when potential confounders were included. These differences in outcomes were also noted when evaluation was performed and documented within every 75 min. Hourly second-stage evaluation and documentation did not affect other maternal or infant morbidities. CONCLUSION: Hourly evaluation and documentation in the second stage was associated with decreased cesarean delivery rate, second-stage duration, quantitative blood loss, hemorrhage, and transfusion."""
+
+

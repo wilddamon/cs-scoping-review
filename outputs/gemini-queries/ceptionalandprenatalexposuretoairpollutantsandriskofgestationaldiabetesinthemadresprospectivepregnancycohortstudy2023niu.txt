@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: preconceptionalandprenatalexposuretoairpollutantsandriskofgestationaldiabetesinthemadresprospectivepregnancycohortstudy2023niu
+"Background: Air pollution has been associated with gestational diabetes mellitus (GDM). We aim to investigate susceptible windows of air pollution exposure and factors determining population vulnerability. Method(s): We ascertained GDM status in the prospective Maternal and Developmental Risks from Environmental and Social Stressors (MADRES) pregnancy cohort from Los Angeles, California, USA. We calculated the relative risk of GDM by exposure to ambient particulate matter (PM10; PM2.5), nitrogen dioxide (NO2), and ozone (O3) in each week from 12 weeks before to 24 weeks after conception, adjusting for potential confounders, with distributed lag models to identify susceptible exposure windows. We examined effect modification by prenatal depression, median-split pre-pregnancy BMI (ppBMI) and age. Finding(s): Sixty (9.7%) participants were diagnosed with GDM among 617 participants (mean age: 28.2 years, SD: 5.9; 78.6% Hispanic, 11.8% non-Hispanic Black). GDM risk increased with exposure to PM2.5, PM10, and NO2 in a periconceptional window ranging from 5 weeks before to 5 weeks after conception: interquartile-range increases in PM2.5, PM10, and NO2 during this window were associated with increased GDM risk by 5.7% (95% CI: 4.6-6.8), 8.9% (8.1-9.6), and 15.0% (13.9-16.2), respectively. These sensitive windows generally widened, with greater effects, among those with prenatal depression, with age >=28 years, or with ppBMI >=27.5 kg/m2, than their counterparts. Interpretation(s): Preconception and early-pregnancy are susceptible windows of air pollutants exposure that increased GDM risk. Prenatal depression, higher age, or higher ppBMI may increase one's vulnerability to air pollution-associated GDM risk. Funding(s):National Institutes of Health,Environmental Protection Agency.Copyright (c) 2023 The Author(s)"""
+
+

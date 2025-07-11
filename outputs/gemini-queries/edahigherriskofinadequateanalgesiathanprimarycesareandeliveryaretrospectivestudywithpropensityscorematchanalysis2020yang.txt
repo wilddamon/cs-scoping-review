@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: repeatedcesareandeliverypredictedahigherriskofinadequateanalgesiathanprimarycesareandeliveryaretrospectivestudywithpropensityscorematchanalysis2020yang
+"PURPOSE: This study aimed to compare the analgesic outcomes between primary and repeated cesarean delivery. PATIENTS AND METHODS: We performed a retrospective analysis based on the medical records of a teaching hospital in China from January 2018 to March 2019. We collected data on demographic characteristics, perioperative complications, anesthesia, and surgical factors for cesarean delivery patients. We also recorded the postoperative analgesic strategy, pain intensity (assessed by the number rating scale) during the first 48 hrs after surgery, hospital cost, and hospital stay. Postoperative inadequate analgesia was defined by a score of >= 4 in the number rating scale. Analgesic outcomes after cesarean delivery between primiparas and multiparas were compared using propensity score matching analysis. Moreover, subgroup logistic analysis for different age groups (>= 35 and < 35 years) was performed to investigate the effect of the maternal category on postoperative inadequate analgesia. RESULTS: A total of 1543 patients were included in the analysis and 571 pairs (1142 patients) were matched in the primiparas and multiparaparas group according to their propensity score. In both the non-matched and matched cohort, the incidence of inadequate analgesia in the primiparas group was lower than that in the multiparas group (16.7% vs. 24.0%, P < 0.001 and 16.1% vs. 23.5%, P = 0.002; respectively). The multiparas group was identified as being at risk of inadequate analgesia after cesarean delivery in both age groups (age >= 35 years, odds ratio: 2.18, 95% confidence interval: 1.20-3.95; age < 35 years, odds ratio: 1.43, 95% confidence interval 1.08-1.89). CONCLUSION: Multiparas that undergo a repeat cesarean delivery had a significantly higher risk of inadequate postoperative pain treatment than primiparas. The maternal category should be considered when formulating the postoperative analgesia strategy after cesarean delivery."""
+
+

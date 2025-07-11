@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apopulationbasedcohortstudyofpregnancyoutcomesamongwomenwithprimarysclerosingcholangitis2014ludvigsson
+"BACKGROUND & AIMS: Studies of primary sclerosing cholangitis (PSC) and pregnancy outcomes have been limited in size and have been inadequate to rule out excess risks. We examined pregnancy outcomes among women with PSC. METHODS: Women with PSC were identified from inpatient and hospital-based outpatient data in the Swedish National Patient Register. Through linkage with the Medical Birth Register, we identified 229 singleton births, from 1987 through 2009, to women with PSC before delivery. These were compared with 2,304,863 births to women without a diagnosis of PSC. We used logistic regression, adjusted for maternal age, smoking, education, parity, and year of birth, to calculate adjusted prevalence odds ratios (aPORs) for adverse pregnancy outcomes. RESULTS: Maternal PSC was associated with a 3.63-fold increase in preterm birth (95% confidence interval [CI] for aPOR, 2.35-5.61) as well as an increased risk of cesarean section (aPOR, 2.18; 95% CI, 1.50-3.17). We found no increased risk based on analyses of the 5-minute Apgar score, small for gestational age, stillbirths, or neonatal deaths. Maternal PSC was not a risk factor for congenital abnormalities (aPOR, 1.12; 95% CI, 0.56-2.22). Stratification by inflammatory bowel disease status did not affect the risk estimates more than marginally. CONCLUSIONS: Maternal PSC is associated with both preterm birth and cesarean section but not with congenital malformation or other adverse outcomes of pregnancy. Pregnancy should not be discouraged in women with PSC."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivestudyontheprevalenceseverityandoutcomesofintraventricularhaemorrhageininfantswithalowbirthweightinaquarternaryhospitalinalowtomiddleincomecountry2019maduray
+"Background. Intraventricular haemorrhage (IVH) is a serious complication in infants with a low birth weight (LBW). Objective. To study the prevalence, severity and outcomes of IVH in LBW infants admitted to a neonatal intensive care unit (NICU). Methods. This was a retrospective cohort study of LBW infants admitted to the NICU at a quarternary hospital between January and December 2012. Neonates with recorded cranial ultrasound scans were included and followed up to between 18 and 24 months of age for neurological outcomes. Results. An overall IVH prevalence of 44.3% (95% confidence interval 40 - 50) was observed in the study population (N=210). The prevalence of IVH in infants with a very low birth weight (VLBW) was 67.0%. Multivariable logistic regression showed risk factors for IVH to be VLBW, extreme prematurity, exposure to HIV, outborn delivery and receipt of a blood transfusion. Moderate to severe IVH was more common in VLBW and extremely premature infants. Severe IVH was associated with high mortality. At follow-up, 18.8% of the subjects showed signs of neurodevelopmental delay, while 6.3% were diagnosed with epilepsy. The overall all-cause mortality rate was 15.7% at discharge. Mothers' antenatal clinic attendance and caesarean delivery were protective factors. Conclusion. Improved perinatal care for women in preterm labour, especially in rural areas in South Africa, could lead to better outcomes in infants. A screening schedule could contribute to timeous detection of brain injury in at-risk babies to facilitate appropriate medical management and detection of lesions associated with adverse long-term neurodevelopmental outcomes.Copyright (c) 2019, Health and Medical Publishing Group. All Rights Reserved."""
+
+

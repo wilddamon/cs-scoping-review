@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareandeliveriesinthemotherchildrheacohortincretegreecealmostasfrequentasvaginalbirthsandevenmorecommoninfirsttimemothers2014vassilaki
+"BACKGROUND: Caesarean deliveries are on the increase in Greece and around the world. The objective of the present study was to assess the frequency of planned and emergency caesarean deliveries and their socio-demographic predictors in women with singleton pregnancies followed-up from early pregnancy to delivery. METHODS: The mother-child cohort in Crete examines a population sample of pregnant women recruited during one year beginning in February 2007. A cohort of 1096 women, with singleton pregnancies, was included in the present analyses. Multivariable Poisson regression models with robust error variance were used. RESULTS: Overall, 48% of the women had a caesarean delivery, with a higher percentage observed in women having their first child (52%). Maternal age was a predictor for caesarean deliveries; type of hospital was associated with the risk for an emergency caesarean, whereas women with lower education were at an increased risk of having a planned caesarean delivery among primiparae. Prior caesarean delivery was by far the strongest predictor (RR=7.68, 95% CI 5.71, 10.33) for a subsequent one among multiparae. CONCLUSIONS: Caesarean deliveries are almost as frequent as vaginal births in the study population and even more frequent in first-time mothers. The study findings support that risk factors are indeed mode of delivery and parity status specific. As such, it is becoming clearer which groups of women, especially first-time mothers, need to be targeted in future research and interventions so as to understand better and achieve an appropriate caesarean delivery risk."""
+
+

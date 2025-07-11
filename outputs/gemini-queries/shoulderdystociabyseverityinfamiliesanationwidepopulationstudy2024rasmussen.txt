@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: shoulderdystociabyseverityinfamiliesanationwidepopulationstudy2024rasmussen
+"INTRODUCTION: Previous studies have established a history of shoulder dystocia as an important risk factor for shoulder dystocia, but studies on shoulder dystocia by severity are scarce. It is unknown if shoulder dystocia tends to be passed on between generations. We aimed to assess the recurrence risk of shoulder dystocia by severity in the same woman and between generations on both the maternal and paternal side. We also assessed the likelihood of a second delivery and planned cesarean section after shoulder dystocia. MATERIAL AND METHODS: This was a population-based cohort study, using data from the Medical Birth Registry of Norway. To study recurrence in the same mother, we identified 1 091 067 pairs of first and second, second and third, and third and fourth births in the same mother. To study intergenerational recurrence, we identified an individual both as a newborn and as a mother or father in 824 323 mother-offspring pairs and 614 663 father-offspring pairs. We used Bayesian log-binomial multilevel regression to calculate relative risks (RR) with 95% credible intervals. RESULTS: In subsequent deliveries in the same woman the unadjusted RR of recurrence was 7.05 (95% credible interval 6.39-7.79) and 2.99 (2.71-3.31) after adjusting for possible confounders, including current birthweight. The RRs were higher with severe shoulder dystocia as exposure or outcome. With severe shoulder dystocia as both exposure and outcome, unadjusted and adjusted RR was 20.42 (14.25-29.26) and 6.29 (4.41-8.99), respectively. Women with severe and mild shoulder dystocia and those without had subsequent delivery rates of 71.1, 68.9 and 69.0%, respectively. However, the rates of planned cesarean section in subsequent deliveries for those without shoulder dystocia, mild and severe were 1.3, 5.2 and 16.0%, respectively. On the maternal side the unadjusted inter-generational RR of recurrence was 2.82 (2.25-3.54) and 1.41 (1.05-1.90) on the paternal side. Corresponding adjusted RRs were 1.90 (1.51-2.40) and 1.19 (0.88-1.61), respectively. CONCLUSIONS: We found a strong recurrence risk of shoulder dystocia, especially severe, in subsequent deliveries in the same woman. The inter-generational recurrence risk was higher on the maternal than paternal side. Women with a history of shoulder dystocia had more often planned cesarean section."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: rnasequencingofumbilicalcordbloodtoinvestigatespontaneouspretermbirthapilotstudy2019vora
+"Objective To analyze the transcriptomic gene expression of umbilical cord blood leukocytes using RNA-sequencing from preterm birth (PTB) and term birth (TB). Study Design Eight women with spontaneous PTB (sPTB) and eight women with unlabored TB were enrolled prospectively. The sPTB and TB cohorts were matched for maternal age, race, mode of delivery, and fetal sex. Cord blood RNA was extracted and a globin depletion protocol was applied, then sequenced on the Illumina HiSeq 4000. Raw read counts were analyzed with DESeq2 to test for gene expression differences between sPTB and TB. Results 148 genes had significant differential expression ( q < 0.01). Cell cycle/metabolism gene expression was significantly higher and immune/inflammatory signaling gene expression significantly lower in the sPTB cohort compared with term. In African American (AA) infants, 18 genes specific to cell signaling, neutrophil activity, and major histocompatibility complex type 1 had lower expression in preterm compared with term cohort; the opposite pattern was seen in non-Hispanic Whites (NHWs). Conclusion Compared with term, preterm fetuses have higher cell cycle/metabolism gene expression, suggesting metabolic focus on growth and development. Immune function gene expression in this pilot study is lower in the sPTB group compared with term and differs in AA compared with NHW infants."""
+
+

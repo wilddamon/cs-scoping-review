@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonataloutcomesfollowingatrialoflaboraftercaesareandeliveryapopulationbasedstudy2018litwin
+"PURPOSE: To evaluate the neonatal effects of trial of labor after Caesarean (TOLAC) births. METHODS: We conducted a retrospective population-based cohort study using the CDC's Period Linked Birth/Infant Death Public Use File (2011-2013) on women with a live singleton pregnancy and prior Caesarean delivery. Multivariate logistic regression compared neonatal outcomes between women who underwent a TOLAC with women who did not. Secondary analysis compared outcomes of birth with uterine rupture to those without. RESULTS: A total of 1,036,554 births met inclusion criteria, of which 17.5% underwent TOLAC. Women who had a TOLAC were more likely to deliver infants requiring neonatal intensive care unit (NICU) admission (odds ratios (OR) 1.12, 95%CI 1.09-1.16) and assisted ventilation (OR 1.07, 95%CI 1.03-1.12). Among women with TOLAC, 0.18% of births were in context of a uterine rupture and those neonates had an increased risk of NICU admissions (OR 5.95, 95%CI 4.56-7.76), assisted ventilation (OR 8.89, 95%CI 6.73-11.75), seizures (OR 91.66, 95%CI 42.23-198.93), and death (OR 16.28, 95%CI 5.09-52.08). CONCLUSIONS: Neonatal morbidity appears slightly increased among women with a TOLAC. However, morbidity and mortality are considerably increased in cases of uterine rupture. Appropriate selection and counseling of women for TOLAC should be undertaken as to minimize uterine rupture risk."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incidenceofwoundcomplicationsaftercesareandeliveryissutureclosurebetter2017tierney
+"BACKGROUND: Wound complications (WC) following cesarean delivery (CD) result in significant morbidity. A randomized trial in 2013, which demonstrated lower WC rates with suture closure compared to staple closure, resulted in a practice change within our academic institution. OBJECTIVE: To determine the impact of this practice change on WC rates and identify other modifiable risk factors for WC. STUDY DESIGN: This is a retrospective cohort study of all women undergoing CD at the University of California, San Diego between 1 March 2011 and 28 February 2012 (primarily staple) and 1 March 2013 and 28 February 2014 (primarily suture). WC rates were compared between the two time intervals using Chi-square and Student's t-tests. Risk factors (OR, 95%CI) for WC were assessed using multiple logistic regression modeling. RESULTS: Of 1580 women delivered by CD, rates of WC were higher with staple closure compared to sutures (10.1% versus 4.5%; OR 2.4, 1.4-4.1). Additionally, WC were more likely with vertical skin incisions (OR 3.6, 1.6-8.1), CD for failed labor (OR 2.9, 1.1-7.4) and diabetes (OR 2.1, 1.4-3.9). CONCLUSIONS: After adjusting for confounders, there were over twofold increased odds of WC with staple closure. Vertical incisions, failed labor and diabetes also contributed to WC. Suture closure appears to decrease the risks of WC post CD."""
+
+

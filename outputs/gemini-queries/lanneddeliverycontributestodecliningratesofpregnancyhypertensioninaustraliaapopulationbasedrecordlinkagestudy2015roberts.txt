@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasedplanneddeliverycontributestodecliningratesofpregnancyhypertensioninaustraliaapopulationbasedrecordlinkagestudy2015roberts
+"OBJECTIVE: Since the 1990s, pregnancy hypertension rates have declined in some countries, but not all. Increasing rates of early planned delivery (before the due date) have been hypothesised as the reason for the decline. The aim of this study was to explore whether early planned delivery can partly explain the declining pregnancy hypertension rates in Australia. DESIGN: Population-based record linkage study utilising linked birth and hospital records. SETTING AND PARTICIPANTS: A cohort of 1,076,122 deliveries in New South Wales, Australia, 2001-2012. OUTCOME MEASURES: Pregnancy hypertension (including gestational hypertension, pre-eclampsia and eclampsia) was the main outcome; pre-eclampsia was a secondary outcome. RESULTS: From 2001 to 2012, pregnancy hypertension rates declined by 22%, from 9.9% to 7.7%, and pre-eclampsia by 27%, from 3.3% to 2.4% (trend p<0.0001). At the same time, planned deliveries increased: prelabour caesarean section by 43% (12.9-18.4%) and labour inductions by 10% (24.8-27.2%). Many maternal risk factors for pregnancy hypertension significantly increased (p<0.01) over the study period including nulliparity, age >=35 years, diabetes, overweight and obesity, and use of assisted reproductive technologies; some risk factors decreased including multifetal pregnancies, age <20 years, autoimmune diseases and previous pregnancy hypertension. Given these changes in risk factors, the pregnancy hypertension rate was predicted to increase to 10.5%. Examination of annual gestational age distributions showed that pregnancy hypertension rates actually declined from 38 weeks gestation and were steepest from 41 weeks; at least 36% of the decrease could be attributed to planned deliveries. The risk factors for pregnancy hypertension were also risk factors for planned delivery. CONCLUSIONS: It appears that an unanticipated consequence of increasing early planned deliveries is a decline in the incidence of pregnancy hypertension. Women with risk factors for hypertension were relatively more likely to be selected for early delivery."""
+
+

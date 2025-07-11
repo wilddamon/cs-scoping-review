@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalmorbidityafterearlypretermdelivery2328weeks2020romagano
+"BACKGROUND: Previous research has focused mainly on neonatal outcomes associated with preterm and periviable delivery, but maternal outcomes with preterm delivery are less well described.;OBJECTIVE: This study aimed to determine if early preterm delivery results in an increase in maternal morbidity.;STUDY DESIGN: This is a retrospective cohort study conducted at a tertiary care center over a 5-year time period. Subjects were women identified by review of neonatal intensive care unit admission logs. Women were included if they delivered between 23 0/7 and 28 6/7 weeks' gestation and their neonate was admitted to the neonatal intensive care unit. The prevalence of maternal morbidities was assessed, including blood transfusion, maternal infection, placental abruption, postpartum depression or positive depression screen, hemorrhage, and prolonged maternal postpartum hospitalization. A composite outcome comprising blood transfusion, maternal infectious morbidity, placental abruption, and postpartum depression was developed. Outcomes for women who delivered between 23 0/7 and 25 6/7 weeks' gestation (early group) and 26 0/7 and 28 6/7 weeks' gestation (late group) were compared. Multivariate logistic regression analysis was performed to evaluate contributors to the composite morbidity, controlling for confounding.;RESULTS: A total of 82 women met the inclusion criteria: 38 in the early group and 44 in the late group. Maternal demographics were similar between the groups. The early group was significantly more likely to experience composite maternal morbidity (60.5% vs 27.3%; P=.004) and infection (42.1% vs 13.6%; P=.006). Regression analysis determined that delivery at a later gestational age was associated with lower rates of composite morbidity (odds ratio, 0.6; 95% confidence interval, 0.41-0.83).;CONCLUSION: In this study, data suggest that maternal morbidity is higher with delivery at periviable gestational ages. Composite morbidity and maternal infection were more frequent in women who delivered at less than 26 weeks' gestation. The management of women at risk for delivery at early gestational ages should include a discussion of increased maternal complications. Copyright (c) 2020 Elsevier Inc. All rights reserved."""
+
+

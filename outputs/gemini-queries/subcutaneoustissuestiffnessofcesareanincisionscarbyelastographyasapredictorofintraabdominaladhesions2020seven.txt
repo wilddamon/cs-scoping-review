@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: subcutaneoustissuestiffnessofcesareanincisionscarbyelastographyasapredictorofintraabdominaladhesions2020seven
+"AIM: This study aimed to investigate whether subcutaneous tissue stiffness of the previous cesarean section (CS) skin incision could predict the severity of the intra-abdominal adhesions at a repeat CS. METHODS: In this prospective cross-sectional study, pregnant women with at least one prior cesarean delivery were included. The subcutaneous tissue stiffness of the previous CS skin scar was measured by shear wave elastography (SWE) on the day of the repeat CS and the intra-abdominal adhesions were recorded by an adhesion classification scheme specific for CS. Total adhesion score was classified as mild adhesion between 1 and 4, moderate adhesion between 5 and 12, and severe adhesion if >=13. RESULTS: Of the 102 women, 41 (40.2%) had no adhesions, 18 (17.6%) had mild adhesions, 26 (25.5%) had moderate adhesions and 17 (16.7%) had severe adhesions. The mean SWE measurements were significantly higher in the moderate and severe adhesion group than the non-adhesion and mild adhesion group (51.5 +- 25.3 vs 36.8 +- 22.6, P = 0.003). There was a statistically significant correlation between the preoperative SWE measurements and total adhesion scores (correlation coefficient [r] = 0.397, P < 0.001). In receiver-operator characteristics curve analysis, the cut-off value for moderate or severe adhesions was found to be 36.5 (area under curve = 0.710, %95 confidence interval 0.606-0.815; P < 0.001). With the cut-off point of >=36.5, the sensitivity and specificity for the prediction of mild and severe adhesions were 74.4% and 40.5%, respectively. CONCLUSION: Elastographic evaluation of the subcutaneous tissue stiffness of the cesarean incision scar might show the degree of intra-abdominal adhesions at a repeat CS."""
+
+

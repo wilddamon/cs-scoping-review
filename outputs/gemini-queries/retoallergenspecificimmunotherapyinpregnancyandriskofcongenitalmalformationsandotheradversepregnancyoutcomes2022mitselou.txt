@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exposuretoallergenspecificimmunotherapyinpregnancyandriskofcongenitalmalformationsandotheradversepregnancyoutcomes2022mitselou
+"BACKGROUND: Owing to insufficient data, current guidelines recommend against initiating allergen-specific immunotherapy (AIT) during pregnancy but suggest that well-tolerated ongoing immunotherapy may be continued. OBJECTIVE: To evaluate the safety of AIT in pregnancy, especially the risk for congenital malformations. METHODS: This nationwide Swedish cohort study identified pregnancies exposed to AIT, both subcutaneous and sublingual, through the Swedish Medical Birth register and the Prescribed Drug Register between 2005 and 2014. Information on congenital malformations in offspring was retrieved from the National Patient Register. Using the personal identity number, we linked data between registers. Using logistic regression, we calculated odds ratios (ORs) with 95% CIs for congenital malformations and other adverse pregnancy outcomes after adjusting for potential confounders. RESULTS: From 2005 to 2014, we identified 924,790 singleton pregnancies. Among these, 743 pregnancies had been exposed to AIT 3 months before conception up until gestational week 22. Allergen-specific immunotherapy in pregnancy was not linked to congenital malformations (OR = 0.90; 95% CI, 0.63-1.27) or other adverse pregnancy outcomes (preterm birth: OR = 0.98; 95% CI, 0.71-1.35; stillbirth: OR = 0.79; 95% CI, 0.26-2.47; or cesarean delivery: OR = 0.91; 95% CI, 0.76-1.09). Stratification by route of immunotherapy, subcutaneous or sublingual, resulted in similar ORs. Restricting the pregnancy cohort to women with asthma or pulmonary disease, nulliparous women, births in 2012 to 2014, or Swedish-born women yielded similar results. CONCLUSIONS: This nationwide study found no evidence of congenital malformations or other adverse pregnancy outcomes in women treated with AIT in pregnancy."""
+
+

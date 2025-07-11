@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluationoftheemergencyseverityindexversion4inpostpartumwomenaftercesareandelivery2022kawakita
+"OBJECTIVE: The Emergency Severity Index (ESI) version 4 is a 5-level triage system (1 being the highest acuity and 5 being the lowest acuity) used in the emergency department (ED). Our goal of the study was to compare rates of readmission according to ESI in postpartum women. STUDY DESIGN: This was a secondary analysis of a retrospective cohort study of all women who presented to the ED within 6 weeks after cesarean delivery. The acuity level was assigned by triage nurses at the time of triage presentation. Our primary outcome was postpartum readmission. To examine if the addition of blood pressure to vital sign abnormalities would improve the prediction for readmission, we created a modified ESI. We identified women who had an ESI of level 3 and reassigned to a modified ESI of level 2 if blood pressure was in the severe range. Receiver operating characteristic curves with area under the curve (AUC) were created and compared between ESI and modified ESI. RESULTS: Of 439 women, ESI distribution was 0.2% ESI 1, 23.7% ESI 2, 56.0% ESI 3, 19.4% ESI 4, and 0.7% ESI 5. Readmission rates by ESI level were 100% ESI 1, 47% ESI 2, 18% ESI 3, 2% ESI 4, and 0% ESI 5 (p < 0.001). Of 246 women who were assigned an ESI of 3, total 25 had severe range blood pressures and were reassigned to a modified ESI of 2. Of these 25 women, 14 were readmitted. The AUC of the modified ESI was statistically higher than that of the standard ESI (AUC: 0.77 and 95% confidence interval: 0.72-0.82 vs. AUC: 0.73 and 95% confidence interval: 0.68-0.78; p < 0.01). CONCLUSION: The ESI was a useful tool to identify women who required postpartum readmission. Incorporation of severe range blood pressure as a parameter of acuity improved the prediction of readmission. KEY POINTS: * ESI does not consider blood pressure.. * The ESI version 4 was predictive of postpartum readmission.. * Consideration of a severe range blood pressure significantly improved the prediction of readmission.."""
+
+

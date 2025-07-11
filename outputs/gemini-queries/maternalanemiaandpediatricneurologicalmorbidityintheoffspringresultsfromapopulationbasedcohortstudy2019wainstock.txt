@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalanemiaandpediatricneurologicalmorbidityintheoffspringresultsfromapopulationbasedcohortstudy2019wainstock
+"OBJECTIVE: Maternal anemia (Hemoglobin, <11 mg/dl) has been shown to affect fetal growth and pregnancy outcome. We aimed to study a possible association between maternal anemia and the risk for neurological morbidity in the offspring, during a follow-up period of up to 18 years. STUDY DESIGN: A population-based cohort analysis was performed at the Soroka University Medical Center (SUMC), a single regional tertiary center comparing total and specific subtypes of neurological morbidities associated with hospitalizations among children stratified by three maternal post-partum hemoglobin categories: >=11 mg/dl (no anemia); 11.0 mg/dl > Hb >= 7 mg/dl (mild-to-moderate anemia) and <7 mg/dl (severe anemia). Data on pregnancy course and outcome, and later offspring hospitalizations, were compared between the three study groups. All singleton deliveries between the years 1991-2014 were included in the analysis, and congenital malformations were excluded. A Kaplan-Meier survival curve was used to compare cumulative hospitalization incidence based on maternal anemia status, and a Weibull survival multivariable hazard model was constructed to adjust for confounding variables. RESULTS: The study population included 217,358 deliveries of which 50.6% were in mothers who were not anemic, 49.0% in mothers with moderate anemia and 0.4% in mothers with severe anemia. During the follow up period (0-18 years, median 10.22 years), 2.1% of offspring were hospitalized with a neurological diagnoses. Neurological hospitalization incidence decreased from 2.95/1000 person years, in the severe anemia group, to 2.32/1000 person years and 2.01/1000 person years, among the mild-to-moderate and no anemia groups, respectively (p = 0.007). The association between maternal anemia and offspring long-term pediatric neurological morbidity remained significant in a Weibull hazards model controlled for gestational age, delivery mode, SGA and insufficient prenatal care (adjusted HR 1.55; 1.05-2.31 and adjusted HR 1.13; 1.06-1.20; among the severe and mild-to-moderate anemia, vs. no anemia, respectively). CONCLUSION: Children born to anemic mothers are at an increased risk for pediatric neurological-related hospitalizations."""
+
+

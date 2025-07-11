@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesfollowinglaparoscopicandopensurgeryinpelvisduringpregnancyanationwidepopulationbasedstudyinkorea2021cho
+"BACKGROUND: Non-obstetric surgery during pregnancy is associated with adverse obstetric and fetal outcomes. The aim of this study was to investigate the risk of adverse pregnancy outcomes for women who underwent non-obstetric pelvic surgery during pregnancy compared with that of women that did not undergo surgery. METHODS: Study data from women who gave birth in Korea were collected from the Korea National Health Insurance claims database between 2006 and 2016. We identified pregnant women who underwent abdominal non-obstetric pelvic surgery by laparoscopy or laparotomy from the database. Pregnancy outcomes including preterm birth, low birth weight (LBW), cesarean section (C/S), gestational hypertension, gestational diabetes, and postpartum hemorrhage were identified. The adjusted hazard ratios (HRs) and 95% confidence intervals (CIs) for the pregnancy outcomes were estimated by multivariate regression models. RESULTS: Data from 4,439,778 women were collected for this study. From 2006-2016, 9,417 women from the initial cohort underwent non-obstetric pelvic surgery (adnexal mass resection, appendectomy) during pregnancy. Multivariate logistic regression analysis indicated that preterm birth (HR, 2.01; 95% CI, 1.81-2.23), LBW (HR, 1.62; 95% CI, 1.46-1.79), C/S (HR, 1.13; 95% CI, 1.08-1.18), and gestational hypertension (HR, 1.35; 95% CI, 1.18-1.55) were significantly more frequent in women who underwent non-obstetric surgery during pregnancy compared to pregnant women who did not undergo surgery. When the laparoscopic and laparotomy groups were compared for risk of fetal outcomes, the risk of LBW was significantly decreased in laparoscopic adnexal resection during pregnancy compared to laparotomy (odds ratio, 0.62; 95% CI, 0.40-0.95). CONCLUSION: Non-obstetric pelvic surgery during pregnancy was associated with a higher risk of preterm birth, LBW, gestational hypertension, placenta previa, placental abruption, and C/S. Although the benefits and safety of laparoscopy during pregnancy appear similar to those of laparotomy in regard to pregnancy outcomes, laparoscopic adnexal mass resection was associated with a lower risk of LBW."""
+
+

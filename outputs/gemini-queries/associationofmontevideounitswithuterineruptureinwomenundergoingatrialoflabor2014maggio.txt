@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofmontevideounitswithuterineruptureinwomenundergoingatrialoflabor2014maggio
+"OBJECTIVE: To determine if an association exists between Montevideo units (MVUs) and uterine rupture in women undergoing trial of labor after cesarean (TOLAC). STUDY DESIGN: A case-control study of women who underwent a TOLAC, comparing uterine rupture (n = 9) to successful vaginal birth after cesarean (VBAC) (n = 48) and failed TOLAC (n = 35). MVUs were calculated in 12 10-minute intervals prior to uterine rupture, cesarean delivery, or complete dilation in the VBAC group. MVUs were compared between groups by Wilcoxon rank sum test. The pattern of change of MVUs over time was examined by linear regression mixed models. RESULTS: The MVUs were similar among all groups (medians ranged from 140-175 [VBAC], 145-190 [TOLAC], and 130-195 [ruptures]). The analysis of pattern of change in MVUs over time demonstrated no difference within the VBAC group (p = 0.22) or the failed TOLAC group (p = 0.87), or between groups (VBAC and rupture [p = 0.56], failed TOLAC and rupture [p = 0.37]). A post-hoc power analysis showed a mean difference of 50 MVUs (SD 45) between VBAC and rupture and 55 MVUs (SD 45) between failed TOLAC and rupture can be detected with a power of 80% at a significance of 0.05. CONCLUSION: There is no association between MVUs and uterine rupture in women undergoing a TOLAC."""
+
+

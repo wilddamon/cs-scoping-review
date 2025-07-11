@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: placentaaccretaandmaternalmorbidityintherepublicofireland200520102014upson
+"OBJECTIVE: To describe the nationwide prevalence of placenta accreta and to quantify its impact on maternal morbidity.;METHODS: Using discharge data for public hospitals in Ireland, years 2005-2010, deliveries with placenta accreta were identified using ICD-10-AM code for morbidly adherent placenta and compared with deliveries without the condition. Adjusted odds ratios (aOR) and 95% confidence intervals (CI) were estimated using logistic regression.;RESULTS: Placenta accreta prevalence increased 34% from 2005 to 2010 (7.9/10 000 deliveries versus 10.6/10 000 deliveries). This condition was associated with a substantial increased risk of hemorrhage (aOR: 16.6, 95% CI: 13.4-20.5), hysterectomy (aOR: 950.6, 95% CI: 632.9-1427.9), procedures to reduce uterine blood flow (aOR: 72.4, 95% CI: 35.1-149.4), transfusion (aOR: 41.8, 95% CI: 33.4-52.2), anemia (aOR 15.1, 95% CI: 10.8-21.0), abdominal organ injury (aOR: 8.2, 95% CI: 5.2-13.1), bladder surgery (aOR: 38.5, 95% CI: 21.8-68.1), mechanical ventilation (aOR: 63.2, 95% CI: 28.4-140.6), intensive care unit admission (aOR: 41.3, 95% CI: 30.0-56.9), and co-existing placenta previa (aOR: 23.2, 95% CI: 16.8-31.8) as well as increased risk of cesarean section, longer hospitalization and stillbirth.;CONCLUSIONS: To our knowledge, this is the first study to use a comparison group of deliveries without placenta accreta and quantitatively illustrate with odds ratios the profound adverse health effects of this condition on the mother."""
+
+

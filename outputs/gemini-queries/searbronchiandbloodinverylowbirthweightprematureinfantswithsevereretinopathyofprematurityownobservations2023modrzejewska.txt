@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofpositivebacterialculturesobtainedfromthethroatanusearbronchiandbloodinverylowbirthweightprematureinfantswithsevereretinopathyofprematurityownobservations2023modrzejewska
+"Background: The causative factors responsible for the development of Retinopathy of Prematurity (ROP) are still unexplored. Therefore, one of the most important factors can be perinatal inflammation. Method(s): This retrospective study included 114 premature infants (228 eyes) meeting a birth criteria of <= 32 weeks gestational age (GA) and a birth weight (BW) <= 1710. Examined Group (EG) n = 51 of BW 852.7 +/- 255.7; GA 26.3 +/- 2.0 with severe ROP treated by diode laser or anti-VEGF intravitreal injection. Control Group (CG) n = 63 of BW 1313.9 +/- 284.5; GA 28.8 +/- 1.6 without ROP. Microbiological bacterial and fungal cultures of the ear, anus, bronchial throat and blood were taken. Medical data and laboratory tests in correlation to 3 ROP and A-ROP were analysed. Result(s): Positive bacterial tests dominated in EG, 47% vs. CG, 23%. Significant correlations between positive cultures obtained from natural cavities: anus (p < 0.001), throat (p = 0.002), as well as from blood (p = 0.001) and severe ROP which requires diode laser and anti-VEGF treatment were noted. Significant inflammation markers which correlate with the development of severe ROP are Klebsiella pneumoniae (KP) (p = 0.002) and Coagulase-negative Staphylococci (CoNS) (p < 0.001). CoNS, p < 0.001; KP, p = 0.002; the remaining Maltophilia stenotrophomonas (MS); Staphylococcus aureus (SA), p = 0.005; and Enterobacter cloacae (EC), p = 0.02 were the most frequent bacteria in severe ROP. High levels of white blood cells (WBC), C-reactive protein (CRP), lymphocytes (LYM) and low thrombocytes (PLT) correlated sequentially with (Odds Ratio, OR) CoNS (2.3); MS (5.9); KP (3.1); and all positive cultures (APC) (9.5). An important correlation between the BPD-EC (4.3); intrauterine inflammation-KP (3.4); PDA-EC (3.9); and asphyxia-CoNS (3.0) was identified. Conclusion(s): It cannot be ruled out that positive microbiological results of blood, anal and pharyngeal cultures may become prognostic markers for the early development of ROP, which would enable early initiation of ophthalmological treatment in premature infants from the VLBW group.Copyright (c) 2023 by the authors."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinatalcharacteristicsandbonecancerriskinoffspringascandinavianpopulationbasedstudy2014troisi
+"BACKGROUND: We investigated perinatal factors in relation to bone cancer subtypes, osteosarcoma (OS), Ewing Sarcoma (ES) and chondrosarcoma (CS). MATERIALS AND METHODS: All cases in Norway (1970-2009), Sweden (1974-2009) and Denmark (1980-2010)<43 years were included (n=914); 10 controls per case were selected from birth registries (which provided information on pregnancies) matched on birth country, sex and birth year (n=9140). Unconditional logistic regression models including sex and birth year were used to compute relative risk (RR) and 95% confidence intervals (CI). RESULTS: Higher maternal education was associated with a 40% increase in OS risk (95% CI 1-93%). The RR for OS was 3.22 (95% CI 1.37-7.59) comparing offspring of hypertensive mothers with those of mothers with a normotensive pregnancy, and Cesarean section was associated with a 29% risk reduction (95% CI 0-50%). When gestational age, birth weight and birth length were assessed simultaneously, there were no associations with any of the bone tumor subtypes. CONCLUSION: These results provided little evidence of an important role of pregnancy factors in the etiology of bone cancers. Higher maternal education may be associated with factors, possibly early nutrition or other correlates of socioeconomic status, that increase OS risk in offspring. The elevated OS risk associated with gestational hypertension and reduced risk associated with Cesarean section warrant replication."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: diminishingsurgicalsiteinfectionsinaustraliatimetrendsininfectionratespathogensandantimicrobialresistanceusingacomprehensivevictoriansurveillanceprogram200220132015worth
+"OBJECTIVE: To evaluate time trends in surgical site infection (SSI) rates and SSI pathogens in Australia. DESIGN: Prospective multicenter observational cohort study. SETTING: A group of 81 Australian healthcare facilities participating in the Victorian Healthcare Associated Infection Surveillance System (VICNISS). PATIENTS: All patients underwent surgeries performed between October 1, 2002, and June 30, 2013. National Healthcare Safety Network SSI surveillance methods were employed by the infection prevention staff at the participating hospitals. INTERVENTION: Procedure-specific risk-adjusted SSI rates were calculated. Pathogen-specific and antimicrobial-resistant (AMR) infections were modeled using multilevel mixed-effects Poisson regression. RESULTS: A total of 183,625 procedures were monitored, and 5,123 SSIs were reported. Each year of observation was associated with 11% risk reduction for superficial SSI (risk ratio [RR], 0.89; 95% confidence interval [CI], 0.88-0.90), 9% risk reduction for deep SSI (RR, 0.91; 95% CI, 0.90-0.93), and 5% risk reduction for organ/space SSI (RR, 0.95; 95% CI, 0.93-0.97). Overall, 3,318 microbiologically confirmed SSIs were reported. Of these SSIs, 1,174 (35.4%) were associated with orthopedic surgery, 827 (24.9%) with coronary artery bypass surgery, 490 (14.8%) with Caesarean sections, and 414 (12.5%) with colorectal procedures. Staphylococcus aureus was the most frequently identified pathogen, and a statistically significant increase in infections due to ceftriaxone-resistant Escherichia coli was observed (RR, 1.37; 95% CI, 1.10-1.70). CONCLUSIONS: Standardized SSI surveillance methods have been implemented in Victoria, Australia. Over an 11-year period, diminishing rates of SSIs have been observed, although AMR infections increased significantly. Our findings facilitate the refinement of recommended surgical antibiotic prophylaxis regimens and highlight the need for a more expansive national surveillance strategy to identify changes in epidemiology."""
+
+

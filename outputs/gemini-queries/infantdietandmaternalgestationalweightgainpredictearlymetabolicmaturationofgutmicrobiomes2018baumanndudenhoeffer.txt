@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: infantdietandmaternalgestationalweightgainpredictearlymetabolicmaturationofgutmicrobiomes2018baumanndudenhoeffer
+"Commensal gut bacterial communities (microbiomes) are predicted to influence human health and disease(1,2). Neonatal gut microbiomes are colonized with maternal and environmental flora and mature toward a stable composition over 2-3 years(3,4). To study pre- and postnatal determinants of infant microbiome development, we analyzed 402 fecal metagenomes from 60 infants aged 0-8 months, using longitudinal generalized linear mixed models (GLMMs). Distinct microbiome signatures correlated with breastfeeding, formula ingredients, and maternal gestational weight gain (GWG). Amino acid synthesis pathway accretion in breastfed microbiomes complemented normative breastmilk composition. Prebiotic oligosaccharides, designed to promote breastfed-like microflora(5), predicted functional pathways distinct from breastfed infant microbiomes. Soy formula in six infants was positively associated with Lachnospiraceae and pathways suggesting a short-chain fatty acid (SCFA)-rich environment, including glycerol to 1-butanol fermentation, which is potentially dysbiotic. GWG correlated with altered carbohydrate degradation and enriched vitamin synthesis pathways. Maternal and postnatal antibiotics predicted microbiome alterations, while delivery route had no persistent effects. Domestic water source correlates suggest water may be an underappreciated determinant of microbiome acquisition. Clinically important microbial pathways with statistically significant dietary correlates included dysbiotic markers(6,7), core enterotype features(8), and synthesis pathways for enteroprotective(9) and immunomodulatory(10,11) metabolites, epigenetic mediators(1), and developmentally critical vitamins(12), warranting further investigation."""
+
+

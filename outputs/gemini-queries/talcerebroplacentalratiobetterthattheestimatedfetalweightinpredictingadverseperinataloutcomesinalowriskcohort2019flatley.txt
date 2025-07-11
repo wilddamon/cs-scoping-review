@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isthefetalcerebroplacentalratiobetterthattheestimatedfetalweightinpredictingadverseperinataloutcomesinalowriskcohort2019flatley
+"OBJECTIVE: In high-risk pregnancies combining the cerebro-placental ratio (CPR) with the estimated fetal weight (EFW) improves the identification of vulnerable fetuses. The purpose of this study was to assess the CPR and EFW's ability to predict adverse obstetric and perinatal outcomes in a low-risk pregnancy, when measured late in gestation. METHODS: This was a retrospective study of women who birthed at Mater Mothers Hospitals, Brisbane, Australia between 2010 and 2015. We included all nonanomalous singleton pregnancies that had an ultrasound scan performed between 36 and 38 weeks gestation. Excluded was any major congenital abnormality, aneuploidy, multiple pregnancy, preterm birth, maternal hypertension, or diabetes. The primary outcome was a severe composite neonatal outcome (SCNO) defined as severe acidosis (umbilical cord artery pH <7.0, cord lactate >=6 mmol/L, cord base excess <=-12 mmol/L) Apgar score <=3 at 5 minutes, admission to the neonatal intensive care unit (NICU), and death. A low CPR was defined as <10th centile for gestation and small for gestational age (SGA) was defined as an EFW <10th centile and appropriate for gestational age (AGA) was defined as EFW >=10th centile. RESULTS: Of 2425 pregnancies, 13.2% (321/2425) had a fetus with a CPR <10th centile and 13.7% (332/2425) with an EFW <10th centile. Both a low CPR and SGA predicted the SCNO. Individually a low CPR and SGA had sensitivity for detection of SCNO of 23.3% and 24.7%, respectively which increased to 36.7% when combined. Both were associated with emergency caesarean for nonreassuring fetal status (NRFS), as well as early-term birth and admission to NICU. Stratifying the population into EFW <10th centile and EFW >=10th centile, a low CPR maintained its association with the SCNO, early-term birth and emergency caesarean for NRFS in the cohort with an EFW <10th centile but SCNO lost its association with a low CPR in the EFW >10th cohort. Stratifying the population into CPR <10th centile and CPR >10th centile, a low EFW was associated with early-term birth, induction of labor, admission to NICU, and the SCNO. CONCLUSIONS: In a low-risk cohort both the CPR and EFW individually and in combination predicts adverse obstetric and perinatal outcomes when measured late in pregnancy. However, the predictive value was enhanced when both were used in combination."""
+
+

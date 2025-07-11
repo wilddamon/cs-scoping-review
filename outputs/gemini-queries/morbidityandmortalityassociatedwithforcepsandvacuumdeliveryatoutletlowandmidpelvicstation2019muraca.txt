@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: morbidityandmortalityassociatedwithforcepsandvacuumdeliveryatoutletlowandmidpelvicstation2019muraca
+"OBJECTIVE: This study sought to quantify perinatal and maternal morbidity and mortality associated with forceps and vacuum delivery compared with Caesarean delivery in the second stage of labour and to estimate whether these associations differed by pelvic station. METHODS: The investigators conducted a population-based, retrospective cohort study of term singleton deliveries by operative delivery with prolonged second stage of labour in Canada (2003-2013) using national hospitalization data. The primary study outcomes were severe perinatal morbidity and mortality (i.e., seizures, assisted ventilation, severe birth trauma, and perinatal death) and severe maternal morbidity and mortality (i.e., severe postpartum hemorrhage, cardiac complication, and maternal death). Logistic regression was used to estimate adjusted odds ratios (aOR) and 95% confidence intervals (CI) after stratifying by indication (dystocia or fetal distress). The Breslow-Day chi-square test for heterogeneity in ORs was used to test effect modification by pelvic station (outlet, low, or midpelvic). RESULTS: There were 61 106 deliveries included in the study. Among women with dystocia, forceps and vacuum deliveries were associated with higher rates of perinatal morbidity and mortality compared with Caesarean delivery (forceps: aOR 1.56; 95% CI 1.13-2.17; vacuum: aOR 1.44; 95% CI 1.06-1.97). Vacuum delivery was associated with lower rates of maternal morbidity and mortality compared with Caesarean delivery (dystocia: aOR 0.64; 95% CI 0.51-0.81; fetal distress: aOR 0.43; 95% CI 0.32-0.57). Pelvic station did not significantly modify the associations between forceps or vacuum and perinatal or maternal morbidity and mortality. CONCLUSION: Forceps and vacuum delivery is associated with increased rates of severe perinatal morbidity and mortality compared with Caesarean delivery among women with dystocia, whereas vacuum delivery is associated with decreased rates of severe maternal morbidity and mortality."""
+
+

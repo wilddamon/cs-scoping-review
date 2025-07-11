@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thecorrelationbetweenneonatalvitamindlevelsandtheriskofchildhoodasthmaattacks2021li
+"BACKGROUND: To explore the correlation between neonatal vitamin D levels and the risk of asthma in children aged 3-9 years. METHODS: A total of 1,534 subjects were selected, and clinical and laboratory test data of all subjects were collected at birth, including 25-hydroxyvitamin D3 [25(OH)D3] levels, gender, season of birth, birth weight; whether delivery was premature, cesarean section, or primipara; and parental details including maternal age, ethnicity, level of education, history of smoking, and history of maternal or paternal asthma. The level of 25(OH)D3 was used as a continuous variable to analyze its correlation with the risk of asthma using the Cox proportional regression model. In addition, subjects were divided into four groups according to their 25(OH)D3 quartiles, and the first quantile group was used as a reference to analyze the risk of asthma in the other groups. Further subgroup analysis was conducted according to the patients' gender and birth season. RESULTS: Among the 1,534 subjects included, there were 107 cases in the asthma-affected group and 1,427 cases in the normal control group. Compared with the control group, the level of 25(OH)D3 in the asthma group was significantly lower (P=0.03), the mother's education level was lower (P=0.002), but the preterm birth rate, cesarean section rate, and parental asthma prevalence rate were significantly higher (all P<0.05). When the neonatal 25(OH)D3 was divided into quartiles to perform a categorical variable analysis, we found that compared with the first quantile (Q1, 0.0-25.1 mmol/L), the risk of asthma in Q4 was reduced by 50% (HR=0.50, 95% CI: 0.38-0.76). The second quantile group (Q2) and the third quantile group (Q3) showed no significant difference in the risk of disease compared with Q1 but showed a trend of decreasing risk as the quantile group increased (the trend P values were both <0.05). This correlation was still valid when a stratified analysis was made based on gender and birth season. CONCLUSIONS: There is a significant correlation between a reduced vitamin D level in newborns and the subsequent risk of asthma in children aged 3-9 years. Moreover, the level of vitamin D is an independent risk factor for childhood asthma."""
+
+

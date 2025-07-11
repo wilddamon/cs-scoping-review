@@ -6,7 +6,7 @@ import time
 
 from google import genai
 
-import gemini.api_keys
+import api_keys
 
 
 BASE_QUERY = """
@@ -19,10 +19,18 @@ Analyse these academic abstracts and output in JSON format using the following k
 "finding" (a 1-sentence summary of the primary finding),
 "mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
 "country" (the country that the study was performed in, or N/A if not specified).
-"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
 "followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
 "birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
 """
+
+
+def id_for_filename(s):
+    result = "".join(x for x in s if x.isalnum())
+    if len(result) > 120:
+        result = result[-120:]
+    return result
 
 
 def generate_query(abstracts, index):
@@ -62,19 +70,29 @@ def send_query(client, query, save_path, index):
 
 def send_queries(
     client,
+    query_folder,
     response_folder,
     wait_seconds=10,
 ):
     abstracts = pandas.read_csv("outputs/basic-processing/merged-abstracts.csv")
-    #abstracts = pandas.read_csv("outputs/basic-processing/test.csv")
     for i in range(len(abstracts)):
-        # Exists - skip.
-        path = f"{response_folder}/gemini-response-{i}.json"
-        if os.path.exists(path) or os.path.exists(f"outputs/gemini-responses/new-responses/gemini-response-{i}.json"):
-            continue
+        escaped_fname = id_for_filename(abstracts.iloc[i]["dedup_index"])
+        result_path = f"{response_folder}/{escaped_fname}.json"
+        query_path = f"{query_folder}/{escaped_fname}.txt"
 
+        if os.path.exists(query_path):
+            # Query likely in progress - skip
+            continue
         query = generate_query(abstracts, i)
-        send_query(client, query, path, i)
+        with open(query_path, "w") as f:
+            f.write(query)
+
+        send_query(
+            client,
+            query,
+            result_path,
+            i,
+        )
 
         print(f"Waiting for {wait_seconds} seconds.")
         time.sleep(wait_seconds)
@@ -83,9 +101,7 @@ def send_queries(
 def main():
     client = genai.Client(api_key=api_keys.GEMINI_KEY)
 
-    send_queries(
-        client, "outputs/gemini-responses", wait_seconds=0
-    )
+    send_queries(client, "outputs/gemini-queries", "outputs/gemini-responses", wait_seconds=0)
 
 
 if __name__ == "__main__":

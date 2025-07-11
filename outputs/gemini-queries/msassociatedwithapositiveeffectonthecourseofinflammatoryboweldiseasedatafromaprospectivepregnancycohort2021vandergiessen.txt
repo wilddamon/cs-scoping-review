@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: afirstpregnancyseemsassociatedwithapositiveeffectonthecourseofinflammatoryboweldiseasedatafromaprospectivepregnancycohort2021vandergiessen
+"Objectives: The effect of pregnaSSncy on the course of inflammatory bowel disease (IBD) remains controversial. We aimed to describe the disease course before and after a first pregnancy in IBD patients.Methods: We analyzed data from a prospectively followed-up pregnancy cohort (minimal follow-up of 7 years), with clinical, biochemical and endoscopic characteristics obtained pre-pregnancy, during pregnancy and post-pregnancy. Possible factors associated with relapse (disease activity during pregnancy, maternal age, smoking, alcohol use, pre-pregnancy BMI, mode of delivery, thiopurine use during pregnancy, biological use during pregnancy, combination of thiopurine and biological use during pregnancy, breastfeeding, IBD diagnosis, endoscopic scores) were scored.Results: One hundred twenty six patients (95 Crohn's Disease [CD; 75%] and 31 Ulcerative Colitis/IBD unclassified [UC/IBD-U; 25%]) were enrolled, with one hundred pregnancies occurring in 100 primigravida patients. All pregnancies resulted in live birth. Twenty patients (20%) had a relapse during pregnancy. The median number of relapses/patient/year was 0.25 (IQR 0.5) and 0 (IQR 0.43) respectively before and after pregnancy (p = .00). For CD patients the median relapses/person/year was 0.25 (IQR 0.5) before and 0 (IQR 0.25) after delivery (p = .00), for UC/IBD-U patients there was no significant difference. In the post-partum period more UC patients relapsed compared to CD patients (68% vs 30.7%, p = .01). Seven-year IBD-course was unchanged in the 26 women who did not become pregnant.Conclusion: In this prospective observational cohort study, we found a lower rate of relapses in the 4 years after delivery compared to the 3 years prior to a first pregnancy. Post-partum, more UC patients experienced a relapse compared to CD patients."""
+
+

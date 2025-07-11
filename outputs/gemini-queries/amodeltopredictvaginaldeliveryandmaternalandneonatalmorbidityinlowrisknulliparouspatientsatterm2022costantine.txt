@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: amodeltopredictvaginaldeliveryandmaternalandneonatalmorbidityinlowrisknulliparouspatientsatterm2022costantine
+"OBJECTIVE: This study aimed to develop and validate a model to predict the probability of vaginal delivery (VD) in low-risk term nulliparous patients, and to determine whether it can predict the risk of severe maternal and neonatal morbidity. METHODS: Secondary analysis of an obstetric cohort of patients and their neonates born in 25 hospitals across the United States (n = 115,502). Trained and certified research personnel abstracted the maternal and neonatal records. Nulliparous patients with singleton, nonanomalous vertex fetuses, admitted with an intent for VD >= 37 weeks were included in this analysis. Patients in active labor (cervical exam > 5 cm), those with prior cesarean and other comorbidities were excluded. Eligible patients were randomly divided into a training and test sets. Based on the training set, and using factors available at the time of admission for delivery, we developed and validated a logistic regression model to predict the probability of VD, and then estimated the prevalences of severe morbidity according to the predicted probability of VD. RESULTS: A total of 19,611 patients were included. Based on the training set (n = 9,739), a logistic regression model was developed that included maternal age, body mass index (BMI), cervical dilatation, and gestational age on admission. The model was internally validated on the test set (n = 9,872 patients) and yielded a receiver operating characteristic-area under the curve (ROC-AUC) of 0.71 (95% confidence interval [CI]: 0.70-0.72). Based on a subset of 18,803 patients with calculated predicted probabilities, we demonstrated that the prevalences of severe morbidity decreased as the predicted probability of VD increased (p < 0.01). CONCLUSION: In a large cohort of low-risk nulliparous patients in early labor or undergoing induction of labor, at term with singleton gestations, we developed and validated a model to calculate the probability of VD, and maternal and neonatal morbidity. If externally validated, this calculator may be clinically useful in helping to direct level of care, staffing, and adjustment for case-mix among various systems. KEY POINTS: * A model to predict the probability of vaginal delivery in low-risk nulliparous patients at term.. * The model also predicts the risk of severe maternal and neonatal morbidity.. * The prevalences of severe morbidity decrease as the probability of vaginal delivery increases.."""
+
+

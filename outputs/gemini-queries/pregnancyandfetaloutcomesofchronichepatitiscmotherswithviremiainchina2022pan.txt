@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyandfetaloutcomesofchronichepatitiscmotherswithviremiainchina2022pan
+"BACKGROUND: Data that assess maternal and infant outcomes in hepatitis C virus (HCV)-infected mothers are limited. AIM: To investigate the frequency of complications and the associated risk factors. METHODS: We performed a cohort study to compare pregnancy and fetal outcomes of HCV-viremic mothers with those of healthy mothers. Risk factors were analyzed with logistic regression. RESULTS: Among 112 consecutive HCV antibody-positive mothers screened, we enrolled 79 viremic mothers. We randomly selected 115 healthy mothers from the birth registry as the control. Compared to healthy mothers, HCV mothers had a significantly higher frequency of anemia [2.6% (3/115) vs 19.0% (15/79), P < 0.001] during pregnancy, medical conditions that required caesarian section [27.8% (32/115) vs 48.1% (38/79), P = 0.004], and nuchal cords [9.6% (11/115) vs 34.2% (27/79), P < 0.001]. In addition, the mean neonatal weight in the HCV group was significantly lower (3278.3 +- 462.0 vs 3105.1 +- 459.4 gms; P = 0.006), and the mean head circumference was smaller (33.3 +- 0.6 vs 33.1 +- 0.7 cm; P = 0.03). In a multivariate model, HCV-infected mothers were more likely to suffer anemia [adjusted odds ratio (OR): 18.1, 95% confidence interval (CI): 4.3-76.6], require caesarian sections (adjusted OR: 2.6, 95%CI: 1.4-4.9), and have nuchal cords (adjusted OR: 5.6, 95%CI: 2.4-13.0). Their neonates were also more likely to have smaller head circumferences (adjusted OR: 2.1, 95%CI: 1.1-4.3) and lower birth weights than the average (<= 3250 gms) with an adjusted OR of 2.2 (95%CI: 1.2-4.0). The vertical transmission rate was 1% in HCV-infected mothers. CONCLUSION: Maternal HCV infections may associate with pregnancy and obstetric complications. We demonstrated a previously unreported association between maternal HCV viremia and a smaller neonatal head circumference, suggesting fetal growth restriction."""
+
+

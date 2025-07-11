@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsassociatedwithdevelopmentofacuteandsubacutepostcesareanpainaprospectivecohortstudy2020chan
+"BACKGROUND: Although cesarean delivery is one of the most commonly performed surgical procedures, robust data regarding post-cesarean pain is still lacking. Recent studies showed an association between pain upon local anesthetic (LA) injection for spinal anesthesia, or the use of a 'three simple questions', and acute post-cesarean pain. Nevertheless, these assessments have yet to be validated further, despite their relative ease of use. We aimed to assess the association between pain score upon LA injection with acute post-cesarean pain after 24 hours at rest (primary outcome) and sub-acute post-cesarean pain lasting for 4 weeks or more (secondary outcome). METHODS: Women undergoing cesarean delivery under spinal anesthesia were given pre-operative questionnaires on pain and psychological vulnerability. We also assessed the pain score upon LA injection and mechanical temporal summation. Univariate and multivariable logistic regressions were performed. RESULTS: The incidence of moderate-to-severe acute post-cesarean pain at 24 hours was 21.0% (95% CI=16.6-27.6%) (48 of 217 patients). Pain score upon LA injection was not significantly associated with acute post-cesarean pain after 24 hours at rest (unadjusted OR=1.10, 95% CI=0.95-1.27, P=0.21). However, pain score upon LA injection was significantly associated with sub-acute post-cesarean pain (adjusted OR=1.29, 95% CI=1.07-1.55, P=0.0089) with significant covariate of increased pre-operative central sensitization inventory (CSI) scores (adjusted OR=1.05, 95% CI=1.01-1.09, P=0.0111; area under the curve (AUC)=0.691). CONCLUSION: There was no association between increased pain score upon LA injection and acute post-cesarean pain, but it was associated with sub-acute post-cesarean pain. Further work is needed to define pain score upon LA injection as a convenient pragmatic measure of risk stratifying patients predisposed to sub-acute post-cesarean pain."""
+
+

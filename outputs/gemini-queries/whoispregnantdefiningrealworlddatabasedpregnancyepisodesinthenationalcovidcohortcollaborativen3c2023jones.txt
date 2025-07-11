@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: whoispregnantdefiningrealworlddatabasedpregnancyepisodesinthenationalcovidcohortcollaborativen3c2023jones
+"Objectives: To define pregnancy episodes and estimate gestational age within electronic health record (EHR) data from the National COVID Cohort Collaborative (N3C). Material(s) and Method(s): We developed a comprehensive approach, named Hierarchy and rule-based pregnancy episode Inference integrated with Pregnancy Progression Signatures (HIPPS), and applied it to EHR data in the N3C (January 1, 2018-April 7, 2022). HIPPS combines: (1) an extension of a previously published pregnancy episode algorithm, (2) a novel algorithm to detect gestational age-specific signatures of a progressing pregnancy for further episode support, and (3) pregnancy start date inference. Clinicians performed validation of HIPPS on a subset of episodes. We then generated pregnancy cohorts based on gestational age precision and pregnancy outcomes for assessment of accuracy and comparison of COVID-19 and other characteristics. Result(s): We identified 628 165 pregnant persons with 816 471 pregnancy episodes, of which 52.3% were live births, 24.4% were other outcomes (stillbirth, ectopic pregnancy, abortions), and 23.3% had unknown outcomes. Clinician validation agreed 98.8% with HIPPS-identified episodes. We were able to estimate start dates within 1 week of precision for 475 433 (58.2%) episodes. 62 540 (7.7%) episodes had incident COVID-19 during pregnancy. Discussion(s): HIPPS provides measures of support for pregnancy-related variables such as gestational age and pregnancy outcomes based on N3C data. Gestational age precision allows researchers to find time to events with reasonable confidence. Conclusion(s): We have developed a novel and robust approach for inferring pregnancy episodes and gestational age that addresses data inconsistency and missingness in EHR data.Copyright (c) The Author(s) 2023."""
+
+

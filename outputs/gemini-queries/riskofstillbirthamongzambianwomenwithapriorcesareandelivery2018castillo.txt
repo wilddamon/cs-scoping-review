@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofstillbirthamongzambianwomenwithapriorcesareandelivery2018castillo
+"OBJECTIVE: Cesarean delivery (CD) may be associated with stillbirth in future pregnancies. We investigated prior CD as a risk factor for stillbirth in Lusaka, Zambia. METHODS: We conducted a retrospective cohort analysis of women with only one prior pregnancy who delivered between February 1, 2006, and May 31, 2013. We analysed data from the Zambia Electronic Perinatal System. Maternal and infant characteristics were analyzed for association with stillbirth using Pearson's kh(2) test or the Wilcoxon rank-sum test. We calculated risk ratios for the relationship between stillbirth (antepartum vs intrapartum) and prior CD, with a log Poisson model to adjust for confounding. RESULTS: Of 57 320 women in our cohort, 1933 (3.4%) reported a prior CD. There were 1012 (1.8%) stillbirths in the no prior CD group and 81 (4.2%) in the prior CD group (P<0.001). In multivariate models adjusting for stillbirth risk factors, prior CD was associated with antepartum (adjusted risk ratio 1.56, 95% confidence interval 1.08-2.24) and intrapartum (adjusted risk ratio 3.26, 95% confidence interval 2.40-4.42) stillbirth compared with no prior CD. The difference between groups was most apparent at 36-37 weeks' gestation (log-rank P<0.001). CONCLUSION: Prior CD was associated with increased risk of stillbirth. Improved monitoring during labor and safe methods for induction are urgently needed in low-resource settings."""
+
+

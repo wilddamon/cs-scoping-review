@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofparticipationinasurgicalsiteinfectionsurveillancenetworkresultsfromalargeinternationalcohortstudy2019abbas
+"BACKGROUND: Surveillance of surgical site infections (SSIs) is a core component of effective infection control practices, though its impact has not been quantified on a large scale. AIM: To determine the time-trend of SSI rates in surveillance networks. METHODS: SSI surveillance networks provided procedure-specific data on numbers of SSIs and operations, stratified by hospitals' year of participation in the surveillance, to capture length of participation as an exposure. Pooled and procedure-specific random-effects Poisson regression was performed to obtain yearly rate ratios (RRs) with 95% confidence intervals (CIs), and including surveillance network as random intercept. FINDINGS: Of 36 invited networks, 17 networks from 15 high-income countries across Asia, Australia and Europe participated in the study. Aggregated data on 17 surgical procedures (cardiovascular, digestive, gynaecological-obstetrical, neurosurgical, and orthopaedic) were collected, resulting in data concerning 5,831,737 operations and 113,166 SSIs. There was a significant decrease in overall SSI rates over surveillance time, resulting in a 35% reduction at the ninth (final) included year of surveillance (RR: 0.65; 95% CI: 0.63-0.67). There were large variations across procedure-specific trends, but strong consistent decreases were observed for colorectal surgery, herniorrhaphy, caesarean section, hip prosthesis, and knee prosthesis. CONCLUSION: In this large, international cohort study, pooled SSI rates were associated with a stable and sustainable decrease after joining an SSI surveillance network; a causal relationship is possible, although unproven. There was heterogeneity in procedure-specific trends. These findings support the pivotal role of surveillance in reducing infection rates and call for widespread implementation of hospital-based SSI surveillance in high-income countries."""
+
+

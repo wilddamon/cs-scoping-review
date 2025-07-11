@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalconcentrationsofhumanchorionicgonadotrophininveryearlyivfpregnanciesanddurationofpregnancyafollowupstudy2018tanbo
+"RESEARCH QUESTION: Are maternal concentrations of human chorionic gonadotropin (HCG) on a fixed day after embryo transfer associated with duration of pregnancy?;DESIGN: A follow-up study of 1917 singleton pregnancies after IVF was performed. Embryos were cultured for 2 days and maternal HCG concentration quantified on day 12 after embryo transfer. Duration of pregnancy was obtained from the Medical Birth Registry of Norway. Association of HCG concentration (log2-transformed) with duration of pregnancy was estimated as hazard ratios (HR) with 95% confidence intervals (CI) by applying Cox regression proportional hazard models, where time to delivery for pregnancies shortened because of planned Caesarean delivery or induction of labour was treated as censored.;RESULTS: The estimated median duration of pregnancy from embryo transfer was 266 days (95% CI 266-267 days). Maternal concentration of HCG on day 12 after embryo transfer varied from 1 to 588 IU/l (median 117 IU/l). Duration of pregnancy decreased by increasing HCG concentration, significantly in pregnancies delivered at full term ((257-270 days after embryo transfer; HR 1.127, 95% CI 1.026-1.238, P = 0.012). For each doubling of HCG concentration on day 12 after embryo transfer, duration of pregnancy was shortened by 0.51 days. Adjustment for maternal age, prepregnancy body mass index, being a first-time mother and number of embryos transferred did not change the association.;CONCLUSION: High maternal HCG concentration on a fixed day after embryo transfer is likely to indicate early embryo implantation. After embryo transfer, pregnancies with early implantation are shorter than pregnancies with late implantation. Copyright (c) 2018 The Authors. Published by Elsevier Ltd.. All rights reserved."""
+
+

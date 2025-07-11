@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lowantithrombinlevelsaccompaniedbyhighurineproteincreatinineratiosarepredictiveofacutekidneyinjuryamongcspatientswithpreeclampsia2021samejima
+"OBJECTIVES: Previous acute kidney injury (AKI) is reportedly a risk factor for future preeclampsia (PE), and PE in current pregnancies may trigger the onset of AKI. In this study, we identified risk factors for AKI among Cesarean section (CS) patients with PE. METHODS: We performed a retrospective study at a single center. Among 4602 deliveries between January 2017 and July 2018, 944 women underwent CS. Of these, 90 women had hypertensive disorders during their pregnancies, with 53 diagnoses of PE and 37 diagnoses of gestational hypertension. Medical records of the 90 women were reviewed retrospectively. RESULTS: The rate of AKI was significantly higher in the PE group than in the GH group (17 versus 3%, p < .05). Univariate analyses of the PE group identified low preoperative serum albumin levels, low antithrombin III (ATIII) activities, and urine protein/creatinine ratios (U-P/Cr) as significant predictors of AKI. Cutoff values for these factors were calculated using ROC analyses, and the combination of ATIII and U-P/Cr, which were poorly correlated, was predictive of AKI. Specifically, the proportion of AKI in patients with low ATIII-high U-P/Cr was 50% (7/14), higher than that among patients with high ATIII-low U-P/Cr (0%, 0/19, p < .05), low ATIII-low U-P/Cr (10%, 1/10, p < .05), and high ATIII-high U-P/Cr (10%, 1/10, p < .05). CONCLUSIONS: These data demonstrate that lower preoperative serum albumin levels, ATIII activities, and heavy proteinuria among CS patients with PE are risk factors for AKI."""
+
+

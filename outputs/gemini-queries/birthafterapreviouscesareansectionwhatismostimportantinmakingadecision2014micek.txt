@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthafterapreviouscesareansectionwhatismostimportantinmakingadecision2014micek
+"OBJECTIVE: A retrospective analysis of the course of labour in patients after one caesarean section (CS) and of factors influencing successful attempt of vaginal birth after caesarean (VBAC). DESIGN: A group of 296 patients after one CS was divided into: group G1 (206 patients) - elective CS, group G2 (90) - VBAC attempt, and G2 to: G2a (35) - VBAC and G2b (55) - CS after an unsuccessful VB attempt. A comparative analysis between the groups and logistic regression analysis of factors influencing a successful VBAC was made. RESULTS: There were no differences regarding age, BMI, weight gain during pregnancy or gestational age between groups G1 and G2, as well as G2a and G2b. G2a patients had more often already given VB previously (28.6% vs 10.9%; p=0.03). The most frequent indication for a repeat elective CS was the lack of informed consent for VBAC (29.13% of all indications). The mean neonatal birthweight was highest in G1 (3 410 g), and in G2b higher than in G2a (3 275 g vs 3 098 g; p=0.009). There were no differences in newborns' general condition between the group. There were no cases of uterine rupture and 4 cases of uterine scar dehiscence in G1 and 1 in G2. Of all the analysed factors only spontaneous delivery onset (OR 7.78) and previous vaginal birth after the caesarean (OR 1.99) or before the caesarean (OR 2.03) had significant influence on successful VBAC trial. CONCLUSION: The right classification of patients is a significant factor having effect on the success of a VB attempt after CS."""
+
+

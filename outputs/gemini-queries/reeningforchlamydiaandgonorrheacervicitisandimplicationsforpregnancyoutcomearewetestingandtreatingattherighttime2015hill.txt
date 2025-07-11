@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: screeningforchlamydiaandgonorrheacervicitisandimplicationsforpregnancyoutcomearewetestingandtreatingattherighttime2015hill
+"OBJECTIVE: To evaluate the effect of gonorrheal and chlamydial cervicitis (GCC) on the risk of preterm labor (PTL) and preterm premature rupture of membranes (PPROM). STUDY DESIGN: A large cross-sectional sample of patients (N = 1,120) was studied. Data on samples for GCC and pregnancy outcome were entered into a database from a retrospective chart review. RESULTS: There were 1,120 pregnancies with adequate data for analysis. Of those pregnancies 933 were unaffected by GCC, and 187 were affected. The rates of preterm delivery were 17.79% and 16.58% for GCC-negative and GCC-positive pregnancies, respectively. PPROM occurred in 3.97% and 2.67% of GCC-negative and GCC-positive pregnancies, respectively. PTL occurred in 8.25% and 8.02% of GCC-negative and GCC-positive pregnancies, respectively. No outcomes met statistical significance. When pregnancy outcomes were analyzed by trimester of infection, there was a higher risk of preterm delivery but not preterm labor with earlier infection. This did meet statistical significance. There was a trend towards lower rate of cesarean section in the infected group of patients, which did not meet statistical significance. CONCLUSION: Maternal infection with gonorrhea and/or chlamydia is not associated with PPROM or PTL."""
+
+

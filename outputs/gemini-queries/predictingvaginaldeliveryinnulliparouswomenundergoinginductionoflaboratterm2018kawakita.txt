@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingvaginaldeliveryinnulliparouswomenundergoinginductionoflaboratterm2018kawakita
+"OBJECTIVE: We sought to develop a model to calculate the likelihood of vaginal delivery in nulliparous women undergoing induction at term.;STUDY DESIGN: We obtained data from the Consortium on Safe Labor by including nulliparous women with term singleton pregnancies undergoing induction of labor at term. Women with contraindications for vaginal delivery were excluded. A stepwise logistic regression analysis was used to identify the predictors associated with vaginal delivery by considering maternal characteristics and comorbidities and fetal conditions. The receiver operating characteristic curve, with an area under the curve (AUC) was used to assess the accuracy of the model.;RESULTS: Of 10,591 nulliparous women who underwent induction of labor, 8,202 (77.4%) women had vaginal delivery. Our model identified maternal age, gestational age at delivery, race, maternal height, prepregnancy weight, gestational weight gain, cervical exam on admission (dilation, effacement, and station), chronic hypertension, gestational diabetes, pregestational diabetes, and abruption as significant predictors for successful vaginal delivery. The overall predictive ability of the final model, as measured by the AUC was 0.759 (95% confidence interval, 0.749-0.770).;CONCLUSION: We identified independent risk factors that can be used to predict vaginal delivery among nulliparas undergoing induction at term. Our predictor provides women with additional information when considering induction. Copyright Thieme Medical Publishers 333 Seventh Avenue, New York, NY 10001, USA."""
+
+

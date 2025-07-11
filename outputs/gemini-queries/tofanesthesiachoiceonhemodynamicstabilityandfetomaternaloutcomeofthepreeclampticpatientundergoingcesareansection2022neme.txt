@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofanesthesiachoiceonhemodynamicstabilityandfetomaternaloutcomeofthepreeclampticpatientundergoingcesareansection2022neme
+"BACKGROUND: The main aim of this study is to compare hemodynamic stability and feto-maternal outcome between general and spinal anesthesia in pre-eclampsia patients undergoing C/S. METHODS: A prospective cohort study was used with a calculated sample size of 266. Comparison of numerical variables between study groups was done using unpaired student t-test and Manny Whitney U test for symmetric and asymmetric data respectively. A P-value <0.05 considered significant. RESULT: There is a comparable distribution of socio-demographic, obstetric variables, and baseline hemodynamic variables between groups. The change in a hemodynamic variable from baseline and during the first 24 h was also comparable between groups. The numbers of ICU admission were comparable between groups (8.03% vs. 10.41%, p = 0.549) in spinal and general anesthesia groups respectively. With regards to hospital stay patients in general anesthesia groups had longer hospital stay 5.92 days compared to 4.67 days in the spinal anesthesia group, with a statistically significant difference,(p = 0.024). The Spinal anesthesia group showed lower maternal mortality 2.6% compared to 14.8% in the general anesthesia group during the first 48th hour (p = 0.027). At the first 48 h only 7.14% of neonates in the spinal anesthesia group, and 16.6% o in the general anesthesia group had reported dead (p = 0.315). CONCLUSION: Spinal anesthesia (SA) was alternative to general anesthesia regarding hemodynamic stability. Regarding maternal outcome, SA overall shows a better maternal outcome during the first 48 h. The numbers of ICU admission were comparable between groups. The SA group showed lower maternal mortality at the 48th hr."""
+
+

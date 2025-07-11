@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofinflationarynoninvasivebloodpressureinibpmonitoringtechnologyandconventionaldeflationarynoninvasivebloodpressurednibpmeasurementindetectinghypotensionduringcesareansection2018yamashita
+"BACKGROUND: The Nihon Kohden linear inflationary non-invasive blood pressure (iNIBP) monitoring technology is an oscillometric device that measures blood pressure by detecting oscillations during inflation. Systolic blood pressure can be recorded without overinflating the cuff higher than the true systolic pressure. Thus, total time taken for inflation and deflation is shorter than that by the conventional deflation devices. In this study, the ability of iNIBP to detect maternal hypotension during cesarean section faster than deflationary non-invasive blood pressure (dNIBP) monitoring devices under clinical settings was evaluated prospectively. METHODS: A prospective study of singleton planned cesarean sections at a tertiary center was conducted from August 2015 to April 2016. The combined spinal-epidural anesthesia (CSEA) technique through a single puncture was performed for cesarean section at the center where the study was carried out. An iNIBP cuff was placed on the same arm as the intravenous line, and a dNIBP cuff was placed on the other arm. Due to left uterine displacement by approximately 10deg tilt of OR table, hypotension in this study was defined as systolic pressure of 107 mmHg or less, when measured in the left arm, which was about 10 cm lower, and pressure of 92 mmHg or less in the right arm which was about 10 cm higher. This setup was done to evaluate which device detected hypotension faster under clinical settings. A two-tailed Z test was performed to statistically analyze the difference between iNIBP and dNIBP measurement results. RESULTS: One hundred singleton planned cesarean deliveries under CSEA were included after 36 weeks of gestation. Out of the 100, 76 women (76%) experienced maternal hypotension. Of these, iNIBP detected hypotension faster than dNIBP in 47 cases (61.8%). CONCLUSION: It was found that iNIBP detected hypotension faster than conventional dNIBP without compromising the reliability of measurement. This may lead to early treatment of maternal hypotension and prevention of adverse events related to the mother and the fetus."""
+
+

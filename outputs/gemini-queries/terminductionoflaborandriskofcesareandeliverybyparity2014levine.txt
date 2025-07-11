@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: terminductionoflaborandriskofcesareandeliverybyparity2014levine
+"OBJECTIVE: To evaluate the risk of cesarean delivery among both nulliparous and multiparous women undergoing a term induction of labor compared to women that present in spontaneous labor at term. METHODS: We performed a retrospective cohort study of term (>=37 weeks) singleton pregnancies between 2005 and 2010 comparing women that had an induction to those that presented in spontaneous labor. Multiparity was defined as a prior delivery after 20 weeks' gestation. Chi-square was used to compare categorical variables. Multivariable logistic regression was used to control for confounders. Analyses were stratified by parity. RESULTS: 863 women were included in the analysis. There were 605 inductions (cesarean rate 23%) and 257 spontaneous labor (cesarean rate 7%), OR 3.4, 95% CI [2.1-5.4]. Stratified by parity, nulliparas undergoing induction had an increased cesarean rate compared to spontaneous labor (27% versus 11%, OR 3.13, 95% CI [1.76-5.57]) as did multiparas (13% versus 3%, OR 4.04, 95% CI [1.36-11.94]). This increased risk for cesarean after induction remained in both nulliparous and multiparous women even after controlling for confounders (aOR 2.90, 95% CI [1.60-5.25] and aOR 3.47, 95% CI [1.12-10.67], respectively). Neither starting cervical exam nor indication for induction altered this increased risk. CONCLUSIONS: The increased risk of cesarean in women undergoing an induction is present regardless of parity and indication for induction. This should be taken into account when counseling women regarding risks of induction, regardless of parity. Future studies should focus on other clinical characteristics of induction that may mitigate this risk."""
+
+

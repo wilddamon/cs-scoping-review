@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: progestinprimedovarianstimulationversusmildstimulationprotocolinadvancedagewomenwithdiminishedovarianreserveundergoingtheirfirstinvitrofertilizationcyclearetrospectivecohortstudy2022tu
+"Objective: To assess and compare the feasibility of progestin-primed ovarian stimulation (PPOS) protocol with mild stimulation protocol for advanced age women with diminished ovarian reserve (DOR) undergoing their first in vitro fertilization (IVF)/intracytoplasmic sperm injection (ICSI) cycle. Method(s): Patients aged >=35 years and DOR undergoing their first IVF/ICSI cycle were enrolled in this retrospective cohort study: 139 and 600 patients underwent the PPOS and mild stimulation protocols, respectively. The primary outcomes were cumulative clinical pregnancy rate (CCPR) and cumulative live birth rate (CLBR). The secondary outcomes were the number of oocytes retrieved and top-quality embryos. Result(s): There was nearly no significant difference of baseline characteristics between the two groups. Although a greater amount of total gonadotropin (1906.61 +/- 631.04 IU vs. 997.72 +/- 705.73 IU, P<0.001) and longer duration of stimulation (9 (10-7) vs. 6 (8-4), P<0.001) were observed in the PPOS group, the number of retrieved oocytes (3 (6-2) vs. 2 (4-1), P<0.001) and top-quality embryos (1 (2-0) vs. 1 (2-0), P=0.038) was greater in the PPOS group than the mild stimulation group. Meanwhile, the incidence of premature luteinizing hormone (LH) surge rate was significantly lower in the PPOS group (0.7% vs.8.3%, P=0.001) than the mild stimulation group. However, there was no significant difference in conservative CCPR, conservative CLBR, optimistic CCPR, and optimistic CLBR between the two groups (all P>0.05). A multivariate logistic regression model showed significant positive effects of the number of retrieved oocytes and number of top-quality embryos on conservative CCPR (OR=1.236, 95%CI: 1.048-1.456, P=0.012, OR=2.313, 95%CI: 1.676-3.194, P<0.001) and conservative CLBR (OR=1.250, 95%CI: 1.036-1.508, P=0.020, OR=2.634, 95%CI: 1.799-3.857, P<0.001) respectively, while significant negative effects of age were identified for conservative CCPR (OR=0.805, 95%CI: 0.739-0.877, P<0.001) and conservative CLBR (OR=0.797, 95%CI: 0.723-0.879, P<0.001). Conclusion(s): The PPOS protocol is an effective alternative to the mild stimulation protocol for advanced age patients with DOR, as it provides comparable reproductive outcomes and better control of premature LH surge. Further, more oocytes and top-quality embryos were obtained in the PPOS group, which had a positive association with conservative CCPR and CLBR.Copyright (c) 2022 Tu, You, Jing, Lin and Zhang."""
+
+

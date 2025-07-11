@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acohortstudyofmaternalcardiometabolicriskfactorsandprimarycesareandeliveryinanintegratedhealthsystem2018hedderson
+"BACKGROUND: Maternal cardiometabolic risk factors (i.e., hyperglycemia, pre-existing hypertension and high body mass index) impact fetal growth and risk of having a cesarean delivery. However, the independent and joint contribution of maternal cardiometabolic risk factors to primary cesarean section is unclear. We aimed to elucidate the degree to which maternal cardiometabolic risk factors contribute to primary cesarean deliveries and whether associations vary by infant size at birth in an integrated health system. METHODS: A cohort study of 185,045 singleton livebirths from 2001 to 2010. Poisson regression with robust standard errors provided crude and adjusted relative risks (RR) and 95% confidence intervals (CIs) for cesarean delivery risk associated with risk factors. We then estimated the proportion of cesarean sections that could be prevented if the cardiometabolic risk factor in pregnant women were eliminated (the population-attributable risk [PAR]). RESULTS: In a single multivariable model, maternal cardiometabolic risk factors were independently associated with cesarean delivery: RR (95% CI) abnormal glucose screening 1.04 (1.01-1.08); gestational diabetes 1.18 (1.11-1.18) and pre-existing diabetes 1.60 (1.49-1.71); pre-existing hypertension 1.16 (1.10-1.23); overweight 1.27 (1.24-1.30); obese class I 1.46 (1.42-1.51); obese class II 1.73 (1.67-1.80); and obese class III 1.97 (1.88-2.07); adjusting for established risk factors, medical facility and year. The associations between maternal cardiometabolic risk factors and primary cesarean delivery remained among infants with appropriate weights for gestational age. The PARs were 17.4% for overweight/obesity, 7.0% for maternal hyperglycemia, 2.0% for pre-existing hypertension and 20.5% for any cardiometabolic risk factor. CONCLUSIONS: Maternal cardiometabolic risk factors were independently associated with risk of primary cesarean delivery, even among women delivering infants born at an appropriate size for gestational age. Effective strategies to increase the proportion of women entering pregnancy at an optimal weight with normal blood pressure and glucose before pregnancy could potentially eliminate up to 20% of cesarean deliveries."""
+
+

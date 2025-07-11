@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancypostbariatricsurgeryimprovedoutcomeswithtelephonicnutritionalmanagementprogram2023hedderson
+"BACKGROUND: Pregnancies post-bariatric surgery are increasingly common. It is important to understand how to manage prenatal care in this high-risk population to optimize perinatal outcomes. OBJECTIVE: To determine among pregnancies post-bariatric surgery whether participation in a telephonic nutritional management program was associated with improved perinatal outcomes and nutritional adequacy. STUDY DESIGN: Retrospective cohort study of pregnancies post-bariatric surgery from 2012 to 2018. Participation in a telephonic management program with nutritional counseling, monitoring and nutritional supplement adjustment. Modified Poisson Regression estimated the relative risk using propensity score methods to account for baseline differences between the patients who participated in the program and patients who did not. RESULTS: 1575 pregnancies occurred post-bariatric surgery, of which 1142 (72.5 % of pregnancies) participated in the telephonic nutritional management program. Participants in the program were less likely than non-participants to have a preterm birth (aRR 0.48, 95 % CI 0.35-0.67), preeclampsia (aRR 0.43, 95 % CI (0.27-0.69)), gestational hypertension (aRR 0.62, 95 % CI 0.41-0.93), and to have neonates admitted to a Level 2 or 3 (aRR 0.61, 95 % CI0.39-0.94; aRR 0.66, 95 % CI 0.45-0.97, respectively), after adjusting for the propensity score to account for baseline differences. Risk of cesarean delivery, gestational weight gain, glucose intolerance and birthweight did not differ by participation. Among 593 pregnancies with nutritional labs available, participants in the telephonic program were less likely to have nutritional inadequacy in late pregnancy (aRR 0.91, 95 % CI 0.88-0.94). CONCLUSION: Participation in a telephonic nutritional management program post-bariatric surgery was associated with improved perinatal outcomes and nutritional adequacy."""
+
+

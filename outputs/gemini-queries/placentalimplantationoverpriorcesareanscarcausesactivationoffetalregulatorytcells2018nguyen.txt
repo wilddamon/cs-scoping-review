@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: placentalimplantationoverpriorcesareanscarcausesactivationoffetalregulatorytcells2018nguyen
+"INTRODUCTION: Maternal-fetal chimerism is miniscule, a testament to the integrity of the uteroplacental interface. The soundness of this border region is potentially altered through cesarean delivery of prior babies with uncertain consequences for the following pregnancies. METHODS: Using multicolor flow cytometry and quantitative PCR of non-inherited maternal antigens we performed a retrospective case control pilot study and formulated the null hypothesis that placental implantation over a prior uterine scar does not result in the presence of memory Treg (CD45RO+) in the fetus. We then performed a power calculation and performed a blinded, appropriately powered prospective case control study to test the null hypothesis. RESULTS: Fetuses born to mothers with prior uterine scar have a roughly five times higher maternal to fetal microchimerism when the placenta directly interacts with the uterine scar. Unlike exposure to antigens in adult life, in utero antigenic exposure induces tolerogenic (Treg) responses in fetuses and we here report the presence of fetal Treg with a memory phenotype (CD45RO+). However, we only find such CD45RO+ fetal Tregs when the placenta abuts the uterine scar (Risk Ratio = 5 [p < 0.05 CI:(1.448 to 17.27)]). These memory fetal Tregs are functionally highly suppressive compared to CD45RA-expressing fetal Tregs, and have specificity for non-inherited maternal antigens. CONCLUSIONS: We found that uterine scars, in the case of our study these scars are from prior c-sections, fundamentally impair uterine integrity allowing for increased antigen exposure of the fetus; with our appropriately powered study we rejected the null hypothesis and accepted the alternative hypothesis that placental implantation over a prior uterine scar results in the presence of memory Treg (CD45RO+) in the fetus. Thus, our study demonstrates a previously unappreciated role for uterine integrity in limiting fetal antigenic exposure, a key element to avoid the formation of inappropriate tolerances by the fundamentally tolerogenic fetal immune system."""
+
+

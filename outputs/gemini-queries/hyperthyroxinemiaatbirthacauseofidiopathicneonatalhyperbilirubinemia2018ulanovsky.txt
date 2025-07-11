@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hyperthyroxinemiaatbirthacauseofidiopathicneonatalhyperbilirubinemia2018ulanovsky
+"BACKGROUND: Some neonates develop idiopathic hyperbilirubinemia (INHB) requiring phototherapy, yet with no identifiable causes. We searched for an association between abnormal thyroid levels after birth and INHB.;METHODS: Of 5188 neonates, 1681 (32.4%) were excluded due to one or more risk factors for hyperbilirubinemia. Total thyroxine (TT4) and thyroid stimulating hormone values were sampled routinely at 40-48 hours of age and measured in the National Newborn Screening Program.;RESULTS: Of the 3507 neonates without known causes for hyperbilirubinemia, 61 (1.7%) developed INHB and received phototherapy. Univariate analyses found no significant association between mode of delivery and INHB (vacuum-delivered neonates were a priori excluded). Nonetheless, in cesarean-delivered (CD) neonates, two variables had significant association with INHB: TT4 >= 13 microg/dL and birth at 38-38.6 weeks. In vaginally delivered (VD) born neonates, INHB was associated with weight loss > 7.5% up to 48 hours of age. Multivariate logistic regression analysis showed a strong effect of mode of delivery on possible significant association with INHB. In CD neonates, such variables included: TT4 >= 13 microg/dL [P = 0.025, odds ratio (OR) 5.49, 95% confidence interval (CI) 1.23-24.4] and birth at 38-38.6 weeks (P = 0.023, OR 3.44, 95% CI 1.19-9.97). In VD neonates, weight loss > 7.5% (P = 0.019, OR 2.1, 95% CI 1.13-3.83) and 1-min Apgar score < 9 (P < 0.001, OR 3.8, 95% CI 1.83-7.9), but not TT4, showed such an association.;CONCLUSIONS: INHB was significantly associated with birth on 38-38.6 week and TT4 (>= 13 microg/dL) in CD neonates, and with a weight loss > 7.5% in VD neonates. We herein highlight some acknowledged risk factors for neonatal hyperbilirubinemia, and thus minimize the rate of INHB."""
+
+

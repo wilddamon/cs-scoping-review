@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anevidencebasedapproachtodefiningfetalmacrosomia2016froehlich
+"OBJECTIVE: This study aims to determine the risk of adverse outcomes associated with the current diagnostic criteria for fetal macrosomia. Study;DESIGN: We evaluated three techniques for characterizing birth weight as a predictor of shoulder dystocia or third- or fourth-degree laceration in 79,879 vaginal deliveries. First, we compared deliveries with birth weights above or below 4,500 g. We then performed logistic regression using birth weight as a continuous predictor, both with and without fractional polynomial transformation. Finally, we calculated the number of cesarean sections required to prevent one incident of the interrogated outcomes (number needed to treat [NNT]).;RESULTS: Rates of adverse intrapartum outcomes increase incrementally with increasing birth weight and are predicted most accurately with logistic regression following fractional polynomial transformation. The NNT for third- or fourth-degree laceration dropped from 14.3 (95% confidence interval [CI], 13.9-14.7) at a birth weight of 3,500 g to 6.4 (95% CI, 6.1-6.8) at 4,500 g and, for shoulder dystocia, from 54.9 (95% CI, 51.5-58.6) at 3,500 g to 5.6 (95% CI, 5.2-6.0) at 4,500 g.;CONCLUSION: The conventional distinction between "normal" and "macrosomic" does not reflect the incremental effect of increasing birth weight on the risk of obstetric morbidity. Outcomes analysis can inform fetal growth standards to better reflect relevant thresholds of risk. Copyright Thieme Medical Publishers 333 Seventh Avenue, New York, NY 10001, USA."""
+
+

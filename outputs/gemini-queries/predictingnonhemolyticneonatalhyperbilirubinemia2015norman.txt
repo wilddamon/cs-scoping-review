@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingnonhemolyticneonatalhyperbilirubinemia2015norman
+"BACKGROUND: Before hospital discharge, newborn infants should be assessed for the risk of abstract excessive hyperbilirubinemia. We determined maternal and obstetric risk factors for hyperbilirubinemia in infants born at term (gestational age $37 weeks) to form an individualized risk assessment tool for clinical use. METHOD(S): This was a population-based study with data from the Swedish Medical Birth Register from 1999 to 2012, including 1 261 948 singleton infants. Outcome was defined as infants diagnosed with hyperbilirubinemia (N = 23 711), excluding all cases of hemolytic (immunemediated or other specified hemolytic) diseases of the newborn. RESULT(S): Risk factors with an adjusted odds ratio (aOR) for neonatal hyperbilirubinemia of $1.5 (medium-sized effect or more) were gestational age 37 to 38 weeks (aOR = 2.83), failed vacuum extraction (aOR = 2.79), vacuum extraction (aOR = 2.22), Asian mother (aOR = 2.09), primipara (aOR = 2.06), large-for-gestational-age infant (aOR = 1.84), obese mother (aOR = 1.83), and small-for-gestational-age infant (aOR = 1.66). Planned cesarean delivery (CD) was associated with a reduced risk (aOR = 0.45). Without any of these risk factors (normal birth weight infant delivered vaginally at 39 to 41 weeks' gestation by a non-Asian, nonobese, multiparous mother) the rate of nonhemolytic neonatal hyperbilirubinemia was 0.7%. In relation to the combined load of different risk factors, rates of neonatal hyperbilirubinemia ranged from 0.2% to 25%. CONCLUSION(S): Collection of a few easily available maternal and obstetric risk factors predicts >100-fold variation in the incidence of neonatal hyperbilirubinemia. The information provided herein enables individualized risk prediction with interactions between different risk factors taken into account.Copyright (c) 2015 by the American Academy of Pediatrics."""
+
+

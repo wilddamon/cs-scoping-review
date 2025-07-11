@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectiondeliveryandcariesriskof3yearoldchinesechildrenaretrospectivecohortstudy2023ge
+"BACKGROUND: Caesarean-section (C-section) may influence children's long-term health by affecting bacterial colonization. However, few studies have focused on the association between C-section delivery (CSD) and dental caries, and previous conclusions have been conflicting. This study aimed to explore whether CSD would increase the risk of early childhood caries (ECC) in preschool children in China. METHODS: This study was a retrospective cohort study. Three-year-old children with full primary dentition were included through the medical records system. Children in the nonexposure group were vaginally delivered (VD), while children in the exposure group were delivered through C-section. The outcome was the occurrence of ECC. After agreeing to participate in this study, guardians of included children completed a structured questionnaire on maternal sociodemographic factors, children's oral hygiene and feeding habits. The chi-square test was used to determine differences in the prevalence and severity of ECC between the CSD and VD groups and to analyse the prevalence of ECC according to sample characteristics. Subsequently, potential risk factors for ECC were preliminarily identified through univariate analysis, and the adjusted odds ratios (ORs) were further calculated through multiple logistic regression analysis after controlling for confounding factors. RESULTS: The VD group included 2115 participants while CSD group included 2996 participants. The prevalence of ECC was higher in CSD children than in VD children (27.6% vs. 20.9%, P < 0.05), and the severity of ECC in CSD children was higher (mean number of decayed, missing, and filled teeth, dmft: 2.1 vs. 1.7, P < 0.05). CSD was a risk factor for ECC in 3-year-old children (OR = 1.43, 95% CI = 1.10-2.83). In addition, irregular tooth brushing and always prechewing children's food were risk factors for ECC (P < 0.05). Low maternal educational attainment (high school or below) or socioeconomic status (SES-5) may also increase the prevalence of ECC in preschool children and CSD children (P < 0.05). CONCLUSIONS: CSD would increase the risk of ECC in 3-year-old Chinese children. Paediatric dentists should devote more attention to the development of caries in CSD children. Obstetricians should also prevent excessive and unnecessary CSD."""
+
+

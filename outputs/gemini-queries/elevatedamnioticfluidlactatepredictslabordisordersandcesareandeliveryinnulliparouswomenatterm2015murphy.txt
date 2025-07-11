@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: elevatedamnioticfluidlactatepredictslabordisordersandcesareandeliveryinnulliparouswomenatterm2015murphy
+"OBJECTIVE: We sought to assess amniotic fluid lactate (AFL) at diagnosis of spontaneous labor at term (>=37 weeks) as a predictor of labor disorders (dystocia) and cesarean delivery (CD). STUDY DESIGN: This was a single-institution, prospective cohort study of 905 singleton, cephalic, term (>=37 weeks) nulliparous women in spontaneous labor. A standard management of labor (active management of labor) including a standard oxytocin regimen up to a maximum dose of 30 mU/min was applied. AFL was measured using a point-of-care device (LMU061; ObsteCare, Stockholm, Sweden). Labor arrest in the first stage of labor was defined as the need for oxytocin when cervical dilatation was <1 cm/h over 2 hours and in the second stage of labor by poor descent and rotation over 1 hour. Standard statistical analysis included analysis of variance, Pearson correlations, and binary logistic regression. Unsupervised decision tree analysis with 10-fold cross-validation was used to identify AFL thresholds. RESULTS: AFL was normally distributed and did not correlate with age, body mass index, or gestation. Unsupervised decision tree analysis demonstrated that AFL could be divided into 3 groups: 0-4.9 mmol/L (n = 118), 5.0-9.9 mmol/L (n = 707), and >=10.0 mmol/L (n = 80). Increasing AFL was associated with higher total oxytocin dose (P = .001), labor disorders (P = .005), and CD (P <= .001). Multivariable regression analysis demonstrated that women with AFL >=5.0-9.9 mmol/L (odds ratio [OR], 1.6; 95% confidence interval [CI], 1.06-2.39) and AFL >=10.0 mmol/L (OR, 1.72; 95% CI, 1.01-2.93) were independent predictors of a labor disorder. AFL >=5.0-9.9 mmol/L did not predict CD but multivariable analysis confirmed that AFL >=10.0 mmol/L was an independent predictor of CD (OR, 3.35; 95% CI, 1.73-6.46). AFL >=5.0-9.9 mmol/L had a sensitivity of 89% in predicting a labor disorder and a sensitivity of 93% in predicting CD with a 97% negative predictive value. AFL >=10.0 mmol/L was highly specific but lacked sensitivity for CD. There was no difference in birthweight of infants according to labor disorder and delivery method. CONCLUSION: AFL at diagnosis of labor in spontaneously laboring single cephalic nulliparous term women is an independent predictor of a labor disorder and CD. These data suggest that women with AFL between 5.0-9.9 mmol/L with a labor disorder may be amenable to correction using the active management of labor protocol."""
+
+

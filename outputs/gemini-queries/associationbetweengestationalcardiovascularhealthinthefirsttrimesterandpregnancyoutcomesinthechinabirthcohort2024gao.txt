@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweengestationalcardiovascularhealthinthefirsttrimesterandpregnancyoutcomesinthechinabirthcohort2024gao
+"OBJECTIVES: To determine whether gestational cardiovascular health (CVH) during the first trimester is associated with a risk of adverse pregnancy outcomes. STUDY DESIGN: A multicentre prospective cohort; part of the China birth cohort study. METHODS: Pregnant women were recruited at 6-13(+6) gestation weeks and followed to delivery to identify pregnancy outcomes. Gestational CVH in the first trimester was assessed using five CVH metrics: body mass index, smoking, blood pressure, glucose, and lipids. Multilevel modified Poisson regression models calculated the relative risks (RRs) and 95% confidence intervals (95% CIs) of gestational CVH for adverse pregnancy outcomes. RESULTS: Among 56,852 pregnant women, the mean score for gestational CVH during the first trimester was 9.1. Adjusting for confounding factors, each 1-point decrease in the total gestational CVH score significantly increased the risk of hypertensive disorders of pregnancy (RR = 1.682, 95% CI: 1.624-1.743), gestational diabetes mellitus (RR = 1.405, 95% CI: 1.384-1.426), preterm birth (RR = 1.184, 95% CI: 1.174-1.195), large for gestational age (RR = 1.224, 95% CI: 1.199-1.250), caesarean delivery (RR = 1.073, 95% CI: 1.049-1.097), and low Apgar score (RR = 1.131, 95% CI: 1.003-1.277) significantly increased. Meanwhile, the risk of small for gestational age decreased (SGA; RR = 0.922, 95% CI: 0.898-0.946). Worsened CVH categories significantly increased the risk of adverse pregnancy outcomes, excluding SGA. CONCLUSIONS: Poor gestational CVH in the first trimester significantly increases the risk of adverse pregnancy outcomes, emphasising the need for early improvement in gestational CVH."""
+
+

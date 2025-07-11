@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prophylacticresuscitativeendovascularballoonocclusionoftheaortauseduringcesareanhysterectomyforplacentaaccretaspectrumaretrospectivecohortstudy2023kyozuka
+"OBJECTIVE: Resuscitative endovascular balloon occlusion of the aorta for placenta accreta spectrum is used to control maternal hemorrhage during cesarean hysterectomy. This study aimed to assess the efficacy of resuscitative endovascular balloon occlusion of the aorta for placenta accreta spectrum by examines the change in the quantitative blood loss after applying resuscitative endovascular balloon occlusion of the aorta. METHODS: This retrospective cohort study included patients with placenta accreta spectrum who required cesarean hysterectomy (n = 37) between 2003 and 2022 at a tertiary care center. Patients were divided into two groups (with resuscitative endovascular balloon occlusion of the aorta, n = 13; without resuscitative endovascular balloon occlusion of the aorta, n = 24). The quantitative blood loss was compared between the groups. Generalized linear mixed models were used to examine changes in quantitative blood loss during cesarean hysterectomy after resuscitative endovascular balloon occlusion of the aorta was applied. The operating surgeon was set as the random effect. RESULTS: Operation time did not differ significantly between the groups (p = .09). The quantitative blood loss was significantly higher in patients who did not undergo resuscitative endovascular balloon occlusion of the aorta (2160 g) than in patients who did (1110 g; p < .01). Resuscitative endovascular balloon occlusion of the aorta significantly decreased the quantitative blood loss during cesarean hysterectomy (partial regression coefficient, 2312; 95% confidence interval, 49-4577; p < .05). CONCLUSION: Resuscitative endovascular balloon occlusion of the aorta decreased the quantitative blood loss during cesarean hysterectomy in patients with placenta accreta spectrum without significantly increasing the operation time. This suggests that resuscitative endovascular balloon occlusion of the aorta is effective in patients with placenta accreta spectrum."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlymortalityandmorbidityininfantswithbirthweightof500gramsorlessinjapan2017inoue
+"OBJECTIVE: To assess the short-term prognosis of Japanese infants with a birth weight (BW) of <=500 g.;STUDY DESIGN: Demographic and clinical data were reviewed for 1473 live born infants with a BW <=500 g at gestational age >=22 weeks who were treated in the 204 affiliated hospitals of the Neonatal Research Network of Japan between 2003 and 2012.;RESULTS: Survival to hospital discharge occurred in 811 of 1473 infants (55%; 95% CI 53%-58%). The survival rates of BW <=300 g, 301-400 g, and 401-500 g were 18% (95% CI 10%-31%), 41% (95% CI 36%-47%), and 60% (95% CI 57%-63%), respectively. In a multivariable Cox proportional hazards analysis, antenatal corticosteroid use (adjusted hazard ratio: 0.68; 95% CI 0.58-0.81; P < .01), cesarean delivery (0.69; 95% CI 0.56-0.85; P < .01), advanced gestational age per week (0.94; 95% CI 0.89-0.99; P = .02), BW per 100-g increase (0.55; 95% CI 0.49-0.64; P < .01), Apgar score >=4 at 5 minutes (0.51; 95% CI 0.43-0.61; P < .01), and no major congenital abnormalities (0.38; 95% CI 0.29-0.51; P < .01) were associated with survival to discharge. Despite the improved survival rate over the 10-year study period (from 40% in 2003 [95% CI 30%-51%] to 68% in 2012 [95% CI 61%-75%]), at least 1 severe morbidity was present in 81%-89% of the survivors.;CONCLUSIONS: Improvements in perinatal-neonatal medicine have improved the survival, but not the rate of major morbidities, of infants with a BW <=500 g in Japan. Copyright (c) 2017 The Author(s). Published by Elsevier Inc. All rights reserved."""
+
+

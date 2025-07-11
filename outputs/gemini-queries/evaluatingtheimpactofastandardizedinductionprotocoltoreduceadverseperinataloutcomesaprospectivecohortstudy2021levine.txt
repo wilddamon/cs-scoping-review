@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluatingtheimpactofastandardizedinductionprotocoltoreduceadverseperinataloutcomesaprospectivecohortstudy2021levine
+"OBJECTIVE: Our objective was to evaluate the impact of a standardized induction protocol on reducing maternal and neonatal morbidity in women undergoing an induction with an unfavorable cervix. STUDY DESIGN: We performed a prospective cohort study of women undergoing an induction from May 2013 to June 2015. Women who were >=18 years, >=37 weeks with intact membranes and an unfavorable cervix (Bishop score of <=6 and cervical dilation <=2 cm) with no prior cesarean were included. We compared the following outcomes between women managed with the labor protocol versus women in an observation group, managed at the discretion of the provider: Labor length, cesarean delivery, maternal and neonatal morbidity, and neonatal intensive care unit admission for >48 hours. Multivariable models incorporated confounders specific to each outcome. RESULTS: 855 women were included (491: labor protocol group; 364: observational group). Women in the labor protocol group had a shorter time to delivery (15.7 hours vs. 18.0 hours, p < .001), a decrease in maternal morbidity (7.3% vs. 11.5%, p = .04), lower rates of NICU admission >48 hours (3.5% vs 8%, p = .005), and a lower neonatal morbidity (3.0% vs. 7.7%, p = .003) compared to women in the observational group. There was no difference in rate of cesarean between the labor protocol and observational groups (27.7% vs. 32.7%, p = .13). When adjusting for confounders, women in the labor protocol group had a 60% reduction in NICU admission >48 hours (RR: 0.41, 95% CI: 0.22-0.76) and a 70% reduction in neonatal morbidity (RR: 0.31, 95% CI: 0.13-0.70). Time to delivery and maternal morbidity were not significantly different in adjusted models. CONCLUSION: Utilization of a standardized induction protocol was associated with a significant reduction in neonatal morbidity without increasing the risk of cesarean or maternal morbidity."""
+
+

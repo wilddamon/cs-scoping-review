@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: erythromycinprophylaxisforneonatalconjunctivitisointmentversusdrops2016ulanovsky
+"BACKGROUND: Due to a shortage of individualized erythromycin ointment (IEO), we switched to shared erythromycin drops (SED). Following this change, nurses claimed observing more cases of eye discharge.;OBJECTIVES: To test whether switching from IEO to SED affected the rate of neonatal conjunctivitis (NC).;METHODS: The study group included 14,916 neonates > 35 weeks of gestation, further divided into two birth periods of 12 months each: 1 January 2013 to 31 December 2013 (IEO) and 1 February 2014 to 31 January 2015 (SED). We compared the two birth periods with regard to three variables: clinical NC (number of conjunctival swabs/1000 neonates), bacterial NC (number of culture-positive swabs/1000 neonates), and bacterial growth percentage (number of culture-positive swabs/100 samples).;RESULTS: Compared to 2012-2013, the period 2014-2015 included fewer cesarean deliveries and shorter length of stay (LOS). Clinical NC, bacterial NC and bacterial-growth percentage were not different between the two periods. Variables that were independently significantly associated with increased clinical NC included male gender (OR 1.48, CI 1.21-1.81) and LOS (OR 1.24, CI 1.18-1.29). LOS was associated with bacterial NC (OR 1.19, CI 1.11-1.28). Coagulase-negative staphylococci, Escherichia coli and Pseudomonas aeruginosa were the prevalent pathogens, though without difference between periods.;CONCLUSIONS: Rates of clinical NC, bacterial NC and bacterial-growth percentage were not different between the study periods. Switching from IEO to SED had no effect on the NC rate."""
+
+

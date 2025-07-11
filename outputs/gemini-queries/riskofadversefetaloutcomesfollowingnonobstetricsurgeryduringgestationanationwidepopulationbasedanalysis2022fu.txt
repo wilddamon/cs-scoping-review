@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofadversefetaloutcomesfollowingnonobstetricsurgeryduringgestationanationwidepopulationbasedanalysis2022fu
+"BACKGROUND: Literature suggests that nonobstetric surgery during gestation is associated with a higher risk of spontaneous abortion, prematurity, and a higher cesarean section rate, but the direct impact on fetal outcomes is still unclear. In this study, we aimed to investigate whether nonobstetric surgery during pregnancy is associated with negative fetal outcomes by analysing a nation-wide database in Taiwan. METHODS: This population-based retrospective observational case-control study was based on the linkage of Taiwan's National Health Insurance Research Database, Birth Reporting Database, and Maternal and Child Health Database between 2004 and 2014. For every pregnancy with nonobstetric surgery during gestation, four controls were randomly matched according to maternal age and delivery year. We estimated adjusted odds ratios (aOR) and 95% confidence intervals (CIs) of adverse fetal outcomes with the non-surgery group as the reference. The primary outcomes involved stillbirth, prematurity, low birth weight, low Apgar scores, and neonatal and infant death. RESULTS: Among 23,721 identified pregnancies, 4,747 underwent nonobstetric surgery. Pregnancies with nonobstetric surgery had significantly higher risks of prematurity (aOR: 1.46; 95% CI: 1.31-1.62), lower birth weight (aOR: 1.49; 95% CI: 1.33-1.67), Apgar scores < 7 (1 min, aOR: 1.58; 95% CI: 1.33-1.86; 5 min, aOR: 1.34; 95% CI: 1.03-1.74), neonatal death (aOR: 2.01; 95% CI: 1.18-3.42), and infant death (aOR: 1.69; 95% CI: 1.12-2.54) than those without nonobstetric surgery after adjustment for socioeconomic deprivation, hospital level, and other comorbidities. Surgery performed in the third trimester was associated with a significantly increased rate of prematurity (aOR: 1.38; 95% CI: 1.03-1.85), but lower rates of stillbirth (aOR: 0.1; 95% CI: 0.01-0.75) and Apgar score < 7 at the 5(th) minute (aOR: 0.2; 95% CI: 0.05-0.82), than surgery performed in the first trimester. CONCLUSIONS: Pregnancies with nonobstetric surgery during gestation were associated with increased risks of prematurity, low birth weight, low Apgar scores, neonatal and infant death, longer admission, and higher medical expenses than those without surgery. Furthermore, surgery in the third trimester was associated with a higher rate of prematurity than surgery performed in the first trimester. TRIAL REGISTRATION: Not applicable."""
+
+

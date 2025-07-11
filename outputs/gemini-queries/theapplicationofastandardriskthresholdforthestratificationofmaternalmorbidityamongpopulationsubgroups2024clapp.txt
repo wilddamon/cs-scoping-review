@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theapplicationofastandardriskthresholdforthestratificationofmaternalmorbidityamongpopulationsubgroups2024clapp
+"OBJECTIVE: The aim of this study was to determine if a universally applied risk score threshold for severe maternal morbidity (SMM) resulted in different performance characteristics among subgroups of the population. STUDY DESIGN: This is a retrospective cohort study of deliveries that occurred between July 1, 2016, and June 30, 2020, in a single health system. We examined the performance of a validated comorbidity score to stratify SMM risk in our cohort. We considered the risk score that was associated with the highest decile of predicted risk as a 'screen positive' for morbidity. We then used this same threshold to calculate the sensitivity and positive predictive value (PPV) of this 'highest risk' designation among subgroups of the overall cohort based on the following characteristics: age, race/ethnicity, parity, gestational age, and planned mode of delivery. RESULTS: In the overall cohort of 53,982 women, the C-statistic was 0.755 (95% confidence interval [CI], 0.741-0.769) and calibration plot demonstrated that the risk score was well calibrated. The model performed less well in the following groups: non-White or Hispanic (C-statistic, 0.734; 95% CI, 0.712-0.755), nulliparas (C-statistic, 0.735; 95% CI, 0.716-0.754), term deliveries (C-statistic, 0.712; 95% CI, 0.694-0.729), and planned vaginal delivery (C-statistic, 0.728; 95% CI, 0.709-0.747). There were differences in the PPVs by gestational age (7.8% term and 29.7% preterm) and by planned mode of delivery (8.7% vaginal and 17.7% cesarean delivery). Sensitivities were lower in women who were <35 years (36.6%), non-White or Hispanic (40.7%), nulliparous (38.9%), and those having a planned vaginal delivery (40.9%) than their counterparts. CONCLUSION: The performance of a risk score for SMM can vary by population subgroups when using standard thresholds derived from the overall cohort. If applied without such considerations, such thresholds may be less likely to identify certain subgroups of the population that may be at increased risk of SMM. KEY POINTS: * Predictive risk models are helpful at condensing complex information into an interpretable output.. * Model performance may vary among different population subgroups.. * Prediction models should be examined for their potential to exacerbate underlying disparities.."""
+
+

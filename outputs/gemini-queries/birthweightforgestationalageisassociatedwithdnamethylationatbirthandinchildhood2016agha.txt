@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthweightforgestationalageisassociatedwithdnamethylationatbirthandinchildhood2016agha
+"BACKGROUND: Both higher and lower fetal growth are associated with cardio-metabolic health later in life, suggesting that prenatal developmental programming determines long-term cardiovascular disease risk. Epigenetic mechanisms, which orchestrate fetal growth and development, may offer insight on the early programming of health and disease. We investigated whether birth weight-for-gestational is associated with DNA methylation at birth and mid-childhood, measured via the Infinium 450K array. METHODS/RESULTS: Participants were from Project Viva, a pre-birth cohort of pregnant women and their children in Eastern Massachusetts. After exclusion of participants with maternal type 1 or 2 diabetes and gestational age <34 weeks, we used DNA methylation assays from 476 venous umbilical cord blood samples and a subset of 235 who additionally had peripheral blood samples available in mid-childhood (age 7-10 years). Among 392,918 CpG sites analyzed, birth weight-for-gestational age z-score was associated with cord blood DNA methylation at 34 CpGs (false discovery rate P < 0.05), after adjusting for maternal age, race/ethnicity, education, smoking, parity, delivery mode, pre-pregnancy BMI, gestational diabetes status, child sex, and estimated cord blood cell proportions based on a cord blood reference panel. Two of these CpGs were previously reported in epigenome-wide analyses of birth weight, and several other CpGs map to genes relevant to fetal growth and development. Namely, higher birth weight-for-gestational age was associated with higher methylation at four CpGs at the PBX1 locus (e.g., b (95% CI) for lead signal at cg06750897 = 1.9 (1.2, 2.6)), which encodes a transcription factor that regulates embryonic development. Birth weight-for-gestational age was also associated with mid-childhood blood DNA methylation at four of the 34 CpGs identified in cord blood analyses, including sites at the PBX1 locus described. CONCLUSIONS: We identified CpG sites where birth weight-for-gestational age was associated with DNA methylation at birth, and for a subset of these sites, birth weight-for-gestational age was also associated with DNA methylation at mid-childhood."""
+
+

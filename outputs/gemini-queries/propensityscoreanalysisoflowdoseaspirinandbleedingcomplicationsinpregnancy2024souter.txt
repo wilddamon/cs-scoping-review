@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: propensityscoreanalysisoflowdoseaspirinandbleedingcomplicationsinpregnancy2024souter
+"OBJECTIVE: Low-dose aspirin (LDA) has been shown to reduce the risk of preterm pre-eclampsia and it has been suggested that it should be recommended for all pregnancies. However, some studies have reported an association between LDA and an increased risk of bleeding complications in pregnancy. Our aim was to evaluate the risk of placental abruption and postpartum hemorrhage (PPH) in patients for whom their healthcare provider had recommended prophylactic aspirin. METHODS: This multicenter cohort study included 72 598 singleton births at 19 hospitals in the USA, between January 2019 and December 2021. Pregnancies complicated by placenta previa/accreta, birth occurring at less than 24 weeks' gestation, multiple pregnancy or those with data missing for aspirin recommendation were excluded. Propensity scores were calculated using 20 features spanning sociodemographic factors, medical history, year and hospital providing care. The association between LDA recommendation and placental abruption or PPH was estimated by inverse-probability treatment weighting using the propensity scores. RESULTS: We included 71 627 pregnancies in the final analysis. Aspirin was recommended to 6677 (9.3%) and was more likely to be recommended for pregnant individuals who were 35 years or older (P < 0.001), had a body mass index of 30 kg/m(2) or higher (P < 0.001), had prepregnancy hypertension (P < 0.001) and who had a Cesarean delivery (P < 0.001). Overall, 1.7% of the study cohort (1205 pregnancies) developed preterm pre-eclampsia: 1.3% in the no-aspirin and 5.8% in the aspirin group. After inverse-probability weighting with propensity scores, aspirin was associated with increased risk of placental abruption (adjusted odds ratio (aOR), 1.44 (95% CI, 1.04-2.00)) and PPH (aOR, 1.21 (95% CI, 1.05-1.39)). The aOR translated to a number needed to harm with LDA of 79 (95% CI, 43-330) for PPH and 287 (95% CI, 127-3151) for placental abruption. CONCLUSIONS: LDA recommendation in pregnancy was associated with increased risk for placental abruption and for PPH. Our results support the need for more research into aspirin use and bleeding complications in pregnancy before recommending it beyond the highest-risk pregnancies. (c) 2023 The Authors. Ultrasound in Obstetrics & Gynecology published by John Wiley & Sons Ltd on behalf of International Society of Ultrasound in Obstetrics and Gynecology."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postpartumglucosetolerancestatus6to12weeksaftergestationaldiabetesmellitusabraziliancohort2014weinert
+"OBJECTIVES: The aims of this study were to estimate the local rate of postpartum diabetes screening after gestational diabetes mellitus (GDM) pregnancies, and to identify clinical variables associated with retesting rates and with the persistence of decreased glucose tolerance. SUBJECTS AND METHODS: Prospective cohort of GDM women with prenatal delivery at a specialized center, from November 2009 to May 2012. All women were advised to schedule a 6 weeks postpartum 75-g oral glucose tolerance test (OGTT). RESULTS: Of the 209 women included, 108 (51.7%) returned to be tested with fasting plasma glucose (n=14), OGTT (n=93) or random glucose (n=1). Return was associated with lower parity rate (2 vs. 3, p<0.001) and higher pregnancy 2-h OGTT (165 vs. 155 mg/dL, p=0.034), but not with socio-demographic characteristics. Four women (3.7%) had diabetes, 22 (20.4%) had impaired fasting glucose or impaired glucose tolerance. Persistent hyperglycemia was associated with a positive family history of diabetes (relative risk-RR 2.41, p=0.050), diagnostic 2-h OGTT in pregnancy (RR 1.01, p=0.045), insulin use during pregnancy (RR 2.37, p=0.014), and cesarean section (RR 2.61, p=0.015). CONCLUSIONS: Even though postpartum abnormalities were frequent in GDM, rates of postpartum diabetes screening were undesirably low. As no specific clinical profile defines who will adhere to postpartum testing, it is essential to encourage all women to reevaluate their glucose status, particularly those with a family history of diabetes and more severe hyperglycemia."""
+
+

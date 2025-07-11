@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postloadglucoseisastrongerpredictorofadversepregnancyoutcomesthanfirsttrimesterhba1cinwomenwithoutgestationaldiabetes2024rajabi
+"AIMS/INTRODUCTION: A debate exists on the relation of adverse pregnancy outcomes with glycemic levels in early pregnancy. We aimed to investigate the association of maternal characteristics including post-load glucose and first-trimester HbA1c test results with adverse pregnancy outcomes in women without gestational diabetes mellitus.;MATERIALS AND METHODS: A dataset (January 2011 and September 2017) from a hospital prenatal clinic was explored to find the important predictors of adverse pregnancy outcomes using maternal characteristics and glucose assessments in mothers without gestational diabetes. We used two machine learning algorithms to capture nonlinearity in selecting important maternal characteristics and developed predictive models for each outcome. In total, 1,618 pregnant women were included in the analytic dataset with a mean (SD) age of 26.8 (3.5) years and gravida of 1.7 (0.9).;RESULTS: Important associations were detected between maternal features and primary cesarean section, fetal distress, premature rupture of membranes, macrosomia, small or large for gestational age, APGAR <7 at 1 or 5 min, hyperbilirubinemia, and poly- or oligo-hydramnios. Overall, the predictive models showed good performance and large areas under the curves (0.732, 0.765, 0.646, 0.651, 0.730, 0.646, 0.684, 0.716, and 0.678, respectively). Specifically, they had high positive likelihood ratios.;CONCLUSIONS: High glucose levels were associated with adverse pregnancy outcomes. Post-load glucose was the most reliable test for predicting the outcomes. Overall, fasting blood sugar was of more predictive value than HbA1c. Our study showed that further research should account for the nonlinearity and interactions inherent in the data. Copyright (c) 2024 The Authors. Journal of Diabetes Investigation published by Asian Association for the Study of Diabetes (AASD) and John Wiley & Sons Australia, Ltd."""
+
+

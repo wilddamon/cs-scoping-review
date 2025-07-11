@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vaccinationsinearlylifearenotassociatedwithdevelopmentofisletautoimmunityintype1diabeteshighriskchildrenresultsfromprospectivecohortdata2017beyerlein
+"AIMS/HYPOTHESIS: Vaccinations in early childhood potentially stimulate the immune system and may thus be relevant for the pathogenesis of autoimmune diseases such as type 1 diabetes (T1D). We determined the association of vaccination burden with T1D-associated islet autoimmunity in children with high familial risk followed prospectively from birth. METHODS: A total of 20,570 certified vaccination records from 1918 children were correlated with time to onset of T1D-associated islet autoimmunity using Cox regression, considering multiple time periods up until age two years and vaccination types, and adjusting for HLA genotype, sex, delivery mode, season of birth, preterm delivery and maternal T1D status. Additionally, prospective claims data of 295,420 subjects were used to validate associations for the tick-borne encephalitis (TBE) vaccination. RESULTS: Most vaccinations were not associated with a significantly increased hazard ratio (HR) for islet autoimmunity (e.g. HR [95% confidence interval]: 1.08 [0.96-1.21] per additional vaccination against measles, mumps and rubella at age 0-24months). TBE vaccinations within the first two years of life were nominally associated with a significantly increased autoimmunity risk (HR: 1.44 [1.06-1.96] per additional vaccination at age 0-24months), but this could not be confirmed with respect to outcome T1D in the validation cohort (HR: 1.02 [0.90-1.16]). CONCLUSIONS: We found no evidence that early vaccinations increase the risk of T1D-associated islet autoimmunity development. The potential association with early TBE vaccinations could not be confirmed in an independent cohort and appears to be a false positive finding."""
+
+

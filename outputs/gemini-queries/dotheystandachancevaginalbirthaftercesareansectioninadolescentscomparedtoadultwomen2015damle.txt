@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: dotheystandachancevaginalbirthaftercesareansectioninadolescentscomparedtoadultwomen2015damle
+"STUDY OBJECTIVE: To determine the rate of elective repeat cesarean delivery (CD), vaginal birth after cesarean (VBAC) attempt, and VBAC success in adolescent mothers presenting for delivery of a second child after a prior CD compared to their adult counterparts. DESIGN: Retrospective cohort study analyzing data from the Consortium on Safe Labor Database which includes data for 228,668 deliveries from 2002 to 2008. SETTING: 19 hospitals within 12 institutions in the United States. PARTICIPANTS: 10,791 women age <= 35 (428 adolescents, age <= 19 and 10,363 adults age 20-35) with history of prior CD presenting for delivery of a second child. METHODS: The database was accessed for information on patient characteristics, prenatal comorbidities, and delivery data. Rates of repeat CD, VBAC attempt, and VBAC success were calculated. Multiple logistic regression was applied to identify predictors of VBAC success. RESULTS: Adolescents had a lower overall repeat CD rate and higher VBAC attempt rate compared to adults (80.61% vs 85.32%, P = .0072; 40.42% vs 30.09%, P < .0001 respectively). VBAC success was similar between adolescents and adults (47.98% vs 48.78% P = .8368). Delivery at a teaching hospital and greater gestational age were predictive of VBAC success. Gestational diabetes mellitus, induction of labor, and higher maternal body mass index were predictive of VBAC failure. Adolescence was not an independent predictor of VBAC outcome. CONCLUSIONS: Adolescents are more likely to attempt VBAC and are likely to be as successful as their adult counterparts. Adolescents should be encouraged to attempt a trial of labor after prior CD when appropriate to lower the risks of lifelong maternal morbidity from numerous repeat CDs."""
+
+

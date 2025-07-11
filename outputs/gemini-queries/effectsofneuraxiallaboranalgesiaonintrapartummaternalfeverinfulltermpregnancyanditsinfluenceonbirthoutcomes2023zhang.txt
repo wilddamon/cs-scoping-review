@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectsofneuraxiallaboranalgesiaonintrapartummaternalfeverinfulltermpregnancyanditsinfluenceonbirthoutcomes2023zhang
+"Introduction: This study aimed to explore the relationship between neuraxial labor analgesia and intrapartum fever and to demonstrate the influence of maternal fever on perinatal outcomes within 6 weeks after birth. Method(s): This was a secondary analysis of a multicenter prospective cohort study that enrolled women with single- and full-term cephalic pregnancy in northern China. Intrapartum maternal fever was defined as the highest axillary temperature during labor >=37.5degreeC. Data on baseline characteristics, maternal variables, and neonatal outcomes were all collected. The association between neuraxial labor analgesia and intrapartum maternal fever was analyzed with logistic regression models, and the cutoff point was identified by the receiver operating characteristic curve. Result(s): Of 577 parturients, 74 (12.8%) developed intrapartum fever. Neuraxial analgesia was associated with an increased risk of maternal intrapartum fever with or without adjusting for confounding factors (adjusted OR = 2.68; 95% CI: 1.32-5.47; p = 0.007). Further analysis showed that neuraxial analgesia of <5 h did not increase the risk of intrapartum fever compared with no analgesia (OR = 1.52; 95% CI: 0.63-3.64; p = 0.35), and longer neuraxial labor analgesia time (over 5 h) significantly increased the risk of fever (OR = 3.38; 95% CI: 1.63-7.01; p = 0.001). Parturients with intrapartum fever suffered more maternal adverse outcomes compared with those without fever (p < 0.001). Neonates of women with intrapartum fever had slightly higher rates of composite adverse neonatal outcomes compared with those without fever; however, the difference was not statistically significant (p = 0.098). Conclusion(s): In women with low-risk pregnancies, a longer time of neuraxial labor analgesia was associated with an increased risk of intrapartum maternal fever. Intrapartum fever was related to adverse maternal outcomes but did not significantly affect neonatal outcomes within 6 weeks after delivery.Copyright (c) 2023 Zhang, Deng, Ma, Li, Lei and Ding."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: electivecesareandeliveryandlongtermcardiovascularmorbidityintheoffspringapopulationbasedcohortanalysis2022galin
+"OBJECTIVE: To evaluate the impact of cesarean delivery (CD) on offspring risk for long-term cardiovascular morbidity. STUDY DESIGN: A population-based cohort analysis was performed, including all singleton term deliveries occurring between 1991 and 2014 at a single tertiary medical center. A comparison was performed between children delivered via CD and those delivered vaginally. Fetuses with cardiac or other congenital malformations were excluded, as were cases of urgent CD and pregnancies involving preeclampsia, gestational diabetes, placenta previa, labor induction, fetal growth restriction, preterm PROM, and instrumental deliveries. Hospitalizations of the offspring up to 18 years of age involving cardiovascular morbidity were compared between the two study groups. A Kaplan-Meier survival curve compared cumulative cardiovascular morbidity incidence and a Cox regression model controlled for confounders. RESULTS: Of the 132,054 term deliveries who met the inclusion criteria; 8.9% were CDs (n = 11,746) and 91.1% (n = 120,308) were vaginal deliveries. Cardiovascular hospitalization incidence per 1000 person follow up years was 0.742 in the CD group and 0.054 in the comparison group (HR = 1.3, 95%CI 1.051-1.710, p = .018). The Kaplan-Meier survival curve demonstrated a significantly higher cumulative incidence of cardiovascular morbidity following CD (log rank p = .018). In the Cox proportional hazards model, CD was noted as an independent risk factor for offspring long-term pediatric cardiovascular morbidity (adjusted HR = 1.295, CI 1.005-1.668, p = .04) when controlling for maternal age, obesity, ethnicity, gestational age, newborn gender, low birthweight, maternal preexisting cardiovascular disease, and deliveries occurring after 2008. CONCLUSION: Singletons delivered by CD at term have an increased risk of long-term cardiovascular morbidity."""
+
+

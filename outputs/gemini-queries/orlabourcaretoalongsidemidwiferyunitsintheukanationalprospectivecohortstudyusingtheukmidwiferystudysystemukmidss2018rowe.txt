@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesforwomenwithbmi35kgm2admittedforlabourcaretoalongsidemidwiferyunitsintheukanationalprospectivecohortstudyusingtheukmidwiferystudysystemukmidss2018rowe
+"OBJECTIVE: To describe and compare outcomes in severely obese (body mass index (BMI)>35kg/m2) women and other women admitted to alongside (co-located) midwifery units (AMU) in the United Kingdom. METHODS: We carried out a national prospective cohort study using the UK Midwifery Study System (UKMidSS) in all 122 AMUs in the UK. We identified and collected data about 1122 severely obese women admitted to an AMU, 1st January-31st December 2016, and 1949 comparison women (BMI<=35kg/m2), matched on time of admission, and used Poisson regression to calculate relative risks adjusted for maternal characteristics. RESULTS: 92% of the severely obese cohort had BMI 35.1-40kg/m2. Severely obese multiparous women were no more likely than comparison women to experience the composite primary outcome (one or more of: augmentation, instrumental birth, Caesarean, maternal blood transfusion, 3rd/4th degree tear, maternal admission to higher level care) (5.6% vs. 8.1%, aRR = 0.68, 95% CI 0.44-1.07). For severely obese nulliparous women we found a non-significant 14% increased risk of the primary outcome (37.6% vs 34.8%, aRR = 1.14, 95% CI 0.97-1.33). High proportions of severely obese women had a 'straightforward vaginal birth' (nulliparous 67.9%; multiparous 96.3%). Severely obese women were more likely than comparison women to have an intrapartum Casearean section, but Caesarean section rates were low and the absolute difference small (4.7% vs 4.1%; aRR = 1.62; 95% CI 1.02-2.57). In nulliparous women, severely obese women were more likely to have an urgent Caesarean section (12.2% vs. 6.5%, aRR = 1.80, 95% CI 1.05-3.08), or a PPH>=1500ml (5.1% vs. 1.7%, aRR = 3.01, 95% CI 1.24-7.31). CONCLUSIONS: We found no evidence of significantly increased risk associated with planning birth in an AMU for carefully selected multiparous severely obese women, with BMI 35.1-40kg/m2. Severely obese nulliparous women have a potential increased risk of having a more urgent Caesarean section or severe PPH compared with other women admitted to AMUs."""
+
+

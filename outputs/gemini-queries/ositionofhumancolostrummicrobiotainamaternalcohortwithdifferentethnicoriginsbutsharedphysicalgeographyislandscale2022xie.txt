@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: contrastingdiversityandcompositionofhumancolostrummicrobiotainamaternalcohortwithdifferentethnicoriginsbutsharedphysicalgeographyislandscale2022xie
+"Colostrum represents an important source for the transfer of important commensal bacteria from mother to newborn and has a strong impact on the newborn's health after birth. However, the composition of the colostrum microbiome is highly heterogeneous due to geographic factors and ethnicity (maternal, cultural, and subsistence factors). By analyzing the colostrum 16S rRNA gene full-length sequencing dataset in 97 healthy mothers (60 from Han, 37 from Li) from the Hainan island of China, we showed that the ethnic differences of the colostrum microbiome in a maternal cohort with different ethnic origins shared physical geography. Results indicated that the richness of microbial community in colostrum of Han women was higher than that of Li women, but there was no significant difference in Shannon index and invsimpson index between the two groups. Visualization analysis based on the distance showed an obvious ethnicity-associated structural segregation of colostrum microbiota. The relative abundance of Firmicutes was higher in the microbiota of the Han group than in Li's, while Proteobacteria was on the contrary. At the genus level, the most dominant members of the Han and Li ethnic groups were Acinetobacter and Cupriavidus, two common environmental bacteria, respectively, although skin-derived Staphylococcus and Streptococcus were still subdominant taxa. Cupriavidus lacunae was the most dominant species in the Li group, accounting for 26.10% of the total bacterial community, but only 3.43% for the Han group with the most dominant Staphylococcus petrasii (25.54%), indicating that human colostrum microbiome was more susceptible to local living environmental factors. Hence, the ethnic origin of individuals may be an important factor to consider in human milk microbiome research and its potential clinical significance during the perinatal period in ethnic-diverse societies, even within a small geographic scale.Copyright (c) 2022 Xie, Zhang, Ni and Peng."""
+
+

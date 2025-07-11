@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anintrapartumcalculatorforpredictingcesareanbirthduetodystociapreliminaryfindingsfromasinglecenterstudyinkorea2022yang
+"BACKGROUND: Previous calculators based on antepartum or pre-labor factors preclude intrapartum counseling. We aimed to develop a reliable, programmable, intrapartum calculator to predict the risk of cesarean birth (CB) due to dystocia and to increase the discriminatory accuracy of the predictive model. METHODS: Data were obtained retrospectively for 1326 singleton term deliveries with cephalic presentation. Two predictive multivariable logistic regression analysis models were constructed using pre-active labor variables alone (model A) or with active labor variables (model B). The discriminatory accuracies and goodness-of-fit of the models were compared using receiver operating characteristic (ROC) curves or -2log-likelihood ratios, Akaike information criterion (AIC), and Bayesian information criterion (BIC), respectively. Both models were internally validated using a bootstrapping procedure. RESULTS: Model A yielded an area under the curve (AUC) of 0.859 and adequate goodness of fit (P = 0.970). Model B yielded a significantly higher AUC of 0.887 and adequate goodness of fit (P = 0.624), as well as a significantly lower AIC and BIC (P &lt; 0.001). Internal validation revealed a minimal optimism of 0.0070491 and 0.0068976 for models A and B, respectively. Finally, the logistic regression equations were converted into programmable calculators to yield easy-to-understand basic (model A) and additional intrapartum CB calculators (model B). CONCLUSIONS: The programmable calculators developed herein can augment intrapartum counseling. Our findings suggest that the risk of CB due to dystocia during labor should be estimated using a calculator that corresponds to labor progression. Further studies should explore external validation of these statistical models before translation to a clinical setting."""
+
+

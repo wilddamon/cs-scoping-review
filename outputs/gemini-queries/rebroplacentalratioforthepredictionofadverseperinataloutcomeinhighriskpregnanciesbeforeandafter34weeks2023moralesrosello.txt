@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofductusvenosusdopplerandcerebroplacentalratioforthepredictionofadverseperinataloutcomeinhighriskpregnanciesbeforeandafter34weeks2023moralesrosello
+"INTRODUCTION: The objective of the study was to compare the accuracy of the ductus venosus pulsatility index (DV PI) with that of the cerebroplacental ratio (CPR) for the prediction of adverse perinatal outcome at two gestational ages: <34 and >=34 weeks' gestation. MATERIAL AND METHODS: This was a retrospective study of 169 high-risk pregnancies (72 < 34 and 97 >= 34 weeks) that underwent an ultrasound examination of CPR, DV Doppler and estimated fetal weight at 22-40 weeks. The CPR and DV PI were converted into multiples of the median, and the estimated fetal weight into centiles according to local references. Adverse perinatal outcome was defined as a composite of abnormal cardiotocogram, intrapartum pH requiring cesarean delivery, 5' Apgar score <7, neonatal pH <7.10 and admission to neonatal intensive care unit. Values were plotted according to the interval to labor to evaluate progression of abnormal Doppler values, and their accuracy was evaluated at both gestational periods, alone and combined with clinical data, by means of univariable and multivariable models, using the Akaike information criteria (AIC) and the area under the curve (AUC). RESULTS: Prior to 34 weeks' gestation, DV PI was the latest parameter to become abnormal. However, it was a poor predictor of adverse perinatal outcome (AUC 0.56, 95% CI: 0.40-0.71, AIC 76.2, p > 0.05), and did not improve the predictive accuracy of CPR for adverse perinatal outcome (AUC 0.88, 95% CI: 0.79-0.97, AIC 52.9, p < 0.0001). After 34 weeks' gestation, the chronology of the DV PI and CPR anomalies overlapped, but again DV PI was a poor predictor for adverse perinatal outcome (AUC 0.62, 95% CI: 0.49-0.74, AIC 120.6, p > 0.05), that did not improve the CPR ability to predict adverse perinatal outcome (AUC 0.80, 95% CI: 0.67-0.92, AIC 106.8, p < 0.0001). The predictive accuracy of CPR prior to 34 weeks persisted when the gestational age at delivery was included in the model (AUC 0.91, 95% CI: 0.81-1.00, AIC 46.3, p < 0.0001, vs AUC 0.86, 95% CI: 0.72-1, AIC 56.1, p < 0.0001), and therefore was not determined by prematurity. CONCLUSIONS: CPR predicts adverse perinatal outcome better than DV PI, regardless of gestational age. Larger prospective studies are needed to delineate the role of ultrasound tools of fetal wellbeing assessment in predicting and preventing adverse perinatal outcome."""
+
+

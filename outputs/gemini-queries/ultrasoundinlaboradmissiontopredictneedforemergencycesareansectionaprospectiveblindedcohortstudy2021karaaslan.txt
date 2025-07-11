@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ultrasoundinlaboradmissiontopredictneedforemergencycesareansectionaprospectiveblindedcohortstudy2021karaaslan
+"OBJECTIVE: To assess whether assessment with ultrasound could improve the detection of emergency cesarean section (ECS) in laboring women. METHODS: Women who presented with symptoms of active labor or women in need of labor induction were invited to participate in the study. Women included in the study were evaluated with ultrasonography for fetal biometry and vaginal examinations for Bishop score assessment. The main aim in this study was determining factors associated with ECS due to fetal distress and obstructed labor. RESULTS: No fetal biometry variable was associated with ECS due to any indication (fetal distress and obstructed labor combined) in the univariate analysis. In multivariate analyses, biometry variables were adjusted for Bishop score at admission and only abdominal circumference percentile showed a significant association with the odds of ECS due to any indication (OR:1.02, 95% CI: 1.01-1.03). Biparietal diameter and abdominal circumference variables were associated with the odds of ECS due to obstructed labor in both univariate and multivariate analyses (p < .05 for all). However, the predictive accuracy of biparietal diameter percentile (area under the curve (AUC): 0.55, 95% CI: 0.46-0.63) and abdominal circumference percentile (AUC: 0.56, 95% CI: 0.48-0.64) without adjunct variables were poor. Moreover, the addition of fetal biometry parameters to Bishop score did not improve the predictive accuracy of Bishop score. CONCLUSION: Ultrasound assessment at admission, in addition to Bishop score assessment, did not significantly improve the prediction of ECS. Also, the fetal biometry alone had poor predictive capability for ECS. Routine ultrasound assessment at labor admission appears to be ineffective for predicting ECS.PrecisFetal biparietal diameter and abdominal circumference showed an association with emergency cesarean due to obstructed labor but the predictive accuracy of fetal biometry was low. Routine ultrasound examination at admission, in addition to Bishop score assessment, may not useful for assessing the risk of emergency section in unselected populations."""
+
+

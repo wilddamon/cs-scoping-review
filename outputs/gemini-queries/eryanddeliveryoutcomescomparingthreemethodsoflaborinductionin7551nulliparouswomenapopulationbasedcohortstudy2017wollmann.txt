@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timetodeliveryanddeliveryoutcomescomparingthreemethodsoflaborinductionin7551nulliparouswomenapopulationbasedcohortstudy2017wollmann
+"OBJECTIVE: Determine time-to-delivery and mode-of-delivery in labor induction among women with unripe cervix. STUDY DESIGN: 7551 nulliparous women with singleton deliveries, 37 weeks, Bishop Score 6, induced with dinoprostone, misoprostol or transcervical single balloon catheter. Linear regression analysis was used to estimate mean time-to-delivery with b-estimates and 95% confidence intervals with adjustments. Multivariable logistic regression analysis was used to calculate odds of cesarean delivery, instrumental vaginal delivery, maternal and neonatal outcomes. RESULTS: Adjusted mean time-to-delivery was 6.9 and 1.5 h shorter, respectively, when inducing labor with balloon catheter (mean 18.3 h, b -6.9, 95% confidence intervals; -7.6 to -6.3) or misoprostol (mean 23.7 h, b -1.5, 95% confidence intervals; -2.3 to -0.8) compared with dinoprostone (mean 25.2 h). There were no significant differences in adverse maternal or infant outcomes between induction methods. CONCLUSIONS: Balloon catheter is the most effective induction method with respect to time-to-delivery in nulliparous women at term compared with prostaglandin methods."""
+
+

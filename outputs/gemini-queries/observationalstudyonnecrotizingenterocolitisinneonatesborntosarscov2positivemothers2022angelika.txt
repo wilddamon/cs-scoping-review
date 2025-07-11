@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: observationalstudyonnecrotizingenterocolitisinneonatesborntosarscov2positivemothers2022angelika
+"BACKGROUND: The impact of the severe acute respiratory syndrome-coronavirus-2 (SARS-CoV-2) pandemic on expectant mother and their babies extends to many aspects of life. Necrotizing enterocolitis (NEC) has been recognized as a life-threatening gastrointestinal inflammatory process in neonates that has high rates of morbidity and mortality. OBJECTIVE: To investigate factors associated with NEC in hospitalized neonates whose mothers were SARS-CoV-2-positive and their relationship to mortality. METHOD: This observational study was conducted from May 2020 to March 2021. All neonates who were hospitalized, after confirming that the mother was SARS-CoV-2-positive, were included in this study. The confirmation of positive SARS-CoV-2 was determined according to the reverse transcription-polymerase chain reaction (PCR) assay. The neonatal SARS-CoV-2 test was performed on the first day of birth. NEC was established based on a suggestive clinical presentation and abnormal abdominal radiographs. RESULTS: Of the 125 neonates enrolled in this study, there were 5 neonates who developed NEC and only one survived. Significant associated factors with NEC included lower birth weight (p < 0.001), lower gestational age (p < 0.001), positive SARS-CoV-2 PCR results (OR = 15.333; 95% CI = 2.074-113.381, p = 0.007), asphyxia (OR = 13.143; 95% CI = 1.411-122.443, p = 0.024), and mortality (OR = 156.000; 95% CI = 13.157-1849.623; p < 0.001). Mortality was significantly associated with lower gestational age (p = 0.025), cesarean section delivery (p = 0.025), and asphyxia (p = 0.025). CONCLUSION: Significant associated factors with NEC in neonates born to SARS-CoV-2-positive mothers included positive SARS-CoV-2 PCR results, asphyxia, lower gestational age, and lower birth weight. In addition to caesarean section delivery, these factors were related to mortality in neonates in such conditions."""
+
+

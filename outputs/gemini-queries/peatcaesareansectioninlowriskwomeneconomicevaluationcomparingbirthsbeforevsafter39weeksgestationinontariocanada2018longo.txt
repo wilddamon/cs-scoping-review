@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: electiverepeatcaesareansectioninlowriskwomeneconomicevaluationcomparingbirthsbeforevsafter39weeksgestationinontariocanada2018longo
+"PURPOSE: To undertake an economic analysis of repeat Caesarean births in low-risk women (LRW) not in labour in Ontario who delivered at 37-38 weeks (<39 weeks) vs. 39-40 weeks (>=39 weeks) gestation.;METHODS: Data from the Better Outcomes Registry & Network (BORN) Information System for fiscal years 2012-2013 and 2013-2014 meeting the definition for elective repeat CS (ERCS) for LRW between 37 and 40 weeks gestation. Costs were obtained from the Ottawa Hospital Data Warehouse and applied through to discharge.;RESULTS: For April 2012 to March 2013, we extracted 3637 ERCS dyads at <39 weeks and 3282 dyads at >=39 weeks. There were 334 NICU admissions at <39 weeks (0.92%) and 235 at >=39 weeks (0.72%). Average neonate cost was $1247.99 (<39 weeks) vs. $1200.77 (>=39 weeks)-a difference of $47.22. Average dyad cost was $3608.92 (<39 weeks) vs. $3577.04 (>=39 weeks)-a difference of $31.88 per birth. If these births were delayed to >=39 weeks, net savings of $173 864 and $115 947 annually would be realized on "baby only" and "dyad" costs, respectively. For April 2013 to March 2014, we extracted 2875 ERCS dyads at <=39 weeks and 3892 dyads at >=39 weeks. There were 216 NICU admissions <=39 weeks (0.75%) and 224 at >=39 weeks (0.58%). Average neonate cost was $1268.56 (<39 weeks) vs. $1126.56 (>=39 weeks)-a difference of $142.00 per birth. Average dyad cost was $3605.70 (<=39 weeks) vs. $3456.61 (>=39 weeks)-a difference of $149.08. If these births were delayed to >=39 weeks, net annual savings of $404 842 and $428 605 would be realized on "baby only" and "dyad" costs respectively.;CONCLUSIONS: Restricting repeat CS in LRW to >=39 weeks is a cost-effective strategy. Copyright (c) 2018 Society of Obstetricians and Gynaecologists of Canada. Published by Elsevier Inc. All rights reserved."""
+
+

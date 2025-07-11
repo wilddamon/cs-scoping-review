@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessmentofrecordingbiasinpregnancystudiesusinghealthcaredatabasesanapplicationtoneurologicconditions2018macdonald
+"BACKGROUND: Pre-existing conditions are imperfectly recorded in health care databases. We assessed whether pre-existing neurologic conditions (epilepsy, multiple sclerosis [MS]) were differentially recorded in the presence of major obstetric outcomes (Caesarean delivery, preterm delivery, preeclampsia) in delivery records. We also evaluated the impact of differential recording on measures of frequency and association between the conditions and outcomes.;METHODS: The 2011-2014 Truven Health MarketScan R Commercial Claims Dataset was used to identify pregnancies. We calculated the relative recording of epilepsy and MS at delivery hospitalization compared with a 270-day pre-delivery window both overall and by the presence of major obstetric outcomes. We estimated risk ratios for the association between epilepsy and MS with the outcomes for each ascertainment window.;RESULTS: We identified 909 065 pregnancies in women continuously enrolled from 270-days before the delivery date. Of women with epilepsy identified in the pre-delivery window, 73% had the condition coded at delivery. For MS, the proportion was 60%. MS recording at delivery did not vary by obstetric outcomes, however, delivery-coded epilepsy was less likely confirmed in the pre-delivery window in the presence of preeclampsia. Generally, the period of ascertainment did not meaningfully impact risk ratios, however, the risk ratio for preeclampsia associated with epilepsy was 1.67 (95% CI 1.47, 1.90) when epilepsy was ascertained at delivery and 1.26 (95% CI 1.07, 1.48) when epilepsy was ascertained in the pre-delivery window (heterogeneity, P = .007).;CONCLUSIONS: Ascertainment of epilepsy and MS in delivery hospitalization records underestimated prevalence. However, the window of recording generally did not impact risk ratio estimates of associations with obstetric outcomes. Copyright (c) 2018 John Wiley & Sons Ltd."""
+
+

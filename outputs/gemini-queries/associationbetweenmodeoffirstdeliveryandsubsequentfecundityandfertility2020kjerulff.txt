@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenmodeoffirstdeliveryandsubsequentfecundityandfertility2020kjerulff
+"IMPORTANCE: More than 20% of births globally are by cesarean delivery, including more than 30% in the US. Prior studies have reported lower rates of childbearing after cesarean delivery, but it is not clear if this is due to maternal choice or lower conception rates. OBJECTIVE: To investigate the association between mode of first delivery and subsequent conceptions and live births. DESIGN, SETTING, AND PARTICIPANTS: The First Baby Study was a multicenter prospective cohort study of women aged 18 to 35 years with singleton pregnancies, enrolled and interviewed before first childbirth, who delivered in Pennsylvania from 2009 to 2011 and were followed up for 36 months after delivery (until April 2014). Data analysis for this study took place between May and July 2019 and in January 2020. EXPOSURES: Mode of first delivery (cesarean or vaginal). MAIN OUTCOMES AND MEASURES: Rates of subsequent conceptions and live births. Discrete-time Cox proportional hazard regression models were used to compare the rate of subsequent conception (vaginal vs cesarean) among those who completed the 36-month survey, accounting for reported months of unprotected intercourse during the follow-up period and adjusting for relevant covariates. A log binomial regression was used to compare the age-adjusted rate of subsequent live birth (vaginal vs cesarean) among those who completed the 36-month survey. RESULTS: The study population consisted of 2423 women who were retained to the 36-month survey (mean [SD] age at baseline was 27.2 [4.4] years and 712 [29.4%] delivered by cesarean). There were 2046 women who had unprotected intercourse during the follow-up period, 2021 of whom provided data on months of unprotected intercourse. Cesarean delivery was associated with lower rates of conception after unprotected intercourse during the follow-up period (413 of 599 [68.9%]) compared with vaginal delivery (1090 of 1422 [76.7%]) (adjusted hazard ratio, 0.85; 95% CI, 0.74-0.96). Cesarean delivery was also associated with reduced likelihood of a subsequent live birth (305 women [42.8%]) compared with vaginal delivery (857 women [50.1%]), with an age-adjusted risk ratio of 0.83 (95% CI, 0.75-0.92). CONCLUSIONS AND RELEVANCE: In the 3 years following first childbirth, women who delivered their first child by cesarean had lower rates of conception after unprotected intercourse, and fewer of these women had a second child than those who delivered vaginally."""
+
+

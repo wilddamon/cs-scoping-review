@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectoftheuseofanewtypeofpartogramonthecesareansectionrates2015vlachos
+"Objective: To assess the contribution of a new type of partogram, used in labor monitoring, in caesarean section rates. Material(s) and Method(s): The study included term singleton uncomplicated pregnancies divided into two groups. Two types of partogram were used in labor monitoring. In the first group, the classical WHO partogram (A) was used. In the second group, a new type of partogram, in which cervical dilatation and the position of descending head (B) (one line) were estimated and reported, was used. The labor duration and caesarean section rates were calculated and compared in the two groups. Result(s): A statistically significant decrease in labor duration (from the initiation of the active phase of labor to the delivery time) (dt1+dt2+dt3) (p<0.001, A: median: 318.4+/-10.4 min, B: 246.56+/-8.28 min) and in caesarean section rates was noted (p<0.001, A: 89 vs B: 49). Conclusion(s): The new type of partogram seems to have potential benefits such as reducing the incidence of prolonged labor and decreasing the caesarean section rates.Copyright (c) 2015 by the Turkish-German Gynecological Education and Research Foundation."""
+
+

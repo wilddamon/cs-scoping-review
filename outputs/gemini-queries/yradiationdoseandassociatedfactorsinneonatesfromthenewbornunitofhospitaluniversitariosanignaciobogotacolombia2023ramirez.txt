@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: xrayradiationdoseandassociatedfactorsinneonatesfromthenewbornunitofhospitaluniversitariosanignaciobogotacolombia2023ramirez
+"Introduction: Radiographs are still widely used, underestimating the risks. This situation is frequent in neonatal care units, generating radiation doses than in adults.;Objective: To quantify the received radiation doses when performing radiographs on neonates and the possible factors associated with higher doses.;Materials and methods: We performed an observational study of 160 neonates from the newborn unit of the Hospital Universitario San Ignacio, Bogota, Colombia. We considered the input dose of each radiograph as the dependent variable. Patients were characterized and a multivariate analysis with multiple linear regression was performed to identify associated factors.;Results: We analyzed 160 newborns and 492 radiographs. The most frequent findings were male patients (n=87, 54.4%), cesarean delivery (n=122, 76.3%), and radiograph indication for respiratory distress (n=123, 24.9%). One-point eight percent of the patients (n=9) did not have radiograph indication. The most frequently taken radiograph was chest (322, 65.4%). Most radiographs were taken with a computerized equipment (n=352, 71.5%), compared to a digital one (n=140, 28.4%). The median input dose with computerized equipment was 0.112 mGy (0.022, 0.134 mGy), and with the digital equipment was 0.020 mGy (0.019, 0.022 mGy).;Conclusions: The general and specific absorbed radiation doses were measured in neonates with a computerized and a digital equipment. We identified higher doses with the computerized equipment. In addition, it was recognized the correlation between computerized radiography equipment with lower corrected gestational ages as the main factor for dose increase."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlychildhoodantibiotictreatmentforotitismediaandotherrespiratorytractinfectionsisassociatedwithriskoftype1diabetesanationwideregisterbasedstudywithsiblinganalysis2020wernroth
+"OBJECTIVE: The effect of early-life antibiotic treatment on the risk of type 1 diabetes is debated. This study assessed this question, applying a register-based design in children up to age 10 years including a large sibling-control analysis.;RESEARCH DESIGN AND METHODS: All singleton children (n = 797,318) born in Sweden between 1 July 2005 and 30 September 2013 were included and monitored to 31 December 2014. Cox proportional hazards models, adjusted for parental and perinatal characteristics, were applied, and stratified models were used to account for unmeasured confounders shared by siblings.;RESULTS: Type 1 diabetes developed in 1,297 children during the follow-up (median 4.0 years [range 0-8.3]). Prescribed antibiotics in the 1st year of life (23.8%) were associated with an increased risk of type 1 diabetes (adjusted hazard ratio [HR] 1.19 [95% CI 1.05-1.36]), with larger effect estimates among children delivered by cesarean section (P for interaction = 0.016). The association was driven by exposure to antibiotics primarily used for acute otitis media and respiratory tract infections. Further, we found an association of antibiotic prescriptions in pregnancy (22.5%) with type 1 diabetes (adjusted HR 1.15 [95% CI 1.00-1.32]). In general, sibling analysis supported these results, albeit often with statistically nonsignificant associations.;CONCLUSIONS: Dispensed prescription of antibiotics, mainly for acute otitis media and respiratory tract infections, in the 1st year of life is associated with an increased risk of type 1 diabetes before age 10 years, most prominently in children delivered by cesarean section. Copyright (c) 2020 by the American Diabetes Association."""
+
+

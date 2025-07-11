@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ascendinggrowthisassociatedwithoffspringadiposityinpregnanciescomplicatedwithobesityorgestationaldiabetes2021huvinen
+"CONTEXT: Early growth is associated with childhood adiposity, but the influence of lifestyle remains unknown. OBJECTIVE: This work aimed to investigate the association of growth profiles from high-risk pregnancies with adiposity at age 5 years, taking into account lifestyle and several antenatal/postnatal exposures. METHODS: This prospective cohort study. INCLUDED: 609 children born during the Finnish Gestational Diabetes Prevention Study (RADIEL), recruiting women with body mass index (BMI) greater than or equal to 30 and/or prior gestational diabetes mellitus (GDM) (2008-2013). Altogether 332 children attended the 5-year follow-up (2014-2017). Main outcome measures included growth profiles based on ponderal index (PI = weight/height3), investigated using latent class mixed models. Adiposity was assessed with anthropometrics and body composition (InBody720). RESULTS: We identified 3 growth profiles: ascending (n = 82), intermediate (n = 351), and descending (n = 149). Children with ascending growth had a higher body fat percentage, ISO-BMI, and waist circumference (P < .05) at age 5 years. Ascending (b 4.09; CI, 1.60-6.58) and intermediate (b 2.27; CI, 0.50-4.03) profiles were associated with higher fat percentage, even after adjustment for age, sex, gestational age, diet, physical activity, education, and prepregnancy BMI. Similar associations existed with ISO-BMI. After adjusting for age and education, ascending growth was associated with prepregnancy BMI (odds ratio [OR] 1.06; CI, 1.01-1.12), primiparity (OR 3.07; CI, 1.68-5.62), cesarean delivery (OR 2.23; CI, 1.18-4.21), and lifestyle intervention (OR 2.56; CI, 1.44-4.57). However, meeting the intervention goals and exclusive breastfeeding for 3 months or more were associated with lower odds of ascending growth. CONCLUSION: Accelerated early growth was associated with higher adiposity in 5-year-old children from high-risk pregnancies, even when adjusted for lifestyle. Reducing cesarean deliveries and promoting breastfeeding may be beneficial for postnatal growth."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: accuracyofnoninvasivebloodpressuremeasuredattheankleduringcesareandeliveryunderspinalanesthesia2021refaat
+"In this study, we evaluated the accuracy of oscillometric noninvasive blood pressure (NIBP) measured at the ankle in detecting low arm NIBP during cesarean delivery under spinal anesthesia. In this prospective observational study, a cohort of full-term mothers undergoing elective cesarean delivery under spinal anesthesia was examined. Simultaneous NIBP measurements were obtained from the arm and the ankle. The primary outcome was the accuracy of the ankle NIBP in detecting arm systolic blood pressure (SBP) < 90 mmHg. Other outcomes included the accuracy of ankle NIBP in detecting SBP < 80% of the baseline value. The area under the receiver operating characteristic curve (AUC) was calculated to evaluate the accuracy of ankle NIBP in detecting low arm NIBP. The Bland-Altman analysis was conducted to evaluate the agreement between values. We analyzed 1729 pairs of readings obtained from 97 mothers. Ankle SBP showed good accuracy in detecting SBP < 90 mmHg, with an AUC (95% confidence interval [CI]) of 0.90 (0.89-0.91) and a negative predictive value (NPV) of 99 (98-99%) at a cutoff value of <= 103 mmHg. Furthermore, ankle SBP showed good accuracy in detecting SBP < 80% of the baseline value, with an AUC (95% CI) of 0.84 (0.82-0.89) and an NPV of 95 (93-96%) at a cutoff value of <= 76% of the ankle baseline SBP. The mean bias between the two sites of measurement was - 5.4 +- 15.5, - 2.0 +- 11, and 0.5 +- 12.1 mmHg for SBP, diastolic blood pressure, and mean arterial pressure, respectively. In conclusion, ankle NIBP measurement is not interchangeable with arm NIBP measurement. However, ankle NIBP measurement showed good accuracy for ruling out low arm NIBP during a cesarean delivery.Clinical trial rejistration: NCT04199156."""
+
+

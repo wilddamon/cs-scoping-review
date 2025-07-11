@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofantenataltestingforadvancedmaternalageoncesareandeliveryrateatanurbaninstitution2015levine
+"OBJECTIVE: Antenatal testing has been implemented for advanced maternal age (AMA) women given their increased stillbirth risk. Our objective was to evaluate cesarean delivery and induction rates after the start of antenatal testing at our institution. STUDY DESIGN: A retrospective cohort study of AMA women (>= 40 years) who delivered at our institution was performed. Testing for AMA began in 2005. AMA women who delivered before (unexposed) and after (exposed) the implementation were compared. Our primary outcome was cesarean delivery and secondary outcome was induction. Chi-square compared categorical variables and multivariable logistic regression calculated odds ratio (OR) and controlled for confounders. RESULTS: A total of 276 women were included (147 unexposed and 129 exposed). The cesarean rate was higher in the exposed group (53 vs. 39%, OR 1.76 [1.09-2.84]). The increased risk of cesarean remained after adjusting for race, previous cesarean, multiple gestations, and parity (adjusted OR 1.85 [1.05-3.28]). When excluding those with previous cesareans, the risk of primary cesarean was not significant (OR 1.57 [0.89-2.76]). The induction rate was not different (38 vs. 33%, p = 0.4). CONCLUSIONS: While overall cesareans increased, there was no difference in primary cesarean and induction rates for AMA women after implementation of antenatal testing for AMA."""
+
+

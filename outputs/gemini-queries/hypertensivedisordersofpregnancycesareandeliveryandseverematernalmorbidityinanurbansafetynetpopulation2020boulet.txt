@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hypertensivedisordersofpregnancycesareandeliveryandseverematernalmorbidityinanurbansafetynetpopulation2020boulet
+"Hypertensive disorders of pregnancy (HDP) are a leading cause of severe maternal morbidity (SMM), yet mediation by cesarean delivery is largely unexplored. We investigated the association between HDP and SMM in a cohort of deliveries at a safety-net institution in Atlanta, Georgia, during 2016-2018. Using multivariable generalized linear models, we estimated adjusted risk differences, adjusted risk ratios, and 95% confidence intervals for the association between HDP and SMM. We examined interactions with cesarean delivery and used mediation analysis with 4-way decomposition to estimate excess relative risks. Among 3,723 deliveries, the SMM rate for women with and without HDP was 124.4 per 1,000 and 52.0 per 1,000, respectively. The adjusted risk ratio for the total effect of HDP on SMM was 2.55 (95% confidence interval (CI): 2.15, 3.39). Approximately 55.2% (95% CI: 25.7, 68.5) of excess relative risk was due to neither interaction nor mediation, 24.9% (95% CI: 15.4, 50.0) was due to interaction between HDP and cesarean delivery, 9.6% (95% CI: 3.4, 15.2) was due to mediation, and 10.3% (95% CI: 5.4, 20.3) was due to mediation and interaction. HDP are a potentially modifiable risk factor for SMM; implementing evidence-based interventions for the prevention and treatment of HDP is critical for reducing SMM risk."""
+
+

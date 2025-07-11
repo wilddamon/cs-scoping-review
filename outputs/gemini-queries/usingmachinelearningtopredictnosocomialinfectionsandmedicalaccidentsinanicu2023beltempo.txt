@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: usingmachinelearningtopredictnosocomialinfectionsandmedicalaccidentsinanicu2023beltempo
+"Background: Adult studies have shown that nursing overtime and unit overcrowding are associated with increased adverse patient events but there exists little evidence for the Neonatal Intensive Care Unit (NICU). We investigate the main determinants of nosocomial infections and medical accidents in a NICU using state-of-the-art machine learning techniques. Our analysis focuses on a retrospective study on the 7,438 neonates admitted in the CHU de Quebec NICU (capacity of 51 beds) from 10 April 2008 to 28 March 2013. Daily administrative data on nursing overtime hours, total regular hours, number of admissions, patient characteristics, as well as information on nosocomial infections and on the timing and type of medical errors were retrieved from various hospital-level datasets. Methods: We use a generalized mixed effects regression tree model with random effects (GMERT-RI) to elaborate predictions trees for the two outcomes. Neonates' characteristics and daily exposure to numerous covariates are used in the model. GMERT-RI is suitable for binary outcomes and is a recent extension of the standard tree-based method. The model allows to determine the most important predictors. Results: Diagnosis-related group level, regular hours of work, overtime, admission rates, birth weight and occupation rates are the main predictors for both outcomes. On the other hand, gestational age, C-Section, multiple births, medical/surgical and number of admissions are poor predictors. Conclusion: The GMERT-RI algorithm is a powerful tool. It is well suited to unearth potential correlations in the context of unbalanced panel data and discrete health outcomes, two common features of clinical data. In the particular setting of a NICU, we find that institutional features (overtime hours, occupancy rates, etc.) are just as important drivers as neonate-specific medical conditions in predicting medical accidents and health care associated infections. From an operational point of view, prediction trees can complement traditional management tools in preventing undesirable health outcomes in the NICU. (c) 2023, The Author(s) under exclusive licence to International Union for Physical and Engineering Sciences in Medicine (IUPESM)."""
+
+

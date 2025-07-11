@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: durationofthethirdstageoflaborandestimatedbloodlossintwinvaginaldeliveries2020whittington
+"Objective The main aim of this study was to characterize the duration of the third stage of labor and estimated blood loss in twin vaginal deliveries. Study Design This was a retrospective case-control study. The data was collected from deliveries at the University of Arkansas for Medical Sciences in Little Rock, Arkansas, from January 2013 to June 2017. Women were identified who had twin gestation, were delivered vaginally, and whose maternal age was greater than 18 years old. Women were excluded if they had an intrauterine fetal demise, delivered either/both fetuses via cesarean, history of a previous cesarean or a fetus with a congenital anomaly. If a subject met criteria to be included in the study, the next normal singleton vaginal delivery was used as the control subject. Results There were 132 singleton vaginal deliveries and 133 twin vaginal deliveries analyzed. There was no significant difference in the length of the third stage of labor between twin and singleton vaginal deliveries except in the 95th percentile of the distribution. Mothers delivering twins had an increase in third-stage duration by 7.618 minutes (95% confidence interval [CI]: 0.73, 14.50; p = 0.03) compared with those who delivered singletons. The twin group had a higher estimated blood loss than singleton deliveries. The increase in blood loss in the twin group was 149.02 mL (95% CI: 100.2, 197.8), 257.01 mL (95% CI: 117.9, 396.1), and 381.53 mL (95% CI: 201.1, 562.1) at the 50th, 90th, and 95th percentiles, respectively. When the third stage of labor was at the 90th percentile or less in twin pregnancy (14 minutes), estimated blood loss was less than 1000 mL. Conclusion Twin pregnancy is a known risk factor for postpartum hemorrhage. As the duration of the third stage prolongs, the risk for hemorrhage also increases. We recommend delivery of the placenta in twin pregnancies by 15 minutes to reduce this risk. Key Points The third stage is longer in twin pregnancy at extremes.Twin placentas should be delivered by 15 minutes.Manually extract the placenta when third stage is prolonged."""
+
+

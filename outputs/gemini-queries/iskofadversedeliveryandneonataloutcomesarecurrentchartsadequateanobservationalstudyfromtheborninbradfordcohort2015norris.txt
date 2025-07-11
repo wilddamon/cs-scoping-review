@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: smallforgestationalageandlargeforgestationalagethresholdstopredictinfantsatriskofadversedeliveryandneonataloutcomesarecurrentchartsadequateanobservationalstudyfromtheborninbradfordcohort2015norris
+"Objectives: Construct an ethnic-specific chart and compare the prediction of adverse outcomes using this chart with the clinically recommended UK-WHO and customised birth weight charts using cut-offs for small-for-gestational age (SGA: birth weight <10th centile) and large-for-gestational age (LGA: birth weight >90th centile). Design(s): Prospective cohort study. Setting(s): Born in Bradford (BiB) study, UK. Participant(s): 3980 White British and 4448 Pakistani infants with complete data for gestational age, birth weight, ethnicity, maternal height, weight and parity. Main Outcome Measure(s): Prevalence of SGA and LGA, using the three charts and indicators of diagnostic utility (sensitivity, specificity and area under the receiver operating characteristic (AUROC)) of these chart-specific cut-offs to predict delivery and neonatal outcomes and a composite outcome. Result(s): In White British and Pakistani infants, the prevalence of SGA and LGA differed depending on the chart used. Increased risk of SGA was observed when using the UK-WHO and customised charts as opposed to the ethnic-specific chart, while the opposite was apparent when classifying LGA infants. However, the predictive utility of all three charts to identify adverse clinical outcomes was poor, with only the prediction of shoulder dystocia achieving an AUROC>0.62 on all three charts. Conclusion(s): Despite being recommended in national clinical guidelines, the UK-WHO and customised birth weight charts perform poorly at identifying infants at risk of adverse neonatal outcomes. Being small or large may increase the risk of an adverse outcome; however, size alone is not sensitive or specific enough with current detection to be useful. However, a significant amount of missing data for some of the outcomes may have limited the power needed to determine true associations.Copyright (c) 2015, BMJ. All rights reserved."""
+
+

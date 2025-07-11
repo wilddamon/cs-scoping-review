@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: linoleicacidandlinoleatediolsinneonatalcordbloodinfluencebirthweight2022umeda
+"Background: Low-birth-weight infants exhibit a high risk for postnatal morbidity. Cytochrome P450 (CYP) and epoxide hydrolase (EH) are involved in the metabolism of factors responsible for low-birth-weight in infants. Both CYPs and EHs have high substrate specificity and are involved in polyunsaturated fatty acid (PUFA) metabolism. The CYP pathway produces epoxy fatty acids (EpFAs), which are further degraded by soluble EH (sEH). Additionally, sEH inhibition enhances the action of EpFAs and suppresses inflammatory responses. During pregnancy, excessive activation of maternal inflammatory response is a significant factor associated with low-birth-weight. However, the association of EpFAs, which have potential anti-inflammatory properties, with the low-birth-weight of infants remains uninvestigated. This study aimed to clarify the association between the umbilical cord serum EpFA and low-birth-weight using data obtained from the Hamamatsu Birth Cohort for Mothers and Children (HBC Study) by analyzing the umbilical cord blood samples. Method(s): We selected a subgroup of 200 infants (106 boys and 94 girls), quantified EpFA concentration in their cord blood samples collected at birth, and examined its correlation with birth weight. Result(s): The comparison between the low-birth-weight and normal-birth-weight groups revealed no significant correlation between PUFA and EpFA concentrations, but a significant correlation was observed in the linoleate diol concentrations of the two groups. Furthermore, birth weight did not significantly correlate with PUFA, EpFA, and diol concentrations in cord blood; however, multiple regression analysis showed a significant negative correlation of birth weight with the concentration of linoleic acid (LA) (r = -0.101, p = 0.016) as well as LA-derived dihydroxyoctadecenoic acid (diHOME) (r = -0.126, p = 0.007), 9,10-diHOME (r = -0.115, p = 0.014), and 12,13-diHOME (r = -0.126, p = 0.007) after adjusting for obstetric factors, including gestational age, infant's sex, childbirth history, delivery method, and maternal height. Conclusion(s): Birth weight was significantly correlated with the concentration of LA and linoleate diol diHOME after adjusting for obstetric confounders. Our results show that CYP and sEH involved in PUFA metabolism may influence the birth weight of infants. Further validation is needed to provide insights regarding maternal intervention strategies required to avoid low-birth-weight in infants in the future.Copyright (c) 2022 Umeda, Hirai, Ohto-Nakanishi, Tsuchiya and Matsuzaki."""
+
+

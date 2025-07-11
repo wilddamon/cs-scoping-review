@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricmodeofdeliveryandattentiondeficithyperactivitydisorderasiblingmatchedstudy2016curran
+"BACKGROUND: It has been suggested that birth by caesarean section (CS) may affect psychological development through changes in microbiota or stress response. We assessed the impact of mode of delivery, specifically CS, on the development of attention-deficit/hyperactivity disorder (ADHD), using a large, population-based cohort. METHODS: The study cohort consisted of all singleton live births in Sweden from 1990 to 2008 using data from Swedish national registers. Mode of delivery included: unassisted vaginal delivery(VD), assisted VD, elective CS or emergency CS. ADHD was determined using International Classification of Diseases version 10 (F90 or F98.8), or prescription for ADHD medication. We used Cox regression to assess the association between birth by CS and ADHD in the total study population, adjusting for perinatal and sociodemographic factors, then stratified Cox regression analysis on maternal identification number to assess the association among siblings. RESULTS: Our cohort consisted of 1 722 548 children, and among these 47 778 cases of ADHD. The hazard ratio (HR) of the association between elective CS, compared with unassisted VD, and ADHD was 1.15 [95% confidence interval (CI): 1.11-1.20] in the cohort, and 1.05 (95% CI: 0.93-1.18) in the stratified analysis. The HR of the association between emergency CS and ADHD was 1.16 (95% CI: 1.12-1.20])in the cohort and 1.13 (95% CI: 1.01-1.26) in the stratified analysis. CONCLUSION: Birth by CS is associated with a small increased risk of ADHD. However among siblings the association only remained for emergency CS. If this were a causal effect by CS, the association would be expected to persist for both types of CS, suggesting the observed association is due to confounding."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: leftventricularrotationalmechanicsinpreterminfantslessthan29weeksgestationoverthefirstweekafterbirth2015james
+"Background: There is a paucity of data on left ventricular (LV) rotational physiology, twist, and torsional mechanics in preterm infants. The principal aims of the present study were to assess the feasibility and reproducibility of measuring LV rotation, twist, and torsion in preterm infants (<29 weeks' gestation) using two-dimensional speckle-tracking echocardiography and to examine the changes in those parameters over the first week after birth. Method(s): This was a prospective observational study involving preterm infants <29 weeks' gestation. Echocardiographic evaluations were performed on days 1, 2, and 5 to 7 after delivery. LV basal and apical rotation, LV twist, LV twist rate (LVTR), and LV untwist rate (LVUTR) were measured from the basal and apical short-axis parasternal views and calculated using two-dimensional speckle-tracking echocardiography. Torsion was also calculated by normalizing LV twist to LV end-diastolic length. One-way repeated-measures analysis of variance was used to compare values across the three time points. Intra- and interobserver reproducibility were assessed using Bland-Altman analysis and the intraclass correlation coefficient. Result(s): Fifty-one infants with a mean +/- SD gestational age of 26.8 +/- 1.5 weeks and a mean birth weight of 945 +/- 233 g were included. There was high intra- and interobserver reproducibility for basal and apical rotation, LV twist, and LV torsion, with intraclass correlation coefficients ranging from 0.78 to 0.96 (P < .001 for all). Intra- and interobserver intraclass correlation coefficients for LVTR and LVUTR ranged from 0.70 to 0.88 (P < .001 for all). Apical rotation remained constant over the first week of age in a positive counterclockwise fashion (11.8 +/- 5.0degree vs 12.1 +/- 6.1degree vs 11.7 +/- 8.3degree, P = .92). Basal rotation changed from counterclockwise on day 1 to clockwise on day 7 (median, 5.5degree [interquartile range, -0.3degree to 8.3degree ] vs 4.0 [interquartile range, -4.7degree to 7.2degree] vs -4.5degree [interquartile range, -5.8degree to -2.3degree], P <. 001), with resultant net increases in twist and torsion (P < .05). There was no change in LVTR (P = .60), but LVUTR increased across the same time period (P = .01). Conclusion(s): Assessment of twist, LVTR, and LVUTR is feasible in preterm infants, with acceptable reproducibility. There are increases in LV twist and torsion in addition to LVUTR, suggesting changes in LV mechanics during the first week of age.Copyright (c) 2015 American Society of Echocardiography."""
+
+

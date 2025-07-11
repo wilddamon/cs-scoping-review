@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgainanddeliveryoutcomesapopulationbasedcohortstudy2021xu
+"BACKGROUND: Gestational weight gain is a modifiable factor that could impact maternal and infant health. However, its effect on delivery outcomes is not well established. OBJECTIVES: To investigate the associations between gestational weight gain and delivery outcomes stratified by early-pregnancy body mass index (BMI). METHODS: The study population included singleton livebirths in the Stockholm-Gotland obstetric cohort (January 2008 to October 2014; n = 174 953). The exposure was total gestational weight gain standardised into gestational-age-specific z-scores by using previously defined Swedish pregnancy weight gain-for-gestational age charts. The outcomes included caesarean delivery (overall, elective, and emergency), instrumental vaginal delivery, induction of labour, and postpartum haemorrhage. Confounders included maternal age, maternal height, parity, smoking status, cohabitation status, chronic hypertension, and pre-pregnancy diabetes. Logistic regression models with marginal standardisation were used to estimate risk ratios (RR) with 95% confidence intervals (CI) for each delivery outcome stratified by early-pregnancy BMI. RESULTS: Above average weight gain (z-score >= 0.50 SD) increased risks of caesarean delivery (from RR 1.08, 95% CI 1.00, 1.15 to RR 1.45, 95% CI 1.35, 1.55 across BMI groups), induction of labour (from RR 1.14, 95% CI 1.04, 1.23 to RR 1.38, 95% CI 1.25, 1.51 across BMI groups except underweight), and postpartum haemorrhage (from RR 1.13, 95% CI 1.07, 1.19 to RR 1.25, 95% CI 1.09, 1.41 among normal and overweight). Below average weight gain (z-score <-0.50 SD) decreased caesarean delivery risk (from RR 0.77, 95% CI 0.61, 0.93 to RR 0.89, 95% CI 0.84, 0.95 across BMI groups except underweight). CONCLUSIONS: In normal and overweight women, the risks of caesarean delivery, induction of labour, and postpartum haemorrhage increased with gestational weight gain. In obese women, higher gestational weight gain increased risks of caesarean delivery and induction of labour. Low gestational weight gain reduced risk of caesarean delivery in all BMI groups except underweight."""
+
+

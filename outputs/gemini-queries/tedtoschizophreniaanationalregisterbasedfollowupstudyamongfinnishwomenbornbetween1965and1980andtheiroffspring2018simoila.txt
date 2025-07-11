@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricandperinatalhealthoutcomesrelatedtoschizophreniaanationalregisterbasedfollowupstudyamongfinnishwomenbornbetween1965and1980andtheiroffspring2018simoila
+"BACKGROUND: This national register-based study assesses obstetric and perinatal health outcomes in women with schizophrenia and their offspring. METHODS: Using the Care Register for Health Care, we identified Finnish women who were born in 1965- 1980 and diagnosed with schizophrenia. For each case, five age- and place-of-birth- matched controls were obtained from the Central Population Register of Finland. They were followed from the day when the disorder was diagnosed in specialized health-care (the index day) until 31.12.2013. Information related to births was obtained from the Medical Birth Register and the Register of Congenital Malformations. We focused on singleton pregnancies that led to a delivery after the index day. We restricted the analysis of deliveries in controls to those that occurred after the index day of the case. Maternal age, marital status, smoking status, sex of the newborn, and parity were used as covariates in adjusted models. RESULTS: We identified 1162 singleton births among women with schizophrenia and 4683 among controls. Schizophrenic women had a 1.4-fold increased risk of induction of labor, delivery by cesarean section, and delivery by elective cesarean section. Regarding offspring, the risk of premature birth and the risk of low Apgar score at 1 min (<7) were 1.6-fold, of resuscitation 2.5-fold, and of neonatal monitoring 2.1-fold higher. CONCLUSIONS: Schizophrenia associates with some specific delivery methods, but delivery complications are rare and their prevalence does not differ from that observed among community women. Maternal schizophrenia associates with some negative perinatal health outcomes of the offspring."""
+
+

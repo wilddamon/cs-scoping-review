@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: limitedefficacywithadditionaladverseeffectofantiadhesionbarrieratprimarycesareansection2022lee
+"BACKGROUND/PURPOSE: In our experience, adhesion after the primary CS is generally minimal or nonexistent. However, adhesion barriers users have experienced more febrile episodes that may require therapeutic antibiotics during the postcesarean period. We evaluated clinical efficacy of HA-CMC and ORC to prevent adhesion at secondary CS and the post-operative outcome at primary and secondary CS. METHODS: This retrospective study includes 199 Asian women undergoing primary and secondary cesarean section between January1, 2011, and September 31, 2019. We used linear and logistic regression to analyze risk factors of postcesarean fever. An interaction term analysis was performed to examine the effect of surgical site infection risk factors and use of adhesion barrier on postcesarean fever rates. RESULTS: We found that use of adhesion barrier at the primary cesarean section is associated with a significantly higher incidence of postcesarean fever (p = 0.045), which is an independent risk factor of postcesarean fever (adjusted hazard ratio (Adj-HR)= 3.53, 95% CI = 1.03-10.24, p = 0.045). The strongest risk factor for postcesarean fever is the use of anti-adhesion film during emergency cesarean section (p = 0.041). In the subgroup of labor before operation and emergency cesarean section, adhesion barrier user had significant higher risk of postcesarean fever than nonuser (p = 0.018, Adj-HR = 12.12, 95% CI = 1.53-95.78; emergency cesarean section: p = 0.016, Adj-HR = 12.71, 95% CI = 1.62-99.62). CONCLUSION: Use of anti-adhesion films during emergency cases and with a significantly higher risk of postcesarean fever which potentially means increased risk of surgical site infection. Therefore, we do not suggest routine application of anti-adhesion films during cesarean deliveries especially in emergency cesarean section or in a woman having labor before operation."""
+
+

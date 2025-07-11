@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: relaxationpropertiesofhumanumbilicalcordbloodat15tesla2017portnoy
+"PURPOSE: To characterize the MRI relaxation properties of human umbilical cord blood at 1.5 Tesla. METHODS: Relaxometry measurements were performed on cord blood specimens (N = 88, derived from six caesarean deliveries) spanning a broad range of hematocrits (Hct = 0.19-0.76) and oxygen saturations (sO(2) = 4-100%), to characterize the dependence of T(1) and T(2) on these blood properties. Adult blood data (N = 31 specimens, derived from two volunteers) were similarly studied to validate our experimental methods by comparison with existing literature. Using biophysical models previously developed for adult blood, new model parameters were estimated, which relate Hct and sO(2) to the observed cord blood relaxation times. RESULTS: Fitted biophysical models explained more than 90% of the variation in T(1) and T(2) . In general, T(2) relaxation times of cord blood were longer (by up to 35%) than those of adult blood, whereas T(1) relaxation times were slightly shorter (by up to 10%). CONCLUSIONS: The models and fitted parameters presented here can be used for calibration of future MRI investigations of fetal and neonatal blood physiology. This study is an important step in facilitating accurate, noninvasive assessments of fetal blood oxygen content, a valuable diagnostic parameter in the identification and treatment of fetal hypoxia. Magn Reson Med 77:1678-1690, 2017. (c) 2016 International Society for Magnetic Resonance in Medicine."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomesandlongterminfectiousmorbidityofoffspringborntomotherswithfamilialmediterraneanfever2023asher
+"PURPOSE: To investigate perinatal outcomes and long-term infectious morbidity in children of mothers with familial Mediterranean fever (FMF). METHODS: A population-based cohort study comparing perinatal outcomes and long-term infectious morbidity of offspring of mothers with and without FMF was conducted. All singleton deliveries between the years 1991-2021 in a tertiary medical center were included. The study groups were followed until 18 years of age for long-term infectious morbidity. A Kaplan-Meier survival curve was used to compare the cumulative incidence of long-term infectious morbidity, and generalized estimation equation (GEE) models as well as Cox proportional hazards models were constructed to control for confounders. RESULTS: During the study period, 356,356 deliveries met the inclusion criteria. 411 of them were women with FMF. The mean follow-up period interval was 9.7 years (SD = 6.2) in both study groups. Using GEE models, preterm delivery, cesarean delivery, and low birth weight were independently associated with maternal FMF. The total infectious-related hospitalization rate was significantly higher in offspring born to mothers with FMF compared to the comparison group (Kaplan-Meier survival curve, log-rank p < 0.001). Using a Cox proportional hazards model, controlling for gestational age, maternal age, diabetes mellitus, cesarean delivery, and hypertensive disorders, being born to a mother with FMF was found to be an independent risk factor for long-term infection-related hospitalization of the offspring. CONCLUSION: Maternal FMF was found to be independently associated with long-term infection-related hospitalization of the offspring. This positive correlation may reflect an intra-uterine pro-inflammatory environment which may result in the offspring's long-term susceptibility to infection."""
+
+

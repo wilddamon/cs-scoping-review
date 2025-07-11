@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: useofcontraceptionbywomentreatedwithleflunomideduetorheumaticarthritis2014banas
+"A total of 46 premenopausal patients treated with leflunomide (LMF) for rheumatic arthritis (RA) and 107 women of reproductive age free from chronic diseases were investigated to evaluate methods of contraception. Among 31 LMF-treated women using contraception, 48.4% chose oestrogen-progesterone hormonal contraception (E-PHC); 16.1% condoms; 3.2% had an intrauterine device and 32.0% preferred natural methods. These methods differed significantly from women in the control group, who mostly used condoms (56.8%) and E-PHC (35.3%) and rarely, natural methods (3.95%) or progesterone injections (3.95%). As many as 32.6% LMF-treated patients did not use any method of birth control. The choice of contraception among RA patients with LFM therapy was significantly dependent on the experience with methods used prior to the LFM therapy introduction (p < 0.001). Compared with women free from chronic diseases, LMF-treated patients use E-PHC significantly more often but still as many as 33% do not use any contraceptive method, despite strong recommendations."""
+
+

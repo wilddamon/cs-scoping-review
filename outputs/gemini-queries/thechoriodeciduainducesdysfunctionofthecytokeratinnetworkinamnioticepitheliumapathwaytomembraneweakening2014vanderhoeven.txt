@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: groupbstreptococcalinfectionofthechoriodeciduainducesdysfunctionofthecytokeratinnetworkinamnioticepitheliumapathwaytomembraneweakening2014vanderhoeven
+"Early events leading to intrauterine infection remain poorly defined, but may hold the key to preventing preterm delivery. To determine molecular pathways within fetal membranes (chorioamnion) associated with early choriodecidual infection that may progress to preterm premature rupture of membranes (PPROM), we examined the effects of a Group B Streptococcus (GBS) choriodecidual infection on chorioamnion in a nonhuman primate model. Ten chronically catheterized pregnant monkeys (Macaca nemestrina) at 118-125 days gestation (term = 172 days) received choriodecidual inoculation of either GBS (n = 5) or saline (n = 5). Cesarean section was performed in the first week after GBS or saline inoculation. RNA extracted from chorioamnion (inoculation site) was profiled by microarray. Single gene, Gene Set, and Ingenuity Pathway Analysis results were validated using qRT-PCR (chorioamnion), Luminex (amniotic fluid, AF), immunohistochemistry, and transmission electron microscopy (TEM). Despite uterine quiescence in most cases, significant elevations of AF cytokines (TNF-a, IL-8, IL-1b, IL-6) were detected in GBS versus controls (p<0.05). Choriodecidual infection resolved by the time of cesarean section in 3 of 5 cases and GBS was undetectable by culture and PCR in the AF. A total of 331 genes were differentially expressed (>2-fold change, p<0.05). Remarkably, GBS exposure was associated with significantly downregulated expression of multiple cytokeratin (CK) and other cytoskeletal genes critical for maintenance of tissue tensile strength. Immunofluorescence revealed highly significant changes in the CK network within amniocytes with dense CK aggregates and retraction from the cell periphery (all p = 0.006). In human pregnancies affected by PPROM, there was further evidence of CK network retraction with significantly shorter amniocyte foot processes (p = 0.002). These results suggest early choriodecidual infection results in decreased cellular membrane integrity and tensile strength via dysfunction of CK networks. Downregulation of CK expression and perturbations in the amniotic epithelial cell intermediate filament network occur after GBS choriodecidual infection, which may contribute to PPROM."""
+
+

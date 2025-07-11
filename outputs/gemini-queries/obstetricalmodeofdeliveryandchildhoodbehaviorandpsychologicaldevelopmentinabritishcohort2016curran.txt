@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricalmodeofdeliveryandchildhoodbehaviorandpsychologicaldevelopmentinabritishcohort2016curran
+"The association between mode of delivery [specifically birth by Cesarean section (CS)] and induction of labor (IOL) psychological development at age 7 was assessed [including autism spectrum disorders (ASD), attention-deficit/hyperactivity disorder (ADHD) and behavioral difficulties]. The Millennium cohort study, a nationally representative UK cohort of children (including 13,141 children), was used. There was no association between planned CS and ASD [aOR 0.58; (95 % CI 0.19-1.79)] or ADHD [aOR 0.54; (95 % CI 0.18-1.64)] analyses. Induced vaginal delivery was significantly associated with behavioral difficulties in unadjusted [OR 1.26; (95 % CI 1.03-1.54)], but not adjusted analysis [OR 1.15; (95 % CI 0.82-1.60)]. There was no association between mode of delivery and ASD or ADHD in this cohort. Further research is needed to understand the relationship between mode of delivery and IOL and psychological development."""
+
+

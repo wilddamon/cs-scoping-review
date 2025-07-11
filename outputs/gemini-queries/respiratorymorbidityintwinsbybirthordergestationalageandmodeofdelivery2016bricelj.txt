@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: respiratorymorbidityintwinsbybirthordergestationalageandmodeofdelivery2016bricelj
+"OBJECTIVE: To evaluate the relationship between respiratory morbidity in twins by gestational age, birth order and mode of delivery.;METHODS: All twin deliveries at <37 weeks, registered in a national database, in the period 2003-2012 were classified into four gestational age groups: 33-36, 30-32, 28-29, and <28 weeks. Outcome variables included transient tachypnea of the newborn (TTN), respiratory distress syndrome (RDS) and need for assisted ventilation.;RESULTS: A total of 1836 twins were born vaginally, and 2142 twins were born by cesarean delivery, for a grand total of 3978 twins. TTN did not appear to be related to birth order and to the mode of delivery. In contrast, RDS was more frequent among the second born twins in the vaginal birth groups born at 30-36 weeks [odds ratio (OR) 2.5, 95% confidence interval (CI) 1.2-5.1 and OR 2.0, 95% CI 1.2-3.5 for 33-36 weeks and 30-32 weeks, respectively], whereas this trend was seen in the cesarean birth groups born earlier (OR 3.8, 95% CI 1.1-13.0 for 28-29 weeks). Cesarean delivery significantly increased the frequency of RDS in twin A as well as in twin B compared with vaginal birth, but only at gestational ages <30 weeks.;CONCLUSION: Mode of delivery and birth order have a gestational age dependent effect on the incidence of RDS."""
+
+

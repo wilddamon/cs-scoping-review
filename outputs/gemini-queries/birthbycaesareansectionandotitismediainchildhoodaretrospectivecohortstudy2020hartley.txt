@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthbycaesareansectionandotitismediainchildhoodaretrospectivecohortstudy2020hartley
+"The objective of the present study was to examine the association between birth by Caesarean section (CS) and otitis media (OM) in childhood. We assembled a retrospective cohort of children born between 2003 and 2007 in Nova Scotia and followed them through to 2014. The cohort was derived through a linkage of the Nova Scotia Atlee Perinatal Database with provincial administrative health data. Cox proportional hazards, negative binomial regression and logistic regression were used to examine the association between CS and OM. Among the 36,318 children, 27% were born by CS, and 78% had at least one OM episode (median 2 episodes). Children born by CS were at a slightly higher risk of OM (hazard ratio 1.06, 95% confidence interval (CI) 1.03, 1.09), had more OM episodes in the first 7 years of life (incidence rate ratio 1.04, 95% CI 1.01, 1.07), and were more likely to be above the 95th percentile for OM episodes than children born vaginally (odds ratio 1.10, 95% CI 0.99, 1.23). Our study shows that birth by CS is weakly associated with OM in childhood, but the clinical and public health impact of these findings is small."""
+
+

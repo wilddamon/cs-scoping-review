@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: onbirthsingledoseliveattenuatedopvandbcgvaccinationinducesgutcathelicidinll37responsesat6weekofageanaturalexperiment2015alam
+"In a cross sectional study, we show that infants who received single dose of live attenuated OPV and BCG vaccines within 48h of birth, have higher excretion of human cathelicidin LL37 (p<0.05) in stool at 6wk of age. This response remained unchanged in multivariate analysis after adjusting for sex, mode of delivery, infant age, mother age birth weight and breast milk feeding pattern. This analysis also reveals that irrespective of vaccination, girl infants have higher human-beta-defencin2 (HBD2) and exclusively breastfed infants have higher total and anti-polio specific IgA to all three subtypes in stool (p<0.05). However, vaccination induces anti-polio IgA responses only to infants who are exclusively breastfed. Thus on-birth live attenuated vaccination may provide non-specific beneficial effect against infections while exclusive breastfeeding enhance protection by boosting vaccine induced IgA. The result also suggests that in polio endemic area, exclusive breastfeeding may be sufficient for mucosal anti-polio responses during early infancy."""
+
+

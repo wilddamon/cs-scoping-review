@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenattemptedexternalcephalicversionandperinatalmorbidityandmortality2018son
+"OBJECTIVE: To examine whether, with fetal malpresentation at term, perinatal morbidity and mortality differ between women who undergo an external cephalic version (ECV) attempt and those who do not and are expectantly managed.;METHODS: We conducted a retrospective cohort study of women with nonanomalous singleton gestations in nonvertex presentation delivering at a tertiary care institution from 2006 to 2016. Women undergoing an ECV attempt at 37 weeks of gestation or greater were compared with those with nonvertex fetuses who did not undergo an ECV attempt and delivered at 37 weeks of gestation or greater. The primary outcome was a composite of perinatal morbidity and mortality including stillbirth, neonatal death within 72 hours, Apgar score less than 5 at 5 minutes, umbilical artery pH less than 7.0, base deficit 12 mmol/L or greater, or neonatal therapeutic hypothermia. Secondary outcomes were neonatal intensive care unit admission and neonatal anemia (hemoglobin value less than 13.5 g/dL). Bivariable and multivariable analyses were performed.;RESULTS: Of the 4,117 women meeting eligibility criteria, 1,263 (30.7%) attempted ECV; 509 (40.3%) of these attempts resulted in successful versions. In bivariable analyses, women who underwent attempted ECV were more likely to be non-Hispanic white and multiparous and had lower mean body mass indexes. The composite perinatal morbidity and mortality outcome did not differ significantly between women who did and did not undergo attempted ECV (2.9% vs 2.5%, P=.46). The frequencies of neonatal intensive care unit admission (3.6% vs 3.3%, P=.53) and neonatal anemia (1.6% vs 1.2%, P=.36) were also similar. There continued to be no association between ECV attempt and composite perinatal morbidity and mortality outcome after adjustment for potential confounders (adjusted odds ratio 1.02, 95% CI 0.66-1.60).;CONCLUSION: Compared with expectant management, an ECV attempt at term is not associated with increased perinatal morbidity or mortality."""
+
+

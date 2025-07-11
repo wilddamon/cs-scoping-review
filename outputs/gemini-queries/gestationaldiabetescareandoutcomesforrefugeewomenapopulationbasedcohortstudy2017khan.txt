@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationaldiabetescareandoutcomesforrefugeewomenapopulationbasedcohortstudy2017khan
+"AIM: To determine the prevalence of adverse clinical outcomes, the rates of healthcare utilization, and the incidence of post-partum Type 2 diabetes in refugees with gestational diabetes (GDM), compared with other immigrants and non-immigrants.;METHODS: A population-based cohort study was conducted using healthcare databases in Ontario, Canada. Over 40 000 women with GDM having singleton live births between 2002 and 2014 were identified. We identified GDM adverse outcomes such as macrosomia, pre-eclampsia and respiratory distress syndrome. Antenatal and newborn healthcare utilization were ascertained. Women were then followed for diagnosis of diabetes post-partum.;RESULTS: Both refugees and other immigrants had a lower rate than non-immigrants of many adverse GDM outcomes, including pre-eclampsia [relative risk (RR) 0.65, 95% confidence interval (95% CI) 0.44-0.95 and 0.61, 95% CI 0.52-0.72, respectively], preterm birth (RR 0.87, 95% CI 0.75-0.995 and 0.85, 95% CI 0.80-0.91, respectively), and respiratory distress syndrome (RR 0.83, 95% CI 0.70-0.97 and 0.78, 95% CI 0.72-0.84, respectively). However, refugees were less likely to attend well-baby care in time for the first routine vaccination (RR 0.92, 95% CI 0.88-0.95). Incidence of post-partum diabetes was high in all groups, but refugee women were at increased risk (hazard ratio 1.23, 95% CI 1.11-1.37).;CONCLUSIONS: Despite different circumstances leading to migration, refugees have a similar 'healthy immigrant effect' to other immigrants, with respect to adverse GDM outcomes. However, newborns of refugees were less likely to have well-baby care, and refugee women were also at especially high risk of developing diabetes post-partum. These are both important public health issues. Copyright (c) 2017 Diabetes UK."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesthepresenceofepiduralanalgesiareducetheriskofneonatalsepsisinthesettingofanintrapartumfever2022ward
+"OBJECTIVE: Epidural analgesia has been associated with more frequent intrapartum fever as well as neonatal antibiotic therapy. We examined whether intrapartum fever carries the same risk for neonatal sepsis with and without epidural. METHODS: This is a retrospective cohort study of 34,371 deliveries at a single institution. Primary outcome variables included neonatal sepsis, Apgar scores, neonatal intensive care (NICU) admission, postpartum hemorrhage, prolonged labor, and cesarean delivery. Univariate analysis and multivariable logistic regression were used to assess the risk of sepsis while controlling for possible confounding covariables. RESULTS: A total of 34,371 patients were included in the study, 16,917 (49.9%) of whom had epidural anesthesia. Of the patients who had an epidural, 2103 (12.4%) had an intrapartum fever, compared to 446 (2.6%) of those who did not have an epidural (p < .001). Overall, there was a decreased risk of neonatal sepsis in the setting of intrapartum fever with an epidural after controlling for potential confounders. (aOR 0.53 [95% CI 0.29-0.98]). In preterm patients, an epidural was associated with a decreased risk for neonatal sepsis (5.7% vs. 10.0%, p = .04), 5-minute Apgar score <7 (23.5% vs. 33.6%, p = .006), and NICU admission (66.6% vs. 76.5%, p = .008) compared to those born in the setting of a fever without an epidural. CONCLUSIONS: Neonates were less likely to sustain a diagnosis of sepsis in the setting of an epidural-associated fever compared to those in the setting of an intrapartum fever without an epidural. These data may be used by providers in counseling and guideline creation."""
+
+

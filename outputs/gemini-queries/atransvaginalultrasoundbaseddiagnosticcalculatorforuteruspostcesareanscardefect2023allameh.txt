@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: atransvaginalultrasoundbaseddiagnosticcalculatorforuteruspostcesareanscardefect2023allameh
+"BACKGROUND: A cesarean scar defect (CSD) is incomplete healing of the myometrium at the site of a prior cesarean section (CS), complicating more than half of all cesarean sections. While transvaginal ultrasound (TVU) is the most common modality for diagnosing this defect, hysteroscopy remains the gold standard. We aimed to develop an efficient diagnostic tool for CSD among women with abnormal uterine bleeding (AUB) by integrating TVU findings and participants' demographic features. METHODS: A single-center cross-sectional study was conducted on 100 premenopausal and non-pregnant women with a history of CS complaining of AUB without a known systemic or structural etiology. Each participant underwent a hysteroscopy followed by a TVU the next day. The defect dimensions in TVU, patients' age, and the number of previous CSs were integrated into a binary logistic regression model to evaluate their predictive ability for a hysteroscopy-confirmed CSD. RESULTS: Hysteroscopy identified 74 (74%) participants with CSD. The variables age, the number of CSs, defect length, and defect width significantly contributed to the logistic regression model to diagnose CSD with odds ratios of 9.7, 0.7, 2.6, and 1.7, respectively. The developed model exhibited accuracy, sensitivity, and specificity of 88.00%, 91.89%, and 76.92%, respectively. The area under the receiver operating curve was 0.955 (P-value < 0.001). CONCLUSION: Among non-pregnant women suspected of CSD due to AUB, looking at age, the number of previous CSs, and TVU-based defect width and length can efficiently rule CSD out."""
+
+

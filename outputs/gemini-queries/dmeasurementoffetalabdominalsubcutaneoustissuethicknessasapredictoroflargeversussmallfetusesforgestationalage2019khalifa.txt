@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ultrasoundmeasurementoffetalabdominalsubcutaneoustissuethicknessasapredictoroflargeversussmallfetusesforgestationalage2019khalifa
+"Background: Commonly used ultrasound fetal weight estimation formulas show variable degrees of error which is more evident in fetuses with nutritional and metabolic issues; better accuracy of fetal weight estimation can be obtained by incorporation of fetal soft tissue parameters like the fetal subcutaneous tissue in the weight estimation process. The aim of this study was to assess the accuracy of fetal abdominal subcutaneous tissue thickness (FASTT) as an indicator of fetal birth weight. Result(s): FASTT showed a high significant statistical correlation with fetal birth weight (r = 0.94, P value = 0.00); it showed higher sensitivity for large for gestational age (LGA) than small for gestational age (SGA) (90.9% and 86.9%, respectively). The best cutoff value for the detection of LGA was >= 9.2 mm and <= 4.5 for SGA. FASTT showed lower accuracy than abdominal circumference (AC) as an indicator of LGA (92% versus 96%, respectively). Used alone, FASTT is less sensitive than Hadlock formula in both LGA and SGA (90.9% versus 94.5% in LGA and 86.9% versus 88.9% for SGA, respectively). There was no statistical correlation between FASTT and mode of delivery (r = 0.09, P value = 0.23) nor fetal gender (r = 0.15, P value = 0.11) Conclusion(s): FASTT is a good indicator of fetal birth weight especially LGA, yet it is less sensitive than AC in the prediction of LGA. It cannot be used as a predictor of mode of delivery and not affected by fetal gender.Copyright (c) 2019, The Author(s)."""
+
+

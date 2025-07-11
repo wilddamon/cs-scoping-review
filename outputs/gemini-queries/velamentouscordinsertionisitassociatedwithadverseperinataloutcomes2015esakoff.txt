@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: velamentouscordinsertionisitassociatedwithadverseperinataloutcomes2015esakoff
+"INTRODUCTION: Velamentous cord insertion (VCI) can be identified on prenatal ultrasound with an incidence of around 1%. We set out to examine the association between VCI and perinatal outcomes. METHODS: This was a retrospective cohort study of 482,812 pregnancies using the California vital statistics birth cohort dataset linked with patient discharge dataset from 2006 during which 2327 (0.48%) were complicated by VCI. Outcomes examined included intrauterine fetal demise (IUFD), small for gestational age (SGA), preterm delivery, manual removal of the placenta and cesarean delivery. Statistical analysis was performed using Chi squared tests and multivariable logistic regression analyses. RESULTS: Pregnancies with VCI, compared to those without, were associated with an increased risk of IUFD (2.6% versus 0.28%, p = 0.001), SGA (16.93% versus 10.17%, p = 0.001), preterm delivery <37 weeks (12.5% versus 9.10%, p = 0.001), manual removal of placenta (14.47% versus 0.76%, p = 0.01) and postpartum hemorrhage (6.66% versus 2.88%, p = 0.001). Adjusting for confounders, the adjusted odds of IUFD were more than nine times in pregnancies with VCI (aOR 9.56; 95% CI 6.76-13.5) than those without. DISCUSSION: VCI is associated with an increased risk of adverse perinatal outcomes such as IUFD, SGA, preterm delivery <37 weeks, need for manual removal of placenta and post-partum hemorrhage. Routine identification of the placental cord insertion site should be considered. Close surveillance of these pregnancies should be undertaken. Future research should focus on the optimal management including the gestational age for delivery of these pregnancies."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retrospectiveanalysisofacutefattyliverofpregnancytwentyeightcasesanddiscussionofanesthesia2014zhou
+"Aims: To summarize the clinical features, perioperative management and maternal and neonatal outcomes of patients with acute fatty liver of pregnancy (AFLP) and to discuss the management of anesthesia in these patients. Method(s): This study was a retrospective review over a period of 5 years and 9 months; 28 cases from the Shanghai Public Health Clinical Center were included. Records were reviewed for symptoms, signs, laboratory findings, clinical courses, perioperative management and maternal and neonatal outcomes. Result(s): Of the AFLP cases analyzed in the present study, 75.0% occurred in primipara and 63.3% occurred with male fetuses. Prodromic symptoms included the sudden onset of fatigue, nausea, vomiting, anorexia and jaundice. Laboratory results indicated liver function abnormalities, coagulopathy, hypoglycemia, leukocytosis and negative urine bilirubin. There were 2 maternal deaths (7.1%) without fetal deaths. Cesarean sections were performed in 16 cases under neuraxial anesthesia and in 12 cases under general anesthesia with rapid-sequence induction. Conclusion(s): Early diagnosis, prompt delivery and intensive supportive treatment are critical for improving the prognosis of AFLP. Anesthesia selection should be individualized and general anesthesia with rapid-sequence induction may be the best choice for patients with severe coagulopathy.Copyright (c) 2013 S. Karger AG, Basel."""
+
+

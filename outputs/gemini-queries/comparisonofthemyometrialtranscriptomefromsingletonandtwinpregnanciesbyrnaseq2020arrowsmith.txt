@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofthemyometrialtranscriptomefromsingletonandtwinpregnanciesbyrnaseq2020arrowsmith
+"Preterm birth is recognized as the primary cause of infant mortality worldwide. Twin pregnancies are significantly more at risk of preterm birth than singleton pregnancies. A greater understanding of why this is and better modes of treatment and prevention are needed. Key to this is determining the differing pathophysiological mechanisms of preterm birth in twins, including the role of the myometrium and premature uterine contraction. We performed RNA sequencing (RNA-Seq) of human myometrium from singleton and twin pregnancies at term (> 37+0 weeks) and preterm (< 37+0 weeks), collected during pre-labour Caesarean Section. RNA-Seq libraries were prepared from polyA-selected RNA and sequenced on the Illumina HiSeq 4000 platform. Differentially expressed genes (DEGs), GO (Gene Ontology) and KEGG (Kyoto Encyclopedia of Genes and Genomes) pathway enrichment were conducted using R software. Significance was determined with a false discovery rate-adjusted P value of <0.05. Only 3 DEGs were identified between gestational age-matched singleton and twin myometrium and only 1 DEG identified between singleton term and twin preterm tissues. Comparison of singleton preterm myometrium with twin term myometrium however, revealed 75 down-regulated and 24 up-regulated genes in twin myometrium. This included genes associated with inflammation and immune response, T cell maturation and differentiation and steroid biosynthesis. GO and KEGG enrichment analyses for biologically relevant processes and functions also revealed several terms related to inflammation and immune response, as well as cytokine-cytokine receptor interaction and chemokine receptor signalling. Data indicate that little or no differences exist in the transcriptome of singleton and twin myometrium when matched for gestational age. The significant up- and down-regulation of genes identified between preterm singleton and twin myometrium at term may point to transcriptome changes associated with the chronic levels of uterine stretch in twin pregnancy or genes associated with the myometrium transitioning to labour onset."""
+
+

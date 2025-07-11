@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theriskofopioidusedisorderamongwomenundergoingobstetricrelatedproceduresresultsfromthecernerrealworlddatabase2024qeadan
+"INTRODUCTION: While the relationship between various obstetric procedures and the onset of opioid use disorder (OUD) remains ambiguous, this study aims to elucidate the immediate and prolonged risks of OUD in women who have undergone procedures such as vaginal and cesarean deliveries, induced abortions, and treatments related to miscarriages and ectopic pregnancies. METHODS: Retrospective data (n = 632,872) from the Cerner Real-World Data(tm) for pregnant females (age 15-44) between January 2010 and March 2020 were used. Adjusted odds ratios (ORs) and 95% confidence intervals (CIs) were used to compare odds of OUD for each obstetric outcome to normal vaginal delivery using multivariable logistic regression. New opioid prescriptions and persistent opioid prescriptions were secondary outcomes for which modified Poisson regression models were used. RESULTS: Compared to patients with a vaginal delivery, those with an ectopic pregnancy, a cesarean delivery, miscarriage, and an induced abortion had 84%, 46%, 119%, and 131% significantly higher odds of OUD (aOR [95% CI]: 1.84 [1.36, 2.48], 1.46 [1.29, 1.65], 2.19 [1.94, 2.47], and 2.31 [1.80, 2.96]) respectively. Among opioid naive patients, all other obstetric procedure groups (besides miscarriage) had significantly higher risk of being prescribed new opioids than those with a vaginal delivery. Among those newly prescribed opioids, patients from all other obstetric procedure groups demonstrated a significantly higher risk of persistent opioid prescription compared to those who had a vaginal delivery. CONCLUSION: The association between specific obstetric outcomes, notably miscarriage and induced abortions, and opioid use patterns should inform safer and more effective pain management in a maternal population."""
+
+

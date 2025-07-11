@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofdeathat1yearfollowingpostpartumopioidexposure2024horn
+"OBJECTIVE: Opioids are commonly prescribed to women for acute pain following childbirth. Postpartum prescription opioid exposure is associated with adverse opioid-related morbidities but the association with all-cause mortality is not well studied. This study aimed to examine the association between postpartum opioid prescription fills and the 1-year risk of all-cause mortality among women with live births. METHODS: In a retrospective cohort study of live births among women enrolled in Tennessee Medicaid (TennCare) between 2007 and 2015, we compared women who filled two or more postpartum outpatient opioid prescriptions (up to 41 days of postdelivery discharge) to women who filled one or fewer opioid prescription. Women were followed from day 42 postdelivery discharge through 365 days of follow-up or date of death. Deaths were identified using linked death certificates (2007-2016). We used Cox's proportional hazard regression and inverse probability of treatment weights to compare time to death between exposure groups while adjusting for relevant confounders. We also examined effect modification by delivery route, race, opioid use disorder, use of benzodiazepines, and mental health condition diagnosis. RESULTS: Among 264,135 eligible births, 216,762 (82.1%) had one or fewer maternal postpartum opioid fills and 47,373 (17.9%) had two or more fills. There were 182 deaths during follow-up. The mortality rate was higher in women with two or more fills (120.5 per 100,000 person-years) than in those with one or fewer (57.7 per 100,000 person-years). The risk of maternal death remained higher in participants exposed to two or more opioid fills after accounting for relevant covariates using inverse probability of treatment weighting (adjusted hazard ratio: 1.46 [95% confidence interval: 1.01, 2.09]). Findings from stratified analyses were consistent with main findings. CONCLUSION: Filling two or more opioid prescriptions during the postpartum period was associated with a significant increase in 1-year risk of death among new mothers. KEY POINTS: * Opioid prescribing in the postpartum period is common.. * Prior studies show that >1 postnatal opioid fill is associated with adverse opioid-related events.. * > 1 opioid fill within 42 days of delivery was associated with an increase in 1-year risk of death.."""
+
+

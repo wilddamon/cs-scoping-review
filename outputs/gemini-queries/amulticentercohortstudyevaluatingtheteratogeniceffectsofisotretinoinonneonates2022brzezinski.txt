@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: amulticentercohortstudyevaluatingtheteratogeniceffectsofisotretinoinonneonates2022brzezinski
+"(1) Background: Isotretinoin (ISO) is a systemic retinoid known for its teratogenic effects on embryos and fetuses. The aim of this study was to compare the pregnancy outcomes of women who were exposed to isotretinoin with those of women without such exposure from a teratogenic point of view. (2) Methods: A total of 1459 female patients from three clinical hospitals in Poland and Romania, segregated into two groups depending on their ISO exposure, were evaluated between January and December 2019. Medical records were screened to identify the pregnancy outcomes and congenital malformation rates. (3) Results: The congenital malformation rate for the exposed group was 1.2% (four cases), and no specific signs of Accutane embryopathy were identified. Women from the unexposed group were more likely to deliver preterm and through cesarean deliveries and had a higher rate of newborn congenital malformations as compared to women from the exposed group. (4) Conclusions: Even though we could not find a significant association between ISO exposure and teratogenic effects in newborns, effective contraceptive measures are key to preventing unfavorable pregnancy outcomes."""
+
+

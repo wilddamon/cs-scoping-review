@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: plannedbirthbefore39weeksandchilddevelopmentapopulationbasedstudy2016bentley
+"OBJECTIVE: To investigate the association of gestational age and mode of birth with early child development. METHODS: Population-based record linkage cohort study was conducted among 153 730 live-born infants of >=32 weeks' gestation with developmental assessments at school age, in New South Wales, Australia, 2002 to 2007. Children were assessed in 5 domains: physical health and well-being, language and cognition, social competence, emotional maturity, and general knowledge and communication. Children scoring in the bottom 10% of national domains were considered developmentally vulnerable, and children developmentally vulnerable for >=2 domains were classified as developmentally high risk (DHR), the primary outcome. Robust multivariable Poisson models were used to obtain individual and combined adjusted relative risks (aRRs) of gestational age and mode of birth for DHR children. RESULTS: Overall, 9.6% of children were DHR. The aRR (95% confidence interval) of being DHR increased with decreasing gestational age (referent: 40 weeks); 32 to 33 weeks 1.25 (1.08-1.44), 34 to 36 weeks 1.26 (1.18-1.34), 37 weeks 1.17 (1.10-1.25), 38 weeks 1.06 (1.01-1.10), 39 weeks 0.98 (0.94-1.02), >=41 weeks 0.99 (0.94-1.03), and for labor induction or prelabor cesarean delivery (planned birth; referent: vaginal birth after spontaneous labor), 1.07 (1.04-1.11). The combined aRR for planned birth was 1.26 (1.18-1.34) at 37 weeks and 1.13 (1.08-1.19) at 38 weeks. CONCLUSIONS: Early (at <39 weeks) planned birth is associated with an elevated risk of poor child development at school age. The timing of planned birth is modifiable, and strategies to inform more judicious decision-making are needed to ensure optimal child health and development."""
+
+

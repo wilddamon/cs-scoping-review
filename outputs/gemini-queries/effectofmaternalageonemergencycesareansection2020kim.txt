@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofmaternalageonemergencycesareansection2020kim
+"Objectives: This study aims to investigate the independent influence of maternal age on the risk of emergency cesarean section (CS) due to nonreassuring fetal heart rate or arrest disorder.Methods: This was a cross-sectional study on women with nulliparous pregnancies, who are attempting vaginal delivery at term and have a cephalic presentation without the indication of elective CS at the onset of labor. The primary outcome was the rate of emergency CS. Independent risk factors were elucidated using multivariate logistic regression analysis.Results: Of 3513 women, 541 (15.4%) delivered by emergency CS during a trial of vaginal delivery, with theses being due to nonreassuring fetal heart rate (N = 150) or arrest disorder (N = 391). In univariate analysis, both individual CS rate due to nonreassuring fetal heart rate or arrest disorder and total emergent CS rate increased with maternal age. The risk of emergency CS was also significantly higher when labor induction was performed (odds ratio (OR) 2.489, 95% confidence interval (CI) 2.043-3.033), while fetal weight was heavier (neonatal weight >=3.5 kg; OR 2.396, 95% CI 1.956-2.934), and maternal BMI was higher (before pregnancy >=25 kg/m(2); OR 2.751, 95% CI 1.980-3.823, at delivery >=28 kg/m(2); OR 2.375 95% CI 1.915-2.946). Multivariate stepwise regression analysis showed a statistically significant increase in the risk of total emergency CS in mothers over 35 years of age, compared to that in women less than 30 years old (35-39 years group; adjusted OR 1.805 95% CI 1.347-2.418, >=40 years group; adjusted OR 4.659 95% CI 2.709-8.013). CS due to nonreassuring fetal heart rate increased in mothers over 40 years of age (adjusted OR 5.354, 95% CI 2.386-12.017) and CS due to arrest disorder was also increased in mothers over 30 years of age (30-34 years group; adjusted OR 1.343, 95% CI 1.010-1.785, 35-39 years group; adjusted OR 1.906, 95% CI 1.357-2.679, >=40 years group; adjusted OR 4.663, 95% CI 2.480-8.768). Similar to the result of univariate analysis, labor induction increased the risk of emergency CS (adjusted OR 2.241, 95% CI 1.828-2.747).Conclusions: Advanced maternal age is an independent risk factor of emergency CS due to nonreassuring fetal heart rate or arrest disorder during the trial of vaginal delivery. The risk of emergency CS was also increased when labor induction was performed. Therefore, the risk of emergency CS needs to be considered, especially when the labor induction is planned, in women aged 40 or more."""
+
+

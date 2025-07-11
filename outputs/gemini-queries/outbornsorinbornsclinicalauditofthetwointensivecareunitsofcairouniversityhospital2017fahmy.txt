@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outbornsorinbornsclinicalauditofthetwointensivecareunitsofcairouniversityhospital2017fahmy
+"Objective To document and analyze mortality and morbidity of infants admitted to the inborn and outborn neonatal intensive care units (NICUs) of Cairo University Hospital in Egypt. Methods Admission data, mode of delivery, gestational age, birth weight, diagnosis, period of stay and outcome (discharge or mortality) were retrospectively collected from January to December 2014 for infants admitted to either one of the two NICUs of Cairo University Hospital. Results A total of 1725 babies were admitted, 600 (34.8%) were inborn and 1125 (65.2%) were outborn. The majority of inborns admitted (72.5%) were preterms, compared to a majority of full term admitted outborns (67.7%) (p < 0.001). Neonatal hyperbilirubinemia represented the main cause of admission among outborns. Mortality was significantly higher among inborns (37.2%) than outborns (17.2%) (p < 0.0001). Prematurity was the leading cause of death among inborns (78.48%) and was significantly higher than in outborns (57.22%) (p < 0.001), but when compared to admission ratio, premature expiries (especially <28 weeks of gestation) were high in both NICUs (83.3% for inborns and 93.8% for outborns) with no statistical difference. Early neonatal deaths (during the first week of life) represented the majority of inborns and outborns expiries (75.34% and 63.92% respectively). Other causes of death among inborns included septicemia, hypoxic encephalopathy, and congenital malformations whilst among outborns, prematurity and congenital malformations showed the highest case fatality (46.6% and 47.2% respectively). Conclusion Prematurity is a significant cause of death in our NICUs. We speculate that improving survival requires regular recording and identification of our problems, with applying best practices using available and may be novel therapies.Copyright (c) 2017 The Egyptian Pediatric Association"""
+
+

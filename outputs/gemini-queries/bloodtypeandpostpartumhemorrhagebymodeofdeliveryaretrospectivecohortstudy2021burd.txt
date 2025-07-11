@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: bloodtypeandpostpartumhemorrhagebymodeofdeliveryaretrospectivecohortstudy2021burd
+"OBJECTIVE: To assess the relationship between postpartum hemorrhage and ABO blood type for vaginal delivery and cesarean delivery. STUDY DESIGN: This is a retrospective cohort study of data abstracted from the PeriBank database regarding demographics and delivery outcomes. All live singleton deliveries from January 2011 until March 2018 were included in this study. Exclusion criteria were sickle cell disease and multiple gestations. Analyses were conducted separately for cesarean delivery and vaginal delivery. Quantitative variables were analyzed with analysis of variance testing and categorical variables with chi square testing. Significant demographic differences between groups were controlled for using multivariate logistical regression. The primary outcome was the rate of postpartum hemorrhage by blood type (A, B, AB, and O), defined as blood loss >500 mL in vaginal delivery and >1000 mL in cesarean delivery. 43,437 patients were screened and 32,023 women met inclusion criteria (22,484 vaginal deliveries (70.2%) and 9539 cesarean deliveries (29.8%)). RESULTS: In the vaginal delivery group there were differences in age, parity, race, use of regional anesthesia, rate of induction of labor, and thrombocytopenia between blood types. In the cesarean delivery group, age, parity, and race were significantly different between blood types. There was no observed difference in the rate of postpartum hemorrhage by blood type for those who delivered via vaginal delivery when controlling for demographic differences (p = 0.2). In the cesarean delivery group, there was a significantly higher rate of postpartum hemorrhage in women with type O blood (5.2% type O vs 3.8% type A vs 4.4% type B vs 4.2% type AB, p = 0.035), including when controlling for demographic differences (p = 0.02). In both vaginal and cesarean delivery groups, there was no difference in rates of any of the secondary outcomes, including blood transfusion, hysterectomy, intrapartum dilation and curettage, and intensive care unit admission. CONCLUSION: Although this study found no statistically significant difference in clinical outcomes between blood types, type O blood may be an additional risk factor to consider for postpartum hemorrhage at the time of cesarean delivery."""
+
+

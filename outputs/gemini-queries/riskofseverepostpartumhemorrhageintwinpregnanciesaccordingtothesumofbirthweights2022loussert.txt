@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofseverepostpartumhemorrhageintwinpregnanciesaccordingtothesumofbirthweights2022loussert
+"OBJECTIVE: To characterize the strength and patterns of association between birth weights and severe postpartum hemorrhage in twin pregnancies. METHODS: This was a secondary analysis of the JUMODA (JUmeaux Mode d'Accouchement) cohort, a national, prospective, population-based study of twin deliveries, conducted from February 2014 to March 2015 in France. We excluded patients with a fetal death, medically indicated termination of pregnancy, antepartum hemorrhage, placenta previa, placental abruption, or missing birth weight. The primary outcome was severe postpartum hemorrhage , defined as a postpartum hemorrhage requiring at least one of the following: transfusion of 4 or more units of red blood cells, uterine artery embolization, uterine balloon tamponade, vascular ligation, uterine suture, emergency hysterectomy, admission to an intensive care unit, or postpartum hemorrhage considered severe by the obstetrician or leading to maternal death. The exposure was the sum of the birth weights of the two twins. To assess the association between the sum of twins' birth weights and severe postpartum hemorrhage, we used multilevel multivariable modified Poisson regression modeling. Analyses were conducted for the overall population and by planned and actual mode of delivery. RESULTS: A total of 8,373 patients were analyzed. Severe postpartum hemorrhage occurred in 4.5% (379/8,372, 95% CI 4.1-5.0), from 2.1% (15/722) for a sum of twins' birth weights less than 3,000 g up to 8.8% (12/136) for a sum exceeding 6,500 g. In the multivariable analysis, the association between the sum of the twins' birth weights and severe postpartum hemorrhage was linear, with an adjusted relative risk of severe postpartum hemorrhage of 1.36 (95% CI 1.24-1.49) for each 500-g increase in the sum of twins' birth weights. CONCLUSION: In twin pregnancies, the risk of severe postpartum hemorrhage increased linearly with the sum of the twins' birth weights."""
+
+

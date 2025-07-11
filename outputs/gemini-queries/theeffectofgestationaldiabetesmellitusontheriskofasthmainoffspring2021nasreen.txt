@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofgestationaldiabetesmellitusontheriskofasthmainoffspring2021nasreen
+"PURPOSE: To examine the effect of maternal gestational diabetes mellitus on the risk of asthma in the offspring. METHODS: This cohort study used data from 19,933 children in the National Longitudinal Survey of Children and Youth (NLSCY), 1994/1995-2008/2009, Canada. Children were followed until the first-time report of having health professional-diagnosed asthma (hereafter incident asthma), loss to follow-up, or end of the NLSCY follow-up, whichever occurred first. As a surrogate for Cox proportional hazards regression, pooled logistic regression models, crude and adjusted for potential confounders, were fitted to estimate the effect of gestational diabetes mellitus on the risk of asthma in the offspring. RESULTS: Among the 19,933 children, 1,178 (5.9%) had mothers with gestational diabetes mellitus. The median duration of follow-up was 4 (interquartile range: 4) years. A total of 1639 children in the cohort had reported incident asthma during the follow-up, and 119 of them had mothers with gestational diabetes mellitus. The adjusted hazard ratio for the association between gestational diabetes mellitus and incident asthma in offspring was 1.25 (95% confidence interval [CI] 1.03, 1.51). CONCLUSIONS: Our findings suggest that gestational diabetes mellitus increases the risk of asthma in the offspring."""
+
+

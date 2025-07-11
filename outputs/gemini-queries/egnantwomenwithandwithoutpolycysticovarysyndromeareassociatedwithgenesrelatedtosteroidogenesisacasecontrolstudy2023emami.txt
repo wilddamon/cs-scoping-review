@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fattyacidsinsubcutaneousadiposetissueofpregnantwomenwithandwithoutpolycysticovarysyndromeareassociatedwithgenesrelatedtosteroidogenesisacasecontrolstudy2023emami
+"BACKGROUND: The qualitative analysis of adipose tissue (AT) is an exciting area for research and clinical applications in several diseases and it is emerging along with the quantitative approach to research on overweight and obese people. While the importance of steroid metabolism in women with polycystic ovary syndrome (PCOS) has been reported, limited data exists on the effective roles of AT in pregnant women suffering from PCOS. The aim of this study was to determine association of fatty acid (FA) profiles with expression of 14 steroid genes in abdominal subcutaneous AT of PCOS vs. non-PCOS pregnant women. MATERIALS AND METHODS: In this case-control study, the AT samples of 36 non-PCOS pregnant women and 12 pregnant women with PCOS (3:1 ratio control: case) who underwent cesarean section were collected. Relationship of expressing gene targets and different features were performed using Pearson correlation analysis on the R 3.6.2 software. The ggplot2 package in R tool was used to draw the plots. RESULTS: Age (31.4 and 31.5 years, P=0.99), body mass index (BMI) (prior pregnancy 26 and 26.5 kg.m-2, P=0.62) and at delivery day (30.1 and 31, P=0.94), gestational period (264 and 267 days, P=0.70) and parity (1.4 and 1.4, P=0.42) of non-PCOS and PCOS pregnant women were similar. Expression of steroidogenic acute regulator (STAR) and 11b-Hydroxysteroid dehydrogenase (11BHSD2) in non-PCOS pregnant women showed the highest association with eicosapentaenoic acid (EPA, C20:5 n-3, r=0.59, P=0.001) and (r=0.66, P=0.001), respectively. In the all participants, STAR mRNA level showed the greatest association with the EPA fatty acid concentration (P=0.001, r=0.51). CONCLUSION: Our results showed a link between the genes involved in steroid metabolism and fatty acids in AT of pregnant women, especially for omega-3 FA and the gene involved in the first step of steroidogenesis in subcutaneous AT. These findings warrant further studies."""
+
+

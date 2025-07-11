@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ensuringcompliancewithsurgicalantimicrobialprophylaxispolicyinhighvolumeresourcelimitedsettingsintegratedmeasuresfrominceptiontoaudit2023singla
+"Objectives: Many studies showed high rates of noncompliance with preoperative antibiotic prophylaxis (PAP) guidelines but a lack of data on reasons. This study assessed compliance with PAP guidelines, reasons for noncompliance, and its effect on infectious complications. Materials and Methods: This facility-based retrospective study was based on an audit of antimicrobial practices among surgeons after implementing the PAP guidelines. Details of surgery and antimicrobial prophylaxis for patients undergoing cesarean section/gynecologic surgeries were recorded on an Antibiotic Audit Form. Any deviation from guidelines was considered noncompliance, and its reason was assessed. After finding the rate of noncompliance the rate of postoperative infections was compared between patients who received recommended antibiotic prophylaxis and those who did not. Results: Per 532 Antibiotic Audit Forms (114 for gynecologic surgeries; 418 for cesarean sections), there were 196 cases of noncompliance (36.8%), using additional antibiotics. Most commonly, these were given for extensive adhesiolysis (29.7%) in gynecologic surgeries and prolonged rupture of membranes (14.2%) in cesarean sections. Surgical-site infection was more common in obstetric patients receiving additional antibiotics after cesareans. Conclusions: PAP compliance is good if guidelines are locally developed by consensus and are sustainable. An internal audit enhances compliance by exploring reasons for noncompliance, providing self-feedback. Surgeons tend to continue antibiotics for prolonged leakage, extensive adhesiolysis, and comorbidity. (J GYNECOL SURG 39:114)"""
+
+

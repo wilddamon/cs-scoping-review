@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: highermaternalthyroidresistanceindiceswereassociatedwithincreasedneonatalthyroidstimulatinghormoneanalysesbasedonthehuizhoumotherinfantcohort2022li
+"Objectives: This study aimed to explore the relationship of maternal thyroid function and thyroid resistance parameters with neonatal thyroid-stimulating hormone (TSH). Method(s): This work was a longitudinal study. Singleton pregnant women without a history of thyroid disorders were recruited in their first prenatal visit from October 2018 to June 2020. Maternal thyroid markers including TSH, free triiodothyronine (FT3), free thyroxine (FT4), and neonatal TSH were tested in the clinical laboratory of the hospital by electrochemiluminescence immunoassay. Thyroid resistance indices including Thyroid Feedback Quantile-based Index (TFQI), TSH index (TSHI), and thyrotroph T4 resistance index (TT4RI) were estimated in accordance with maternal FT4 and TSH levels. Multivariable linear and logistic regression was applied to explore the associations of maternal thyroid indices with infantile TSH level. Result(s): A total of 3,210 mothers and 2,991 newborns with valid TSH data were included for analysis. Multivariable linear regression indicated that maternal thyroid variables were significantly and positively associated with neonatal TSH levels with standardized coefficients of 0.085 for TSH, 0.102 for FT3, 0.100 for FT4, 0.076 for TSHI, 0.087 for TFQI, and 0.089 for TT4RI (all P < 0.001). Compared with the lowest quartile, the highest quartile of TSHI [odds ratio (OR) = 1.590, 95% CI: 0.928-2.724; Ptrend = 0.025], TFQI (OR = 1.746, 95% CI: 1.005-3.034; Ptrend = 0.016), and TT4RI (OR = 1.730, 95% CI: 1.021-2.934; Ptrend = 0.030) were significantly associated with an increased risk of elevated neonatal TSH (>5 mIU/L) in a dose-response manner. Conclusion(s): The longitudinal data demonstrated that maternal thyroid resistance indices and thyroid hormones in the first half of gestation were positively associated with neonatal TSH levels. The findings offered an additionally practical recommendation to improve the current screening algorithms for congenital hypothyroidism.Copyright (c) 2022 Li, Wu, Zhang, Li, Xiang, Zhang, Pan, Chen, Hao, Ling and Liu."""
+
+

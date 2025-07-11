@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluatingtheapplicationofthe2009instituteofmedicinegestationalweightgainguidelinesonpregnantchinesewomen2023jiang
+"BACKGROUND: The 2009 Institute of Medicine (IOM) gestational weight gain (GWG) guidelines were initially developed for pregnant women in the United States. OBJECTIVE: This study aimed to investigate whether the IOM guidelines were suitable for pregnant Chinese women. METHODS: A retrospective cohort study comprising 20,593 singleton pregnant women was conducted at the Beijing Obstetrics and Gynaecology Hospital (1 January 2018 to 31 December 2019). Applicability was evaluated by comparing the GWG corresponding to the lowest point of the predicted composite risk curve with the 2009 IOM GWG Guidelines. The IOM Guidelines serve as the standard for the GWG categories and the pre-pregnancy body mass index. An exponential function model was used to fit the weight gain during pregnancy and the probability of caesarean section, preterm birth, small for gestational age, and large for gestational age. A quadratic function model was used to fit the combined probability of the above-mentioned adverse pregnancy outcomes. The applicability of the IOM guidelines was evaluated by comparing the weights corresponding to the lowest predicted probability with the GWG range recommended by the IOM guidelines. RESULTS: According to the 2009 IOM GWG Guidelines, 43% of the women achieved adequate weight, almost 32% gained excessive weight, and 25% gained inadequate weight. The GWG range proposed by the IOM included the lowest predicted probability value for underweight women and exceeded the lowest predicted probability for normal weight, overweight, and obese women. CONCLUSIONS: The 2009 IOM guidelines were suitable for Chinese women whose pre-pregnancy body mass index was classified as underweight. The guidelines were not suitable for normal, overweight, or obese pre-pregnancy body mass index classifications. Therefore, based on the above evidence, the 2009 IOM guidelines are not suitable for all Chinese women."""
+
+

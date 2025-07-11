@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: laparoscopicappendectomyversusopenappendectomyinpregnancyapopulationbasedanalysisofmaternaloutcome2015cheng
+"BACKGROUND: Laparoscopic appendectomy (LA) is the standard treatment of acute appendicitis for the general population; however, there is still some doubt regarding its safety for pregnant patients. Therefore, the purpose of this study is to investigate and compare the maternal outcome of pregnant patients with acute appendicitis following either an open appendectomy (OA) or LA from a population-based database.;METHODS: This study is based on the National Health Insurance Research Database. Patients with both ICD-9-CM codes for appendicitis (540.9, 540.0, and 540.1) and pregnancy (V22) in the same admission were considered to have acute appendicitis during pregnancy. These patients were divided into three groups according to the type of treatment: LA, OA, and non-operative treatment. Outcome measures that were compared between the groups included maternal complications such as preterm labor, abortion, and the need of cesarean section. Besides, the differences of medical expenditure and length of hospital stay between the groups were also analyzed.;RESULTS: From 2005 to 2010, a total of 859 pregnant women who had acute appendicitis were identified. They had increased risks for preterm labor, abortion, and increased requirement of cesarean section compared to the control group (i.e., those without acute appendicitis). Among the three groups, the non-operated group has the highest risk of preterm labor. Patients who underwent LA did not have any increased risk of maternal complications compared to the OA group. Furthermore, LA patients had shorter hospital stay than OA.;CONCLUSION: Compared to non-operative treatment, appendectomy is the preferred treatment for pregnant patients who have acute appendicitis. LA can be performed safely in pregnant patients without bringing additional maternal complications compared to OA."""
+
+

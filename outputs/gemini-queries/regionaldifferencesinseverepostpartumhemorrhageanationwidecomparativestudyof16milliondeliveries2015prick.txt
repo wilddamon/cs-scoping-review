@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: regionaldifferencesinseverepostpartumhemorrhageanationwidecomparativestudyof16milliondeliveries2015prick
+"BACKGROUND: The incidence of severe postpartum hemorrhage (PPH) is increasing. Regional variation may be attributed to variation in provision of care, and as such contribute to this increasing incidence. We assessed reasons for regional variation in severe PPH in the Netherlands.;METHODS: We used the Netherlands Perinatal Registry and the Dutch Maternal Mortality Committee to study severe PPH incidences (defined as blood loss >= 1000 mL) across both regions and neighborhoods of cities among all deliveries between 2000 and 2008. We first calculated crude incidences. We then used logistic multilevel regression analyses, with hospital or midwife practice as second level to explore further reasons for the regional variation.;RESULTS: We analyzed 1599867 deliveries in which the incidence of severe PPH was 4.5%. Crude incidences of severe PPH varied with factor three between regions while between neighborhoods variation was even larger. We could not explain regional variation by maternal characteristics (age, parity, ethnicity, socioeconomic status), pregnancy characteristics (singleton, gestational age, birth weight, pre-eclampsia, perinatal death), medical interventions (induction of labor, mode of delivery, perineal laceration, placental removal) and health care setting.;CONCLUSIONS: In a nationwide study in The Netherlands, we observed wide practice variation in PPH. This variation could not be explained by maternal characteristics, pregnancy characteristics, medical interventions or health care setting. Regional variation is either unavoidable or subsequent to regional variation of a yet unregistered variable."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonoflabourandbirthoutcomesbetweennulliparouswomenwhousedepiduralanalgesiainlabourandthosewhodidnotaprospectivecohortstudy2021newnham
+"OBJECTIVE: To compare labour and birth outcomes between nulliparous women who used versus did not use intrapartum epidural analgesia. DESIGN: Prospective cohort study. SETTING: Two maternity hospitals in Ireland. POPULATION: A total of 1221 nulliparous women who gave birth vaginally or by emergency caesarean section. METHODS: Multinomial logistic regression was used to analyse categorical outcomes, with results presented as ratios of relative risks (RRR). For dichotomous outcomes we used logistic regression, with results presented as odds ratios (OR). MAIN OUTCOME MEASURES: Mode of birth, IV syntocinon use, pyrexia (>=38degC), antibiotic treatment, first stage labour >=10h, second stage labour >=2h, blood loss (>=500mls, >=1000mls), perineal trauma. Neonatal outcomes included Apgar score >=7 at 1min and 5min, admission to neonatal intensive care unit, and infant feeding method. RESULTS: Women using EA were more likely to require a vacuum-assisted birth (RRR 3.35, p<0.01) or forceps-assisted birth (RRR 11.69, p<0.01). Exposure to EA was associated with significantly greater risk of >=10h first (OR 6.72, p=0.01) and >=2h second (OR 2.25, p<0.01) stage labour, increased likelihood of receiving IV syntocinon (OR 9.38, p<0.01), antibiotics (OR 2.97, p<0.01) and a greater probability of pyrexia (OR 10.26, p<0.01). Women who used EA were half as likely to be breastfeeding at three months postpartum (OR 0.53, p<0.01). No differences were observed between groups in neonatal outcomes. CONCLUSIONS: Our data shows significant associations between EA use and several intrapartum outcomes."""
+
+

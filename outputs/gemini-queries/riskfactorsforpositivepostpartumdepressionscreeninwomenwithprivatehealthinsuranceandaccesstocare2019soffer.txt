@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforpositivepostpartumdepressionscreeninwomenwithprivatehealthinsuranceandaccesstocare2019soffer
+"Objective: To determine risk factors for a positive postpartum depression screen among women with private health insurance and 24/7 access to care.Study design: Retrospective cohort study of all patients delivered by a single MFM practice from April 2015 to September 2016. All patients had private health insurance and 24/7 access to care. All patients were scheduled to undergo the Edinburgh Postnatal Depression Scale (EPDS) at their 6-week postpartum visit and a positive screen was defined as a score of 10 or higher, or a score greater than zero on question 10 (thoughts of selfharm). Using logistic regression, risk factors for postpartum depression were compared between women with and without a positive screen.Results: Of the 1237 patients delivered, 1113 (90%) were screened with the EPDS. 81 patients (7.3, 95%CI 5.9-9.0%) of those tested had a positive screen. On regression analysis, risk factors associated with a positive screen were nulliparity (aOR 1.8, 95%CI 1.1, 2.9), cesarean delivery (aOR 1.7, 95%CI 1.1, 2.8), non-White race (aOR 2.0, 95%CI 1.1, 3.5), and a history of depression or anxiety (aOR 4.6, 95%CI 2.6, 8.1). Among the 100 women with a history of depression or anxiety, selective serotonin reuptake inhibitor (SSRI) use in the postpartum period was not associated with a reduced risk of a positive screen (25.5% in those taking an SSRI versus 18.4% of those not taking an SSRI, p = .39).Conclusions: Among women with private health insurance and access to care, the incidence of a positive screen for postpartum depression is approximately 7%. The use of an SSRI did not eliminate this risk. All women should be screened for postpartum depression."""
+
+

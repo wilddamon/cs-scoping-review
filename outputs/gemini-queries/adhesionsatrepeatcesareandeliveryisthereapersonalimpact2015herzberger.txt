@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adhesionsatrepeatcesareandeliveryisthereapersonalimpact2015herzberger
+"PURPOSE: The rise in the rate of cesarean deliveries highlights complications related to adhesion formation. This study evaluated whether the incidence and severity of adhesions secondary to repeat cesarean deliveries are a consequence of repeated surgeries or due to an individual's propensity to develop adhesions. METHODS: A retrospective chart review was conducted for 160 patients who had more than two repeat cesarean deliveries in a single teaching hospital. Data regarding intra-abdominal adhesions were collected. The severity, location, density and amount of adhesions were evaluated based on standard operative reports. Adhesion progression in subsequent cesarean deliveries was evaluated for each individual patient. RESULTS: 69/160 (43 %) patients developed significant adhesions following the primary cesarean delivery. Of these, 46 (67 %) had significant adhesions at the second surgery. Of the 91 (57 %) patients, who did not develop significant adhesions after the primary cesarean delivery, 34 (37 %) had significant adhesions at the third surgery. A patient presenting with significant adhesions at her second cesarean had a 1.88-fold risk for significant adhesions at her third cesarean (95 % CI 1.3-2.7). CONCLUSIONS: Our results suggest that adhesion development might be influenced by individual factors more than by the number of cesarean deliveries."""
+
+

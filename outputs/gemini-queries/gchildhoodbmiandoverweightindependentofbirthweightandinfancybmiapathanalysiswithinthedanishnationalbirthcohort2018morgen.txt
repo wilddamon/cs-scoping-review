@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalriskfactorsinfluencingchildhoodbmiandoverweightindependentofbirthweightandinfancybmiapathanalysiswithinthedanishnationalbirthcohort2018morgen
+"BACKGROUND AND OBJECTIVES: Prenatal risk factors for childhood overweight may operate indirectly through development in body size in early life and/or directly independent hereof. We quantified the effects of maternal and paternal body mass index (BMI), maternal age, socioeconomic position (SEP), parity, gestational weight gain, maternal smoking during pregnancy, caesarean section, birth weight, and BMI at 5 and 12 months on BMI and overweight at 7 and 11 years. METHODS: Family triads with information on maternal, paternal and child BMI at ages 7 (n=29 374) and 11 years (n=18 044) were selected from the Danish National Birth Cohort. Information originated from maternal interviews and medical health examinations. Path analysis was used to estimate the direct and indirect effects of prenatal risk factors on childhood BMI z-scores (BMIz per unit score of the risk factor). Logistic regression was used to examine associations with overweight. RESULTS: The strongest direct effects on BMIz at age 7 were found for maternal and paternal BMI (0.19 BMIz and 0.14 BMIz per parental BMIz), low SEP (0.08 BMIz), maternal smoking (0.12 BMIz) and higher BMIz at 5 and 12 months (up to 0.19 BMIz per infant BMIz). For BMIz at age 11 with BMIz at age 7 included in the model, similar effects were found, but the direct effects of BMIz at age 5 and 12 months were mediated through BMI at age 7 (0.62 BMIz per BMIz). Same results were found for overweight. The sum of the direct effects can be translated to approximate absolute measures: 2.4 kg at 7 years, 5.7 kg at 11 years, in a child with average height and BMI. CONCLUSIONS: Parental BMI, low SEP and smoking during pregnancy have persisting, strong and direct effects on child BMI and overweight independent of birth weight and infancy BMI."""
+
+

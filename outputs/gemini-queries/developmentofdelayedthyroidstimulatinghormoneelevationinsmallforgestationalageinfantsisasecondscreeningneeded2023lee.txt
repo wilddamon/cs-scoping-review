@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofdelayedthyroidstimulatinghormoneelevationinsmallforgestationalageinfantsisasecondscreeningneeded2023lee
+"Purpose: Recent reports indicate that small for gestational age (SGA) could be a risk factor for delayed thyroid stimulating hormone (dTSH) elevation in preterm infants. The development of dTSH elevation in SGA late-preterm infants with a gestational age of 34-36 weeks has been investigated in only a few studies. Method(s): In the present retrospective study, 70 SGA infants and 86 sex-and gestational age-matched controls who presented with normal results on initial thyroid function testing were included. Result(s): SGA infants had a significantly higher prevalence of dTSH elevation (15.7% vs. 3.5%, P=0.009) compared with appropriate-for-gestational age infants. In SGA infants, the mean age at the time of dTSH was 24 days. Development of dTSH was associated with SGA and medical treatment with dopamine or furosemide. After adjusting for confounding factors, multiple logistic regression analysis showed SGA was a significant risk factor for the development of dTSH elevation (odds ratio, 23.2; 95% confidence interval, 2.27-236.91; P=0.008). Conclusion(s): SGA infants may be at risk for dTSH and clinicians could consider a second thyroid screening test around the age of 1 month.Copyright (c) 2023 Annals of Pediatric Endocrinology & Metabolism."""
+
+

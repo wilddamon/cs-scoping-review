@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ultrasoundassessmentoffetalheadpositionandstationbeforeoperativedeliverycanitpredictdifficulty2022plurien
+"OBJECTIVE: To evaluate whether ultrasound assessment of fetal head position and station though head perineum distance (HPD), is more predictive of a difficult operative vaginal delivery (OVD) than digital examination. METHODS: Retrospective, monocentric case control study including all singleton OVD at >=34 weeks gestation. The principal criteria for a difficult OVD were based on a composite criterion of: an OVD considered 'difficult' by the birth attendant, and/or two vacuum device detachments if a vacuum was used, and/or change of instrument, and/or a cesarean delivery for OVD failure. RESULTS: Two hundred eighty-six OVDs were included, among which 65 (22.7%) were difficult. The area under the curve (AUC) for predicting difficult OVD according to fetal position from digital examination or ultrasound was 0.62 (95% CI: 0.54-0.70) and 0.66 (95% CI: 0.58-0.73), respectively. Regarding fetal station, the AUCs of HPD without and with pressure were 0.59 (95% CI: 0.51-0.66) and 0.60 (95% CI: 0.51-0.68), respectively. Factors associated with difficult OVD were posterior and transverse positions (OR: 2.931, 95% CI: 1.640-5.239; p= 0.0003), HPD without pressure (threshold of 37 mm, OR: 2.327, 95% CI: 1.247-4.245; p= 0.0080), and HPD with pressure (threshold of 17 mm, OR: 2.594, 95% CI: 1.230-5.429; p= 0.0114). CONCLUSION: Ultrasound assessment of fetal head position and station before OVD moderately predicts difficult OVD. Ultrasound assessment of posterior or transverse positions and HPD with a threshold of 37 mm (without compression of soft tissue) and 17 mm (with compression) were factors associated with difficult OVD."""
+
+

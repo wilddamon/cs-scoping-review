@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictivemodelingofemergencycesareandelivery2018campilloartero
+"OBJECTIVE: To increase discriminatory accuracy (DA) for emergency cesarean sections (ECSs). STUDY DESIGN: We prospectively collected data on and studied all 6,157 births occurring in 2014 at four public hospitals located in three different autonomous communities of Spain. To identify risk factors (RFs) for ECS, we used likelihood ratios and logistic regression, fitted a classification tree (CTREE), and analyzed a random forest model (RFM). We used the areas under the receiver-operating-characteristic (ROC) curves (AUCs) to assess their DA. RESULTS: The magnitude of the LR+ for all putative individual RFs and ORs in the logistic regression models was low to moderate. Except for parity, all putative RFs were positively associated with ECS, including hospital fixed-effects and night-shift delivery. The DA of all logistic models ranged from 0.74 to 0.81. The most relevant RFs (pH, induction, and previous C-section) in the CTREEs showed the highest ORs in the logistic models. The DA of the RFM and its most relevant interaction terms was even higher (AUC = 0.94; 95% CI: 0.93-0.95). CONCLUSION: Putative fetal, maternal, and contextual RFs alone fail to achieve reasonable DA for ECS. It is the combination of these RFs and the interactions between them at each hospital that make it possible to improve the DA for the type of delivery and tailor interventions through prediction to improve the appropriateness of ECS indications."""
+
+

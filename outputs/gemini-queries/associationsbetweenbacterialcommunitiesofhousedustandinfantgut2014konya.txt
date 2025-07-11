@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationsbetweenbacterialcommunitiesofhousedustandinfantgut2014konya
+"The human gut is host to a diverse and abundant community of bacteria that influence health and disease susceptibility. This community develops in infancy, and its composition is strongly influenced by environmental factors, notably perinatal anthropogenic exposures such as delivery mode (Cesarean vs. vaginal) and feeding method (breast vs. formula); however, the built environment as a possible source of exposure has not been considered. Here we report on a preliminary investigation of the associations between bacteria in house dust and the nascent fecal microbiota from 20 subjects from the Canadian Healthy Infant Longitudinal Development (CHILD) Study using high-throughput sequence analysis of portions of the 16S rRNA gene. Despite significant differences between the dust and fecal microbiota revealed by Nonmetric Multidimensional Scaling (NMDS) analysis, permutation analysis confirmed that 14 bacterial OTUs representing the classes Actinobacteria (3), Bacilli (3), Clostridia (6) and Gammaproteobacteria (2) co-occurred at a significantly higher frequency in matched dust-stool pairs than in randomly permuted pairs, indicating an association between these dust and stool communities. These associations could indicate a role for the indoor environment in shaping the nascent gut microbiota, but future studies will be needed to confirm that our findings do not solely reflect a reverse pathway. Although pet ownership was strongly associated with the presence of certain genera in the dust for dogs (Agrococcus, Carnobacterium, Exiguobacterium, Herbaspirillum, Leifsonia and Neisseria) and cats (Escherichia), no clear patterns were observed in the NMDS-resolved stool community profiles as a function of pet ownership."""
+
+

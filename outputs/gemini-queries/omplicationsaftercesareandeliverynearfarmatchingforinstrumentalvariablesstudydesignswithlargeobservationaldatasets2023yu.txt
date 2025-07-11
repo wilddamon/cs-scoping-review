@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theriskofmaternalcomplicationsaftercesareandeliverynearfarmatchingforinstrumentalvariablesstudydesignswithlargeobservationaldatasets2023yu
+"Cesarean delivery is used when there are problems with the placenta or umbilical cord, for twin pregnancies, and breech births. However, research has found that Cesarean delivery increases the risk of maternal complications like blood transfusions and admission to the intensive care unit. Here, using an instrumental variables study design to reduce bias from unobserved confounders, we study whether Cesarean delivery increases the risk of maternal complications. We use a variant of matching--near-far matching--to render our study design more plausible. In a near-far match the investigator seeks to strengthen the effect of the instrument on the exposure while balancing observable characteristics between groups of subjects with low and high values of the instrument. Extant near-far matching methods are computationally intensive for large data sets, and computing time can be very lengthy. To reduce the computational complexity of near-far matching in large observational studies, we apply an iterative form of Glover's algorithm for a doubly convex bipartite graph to determine an optimal reverse caliper for the instrument which reduces the number of candidate matches and allows for an optimal match in a large but much sparser graph. We also incorporate a variety of balance constraints, including exact matching, fine and near-fine balance, and covariate balance prioritization. We illustrate this new matching method using medical claims data from Pennsylvania, New York, and Florida. In our application we match on physician's preferences for delivery via Cesarean section which is the instrument in our study. We compare the computing time from our match to extant methods, and we find that we can reduce the computational time required for the match by more than 11 hours. If our matched sample came from a paired randomized experiment, we could conclude that Cesarean delivery elevates the risk of maternal complications and increases the time spent in the hospital. Sensitivity analysis shows that the estimates for complications could be the result of a minor amount of confounding due to an unobserved covariate. The effects on the length of stay outcome, however, are more insensitive to hidden confounders. (c) Institute of Mathematical Statistics, 2023."""
+
+

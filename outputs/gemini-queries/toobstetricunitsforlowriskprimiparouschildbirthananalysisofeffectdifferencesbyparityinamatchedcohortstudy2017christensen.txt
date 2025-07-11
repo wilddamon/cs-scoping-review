@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: arefreestandingmidwiferyunitsasafealternativetoobstetricunitsforlowriskprimiparouschildbirthananalysisofeffectdifferencesbyparityinamatchedcohortstudy2017christensen
+"BACKGROUND: Intrapartum complications and the use of obstetric interventions are more common in primiparous childbirth than in multiparous childbirth, leading to concern about out of hospital birth for primiparous women. The purpose of this study was to determine whether the effect of birthplace on perinatal and maternal morbidity and the use of obstetric interventions differed by parity among low-risk women intending to give birth in a freestanding midwifery unit or in an obstetric unit in the North Denmark Region. METHODS: The study is a secondary analysis of data from a matched cohort study including 839 low-risk women intending birth in a freestanding midwifery unit (primary participants) and 839 low-risk women intending birth in an obstetric unit (individually matched control group). Analysis was by intention-to-treat. Conditional logistic regression analysis was applied to compute odds ratios and effect ratios with 95% confidence intervals for matched pairs stratified by parity. RESULTS: On no outcome did the effect of birthplace differ significantly between primiparous and multiparous women. Compared with their counterparts intending birth in an obstetric unit, both primiparous and multiparous women intending birth in a freestanding midwifery unit were significantly more likely to have an uncomplicated, spontaneous birth with good outcomes for mother and infant and less likely to require caesarean section, instrumental delivery, augmented labour or epidural analgesia (although for caesarean section this trend did not attain statistical significance for multiparous women). Perinatal outcomes were comparable between the two birth settings irrespective of parity. Compared to multiparas, transfer rates were substantially higher for primiparas, but fell over time while rates for multiparas remained stable. CONCLUSIONS: Freestanding midwifery units appear to confer significant advantages over obstetric units to both primiparous and multiparous mothers, while their infants are equally safe in both settings. Our findings thus support the provision of care in freestanding midwifery units as an alternative to care in obstetric units for all low-risk women regardless of parity. In view of the global rise in caesarean section rates, we consider it an important finding that freestanding midwifery units show potential for reducing first-birth caesarean."""
+
+

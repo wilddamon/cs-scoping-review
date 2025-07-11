@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: omentinanadipokinewithinsulinsensitizingpropertiesisnegativelyassociatedwithinsulinresistanceinnormalgestation2015brandt
+"OBJECTIVE: Omentin, a newly identified adipokine, enhances insulin mediated glucose uptake in human adipocytes, thus, inducing systemic insulin-sensitizing effect. The aims of this study were to determine whether circulating maternal omentin levels are associated with insulin resistance indices and to assess which compartment, maternal, fetal, or placental, is the source of omentin in maternal circulation.;METHODS: Fasting serum glucose, insulin, and omentin were determined in 25 healthy pregnant women at the third trimester, before and 3 days after elective cesarean section. Cord blood omentin was measured in the 25 term neonates. Homeostasis model assessment (HOMA) was used to evaluate insulin sensitivity before and after delivery.;RESULTS: Antepartum maternal omentin levels were negatively correlated with insulin levels (r=-0.41, P=0.04) and positively correlated with insulin sensitivity (HOMA%S; r=0.4, P=0.04). Postpartum omentin levels were negatively correlated with maternal body mass index (r=-0.44, P=0.02). Median maternal omentin levels was comparable before and after delivery (57.2, inter-quartile range: 38.2-76.2 ng/mL vs. 53.4, 39.8-69.4 ng/mL, respectively, P=0.25) and highly correlated (r=0.83, P<0.001). Antepartum maternal and neonatal omentin levels did not differ significantly (fetal: 62.2, 44.3-74.2 ng/mL, P=0.77) and did not correlate (P=0.6).;CONCLUSIONS: Circulating maternal omentin levels are correlated with insulin resistance indices, suggesting that this adipokine may play a role in metabolic adaptations of normal gestation. The strong correlation between anteparum and postpartum maternal omentin levels, as well as the lack of association between maternal and neonatal omentin levels, suggest that placental or fetal compartments are unlikely as the main source of circulating maternal omentin."""
+
+

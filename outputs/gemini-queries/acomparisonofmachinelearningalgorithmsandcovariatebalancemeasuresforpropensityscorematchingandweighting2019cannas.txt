@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparisonofmachinelearningalgorithmsandcovariatebalancemeasuresforpropensityscorematchingandweighting2019cannas
+"Propensity score matching (PSM) and propensity score weighting (PSW) are popular tools to estimate causal effects in observational studies. We address two open issues: how to estimate propensity scores and assess covariate balance. Using simulations, we compare the performance of PSM and PSW based on logistic regression and machine learning algorithms (CART; Bagging; Boosting; Random Forest; Neural Networks; naive Bayes). Additionally, we consider several measures of covariate balance (Absolute Standardized Average Mean (ASAM) with and without interactions; measures based on the quantile-quantile plots; ratio between variances of propensity scores; area under the curve (AUC)) and assess their ability in predicting the bias of PSM and PSW estimators. We also investigate the importance of tuning of machine learning parameters in the context of propensity score methods. Two simulation designs are employed. In the first, the generating processes are inspired to birth register data used to assess the effect of labor induction on the occurrence of caesarean section. The second exploits more general generating mechanisms. Overall, among the different techniques, random forests performed the best, especially in PSW. Logistic regression and neural networks also showed an excellent performance similar to that of random forests. As for covariate balance, the simplest and commonly used metric, the ASAM, showed a strong correlation with the bias of causal effects estimators. Our findings suggest that researchers should aim at obtaining an ASAM lower than 10% for as many variables as possible. In the empirical study we found that labor induction had a small and not statistically significant impact on caesarean section."""
+
+

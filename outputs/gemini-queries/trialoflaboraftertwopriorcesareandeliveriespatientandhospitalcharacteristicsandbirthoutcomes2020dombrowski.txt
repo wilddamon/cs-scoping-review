@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trialoflaboraftertwopriorcesareandeliveriespatientandhospitalcharacteristicsandbirthoutcomes2020dombrowski
+"OBJECTIVE: Trial of labor after cesarean delivery has been mostly studied in the setting of one prior cesarean delivery; controversy remains regarding the risks and benefits of trial of labor for women with two prior cesarean deliveries. This study aimed to examine utilization, success rate, and maternal and neonatal outcomes of trial of labor in this population. METHODS: Using linked hospital discharge and birth certificate data, we retrospectively analyzed a cohort of mothers with nonanomalous, term, singleton live births in California between 2010-2012 and had two prior cesarean deliveries and no clear contraindications for trial of labor. We measured whether they attempted labor and, if so, whether they delivered vaginally. Association of patient and hospital characteristics with the likelihood of attempting labor and successful vaginal birth was examined using multivariable regressions. We compared composite severe maternal morbidities and composite severe newborn complications in those who underwent trial of labor as opposed to planned cesarean delivery using a propensity score-matching approach. RESULTS: Among 42,771 women who met sample eligibility criteria, 1,228 (2.9%) attempted labor, of whom 484 (39.4%) delivered vaginally. There was no significant difference in the risk of composite severe maternal morbidities, but there was a modest increase in the risk of composite severe newborn complications among women who attempted labor compared with those who did not (2.0% vs 1.4%, P=.04). After accounting for differences in patient and hospital characteristics, propensity score-matched analysis showed no significant association between trial of labor and the risk of composite severe maternal morbidities (odds ratio [OR] 1.16, 95% CI 0.70-1.91), but trial of labor was associated with a higher risk for the composite of severe newborn complications (OR 1.78, 95% CI 1.04-3.04). CONCLUSION: Among women with two prior cesarean deliveries, trial of labor was rarely attempted and was successful in 39.4% of attempts. Trial of labor in this population was associated with a modest increase in severe neonatal morbidity."""
+
+

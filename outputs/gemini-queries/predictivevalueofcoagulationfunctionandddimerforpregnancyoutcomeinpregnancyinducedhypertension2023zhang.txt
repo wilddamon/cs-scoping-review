@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictivevalueofcoagulationfunctionandddimerforpregnancyoutcomeinpregnancyinducedhypertension2023zhang
+"Objective: To observe the predictive values of plasma prothrombin time (PT), fibrinogen (FIB), activated partial thromboplastin time (APTT) and D-dimer (DD) levels for pregnancy outcome in parturients with hypertensive disorder complicating pregnancy (HDCP). Method(s): A retrospective analysis was conducted on 107 parturients with gestational hypertension admitted to Xi'an International Medical Center Hospital from April 2018 to April 2021 (research group) and on 50 healthy parturients who underwent physical examination in the same period (control group). PT, FIB, APTT, and DD values of all parturients included in the study were examined at admission, and pregnancy outcomes were recorded. The working curve (ROC) of the relationship between coagulation function test indicators and pregnancy outcomes of parturients in the research group was analyzed. Result(s): Compared to the control group, PT and APTT values of parturients in the research group were lower, while FIB and DD levels were markedly higher (P < 0.05). Correlation analysis showed APTT and PT were negatively correlated with the severity of disease (both P < 0.001), while the expression of FIB and DD were positively correlated with it (both P < 0.001). Parturients were divided into an adverse outcome group and a normal outcome group. Logistic regression analysis showed that pre-pregnancy body mass index, PT, APTT, FIB, DD and other indicators were all risk factors for adverse outcome in HDCP parturients. ROC curve analysis showed that the area under the curve of these combined risk factors for predicting adverse outcome was 0.971. Conclusion(s): Levels of PT, FIB, APTT, and DD are abnormal in parturients with different degrees of HDCP. Regular coagulation function tests can effectively detect HDCP, enabling improvement of pregnancy outcome.Copyright (c) 2023 E-Century Publishing Corporation. All rights reserved."""
+
+

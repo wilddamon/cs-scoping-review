@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofadolescentidiopathicscoliosisonnaturaldeliveryandepiduraluseinpregnantfemalesamatchedcohortstudy2023chapek
+"STUDY DESIGN: Retrospective matched cohort study. OBJECTIVE: The aim of this study was to determine whether females with idiopathic scoliosis (IS), both with and without spine fusion, experience different rates of cesarean section (CS) and epidural anesthesia (EA) than females without scoliosis. SUMMARY OF BACKGROUND DATA: IS is a common spine condition with a higher prevalence in females. It is unclear whether females with scoliosis, treated nonoperatively or operatively, have different rates of cesarean delivery or EA. MATERIALS AND METHODS: Patients with IS who delivered in our integrated health care system during a 6-year period were identified (N = 1810). They were matched with a group without scoliosis who delivered during the same period (N = 1810). Rates and relative risk (RR) of CS and EA between cohorts and subgroups were calculated. RESULTS: The scoliosis cohort had significantly higher rates and RR of EA ( P = 0.002 and P = 0.004, respectively). Scoliosis patients treated nonoperatively had an 8% greater RR of EA ( P = 0.004) and had a significantly lower rate of CS (23.2% vs . 26%, P = 0.048) compared with the control group. Among only scoliosis patients, those treated with spine fusion had a 38% decreased RR of EA ( P < 0.001). Distal fusion level did not seem to influence the RR of EA or CS. CONCLUSIONS: Females with scoliosis were significantly more likely to receive EA at delivery compared with females without scoliosis. Rates and RR of cesarean delivery were not significantly lower among women with scoliosis, but females treated nonoperatively for scoliosis had a significantly lower CS rate than those without scoliosis. Females treated with spine fusion for scoliosis were far less likely to receive EA than both females without scoliosis and females with scoliosis treated nonoperatively."""
+
+

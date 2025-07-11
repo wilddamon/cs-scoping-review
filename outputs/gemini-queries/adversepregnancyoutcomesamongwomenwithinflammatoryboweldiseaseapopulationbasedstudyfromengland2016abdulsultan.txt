@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adversepregnancyoutcomesamongwomenwithinflammatoryboweldiseaseapopulationbasedstudyfromengland2016abdulsultan
+"BACKGROUND: There is limited contemporary population-based evidence on adverse birth outcomes and pregnancy-related complications for women with inflammatory bowel disease (IBD). This study provides such estimates of these risks and assesses variation by IBD type and surgical interventions.;METHODS: We calculated the proportion of pregnancies in women with and without IBD between 1997 and 2012 throughout England using linked primary (Clinical Practice Research Datalink) and secondary care (Hospital Episode Statistics) data. Risk of pregnancy-related complications and adverse birth outcomes in women with Crohn's disease and ulcerative colitis were compared with risks in women without IBD using odds ratios (ORs).;RESULTS: Of 364,363 singleton pregnancies resulting in live or stillbirths, 1969 (0.5%) were in women with IBD. Women with Crohn's disease were more likely to have preterm births (OR = 1.42; 95% confidence interval, 1.12-1.79), babies with low birth weights (OR = 1.39; 95% confidence interval, 1.05-1.83), and postpartum hemorrhage (OR = 1.27; 95% confidence interval, 1.04-1.55), whereas women with ulcerative colitis were only at increased risk of preterm births with an absolute risk difference of <2.7%. These risks remained independent of caesarean section. Prior surgery for IBD did not increase the risk of adverse birth outcomes or pregnancy-related complications compared with cases without surgery, however, women with IBD were more likely to have an elective caesarean section.;CONCLUSIONS: Women with Crohn's disease have increased risks of some specific pregnancy-related complications and adverse birth outcomes which are independent of caesarean section, however, the absolute risk differences are small, indicating that most women with IBD will have an uncomplicated pregnancy."""
+
+

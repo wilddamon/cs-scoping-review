@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antibioticsduringintrauterineballoontamponadeisassociatedwithareductioninendometritis2019wong
+"OBJECTIVE: To evaluate whether prophylactic antibiotics at the time of placement of an intrauterine balloon tamponade (IBT) is associated with a reduction in postpartum endometritis. STUDY DESIGN: Retrospective cohort study of patients who received an IBT from January 1, 2012, to December 12, 2016. Patients were included if the IBT remained in place at least 2 hours and excluded if chorioamnionitis was present. Patients who received prophylactic antibiotics at the time of IBT placement were compared with those who did not. RESULTS: A total of 149 subjects received an IBT; 36 were excluded due to early removal or chorioamnionitis. Of the remaining, 59 received prophylactic antibiotics and 54 did not. Baseline characteristics were similar between the groups except mode of delivery. The majority (65%) of those who did not receive prophylactic antibiotics had a cesarean delivery (p = 0.03). The overall incidence of endometritis was 15%. The incidence of endometritis was greater among those patients who did not receive prophylactic antibiotics compared with those who did (5 vs. 26%; p < 0.002; odds ratio [OR]: 6.53; 95% confidence interval [CI]: 1.76-24.25). This association remained after adjustment for mode of delivery and receiving group B Streptococcus antibiotics prior to delivery (adjusted OR: 5.9; 95% CI: 1.58-22.35). CONCLUSION: Prophylactic antibiotics were associated with a reduction in postpartum endometritis among patients receiving an IBT."""
+
+

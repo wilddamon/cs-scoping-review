@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isthereanaddedneonatalriskinvacuumassisteddeliverieswithnuchalcord2022schreiber
+"This retrospective cohort study assessed the association between nuchal cord and adverse outcomes during vacuum-assisted delivery (VAD). Women with singleton pregnancies, 34-41-weeks gestation, who underwent VAD, from 2014 to 2020 were included. The primary outcome was umbilical cord pH <= 7.1. Secondary outcomes were neonatal intensive care unit admission, Apgar scores, pH < 7.15, subgaleal hematoma, shoulder dystocia and third/fourth-degree perineal tear. Outcomes were compared between neonates with (1059/3754, 28.2%) or without (71.8%) nuchal cord after VAD. No difference in cord pH <= 7.1 was found between groups. The nuchal cord group had a lower rate of nulliparity (729 (68.8%) vs. 2004 (74.4%), p = 0.001) and higher maternal BMI (23.6 +/- 4.3 vs. 23.1 +/- 5, p = 0.017). Nuchal cord was associated with higher rates of induction (207 (19.5%) vs. 431 (16%), p = 0.009) and lower birthweights (3185 +/- 413 vs. 3223 +/- 436 g, p = 0.013). The main indication for VAD in 830 (80.7%) of the nuchal cord group was non-reassuring fetal heart rate (NRFHR) vs. 1989 (75.6%) controls (p = 0.004). The second stage was shorter in the nuchal cord group (128 +/- 81 vs. 141 +/- 80 min, p < 0.001). Multivariate regression found nulliparity, induction and birthweight as independent risk factors for nuchal cord VAD. Although induction and NRFHR rates were higher in VAD with nuchal cord, the rate of umbilical cord acidemia was not.Copyright (c) 2022 by the authors."""
+
+

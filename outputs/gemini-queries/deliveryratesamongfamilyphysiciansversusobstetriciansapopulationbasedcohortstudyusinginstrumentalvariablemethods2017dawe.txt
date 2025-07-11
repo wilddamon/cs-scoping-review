@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryratesamongfamilyphysiciansversusobstetriciansapopulationbasedcohortstudyusinginstrumentalvariablemethods2017dawe
+"BACKGROUND: Previous research suggests that family physicians have rates of cesarean delivery that are lower than or equivalent to those for obstetricians, but adjustments for risk differences in these analyses may have been inadequate. We used an econometric method to adjust for observed and unobserved factors affecting the risk of cesarean delivery among women attended by family physicians versus obstetricians. METHODS: This retrospective population-based cohort study included all Canadian (except Quebec) hospital deliveries by family physicians and obstetricians between Apr. 1, 2006, and Mar. 31, 2009. We excluded women with multiple gestations, and newborns with a birth weight less than 500 g or gestational age less than 20 weeks. We estimated the relative risk of cesarean delivery using instrumental-variable-adjusted and logistic regression. RESULTS: The final cohort included 776 299 women who gave birth in 390 hospitals. The risk of cesarean delivery was 27.3%, and the mean proportion of deliveries by family physicians was 26.9% (standard deviation 23.8%). The relative risk of cesarean delivery for family physicians versus obstetricians was 0.48 (95% confidence interval [CI] 0.41-0.56) with logistic regression and 1.27 (95% CI 1.02-1.57) with instrumental-variable-adjusted regression. INTERPRETATION: Our conventional analyses suggest that family physicians have a lower rate of cesarean delivery than obstetricians, but instrumental variable analyses suggest the opposite. Because instrumental variable methods adjust for unmeasured factors and traditional methods do not, the large discrepancy between these estimates of risk suggests that clinical and/or sociocultural factors affecting the decision to perform cesarean delivery may not be accounted for in our database."""
+
+

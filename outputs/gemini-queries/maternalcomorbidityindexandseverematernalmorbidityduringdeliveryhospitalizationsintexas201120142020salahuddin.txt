@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalcomorbidityindexandseverematernalmorbidityduringdeliveryhospitalizationsintexas201120142020salahuddin
+"Background: Severe maternal morbidity (SMM) prevalence was 194.0 per 10 000 deliveries in Texas in 2015. Chronic, behavioral, and pregnancy-induced conditions, as captured by a maternal comorbidity index, increase the risk for delivery-related morbidity and mortality. The objective of the study was to examine the association between maternal comorbidity index and SMM among delivery hospitalizations in Texas. Method(s): Delivery-related hospitalizations among Texan women aged 15-49 years were identified using the 2011-2014 Texas all-payer inpatient hospitalization public use data files (n = 1 434 441). The primary outcome of interest was SMM, based on the Alliance for Innovation on Maternal Health's coding scheme. The exposure of interest was a maternal comorbidity index. Multivariable logistic regression model was used to examine the association between maternal comorbidity index and SMM. Result(s): SMM prevalence remained consistent between 2011 and 2014 (196.0-197.0 per 10 000 deliveries, P >.05; n = 1 434 441). Nearly 40% of delivery-related hospitalizations had a maternal comorbidity index of at least 1, and the proportion of deliveries in the highest risk category of comorbidity index (>=5) increased by 12.0% from 2011 to 2014. SMM prevalence was highest among the youngest and oldest age groups. With each unit increase in maternal comorbidity index, the odds of SMM increase was 1.43 (95% CI 1.42-1.43). Conclusion(s): Maternal comorbidity index is associated with SMM; however, the low predictive power of the model suggests that other, unmeasured factors may influence SMM in Texas. These findings highlight a need to understand broader contextual factors (practitioner, facility, systems of care, and community) that may be associated with SMM to reduce maternal morbidity and mortality in Texas.Copyright (c) 2019 Wiley Periodicals, Inc."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: domotherswhodeliveredathealthfacilitiesreturntohealthfacilitiesforpostnatalcarefollowupamultilevelanalysisofthe2016ethiopiandemographicandhealthsurvey2021ayele
+"INTRODUCTION: Returning to health facility for postnatal care (PNC) use after giving birth at health facility could reflect the health seeking behavior of mothers. However, such studies are rare though they are critically important to develop vigorous strategies to improve PNC service utilization. Therefore, this study aimed to determine the magnitude and factors associated with returning to health facilities for PNC among mothers who delivered in Ethiopian health facilities after they were discharged. METHODS: This cross-sectional study used 2016 Ethiopian Demographic and Health Survey data. A total of 2405mothers who gave birth in a health facility were included in this study. Multilevel mixed-effect logistic regression model was fitted to estimate both independent (fixed) effects of the explanatory variables and community-level (random) effects on return for PNC utilization. Variable with p-value of <= 0.25 from unadjusted multilevel logistic regression were selected to develop three models and p-value of <=0.05 was used to declare significance of the explanatory variables on the outcome variable in the final (adjusted) model. Analysis was done using IBM SPSS statistics version 21. RESULT: In this analysis, from the total 2405 participants, 14.3% ((95%CI: 12.1-16.8), (n = 344)) of them returned to health facilities for PNC use after they gave birth at a health facility. From the multilevel logistic regression analysis, being employed (AOR = 1.51, 95%CI: 1.04-2.19), receiving eight and above antenatal care visits (AOR = 2.90, 95%CI: 1.05-8.00), caesarean section delivery (AOR = 2.53, 95%CI: 1.40-4.58) and rural residence (AOR = 0.56, 95%CI: 0.36-0.88) were found significantly associated with return to health facilities for PNC use among women who gave birth at health facility. CONCLUSION: Facility-based PNC utilization among mothers who delivered at health facilities is low in Ethiopia. Both individual and community level variables were determined women to return to health facilities for PNC use. Thus, adopting context-specific strategies/policies could improve PNC utilization and should be paid a due focus."""
+
+

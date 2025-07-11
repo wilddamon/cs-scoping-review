@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenprenatalonehourglucosechallengetestvaluesanddeliverymodeinnondiabeticpregnantblackwomen2015ezell
+"OBJECTIVE: We examined the association between 1-hour glucose challenge test (GCT) values and risk of caesarean section. STUDY DESIGN: A prospective cohort study recruited 203 pregnant Black women to participate. At ~28 weeks of gestation, participants underwent a routine 1-hour 50 g GCT to screen for gestational diabetes mellitus. Logistic regression was used to examine the association between 1-hour GCT value and delivery mode. RESULTS: Of the 158 participants included, 53 (33.5%) delivered via C-section; the majority (n = 29; 54.7%) were nulliparous. Mean 1-hour GCT values were slightly, but not significantly, higher among women delivering via C-section; versus vaginally (107.8 +- 20.7 versus 102.4 +- 21.5 mg/dL, resp.; P = 0.13). After stratifying by parity and adjusting for maternal age, previous C-section, and prepregnancy body mass index, 1-hour GCT value was significantly associated with increased risk of C-section among parous women (OR per 1 mg/dL increase in GCT value = 1.05; 95% CI OR: 1.00, 1.05; P = 0.045). CONCLUSION: Even slightly elevated 1-hour 50 g GCT values may be associated with delivery mode among parous Black women."""
+
+

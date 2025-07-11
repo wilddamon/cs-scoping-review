@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thehumanmilkmicrobiomealignswithlactationstageandnotbirthmode2022lyons
+"We analysed the human milk microbiome in a cohort of 80 lactating women and followed the dynamics in taxa over the course of lactation from birth to 6 months. Two hundred and thirty one milk samples were collected from full-term lactating women at 1, 4, 8 and 24 weeks following birth and analysed for microbiota composition using 16S rRNA sequencing. A significant decrease in milk microbiota diversity was observed throughout the first 6 months of lactation, with the greatest difference seen between week 8 and week 24. Nine genera predominated in milk over lactation from week 1 to week 24, comprising of Staphylococcus, Streptococcus, Pseudomonas, Acinetobacter, Bifidobacterium, Mesorhizobium, Brevundimonas, Flavobacterium, and Rhodococcus; however, fluctuations in these core genera were apparent over time. There was a significant effect of stage of lactation on the microbiome, while no effect of birth mode, infant sex and maternal BMI was observed throughout lactation. Streptococcus had the highest mean relative abundance at week 1 and 24 (17.3% and 24% respectively), whereas Pseudomonas predominated at week 4 (22%) and week 8 (19%). Bifidobacterium and Lactobacillus had the highest mean relative abundance at week 4 (5% and 1.4% respectively), and occurred at a relative abundance of <= 1% at all other time points. A decrease in milk microbiota diversity throughout lactation was also observed. This study concluded that lactation stage was the primary driving factor in milk microbiota compositional changes over lactation from birth to 6 months, while mode of delivery was not a factor driving compositional changes throughout human lactation."""
+
+

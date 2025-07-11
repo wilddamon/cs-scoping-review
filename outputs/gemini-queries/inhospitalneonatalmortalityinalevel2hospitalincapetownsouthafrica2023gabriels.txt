@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inhospitalneonatalmortalityinalevel2hospitalincapetownsouthafrica2023gabriels
+"Background. Neonatal mortality (death in the first 28 days of life) is a major contributor to under-5 mortality in South Africa. Many advances in neonatal care have been introduced, but the impact of these interventions has not been studied outside of tertiary academic centres. Objective. To describe neonatal mortality in the neonatal high care unit at New Somerset Hospital in Cape Town, South Africa, over an 8-year period. Methods. Records of neonatal deaths were captured and entered into a database; deaths were coded according to Perinatal Problem Identification Program categories. Results. Neonatal deaths from 2011 to 2018 were analysed, excluding 2014. There were 296 neonatal deaths; median (interquartile range (IQR)) birthweight of neonatal deaths was 1 140 (790 - 2 420) g; median (IQR) gestation was 29 (25-38) weeks. Immaturity (132/296, 45%) was the most common cause of death, followed by hypoxia (67/296, 23%) and infections (61/296, 21%). There were 250 (84%) neonatal deaths in the first week of life. There was a trend towards a decreasing number of neonatal deaths (from 48 in 2011 to 34 in 2018), and rate of deaths (from 45.2 per 1 000 admissions to 28.2 per 1 000 admissions). This was driven by decreased deaths due to immaturity; number of deaths due to other causes remained approximately constant. Conclusion. We observed a decreasing number of neonatal deaths and rate of deaths per 1 000 admissions, with the largest decrease in deaths due to prematurity. Advances in respiratory care for preterm neonates may have contributed to decreased mortality due to immaturity. Upstream obstetric interventions will be required to address hypoxia-related causes of neonatal mortality.Copyright (c) 2023, South African Medical Association. All rights reserved."""
+
+

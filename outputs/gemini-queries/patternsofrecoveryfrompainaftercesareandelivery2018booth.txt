@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: patternsofrecoveryfrompainaftercesareandelivery2018booth
+"We know very little about the change in pain in the first 2 months after surgery. To address this gap, we studied 530 women scheduled for elective cesarean delivery who completed daily pain diaries for 2 months after surgery through text messaging. Over 82% of subjects missed fewer than 10 diary entries and were included in the analysis. Completers were more likely to be Caucasian, nonsmokers, and with fewer previous pregnancies than noncompleters. Daily worst pain intensity ratings for the previous 24 hours were fit to a log(time) function and allowed to change to a different function up to 3 times according to a Bayesian criterion. All women had at least one change point, occurring 22 +- 9 days postoperatively, and 81% of women had only one change, most commonly to a linear function at 0 pain. Approximately 9% of women were predicted to have pain 2 months after surgery, similar to previous observations. Cluster analysis revealed 6 trajectories of recovery from pain. Predictors of cluster membership included severity of acute pain, perceived stress, surgical factors, and smoking status. These data demonstrate feasibility but considerable challenges to this approach to data acquisition. The form of the initial process of recovery from pain is common to all women, with divergence of patterns at 2 to 4 weeks after cesarean delivery. The change-point model accurately predicts recovery from pain; its parameters can be used to assess predictors of speed of recovery; and it may be useful for future observational, forecasting, and interventional trials."""
+
+

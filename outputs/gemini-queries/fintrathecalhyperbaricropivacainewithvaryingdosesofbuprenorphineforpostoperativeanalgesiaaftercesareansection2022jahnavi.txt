@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparativestudyofintrathecalhyperbaricropivacainewithvaryingdosesofbuprenorphineforpostoperativeanalgesiaaftercesareansection2022jahnavi
+"Background: Postoperative analgesia after cesarean section poses unique clinical challenges to anesthesiologist. Intrathecal buprenorphine is a promising drug for postoperative analgesia. Objective(s): The aim of this study was to compare the efficacy of two doses of buprenorphine (30microg and 60 microg) as an adjuvant to hyperbaric ropivacaine for postoperative analgesia in cesarean section. Setting and Design: Prospective randomized controlled study involving ninety parturients posted for elective cesarean section under subarachnoid block. Material(s) and Method(s): Group A (n = 30) received 1.8 ml of 0.75% hyperbaric ropivacaine with 30microg buprenorphine, Group B (n = 30) received 1.8 ml 0.75% hyperbaric ropivacaine with 60 microg buprenorphine, Group C (n = 30) received 1.8 ml of 0.75% hyperbaric ropivacaine with 0.2 ml normal saline, respectively. Following parameters were observed: onset and duration of sensory block, postoperative pain scores based on visual analog scale (VAS), rescue analgesic requirement and maternal and neonatal side effects if any. Statistical analysis: Unpaired t-test and Chi-square test were used. Result(s): Duration of postoperative analgesia was significantly prolonged in Groups A and B in comparison to Group C and it was longest in Group B. Rescue analgesic requirement and VAS score were significantly lower in the buprenorphine groups. No major side effects were observed. Conclusion(s): Addition of buprenorphine to intrathecal ropivacaine prolonged the duration and quality of postoperative analgesia after cesarean section. Increasing the dose of buprenorphine from 30microg to 60 microg provided longer duration of analgesia without increase in adverse effects.Copyright (c) 2022 Ubiquity Press. All rights reserved."""
+
+

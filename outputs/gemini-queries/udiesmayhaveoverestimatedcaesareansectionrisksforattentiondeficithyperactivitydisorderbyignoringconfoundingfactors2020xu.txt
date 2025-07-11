@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: metaanalysisfoundthatstudiesmayhaveoverestimatedcaesareansectionrisksforattentiondeficithyperactivitydisorderbyignoringconfoundingfactors2020xu
+"Aim: Epidemiological studies on associations between Caesarean sections (C-sections) and attention-deficit hyperactivity disorder (ADHD) have been inconsistent, and we performed a meta-analysis. Methods: We systematically searched PubMed and Embase to December 2018 and included nine hospital-based and population registry studies published in 2011-2018. These covered a total study cohort of more than 2.5 million people in eight countries: Australia, Brazil, Denmark, Finland, Germany, Sweden, Turkey and the UK. The analysis provided summary odds ratios (ORs) and 95% confidence intervals (CI) while taking heterogeneity into account. Results: We found that that C-sections were associated with a small increase in the risk of ADHD (OR 1.14, 95% CI 1.11, 1.17, I2 0%) in offspring. In subgroup analyses, the association remained for both infants born after elective C-sections (OR, 1.15, 1.11, 1.19, I2 0%) and emergency C-sections (OR, 1.13, 1.1, 1.17, I2 45.4%). However, these were only marginally significant when we pooled data from siblings from other pregnancies (OR, 1.06, 1.00-1.13, I2 0%), implying that the association was due to confounding. Conclusion: The statistically significant association between C-sections and ADHD in children can be partially explained by unmeasured confounding. Further research controlling for important confounders is required before firm conclusions can be drawn. (PsycInfo Database Record (c) 2022 APA, all rights reserved)"""
+
+

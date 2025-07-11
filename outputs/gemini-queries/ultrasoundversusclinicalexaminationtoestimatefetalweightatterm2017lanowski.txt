@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ultrasoundversusclinicalexaminationtoestimatefetalweightatterm2017lanowski
+"Introduction At term, fetal weight estimation is an important factor for decisions about the delivery mode and the timing of labor induction. This study aimed to compare the accuracy of abdominal palpation with that of ultrasound performed by different examiners to estimate fetal weight. The study investigated whether differences in the examiners' training affected fetal weight estimates. The accuracy of the weight estimates made for fetuses with extreme birth weights was also evaluated. Finally, the accuracy of Johnson's method and of Insler and Bernstein's formula for estimating fetal weight were compared with the other two methods. Methods This prospective study included singleton pregnancies between 37 weeks of gestation and 12 days post-term planned for vaginal delivery or cesarean section. Ultrasound and abdominal palpation using Leopold's maneuvers were performed by examiners with different levels of professional experience. Fetal weight was additionally estimated using Insler and Bernstein's formula and Johnson's method. Statistical analysis calculated the accuracy of fetal weight estimates for the different examiners and the four methods. Results A total of 204 women were included in the analysis. Trained ultrasound examiners were most accurate when estimating fetal weight compared with all other examiners. The comparison of all four methods showed that fetal weight was assessed most accurately with ultrasound. No learning curve could be established. BMI and advanced gestational age affected the accuracy of the estimated weight. The analysis showed that a greater deviation between estimated weight and actual weight occurred with all four methods for fetuses at either end of the extremes of fetal weight, i.e., with very low or very high birth weights. Conclusion Fetal weight should be estimated using ultrasound. A good ultrasound training is essential."""
+
+

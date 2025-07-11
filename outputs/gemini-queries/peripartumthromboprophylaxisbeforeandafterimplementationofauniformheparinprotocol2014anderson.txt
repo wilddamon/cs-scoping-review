@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: peripartumthromboprophylaxisbeforeandafterimplementationofauniformheparinprotocol2014anderson
+"AIM: The objective of this study was to assess the utilization of postpartum thromboprophylaxis with heparin in patients according to the Royal College of Obstetrics and Gynaecology Green-Top guidelines after change from an opt-in to an opt-out policy for health care providers ordering heparin thromboprophylaxis after cesarean delivery. STUDY DESIGN: The present study is a retrospective review of 500 consecutive births at one academic institution before and after implementation of a uniform thromboprophylaxis policy with heparin for all cesarean deliveries. An 'opt-out' policy for ordering physicians was implemented by automatically defaulting to order heparin in the electronic order set used after cesarean delivery. RESULTS: Cesarean delivery rates were similar during both time periods. Heparin thromboprophylaxis was indicated in 99.6% of the cesarean delivery population before implementation and 94.5% after implementation. Prior to implementation only 5.7% received thromboprophylaxis compared to 96.1% after implementation, P<0.0001. CONCLUSION: An opt-out heparin thromboprophylaxis policy improves compliance with thromboprophylaxis guidelines compared to an opt-in policy. Institutions should consider opt-out heparin thromboprophylaxis policies after cesarean deliveries to improve compliance with recommendations."""
+
+

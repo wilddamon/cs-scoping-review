@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: childbirthdeliverymodeandtheriskofmultiplesclerosisaprospectivepopulationbasedstudy2023kapali
+"BACKGROUND: Caesarean section (CS) may affect the risk of developing multiple sclerosis (MS) in the offspring, possibly through changes in gut microbiota composition, but findings from previous studies are inconsistent. We investigated whether birth by CS was associated with the risk of adult-onset MS. METHODS: We conducted a prospective population-based cohort study, including all individuals born in Norway between 1967 and 2003, using the Medical Birth Registry of Norway linked with the Norwegian Multiple Sclerosis Registry and Biobank. The follow-up was until 2021. We used multivariable Cox models to estimate HRs for MS risk with 95% CIs. RESULTS: Among 2 046 637 individuals in the cohort, 4954 MS cases were identified. Being born by CS was associated with a modest increase in MS risk (HR=1.18, 95% CI 1.05 to 1.32). In the sibling-matched analysis, we found no association between CS and MS risk. We found an interaction between CS and gestational age (p=0.03): CS was associated with an increased risk of MS in individuals born preterm (HR=1.62, 95% CI 1.18 to 2.24), whereas there was no association in individuals born at term (HR=1.13, 95% CI 0.99 to 1.27). In a subgroup analysis of individuals born in 1988 and onwards, emergency CS was related to an elevated MS risk (HR=1.40, 95% CI 1.07 to 1.83), whereas planned CS was not (HR: 1.10, 95% CI 0.77 to 1.58). CONCLUSIONS: CS was associated with a modestly higher risk of developing MS. However, the stronger associations seen in subgroups who likely experienced a more complicated pregnancy/delivery may point to confounding underlying these associations."""
+
+

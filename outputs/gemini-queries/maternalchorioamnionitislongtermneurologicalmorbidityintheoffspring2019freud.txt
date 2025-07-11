@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalchorioamnionitislongtermneurologicalmorbidityintheoffspring2019freud
+"BACKGROUND: Chorioamnionitis is a common and potentially devastating complication of pregnancy associated with maternal and perinatal adverse outcomes. OBJECTIVE: To evaluate a possible association between maternal chorioamnionitis and long-term pediatric neurological morbidity. STUDY DESIGN: A population-based retrospective cohort analysis was performed comparing the risk of long-term neurological morbidity. Pediatric neurological morbidity evaluated included hospitalizations with neurological morbidity. Kaplan-Meier survival curves were constructed to compare the cumulative neurological morbidity and a Cox regression model was used to control for confounders. RESULTS: 238 622 newborns were included. Of them, 0.5% were born to mothers with chorioamnionitis. 3.1% offspring were hospitalized with a neurological condition. Total neurological morbidity was not significantly more common in the chorioamnionitis group (3.8% vs. 3.1% respectively, OR 1.23, 95% CI 0.9-1.6, p = 0.147). However, a significant and independent association was noted between maternal chorioamnionitis and cerebral palsy. (0.5% vs. 0.1%, OR 5.77, 95% CI 2.5-13.0, p = 0.001). In a Cox proportional hazards model, controlling for preterm delivery, birthweight, maternal factors and mode of delivery the association between chorioamnionitis and cerebral palsy remained significant (adjusted HR = 2.78, 95% CI 1.20-6.43, P = 0.016). CONCLUSION: Maternal chorioamnionitis is associated with cerebral palsy in the offspring, independently of other birth circumstances such as preterm delivery and birthweight."""
+
+

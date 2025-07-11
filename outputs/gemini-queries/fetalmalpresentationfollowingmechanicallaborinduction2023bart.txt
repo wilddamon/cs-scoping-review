@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalmalpresentationfollowingmechanicallaborinduction2023bart
+"OBJECTIVE: To evaluate whether the risk of fetal malpresentation following mechanical labor induction could be accurately predicted.;METHODS: A retrospective study, including all individuals who underwent labor induction at a single tertiary medical center between March 2011 and May 2021. Cohorts of pharmacological (n = 16 480) and mechanical labor induction (n = 6864) were compared, determining malpresentation rate following induction. Individuals with and without fetal malpresentation following balloon placement were compared.;RESULTS: Malpresentation following balloon placement occurred in 62 patients (0.9%). Those patients with malpresentation following balloon placement were older, had higher body mass index during labor, higher parity, polyhydramnios, higher fetal station at the start of labor induction, and delivered at an earlier gestational age compared with control patients. The combined presence of at least three of these risk factors was associated with a malpresentation rate of 8% (7/88) and yielded a positive likelihood ratio of 9.48 (95% confidence interval [CI] 4.57-19.7). A prediction model using these variables was not sufficiently accurate to predict the risk of malpresentation following balloon labor induction; a calculated area under the generated receiver operating characteristic curve was 0.78 (95% CI 0.72-0.84).;CONCLUSION: Several risk factors were identified for malpresentation following mechanical labor induction, although these were of low predictive value. Copyright (c) 2022 International Federation of Gynecology and Obstetrics."""
+
+

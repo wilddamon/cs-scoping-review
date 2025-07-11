@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinpatientswithvitiligoanationwidepopulationbasedcohortstudyfromkorea2018park
+"BACKGROUND: Vitiligo is a chronic autoimmune skin disorder affecting 1% of populations worldwide. Few large-scale studies have explored adverse pregnancy outcomes in patients with vitiligo. OBJECTIVE: To investigate adverse pregnancy outcomes in patients with vitiligo. METHODS: We performed a retrospective cohort study on 4738 pregnancies of women with vitiligo and 47,380 pregnancies of age-matched controls without vitiligo using the Korean National Health Insurance Claims database from 2007 to 2016. Multivariate logistic regression models were used to evaluate the associations between vitiligo and pregnancy outcomes, including live births, spontaneous abortion, cesarean delivery, preterm delivery, gestational diabetes mellitus, stillbirth, pre-eclampsia/eclampsia, and intrauterine growth retardation. RESULTS: Patients with vitiligo exhibited a significantly lower live birth rate (odds ratio, 0.870; 95% confidence interval, 0.816-0.927) and a higher incidence of spontaneous abortion (odds ratio, 1.250; 95% confidence interval, 1.148-1.362) than the control group. LIMITATION: The Korean National Health Insurance Claims database lacks detailed clinical information on individual patients. CONCLUSION: Vitiligo was significantly associated with an increased risk of spontaneous abortion. Further studies are needed to determine whether systemic autoimmunity explains our finding."""
+
+

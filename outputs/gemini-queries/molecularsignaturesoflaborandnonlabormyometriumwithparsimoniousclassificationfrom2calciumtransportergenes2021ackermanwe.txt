@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: molecularsignaturesoflaborandnonlabormyometriumwithparsimoniousclassificationfrom2calciumtransportergenes2021ackermanwe
+"Clinical phenotyping of term and preterm labor is imprecise, and disagreement persists on categorization relative to underlying pathobiology, which remains poorly understood. We performed RNA sequencing (RNA-seq) of 31 specimens of human uterine myometrium from 10 term and 21 preterm cesarean deliveries with rich clinical context information. A molecular signature of 4814 transcripts stratified myometrial samples into quiescent (Q) and nonquiescent (NQ) phenotypes, independent of gestational age and incision site. Similar stratifications were achieved using expressed genes in Ca2+ signaling and TGF-b pathways. For maximal parsimony, we evaluated the expression of just 2 Ca2+ transporter genes, ATP2B4 (encoding PMCA4) and ATP2A2 (coding for SERCA2), and we found that their ratio reliably distinguished NQ and Q specimens in the current study, and also in 2 publicly available RNA-seq data sets (GSE50599 and GSE80172), with an overall AUC of 0.94. Cross-validation of the ATP2B4/ATP2A2 ratio by quantitative PCR in an expanded cohort (by 11 additional specimens) achieved complete separation (AUC of 1.00) of NQ versus Q specimens. While providing additional insight into the associations between clinical features of term and preterm labor and myometrial gene expression, our study also offers a practical algorithm for unbiased classification of myometrial biopsies by their overall contractile program."""
+
+

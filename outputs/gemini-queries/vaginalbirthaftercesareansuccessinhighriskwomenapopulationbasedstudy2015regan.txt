@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vaginalbirthaftercesareansuccessinhighriskwomenapopulationbasedstudy2015regan
+"OBJECTIVE: The study aim was to identify factors associated with vaginal birth after cesarean (VBAC) in high-risk women. STUDY DESIGN: This is a population-based retrospective cohort study of all births in Ohio during 2006 and 2007. High-risk patients were defined as singleton gestations in women with one previous cesarean who had 1 of the following risk factors: body mass index (BMI)30, hypertension, or diabetes. Multivariate logistic regression was utilized to estimate the relative influence of each factor on successful VBAC. RESULT: A total of 280 882 births were analyzed: of them, 79 084 (27.1%) were high-risk pregnancies and 8658 (10.9%) women had undergone one previous cesarean; 1433 (16.6%) underwent a trial of labor after cesarean (TOLAC). Of them, 974 (68.0%) had a successful VBAC, whereas 459 (32.0%) did not. Factors significantly associated with VBAC success were as follows: a prior vaginal delivery; pregnancy weight gain 30 lbs; Caucasian race; and labor augmentation. CONCLUSION: High-risk women with one prior cesarean are unlikely to undergo a TOLAC, but have a high rate of VBAC."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: asthmatrajectoriesinapopulationbasedbirthcohortimpactsofairpollutionandgreenness2017sbihi
+"RATIONALE: The heterogeneity of asthma phenotypes may explain inconsistencies in observed associations with environmental exposures. OBJECTIVES: To identify trajectories of childhood asthma and to characterize the potential impact of residential greenness and air pollution on asthma trajectory subgroups. METHODS: Linked administrative databases of medical visits were used to define the occurrence and recurrence of asthma over a 10-year follow-up period within a population-based birth cohort of more than 65,000 children. Group-based trajectory modeling was used to identify unique asthma trajectories. Weighted multinomial regression was used to assess the relationship between asthma trajectories and risk factors, including environmental exposures. MEASUREMENTS AND MAIN RESULTS: Group-based trajectory modeling distinguished four trajectories: one with no asthma representing 88.8% of the cohort, one with transient asthma (5.6% of the cohort), and two trajectories with chronic asthma with early (<1 yr; 1.5%) and late (<3 yr; 4.1%) onset during early childhood. These trajectories differed with respect to socioeconomic markers and modifiable risk factors, including maternal smoking and breastfeeding initiation. After accounting for sex, parity, breastfeeding, term birth weight, household income, maternal education, delivery mode, and smoking, an interquartile increase in nitrogen dioxide exposure increased the risk of membership in the early and late-onset chronic asthma trajectories, relative to subjects without asthma, by 50% and 20%, respectively (weighted risk ratio, 1.5 and 1.2; 95% confidence interval, 1.2-1.9 and 1.0-1.4). Greenness was not associated with any of the asthma trajectories. CONCLUSIONS: Traffic-related air pollution increased the probability of a chronic asthma trajectory."""
+
+

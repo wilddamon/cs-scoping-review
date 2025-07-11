@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doulacareacrossthematernitycarecontinuumandimpactonmaternalhealthevaluationofdoulaprogramsacrossthreestatesusingpropensityscorematching2022falconi
+"BACKGROUND: This evaluation of doula care emerges at a time when maternal mortality in the U.S. outranks every country in the developed world. Study objectives were to: 1) examine when over the maternity care continuum and with whom (i.e., clinical providers) doula care provides the greatest benefits to clinical health outcomes and health care utilization; and 2) evaluate whether women gain differential benefits from doulas depending upon race/ethnicity and health status. METHODS: We conducted a retrospective cohort study using Medicaid medical claims from California, Florida, and a northeastern state (USA) to compare maternal health outcomes between women who did and did not receive doula care between January 1, 2014 and December 31, 2020. We used propensity score matching and logistic regression models to calculate associations between selected health outcomes and doula care. Our analysis included 298 pairs of women matched on age, race/ethnicity, state, socioeconomic status, and hospital type (teaching or non-teaching). FINDINGS: Women who received doula care had 52.9% lower odds of cesarean delivery (OR: 0.471 95% CI: 0.29-0.79) and 57.5% lower odds of postpartum depression/postpartum anxiety (PPD/PPA) (OR: 0.425 95% CI: 0.22-0.82). Doulas who provided care with a clinical team that included a midwife most consistently showed a reduction in odds of cesarean delivery, regardless of the trimester when doula care was received. Women who received doula care during labor and birth, but not necessarily during pregnancy, showed a 64.7% reduction in odds of PPA/PPD (OR: 0.353 95% CI: 0.16-0.78) of PPA/PPD. INTERPRETATION: The use of doulas appears an effective strategy for improving maternal health, especially among socioeconomically vulnerable and marginalized minority populations. Future studies could address research gaps through focusing on the relationship between doula care received in the postpartum period and postpartum health. FUNDING: No sources of funding were used to assist in the preparation of this manuscript. Research was completed as part of the usual employment obligations to Anthem, Inc."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: statusofvitaminaandrelatedcompoundsandclinicaloutcomesinmaternalinfantpairsinthemidwesternunitedstates2017hanson
+"BACKGROUND: Vitamin A is an essential nutrient for pregnant women, and other vitamin A-related compounds, including lutein and lycopene, have been associated with maternal-infant outcomes. The objective of this study was to quantify the status of vitamin A and related compounds in maternal-infant pairs at the time of delivery, and to determine its impact on clinical outcomes.;METHODS: Maternal and cord blood samples were collected in 189 mother-infant pairs. Concentrations of lutein + zeaxanthin, beta-cryptoxanthin, lycopene, carotenes, and retinol were measured using high-performance liquid chromatography. Descriptive statistics was calculated and Spearman coefficients were used to assess correlations between maternal and cord measurements. Kruskal-Wallis and independent samples t test were used to compare measures between retinol groups. Linear and logistic regression models were used to adjust for relevant confounders. p < 0.05 was considered statistically significant.;RESULTS: Ten percent of mothers had serum retinol concentrations <=0.70 micromol/L; 80% of infants had serum retinol concentrations <=0.70 micromol/L. Low maternal retinol concentrations were associated with maternal anemia (p = 0.04) and a trend toward low birth weight (p = 0.06). Maternal and infant concentrations of vitamin A compounds were highly correlated. After adjustment for confounders, maternal lutein was associated with a C-section (p = 0.03) and a diagnosis of respiratory distress syndrome in the infant (p = 0.02). Maternal lycopene was associated with growth parameters in the infant.;CONCLUSIONS: As vitamin A-related compounds are modifiable by diet, future research determining the clinical impact of these compounds is warranted. Copyright (c) 2017 S. Karger AG, Basel."""
+
+

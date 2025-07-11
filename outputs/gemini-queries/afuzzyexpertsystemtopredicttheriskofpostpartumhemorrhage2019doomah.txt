@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: afuzzyexpertsystemtopredicttheriskofpostpartumhemorrhage2019doomah
+"Introduction: The American College of Obstetricians and Gynecologists (ACOG) defines postpartum hemorrhage (PPH) as a blood loss of >500mL following vaginal delivery or >1000mL following cesarean section. PPH is widely recognized as a common cause of maternal death. However, there is currently no effective method to predict its risk of occurrence. Aim(s): To develop a fuzzy expert system to predict the risk of developing PPH and to evaluate its performance in the clinical setting. Method(s): This system was developed using MATLAB software. Mamdani inference was used to simulate reasoning of experts in the field. To evaluate the performance of the system, a dataset of 1705 patients admitted at the Labor and Delivery ward of The Second Affiliated Hospital of Nanjing Medical University from 2017-10 to 2018-04, was considered. Result(s): The Negative Predictive value (NPV), Positive Predictive value PPV), Specificity and Sensitivity were calculated and were 99.72%, 18.50%, 87.48% and 92.16% respectively. Conclusion(s): Our findings suggest that the fuzzy expert system can be used to predict PPH in clinical settings and thus decrease maternal mortality rate due to hemorrhage.Copyright (c) 2019 Yussriya Hanaa Doomah, Song-Yuan Xu, Li-Xia Cao, Sheng-Lian Liang, Gloria Francisca Nuer-Allornuvor, Xiao-Yan Ying"""
+
+

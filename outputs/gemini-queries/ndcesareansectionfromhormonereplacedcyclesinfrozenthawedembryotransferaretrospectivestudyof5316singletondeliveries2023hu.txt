@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: youngwomenwereassociatedwithhigherriskofhypertensivedisordersofpregnancyandcesareansectionfromhormonereplacedcyclesinfrozenthawedembryotransferaretrospectivestudyof5316singletondeliveries2023hu
+"BACKGROUND: The utilization of frozen-thawed embryo transfer (FET) cycles has been linked to heightened risks of adverse perinatal outcomes. However, the potential association between adverse perinatal outcomes and distinct endometrial preparation regimens remains unclear. Therefore, we aim to investigate the maternal and neonatal outcomes after hormone replacement treatment (HRT) cycles, natural cycles (NC) and HRT cycles with pretreatment using GnRHa (HRT + GnRHa) for ovulatory women undergoing FET cycles. METHODS: A large sample retrospective cohort study was carried out from 2016 to 2020. The data included a total of 5316 women who had singleton deliveries undergoing FET cycles and which were divided into three groups based on different endometrial preparation protocols: 4399 patients in HRT groups, 621 in GnRHa+HRT groups, 296 in NC groups. The outcomes consisted of maternal outcomes (cesarean section, hypertensive disorders of pregnancy (HDP), placenta previa, gestational diabetes mellitus (GDM));and neonatal outcomes (preterm birth, newborn birthweight, low birthweight, small for gestational age (SGA), macrosomia, large for gestational age (LGA), fetal malformation). RESULTS: After adjusting for a series of confounding variables, we found an increased risk of HDP (aOR=3.362; 95%CI, 1.059-10.675) and cesarean section (aOR=1.838; 95%CI, 1.333-2.535) in HRT cycles compared with NC, especially for ovulatory women under 35 years old. However, in all three groups, newborn birth weight was not significantly different. Meanwhile, perinatal outcomes did not differ significantly in terms of perinatal outcomes in HRT +GnRHa cycles compared with HRT cycles solely. CONCLUSION: During FET cycles, singletons from HRT were related to higher risks of HDP and cesarean section, particularly for young women. GnRHa pretreatment didn't bring any benefit to perinatal outcomes compared with HRT cycles alone. Therefore, the natural cycle may be a more appropriate and safer option for young ovulatory women."""
+
+

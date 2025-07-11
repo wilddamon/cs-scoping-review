@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anobservationalcohortstudyof3unitsversus5unitsslowintravenousbolusoxytocininwomenundergoingelectivecaesareandelivery2017terblanche
+"This study sought to compare postpartum blood loss and maternal outcomes after 3IU and 5IU oxytocin at elective caesarean delivery. In a prospective observational study, 73 women undergoing elective caesarean delivery under spinal anaesthetic received a slow I.V. injection of either 3IU (n = 35) or 5IU (n = 38) oxytocin after delivery. The main outcome was gravimetrically measured 24-hour postpartum blood loss with a non-inferiority margin of 300 mL. Uterine tone, phenylephrine dose, emesis and hypotension after oxytocin administration were secondary outcomes. Gravimetric postpartum blood loss was lower in the 3IU group (-58.8 mL [95% CI: -212.1, 94.3]) after adjusting for BMI, pre-delivery vasopressor dose, parity, and risk of uterine atony, with the upper confidence limit below the 300 mL margin in support of non-inferiority. Patients receiving 3IU had a higher (non-significant) rate of having post-delivery phenylephrine to treat hypotension (RR = 1.59 [95% CI: 0.97, 2.63]), but of those treated, the 3IU group required significantly less (-427 mcg [95% CI: -740, -114]). The 3IU group had a lower prevalence of vomiting compared to those receiving 5IU (6% versus 24%; P = 0.047). Administration of 3IU oxytocin was non-inferior compared to standard 5IU with respect to blood loss in women undergoing elective caesarean delivery."""
+
+

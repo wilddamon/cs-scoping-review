@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofaclinicalscoretopredicttheprobabilityofsuccessfulprocedureinwomenundergoingexternalcephalicversion2021anand
+"INTRODUCTION: External Cephalic Version (ECV) reduces breech presentation at term and thus contribute to the reduction of cesarean section. This study was done to determine the factors associated with the successful ECV in women with breech presentation after 36 weeks' gestation and also to develop and validate a clinical score which could be utilized for individual patient counseling in future. METHODS: This was a retrospective cohort study conducted in a tertiary care center and teaching hospital in south India. Prospectively collected data from the register maintained for all ECVs performed on pregnant women with breech presentation at or more than 36 weeks' gestation. Clinical and ultrasound parameters at the time of performing the procedure were used in the analysis. Multiple logistic regression with a stepwise backward selection procedure was used selecting potential variable to construct the model and internal validation was done with bootstrapping. Primary outcome was successful ECV defined as cephalic presentation at the end of the procedure. RESULTS: Among 611 women who underwent ECV, it was successful in 70.4%. In the multiple logistic regression model, multiparity (OR4.48), AFI >= 7 (OR = 3.06), type of breech, posterior placental location (OR = 1.57), sacro-anterior position of breech (OR = 2.83), normal uterine tone (OR = 1.82) and fetal pole not engaged (OR = 2.82) were found to be predictive of successful ECV with good discrimination (AUC = 0.782) and acceptable calibration. Combining these factors from the model a predictive score (score 0-13) is proposed for clinical utility. CONCLUSIONS: Combining clinical and ultrasound parameters into a predictive score, which is simple and effective, could be utilized in the clinical practice, once validated externally."""
+
+

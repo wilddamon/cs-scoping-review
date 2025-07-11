@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithrecoveryfrom1minuteapgarscore4inlivesingletontermbirthsananalysisofmalaysiannationalobstetricsregistrydata201020122017jeganathan
+"BACKGROUND: The neonatal Apgar score at 5 min has been found to be a better predictor of outcomes than the Apgar score at 1 min. A baby, however, must pass through the first minute of life to reach the fifth. There has been no research looking at predictors of recovery (Apgar scores >=7) by 5 min in neonates with 1 min Apgar scores <4.;METHODS: An analysis of observational data was conducted using live, singleton, term births recorded in the Malaysian National Obstetrics Registry between 2010 and 2012. A total of 272,472 live, singleton, term births without congential anomalies were recorded, of which 1,580 (0.59%) had 1 min Apgar scores <4. Descriptive methods and bi- and multi-variable logistic regression were used to identify risk factors associated with recovery (5 min Apgar score >=7) from 1 min Apgar scores <4.;RESULTS: Less than 1% of births have a 1 min Apgar scores <4. Only 29.4% of neonates with 1 min Apgar scores <4 recover to a 5 min Apgar score >=7. Among uncomplicated vaginal deliveries, after controlling for other factors, deliveries by a doctor of neonates with a 1 min Apgar score <4 had odds of recovery 2.4 times greater than deliveries of neonates with a 1 min Apgar score <4 by a nurse-midwife. Among deliveries of neonates with a 1 min Apgar score <4 by doctors, after controlling for other factors, planned and unplanned CS was associated with better odds of recovery than uncomplicated vaginal deliveries. Recovery was also associated with maternal obesity, and there was some ethnic variation - in the adjusted analysis indigenous (Orang Asal) Malaysians had lower odds of recovery.;CONCLUSIONS: A 1 min Apgar score <4 is relatively rare, and less than a third recover by five minutes. In those newborns the qualification of the person performing the delivery and the type of delivery are independent predictors of recovery as is maternal BMI and ethnicity. These are associations only, not necessarily causes, and they point to potential areas of research into health systems factors in the labour room, as well as possible biological and cultural factors."""
+
+

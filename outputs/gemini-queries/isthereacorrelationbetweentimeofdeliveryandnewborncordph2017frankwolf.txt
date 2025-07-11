@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isthereacorrelationbetweentimeofdeliveryandnewborncordph2017frankwolf
+"PURPOSE: Since more senior and attending physicians work in labor wards during morning shifts, we expect a better delivery outcome during that time period. MATERIALS AND METHODS: A retrospective study was conducted between 1/2005 and 12/2014. Records of 56 428 singleton deliveries from a tertiary hospital in which cord blood pH was routinely measured at birth were analyzed. Time of birth was divided into shifts: 7 AM-3 PM (morning shift), 3 PM-11 PM (afternoon shift), and 11 PM-7 AM (night shift). Additional stratification compared weekdays and weekend deliveries. RESULTS: 19 601, 18 429, and 18 398 neonates were born during morning, afternoon, and night shifts, respectively. There was no significant difference in maternal age, neonatal weight, or mean 5-min Apgar score among the three shift periods. Furthermore, there was no correlation between shift time of delivery and newborn acidosis with respect to cord pH less than 7 (0.1% in each time periods, p = 0.67). Despite the above, instrumental deliveries and cesarean sections were more common in the morning shift compared to the afternoon and night shift, respectively (p = 0.001 each). CONCLUSIONS: Although shift time of delivery was found to be related to mode of delivery it was not related to either 5-min Apgar score or newborn acidosis as reflected by cord pH."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aregressionmodeltopredictaugmentedrenalclearanceincriticallyillobstetricpatientsandeffectsonvancomycintreatment2021tang
+"Background: Augmented renal clearance (ARC) risk factors and effects on vancomycin (VCM) of obstetric patients were possibly different from other populations based on pathophysiological characteristics. Our study was to establish a regression model for prediction of ARC and analyze the effects of ARC on VCM treatment in critically ill obstetric patients. Methods: We retrospectively included 427 patients, grouped into ARC and non-ARC patients. Logistic regression analysis was used to analyze the factors related to ARC. Receiver operating characteristic (ROC) curve was drawn to evaluate the predictive value of the model for ARC. Patients who received VCM therapy were collected. The published VCM population pharmacokinetic (PPK) model was used to calculate pharmacokinetic parameters. A linear regression analysis was made between the predicted and measured concentrations. Results: Of the 427 patients, ARC was present in 201 patients (47.1%). The independent risk factors of ARC were heavier, greater gestational age, higher albumin level, fewer caesarean section, severe preeclampsia and vasoactive drug; more infection, hypertriglyceridemia and acute pancreatitis. We established the above nine-variable prediction regression model and calculated the predicted probability. ROC curve showed that the predicted probability of combined weight, albumin and gestational age had better sensitivity (70.0%) and specificity (89.8%) as well as the maximal area under the curve (AUC, AUC = 0.863). 41 cases received VCM; 21 cases (51.2%) had ARC. The initial trough concentration in ARC patients was lower than in non-ARC patients (7.9 +- 3.2 mg/L vs 9.5 +- 3.3 mg/L; p = 0.033). Comparing the predicted trough concentration of two published VCM PPK models with the measured trough concentration, correlation coefficients (r) were all more than 0.8 in the ARC group and non-ARC group. AUC was significantly decreased in the ARC group (p = 0.003; p = 0.013), and clearance (CL) increased in the ARC group (p < 0.001; p = 0.008) when compared with the non-ARC group. Conclusion: ARC is a common state in critically ill obstetric patients. The regression model of nine variables had high predictive value for predicting ARC. The published VCM PPK models had good predictive performance for predicting trough concentrations of obstetric patients. Pharmacokinetic parameters of VCM are different in ARC obstetric patients, which results in enhanced VCM clearance and decreased trough concentration."""
+
+

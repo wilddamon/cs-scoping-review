@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theuseofnoninvasivecontinuousbloodpressuremeasuringclearsightrduringcentralneuraxialanaesthesiaforcaesareansectionaretrospectivevalidationstudy2022helmer
+"The close monitoring of blood pressure during a caesarean section performed under central neuraxial anaesthesia should be the standard of safe anaesthesia. As classical oscillometric and invasive blood pressure measuring have intrinsic disadvantages, we investigated a novel, non-invasive technique for continuous blood pressure measuring. Methods: In this monocentric, retrospective data analysis, the reliability of continuous non-invasive blood pressure measuring using ClearSight((r)) (Edwards Lifesciences Corporation) is validated in 31 women undergoing central neuraxial anaesthesia for caesarean section. In addition, patients and professionals evaluated ClearSight((r)) through questioning. Results: 139 measurements from 11 patients were included in the final analysis. Employing Bland-Altman analyses, we identified a bias of -10.8 mmHg for systolic, of -0.45 mmHg for diastolic and of +0.68 mmHg for mean arterial blood pressure measurements. Pooling all paired measurements resulted in a Pearson correlation coefficient of 0.7 for systolic, of 0.67 for diastolic and of 0.75 for mean arterial blood pressure. Compensating the interindividual differences in linear regressions of the paired measurements provided improved correlation coefficients of 0.73 for systolic, of 0.9 for diastolic and of 0.89 for mean arterial blood pressure measurements. Discussion: Diastolic and mean arterial blood pressure are within an acceptable range of deviation from the reference method, according to the Association for the Advancement of Medical Instrumentation (AAMI) in the patient collective under study. Both patients and professionals prefer ClearSight((r)) to oscillometric blood pressure measurement in regard of comfort and handling."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivematchedcasecontrolstudyofrecombinantlhversushmgsupplementationonfshduringcontrolledovarianhyperstimulationinthegnrhantagonistprotocol2022chen
+"Background: The role of luteinizing hormone (LH) in controlled ovarian hyperstimulation (COH) requires more evidence for its efficacy. Several studies compared recombinant human LH (r-hLH) or human menopausal gonadotropin (hMG) in combination with recombinant human follicle-stimulating hormone (r-hFSH) but lack the results with GnRH-antagonist protocol and in Asians. Method(s): This is a retrospective, single-center study inspecting women receiving GnRH antagonist protocol and r-hFSH+hMG or r-hFSH+r-hLH regimen for over five days for COH in the in vitro fertilization (IVF)/intracytoplasmic sperm injection (ICSI) cycle in Taiwan from 2013 to 2018. The outcomes of IVF/ICSI cycles were analyzed after propensity score matching between the two groups. A subgroup analysis was conducted in cycles in which women underwent their first embryo transfer (ET), including fresh ET and frozen ET (FET). Result(s): With a total of 503 cycles, the results revealed that the r-hFSH+r-hLH group performed better in terms of numbers of oocytes retrieved (r-hFSH+hMG vs. r-hFSH+r-hLH, 11.7 vs. 13.7, p=0.014), mature oocytes (8.7 vs. 10.9, p=0.001), and fertilized oocytes (8.3 vs. 9.8, p=0.022), while other outcomes were comparable. The analysis of first ET cycles also showed similar trends. Although the implantation rate (39% vs. 43%, p=0.37), pregnancy rate (52% vs. 53%, p=0.90), and live birth rate (39% vs. 45%, p=0.19) were not significantly different, the miscarriage rate was higher in the r-hFSH+hMG group than the r-hFSH+r-hLH group (26% vs. 15%, p<0.05) in first ET cycles. The cumulative pregnancy rate was significantly higher in the r-hFSH+r-hLH group (53% vs. 64%, p=0.02). No significant difference in rates of ovarian hyperstimulation syndrome (OHSS) was observed. Conclusion(s): The results support the hypothesis that the treatment of r-hLH+r-hFSH improves COH clinical outcomes in the IVF/ICSI cycle.Copyright (c) 2022 Chen, Yi, Guu, Chen, Kung, Chang, Chuan and Chen."""
+
+

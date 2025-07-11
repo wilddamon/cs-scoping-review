@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adversematernalandneonataloutcomesinwomenwithelevatedintrapartumtemperaturecomplicatedbyhistologicalchorioamnionitisattermapropensityscorematchedstudy2021ge
+"Background: Elevated intrapartum temperature has been widely proven to be associated with adverse clinical outcomes in both mothers and neonates. Histological chorioamnionitis (HCA), the inflammation of chorion and amniotic membranes, is commonly observed in those with elevated intrapartum temperature. Thus, we aimed to explore whether the combination of HCA would further affect the pregnancy outcomes in those with intrapartum temperature >= 37.5degC. Methods: This retrospective cohort study was conducted at the International Peace Maternity and Child Health Hospital (IPMCH), including all full-term women with intrapartum temperature >= 37.5degC from Jan 2017 to Jan 2019. Patients were divided in to HCA group or control group according to placental pathology results, and we used 1:1 propensity score matching (PSM) to reduce the effects of potential confounding factors between the two groups. Univariate and multivariable logistic regression were used to identify the association between HCA and different adverse maternal and neonatal outcomes. Results: We formed a propensity-score matched cohort containing 464 women in each group. Higher positive rate of mycoplasma (14.01% vs. 7.33%, p = 0.001) was found in the vaginal secretion culture of women in the HCA group. After adjusting for various baseline clinical characteristics, women with HCA were more likely to end their delivery by cesarean section (AOR = 1.55, 95% CI: 1.05-2.28), and puerperal morbidity (AOR = 2.77, 95% CI: 1.44-5.33) as well as prolonged hospitalization (AOR = 1.56, 95% CI: 1.12-2.17) were more likely to be observed in the HCA group. The existence of HCA might also be associated with neonatal sepsis (AOR = 2.83, 95% CI: 1.14-7.04) and NICU admission (AOR = 1.40, 95% CI: 1.04-1.87) in newborns. In the study on the impact of different stages of HCA, we found that both maternal and neonatal outcomes would not be affected by mild HCA (stage I), while HCA of stage III was associated with increased need for neonatal respiratory support and elevated likelihood of prolonged hospitalization in neonates. Conclusions: Elevated intrapartum temperature complicated by HCA might be related to the elevated occurrence of several adverse maternal and neonatal outcomes, except those with HCA of stage I. Advanced HCA stage correlated with a worse prognosis."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalinflammatorydietandadversepregnancyoutcomescirculatingcytokinesandgenomicimprintingaspotentialregulators2017mccullough
+"Excessive inflammation during pregnancy alters homeostatic mechanisms of the developing fetus and has been linked to adverse pregnancy outcomes. An anti-inflammatory diet could be a promising avenue to combat the pro-inflammatory state of pregnancy, particularly in obese women, but we lack mechanistic data linking this dietary pattern during pregnancy to inflammation and birth outcomes. In an ethnically diverse cohort of 1057 mother-child pairs, we estimated the relationships between dietary inflammatory potential [measured via the energy-adjusted dietary inflammatory index (E-DII(tm))] and birth outcomes overall, as well as by offspring sex and maternal pre-pregnancy body mass index (BMI). In a subset of women, we also explored associations between E-DII, circulating cytokines (n = 105), and offspring methylation (n = 338) as potential modulators of these relationships using linear regression. Adjusted regression models revealed that women with pro-inflammatory diets had elevated rates of preterm birth among female offspring [b = -0.22, standard error (SE) = 0.07, P<0.01], but not male offspring (b=0.09, SE = 0.06, P<0.12) (P(interaction) = 0.003). Similarly, we observed pro-inflammatory diets were associated with higher rates of caesarean delivery among obese women (b = 0.17, SE = 0.08, P = 0.03), but not among women with BMI <25 kg/m(2) (P(interaction) = 0.02). We observed consistent inverse associations between maternal inflammatory cytokine concentrations (IL-12, IL-17, IL-4, IL-6, and TNFa) and lower methylation at the MEG3 regulatory sequence (P<0.05); however, results did not support the link between maternal E-DII and circulating cytokines. We replicate work by others on the association between maternal inflammatory diet and adverse pregnancy outcomes and provide the first empirical evidence supporting the inverse association between circulating cytokine concentrations and offspring methylation."""
+
+

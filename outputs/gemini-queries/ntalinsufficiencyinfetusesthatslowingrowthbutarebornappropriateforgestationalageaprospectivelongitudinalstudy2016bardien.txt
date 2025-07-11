@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: placentalinsufficiencyinfetusesthatslowingrowthbutarebornappropriateforgestationalageaprospectivelongitudinalstudy2016bardien
+"OBJECTIVES: To determine whether fetuses that slow in growth but are then born appropriate for gestational age (AGA, birthweight >10th centile) demonstrate ultrasound and clinical evidence of placental insufficiency.;METHODS: Prospective longitudinal study of 48 pregnancies reaching term and a birthweight >10th centile. We estimated fetal weight by ultrasound at 28 and 36 weeks, and recorded birthweight to determine the relative change in customised weight across two timepoints: 28-36 weeks and 28 weeks-birth. The relative change in weight centiles were correlated with fetoplacental Doppler findings performed at 36 weeks. We also examined whether a decline in growth trajectory in fetuses born AGA was associated with operative deliveries performed for suspected intrapartum compromise.;RESULTS: The middle cerebral artery pulsatility index (MCA-PI) showed a linear association with fetal growth trajectory. Lower MCA-PI readings (reflecting greater diversion of blood supply to the brain) were significantly associated with a decline in fetal growth, both between 28-36 weeks (p = 0.02), and 28 weeks-birth (p = 0.0002). The MCA-PI at 36 weeks was significantly higher among those with a relative weight centile fall <20%, compared to those with a moderate centile fall of 20-30% (mean MCA-PI 1.94 vs 1.61; p<0.05), or severe centile fall of >30% (mean MCA-PI 1.94 vs 1.56; p<0.01). Of 43 who labored, operative delivery for suspected intrapartum fetal compromise was required in 12 cases; 9/18 (50%) cases where growth slowed, and 3/25 (12%) where growth trajectory was maintained (p = 0.01).;CONCLUSIONS: Slowing in growth across the third trimester among fetuses subsequently born AGA was associated with ultrasound and clinical features of placental insufficiency. Such fetuses may represent an under-recognised cohort at increased risk of stillbirth."""
+
+

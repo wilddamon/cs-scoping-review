@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenexposuretosecondhandsmokeandpsychologicalsymptomsamongchinesechildren2019wang
+"BACKGROUND: The effect of secondhand smoke (SHS) exposure on child psychological problems remained inconclusive in previous studies. The aim of this study is to explore the association between SHS exposure and psychological symptoms in children. METHODS: This population-based cross-sectional survey used cluster random probability sampling and recruited children aged 6-13 years in 26 primary schools in Shanghai, China, in 2014. Duration of SHS exposure in children were categorized as none, < 1 h/day, 1-2 h/day, >=3 h/day. Psychological symptoms were assessed by the parental version of the Strengths and Difficulties Questionnaire (SDQ). We used logistic regression to estimate the adjusted associations of SHS exposure with total SDQ and its specific domains. Multiple imputation was used for handling missing data. RESULTS: A total of 17,571 children completed this survey, with a response rate of 99.7%. SDQ scores were available for 15,344 participants, of whom 20.9% were not exposed to SHS, 63.0% exposed for < 1 h/day, 10.4% for 1-2 h/day, and 5.7% for >=3 h/day. Compared to children not exposed to SHS, SHS exposure was positively associated with total SDQ score: OR 1.42, 95% confidence interval (CI) 1.22 to 1.66 for SHS exposure < 1 h/day, OR 2.14, 95% CI 1.76 to 2.62 for 1-2 h/day and OR 2.53, 95% CI 2.01 to 3.18 for >=3 h/day after adjusting for sex, age, mode of birth, family socio-economic status and place of birth. These associations did not vary by sex. CONCLUSION: SHS exposure is an independent risk factor for psychological problems among children. Nonetheless, our study is unable to distinguish between fetal and child exposure to SHS."""
+
+

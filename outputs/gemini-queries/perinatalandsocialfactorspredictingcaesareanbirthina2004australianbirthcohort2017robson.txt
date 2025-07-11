@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinatalandsocialfactorspredictingcaesareanbirthina2004australianbirthcohort2017robson
+"BACKGROUND: The proportion of babies born by caesarean section in Australia has almost doubled over the last 25 years. Factors known to contribute to caesarean such as higher maternal age, mothers being overweight or obese, or having had a previous caesarean do not completely account for the increased rate and it is clear that other influences exist. AIM: To identify previously unsuspected risk factors associated with caesarean using nationally-representative data from the Longitudinal Study of Australian Children. METHODS: Data were from the birth cohort, a long-term prospective study of approximately 5000 children that includes richly-detailed data regarding maternal health and exposures during pregnancy. Logistic regression was used to examine the contribution of a wide range of pregnancy, birth and social factors to caesarean. FINDINGS: 28% of 4862 mothers were delivered by caesarean. The final adjusted analyses revealed that use of diabetes medication (OR=3.1, 95% CI=1.7-5.5, p<0.001) and maternal mental health problems during pregnancy (OR=1.3, CI=1.1-1.6, p=0.003) were associated with increased odds of caesarean. Young maternal age (OR=0.6, CI=0.5-0.7, p<0.001), having two or more children (OR=0.7, CI=0.6-0.9, p<0.001), and fathers having an unskilled occupation (OR=0.7, CI=0.6-1.0, p=0.036) were associated with reduced odds of caesarean. CONCLUSION: Our findings raise the prospect that the effect of additional screening and support for maternal mental health on caesarean rate should be subject of prospective study."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: validatingtheearlyphototherapypredictiontoolacrosscohorts2023daunhawer
+"Background: Hyperbilirubinemia of the newborn infant is a common disease worldwide. However, recognized early and treated appropriately, it typically remains innocuous. We recently developed an early phototherapy prediction tool (EPPT) by means of machine learning (ML) utilizing just one bilirubin measurement and few clinical variables. The aim of this study is to test applicability and performance of the EPPT on a new patient cohort from a different population. Material(s) and Method(s): This work is a retrospective study of prospectively recorded neonatal data from infants born in 2018 in an academic hospital, Regensburg, Germany, meeting the following inclusion criteria: born with 34 completed weeks of gestation or more, at least two total serum bilirubin (TSB) measurement prior to phototherapy. First, the original EPPT-an ensemble of a logistic regression and a random forest-was used in its freely accessible version and evaluated in terms of the area under the receiver operating characteristic curve (AUROC). Second, a new version of the EPPT model was re-trained on the data from the new cohort. Third, the predictive performance, variable importance, sensitivity and specificity were analyzed and compared across the original and re-trained models. Result(s): In total, 1,109 neonates were included with a median (IQR) gestational age of 38.4 (36.6-39.9) and a total of 3,940 bilirubin measurements prior to any phototherapy treatment, which was required in 154 neonates (13.9%). For the phototherapy treatment prediction, the original EPPT achieved a predictive performance of 84.6% AUROC on the new cohort. After re-training the model on a subset of the new dataset, 88.8% AUROC was achieved as evaluated by cross validation. The same five variables as for the original model were found to be most important for the prediction on the new cohort, namely gestational age at birth, birth weight, bilirubin to weight ratio, hours since birth, bilirubin value. Discussion(s): The individual risk for treatment requirement in neonatal hyperbilirubinemia is robustly predictable in different patient cohorts with a previously developed ML tool (EPPT) demanding just one TSB value and only four clinical parameters. Further prospective validation studies are needed to develop an effective and safe clinical decision support system.Copyright 2023 Daunhawer, Schumacher, Badura, Vogt, Michel and Wellmann."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: undiagnosedtype2diabetesduringpregnancyisassociatedwithincreasedperinatalmortalityalargepopulationbasedcohortstudyinontariocanada2020lee
+"AIM: To compare perinatal outcomes in women with undiagnosed diabetes with gestational diabetes alone, pre-existing diabetes and women without diabetes, and to identify risk factors which distinguish them from women with gestational diabetes alone.;METHODS: This population-based cohort study included administrative data on all women who gave birth in Ontario, Canada, during 2002-2015. Maternal/neonatal outcomes were compared across groups using logistic regression, adjusting for confounders. A nested case control study compared women with undiagnosed type 2 diabetes with women with gestational diabetes alone to determine risk factors that would help identify these women.;RESULTS: Among 995 990 women, 68 163 had gestational diabetes (6.8%) and, of those women with gestational diabetes,1772 had undiagnosed type 2 diabetes (2.6%). Those with undiagnosed type 2 diabetes were more likely to be older, from a lower income area, have parity > 3 and BMI >= 30 kg/m2 compared with gestational diabetes alone. Infants had a higher risk of perinatal mortality (OR 2.3 [1.6-3.4]), preterm birth (OR 2.6 [2.3-2.9]), congenital anomalies (OR 2.1 [1.7-2.5]), neonatal intensive care unit admission (OR 3.1 [2.8-3.5]) and neonatal hypoglycaemia (OR 406.0 [357-461]), which were similar to women with pre-existing diabetes. The strongest predictive risk factors included early gestational diabetes diagnosis, previous gestational diabetes and chronic hypertension.;CONCLUSIONS: Women diagnosed with gestational diabetes who develop diabetes within 1 year postpartum are at higher risk of adverse pregnancy outcomes, including perinatal mortality. This highlights the need for earlier diagnosis, preferably pre-pregnancy, and more aggressive treatment and surveillance of suspected type 2 diabetes during pregnancy. Copyright (c) 2020 Diabetes UK."""
+
+

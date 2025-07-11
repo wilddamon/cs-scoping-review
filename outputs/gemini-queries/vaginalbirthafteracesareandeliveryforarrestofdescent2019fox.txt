@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vaginalbirthafteracesareandeliveryforarrestofdescent2019fox
+"OBJECTIVE: The objective of this study is to determine vaginal birth after cesarean (VBAC) success rates for patients with a prior cesarean delivery (CD) for arrest of descent, as well as determine any predictors for success. STUDY DESIGN: This was a retrospective cohort study of all patients delivered by a single MFM practice from 2005 to 2017 with a singleton pregnancy and one prior CD for arrest of descent. We estimated the rate and associated risk factors for successful VBAC. RESULTS: We included 208 patients with one prior CD for arrest of descent, 100 (48.1%) of whom attempted a trial of labor after cesarean (TOLAC) with a VBAC success rate was 84/100 (84%, 95% CI 76-90%). Among the women who attempted TOLAC, women with a prior vaginal delivery >24 weeks' had a significantly higher VBAC success rate (91.8% versus 71.8%, p = .01). Maternal age, body mass index, estimated fetal weight, induction of labor, and cervical dilation were not associated with a higher VBAC success rate. CONCLUSIONS: For women with a prior CD for arrest of descent, VBAC success rates are high. This suggests that arrest of descent is mostly dependent on factors unique to each pregnancy and not due to an inadequate pelvis or recurring conditions. Women with a prior CD for arrest of descent should not be discouraged from attempting TOLAC in a subsequent pregnancy due to concerns about the likelihood of success."""
+
+

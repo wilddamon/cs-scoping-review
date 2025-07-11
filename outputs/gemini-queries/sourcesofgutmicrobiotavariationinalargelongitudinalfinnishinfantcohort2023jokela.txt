@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: sourcesofgutmicrobiotavariationinalargelongitudinalfinnishinfantcohort2023jokela
+"BACKGROUND: Although the infant gut microbiota has been extensively studied, comprehensive assessment on the microbiota determinants including technical variables has not been performed in large infant cohorts. METHODS: We studied the effect of 109 variables on the 16S rRNA gene amplicon-based gut microbiota profiles of infants sampled longitudinally from three weeks to two years of life in the Finnish HELMi birth cohort. Spot faecal samples from both parents were included for intra-family analyses, totalling to 7657 samples from 985 families that were evaluated for beta-diversity patterns using permutational multivariate analysis on Bray-Curtis distances, and differential abundance testing and alpha-diversity for variables of interest. We also assessed the effect of different taxonomic levels and distance methods. FINDINGS: In time point-specific models, the largest share of variation explained, up to 2-6%, were seen in decreasing order for the DNA extraction batch, delivery mode and related perinatal exposures, defecation frequency and parity/siblings. Variables describing the infant gastrointestinal function were continuously important during the first two years, reflecting changes in e.g., feeding habits. The effect of parity/siblings on infant microbiota was modified by birth mode and exposure to intrapartum antibiotics, exemplifying the tight interlinkage of perinatal factors relevant for infant microbiota research. In total, up to 19% of the biological microbiota variation in the infant gut could be explained. Our results highlight the need to interpret variance partitioning results in the context of each cohort's characteristics and microbiota processing. INTERPRETATION: Our study provides a comprehensive report of key factors associated with infant gut microbiota composition across the two first years of life in a homogenous cohort. The study highlights possible important future research areas and confounding factors to be considered. FUNDING: This research was supported by Business Finland, Academy of Finland, Foundation for Nutrition Research and the Doctoral Program in Microbiology and Biotechnology, University of Helsinki, Finland."""
+
+

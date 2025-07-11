@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: variationsinumbilicalcordhematopoieticandmesenchymalstemcellswithbronchopulmonarydysplasia2019chaudhury
+"Objective: To test the hypothesis that umbilical cord blood-derived CD34+ hematopoietic stem cells (HPSC), cord tissue-derived CD90+ and CD105+ mesenchymal stem cells (MSC) vary with bronchopulmonary dysplasia (BPD). Methods: We conducted a prospective longitudinal study at a large birth center (Prentice Women's Hospital in Chicago, IL). Premature infants (N = 200) were enrolled in 2:1:1 ratio based on gestational age (GA): mildly preterm (31-32 weeks), moderately preterm (29-30 weeks), and extremely preterm (23-28 weeks). Cord blood (CB) and cord tissues (CT) were collected at birth using commercial banking kits, and analyzed for collection blood volume, tissue mass, CD34+, CD90+, CD105+ counts, and concentrations. Multiplex immunoassay was used to measure 12 cytokines and growth factors in CB plasma of 74 patients. BPD severity was defined according to NIH consensus definitions. Univariate and multivariate regression models were used to identify perinatal covariates and assess associations between stem cell concentrations, cytokines, and BPD outcomes. Results: Of 200 patients enrolled (mean GA = 30 +- 2 weeks), 30 developed mild, 24 moderate, and 19 severe BPD. Concentrations of HPSC and MSC, as measured by %CD34+, %CD90+, and %CD105+ of total cells, increased with degree of prematurity. Collection parameters varied with GA, birth weight (BW), gender, prolonged rupture of membranes, mode of delivery, chorioamnionitis, and multiple gestation. Moderate-severe BPD or death was increased with lower GA, BW, Apgar scores, and documented delayed cord clamping. %CD34+ and %CD90+ were increased with BPD and directly correlated with BPD severity. Severe BPD was positively associated with %CD34+ (beta-coefficient = 0.9; 95% CI = 0.4-1.5; P < 0.01) and %CD90+ (beta-coefficient = 0.4; 95% CI = 0.2-0.6; P < 0.001) after adjustment for covariates. CB plasma granulocyte-colony stimulating factor (G-CSF) was inversely associated with %CD90+, and decreased with BPD. Below median G-CSF combined with elevated %CD90+ predicted BPD (positive predictive value = 100%). Conclusions: CB and CT collections yielded high concentrations of HPSCs and MSCs in BPD infants, accompanied by low circulating G-CSF. These variations suggest possible mechanisms by which stem cell differentiation and function predict BPD."""
+
+

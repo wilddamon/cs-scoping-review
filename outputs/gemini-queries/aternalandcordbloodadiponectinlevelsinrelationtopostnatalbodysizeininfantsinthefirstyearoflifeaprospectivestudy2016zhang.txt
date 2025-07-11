@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandcordbloodadiponectinlevelsinrelationtopostnatalbodysizeininfantsinthefirstyearoflifeaprospectivestudy2016zhang
+"BACKGROUND: Adiponectin is an adipocyte hormone involved in energy homeostasis and metabolism. However, its role in early infancy is poorly understood. METHODS: We recruited a total of 443 pregnant women and their children in this prospective study. Cord blood samples were successfully obtained from 331 neonates. Maternal and umbilical blood serum adiponectin were measured. The weight-, height- and BMI-for-age Z scores of infants at birth and at 3, 6 and 12 months of age were assessed. RESULTS: Multiple linear regression analysis indicated that cord blood but not maternal serum adiponectin was positively associated with all of the anthropometric measures at birth (P < 0.01). Using Generalized Estimating Equation model after adjustment for sex, time, maternal age, gestational age, prepregnancy BMI, weight gain during pregnancy, maternal education, parity, history of miscarriage and mode of delivery, for every 1-mg/ml increment of maternal serum adiponectin, the height-for-age Z score during the first year of life increased by 0.026 (P =0.013) on average, and the height-for-age Z score of infants in the highest quartile of maternal serum adiponectin was 0.270 (95 % CI: 0.013-0.527) higher than those in the lowest quartile. The changes in weight-for-age Z score from birth decreased by 0.67 x 10(-2) on average with every 1-mg/ml additional increase of cord blood adiponectin (P = 0.047). The infants in the highest quartile of cord blood adiponectin showed a -0.368 (95 % CI, -0.701--0.035) decrease in weight-for-age Z score change from birth compared with those in the lowest quartile. CONCLUSIONS: Cord blood adiponectin concentration is a determinant of infant birth size and weight gain in the first year of life. Circulating maternal adiponectin during pregnancy may predict postnatal height growth."""
+
+

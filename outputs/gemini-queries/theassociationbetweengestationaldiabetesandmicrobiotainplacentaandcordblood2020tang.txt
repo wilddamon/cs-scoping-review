@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweengestationaldiabetesandmicrobiotainplacentaandcordblood2020tang
+"Objective: Early life is a critical period for gut microbial development. It is still controversial whether there is placental microbiota during a healthy pregnancy. Gestational diabetes mellitus (GDM) is associated with increased risk of metabolic syndrome in the offspring, and the mechanisms are unclear. We sought to explore whether microbiota in placenta and cord blood may be altered in GDM. Methods: Placenta and cord blood samples were collected from eight GDM and seven euglycemic (control) term pregnancies in cesarean deliveries without evidence of clinical infections. The Illumina MiSeq Sequencing System was used to detect the microbiota based on the V3-V4 hypervariable regions of the 16S ribosomal RNA gene. Results: The microbiota were detectable in all placental samples. Comparing GDM vs. controls, there were more operational taxonomic units (OTUs) (mean +/- SE = 373.63 +/- 14.61 vs. 332.43 +/- 9.92, P = 0.024) and higher ACE index (395.15 +/- 10.56 vs. 356.27 +/- 8.47, P = 0.029) and Chao index (397.67 +/- 10.24 vs. 361.32 +/- 8.87, P = 0.04). The placental microbiota was mainly composed of four phyla: Bacteroidetes, Firmicutes, Actinobacteria, and Proteobacteria at the phylum level and 10 dominant genera at the genus level in both GDM and controls. Despite the dominant similarity in microbiota composition, at the OTU level, the abundance of Ruminococcus, Coprococcus, Paraprevotella, and Lactobacillus were higher, whereas Veillonella was lower in the placentas of GDM vs. controls. The microbiota was detected in one of the 15 cord blood samples, and its components were similar as to the corresponding placental microbiota at both phylum and genus levels suggesting placental microbiota as the potential source. Conclusions: The most abundant phyla and genus of placental microbiota were similar in GDM and euglycemic pregnancies, but GDM was associated with higher diversity of placental microbiota. Further study is needed to confirm the existence of microbiota in cord blood in pregnancies without clinical infection. Copyright (c) 2020 Tang, Luo, Zhang, Zheng, Fan, Tao and Ouyang."""
+
+

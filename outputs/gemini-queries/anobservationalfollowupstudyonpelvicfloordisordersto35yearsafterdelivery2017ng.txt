@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anobservationalfollowupstudyonpelvicfloordisordersto35yearsafterdelivery2017ng
+"INTRODUCTION AND HYPOTHESIS: This study aimed to determine the prevalence of urinary incontinence (UI), fecal incontinence (FI), and pelvic organ prolapse (POP) 3-5 years after the first pregnancy and their associated risk factors. METHODS: We assessed 506 women using the Pelvic Floor Distress Inventory (PFDI) and the Pelvic Floor Impact Questionnaire (PFIQ). Maternal characteristics and obstetric data were analyzed using descriptive analysis, independent sample t test, chi-squared test, and logistic regression. RESULTS: The prevalence of UI, FI, and POP, respectively, at a mean of 43 months after first delivery was 40.8, 6.6, and 10.2% following vaginal delivery (VD) and 22.7, 4.5, and 4.5% following cesarean section (CS). Stress urinary incontinence (SUI) was reported by more women following VD than CS (38.7 vs 22.4%, P = 0.010). Compared with 8 weeks' postpartum, more women reported SUI at this later follow-up visit (40.1 vs 19.5%, P < 0.001), but fewer reported FI. More women who had an instrumental delivery reported symptoms of POP compared with those who had a normal VD. Higher body weight and weight gain from first trimester were risk factors of SUI [odds ratio (OR) 1.03] and urge urinary incontinence (UUI) (OR 1.18), respectively. Women who delivered vaginally had higher PFDI subscales scores. CONCLUSIONS: VD increased UI risk. Higher body weight and weight gain from first trimester were risk factors for SUI and UUI, respectively. More women reported symptoms of POP following an instrumental delivery than those who had a normal VD."""
+
+

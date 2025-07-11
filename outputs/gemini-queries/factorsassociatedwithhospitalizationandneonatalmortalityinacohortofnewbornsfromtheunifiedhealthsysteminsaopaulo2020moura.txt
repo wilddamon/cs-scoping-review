@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithhospitalizationandneonatalmortalityinacohortofnewbornsfromtheunifiedhealthsysteminsaopaulo2020moura
+"INTRODUCTION: Newborn care is an important factor associated with hospitalization and neonatal mortality.;OBJECTIVE: To analyze factors associated with hospitalization and neonatal mortality of newborns (NBs) admitted to the Unified Health System (SUS), Sao Paulo, 2012.;METHODS: A cohort of NBs from the SUS was obtained by linking data: SUS Hospital Information System, Live Birth Information System, Mortality Information System and National Health Facility Registry. Poisson and Cox regression were performed.;RESULTS: 16.5% (9,127) of the NBs were hospitalized, 4.7% (2,613) were admitted to a Neonatal Intensive Care Unit (NICU) and 11.8% (6,514) to a Neonatal Intermediate Care Unit (NIMCU). Maternal age >= 35 years (RR = 1.1, IC95% 1.1 - 1.2), inadequate prenatal care (RR = 1.2, IC95% 1.1 - 1.3), hospitalization for obstetric complications (RR = 1.1, IC95% 1.1 - 1.2), prematurity (<= 32 weeks: RR = 1.6, IC95% 1.5 - 1.8; 32 to 36 weeks: RR = 1.7, IC95% 1.6 - 1,7), low weight (< 1,500 g: RR = 2.4, IC95% 2.1 - 2.6; 1,500 to 2,499 g: RR = 2.6, IC95% 2.5 - 2.7), APGAR 5 < 7 (RR = 1.9, IC95% 1.7 - 2.0), Cesarean section (RR = 1.1, IC95% 1.1 - 1.2) and Congenital Malformation (RR = 1.4, IC95% 1.3 - 1,5) were associated with the hospitalization of newborns. Neonatal mortality was associated with infants under 1,500 g (RR = 9.1, IC95% 6.3 - 13.1), very premature (RR = 2.6, IC95% 1.9 - 3.5), low APGAR (RR = 5.5, IC95% 4.6 - 6.7).;CONCLUSION: Inadequate prenatal care, prematurity and low weight were risk factors for hospitalization and neonatal mortality."""
+
+

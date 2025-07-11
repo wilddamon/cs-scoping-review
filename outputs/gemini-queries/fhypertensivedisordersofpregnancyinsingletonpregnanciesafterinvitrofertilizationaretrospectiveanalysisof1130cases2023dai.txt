@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesanddiseasephenotypeofhypertensivedisordersofpregnancyinsingletonpregnanciesafterinvitrofertilizationaretrospectiveanalysisof1130cases2023dai
+"BACKGROUND: Although in vitro fertilization (IVF) can increase the incidence of hypertensive disorders of pregnancy (HDP), the pregnancy outcomes and disease phenotype of HDP in singleton pregnancies conceived via IVF remain unclear. METHODS: This retrospective cohort study enrolled 1130 singleton pregnancies with HDP from 2016 to 2020. According to the mode of conception, they were allocated into IVF (n = 102) and natural conception (NC) groups (n = 1028). All IVF pregnancies were subdivided into frozen embryo transfer (FET) group (n = 42) and fresh embryo transfer (ET) group (n = 60). Demographic data, pregnancy outcomes and disease phenotypes of HDP among the groups were compared. The risk factors for severe preeclampsia (PE) and early-onset PE were analyzed. RESULTS: The incidences of early-onset PE (P<0.001), severe PE (P = 0.016), cesarean section (P<0.001) and preterm births (P = 0.003) in the IVF-HDP group were significantly higher than those in the NC-HDP group, and gestational age at diagnosis of HDP (P = 0.027) and gestational age at delivery (P = 0.004) were earlier and birthweight of the neonates (P = 0.033) were lower in the IVF group. In singleton pregnancies with HDP, IVF was associated with increased risks for both severe PE and early-onset PE (aOR 1.945, 95% CI 1.256, 3.014; and aOR 2.373, 95% CI 1.537, 3.663, respectively), as well as FET, family history of preeclampsia, intrahepatic cholestasis of pregnancy, gestational hypothyroidism and multiparity were associated with increased risks of severe PE and early-onset PE. CONCLUSIONS: In singleton pregnancies with HDP, IVF was associated with an increased incidence of the disease phenotype (severe or early-onset PE), as well as an increased incidence of pregnancy outcomes related to severe PE and early-onset PE."""
+
+

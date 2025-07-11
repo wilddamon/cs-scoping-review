@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactoflaborcharacteristicsonmaternalandneonataloutcomesoflaboramachinelearningmodel2022shazly
+"INTRODUCTION: Since Friedman's seminal publication on laboring women, numerous publications have sought to define normal labor progress. However, there is paucity of data on contemporary labor cervicometry incorporating both maternal and neonatal outcomes. The objective of this study is to establish intrapartum prediction models of unfavorable labor outcomes using machine-learning algorithms. MATERIALS AND METHODS: Consortium on Safe Labor is a large database consisting of pregnancy and labor characteristics from 12 medical centers in the United States. Outcomes, including maternal and neonatal outcomes, were retrospectively collected. We defined primary outcome as the composite of following unfavorable outcomes: cesarean delivery in active labor, postpartum hemorrhage, intra-amniotic infection, shoulder dystocia, neonatal morbidity, and mortality. Clinical and obstetric parameters at admission and during labor progression were used to build machine-learning risk-prediction models based on the gradient boosting algorithm. RESULTS: Of 228,438 delivery episodes, 66,586 were eligible for this study. Mean maternal age was 26.95 +- 6.48 years, mean parity was 0.92 +- 1.23, and mean gestational age was 39.35 +- 1.13 weeks. Unfavorable labor outcome was reported in 14,439 (21.68%) deliveries. Starting at a cervical dilation of 4 cm, the area under receiver operating characteristics curve (AUC) of prediction models increased from 0.75 (95% confidence interval, 0.75-0.75) to 0.89 (95% confidence interval, 0.89-0.90) at a dilation of 10 cm. Baseline labor risk score was above 35% in patients with unfavorable outcomes compared to women with favorable outcomes, whose score was below 25%. CONCLUSION: Labor risk score is a machine-learning-based score that provides individualized and dynamic alternatives to conventional labor charts. It predicts composite of adverse birth, maternal, and neonatal outcomes as labor progresses. Therefore, it can be deployed in clinical practice to monitor labor progress in real time and support clinical decisions."""
+
+

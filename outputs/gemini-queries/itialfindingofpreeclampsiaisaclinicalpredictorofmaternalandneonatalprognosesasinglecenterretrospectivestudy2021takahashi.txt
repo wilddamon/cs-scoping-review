@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalgrowthrestrictionastheinitialfindingofpreeclampsiaisaclinicalpredictorofmaternalandneonatalprognosesasinglecenterretrospectivestudy2021takahashi
+"BACKGROUND: Preeclampsia (PE) is a hypertensive disorder specific to pregnancy that can cause severe maternal-neonatal complications. The International Society for the Study of Hypertension in Pregnancy revised the PE criteria in 2018; a PE diagnosis can be established in the absence of proteinuria when organ or uteroplacental dysfunction occurs. The initial findings of PE (IFsPE) at the first diagnosis can vary considerably across patients. However, the impacts of different IFsPE on patient prognoses have not been reported. Thus, we investigate the predictors of pregnancy complications and adverse pregnancy outcomes based on IFsPE according to the new criteria. METHODS: This retrospective study included 3729 women who delivered at our hospital between 2015 and 2019. All women were reclassified based on the new PE criteria and divided into three groups based on the IFsPE: Classification 1 (C-1), proteinuria (classical criteria); Classification 2 (C-2), damage to other maternal organs; and Classification 3 (C-3), uteroplacental dysfunction. Pregnancy complications and adverse pregnancy outcomes were assessed and compared among the three groups. RESULTS: In total, 104 women with PE were included. Of those, 42 (40.4%), 28 (26.9%), and 34 (32.7%) were assigned to C-1, C-2, and C-3 groups, respectively. No significant differences in maternal characteristics were detected among the three groups, except for gestational age at PE diagnosis (C-1, 35.5 +- 3.0 weeks; C-2, 35.2 +- 3.6 weeks; C-3, 31.6 +- 4.6 weeks, p < 0.01). The rates of premature birth at < 37 weeks of gestation, fetal growth restriction (FGR), and neonatal acidosis were significantly higher in the C-3 group compared to the C-1 and C-2 groups. Additionally, the composite adverse pregnancy outcomes of the C-3 group compared with C-1 and C-2 represented a significantly higher number of patients. CONCLUSIONS: PE patients with uteroplacental dysfunction as IFsPE had the most unfavorable prognoses for premature birth, FGR, acidosis, and composite adverse pregnancy outcomes."""
+
+

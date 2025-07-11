@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenbronchopulmonarydysplasiaanddeathorneurodevelopmentalimpairmentat3yearsinpreterminfantswithoutseverebraininjury2023li
+"Objective: We investigated the association between bronchopulmonary dysplasia (BPD) and 3 years death or neurodevelopmental impairment (NDI) in very preterm infants without severe brain injury. Method(s): Our prospective cohort study recruited preterm infants who were born prior to 32 weeks of gestational age and survived in the neonatal intensive care unit until 36 weeks of corrected age. Upon reaching 3 years of age, each infant was assessed for death or NDI such as cerebral palsy, cognitive deficit, hearing loss, and blindness. Correlations between BPD and death or NDI were determined using multiple logistic regression analyses adjusted for confounding factors. Result(s): A total of 1,417 infants without severe brain injury who survived until 36 weeks of corrected age were initially enrolled in the study. Over the study period, 201 infants were lost to follow-up and 5 infants were excluded. Our final dataset, therefore, included 1,211 infants, of which 17 died after 36 weeks of corrected age and 1,194 were followed up to 3 years of age. Among these infants, 337 (27.8%) developed BPD. Interestingly, by 3 years of age, BPD was demonstrated to be independently associated with death or NDI, with an adjusted odds ratio of 1.935 (95% confidence interval: 1.292-2.899, p = 0.001), in preterm infants without severe neonatal brain injury. Conclusion(s): Our findings indicate that BPD is strongly associated with death or NDI in preterm infants without severe neonatal brain injury at 3 years of age. Further research is needed to understand the mechanisms linking the development of BPD with death or NDI and whether appropriate treatment of BPD may ameliorate or prevent the development of neurological complications.Copyright (c) 2023 Li, Wang, Song, Zhang, Xu, Xu, Wang and Zhu."""
+
+

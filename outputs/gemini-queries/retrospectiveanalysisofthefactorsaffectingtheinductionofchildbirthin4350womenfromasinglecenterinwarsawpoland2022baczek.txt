@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retrospectiveanalysisofthefactorsaffectingtheinductionofchildbirthin4350womenfromasinglecenterinwarsawpoland2022baczek
+"Labor induction is one of the most common procedures performed during childbirth, on average in 20-30% of all pregnant women. The aim of this paper was to perform a retrospective analysis of the factors influencing the induction of childbirth. The data provide population-based evidence for Poland (Masovian Voivodeship). The electronic patient records of a hospital in Warsaw were used to create an anonymous retrospective database of all deliveries from 2015 to 2020. The study included an analysis of two groups of patients. The study group consisted of patients with labor induction--4350 cases, and the control group of patients with spontaneous contractions--20,345. The factors influencing the lower frequency of labor induction in the study group were previous cesarean section (OR = 0.73, 95% CI: 0.64-0.84, p < 0.05) and a higher number of deliveries (OR = 0.74, 95% CI: 0.68-0.80, p < 0.05). It is necessary to conduct further research about obstetric procedures used during childbirth, such as induction of childbirth, to reduce the risk of complications and improve the perinatal care of the mother and the neonate."""
+
+

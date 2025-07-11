@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrapartummaternalfeverandlongterminfectiousmorbidityoftheoffspring2023zamstein
+"Maternal intrapartum fever can lead to various maternal and neonatal complications and is attributed to various etiologies including infectious and non-infectious processes. In this study, we evaluated whether intrapartum fever affects the offspring's tendency to long-term infectious morbidity. A population-based cohort analysis including deliveries between 1991 and 2021 was conducted. The incidence of hospitalizations of the offspring up to the age of 18 years, due to various infectious conditions, was compared between pregnancies complicated by intrapartum fever and those that were not. A Kaplan-Meier survival curve was used to assess cumulative hospitalization incidence. A Cox proportional hazards model was used to control for confounders. Overall, 538 of the 356,356 included pregnancies were complicated with fever. A higher rate of pediatric hospitalizations due to various infectious conditions was found among the exposed group, which was significant for viral, fungal and ENT infections (p < 0.05 for all). The total number of infectious-related hospitalizations was significantly higher (30.1% vs. 24.1%; OR = 1.36; p = 0.001), as was the cumulative incidence of hospitalizations. This association remained significant after controlling for confounders using a Cox proportional hazards model (adjusted HR = 1.21; 95% CI 1.04-1.41, p = 0.016). To conclude, fever diagnosed close to delivery may influence offspring susceptibility to pediatric infections.Copyright (c) 2023 by the authors."""
+
+

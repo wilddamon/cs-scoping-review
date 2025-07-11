@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofamodeltopredictpostdischargeopioiduseaftercesareanbirth2022osmundson
+"OBJECTIVE: To develop and validate a prediction model for postdischarge opioid use in patients undergoing cesarean birth. METHODS: We conducted a prospective cohort study of patients undergoing cesarean birth. Patients were enrolled postoperatively, and they completed pain and opioid use questionnaires 14 days after cesarean birth. Clinical data were abstracted from the electronic health record (EHR). Participants were prescribed 30 tablets of hydrocodone 5 mg-acetaminophen 325 mg at discharge and were queried about postdischarge opioid use. The primary outcome was total morphine milligram equivalents used. We constructed three proportional odds predictive models of postdischarge opioid use: a full model with 34 predictors available before hospital discharge, an EHR model that excluded questionnaire data, and a reduced model. The reduced model used forward selection to sequentially add predictors until 90% of the full model performance was achieved. Predictors were ranked a priori based on data from the literature and prior research. Predictive accuracy was estimated using discrimination (concordance index). RESULTS: Between 2019 and 2020, 459 participants were enrolled and 279 filled the standardized study prescription. Of the 398 with outcome measurements, participants used a median of eight tablets (interquartile range 1-18 tablets) after discharge, 23.5% used no opioids, and 23.0% used all opioids. Each of the models demonstrated high accuracy predicting postdischarge opioid use (concordance index range 0.74-0.76 for all models). We selected the reduced model as our final model given its similar model performance with the fewest number of predictors, all obtained from the EHR (inpatient opioid use, tobacco use, and depression or anxiety). CONCLUSION: A model with three predictors readily found in the EHR-inpatient opioid use, tobacco use, and depression or anxiety-accurately estimated postdischarge opioid use. This represents an opportunity for individualizing opioid prescriptions after cesarean birth."""
+
+

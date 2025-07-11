@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrahepaticcholestasisofpregnancyisassociatedwithanincreasedriskofgestationaldiabetesandpreeclampsia2020liu
+"BACKGROUND: Previous studies have shown that intrahepatic cholestasis of pregnancy (ICP) is associated with an increased incidence of adverse perinatal outcomes, and this supports the contention that ICP is associated with increased risk for both gestational diabetes mellitus (GDM) and preeclampsia. The purpose of this study was to review adverse maternal and perinatal outcomes of ICP in the Chinese population, and to investigate the association between ICP and GDM, as well as between ICP and preeclampsia. METHODS: We conducted a retrospective cohort study in which we compared pregnancies affected by ICP with all other deliveries during the study period. Data from women with singleton pregnancies who delivered in 14 representative hospitals in China between October 1, 2016 and September 30, 2017 were collected from our database system. We then performed logistic regression analysis to determine the odds ratios (OR) and 95%CIs of the adverse pregnancy outcomes among women with or without ICP. RESULTS: A total of 95,728 singleton births were included in the study, and among these, 911 pregnancies were diagnosed as having ICP, resulting in an incidence of 0.95%. Women with ICP were more likely to have GDM [adjusted odds ratio (aOR), 1.406; 95% CI, 1.179-1.677; P<0.001] and preeclampsia (aOR, 2.241; 95% CI, 1.678-2.992; P<0.001) compared with those who did not have ICP. Women in the ICP group exhibited higher rates of scheduled cesarean deliveries (aOR, 3.527; 95% CI, 2.981-4.173; P<0.001) and cesarean deliveries during labor (aOR, 4.388; 95% CI, 1.815-10.612; P=0.027). Women with ICP were also more likely to have iatrogenic preterm delivery (aOR, 2.449; 95% CI, 1.92-3.122; P<0.001) and admission to the neonatal intensive care unit (aOR, 1.572; 95% CI, 1.318-1.874; P<0.001). There was no increased risk of stillbirth in the cohort of ICP cases (aOR, 0.430; 95% CI, 0.049-3.767; P=0.259). CONCLUSIONS: ICP was associated with an increased risk of GDM and preeclampsia in singleton pregnancies. Pregnancies with ICP therefore have significantly increased risks of adverse perinatal outcomes."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: employmentduringpregnancyandobstetricinterventionwithoutmedicalreasonlaborinductionandcesareandelivery2014kozhimannil
+"BACKGROUND: Rising rates of labor induction and cesarean delivery, especially when used without a medical reason, have generated concern among clinicians, women, and policymakers. Whether employment status affects pregnant women's childbirth-related care is not known. We estimated the relationship between prenatal employment and obstetric procedures, distinguishing whether women reported that the induction or cesarean was performed for medical reasons. METHODS: Using data from a nationally representative sample of women who gave birth in U.S. hospitals (n = 1,573), we used propensity score matching to reduce potential bias from nonrandom selection into employment. Outcomes were cesarean delivery and labor induction, with and without a self-reported medical reason. Exposure was prenatal employment status (full-time employment, not employed). We conducted separate analyses for unmatched and matched cohorts using multivariable regression models. FINDINGS: There were no differences in labor induction based on employment status. In unmatched analyses, employed women had higher odds of cesarean delivery overall (adjusted odds ratio [AOR], 1.45; p = .046) and cesarean delivery without medical reason (AOR, 1.94; p = .024). Adding an interaction term between employment and college education revealed no effects on cesarean delivery without medical reason. There were no differences in cesarean delivery by employment status in the propensity score-matched analysis. CONCLUSIONS: Full-time prenatal employment is associated with higher odds of cesarean delivery, but this association was not explained by socioeconomic status and no longer existed after accounting for sociodemographic differences by matching women employed full time with similar women not employed during pregnancy."""
+
+

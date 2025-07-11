@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: colonizationwithmultidrugresistantenterobacteriaceaeamonginfantsanobservationalstudyinsouthernsrilanka2021meredith
+"BACKGROUND: The timing of and risk factors for intestinal colonization with multidrug-resistant Enterobacteriaceae (MDRE) are still poorly understood in areas with high MDRE carriage. We determined the prevalence, timing, and risk factors associated with MDRE intestinal colonization among infants in southern Sri Lanka. METHODS: Women and their newborn children were enrolled within 48 h after delivery in southern Sri Lanka. Rectal swabs were collected from women and infants at enrollment and 4-6 weeks later. Enterobacteriaceae were isolated and identified as MDRE (positive for extended-spectrum b-lactamases or carbapenem resistant) using standard microbiologic procedures. We used exact methods (Fisher's exact and Kruskal-Wallis tests) and multivariable logistic regression to identify sociodemographic and clinical features associated with MDRE intestinal colonization. Whole-genome sequencing was performed on selected MDRE isolates to identify phylogroups and antibiotic resistance-encoding genes were identified with NCBI's AMRfinder tool. RESULTS: Overall, 199 post-partum women and 199 infants were enrolled; 148/199 (74.4%) women and 151/199 (75.9%) infants were reassessed later in the community. Twenty-four/199 (12.1%) women and 3/199 (1.5%) infants displayed intestinal colonization with MDRE at enrollment, while 26/148 (17.6%) women and 24/151 (15.9%) infants displayed intestinal colonization with MDRE at the reassessment. While there were no risk factors associated with infant colonization at enrollment, multivariable analysis indicated that risk factors for infant colonization at reassessment included mother colonized at enrollment (aOR = 3.62) or reassessment (aOR = 4.44), delivery by Cesarean section (aOR = 2.91), and low birth weight (aOR = 5.39). Of the 20 MDRE isolates from infants that were sequenced, multilocus sequence typing revealed that 6/20 (30%) were clustered on the same branch as MDRE isolates found in the respective mothers. All sequenced isolates for mothers (47) and infants (20) had at least one ESBL-producing gene. Genes encoding fosfomycin resistance were found in 33/47 (70%) of mothers' isolates and 16/20 (80%) of infants' isolates and genes encoding resistance to colistin were found in one (2%) mother's isolate. CONCLUSIONS: Our results suggest that a substantial proportion of infants undergo MDRE intestinal colonization within 6 weeks of birth, potentially due to postnatal rather than intranatal transmission."""
+
+

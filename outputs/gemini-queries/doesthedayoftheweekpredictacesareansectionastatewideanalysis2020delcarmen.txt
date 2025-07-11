@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesthedayoftheweekpredictacesareansectionastatewideanalysis2020delcarmen
+"BACKGROUND: Although guidelines for clinical indications of cesarean sections (CS) exist, nonclinical factors may affect CS practices. We hypothesize that CS rates vary by day of the week.;METHODS: An analysis of the Office of Statewide Health Planning and Development database for California from 2006 to 2010 was performed. All patients admitted to a teaching or nonteaching hospital for attempted vaginal delivery were included. Patients who died within 24 h of admission were excluded. Weekend days were defined as Saturday and Sunday, and weekdays were defined as Monday to Friday. The primary outcome was CS versus vaginal delivery. Multivariable analysis was performed, adjusting for patient demographics, clinical factors, and system variables.;RESULTS: A total of 1,855,675 women were included. The overall CS rate was 9.02%. On unadjusted analysis, CS rates were significantly lower on weekends versus weekdays (6.65% versus 9.58%, P < 0.001). On adjusted analysis, women were 27% less likely to have a CS on weekends than on weekdays (odds ratio [OR] 0.73, 95% confidence interval [CI] 0.71-0.75, P < 0.001). In addition, Hispanic ethnicity and delivery in teaching hospitals were associated with a decreased likelihood of CS (OR 0.91, 95% CI 0.86-0.96, P = 0.01; OR 0.80, 95% CI 0.69-0.93, P < 0.001, respectively).;CONCLUSIONS: CS rates are significantly decreased on weekends relative to weekdays, even when controlling for patient, hospital, and system factors. Copyright (c) 2019 Elsevier Inc. All rights reserved."""
+
+

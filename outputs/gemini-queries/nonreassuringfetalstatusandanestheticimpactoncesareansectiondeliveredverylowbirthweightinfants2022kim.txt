@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nonreassuringfetalstatusandanestheticimpactoncesareansectiondeliveredverylowbirthweightinfants2022kim
+"BACKGROUND: There is limited evidence concerning the impact on neonatal outcomes of different types of anesthesia used for cesarean delivery due to non-reassuring fetal status (NRFS). We aimed to assess the impact of NRFS and general anesthesia (GA) on neonatal outcomes in very-low-birthweight (VLBW) infants delivered by cesarean section. METHODS: Data were collected relating to VLBW infants admitted to our institution. Infants were grouped into no-NRFS and NRFS groups and further subcategorized into GA and regional anesthesia (RA) subgroups. Neonatal outcomes were evaluated based on the presence of NRFS and the type of anesthesia. RESULTS: A total of 356 infants were included. The GA subgroup in the no-NRFS group had higher requirements for respiratory support. However, GA was not associated with adverse neonatal outcomes based on the multivariable logistic regression analysis except for 5 min Apgar score <5. On the other hand, NRFS was associated with an increased risk of 5 min Apgar score <5 [adjusted odds ratio (aOR) 2.062, 95% confidence interval (CI) 1.064-3.997], use of high-frequency ventilation (aOR: 2.891, 95% CI: 1.477-5.658), and pulmonary hypertension (aOR: 2.890, 95% CI: 1.436-5.819). CONCLUSIONS: In our cohort of VLBW infants, NRFS was a significant risk factor for a low 5 min Apgar score, increased respiratory support requirement, and pulmonary hypertension. Accurate assessment of fetal well-being, timely delivery, and presence of a resuscitation team fully aware of perinatal conditions and anesthetic impact is important."""
+
+

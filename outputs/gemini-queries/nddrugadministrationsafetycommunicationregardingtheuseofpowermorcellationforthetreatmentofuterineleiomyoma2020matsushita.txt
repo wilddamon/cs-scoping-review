@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: racialdisparitiesinresponsetoausfoodanddrugadministrationsafetycommunicationregardingtheuseofpowermorcellationforthetreatmentofuterineleiomyoma2020matsushita
+"STUDY OBJECTIVE: To investigate whether the rate of increase in the performance of abdominal myomectomy over a laparoscopic approach after the US Food and Drug Administration (FDA) safety communication regarding morcellator use for myomectomy differs among races. DESIGN: Retrospective cohort study. SETTING: The American College of Surgeons National Surgical Quality Improvement data. PATIENTS: Patients aged 18 to 55 years who underwent either laparoscopic or abdominal myomectomy, excluding malignant cases, emergency cases, operations performed by nongynecologic specialists, and cases in which myomectomy was performed during cesarean section. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: The odds ratios of abdominal myomectomy over laparoscopic myomectomy before and after the release of the FDA communication were calculated in 3 race categories: white, African American, and other races. In a logistic regression analysis adjusted for possible confounders, including all races, the odds ratio of abdominal myomectomy before and after the FDA communication was 1.30 (95% confidence interval [CI], 1.20-1.41; p <.001). In a logistic regression analysis with a product term of FDA communication exposure and race as a possible effect modifier, the African American population showed a significantly greater change in the odds of abdominal myomectomy over laparoscopic myomectomy in comparison with the white population (1.22; 95% CI, 1.02-1.47; p = .03). In contrast, other races showed no significant change (.83; 95% CI, .64-1.08; p = .17). CONCLUSION: After the FDA communication, the odds ratio of abdominal myomectomy was disproportionately increased in the African American population."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgainandpregnancyoutcomesamongnulliparouswomen2021dude
+"OBJECTIVE: To determine the association between total gestational weight gain and perinatal outcomes.;STUDY DESIGN: Data from the Nulliparous Pregnancy Outcomes Study: Monitoring Mothers-To-Be (NuMoM2b) study were used. Total gestational weight gain was categorized as inadequate, adequate, or excessive based on the 2009 Institute of Medicine guidelines. Outcomes examined included hypertensive disorders of pregnancy, mode of delivery, shoulder dystocia, large for gestational age or small for-gestational age birth weight, and neonatal intensive care unit admission.;RESULTS: Among 8,628 women, 1,666 (19.3%) had inadequate, 2,945 (34.1%) had adequate, and 4,017 (46.6%) had excessive gestational weight gain. Excessive gestational weight gain was associated with higher odds of hypertensive disorders (adjusted odds ratio [aOR] = 2.05, 95% confidence interval [CI]: 1.78-2.36) Cesarean delivery (aOR = 1.24, 95% CI: 1.09-1.41), and large for gestational age birth weight (aOR = 1.49, 95% CI: 1.23-1.80), but lower odds of small for gestational age birth weight (aOR = 0.59, 95% CI: 0.50-0.71). Conversely, inadequate gestational weight gain was associated with lower odds of hypertensive disorders (aOR = 0.75, 95% CI: 0.62-0.92), Cesarean delivery (aOR = 0.77, 95% CI: 0.65-0.92), and a large for gestational age birth weight (aOR = 0.72, 95% CI: 0.55-0.94), but higher odds of having a small for gestational age birth weight (aOR = 1.64, 95% CI: 1.37-1.96).;CONCLUSION: Both excessive and inadequate gestational weight gain are associated with adverse maternal and neonatal outcomes. Copyright Thieme. All rights reserved."""
+
+

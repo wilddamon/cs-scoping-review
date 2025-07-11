@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyandperinataloutcomesinwomenwithpolycysticovarysyndromeandtwinbirthsapopulationbasedcohortstudy2015lovvik
+"OBJECTIVE: To investigate pregnancy and perinatal outcomes in twin births among women with and without polycystic ovary syndrome (PCOS) diagnosis. DESIGN: Population-based cohort study. SETTING: Sweden. POPULATION: We identified 20,965 women with twin births between 1995 and 2009 of whom 226 had a PCOS diagnosis through linkage between the Swedish Medical Birth Register and the Swedish National Patient Register. METHODS: Calculating risk ratios (RR) with 95% confidence intervals (CI) using a log-binomial regression model and hazard ratios (HR) with 95% CI for preterm birth. MAIN OUTCOME MEASURES: Preterm birth, low birthweight, caesarean section, pre-eclampsia, Apgar score <7 at 5 minutes and perinatal mortality. RESULTS: PCOS diagnosis in twin pregnancy was associated with increased risk of preterm delivery (51% versus 43%, RR 1.18 [95% CI 1.03-1.37]), particularly spontaneous preterm delivery (37% versus 28%; RR 1.30 [95% CI 1.09-1.55]) and very preterm birth (<32 weeks) (14% versus 8%, RR 1.62 [95% CI 1.10-2.37]). Twins of PCOS mothers had more often low birthweight (48% versus 39%, adjusted RR 1.40 [95% CI 1.09-1.80]). This difference disappeared when adjusting for gestational age. No risk difference was found for caesarean section, pre-eclampsia, low 5-minute Apgar score or perinatal mortality. CONCLUSIONS: The risk of preterm delivery in twin pregnancies is increased by having a PCOS diagnosis. This should be considered in risk estimation and antenatal follow-up of twin pregnancies."""
+
+

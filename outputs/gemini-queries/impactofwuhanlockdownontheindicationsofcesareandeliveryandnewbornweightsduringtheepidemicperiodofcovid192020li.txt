@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofwuhanlockdownontheindicationsofcesareandeliveryandnewbornweightsduringtheepidemicperiodofcovid192020li
+"OBJECTIVE: To prevent the rapid spread of COVID-19, the Chinese government implemented a strict lockdown in Wuhan starting on 23 January, 2020, which inevitably led to the changes in indications for the mode of delivery. In this retrospective study, we present the changes in the indications for cesarean delivery (CD) and the birth weights of newborns after the lockdown in Wuhan. METHODS: A total of 3,432 pregnant women in the third trimester of their pregnancies who gave birth in our hospital from 23 January 2019 to 24 March 2020 were selected as the observation group, while 7,159 pregnant women who gave birth from 1 January 2019 to 22 January 2020 were selected as the control group; control group was matched using propensity score matching (PSM). A comparative analysis of the two groups was performed with the chi-square test, t test and rank sum test. RESULTS: The difference in the overall rate of CD between the two groups was not statistically significant (p<0.05). Among the indications for CD, CD on maternal request (CDMR) and fetal distress were also significantly more common in the observation group (p<0.05) than the control group. Furthermore, we found that the weight of newborns was significantly heavier in the observation group than in the control group when considering full-term or close-to-full-term births (p<0.05). CONCLUSIONS: The results may provide useful information to management practices regarding pregnancy and childbirth after lockdown in other cities or countries, enabling better control of the rate of CD due to CDMR, reducing fetal distress, and controlling newborn weight. We recommend that pregnant women pay more attention to controlling the weight of newborns through diet and exercise."""
+
+

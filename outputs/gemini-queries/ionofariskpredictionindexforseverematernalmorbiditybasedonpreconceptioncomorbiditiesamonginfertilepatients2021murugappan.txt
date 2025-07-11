@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofariskpredictionindexforseverematernalmorbiditybasedonpreconceptioncomorbiditiesamonginfertilepatients2021murugappan
+"OBJECTIVE: To develop and validate a preconception risk prediction index for severe maternal morbidity (SMM), defined by the Centers for Disease Control and Prevention as indicators of a life-threatening complication, among infertile patients. DESIGN: Retrospective analysis of live births and stillbirths from 2007 to 2017 among infertile women. SETTING: National commercial claims database. PATIENT(S): Infertile women identified on the basis of diagnosis, testing, or treatment codes. INTERVENTION(S): None. MAIN OUTCOME MEASURE(S): The primary outcome was SMM, identified as any indicator from the Centers for Disease Control and Prevention Index except blood transfusion alone, which was found to overestimate cases. Twenty preconception comorbidities associated with a risk of SMM were selected from prior literature. Targeted ensemble learning methods were used to rank the importance of comorbidities as potential risk factors for SMM. The independent strength of the association between each comorbidity and SMM was then used to define each comorbidity's risk score. RESULT(S): Among 94,097 infertile women with a delivery, 2.3% (n = 2,181) experienced an SMM event. The highest risk of SMM was conferred by pulmonary hypertension, hematologic disorders, renal disease, and cardiac disease. Associated significant risks were lowest for substance abuse disorders, prior cesarean section, age >=40 years, gastrointestinal disease, anemia, mental health disorders, and asthma. The receiver operating characteristic area under the curve for the developed comorbidity score was 0.66. Calibration plots showed good concordance between the predicted and actual risk of SMM. CONCLUSION(S): We developed and validated an index to predict the probability of SMM on the basis of preconception comorbidities in patients with infertility. This tool may inform preconception counseling of infertile women and support maternal health research initiatives."""
+
+

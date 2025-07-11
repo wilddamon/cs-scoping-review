@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: whitebloodcellsinpregnancyreferenceintervalsforbeforeandafterdelivery2021dockree
+"BACKGROUND: White blood cells (WBC) are commonly measured to investigate suspected infection and inflammation in pregnant women, but the pregnancy-specific reference interval is variably reported, increasing diagnostic uncertainty in this high-risk population. It is essential that clinicians can interpret WBC results in the context of normal pregnant physiology, given the huge global burden of infection on maternal mortality. METHODS: We performed a longitudinal, repeated measures population study of 24,318 pregnant women in Oxford, UK, to map the trajectory of WBC between 8-40 weeks of gestation. We defined 95% reference intervals (RI) for total WBC, neutrophils, lymphocytes, eosinophils, basophils, and monocytes for the antenatal and postnatal periods. FINDINGS: WBC were measured 80,637 times over five years. The upper reference limit for total WBC was elevated by 36% in pregnancy (RI 5.7-15.0x10(9)/L), driven by a 55% increase in neutrophils (3.7-11.6x10(9)/L) and 38% increase in monocytes (0.3-1.1x10(9)/L), which remained stable between 8-40 weeks. Lymphocytes were reduced by 36% (1.0-2.9x10(9)/L), while eosinophils and basophils were unchanged. Total WBC was elevated significantly further from the first day after birth (similar regardless of the mode of delivery), which resolved to pre-delivery levels by an average of seven days, and to pre-pregnancy levels by day 21. INTERPRETATION: There are marked changes in WBC in pregnancy, with substantial differences between cell subtypes. WBC are measured frequently in pregnant women in obstetric and non-obstetric settings, and results should be interpreted using a pregnancy-specific RI until delivery, and between days 7-21 after childbirth. FUNDING: None."""
+
+

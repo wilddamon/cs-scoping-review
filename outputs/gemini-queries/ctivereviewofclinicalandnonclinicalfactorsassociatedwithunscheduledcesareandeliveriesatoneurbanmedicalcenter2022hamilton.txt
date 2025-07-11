@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivereviewofclinicalandnonclinicalfactorsassociatedwithunscheduledcesareandeliveriesatoneurbanmedicalcenter2022hamilton
+"OBJECTIVE: To investigate factors associated with unscheduled cesarean delivery at one urban tertiary medical center. METHODS: A retrospective chart review was performed on 11 162 deliveries between 2009 and 2019. The dependent variable was unscheduled cesarean delivery. Covariates examined included time of delivery, as well as several maternal and pregnancy-related factors. RESULTS: There were a total of 7037 (63.1%) vaginal, 1133 (10.1%) elective cesarean, and 2992 (26.8%) unscheduled cesarean deliveries. Independent factors associated with increased odds for unscheduled cesarean delivery included daytime delivery (odds ratio [OR] 1.29, 95% confidence interval [CI] 1.18-1.42, P < 0.001); advanced maternal age (OR 1.40, 95% CI 1.26-1.56, P < 0.001); obesity (OR 1.04, 95% CI 1.03-1.05, P < 0.001); history of previous cesarean delivery (OR 2.77, 95% CI 1.91-4.01, P < 0.001); hypertension (OR 1.72, 95% CI 1.27-2.32, P < 0.001); multiparity (OR 3.99, 95% CI 2.82-5.64, P < 0.001); pre-eclampsia (OR 1.96, 95% CI 1.33-2.89, P = 0.001); and HELLP (hemolysis, elevated liver enzymes and low platelet count) syndrome (OR 5.45, 95% CI 1.13-26.28, P = 0.035). CONCLUSION: Factors associated with unscheduled cesarean delivery in this study cohort included daytime delivery, advanced maternal age, obesity, hypertension, previous cesarean delivery, multiparity, preterm labor, pre-eclampsia, and HELLP syndrome."""
+
+

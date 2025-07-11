@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofmedicalandoperativebirthinterventionsonchildhealthoutcomesinthefirst28daysandupto5yearsofagealinkeddatapopulationbasedcohortstudy2018peters
+"BACKGROUND: Spontaneous vaginal birth rates are decreasing worldwide, while cesarean delivery, instrumental births, and medical birth interventions are increasing. Emerging evidence suggests that birth interventions may have an effect on children's health. Therefore, the aim of our study was to examine the association between operative and medical birth interventions on the child's health during the first 28 days and up to 5 years of age. METHODS: In New South Wales (Australia), population-linked data sets were analyzed, including data on maternal characteristics, child characteristics, mode of birth, interventions during labor and birth, and adverse health outcomes of the children (ie, jaundice, feeding problems, hypothermia, asthma, respiratory infections, gastrointestinal disorders, other infections, metabolic disorder, and eczema) registered with the International Statistical Classification of Diseases and Related Health Problems, Tenth Revision, Australian Modification codes. Logistic regression analyses were performed for each adverse health outcome. RESULTS: Our analyses included 491 590 women and their children; of those 38% experienced a spontaneous vaginal birth. Infants who experienced an instrumental birth after induction or augmentation had the highest risk of jaundice, adjusted odds ratio (aOR) 2.75 (95% confidence interval [CI] 2.61-2.91) compared with spontaneous vaginal birth. Children born by cesarean delivery were particularly at statistically significantly increased risk for infections, eczema, and metabolic disorder, compared with spontaneous vaginal birth. Children born by emergency cesarean delivery showed the highest association for metabolic disorder, aOR 2.63 (95% CI 2.26-3.07). CONCLUSION: Children born by spontaneous vaginal birth had fewer short- and longer-term health problems, compared with those born after birth interventions."""
+
+

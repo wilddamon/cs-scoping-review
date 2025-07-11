@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofgeneralanesthesiaontheoutcomesofpreterminfantswithgestationalagelessthan32weeksdeliveredviacesareansection2024wang
+"BACKGROUND: Recent advancements in China's perinatal and neonatal intensive care have significantly reduced neonatal mortality, yet preterm births before 32 weeks remain the primary cause of neonatal fatalities and contribute to long-term disabilities. The prognosis of very preterm infants (VPIs) is significantly affected by factors including the intrauterine environment, delivery method and neonatal intensive care. Cesarean section which often used for preterm births has implications that are not fully understood, particularly concerning the type of anesthesia used. This study examines the impact of general anesthesia (GA) during cesarean delivery on VPI outcomes, aiming to identify strategies for mitigating GA-associated risks. METHODS: This cohort study analyzed 1,029 VPIs born via cesarean section under 32 weeks' gestation at our single-center from 1 January 2018, to 31 December 2022. Detailed medical records, encompassing perioperative information, maternal data and neonatal outcomes were meticulously examined. The primary aim of this investigation was to compare maternal characteristics and neonatal outcomes between VPIs delivered under GA and neuraxial anesthesia (NA). A significance level of p < 0.05 was established. RESULTS: Of the 1,029 VPIs analyzed, 87.95% (n = 905) were delivered via NA and 12.05% (n = 124) via GA. Mothers with hypertensive pregnancy diseases and emergency operations were more inclined to choose GA. VPIs delivered under GA showed a lower Apgar score at one and 5 minutes (p < 0.01), increased need for tracheal intubation resuscitation (32.2% vs. 12.2%, p < 0.01) and a greater incidence of severe neurological injury (SNI) (14.5% vs. 5%, p < 0.01). Multivariable analysis revealed GA was significantly associated with lower Apgar scores at one (OR 6.321, 95% CI 3.729-10.714; p < 0.01) and 5 minutes (OR 4.535, 95% CI 2.975-6.913; p < 0.01), higher risk of tracheal intubation resuscitation (OR = 3.133, 95% CI = 1.939-5.061; p < 0.01) and SNI (OR = 3.019, 95% CI = 1.615-5.643; p < 0.01). Furthermore, for VPIs delivered under GA, a prolonged interval from skin incision to fetus delivery was associated with a lower 5-min Apgar score (p < 0.01). CONCLUSION: This study revealed the significant impact of GA on adverse outcomes among VPIs. In cases when GA is required, proactive measures should be instituted for the care of VPIs such as expediting the interval from skin incision to fetal delivery."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: awebbasedcalculatorforthepredictionofsevereneurodevelopmentalimpairmentinpreterminfantsusingclinicalandimagingcharacteristics2018vesoulis
+"Although the most common forms of brain injury in preterm infants have been associated with adverse neurodevelopmental outcomes, existing MRI scoring systems lack specificity, do not incorporate clinical factors, and are technically challenging to perform. The objective of this study was to develop a web-based, clinically-focused prediction system which differentiates severe neurodevelopmental outcomes from normal-moderate outcomes at two years. Infants were retrospectively identified as those who were born <=30 weeks gestation and who had MRI imaging at term-equivalent age and neurodevelopmental testing at 18-24 months. Each MRI was scored on injury in three domains (intraventricular hemorrhage, white matter injury, and cerebellar hemorrhage) and clinical factors that were strongly predictive of an outcome were investigated. A binary logistic regression model was then generated from the composite of clinical and imaging components. A total of 154 infants were included (mean gestational age = 26.1 +- 1.8 weeks, birth weight = 889.1 +- 226.2 g). The final model (imaging score + ventilator days + delivery mode + antenatal steroids + retinopathy of prematurity requiring surgery) had strong discriminatory power for severe disability (AUC = 0.850), with a PPV (positive predictive value) of 76% and an NPV (negative predictive value) of 90%. Available as a web-based tool, it can be useful for prognostication and targeting early intervention services to infants who may benefit the most from such services."""
+
+

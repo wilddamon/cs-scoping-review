@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: surgeofimmunecellformationatbirthdiffersbymodeofdeliveryandinfantcharacteristicsapopulationbasedcohortstudy2017schlinzig
+"BACKGROUND: Birth by cesarean section is associated with increased risks of immune disorders. We tested whether establishment of immune function at birth relates to mode of delivery, taking other maternal and infant characteristics into account. METHODS AND FINDINGS: Using a prospectively collected database, we retrieved information on maternal and infant characteristics of 6,014 singleton infants delivered from February to April 2014 in Stockholm, Sweden, with gestational age >=35 weeks, Apgar scores >=7, and without congenital malformations or any neonatal morbidity. We linked our data to blood levels of T-cell receptor excision circles (TREC) and k-deleting recombination excision circles (KREC), determined as part of a neonatal screening program for immune-deficiencies, and representing quantities of newly formed T- and B-lymphocytes. Multivariate logistic regression was used to calculate odds ratios (OR) with 95% confidence intervals (CI) for participants having TREC and KREC levels in the lowest quintile. Multivariate models were adjusted for postnatal age at blood sampling, and included perinatal (mode of delivery, infant sex, gestational age, and birth weight for gestational age), and maternal characteristics (age, parity, BMI, smoking, diabetes, and hypertensive disease). Low TREC was associated with cesarean section before labor (adjusted OR:1.32 [95% CI 1.08-1.62]), male infant sex (aOR:1.60 [1.41-1.83]), preterm birth at 35-36 weeks of gestation (aOR:1.89 [1.21-2.96]) and small for gestational age (aOR:1.67 [1.00-2.79]). Low KREC was associated with male sex (aOR:1.32 [1.15-1.50]), postterm birth at >=42 weeks (aOR:1.43 [1.13-1.82]) and small for gestational age (aOR:2.89 [1.78-4.69]). Maternal characteristics showed no consistent associations with neonatal levels of either TREC or KREC. CONCLUSION: Cesarean section before labor was associated with lower T-lymphocyte formation, irrespective of maternal characteristics, pregnancy, and neonatal risk factors. The significance of a reduced birth-related surge in lymphocyte formation for future immune function and health remains to be investigated."""
+
+

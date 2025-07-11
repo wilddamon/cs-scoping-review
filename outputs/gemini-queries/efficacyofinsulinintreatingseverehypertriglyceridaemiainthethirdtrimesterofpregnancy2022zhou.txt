@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: efficacyofinsulinintreatingseverehypertriglyceridaemiainthethirdtrimesterofpregnancy2022zhou
+"This study aims to investigate the efficacy of insulin in treating severe hypertriglyceridaemia (HTG) during the third trimester of pregnancy. Women with severe HTG (TG >= 11.30 mmol/L) in the third trimester of pregnancy who received clinical examination and delivered in Hubei Maternal and Child Health Hospital from 01 January 2017 to 30 September 2021 were recruited. Patients with TG >= 11.30 mmol/L at 30-32 weeks of gestation were treated with a low-fat diet and insulin as the insulin treatment group. For the control group, patients with TGs of 5.65-11.30 mmol/L at 30-32 weeks of gestation who developed severe HTG (TG >= 11.30 mmol/L) before delivery were treated with a low-fat diet only. General maternal information, delivery, perinatal treatment and laboratory examination information were collected from electronic medical records and compared. We found that in the insulin treatment group, there were higher values of progestational body mass index (BMI) (Z = -2.281, P = 0.023), higher incidence of diabetes (chi2 = 20.618, P < 0.001) and higher incidence of fatty liver (chi2 = 4.333, P = 0.037) than in the control group but also a higher pregnancy weight gain compliance rate (chi2 = 4.061, P = 0.044). Laboratory examination before delivery revealed that compared with the control group, insulin treatment significantly decreased prenatal TG (Z = -10.392, P < 0.001), cholesterol (Z = -8.494, P < 0.001), low-density lipoprotein (Z = -3.918, P < 0.001), apolipoprotein A1 (t = 2.410, P = 0.019), cystatin (Z = -4.195, P < 0.001), incidence of hypocalcaemia (P = 0.036), and absolute number of lymphocytes (Z = -3.426, P = 0.001). Delivery outcomes were also improved in the insulin treatment group compared with the control group, including lower neonatal weight (Z = -2.200, P = 0.028), incidence of macrosomia (chi2 = 4.092, P = 0.043), gestational age (Z = -3.427, P = 0.001), and rate of intensive care unit (ICU) conversion (P = 0.014). In conclusion, insulin therapy for HTG in the third trimester of pregnancy could increase the pregnancy weight gain compliance rate, decrease blood lipid levels and the incidence of severe complications such as HTG acute pancreatitis (HTG-AP), and improve pregnancy outcomes.Copyright (c) 2022 Zhou, Sun, Hu and Gan."""
+
+

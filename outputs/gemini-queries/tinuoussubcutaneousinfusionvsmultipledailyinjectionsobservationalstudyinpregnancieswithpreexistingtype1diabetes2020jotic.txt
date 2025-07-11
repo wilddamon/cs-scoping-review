@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluationofglycaemiccontrolglucosevariabilityandhypoglycaemiaonlongtermcontinuoussubcutaneousinfusionvsmultipledailyinjectionsobservationalstudyinpregnancieswithpreexistingtype1diabetes2020jotic
+"Introduction: We evaluated the effectiveness of long-term continuous subcutaneous insulin infusion (CSII) compared with multiple daily insulin (MDI) injections for glycaemic control and variability, hypoglycaemic episodes and maternal/neonatal outcomes in pregnant women with pre-existing type 1 diabetes (pT1D). Method(s): Our observational cohort study included 128 consecutive pregnant women with pT1D, who were treated from 1 January 2010 to 31 December 2017. Of 128 participants, 48 were on CSII and 80 were on MDI. Glycaemic control was determined by glycated haemoglobin (HbA1c) (captured in preconception and each trimester of pregnancy). Glucose variability (GV) was expressed as the coefficient of variation (CV) [calculated from self-monitoring of blood glucose (SMBG) values], and hypoglycaemia was defined as glucose values < 3.9 mmol/l. The data on maternal and neonatal outcomes were collected from obstetrical records. Result(s): Duration of the treatment was 8.8 +/- 5.3 years in the CSII and 12.6 +/- 8.0 years in the MDI group. The CSII lowered HbA1c in preconception (7.1 +/- 0.1 vs. 7.9 +/- 0.2%, p = 0.03) and the first (6.9 +/- 0.1 vs. 7.7 +/- 0.2%, p = 0.02), second (6.6 +/- 0.1 vs. 7.2 +/- 0.1%, p = 0.003) and third (6.5 +/- 0.1 vs. 6.8 +/- 0.1%, p = 0.02) trimesters significantly better than MDI. Significantly lower CV was observed only for fasting glycaemia in the first trimester (17.1 vs 28.4%, p < 0.001) in favour of CSII. Moreover, the CSII group had significantly lower mean hypoglycaemic episodes/week/patient only during the first trimester (2.0 +/- 1.7 vs 4.8 +/- 1.5, p < 0.01). In early pregnancy, the majority of women on CSII had less hypoglycaemia than on MDI (0-3: 79.1 vs. 29.1%; 4-6: 18.8 vs. 65.8%; >= 7: 2.1 vs. 5.1%, p < 0.01, respectively). We found no difference in the incidence of adverse maternal/neonatal outcomes. Conclusion(s): Treatment with CSII resulted in a favourable reduction of HbA1c in the preconception period and each trimester in pregnancy. Moreover, long-term CSII treatment demonstrated more stable metabolic control with less GV of fasting glycaemia and fewer hypoglyacemic episodes only during early pregnancy.Copyright (c) 2020, The Author(s)."""
+
+

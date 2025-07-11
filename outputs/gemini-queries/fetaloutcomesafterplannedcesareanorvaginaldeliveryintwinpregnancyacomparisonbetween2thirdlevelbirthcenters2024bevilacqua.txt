@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandfetaloutcomesafterplannedcesareanorvaginaldeliveryintwinpregnancyacomparisonbetween2thirdlevelbirthcenters2024bevilacqua
+"BACKGROUND: Twin pregnancy is associated with higher risks of adverse perinatal outcomes for both the mother and the babies. Among the many challenges in the follow-up of twin pregnancies, the mode of delivery is the last but not the least decision to be made, with the main influencing factors being amnionicity and fetal presentation. The aim of the study was to compare perinatal outcomes in two European centers using different protocols for twin birth in case of non-cephalic second twin; the Italian patients being delivered mainly by cesarean section with those in Belgium being routinely offered the choice of vaginal delivery (VD). METHODS: This was a dual center international retrospective observational study. The population included 843 women with a twin pregnancy >= 32 weeks (dichorionic or monochorionic diamniotic pregnancies) and a known pregnancy outcome. The population was stratified according to chorionicity. Demographic and pregnancy data were reported per pregnancy, whereas neonatal outcomes were reported per fetus. We used multiple logistic regression models to adjust for possible confounding variables and to compute the adjusted odds ratio (adjOR) for each maternal or neonatal outcome. RESULTS: The observed rate of cesarean delivery was significantly higher in the Italian cohort: 85% for dichorionic pregnancies and 94.4% for the monochorionic vs 45.2% and 54.4% respectively in the Belgian center (p-value < 0.001). We found that Belgian cohort showed significantly higher rates of NICU admission, respiratory distress at birth and Apgar score of < 7 after 5 min. Despite these differences, the composite severe adverse outcome was similar between the two groups. CONCLUSION: In this study, neither the presentation of the second twin nor the chorionicity affected maternal and severe neonatal outcomes, regardless of the mode of delivery in two tertiary care centers, but VD was associated to a poorer short-term neonatal outcome."""
+
+

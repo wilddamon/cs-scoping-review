@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: costofillnessinyoungchildrenaprospectivebirthcohortstudy2021norgaard
+"Childhood illness is extremely common and imposes a considerable economic burden on society. We aimed to quantify the overall economic burden of childhood illness in the first three years of life and the impact of environmental risk factors. The study is based on the prospective, clinical mother-child cohort Copenhagen Prospective Studies on Asthma in Childhood (COPSAC2010) of 700 children with embedded randomized trials of fish-oil and vitamin D supplementations during pregnancy. First, descriptive analyses were performed on the total costs of illness, defined as both the direct costs (hospitalizations, outpatient visits, visit to the practitioner) and the indirect costs (lost earnings) collected from the Danish National Health Registries. Thereafter, linear regression analyses on log-transformed costs were used to investigate environmental determinants of the costs of illness. The median standardized total cost of illness at age 0-3 years among the 559 children eligible for analyses was EUR 14,061 (IQR 9751-19,662). The exposures associated with reduced costs were fish-oil supplementation during pregnancy (adjusted geometric mean ratio (GMR) 0.89 (0.80; 0.98), p = 0.02), gestational age in weeks (aGMR = 0.93 (0.91; 0.96), p < 0.0001), and birth weight per 100 g (aGMR 0.98 (0.97; 0.99), p = 0.0003), while cesarean delivery was associated with higher costs (aGMR = 1.30 (1.15; 1.47), p < 0.0001). In conclusion, common childhood illnesses are associated with significant health-related costs, which can potentially be reduced by targeting perinatal risk factors, including maternal diet during pregnancy, cesarean delivery, preterm birth and low birth weight."""
+
+

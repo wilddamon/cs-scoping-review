@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: efficacyandsafetyoforalmisoprostolvstransvaginalballooncatheterforlaborinductionanobservationalstudywithintheswedishpostterminductionstudyswepis2021alkmark
+"INTRODUCTION: Induction of labor is increasing. A common indication for induction of labor is late term and postterm pregnancy at 41 weeks or more. We aimed to evaluate if there are any differences regarding efficacy, safety, and women's childbirth experience between oral misoprostol and transvaginal balloon catheter for cervical ripening in women with a low-risk singleton pregnancy and induction of labor at 41(+0) to 42(+0 to 1) weeks of gestation. MATERIAL AND METHODS: In this observational study, based on data from the Swedish Postterm Induction Study (SWEPIS), a multicenter randomized controlled trial, a total of 1213 women with a low-risk singleton pregnancy at 41 to 42 weeks of gestation were induced with oral misoprostol (n = 744) or transvaginal balloon catheter (n = 469) at 15 Swedish delivery hospitals. The primary efficacy outcome was vaginal delivery within 24 h and primary safety outcomes were neonatal and maternal composite adverse outcomes. Secondary outcomes included time to vaginal delivery and mode of delivery. Women's childbirth experience was assessed with the Childbirth Experience Questionnaire (CEQ 2.0) and visual analog scale. We present crude and adjusted mean differences and relative risks (RR) with 95% CI. Adjustment was performed for a propensity score based on delivery hospital and baseline characteristics including Bishop score. RESULTS: Vaginal delivery within 24 h was significantly lower in the misoprostol group compared with the balloon catheter group (46.5% [346/744] vs 62.7% [294/469]; adjusted RR 0.76 95% CI 0.640.89]). Primary neonatal and maternal safety outcomes did not differ between groups (neonatal composite 3.5% [36/744] vs 3.2% [15/469]; adjusted RR 0.77 [95% CI 0.31-1.89]; maternal composite 2.3% [17/744] vs 1.9% [9/469]; adjusted RR 1.70 [95% CI 0.58-4.97]). Adjusted mean time to vaginal delivery was increased by 3.8 h (95% CI 1.3-6.2 h) in the misoprostol group. Non-operative vaginal delivery and cesarean delivery rates did not differ. Women's childbirth experience was positive overall and similar in both groups. CONCLUSIONS: Induction of labor with oral misoprostol compared with a transvaginal balloon catheter was associated with a lower probability of vaginal delivery within 24 h and a longer time to vaginal delivery. However, primary safety outcomes, non-operative vaginal delivery, and women's childbirth experience were similar in both groups. Therefore, both methods can be recommended in women with low-risk postdate pregnancies."""
+
+

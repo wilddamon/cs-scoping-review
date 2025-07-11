@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severematernalmorbidityassociatedwithendometriosisapopulationbasedretrospectivecohortstudy2023park
+"OBJECTIVE: To evaluate the association between endometriosis and the risk of severe maternal morbidity (SMM) as defined by the Centers for Disease Control and Prevention. DESIGN: This was a population-based, retrospective cohort study using the California Office of Statewide Health Planning and Development Linked Birth File with hospital discharge International Classification of Diseases, 9th Revision, Clinical Modification (ICD-9-CM) diagnoses between 2007 and 2012. SETTING: Population-based. PATIENT(S): A total of 3,098,578 pregnancies from 2007 to 2012. INTERVENTION(S): Prior diagnosis of endometriosis identified using the ICD-9-CM codes 617.0-617.9. MAIN OUTCOME MEASURE(S): The primary outcome of interest was SMM, which was defined as having been diagnosed with any of the ICD-9-CM codes corresponding to 25 peripartum conditions listed by the Centers for Disease Control and Prevention. The secondary outcomes of interest were each individual condition. RESULT(S): Of the 3,098,578 pregnancies analyzed, 2,910 pregnancies were among women with a prior diagnosis of endometriosis. There were 45,655 pregnancies complicated by at least 1 SMM; 158 pregnancies (54.3 per 1,000 pregnancies) were in women with endometriosis and 45,497 (14.7 per 1,000 pregnancies) were in women without endometriosis. Women with pregnancies complicated by endometriosis were 2.41 times more likely to develop SMM than women who did not have endometriosis (adjusted odds ratio [aOR], 2.41; 95% confidence interval [CI], 2.03-2.87). There was an increased risk of disseminated intravascular coagulation (aOR, 2.46; 95% CI, 1.65-3.66), heart failure during a procedure or surgery (aOR, 2.58; 95% CI, 1.69-3.94), pulmonary edema (aOR, 3.02; 95% CI, 1.11-8.17), blood transfusion (aOR, 2.17; 95% CI, 1.75-2.68), and hysterectomy (aOR, 2.46; 95% CI, 1.58-3.85). When the association was stratified by delivery mode, the risk of SMM was higher for vaginal delivery (aOR, 4.59; 95% CI, 2.73-7.71) than for cesarean delivery (aOR, 1.64; 95% CI, 1.37-1.97) (P-interaction<.0001). CONCLUSION(S): This study demonstrated that endometriosis is a major risk factor for SMM, especially among those who deliver vaginally. Furthermore, precautions should be taken before delivery in anticipation of potential complications."""
+
+

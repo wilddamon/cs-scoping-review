@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fearofchildbirthinnulliparousandmultiparouswomenapopulationbasedanalysisofallsingletonbirthsinfinlandin199720102014raisanen
+"OBJECTIVE: To identify risk factors for fear of childbirth (FOC) according to parity and socioeconomic status, and to evaluate associations between FOC and adverse perinatal outcomes. DESIGN: A cohort study. SETTING: The Finnish Medical Birth Register. POPULATION: All 788 317 singleton births during 1997-2010 in Finland. METHODS: Fear of childbirth was defined according to the International Classification of Diseases code O99.80, and its associations with several risk factors and perinatal outcomes were analysed by multivariable logistic regression. MAIN OUTCOME MEASURES: Prevalence of, risk factors for and outcomes of FOC. RESULTS: Fear of childbirth was experienced by 2.5% of nulliparous women and 4.5% of multiparous women. The strongest risk factors for FOC in nulliparous women were depression [adjusted odds ratio (aOR), 6.35; 95% confidence interval (CI), 5.25-7.68], advanced maternal age (aOR, 3.78; 95% CI, 3.23-4.42) and high or unspecified socioeconomic status. In multiparous women, the strongest risk factors for FOC were depression (aOR, 5.47; 95% CI, 4.67-6.41), previous caesarean section (CS) (aOR, 3.02; 95% CI, 2.93-3.11) and high or unspecified socioeconomic status. Among both nulliparous and multiparous women, FOC was associated with higher rates of CS (3.3-fold and 4.5-fold higher, respectively) and a lower incidence of low birthweight (<2500 g), small for gestational age babies, preterm birth and low Apgar scores at 1 minute. CONCLUSIONS: High and unspecified socioeconomic status, advanced maternal age and depression are predisposing factors for FOC regardless of parity. Among multiparous women, a previous CS increases vulnerability to FOC. FOC is associated with increased rates of CS, but does not adversely affect other pregnancy outcomes."""
+
+

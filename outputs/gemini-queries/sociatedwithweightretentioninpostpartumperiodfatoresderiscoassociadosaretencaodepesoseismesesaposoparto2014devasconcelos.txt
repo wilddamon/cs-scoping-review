@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsassociatedwithweightretentioninpostpartumperiodfatoresderiscoassociadosaretencaodepesoseismesesaposoparto2014devasconcelos
+"PURPOSE: To identify risk factors for weight retention in women after childbirth. METHODS: This was a prospective observational study that followed for six months adult women who delivered at a tertiary center. Were applied a structured questionnaire before hospital discharge and at six weeks and six months after childbirth, through home visits. The outcome was weight retention after childbirth (if risk >7.5 kg). The variables analyzed were: age, skin color, working during pregnancy, income, education, marital status, age at menarche, maternal age at first birth, parity, mode of delivery, birth interval, pre-pregnancy weight, gestational weight gain, percent body fat, and nutritional status. Data were first analyzed by bivariate analysis between prevalence of weight retention at six months and several covariates (p<0.2). We then calculated the Odds Ratio (OR) and their respective gross confidence intervals of 95% (95%CI) and finally performed multivariate logistic regression to control for confounding factors and to estimate the OR and 95%CI. RESULTS: The frequency of weight retention >7.5 kg by 6 months after delivery was 15%. In bivariate analysis, weight retention was associated with the following variables: age at menarche <12 years (OR=3.7; 95%CI1.1-13.2), gestational weight gain >=16 kg (OR=5.8; 95%CI 1.8-18.6), percent body fat at baseline >30% (OR=5.0; 95%CI 1.1-23.6), and nutritional status by 6 weeks postpartum >25 kg/m2 (OR=7.7; 95%CI1.6-36.1). In multivariate analysis, only excessive gestational weight gain (OR=74.1; 95%CI 9.0-609.6) remained as a risk factor. CONCLUSION: Excessive weight gain during pregnancy should receive special attention in prenatal care in view of its association with weight retention and excess weight in women after childbirth."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: mribasedradiomicsnomograminpatientswithhighriskplacentaaccretaspectrumcanitaidintheprenataldiagnosisofintraoperativebloodloss2023zhang
+"PURPOSE: To develop and validate the nomogram by combining MRI-derived radiomics and clinical features for preoperatively predicting massive intraoperative blood loss (IBL) in high-risk placenta accreta spectrum (PAS) patients. METHODS: A total of 152 high-risk PAS patients from Hospital A were enrolled and constituted the training cohort, and 64 patients from Hospital B constituted the validation cohort. Clinical features were analyzed retrospectively. Placental regions of interest were manually positioned on sagittal T(2)-weighted HASTE images for each patient to extract quantitative radiomics features. Clinical model, radiomics model, and nomogram were built to predict the risk of massive IBL. The diagnostic performance was assessed using the area under the receiver operating characteristic curve (AUC) and the DeLong test. Decision curve analysis (DCA) was performed to determine the performance of the best predictive model. RESULTS: The nomogram (AUC = 0.866 and 0.876, respectively) and radiomics model (AUC = 0.821 and 0.855, respectively) outperformed the clinical model (AUC = 0.685 and 0.619, respectively) both in the training and validation cohorts (Delong test, P < 0.05). Furthermore, the nomogram performed best with an accuracy of 0.844, sensitivity of 0.882, and specificity of 0.830 for differentiating massive IBL in the validation cohort. DCA confirmed the clinical utility of the nomogram. CONCLUSION: The nomogram can be used to noninvasively predict massive IBL patients and guide obstetricians to make reasonable preoperative treatment plans."""
+
+

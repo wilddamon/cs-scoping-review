@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: istheincreasingprevalenceoflaborinductionaccompaniedbychangesinpregnancyoutcomesanobservationalstudyofallsingletonbirthsatgestationalweeks3742innorwayduring199920192023haavaldsen
+"INTRODUCTION: Induction of labor is often performed to prevent adverse perinatal and maternal outcomes, and has become increasingly common. We studied whether changes in prevalence of labor induction in gestational weeks 37-42 weeks were accompanied by changes in adverse pregnancy outcomes or mode of delivery. MATERIAL AND METHODS: We used data from the Medical Birth Registry of Norway, and included all singleton births in gestational weeks 37-42 in Norway, 1999-2019 (n = 1 127 945). We calculated the prevalence of labor induction and outcome measures according to year of birth. We repeated these calculations for each gestational week at birth. RESULTS: The prevalence of labor induction increased from 9.7% to 25.9%, and the increase was particularly high in gestational week 41. A modest decline in fetal deaths was observed in all gestational weeks, except gestational week 41. The overall decline was from 0.18% in 1999-2004 to 0.13% during 2015-2019. There were no overall changes in other perinatal outcomes. The prevalence of postpartum hemorrhage >=500 ml increased from 11.4% in 1999 to 30.1% in 2019, and operative deliveries increased slightly. The prevalence of acute cesarean section increased from 6.5% to 9.3%, whereas vacuum and/or forceps assisted deliveries increased from 7.8% to 10.4%. CONCLUSIONS: A high increase in labor inductions was accompanied by a modest decline in fetal deaths, but no decline in other adverse perinatal outcomes. In settings where the prevalence of adverse perinatal outcomes is low, the beneficial effect of increased use of labor induction may not outweigh the side effects or the costs."""
+
+

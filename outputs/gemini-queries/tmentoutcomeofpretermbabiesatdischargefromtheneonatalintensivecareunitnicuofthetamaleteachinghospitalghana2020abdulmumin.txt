@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithtreatmentoutcomeofpretermbabiesatdischargefromtheneonatalintensivecareunitnicuofthetamaleteachinghospitalghana2020abdulmumin
+"Background. Preterm birth and complications are now the leading cause of death in children under 5 years globally. In Ghana, studies assessing the survival rate of preterm babies and associated factors in Neonatal Intensive Care Units (NICU) are limited. Therefore, this study was designed to assess the survival rate and associated factors in this group of babies in a teaching hospital in the Northern Region of Ghana. Methods. This was a 7-month retrospective descriptive study conducted in the NICU of the Tamale Teaching Hospital, Ghana. It involved review of charts of all preterm babies admitted between 1 March 2017 and 30 September 2017. Data retrieved from all eligible patients was analyzed using Stata version 12.1 software to generate descriptive statistics. Relationship between dependent and independent variables was tested using Pearson chi square. A logistic regression model was estimated to assess determinants of the treatment outcome. Results. The overall survival rate at discharge in this cohort was 60.73%. The survival rate was lowest in the extremely low birth weight group (3/21; 14.3%) and extremely preterm babies (4/20; 20%). Significant association was observed between birth weight (P=0.0001), gestational age (P=0.0001), and survival. Preterm babies who were hypothermic at presentation, had respiratory distress syndrome, and had jaundice were 7.2 times (AOR=7.2; 95%CI=1.9-28.1; P=0.004), 10.2 times (AOR=10.2; 95%CI=3.7-27.9; P<=0.0001), and 2.9 times (AOR=2.9; 95%CI=1.0-8.5; P=0.045), respectively, more likely to die on admission compared to neonates who did not have these comorbidities. Conclusion. We found a high mortality rate in the preterm babies admitted to our unit, and that mortality rate decreased with increasing gestational age and birth weight. A number of neonatal factors, either in isolation or in combination, were significantly associated with in-hospital mortality.Copyright (c) 2020 Alhassan Abdul-Mumin et al."""
+
+

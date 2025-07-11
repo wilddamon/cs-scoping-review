@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: timetosubsequentlivebirthaccordingtomodeofdeliveryinthefirstbirth2015oneill
+"OBJECTIVE: To estimate the rate and time to next live birth by mode of delivery. DESIGN: Hospital-based cohort. SETTING: Aarhus University Hospital (AUH), Denmark. POPULATION: All pregnant women attending AUH were invited to enroll in the Aarhus Birth Cohort (ABC) study between 1989 and 2010 (n = 91,625). METHODS: Women were followed from their first live birth until the subsequent live birth or until censoring due to study end using Cox regression models. MAIN OUTCOME MEASURES: Rate and time to subsequent live birth according to mode of delivery. RESULTS: 46,162 index live births were identified, of which 22,462 (49%) had a subsequent live birth. Women with any type of caesarean had a 6% reduction in the rate of subsequent live birth (HR 0.94, 95% CI 0.89, 0.98), which remained unchanged in the analysis by type (emergency, HR 0.95, 95% CI 0.89, 1.02; elective, HR 0.91, 95% CI 0.85, 0.98) compared with women who had a spontaneous vaginal delivery (SVD). Operative vaginal delivery was associated with an 8% reduction in subsequent live birth rates (HR 0.92, 95% CI 0.86, 0.98) and vaginal delivery complicated by shoulder dystocia with a 19% reduction compared with SVD. Median time to next birth in days was shortest in women with a first caesarean (994 days, 95% CI 973, 1026) and longest in women with a vaginal delivery complicated by shoulder dystocia (1065 days, 95% CI 994, 1191). In women with planned pregnancies, the shortest median time to second birth was in women with breech vaginal deliveries (859 days, 95% CI 737, 1089) and the longest in women with vaginal deliveries complicated by shoulder dystocia (1193 days, 95% CI 1028, 1430). CONCLUSION: The impact of mode of delivery on subsequent rate and time to next birth was minimal in this study. The greatest reduction was among women with assisted vaginal delivery complicated by shoulder dystocia. This study is strengthened by data on pregnancy planning as well as information on complications of pregnancy, delivery and neonatal morbidities, all of which may influence a woman's decision on subsequent birth."""
+
+

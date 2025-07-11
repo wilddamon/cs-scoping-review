@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exclusivebreastfeedingamongwomenwithtype1andtype2diabetesmellitus2022cordero
+"OBJECTIVE: To compare exclusive breastfeeding (BF) and BF initiation among 185 women with Type 1 and 212 women with Type 2 pregestational diabetes who intended exclusive or partial BF and delivered at >=34 weeks of gestation. METHODS: Retrospective cohort study. At discharge, exclusive BF is direct BF or BF complemented with expressed breast milk. BF initiation is defined by exclusive or partial BF. RESULTS: Type 1 and Type 2 groups were similar in prior BF experience (69 vs 67%) but were different in intention to BF exclusively (92 vs 78%) and partially (8 vs 22%). Women in the Type 1 group were younger (median age 30 vs 33y), likely to be primiparous (47 vs 25%), have a lower median BMI (32 vs 36 kg/m(2)) and deliver by primary cesarean (37 vs 26%). Infants born to Type 1 women were more likely to be admitted to the NICU (44 vs 18%) and to have hypoglycemia (59 vs 41%). At discharge, exclusive BF among Type 1 was higher (34 vs 23%), partial BF was similar (47 vs 46%) while FF (formula feeding) was lower (19 vs 31%) than in the Type 2 group. BF initiation occurred in 81% of Type 1 and 69% of Type 2 women. CONCLUSION: Intention to BF exclusively was higher in Type 1 women compared to Type 2. At discharge, exclusive BF and BF initiation were lower and FF higher in the Type 2 group highlighting the need for different strategies if lactation in this special population is to be improved."""
+
+

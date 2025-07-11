@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: distinguishingcerebrospinalfluidfrommepivacaineusingthephtestinpatientsundergoingelectivecesareansectionwithcombinedspinalepiduralanesthesia2020ikegami
+"INTRODUCTION: In single-space combined spinal-epidural anesthesia (CSEA), it is important to correctly determine if the fluid coming out of the spinal needle is cerebrospinal fluid (CSF) or the liquid used in the loss of resistance (LOR) technique. In this study, we used mepivacaine for LOR and measured the pH values of CSF and mepivacaine to determine whether the pH test is a reliable method to confirm CSF when performing single-space CSEA. METHODS: This clinical trial included 47 full-term pregnant women who underwent cesarean section. Single-space CSEA was administered at the lumbar intervertebral space using a small amount of mepivacaine for LOR. The pH values of CSF and mepivacaine were determined by the color of the test strip immediately after dropping. The area under the curve (AUC) for the pH values was calculated to determine the cutoff value for distinguishing between CSF and mepivacaine. RESULTS: The median pH values were 7.7 (7.1-8.0) and 6.2 (5.9-6.8) for CSF and mepivacaine, respectively. When the cutoff value of pH for distinguishing CSF from mepivacaine was 7.1 or greater, the AUC was 1.0 (100% sensitivity and specificity). Our result demonstrated that CSF can be correctly distinguished from mepivacaine in patients undergoing cesarean section under single-space CSEA using a cutoff value of pH 7.1. CONCLUSION: The pH test is a simple and reliable method to confirm CSF when performing single-space CSEA with mepivacaine for LOR. TRIAL REGISTRATION: Accuracy of pH test paper for cerebrospinal fluid during spinal anesthesia: prospective study in healthy pregnant women under scheduled caesarean section; University Hospital Medical Information Network, UMIN000036454 . Registered 1 May 2019."""
+
+

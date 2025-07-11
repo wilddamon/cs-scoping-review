@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: counselingforfetalmacrosomiaanestimatedfetalweightof4000gisexcessivelylow2015peleg
+"OBJECTIVE: Because of the known complications of fetal macrosomia, our hospital's policy has been to discuss the risks of shoulder dystocia and cesarean section (CS) in mothers with a sonographic estimated fetal weight (SEFW) >= 4,000 g at term. The present study was performed to determine the effect of this policy on CS rates and pregnancy outcome. STUDY DESIGN: We examined the pregnancy outcomes of the macrosomic (>= 4,000 g) neonates in two cohorts of nondiabetic low risk women at term without preexisting indications for cesarean: (1) SEFW >= 4,000 g (correctly suspected macrosomia) and (2) SEFW < 4,000 g (unsuspected macrosomia). RESULTS: There were 238 neonates in the correctly suspected group and 205 neonates in the unsuspected macrosomia group, respectively. Vaginal delivery was accomplished in 52.1% of the suspected group and 90.7% of the unsuspected group, respectively, p < 0.001. There was no difference in the rates of shoulder dystocia. The odds ratio for CS was 9.0 (95% confidence interval, 5.3-15.4) when macrosomia was correctly suspected. CONCLUSION: The policy of discussing the risk of macrosomia with SEFW >= 4,000 g to women is not justified. A higher SEFW to trigger counseling for shoulder dystocia and CS, more consistent with American College of Obstetrics and Gynecology (ACOG) guidelines, should be considered."""
+
+

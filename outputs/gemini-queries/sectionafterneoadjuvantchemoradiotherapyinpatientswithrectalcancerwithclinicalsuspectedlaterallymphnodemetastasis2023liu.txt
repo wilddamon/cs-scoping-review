@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: optimizationoftherapeuticstrategiesforselectivelaterallymphnodedissectionafterneoadjuvantchemoradiotherapyinpatientswithrectalcancerwithclinicalsuspectedlaterallymphnodemetastasis2023liu
+"Background: Selective lateral lymph node (LLN) dissection with total mesorectal excision after neoadjuvant chemoradiotherapy (nCRT) is pointed out to reduce lateral compartment recurrence and to improve survival in patients with rectal cancer with LLN metastases. This study aimed to explore the safety, surgical indications, and survival outcomes of LLN dissection after nCRT. Method(s): This multicenter retrospective study included patients with rectal cancer with clinical evidence of LLN metastases (n = 466) treated across three hospitals in China. Patients who underwent total mesorectal excision and LLN dissection were grouped into nCRT (n = 155) and non-nCRT (n = 291), respectively. Propensity score matching was used to minimize selection bias. Result(s): After matching, nCRT did not significantly increase the surgery duration, intraoperative blood loss or postoperative complications (P > 0.05). In a multivariate logistic regression analysis, poor/mucinous/signet adenocarcinoma (P = 0.042) and post-nCRT LLN short diameter >=7 mm (P < 0.001) were independent risk factors for pathological LLN metastasis after nCRT. Overall survival (P < 0.001) and disease-free survival (P < 0.001) were significantly worse in patients with LLN metastasis, which was, however, not an independent risk factor for survival after eliminating confounders. Multivariate prognostic analysis of 40-patient subset with pathological LLN metastasis showed that distant metastasis, metastasis beyond the obturator or internal iliac region, and >=2 LLN metastasis were independent predictors of poor overall survival. Conclusion(s): Selective LLN dissection after nCRT is safe and feasible with acceptable perioperative outcomes. Patients with a post-nCRT LLN short diameter >=7 mm or poor/mucinous/signet adenocarcinoma should receive supplementary LLN dissection after nCRT. However, patients with distant metastasis, metastasis beyond the obturator or internal iliac region, and involvement of >=2 LLN may not benefit from LLN dissection, and LLN dissection should be carefully considered in such patients.Copyright (c) 2023 Liu, Bao, Jiang, Li, Xing, Yang and Liu."""
+
+

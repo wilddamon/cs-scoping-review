@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: chinesefetalgrowthamulticentercohortstudybasedonfetalultrasoundmeasurements2023gong
+"Objective To build a reference fetal growth chart for the Chinese population based on fetal ultrasound measurements. Methods This was a multicenter, population-based retrospective cohort study. Longitudinal ultrasound measurement data were collected from 24 hospitals in 18 provinces of China from 1st September through 31st October of 2019. The estimated fetal weight (EFW) was calculated based on head circumference, abdominal circumference, and femur length using Hadlock formula 3. Fetal growth curves were estimated using a two-level linear regression model with cubic splines. All participants were divided into two groups: the northern group (n = 5829) and the southern group (n = 3246) based on the geographical division of China and male fetus group (n = 4775) and female fetus group (n = 4300) based on fetal gender. The EFW was compared by fetal gender and geographical group. All statistical models were adjusted for maternal sociodemographic characteristics. Results A total of 9075 participants with 31,700 ultrasound measurement records were included in this study. Male fetuses demonstrated significantly larger EFW compared to female ones starting at 16 weeks of gestation and extending to delivery (global test P < 0.01). The overall geographic difference in EFW was significant (global test P = 0.03), and week-specific comparisons showed that the northern group had a greater EFW starting at 15 weeks of gestation and extending to 29 weeks of gestation, although this difference did not extend to the time of delivery. The Z-score of EFW confirmed that our Chinese fetal growth charts differed from previously published standards. Conclusion This study provides EFW and ultrasound biometric reference measurements for Chinese fetuses and reveals differences from other fetal growth charts. The chart is worth promoting in more regions of China but should be tested prudently before use.Copyright (c) Wolters Kluwer Health, Inc. All rights reserved."""
+
+

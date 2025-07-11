@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ectopicpregnancyasinglecenterexperienceovertenyears2021alnaimi
+"PURPOSE: The aim of this study was to investigate characteristics associated with ectopic pregnancy (EP) that could be utilized for predicting morbidity or mortality.;METHODS: This was a retrospective analysis of pregnancy-related records from a tertiary center over a period of ten years. Data on age, gravidity, parity, EP risk, amenorrhea duration, abdominal pain presence and location, beta-human chorionic gonadotropin (beta-HCG) level, ultrasound findings, therapeutic intervention, exact EP implantation site and length of hospital stay (LOS) were obtained from the database. The LOS was used as a proxy for morbidity and was tested for an association with all variables. All statistical analyses were conducted with Stata R (ver. 16.1, Texas, USA).;RESULTS: The incidence of EP in a cohort of 30,247 pregnancies over a ten-year period was 1.05%. Patients presented with lower abdominal pain in 87.9% of cases, and the likelihood of experiencing pain was tenfold higher if fluid was detectable in the pouch of Douglas. Only 5.1% of patients had a detectable embryonic heartbeat, and 18.15% had one or more risk factors for EP. While most EPs were tubal, 2% were ovarian. The LOS was 1.9 days, and laparoscopic intervention was the main management procedure. The cohort included one genetically proven dizygotic heterotopic pregnancy (incidence, 3.3 x 10- 5) that was diagnosed in the 7th gestational week. The only association found was between the beta-HCG level and LOS, with a linear regression beta coefficient of 0.01 and a P-value of 0.04.;CONCLUSION: EP is a relatively common condition affecting approximately 1% of all pregnancies. beta-HCG correlates with EP-related morbidity, but the overall morbidity rate of EP is low regardless of the implantation site. Laparoscopic surgery is an effective therapeutic procedure that is safe for managing EP, even in cases of heterotopic pregnancy."""
+
+

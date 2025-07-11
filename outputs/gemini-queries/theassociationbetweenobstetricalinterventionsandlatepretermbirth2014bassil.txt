@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenobstetricalinterventionsandlatepretermbirth2014bassil
+"OBJECTIVE: There is concern that obstetric interventions (prelabor cesarean section and induced delivery) are drivers of late preterm (LP) birth. Our objective was to evaluate the independent association between obstetric interventions and LP birth and explore associated independent maternal and fetal risk factors for LP birth. STUDY DESIGN: In this population-based cross-sectional study, the BORN Information System was used to identify all infants born between 34 and 40 completed weeks of gestation between 2005 and 2012 in Ontario, Canada. The association between obstetric interventions (preterm cesarean section and induced delivery) and LP birth (34 to 36 completed weeks' gestation vs 37 to 40 completed weeks' gestation) was assessed using generalized estimating equation regression. RESULTS: Of 917,013 births between 34 and 40 weeks, 49,157 were LP (5.4%). In the adjusted analysis, 'any obstetric intervention' (risk ratio [RR], 0.65; 95% confidence interval [CI], 0.57-0.74), induction (RR, 0.71; 95% CI, 0.61-0.82) and prelabor cesarean section (RR, 0.66; 95% CI, 0.59-0.74) were all associated with a lower likelihood of LP vs term birth. Several independent potentially modifiable risk factors for LP birth were identified including previous cesarean section (RR, 1.28; 95% CI, 1.16-1.40), smoking during pregnancy (RR, 1.28; 95% CI, 1.21-1.36) and high material (RR, 1.1; 95% CI, 1.03-1.18) and social (RR, 1.09; 95% CI, 1.02-1.16) deprivation indices. CONCLUSION: After accounting for differences in maternal and fetal risk, LP births had a 35% lower likelihood of obstetric interventions than term births. Obstetric care providers may be preferentially avoiding induction and prelabor cesarean section between 34 and 37 weeks' gestation."""
+
+

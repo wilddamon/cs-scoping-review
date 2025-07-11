@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomeaftercesareansectionfollowingafailedvacuumattempt2022attali
+"OBJECTIVE: To compare the pregnancy outcome of women who underwent cesarean section in the second stage of labor, with or without a vacuum extraction attempt. METHODS: A retrospective cohort study of women who underwent a cesarean section during the second stage of labor in a single tertiary university-affiliated medical center (2012-2019). Pregnancy outcome was compared for women who underwent cesarean section following a failed vacuum extraction to women who had cesarean section during the second stage of labor with no vacuum extraction attempt. Neonatal outcomes included umbilical artery pH less than 7.1, Apgar at 5 min < 7, hypoxemic ischemic encephalopathy and NICU admission. Maternal outcomes included duration of hospitalization, need for blood transfusion and need for re-surgery in 45 days. RESULTS: Overall, 88,375 women delivered during the study period. Of them, 120 women had a cesarean section following a failed vacuum (study group). Another 551 women underwent a cesarean section in the second stage of labor without a VE attempt (control group). The groups were similar with regard to obstetrical and demographic characteristics. The rates of umbilical artery pH < 7.1 (17.50% vs 6.53%, p < .001), NICU admission (13.33% vs 2.90%, p < .001), hypoxemic ischemic encephalopathy (5.83% vs 0.18%, p < .001) and epicranial sub-aponeurotic hemorrhage (16.67% vs 2.18%, p < .001) were significantly higher in the study group. No significant differences were found in maternal outcomes. In a sub-analysis including only labor with reassuring fetal heart tracing, failed vacuum attempt was associated with higher rate of NICU admission and epicranial hemorrhage (16.67% vs 3.13%, p = .009, 27.78% vs. 3.41, p = .001, respectively). CONCLUSION: Failed vacuum attempt is associated with a significant increased neonatal morbidity, but not increased maternal morbidity."""
+
+

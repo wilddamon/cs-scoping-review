@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: successfulvaginalbirthaftercesareanintheseconddeliveryisnotassociatedwiththestageoflaboroftheprimaryunplannedcesareandelivery2021lewkowicz
+"BACKGROUND: Candidates for trial of labor after cesarean must be carefully screened to maximize success and minimize morbidity. Demographic and obstetric characteristics affecting success rates must be delineated.;OBJECTIVE: We examined whether the labor stage of the primary delivery in which a woman underwent an unplanned cesarean delivery would affect the likelihood that she could achieve a subsequent vaginal birth.;STUDY DESIGN: Electronic medical records-based study of 676 parturients. Trial of labor rates and outcomes were compared between women whose primary cesarean delivery was performed in the first vs. the second stage of labor.;SETTING: Hadassah Medical Center, Israel POPULATION: Women in their second pregnancies, with singleton fetuses, who underwent unplanned cesarean delivery in their first pregnancy and elected trial of labor in the second delivery. The main outcome measures were maternal and neonatal complications and vaginal birth rates in first vs. second stage of labor groups.;RESULTS: In our population, 76 % of women attempt trial of labor after cesarean. Rates of successful vaginal delivery did not differ significantly between those who underwent primary cesarean in the first vs. second stage of labor: 67.4 % vs. 70.2 %, p = 0.483, respectively. Among women whose primary UCD was in the second stage, only 18.2 % (35/192) required a UCD in the second stage in the subsequent delivery, while 58.9 % (113/192) underwent UCD in the first stage in both deliveries.;CONCLUSION: Labor stage of the primary unplanned cesarean delivery, should not dissuade women from a trial of labor after cesarean in their second delivery. Copyright (c) 2020. Published by Elsevier B.V."""
+
+

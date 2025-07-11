@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenpretermprematureruptureofmembranesandvitamindlevelsinmaternalplasmaandumbilicalcordbloodofnewbornsaprospectivestudy2022lee
+"Background: Preterm premature rupture of membranes (PPROM) is a major cause of preterm birth. There are few reports on vitamin D deficiency associated with PPROM. We aimed to investigate the association between PPROM and vitamin D levels in maternal plasma and the umbilical cord blood of newborns. Method(s): This prospective study included 355 pregnant women who delivered live infants between March 2017 and December 2018 at a medical center. Vitamin D levels were measured in the maternal plasma at the first, second, third trimesters of pregnancy and just before delivery, and in the umbilical cord blood of newborns at birth. In addition, we evaluated the pregnancy and neonatal outcomes according to vitamin D status. Result(s): The rate of PPROM in the vitamin D deficiency group (25(OH)D <20 ng/mL) was higher than in the non-deficiency group (25(OH)D >=20 ng/mL) (p = 0.003). Vitamin D levels were significantly lower in the PPROM group than non-PPROM group in maternal plasma [at the first (p = 0.020) and second trimesters (p = 0.029), just before delivery (p = 0.015)], and in the cord blood of newborns (p = 0.006). Multiple logistic regression analysis showed that the odds ratio of PPROM by the increase of 1ng/mL of vitamin D levels in the cord blood of newborns was 0.907 (95% confidence interval 0.836-0.983) after adjustment for other confounders (age, gravidity, parity, and body mass index). Conclusion(s): Vitamin D deficiency has a significant association with PPROM. Our study would aid in understanding the mechanism of prevention of PPROM associated with vitamin D deficiency as well as reduction in preterm births.Copyright (c) 2022 S.O.G. CANADA Inc.. All rights reserved."""
+
+

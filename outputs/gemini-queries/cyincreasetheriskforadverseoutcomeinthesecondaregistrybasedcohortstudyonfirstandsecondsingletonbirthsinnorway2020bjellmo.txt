@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doescaesareandeliveryinthefirstpregnancyincreasetheriskforadverseoutcomeinthesecondaregistrybasedcohortstudyonfirstandsecondsingletonbirthsinnorway2020bjellmo
+"OBJECTIVE: To explore if newborns in the second pregnancy following a previous caesarean delivery (CD) have higher risk of perinatal mortality or cerebral palsy than newborns in pregnancies following a previous vaginal delivery (VD). DESIGN: Cohort study with information from the Medical Birth Registry of Norway and the Cerebral Palsy Registry of Norway. SETTING: Births in Norway. PARTICIPANTS: 294 598 women with their first and second singleton delivery during 1996-2015. MAIN OUTCOME MEASURES: Stillbirth, perinatal mortality, neonatal mortality and cerebral palsy. RESULTS: Among 294 598 included women, 42 962 (15%) had a CD in their first pregnancy while 251 636 (85%) had a VD. Compared with the second delivery of mothers with a previous VD, the adjusted OR (adjOR), for stillbirth in the second pregnancy following a previous CD was 1.45, 95% CI 1.22 to 1.73; for perinatal death the adjOR was 1.42 (1.22 to 1.73) and for neonatal death 1.13 (0.86 to 1.49). Among children who survived the neonatal period, the adjOR for cerebral palsy was 1.27 (0.99 to 1.64). Secondary outcomes, including small for gestational age, preterm and very preterm birth, uterine rupture and placental complications (eg, postpartum haemorrhage and pre-eclampsia) were more frequent in the subsequent pregnancy following a previous CD compared with a previous VD, in particular for uterine rupture adjOR 86.7 (48.2 to 156.1). Adjustment for potential confounders attenuated the ORs somewhat, but the excess risk in the second pregnancy persisted for all outcomes. CONCLUSION: A previous CD was in this study associated with increased risk for stillbirth and perinatal death compared with a previous VD. Although less robust, we also found that a previous CD was associated with a slightly increased risk of cerebral palsy among children surviving the neonatal period. The aetiology behind these associations needs further investigation."""
+
+

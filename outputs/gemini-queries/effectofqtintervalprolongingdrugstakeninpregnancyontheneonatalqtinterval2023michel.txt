@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofqtintervalprolongingdrugstakeninpregnancyontheneonatalqtinterval2023michel
+"Introduction: Acquired QT interval prolongations due to drug side effects can result in detrimental arrhythmia. Maternal use of placenta-permeable drugs may lead to fetal exposure, thus leading to an increased risk of neonatal QT prolongation and arrhythmia. Objectives: This study aimed to evaluate the influence of maternal QT-prolonging medication on the neonatal QT interval. Methods: In the prospective KUNO-Kids health study, an ongoing population-based birth cohort, we classified maternal medications according to the known risk of QT interval prolongation. Effects on the neonatal QT interval were tested by linear regression analyses, correcting for perinatal confounders (birth weight, gestational age, birth mode, and age at ECG recording). Subgroup analyses were performed for selective serotonin reuptake inhibitors, proton pump inhibitors, and antihistamine dimenhydrinate. Logistic regression analysis was performed using a QTc of 450 ms as the cut-off value. Results: A total of 2,550 pregnant women received a total of 3,990 medications, of which 315 were known to increase the risk of QT prolongation, resulting in 105 (4.1%) neonates exposed in the last month of pregnancy. Overall, the mean age of the neonates at ECG was 1.9 days and the mean QTc (Bazett) was 414 ms. Univariate (regression coefficient -2.62, p = 0.288) and multivariate (regression coefficient -3.55, p = 0.146) regression analyses showed no significant effect of fetal medication exposure on the neonatal QT interval, neither in the overall nor in the subgroup analysis. Logistic regression analysis showed no association of exposure to maternal medication with an increased risk of neonatal QT interval prolongation (OR (odds ratio) 0.34, p = 0.14). Conclusion: The currently used maternal medication results in a relevant number of fetuses exposed to QT interval-prolonging drugs. In our cohort, exposure was found to have no effect on the neonatal QT interval."""
+
+

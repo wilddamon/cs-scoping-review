@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenmaternalheightbodymassindexandperinataloutcomes2019marshall
+"OBJECTIVE: To test the hypothesis that maternal height is associated with adverse perinatal outcomes, controlling for and stratified by maternal body mass index (BMI). STUDY DESIGN: This was a retrospective cohort study of all births in California between 2007 and 2010 (n = 1,775,984). Maternal height was categorized into quintiles, with lowest quintile (<=20%) representing shorter stature and the uppermost quintile (>=80%) representing taller stature. Outcomes included gestational diabetes mellitus (GDM), preeclampsia, cesarean, preterm birth (PTB), macrosomia, and low birth weight (LBW). We calculated height/outcome associations among BMI categories, and BMI/outcome associations among height categories, using various multivariable logistic regression models. RESULTS: Taller women were less likely to have GDM, nulliparous cesarean, PTB, and LBW; these associations were similar across maternal BMI categories and persisted after multivariable adjustment. In contrast, when stratified by maternal height, the associations between maternal BMI and birth outcomes varied by specific outcomes, for example, the association between morbid obesity (compared with normal or overweight) and the risk of GDM was weaker among shorter women (adjusted odds ratio [aOR], 95% confidence interval [CI]: 3.48, 3.28-3.69) than taller women (aOR, 95% CI: 4.42, 4.19-4.66). CONCLUSION: Maternal height is strongly associated with altered perinatal risk even after accounting for variations in complications by BMI."""
+
+

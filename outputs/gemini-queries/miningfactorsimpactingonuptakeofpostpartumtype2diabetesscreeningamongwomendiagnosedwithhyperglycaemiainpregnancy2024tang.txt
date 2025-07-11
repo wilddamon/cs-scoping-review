@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: crosssectionalstudyexaminingfactorsimpactingonuptakeofpostpartumtype2diabetesscreeningamongwomendiagnosedwithhyperglycaemiainpregnancy2024tang
+"AIMS: Early postpartum glucose screening of women with hyperglycaemia in pregnancy (HIP) can identify women who have the highest risk of developing impaired glucose tolerance and T2DM. This study examines the association between demographics, events during pregnancy, socioeconomic status and postpartum T2DM screening. METHODS: Using the French National Health Data System, this cross-sectional study included all deliveries where the mother had HIP in France in 2015, (n = 76,862). The odds ratio (OR) for attending postpartum screening was calculated via multi-level logistic regression. RESULTS: T2DM screening uptake at six months postpartum was 42*9% [95 % Confidence Interval: 42*6-43*3]. Several characteristics were associated with lower uptake: living in the most deprived area(OR = 0*78[0*74-0*83]); being < 25 years-old (reference age group 25-29;<=17: 0.53 [0*31-0*90];18-24: 0.73[0*69-0*78]); smoking (0*65[0*62-0*68]); obesity (0*93[0*89-0*97]); caesarean delivery (0*95[0*92-0*99]). Factors associated with higher uptake included primiparity (1*30[1*26-1*34]); having followed the French recommendations for HIP screening (1*24[1*20-1*28]); insulin prescription (1*75[1*69-1*81]) and pre-eclampsia (1*30[1*19-1*42]). p < 0.01 is justified due to sample size. CONCLUSION: Improving identification of factors affecting postpartum T2DM screening uptake, such as demographics, socioeconomic context and events during pregnancy, may lead to development of target interventions to aide adherence to screening regime and thereby diagnosis of women with prediabetes or diabetes, for whom secondary and tertiary prevention is crucial."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trialoflabouraftercaesareantolacisassociatedwithincreasedriskforinstrumentaldelivery2017inbar
+"We compared the rates of instrumental delivery in a cohort of nulliparous women at term (n = 19,416), to primiparous women who attempted labour after prior caesarean (TOLAC) (n = 1747). The rate of instrumental deliveries was higher in the TOLAC group compared to nulliparous gravidas (17.3 vs. 15% respectively, p = 0.001). The difference was more prominent for women who eventually had successful vaginal delivery (TOLAC: 23.9% vs. CONTROLS: 17.1%, p < 0.0001 respectively). Based on our results, previous caesarean whether urgent or elective was associated with an increased risk of instrumental delivery in the subsequent pregnancy."""
+
+

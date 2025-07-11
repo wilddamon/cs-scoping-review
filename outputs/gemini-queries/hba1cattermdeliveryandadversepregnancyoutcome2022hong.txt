@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hba1cattermdeliveryandadversepregnancyoutcome2022hong
+"BACKGROUND: There are no obvious thresholds at which the risk of adverse pregnancy outcomes increases as a result of maternal hyperglycemia. HbA1c level which is representative of average blood glucose levels over the last 2-3 months is not as strongly predictive of adverse outcome compared to blood glucose values of oral glucose tolerance test. Data is sparse on the predictive value of HbA1c at term just prior to delivery on adverse outcome. We sought to evaluate HbA1c taken on admission for delivery at term on adverse outcomes of Cesarean delivery and large (>= 90(th) centile) for gestational age (LGA) infants. METHODS: A prospective cross-sectional study was conducted in a university hospital in Malaysia from December 2017-August 2018. 1000 women at term whose deliveries were imminent were enrolled. Blood were drawn and immediately sent for HbA1c analysis at our hospital laboratory. Primary outcomes were Cesarean delivery and LGA. RESULTS: On crude analyses, Cesarean births (vs. vaginal births) were associated with significantly higher HbA1c (%) levels 5.4[5.2-5.7] vs. 5.3[5.1-5.6] P = < 0.001 but not for LGA vs. non-LGA 5.4[5.1-5.6] vs. 5.3[5.1-5.6] P = 0.17. After controlling for significant confounders identified on crude analysis (diabetes in pregnancy, parity, ethnicity, body mass index (BMI), previous cesarean, labor induction, Group B streptococcus (GBS) carriage and birth weight), HbA1c is independently predictive of Cesarean birth, adjusted odds ratio (AOR) 1.47 95% CI 1.06-2.06 P = 0.023 per HbA1c 1% increase. Following adjustment for significant confounders (BMI, predelivery anemia [hemoglobin < 11 g/dl] and GBS carriage), the impact of raised HbA1c level on LGA is AOR 1.43 95% CI 0.93-2.18 P = 0.101 per HbA1c 1% increase and non-significant. CONCLUSION: Raised HbA1c level at term births in the general pregnant population is independently predictive of Cesarean delivery after adjustment for potential confounders including diabetes in pregnancy."""
+
+

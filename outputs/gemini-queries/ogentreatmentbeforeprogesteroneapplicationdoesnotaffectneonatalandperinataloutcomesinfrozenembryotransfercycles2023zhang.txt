@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thedurationofestrogentreatmentbeforeprogesteroneapplicationdoesnotaffectneonatalandperinataloutcomesinfrozenembryotransfercycles2023zhang
+"Objective: To explore whether the duration of estrogen treatment before progesterone application affects neonatal and perinatal outcomes in artificial frozen embryo transfer (FET) cycles. Method(s): This was a retrospective cohort study. Patients who underwent FET via artificial cycles and delivered a singleton live birth between January 2015 and August 2019 were included in the analysis. According to the duration of estrogen treatment before progesterone application, we divided the cycles into four groups: 1<=12 days, 213-15 days, 316-19 days, and >=20 days. The '<=12 days group' was considered the reference group. The main outcome measures were preterm birth (PTB), small-for-gestational age (SGA), low birth weight (LBW), macrosomia, large-for-gestational age (LGA), gestational diabetes mellitus (GDM), gestational hypertension, premature rupture and placenta previa. Result(s): Overall, 2010 FET cycles with singleton live births were included for analysis. Cycles were allocated to four groups according to the duration of estrogen treatment before progesterone application: 1<=12 days (n=372), 213-15 days (n=745), 316-19 days (n=654), >=20 days (n=239). The neonatal outcomes, including PTB, SGA, LBW, macrosomia and LGA, were comparable among the groups (P=0.328, P=0.390, P=0.551, P=0.565, P=0.358). The rates of gestational hypertension, premature rupture and placenta previa (P=0.676, P=0.662, P=0.211) were similar among the groups. The rates of GDM among the four groups were 4.0% (15/372), 6.7% (50/745), 6.4% (42/654), and 11.3% (27/239), with statistical significance (P=0.006). After multiple logistic regression analysis, the duration of estrogen treatment did not affect the rate of GDM or other outcomes. Conclusion(s): The estrogen treatment duration before progesterone application does not affect neonatal and perinatal outcomes in single frozen blastocyst transfer cycles.Copyright (c) 2023 Zhang, Du, Wang, Wu, Guan and Sun."""
+
+

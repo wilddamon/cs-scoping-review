@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthhospitallengthofstayandrehospitalizationduringcovid192022handley
+"OBJECTIVES: To determine if birth hospitalization length of stay (LOS) and infant rehospitalization changed during the coronavirus disease 2019 (COVID-19) era among healthy, term infants. METHODS: Retrospective cohort study using Epic's Cosmos data from 35 health systems of term infants discharged <=5 days of birth. Short birth hospitalization LOS (vaginal birth <2 midnights; cesarean birth <3 midnights) and, secondarily, infant rehospitalization <=7 days after birth hospitalization discharge were compared between the COVID-19 (March 1 to August 31, 2020) and prepandemic eras (March 1 to August 31, 2017, 2018, 2019). Mixed-effects models were used to estimate adjusted odds ratios (aORs) comparing the eras. RESULTS: Among 202 385 infants (57 110 from the COVID-19 era), short birth hospitalization LOS increased from 28.5% to 43.0% for all births (vaginal: 25.6% to 39.3%, cesarean: 40.1% to 61.0%) during the pandemic and persisted after multivariable adjustment (all: aOR 2.30, 95% confidence interval [CI] 2.25-2.36; vaginal: aOR 2.12, 95% CI 2.06-2.18; cesarean: aOR 3.01, 95% CI 2.87-3.15). Despite shorter LOS, infant rehospitalizations decreased slightly during the pandemic (1.2% to 1.1%); results were similar in adjusted analysis (all: aOR 0.83, 95% CI 0.76-0.92; vaginal: aOR 0.82, 95% CI 0.74-0.91; cesarean: aOR 0.87, 95% CI 0.69-1.10). There was no change in the proportion of rehospitalization diagnoses between eras. CONCLUSIONS: Short infant LOS was 51% more common in the COVID-19 era, yet infant rehospitalization within a week did not increase. This natural experiment suggests shorter birth hospitalization LOS among family- and clinician-selected, healthy term infants may be safe with respect to infant rehospitalization, although examination of additional outcomes is needed."""
+
+

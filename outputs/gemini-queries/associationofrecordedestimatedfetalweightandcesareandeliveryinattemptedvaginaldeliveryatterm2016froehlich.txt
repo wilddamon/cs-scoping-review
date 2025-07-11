@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofrecordedestimatedfetalweightandcesareandeliveryinattemptedvaginaldeliveryatterm2016froehlich
+"OBJECTIVE: To evaluate the association between documentation of estimated fetal weight, and its value, with cesarean delivery. METHODS: This was a secondary analysis of a multicenter observational cohort of 115,502 deliveries from 2008 to 2011. Data were abstracted by trained and certified study personnel. We included women at 37 weeks of gestation or greater attempting vaginal delivery with live, nonanomalous, singleton, vertex fetuses and no history of cesarean delivery. Rates and odds ratios (ORs) were calculated for women with ultrasonography or clinical estimated fetal weight compared with women without documentation of estimated fetal weight. Further subgroup analyses were performed for estimated fetal weight categories (less than 3,500, 3,500-3,999, and 4,000 g or greater) stratified by diabetic status. Multivariable analyses were performed to adjust for important potential confounding variables. RESULTS: We included 64,030 women. Cesarean delivery rates were 18.5% in the ultrasound estimated fetal weight group, 13.4% in the clinical estimated fetal weight group, and 11.7% in the no documented estimated fetal weight group (P<.001). After adjustment (including for birth weight), the adjusted OR of cesarean delivery was 1.44 (95% confidence interval [CI] 1.31-1.58, P<.001) for women with ultrasound estimated fetal weight and 1.08 for clinical estimated fetal weight (95% CI 1.01-1.15, P=.017) compared with women with no documented estimated fetal weight (referent). The highest estimates of fetal weight conveyed the greatest odds of cesarean delivery. When ultrasound estimated fetal weight was 4,000 g or greater, the adjusted OR was 2.15 (95% CI 1.55-2.98, P<.001) in women without diabetes and 9.00 (95% CI 3.65-22.17, P<.001) in women with diabetes compared to those with estimated fetal weight less than 3,500 g. CONCLUSION: In this contemporary cohort of women attempting vaginal delivery at term, documentation of estimated fetal weight (obtained clinically or, particularly, by ultrasonography) was associated with increased odds of cesarean delivery. This relationship was strongest at higher fetal weight estimates, even after controlling for the effects of birth weight and other factors associated with increased cesarean delivery risk."""
+
+

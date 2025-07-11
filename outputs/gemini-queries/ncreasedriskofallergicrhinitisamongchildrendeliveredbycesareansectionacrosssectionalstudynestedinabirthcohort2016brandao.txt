@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasedriskofallergicrhinitisamongchildrendeliveredbycesareansectionacrosssectionalstudynestedinabirthcohort2016brandao
+"BACKGROUND: Few studies have evaluated the association between delivery by cesarean section (CS) and asthma, allergic rhinitis and chronic rhinitis and whether this association is different in children with and without a family history of asthma. This study aims to investigate whether children born by CS have a higher chance to develop asthma, allergic rhinitis and chronic rhinitis and to evaluate the influence of parental history of asthma on these associations. METHODS: This is a cross-sectional study of 672 children nested in a birth cohort evaluated at 6-years of age. Asthma and chronic/allergic rhinitis were identified by means of the mother's responses to the ISAAC questionnaire. The association between CS, asthma, chronic rhinitis and allergic rhinitis was evaluated by multivariable logistic regression. The evidence of effect modification of parental history of asthma on the association CS and outcomes was examined by introducing interactions terms in the logistic regression models adjusting for confounders. RESULTS: Asthma was not associated with birth by CS irrespective of parental history of asthma (odds ratio (OR) 1.03; 95 % CI 0.61-1.74). Chronic rhinitis and allergic rhinitis were both significantly associated with birth by CS but only in the subgroup of children with by parental history of asthma (OR 1.56; 95 % CI 1.04-2.34) and (OR 1.60; 95 % CI 1.01-2.55) respectively, after adjustment for confounders. The parental history of asthma was a effect modifier in the association between CS, chronic rhinitis and allergic rhinitis (p for effect modification = 0.10 and 0.02, respectively). CONCLUSION: CS increases the risk of chronic rhinitis and allergic rhinitis in children at 6 years of age with parental history of asthma. Health professionals must be alerted with regard to the increased risk of allergic rhinitis and made aware this is another reason to avoid unnecessary CS."""
+
+

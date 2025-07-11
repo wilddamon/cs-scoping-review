@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doseverematernalmorbidityandadequateprenatalcareaffectthedeliverycostanationwidecohortstudyfor11yearswithfollowup2019nam
+"OBJECTIVE: To explore whether severe maternal morbidity (SMM) and adequate prenatal care (PNC) affect delivery cost. DESIGN: Population-based retrospective cohort study. SETTING: National Health Insurance Service National Sample Cohort in Korea. POPULATION: A total of 90 035 deliveries in 2003 and 2013. METHODS: Severe maternal morbidity was determined using the Centers for Disease Control and Prevention's algorithm. Delivery medical costs were calculated by estimating claimed total medical costs using year-specific inflation adjustment factors. Adequate PNC was estimated by the Kessner Adequacy of Prenatal Care Index. To estimate adjusted mean delivery medical costs related to SMM, we applied a generalised estimating equation model with log link and g distribution, by adjusting for all covariates. MAIN OUTCOME MEASURES: Delivery cost was calculated by estimating claimed total medical cost during delivery hospitalisation using year-specific inflation. RESULTS: Of the 90 035 deliveries, 2041 (2.27%) involved SMM. Women with SMM had a greater adjusted mean cost of delivery (US$ 1,263, 95% CI US$ 1,196-1,334) than those without (US$ 740, 95% CI US$ 729-750). Interestingly, women who had inadequate PNC had higher delivery medical costs than those with adequate PNC, adjusted for all covariates. CONCLUSION: Delivery involving SMM was associated with nearly doubled medical costs. Additionally, inadequate PNC increased the medical costs of delivery. The current study confirmed the burden of SMM and found that adequate PNC might be a useful preventive factor in reducing medical costs. TWEETABLE ABSTRACT: We found that women with severe maternal morbidity and inadequate prenatal care had increased medical costs during delivery hospitalisation."""
+
+

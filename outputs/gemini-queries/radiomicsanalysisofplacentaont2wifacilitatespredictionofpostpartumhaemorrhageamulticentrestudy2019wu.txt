@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: radiomicsanalysisofplacentaont2wifacilitatespredictionofpostpartumhaemorrhageamulticentrestudy2019wu
+"BACKGROUND: Identification of pregnancies with postpartum haemorrhage (PPH) antenatally rather than intrapartum would aid delivery planning, facilitate transfusion requirements and decrease maternal complications. MRI has been increasingly used for placenta evaluation. Here, we aim to build a nomogram incorporating both clinical and radiomic features of placenta to predict the risk for PPH in pregnancies during caesarian delivery (CD). METHODS: A total of 298 pregnant women were retrospectively enrolled from Henan Provincial People's Hospital (training cohort: n = 207) and from The Third Affiliated Hospital of Zhengzhou University (external validation cohort: n = 91). These women were suspected with placenta accreta spectrum (PAS) disorders and underwent MRI for placenta evaluation. All of them underwent CD and were singleton. PPH was defined as more than 1000 mL estimated blood loss (EBL) during CD. Radiomic features were selected based on their correlations with EBL. Radiomic, clinical, radiological, clinicoradiological and clinicoradiomic models were built to predict the risk of PPH for each patient. The model with the best prediction performance was validated with its discrimination ability, calibration curve and clinical application. FINDINGS: Thirty-five radiomic features showed strong correlation with EBL. The clinicoradiomic model resulted in the best discrimination ability for risk prediction of PPH, with AUC of 0.888 (95% CI, 0.844-0.933) and 0.832 (95% CI, 0.746-0.913), sensitivity of 91.2% (95% CI, 85.8%-96.7%) and 97.6% (95% CI, 92.7%-100%) in the training and validation cohort respectively. For patients with severe PPH (EBL more than 2000 mL), 53 out of 55 pregnancies (96.4%) in the training cohort and 18 out of 18 (100%) pregnancies in the validation cohort were identified by the clinicoradiomic model. The model performed better in patients without placenta previa (PP) than in patients with PP, with AUC of 0.983 compared with 0.867, sensitivity of 100% compared with 90.8% in the training cohort, AUC of 0.832 compared with 0.815, sensitivity of 97.6% compared with 97.2% in the validation cohort. INTERPRETATION: The clinicoradiomic model incorporating both prenatal clinical factors and radiomic signature of placenta on T2WI showed good performance for risk prediction of PPH. The predictive model can identify severe PPH with high sensitivity and can be applied in patients with and without PP."""
+
+

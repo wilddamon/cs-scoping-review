@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationoftreatmentsforacuteappendicitiswithpregnancyoutcomesintheunitedstatesfrom2000to2016resultsfromamultilevelanalysis2021yang
+"BACKGROUND: Open appendectomy, laparoscopic appendectomy, and non-surgical treatment are three options to treat acute appendicitis during pregnancy. Previous studies on the association of different treatment methods for acute appendicitis with pregnancy outcomes have been limited by small sample sizes and residual confounding, especially with respect to hospital-level factors. This study aimed to investigate the association of treatment method for acute appendicitis with pregnancy outcomes using a multi-level analysis. METHODS: A retrospective cohort study was conducted based on a large electronic health records database in the United States during the period 2000 to 2016. All pregnancies diagnosed with acute appendicitis and treated in participating hospitals during the study period were included. We conducted multi-level hierarchical logistic regression to analyze both individual- and hospital-level factors for abortion, preterm labor, and cesarean section. RESULTS: A total of 10,271 acute appendicitis during pregnancy were identified during the study period. Of them, 5,872 (57.2%) were treated by laparoscopic appendectomy, 1,403 (13.7%) by open appendectomy, and 2,996 (29.2%) by non-surgical treatment. Compared with open appendectomy, both laparoscopic appendectomy (adjusted OR, 0.6, 95% CI, 0.4, 0.9) and non-surgical treatment (adjusted OR, 0.4; 95% CI, 0.3-0.7) showed a decreased risk of preterm labor. Other important individual-level determinants of adverse pregnancy outcomes included maternal age, gestational hypertension, and anemia during pregnancy, the hospital-level determinant included the number of beds. CONCLUSIONS: Compared with open appendectomy, both laparoscopic appendectomy and non-surgical treatment may be associated with a lower risk of preterm labor, without increased risks of abortion and cesarean section."""
+
+

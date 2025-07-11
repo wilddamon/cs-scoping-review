@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinwomenwithpolycysticovarysyndromeundergoinginvitrofertilization2016sterling
+"OBJECTIVE: To determine whether the diagnosis of polycystic ovary syndrome (PCOS) independently predicts increased rates of pregnancy complications relative to control subjects, after adjusting for important confounders. DESIGN: Retrospective cohort. SETTING: Not applicable. PATIENT(S): A review of all pregnancies after fresh IVF with or without intracytoplasmic sperm injection transfers from December 2006 to 2012 (n = 1,084) identified 394 eligible singleton births (71 women with PCOS; 323 controls without). INTERVENTION(S): Not applicable. MAIN OUTCOME MEASURE(S): Singleton births were assessed for selected adverse pregnancy and birth outcomes. RESULT(S): Women with PCOS demonstrated a higher risk of developing the following pregnancy complications after adjusting for differences in age, parity, body mass index, and time to conception: gestational diabetes (adjusted odds ratio [AOR] 3.15, 95% confidence interval [CI] 1.35-7.33), hypertensive disorders of pregnancy (AOR 4.25, 95% CI 1.94-9.32), preterm birth <37 weeks (AOR 2.30, 95% CI 1.07-4.97), and large for gestational age >90th percentile (AOR 2.77, 95% CI 1.21-6.35). The increased risk of preterm birth <37 weeks was eliminated after adjusting for development of hypertensive disorders of pregnancy, whereas the increased risk of large for gestational age remained significant after adjusting for gestational diabetes mellitus status. Time to conception did not differ significantly between groups, nor did rates of antepartum hemorrhage, cesarean section, or perinatal mortality. CONCLUSION(S): Polycystic ovary syndrome independently predicts higher risk of adverse pregnancy outcomes after adjusting for differences in maternal age, parity, body mass index, and time to conception. This new information may be of relevance in counseling and monitoring women with PCOS, although larger prospective studies may be needed to validate our findings."""
+
+

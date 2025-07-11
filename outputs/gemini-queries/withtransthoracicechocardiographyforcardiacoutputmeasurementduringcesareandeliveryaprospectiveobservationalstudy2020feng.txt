@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: electricalvelocimetryhaslimitedaccuracyandprecisionandmoderatetrendingabilitycomparedwithtransthoracicechocardiographyforcardiacoutputmeasurementduringcesareandeliveryaprospectiveobservationalstudy2020feng
+"We aimed to evaluate the accuracy and interchangeability of stroke volume and cardiac output measured by electrical velocimetry and transthoracic echocardiography during cesarean delivery.We enrolled 20 parturients in this prospective observational study. We recorded the stroke volume and cardiac output using both methods and compared the values at seven specific time points. We analyzed the data using linear regression analysis for Pearson's correlation coefficients and Bland-Altman analysis to determine percentage errors. We conducted a trending ability analysis based on the four-quadrant plot with the concordance rate and correlation coefficient.We recorded 124 paired datasets during cesarean delivery. The correlation coefficients of the measured cardiac output and stroke volume between the two methods were 0.397 (P < .001) and 0.357 (P < .001). The 95% limits of agreement were -1.0 to 8.1 L min for cardiac output and -10.4 to 90.4 ml for stroke volume. Moreover, the corresponding percentage errors were 62% and 60%. The concordance correlation coefficients were 0.447 (95% CI: 0.313-0.564) for stroke volume and 0.562 (95% CI: 0.442-0.662) for cardiac output. Both methods showed a moderate trending ability for stroke volume (concordance rate: 82% (95% CI: 72-90%)) and cardiac output (concordance rate: 85% (95% CI: 78-93%)).Our findings indicated that electrical velocimetry monitoring has limited accuracy, precision, and interchangeability with transthoracic echocardiography; however, it had a moderate trending ability for stroke volume and cardiac output measurements during cesarean delivery."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalexposuretoantibioticscesareansectionandriskofchildhoodobesity2015mueller
+"BACKGROUND/OBJECTIVES: Cesarean section (CS) and antibiotic use during pregnancy may alter normal maternal-offspring microbiota exchange, thereby contributing to aberrant microbial colonization of the infant gut and increased susceptibility to obesity later in life. We hypothesized that (i) maternal use of antibiotics in the second or third trimester of pregnancy and (ii) CS are independently associated with higher risk of childhood obesity in the offspring. SUBJECTS/METHODS: Of the 727 mothers enrolled in the Northern Manhattan Mothers and Children Study, we analyzed the 436 mother-child dyads followed until 7 years of age with complete data. We ascertained prenatal antibiotic use by a questionnaire administered late in the third trimester, and delivery mode by medical record. We derived age- and sex-specific body mass index (BMI) z-scores using the CDC SAS Macro, and defined obesity as BMI z95th percentile. We used binary regression with robust variance and linear regression models adjusted for maternal age, ethnicity, pre-gravid BMI, maternal receipt of public assistance, birth weight, sex, breastfeeding in the first year and gestational antibiotics or delivery mode. RESULTS: Compared with children not exposed to antibiotics during the second or third trimester, those exposed had 84% (33-154%) higher risk of obesity, after multivariable adjustment. Second or third trimester antibiotic exposure was also positively associated with BMI z-scores, waist circumference and % body fat (all P<0.05). Independent of prenatal antibiotic usage, CS was associated with 46% (8-98%) higher offspring risk of childhood obesity. Associations were similar for elective and non-elective CS. CONCLUSIONS: In our cohort, CS and exposure to antibiotics in the second or third trimester were associated with higher offspring risk of childhood obesity. Future studies that address the limitations of our study are warranted to determine if prenatal antibiotic use is associated with offspring obesity. Research is also needed to determine if alterations in neonatal gut microbiota underlie the observed associations."""
+
+

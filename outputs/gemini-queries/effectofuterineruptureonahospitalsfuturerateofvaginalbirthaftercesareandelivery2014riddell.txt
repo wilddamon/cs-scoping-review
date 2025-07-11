@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofuterineruptureonahospitalsfuturerateofvaginalbirthaftercesareandelivery2014riddell
+"OBJECTIVE: To identify whether a hospital's vaginal birth after cesarean delivery rate, trial of labor after cesarean delivery rate, or trial of labor success rate decrease after the occurrence of a uterine rupture. METHODS: The study population was drawn from the Nationwide Inpatient Sample, a sample of U.S. hospitals, between 1998 and 2010. We extracted deliveries to women with a previous cesarean delivery. International Classification of Diseases, 9th Revision, Clinical Modification codes were used to identify severe uterine ruptures and rates of vaginal birth, trial of labor, and trial of labor success. We used the difference-in-differences design and compared the rates of the outcomes before and after a rupture across hospitals using hospitals without ruptures to control for secular trends. Included in the analysis were 1,202,284 delivery records from 7,975 hospital-years without ruptures and 211,850 records from 510 hospital-years with uterine ruptures. RESULTS: Before the occurrence of a severe uterine rupture, there were an estimated 60 successful vaginal deliveries for every 100 women with a previous cesarean delivery who entered labor. In the month after the rupture, the trial of labor success rate decreased by an estimated 25 cases per 1,000 labors (95% confidence interval [CI] 6-44/1,000, P=.01) before returning to baseline. The percentage of women with a previous cesarean delivery who attempted vaginal delivery did not significantly change after the rupture. Overall, there were 17 more cesarean deliveries per 1,000 women with a previous cesarean delivery (95% CI 4-31/1,000, P=.01) in the month after the uterine rupture. CONCLUSION: The decrease in the trial of labor success rate after a recent uterine rupture is likely the result of short-term changes in risk evaluation."""
+
+

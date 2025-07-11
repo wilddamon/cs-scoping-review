@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: previouscesareandeliveryassociatedwithsubsequentpretermbirthintheunitedstates2018williams
+"OBJECTIVE: To examine the relationship between previous cesarean delivery and subsequent preterm birth in the second pregnancy among women in the United States with registered birth records. STUDY DESIGN: We conducted a retrospective cohort study utilizing United States birth certificate data to generate the study population, which consisted of women delivering a singleton infant in their second live birth (n = 1,076,517) in the year 2016. Preterm birth and previous cesarean delivery measures were derived from United States birth certificates. Covariates included maternal age, race/ethnicity, education, marital status, payer source for delivery, pre-pregnancy body mass index, previous preterm birth, interpregnancy interval, and factors in the second pregnancy such as hypertensive disorders, diabetes, and cigarette use, trimester prenatal care began, weight gain during pregnancy, and presence of congenital anomalies. Women who experienced a cesarean delivery in the first pregnancy were compared to those who did not. RESULTS: When controlling for all covariates, women who had a cesarean delivery in their first pregnancy were 14% more likely to have a preterm birth in their second pregnancy (OR = 1.137, 95% CI = 1.117-1.158) compared to women who had not previously experienced a cesarean delivery. When risk was analyzed by sub categories of preterm birth based on gestational age, a differential association was noted, with a 10% increased risk of delivering before 34 weeks, a 1% increased risk for delivery between 34-36 weeks and no increased risk for delivery after 36 weeks compared to delivery at 39-40 weeks. CONCLUSION: This small, but statistically significant association between previous cesarean section and subsequent preterm birth suggests that efforts to reduce the number of index cesarean sections may contribute to reducing the overall preterm birth rate in the United States."""
+
+

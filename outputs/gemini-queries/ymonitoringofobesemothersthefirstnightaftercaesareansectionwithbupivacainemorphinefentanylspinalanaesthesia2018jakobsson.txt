@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: portablerespiratorypolygraphymonitoringofobesemothersthefirstnightaftercaesareansectionwithbupivacainemorphinefentanylspinalanaesthesia2018jakobsson
+"Background: Obesity, abdominal surgery, and intrathecal opioids are all factors associated with a risk for respiratory compromise. The aim of this explorative trial was to study the apnoea/hypopnea index 1st postoperative night in obese mothers having had caesarean section (CS) in spinal anaesthesia with a combination of bupivacaine/morphine and fentanyl. Method(s): Consecutive obese (BMI >30 kg/m 2) mothers, >=18 years, scheduled for CS with bupivacaine/morphine/fentanyl spinal anaesthesia were monitored with a portable polygraphy device Embletta /NOX on 1 st postoperative night. The apnoea/hypopnea index (AHI) was identified by clinical algorithm and assessed in accordance to general guidelines; number of apnoea/hypopnea episodes per hour: <5 "normal", >=5 and <15 mild sleep apnoea, >=15 and <30 moderate sleep apnoea, >= 30 severe sleep apnoea. Oxygen desaturation events were in similar manner calculated per hour as oxygen desaturation index (ODI). Result(s): Forty mothers were invited to participate: 27 consented, 23 were included, but polysomnography registration failed in 3. Among the 20 mothers studied: 11 had an AHI <5 ( normal), 7 mothers had AHI >=5 but <15 ( mild OSAS) and 2 mothers had AHI >=15 ( moderate OSA), none had an AHI >= 30. The ODI was on average 4.4, and eight patients had an ODI >5. Mothers with a high AHI (15.3 and 18.2) did not show high ODI. Mean saturation was 94% (91-96%), and four mothers had mean SpO 2 90-94%, none had a mean SpO2 <90%. Conclusion(s): Respiratory polygraphy 1 st night after caesarean section in spinal anaesthesia with morphine in moderately obese mothers showed AHIs that in sleep medicine terms are considered normal, mild and moderate. Obstructive events and episodes of desaturation were commonly not synchronised. Further studies looking at preoperative screening for sleep apnoea in obese mothers are warranted but early postop respiratory polygraphy recording is cumbersome and provided sparse important information.Copyright (c) 2018 Hein A and Jakobsson JG."""
+
+

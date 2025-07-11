@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlyversusdelayedremovalofindwellingcathetersinpatientsafterelectivecesareansectionaprospectiverandomizedtrial2020basbug
+"Purpose: We conducted a prospective randomized controlled trial to compare postoperative urinary catheter removal 2 versus 12 h after elective cesarean section in terms of irritative symptoms, first void time, incidence of urinary tract infection, postoperative mobilization time, and hospitalization time.Methods: A total of 134 women admitted to Duzce University Hospital for primary or recurrent elective cesarean section were randomized into two groups. A total of 62 women were enrolled in the early group, with indwelling catheter removal 2 h after cesarean section; 74 women were enrolled in the delayed group, with catheter removal 12 h after the cesarean section. The groups were prospectively compared in terms of irritative urinary symptoms, bacteriuria, hematuria, length of hospital stay, and mobilization time.Results: Urinary frequency (p = .04), microscopic hematuria incidence (p = .04), postoperative mobilization time (p = .01), and length of hospital stay (p = .009) were significantly lower in the early group than in the delayed group. There were no significant differences in terms of bacteruria, urinary retention, dysuria, and first postoperative voiding time.Conclusions: Early removal of urinary catheters after elective cesarean section is associated with reduced mobilization time and hospital stay."""
+
+

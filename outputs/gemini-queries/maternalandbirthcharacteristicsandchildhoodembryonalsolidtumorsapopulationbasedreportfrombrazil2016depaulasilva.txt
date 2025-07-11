@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandbirthcharacteristicsandchildhoodembryonalsolidtumorsapopulationbasedreportfrombrazil2016depaulasilva
+"BACKGROUND: Several maternal and birth characteristics have been reported to be associated with an increased risk of many childhood cancers. Our goal was to evaluate the risk of childhood embryonal solid tumors in relation to pre- and perinatal characteristics. METHODS: A case-cohort study was performed using two population-based datasets, which were linked through R software. Tumors were classified as central nervous system (CNS) or non-CNS-embryonal (retinoblastoma, neuroblastoma, renal tumors, germ cell tumors, hepatoblastoma and soft tissue sarcoma). Children aged <6 years were selected. Adjustments were made for potential confounders. Odds ratios (OR) with 95% confidence intervals (CI) were computed by unconditional logistic regression analysis using SPSS. RESULTS: Males, high maternal education level, and birth anomalies were independent risk factors. Among children diagnosed older than 24 months of age, cesarean section (CS) was a significant risk factor. Five-minute Apgar <=8 was an independent risk factor for renal tumors. A decreasing risk with increasing birth order was observed for all tumor types except for retinoblastoma. Among children with neuroblastoma, the risk decreased with increasing birth order (OR = 0.82 (95% CI 0.67-1.01)). Children delivered by CS had a marginally significantly increased OR for all tumors except retinoblastoma. High maternal education level showed a significant increase in the odds for all tumors together, CNS tumors, and neuroblastoma. CONCLUSION: This evidence suggests that male gender, high maternal education level, and birth anomalies are risk factors for childhood tumors irrespective of the age at diagnosis. Cesarean section, birth order, and 5-minute Apgar score were risk factors for some tumor subtypes."""
+
+

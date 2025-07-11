@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancycomplicationsandmaternalbirthoutcomesinwomenwithintellectualanddevelopmentaldisabilitiesinwisconsinmedicaid2020rubenstein
+"BACKGROUND: Women with intellectual and developmental disabilities (IDD) may face greater risk for poor pregnancy outcomes. Our objective was to examine risk of maternal pregnancy complications and birth outcomes in women with IDD compared to women without IDD in Wisconsin Medicaid, from 2007-2016. METHODS: Data were from the Big Data for Little Kids project, a data linkage that creates an administrative data based cohort of mothers and children in Wisconsin. Women with >=1 IDD claim the year before delivery were classified as having IDD. Common pregnancy complications and maternal birth outcomes were identified from the birth record. We calculated risk ratios (RR) using log-linear regression clustered by mother. We examined outcomes grouped by IDD-type and explored interaction by race. RESULTS: Of 177,691 women with live births, 1,032 (0.58%) had an IDD claim. Of 274,865 deliveries, 1,757 were to mothers with IDD (0.64%). Women with IDD were at greater risk for gestational diabetes (RR: 1.28, 95% CI: 1.0, 1.6), gestational hypertension (RR: 1.22, 95% CI: 1.0, 1.5), and caesarean delivery (RR 1.32, 95% CI: 1.2, 1.4) compared to other women. Adjustment for demographic covariates did not change estimates. Women with intellectual disability were at highest risk of gestational hypertension. Black women with IDD were at higher risk of gestational hypertension than expected under a multiplicative model. CONCLUSIONS: Women with IDD have increased risk of pregnancy complications and adverse outcomes in Wisconsin Medicaid. Results were robust to adjustment. Unique patterns by IDD types and Black race warrant further exploration."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fructoselevelsaremarkedlyelevatedincerebrospinalfluidcomparedtoplasmainpregnantwomen2015hwang
+"Background: Fructose, unlike glucose, promotes feeding behavior in rodents and its ingestion exerts differential effects in the human brain. However, plasma fructose is typically 1/1000th of glucose levels and it is unclear to what extent fructose crosses the blood-brain barrier. We investigated whether local endogenous central nervous system (CNS) fructose production from glucose via the polyol pathway (glucose!sorbitol!fructose) contributes to brain exposure to fructose. Method(s): In this observational study, fasting glucose, sorbitol and fructose concentrations were measured using gas-chromatography-liquid mass spectroscopy in cerebrospinal fluid (CSF), maternal plasma, and venous cord blood collected from 25 pregnant women (6 lean, 10 overweight/obese, and 9 T2DM/gestational DM) undergoing spinal anesthesia and elective cesarean section. Result(s): As expected, CSF glucose was ~60% of plasma glucose levels. In contrast, fructose was nearly 20-fold higher in CSF than in plasma (p < 0.001), and CSF sorbitol was ~9-times higher than plasma levels (p < 0.001). Moreover, CSF fructose correlated positively with CSF glucose (rho 0.45, p = 0.02) and sorbitol levels (rho 0.75, p < 0.001). Cord blood sorbitol was also ~7-fold higher than maternal plasma sorbitol levels (p = 0.001). There were no differences in plasma, CSF, and cord blood glucose, fructose, or sorbitol levels between groups. Conclusion(s): These data raise the possibility that fructose may be produced endogenously in the human brain and that the effects of fructose in the human brain and placenta may extend beyond its dietary consumption. Copyright: This is an open access article, free of all (c), and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication."""
+
+

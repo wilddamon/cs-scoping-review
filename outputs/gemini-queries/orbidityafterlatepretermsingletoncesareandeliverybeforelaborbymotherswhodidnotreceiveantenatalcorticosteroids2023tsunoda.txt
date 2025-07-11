@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonatalrespiratorymorbidityafterlatepretermsingletoncesareandeliverybeforelaborbymotherswhodidnotreceiveantenatalcorticosteroids2023tsunoda
+"BACKGROUND: Some evidence suggests that administration of antenatal corticosteroids (ACS) reduces neonatal respiratory complications among women at risk for late preterm birth. However, because of concerns regarding long-term outcomes of children, ACS is not recommended in Japan for pregnant women at risk in late preterm. We assessed the risk of neonatal respiratory morbidity after late preterm, singleton, cesarean delivery before labor by mothers who did not receive ACS. METHODS: We retrospectively reviewed and analyzed data on singleton cesarean deliveries of late preterm infants. The prevalence of neonatal respiratory morbidity requiring ventilatory support, such as continuous positive airway pressure or mechanical ventilation, was analyzed in relation to gestational age in late preterm. Respiratory distress syndrome (RDS) in neonates was also evaluated. RESULTS: We analyzed data from 100 late preterm, singleton, cesarean deliveries: 22 neonates were delivered at 34 weeks, 34 at 35 weeks, and 44 at 36 weeks. Respiratory morbidity significantly decreased in relation to gestational age (p < 0.001). Similarly, there was a significant difference in RDS, which was most frequent at 34 weeks (18.2%, p = 0.017). There were no cases of RDS at 36 weeks. CONCLUSION: Late preterm, singleton, cesarean delivery before labor in mothers who did not receive ACS was associated with a need for ventilation, especially for infants born at 34 and 35 weeks. ACS treatment might therefore be beneficial before elective cesarean section for mothers with a risk of preterm delivery before 35 weeks and 6 days."""
+
+

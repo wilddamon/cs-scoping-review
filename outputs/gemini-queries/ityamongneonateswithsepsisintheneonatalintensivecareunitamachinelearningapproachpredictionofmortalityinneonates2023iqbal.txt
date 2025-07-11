@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofmortalityamongneonateswithsepsisintheneonatalintensivecareunitamachinelearningapproachpredictionofmortalityinneonates2023iqbal
+"Introduction: The use of machine learning (ML) methods can help clinicians predict neonatal sepsis better. Predicting mortality due to sepsis is essential for benchmarking and assessing NICU healthcare services. Methodology: The newborn records of those diagnosed with neonatal bacterial sepsis were reviewed retrospectively over five years. For feature selection and model development, the WEKA v-3.8.6 tool was employed. Numerous ML models, including Naive Bayes, Random Forest, Bagging, Logistic Regression, and J48 models, were created after identifying significant risk factors for newborn sepsis. Based on these models' reliability, we used them to predict sepsis and mortality in the NICU. Result(s): Records of 388 sepsis patients were used to build the model using training and test data sets. Mortality was best predicted using the feature selection method, OneR attribute evaluation + Ranker method, and logistic regression performed better (A = 88.4; ROC = 0.906) than others. Conclusion(s): These effective ML models can assist clinicians in forecasting mortality in neonates admitted to NICUs with sepsis.Copyright (c) 2023"""
+
+

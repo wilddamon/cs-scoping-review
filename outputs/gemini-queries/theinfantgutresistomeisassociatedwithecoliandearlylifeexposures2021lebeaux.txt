@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinfantgutresistomeisassociatedwithecoliandearlylifeexposures2021lebeaux
+"BACKGROUND: The human gut microbiome harbors a collection of bacterial antimicrobial resistance genes (ARGs) known as the resistome. The factors associated with establishment of the resistome in early life are not well understood. We investigated the early-life exposures and taxonomic signatures associated with resistome development over the first year of life in a large, prospective cohort in the United States. Shotgun metagenomic sequencing was used to profile both microbial composition and ARGs in stool samples collected at 6 weeks and 1 year of age from infants enrolled in the New Hampshire Birth Cohort Study. Negative binomial regression and statistical modeling were used to examine infant factors such as sex, delivery mode, feeding method, gestational age, antibiotic exposure, and infant gut microbiome composition in relation to the diversity and relative abundance of ARGs. RESULTS: Metagenomic sequencing was performed on paired samples from 195 full term (at least 37 weeks' gestation) and 15 late preterm (33-36 weeks' gestation) infants. 6-week samples compared to 1-year samples had 4.37 times (95% CI: 3.54-5.39) the rate of harboring ARGs. The majority of ARGs that were at a greater relative abundance at 6 weeks (chi-squared p < 0.01) worked through the mechanism of antibiotic efflux. The overall relative abundance of the resistome was strongly correlated with Proteobacteria (Spearman correlation = 78.9%) and specifically Escherichia coli (62.2%) relative abundance in the gut microbiome. Among infant characteristics, delivery mode was most strongly associated with the diversity and relative abundance of ARGs. Infants born via cesarean delivery had a trend towards a higher risk of harboring unique ARGs [relative risk = 1.12 (95% CI: 0.97-1.29)] as well as having an increased risk for overall ARG relative abundance [relative risk = 1.43 (95% CI: 1.12-1.84)] at 1 year compared to infants born vaginally. CONCLUSIONS: Our findings suggest that the developing infant gut resistome may be alterable by early-life exposures. Establishing the extent to which infant characteristics and early-life exposures impact the resistome can ultimately lead to interventions that decrease the transmission of ARGs and thus the risk of antibiotic resistant infections."""
+
+

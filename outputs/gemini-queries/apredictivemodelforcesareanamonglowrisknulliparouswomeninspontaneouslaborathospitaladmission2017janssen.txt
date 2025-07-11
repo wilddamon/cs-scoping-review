@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apredictivemodelforcesareanamonglowrisknulliparouswomeninspontaneouslaborathospitaladmission2017janssen
+"BACKGROUND: To determine if maternal characteristics measurable upon admission to hospital predict cesarean among low-risk spontaneously laboring nulliparous women.;METHODS: We undertook a secondary analysis of data from a clinical trial of early labor support for nulliparous women carrying a singleton fetus in cephalic presentation at 37-41 weeks of gestation in British Columbia, Canada. Study participants did not have any discernible risk factors for cesarean at the onset of labor. We developed a prediction model using logistic regression from a sample of 1,302 participants. Internal validation of the model was accomplished by 10-fold cross validation, after which probability scores were calculated based on the mean logistic regression model. To determine the accuracy of our predictive model, we calculated the specificity and sensitivity and the area under the receiver operating curve.;RESULTS: Advanced maternal age, shorter maternal height, greater gestational age, perception of labor lasting more than 24 hours, and mild or moderate contractions, less cervical dilation, and higher fetal station at time of hospital admission independently predicted cesarean. The C-statistic for the predictive model was 0.71 (0.64-0.75) and the sensitivity and specificity of the model were 0.80 (95% CI 0.76-0.84) and 0.48 (95% CI 0.44-0.52), respectively.;CONCLUSIONS: Among nulliparous women without apparent risk for cesarean at the time of hospital admission, cesarean delivery can be predicted with 70 percent accuracy using routinely collected information. Tailoring intrapartum care to promote vaginal birth according to a prediction model for cesarean risk deserves further study among apparently low risk women. Copyright (c) 2016 Wiley Periodicals, Inc."""
+
+

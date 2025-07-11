@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: centervariationinthedeliveryofindicatedlatepretermbirths2016aliaga
+"Objective Evidence for optimal timing of delivery for some pregnancy complications at late preterm gestation is limited. The purpose of this study was to identify center variation of indicated late preterm births. Study design We performed an analysis of singleton late preterm and term births from a large U.S. retrospective obstetrical cohort. Births associated with spontaneous preterm labor, major congenital anomalies, chorioamnionitis, and emergency cesarean were excluded. We used modified Poisson fixed effects logistic regression with interaction terms to assess center variation of indicated late preterm births associated with four medical/obstetric comorbidities after adjusting for socio-demographics, comorbidities, and hospital/provider characteristics. Results We identified 150,055 births from 16 hospitals; 9,218 were indicated late preterm births. We found wide variation of indicated late preterm births across hospitals. The extent of center variation was greater for births associated with preterm premature rupture of membranes (risk ratio [RR] across sites: 0.45-3.05), hypertensive disorders of pregnancy (RR across sites: 0.36-1.27), and placenta previa/abruption (RR across sites: 0.48-1.82). We found less center variation for births associated with diabetes (RR across sites: 0.65-1.39). Conclusion Practice variation in the management of indicated late preterm deliveries might be a source of preventable late preterm birth."""
+
+

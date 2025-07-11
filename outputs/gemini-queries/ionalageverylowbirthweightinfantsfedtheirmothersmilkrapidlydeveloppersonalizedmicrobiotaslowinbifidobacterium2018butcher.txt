@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: independentofbirthmodeorgestationalageverylowbirthweightinfantsfedtheirmothersmilkrapidlydeveloppersonalizedmicrobiotaslowinbifidobacterium2018butcher
+"BACKGROUND: Very-low-birth-weight (VLBW; born weighing <1500 g) infant feeding with mother's own milk (mother's milk) is associated with numerous beneficial health outcomes. Several interventions, including the prophylactic use of probiotics, are being adopted to promote a gastrointestinal microbiota favorable to the gut health of VLBW infants. An improved understanding of the microbiota that results from mother's milk feeding would therefore facilitate progress in this field. OBJECTIVE: A preplanned primary objective of this research was to characterize the development of the gut microbiota in exclusively mother's milk-fed VLBW infants and describe the reference taxonomic profile that results from mother's milk feeding. METHODS: In this prospective longitudinal cohort study, we collected weekly stool samples from exclusively mother's milk-fed VLBW infants admitted to Mount Sinai Hospital and profiled their gastrointestinal microbiota development from birth (primary outcome of stool collection). In total, we profiled 231 stools from 54 exclusively mother's milk-fed VLBW infants with the use of V6-16S ribosomal RNA gene sequencing. RESULTS: Bacterial evenness, but not bacterial richness, increased over time in VLBW infants (P < 0.001). Bifidobacterium relative abundances were consistently low in all microbiotas at all time points (<0.5% in 97% of samples). VLBW infant microbiotas did not cluster by birth mode, gestational age, or weeks after birth and instead clustered as a function of patient identity (R2 = 0.51, P < 0.001). CONCLUSIONS: Exclusively mother's milk-fed VLBW infants rapidly develop personalized gut microbiotas that show increasing evenness and are seemingly unaffected by birth mode or gestational age at birth. The benefits from mother's milk feeding are likely modulated through microbes or pathways that are not dependent on Bifidobacterium because these microbes are present at low levels in VLBW infants. These results help define a reference VLBW infant microbiota profile derived from mother's milk, the optimal source of nutrition for these infants. This trial was registered at ISRCTN (http://www.isrctn.com/) as ISRCTN35317141."""
+
+

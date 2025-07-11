@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theaccuracyofestimatingfetalweightusingultrasoundinwomenwithhighbodymassindex2019kilani
+"Objective: To determine the effect of maternal obesity on estimated fetal weight. Design(s): Prospective cohort study. Setting(s): Tertiary care hospital in Amman Al-Bashir Hospital. Subjects: 326 women admitted for elective delivery between November 2015 and January 2016 Intervention: Participants were divided into their weight parameters: normal, overweight, obese, and extremely obese according to WHO obesity standards. A pre-delivery ultrasound exam was performed, and estimated fetal weight was calculated. Actual fetal weight was measured 30 minutes after delivery. The difference between actual and estimated fetal body weight was calculated. Main Outcome Measure(s): Estimated fetal weight and measured postpartum fetal weight are equal. Result(s): There was a significant difference between the estimated fetal weight and the actual fetal weight. This difference was measured to be higher in extremely obese mothers when compared to mothers with a lower BMI. The difference between estimated fetal weight and actual fetal weight was 222 grams for the normal weight population, 240 grams for the overweight population, 287 grams for the obese population and 466 grams for the extremely obese population (P < 0.01). Conclusion(s): Fetal weight assessment becomes increasingly less accurate with increasing maternal BMI. Obstetricians need to take this into consideration when managing obese patients with complications.Copyright (c) 2019 DAR Publishers / The University of Jordan. All Rights Reserved."""
+
+

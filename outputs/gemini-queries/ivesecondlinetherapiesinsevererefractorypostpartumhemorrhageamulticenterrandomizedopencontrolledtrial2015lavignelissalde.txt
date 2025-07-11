@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: recombinanthumanfviiaforreducingtheneedforinvasivesecondlinetherapiesinsevererefractorypostpartumhemorrhageamulticenterrandomizedopencontrolledtrial2015lavignelissalde
+"BACKGROUND: Case reports on recombinant human factor VIIa (rhuFVIIa) use in women with severe postpartum hemorrhage (PPH) showed encouraging results, but no randomized controlled trial (RCT) is available. PATIENTS AND METHODS: Eighty-four women with severe PPH unresponsive to uterotonics were randomized to receive one early single rhuFVIIa infusion (n = 42) or standard care (no rhuFVIIa; n = 42). The primary efficacy outcome measure was the reduction of the need for specific second-line therapies, such as interventional hemostatic procedures, for blood loss and transfusions. The primary safety outcome measure was the number of deaths and thrombotic events during the 5 days following rhuFVIIa infusion. RESULTS: rhuFVIIa was associated with a reduction in the number of patients who needed second-line therapies compared with controls (standard care). Specifically, 39/42 (93%) patients in the standard care arm received second-line therapies and 22/42 (52%) patients in the rhuFVIIa arm (absolute difference, 41%; range, 18-63%; relative risk RR, 0.56 [0.42-0.76]). The delivery mode (vaginal or Cesarean section) did not affect the primary outcome. No death occurred. Two venous thrombotic events were recorded in the rhuFVIIa arm: one ovarian vein thrombosis and one deep vein thrombosis with a non-severe pulmonary embolism. CONCLUSION: This open RCT in women with severe PPH refractory to uterotonics shows that rhuFVIIa reduces the need for specific second-line therapies in about one in three patients, with the occurrence of non-fatal venous thrombotic events in one in 20 patients."""
+
+

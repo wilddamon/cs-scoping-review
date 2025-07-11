@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforpostpartumsepticpelvicthrombophlebitisamulticentercohort2017dotterskatz
+"Objective The objective of this study was to identify risk factors associated with the development of septic pelvic thrombophlebitis (SPT). Study Design This is a secondary case-control study of the Eunice Kennedy Shriver National Institute of Child Health and Human Development Maternal-Fetal Medicine Unit Network Cesarean Registry. SPT was defined as suspected infectious thrombosis of the pelvic veins, often persistent febrile illness in the setting of antibiotic therapy for endometritis. Women with SPT were compared with those without SPT using descriptive statistics. Logistic regression models estimated the association between selected risk factors and SPT. Results Of 73,087 women in the cohort, 89 (0.1%) developed SPT. Women with SPT were more likely to be < 20 years old (33.7 vs. 10.6%, p < 0.001), black race (58.4 vs. 29.1%, p < 0.001), and nulliparous (51.1 vs. 23.3%, p < 0.001). Hypertensive disorders of pregnancy (32.6 vs. 11.8%, p < 0.001) and multiple gestation (12.5 vs. 7.4%, p = 0.03) were also more common in women with SPT. In the multivariable regression model, maternal age < 20, black race, multiple gestation, and preeclampsia were all significantly associated with increased odds of SPT (adjusted odds ratio [aOR]: 1.96, 95% confidence interval [CI]: 1.22,3.14; aOR: 2.6, 95% CI: 1.68,4.02; aOR: 2.10,95% CI: 1.13, 3.88; aOR: 2.91, 95% CI: 1.86, 4.57). Conclusion SPT is a rare pregnancy complication. Our analysis confirmed known risk factors (e.g., infections, cesarean delivery), and identified novel ones, including black race, young age, preeclampsia, and multiple gestation."""
+
+

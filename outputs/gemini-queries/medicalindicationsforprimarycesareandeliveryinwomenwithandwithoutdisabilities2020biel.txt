@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: medicalindicationsforprimarycesareandeliveryinwomenwithandwithoutdisabilities2020biel
+"Background: Prior research has found that women with disabilities are more likely to deliver by cesarean than are women without disabilities. It is not clear whether all of the cesarean deliveries among women with disabilities are medically necessary.Objectives: To examine the associations between maternal disability status and type, mode of delivery, and medical indications for cesarean delivery in California deliveries.Study design: Retrospective cohort study of all nulliparous births in California between 2000 and 2012. We classified births as to whether or not women underwent a trial of labor and determined if medical indications for cesarean delivery were present. Multivariable logistic regression models examined the association of disability with trial of labor and indications for cesarean delivery.Results: Women with disabilities had lower odds of having a labored delivery, compared to women without disabilities (adjusted odds ratio (aOR) = 0.45, 95% confidence interval (CI) 0.41-0.49). In the sample of women who labored (90.5% of total), women with disabilities were more likely to have a medical indication for cesarean delivery (aOR = 1.15, 95% CI 1.10-1.21) and were more likely to have a cesarean delivery (aOR = 1.46, 95% CI = 1.38-1.54). In the subsample of unlabored cesarean deliveries, women with disabilities were less likely to have documented medical indications for cesarean delivery (aOR = 0.45, 95% CI = 0.41-0.50).Conclusions: Women with disabilities were less likely to labor, and these unlabored cesarean deliveries were less likely to have a medical indication for cesarean, compared to women without disabilities."""
+
+

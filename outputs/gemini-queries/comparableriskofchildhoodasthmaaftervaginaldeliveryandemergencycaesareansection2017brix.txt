@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparableriskofchildhoodasthmaaftervaginaldeliveryandemergencycaesareansection2017brix
+"INTRODUCTION: Caesarean section is thought to be a risk factor for childhood asthma, but this association may be caused by confounding from, for instance, familial factors. To address this problem, we used twin pairs to assess the risk of childhood asthma after emergency caesarean section. METHODS: The study was a register-based nation-wide matched cohort study using twin pairs to minimise residual confounding. Included were twin pairs in which the first twin was delivered vaginally and the second by emergency caesarean section during the study period from January 1997 through December 2012. RESULTS: In total, 464 twin pairs (928 twins) were included. In 30 pairs, the first twin (vaginal delivery) was diagnosed with asthma, but the second twin (emergency caesarean section) was not. In 20 pairs, the second twin (emergency caesarean section) was diagnosed with asthma, but the first twin (vaginal delivery) was not. In 11 pairs, both twins developed asthma. In the unadjusted analysis, emergency caesarean section did not affect the risk of asthma (odds ratio = 0.67 (95% confidence interval: 0.38-1.17); p = 0.16). After adjusting for birth weight, gender, umbilical cord pH, Apgar score at 5 min. and neonatal respiratory morbidity, the risk of childhood asthma following emergency caesarean section remained unchanged. CONCLUSION: Emergency caesarean section was not associated with childhood asthma. FUNDING: none. TRIAL REGISTRATION: not relevant."""
+
+

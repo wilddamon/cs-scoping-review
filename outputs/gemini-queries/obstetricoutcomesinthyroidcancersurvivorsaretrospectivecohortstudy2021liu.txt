@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricoutcomesinthyroidcancersurvivorsaretrospectivecohortstudy2021liu
+"OBJECTIVE: To investigate whether thyroid cancer survivors would have increased risks of adverse obstetric outcomes. METHODS: Data from 154 women with a history of thyroid cancer who had a live birth at Peking University Third Hospital from January 2012 to December 2019 were collected. The control group consisted of 308 women without any thyroid disease or malignant tumor. Age and year of delivery were matched between the two groups. RESULTS: Serum levels of thyroid stimulating hormone and free thyroxine were significantly lower and higher in thyroid cancer patients, respectively (P < 0.001). After adjusting for age, pre-pregnancy body mass index, pre-pregnancy hypertension, pre-pregnancy diabetes mellitus, previous cesarean section, and conception by in vitro fertilization/intracytoplasmic injection, adverse obstetric outcomes including preterm birth (odds ratio [OR] 0.73, 95% confidence interval [CI] 0.32-1.67), low birth weight infant (OR 1.05, 95% CI 0.44-2.50), gestational diabetes mellitus (OR 0.86, 95% CI 0.54-1.39), and pre-eclampsia (OR 1.11, 95% CI 0.34-3.57) showed no differences between thyroid cancer survivors and the control group. However, pregnant women with a history of thyroid cancer had a higher risk of abnormally invasive placentation (OR 10.57, 95% CI 1.22-91.97, P = 0.032). CONCLUSION: Although the thyroid function status of thyroid cancer patients was different from that of pregnant women without any thyroid disease or malignancy, they would not be at a higher risk of most adverse obstetric outcomes except for abnormally invasive placentation."""
+
+

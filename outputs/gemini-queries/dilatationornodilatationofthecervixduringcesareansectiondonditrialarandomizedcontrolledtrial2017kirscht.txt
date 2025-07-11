@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: dilatationornodilatationofthecervixduringcesareansectiondonditrialarandomizedcontrolledtrial2017kirscht
+"PURPOSE: To assess the effects of mechanical dilatation of the cervix during cesarean section on postoperative morbidity.;METHODS: A total of 447 women with elective cesarean section were included in the Dondi trial (Dilatation or no dilatation of the cervix during cesarean section). The primary outcome measure of this randomized controlled trial was postpartum hemorrhage (PPH) within 6 weeks. Infectious morbidity (puerperal fever, endometritis, wound infection, and urinary tract infection), blood loss (need for blood transfusion or change in hemoglobin levels), and operating time were also evaluated.;RESULTS: The rate of PPH within 6 weeks was not different between the two groups [dilatation group: 5 (2.4 %), no dilatation group: 3 (1.2 %), p = 0.479]. Infectious morbidity, blood loss, and operating time were not diverse as well. The only significant difference between the two groups was the rate of retained products of conception with fewer cases after cervical dilatation (0 versus 6.2 %, p < 0.001).;CONCLUSIONS: Dilatation of the cervix during cesarean section compared with no dilatation of the cervix did not influence the risk of postpartum hemorrhage. However, there were fewer cases with retained products of conception after dilatation."""
+
+

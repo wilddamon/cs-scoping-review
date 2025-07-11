@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: extremelypretermneonateshavemorelactobacillusinmeconiumthanverypretermneonatestheinuteromicrobialcolonizationhypothesis2020morais
+"Growing evidence suggests that maternal microbiota can influence the neonates' gut colonization. However, the mechanisms of vertical bacterial transmission remain poorly defined. We believed that the first colonizers of the newborn come from the mother's gut and vagina during pregnancy and that this is independent of the mode of delivery. We conducted an observational longitudinal study to evaluate the link between the maternal gut microbiota and the meconium's microbiota in extremely and very preterm neonates. Bacterial DNA was extracted from samples and specific bacterial groups were quantified by RT-PCR. In this cohort of 117 preterm neonates, we detected bacterial DNA in 88% of meconium samples. Meconium microbiota of neonates born after 28 gestational weeks (very preterm neonates) showed stronger correlations with their mothers' fecal microbiota. However, neonates born before 28 gestational weeks (extremely preterm neonates) had more Lactobacillus - genus that dominated the vaginal microbiota - than very preterm neonates, regardless of the mode of delivery. Collectively, these data support the hypothesis that maternal bacteria from the gut and vagina can play a role in shaping neonates' gut microbiota and that mother-to-infant bacterial transmission is a controlled and time-specific process. ClinicalTrials.gov Identifier: NCT03663556."""
+
+

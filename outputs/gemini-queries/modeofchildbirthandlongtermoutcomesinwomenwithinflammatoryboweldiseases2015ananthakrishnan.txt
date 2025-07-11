@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modeofchildbirthandlongtermoutcomesinwomenwithinflammatoryboweldiseases2015ananthakrishnan
+"INTRODUCTION: Inflammatory bowel diseases [IBD; Crohn's disease (CD), ulcerative colitis] often affect women in their reproductive years. Few studies have analyzed the impact of mode of childbirth on long-term IBD outcomes. METHODS: We used a multi-institutional IBD cohort to identify all women in the reproductive age-group with a diagnosis of IBD prior to pregnancy. We identified the occurrence of a new diagnosis code for perianal complications, IBD-related hospitalization and surgery, and initiation of medical therapy after either a vaginal delivery or caesarean section (CS). Cox proportional hazards models adjusting for potential confounders were used to estimate independent effect of mode of childbirth on IBD outcomes. RESULTS: Our cohort included 360 women with IBD (161 CS). Women in the CS group were likely to be older and more likely to have complicated disease behavior prior to pregnancy. During follow-up, there was no difference in the likelihood of IBD-related surgery (multivariate hazard ratio 1.75, 95 % confidence interval (CI) 0.40-7.75), IBD-related hospitalization (HR 1.39), initiation of immunomodulator therapy (HR 1.45), or anti-TNF therapy (HR 1.11). Among the 133 CD pregnancies with no prior perianal disease, we found no excess risk of subsequent new diagnosis perianal fistulae with vaginal delivery compared to CS (HR 0.19, 95 % CI 0.04-1.05). CONCLUSIONS: Mode of delivery did not influence natural history of IBD. In our cohort, vaginal delivery was not associated with increased risk of subsequent perianal disease in women with CD."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: foetomaternaloutcomeinmothersaged30yearsandabovecomparedtomothersaged19yearsandbelow2023anand
+"Background: High risk pregnancies are a small segment of the obstetrical population that produces the majority of the maternal and neonatal mortality and morbidity. Objective(s): To compare these two high risk groups, to see whether that affects the foeto-maternal outcome. Method(s): This is a prospective, comparative study conducted at Department Of Obstetrics & Gyanecology, Darbhanga Medical College & Hospital, Laheriasarai, Bihar, from March 2015 to August 2016. Result(s): In the elderly group, the most statistically significant observation was anaemia. Since this age group was mostly multiparous (78%), repeated childbirths at close intervals seem a plausible cause. So, even in this group, contraception for spacing is very essential to help the mother replenish her iron stores after childbirth and lactation. Since the obstetric performance and neonatal outcome have no significant difference between the two groups of mothers <= 19 yrs and >= 30 yrs. Conclusion(s): It is logical to conclude that given appropriate psychological support and antenatal care, the pregnancy outcome in teenage mothers is comparable to that of the older mothers. So, teenage pregnancy is more of a social issue, albeit, a very important one.Copyright (c) 2023 EManuscript Technologies. All rights reserved."""
+
+

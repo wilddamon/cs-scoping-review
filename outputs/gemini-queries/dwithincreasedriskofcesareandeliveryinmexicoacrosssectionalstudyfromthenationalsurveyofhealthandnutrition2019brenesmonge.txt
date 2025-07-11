@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: areoverweightandobesityassociatedwithincreasedriskofcesareandeliveryinmexicoacrosssectionalstudyfromthenationalsurveyofhealthandnutrition2019brenesmonge
+"BACKGROUND: In Mexico, obesity is a major public health problem; 71% of adults are overweight or obese. The proportion of deliveries by cesarean is also very high (45%). Women of reproductive age with overweight or obesity may be at higher risk of cesarean. METHODS: We conducted a cross-sectional study to test the association between overweight and obesity (using body mass index, BMI) and cesarean delivery in Mexico using data from the 2012 National Survey of Health and Nutrition (ENSANUT). Our sample included women of reproductive age at the time of survey who reported a live birth between 2006 and 2012. We used bivariate statistics and a multivariate logistic regression model to test the association between measured BMI and self-reported cesarean delivery. We included individual, clinical, and household level confounders and used survey weights to produce population estimates. RESULTS: Our sample consisted of 4,570 women (population N = 7,447,541). Overall, 44% of the women reported a cesarean at last delivery. We found differences in the proportion of cesarean delivery by BMI group (normal = 39%; 95% CI [35-43]; overweight = 42%; 95% CI [38-45]; obesity = 52%; 95% CI [48-57]; p < 0.001). In multivariable models controlling for socio-demographic and clinical characteristics, we found a strong and independent association between obesity and cesarean delivery among multiparous women, compared with multiparous women with normal BMI (obesity aOR: 1.60; 95% CI [1.21-2.12]). CONCLUSIONS: We provide new evidence about the proportion of women with overweight and obesity who deliver in Mexico. Multiparous women with obesity are at higher risk of cesarean delivery in Mexico than multiparous women with normal body mass index. Given the high prevalence of both obesity and cesarean delivery in Mexico, this relationship is salient for women, health care providers, and the health system. Efforts to reduce the cesarean deliveries rate need to take the obesity epidemic into account."""
+
+

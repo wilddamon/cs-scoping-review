@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: insulindosingglycemiccontrolandperinataloutcomesinpregnanciescomplicatedbytype2diabetes2021nadeau
+"OBJECTIVE: This study aimed to evaluate the prevalence of severe insulin resistance (insulin requirements >=2 units/kg) at delivery and the relationship between severe insulin resistance, glycemic control, and adverse perinatal outcomes in pregnant women with type-2 diabetes mellitus. STUDY DESIGN: This is a retrospective cohort study of women with type-2 diabetes mellitus who delivered between January 2015 and December 2017 at a tertiary academic medical center. Maternal demographic information, self-monitored blood sugars, and insulin doses were abstracted from the medical record. Multivariable logistic regression was used to identify maternal baseline characteristics associated with severe insulin resistance at delivery. RESULTS: Overall 72/160 (45%) of women had severe insulin resistance. Women in the severe insulin resistance group demonstrated evidence of suboptimal glycemic control as evidenced by higher mean hemoglobin A1c (HbA1c) values (7.2 [ +- 1.1] vs. 6.6 [ +- 1.3%], p = 0.003), higher mean fasting (104.0 [ +- 17.4] vs. 95.2 [ +- 11.7 mg/dL], p < 0.001) and postprandial glucose values (132.4 [ +- 17.2] vs. 121.9 [ +- 16.9 mg/dL]), p < 0.001), and a higher percentage of total glucose values that were elevated above targets (37.7 [95% confidence interval (CI): 26.8-50] vs. 25.6 [95% CI: 13.3-41.3%], p < 0.001). Maternal HbA1c >=6.5% and insulin use prior to pregnancy were associated with a higher prevalence of severe insulin resistance, while Hispanic ethnicity and non-White race were associated with a lower prevalence of severe insulin resistance. The rates of adverse perinatal outcomes including large for gestational age (LGA) birth weight, cesarean delivery, and hypertensive disorders of pregnancy did not differ between groups. CONCLUSION: Severe insulin resistance is common among pregnant women with type-2 diabetes, and it is associated with suboptimal glycemic control. Future studies are necessary to develop strategies to identify women with severe insulin resistance early in pregnancy and facilitate adequate insulin dosing. KEY POINTS: * Severe insulin resistance is common.. * BMI does not predict severe insulin resistance.. * Suboptimal glycemic control is common.."""
+
+

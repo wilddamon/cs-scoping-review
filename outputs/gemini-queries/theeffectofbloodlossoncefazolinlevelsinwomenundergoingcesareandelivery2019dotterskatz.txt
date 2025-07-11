@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofbloodlossoncefazolinlevelsinwomenundergoingcesareandelivery2019dotterskatz
+"OBJECTIVE: To quantify the effects of operative blood loss during cesarean on tissue and plasma cefazolin concentrations. STUDY DESIGN: This was a prospective observational study of singleton pregnancies undergoing scheduled cesarean between 34 and 40 weeks. Cefazolin administered prior to skin incision. Maternal plasma samples were obtained (Time 1[T1]: immediately, T2: 20 minutes, T3: 40 minutes, and T4: 60 minutes after cefazolin infusion). Subcutaneous adipose tissue sampled before and after fascia. Primary outcome was subcutaneous adipose cefazolin level after fascial closure. Formal quantitative blood loss (QBL) performed. Women with higher QBL, those at/above 75% of QBL in this population, were compared with those with lower QBL (QBL below 75%). Data analyzed using bivariable statistics. RESULTS: Ninety-two women were screened, 32 were eligible, and 20 enrolled. Median QBL was 630 mL (interquartile range [IQR]: 473-818) and 1,160 mL (IQR: 1,000-1,560) in the low and high QBL groups, respectively. Demographics and operative characteristics were similar. Median adipose cefazolin level after fascial closure did not differ between the groups (3.5 vs. 3.9 mg/g, p = 0.75). No differences in maternal plasma cefazolin concentrations between the groups at any time point or in pharmacokinetic parameters were seen. CONCLUSION: Intraoperative maternal plasma concentrations and adipose levels of cefazolin are similar between women with high and low blood loss at the time of cesarean delivery."""
+
+

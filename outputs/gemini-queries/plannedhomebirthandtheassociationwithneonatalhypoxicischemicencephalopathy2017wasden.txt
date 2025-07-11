@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: plannedhomebirthandtheassociationwithneonatalhypoxicischemicencephalopathy2017wasden
+"OBJECTIVE: To evaluate the association between planned home birth and neonatal hypoxic ischemic encephalopathy (HIE). METHODS: This is a case-control study in which a database of neonates who underwent head cooling for HIE at our institution from 2007 to 2011 was linked to New York City (NYC) vital records. Four normal controls per case were then randomly selected from the birth certificate data after matching for year of birth, geographic location, and gestational age. Demographic and obstetric information was obtained from the vital records for both the cases and controls. Location of birth was analyzed as hospital or out of hospital birth. Details from the out of hospital deliveries were reviewed to determine if the delivery was a planned home birth. Maternal and pregnancy characteristics were examined as covariates and potential confounders. Logistic regression was used to determine the odds of HIE by intended location of delivery. RESULTS: Sixty-nine neonates who underwent head cooling for HIE had available vital record data on their births. The 69 cases were matched to 276 normal controls. After adjusting for pregnancy characteristics and mode of delivery, neonates with HIE had a 44.0-fold [95% confidence interval (CI) 1.7-256.4] odds of having delivered out of hospital, whether unplanned or planned. Infants with HIE had a 21.0-fold (95% CI 1.7-256.4) increase in adjusted odds of having had a planned home birth compared to infants without HIE. CONCLUSION: Out of hospital birth, whether planned home birth or unplanned out of hospital birth, is associated with an increase in the odds of neonatal HIE."""
+
+

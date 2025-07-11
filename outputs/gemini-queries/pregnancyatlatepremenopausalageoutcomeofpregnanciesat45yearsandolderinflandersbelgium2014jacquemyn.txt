@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyatlatepremenopausalageoutcomeofpregnanciesat45yearsandolderinflandersbelgium2014jacquemyn
+"To describe the obstetric outcome in women at ages >= 45. A retrospective cohort study on a large existing database covering all deliveries in the Flanders region, Belgium, was performed, comparing obstetric outcomes at age 25, 35, 40 and 45 or older, for the period 2005-2010. In the period studied, 421 women gave birth at maternal age >= 45 vs 3,405, 15,206, 22,586 at ages 40, 35 and 25, respectively. With advancing maternal age, a significant linear increase for low birth weight (< 2,500 g) and preterm delivery (< 37, < 35 weeks and < 29 weeks), maternal hypertension and diabetes, both primary and secondary caesarean section, was noted. Between ages 40 and >= 45, both fetal and early neonatal death demonstrated a significant rise from 4.9/1,000 and 1.8/1,000 to 26/1,000 and 9.5/1,000, respectively. With advancing maternal age, a gradual but not statistically significant decline in the proportion of male fetuses was noted, from 51.6% at 25, to 47.2% in the oldest group. Multivariate analysis confirmed advanced maternal age to be a significant factor in low birth weight, preterm delivery, hypertension, diabetes, caesarean section and perinatal mortality. In Flanders, mothers at age 45 and older have a significantly increased risk for low birth weight, preterm delivery, hypertension, diabetes, caesarean section and perinatal mortality."""
+
+

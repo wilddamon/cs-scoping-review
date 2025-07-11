@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinstituteofmedicinerecommendationforgestationalweightgainisprobablynotoptimalamongnonamericanpregnantwomenaretrospectivestudyfromchina2019jiang
+"PURPOSE: To investigate whether the Institute of Medicine (IOM) recommended gestational weight gain (GWG) range is optimal among Chinese singleton pregnant women. METHODS: For the purpose of a retrospective observational study, data on 8209 mature singleton deliveries in Shanghai from January 2014 to December 2016 were extracted from medical records in terms of clinical performance. All cases were categorized as undergainers, appropriate-gainers, and above-gainers according to IOM recommended gestational weight gain range after stratification of maternal BMI and proportions of three categories were calculated. Comparisons of maternal and neonatal outcome were conducted among three categories and the associations of those outcome including risks of low birth weight (LBW) and macrosomia (MAC) with GWG were estimated by logistic regression analysis. To examine the applicability of IOM recommendation for Chinese pregnant women, the accumulated risk of LBW and MAC was displayed by stacked column chart and comparison was made among GWG category. The joint predicted risk (JPR) curve of both LBW and MAC in relation to GWG (continuous measurement) was plotted to demonstrate the relation of lowest JPR corresponding GWG with IOM range. RESULTS: The IOM recommended weight gain was achieved only by 3502 (42.7%) pregnant women and 41.6% gained excessive weight during pregnancy, especially for the overweight and obese women, the proportions of above-gainers mounting to 65.7 and 75.9%, respectively. By multivariate analysis GWG significantly influenced the risk of MAC and caesarean section. Although the association between the risk of LBW and GWG was not significant, p value reached .051. The risk of delivering macrosomia and caesarean section doubled when GWG exceeded the IOM rang. Appropriate gainers did not always gain the lowest joint risk of low birth weight and macrosomia from stacked column chart and it is obvious that the GWG point according to the lowest JPR was always located left to the IOM recommended range for each BMI category from the JPR curve chart in relation to GWG. CONCLUSIONS: The IOM recommended GWG range is possibly too much for Chinese singleton pregnant population for each BMI category. It is necessary to build different gestational weight gain standards for specific ethnic population."""
+
+

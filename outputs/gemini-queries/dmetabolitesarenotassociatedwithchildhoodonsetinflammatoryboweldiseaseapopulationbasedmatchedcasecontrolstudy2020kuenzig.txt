@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: serumnewbornscreeningbloodmetabolitesarenotassociatedwithchildhoodonsetinflammatoryboweldiseaseapopulationbasedmatchedcasecontrolstudy2020kuenzig
+"BACKGROUND: Originally used for screening of inborn errors of metabolism, routine metabolite profiles of newborns have also been associated with prematurity and some childhood diseases. We sought to determine whether metabolites measured during routine newborn screening could identify infants who develop inflammatory bowel disease (IBD) in childhood. METHODS: We conducted a population-based matched case-control study using health administrative data from Ontario, Canada. Children born 2006 to 2015 with IBD were identified using a validated algorithm and matched to 5 controls based on birth date, sex, rural/urban household, and mean neighborhood income quintile at birth. Cases and controls were linked deterministically to metabolic profiles from Newborn Screening Ontario. We fit a lasso penalized logistic regression model and used 10-fold cross-validation to obtain internally valid performance measures. Models included metabolites, amino acids, and endocrine markers. Models also included ratios of metabolites, gestational age, birth weight, mode of delivery, age at serum collection, maternal age at delivery, maternal history of IBD, and parity. RESULTS: Three hundred eight cases of IBD, diagnosed at 5.5 +- 2.8 years, were matched to 1540 controls. No individual metabolites were associated with IBD. The c-statistic was 0.50 for the training data. After 10-fold cross-validation the C statistic was 0.50, indicating no significant association between metabolites and IBD diagnosis. CONCLUSIONS: Newborn screening serum metabolites could not identify children who will develop IBD in this population-based cohort. Future studies with an expanded panel of metabolites may provide improved prediction of IBD."""
+
+

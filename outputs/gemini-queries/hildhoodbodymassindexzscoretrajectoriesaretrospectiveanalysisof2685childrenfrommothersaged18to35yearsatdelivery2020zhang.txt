@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationsbetweendeliverymodeandearlychildhoodbodymassindexzscoretrajectoriesaretrospectiveanalysisof2685childrenfrommothersaged18to35yearsatdelivery2020zhang
+"Objective: To investigate the association between cesarean delivery (CD) and trajectory patterns of age- and sex-specific body mass index (BMI) z-score in early childhood. Methods: A retrospective cohort study was conducted among 2,685 children whose maternal age at the time of birth was between 18 and 35 years, and birth data and anthropometric measurement data during their ages 3-60 months were collected. A group-based trajectory modeling approach was used to identify distinct BMI z-score trajectories, and multinomial logistic regressions were applied to estimate the associations among CD (both elective and non-elective combined), elective and non-selective CD, and BMI z-score trajectory classes. Results: Of the 2,685 participants, 46.5% (N = 1,248) were born by vaginal delivery (VD), 20.7% (N = 556) by elective CD, and 32.8% (N = 881) by non-elective CD. Five BMI z-score trajectory patterns were identified, and they were 'increasing from moderate to high' (10.1%, n = 270), 'increasing from mild to moderate' (34.2%, n = 919), 'increasing from low to high' (10.5%, n = 283), 'stable mild' (30.1%, n = 808), and 'stable low' (15.1%, n = 405) groups. Compared with children delivered by VD, those who delivered by CD (both elective and non-elective combined), elective CD, and non-elective CD were associated with the 'increasing from moderate to high' trajectory [odds ratio (OR) = 1.61, 95% confidence interval (CI): 1.13-2.29; OR = 1.64, 95%CI: 1.06-2.54; and OR = 1.59, 95%CI: 1.05-2.39, respectively] and were also associated with the 'increasing from low to high' trajectory (OR = 1.60, 95%CI: 1.17-2.19, OR = 1.75, 95%CI: 1.16-2.63; and OR = 1.53, 95%CI: 1.00-2.34, respectively). Conclusion: Both elective and non-elective CD were associated with the risk of accelerated weight gain in early childhood."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforsurgicalsiteinfectionfollowingcesareandeliveryaretrospectivecohortstudy2017ketcheson
+"BACKGROUND: The rate of cesarean delivery is increasing in North America. Surgical site infection following this operation can make it difficult to recover, care for a baby and return home. We aimed to determine the incidence of surgical site infection to 30 days following cesarean delivery, associated risk factors and whether risk factors differed for predischarge versus postdischarge infection. METHODS: We identified a retrospective cohort in Nova Scotia by linking the provincial perinatal database to hospital admissions and physician billings databases to follow women for 30 days after they had given birth by cesarean delivery between Jan. 1, 1997 and Dec. 31, 2012. Logistic regression with generalized estimating equations was used to determine risk factors for infection. RESULTS: A total of 25 123 women had 33 991 cesarean deliveries over the study period. Of the 25 123, 923 had surgical site infections, giving an incidence rate of 2.7% (95% CI 2.54%-2.89%); the incidence decreased over time. Risk factors for infection (adjusted odds ratios >= 1.5) were prepregnancy weight 87.0 kg or more, gaining 30.0 kg or more during pregnancy, chorioamnionitis, maternal blood transfusion, anticoagulation therapy, alcohol or drug abuse, second stage of labour before surgery, delivery in 1997-2000 and delivery in a hospital performing 130-1249 cesarean deliveries annually. Women who gave birth earlier in the study period, those who gave birth in a hospital with 130-949 cesarean deliveries per year and those with more than 1 fetus were at a significantly higher risk for surgical site infection before discharge; women who smoked were at significantly higher risk for surgical site infection after discharge. INTERPRETATION: Most risk factors are known before delivery, and some are potentially modifiable. Although the incidence of surgical site infection decreased over time, targeted clinical and infection prevention and control interventions could further reduce the burden of illness associated with this health-care-related infection."""
+
+

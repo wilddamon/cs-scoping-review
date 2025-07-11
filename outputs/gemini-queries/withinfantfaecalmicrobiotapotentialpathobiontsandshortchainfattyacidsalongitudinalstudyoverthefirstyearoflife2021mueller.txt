@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofbirthmodeofdeliverywithinfantfaecalmicrobiotapotentialpathobiontsandshortchainfattyacidsalongitudinalstudyoverthefirstyearoflife2021mueller
+"OBJECTIVE: Caesarean section (CS) interrupts mother-to-newborn microbial transfer at birth. Beyond the neonatal period, the impact of CS on offspring gut microbiota and their short-chain fatty acids (SCFAs) remains unclear. Here, we examine birth delivery mode (CS versus vaginal delivery) with the infant gut microbiota and faecal SCFAs measured 3 and 12 months after birth. DESIGN: Longitudinal study. SETTING: North Carolina. POPULATION: In 2013-15, we enrolled pregnant women and followed up their offspring for 12 months. We asked a subset of participants, enrolled over a 3-month period, to provide faecal samples at the 3- and 12-month follow-up visits. METHODS AND MAIN OUTCOMES: We sequenced the 16S rRNA V4 region with Illumina MiSeq and quantified SCFA concentrations using gas chromatography. We examined delivery mode with differential abundance of microbiota amplicon sequence variants (ASVs) using beta-binomial regression and faecal SCFAs using linear regression. We adjusted models for confounders. RESULTS: Of the 70 infants in our sample, 25 (36%) were delivered by CS. Compared with vaginal delivery, CS was associated with differential abundance of 14 infant bacterial ASVs at 3 months and 13 ASVs at 12 months (all FDR P < 0.05). Of note, CS infants had a higher abundance of the potential pathobionts Clostridium neonatale (P = 0.04) and Clostridium perfringens (P = 0.04) and a lower abundance of potentially beneficial Bifidobacterium and Bacteroides spp. (both P < 0.05) at 3 months. Other ASVs were differentially abundant at 12 months. Infants delivered by CS also had higher faecal butyrate concentration at 3 months (P < 0.005) but not at 12 months. CONCLUSIONS: Caesarean section was associated with increased butyrate excretion, decreased Bifidobacterium and Bacteroides spp., and more colonisation of the infant gut by pathobionts at 3 months of age. CS was also associated with altered gut microbiota composition, but not faecal SCFAs, at 12 months. TWEETABLE ABSTRACT: Caesarean section delivery was associated with increased butyrate excretion, decreased Bifidobacterium, and increased colonisation of the infant gut by pathobionts at 3 months of age."""
+
+

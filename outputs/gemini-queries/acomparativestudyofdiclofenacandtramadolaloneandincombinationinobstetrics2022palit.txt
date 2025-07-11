@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparativestudyofdiclofenacandtramadolaloneandincombinationinobstetrics2022palit
+"Background: In obstetrics, post-cesarean discomfort is a frequent source of acute pain. Recovery from surgery and anaesthesia is significantly hampered by pain in the immediate postoperative period. Aim(s): In this research, patients undergoing elective caesarean deliveries under spinal anaesthesia were examined to determine the effectiveness of postoperative analgesia and the incidence of side effects of the centrally-acting drug tramadol and the peripherally-acting drug diclofenac alone and in combination. Methodology: The study 60 participants were randomly assigned to one of three groups of 20 patients each to undergo the following treatments: lower doses of tramadol and diclofenac (Group D), and tramadol (Group TD). Result(s): Tramadol and diclofenac together generated substantially more rapid analgesia than either drug alone did, and side effects were less common. Conclusion(s): We come to the conclusion that using tramadol and diclofenac together as part of a multimodal post-cesarean treatment strategy resulted in superior analgesia than either drug alone and a decrease in side effects. This combo method of pain relief is better and more advantageous.Copyright (c) 2022 Ubiquity Press. All rights reserved."""
+
+

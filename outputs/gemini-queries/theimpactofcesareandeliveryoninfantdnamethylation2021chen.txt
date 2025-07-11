@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofcesareandeliveryoninfantdnamethylation2021chen
+"BACKGROUND: Mounting evidence suggests that cesarean delivery may have a long-lasting effect on infant health. But the underlying mechanisms remain unclear. This study aims to examine whether cesarean delivery on maternal request without any medical indications (CDMR) impacts DNA methylation status in the umbilical cord blood of the infant. METHODS: A cross-sectional study was conducted in Shanghai, China. A total of 70 CDMR and 70 vaginal deliveries (VD) were recruited in 2012. The cord blood DNA methylation status was measured in 30 CDMR and 30 VD newborns using Illumina Infinium Human Methylation 450 K BeadChip. To validate the results, the cord blood DNA methylation status was measured in another 40 CDMR and 40 VD newborns using targeted bisulfite sequencing assay. A total of 497 CpG sites from 40 genes were included in the analysis. RESULTS: A total of 165 differentially methylated positions (DMPs) exhibited differences in DNA methylation by 10% or more between the CDMR and VD groups, many of which were related to the development of the immune system. Based on the targeted bisulfite sequencing assay, 16 genes (16/22, 72.7%) had higher methylation level in the CDMR group than the VD group. Among them, 5 genes were related to the immune system. After considering the estimation of cell type proportions, there was few significant differences in DNA methylation between CDMR and VD groups. CONCLUSIONS: The DMPs identified between CDMR and VD groups might be largely explained by the cell type proportions. Further studies are needed to examine DNA methylation in each cell type separately."""
+
+

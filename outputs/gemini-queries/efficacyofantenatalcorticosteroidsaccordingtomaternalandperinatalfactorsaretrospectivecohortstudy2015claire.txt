@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: efficacyofantenatalcorticosteroidsaccordingtomaternalandperinatalfactorsaretrospectivecohortstudy2015claire
+"OBJECTIVE: The aim of this study is to evaluate the impact of multiple pregnancies, maternal obesity, and preeclampsia on the effect of antenatal steroids on neonatal respiratory distress syndrome (RDS). STUDY DESIGN: The retrospective cohort study was performed in a level III maternity ward. Population was composed of mother-infant pairs. We included inborn infants < 34 weeks gestation, hospitalized in our neonatal intensive care unit, and mothers delivering before 34 weeks gestation and hospitalized before delivery. Primary measurement outcome was RDS. RESULTS: A total of 1,173 subjects were included: 535 mothers and 638 preterm infants. Antenatal corticosteroid (ACS) doses and pulmonary surfactant doses were negatively correlated (r = -0.15, p = 0.0002). Multiple logistic regression: lower gestational age and cesarean section were significantly associated with RDS in single pregnancies (odds ratio [OR], 95% confidence interval [CI]): 2.0 (1.7-2.4) and 3.6 (1.8-7.1), respectively; only gestational age was associated with RDS in twin or higher-order pregnancies: 2.7 (1.9-4.1) and 1.8 (0.6-5.4), respectively. Preterm infants of obese women did not receive more pulmonary surfactant than other preterm infants: OR = 0.67 (0.13-1.40), neither did those born to women with hypertension or preeclampsia. CONCLUSION: More ACS doses were associated with less pulmonary surfactant doses. Cesarean section and low gestational age increased the risk of RDS, independently from ACS administration, but maternal obesity and multiple pregnancies did not."""
+
+

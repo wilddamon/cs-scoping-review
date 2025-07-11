@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: applyingaphysiologicpartographtoconsortiumonsafelabordatatoidentifyopportunitiesforsafelydecreasingcesareanbirthsamongnulliparouswomen2018neal
+"BACKGROUND: The timing of hospital admission for women with spontaneous labor onset and the criteria used to assess active labor progress and diagnose labor dystocia may significantly influence women's risk for primary cesarean birth. Our aims were to assess associations of labor status at admission (i.e., preactive or active) and active labor progress (i.e., dystocic or physiologic) with oxytocin augmentation, cesarean birth, and adverse neonatal outcome rates.;METHODS: A sample of low-risk, nulliparous women admitted to hospitals for spontaneous labor onset was extracted from the Consortium on Safe Labor (n = 27 077). Binomial logistic regression was used to assess associations between labor classifications and outcomes.;RESULTS: At admission, 68.0% of women were in preactive labor and 32.0% were in active labor. Cesarean rates for these groups were 18.0% and 7.2%, respectively (adjusted odds ratio [AOR] 2.69; 95% CI 2.45-2.96). Oxytocin augmentation and adverse neonatal outcomes were more likely for women admitted in preactive labor. Among women admitted in active labor, 9.3% experienced labor dystocia and 90.7% progressed physiologically. Cesarean rates for these groups were 20.4% and 5.9%, respectively (AOR 3.02; 95% CI 2.45-3.73). Nearly half of the cesareans performed for dystocia among women admitted in active labor occurred when cervical dilation was physiologic. Oxytocin augmentation and adverse neonatal outcomes were more likely when active labor was dystocic.;CONCLUSIONS: Adoption of evidence-based, standardized approaches for diagnosing active labor onset, assessing labor progress, and diagnosing dystocia may safely decrease oxytocin augmentation and cesarean birth rates in the United States. Copyright (c) 2018 Wiley Periodicals, Inc."""
+
+

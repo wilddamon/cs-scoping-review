@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnantpatientsrequiringappendectomycomparisonbetweenopenandlaparoscopicapproachesinnystate2021tumati
+"INTRODUCTION: Even though acute appendicitis is the most common general surgical condition encountered during pregnancy, the preferred approach to appendectomy in pregnant patients remains controversial. Current guidelines support laparoscopic appendectomy as the treatment of choice for pregnant women with appendicitis, regardless of trimester. However, recent published data suggests that the laparoscopic approach contributes to higher rates of fetal demise. Our study aims to compare laparoscopic and open appendectomy in pregnancy at a statewide population level. METHODS: ICD-9 codes were used to extract 1006 pregnant patients undergoing appendectomy between 2005 and 2014 from the NY Statewide Planning and Research Cooperative System (SPARCS) database. Surgical outcomes (any complications, 30-day readmission rate, length of stay (LOS)) and obstetrical outcomes (antepartum hemorrhage, preterm delivery, cesarean section, sepsis, chorioamnionitis) were compared between open and laparoscopic appendectomy. Multivariable generalized linear regression models were used to compare different outcomes between two surgical approaches after adjusting for possible confounders. RESULTS: The laparoscopic cohort (n = 547, 54.4%) had significantly shorter LOS than the open group (median +- IQR: 2.00 +- 2.00 days versus 3.00 +- 2.00 days, p value < 0.0001, ratio = 0.789, 95% CI 0.727-0.856). Patients with complicated appendicitis had longer LOS than those with simple appendicitis (p value < 0.0001, ratio = 1.660, 95% CI 1.501-1.835). Obstetrical outcomes (p value = 0.097, OR 1.254, 95% CI 0.961-1.638), 30-day non-delivery readmission (p value = 0.762, OR 1.117, 95% CI 0.538-2.319), and any complications (p value = 0.753, OR 0.924, 95% CI 0.564-1.517) were not statistically significant between the laparoscopic versus open appendectomy groups. Three cases of fetal demise occurred, all within the laparoscopic appendectomy group. CONCLUSIONS: The laparoscopic approach resulted in a shorter LOS. Although fetal demise only occurred in the laparoscopic group, these results were not significant (p value = 0.255). Our large population-based study further supports current guidelines that laparoscopic appendectomy may offer benefits over open surgery for pregnant patients in any trimester due to reduced time in the hospital and fetal and maternal outcomes comparable to open appendectomy."""
+
+

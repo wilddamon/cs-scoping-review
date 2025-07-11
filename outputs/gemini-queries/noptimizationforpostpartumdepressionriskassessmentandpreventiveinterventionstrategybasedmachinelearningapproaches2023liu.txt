@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anoptimizationforpostpartumdepressionriskassessmentandpreventiveinterventionstrategybasedmachinelearningapproaches2023liu
+"BACKGROUND: Postpartum depression (PPD) is one of the most common psychiatric disorders for women after delivery. The establishment of an effective PPD prediction model helps to distinguish high-risk groups, and verifying whether such high-risk groups can benefit from drug intervention is very important for clinical guidance. METHODS: We collected data of parturients that underwent a cesarean delivery. The Control group was divided into a training cohort and a testing cohort. Six different ML models were constructed and we compared their prediction performance in the testing cohort. For model interpretation, we introduced SHapley Additive exPlanations (SHAP). Then, training cohort, ketamine group and dexmedetomidine (DEX) group were classified as high or low risk for PPD by the model. A 1:1 propensity score matching (PSM) was performed to compare the incidence of PPD between two groups in different risk cohorts. RESULTS: Extreme gradient enhancement (XGB) had the best recognition effect, with an area under the receiver operating characteristic curve (AUROC) of 0.789 (95 % CI 0.742-0.836) in the training cohort and 0.744 (95 % CI 0.655-0.823) in the testing cohort, respectively. A threshold of 21.5 % PPD risk probability was determined. After PSM, the results showed that the incidence of PPD in the two intervention groups was significantly different from the control group in the high-risk cohort (P < 0.001) but not in the low-risk cohort (P > 0.001). CONCLUSION: Our study demonstrated that the XGB algorithm provided a more accurate in prediction of PPD risk, and it was beneficial to receive early intervention for the high-risk groups distinguished by the model."""
+
+

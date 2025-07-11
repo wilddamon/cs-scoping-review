@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofmaternalsmokingduringpregnancyonhemostaticprofileofneonatesusingthromboelastometryrotemapilotobservationalstudy2022sokou
+"Introduction: In adults, the negative effect of smoking on hemostasis has been well established. Contrarily, data regarding the hemostatic status of neonates exposed to tobacco during pregnancy are limited. This study aimed to investigate the influence of antenatal tobacco exposure on the hemostatic profile of neonates using Thromboelastometry (ROTEM).Methods: This observational study included 92 healthy full-term neonates born in the maternity department of our hospital over a 5-year period. The neonates were categorized in 2 groups: neonates born to mothers who reported smoking during the entire pregnancy and neonates born to non-smoking mothers. Neonates were matched 1:1 with regards to gestational age, delivery mode, and gender. ROTEM EXTEM assay was performed on the 2nd-3rd day of life and clotting time (CT); clot formation time (CFT); clot amplitude recorded at 10 and 30 min (A10, A30); a angle (ao); maximum clot firmness (MCF, mm); lysis index at 30 and 60 min (LI30, LI60, %); maximum clot elasticity (MCE), were measured.Results: Neonates with antenatal exposure to tobacco had shorter CT (p < 0.001) and CFT (p = 0.035), higher A10 (p = 0.043), A30 (p = 0.028) and MCE (p = 0.028) compared to those not exposed to tobacco during pregnancy. The multivariable regression analysis adjusted for gestational age, gender, birth weight and delivery mode showed that maternal tobacco use during pregnancy is associated with an accelerated activation of coagulation in neonates expressed by shorter EXTEM CT values (coefficient: -8.68, 95%,CI: -13.51--3.85, p = 0.001) while no association was found with the remaining ROTEM parameters.Discussion: Smoking during pregnancy results in a hypercoagulable profile of neonates, expressed by shorter ROTEM CT. Antenatal exposure to tobacco appears to be an aggravating factor for the hemostatic status of neonates."""
+
+

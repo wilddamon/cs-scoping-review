@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofthemfmobesityprotocoloncesareandeliveryrates2016schuster
+"BACKGROUND: Obesity in pregnancy has an impact on both the mother and the fetus. To date, no universal protocol has been established to guide the management of pregnancy in obese woman. In April 2011, the Geisinger Maternal-Fetal Medicine Department implemented an obesity protocol in which women meeting the following criteria were delivered by their estimated due dates: (1) class III obese or (2) class II obese with additional diagnoses of a large-for-gestational-age fetus or pregnancy complicated by gestational diabetes or (3) class I obese with large-for-gestational-age and gestational diabetes. OBJECTIVE: We sought to assess the impact of this protocol on the rate of cesarean deliveries in obese women. STUDY DESIGN: We performed a retrospective cohort study of 5000 randomly selected women who delivered at Geisinger between January 2009 and September 2013, excluding those who delivered in 2011. The data were stratified into obese and nonobese and divided into before protocol and after protocol. Comparison across all groups was accomplished using Wilcoxon rank sum and Pearson's kh(2) tests. Potential confounders were controlled for using logistic regression. RESULTS: The cesarean delivery rate in the obese/after protocol group was 10.8% lower than in the obese/before protocol group (42.4% vs 31.6%, respectively; P < .0001). In addition, when controlling for age, race, smoking status, preeclampsia, gestational diabetes, and intrauterine growth restriction, obese women were 37% less likely to have a cesarean delivery after the protocol than they were before (odds ratio, 0.63; 95% confidence interval, 0.52, 0.76, P < .0001). CONCLUSION: Implementation of a maternal-fetal medicine obesity protocol did not increase the rate of cesarean deliveries in obese women. On the contrary, obese women were less likely to have a cesarean delivery after implementation of the protocol."""
+
+

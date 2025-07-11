@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalantibioticexposureincreasestheriskofinfantatopicdermatitisdatafromagreekcohort2023stefanaki
+"Background. The human microbiome is important due to the impact it has on host immunologic development and allergy-associated diseases. This study aimed to investigate the impact of prenatal exposure to antibiotics on the incidence of atopic dermatitis (AD) in children at 18 months of age. Methods. Mothers were interviewed at baseline, in the maternity ward and by phone questionnaire after 18 months. Demographic data, mode of delivery, yoghurt consumption, antibiotic and other drug use during pregnancy, atopic history, diagnosis of AD and history of infections in the offspring were noted. Results. 385 mothers were interviewed at baseline. 231 (60%) mothers with 236 children responded at follow up. Cesarean section was reported in 116 (50.2%) deliveries while antibiotic use during pregnancy in 55/231 (23.8%) women. 43/236 (18.22%) infants were diagnosed with AD. Intravenous antibiotic use was associated with a 7.7 increased risk of AD diagnosis in the offspring (95%CI 1.23-48.27, p = 0.029). An increased odd for AD was recorded for mothers 30-40 years of age (OR 4.50, 95%CI 1.08-18.7, p = 0.039). No significant association between cesarean section and AD (p = 0.70) was recorded. In multivariate analysis, reported food allergy (OR 8.03, 95%CI 2.30-27.97, p = 0.001) and otitis media episodes in children (OR 3.76, 95%CI 1.60-8.83, p = 0.002) were significantly associated with AD diagnosis. Conclusions. An increased risk of AD was recorded only when antibiotics were given prenatally by intravenous route and in women between 30-40 years of age. Children with food allergy had an increased risk for AD. The relatively high percentage of cesarean sections was not a risk factor for AD."""
+
+

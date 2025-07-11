@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vacuumassisteddeliverycomplicationratesbasedonultrasoundestimatedfetalweight2022schreiber
+"This retrospective cohort study investigated the association between ultrasonographic estimated fetal weight (EFW) and adverse maternal and neonatal outcomes after vacuum-assisted delivery (VAD). It included women with singleton pregnancies at 34-41 weeks gestation, who underwent ultrasonographic pre-labor EFW and VAD in an academic institution, over 6 years. Adverse neonatal and maternal outcomes included shoulder dystocia, clavicular fracture, or third- and fourth-degree perineal tears. A receiver-operator characteristic curve was used to identify the optimal weight cut-off value to predict adverse outcomes. Fetuses above and below this point were compared. Multivariate analysis was used to control for factors that could lead to adverse outcomes. Eight-hundred and fifty women met the inclusion criteria and had sonographic EFW within two-weeks before delivery. Receiver-operator characteristic curve analysis found that ultrasonographic EFW 3666 g is the optimal threshold for adverse outcomes. Based on these results, outcomes were compared using EFW 3700 g. The average EFW in the >=3700 g group (n = 220, 25.9%) was 3898 +- 154 g (average birthweight 3710 +- 324 g). In the group <3700 g (n = 630, 74.1%), average EFW was 3064 +- 411 g (birthweight 3120 +- 464 g). Shoulder dystocia and clavicular fractures were more frequent in the higher EFW group (6.4% and 2.3% vs. 1.6% and 0.5%, respectively; p < 0.05). Women in the >=3700 g group experienced more third- and fourth-degree perineal tears (3.2% vs. 1%, p = 0.02). Multivariate logistic regression analysis found maternal age, diabetes and sonographic EFW >= 3700 g as independent risk-factors for adverse outcomes. Sonographic EFW >= 3700 g is an independent risk-factor for adverse outcomes in VAD. This should be considered when choosing the optimal mode of delivery."""
+
+

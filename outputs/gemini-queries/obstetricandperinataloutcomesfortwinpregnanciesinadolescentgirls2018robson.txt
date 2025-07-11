@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricandperinataloutcomesfortwinpregnanciesinadolescentgirls2018robson
+"This was a nine-year retrospective cohort study to investigate obstetric and perinatal outcomes in a cohort of adolescent girls with twin pregnancies from a major Australian tertiary centre in Brisbane, Australia. The adolescent cohort was aged <19 years and the control group was aged 20-24 years. The total study cohort comprised of 183 women. Of these, the adolescent cohort contained 29 girls (15.8%) and the control group comprised of 154 women (84.2%). Adolescent girls were less likely to delivery via an elective caesarean section compared to women in the control group (10.3% vs. 25.7%, p < 0.001). There were no differences in duration of labour, post-partum haemorrhage or perineal trauma rates. After controlling for the confounding effects of parity, chronicity and birth weight, birth <28 weeks remained significant (aOR 11.20, 95% CI 2.97-42.18, p < 0.001) for the adolescent cohort. There was a higher proportion of adolescents whose babies had an adverse composite perinatal outcome (87.9% vs. 69.5%, OR 3.20 95% CI: 1.40-7.31, p = 0.01) however significance was lost after adjusting for parity, chorionicity, birthweight and gestation at birth (aOR 3.27 95% CI: 0.95-11.31, p = 0.06). Our results show that obstetric and perinatal outcomes for twin pregnancies in teenagers were broadly similar compared to controls although the risk of extreme preterm birth was increased after controlling for confounders."""
+
+

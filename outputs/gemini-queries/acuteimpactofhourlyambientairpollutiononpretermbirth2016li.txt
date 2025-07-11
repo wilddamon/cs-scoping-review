@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acuteimpactofhourlyambientairpollutiononpretermbirth2016li
+"Background: Preterm birth is a major perinatal health problem, but factors leading to it are still not completely understood. Objective(s): Our goal was to identify the relation between acute increase in ambient air pollution in a few hours before onset of labor and the risk of preterm birth. Method(s): We collected registered birth outcome data and hourly ambient air pollution measurements during 2009-2013 in Brisbane, Australia. Using a time-stratified case-crossover design and conditional logistic regression models with natural cubic splines, we assessed the shape of air pollution-preterm birth curve, after controlling for potential confounders. We also examined the effect modification of other factors. Result(s): The association between air pollution [nitrogen dioxide (NO2), sulfur dioxide (SO2), and carbon monoxide (CO)] and preterm birth was nonlinear. Threshold concentrations for the mean of 0-24 hr NO2, 24-48 hr SO2, and 24-48 hr CO before onset of labor were 7.6 parts per billion (ppb), 3.8 ppb, and 162.5 ppb, respectively. Increases in air pollution concentrations above thresholds were associated with increased risks of preterm birth. The odds ratios of preterm birth at the 95th percentile of NO2, SO2, and CO against the thresholds were 1.17 (95% CI: 1.08, 1.27), 1.01 (95% CI: 0.99, 1.04), and 1.18 (95% CI: 1.06, 1.32), respectively. The associations were modified by demographic factors, such as maternal smoking and socioeconomic status. Conclusion(s): Acute increases in ambient air pollution concentrations above certain levels before onset of labor may stimulate preterm birth.Copyright (c) 2016, Public Health Services, US Dept of Health and Human Services. All rights reserved."""
+
+

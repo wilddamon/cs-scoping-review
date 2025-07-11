@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalobesityandmajorintraoperativecomplicationsduringcesareandelivery2017smid
+"BACKGROUND: Multiple studies have demonstrated an association between maternal obesity and postoperative complications, but there is a dearth of information about the impact of obesity on intraoperative complications.;OBJECTIVE: To estimate the association between maternal obesity at delivery and major intraoperative complications during cesarean delivery (CD).;METHODS: This is a secondary analysis of the deidentified Maternal-Fetal Medicine Unit Cesarean Registry of women with singleton pregnancies. Maternal body mass index (BMI) at delivery was categorized as BMI 18.5 to 29.9 kg/m2, BMI 30 to 39.9 kg/m2, BMI 40 to 49.9 kg/m2, and BMI >= 50 kg/m2. The primary outcome, any intraoperative complication, was defined as having at least 1 major intraoperative complication, including perioperative blood transfusion, intraoperative injury (bowel, bladder, ureteral injury; broad ligament hematoma), atony requiring surgical intervention, repeat laparotomy, and hysterectomy. Log-binomial models were used to estimate risk ratios of intraoperative complication in 2 models: model 1 adjusting for maternal race, and preterm delivery <37 weeks; and model 2 adjusting for confounders in Model 1 as well as emergency CD, and type of skin incision.;RESULTS: A total of 51,218 women underwent CD; 38% had BMI 18.5 to 29.9 kg/m2, 47% BMI 30 to 39.9 kg/m2, 12% BMI 40 to 49.9 kg/m2 and 3% BMI >= 50 kg/m2. Having at least 1 intraoperative complication was uncommon (3.4%): 3.8% for BMI 18.5 to 29.9 kg/m2, 3.2% BMI 30 to 39.9 kg/m2, 2.6% BMI 40 to 49.9 kg/m2 and 4.3% BMI >= 50 kg/m2 (P < .001). In the fully adjusted model 2, women with BMI 40 to 49.9 kg/m2 had a lower risk of any intraoperative complication (adjusted risk ratio [ARR], 0.76; 95% confidence interval [CI], 0.64 to 0.89) compared with women with BMI 18.5 to 29.9 kg/m2. Women with BMI 30 to 39.9 kg/m2 (ARR, 0.93; 95% CI, 0.84 to 1.03) had a similar risk of any intraoperative complication compared with nonobese women. Among super obese women, there was evidence of effect modification by emergency CD. Compared with nonobese women, neither super obese women undergoing nonemergency CD (ARR, 1.13; 95% CI, 0.84 to 1.52) nor those undergoing emergency CD (ARR, 0.59; 95% CI, 0.32 to 1.10) had an increased risk of intraoperative complication.;CONCLUSION: In contrast to the risk for postcesarean complications, the risk of intraoperative complication does not appear to be increased in obese women, even among those with super obesity. Copyright (c) 2017 Elsevier Inc. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandperinatalmorbidityandmortalityassociatedwithanemiainpregnancy2019smith
+"OBJECTIVE: To estimate the incidence of anemia in pregnancy and compare the maternal and perinatal outcomes of women with and without anemia. METHODS: We conducted a population-based retrospective cohort study on all pregnant women in British Columbia who had a live birth or stillbirth at or after 20 weeks of gestation between 2004 and 2016. Women were diagnosed with anemia based on two criteria: third-trimester hemoglobin value or a delivery admission diagnosis of anemia (made before delivery). Anemia was categorized into no anemia (hemoglobin 11 g/dL or greater), mild (9-10.9 g/dL), moderate (7-8.9 g/dL), severe (less than 7 g/dL), or anemia of unspecified severity (with diagnosis made before delivery). Logistic regression was used to estimate adjusted odds ratios (aOR) and 95% CIs expressing the association between anemia and maternal and perinatal outcomes. RESULTS: Of 515,270 women in the study population, 65,906 (12.8%) had anemia: 11.8%, 0.43%, and 0.02% had mild, moderate, and severe anemia, respectively, and 0.58% had anemia of unspecified severity. Anemic women had longer hospitalization duration and more antenatal admissions, and rates of preeclampsia, placenta previa and cesarean delivery were higher among women with anemia. The intrapartum-postpartum blood transfusion rate was 5.1 per 1,000 among women without anemia, and higher among women with anemia (aOR 2.45, 95% CI 1.74-3.45 for mild anemia; 21.3, 95% CI 12.2-37.3 for moderate anemia; not analyzable for severe anemia; and 48.3, 95% CI 6.60-353.9 for anemia of unspecified severity). Anemia was associated with preterm birth (mild anemia, aOR 1.09, 95% CI 1.05-1.12; moderate anemia, aOR 2.26, 95% CI 2.02-2.54; anemia of unspecified severity, aOR 2.27, 95% CI 2.06-2.50), small-for-gestational-age live birth, low 5-minute Apgar score, neonatal death, and perinatal death. CONCLUSION: Maternal anemia in pregnancy represents a common and potentially reversible risk factor associated with antepartum, intrapartum, and postpartum maternal morbidity and perinatal morbidity and mortality."""
+
+

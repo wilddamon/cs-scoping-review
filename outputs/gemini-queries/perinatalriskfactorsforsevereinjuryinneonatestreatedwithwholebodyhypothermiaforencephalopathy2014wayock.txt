@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinatalriskfactorsforsevereinjuryinneonatestreatedwithwholebodyhypothermiaforencephalopathy2014wayock
+"OBJECTIVE: Our objective was to identify perinatal risk factors that are available within 1 hour of birth that are associated with severe brain injury after hypothermia treatment for suspected hypoxic-ischemic encephalopathy. STUDY DESIGN: One hundred nine neonates at >=35 weeks' gestation who were admitted from January 2007 to September 2012 with suspected hypoxic-ischemic encephalopathy were treated with whole-body hypothermia; 98 of them (90%) underwent brain magnetic resonance imaging (MRI) at 7-10 days of life. Eight neonates died before brain imaging. Neonates who had severe brain injury, which was defined as death or abnormal MRI results (cases), were compared with surviving neonates with normal MRI (control subjects). Logistic regression models were used to identify risk factors that were predictive of severe injury. RESULTS: Cases and control subjects did not differ with regard to gestational age, birthweight, mode of delivery, or diagnosis of nonreassuring fetal heart rate before delivery. Cases were significantly (P < .05) more likely to have had an abruption, a cord and neonatal arterial gas level that showed metabolic acidosis, lower platelet counts, lower glucose level, longer time to spontaneous respirations, intubation, chest compressions in the delivery room, and seizures. In multivariable logistic regression, lower initial neonatal arterial pH (P = .004), spontaneous respiration at >30 minutes of life (P = .002), and absence of exposure to oxytocin (P = .033) were associated independently with severe injury with 74.3% sensitivity and 74.4% specificity. CONCLUSION: Worsening metabolic acidosis at birth, longer time to spontaneous respirations, and lack of exposure to oxytocin correlated with severe brain injury in neonates who were treated with whole-body hypothermia. These risk factors may help quickly identify neonatal candidates for time-sensitive investigational therapies for brain neuroprotection."""
+
+

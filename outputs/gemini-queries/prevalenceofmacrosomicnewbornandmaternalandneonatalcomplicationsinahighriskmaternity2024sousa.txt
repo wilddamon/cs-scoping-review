@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prevalenceofmacrosomicnewbornandmaternalandneonatalcomplicationsinahighriskmaternity2024sousa
+"Objective: Evaluate the prevalence of macrosomic newborns (birth weight above 4000 grams) in a high-risk maternity from 2014 to 2019, as well as the maternal characteristics involved, risk factors, mode of delivery and associated outcomes, comparing newborns weighing 4000-4500 grams and those weighing above 4500 grams.;Methods: This is an observational study, case-control type, carried out by searching for data in hospital's own system and clinical records. The criteria for inclusion in the study were all patients monitored at the service who had newborns with birth weight equal than or greater than 4000 grams in the period from January 2014 to December 2019, being subsequently divided into two subgroups (newborns with 4000 to 4500 grams and newborns above 4500 grams). After being collected, the variables were transcribed into a database, arranged in frequency tables. For treatment and statistical analysis of the data, Excel and R software were used. This tool was used to create graphs and tables that helped in the interpretation of the results. The statistical analysis of the variables collected included both simple descriptive analyzes as well as inferential statistics, with univariate, bivariate and multivariate analysis.;Results: From 2014 to 2019, 3.3% of deliveries were macrosomic newborns. The average gestational age in the birth was 39.4 weeks. The most common mode of delivery (65%) was cesarean section. Diabetes mellitus was present in 30% of the deliveries studied and glycemic control was absent in most patients. Among the vaginal deliveries, only 6% were instrumented and there was shoulder dystocia in 21% of the cases. The majority (62%) of newborns had some complication, with jaundice (35%) being the most common.;Conclusion: Birth weight above 4000 grams had a statistically significant impact on the occurrence of neonatal complications, such as hypoglycemia, respiratory distress and 5th minute APGAR less than 7, especially if birth weight was above 4500 grams. Gestational age was also shown to be statistically significant associated with neonatal complications, the lower, the greater the risk. Thus, macrosomia is strongly linked to complications, especially neonatal complications."""
+
+

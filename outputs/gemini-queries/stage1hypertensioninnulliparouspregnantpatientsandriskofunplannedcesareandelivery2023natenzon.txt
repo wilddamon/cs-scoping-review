@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: stage1hypertensioninnulliparouspregnantpatientsandriskofunplannedcesareandelivery2023natenzon
+"OBJECTIVE: The aim of the study is to determine whether stage 1 hypertension is a risk factor for cesarean at >=39(0/7) weeks. STUDY DESIGN: This is a retrospective cohort study of nulliparas delivering at >=39(0/7)weeks. Exposure was defined as stage 1 hypertension and compared with normotension. The primary outcome was unplanned cesarean. Statistical analysis was performed using SPSS 27. RESULTS: Two hundred and fifty patients had stage 1 hypertension and 250 had normotension. Thirty-eight percent of the patients with stage 1 hypertension required cesarean as did 22% of controls (risk ratio [RR]=1.55, 95% confidence interval [CI]: 1.23-1.96, p <0.001). This remained significant after controlling for confounders in a logistic regression (odds ratio [OR]=1.61, 95% confidence interval [CI]: 1.02-2.55, p <0.040). Upon secondary analysis, these results were statistically significant for gestational age >=39(5/7) weeks (adjusted odds ratio [AOR]=1.89, 95% CI: 1.05-3.39, p=0.033) but not from 39(0/7) to 39(4/7)weeks (AOR=0.68, 95% CI: 0.31-1.50, p=0.34). CONCLUSION: In nulliparas, stage 1 hypertension is an independent risk factor for unplanned cesarean. KEY POINTS: * Stage 1 hypertension correlates with more cesareans.. * Unplanned cesarean for nonreassuring fetal status correlates with impaired placental function.. * Stages 1 and 2 hypertension carry similar risks.."""
+
+

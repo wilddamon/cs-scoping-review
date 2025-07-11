@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nationalcohortofinfantsbornbefore24gestationalweeksshowedincreasedsurvivalratesbutnoimprovementinneonatalmorbidity2022lundgren
+"AIM: To describe survival and neonatal morbidities in infants born before 24 weeks of gestation during a 12-year period. METHODS: Data were retrieved from national registries and validated in medical files of infants born before 24 weeks of gestation 2007-2018 in Sweden. Temporal changes were evaluated. RESULTS: In 2007-2018, 282 live births were recorded at 22 weeks and 460 at 23 weeks of gestation. Survival to discharge from hospital of infants born alive at 22 and 23 weeks increased from 20% to 38% (p = 0.006) and from 45% to 67% (p < 0.001) respectively. Caesarean section increased from 12% to 22% (p = 0.038) for infants born at 22 weeks. Neonatal morbidity rates in infants alive at 40 weeks of postmenstrual age (n = 399) were unchanged except for an increase in necrotising enterocolitis from 0 to 33% (p = 0.017) in infants born at 22 weeks of gestation. Bronchopulmonary dysplasia was more common in boys than girls, 90% versus 82% (p = 0.044). The number of infants surviving to 40 weeks doubled over time. CONCLUSION: Increased survival of infants born before 24 weeks of gestation resulted in increasing numbers of very immature infants with severe neonatal morbidities likely to have a negative impact on long-term outcome."""
+
+

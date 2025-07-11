@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningmodelsforpredictingadversepregnancyoutcomesinpregnantwomenwithsystemiclupuserythematosus2023hao
+"Predicting adverse outcomes is essential for pregnant women with systemic lupus erythematosus (SLE) to minimize risks. Applying statistical analysis may be limited for the small sample size of childbearing patients, while the informative medical records could be provided. This study aimed to develop predictive models applying machine learning (ML) techniques to explore more information. We performed a retrospective analysis of 51 pregnant women exhibiting SLE, including 288 variables. After correlation analysis and feature selection, six ML models were applied to the filtered dataset. The efficiency of these overall models was evaluated by the Receiver Operating Characteristic Curve. Meanwhile, real-time models with different timespans based on gestation were also explored. Eighteen variables demonstrated statistical differences between the two groups; more than forty variables were screened out by ML variable selection strategies as contributing predictors, while the overlap of variables were the influential indicators testified by the two selection strategies. The Random Forest (RF) algorithm demonstrated the best discrimination ability under the current dataset for overall predictive models regardless of the data missing rate, while Multi-Layer Perceptron models ranked second. Meanwhile, RF achieved best performance when assessing the real-time predictive accuracy of models. ML models could compensate the limitation of statistical methods when the small sample size problem happens along with numerous variables acquired, while RF classifier performed relatively best when applied to such structured medical records.Copyright (c) 2023 by the authors."""
+
+

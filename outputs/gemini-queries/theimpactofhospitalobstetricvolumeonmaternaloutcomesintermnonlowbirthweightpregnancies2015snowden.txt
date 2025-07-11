@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofhospitalobstetricvolumeonmaternaloutcomesintermnonlowbirthweightpregnancies2015snowden
+"Objective The impact of hospital obstetric volume specifically on maternal outcomes remains under studied. We examined the impact of hospital obstetric volume on maternal outcomes in low-risk women who delivered non-low-birthweight infants at term. Study Design We conducted a retrospective cohort study of term singleton, non-low-birthweight live births from 2007-2008 in California. Deliveries were categorized by hospital obstetric volume categories and separately for nonrural hospitals (category 1: 50-1199 deliveries per year; category 2: 1200-2399; category 3: 2400-3599, and category 4: >=3600) and rural hospitals (category R1: 50-599 births per year; category R2: 600-1699; category R3: >=1700). Maternal outcomes were compared with the use of the chi-square test and multivariable logistic regression. Results There were 736,643 births in 267 hospitals that met study criteria. After adjustment for confounders, there were higher rates of postpartum hemorrhage in the lowest-volume rural hospitals (category R1 adjusted odds ratio, 3.06; 95% confidence interval, 1.51-6.23). Rates of chorioamnionitis, endometritis, severe perineal lacerations, and wound infection did not differ between volume categories. Longer lengths of stay were observed after maternal complications (eg, chorioamnionitis) in the lowest-volume hospitals (16.9% prolonged length of stay in category 1 hospitals vs 10.5% in category 4 hospitals; adjusted odds ratio, 1.91; 95% confidence interval, 1.01-3.61). Conclusion After confounder adjustment, few maternal outcomes differed by hospital obstetric volume. However, elevated odds of postpartum hemorrhage in low-volume rural hospitals raises the possibility that maternal outcomes may differ by hospital volume and geography. Further research is needed on maternal outcomes in hospitals of different obstetric volumes.Copyright (c) 2015 Elsevier Inc. All rights reserved."""
+
+

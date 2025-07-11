@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: estimatingbloodlossduringcesareandeliveryacomparisonofmethods2022gari
+"Objectives: Obstetrical hemorrhage contributes significantly to maternal morbidity and mortality. Assessment of blood loss while undergoing cesarean sections (CS) is essential in lowering the morbidity and mortality, however this amount is commonly underestimated by the surgeon and probably the anesthetist too. Method(s): This study addresses this issue by comparing three separate ways of assessing blood loss during cesarean sections. For each of 97 full-term pregnant women undergoing elective CS, blood loss was measured by the following: visual estimation by both the obstetrician and the anesthetist, weighing surgical pads pre operatively and post operatively and by calculations (multiplying the difference of pre-operative and postoperative hemoglobin values by the patient's estimated blood volume). Result(s): The results of this study indicated that the lowest estimated value for blood loss came from visual estimation, while the highest value came from the mathematical formula. Anesthetists were more accurate in their visual estimation of blood loss than were obstetricians. Conclusion(s): This study found the amount of blood loss during CS to be overestimated by the mathematical calculation and underestimated by obstetricians. However, the estimate given by anesthetists was close to that obtained by weighing pads. This underscores the need for more accurate methods of blood loss estimation in cesarean sections to be adopted.Copyright (c) 2022 Taibah University"""
+
+

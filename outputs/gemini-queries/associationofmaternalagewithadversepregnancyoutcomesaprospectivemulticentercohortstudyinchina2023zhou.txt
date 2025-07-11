@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofmaternalagewithadversepregnancyoutcomesaprospectivemulticentercohortstudyinchina2023zhou
+"BACKGROUND: Although maternal age might affect pregnancy outcomes, it remains unclear whether this relationship is linear or curvilinear and if it differs between nulliparous and multiparous women. We aimed to characterize the relationship between maternal age and risks of pregnancy outcomes in a diverse sample of Chinese singleton pregnant women and to evaluate whether the relationship varied by parity. METHODS: We based this prospective multicenter cohort study on data from 18 495 singleton pregnant women who participated in the University Hospital Advanced Age Pregnant Cohort Study, conducted in eight Chinese public hospitals from 2016 to 2021. We used restricted cubic splines to model nonlinear relationships between maternal age continuum and adverse outcomes, and performed multivariable log-binomial regression to estimate the adjusted relative risk (RR) and 95% confidence interval (CI). RESULTS: Among 18 495 singleton pregnant women (mean age 35.7, standard deviation (SD) = 4.2 years), maternal age was not related to postpartum hemorrhage or small for gestational age, but showed a positive, nonlinear relationship to gestational diabetes mellitus, hypertensive disorders of pregnancy, preeclampsia, placenta accreta spectrum, placenta previa, cesarean delivery, preterm birth, large for gestational age, macrosomia, and fetal congenital anomaly, with inflection points around 35.6-40.4 years. Compared to women younger than 35 years, older women had higher risks of adverse pregnancy outcomes, except for postpartum hemorrhage and small for gestational age. The risks of placenta accreta spectrum, placenta previa, large for gestational age, and macrosomia were highest for women aged 40-44 years, and risks of gestational diabetes mellitus, hypertensive disorders of pregnancy, preeclampsia, cesarean delivery, preterm birth and congenital anomaly were highest for those aged >=45 years. Most risks were more pronounced in nulliparous than multiparous women (P for interaction <0.02). CONCLUSIONS: Delayed childbirth was related to increased risks of adverse pregnancy outcomes, especially for nulliparous women. Appropriate childbearing age, generally before 35 years, is recommended for optimising pregnancy outcomes."""
+
+

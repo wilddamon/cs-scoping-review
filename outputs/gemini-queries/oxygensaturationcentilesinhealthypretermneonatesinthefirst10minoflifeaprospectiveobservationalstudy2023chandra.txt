@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: oxygensaturationcentilesinhealthypretermneonatesinthefirst10minoflifeaprospectiveobservationalstudy2023chandra
+"Current oxygen saturation targets in delivery room given by Neonatal Resuscitation Program (NRP) are essentially derived from term neonates. This prospective observational study was conducted in a level-III neonatal unit in preterm neonates (< 37 weeks) who did not receive resuscitation or supplemental oxygen to create centile charts for pre-ductal oxygen saturations using robust statistical modelling methods. Pre-ductal oxygen saturations (SPO2) were recorded from birth till 10 min of age using current generation Masimo pulse oximeters. Centile charts were created by generalized additive models. The change in oxygen saturations over time across subjects was modelled as a Bayesian linear regression mixed-effects model after including 'a priori' covariates. Oxygen saturation data was analysed in 180 subjects with mean gestation of 34 +- 2 weeks. Mean (SD) time to first SPO2 was 167 +- 77 s. The median time to SPO2 of > 90% was 310 s (IQR: 235-400). Time to > 90% SPO2 was shorter in (a) 34-36 weeks compared to < 34 weeks (290 vs 340; p = 0.03) and (b) vaginally delivered compared to caesarean-section born neonates (300 vs 360; p = 0.2). Conclusions: Oxygen saturations in first 10 min of age in healthy preterm neonates are significantly higher than the targets proposed by the NRP-2020. Larger preterm neonates and those born through vaginal route attained a preductal saturation of > 90% sooner. What is Known: * Pulse oximetry is the standard for oxygen saturation monitoring during immediate postnatal period. * Healthy term neonates take many minutes after birth to reach a pre-ductal saturation of >90%. But, postnatal oxygen saturation trend data in healthy preterm neonates are scarce. What is New: * Provides centile charts for oxygen saturations till 10 minutes of age using current generation Masimo pulse oximeters in a large cohort of healthy preterm neonates using robust statistical modelling methods. * Identifies covariates that significantly modifies the saturation trends using a Bayesian mixed models' regression."""
+
+

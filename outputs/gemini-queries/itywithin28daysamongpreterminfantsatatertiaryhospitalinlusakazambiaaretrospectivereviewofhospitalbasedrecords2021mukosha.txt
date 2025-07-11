@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modellingmortalitywithin28daysamongpreterminfantsatatertiaryhospitalinlusakazambiaaretrospectivereviewofhospitalbasedrecords2021mukosha
+"INTRODUCTION: globally, almost half of all deaths in children under five years of age occur among neonates. We investigated the predictors of mortality within 28 days among preterm infants at a tertiary hospital in Lusaka, Zambia. METHODS: we reviewed admission records linked to birth, mortality, and hospital discharge from 1(st) January 2018 to 30(th) September 2019. Information was retrieved with a follow-up period of 28 days post-delivery to discharge/mortality. We used the Weibull hazards regression to establish the best predictor model for mortality among the neonates. RESULTS: a total of 3237 case records of women with a median age of 27 years (IQR, 22-33) were included in the study, of which 971 (30%) delivered term infants and 2267 (70%) preterm infants. The overall median survival time of the infants was 98 hours (IQR, 34-360). Preterm birth was not associated with increased hazards of mortality compared to term birth (p=0.078). Being in the Kangaroo Mother Care compared to Neonatal Intensive Care Unit (NICU), and a unit increase in birth weight were independently associated with reduced hazards of mortality. On the other hand, having hypoxic-ischemic encephalopathy, experiencing difficulty in feeding and vaginal delivery compared to caesarean section independently increased the hazards of mortality. CONCLUSION: having hypoxic-ischemic encephalopathy, vaginal delivery, and experiencing difficulty in feeding increases the risk of mortality among neonates. Interventions to reduce neonatal mortality should be directed on these factors in this setting."""
+
+

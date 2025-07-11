@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalfirsttrimestermetabolicprofileinpregnancieswithtranspositionofthegreatarteries2023huida
+"Background: Higher maternal body mass index (BMI) and abnormal glucose metabolism during early pregnancy are associated with congenital heart defects in the offspring, but the exact mechanisms are unknown. Method(s): We evaluated the association between maternal first trimester metabolic profile and transposition of the great arteries (TGA) in the offspring in a matched case-control study with 100 TGA mothers and 200 controls born in Finland during 2004-2014. Cases and controls were matched by birth year, child sex, and maternal age and BMI. Serum samples collected between 10- and 14-weeks of gestation were analyzed for 73 metabolic measures. Conditional logistic regression was used to assess the risk for TGA in the offspring, and a subgroup analysis among mothers with high BMI was conducted. Result(s): Higher concentrations of four subtypes of extremely large very-low-density lipoprotein (VLDL) particles and one of large VLDL particles were observed in TGA mothers. This finding did not reach statistical significance after multiple testing correction. The pooled odds ratio (OR) of the all metabolic variables was slightly higher in TGA mothers in the subgroup with maternal BMI over 25 (OR 1.25) and significantly higher in the subgroup with maternal BMI over 30 (OR 1.95) compared to the original population (OR 1.18). Conclusion(s): Our findings indicate that an abnormal maternal early pregnancy metabolic profile might be associated with TGA in the offspring, especially in obese mothers. A trend indicating altered VLDL subtype composition in TGA pregnancies warrants further research.Copyright (c) 2022 The Authors. Birth Defects Research published by Wiley Periodicals LLC."""
+
+

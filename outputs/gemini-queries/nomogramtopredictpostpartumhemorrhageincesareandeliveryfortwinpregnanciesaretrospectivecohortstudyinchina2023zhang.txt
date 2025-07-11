@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nomogramtopredictpostpartumhemorrhageincesareandeliveryfortwinpregnanciesaretrospectivecohortstudyinchina2023zhang
+"BACKGROUND: Postpartum hemorrhage (PPH) is the most common cause of maternal morbidity and mortality worldwide. A reliable risk assessment tool for PPH could optimize available interventions to reduce adverse maternal outcomes. OBJECTIVE: The objective of this study was to explore a nomogram predicting the risk of postpartum hemorrhage after cesarean delivery for twin pregnancies. METHODS: This single-center retrospective cohort study conducted twin pregnancies who underwent cesarean delivery between January 2014 and July 2021. Propensity score matching at baseline was used to match PPH (blood loss >=1000 mL) and non-PPH group (blood loss <1000 mL). A nomogram was developed to predict the risk of PPH in cesarean delivery for twin pregnancies. The receiver operating characteristic curve (ROC), calibration plot, and decision curve analysis (DCA) were, respectively, used to evaluate the discrimination, calibration, and clinical utility of the prediction models. RESULTS: After propensity score matching, 186 twin pregnancies in the PPH group were matched with 186 controls in the non-PPH group. Seven independent prognostic variables, including antepartum albumin, assisted reproductive technology, hypertensive disorders of pregnancy, placenta previa, placenta accrete spectrum, intrapartum cesarean delivered, and estimated weights of twins, were used to build the nomogram. Based on the performance of the model, it appears that a good calibration (Hosmer-Lemeshow kh(2) = 4.84, P > 0.05), an excellent predictive ability (area under the curve: 0.778, 95% CI: 0.732-0.825), and a good positive net benefit in the predictive model have been achieved. CONCLUSION: The nomogram was first generated to predict PPH in cesarean delivery for twin pregnancies, which could help clinicians to provide a reference for the preoperative surgical plan, choose optimal treatments, optimize healthcare resources, and thereby reduce the associated adverse maternal outcomes."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandneonataloutcomesassociatedwithmultiplerepeatcesareandeliveriesaregistrybasedstudyfromqatar2024ajmal
+"BACKGROUND: Cesarean delivery (CD) is associated with increased maternal and neonatal morbidity compared to vaginal delivery, particularly in cases classified as emergency procedures or when there are multiple CDs. This retrospective cohort study aims to examine the incidence of maternal and neonatal complications in women with multiple CDs. METHODS: This study used data from a national perinatal database obtained from a single tertiary maternity care hospital. Women who delivered a singleton live birth after 24 weeks of gestation by CD were stratified into five groups based on the number of CDs, with the last group having five or more CDs. The women were divided into those with five or more CDs (Group 5) versus those with fewer than five (Groups 1 to 4). The maternal outcomes included intra-operative surgical complications, blood loss, and intensive care unit (ICU) admission. The neonatal outcomes included preterm birth, neonatal ICU (NICU) admission, respiratory distress syndrome (RDS), and perinatal death. RESULTS: Of the 6,316 women in the study, 2,608 (41.3%) had a primary CD. 30.3%, 17.5%, and 7.3% of the cohort had their second, third, and fourth CDs, respectively. Women undergoing the 5(th) CD and above formed the remaining 3.5% (227). Women in Group 5 had the highest risk of suffering a surgical complication (3.1%, p = 0.015) and postpartum hemorrhage (7.5%, p = 0.010). 24% of babies in Group 5 were born preterm (p < 0.001). They also had a 3.5 times higher risk of having a surgical complication (RR = 3.5, 95% CI 1.6-7.6, p = 0.002), a 1.8 times higher risk of developing postpartum hemorrhage (RR = 1.8, 95% CI 1.1-2.9, p = 0.014), a 1.7 times higher risk of delivering between 32-37 weeks of gestation (RR = 1.7, 95% CI 1.3-2.2, p < 0.001), a higher risk of the baby getting admitted to NICU (RR = 1.3, 95% CI 1.0-1.6, p = 0.038), and developing RDS (RR = 1.5, 95% CI 1.2-2.0, p = 0.002) compared to Groups 1-4. The risks of neonatal outcomes such as NICU admission (RR 2.9, 95% CI 2.1-4.0) and RDS (RR 3.5, 95% CI 2.3-5.5) were much higher in elective CDs performed at term compared to preterm births (p < 0.001 for both). CONCLUSION: Maternal morbidity significantly increases with the increasing number of CD. The increased risk of RDS and NICU admissions in the neonate with multiple CDs reflects lower gestational age and birthweight in these groups-consideration of preoperative steroids for lung maturation in these women to reduce neonatal morbidity warrants further discussion."""
+
+
