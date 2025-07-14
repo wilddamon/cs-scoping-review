@@ -637,6 +637,4 @@ data.insert(0, "relevance", relevance_pairs.apply(lambda x: x[0]))
 data.insert(1, "reason", relevance_pairs.apply(lambda x: x[1]))
 data.to_csv("outputs/ranked-abstracts.csv")
 
-print((data["added_2025"] & (data["relevance"] > 0)).sum())
-
 print(f"Included {(data['relevance'] > 0).sum()}")

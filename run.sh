@@ -8,7 +8,7 @@ echo_then_run() {
 echo_then_run "python basic-processing/basic_processing.py"
 echo_then_run "python basic-processing/merge_datasets.py"
 
-# echo_then_run "python gemini/extract_gemini.py"
+echo_then_run "python gemini/extract_gemini.py"
 echo_then_run "python gemini/validate_responses.py"
 echo_then_run "python gemini/merge_gemini.py"
 echo_then_run "python gemini/add_country_income_status.py"
