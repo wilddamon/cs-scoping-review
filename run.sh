@@ -5,6 +5,11 @@ echo_then_run() {
     $1
 }
 
+echo_then_run "python database-search-results/parse_cinahl_psycinfo_set.py"
+echo_then_run "python database-search-results/parse_ovid_medline_embase_set.py"
+echo_then_run "python database-search-results/parse_pubmed_set.py"
+echo_then_run "python database-search-results/parse_scopus_set.py"
+
 echo_then_run "python basic-processing/basic_processing.py"
 echo_then_run "python basic-processing/merge_datasets.py"
 

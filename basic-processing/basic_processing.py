@@ -170,8 +170,6 @@ def make_dedup_index(row):
 def process(name, path):
     print(f"\n\nProcessing {name}")
     df = pandas.read_csv(path)
-    if "Unnamed: 0" in df.columns:
-        df = df.drop(columns="Unnamed: 0")
     print(f"Found {len(df)} records")
 
     pre_2014 = df["year"] < 2014
