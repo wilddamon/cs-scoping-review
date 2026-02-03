@@ -1,5 +1,9 @@
 import os
 import pandas
+from pprint import pprint
+
+import extract_gemini
+import merge_gemini
 
 EXPECTED_COLUMNS = [
         "abstract ID",
@@ -15,23 +19,41 @@ EXPECTED_COLUMNS = [
         "gest_age",
 ]
 
-
-
 response_dir = "outputs/gemini-responses/"
-
-fnames = os.listdir(response_dir)
-print(f"Found {len(fnames)} files")
-
+missing_file = []
 missing_field = {k: [] for k in EXPECTED_COLUMNS}
-for fname in fnames:
-    if not fname.endswith("json"):
-        continue
+wrong_ids = {}
 
-    j = pandas.read_json(f"{response_dir}{fname}")
+
+def validate_entry(idx):
+    fname = extract_gemini.id_for_filename(idx)
+    path = f"{response_dir}{fname}.json"
+
+    if not os.path.exists(path):
+        missing_file.append(fname)
+        return
+
+    try:
+        j = merge_gemini.read_json(path)
+        assert len(j) == 1
+        if j["abstract ID"][0] != idx:
+            wrong_ids[idx] = fname
+    except Exception as e:
+        print(path)
+        raise e
     for c in EXPECTED_COLUMNS:
         if c not in j.columns:
             missing_field[c].append(fname)
 
+
+data = pandas.read_csv("outputs/basic-processing/merged-abstracts.csv")
+data["dedup_index"].apply(validate_entry)
+
 for c in EXPECTED_COLUMNS:
     print(f"Number of files missing '{c}': {len(missing_field[c])}")
+print("Missing files")
+print(missing_file)
+print("Wrong IDs - correct : filename")
+pprint(wrong_ids)
 
+#print(missing_field["mod_finding"])
