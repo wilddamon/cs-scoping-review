@@ -107,7 +107,7 @@ def tidy_doi(s):
     for p in prefixes:
         if s.startswith(p):
             return s[len(p) :]
-    return s
+    return s.lower()
 
 
 def tidy_title(s):
@@ -151,6 +151,35 @@ def tidy_authors(s, sep=";"):
     return ";".join(result)
 
 
+def scan_opening_brace(s):
+    depth = 0
+    for i in range(len(s) - 2, 0, -1):
+        c = s[i]
+        if c == ")":
+            depth += 1
+        if c == "(" and depth == 0:
+            return i
+        elif c == "(":
+            depth -= 1
+
+
+def normalise_abstract(s):
+    if pandas.isna(s):
+        return s
+    s = s.lower().strip()
+    s = s.split("copyright")[0]
+    s = s.split("!(c)")[0]
+    s = s.split("(c)")[0]
+    s = re.sub(r"(?:\s+|;|:|\+\/-|\+-|-)", "", s)
+    s = re.sub(r"\(s\)", "", s)
+    s = re.sub(r"s", "", s)
+    if len(s) == 0:
+        return s
+    if s[-1] == ")":
+        s = s[: scan_opening_brace(s)]
+    return s
+
+
 def first_author_surname(s):
     # Assumes tidy_authors had been run first.
     if pandas.isna(s):
@@ -178,21 +207,27 @@ def process(name, path):
 
     result_series = [len(df)]
 
+    df["normalised_abstract"] = df["abstract"].apply(normalise_abstract)
+
     # Exclude anything without a title, abstract, or journal name
     no_abstract_or_title = (
-        df["abstract"].isna()
+        df["normalised_abstract"].isna()
         | df["title"].isna()
         | df["journal"].isna()
         | df["year"].isna()
     )
-    no_abstract_or_title |= df["abstract"].str.contains("No abstract available")
+    no_abstract_or_title |= df["normalised_abstract"].str.contains(
+        "No abstract available"
+    )
     df = df[~no_abstract_or_title]
     print(
         f"Removed {no_abstract_or_title.sum()} entries with no available title, abstract, journal name, or year."
     )
     result_series.append(no_abstract_or_title.sum())
 
-    abstract_single_sentence = df["abstract"].apply(lambda a: len(a.split(".")) == 2)
+    abstract_single_sentence = df["normalised_abstract"].apply(
+        lambda a: len(a.split(".")) == 2
+    )
     df = df[~abstract_single_sentence].copy()
     print(
         f"Removed {abstract_single_sentence.sum()} entries with a single sentence in the abstract."
@@ -220,14 +255,18 @@ def process(name, path):
     sep = "," if name == "pubmed" else ";"
     df["authors"] = df["authors"].apply(partial(tidy_authors, sep=sep))
     df["first_author_surname"] = df["authors"].apply(first_author_surname)
-    df["abstract"] = df["abstract"].apply(remove_line_breaks).apply(lambda s: unidecode(s))
+    df["abstract"] = (
+        df["abstract"].apply(remove_line_breaks).apply(lambda s: unidecode(s))
+    )
     df["dedup_index"] = df.apply(make_dedup_index, axis=1)
 
     with pandas.ExcelWriter(
         f"outputs/basic-processing/basic-exclusions/{name}-exclusions.xlsx"
     ) as excelwriter:
         l = len(df)
-        dropped_dupes = df.drop_duplicates(subset=["title", "year", "first_author_surname"])
+        dropped_dupes = df.drop_duplicates(
+            subset=["title", "year", "first_author_surname"]
+        )
 
         # Save the duplicates
         pandas.concat([df, dropped_dupes]).drop_duplicates(keep=False).to_excel(
@@ -350,6 +389,9 @@ def process(name, path):
             excelwriter=excelwriter,
             result_series=result_series,
         )
+        df = remove_publication_type(
+            df, "dissertation", excelwriter=excelwriter, result_series=result_series
+        )
         df = remove_title_publication_type(
             df,
             title_phrases=[
@@ -379,7 +421,7 @@ def process(name, path):
         df = remove_title_publication_type(
             df,
             title_phrases=[
-                "author",  # author's reply, author's response
+                r"author\b",  # author's reply, author's response
                 "editor",  # editorial, editor's reply, letter to the editor
                 "comment",  # comment on, commentary, response to comments
                 "letter",  # letter of reply, letter to, response to letter
@@ -430,7 +472,7 @@ def process(name, path):
                 "overview",
             ],
             pub_types=[
-                "review",
+                r"\breview\b",
                 "meta.?analysis",
             ],
             name="systematic review",
@@ -458,6 +500,7 @@ def process(name, path):
                 r"series of (?:\d{1,2} )patient",
                 "review of case",
                 r"\b\d{1,2} (?:new )?case",
+                "a case of",
             ]
             + [f"[^-]{num2words(n)} case" for n in range(1, 21)],
             pub_types=[
@@ -468,6 +511,20 @@ def process(name, path):
             excelwriter=excelwriter,
             result_series=result_series,
         )
+
+    df = remove_title_publication_type(
+        df,
+        title_phrases=[
+            r"randomi[sz]ed",
+        ],
+        pub_types=[
+            r"randomi[sz]ed",
+        ],
+        name="randomised controlled trials",
+        journal_phrase=r"randomi[sz]ed",
+        excelwriter=excelwriter,
+        result_series=result_series,
+    )
 
     print(f"Continuing analysis with {len(df)} remaining records...")
     result_series.append(len(df))
@@ -483,12 +540,24 @@ def process(name, path):
 
 def main():
     result_df = pandas.DataFrame()
-    result_df["pubmed"] = process("pubmed", "outputs/database-search-results/pubmed.csv")
-    result_df["cinahl"] = process("cinahl", "outputs/database-search-results/cinahl.csv")
-    result_df["medline"] = process("medline", "outputs/database-search-results/medline.csv")
-    result_df["psycinfo"] = process("psycinfo", "outputs/database-search-results/psycinfo.csv")
-    result_df["embase"] = process("embase", "outputs/database-search-results/embase.csv")
-    result_df["scopus"] = process("scopus", "outputs/database-search-results/scopus.csv")
+    result_df["pubmed"] = process(
+        "pubmed", "outputs/database-search-results/pubmed.csv"
+    )
+    result_df["cinahl"] = process(
+        "cinahl", "outputs/database-search-results/cinahl.csv"
+    )
+    result_df["medline"] = process(
+        "medline", "outputs/database-search-results/medline.csv"
+    )
+    result_df["psycinfo"] = process(
+        "psycinfo", "outputs/database-search-results/psycinfo.csv"
+    )
+    result_df["embase"] = process(
+        "embase", "outputs/database-search-results/embase.csv"
+    )
+    result_df["scopus"] = process(
+        "scopus", "outputs/database-search-results/scopus.csv"
+    )
 
     result_df["index"] = [
         "total records",
@@ -516,6 +585,7 @@ def main():
         "publication type: teaching material",
         "publication type: preprint",
         "publication type: conference or poster presentation",
+        "publication type: dissertation",
         "detected article type: retracted",
         "detected article type: protocol",
         "detected article type: commentary",
@@ -524,6 +594,7 @@ def main():
         "detected article type: systematic review",
         "detected article type: cohort profile",
         "detected article type: case report or case series",
+        "detected article type: rcts",
         "remaining articles",
     ]
     result_df.set_index("index", inplace=True)
