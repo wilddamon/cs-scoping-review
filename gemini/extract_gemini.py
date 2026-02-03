@@ -46,7 +46,8 @@ def send_query(client, query, save_path, index):
     for i in range(3):
         print(f"Sending query {index}")
         response = client.models.generate_content(
-            model="gemini-1.5-pro", contents=query
+            #model="gemini-1.5-pro", contents=query
+            model="gemini-2.5-flash", contents=query
         )
 
         finish_reason = response.candidates[0].finish_reason
