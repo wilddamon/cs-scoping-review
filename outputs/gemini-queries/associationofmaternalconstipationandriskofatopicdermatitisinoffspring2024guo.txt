@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofmaternalconstipationandriskofatopicdermatitisinoffspring2024guo
+"Objectives: Atopic dermatitis (AD) is a chronic and relapsing dermatologic disease that can affect individuals of all ages, including children and adults. The prevalence of AD has increased dramatically over the past few decades. AD may affect children's daily activities, increase their parents' stress, and increase health expenditure. Constipation is a worldwide issue and may affect the gut microbiome. Some research has indicated that constipation might be associated with risk of atopic disease. The primary objective of this retrospective cohort study was to extend and to explore the link between maternal constipation and risk of atopic dermatitis in offspring. Methods: Using the Longitudinal Health Insurance Database, a subset of Taiwan's National Health Insurance Research Database, we identified 138,553 mothers with constipation and 138,553 matched controls between 2005 and 2016. Propensity score analysis was used matching birth year, child's sex, birth weight, gestational weeks, mode of delivery, maternal comorbidities, and antibiotics usage, with a ratio of 1:1. Multiple Cox regression and subgroup analyses were used to estimate the adjusted hazard ratio of child AD. Results: The incidence of childhood AD was 66.17 per 1,000 person-years in constipated mothers. By adjusting child's sex, birth weight, gestational weeks, mode of delivery, maternal comorbidities, and received antibiotics, it was found that in children whose mother had constipation, there was a 1.26-fold risk of AD compared to the children of mothers without constipation (adjusted hazard ratio [aHR]: 1.26; 95% CI, 1.25-1.28). According to subgroup analyses, children in the maternal constipation group had a higher likelihood of AD irrespective of child's sex, birth weight, gestational weeks, mode of delivery, and with or without comorbidities, as well as usage of antibiotics during pregnancy. Compared to the non-constipated mothers, the aHR for the constipated mothers with laxative prescriptions <12 and >=12 times within one year before the index date were 1.26; 95% CI, 1.24 -1.28 and 1.40; 95% CI, 1.29-1.52, respectively. Conclusion: Maternal constipation was associated with an elevated risk of AD in offspring. Clinicians should be aware of the potential link to atopic dermatitis in the children of constipation in pregnant women and should treat gut patency issues during pregnancy. More study is needed to investigate the mechanisms of maternal constipation and atopic diseases in offspring."""
+
+

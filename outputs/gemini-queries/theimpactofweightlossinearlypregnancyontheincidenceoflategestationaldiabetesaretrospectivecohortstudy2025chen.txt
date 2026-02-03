@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofweightlossinearlypregnancyontheincidenceoflategestationaldiabetesaretrospectivecohortstudy2025chen
+"OBJECTIVE: To study the potential correlation between pregnancy weight gain (WG) and the incidence of gestational diabetes mellitus (GDM). METHODS: Clinical records of women with singleton pregnancies who had a first visit at Fujian Maternity and Child Health Hospital before 14 weeks and delivered after 28 weeks were retrospectively analyzed. Based on the first trimester WG, the participants were grouped as inadequate (iWG-F), adequate (aWG-F), and excessive (eWG-F) WG groups. The outcomes of interest included GDM, gestational hypertension, preeclampsia, small for gestational age (SGA), LGA, low birth weight (LBW), preterm birth, macrosomia, primarily cesarean section (CS), and admission to the neonatal intensive care unit (NICU). Statistical analyses included logistic regression, interaction, and mediation analyses. RESULTS: A total of 16,824 pregnancies were analyzed. GDM incidences of the iWG-F, aWG-F, and eWG-F groups were 24.53%, 26.62%, and 29.46%, respectively, with a statistically significant difference (p < 0.001). Multivariable logistic regression showed that inadequate WG correlated with reduced risk of GDM when adjusted for pre-pregnancy body mass index (PPBMI) of below 18.5 kg/m(2) [adjusted odds ratio (aOR) = 0.68], and 18.5-23.9 kg/m(2) (aOR = 0.88). The association of inadequate WG and reduced risk of GDM persisted when adjusted for age <30.5 years (aOR = 0.81), fasting glucose >=4.9 mmol/L (aOR = 0.74), triglycerides <1.4 mmol/L (aOR = 0.84), and HDL <1.63 mmol/L (aOR = 0.85). WG in the second trimester was associated with GDM (b = -0.003, p = 0.036) and partially mediated the effect of eWG-F (-3.7% of the total effect). WG before OGTT showed no association with GDM. CONCLUSION: First trimester WG is significantly associated with the occurrence of GDM. In contrast, there is only a minimal association between second-trimester and pre-OGTT WG and the risk of GDM. Inadequate first-trimester weight gain reduces GDM risk, especially in younger women, women with normal or low PPBMI, elevated fasting glucose, and low HDL or triglycerides, without increasing abnormal neonatal birth weight. Early pregnancy represents a critical window for GDM prevention. Minimal weight gain during this period may be a feasible and acceptable approach to reducing GDM risk."""
+
+

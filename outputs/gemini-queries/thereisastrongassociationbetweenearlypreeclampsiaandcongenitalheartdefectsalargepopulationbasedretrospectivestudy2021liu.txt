@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thereisastrongassociationbetweenearlypreeclampsiaandcongenitalheartdefectsalargepopulationbasedretrospectivestudy2021liu
+"Objective: The aim of this study was to determine the prevalence of congenital heart defects and examine their association with preeclampsia (PE). Methods: A clinical-based, retrospective study was conducted in Shenzhen between 2004 and 2017. Data were collected from Shenzhen Maternal and Child Health Hospital Medical Record Database. This study included all infants who were born at the hospital with or without heart defects and their mothers (N = 177,434 newborns). Data processing and analysis were performed by SPSS23.0 (Chicago, IL, USA). Results: 6,852 women (3.9%) were diagnosed as PE and 1,289 newborns (7.30 per 1,000) have congenital heart disease (CHD). Prevalence of CHD in newborns of women with PE is 15.8 per 1,000 significantly higher than the overall prevalence (7.30 per 1,000). CHD in newborns has strong association with PE, especially early-onset PE (adjusted OR 3.29 and 95% CI 2.15-5.03) and severe PE (adjusted OR 2.75 and 95% CI 2.13-3.56). Among those with CHD, infants of preeclamptic women had higher prevalence of tetralogy of Fallot (43.78 vs. 28.14 per 100,000), atrial septal defect (335.67 vs. 53.93 per 100,000), ventricular dysplasia (102.16 vs. 89.69 per 100,000), and ventricular septal defect (525.39 vs. 212.22 per 100,000) than pregnant women with non-PE. Conclusion: PE, especially early-onset PE and severe PE, is strongly associated with offspring CHD. Our results help advance the current understanding of the association between PE and offspring CHD. So preventing PE and reducing PE may have a beneficial effect on the offspring CHD. (c) 2021 S. Karger AG. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: epidemiologyofcaesareansectiononmaternalrequestinaustraliaapopulationbasedstudy2023begum
+"OBJECTIVE: To explore the trends, determinants, and short-term maternal and neonatal health outcomes of Caesarean section on maternal request (CSMR). DESIGN: Population-based record linkage study. SETTING: Birth registry data for all births in Queensland, Australia, from 2008 to 2017. PARTICIPANTS: Pregnancies resulting in live or intrapartum stillbirth with >=20 gestational weeks and/or >=400 gm birth weight were the study population. The analytic sample was restricted to low-risk pregnancies by excluding preterm, non-cephalic pregnancies with medical risk factors. MEASUREMENTS: CSMR was defined as a first-time C-section in singleton, term pregnancies with an ICD-10-AM code of O-82/O-47. CSMR trend was reported in age-standardised rate using a join-point regression model. The determinants and perinatal outcomes of CSMR were tested against Spontaneous vaginal births (VBs) and planned VBs including assisted VBs and emergency C-sections in this group. The generalised estimating equation technique was used for regression analysis and reported in the odds ratio (OR) at a 95% Confidence Interval (CI). FINDINGS: Of total C-sections (n = 204,863), the average annual change in CSMR rate was 4.4% (95% CI: 2.1-6.7%, p<0.01) for the total pregnancies (N=613,375) Of the analytic sample (N=365568), nulliparous women with age >=35 years (OR: 2.32,95% CI: 2.09-2.57), delivered at private hospitals (OR:4.90; 95% CI: 4.65-5.18); with mood disorders (OR: 2.15; 95% CI: 1.88-2.43) were positive and midwives birth attendant (OR 0.28; 95% CI: 0.26 to 0.30) was negative influencing factors for CSMR. In a propensity score matched sample; CSMR observed an increasedrisk of anaesthetic complications (OR: 8.00; 95% CI:1.95-32.82) and slightly reduced odds of birth asphyxia (OR:0.20;95%CI:0.06-0.60)against planned VBs while the overall incidence of birth-asphyxia was low (1.29%) However, neonatal morbidities (OR:1.61; 95% CI:1-2.59) and special care admission (OR:2.15; 95% CI:1.03-4.5) were higher after CSMR in comparison to SVBs CONCLUSION: Despite being linked with adverse perinatal health outcomes, the incidence of CSMR increased 1.75-fold during the past 10 years. Maternal educational interventions to provide adequate information, including the long-term risks and benefits of C-sections, can help reduce the growing rates of CSMR."""
+
+

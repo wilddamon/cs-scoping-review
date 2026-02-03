@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: measuringglycatedhaemoglobininwomenwithgestationaldiabetesmellitushowusefulisit2017wong
+"Background: Glycated haemoglobin (HbA1c) is an important tool for assessing glycaemic status in patients with diabetes, but its usefulness in gestational diabetes mellitus (GDM), is unclear. Aims: The aim of this study is to evaluate whether HbA1c in women with GDM is valuable in predicting adverse pregnancy outcomes. Materials and methods: A retrospective review of women with GDM who had HbA1c measured at diagnosis of GDM (GHb-diag) and at 36 weeks gestation (GHb-36 weeks) was conducted. The association between HbA1c and various pregnancy outcomes was assessed. Results: Among 1244 women with GDM in our cohort, both GHb-diag and GHb-36 weeks were independent predictors for large-for-gestation (LGA) babies (OR 1.06, P = 0.005 and OR 1.06, P = 0.002, respectively) and neonatal hypoglycaemia (OR 1.10, P < 0.001 and OR 1.09, P < 0.001, respectively). Women with HbA1c >= 5.4% (35 mmol/mol) at diagnosis had significantly greater risk for LGA (15.3% vs 8.2%, P < 0.001) and neonatal hypoglycaemia (42.2% vs 23.6%, P < 0.001) than those below this cut-off. The difference between GHb-diag and GHb-36 weeks was small and improvement in HbA1c by 36 weeks was not associated with better pregnancy outcomes. Conclusion: We showed that measurement of HbA1c, either at the time of diagnosis of GDM or toward the end of pregnancy, were both associated with adverse pregnancy outcomes. Women with elevated HbA1c (>5.4% or 35 mmol/mol) at diagnosis of GDM should be monitored closely during pregnancy. However, there is not enough evidence to suggest that repeating HbA1c toward the end of pregnancy will provide additional information in predicting adverse pregnancy outcomes. (c) 2016 The Royal Australian and New Zealand College of Obstetricians and Gynaecologists"""
+
+

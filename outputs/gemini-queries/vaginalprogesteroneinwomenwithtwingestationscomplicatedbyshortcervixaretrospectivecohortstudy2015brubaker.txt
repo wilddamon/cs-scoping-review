@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vaginalprogesteroneinwomenwithtwingestationscomplicatedbyshortcervixaretrospectivecohortstudy2015brubaker
+"Objective To determine whether the use of vaginal progesterone in twin gestations with a cervical length (CL) of <=2.5 cm is associated with a reduced risk of preterm delivery. Design Retrospective cohort study. Setting Tertiary-care medical centre in New York City. Population Women with twin gestations undergoing sonographic cervical length screening. Methods Women with twin gestations with a CL of <=2.5 cm between 16 and 32 weeks of gestation, and who delivered at our centre between 2010 and 2013, were included. We evaluated the impact of vaginal progesterone on the risk of preterm delivery using a Cox proportional hazard model, adjusted for potential confounding factors. We then performed a propensity score analysis using inverse probability of treatment weights to account for treatment selection bias and confounding. Main outcome measure Delivery prior to 35 weeks of gestation. Results Of the 167 twin pregnancies analysed, 61 (35.7%) were treated with vaginal progesterone. The hazard ratio (HR) of delivery prior to 35 weeks of gestation in the vaginal progesterone group, compared with the no vaginal progesterone group, was 1.8 (95% confidence interval, 95% CI 1.5-3.1) in the unadjusted analysis, 1.4 (95% CI 0.7-3.2) following multivariable adjustment for confounding factors, and 1.5 (95% CI 1.1-2.3) using propensity score methods. Conclusion Women with more risk factors for preterm delivery were more likely to be treated with vaginal progesterone. After statistically correcting for this with propensity score methods, we found that vaginal progesterone therapy in twin pregnancies with a CL <=2.5 cm was associated with an increased risk of preterm delivery. (c) 2014 Royal College of Obstetricians and Gynaecologists."""
+
+

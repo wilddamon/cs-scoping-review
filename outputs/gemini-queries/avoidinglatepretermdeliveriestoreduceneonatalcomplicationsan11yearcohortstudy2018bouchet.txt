@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: avoidinglatepretermdeliveriestoreduceneonatalcomplicationsan11yearcohortstudy2018bouchet
+"Background: Late preterm (LPT) newborns, defined as those born between 34 0/7 and 36 6/7 gestational weeks, have higher short- and long-term morbidity and mortality than term infants (>=37weeks). A categorization to justify a non-spontaneous LPT delivery has been proposed to distinguish evidence-based from non-evidence-based criteria. This study aims to describe rates and temporal trends of non-spontaneous LPT neonates delivered according to evidence-based or non-evidence-based criteria and to evaluate the number of avoidable LPT deliveries, including severe neonatal morbidity rates and associated risk factors. Methods: Retrospective cohort study including all LPT neonates born at a Swiss university maternity unit between January 1, 2002 and December 31, 2012. Trends of LPT neonates and neonatal complications were assessed across time using Poisson regression and risk factors for neonatal complications by logistic regression. Results: Among 40,609 singleton live births, 4223 (10.5%) were preterm and 2017 (4.9%) LPT. In the latter group, 26.2% were non-spontaneous (evidence-based: 12.0%; non-evidence-based: 14.2%). The most frequent indications for evidence-based non-spontaneous LPT delivery were severe preeclampsia (51.8%) and abnormal fetal tracing (24.7%). Indications for non-evidence-based non-spontaneous LPT deliveries were hemorrhage (36.2%) and mild preeclampsia (15.7%). LPT birth rates remained stable over time. The rate of neonatal complications after non-evidence-based LPT birth remained high over time (43.8% vs. 43.5% in 2002 and 2012, respectively; P=0.645), whereas the annual proportion of neonatal complications overall showed a decreasing trend (from 38.0% in 2002 to 33.5% in 2012; P=0.051). Conclusions: LPT birth rates were stable over time, but neonatal complications remained high, particularly after non-evidence-indicated LPT birth. A total of 287 LPT births could have been potentially avoided if an evidence-based protocol for delivery indications had been used. Efforts should be made to avoid non-spontaneous LPT births in order to reduce neonatal complications. (c) 2018 The Author(s)."""
+
+

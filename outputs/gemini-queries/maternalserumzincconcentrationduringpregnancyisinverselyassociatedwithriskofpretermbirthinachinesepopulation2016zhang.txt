@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalserumzincconcentrationduringpregnancyisinverselyassociatedwithriskofpretermbirthinachinesepopulation2016zhang
+"Background: Evidence exists that maternal zinc status during pregnancy is linked to adverse pregnancy outcomes including abortion, fetal growth restriction, and neural tube defects. However, it remains unclear whether maternal serum zinc concentration (SZC) during pregnancy is associated with risk of preterm birth. Objective: This study was designed to investigate the association between maternal SZC during pregnancy and risk of preterm birth. Methods: For this substudy of the China-Anhui Birth Cohort Study, 3081 maternal-singleton pairs with detailed birth records and available serum samples were identified. The maternal SZC was determined with flame atomic absorption spectroscopy. A total of 169 preterm births were identified. In this study, the women were divided into tertiles on the basis of their SZC: low (<76.7 mg/dL), medium (76.7-99.6 mg/dL), and high (>=99.7 mg/dL). The ORs for preterm birth were estimated by using multiple logistic regression models. Results: The median SZC was 87.3 mg/dL (range: 11.1-211 mg/dL). Incidences of preterm birth were 7.3% and 6.0% among subjects with low and medium SZCs, respectively, which were significantly higher than 3.1% among subjects with a high SZC [ORs (95% CIs) for low and medium SZCs: 2.45 (1.60, 3.74), P < 0.001, and 2.00 (1.29, 3.09), P < 0.01, respectively]. After adjustment for prepregnancy body mass index, maternal age, time of serum collection, gravidity, parity, and monthly income, adjusted ORs were 2.41 (95% CI: 1.57, 3.70; P < 0.001) and 1.97 (95% CI: 1.27, 3.05; P < 0.01) among subjects with low and medium maternal SZCs. Conclusions: Maternal serumzinc concentration during pregnancy is inversely associated with risk of pretermbirth in the Chinese population, and the results are driven by maternal SZC in the first trimester."""
+
+

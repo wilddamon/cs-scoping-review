@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: socialdisparitiesindeliverychoiceamongpatientswithhistoryofcesarean2024wetzler
+"OBJECTIVE: Given the call to reduce rates of non-medically indicated cesarean deliveries (CDs) by encouraging trials of labor after cesarean (TOLAC), this study looks at social characteristics of patients choosing a TOLAC versus a scheduled repeat cesarean delivery (SRCD) to determine disparities regarding delivery method choice. METHODS: This was a retrospective cohort study of patients with a history of one CD between April 29, 2015-April 29, 2020. Patients were divided based on type of delivery chosen at admission. Chi-squared tests examined proportional differences between groups and logistic regression models examined odd ratios of choosing TOLAC versus SRCD according to socially dependent categories including race/ethnicity, health insurance, pre-pregnancy body mass index, and Social Vulnerability Index (SVI). RESULTS: 1,983 patients were included. Multivariable logistic regression models revealed that patients with a high SVI (reference: low/medium SVI) (AOR 2.0, CI: 1.5, 2.5), self-identified as Black/ African American (AOR: 2.4, CI: 1.6, 3.6) or Hispanic/Latina (AOR: 2.0, CI: 1.4, 2.8) (reference: White), had public insurance (reference: private insurance) (AOR: 3.7, CI: 2.8, 5.0), and who had an obese BMI (reference: non-obese BMI) were more likely to opt for a TOLAC rather than SRCD. CONCLUSION: These findings demonstrate differences in delivery method preferences. Specifically, more disadvantaged patients are more likely to choose TOLAC, suggesting that social and economic factors may play a role in delivery preferences. These findings have implications for improving individualized counselling and engaging in shared decision-making around mode of delivery."""
+
+

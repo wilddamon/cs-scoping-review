@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antenatalandintrapartumriskfactorsforhypoxicischemicencephalopathyinausbirthcohort2018parker
+"Objective: To identify risk factors for hypoxic-ischemic encephalopathy (HIE) within a recent US birth cohort. Study design: In a retrospective cohort study of 44 572 singleton infants >=36 weeks of gestation born at Kaiser Permanente Northern California in 2008-2015, we identified all infants with HIE based on the presence of 3 inclusion criteria: clinical signs of neonatal encephalopathy, NICU admission, and either a 10-minute Apgar of <=5 or a base excess of <=-15 mmol/L. Neonatal acidemia was defined as a base excess of <=-12 mmol/L. We ascertained antenatal and intrapartum complications from electronic records. Multivariable analysis was performed using logistic regression. Results: There were 45 infants (1.0 per 1000) with HIE and 197 (4.4 per 1000) with neonatal acidemia. Of the infants with HIE, 64% had an intrapartum complication consisting of a sentinel event (36%), clinical chorioamnionitis (40%), or both (11%). Risk factors for HIE on multivariable analysis were sentinel event (relative risk [RR], 16.1; 95% CI, 8.4-33) and clinical chorioamnionitis (RR, 5.2; 95% CI, 2.7-9.9). After removing the 16 infants with HIE who were exposed to a sentinel event from multivariate analysis, maternal age of >=35 years (RR, 2.5; 95% CI, 1.1-5.6) and a urinary tract infection during pregnancy (RR, 2.6; 95% CI, 1.0-6.5) emerged as potential antenatal risk factors for HIE. Conclusions: A significant proportion of HIE is preceded by a sentinel event, emphasizing the importance of developing improved methodologies to predict and prevent this perinatal complication. Strategies focused on reducing other complications such as clinical chorioamnionitis and/or maternal pyrexia may also improve our ability to prevent HIE. (c) 2018 Elsevier Inc."""
+
+

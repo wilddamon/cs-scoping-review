@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severeneonatalhypoglycaemiaandintrapartumglycaemiccontrolinpregnanciescomplicatedbytype1type2andgestationaldiabetes2020yamamoto
+"Aims: To determine if in-target intrapartum glucose control is associated with neonatal hypoglycaemia in women with type 1, type 2 or gestational diabetes. Methods: This was a retrospective cohort study of pregnant women with diabetes and their neonates. The primary exposure was in-target glucose control, defined as all capillary glucose values within the range 3.5-6.5 mmol/l during the intrapartum period. The primary outcome, neonatal hypoglycaemia, was defined as treatment with intravenous dextrose therapy. Multiple logistic regression was used to examine the association between maternal intrapartum glycaemic control and neonatal hypoglycaemia, adjusting for covariates. Results: Intrapartum glucose testing was available for 157 (86.3%), 267 (76.3%) and 3256 (52.4%) women with type 1, type 2 and gestational diabetes, respectively. In the univariate analysis, in-target glycaemic control was significantly associated with neonatal hypoglycaemia in women with gestational diabetes, but not in women with type 1 or 2 diabetes. However, after adjustment for important neonatal factors (large for gestational age, preterm delivery and infant sex), intrapartum in-target glycaemic control was not significantly associated with neonatal hypoglycaemia in women regardless of diabetes type [adjusted odds ratios 0.4 (95% CI 0.1, 1.4), 0.7 (95% CI 0.3, 1.3) and 0.7 (95% CI 0.5, 1.0) for women with type 1, type 2 and gestational diabetes, respectively]. Conclusions: There was no significant association between in-target glycaemic control and neonatal hypoglycaemia after adjustment for neonatal factors. Given the high risk of maternal hypoglycaemia and the resources required, future trials should consider whether more relaxed intrapartum glycaemic targets may be safer and yield similar neonatal outcomes. (c) 2019 The Authors. Diabetic Medicine published by John Wiley & Sons Ltd on behalf of Diabetes UK"""
+
+

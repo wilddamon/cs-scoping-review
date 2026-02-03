@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofamodeltopredictcesareandeliveryastheoutcomeofafailedlaborinductioninsingletonobesepregnantwomenatterm2025feng
+"BACKGROUND: Maternal obesity is a major global public health issue. Induction of labor (IoL) is common in obstetrics. Both the rate of IoL and induction failure rate are higher in obese women than in those with normal body mass index (BMI). This study aimed to construct a model to predict the failed IoL with a caesarean section (CS) as the outcome among term singleton obese pregnant women. METHODS: Electric health records of term singleton obese pregnant women were retrieved from Beijing Obstetrics and Gynecology Hospital from February 2018 to December 2022 (discovery cohort), and January to December 2024 (validation cohort). CS was defined as the outcome of failed IoL. Univariate logistic regression analysis was used to identify the risk factors, and multivariate logistic regression (stepwise and backward) was used to construct the prediction model. Performance was assessed using the area under the receiver operating characteristic curve (AUC) and internally validated with the validation cohort. RESULTS: Pre-pregnant BMI (OR 1.074, 95% CI 1.016-1.135, p=0.011), gestational weight gain (OR 1.033, 95% CI 1.006-1.062) and neonatal weight (OR 1.673, 95% CI 1.175-2.380, p=0.004) were identified as the risk factors of a failed IoL, whereas gravidity (OR 0.706, 95% CI 0.592-0.844, p<0.001), parity (OR 0.105, 95% CI 0.055-0.198, p<0.001), height (OR 0.935, 95% CI 0.907-0.963, p<0.001) and Bishop score (OR 0.892, 95% CI 0.799-0.996, p=0.042) as the protective factors. The final model included parity, height, pre-pregnant BMI, gestational weight gain, Bishop score, and neonatal weight, achieving an AUC of 0.752 (95% CI, 0.717-0.788) in the discovery cohort and 0.826 (95% CI 0.757-894) in the validation cohort. CONCLUSION: This practical model predicts the failed IoL among term singleton obese women using routinely available variables. It may support obstetric decision-making, enhance counseling, and improve resource planning for women at increased risk of intra- and postpartum complications."""
+
+

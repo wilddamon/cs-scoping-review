@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandneonataloutcomesinwomenundergoingtrialoflaboraftercesareantolaccomparedwithelectiverepeatcesareansectionercsacohortstudy2025chatzistergiou
+"BACKGROUND: Trial of labor after cesarean (TOLAC) is often recommended as an alternative to elective repeat cesarean section (ERCS) in women with a single prior cesarean section. This retrospective cohort study aimed to compare obstetrical outcomes between TOLAC and ERCS in a French hospital setting. METHODS: Women with a single prior cesarean delivery, cephalic presentation, and term pregnancies (>= 37 weeks) between 2019 and 2024 were included. Women were analyzed according to their initially intended mode of delivery (TOLAC or ERCS), irrespective of the final delivery route, to reflect a real-world, decision-based clinical approach. Primary outcomes were uterine rupture, severe postpartum hemorrhage (PPH), and neonatal intensive care unit (NICU) admission. Statistical methods included chi-square tests, Student's t-tests, and Firth's penalized logistic regression for rare events. RESULTS: In total, 2,424 women were included, with 2,146 undergoing TOLAC and 278 undergoing ERCS. Severe PPH occurred less frequently in the TOLAC group (5.6%) than in the ERCS group (10.4%, p = 0.002), with adjusted analysis confirming a significant reduction in risk (adjusted OR: 0.45, 95% CI: 0.31-0.69, p < 0.001). NICU admissions were also lower in the TOLAC group (6.5% vs. 13.3%, p < 0.001; adjusted OR: 0.45, 95% CI: 0.31-0.69, p < 0.001). Uterine rupture rates were low and showed no significant difference in unadjusted analysis (1.7% TOLAC vs. 1.1% ERCS, p = 0.622), though adjusted models indicated an increased risk with TOLAC (adjusted OR: 2.08, 95% CI: 1.24-3.58, p = 0.005). CONCLUSION: The findings suggest that obstetrical practice concerning TOLAC, in a French tertiary care maternity unit, is associated with lower rates of severe PPH and NICU admission compared to ERCS, with a slightly increased risk of uterine rupture. These results support offering TOLAC as a safe and beneficial option for eligible women."""
+
+

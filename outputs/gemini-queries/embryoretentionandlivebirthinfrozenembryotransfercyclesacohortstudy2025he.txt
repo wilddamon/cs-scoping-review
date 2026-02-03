@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: embryoretentionandlivebirthinfrozenembryotransfercyclesacohortstudy2025he
+"OBJECTIVE: To study the effect of embryo retention in the transfer catheter on pregnancy outcomes in frozen embryo transfer (FET) cycles. DESIGN: Retrospective cohort study. SUBJECTS: This retrospective study involved a total of 39,118 women who underwent FET cycles at a tertiary-care academic medical from January 2016 to December 2022. EXPOSURE: Women were divided into a control group (n = 38,933) and embryo retention group (n = 185). The women in the embryo retention group had been propensity scores matched with those in the control group at a 1:4 ratio. MAIN OUTCOME MEASURES: The primary outcome was live birth (LB). The secondary outcomes were biochemical pregnancy, clinical pregnancy (CP), miscarriage, and ectopic pregnancy. RESULTS: The overall incidence of embryo retention in the transfer catheter was 0.47% (185/39,118). The pregnancy outcome in the embryo retention group after propensity score matching (PSM) was comparable to that before PSM, with a reduced likelihood of biochemical pregnancy (odds ratio [OR], 0.83; 95% confidence interval [CI], 0.72-0.95), CP (OR, 0.81; 95% CI, 0.69-0.96), and LB (OR, 0.80; 95% CI, 0.66-0.97). In addition, the birth weight in the embryo retention group was higher compared with the control group. However, no differences were observed in terms of miscarriage, ectopic pregnancy, cesarean delivery, as well as gestational age both before and after PSM. CONCLUSION: Embryo retention in the transfer catheter decreases the chance of biochemical pregnancy, CP, and LB in FET cycles."""
+
+

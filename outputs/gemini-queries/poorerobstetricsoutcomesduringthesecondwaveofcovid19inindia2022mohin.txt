@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: poorerobstetricsoutcomesduringthesecondwaveofcovid19inindia2022mohin
+"Introduction: Outcomes of pregnancy in COVID 19-infected mothers are worse than in the general population. Due to immunological changes, antenatal women are more vulnerable to severe complications. The India has experienced two waves of the disease. We analysed whether the second wave of the disease had affected pregnancy outcomes differently by comparing pregnancy outcomes with those of the first wave. Material(s) and Method(s): The study population included all the women delivered in the same tertiary centre during both the waves. Maternal outcome parameters include maternal oxygen requirement, maternal ICU admission and maternal death. Foetal outcome parameters include APGAR scores, preterm deliveries and NICU admissions, maternal and foetal outcome parameters between the first and the second waves were compared. Result(s): Demographic parameters were similar in both the waves of COVID 19. No significant differences were found in pre-pregnancy comorbidities, high-risk pregnancies and mode of deliveries between the two waves. Maternal oxygen requirement increased in the second wave [first wave 6(4.7%) vs second wave 25(40.3%) (p-value < 0.001)]. There was also a significant increase in ICU admission [4(3.1%) vs 8(12.9%)], which was in positive correlation with maternal oxygen requirement during the second wave (r = 0.81, p < 0.001). However, there was no significant difference in maternal death [2(1.6%) vs 2(3.2%)]. No significant change noted in neonatal outcomes except for an increase in neonatal sepsis [0 vs 5(8.1%)]. Conclusion(s): Mothers had more severe diseases during the second wave. But this did not translate into significant increase in maternal mortality and poor neonatal outcomes, possibly due to better preparedness.Copyright (c) 2022, Federation of Obstetric & Gynecological Societies of India."""
+
+

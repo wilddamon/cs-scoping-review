@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: differentialcytokineandmetaboliteproductionbycervicovaginalepithelialcellsinfectedwithlactobacilluscrispatusandureaplasmaurealyticum2020cavanagh
+"Introduction: We sought to quantify targeted metabolites (D-lactate, pyruvate, urea, ammonia) and the cytokine IL-8 produced by human cervicovaginal epithelial cells co-cultured with Ureaplasma urealyticum (a preterm birth-associated bacterium) or Lactobacillus crispatus (a healthy vaginal commensal associated with term birth). Methods: Concentrations of D-lactate, pyruvate, urea and ammonia measured by enzyme-based spectrophotometry and IL-8 by ELISA were determined and compared between monolayer-cultured HeLa cells (ATCC 35241) infected with strains of U. urealyticum (ATCC 27618, 0.5 mL = 3640 CFU/mL, U. urealyticum) or L. crispatus (ATCC 33820, MOI = 10,000, 1000 and 100, L. crispatus) and incubated in 5% CO<inf>2</inf> at 37 degC for 24 h. Uninfected HeLa cells (Hc) were used as controls and cytotoxicity was determined by the amount (optical density) of lactate dehydrogenase (LDH) released by the dead HeLa cells. Results: The amount of LDH released by untreated Hc (P = 0.002) and U. urealyticum-infected cells (P < 0.0001) was higher than those of L. crispatus-infected cells, with U. urealyticum-infected cells recording the highest % cytotoxicity and L. crispatus-infected cells MOI 10,000 (Lc10,000) the least (P < 0.0001). Though there was no significant difference in the concentration of urea between the samples, U. urealyticum-infected cells showed higher ammonia compared to other samples (p = 0.03). In contrast, all L. crispatus samples had higher D-lactate than untreated Hc (p = 0.01) and U. urealyticum-infected cells (P = 0.01). Also, Lc10,000 had the highest D-lactate (p = 0.001) and lowest pyruvate (P = 0.04, excluding UU) compared to other samples. Furthermore, U. urealyticum-infected cells produced the highest IL-8 (P = 0.01) compared to other samples, with Lc10,000 producing undetectable levels. Conclusion: Infection of cervicovaginal epithelial cells by U. urealyticum stimulates production of ammonia from urea and induces elevated IL-8 production possibly leading to significantly higher cytotoxicity. In contrast, L. crispatus appeared protective against HeLa cell inflammation and death, producing more D-lactate and less IL-8, consistent with a role for L. crispatus in promoting vaginal floral health and reducing infection/inflammation-associated preterm birth. (c) 2019"""
+
+

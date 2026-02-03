@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acascadeofinterventionsaclassificationtreeanalysisofthedeterminantsofprimarycesareansinaustralianpublichospitals2021fox
+"Background: Both globally and in Australia, there has been a sharp rise in cesarean births (CB). Commonly, this rise has been attributed to the changing epidemiology of women giving birth. A significant body of knowledge exists on the risk factors associated with a greater need for cesarean. Yet, we have little information on the reasons recorded by clinicians as to why cesareans are provided. This study aimed to explore the drivers of primary cesareans in Australian public hospitals. Methods: Using a linked administrative data set, the frequency and percent of mothers' characteristics were compared between those who had a cesarean birth and those who had a vaginal birth (n = 98 967) with no history of previous cesareans in Queensland public hospitals between July 1, 2012, and June 30, 2015. The top 10 reasons recorded by clinicians for a primary cesarean were reported. Using a machine-learning algorithm, two decision trees were built to determine factors driving primary cesarean birth. Results: "Labour and delivery complicated by fetal heart rate anomaly" (23%) and "primary inadequate contractions" (22.8%) were the top two reasons for a primary cesarean birth. The most common characteristics among mothers who had fetal heart rate anomalies were as follows: artificial rupture of membranes (39%), oxytocin (32%), no obstruction of labor (42%), and epidural (52%). For women who had primary inadequate contractions, the most common characteristics were as follows: epidural (33%), oxytocin (49%), artificial rupture of membranes (45%), and fetal stress (56%). Conclusions: Efforts should be made by health practitioners during the antenatal period to maximize the use of preventative measures that minimize the need for medical interventions."""
+
+

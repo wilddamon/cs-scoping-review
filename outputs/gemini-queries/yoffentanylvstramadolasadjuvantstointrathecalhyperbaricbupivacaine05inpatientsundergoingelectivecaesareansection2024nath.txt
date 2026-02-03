@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparativestudyontheefficacyoffentanylvstramadolasadjuvantstointrathecalhyperbaricbupivacaine05inpatientsundergoingelectivecaesareansection2024nath
+"Background: Spinal anesthesia is recommended worldwide for elective caesarean section surgery because to its efficacy, rapidity, blood loss reduction, and thromboembolic protection. It offers optimal operating circumstances, including thick analgesia and muscle relaxation. Aim(s): This research aimed to evaluate the effectiveness of intrathecal bupivacaine (0.5% heavy) with fentanyl or tramadol in elective caesarean sections. Method(s): Patients with elective neurosurgery planned for ages 20 to 60 who were ASA grade I or II were included in the research. Exclusion criteria included significant organ problems, pregnancy, ASA grade III/IV, and a history of analgesic use. Patients were allocated at random into 2 groups: Group F received fentanyl (20 microg) and bupivacaine, whereas Group T received bupivacaine and tramadol (20 mg). Following the administration of spinal anesthesia, hemodynamic parameters, adverse effects, and the features of sensory and motor blockade were monitored. Result(s): The demographic profile, such as age, gender, and weight, were analogous between Group F (Fentanyl) and Group T (Tramadol), exhibiting no significant differences. Group F had markedly prolonged periods of analgesia, motor block, and sensory block, all with p-values <0.001. Group F had a delayed onset of motor block, but Group T demonstrated a more rapid start of sensory block. Post-operative pain levels in Group F were consistently lower than those in Group T at many intervals, with significant differences seen at 30, 60, and 120 minutes. Conclusion(s): Fentanyl is preferable to tramadol as an adjunct to spinal bupivacaine in elective caesarean sections; however, both groups effectively provided adequate surgical anesthesia and hemodynamic stability.Copyright (c) 2024 Dr. Yashwant Research Labs Pvt. Ltd.. All rights reserved."""
+
+

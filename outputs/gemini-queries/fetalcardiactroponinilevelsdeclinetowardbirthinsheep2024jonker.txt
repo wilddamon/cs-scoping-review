@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalcardiactroponinilevelsdeclinetowardbirthinsheep2024jonker
+"Elevated cardiac troponin I (cTnI), a myocardial damage biomarker, has been reported in cord blood of neonates delivered vaginally or by cesarean section. Although the neonatal peak likely reflects the physiological adjustment to extrauterine life, a better understanding of serial prepartum changes is required to determine physiological causes of fetal cTnI release. We longitudinally sampled eight healthy lambs (20 days before spontaneous birth to 5 days postnatal), and from three fetuses receiving intravenous IGF-1. Samples were collected into heparin, and the plasma was stored at -80degC for later determination of high-sensitivity (hs) cTnI levels (BeckmanCoulter UniCel DxI Access IA; log transformed detection limit = 0.30, quantification limit = 0.78, 99th percentile = 1.78). Positive and negative control samples were drawn from an adult ewe during a terminal experiment (myocardial ischemia) and similarly assessed. hs-cTnI data were log transformed from ng/L. Log(hs-cTnI) was 1.47 +- 0.30 (means +- SD) at 20 days before birth and declined to 1.02 +- 0.65 in fetuses 12 +- 4 h before birth (P < 0.0001, R(2) = 0.7869). Birth stimulated a delayed, transient peak in hs-cTnI (P = 0.0058). Newborn (43 +- 19 min postnatal) levels were 1.39 +- 0.40 (P = 0.0650 vs. fetus on day of birth) and 2.14 +- 0.63 the day after birth (P = 0.0331 vs. newborn). The second day after birth, levels declined to 1.65 +- 0.48 (P = 0.0238 vs. day 1). IGF-1 infusion increased hs-cTnI levels 25-50% over baseline (P = 0.0252, R(2) = 0.9938). Baseline adult ewe log(hs-cTnI) was below the limit of detection; 3 h following coronary artery ligation, levels were 3.21. In conclusion, we newly report that fetal hs-cTnI levels decline concomitantly with reduced proliferation of cardiomyocytes toward term.NEW & NOTEWORTHY Serial blood samples were collected from catheterized, normally developing fetal and newborn lambs and high-sensitivity cardiac troponin I (hs-cTnI) levels were assessed, providing unprecedented insight into the physiological processes leading to high levels in the perinatal period. Moderately high levels of hs-cTnI found in the normally developing fetus declined toward term. An elevation to high levels peaked the day after birth, after which hs-cTnI declined again. Stimulation of fetal cardiomyocyte proliferation with IGF-1 also elevated hs-cTnI."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prepregnancyorfirsttrimesterriskscoringtoidentifywomenathighriskofpretermbirth2018baer
+"Objective To develop a pre-pregnancy or first-trimester risk score to identify women at high risk of preterm birth. Study design In this retrospective cohort analysis, the sample was drawn from California singleton livebirths from 2007 to 2012 with linked birth certificate and hospital discharge records. The dataset was divided into a training (2/3 of sample) and a testing (1/3 of sample) set for discovery and validation. Predictive models for preterm birth using pre-pregnancy or first-trimester maternal factors were developed using backward stepwise logistic regression on a training dataset. A risk score for preterm birth was created for each pregnancy using beta-coefficients for each maternal factor remaining in the final multivariable model. Risk score utility was replicated in a testing dataset and by race/ethnicity and payer for prenatal care. Results The sample included 2,339,696 pregnancies divided into training and testing datasets. Twenty-three maternal risk factors were identified including several that were associated with a two or more increased odds of preterm birth (preexisting diabetes, preexisting hypertension, sickle cell anemia, and previous preterm birth). Approximately 40% of women with a risk score >= 3.0 in the training and testing samples delivered preterm (40.6% and 40.8%, respectively) compared to 3.1-3.3% of women with a risk score of 0.0 [odds ratio (OR) 13.0, 95% confidence interval (CI) 10.7-15.8, training; OR 12.2, 95% CI 9.4-15.9, testing). Additionally, over 18% of women with a risk score >= 3.0 had an adverse outcome other than preterm birth. Conclusion Maternal factors that are identifiable prior to pregnancy or during the first-trimester can be used create a cumulative risk score to identify women at the lowest and highest risk for preterm birth regardless of race/ethnicity or socioeconomic status. Further, we found that this cumulative risk score could also identify women at risk for other adverse outcomes who did not have a preterm birth. The risk score is not an effective screening test, but does identify women at very high risk of a preterm birth. (c) 2018 Elsevier B.V."""
+
+

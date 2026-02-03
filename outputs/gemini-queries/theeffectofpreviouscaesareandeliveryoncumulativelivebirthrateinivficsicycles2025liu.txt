@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofpreviouscaesareandeliveryoncumulativelivebirthrateinivficsicycles2025liu
+"PURPOSE: The purpose of this study is to investigate the effect of women's caesarean delivery history on IVF/ICSI success by evaluating the cumulative live birth rate per treatment cycle. METHODS: A total of 4724 parous patients receiving conventional IVF/ICSI treatment were retrospectively analyzed; patients were divided into the caesarean section delivery group (CS, N = 1415) and the vaginal delivery group (VD, N = 3309) according to whether patients had a previous caesarean section history. According to the presence of caesarean scar defect (PCSD), patients in the CS group were categorized into the previous caesarean scar defect subgroup (PCSD, N = 302) and the non-PCSD subgroup (non-PCSD, N = 1113). Propensity score (PS) matching and the generalized linear model (GLM) were used to adjust for potential confounding factors. RESULTS: The cumulative live birth rates in the VD group and CS group were similar both before (60.4% vs. 58.4%, P = 0.219) and after (57.8% vs. 58.4%, P = 0.761) PS matching, and there was also no significant difference in the cumulative live birth rates of patients in PCSD, non-PCSD, VD group, and VD-matched group. Subgroup analysis on patients with different prognoses, age, ovarian response, and BMI also showed that there was no significant difference in cumulative live birth rates in subgroups. Cox regression analysis with adjustments made for important covariates and potential confounding factors showed that there was no significant difference in cumulative live birth rates both in the VD group and CS group before and after PS matching. CONCLUSION: Previous caesarean delivery history may not impact cumulative live birth rate when compared to patients with previous vaginal delivery in IVF/ICSI cycles."""
+
+

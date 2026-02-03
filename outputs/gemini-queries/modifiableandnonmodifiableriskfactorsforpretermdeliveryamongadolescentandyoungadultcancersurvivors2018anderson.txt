@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modifiableandnonmodifiableriskfactorsforpretermdeliveryamongadolescentandyoungadultcancersurvivors2018anderson
+"Purpose: A cancer diagnosis in adolescence and young adulthood (AYA, ages 15-39) may affect future pregnancy outcomes. Previous studies have reported an increased risk of preterm delivery (< 37 weeks of gestation) after maternal cancer treatment. In this analysis, we evaluated whether non-cancer characteristics modify the association between an AYA cancer history and preterm birth. Methods: North Carolina Central Cancer Registry records (2000-2013) were linked to state birth certificate files (2000-2014) to identify births to AYA cancer survivors (n = 1,980). A comparison cohort of births to women without a cancer diagnosis was selected from birth certificate files (n = 11,860). Log-binomial regression was used to estimate risk ratios (RR) and 95% confidence intervals (CI) for preterm delivery. Effect modification by early prenatal care (1st trimester; yes/no), race/ethnicity (white/black/other), previous live births (0/1+), maternal age (< 25/25-29/30-34/35+), smoking during pregnancy (any/none), and education (high school or less/some college/Bachelor's degree or higher) was evaluated using likelihood ratio tests (LRT). Results: Overall, preterm births were more common among AYA survivors than the comparison group (RR = 1.24, CI 1.07-1.43). The association was stronger among those who did not receive early prenatal care (RR = 1.73, CI 1.26-2.37) than among those who did (RR = 1.15, CI 0.98-1.35; LRT p = 0.03). Maternal age < 25 was also associated with a greater increase in preterm birth (< 25: RR = 1.80, CI 1.27-2.54; LRT p = 0.07). Associations did not vary strongly by other factors evaluated. Conclusions: An AYA cancer diagnosis may be associated with an increased risk of preterm birth, particularly among women who are younger and receive late or no prenatal care. (c) 2017, Springer International Publishing AG, part of Springer Nature."""
+
+

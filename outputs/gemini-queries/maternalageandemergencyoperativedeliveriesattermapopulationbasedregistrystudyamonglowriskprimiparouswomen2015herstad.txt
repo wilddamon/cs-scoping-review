@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalageandemergencyoperativedeliveriesattermapopulationbasedregistrystudyamonglowriskprimiparouswomen2015herstad
+"OBJECTIVE: To study the association between maternal age and emergency operative delivery. The roles of in-labour indications, and birthweight >= 4000 g, gestational age >= 42 weeks, induction of labour, and epidural use, according to maternal age were explored. DESIGN: Population-based study. SETTING: Medical Birth Registry of Norway and Statistics Norway. POPULATION: We studied 169 583 low-risk primiparous mothers with singleton, cephalic labours, at >=37 weeks of gestation, from 1999 to 2009. METHODS: The associations between maternal age and mode of delivery were analysed using multinomial regression analyses, adjusting for sociodemographic factors. MAIN OUTCOME MEASURES: Emergency caesarean section and operative vaginal delivery. RESULTS: Of women aged >=40 years, 22% had emergency caesarean sections and 24% had operative vaginal deliveries, giving adjusted relative risk ratios (RRRs) of 6.60 (95% confidence interval, 95% CI 5.53-7.87) and 3.30 (95% CI 2.79-3.90), respectively, when compared with women aged 20-24 years. Adjustments for sociodemographic factors only slightly changed the estimates. Dystocia was the main indication, followed by fetal distress. All of the listed factors increased the level of emergency operative deliveries, mainly because of an increase in dystocia. The increase in risk for emergency caesarean section by all factors, and for operative vaginal deliveries by epidural, were greater in older than in younger women, but were significant for epidural only. CONCLUSIONS: We found a close association between maternal age and emergency operative delivery in low-risk primiparas. Contributory factors increased the risk for both emergency operative delivery and epidural more in older than in younger women."""
+
+

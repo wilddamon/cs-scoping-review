@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyanddeliveryinfunctionalsingleventriclepatientsuccessfullongtermoutcomeafterrightventricleexclusionandfontanoperation2016kim
+"Twenty-six-year-old Ebstein's anomaly patient, who had failed both biventricular and one-and-a-half repair, underwent right ventricle exclusion and Fontan operation. She completed pregnancy and delivery owing to the excellent long-term clinical course. Although the caesarean section was performed due to symptoms of heart failure on the gestational age of 32+6 weeks, preterm delivery was agreeable with neonatology support. In Korea, there has not yet been a case of pregnancy and delivery of functional single ventricle patient because most patients have been discouraged from getting pregnant. However, functional single ventricle patient can endure pregnancy and delivery, if valve function and ventricular contractility, status of Fontan pathway and absence of arrhythmia predict favorable outcome as presented in this case. Although the patient maintained her pregnancy without anticoagulation owing to laminar flow in the Fontan pathway and absence of thromboembolic event, anticoagulation should be considered, weighing the benefits and risks during the pregnancy.Copyright (c) 2016 The Korean Society of Cardiology."""
+
+

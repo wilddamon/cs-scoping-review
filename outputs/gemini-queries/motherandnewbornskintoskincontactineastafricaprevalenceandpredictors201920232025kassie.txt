@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: motherandnewbornskintoskincontactineastafricaprevalenceandpredictors201920232025kassie
+"Skin-to-skin contact (SSC) between newborns and mothers is crucial for reducing hypothermia complications and enhancing mother-baby bonding. This study aimed to examine the prevalence rates and risk factors for SSC in five East African countries. Data from the most recent Demographic and Health Surveys covering five East African countries from 2019 to 2023 were utilized for secondary data analysis. A total of 37,140 newborns were included in the weighted sample sizes. The factors contributing to SSC prevalence were assessed using a multilevel mixed-effects logistic regression model, with significance declared at p-values <0.05. Adjusted odds ratios (AOR) and confidence intervals (CI) were used for interpretation. In East Africa, nearly half of newborns did not receive SSC. Individual-level factors associated with SSC included: immediate breastfeeding (IBF) (AOR = 2.24, 95% CI: (1.86, 2.69)), primary education (AOR = 1.60, 95% CI: (1.24, 2.07)), more than four antenatal care visits (AOR = 2.15, 95% CI: (1.37, 3.36)), low birth weight (AOR = 1.35, 95% CI: (1.04, 1.76)), multiple births (AOR = 0.41, 95% CI: (0.24, 0.73)), and cesarean section deliveries (AOR = 0.26, 95% CI: (0.20, 0.34)). Community-level factors included rural residence (AOR = 0.63, 95% CI: (0.48, 0.82)), with significant country-level variations: Kenya (AOR = 2.45, 95% CI: (1.72, 3.49)), Mozambique (AOR = 1.21, 95% CI: (0.91, 1.62)), and Tanzania (AOR = 3.14, 95% CI: (2.29, 4.31)). The findings indicate a low prevalence of mother-newborn SSC in East African countries, with particularly high rates observed in Rwanda and lower rates in Madagascar. Policymakers and ministries of health should prioritize initiatives aimed at improving SSC, particularly for newborns and mothers with low educational levels, limited media exposure, and those living in rural areas, to enhance maternal and neonatal care during delivery."""
+
+

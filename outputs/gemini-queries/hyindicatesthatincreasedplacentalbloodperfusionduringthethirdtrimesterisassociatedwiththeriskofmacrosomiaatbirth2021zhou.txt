@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: threedimensionalpowerdopplerultrasonographyindicatesthatincreasedplacentalbloodperfusionduringthethirdtrimesterisassociatedwiththeriskofmacrosomiaatbirth2021zhou
+"Purpose: To investigate the association between placental blood perfusion and the occurrence of macrosomia at birth. Methods: This was a prospective cohort study including women with singleton pregnancies that aimed to measure placental blood perfusion using three-dimensional (3D) power Doppler ultrasonography in the second and third trimester. We acquired three indices of placental blood flow, including vascularization index (VI), flow index (FI), vascularization flow index (VFI), along with routine two-dimensional (2D) biometric measurements, including abdominal circumference (AC) and estimated fetal weight (EFW). Pregnancy outcomes were divided into two groups: newborns with a normal birth weight and those with macrosomia. We then compared all of the recorded variables between these two groups. We also determined the predictive efficiency of each variable using receiver-operating characteristic (ROC) curves. Results: The placental 3D power Doppler indices, including VI and FI, were significantly higher in the third trimester of pregnancies developing macrosomia, but not during the second trimester, as compared to those with a normal birth weight. ROC curves analysis for third-trimester VI and FI suggested a slight ability to predict macrosomia; this was also the case for AC and EFW. Interestingly, VI showed high sensitivity and low specificity, while FI showed low sensitivity and high specificity; this was also the case for AC and EFW. Conclusions: Three-dimensional power Doppler ultrasound indices were significantly higher during the third-trimester for pregnancies developing macrosomia. However, these indices had only moderate ability to predict macrosomia. (c) 2020 Wiley Periodicals LLC."""
+
+

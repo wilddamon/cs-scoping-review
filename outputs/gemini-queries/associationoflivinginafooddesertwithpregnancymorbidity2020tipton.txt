@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationoflivinginafooddesertwithpregnancymorbidity2020tipton
+"OBJECTIVE:To evaluate whether women living in areas deemed food deserts had higher rates of pregnancy morbidity, specifically preeclampsia, gestational hypertension, gestational diabetes, prelabor rupture of membranes, preterm labor, than women who did not live in food deserts at the time of their pregnancy and delivery.METHODS:This was a retrospective observational study in which we reviewed electronic medical records of all patients who delivered at Loyola University Medical Center in Maywood, Illinois in 2014. The Economic Research Service of the U.S. Department of Agriculture publishes the Food Access Research Atlas, which presents a spatial overview of food access indicators for low-income and other Census tracts using different measures of supermarket accessibility. A spatial join between the Food Access Research Atlas and patient coordinates was performed to identify patient point locations and determine whether each patient was located within or outside of a food desert.RESULTS:Data for 1,003 deliveries at Loyola University Medical Center in 2014 were provided by the Loyola University Chicago Clinical Research Database. Two deliveries were excluded owing to inability to map address coordinates; thus 1,001 deliveries were analyzed. Of the 1,001 patients, 195 (19.5%) women were designated to food deserts. Multivariable analysis was done by adjusting for age, race, and medical insurance class. Having at least one morbid condition was the only variable that demonstrated a significant association with the food desert in multivariable analyses (47.2% vs 35.6%) (odds ratio [OR] 1.62, 95% CI 1.18-2.22) (adjusted OR 1.64, 95% CI 1.18-2.29).CONCLUSION:The odds of having at least one of the studied morbid conditions in pregnancy were greater for patients living in a food desert. As there is an association of morbidity in pregnancy with living in a food desert, intervention trials to improve the built food environment or mitigate the effect otherwise are needed. (c) 2020 Lippincott Williams and Wilkins. All rights reserved."""
+
+

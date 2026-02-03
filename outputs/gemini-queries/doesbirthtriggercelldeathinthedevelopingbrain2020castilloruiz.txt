@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesbirthtriggercelldeathinthedevelopingbrain2020castilloruiz
+"Developmental cell death eliminates half of the neurons initially generated in the mammalian brain, and occurs perinatally in many species. It is possible that the timing of neuronal cell death is developmentally programmed, and only coincidentally associated with birth. Alternatively, birth may play a role in shaping cell death. To test these competing hypotheses, we experimentally advanced or delayed birth by 1 d in mice (within the normal range of gestation for the species) and examined effects on the temporal pattern and magnitude (amount) of neuronal cell death, using immunohistochemical detection of activated caspase-3 as a cell death marker. In order to detect effects of subtle changes in birth timing, we focused on brain areas that exhibit sharp postnatal peaks in cell death. We find that advancing birth advances peak cell death, supporting the hypothesis that birth triggers cell death. However, a delay of birth does not delay cell death. Thus, birth can advance cell death, but if postponed, a developmental program governs. Advancing or delaying birth also caused region-specific changes in the overall magnitude of cell death. Our findings shed light on the long-standing question of what controls the timing and magnitude of developmental neuronal cell death, and position birth as an orchestrator of brain development. Because humans across the world now routinely alter birth timing, these findings may have implications for current obstetric practices. Copyright (c) 2020 Castillo-Ruiz et al."""
+
+

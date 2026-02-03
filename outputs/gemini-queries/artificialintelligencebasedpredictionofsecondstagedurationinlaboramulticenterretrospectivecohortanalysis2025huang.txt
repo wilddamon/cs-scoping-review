@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: artificialintelligencebasedpredictionofsecondstagedurationinlaboramulticenterretrospectivecohortanalysis2025huang
+"BACKGROUND: Duration of second stage of labor is crucial for fetal delivery, but the optimal length of this stage remains controversial. While extending the duration of second stage can reduce primary cesarean delivery rates, it may increase maternal and neonatal morbidities as the duration progresses. We aimed to develop a personalized machine learning (ML) model to predict the possible second-stage duration. METHODS: This multicenter, retrospective study was conducted at four tertiary hospitals in China from September 2013 to October 2022. Data from three hospitals in Guangdong Province was selected as derivation set, and a geographically independent dataset from Fujian Province as the external validation set. Singleton vaginal deliveries with term live birth in a cephalic position were included. The primary outcome was the duration of the second stage of labor. Since durations beyond 3 h were rare, we developed binary classification models with thresholds at 1 h and 2 h. After the optimal features selected by recursive feature elimination (RFE) method, four ML algorithms were employed to build the models. The best model would be selected with the predictive performance and interpreted with Shapley Additive exPlanations method. The study is registered in Clinical Trial (ChiCTR2400085338). FINDINGS: Electronic medical records of 79,381 vaginal deliveries were obtained, and 63,401 deliveries meeting the inclusion criteria were included in the final analysis. Eight risk features were selected through the RFE process. Gradient boosting machine implemented by decision tree models achieved the best performance, yielding areas under the curve for 1-h and 2-h models of 0.808 (95% confidence interval [CI] 0.797-0.819) and 0.824 (95% CI 0.804-0.843) in the testing set, and 0.862 (95% CI 0.854-0.870) and 0.859 (95% CI 0.843-0.875) in the external validation set, respectively. INTERPRETATION: An explainable and reliable ML model was developed to predict the probable second-stage duration, which could assist in individualized labor management. Factors such as first-stage duration and maternal age are potential predictors for the second stage. FUNDING: National Natural Science Foundation of China (No.82371689, N0.81771602), and National Key Research and Development Program of China (No.2021YFC2700703)."""
+
+

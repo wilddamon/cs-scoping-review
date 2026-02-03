@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofneighborhoodlevelracialandeconomicsegregationonlowriskcesareandeliveryamongblackwhiteandbiracialblackwhiteindividuals2025batterson
+"BACKGROUND: Research has established Black-White low-risk cesarean delivery (CD) disparities; however, it is unknown how select structural factors are involved in this disparity and whether Biracial (Black/White) individuals face similar disparities. Our objective was to estimate the association of low-risk CD among Black, White and Biracial individuals, and determine whether these associations vary by neighborhood level racial and economic segregation. METHODS: Three hundred eighty-five thousand, eight hundred twenty-five nulliparous, term, singleton, vertex births among Black, White, and Biracial individuals in California (2011-2019) were included from a statewide administrative birth cohort of birth certificates linked to hospital records. We used a generalized estimating equation, Poisson regression stratified by Index of the Concentration of the Extremes (ICE) tertile to estimate risk ratios (RR) for low-risk CD across tertiles of racial and ethnic disparities. The Index of the Concentration at the Extremes (ICE; American Community Survey) is a measure of racial and economic segregation where ICE tertiles 1-3 rank census tracts from most to least impacted by inequality. Models were adjusted for maternal age at delivery. We also assessed the potential mediating roles of socioeconomic factors, maternal characteristics, and quality of care variables through regression-based mediation analyses. RESULTS: The risk of CD was greatest in Black individuals (30.71%), followed by Biracial (25.47%) and White (24.98%). In age adjusted models, Black individuals had a higher CD risk than White individuals across all tertiles, with similar estimates within racial and economic segregation tertile (aRR(tertile1): 1.34; 95% CI: 1.21, 1.36, aRR(tertile2): 1.35; 95% CI: 1.30, 1.39, aRR(tertile3): 1.40; 95% CI: 1.33, 1.47). Biracial individuals had a higher risk for CD than White individuals in all tertiles after age adjustment (aRR(tertile1): 1.16; 95% CI: 1.10, 1.22, aRR(tertile2): 1.18; 95% CI: 1.10, 1.27, aRR(tertile3): 1.18; 95% CI: 1.08, 1.29). Select socioeconomic factors and maternal characteristics were identified as mediators. CONCLUSIONS: The low-risk CD disparity by race persisted across all ICE tertiles. Biracial individuals experienced a higher risk of CD than White, but not Black individuals suggesting that they may experience simultaneous health advantages and disadvantages relative to their monoracial counterparts."""
+
+

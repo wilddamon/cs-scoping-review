@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: healthinsurancecoverageneonatalmortalityandcaesareansectiondeliveriesananalysisofvitalregistrationdataincolombia2017houweling
+"Background Low-income and middle-income countries have introduced different health insurance schemes over the past decades, but whether different schemes are associated with different neonatal outcomes is yet unknown. We examined the association between the health insurance coverage scheme and neonatal mortality in Colombia. Methods We used Colombian national vital registration data, including all live births (2 506 920) and neonatal deaths (17 712) between 2008 and 2011. We used Poisson regression models to examine the association between health insurance coverage and the neonatal mortality rate (NMR), distinguishing between women insured via the contributory scheme (40% of births, financed through payroll and employer's contributions), government subsidised insurance (47%) and the uninsured (11%). Results NMR was lower among babies born to mothers in the contributory scheme (6.13/1000) than in the subsidised scheme (7.69/1000) or the uninsured (8.38/1000). Controlling for socioeconomic and demographic factors, NMRs remained higher for those in the subsidised scheme (OR 1.09, 95% CI 1.05 to 1.14) and the uninsured (OR 1.16, 95% CI 1.10 to 1.23) compared to those in the contributory scheme. These differences increased in models that additionally controlled for caesarean section (C-section) delivery. This increase was due to the higher fraction of C-section deliveries among women in the contributory scheme (49%, compared to 34% for the subsidised scheme and 28% for the uninsured). Conclusions Health insurance through the contributory system is associated with lower neonatal mortality than insurance through the subsidised system or lack of insurance. Universal health insurance may not be sufficient to close the gap in newborn mortality between socioeconomic groups."""
+
+

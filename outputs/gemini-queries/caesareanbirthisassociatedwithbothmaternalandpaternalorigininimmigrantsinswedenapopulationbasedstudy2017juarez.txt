@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareanbirthisassociatedwithbothmaternalandpaternalorigininimmigrantsinswedenapopulationbasedstudy2017juarez
+"Background: To investigate the association between maternal country of birth and father's origin and unplanned and planned caesarean birth in Sweden. Methods: Population-based register study including all singleton births in Sweden between 1999 and 2012 (n = 1 311 885). Multinomial regression was conducted to estimate odds ratios (OR) for unplanned and planned caesarean with 95% confidence intervals for migrant compared with Swedish-born women. Analyses were stratified by parity. Results: Women from Ethiopia, India, South Korea, Chile, Thailand, Iran, and Finland had statistically significantly higher odds of experiencing unplanned (primiparous OR 1.10-2.19; multiparous OR 1.13-2.02) and planned caesarean (primiparous OR 1.18-2.25; multiparous OR 1.13-2.46). Only women from Syria, the former Yugoslavia and Germany had consistently lower risk than Swedish-born mothers (unplanned: primiparous OR 0.76-0.86; multiparous OR 0.74-0.86. Planned; primiparous OR 0.75-0.82; multiparous OR 0.60-0.94). Women from Iraq and Turkey had higher odds of an unplanned caesarean but lower odds of a planned one (among multiparous). In most cases, these results remained after adjustment for available social characteristics, maternal health factors, and pregnancy complications. Both parents being foreign-born increased the odds of unplanned and planned caesarean in primiparous and multiparous women. Conclusions: Unplanned and planned caesarean birth varied by women's country of birth, with both higher and lower rates compared with Swedish-born women, and the father's origin was also of importance. These variations were not explained by a wide range of social, health, or pregnancy factors. (c) 2017 John Wiley & Sons Ltd"""
+
+

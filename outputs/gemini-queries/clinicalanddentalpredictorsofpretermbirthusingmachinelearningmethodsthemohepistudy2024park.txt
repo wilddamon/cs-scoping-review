@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clinicalanddentalpredictorsofpretermbirthusingmachinelearningmethodsthemohepistudy2024park
+"Preterm birth (PTB) is one of the most common and serious complications of pregnancy, leading to mortality and severe morbidities that can impact lifelong health. PTB could be associated with various maternal medical condition and dental status including periodontitis. The purpose of this study was to identify major predictors of PTB among clinical and dental variables using machine learning methods. Prospective cohort data were obtained from 60 women who delivered singleton births via cesarean section (30 PTB, 30 full-term birth [FTB]). Dependent variables were PTB and spontaneous PTB (SPTB). 15 independent variables (10 clinical and 5 dental factors) were selected for inclusion in the machine learning analysis. Random forest (RF) variable importance was used to identify the major predictors of PTB and SPTB. Shapley additive explanation (SHAP) values were calculated to analyze the directions of the associations between the predictors and PTB/SPTB. Major predictors of PTB identified by RF variable importance included pre-pregnancy body mass index (BMI), modified gingival index (MGI), preeclampsia, decayed missing filled teeth (DMFT) index, and maternal age as in top five rankings. SHAP values revealed positive correlations between PTB/SPTB and its major predictors such as premature rupture of the membranes, pre-pregnancy BMI, maternal age, and MGI. The positive correlations between these predictors and PTB emphasize the need for integrated medical and dental care during pregnancy. Future research should focus on validating these predictors in larger populations and exploring interventions to mitigate these risk factors."""
+
+

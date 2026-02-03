@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalwicparticipationisassociatedwithgestationalweightgainasecondaryanalysisofunitedstatesbirthrecords2025matias
+"Background: The Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) provides breastfeeding support, nutritious supplemental foods, referrals to health care and social services, and nutrition counseling to eligible pregnant women. Evidence on maternal weight outcomes associated with prenatal WIC participation remains sparse. Objective(s): This study aims to estimate the association between prenatal WIC participation and gestational weight gain (GWG). Method(s): Birth records data from women eligible for WIC during pregnancy (defined as delivery paid with Medicaid) and of reproductive age, who gave birth to a singleton, live birth, at a hospital in the United States in 2023 were used. Reception of WIC benefits during pregnancy, maternal prepregnancy weight and height, and weight at delivery were reported in the birth records. GWG (weight at delivery minus prepregnancy weight) was standardized for gestational age by calculating gestational age-specific z-scores (GWG z-scores) from prepregnancy-BMI-class-specific references, and categorized into tertiles (low, middle, high). GWG rate (pounds gained/per week during the 2nd and 3rd trimesters) was categorized as slow, adequate, or accelerated. We used propensity scores (PS) weighting to create a balanced comparison group of WIC-eligible non-WIC-participant mothers. Using PS-weighted log binomial regression, we estimated risk ratios (RR) and 95% confidence intervals (CIs) for high/accelerated and low/slow (compared with middle/adequate GWG as reference) GWG associated with prenatal WIC participation. Result(s): We analyzed 1,318,604 pregnancies. Prenatal WIC participation was associated with a small reduction in risk of low GWG z-score (RR = 0.981, 95% CI: 0.977, 0.985; P < 0.0001) and slow GWG rate (RR = 0.992, 95% CI: 0.988, 0.995; P < 0.0001). No significant association was detected for prenatal WIC participation and high GWG z-score (RR = 1.003, 95% CI: 0.999, 1.006; P = 0.18), whereas a small increase in risk of accelerated GWG rate (RR = 1.004, 95% CI: 1.002, 1.006; P < 0.0001) was observed. Conclusion(s): Prenatal WIC participation provided support to modestly reduce low weight gain among WIC-eligible United States women, which may have limited clinical implications.Copyright (c) 2025 The Author(s)"""
+
+

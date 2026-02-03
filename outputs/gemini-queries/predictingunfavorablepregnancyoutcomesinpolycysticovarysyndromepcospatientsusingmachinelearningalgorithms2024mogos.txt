@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingunfavorablepregnancyoutcomesinpolycysticovarysyndromepcospatientsusingmachinelearningalgorithms2024mogos
+"Background and Objectives: Polycystic ovary syndrome (PCOS) is a complex disorder that can negatively impact the obstetrical outcomes. The aim of this study was to determine the predictive performance of four machine learning (ML)-based algorithms for the prediction of adverse pregnancy outcomes in pregnant patients diagnosed with PCOS. Materials and Methods: A total of 174 patients equally divided into 2 groups depending on the PCOS diagnosis were included in this prospective study. We used the Mantel-Haenszel test to evaluate the risk of adverse pregnancy outcomes for the PCOS patients and reported the results as a crude and adjusted odds ratio (OR) with a 95% confidence interval (CI). A generalized linear model was used to identify the predictors of adverse pregnancy outcomes in PCOS patients, quantifying their impact as risk ratios (RR) with 95% CIs. Significant predictors were included in four machine learning-based algorithms and a sensitivity analysis was employed to quantify their performance. Results: Our crude estimates suggested that PCOS patients had a higher risk of developing gestational diabetes and had a higher chance of giving birth prematurely or through cesarean section in comparison to patients without PCOS. When adjusting for confounders, only the odds of delivery via cesarean section remained significantly higher for PCOS patients. Obesity was outlined as a significant predictor for gestational diabetes and fetal macrosomia, while a personal history of diabetes demonstrated a significant impact on the occurrence of all evaluated outcomes. Random forest (RF) performed the best when used to predict the occurrence of gestational diabetes (area under the curve, AUC value: 0.782), fetal macrosomia (AUC value: 0.897), and preterm birth (AUC value: 0.901) in PCOS patients. Conclusions: Complex ML algorithms could be used to predict adverse obstetrical outcomes in PCOS patients, but larger datasets should be analyzed for their validation."""
+
+

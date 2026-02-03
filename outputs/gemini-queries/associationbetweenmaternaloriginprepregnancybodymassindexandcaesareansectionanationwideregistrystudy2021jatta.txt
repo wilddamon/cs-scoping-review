@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenmaternaloriginprepregnancybodymassindexandcaesareansectionanationwideregistrystudy2021jatta
+"AIMS: To explore the association between maternal origin and birthplace, and caesarean section (CS) by pre-pregnancy body mass index (BMI) and length of residence.;METHODS: We linked records from 118,459 primiparous women in the Medical Birth Registry of Norway between 2013 and 2017 with data from the National Population Register. We categorized pre-pregnancy BMI (kg/m2) into underweight (<18.5), normal weight (18.5-24.9) and overweight/obese (>=25). Multinomial regression analysis estimated crude and adjusted relative risk ratios (RRR) with 95% confidence intervals (CI) for emergency and elective CS.;RESULTS: Compared to normal weight women from Norway, women from Sub-Saharan Africa and Southeast Asia/Pacific had a decreased risk of elective CS (aRRR = 0.57, 95% CI 0.37-0.87 and aRRR = 0.56, 0.41-0.77, respectively). Overweight/obese women from Europe/Central Asia had the highest risk of elective CS (aRRR = 1.42, 1.09-1.86). Both normal weight and overweight/obese Sub-Saharan African women had the highest risks of emergency CS (aRRR = 2.61, 2.28-2.99; 2.18, 1.81-2.63, respectively). Compared to women from high-income countries, the risk of elective CS was increasing with a longer length of residence among European/Central Asian women. Newly arrived migrants from Sub-Saharan Africa had the highest risk of emergency CS.;CONCLUSION: Women from Sub-Saharan Africa had more than two times the risk of emergency CS compared to women originating from Norway, regardless of pre-pregnancy BMI."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: highflowoxygeninpatientsundergoingproceduralsedationintheemergencydepartmentaretrospectivechartreview2017thomson
+"OBJECTIVE: Hypoxia is a recognised complication of procedural sedation. This study sought to determine whether there was an association between the use of high-flow oxygen delivery by a non-rebreather (NRB) mask during ED procedural sedation and decreased rates of hypoxia when compared with alternative oxygenation methods.;METHODS: Records of all procedural sedations performed over a 12 month period in an Australian tertiary ED were reviewed retrospectively. The primary outcome was whether recorded oxygen saturations fell below 90%. Specifics of the oxygen delivery method were noted and data collected included sex, age, indication for sedation, drugs and doses administered, time of day sedation was commenced and staff grade of sedationist.;RESULTS: A total of 755 procedural sedations were reviewed. Two hundred and five (27.1%) patients were administered oxygen via NRB mask from the outset of their sedation. NRB administration was associated with a statistically significant decreased rate of hypoxia (1/205 patients vs 23/550 [odds ratio: 0.112; 95% confidence interval: 0.003-0.0702]; P = 0.0090). This association remained statistically significant when adjusted for confounders.;CONCLUSIONS: This study demonstrates an association with a statistically significant reduction in hypoxia when high-flow oxygen via NRB mask is administered during emergency procedural sedation. This intervention is simple, safe and inexpensive, and we would advocate that it be evaluated further in prospective trials. Copyright (c) 2016 Australasian College for Emergency Medicine and Australasian Society for Emergency Medicine."""
+
+

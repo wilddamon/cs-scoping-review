@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anovelscoringmodeltopredictmassivehemorrhageduringdilatationandcurettagefollowingfocusedultrasoundablationsurgeryinpatientswithtype2cesareanscarpregnancy2025yang
+"OBJECTIVE: To develop a predictive model for assessing massive hemorrhage risk during dilatation and curettage (D&C) after focused ultrasound ablation surgery (FUAS) in Type 2 cesarean scar pregnancy (CSP) patients. METHODS: A retrospective analysis of 405 Type 2 CSP patients treated at Hunan Maternal and Child Health Hospital (2018-2023) was conducted. Multivariable logistic regression identified independent risk factors, and a nomogram was constructed. Model performance was evaluated using AUC, calibration curves, and decision curve analysis (DCA). Ten-fold cross-validation was performed, and external validation was conducted on 327 patients. RESULTS: Independent risk factors included gestational sac maximum diameter (OR 1.11, 95% CI: [1.07-1.15], p < 0.001), GS blood flow US grade 3 (OR 9.96, 95% CI: [2.65-40.10], p < 0.001), and FUAS-curette time >24 h (OR 17.57, 95% CI: [3.88-84.48], p < 0.001). C-scar thickness and HCG levels were also included in the model as clinically significant factors. The model showed high discriminative ability (AUC 0.910, 95% CI: 0.867-0.953) and was validated through 10-fold cross-validation (mean AUC 0.838). External validation confirmed its robustness (AUC 0.812, 95% CI: 0.742-0.881). Calibration curves and DCA confirmed its accuracy and clinical utility. CONCLUSION: The predictive model effectively assesses hemorrhage risk in Type 2 CSP patients post-FUAS, offering valuable clinical utility."""
+
+

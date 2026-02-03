@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: twostepshoulderdeliverymethodreducestheincidenceofshoulderdystocia2017zhang
+"Objective: To compare two-step method of shoulder delivery with one-step for the maternal and neonatal outcomes. Materials and Methods: This was a randomized controlled clinical trial. Women scheduled for vaginal delivery without severe complications were enrolled and randomly arranged into two groups. Women in study group were delivered by two-step method for shoulder delivery, that is to wait for at least one contraction after head delivery, and naturally delivery of shoulder. Women in controlled group were delivered by one-step method, that is after the head was delivered, gentle press of head was applied to facility shoulder delivery. Maternal and neonatal outcomes as Apgar score, rate of shoulder dystocia, and postpartum bleeding were recorded. Interval of head to shoulder was timed in second. Results: The study group had lower rate of shoulder dystocia than that in control group (x2 = 4.27, p =0.03), no increasing of asphyxia, and postpartum bleeding. The average interval of head to shoulder in study group was longer than that in control group. There was no difference in interval between shoulder dystocia vs. normal birth group, neither was there a difference in interval between asphyxia babies and normal babies group. By two-step method, the mean value of head to shoulder interval was 59.025 seconds, 95% CI (20.000~150.000 seconds), mean+2xSD = 148.927 seconds. In one-step group, mean was 44.172 seconds, 95% CI = (10.000~105.000 seconds), mean +2xSD = 94.812 seconds. Conclusion: Two-step method of shoulder delivery had a lower rate of shoulder dystocia than one-step method, no increasing of neonatal asphyxia and postpartum bleeding. The longer interval of head to shoulder did not relate to shoulder dystocia and asphyxia. The normal value of head to shoulder interval might be longer than 60 seconds."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: forecastingchildhoodadversitiesfromconditionsofbirth2022green
+"Background: Childbirth presents an optimal time for identifying high-risk families to commence intervention that could avert various childhood health and social adversities. Objective: We sought to establish the minimum set of exposures required to accurately predict a range of adverse childhood outcomes up to the age of 13 years, from a set of 14 individual and familial risk exposures evident at the time of birth. Methods: Participants were 72,059 Australian children and their parents drawn from a multi-register population cohort study (data spanning 1994-2018). Risk exposures included male sex, young mother (aged <=21 years), no (or late first; >16 weeks) antenatal visit, maternal smoking during pregnancy, small for gestational age, preterm birth, pregnancy complications (any of hypertension, diabetes mellitus, gestational diabetes or pre-eclampsia), >2 previous pregnancies of >=20 weeks, socio-economic disadvantage, prenatal child protection notification, and maternal or paternal mental disorder or criminal offending history. Individual outcomes included early childhood developmental vulnerability (age 5 years), sustained educational underachievement (age 8 and 10 years), mental disorder diagnoses, substantiated childhood maltreatment, and contact with the police as a victim or person-of-interest up to age 13-14 years. Results: Risk exposures at birth predicted individual childhood outcomes with fair to excellent accuracy: the area under the receiver operating characteristic curves ranged between 0.60 (95% CI 0.58, 0.62) for childhood mental disorder and 0.83 (95% CI 0.82, 0.85) for substantiated child maltreatment. The presence of five or more exposures characterised 12-25% of children with one or more adverse outcomes and showed high predictive certainty for models predicting multiple outcomes, which were apparent in 9% of the population. Conclusions: Up to a quarter of the neonatal population at risk of multiple adverse outcomes can be detected at birth, with implications for population health screening. However, cautious implementation of these models is warranted, given their relatively low positive predictive values. (c) 2021 John Wiley & Sons Ltd."""
+
+

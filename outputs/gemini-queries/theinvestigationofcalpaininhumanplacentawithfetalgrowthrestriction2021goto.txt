@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinvestigationofcalpaininhumanplacentawithfetalgrowthrestriction2021goto
+"PROBLEM: The mechanism of fetal growth restriction (FGR) is not fully understood. In this study, we explored the contribution of the calpain-calpastatin system and the activated states of calpains in human FGR placenta.;METHOD OF STUDY: The placentas were collected from patients of FGR (n = 17) and controls (n = 23) at elective cesarean sections in Nagoya City University Hospital and used for experiments upon informed consent. The existence and the expression of calpains and calpastatin in human placenta were compared between FGR and controls using immunohistochemistry, SDS-PAGE, and Western blotting.;RESULTS: Staining of calpains (pre-, post-mc-calpain, pre-, post-m-calpain, and calpain-6) and calpastatin was observed in cytoplasm of trophoblast cells, both in FGR and control placenta. Pre-mc-calpain was located in the cytoplasm, and post-mc-calpain was located mainly in proximity to the cytoplasmic membrane. The expression of pre-mc-calpain was significantly higher (P < .001) and calpain-6 was significantly lower (P = .01) in FGR placentas. The inactive mc-calpain (80 kDa) was significantly elevated (P < .01), and active mc-calpain (76 kDa) was significantly decreased (P = .01) in FGR placentas.;CONCLUSION: The results demonstrate that activation of mc-calpain is suppressed in FGR placentas and that calpain-6 in human placenta is involved in the pathology of FGR. Copyright (c) 2020 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd."""
+
+

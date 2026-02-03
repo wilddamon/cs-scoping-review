@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: healthoutcomesupto5yearsinchildrenbornasasecondchildafterapreviouscaesareansectioninafirstpregnancyaswedishpopulationbasedregisterstudybetween1999and20152025dencker
+"OBJECTIVE: To explore health outcomes up to 5 years of age, according to mode of birth, in a large cohort of Swedish children who were born as a second child to women who had a caesarean section (CS) in their first pregnancy. DESIGN: Retrospective population-based register study. POPULATION: All children (n=94 498) who were born as a second child (or children in cases of twins or higher-order multiple births) during 1999-2015 in Sweden in women who had a CS first birth. The children were followed up to 5 years of age. For inclusion, both births must have occurred in Sweden. METHODS: A nationwide cohort study using follow-up data up to 5 years of age. Maternal factors, including age, smoking, diabetes, obesity (body mass index >=30), mental illness, pre-eclampsia, education, income, country of birth and the neonatal factors of being a singleton and prematurity (up to week 36+6) were adjusted for in regression models. MAIN OUTCOME MEASURES: Developmental problems, asthma, allergy, hospital care and death within 5 years of age. RESULTS: A total of 94 498 children were included in the study. Risk for developmental problems, asthma and allergy was increased after repeat CS but not after vaginal birth. The need for hospital care was increased in all other birth modes compared with spontaneous vaginal birth. The risk of death within 5 years increased after instrumental vaginal birth and emergency repeat CS. CONCLUSIONS: All repeat CS compared with spontaneous vaginal birth was related to increased risks for developmental problems, asthma, allergy and hospital stay, and emergency repeat CS was associated with an increased risk of death within 5 years. The results of the present study support vaginal birth as the optimal mode of birth after previous CS for longer-term child health outcomes."""
+
+

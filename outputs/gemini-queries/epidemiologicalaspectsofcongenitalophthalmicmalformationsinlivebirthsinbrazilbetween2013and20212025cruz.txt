@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: epidemiologicalaspectsofcongenitalophthalmicmalformationsinlivebirthsinbrazilbetween2013and20212025cruz
+"Objective: To assess the prevalence of congenital ophthalmic malformations in Brazil between 2013 and 2021 and study the factors related to their occurrence in live births during this period. Method(s): This was an epidemiological, observational, analytical, cross-sectional study using data from the Sistema de Informacoes sobre Nascidos Vivos on live births between January 2013 and December 2021 in Brazil. Only live births born with >= 500g were included in the study. Congenital ophthalmic malformations were analyzed according to the International Classification of Diseases (ICD10), including those between ICD Q10-Q15. A multivariate model was fit to identify the independent associated factors for the occurrence of ophthalmic malformations using binary logistic regression. All the analyses were carried out using the R 4.3.1 software, considering p-value < 0.05 to be statistically significant. Result(s): A total of 10.616.025 live births and 1.310 with congenital ophthalmic malformations were evaluated. The prevalence of congenital eye malformations during the study period was 12 cases per 100,000 live births, with microphthalmia being the main specific anomaly. Cesarean delivery, unsatisfactory Apgar score, weight < 2500g and indigenous ethnicity were some of the associations with the occurrence of congenital ophthalmic anomalies. Conclusion(s): The prevalence of congenital eye anomalies follows a certain homogeneity between Brazilian states, with the national prevalence being similar to international results. Maternal factors, childbirth assistance and social characteristics seem to be related to the occurrence of congenital ophthalmic malformations.Copyright (c) 2025"""
+
+

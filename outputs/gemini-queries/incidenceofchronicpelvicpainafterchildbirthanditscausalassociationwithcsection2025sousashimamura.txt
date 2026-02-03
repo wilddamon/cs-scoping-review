@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incidenceofchronicpelvicpainafterchildbirthanditscausalassociationwithcsection2025sousashimamura
+"This study aimed to report the incidence of chronic pelvic pain in women 12 to 24 months postpartum, to identify the independently associated factors, and to conduct a causal inference with C-section as the exposure. This was a cross-sectional study nested within 2 distinct prospective cohorts from 2 Brazilian cities. Chronic pelvic pain was the dependent variable. Independent variables were collected. Fisher exact test or Pearson kh 2 test and t test or Wilcoxon rank-sum test were performed as appropriate, with P -values adjusted. Data were assumed to be missing at random, and multivariate imputation by chained equations was performed. Sensitivity analysis was conducted using complete cases. Multicollinearity was assessed by computing the variance inflation factor. Binomial logistic regression was used to obtain an interpretable model. Odds ratios and 95% confidence intervals were used as measurements. A directed acyclic graph was used for causal inference. A total of 2160 women were included. The incidence of chronic pelvic pain was 12.7%. C-sections doubled the odds of developing chronic pelvic pain (CPP). Additional factors associated with increased odds included city of birth, feelings of discrimination, severe symptoms of anxiety, dissatisfaction with the care received during childbirth, and mental suffering. Women who underwent C-sections had a 6.1% higher incidence of CPP compared to those who did not undergo the procedure. The incidence of CPP postpartum is high, and there is a potential causal effect of C-sections. City of birth, discrimination, anxiety, dissatisfaction with the care, and mental suffering were also associated with an increased odds."""
+
+

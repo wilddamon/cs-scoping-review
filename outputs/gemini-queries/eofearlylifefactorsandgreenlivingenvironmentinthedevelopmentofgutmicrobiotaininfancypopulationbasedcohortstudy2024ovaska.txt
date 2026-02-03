@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theroleofearlylifefactorsandgreenlivingenvironmentinthedevelopmentofgutmicrobiotaininfancypopulationbasedcohortstudy2024ovaska
+"OBJECTIVE: Early life microbial exposure influences the composition of gut microbiota. We investigated how early life factors, and the green living environment around infants' homes, influence the development of gut microbiota during infancy by utilizing data from the Steps to Healthy Development follow-up study (the STEPS study). METHODS: The gut microbiota was analyzed at early (~3 months, n = 959), and late infancy (~13 months, n = 984) using 16S rRNA amplicon sequencing, and combined with residential green environment, measured as (1) Normalized Difference Vegetation Index, (2) Vegetation Cover Diversity, and (3) Naturalness Index within a 750 m radius. We compared gut microbiota diversity and composition between early and late infancy, identified significant individual and family level early life factors influencing gut microbiota, and determined the role of the residential green environment measures on gut microbiota development. RESULTS: Alpha diversity (t-test, p < 0.001) and beta diversity (PERMANOVA, R(2) = 0.095, p < 0.001) differed between early and late infancy. Birth mode was the strongest contributor to the gut microbiota community composition in early infancy (PERMANOVA, R(2) = 0.005, p < 0.01) and the presence of siblings in late infancy (PERMANOVA, R(2) = 0.007, p < 0.01). Residential green environment showed no association with community composition, whereas time spend outdoors did (PERMANOVA, R(2) = 0.002, p < 0.05). Measures of greenness displayed a statistically significant association with alpha diversity during early infancy, not during late infancy (glm, p < 0.05). In adjusted analysis, the associations remained only with the Naturalness Index, where higher human impact on living environment was associated with decreased species richness (glm, Observed richness, p < 0.05). CONCLUSIONS: The role of the residential green environment to the infant gut microbiota is especially important in early infancy, however, other early life factors, such as birth mode and presence of sibling, had a more significant effect on the overall community composition."""
+
+

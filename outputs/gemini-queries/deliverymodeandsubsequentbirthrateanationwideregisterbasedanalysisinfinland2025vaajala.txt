@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverymodeandsubsequentbirthrateanationwideregisterbasedanalysisinfinland2025vaajala
+"OBJECTIVE: The study aimed to calculate the subsequent birth rate for different delivery modes, comparing them with spontaneous vaginal deliveries, using a comprehensive nationwide high-quality registry. METHODS: Data from the National Medical Birth Register (MBR) were used to evaluate the birth rate after different delivery modes. All first deliveries for a mother during the years 2004 to 2016 were included. For these women, all second pregnancies from the MBR during the years 2004 to 2018 were retrieved and combined with the data of the first deliveries. A Cox regression model was used to evaluate the risk for the second pregnancy after giving birth the first time. The results were interpreted with adjusted hazard ratios (aHRs) and 95% confidence intervals (CIs). RESULTS: A total of 375 619 women with a first and second pregnancy leading to birth were included in this study. Of these, a total of 50 579 women underwent assisted vaginal delivery, 50 429 had an unplanned cesarean section (CS), 22 021 had elective CS, and 252 593 had spontaneous vaginal delivery as a mode of delivery in their first pregnancy. Women with assisted vaginal delivery (aHR, 1.23 [CI, 1.21-1.24]) and unplanned CS (aHR, 1.03 [CI, 1.02-1.05]) had higher birth rates after the first birth, and women with elective CS as a mode of delivery had lower birth rates (aHR, 0.86 [CI, 0.84-0.88]) when compared with women who had spontaneous vaginal delivery. CONCLUSION: The findings of this study indicate that the CS operation itself is not the only cause of the observed lower birth rate; rather, there are underlying factors that have a greater impact on birth rates."""
+
+

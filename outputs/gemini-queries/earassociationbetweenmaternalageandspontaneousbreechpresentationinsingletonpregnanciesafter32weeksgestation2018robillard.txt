@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: linearassociationbetweenmaternalageandspontaneousbreechpresentationinsingletonpregnanciesafter32weeksgestation2018robillard
+"Purpose: To investigate the association between maternal age and spontaneous breech presentation. Material and methods: Fifteen-year observational study over (2001-2015). All consecutive singleton births delivered at the Centre Hospitalier Universitaire Sud Reunion's maternity. The only single exclusion criterion was uterine malformations (N = 123) women. Results: Of the 60,963 singleton births, there was a linear association (kh2 for linear trend, p< 0.0001) between maternal age and spontaneous breech presentation. Overall rate of breech presentation was 2.7% in deliveries over 32 weeks gestation, while it was 1.9% in women aged 15 to 19 years and 4.0% in women aged 45+, with a linear progression for each 5-year age category. This linearity remained significant controlling for early prematurity (<33 weeks) and severe fetal malformations (kh2 for linear trend = 64, p < 0.0001). Controlling in a multiple logistic regression model for other major risk factors gestational age, female sex, primiparity, maternal age remained significantly an independent risk factor, p < 0.0001. Conclusion: Maternal age (x) is an independent factor for breech presentation in singleton pregnancies after 32 weeks gestation with a linear association that may be approximated at y = 0.1x. (y: incidence, percent). (c) 2017 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

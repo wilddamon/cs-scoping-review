@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: implementingexplainablemachinelearningmodelsforpracticalpredictionofearlyneonatalhypoglycemia2024wang
+"Hypoglycemia is a common metabolic disorder that occurs in the neonatal period. Early identification of neonates at risk of developing hypoglycemia can optimize therapeutic strategies in neonatal care. This study aims to develop a machine learning model and implement a predictive application to assist clinicians in accurately predicting the risk of neonatal hypoglycemia within four hours after birth. Our retrospective study analyzed data from neonates born >=35 weeks gestational age and admitted to the well-baby nursery between 1 January 2011 and 31 August 2021. We collected electronic medical records of 2687 neonates from a tertiary medical center in Southern Taiwan. Using 12 clinically relevant features, we evaluated nine machine learning approaches to build the predictive models. We selected the models with the highest area under the receiver operating characteristic curve (AUC) for integration into our hospital information system (HIS). The top three AUC values for the early neonatal hypoglycemia prediction models were 0.739 for Stacking, 0.732 for Random Forest and 0.732 for Voting. Random Forest is considered the best model because it has a relatively high AUC and shows no significant overfitting (accuracy of 0.658, sensitivity of 0.682, specificity of 0.649, F1 score of 0.517 and precision of 0.417). The best model was incorporated in the web-based application integrated into the hospital information system. Shapley Additive Explanation (SHAP) values indicated mode of delivery, gestational age, multiparity, respiratory distress, and birth weight < 2500 gm as the top five predictors of neonatal hypoglycemia. The implementation of our machine learning model provides an effective tool that assists clinicians in accurately identifying at-risk neonates for early neonatal hypoglycemia, thereby allowing timely interventions and treatments."""
+
+

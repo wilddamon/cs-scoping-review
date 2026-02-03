@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trophectodermbiopsyofblastocystsforapreimplantationgenetictestdoesnotaffectserumbhcglevelsinearlypregnancyastudyusingpropensityscorematching2021wu
+"Background: Although preimplantation genetic test (PGT) has been used worldwide, few studies investigated the effect of trophectoderm biopsy of blastocysts on early embryo development. This study aimed to investigate whether trophectoderm (TE) biopsy of blastocysts for a PGT affected serum b-human chorionic gonadotropin (hCG) levels 14 days after transfer. Methods: This was a retrospective cohort study conducted at the Third Affiliated Hospital of Guangzhou Medical University. The study population comprised pregnant women undergoing the transfer of single vitrified-warmed blastocysts after PGT between January 1, 2018, and July 30, 2020. The control group had non-PGT cycles with other inclusion criteria identical to those for the study group. Propensity score matching was used to screen a group of patients so that the baseline characteristics were similar between the two groups. Serum b-hCG levels were compared between the PGT and non-PGT cycles. Multiple linear regression was used to analyze the influence of PGT on serum b-hCG levels, while receiver operating characteristic curves (ROC curves) were plotted to predict pregnancy outcomes using serum b-hCG levels. Results: Serum b-hCG levels were comparable between the PGT and non-PGT patients: live birth: 2503 +- 1702 mIU/mL vs 2266 +- 1289 mIU/mL (P = 0.219); clinical pregnancy: 2261 +- 1564 mIU/mL vs 2148 +- 1348 mIU/mL (P = 0.461); and ongoing pregnancy: 2412 +- 1589 mIU/mL vs 2278 +- 1308 mIU/mL (P = 0.422). Multiple linear regression analysis indicated no impact of PGT on the serum b-hCG level (standardized coefficient = - 0.001, P = 0.989). For clinical pregnancy, the cutoff value was 482 mIU/mL and 302 mIU/mL for PGT and non-PGT patients, respectively. The threshold to predict live birth was 1345 mIU/mL and 1621 mIU/mL in the PGT and non-PGT cycles, respectively. Conclusion: Trophectoderm biopsy of blastocysts for PGT did not affect the serum b-hCG level 14 days after transfer. (c) 2021, The Author(s)."""
+
+

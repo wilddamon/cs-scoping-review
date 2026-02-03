@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: asphyxiatedneonateswhoreceivedactivetherapeutichypothermiaduringtransporthadhigherratesofhypocapniathancontrols2018szakmar
+"Aim: We investigated the association between active hypothermia and hypocapnia in neonates with moderate-to-severe hypoxic-ischaemic encephalopathy (HIE) transported after birth. Methods: This was a retrospective cohort study of neonates with HIE born between 2007 and 2011 and transported to Semmelweis University, Hungary, for hypothermia treatment before and after we introduced active cooling during transport in 2009. Of these, 71 received intensive care plus controlled active hypothermia during transport, while the 46 controls just received standard intensive care. Incident hypocapnia was defined as a partial pressure of carbon-dioxide (pCO<inf>2</inf>) that decreased below 35 mm Hg during transport. Multivariable logistic regression investigated the relationship between hypothermia and incident hypocapnia. Results: Incident hypocapnia was more frequent in the actively cooled transport group (36.6%) than control group (17.4%; p = 0.025). pCO<inf>2</inf> decreased from a median of 45 to 35 mm Hg (p < 0.0001) in the intervention group, but remained unchanged in the controls. After adjusting for confounders, hypothermia remained an independent risk factor for hypocapnia with an odds ratio (OR) of 4.23 and 95% confidence interval (95% CI) of 1.30-13.79. Sedation was associated with a reduction in OR of hypocapnia, at 0.35 (95% CI 0.12-0.98). Conclusions: Hypothermia increased the risk of hypocapnia in neonates with HIE during transport. (c)2017 Foundation Acta Paediatrica. Published by John Wiley & Sons Ltd"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofpregnancyoutcomesandvaginalmicrobiotainendometriosispatientsundergoingfrozenembryotransferusingletrozolecombinedhmgversushormonereplacementtherapywithgnrhapretreatment2025zhang
+"This study investigated differences in reproductive outcomes and vaginal microbiota profiles between two endometrial preparation protocols-letrozole (LE) combined with human menopausal gonadotropin (HMG) and hormone replacement therapy (HRT) with GnRH-a pretreatment-in women with endometriosis (EMs) undergoing frozen embryo transfer (FET). Following 1:1 propensity score matching, a total of 770 FET cycles were analyzed. No statistically significant differences were observed in live birth rates or clinical pregnancy rates between the two groups. However, the LE + HMG group showed a lower miscarriage trend (13.7% vs. 19.8%, P = 0.070) and significantly fewer cesarean deliveries (64.9% vs. 75.4%, P = 0.020) and hypertensive disorders of pregnancy (4.8% vs. 10.1%, P = 0.039). Recent evidence suggests that GnRH-a treatment may disrupt reproductive tract microbiota. Given ethical constraints on endometrial sampling during FET, vaginal microbiota was used as a surrogate to explore microbial differences between protocols. In the prospective arm, vaginal samples from 55 women in the LE + HMG group and 50 in the GnRH-a HRT group were analyzed using 16S rRNA sequencing and droplet digital PCR. While no significant differences were observed in Lactobacillus or Gardnerella abundance, the GnRH-a HRT group exhibited enrichment of potential pathogens, such as Escherichia-Shigella and Staphylococcus. In conclusion, although both protocols achieved comparable live birth outcomes, the LE + HMG regimen was associated with fewer obstetric complications and a more favorable vaginal microbiota profile compared to GnRH-a HRT."""
+
+

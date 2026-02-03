@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonoftheanalgesiceffectsofdezocinetramadolandbutorphanolaftercesareansection2018zhu
+"At present, the drugs used in the field of postoperative analgesia are mainly opioids. The three analgesics selected in this study are opioid receptor agonists, but opioids are easy to produce adverse reactions. In this study, the visual analogue score of resting pain and dynamic pain at two time points of 4 hours and 12 hours was observed in group B and group C were higher than that in group A (P<0.05), indicating that the analgesic effect of dezocine was better. Follow up observation of adverse reactions, dezocine group patients had fewer adverse reactions (P<0.05). It can be seen that although there are certain differences in the mechanism of these three drugs, there are some relevant evidence that all three drugs can be used safely and effectively for postoperative obstetric analgesia."""
+
+

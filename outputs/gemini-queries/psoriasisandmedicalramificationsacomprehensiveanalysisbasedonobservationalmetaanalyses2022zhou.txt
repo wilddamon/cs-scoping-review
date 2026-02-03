@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: psoriasisandmedicalramificationsacomprehensiveanalysisbasedonobservationalmetaanalyses2022zhou
+"Purpose: Based on a large number of systematic reviews and meta-analyses exploring the relationship between psoriasis and various health outcomes, we conducted an comprehensive analysis to assess the strength and evidence for the association between psoriasis and medical end-point ramifications in patients. Method(s): We searched related meta-analyses, investigating the links between psoriasis and medical ramifications from three databases. All summary effect sizes, 95% CIs, heterogeneity, and small-study effects in the included meta-analyses were recalculated. We assessed the methodological quality of included articles with the AMSTAR 2 tool and graded the epidemiological evidence. Subgroup analysis based on the severity of psoriasis and study design were also performed. Result(s): A total of 38 articles comprising 85 unique meta-analyses were included in this study. Although 69 outcomes were statistically significant, only 8 outcomes (nonvascular dementia, ulcerative colitis, pediatric dyslipidemia, gestational diabetes, gestational hypertension, fracture, multiple sclerosis, and schizophrenia) showed a high quality of epidemiological evidence. Conclusion(s): We found that psoriasis increased the risk of 69 health outcomes, and 8 outcomes were graded as high-quality evidence. No evidence was found that psoriasis was beneficial for any medical end point. However, to verify our results, more large-sample, multi-center prospective cohort studies are needed.Copyright (c) 2022 Zhou, Zhong, Shen, Chen, Zeng, Lai and Tang."""
+
+

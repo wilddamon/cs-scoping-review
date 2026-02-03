@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: smokingduringpregnancyanditseffectonplacentalweightamendelianrandomizationstudy2024jaitner
+"Background: The causal relationship between maternal smoking in pregnancy and reduced offspring birth weight is well established and is likely due to impaired placental function. However, observational studies have given conflicting results on the association between smoking and placental weight. We aimed to estimate the causal effect of newly pregnant mothers quitting smoking on their placental weight at the time of delivery. Methods: We used one-sample Mendelian randomization, drawing data from the Avon Longitudinal Study of Parents and Children (ALSPAC) (N = 690 to 804) and the Norwegian Mother, Father and Child Cohort Study (MoBa) (N = 4267 to 4606). The sample size depends on the smoking definition used for different analyses. The analysis was performed in pre-pregnancy smokers only, due to the specific role of the single-nucleotide polymorphism (SNP) rs1051730 (CHRNA5 - CHRNA3 - CHRNB4) in affecting smoking cessation but not initiation. Results: Fixed effect meta-analysis showed a 182 g [95%CI: 29,335] higher placental weight for pre-pregnancy smoking mothers who continued smoking at the beginning of pregnancy, compared with those who stopped smoking. Using the number of cigarettes smoked per day in the first trimester as the exposure, the causal effect on placental weight was 11 g [95%CI: 1,21] per cigarette per day. Similarly, smoking at the end of pregnancy was causally associated with higher placental weight. Using the residuals of birth weight regressed on placental weight as the outcome, we showed evidence of lower offspring birth weight relative to the placental weight, both for continuing smoking at the start of pregnancy as well as continuing smoking throughout pregnancy (change in z-score birth weight adjusted for z-score placental weight: -0.8 [95%CI: -1.6,-0.1]). Conclusion: Our results suggest that continued smoking during pregnancy causes higher placental weights. (c) The Author(s) 2024."""
+
+

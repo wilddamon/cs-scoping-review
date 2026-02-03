@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: labourmonitoringanddecisionsupportamachinelearningbasedparadigm2025nogueira
+"INTRODUCTION: A machine-learning-based paradigm, combining unsupervised and supervised components, is proposed for the problem of real-time monitoring and decision support during labour, addressing the limitations of current state-of-the-art approaches, such as the partograph or purely supervised models. METHODS: The proposed approach is illustrated with World Health Organisation's Better Outcomes in Labour Difficulty (BOLD) prospective cohort study data, including 9,995 women admitted for labour in 2014-2015 in thirteen major regional health care facilities across Nigeria and Uganda. Unsupervised dimensionality reduction is used to map complex labour data to a visually intuitive space. In this space, an ongoing labour trajectory can be compared to those of a historical cohort of women with similar characteristics and known outcomes-this information can be used to estimate personalised 'healthy' trajectory references (and alert the healthcare provider to significant deviations), as well as draw attention to high incidences of different interventions/adverse outcomes among similar labours. To evaluate the proposed approach, the predictive value of simple risk scores quantifying deviation from normal progress and incidence of complications among similar labours is assessed in a caesarean section prediction context and compared to that of the partograph and state-of-the-art supervised machine-learning models. RESULTS: Considering all women, our predictors yielded sensitivity and specificity of ~0.70. It was observed that this predictive performance could increase or decrease when looking at different subgroups. DISCUSSION: With a simple implementation, our approach outperforms the partograph and matches the performance of state-of-the-art supervised models, while offering superior flexibility and interpretability as a real-time monitoring and decision-support solution."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: populationbasedriskforperipartumhysterectomyduringlowandmoderateriskdeliveryhospitalizations2016friedman
+"Background Postpartum hysterectomy is an obstetric procedure that carries significant maternal risk that is not well characterized by hospital volume. Objective The objective of this study was to determine risk for peripartum hysterectomy for women at low and moderate risk for the procedure. Study Design This population-based study used data from the Nationwide Inpatient Sample to characterize risk for peripartum hysterectomy. Women with a diagnosis of placenta accreta or prior cesarean and placenta previa were excluded. Obstetrical risk factors along with demographic and hospital factors were evaluated. Multivariable mixed-effects log-linear regression models were developed to determine adjusted risk. Based on these models receiver operating characteristic curves were plotted, and the area under the curve was determined to assess discrimination. Results Peripartum hysterectomy occurred in 1 in 1913 deliveries. Risk factors associated with significant risk for hysterectomy included mode of delivery, stillbirth, placental abruption, fibroids, and antepartum hemorrhage. These factors retained their significance in adjusted models: the risk ratio for stillbirth was 3.44 (95% confidence interval, 2.94-4.02), abruption 2.98 (95% confidence interval, 2.52-3.20), fibroids 3.63 (95% confidence interval, 3.22-4.08), and antepartum hemorrhage 7.15 (95% confidence interval, 6.16-8.32). The area under the curve for the model was 0.833. Conclusion Peripartum hysterectomy is a relatively common event that hospitals providing routine obstetric care should be prepared to manage. That specific risk factors are highly associated with risk for hysterectomy supports routine use of hemorrhage risk-assessment tools. However, given that a significant proportion of hysterectomies will be unpredictable, the availability of rapid transfusion protocols may be necessary for hospitals to safely manage these cases. (c) 2016 Elsevier Inc."""
+
+

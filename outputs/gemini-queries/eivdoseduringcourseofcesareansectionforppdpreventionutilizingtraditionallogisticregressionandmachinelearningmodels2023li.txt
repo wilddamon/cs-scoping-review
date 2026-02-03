@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingefficacyofsubanestheticketamineesketamineivdoseduringcourseofcesareansectionforppdpreventionutilizingtraditionallogisticregressionandmachinelearningmodels2023li
+"Objective: Increasing researches supported that intravenous ketamine/esketamine during the perioperative period of cesarean section could prevent postpartum depression(PPD). With the effective rate ranging from 87.2 % to 95.5 % in PPD, ketamine/esketamine's responsiveness was individualized. To optimize ketamine dose/form based on puerpera prenatal characteristics, reducing adverse events and improving the total efficacy rate, prediction models were developed to predict ketamine/esketamine's efficacy. Method: Based on two randomized controlled trials, 12 prenatal features of 507 women administered the ketamine/esketamine intervention were collected. Traditional logistics regression, SVM, random forest, KNN and XGBoost prediction models were established with prenatal features and dosage regimen as predictors. Results: According to the logistic regression model (a<inf>in</inf> = 0.10, a<inf>out</inf> = 0.15, area under the receiver operating characteristic curve, AUC = 0.728), prenatal Edinburgh Postnatal Depression Scale (EPDS) score >= 10, thoughts of self-injury and bad mood during pregnancy were associated with poorer ketamine efficacy in PPD prevention, whilst a high dose of esketamine (0.25 mg/kg loading dose+2 mg/kg PCIA) was the most effective dosage regimen and esketamine was more recommended rather than ketamine in PPD. The AUC<inf>validation set</inf> of KNN and XGBoost model were 0.815 and 0.651, respectively. Conclusion: Logistic regression and machine learning algorithm, especially the KNN model, could predict the effectiveness of ketamine/esketamine iv. during the course of cesarean section for PPD prevention. An individualized preventative strategy could be developed after entering puerpera clinical features into the model, possessing great clinical practice value in reducing PPD incidence. (c) 2023 Elsevier B.V."""
+
+

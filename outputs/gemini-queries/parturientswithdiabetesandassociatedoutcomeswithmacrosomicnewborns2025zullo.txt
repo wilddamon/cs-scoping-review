@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: parturientswithdiabetesandassociatedoutcomeswithmacrosomicnewborns2025zullo
+"BACKGROUND: Adverse neonatal and maternal outcomes are understudied for parturients with diabetes who deliver macrosomic newborns. OBJECTIVE: We hypothesized that composite-neonatal (CNAO) and maternal adverse outcomes (CMAO) would be significantly higher for individuals with diabetes macrosomic newborns. STUDY DESIGN: This was a secondary analysis of APEX cohorts. The inclusion criteria were parturients with diabetes that were at least 34.0 weeks. CNAO included: Apgar score < 7 at 5 min, neonatal fracture, intracranial hemorrhage, neonatal brachial plexus palsy (NBPP), treated hypotension, or hypoxic encelopathy. CMAO included: chorioamnionitis, EBL >= 1,000 mL or 3rd/4th degree lacerations. Multivariate Poisson regression with robust error variance was used to calculate incidence-rate-ratios (IRR), and adjusted IRR (aIRR) RESULTS: Among the 118,422 cohorts in APEX study, 8,410(7.5 %) had diabetes. The inclusion criteria were met by 584 (6.9 %) diabetic parturients, and among them 491 (84.0 %) delivered category I macrosomia, and 93 (16.0 %) with category II/III. The overall CNAO was 7.2 %, and it was significantly higher for parturients who delivered newborns with BW >= 4,500 g (15.0%) versus 4,000-4,499 g (5.7%; aIRR2.64; 95 %-CI 1.39-5.01; p: 0.006). The overall CMAO was 29.9 % and it was similar when BW >= 4,500 g (32.2 %) versus when BW was 4,000-4,499 (29.5 %; aIRR 1.05; 0.71-1.57). The overall rate of shoulder dystocia (SD) among macrosomic newborns was 14.7 % and it was significantly higher among those with birthweight >= 4,500g (28.0%) versus those with 4,000-4,449 g (12.2 %; aIRR2.21; 95 %CI 1.39-3.53). The rate of cesarean delivery did not differ between the two groups(aIRR 1.24;95 % CI 0.89-1.72). CONCLUSIONS: Among parturients with diabetes, who delivered newborns with birthweight >= 4,500 g versus 4,000-4,499 g, CNAO and SD were twofold higher. Thus, there is an imperative to identify newborns among individuals with diabetes whose newborn will be 4,000-4,499 versus >= 4,500 g."""
+
+

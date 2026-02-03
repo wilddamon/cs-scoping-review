@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vascularendothelialgrowthfactorlevelsandbronchopulmonarydysplasiainpreterminfants2022mariduena
+"BACKGROUND: Vascular endothelial growth factor (VEGF) and its receptors (VEGFRs) regulate both vasculogenesis, the development of blood vessels from precursor cells, and angiogenesis, the formation of blood vessels from preexisting vessels. In the fetal lung, high-affinity receptors for VEGF are expressed mainly in alveolar epithelial cells and myocytes, suggesting a paracrine role for VEGF in modulating activities in adjacent vascular endothelium. Previous studies have shown that vascular growth is impaired in bronchopulmonary dysplasia (BPD).;OBJECTIVE: The goal of this study was to examine tracheal (T-VEGF) and gastric (G-VEGF) levels in premature infants in the first and third day of life and examine if these levels were associated with the development of BPD.;DESIGN/METHODS: Tracheal aspirates from intubated infants and gastric samples from others were obtained on postnatal days 1 (D1) and 3 (D3) from 43 preterm infants (<2000 g birth weight, <=34 wks gestation). VEGF was quantified by a VEGF Elisa Kit. Demographic, clinical, and pulmonary outcome data were collected including information on respiratory support (oxygenation index (OI) and ventilatory index (VI)) and on the development of BPD, determined at 36 weeks PMA using NICHD criteria.;RESULTS: The mean birth weight was 1060 +/- 379 g and gestational age 27.5 +/- 2.8 wks. BPD was diagnosed in 26 infants who were less mature than the 17 controls without BPD. Day 1 and day 3T-VEGF concentrations did not correlate, but day 3 levels correlated with gestational age (r = 0.75, p < .05). BPD infants, characterized by longer ventilator, CPAP and oxygen days, had day 1T-VEGF levels similar to control infants (126.6 +/- 194.7 vs. 149.7 +/- 333.2 pg/ml) but day 3 levels were significantly lower (168.9 +/- 218.8 vs. 1041.6 +/- 676.7 pg/ml). Day 1G-VEGF levels reflected tracheal samples, trending lower in BPD infants. Mode of delivery, race, sex, antenatal steroid administration, chorioamnionitis, sepsis, or growth restriction did not impact VEGF levels. However, lower VEGF levels were associated with a lower VI and lower OI: Day 3 OI correlated with day 3T-VEGF (r = 0.72, p > .05), albeit not significantly. T-VEGF increased from day 1 to day 3 in controls and decreased in BPD infants. There was no relationship between oxygen, CPAP and ventilator days and day 1 or day 3T-VEGF levels.;CONCLUSIONS: BPD may be associated with low-serum VEGF levels during the first week of life. This finding is likely related to decreased expression in the lungs of the less mature infants, who are at the highest risk for BPD."""
+
+

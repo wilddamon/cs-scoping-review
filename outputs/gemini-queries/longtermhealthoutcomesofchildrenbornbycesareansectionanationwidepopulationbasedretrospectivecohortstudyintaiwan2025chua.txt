@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: longtermhealthoutcomesofchildrenbornbycesareansectionanationwidepopulationbasedretrospectivecohortstudyintaiwan2025chua
+"BACKGROUND: Taiwan had high cesarean rate which exceeded the recommended threshold (15%), set by WHO. However, there have not a comprehensive study to discuss the long-term offspring consequences of cesarean section (CS). This study aimed to show whether allergy disorders, obesity and respiratory infection of children are associated with modes of delivery, using the National Health Insurance Research Database (NHIRD) of Taiwan. METHODS: This study used the maternal and child health database of NHIRD. We included the children who birth between 2004 and 2013 and inter-linked the database of the mother and children. The participants were followed until 2018/12/31. We performed a Cox proportional hazards model to identify the association of CS with respiratory tract infection, allergy disorder, and obesity diagnosed in childhood. RESULTS: CS significantly increased the risk of developed childhood asthma (adjusted hazard ratio [aHR] = 1.03; 95% confidence interval [CI]: 1.02-1.03), allergy rhinitis (aHR = 1.04; 95% CI: 1.04-1.05), atopic dermatitis (aHR = 1.05; 95% CI: 1.04-1.06), respiratory tract infection (aHR = 1.07; 95% CI: 1.06-1.07) and overweight (aHR = 1.29; 95% CI: 1.18-1.40) even after adjusting with confounding factor. Development of food allergy (aHR = 1.13; 95% CI: 0.87-1.47) was not associated with cesarean section. CONCLUSION: This study indicated that children delivered by CS more commonly developed respiratory tract infections, asthma, allergic rhinitis, atopic dermatitis, obesity than children delivered vaginally. Among these, obesity have a stronger association with cesarean section."""
+
+

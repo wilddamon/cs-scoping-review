@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pretermbirthandnativityamongblackwomenwithgestationaldiabetesincalifornia20132017apopulationbasedretrospectivecohortstudy2020scott
+"Background: Despite the disproportionate prevalence of gestational diabetes (GDM) and preterm birth (PTB) and their associated adverse perinatal outcomes among Black women, little is known about PTB among Black women with GDM. Specifically, the relationship between PTB by subtype (defined as indicated PTB and spontaneous PT labor) and severity, GDM, and nativity has not been well characterized. Here we examine the risk of PTB by severity (early < 34 weeks, late 34 to 36 weeks) and early term birth (37 to 38 weeks) by nativity among Black women with GDM in California. Methods: This retrospective cohort study used linked birth certificate and hospital discharge data for 8609 of the 100,691 self-identifying non-Hispanic Black women with GDM who had a singleton live birth between 20 and 44 weeks gestation in California in 2013-2017. Adjusted odds ratios (aOR) and 95% confidence intervals (CIs) were examine risks for PTB, by severity and subtype, and early term birth using multivariate regression modeling. Results: Approximately, 83.9% of Black women with GDM were US-born and 16.1% were foreign-born. The overall prevalence of early PTB, late PTB, and early term birth was 3.8, 9.5, and 29.9%, respectively. Excluding history of prior PTB, preeclampsia was the greatest overall risk factor for early PTB (cOR = 6.7, 95%, CI 5.3 to 8.3), late PTB (cOR = 4.3, 95%, CI 3.8 to 5.0), and early term birth (cOR = 1.8, 95%, CI 1.6 to 2.0). There was no significant difference in the prevalence of PTB by subtypes and nativity (p = 0.5963). Overall, 14.2% of US-compared to 8.9% of foreign-born women had a PTB (early PTB: AOR = 0.56, 95%, CI 0.38 to 0.82; late PTB: AOR = 0.57, 95%, CI 0.45 to 0.73; early term birth: AOR = 0.67, 95%, CI 0.58 to 0.77). Conclusions: Foreign-born status remained protective of PTB, irrespective of severity and subtype. Preeclampsia, PTB, and GDM share pathophysiologic mechanisms suggesting a need to better understand differences in perinatal stress, chronic disease, and vascular dysfunction based on nativity in future epidemiologic studies and health services research. (c) 2020 The Author(s)."""
+
+

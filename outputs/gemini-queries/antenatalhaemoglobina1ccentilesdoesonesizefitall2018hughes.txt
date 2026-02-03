@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antenatalhaemoglobina1ccentilesdoesonesizefitall2018hughes
+"Background: In New Zealand, haemoglobin A1c measurements are routinely offered at booking, preferably before 20 weeks gestation, to detect pre-existing hyperglycaemia. A haemoglobin A1c <5.9% (41 mmol/mol) is considered normal based on the reference range for the non-pregnant population. Aims: To determine pregnancy-specific haemoglobin A1c centiles by gestation and ethnicity. Materials and Methods: This is a population-based observational study of pregnancies uncomplicated by diabetes (pre-existing or gestational) with >=1 haemoglobin A1c measurement. Haemoglobin A1c centiles were calculated from data extracted from electronic laboratory and clinical records for pregnancies during 2008-2010. Results: Included were 6800 pregnancies, European 80% (5462), Maori 6% (415), Pacific Islander 3% (196) and 11% (727) 'Others' (mostly Asian). Haemoglobin A1c levels fell with increasing gestation, reaching a nadir at 24 weeks, a trend verified by longitudinal data from 112 women. The 97.5th centile for haemoglobin A1c in European women was 5.76% (39.5 mmol/mol) at 8+0 weeks, 5.70% (38.8 mmol/mol) at 16+0 weeks, and 5.65% (38.3 mmol/mol) at 24+0 weeks. Non-European women had both higher plasma glucose levels (although within the range considered normal) and higher mean haemoglobin A1c levels compared with Europeans; mean (SD) difference in haemoglobin A1c in Maori +0.13% (0.05) (+1.4 mmol/mol (0.5)), Pacific +0.20% (0.03) (+2.2 mmol/mol (0.3)), 'Others' +0.10% (0.03) (+1.1 mmol/mol (0.3)). Conclusions: The New Zealand haemoglobin A1c cut-point >=5.9% (41 mmol/mol) for identifying hyperglycaemia in early pregnancy is greater than the 97.5th centile in European and 'Other' women. Utilising population haemoglobin A1c centiles adjusted by gestation may thus better guide management decisions. (c) 2017 The Royal Australian and New Zealand College of Obstetricians and Gynaecologists"""
+
+

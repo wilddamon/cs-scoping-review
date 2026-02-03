@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: confoundingbyconceptionseasonalityinstudiesoftemperatureandpretermbirthasimulationstudy2023huang
+"Background: Seasonal patterns of conception may confound acute associations between birth outcomes and seasonally varying exposures. We aim to evaluate four epidemiologic designs (time-stratified case-crossover, time-series, pair-matched case-control, and time-to-event) commonly used to study acute associations between ambient temperature and preterm births. Methods: We conducted simulations assuming no effect of temperature on preterm birth. We generated pseudo-birth data from the observed seasonal patterns of birth in the United States and analyzed them in relation to observed temperatures using design-specific seasonality adjustments. Results: Using the case-crossover approach (time-stratified by calendar month), we observed a bias (among 1,000 replicates) = 0.016 (Monte-Carlo standard error 95% CI: 0.015-0.018) in the regression coefficient for every 10degC increase in mean temperature in the warm season (May-September). Unbiased estimates obtained using the time-series approach required accounting for both the pregnancies-at-risk and their weighted probability of birth. Notably, adding the daily weighted probability of birth from the time-series models to the case-crossover models corrected the bias in the case-crossover approach. In the pair-matched case-control design, where the exposure period was matched on gestational window, we observed no bias. The time-to-event approach was also unbiased but was more computationally intensive than others. Conclusions: Most designs can be implemented in a way that yields estimates unbiased by conception seasonality. The time-stratified case-crossover design exhibited a small positive bias, which could contribute to, but not fully explain, previously reported associations. (c) 2023 Lippincott Williams and Wilkins. All rights reserved."""
+
+

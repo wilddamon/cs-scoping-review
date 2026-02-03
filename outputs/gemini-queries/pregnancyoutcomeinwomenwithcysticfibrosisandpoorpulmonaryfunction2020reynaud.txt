@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomeinwomenwithcysticfibrosisandpoorpulmonaryfunction2020reynaud
+"BACKGROUND: To investigate how poor pre-gestational pulmonary function influenced pregnancy outcome and clinical status evolution in women with cystic fibrosis. METHODS: Pregnancies in women without lung transplantation with a first delivery reported to the French cystic fibrosis registry between 2000 and 2012 were identified. Pregnancy outcomes and clinical trends (body mass index - BMI, and pulmonary function) over a 4-year follow-up in women with poor pre-gestational pulmonary function, defined as forced expiratory volume (FEV(1)) <= 50%, were compared to those in women with FEV(1) > 50%. RESULTS: A total of 149 women had a first delivery and 36 (24.2%) of these had pre-gestational FEV(1) <= 50%. There was no significant difference in age or frequency of assisted conception between the 2 groups. The rate of cesarean section was significantly higher in women with FEV(1) <= 50% (43.7% vs. 21.1%, p = .01). The frequency of preterm birth did not differ significantly between the two groups, but median infant birthweight was significantly lower in women with FEV(1) <= 50% (2705 g; range: 650-3700 vs. 3044 g; range: 1590-3860, p = .003). Despite significantly lower FEV(1) and BMI the year before pregnancy for women with poor pulmonary function, the decline in these parameters during the study period did not differ significantly between the two groups. CONCLUSION: Poor pre-gestational pulmonary function in women with cystic fibrosis was associated with a higher rate of cesarean section and a clinically significant impact on fetal growth, but was not associated with more important pulmonary and nutritional decline over the study period."""
+
+

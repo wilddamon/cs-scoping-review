@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ethnicdisparitiesinhba1candhypoglycemiaamongyouthwithtype1diabetesbeyondaccesstotechnologysocialdeprivationandmeanbloodglucose2025pemberton
+"INTRODUCTION: The UK national pediatric diabetes audit reports higher HbA1c for children and young people (CYP) with type 1 diabetes (T1D) of Black ethnicity compared with White counterparts. This is presumably related to higher mean blood glucose (MBG) due to lower socioeconomic status (SES) and less access to technology. We aimed to determine if HbA1c ethnic disparity persists after accounting for the above variables. RESEARCH DESIGN AND METHODS: A retrospective analysis of participants who received structured education in continuous glucose monitoring (CGM) use was conducted at a tertiary center. HbA1c was paired with glucose metrics from 90-day CGM data. The influence of ethnicity, SES determined by Index of Multiple Deprivation (IMD), MBG and other covariates on HbA1c was evaluated using multiple variable regression analysis. Occurrence of hypoglycemia was evaluated. RESULTS: A total of 168 (79 White, 61 South Asian, 28 Black) CYP with T1D were included. There were no differences between groups for age, MBG, time in range (3.9-10.0 mmol/L), diabetes duration, gender, insulin delivery method (multiple daily injections vs continuous subcutaneous insulin infusion), or percent sensor use (PSU). In multiple variable analysis, MBG (p<0.0001), ethnicity (p<0.0001), age (p<0.001), duration of diabetes (p<0.01) and PSU (p<0.05) accounted for 81% of the variability in HbA1c. Adjusted HbA1c in the Black group (67 mmol/mol) was higher than both South Asian (63 mmol/mol) and White groups (62 mmol/mol) (p<0.001). Despite significant IMD differences between groups, it did not influence HbA1c. Multiple variable analysis showed that the Black group experienced more hypoglycemia than South Asian and White groups (<3.9 and <3.0 mmol/L, p<0.05). CONCLUSIONS: CYP from Black ethnic backgrounds have a higher HbA1c compared with their South Asian and White counterparts which is clinically significant and independent of MBG, potentially contributing to increased complications risk. Additionally, the Black group experienced a higher incidence of hypoglycemia, possibly due to a treat-to-HbA1c target approach."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anewapproachforclassifyingfetalgrowthrestriction2021hutcheon
+"Background: Fetal growth restriction is commonly defined using small for gestational age (SGA) birth (birthweight < 10th percentile) as a proxy, but this approach is problematic because most SGA infants are small but healthy. In this proof-of-concept study, we sought to develop a new approach for identifying fetal growth restriction at birth that combines information on multiple, imperfect measures of fetal growth restriction in a probabilistic manner. Methods: We combined information on birthweight, placental weight, placental malperfusion lesions, maternal disease, and fetal acidemia using latent profile analysis to classify fetal growth in births at the Royal Victoria Hospital in Montreal, Canada, 2001-2009. We examined the clinical characteristics and health outcomes of infants classified as growth-restricted and nongrowth-restricted by our model, and among the subgroup of growth-restricted infants who had a birthweight >=10th percentile (i.e., would have been missed by the conventional SGA proxy). Results: Among 26,077 births, 345 (1.3%) were classified as growth-restricted by our latent profile model. Growth-restricted infants were more likely than nongrowth-restricted infants to have an Apgar score <7 (10% vs. 2%), have hypoglycemia at birth (17% vs. 3%), require neonatal intensive care unit admission (59% vs. 6%), die in the perinatal period (3.8% vs. 0.2%), and require an emergency cesarean delivery (42% vs. 15%). Risks remained elevated in growth-restricted infants who were not SGA, suggesting our model identified at-risk infants not detected using the SGA proxy. Conclusions: Latent profile analysis is a promising strategy for classifying growth restriction at birth in fetal growth restriction research. (c) 2021 Lippincott Williams and Wilkins. All rights reserved."""
+
+

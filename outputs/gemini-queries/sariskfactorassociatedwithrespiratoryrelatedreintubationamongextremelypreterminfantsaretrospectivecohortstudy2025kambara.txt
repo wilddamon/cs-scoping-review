@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postmenstrualageatextubationasariskfactorassociatedwithrespiratoryrelatedreintubationamongextremelypreterminfantsaretrospectivecohortstudy2025kambara
+"Background: Previous studies that discussed risk factors associated with extubation failure among preterm infants may have underestimated extubation failures because they used short observation windows for detecting reintubations. Aim(s): To explore risk factors associated with reintubations among extremely preterm infants during hospitalization. Study Design: A single-center, retrospective cohort study. Subjects: Infants born < 28 weeks gestational age between January 1, 2018, and December 31, 2022. Outcome Measures: We focused only on extubation failures associated with respiratory problems. We assessed risk factors by conducting multivariable logistic regression analyses using variables previously reported as risk factors associated with extubation failure among preterm infants. Result(s): Ninety-five infants with a median gestational age of 25.6 weeks were eligible, and of those, 33 infants (34.7%) experienced extubation failure. Reintubations within 7 days after extubation accounted for approximately three-quarters of whole reintubations (24 infants, 72.7%). Risk factors associated with extubation failure were partial pressure of carbon dioxide (PCO2) before extubation (adjusted odds ratio [OR], 1.07; 95% confidence interval [CI], 1.01-1.14; p = 0.023), fraction of inspired oxygen (FIO2) before extubation (adjusted OR, 2.97; 95% CI, 1.10-8.04; p = 0.032), and postmenstrual age (PMA) at extubation (adjusted OR, 0.90; 95% CI, 0.84-0.97; p = 0.004). The predictive model submitting these variables demonstrated an area under the curve of 0.802. Conclusion(s): When evaluating extubation failures more precisely by adopting the longer period, we might need to consider not only respiratory status before extubation but also maturity at extubation to assess extubation readiness.Copyright (c) 2025 Wiley Periodicals LLC."""
+
+

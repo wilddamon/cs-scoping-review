@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nomogramforspontaneousreductioninpediatricintussusceptionaretrospectivestudy2025wang
+"OBJECTIVE: This study aimed to develop a nomogram to predict the probability of spontaneous reduction of intussusception (SROI) in pediatric patients. METHODS: Clinical data of children diagnosed with intussusception and admitted to two hospitals in China from May 2023 to December 2024 were retrospectively analyzed. The eligible patients were randomly divided into the training and validation cohorts in a 7:3 ratio. The least absolute shrinkage and selection operator (LASSO) and multivariable logistic regression analyses were employed to identify essential variables for the development of the nomogram. The nomogram's performance was evaluated using receiver operating characteristic (ROC) curves, calibration curves, and decision curve analysis (DCA). RESULTS: A total of 290 cases were included, of whom 114 patients underwent spontaneous reduction. The study identified six predictors of SROI: age, presence of bloody stool (bleed), comorbidities, mode of birth (MOB), intussusception region (right, left, and mid-abdomen), and length. The results demonstrate that older age and short-segment intussusception are significantly associated with an enhanced possibility of SROI. The nomogram demonstrated high discriminatory power with an area under the ROC curve (AUC) of 0.922 in the training cohort and 0.932 in the validation cohort. Calibration curves showed good agreement between predicted and observed outcomes. DCA indicated that the nomogram provided substantial net benefits for clinical application. CONCLUSION: The developed nomogram is a reliable and precise tool for predicting the likelihood of SROI in pediatric patients. It can assist clinicians in making treatment decisions, potentially reducing unnecessary invasive interventions and optimizing healthcare resource utilization."""
+
+

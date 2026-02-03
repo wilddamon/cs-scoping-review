@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: amachinelearningmodelforprenatalriskpredictionofcephalopelvicdisproportionrelateddystociaaretrospectivestudy2025zhang
+"OBJECTIVE: To develop a prenatal risk prediction model for cephalopelvic disproportion (CPD)-related dystocia. This model aims to complement obstetricians' empirical judgments by identifying high-risk CPD-related dystocia cases within populations deemed low-risk prenatally. METHODS: We retrospectively screened and stratified women into three groups based on CPD-related dystocia and delivery method: planned cesarean deliveries (CDs) for prenatal high CPD risk, emergency CDs due to CPD-related dystocia, and vaginal deliveries without CPD occurrence. By comparing 25 routine maternal and fetal parameters among groups, specific parameters were selected for prediction. Then we built models using eight machine learning algorithms, based on data from women with emergency CDs due to CPD-related dystocia and those with vaginal deliveries. The model showing highest predictive power was adopted as predictive model. RESULTS: Despite the empirical prenatal exclusion of high CPD risk by obstetricians, 3.86% of women encountered CPD-related dystocia, comprising 26.25% of emergency CDs performed during labor. A total of 21 variables were screened as predictive indicators, including age, maternal height, nullipara, pre-pregnancy body mass index (BMI), gestational weeks, antepartum BMI, interspinous diameter, intercristal diameter, external conjugate diameter, intertuberal diameter, fundal height, maternal abdominal circumference, fetal presentation, engagement of fetal head, estimated fetal weight by obstetricians, head circumference, fetal abdominal circumference, biparietal diameter, femur length, cord around neck, and sonographic estimated fetal weight. The random Forest model emerged as the most predictive, achieving an area under the curve (AUC) of 0.824, and maintained an AUC of 0.723 in independent validation. A web-based prediction tool (https://cpd.workhard.work/) was created and made freely accessible. CONCLUSION: Obstetricians' prenatal assessments based on clinical experience cannot identify all CPD-related dystocia cases, leading to emergency CDs among patients initially deemed low-risk. Our prediction model, utilizing routine clinical parameters, effectively identifies high-risk CPD-related dystocia prenatally, thereby addressing the limitations of clinical judgment."""
+
+

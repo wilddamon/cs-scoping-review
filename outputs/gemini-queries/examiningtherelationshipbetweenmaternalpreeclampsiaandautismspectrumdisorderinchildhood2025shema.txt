@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: examiningtherelationshipbetweenmaternalpreeclampsiaandautismspectrumdisorderinchildhood2025shema
+"OBJECTIVE: Autism spectrum disorder (ASD) has multifactorial origins, some related to the prenatal period. Preeclampsia, a serious pregnancy complication, is also multifactorial. This study aimed to explore the potential association between preeclampsia and ASD in a diverse population. STUDY DESIGN: A retrospective cohort study including all deliveries of Clalit Health Services-insured women at Soroka University Medical Center from 2005 to 2017. The study compared ASD incidence in offspring of mothers with varying severities of preeclampsia. Kaplan-Meier survival curves assessed cumulative ASD incidence, and Cox proportional hazards models adjusted for confounding factors. RESULTS: Of 115,081 parturients, 2,856 (2.5%) had preeclampsia, 956 (0.8%) with severe features. Preeclampsia, especially severe, was linked to adverse outcomes (e.g. fetal growth restriction, earlier delivery, cesarean delivery; p < 0.001). Among 767 (0.7%) offspring diagnosed with ASD, prevalence was higher in the preeclampsia group compared to those without preeclampsia (1.1% mild, 0.9% severe, no preeclampsia 0.7%; p = 0.02). However, Kaplan-Meier analysis showed no significant difference in cumulative ASD morbidity (log-rank p = 0.928). Cox regression models, conducted both with and without adjustment for gestational age, showed no significant association between preeclampsia and ASD after adjustment for relevant confounders. CONCLUSION: To gain a deeper understanding of the obstetrical aspects related to the development of autism spectrum disorder, our findings indicate that preeclampsia does not play a contributory role."""
+
+

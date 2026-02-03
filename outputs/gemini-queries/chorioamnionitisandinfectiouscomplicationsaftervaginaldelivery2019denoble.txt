@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: chorioamnionitisandinfectiouscomplicationsaftervaginaldelivery2019denoble
+"OBJECTIVE: To estimate the incidence of and define risk factors for postpartum infectious complications after vaginal birth after cesarean (VBAC) complicated by chorioamnionitis. STUDY DESIGN: A secondary analysis of the Eunice Kennedy Shriver National Institute of Child Health and Human Development Maternal-Fetal Medicine Unit Cesarean Registry was performed. The primary outcome was a composite of postpartum infection: endometritis, sepsis, pelvic abscess, urinary tract infection, necrotizing fasciitis, and septic pelvic thrombophlebitis. Peripartum predictors were compared using parametric and nonparametric tests, as appropriate, and multivariate predictors assessed using logistic regression. RESULTS: A total of 559 subjects had chorioamnionitis in labor and a successful VBAC. Twenty-four (4.3%) subjects experienced the primary outcome, mainly due to endometritis (19/24). Significant factors included preterm delivery <32 weeks (odds ratio [OR]: 3.05, 95% confidence interval [CI]: 1.32-7.06) and body mass index (BMI) >=40 (OR: 4.63, 95% CI: 1.25-17.14). Receipt of postpartum antibiotics was protective against postpartum infection (OR: 0.28, 95% CI: 0.12-0.65). In multivariate analysis, preterm delivery <32 weeks, BMI >=40, and receipt of postpartum antibiotics remained associated with postpartum infection. CONCLUSION: Nearly 5% of women with chorioamnionitis had a postpartum infectious complication after vaginal delivery, with higher rates in those delivering at <32 weeks and with prepregnancy BMI >=40. Receipt of postpartum antibiotics decreased the odds of postpartum infection markedly."""
+
+

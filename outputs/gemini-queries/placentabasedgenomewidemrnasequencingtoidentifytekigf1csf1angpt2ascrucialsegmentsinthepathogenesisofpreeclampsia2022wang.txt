@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: humanplacentabasedgenomewidemrnasequencingtoidentifytekigf1csf1angpt2ascrucialsegmentsinthepathogenesisofpreeclampsia2022wang
+"Pre-eclampsia is a pregnancy-specific disease commonly occurring in late pregnancy and has always been threatening maternal and fetal lives, yet the etiology and pathogenesis of pre-eclampsia are still uncertain. To depict the overall changes of genes at the genome-wide level and identify potential biomarkers for early diagnosis of pre-eclampsia, we conducted this study by collecting placenta samples donated by six pregnancy women, among whom three healthy women were included as controls and three women were diagnosed with pre-eclampsia. The placental sample tissues were then subjected to high-throughput sequencing. Furthermore, we proceeded with bioinformatics analysis and formulated the hypothesis of pre-eclampsia development and verified the potential targets of pre-eclampsia by immunohistochemistry. Demographically, we found that the baseline characteristics of study subjects were highly homogeneous except for gestational weeks and blood pressure, where the blood pressure was higher and gestational weeks were shorter in the pre-eclampsia group (systolic blood pressure 123.33 +/- 4.62 vs. 148.67 +/- 3.79 mmHg, p = 0.046; diastolic blood pressure 79.00 +/- 5.20 vs. 88.33 +/- 2.89 mmHg, p = 0.068; gestational weeks 39.33 +/- 1.03 vs. 35.76 +/- 2.41, p = 0.050). Specific pathological changes were identified, shown as syncytial knots, fibrinoid necrosis, perivillous fibrin deposition, and vasculitis. For high-throughput sequencing, a total of 1,891 dysregulated genes were determined, of which 960 genes were downregulated and 931 genes were upregulated. The bioinformatics analysis indicated that these genes, with different molecular functions in different parts of cells, were primarily responsible for endothelium development and vascular process in the circulatory system, and more than 10 signaling pathways were involved. By focusing on the PI3K-Akt signaling pathway, Rap1 signaling pathway, and disease enrichment analysis item pre-eclampsia, TEK, CSF1, IGF1, and ANGPT2 were identified to promote the development of pre-eclampsia. After confirming the placental expression of these genes at the protein level, we proposed the pathogenesis of pre-eclampsia as follows: the downregulation of TEK, CSF1, IGF1, and ANGPT2 may inhibit trophoblast proliferation and affect the remodeling of spiral arteries, causing maternal and fetal malperfusion and impeding nutrient exchange, thereby leading to clinical manifestations of pre-eclampsia.Copyright (c) 2022 Wang, Zhang, Fan, Peng, Song, Fu and Wang."""
+
+

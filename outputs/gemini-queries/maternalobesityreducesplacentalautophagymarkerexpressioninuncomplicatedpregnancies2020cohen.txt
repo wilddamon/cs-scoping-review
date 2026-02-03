@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalobesityreducesplacentalautophagymarkerexpressioninuncomplicatedpregnancies2020cohen
+"Aim: Obesity has been associated with changes in autophagy and its increasing prevalence among pregnant women is implicated in higher rates of placental-mediated complications of pregnancy such as pre-eclampsia and intrauterine growth restriction. Autophagy is involved in normal placentation, thus changes in autophagy may lead to impaired placental function and development. The aim of this study was to investigate the connection between obesity and autophagy in the placenta in otherwise uncomplicated pregnancies. Methods: Immunohistochemistry and western blot analysis were done on placental and omental samples from obese (body mass index [BMI] >=30 kg/m2) and normal weight (BMI <25 kg/m2) pregnant women with singleton pregnancies undergoing planned Caesarean delivery without labor at term. Samples were analyzed for autophagic markers LC3B and p62 in the peripheral, middle and central regions of the placenta and in omental adipocytes, milky spots and vasculature. Results: As pre-pregnancy BMI increased, there was an increase in both placental and fetal weight as well as decreased levels of LC3B in the central region of the placenta (P = 0.0046). Within the obese patient group, LC3B levels were significantly decreased in the placentas of male fetuses compared to females (P < 0.0001). Adipocytes, compared to milky spots and vasculature, had lower levels of p62 (P = 0.0127) and LC3B (P = 0.003) in obese omenta and lower levels of LC3B in control omenta (P = 0.0071). Conclusion: Obesity leads to reduced placental autophagy in uncomplicated pregnancies; thus, changes in autophagy may be involved in the underlying mechanisms of obesity-related placental diseases of pregnancy. (c) 2020 Japan Society of Obstetrics and Gynecology"""
+
+

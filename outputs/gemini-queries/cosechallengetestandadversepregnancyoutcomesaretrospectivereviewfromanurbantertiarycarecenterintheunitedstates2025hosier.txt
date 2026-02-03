@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenisolatedabnormal1hourglucosechallengetestandadversepregnancyoutcomesaretrospectivereviewfromanurbantertiarycarecenterintheunitedstates2025hosier
+"BACKGROUND: The objective of this study was to investigate whether an isolated abnormal 1-hour glucose challenge test (GCT) among patients without gestational diabetes (GDM) is associated with adverse outcomes. METHODS: This is a retrospective cohort study of patients who underwent GDM screening at >= 24 weeks' gestation with a 1-hour GCT and delivered a singleton fetus at > 35 weeks' gestation at an urban tertiary hospital from 1/2013 to 10/2021. Data were extracted from an electronic medical record data warehouse using standardized billing/diagnosis codes. Individuals were categorized into 3 groups: normal screening (1-hour GCT value < 140 mg/dL), intermediate screening (1-hour GCT value >= 140 and < 200 but normal 3-hour glucose tolerance test (GTT)), and GDM (1-hour GCT >= 200 mg/dL or abnormal 3-hour GTT). The primary composite perinatal morbidity outcome included any of the following: large for gestational age (LGA) birthweight, birth injury, hypoglycemia with neonatal intensive care unit (NICU) admission, respiratory distress syndrome, transient tachypnea of the newborn, apnea, NICU admission, or perinatal death. Multiple secondary outcomes were also evaluated. Bivariable analyses and multivariable logistic regression modeling were performed. RESULTS: Of 37,277 eligible patients, 29,698 (79.7%) had normal screening results, 5092 (13.7%) had intermediate screening results, and 2487 (6.6%) were diagnosed with GDM. There were significant differences in baseline characteristics between the three groups, including age, parity, race and ethnicity, payer-type, obesity, and pre-pregnancy metformin use. Compared to normal screening, intermediate screening was associated with an increased risk for the composite perinatal morbidity outcome (OR 1.23, 95% CI 1.15-1.32), cesarean (OR 1.37, 95% CI 1.28-1.46), and hypertensive disorders of pregnancy (OR 1.30, 95% CI 1.20-1.40). Associations for these outcomes were further pronounced in those with GDM compared to normal screening (OR 1.86, 95% CI 1.70-2.03; OR 1.69, 95% CI 1.56-1.84; and OR 1.57, 95% CI 1.42-1.74, respectively). After adjusting for potential confounders, increased risks for the composite perinatal morbidity outcome persisted for those with intermediate screening (aOR 1.18, 95% CI 1.10-1.26). CONCLUSIONS: In addition to patients with GDM, individuals an isolated abnormal 1-hour GCT without GDM were also at increased risks for adverse pregnancy outcomes. Further investigation is needed to understand if patients with mild dysregulation may still benefit from other interventions."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theriskofpostpartumhemorrhagewithselectiveserotoninreuptakeinhibitorsandserotoninnorepinephrinereuptakeinhibitorspreliminaryresultsfromthemassachusettsgeneralhospitalnationalpregnancyregistryforpsychiatricmedications2024viguera
+"Background: Previous studies suggest an association between late pregnancy exposure to selective serotonin reuptake inhibitors (SSRIs) and serotonin norepinephrine reuptake inhibitors (SNRIs) and increased postpartum hemorrhage (PPH) risk. This is the first pregnancy registry study to compare PPH outcomes among women with psychiatric illness exposed or unexposed to SSRIs/SNRIs proximate to delivery. Methods: This study used data from the National Pregnancy Registry for Psychiatric Medications to evaluate the relationship between SSRI/SNRI exposure in late pregnancy and PPH risk. The sample included n = 953 participants with retrospectively collected medical record data on postpartum blood loss, n = 453 unexposed to SSRIs/SNRIs during pregnancy, and n = 500 exposed at least during the week of delivery. PPH was defined as an estimated blood loss >=500 mL following vaginal delivery or >=1,000 mL following cesarean section (C-section), with onset of excessive bleeding occurring within the first 24 hours postpartum. Univariate and multivariate logistic regression analyses were performed to determine odds ratios. Results: Overall PPH incidence was 13.1%. SSRI/SNRI exposure was associated with a PPH unadjusted odds ratio of 1.42 compared to no exposure (95% confidence interval [CI: 0.97, 2.08]) and an adjusted odds ratio of 1.33 (95% CI [0.90, 1.97]). When stratified by delivery type, the odds ratio following vaginal delivery among women exposed to SSRIs/SNRIs was 1.04 (95% CI [0.63, 1.70]) versus 2.31 (95% CI [1.25, 4.26]) for C-section delivery; the adjusted C-section odds ratio was 2.21 (95% CI [1.18, 4.13]). Conclusions: Although these findings align with accumulating evidence suggesting SSRI/SNRI exposure may confer a modestly increased risk of PPH, particularly after C-section, the study was underpowered to make definitive conclusions. These preliminary data highlight the need for further research with larger sample sizes. Nevertheless, the findings underscore the importance of greater clinical monitoring for PPH following C-section, especially in women who may have other known PPH risk factors and are exposed to SSRIs/SNRIs in late pregnancy."""
+
+

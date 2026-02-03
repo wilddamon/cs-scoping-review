@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acuteandrecentairpollutionexposureandcardiovasculareventsatlabouranddelivery2015mannisto
+"Objective: To study the relationship between acute air pollution exposure and cardiovascular events during labour/delivery. Methods: The Consortium on Safe Labor (2002-2008), an observational US cohort with 223 502 singleton deliveries provided electronic medical records. Air pollution exposure was estimated by modified Community Multiscale Air Quality models. Cardiovascular events (cardiac failure/arrest, stroke, myocardial infarcts and other events) were recorded in the hospital discharge records for 687 pregnancies (0.3%). Logistic regression with generalised estimating equations estimated the relationship between cardiovascular events and daily air pollutant levels for delivery day and the 7 days preceding delivery. Results: Increased odds of cardiovascular events were observed for each IQR increase in exposure to nitric oxides at 5 and 6 days prior to delivery (OR=1.17, 99% CI 1.04 to 1.30 and OR=1.15, 1.03 to 1.28, respectively). High exposure to toxic air pollution species such as ethylbenzene (OR=1.50, 1.08 to 2.09), m-xylene (OR=1.54, 1.11 to 2.13), o-xylene (OR=1.51, 1.09 to 2.09), p-xylene (OR=1.43, 1.03 to 1.99) and toluene (OR=1.42, 1.02 to 1.97) at 5 days prior to delivery were also associated with cardiovascular events. Decreased odds of events were observed with exposure to ozone. Conclusions: Air pollution in the days prior to delivery, especially nitrogen oxides and some toxic air pollution species, was associated with increased risk of cardiovascular events during the labour/delivery admission."""
+
+

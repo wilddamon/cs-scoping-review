@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: accurateneonatalheartratemonitoringusinganewwirelesscapmounteddevice2021henry
+"Aim: A device for newborn heart rate (HR) monitoring at birth that is compatible with delayed cord clamping and minimises hypothermia risk could have advantages over current approaches. We evaluated a wireless, cap mounted device (fhPPG) for monitoring neonatal HR. Methods: A total of 52 infants on the neonatal intensive care unit (NICU) and immediately following birth by elective caesarean section (ECS) were recruited. HR was monitored by electrocardiogram (ECG), pulse oximetry (PO) and the fhPPG device. Success rate, accuracy and time to output HR were compared with ECG as the gold standard. Standardised simulated data assessed the fhPPG algorithm accuracy. Results: Compared to ECG HR, the median bias (and 95% limits of agreement) for the NICU was fhPPG -0.6 (-5.6, 4.9) vs PO -0.3 (-6.3, 6.2) bpm, and ECS phase fhPPG -0.5 (-8.7, 7.7) vs PO -0.1 (-7.6, 7.1) bpm. In both settings, fhPPG and PO correlated with paired ECG HRs (both R2 = 0.89). The fhPPG HR algorithm during simulations demonstrated a near-linear correlation (n = 1266, R2 = 0.99). Conclusion: Monitoring infants in the NICU and following ECS using a wireless, cap mounted device provides accurate HR measurements. This alternative approach could confer advantages compared with current methods of HR assessment and warrants further evaluation at birth. (c) 2021 The Authors. Acta Paediatrica published by John Wiley & Sons Ltd on behalf of Foundation Acta Paediatrica"""
+
+

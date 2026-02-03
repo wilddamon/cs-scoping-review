@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: estimatingthehealthcarecostsofchildrenborntopregnantsmokersinenglandcohortstudyusingprimaryandsecondaryhealthcaredata2018vaz
+"BACKGROUND AND AIMS: Little is known about the long-term economic consequences of smoking during pregnancy. We estimated the association between smoking in pregnancy and the costs of delivering health-care to infants and children in England, and investigated which aspects of care are the key drivers of these costs. METHODS: We used Hospital Episode Statistics (HES) linked with Clinical Practice Research Datalink (CPRD) data in England from January 2003 to January 2015 in children with longitudinal data for at least 1, 5 and 10 years after birth. Poisson regression provided rate ratios (RR) and 95% confidence intervals (CIs) comparing health-care episode rates between those exposed and not exposed to smoking during pregnancy. Linear regression was used to compare estimated costs between groups (PS sterling, 2015 prices) and generalized linear multivariable (GLM) models adjusted for potentially moderating factors. RESULTS: A total of 93 152 singleton pregnancies with the required data were identified. Maternal smoking in pregnancy was associated with higher primary care, prescription and hospital in-patient episode rates, but lower out-patient visit and diagnostic test rates. Adjusting for year of birth, socio-economic deprivation, parity, sex of child and delivery method showed that maternal smoking in pregnancy was associated with increased child health-care costs at 1 year [average cost difference for children of smokers, b = PS91.18, 95% confidence interval (CI) = PS47.52-134.83 and 5 years of age (b = PS221.80, 95% CI = PS17.78-425.83], but not at 10 years of age (b = PS365.94, 95% CI = -PS192.72 to PS924.60). CONCLUSION: In England, maternal smoking in pregnancy is associated with increased child health-care costs over the first 5 years of life; these costs are driven primarily by greater hospital in-patient care."""
+
+

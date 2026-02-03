@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: currentpredictorsformorbidityregardingchoiceofbirthafterapreviouscaesareansectionshowpoorpredictivevalueinpredictionmodelling2024vanhees
+"INTRODUCTION: After a previous caesarean section, morbidity in the subsequent delivery in general is considered to depend on the probability of a vaginal birth after caesarean. However counselling could be improved by adding individualized probability of serious morbidity following either trial of labour or elective repeat caesarean section. The objective of this study was to develop prediction models for morbidity for both a repeat caesarean section and a trial of labor for a Dutch population. MATERIAL AND METHODS: In this cohort study, data were joined from three previous studies (SIMPLE 1, SIMPLE 2 and SIMPLE 2-implementation study). A cohort of 2592 women with one previous caesarean section and a singleton pregnancy who delivered >=37 weeks, without a contraindication for vaginal delivery was formed. Maternal morbidity was defined as postpartum hemorrhage, blood transfusion, uterine rupture, ICU admittance or death. Neonatal morbidity was defined as asphyxia, NICU-admittance or death. Potential predictors for morbidity were chosen based on literature and expert opinion. Logistic regression was used to develop the models. Internal validation was intended using bootstrapping techniques. Main outcome measures were predictors for morbidity and for validation of the model we used the area under the receiver operating characteristic curve for discriminative capacity and calibration for accuracy. RESULTS: In 324 out of the 2592 cases (12.7 %) maternal or fetal complications occurred. In general total morbidity was higher in women choosing TOL as compared to ERCS (p < 0.001). The performance of the several developed models was insufficient, the area under the receiver operating characteristic curve did not rise above 0.6. Due to poor model performance, before correction for overfitting, interval validation was not conducted. CONCLUSION: In this large cohort, developing a Dutch population based prediction model that aimed to improve counselling on the mode of delivery, by predicting individual chances of morbidity for different delivery modes was not possible, due to lack of performance. Further study could be directed to cut off on VBAC success rates to a more general advice regarding the safest mode of delivery."""
+
+

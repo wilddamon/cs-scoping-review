@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: umbilicalcordmanagementinextremelypreterminfantsbornbycesareandelivery2025kashkari
+"BACKGROUND: Deferred cord clamping reduces mortality in preterm infants. However, there is a controversy whether it is as effective in cesarean deliveries as in vaginal deliveries. OBJECTIVES: To compare mortality and short-term outcomes of extremely preterm singleton infants who received deferred cord clamping after cesarean deliveries with those who received it after vaginal deliveries and those who received early cord clamping after cesarean deliveries. STUDY DESIGN: We conducted a national retrospective review of maternal, perinatal, and neonatal data of preterm infants <29 weeks' gestation who were admitted to units participating in the Canadian Neonatal Network between January 2015 and December 2022. We assessed the rates and trends of deferred cord clamping (>= 30 seconds) and compared infants who received deferred cord clamping after cesarean deliveries with: (a) those who received deferred cord clamping after vaginal deliveries and (b) those who received early cord clamping (< 30 seconds) after caesarean deliveries. Our primary outcome was hospital mortality/severe brain injury (defined as grade 3/4 intraventricular hemorrhage and/or periventricular leukomalacia). Multivariable regression models with generalized estimation equation were used to account for clustering of infants within each site after adjusting for potential confounders. RESULTS: Of 6137 infants included, 1952 (31.8%) received deferred cord clamping after cesarean deliveries, 1804 (29.4%) received it after vaginal deliveries and 2381 (38.8%) received early cord clamping after cesarean deliveries at a median (IQR) gestational age of 27 (25, 28), 26 (25, 28) and 26 (25, 28) weeks, respectively. There was a slow increase in practicing deferred cord clamping in cesarean deliveries from 32% in 2015 to ~50% in 2021-2022. After adjustment for potential confounders, infants who received deferred cord clamping after cesarean deliveries had lower odds of a composite of mortality/severe brain injury [281/1952 (14%)] than those who received deferred cord clamping after vaginal deliveries [347/1804 (19%)]; aOR (95% CI): 0.69 (0.54, 0.87) and those who received early cord clamping after cesarean deliveries [543/2381 (23%)]; aOR (95% CI): 0.69 (0.57, 0.83). Deferred cord clamping after cesarean deliveries was not associated with significant changes in other adverse short-term outcomes. CONCLUSION: Deferred cord clamping is associated with reduction in a composite of mortality/ severe brain injury in singleton preterm infants <29 weeks' gestation born by cesarean delivery."""
+
+

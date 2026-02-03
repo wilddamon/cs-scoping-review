@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonoftheprophylacticeffectofpropofoldexamethasoneandondansetrononpostoperativenauseaandvomitinginelectivecesareansectionunderspinalanesthesia2021hassani
+"Nausea, and vomiting are common complications in women undergoing cesarean section with spinal anesthesia. This study aimed to compare the propofol, dexamethasone, and ondansetron effects on nausea and vomiting. In this double-blind, randomized clinical trial study, 120 women aged 15 to 35 years candidates for cesarean section under spinal anesthesia were enrolled. Patients were randomly divided into four groups (three-drug groups and control group). Patients received 0.05 mg/kg ondansetron (group O), 0.1 mg/kg dexamethasone (group D), 0.2 mg/kg propofol (group P) and normal saline in controls (group C). Nausea and vomiting in recovery and 6 hours after surgery compared between groups. In recovery and 6 hours after surgery, both nausea and vomiting were the highest in group C while they were lowest in group O. the frequency of nausea was 11(36.7%) in both recovery and 6 hours after surgery, and the frequency of vomiting was 12(40%) and 10(33.3%) in the recovery and 6 hours after surgery respectively. Among three drug groups, nausea and vomiting were higher in group D in both the recovery room and 6 hours after surgery. The frequency of vomiting was 10 (33.3%) and 5 (16.7%) in recovery and 6 hours after surgery in group D, respectively. These differences were statistically significant between the four groups (P<0.05). The preventive effect of dexamethasone is not very useful in both periods. Therefore, it can be recommended that in the short period after surgery, propofol has a beneficial effect in preventing postoperative nausea and vomiting.Copyright (c) 2021 Tehran University of Medical Sciences. All rights reserved."""
+
+

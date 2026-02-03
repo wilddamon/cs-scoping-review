@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyrelatedcomplicationsinosteogenesisimperfecta2025collier
+"OBJECTIVE: To evaluate obstetric and perinatal outcomes of pregnancies among patients with osteogenesis imperfecta using the French National Health Insurance Database. METHODS: We conducted a retrospective cohort study. Pregnancies were identified with an algorithm specifically developed for the French National Health Insurance Database to identify delivery stays using a combination of International Classification of Diseases, Tenth Revision (ICD-10) discharge codes and medical procedures. Exposure was osteogenesis imperfecta status based on the occurrence of ICD-10 code Q780 5 years before conception or during pregnancy. Outcomes included pregnancy, delivery, postpartum, and fetal complications based on hospital discharge data and reimbursements of medical procedures, medical devices, and drugs. Multivariable logistic regression analysis was performed, adjusted for multiple pregnancies per participant with generalized estimating equations. RESULTS: The cohort included 8,850,969 pregnancies (5,823,322 patients) between January 2012 and December 2023. In total, 408 pregnant individuals (4.6/100,000) were identified with osteogenesis imperfecta. Compared with pregnant individuals without osteogenesis imperfecta, pregnant individuals with osteogenesis imperfecta had increased risks of antepartum hemorrhage (adjusted risk ratio [RR] 1.78, 95% CI, 1.01-3.14), chorioamnionitis (adjusted RR 2.79, 95% CI, 1.17-6.64), malpresentation (adjusted RR 1.65, 95% CI, 1.19-2.30), and preterm delivery (adjusted RR 2.11, 95% CI, 1.62-2.74). Cesarean delivery rates were notably higher in pregnant individuals with osteogenesis imperfecta (adjusted RR 2.59, 95% CI, 2.34-2.88), including among nulliparous individuals (adjusted RR 2.50, 95% CI, 2.22-2.81). Osteogenesis imperfecta was associated with major congenital anomalies (adjusted RR 5.04, 95% CI, 3.97-6.39 overall; adjusted RR 1.67, 95% CI, 1.09-2.56 when osteogenesis imperfecta was excluded from the congenital anomaly definition), especially cardiac anomalies. Postpartum analysis indicated no significant increase in fracture rates compared with prepregnancy periods. CONCLUSION: In this nationwide cohort study, osteogenesis imperfecta was associated with both maternal and fetal complications. These findings underscore the need for specialized, multidisciplinary management of pregnancies in patients with osteogenesis imperfecta."""
+
+

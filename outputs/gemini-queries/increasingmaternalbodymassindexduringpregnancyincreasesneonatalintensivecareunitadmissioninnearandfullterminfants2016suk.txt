@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasingmaternalbodymassindexduringpregnancyincreasesneonatalintensivecareunitadmissioninnearandfullterminfants2016suk
+"Background: Obesity is becoming an increasingly commonplace health problem. Obesity during pregnancy is important because the condition adversely affects not only the mother, but also the developing fetus and the newborn. Objective: The primary objective of this study was to evaluate the association between maternal body mass index (mBMI) at the time of delivery and neonatal intensive care unit (NICU) admission of offspring and to analyze the role of possible confounding variables that are often associated with obesity. Comorbidities, such as gestational diabetes mellitus (DM), hypertension (HT) and/or pre-eclampsia (PEC), are more common in more obese mothers, as is a higher association of obesity among non-Caucasian patients. Methods: Using a retrospective cohort design, 1736 mothers and their singleton live-born at >=35 weeks' gestation were analyzed for mBMI, maternal conditions of DM, HT and/or PEC, and whether NICU care was required and the reason for NICU admission. Results: NICU admission rate was significantly associated with maternal obesity. In comparing women with mBMI < 30 versus mBMI >= 30, OR was 1.39 (p = 0.045); OR increased to 1.76 (p = 0.006) in comparing patients with mBMI >= 35. mBMI was significantly associated with an increased rate of maternal DM, HT and PEC (p < 0.05 each); however, NICU admission rate was not correlated with DM, HT or PEC. The relationship between NICU admission and mBMI was significant in Caucasian mothers versus a borderline significance in African-American mothers (p = 0.035 versus p = 0.05). After controlling for neonatal hypoglycemia (NH) as the reason for admission to the NICU, no mBMI-NICU association persisted. The rate of infants with NH increased in higher mBMI groups, independent of maternal DM diagnosis. Conclusion: This study demonstrated a significant association between higher mBMI groups and NICU admissions independent of diagnosis of maternal comorbidities. However, accounting for NH eliminating this association suggests a pre-clinical diabetic pathology in obese women that affects newborn outcome. Despite increased percentage of nonwhite mothers in higher mBMI groups, African-American race does not seem to be a significant contributing factor in the increased rate of NICU admission in our population. (c) 2015 Taylor & Francis."""
+
+

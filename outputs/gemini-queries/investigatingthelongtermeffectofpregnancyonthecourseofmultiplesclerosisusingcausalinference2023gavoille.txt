@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: investigatingthelongtermeffectofpregnancyonthecourseofmultiplesclerosisusingcausalinference2023gavoille
+"Background and Objectives The question of the long-term safety of pregnancy is a major concern in patients with multiple sclerosis (MS), but its study is biased by reverse causation (women with higher disability are less likely to experience pregnancy). Using a causal inference approach, we aimed to estimate the unbiased long-term effects of pregnancy on disability and relapse risk in patients with MS and secondarily the short-term effects (during the perpartum and postpartum years) and delayed effects (occurring beyond 1 year after delivery). Methods We conducted an observational cohort study with data from patients with MS followed in the Observatoire Francais de la Sclerose en Plaques registry between 1990 and 2020. We included female patients with MS aged 18-45 years at MS onset, clinically followed up for more than 2 years, and with >=3 Expanded Disease Status Scale (EDSS) measurements. Outcomes were the mean EDSS score at the end of follow-up and the annual probability of relapse during follow-up. Counterfactual outcomes were predicted using the longitudinal targeted maximum likelihood estimator in the entire study population. The patients exposed to at least 1 pregnancy during their follow-up were compared with the counterfactual situation in which, contrary to what was observed, they would not have been exposed to any pregnancy. Short-term and delayed effects were analyzed from the first pregnancy of early-exposed patients (who experienced it during their first 3 years of follow-up). Results We included 9, 100 patients, with a median follow-up duration of 7.8 years, of whom 2, 125 (23.4%) patients were exposed to at least 1 pregnancy. Pregnancy had no significant long-term causal effect on the mean EDSS score at 9 years (causal mean difference [95% CI] = 0.00 [-0.16 to 0.15]) or on the annual probability of relapse (causal risk ratio [95% CI] = 0.95 [0.93-1.38]). For the 1, 253 early-exposed patients, pregnancy significantly decreased the probability of relapse during the perpartum year and significantly increased it during the postpartum year, but no significant delayed effect was found on the EDSS and relapse rate. Discussion Using a causal inference approach, we found no evidence of significantly deleterious or beneficial long-term effects of pregnancy on disability. The beneficial effects found in other studies were probably related to a reverse causation bias. (c) (c) 2022 American Academy of Neurology."""
+
+

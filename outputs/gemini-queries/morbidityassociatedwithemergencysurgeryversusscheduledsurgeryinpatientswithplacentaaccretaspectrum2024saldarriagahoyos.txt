@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: morbidityassociatedwithemergencysurgeryversusscheduledsurgeryinpatientswithplacentaaccretaspectrum2024saldarriagahoyos
+"Objective: This study aims to evaluate the clinical outcomes of surgical management for placenta accreta spectrum in a Latin American reference hospital specializing in this condition. The evaluation involves a comparison between surgeries performed on an emergent and scheduled basis.;Methods: A retrospective cohort study was conducted on patients with placenta accreta spectrum who underwent surgery between January 2011 and November 2021 at a hospital in Colombia, using data from the institutional PAS registry. The study included patients with intraoperative and/or histological confirmation of PAS, regardless of prenatal suspicion. Clinical outcomes were compared between patients who had emergent surgeries and those who had scheduled surgeries. Descriptive analysis involved summary measures and the Shapiro-Wilk test for quantitative variables, with comparisons made using Pearson's Chi-squared test and the Wilcoxon rank sum test, applying a significance level of 5%.;Results: A total of 113 patients were included, 84 (74.3%) of them underwent scheduled surgery, and 29 (25.6%) underwent emergency surgery. The emergency surgery group required more transfusions (72.4% vs 48.8%, p=0.047). Patients with intraoperative diagnosis of placenta accreta spectrum (21 women, 19.5%) had a greater volume of blood loss than patients taken into surgery with known presence of placenta accreta spectrum (3500 ml, IQR 1700 - 4000 vs 1700 ml, IQR 1195-2135. p <0.001).;Conclusion: Patients with placenta accreta spectrum undergoing emergency surgery require transfusions more frequently than those undergoing scheduled surgery."""
+
+

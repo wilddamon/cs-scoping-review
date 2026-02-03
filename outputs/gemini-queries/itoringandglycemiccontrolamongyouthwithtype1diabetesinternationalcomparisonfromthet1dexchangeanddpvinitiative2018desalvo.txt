@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: continuousglucosemonitoringandglycemiccontrolamongyouthwithtype1diabetesinternationalcomparisonfromthet1dexchangeanddpvinitiative2018desalvo
+"BACKGROUND: To assess the change in rates of pediatric real-time or intermittent scanning continuous glucose monitoring (CGM) use over the past 5 years, and how it impacts glycemic control, data from two registries were compared: the US-based type 1 diabetes Exchange Registry (T1DX) and the German/Austrian DPV (Prospective Diabetes Follow-Up Registry).;METHODS: Registry participants aged <18 years with T1D duration >=1 year encompassed 29 007 individuals in 2011 and 29 150 participants in 2016. Demographic data, CGM use and hemoglobin A1c (HbA1c) were obtained from medical records.;RESULTS: CGM use increased from 2011 to 2016 in both registries across all age groups, regardless of gender, ethnic minority status or insulin delivery method. The increase in CGM use was most pronounced in the youngest patients, and usage rates remain lowest for adolescent patients in 2016. For both registries in 2016, mean HbA1c was lower among CGM users regardless of insulin delivery method compared to pump only (P < 0.001) and injection only (P < 0.001), and CGM users were more likely to achieve glycemic target of HbA1c <7.5% (56% vs 43% for DPV and 30% vs 15% for T1DX, P < 0.001). T1DX participants had a higher mean HbA1c compared with DPV despite whether they were CGM users or non-users; however, the difference was less pronounced in CGM users (P < 0.001).;CONCLUSIONS: Pediatric CGM use increased in both registries and was associated with lower mean HbA1c regardless of insulin delivery modality. Copyright (c) 2018 The Authors. Pediatric Diabetes published by John Wiley & Sons Ltd."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforpostpartumhemorrhageincriticallyillpregnantwomenwithplacentapreviaandconstructionofadynamicnomogrammodel2025yang
+"OBJECTIVE: To identify independent risk factors for postpartum hemorrhage (PPH) and to develop a dynamic nomogram model for early prediction and prevention of PPH. METHODS: A retrospective analysis was conducted on clinical data from 372 pregnant women with placenta previa admitted to Baoji Maternal and Child Health Hospital between March 2022 and March 2024. Patients were categorized into a PPH group (blood loss >= 1500 mL, n = 109) and a non-PPH group (blood loss < 1500 mL, n = 263). Clinical data were collected from electronic medical records. The included cases were split into a training set (n = 260) and a validation set (n = 112) at a 7:3 ratio. Multivariate logistic regression were conducted to identify risk factors for PPH, and a nomogram predictive model was constructed based on the identified factors. The predictive performance of the model was assessed using ROC curve analysis, decision curve analysis (DCA), and calibration curves. RESULTS: Multivariate logistic regression identified age >= 32.5 years (P < 0.001), number of cesarean sections >= 2 (P = 0.037), placental adhesion (P < 0.001), placental implantation (P = 0.002), partial placenta previa (P = 0.004), prior cesarean section with placenta previa (P = 0.020), and anemia (P = 0.002) as independent risk factors for PPH. The nomogram achieved an AUC of 0.880 in the training set and 0.840 in the validation set, indicating strong discrimination and predictive capability. ROC analysis showed that age, number of cesarean sections, and placental adhesion had high sensitivity and specificity for predicting PPH, supporting the model's clinical utility. CONCLUSION: The dynamic nomogram model developed in this study, based on factors such as age, number of cesarean sections, placental adhesion, placental implantation, placenta previa type, previous cesarean with placenta previa, and anemia, demonstrated excellent predictive performance for early identification of PPH risk."""
+
+

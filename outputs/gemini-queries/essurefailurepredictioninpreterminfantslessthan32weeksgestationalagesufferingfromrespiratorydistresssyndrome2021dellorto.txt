@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlynasalcontinuouspositiveairwaypressurefailurepredictioninpreterminfantslessthan32weeksgestationalagesufferingfromrespiratorydistresssyndrome2021dellorto
+"Background: Early continuous positive airway pressure (CPAP) and surfactant replacement are effective treatments for neonatal respiratory distress syndrome (RDS). CPAP is the first line in preterm infants needing respiratory support, with surfactant replacement in case of CPAP failure (CPAP-F). Objectives: To analyze incidence and factors associated with CPAP-F in preterm infants with RDS. Design, Setting and Patients: Single-center retrospective database analysis (2004-2017) of inborn infants, gestational age (GA) 24 + 0/7-31 + 6/7 weeks, not intubated on admission to the neonatal intensive care unit, managed with CPAP. CPAP-F was defined as intubation and surfactant administration in the first 72 h of life; CPAP success (CPAP-S) was CPAP alone without need for additional RDS treatments. Demographic, respiratory, and clinical data associated with CPAP-F were studied using logistic regression analysis. Results: A total of 562 infants met the inclusion criteria: 252 (44.8%) were CPAP-F and 310 (55.2%) were CPAP-S. The CPAP-F, compared to CPAP-S group, had lower GA and birth weight, and were less likely to receive antenatal steroids or to be vaginal births. Logistic regression showed that the fraction of inspired oxygen (FiO<inf>2</inf>) >= 0.23 between 180 and 240 min of life (FiO<inf>2</inf> 180-240 min) was the strongest factor associated with CPAP-F (odds ratio: 16.01 [95% confidence interval: 10.34-24.81]). Conclusion: FiO<inf>2</inf> 180-240 min was highly predictive of CPAP-F in preterm infants. With this model for surfactant administration/CPAP-F, 11.2% of infants would have unnecessarily received treatment, but importantly, 27.7% would have been treated much earlier, with a potential reduction in air leaks and duration of mechanical ventilation. (c) 2021 Wiley Periodicals LLC"""
+
+

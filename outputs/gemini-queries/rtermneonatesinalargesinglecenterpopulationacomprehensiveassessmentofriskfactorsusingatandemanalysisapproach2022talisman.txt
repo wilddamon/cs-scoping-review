@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nicuadmissionfortermneonatesinalargesinglecenterpopulationacomprehensiveassessmentofriskfactorsusingatandemanalysisapproach2022talisman
+"Objective: Neonatal intensive care unit (NICU) admission among term neonates is associated with significant morbidity and mortality, as well as high healthcare costs. A comprehensive NICU admission risk assessment using an integrated statistical approach for this rare admission event may be used to build a risk calculation algorithm for this group of neonates prior to delivery. Method(s): A single-center case-control retrospective study was conducted between August 2005 and December 2019, including in-hospital singleton live born neonates, born at >=37 weeks' gestation. Analyses included univariate and multivariable models combined with the machine learning gradient-boosting model (GBM). The primary aim of the study was to identify and quantify risk factors and causes of NICU admission of term neonates. Result(s): During the study period, 206,509 births were registered at the Shaare Zedek Medical Center. After applying the study exclusion criteria, 192,527 term neonates were included in the study; 5292 (2.75%) were admitted to the NICU. The NICU admission risk was significantly higher (ORs [95%CIs]) for offspring of nulliparous women (1.19 [1.07, 1.33]), those with diabetes mellitus or hypertensive complications of pregnancy (2.52 [2.09, 3.03] and 1.28 [1.02, 1.60] respectively), and for those born during the 37th week of gestation (2.99 [2.63, 3.41]; p < 0.001 for all), adjusted for congenital malformations and genetic syndromes. A GBM to predict NICU admission applied to data prior to delivery showed an area under the receiver operating characteristic curve of 0.750 (95%CI 0.743-0.757) and classified 27% as high risk and 73% as low risk. This risk stratification was significantly associated with adverse maternal and neonatal outcomes. Conclusion(s): The present study identified NICU admission risk factors for term neonates; along with the machine learning ranking of the risk factors, the highly predictive model may serve as a basis for individual risk calculation algorithm prior to delivery. We suggest that in the future, this type of planning of the delivery will serve different health systems, in both high- and low-resource environments, along with the NICU admission or transfer policy.Copyright (c) 2022 by the authors."""
+
+

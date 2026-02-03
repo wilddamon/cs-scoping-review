@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: artifactfrommyomectomycsectiononmriimageswhatdoesthismeanformrguidedfocusedultrasoundcandidacyforuterinefibroids2019sinha
+"Background: Magnetic resonance-guided focused ultrasound (MRgFUS) is used for non-surgical treatment of uterine fibroids, often in patients who have had prior myomectomy or Cesarean section. The presence of post-surgical MRI artifacts along the beam path are a common contraindication to MRgFUS treatment. While potential problems arising from superficial cutaneous scars can be circumvented through scar patching and other techniques, deeper artifacts are difficult to bypass. Consequently, many patients with deeper artifacts are often excluded from treatment because of the assumption that these artifacts could deflect the ultrasound beam resulting in off target heating or perturb accurate MR thermometry. We sought to determine if these deep artifacts affect MRgFUS treatment efficacy or safety. Materials and Methods: A search of a MRgFUS center patient database yielded 19 patients with prior uterine surgery who had artifacts along the FUS beam path visible on MRI. Charts, operative reports (when available), screening MRI scans, and MRgFUS treatment scans were reviewed by an experienced MRgFUS treatment physician and artifacts were graded as mild, moderate, or severe. Results: One-way ANOVA showed no significant correlation between artifact severity and percent non-perfused volume (%NPV) (p =.41) or between fibroid size and % NPV (p =.49). There were no adverse events in this patient population except for one case of endometritis that occurred months after the operation, unlikely to be related to the MRgFUS treatments. Conclusion: Patients with uterine fibroids with post-operative susceptibility artifacts in the near-field can be successfully treated with MRgFUS. (c) 2019, (c) 2019 The Author(s). Published with license by Taylor & Francis Group, LLC."""
+
+

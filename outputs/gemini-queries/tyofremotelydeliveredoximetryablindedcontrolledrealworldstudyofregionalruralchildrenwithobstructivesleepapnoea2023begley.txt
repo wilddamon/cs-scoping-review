@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: demonstrationofaccuracyandfeasibilityofremotelydeliveredoximetryablindedcontrolledrealworldstudyofregionalruralchildrenwithobstructivesleepapnoea2023begley
+"Objectives: Evaluate diagnostic accuracy and feasibility of a mail-out home oximetry kit. Design: Patients were referred for both the tertiary/quaternary-centre hospital-delivered oximetry (HDO) and for the mail-out remotely-delivered oximetry (RDO). Quantitative and qualitative data were collected. The COVID-19 pandemic began during this study; therefore, necessary methodological adjustments were implemented. Setting: Patients were first evaluated in Swan Hill, Victoria. RDO kits were sent to home addresses. For the HDO, patients travelled to the Melbourne city area, received the kit, stayed overnight, and returned the kit the following morning. Participants: All consecutive paediatric patients (aged 2-18), diagnosed by a specialist in Swan Hill with obstructive sleep apnoea (OSA) on history/examination, and booked for tonsillectomy +/- adenoidectomy, were recruited. Main outcome measures: Diagnostic accuracy (i.e., comparison of RDO to HDO results) and test delivery time (i.e., days from consent signature to oximetry delivery) were recorded. Patient travel distances for HDO collection were calculated using home/delivery address postcodes and Google(r) Maps data. Qualitative data were collected with two digital follow-up surveys. Results: All 32 patients that had both the HDO and RDO had identical oximetry results. The HDO mean delivery time was 87.7 days, while the RDO mean delivery time was 23.6 days (p value: <0.001). Qualitatively, 3/28 preferred the HDO, while 25/28 preferred the RDO (n = 28). Conclusions: The remote option is as accurate as the hospital option, strongly preferred by patients, more rapidly completed, and also an ideal investigation delivery method during certain emergencies, such as the COVID-19 pandemic."""
+
+

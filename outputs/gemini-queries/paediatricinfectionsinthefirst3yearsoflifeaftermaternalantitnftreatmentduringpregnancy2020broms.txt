@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: paediatricinfectionsinthefirst3yearsoflifeaftermaternalantitnftreatmentduringpregnancy2020broms
+"Background: Most anti-tumour necrosis factor (anti-TNF) agents are transferred across the placenta and may increase paediatric susceptibility to infections. Aims: To assess the risk of paediatric infections after maternal anti-TNF treatment. Methods: Population-based cohort study in Denmark, Finland and Sweden 2006-2013 in which 1027 children born to women with rheumatoid arthritis, psoriasis, psoriatic arthritis, ankylosing spondylitis or inflammatory bowel disease, treated with anti-TNF, and 9346 children to women with non-biologic systemic treatment, were compared to 1 617 886 children of the general population. Children were followed for 3 years. Results: Adjusted by maternal age, parity, smoking, body mass index, country and calendar year, the incidence rate ratios with 95% confidence interval (CI) for hospital admissions for infection in the first year were 1.43 (1.23-1.67) for anti-TNF and 1.14 (1.07-1.21) for non-biologic systemic treatment, and 1.29 (1.11-1.50) and 1.09 (1.02-1.15), respectively, when additionally adjusting for adverse birth outcomes. There was a slight increase in antibiotic prescriptions in the second year for anti-TNF, 1.19 (1.11-1.29), and for non-biologic systemic treatment, 1.10 (1.07-1.13). There was no difference among anti-TNF agents, treatment in the third trimester, or between mono/combination therapy with non-biologic systemic treatment. Conclusions: Both anti-TNF and non-biologic systemic treatment were associated with an increased risk of paediatric infections. However, reassuringly, the increased risks were present regardless of treatment in the third trimester, or with combination treatment, and were not persistent during the first 3 years of life. Our findings may indicate a true risk, but could also be due to unadjusted confounding by disease severity and healthcare-seeking behaviour. This may in turn shift the risk-benefit equation towards continuation of treatment even in the third trimester. (c) 2020 The Authors. Alimentary Pharmacology & Therapeutics published by John Wiley & Sons Ltd"""
+
+

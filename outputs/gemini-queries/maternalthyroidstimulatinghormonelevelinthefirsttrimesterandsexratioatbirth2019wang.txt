@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalthyroidstimulatinghormonelevelinthefirsttrimesterandsexratioatbirth2019wang
+"Objective: Few studies have explored the influence of thyroid status on sex ratio at birth, and conclusions are inconsistent. The aim of this study was to determine if there is an association between serum thyroid-stimulating hormone (TSH) level in first trimester and sex ratio at birth. Methods: The study was a retrospective cohort study performed at a tertiary care center. From March 2014 to February 2017, a total of 4,822 women who had thyroid function testing during the first trimester were included. Study population was divided into five groups according to quintile of TSH level (<=0.60 mIU/L; 0.61 to 1.02 mIU/L; 1.03 to 1.44 mIU/L; 1.45 to 2.13 mIU/L; and >=2.14 mIU/L). Logistic regression analysis was used to calculate the odds ratios (ORs) and 95% confidence intervals (CIs) of the percentage of male infants across the quintiles, with the lowest quintile as the reference category. Results: Median level of TSH was 1.27 mIU/L in women who delivered a boy, which was significantly higher than that in women who delivered a girl (1.15 mIU/L). After adjusting for age, gravidity, and parity, multivariate logistic analysis found that women in quintiles 3, 4, and 5 all showed significantly higher ORs for delivering a boy than those in quintile 1. In addition, after adjusting for age, gravidity, and parity, serum TSH was significantly associated with likelihood of having a boy (OR, 1.08; 95% CI, 1.03 to 1.13). Conclusion: Maternal TSH level in the first trimester is positively associated with the probability of delivering a male newborn. (c) 2019 AACE."""
+
+

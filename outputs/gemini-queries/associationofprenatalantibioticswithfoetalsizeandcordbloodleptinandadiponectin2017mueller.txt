@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofprenatalantibioticswithfoetalsizeandcordbloodleptinandadiponectin2017mueller
+"Background: Early postnatal antibiotic use has been shown to promote excess weight gain, but it is unclear whether intrauterine exposure to antibiotics is associated with foetal growth and adiposity. The objective of this study was to examine associations of antibiotic prescription in each trimester of pregnancy with foetal size and adipokine levels at birth. Methods: In 2128 pregnant women from the pre-birth Project Viva cohort, from electronic medical records, we estimated antibiotic prescribing by timing during pregnancy. Outcomes were sex-specific birth weight-for-gestational-age z-score (BW/GA-z) and levels of umbilical cord leptin and adiponectin. We used linear regression models adjusted for maternal age, pre-pregnancy body mass index, parity, race/ethnicity, education, smoking during pregnancy, household income and child sex and additionally adjusted cord blood leptin and adiponectin models for gestation length. Results: Of the 2128 women in our sample, 643 (30.2%) were prescribed with oral antibiotics during pregnancy. Mean (standard deviation) BW/GA-z was 0.17 (0.97), cord blood leptin was 9.0 ng mL-1 (6.6) and cord blood adiponectin was 28.8 ng mL-1 (6.8). Overall, antibiotic prescription in pregnancy was associated with lower BW/GA-z [multivariable adjusted b -0.11; 95% confidence interval {CI} -0.20, -0.01]. In trimester-specific analyses, only second trimester antibiotic prescription was associated with lower BW/GA-z (b -0.23; 95% CI -0.37, -0.08). Overall, antibiotic prescription in pregnancy was not associated with cord blood leptin or adiponectin levels. However, in trimester-specific analyses, third trimester antibiotic prescription was associated with higher cord blood leptin (b 2.28 ng mL-1; 95% CI 0.38, 4.17). Conclusions: Antibiotics in mid-pregnancy were associated with lower birth weight for gestational age, whereas third trimester antibiotics were associated with higher cord blood leptin. (c) 2016 World Obesity Federation"""
+
+

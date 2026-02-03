@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: istheuseofcompletebloodcountswithmanualdifferentialsanantiquatedmethodofdeterminingneutrophilcompositioninnewborns2015lawrence
+"BACKGROUND: Automated complete blood counts (CBCs) provide imprecise measures of neonatal neutrophil composition due to the presence of nucleated red cells, which masquerade as white cells. Manual differentials (MDs) must be performed but can be flawed due to technician inexperience or limited cell counts. Our study evaluated whether flow cytometry could more accurately determine neutrophil composition in term newborns compared with adult controls.;METHODS: Neutrophils were obtained by venipuncture in adults (n=10) and via cord blood from neonates delivered vaginally (n=21) or by primary cesarean section (n=17). Samples were processed by both flow cytometry and CBC with MD and results compared. Flow cytometry findings were verified using gene expression analysis of granule proteins.;RESULTS: Immature-to-total neutrophil ratios were used to signify neutrophil composition. Flow cytometry was superior to manual differentials due to its ability to identify the earliest neutrophil forms. Significant differences between newborns and adults were determined using flow cytometry (0.12 versus 0.05; p=0.01), but not MDs (p=0.18). Neonates had similar findings irrespective of labor and method used. Verification of neutrophil maturity was completed using gene expression analysis of granule proteins.;CONCLUSIONS: These results raise concerns about the accuracy of using CBCs with MDs to determine neutrophil composition. Further investigation of flow cytometry in clinical practice is warranted. Copyright (c) 2015 by the Association of Clinical Scientists, Inc."""
+
+

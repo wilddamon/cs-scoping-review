@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retrospectiveanalysisofgutmicrobiotaandmetabolomicprofilesinpregnantwomenassociationwithcesareansectionrisk2025yuan
+"BACKGROUND: The gut microbiota and metabolic profiles of pregnant women undergo dynamic changes throughout gestation, potentially influencing the mode of delivery. Emerging evidence suggests that dysbiosis of gut microbiota and metabolic perturbations may contribute to the rising cesarean section (CS) rates. This study aimed to investigate gestation-specific alterations in gut microbiota and serum metabolomes and evaluate their association with CS risk. METHODS: We conducted a retrospective analysis of 80 healthy pregnant women with singleton pregnancies who delivered at our hospital between January 2022 and December 2023. Participants were stratified into CS (n=40) and vaginal delivery (VD, n=40) groups based on delivery mode, matched for maternal age, pre-pregnancy BMI, and gestational age. Fecal samples were collected one month prior to delivery for gut microbiota analysis using 16S rRNA gene sequencing. Serum samples were subjected to targeted metabolomics via UHPLC-QTOF-MS, focusing on markers of energy metabolism. Peripheral blood was analyzed for T cell subsets and regulatory T cells (Tregs) by flow cytometry. Spearman correlation analysis was performed to assess associations between gut microbial taxa and serum metabolites. RESULTS: The CS group exhibited significantly lower gut microbial a-diversity (Shannon index: 3.22 vs 4.10, P<0.001), reduced Bacteroidetes (15.3% vs 20.1%, P=0.021), and increased Firmicutes (50.2% vs 46.4%, P=0.015), resulting in an elevated Firmicutes/Bacteroidetes ratio (P=0.008). Metabolomic analysis showed higher levels of pyruvic acid and lactate and lower levels of phenylalanine in the CS group (all P<0.05). Immune analysis revealed increased CD4+ T cells, CD8+ T cells, and Tregs in the CS group (P=0.042, 0.029, 0.015, respectively). Correlation analysis indicated that Bacteroidetes abundance positively correlated with lactate (r=0.45, P<0.001), Firmicutes with phenylalanine (r=0.37, P=0.012), and Lactobacillus negatively with pyruvic acid (r=-0.28, P=0.045). CONCLUSION: Gestational gut microbiota dysbiosis and metabolic dysregulation are significantly associated with increased CS risk. These findings highlight potential biomarkers for early risk stratification and suggest that personalized microbiota-directed interventions during pregnancy might help optimize delivery outcomes. Further mechanistic studies are warranted to validate causality."""
+
+

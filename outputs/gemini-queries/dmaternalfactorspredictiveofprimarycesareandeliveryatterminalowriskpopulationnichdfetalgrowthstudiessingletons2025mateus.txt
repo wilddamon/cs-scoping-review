@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalandmaternalfactorspredictiveofprimarycesareandeliveryatterminalowriskpopulationnichdfetalgrowthstudiessingletons2025mateus
+"OBJECTIVE: This study aimed to examine associations of fetal biometric and amniotic fluid measures with intrapartum primary cesarean delivery (PCD) and develop prediction models for PCD based on ultrasound parameters and maternal factors. STUDY DESIGN: Secondary analysis of the National Institute of the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) Fetal Growth Studies-singleton cohort (2009-2013) including patients with uncomplicated pregnancies and intent to deliver vaginally at >=37(0/7) weeks. The estimated fetal weight, individual biometric parameters, fetal asymmetry measurements, and amniotic fluid single deepest vertical pocket assessed at the final scan (mean 37.5 +- 1.9 weeks) were categorized as <10th, 10th to 90th (reference), and >90th percentiles. Logistic regression analyses examined the association between the ultrasound measures and PCD. Fetal and maternal SuperLearner prediction algorithms were constructed for the full and nulliparous cohorts. RESULTS: Of the 1,668 patients analyzed, 249 (14.9%) had PCD. The fetal head circumference, occipital-frontal diameter, and transverse abdominal diameter >90th percentile (adjusted odds ratio [aOR] = 2.50, 95% confidence interval [95% CI]: 1.39, 4.51; aOR = 1.86, 95% CI: 1.02, 3.40; and aOR = 2.13, 95% CI: 1.16, 3.89, respectively) were associated with PCD. The fetal model demonstrated poor ability to predict PCD in the full cohort and in nulliparous patients (area under the receiver-operating characteristic curve [AUC] = 0.56, 95% CI: 0.52, 0.61; and AUC = 0.54, 95% CI: 0.49, 0.60, respectively). Conversely, the maternal model had better predictive capability overall (AUC = 0.79, 95% CI: 0.75, 0.82) and in the nulliparous subgroup (AUC = 0.72, 95% CI: 0.67, 0.77). Models combining maternal/fetal factors performed similarly to the maternal model (AUC = 0.78, 95% CI: 0.75, 0.82 in full cohort, and AUC = 0.71, 95% CI: 0.66, 0.76 in nulliparas). CONCLUSION: Although a few fetal biometric parameters were associated with PCD, the fetal prediction model had low performance. In contrast, the maternal model had a fair-to-good ability to predict PCD. KEY POINTS: * Fetal HC >90th percentile was associated with cesarean delivery.. * Fetal parameters did not effectively predict PCD.. * Maternal factors were more predictive of PCD.. * Maternal/fetal and maternal models performed similarly.. * Prediction models had lower performance in nulliparas.."""
+
+

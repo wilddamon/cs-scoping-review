@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severematernalandperinatalneonatalmorbidityassociatedwithplannedmodeofdeliveryfollowingapreviouscesareanfrom2003to2021apopulationbasedcohortstudy2025mehrabadi
+"BACKGROUND: Worsening neonatal outcomes over time among planned vaginal births following a previous cesarean were reported in Canada; what drove the change remained unclear. OBJECTIVE: We aimed to describe time trends in severe maternal and perinatal-neonatal morbidity associated with a planned vaginal birth vs a repeat cesarean after a previous cesarean delivery and identify risk factors associated with the trends. STUDY DESIGN: This population-based cohort study included all singleton births >=37 weeks' gestation from Nova Scotia, Canada, April 1, 2003 to March 31, 2021 with 1 previous cesarean and without trial of labor contraindications. Primary outcomes were severe maternal morbidity and severe perinatal-neonatal morbidity. Adjusted risk ratios and 95% confidence intervals were estimated using log-binomial regression, accounting for confounding using inverse probability weighting. RESULTS: Among 12,681 births (4% aged >=40 years), 5138 (40.5%) had a planned vaginal birth. Among those with a planned vaginal birth vs a repeat cesarean, severe maternal morbidity increased over time, from 5.9 vs 5.0 per 1000 deliveries in 2003-2008 (adjusted risk ratio, 1.13; 95% confidence interval, 0.46-2.8) to 17.3 vs 4.3 per 1000 deliveries in 2015-2021 (adjusted risk ratio, 3.4; 95% confidence interval, 1.38-8.2). In addition, severe perinatal-neonatal morbidity increased over time from 10.6 vs 10.0 per 1000 deliveries in 2003-2008 (adjusted risk ratio, 1.18; 95% confidence interval, 0.60-2.3) to 25.1 vs 17.2 per 1000 deliveries in 2015-2021 (adjusted risk ratio, 1.56, 95% confidence interval, 0.98-2.5). Any oxytocin induction or augmentation of labor increased from 12.1% in 2003-2008 to 37.9% in 2015-2021; its use was strongly associated with severe maternal morbidities in 2015-2021. CONCLUSION: Planned vaginal birth vs a repeat cesarean after a previous cesarean delivery was more strongly associated with severe maternal and perinatal-neonatal morbidity in later years. Oxytocin induction and augmentation increased markedly in this population and could not be ruled out as a factor associated with worsening outcomes."""
+
+

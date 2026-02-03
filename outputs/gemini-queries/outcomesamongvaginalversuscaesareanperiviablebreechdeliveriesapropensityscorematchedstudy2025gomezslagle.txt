@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesamongvaginalversuscaesareanperiviablebreechdeliveriesapropensityscorematchedstudy2025gomezslagle
+"OBJECTIVE: To evaluate the association of vaginal versus caesarean birth with neonatal and maternal outcomes for breech, singleton deliveries at 22 0/7 to 25 6/7 weeks of gestation. DESIGN: Retrospective cohort study. SETTING: Hospital births in the United States. POPULATION: This study analysed non-anomalous, singleton, breech live births at 22 0/7 to 25 6/7 weeks of gestation identified in the linked birth-infant death records data from 2016 to 2021. METHODS: A propensity score analysis was conducted to establish pseudo-randomization based on the mode of delivery, matching vaginal to caesarean deliveries at a ratio of 1:2 using greedy nearest-neighbour matching. The propensity score estimation included year of delivery, maternal age, race/ethnicity, pre-pregnancy body mass index, parity, marital status, maternal education, insurance status, attendant at delivery, smoking status, hypertensive disorders, diabetes mellitus, gestational age, induction of labour and whether a trial of labour was attempted. We estimated the risk differences (RD) and odds ratios (OR) and associated 95% CIs, taking the matching into consideration. Multiple imputation was used to account for missing data. MAIN OUTCOME MEASURES: Composite adverse neonatal and maternal outcomes. RESULTS: Of 21,461 periviable breech singleton births, 34.0% (n = 7289) were delivered vaginally. The median gestational age was 24 (IQR: 23-25) and 23 (IQR: 22-24) weeks in the vaginal and caesarean delivery groups, respectively. Earlier gestational age was associated with vaginal birth, while later gestational age was associated with caesarean births. After propensity score matching, the distributions of baseline factors, except for gestational age, were balanced between the vaginal and caesarean delivery groups. A composite of adverse neonatal outcomes occurred among 99.0% (n = 7213) of vaginal and 96.8% (n = 13,716) of caesarean breech births (aRD 1.8%, 95% CI 1.3 to 2.4; aOR 2.25, 95% CI 1.59 to 3.17). Neonatal mortality rates were higher among vaginal compared to caesarean breech births (72.6% versus 36.2%; aRD 26.8%, 95% CI 25.0 to 28.6; aOR 3.15, 95% CI 2.85 to 3.48). A composite of adverse maternal outcomes occurred in 1.6% of vaginal breech and 3.1% of caesarean births (aRD -1.7%, 95% CI -2.2 to -1.1; aOR 0.47, 95% CI 0.35 to 0.63). CONCLUSIONS: Vaginal breech birth between 22 0/7 and 25 6/7 weeks of gestation is associated with a lower risk of adverse maternal outcomes but a higher risk of neonatal adverse outcomes and mortality."""
+
+

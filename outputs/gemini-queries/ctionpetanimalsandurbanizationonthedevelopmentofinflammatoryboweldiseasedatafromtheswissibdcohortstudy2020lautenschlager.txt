@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinfluenceofbreastfeedingcesareansectionpetanimalsandurbanizationonthedevelopmentofinflammatoryboweldiseasedatafromtheswissibdcohortstudy2020lautenschlager
+"INTRODUCTION: The pathophysiology of inflammatory bowel disease (IBD) is incompletely understood. Current concepts imply that environmental factors (EFs) trigger disease onset as well as flares in genetically susceptible individuals.;OBJECTIVE: The objective of this study is to analyze the association between IBD and various EFs, which may influence the pathogenesis of the disease.;METHODS: 2,294 patients from the Swiss IBD Cohort Study (SIBDCS) received a questionnaire regarding EF including mode of delivery, breastfeeding, animals in household, and place of residence. The control group comprised patients' childhood friends, who grew up in a similar environment ("friends cohort").;RESULTS: A total of 1,111 questionnaires were returned from SIBDCS patients (response rate: 48.4%). Breastfeeding for <6 months was associated with a decreased risk for ulcerative colitis/indeterminate colitis (UC/IC) (OR: 0.473, p = 0.006). IBD patients reported less pet animals in the household than the control group (p = 0.004). The presence of cats or dogs (OR: 0.688, p = 0.015) and pet rodents (OR: 0.598, p = 0.001) in the household before the age of 20 was inversely associated with the risk for UC/IC.;CONCLUSION: The present study underlines the importance of EFs in the pathogenesis of IBD. Overall, the development of UC/IC seems to be more affected from environmental influences than from Crohn's disease. Our results imply a protective effect of possessing pet animals in household and short breastfeeding regarding the onset of UC/IC. Copyright (c) 2020 by S. Karger AG, Basel."""
+
+

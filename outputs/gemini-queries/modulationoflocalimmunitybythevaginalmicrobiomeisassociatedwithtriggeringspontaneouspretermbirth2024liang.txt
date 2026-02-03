@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modulationoflocalimmunitybythevaginalmicrobiomeisassociatedwithtriggeringspontaneouspretermbirth2024liang
+"Objective: This study aimed to identify immune states associated with a high risk of preterm birth by immunophenotyping in pregnant populations, and to elucidate the characteristics of immune subtypes and their relationships with preterm birth. Additionally, it sought to uncover the microbial composition and functional characteristics of immune states linked to preterm birth, and to evaluate the impact of bacterial interactions on the initiation of preterm birth. Methods: Utilizing 16S rRNA sequencing data and local immune factor expression data from a publicly available longitudinal pregnancy cohort, we conducted immunophenotyping through unsupervised clustering of the immune factors. We compared the differences in vaginal microbiota richness, diversity, and composition between identified immune subtypes using a and b diversity analysis. Signature microbiotas were identified using LEfSe analysis, and functional pathway enrichment variations were analyzed using PICRUSt2. Bidirectional mediation analysis was employed to construct a network of mediating roles, and preliminary in vitro validation of the Microbial-Cytokine-Preterm Birth pathway was performed to explore the effects of microbial and immune characteristics on vaginal epithelial cell function. Results: Pregnant women were categorized into three immune subtypes based on local immune status. Microbial functional analysis identified 31 distinct functional pathways, six of which were downregulated in the preterm birth and excessive inflammatory response group. Significant differences in vaginal microbial diversity and composition were observed among pregnant women with different immune subtypes. Bidirectional mediation analysis revealed multiple intermediary roles in preterm birth, highlighting C3b/iC3b and IL-8 in mid-pregnancy and IgE and IgM in late pregnancy. Conclusion: This study classified pregnant women into three immune subtypes, with the excessive inflammatory response subtype showing a higher predisposition to preterm birth. Mid-pregnancy immune status emerged as a key indicator of preterm birth risk, associated with the vaginal microbiome composition. Microorganisms affected the occurrence of preterm birth by modulating immune factor levels, with time-specific mediation roles observed. Lactobacillus crispatus demonstrated potential in protecting against preterm birth by modulating vaginal immune status. (c) (c) 2024 Liang, Zhao, Wen, Sheng, Wei, Hu, Dai, Zhao, Yang, Wang and Zhang."""
+
+

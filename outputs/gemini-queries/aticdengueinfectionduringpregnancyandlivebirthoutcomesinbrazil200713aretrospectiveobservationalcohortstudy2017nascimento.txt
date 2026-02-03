@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: symptomaticdengueinfectionduringpregnancyandlivebirthoutcomesinbrazil200713aretrospectiveobservationalcohortstudy2017nascimento
+"Background Dengue is a major public health challenge in Brazil. We assessed the relationship between symptomatic dengue infection during pregnancy and adverse birth outcomes in the country between 2007 and 2013. Methods We did a retrospective observational cohort study using information reported in the Brazilian national reportable disease information system (SINAN) and the livebirth information system (SINASC) databases. We probabilistically linked confirmed dengue-positive and dengue-negative pregnancies with live childbirths using Fine-Grained Record Integration and Linkage (FRIL) software. We also included an external reference population of randomly selected newborn babies. Pregnancy was adopted as the unit of analysis. We assessed the relationship between symptomatic dengue infection during pregnancy and adverse birth outcomes, using multivariable logistic regression adjusted for relevant covariates. Findings 3898 dengue-positive pregnant women, 3165 dengue-negative women, and 3898 newborn babies from the reference population were included in the analysis. Preterm birth occurred in 322 (8*4%) of 3821 cases in the dengue-positive group versus 324 (10*4%) of 3101 in the dengue-negative group (unadjusted analysis: relative risk [RR] 0*81, 95% CI 0*70-0*93; adjusted analysis: odds ratio [OR] 1*26, 95% CI 1*06-1*49, p=0*006) and 349 (9*1%) of 3818 in the reference population (RR 0*92, 0*80-1*07; OR 0*98, 0*83-1*16, p=0*84). The prevalence of low birthweight (<2500 g) was similar for dengue-positive women and dengue-negative women (8*3% [322 of 3897] vs 9*8% [310 of 3163]; OR 1*17, 95% CI 0*99-1*39, p=0*07), and in the reference population (8*3% vs 9*0% [350 of 3895]; OR 1*00, 0*85-1*17, p=0*97). The prevalence of malformations did not differ significantly for the dengue-positive group (27 [0*7%] of 3789) versus the dengue-negative group (27 [0*9%] of 3059, p=0*51) or versus the reference population (32 [0*9%] of 3738, p=0*56). Interpretation In the adjusted analysis, the risk of preterm birth seems to be increased in women with symptomatic dengue infection during pregnancy. However, symptomatic dengue infection during pregnancy does not appear to be associated with congenital malformations or low birthweight. Funding Sanofi Pasteur. (c) 2017 Elsevier Ltd"""
+
+

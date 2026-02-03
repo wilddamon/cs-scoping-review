@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: airpollutantexposurewithinafewdaysofdeliveryandplacentalabruptioninjapan2017michikawa
+"BACKGROUND: Placental abruption is an emergency obstetric complication. Although the etiology of abruption is not fully understood, acute stimuli, such as ischemia and/or inflammation, are associated with rupture of the decidual artery, resulting in placental separation. Ischemia and inflammation are acute biologic effects of air pollution. Using a case-crossover design, we tested the hypothesis that a short-term increase in exposure to air pollutants is a potential trigger of placental abruption. METHODS: We received data for western Japan (Kyushu-Okinawa Districts) from the Japan Perinatal Registry Network database. From 2005 to 2010, 821 singleton pregnant women with placental abruption were identified. We assigned daily concentrations of air pollutants, including nitrogen dioxide (NO2), suspended particulate matter, ozone, and sulfur dioxide (SO2), from the nearest monitoring station to the respective delivery hospital of each woman. Because information on the onset day of abruption was not obtained, we assumed the case day to be 1 day before the day of delivery. RESULTS: Exposure to NO2 at 2 days' lag was associated with placental abruption (temperature adjusted odds ratio per 10 ppb increase = 1.4; 95% confidence interval = 1.1, 1.8). The association patterns were similar, when we restricted to participants who delivered by emergency cesarean (1.4, 1.1, 1.9), or who delivered after 35 weeks of gestation (1.4, 1.0, 2.0). There was no association with suspended particulate matter, ozone, or SO2. CONCLUSIONS: We observed an association between NO2 exposure at 2 days before the day of delivery and placental abruption in pregnant Japanese women."""
+
+

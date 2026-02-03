@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningalgorithmscombiningslopedecelerationandfetalheartratefeaturestopredictacidemia2023estebanescano
+"Electronic fetal monitoring (EFM) is widely used in intrapartum care as the standard method for monitoring fetal well-being. Our objective was to employ machine learning algorithms to predict acidemia by analyzing specific features extracted from the fetal heart signal within a 30 min window, with a focus on the last deceleration occurring closest to delivery. To achieve this, we conducted a case-control study involving 502 infants born at Miguel Servet University Hospital in Spain, maintaining a 1:1 ratio between cases and controls. Neonatal acidemia was defined as a pH level below 7.10 in the umbilical arterial blood. We constructed logistic regression, classification trees, random forest, and neural network models by combining EFM features to predict acidemia. Model validation included assessments of discrimination, calibration, and clinical utility. Our findings revealed that the random forest model achieved the highest area under the receiver characteristic curve (AUC) of 0.971, but logistic regression had the best specificity, 0.879, for a sensitivity of 0.95. In terms of clinical utility, implementing a cutoff point of 31% in the logistic regression model would prevent unnecessary cesarean sections in 51% of cases while missing only 5% of acidotic cases. By combining the extracted variables from EFM recordings, we provide a practical tool to assist in avoiding unnecessary cesarean sections. (c) 2023 by the authors."""
+
+

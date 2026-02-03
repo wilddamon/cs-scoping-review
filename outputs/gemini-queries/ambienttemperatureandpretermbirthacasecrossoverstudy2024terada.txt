@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ambienttemperatureandpretermbirthacasecrossoverstudy2024terada
+"Objective: To investigate the association between ambient temperature and preterm birth (PTB) and to estimate the population attributable fraction (PAF) of PTBs due to low and high temperatures. Design: Time-stratified case-crossover design. Setting: Japan (46 prefectures, excluding Okinawa), 2011-2020. Sample: 214 050 PTBs registered in the Japan Perinatal Registry Network database among 1 908 168 singleton live births. Methods: A quasi-Poisson regression model with a distributed lag nonlinear model was employed to assess the associations between daily mean temperature and PTBs for a lag of 0-27 days in each prefecture. A random effects meta-analysis was conducted by combining effect estimates from the 46 prefectures to estimate pooled relative risks (RRs). The PAFs of the PTBs due to below or above the mean of the 46 median temperatures (16.0degC) were calculated. Main outcome measures: Preterm singleton live births. Results: The association between daily mean temperature and PTB risk exhibited a U-shaped curve. The adjusted RRs were 1.15 (95% confidence interval [CI] 1.05-1.25) at the mean of the 1st percentiles (0.8degC) and 1.08 (95% CI 1.00-1.17) at the mean of the 99th percentiles (30.2degC) of 46 prefectures, with 16.0degC as the reference temperature. Approximately 2.3% (95% CI 0.6-4.0) of PTBs were attributable to low temperatures. Conclusions: Both low and possibly high temperatures were associated with an increased risk of PTBs. These findings may help to inform preventive measures for pregnant women. (c) 2023 John Wiley & Sons Ltd."""
+
+

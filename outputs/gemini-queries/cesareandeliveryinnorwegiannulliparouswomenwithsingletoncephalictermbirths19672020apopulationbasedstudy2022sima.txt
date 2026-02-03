@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryinnorwegiannulliparouswomenwithsingletoncephalictermbirths19672020apopulationbasedstudy2022sima
+"BACKGROUND: Nulliparous women contribute to increasing cesarean delivery in the Nordic countries and advanced maternal age has been suggested as responsible for rise in cesarean delivery rates in many developed countries. The aim was to describe changes in cesarean delivery rates among nulliparous women with singleton, cephalic, term births by change in sociodemographic factors across 50 years in Norway. METHODS: We used data from the Medical Birth Registry of Norway and included 1 067 356 women delivering their first, singleton, cephalic, term birth between 1967 and 2020. Cesarean delivery was described by maternal age (5-year groups), onset of labor (spontaneous, induced and pre-labor CD), and time periods: 1967-1982, 1983-1998 and 1999-2020. We combined women's age, onset of labor and time period into a compound variable, using women of 20-24 years, with spontaneous labor onset during 1967-1982 as reference. Multivariable regression models were used to estimate adjusted relative risk (ARR) of cesarean delivery with 95% confidence interval (CI). RESULTS: Overall cesarean delivery increased both in women with and without spontaneous onset of labor, with a slight decline in recent years. The increase was mainly found among women < 35 years while it was stable or decreased in women > = 35 years. In women with spontaneous onset of labor, the ARR of CD in women > = 40 years decreased from 14.2 (95% CI 12.4-16.3) in 1967-82 to 6.7 (95% CI 6.2-7.4) in 1999-2020 and from 7.0 (95% CI 6.4-7.8) to 5.0 (95% CI 4.7-5.2) in women aged 35-39 years, compared to the reference population. Despite the rise in induced onset of labor over time, the ARR of CD declined in induced women > = 40 years from 17.6 (95% CI 14.4-21.4) to 13.4 (95% CI 12.5-14.3) while it was stable in women 35-39 years. CONCLUSION: Despite growing number of Norwegian women having their first birth at a higher age, the increase in cesarean delivery was found among women < 35 years, while it was stable or decreased in older women. The increase in cesarean delivery cannot be solely explained by the shift to an older population of first-time mothers."""
+
+

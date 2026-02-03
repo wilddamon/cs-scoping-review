@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: type1diabetesmellitusandthromboembolisminpregnancy2025thomas
+"The impact of type 1 DM (T1DM) on thromboembolism in pregnancy is uncertain. We hypothesized that T1DM is associated with higher rates of thrombotic events during pregnancy and the postpartum period.This is a retrospective cohort study utilizing the National Inpatient Sample database from HCUP/AHRQ for 2017-2019. Pregnant and postpartum patients with a history of T1DM were compared to those without. The primary outcome was a composite diagnosis of any thrombotic disease (pulmonary embolism [PE], deep vein thrombosis [DVT], cerebral vascular thrombosis [CVT], or other thromboses). Secondary outcomes were the diagnosis of each individual type of thromboembolic event. Groups were compared via student's test, chi-squared, and logistic regression analyses, controlling for confounders including age, race, obesity, tobacco use, cHTN, asthma, anemia, and cesarean section.A total of 2,361,711 subjects met the criteria. Patients with T1DM encompassed 0.4% of subjects (n = 9,983). T1DM subjects were more likely to be younger, non-Hispanic white, obese, tobacco users, chronic hypertensive, asthmatic, and have a history of cesarean (all p < 0.001). They were less likely to be in the top income quartile. Thromboembolic events occurred more frequently in those with T1DM (0.45% vs. 0.20%, p < 0.001). DVT was the most common event (0.25%). After controlling for confounders, T1DM remained independently associated with any thromboembolic event in pregnancy (adjusted odds ratio [aOR] = 2.19, 95% confidence interval [CI]: 1.49-3.23), PE (aOR = 3.59, 95% CI: 1.65-7.82), and DVT (aOR = 2.43, 95% CI: 1.43-4.14).T1DM is associated with an increased risk of thromboembolic events in pregnancy. * T1DM is independently associated with VTE.. * PE and DVT are the most common events.. * T1DM has an impact on VTE similar to obesity.."""
+
+

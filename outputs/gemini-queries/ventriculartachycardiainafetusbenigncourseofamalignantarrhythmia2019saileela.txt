@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ventriculartachycardiainafetusbenigncourseofamalignantarrhythmia2019saileela
+"Background: Fetal arrhythmias constitute 10 to 20% of the total referrals to fetal cardiology unit. Ventricular tachycardia (VT) is a rare form of fetal tachyarrhythmia. Material(s) and Method(s): This report describes the clinical presentation, diagnostic features, and successful management of VT in a fetus at 32 weeks of gestation. Transplacental therapy with sotalol resulted in the termination of tachyarrhythmia in 48 h, followed by good postnatal outcome. Conclusion(s): Fetal m-mode showing ventricular rate higher than atrial rate with atrio-ventricular dissociation is suggestive of VT. Early diagnosis and institution of transplacental therapy prior to development of hydrops seem to carry a good prognosis even in malignant fetal arrhythmias like VT.Copyright (c) 2018, Federation of Obstetric & Gynecological Societies of India."""
+
+

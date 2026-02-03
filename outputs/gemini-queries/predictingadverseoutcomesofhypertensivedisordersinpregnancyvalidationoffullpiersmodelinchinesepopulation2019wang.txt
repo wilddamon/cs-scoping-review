@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingadverseoutcomesofhypertensivedisordersinpregnancyvalidationoffullpiersmodelinchinesepopulation2019wang
+"Purpose of Investigation: The fullPIERS model is an effective tool to predict the adverse outcomes of pre-eclampsia. This study aimed to validate the effectiveness of fullPIERS model, and discover the variables that may be useful to predict the adverse outcomes of hypertensive disorders in pregnancy (HDPs) in Chinese population. Material(s) and Method(s): The authors retrospectively collected the data of 1,430 HDPs patients within 48 hours of adverse outcomes in two tertiary hospitals in China. Calculated the risk probability value of every patient using fullPIERS model and validated the predictive efficiency by area under curve of operating characteristic curve (AUC ROC). To assess the factors particularly useful to predict adverse outcomes of HDPs for Chinese population, the authors conducted the independent sample t-test and multivariate regression analysis to the following factors: age, platelet count, gestational age, creatinine, AST, total bilirubin, direct bilirubin, indirect bilirubin, hemoglobin, albumin, globulin, ALT, alkaline phosphatase, lactic dehydrogenase, urea, and uric acid. Result(s): The AUC ROC was 0.768 calculated by fullPIERS model within 48 hours of adverse outcomes, and the cut-off probability value was 0.045. In patients with a probability value >= 0.045, 53.53% experienced adverse outcomes, and the false positive rate was 10.70%. Lactic dehydrogenase was a promising variable for predicting the risk of adverse outcome of HDPs. The AUC ROC calculated based on lactic dehydrogenase alone was 0.615 with a cut-off value of 243.5 U/L. Conclusion(s): The fullPIERS model was effective for Chinese population to predict adverse outcomes in pregnant women complicating HDPs. Lactic dehydrogenase was a promising variable to predict the adverse outcomes of HDPs.Copyright (c) 2019 S.O.G. CANADA Inc.. All rights reserved."""
+
+

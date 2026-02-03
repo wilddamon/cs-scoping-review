@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: twinpregnancywiththefirsttwininbreechpresentationsurvivalandneurodevelopmentaloutcomeofpreterminfantsatacorrectedageof2years2026dhonneur
+"OBJECTIVES: To compare survival and neurodevelopmental outcomes at 2 years' corrected age for preterm twins (<=33(+0) weeks) with the first twin in breech presentation, according to planned mode of delivery (planned vaginal delivery [PVD] vs planned caesarean delivery [PCD]). Secondary objectives were survival at discharge, survival without morbidity at discharge, neonatal outcomes, and maternal morbidity. METHODS: We conducted a retrospective cohort study of women with preterm breech first twins born after preterm labour (<=33(+0) weeks) at Nantes University Hospital (2008-2019). A propensity score estimated each mother's risk of caesarean. Outcomes (survival at discharge, survival at discharge without morbidity, and survival with normal neurodevelopment at 2 years) were adjusted for gestational age, sex, and propensity score. Sensitivity analyses included multiple imputation for missing data and exclusion of births < 26(+0) weeks. RESULTS: Among 413 preterm twin deliveries, 61 women were included: 15 in the PVD group (30 newborns) and 46 in the PCD group (92 newborns). After adjustment for propensity score and gestational age, no significant differences were observed in survival at discharge (aOR 1.9, 95 % CI 0.28-12.7, P = 0.51) or survival without morbidity (aOR 0.3, 95 % CI 0.06-2.21, P = 0.27). Survival with normal neurodevelopment at 2 years trended lower with PVD (aOR 0.3, 95 % CI 0.07-1.22, P = 0.09). Maternal morbidity was higher in the PCD group. CONCLUSION: Planned mode of delivery did not significantly influence survival in preterm breech-first twins, but confidence intervals were wide. A trend toward poorer neurodevelopment at 2 years was observed after planned vaginal delivery, whereas maternal morbidity was higher after planned caesarean delivery. These findings support individualized decision-making, balancing neonatal and maternal risks."""
+
+

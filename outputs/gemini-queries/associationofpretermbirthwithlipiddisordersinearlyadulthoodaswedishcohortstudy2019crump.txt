@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofpretermbirthwithlipiddisordersinearlyadulthoodaswedishcohortstudy2019crump
+"Background: Preterm birth has previously been linked with cardiovascular disease (CVD) in adulthood. However, associations with lipid disorders (e.g., high cholesterol or triglycerides), which are major risk factors for CVD, have seldom been examined and are conflicting. Clinicians will increasingly encounter adult survivors of preterm birth and will need to understand the longterm health sequelae. We conducted the first large population-based study to determine whether preterm birth is associated with an increased risk of lipid disorders. Methods and findings: A retrospective national cohort study was conducted of all 2,235,012 persons born as singletons in Sweden during 1973 to 1995 (48.6% women), who were followed up for lipid disorders identified from nationwide inpatient, outpatient, and pharmacy data through 2016 (maximum age 44 years). Cox regression was used to adjust for other perinatal and maternal factors, and co-sibling analyses assessed the potential influence of unmeasured shared familial (genetic and/or environmental) factors. A total of 25,050 (1.1%) persons were identified with lipid disorders in 30.3 million person-years of follow-up. Each additional 5 weeks of gestation were associated with a 14% reduction in risk of lipid disorders (adjusted hazard ratio [HR], 0.86; 95% CI, 0.83-0.89; P < 0.001). Relative to full-term birth (gestational age 39-41 weeks), the adjusted HR associated with preterm birth (<37 weeks) was 1.23 (95% CI, 1.16-1.29; P < 0.001), and further stratified was 2.00 (1.41-2.85; P < 0.001) for extremely preterm (22-27 weeks), 1.33 (1.19-1.49; P < 0.001) for very preterm (28-33 weeks), and 1.19 (1.12-1.26; P < 0.001) for late preterm (34-36 weeks). These findings were similar in men and women (e.g., preterm versus full-term, men: HR, 1.22; 95% CI, 1.14-1.31; P < 0.001; women: HR, 1.23; 1.12-1.32; P < 0.001). Co-sibling analyses suggested that they were substantially though not completely explained by shared genetic or environmental factors in families. The main study limitation was the unavailability of laboratory data to assess specific types or severity of lipid disorders. Conclusions: In this large national cohort, preterm birth was associated with an increased risk of lipid disorders in early- to midadulthood. Persons born prematurely may need early preventive evaluation and long-term monitoring for lipid disorders to reduce their future cardiovascular risks. (c) (c) 2019 Crump et al."""
+
+

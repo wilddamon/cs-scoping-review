@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: beyondthecoxmodelacomparativeparametricsurvivalmodellingoftimetofirstbirthamongmarriedwomen2025parveen
+"Background: Data on time-to-first birth typically involves censoring, as not all individuals in the survey experience their first birth by the survey date. Traditional analyses often rely on the semi-parametric Cox proportional hazards model; however, violations of the proportional hazards (PH) assumption necessitate more flexible modelling approaches. Objective(s): This study aimed to compare the performance of multiple parametric survival models against the Cox model in estimating time-to-first birth among currently married women in Bangladesh and to identify key predictors of time-to-first birth. Method(s): Data were drawn from the 2022 Bangladesh Demographic and Health Survey (BDHS), encompassing 17, 146 currently married women aged 15-49 years. Survival analyses were conducted using the Kaplan-Meier estimator, log-rank tests, Cox regression, and five parametric models: Exponential, Weibull, Log-normal, Gompertz, and Generalised Gamma. Model fit was assessed using AIC and BIC, and log-likelihood statistics. Result(s): The mean time-to-first birth after marriage was 40.12 +/- 0.50 months, with a median of 26 months, indicating a right-skewed distribution caused by some women experiencing notably delayed first births. The Cox model failed PH assumption tests, highlighting its inadequacy. Among parametric models, the Generalized Gamma model provided the best fit, effectively capturing complex hazard structures. Key predictors of the time-to-first birth included age at first marriage, women's and husbands' education, contraceptive use, administrative division, living arrangement with spouse, and media exposure. Conclusion(s): This study underscores the importance of using flexible parametric models-such as the Generalised Gamma model-when dealing with time-to-event data where the proportional hazards assumption is violated. This approach provides more reliable effect estimates and improves the interpretability of covariate influences on fertility timing. Findings underscore the importance of the identified predictors in designing reproductive health policies and interventions aimed at delaying early childbearing.Copyright (c) 2025 Parveen et al. This is an open-access article licensed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the work is properly cited."""
+
+

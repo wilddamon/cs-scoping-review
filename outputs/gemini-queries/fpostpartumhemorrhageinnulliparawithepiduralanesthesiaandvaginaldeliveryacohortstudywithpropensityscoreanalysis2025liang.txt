@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prolongedsecondstageoflaborandriskofpostpartumhemorrhageinnulliparawithepiduralanesthesiaandvaginaldeliveryacohortstudywithpropensityscoreanalysis2025liang
+"OBJECTIVE: To conduct an analysis using propensity score methods, exploring the association between a prolonged second stage (>3 h) and the risk of postpartum hemorrhage (PPH) in a diverse population. METHODS: We conducted a prospective cohort study involving nullipara with epidural anesthesia and vaginal delivery, aged >=18 years, presenting cephalically, and with a gestational age (GA) of >=24 weeks at a tertiary maternity hospital in China (chictr.org.cn identifier: ChiCTR2200063094). Women undergoing emergency cesarean section in labor were excluded. The primary outcome was PPH, with secondary outcomes including severe postpartum hemorrhage and blood transfusion. We employed propensity score overlap weighting to analyze the association between prolonged second stage labor and PPH. RESULTS: The study included 3643 nullipara with epidural anesthesia, comprising 77 with a second stage of labor >3 h and 3566 with a second stage <=3 h. Utilizing propensity score overlap weighting, there were no significant differences observed between the two groups regarding the risk of PPH (29.87% in >3 h group vs 17.64% in <=3 h group; weighted odds ratio 1.01; 95% CI: 0.51-2.02). Subgroup interaction tests for PPH were not significant for assisted vaginal delivery, induction of labor, macrosomia, third-/fourth-degree perineal laceration, GA >41 weeks, twin pregnancies, episiotomy and GA >37 weeks. Sensitivity analysis did not reveal significant differences. CONCLUSION: This study did not find evidence supporting an increased risk of PPH associated with a second stage of labor lasting >3 h in our population, providing additional evidence for clinical practice."""
+
+

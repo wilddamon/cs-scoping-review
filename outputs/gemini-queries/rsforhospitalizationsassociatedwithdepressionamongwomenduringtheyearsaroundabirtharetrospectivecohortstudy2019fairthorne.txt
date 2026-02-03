@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforhospitalizationsassociatedwithdepressionamongwomenduringtheyearsaroundabirtharetrospectivecohortstudy2019fairthorne
+"Introduction Socio-economic status (SES) is an important determinant of health. Low SES is associated with higher rates of prenatal and post-partum depression, and prenatal and post-partum depression are associated with sub-optimal maternal and infant health. Furthermore, increased negative effects of post-partum depression have been reported in children from low SES backgrounds. Objective To assess whether SES was related to the risk of a medical or psychiatric hospitalization associated with depression (HAWD) and the risk of a HAWD by anti-depressant (AD) use during the years around a birth. Methods This retrospective cohort study used linked birth, hospitalization, prescription and tax-file records of the study cohort. We linked registry data of 243,933 women delivering 348,273 live infants in British Columbia (1999-2009). The outcomes of interest were a HAWD and a HAWD with the associated patient AD use. Ranked area-based measures of equivalised, family disposable income were used to create income deciles, our proxy for SES. Decile-1 represented the lowest income areas, and mothers from Decile-6 (middle-income) were the comparator group. Anti-depressant use was defined as having a prescription for a selective serotonin reuptake inhibitor (SSRI) or other AD during the years around a birth, defined as the period beginning 12 months before conception and ending 12 months after the birth. We analysed by pregnancy using mixed effects logistic regression whilst adjusting for maternal age and parity. Results Compared to mothers from middle-income areas (Decile-6), mothers from low income areas (Decile-1, Decile-2) had increased odds of a HAWD [adjusted OR=1.77 (CI: 1.43, 2.19); adjusted OR=1.56 (CI: 1.26, 1.94)]. Mothers from low income areas with depression and no AD use had even higher odds of a HAWD [adjusted OR=1.83 (CI: 1.33, 2.20); adjusted OR=1.71(CI: 1.33, 2.20)]. Conclusions This study provides preliminary evidence to suggest that barriers to treating depression with ADs in mothers from low income areas during the years around a birth might contribute to their increased risk of a HAWD associated with non-pharmacologically treated depression. Further research is needed to understand the reasons for this increased risk. (c) The Authors."""
+
+

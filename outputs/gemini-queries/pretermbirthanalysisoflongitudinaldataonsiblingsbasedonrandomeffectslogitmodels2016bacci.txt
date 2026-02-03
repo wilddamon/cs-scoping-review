@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pretermbirthanalysisoflongitudinaldataonsiblingsbasedonrandomeffectslogitmodels2016bacci
+"Introduction: The literature about the determinants of a preterm birth is still controversial. We approach the analysis of these determinants distinguishing between woman's observable characteristics, which may change over time, and unobservable woman's characteristics, which are time invariant and explain the dependence between the typology (normal or preterm) of consecutive births. Methods: We rely on a longitudinal dataset about 28,603 women who delivered for the first time in the period 2005-2013 in the Umbria Region (Italy). We consider singleton physiological pregnancies originating from natural conceptions with birthweight of at least 500 g and gestational age between 24 and 42 weeks; the overall number of deliveries is 34,224. The dataset is based on the Standard Certificates of Life Birth collected in the region in the same period. We estimate two types of logit model for the event that the birth is preterm. The first model is pooled and accounts for the information about possible previous preterm deliveries, including the lagged response among the covariates. The second model takes explicitly into account the longitudinal structure of data through the introduction of a random effect that summarizes all the (time invariant) unobservable characteristics of a woman affecting the probability of a preterm birth. Results: The estimated models provide evidence that the probability of a preterm birth depends on certain woman's demographic and socioeconomic characteristics, other than on the previous history in terms of miscarriages and the baby's gender. Besides, as the random-effects model fits significantly better than the pooled model with lagged response, we conclude for a spurious state dependence between repeated preterm deliveries. Conclusion: The proposed analysis represents a useful tool to detect profiles of women with a high risk of preterm delivery. Such profiles are detected taking into account observable woman's demographic and socioeconomic characteristics as well as unobservable and time-constant characteristics, possibly related to the woman's genetic makeup. (c) 2016 Bacci, Bartolucci, Minelli and Chiavarini."""
+
+

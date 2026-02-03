@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: delayedumbilicalcordclampingincesareansectionreducespostpartumbleedingandtherateofsevereasphyxia2017sun
+"Purpose of investigation: To explore the effect of delayed umbilical cord clamping in cesarean section on outcomes of mothers and newborns. Material(s) and Method(s): A total of 338 pregnant women under cesarean section were randomly divided into two groups: study group with delayed umbilical cord clamping after pulsation loss, and control group with early clamping within 60 seconds after birth. Result(s): There were no significant differences in hemoglobin and hematocrit in newborn cord blood, the highest bilirubin after birth, Apgar scores at one and five minutes after birth, and in the occurrence of neonatal hyperbilirubinemia or application of phototherapy. There were significant differences in placental residual blood, the amount of postpartum bleeding, hemoglobin and hematocrit in newborn heel blood, and the rate of neonatal resuscitation after ten minutes in both groups. Conclusion(s): Umbilical cord clamping should be employed after pulsation loss to avoid adverse effect of early clamping.Copyright (c) 2017, S.O.G. Canada Inc. All rights reserved."""
+
+

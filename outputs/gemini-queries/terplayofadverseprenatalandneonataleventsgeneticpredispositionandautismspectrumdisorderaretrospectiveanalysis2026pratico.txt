@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thecomplexinterplayofadverseprenatalandneonataleventsgeneticpredispositionandautismspectrumdisorderaretrospectiveanalysis2026pratico
+"BACKGROUND: To evaluate the interplay of genetic predispositions and prenatal, perinatal, and postnatal risk factors in children with Level 3 Autism Spectrum Disorder (ASD). METHODS: This retrospective study included 77 children with Level 3-ASD from a Sicilian pediatric cohort. We systematically reviewed medical records to assess prenatal, perinatal, and postnatal risk factors, alongside genetic findings. Genetic testing included chromosomal microarray and next-generation sequencing for the identification of pathogenic or likely pathogenic variants. Statistical analyses were performed to evaluate the correlation between cumulative risk factors and positive genetic findings, focusing on the role of chromosomal copy number variations (CNVs) and point mutations. RESULTS: Of the 77 children included, 54.5% showed a positive genetic finding, including CNVs or pathogenic single-gene variants. All patients had at least one prenatal risk factor, while postnatal complications were present in 48.1%. CNV carriers exhibited a significantly higher burden of both prenatal (mean = 6.70) and neonatal (mean = 2.40) risk factors compared to other groups (P < 0.001). Genetically positive patients had a significantly higher cumulative risk factor load than genetically negative ones (P = 0.0006). Low birth weight, hyperbilirubinemia, and early neurological comorbidities were significantly associated with genetic findings (odds ratio = 10.0, 7.1, and 12.0, respectively). No single risk factor significantly differentiated CNV from single-gene cases. LASSO regression identified neurological comorbidities, hyperbilirubinemia, cesarean delivery, and hypoglycemia as independent predictors of genetic positivity. Overall, genetic predisposition correlated with increased perinatal and neonatal complications. CONCLUSIONS: This study highlights the multifactorial nature of ASD and supports integrating genetic and environmental assessments into early diagnostic strategies. Early genetic screening and targeted interventions in infants with multiple risk factors may aid in reducing ASD risk and improving outcomes."""
+
+

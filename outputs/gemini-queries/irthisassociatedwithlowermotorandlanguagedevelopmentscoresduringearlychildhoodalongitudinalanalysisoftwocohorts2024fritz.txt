@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareanbirthisassociatedwithlowermotorandlanguagedevelopmentscoresduringearlychildhoodalongitudinalanalysisoftwocohorts2024fritz
+"With global C-section rates rising, understanding potential consequences is imperative. Previous studies suggested links between birth mode and psychological outcomes. This study evaluates the association of birth mode and neurodevelopment in young children across two prospective cohorts, using repeated psychometric assessments. Data from the ELEMENT (Early Life Exposures in Mexico to Environmental Toxicants) and PROGRESS (Programming Research in Obesity, Growth, and Environment and Social Stress) cohorts, comprising 7158 and 2202 observations of 1402 children aged 2 to 36 months, and 726 children aged 5 to 27 months, respectively, were analyzed. Exclusion criteria for the cohorts were maternal diseases such as preeclampsia, renal or heart disease, gestational diabetes, and epilepsy. Neurodevelopment was gauged via Bayley's Scales of Infant Development: 2nd edition for ELEMENT and 3rd edition for PROGRESS. Mixed-effects models longitudinally estimated associations between birth mode and neurodevelopment scores, adjusting for cofounders. In ELEMENT, psychomotor development composite scores were significantly affected by birth mode from ages 2 to 8 months; the largest estimate within this range was at 2 months (b =-1.93; 95% CI: [-3.64, -0.22], reference: vaginal delivery). For PROGRESS, a negative association was found with motor development composite scores over all the studied age range (b=-1.91; 95% CI: [-3.01, -0.81]). The association was stronger between ages 6 to 18 months, with the strongest estimate at 11 months (b=-2.58; 95% CI: [-4.37, -0.74]). A negative impact of C-section on language scores in girls was estimated for the PROGRESS cohort (b=-1.92; 95% CI: [-3.57, -0.27]), most marked in ages 22 to 25 months (largest b at 24.5 months=-3.04; 95% CI: [-5.79, -0.30]). Children born by C-section showed lower motor and language development scores during specific age windows in the first three years of life. Further research is necessary to understand the complexities and implications of these findings."""
+
+

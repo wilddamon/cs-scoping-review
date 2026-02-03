@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenantimicrobialprophylaxiswithdoubledosecefuroximeandsurgicalsiteinfectionsinpatientsweighing80kgormore2021sommerstein
+"Importance: Many guidelines recommend a weight-adopted dose increase of cefuroxime for surgical antimicrobial prophylaxis (SAP). However, the evidence that this approach is associated with lower rates of surgical site infection (SSI) is limited. Objective: To assess whether double-dose cefuroxime SAP was associated with a decreased SSI rate in patients weighing at least 80 kg. Design, Setting, and Participants: This cohort study included adult patients (>18 years) weighing at least 80 kg who underwent 9 major surgical procedures with a cefuroxime SAP administration from the Swissnoso SSI surveillance system between January 2015 and December 2019 at 142 Swiss hospitals. The follow-up was 30 days for all surgical procedures and 1 year for implant-related operations. Exposures: Cefuroxime SAP dose (1.5 vs 3.0 g). Main Outcomes and Measures: Overall SSI. A mixed-effects logistic regression adjusted for institutional, epidemiological, and perioperative variables was applied. Results were stratified by weight categories as well as by wound contamination classes. Results: Of 41076 eligible patients, 37640 were included, with 22625 (60.1%) men and a median (IQR) age of 61.9 (49.9-71.1) years. The outcome SSI was met by 1203 patients (3.2%). Double-dose cefuroxime was administered to 13246 patients (35.2%) and was not significantly associated with a lower SSI rate (adjusted odds ratio [aOR], 0.89; 95% CI, 0.78-1.02; P =.10). After stratification by weight category, double-dose SAP vs single-dose SAP was associated with lower SSI rates among 16605 patients weighing at least 80 to less than 90 kg (aOR, 0.76; 95% CI, 0.61-0.97; P =.02) but not in the other weight categories (>=90 to <100 kg, 10342 patients: aOR, 1.12; 95% CI, 0.87-1.47; P =.37; >=100 to <120 kg, 8099 patients: aOR, 0.99; 95% CI, 0.76-1.30; P =.96; >=120 kg, 2594 patients: aOR, 0.65; 95% CI, 0.42-1.04; P =.06). After stratification by contamination class, double-dose SAP was associated with lower SSI rates among 1946 patients with contaminated wounds (aOR, 0.49; 95% CI, 0.30-0.84; P =.008) but not those with clean wounds (25680 patients; aOR, 0.92; 95% CI, 0.76-1.12; P =.44) or clean-contaminated wounds (10014 patients; aOR, 0.90; 95% CI, 0.73-1.12; P =.37) compared with a single dose. Conclusions and Relevance: In this study, double-dose SAP with cefuroxime for patients weighing at least 80 kg was not consistently associated with a lower SSI rate.. (c) 2021 American Medical Association. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareanscarendometrialdefectscontributetopostcaesareanabnormaluterinebleedingandchronicendometritisaretrospectivecasecontrolstudy2025wang
+"OBJECTIVE: To explore the role of endometrial defects in the pathogenesis of abnormal uterine bleeding (AUB). DESIGN: Retrospective case-control study. SETTING: Two tertiary centres. POPULATION OR SAMPLE: We included 155 patients with caesarean scar defects (CSDs) who underwent hysteroscopy (69 AUB, 86 non-AUB). Thirty patients with AUB were successfully matched with 30 patients without AUB after propensity score matching (PSM) based on CSD size and number of previous caesarean sections, which indicate myometrial defect severity. METHODS: Hysteroscopic features of CSD before and after PSM were compared between two groups. Pathological features of 13 patients in each group with biopsies of the CSD surface and uterine endometrium were compared, including endometrial thickness determined by haematoxylin-eosin staining, vascular density identified by CD31 staining and chronic endometritis assessed by plasma cells stained with CD138. MAIN OUTCOME MEASURES: Incidence of hysteroscopic and pathological features of CSD. RESULTS: Before PSM, the AUB group exhibited larger diverticulum sizes and more severe myometrial CSD defects than the non-AUB group. After PSM, five features of endometrial defects demonstrated statistically significant differences: in situ haemorrhage, bloody mucus, epithelial deficiency, exposed blood vessels and hyperplastic vessels. Pathological assessments also revealed significant differences in endometrial thickness of CSD, local vascularization and plasma cell count at CSD between the AUB and non-AUB groups. CONCLUSIONS: Endometrial defects at caesarean scars contribute more to AUB than myometrial defects."""
+
+

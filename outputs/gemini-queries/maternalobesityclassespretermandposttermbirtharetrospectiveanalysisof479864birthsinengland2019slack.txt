@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalobesityclassespretermandposttermbirtharetrospectiveanalysisof479864birthsinengland2019slack
+"Background: Preterm (< 37 weeks gestation) and post-term birth (>=42 weeks gestation) are associated with increased morbidity and mortality for mother and infant. Obesity (body mass index (BMI) >=30 kg/m2) is increasing in women of reproductive age. Maternal obesity has been associated with adverse pregnancy outcomes including preterm and post-term birth. However, the effect sizes vary according to the subgroups of both maternal BMI and gestational age considered. The aim of this retrospective analysis was to determine the association between maternal obesity classes and gestational age at delivery. Methods: A secondary data analysis of 13 maternity units in England with information on 479,864 singleton live births between 1990 and 2007. BMI categories were: underweight (< 18.5 kg/m2), recommended weight (18.5-24.9 kg/m2), overweight (25.0-29.9 kg/m2) and obesity classes I (30.0-34.9 kg/m2), II (35.0-39.9 kg/m2), IIIa (40-49.9 kg/m2) and IIIb (>=50 kg/m2). Gestational age at delivery categories were: Gestational age at delivery (weeks): extreme preterm (20-27), very preterm (28-31), moderately preterm (32-36), early term (37, 38), full term (39-40), late term (41) and post-term (>=42). The adjusted odds of births in each gestational age category (compared to full-term birth), according to maternal BMI categories were estimated using multinomial logistic regression. Missing data were estimated using multiple imputation with chained equations. Results: There was a J-shaped association between the absolute risk of extreme, very and moderate preterm birth and BMI category, with the greatest effect size for extreme preterm. The absolute risk of post-term birth increased monotonically as BMI category increased. The largest effect sizes were observed for class IIIb obesity and extreme preterm birth (adjusted OR 2.80, 95% CI 1.31-5.98). Conclusion: Women with class IIIb obesity have the greatest risks for inadequate gestational age. Combining obesity classes does not accurately represent risks for many women as it overestimates the risk of all preterm and post-term categories for women with class I obesity, and underestimates the risk for women in all other obesity classes. (c) 2019 The Author(s)."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: atrialfibrillationimpactsinpatientmortalitylengthofstayresourceutilizationbloodtransfusionandendotrachealintubationincesareansectionsnaturalspontaneousdeliveriesandinstrumentaldeliveriesanationwideanalysis201620202024siochi
+"BACKGROUND: Atrial fibrillation (AF) is rare during pregnancy and current data on the impact of AF during delivery is scarce. In this study, we aim to analyze the impact of AF in patients who underwent delivery via cesarean section (CS), natural spontaneous delivery (NSD), or instrumental delivery (ID). METHODS: This study analyzed discharge data from the National Inpatient Sample (NIS) from 2016 to 2020. Using the International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM) and Procedure Coding System (ICD-10-PCS) codes, this study identified patients who underwent CS, NSD, or ID with a secondary diagnosis of AF. The study then compared these patients with patients who underwent CS, NSD, or ID without a secondary diagnosis of AF to analyze various outcomes. The primary outcome was all-cause in-hospital mortality. Secondary outcomes included length of stay, total hospital charges, blood transfusions, and respiratory failure requiring endotracheal intubation. STATA v.13 (StataCorp LLC, College Station, TX) was used for univariate and multivariate analysis. RESULTS: A total of 17,785,980 patients underwent CS, NSD, or ID. Of these deliveries, 6,000 patients had a secondary diagnosis of AF. Patients with AF had almost 20 times more of a chance of dying while admitted compared to those without AF (OR: 19.12; 95% CI: 4.33-84.45; p < 0.001). Furthermore, the AF cohort stayed for one and a half days longer in the hospital (regression coefficient: 1.55; 95% CI: 1.16-1.94; p < 0.001), spent 19,294.05 more dollars (regression coefficient: 19294.05; 95% CI: 14658.17-23929.93; p < 0.001), were subjected 2.68 times more to blood transfusions (OR: 2.68; 95% CI: 1.89-3.8; p < 0.001), and had a higher rate of respiratory complications requiring endotracheal intubation (OR: 15.86; 95% CI: 7.83-32.15; p < 0.001). CONCLUSION: AF has a substantial negative impact on inpatient outcomes for pregnant patients during delivery. Further research is needed to explore these negative impacts to improve maternal care."""
+
+

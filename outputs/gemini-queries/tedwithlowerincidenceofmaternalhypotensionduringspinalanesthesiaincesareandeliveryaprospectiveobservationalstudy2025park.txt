@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prolongedcorrectedqtintervalisassociatedwithlowerincidenceofmaternalhypotensionduringspinalanesthesiaincesareandeliveryaprospectiveobservationalstudy2025park
+"Background and Objectives: Spinal anesthesia is a common anesthetic method for cesarean delivery. However, it is associated with spinal hypotension, which can negatively impact both the mother and the fetus. We hypothesized that parturients with preoperatively prolonged corrected QT interval (QTc) would have a lower incidence of developing spinal hypotension. Materials and Methods: This prospective observational study analyzed eighty-five parturients undergoing cesarean delivery. The participants were divided into two groups based on their baseline QTc, which was measured automatically using a patient monitor in the operating room rather than using a standardized 12-lead electrocardiogram: <440 ms (n = 42) or >=440 ms (n = 43). Following combined spinal-epidural anesthesia, the incidence of spinal hypotension until delivery was analyzed and the vasopressor requirements within 30 min were compared between the QTc groups. The area under the receiver operating characteristic curve was measured to identify the optimal QTc cut-off for predicting spinal hypotension. Results: Spinal hypotension was observed in 37/43 parturients (86.0%) with QTc < 440 ms, compared to 17/42 (40.5%) with QTc >= 440 ms (p < 0.001). The total amount of phenylephrine significantly differed between groups (300 mg [100-400] vs. 100 mg [0-300], p = 0.009). The area under the ROC curve for spinal hypotension prediction was 0.75 (95% confidence interval [CI] 0.64-0.86). The optimal QTc cut-off interval, determined using the maximum Youden index (J = 0.510), which corresponded to the best combination of sensitivity and specificity, was 441 ms. Conclusions: These preliminary patient-monitor-based findings indicate an association between preoperative QTc and spinal hypotension, which should be validated using standardized electrocardiographic methods."""
+
+

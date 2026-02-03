@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thebestoutcomesforgoingthroughpregnancywithdiabetesclinicalfeaturesoffourrecipientsofthelillyinsulin50yearaward2020omori
+"The Lilly Insulin 50-Year Award of Japan has been held since 2003. This Award is presented to people with diabetes based on their efforts in injecting insulin for 50 years. Among the 23 recipients of this Award in 2018, four were recognized because of their excellent efforts in receiving continuous treatment for diabetes mellitus before, during and throughout their life after pregnancy. This report focuses on the clinical features of these recipients with successful delivery of newborns at Tokyo Women's Medical University approximately 40-50 years ago. Three of the recipients [type 2 diabetes, n = 2 (cases 1 and 3); type 1 diabetes, n = 1 (case 4)] were treated before, during and after pregnancy, whereas one patient with type 2 diabetes (case 2) was only treated during pregnancy. Even though three recipients had a past history of stillbirth due to insufficient control of diabetes, all four recipients were directed to try to maintain normoglycemia before and during pregnancy, which resulted in the delivery of newborns without major events. The current ages of the recipients are 82, 78, 78 and 63 years old, respectively. No diabetic complications were observed in case 1. However, simple retinopathy occurred after ophthalmological treatment in case 3, and case 2 has received hemodialysis. Nevertheless, all of the patients have spent active lives with the confidence of successful delivery, even though none of the patient's HbA1c levels fell below 7% after delivery. The authors as their doctors are proud of the continuous efforts made by these four recipients to receive diabetes treatment before, during and after pregnancy. We therefore advocate "the best outcome for going through pregnancy with diabetes" to all diabetic patients who hope to become pregnant based on a planned pregnancy with the normalization of blood glucose.Copyright (c) 2019, The Japan Diabetes Society."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofaneonatalhypothermiapredictionmodelforinhospitaltransportusingmachinelearningalgorithmsasinglecenterretrospectivestudy2025zhang
+"Objective: This study aims to predict hypothermia during neonatal in-hospital transport using machine learning techniques, identify risk factors, rank their importance, and visualize the results, allowing healthcare providers to rapidly assess the probability of hypothermia risk during transport. Method(s): Clinical data of 9,060 neonates transported within a tertiary maternity hospital in Shanghai between January 2023 and June 2024 were collected, including maternal and neonatal data. Variables were selected using LASSO regression. Neonates were categorized into hypothermia and normal temperature groups based on their body temperature during transport, with 6:2:2 ratio for training, test and validation datasets. Six machine learning algorithms-Decision Tree (DT), Random Forest (RF), eXtreme Gradient Boosting (XGBoost), Support Vector Machine (SVM), Artificial Neural Network (ANN), and Naive Bayes (NB)-were used to develop predictive models. The effectiveness was evaluated using area under the ROC curve (AUC), along with F1 score, accuracy, sensitivity, specificity, and Hosmer-Lemeshow calibration tests with Brier scores. The best-performing model was further analyzed for risk factors using SHAP plots. Result(s): Among the neonates, 5,072 (55.98%) experienced hypothermia during transport. Ten risk factors were identified through univariate analysis and LASSO regression, including gestational age, weight, and immediate postnatal contact. The RF model demonstrated the best overall performance, achieving a training set AUC of 0.994 and an accuracy of 0.957, while the test set AUC and accuracy were 0.962 and 0.889, respectively. Conclusion(s): Hypothermia incidence during neonatal in-hospital transport is relatively high. The RF-based prediction model demonstrated strong predictive and generalization capabilities, providing actionable guidance for early identification of neonates at risk of hypothermia during transport.Copyright (c) 2025."""
+
+

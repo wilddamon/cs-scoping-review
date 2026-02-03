@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: changesinintestinalfloraandmetabolitesinneonateswithbreastmilkjaundice2020li
+"Background: Breast milk jaundice (BMJ) is the first cause of neonatal jaundice; however, its underlying mechanism is yet to be deciphered. We conducted a study to investigate intestinal flora in neonates with BMJ and used metabolomics to decipher the possible mechanisms by which intestinal flora induces jaundice. Method(s): Microbiota collected from the feces of BMJ patients and jaundice-free breastfeeding newborns was used for 16S rRNA sequencing. In addition, differences in fecal metabolites were analyzed using gas chromatography mass spectrometry (GC/MS). The relationship between intestinal microbiota and the differences in fecal metabolites was then analyzed. Result(s): There was no significant difference in the richness and diversity of intestinal flora between BMJ and the control group; however, there were differences in the structure. At the phylum level, the relative abundance of Firmicutes was higher in the control group compared to the BMJ group, whereas Proteobacteria was higher in the infants with BMJ. Additionally, at the genus level, the relative abundance of Haemophilus was higher in the control group, whereas the relative abundances of Escherichia, Morganella, and Rothia were lower. More remarkably, the major differences in metabolites between the two groups were glyceric acid, succinic acid, and phenylalanine. Additionally, the abundance of Escherichia was positively correlated with succinic acid and cadaverine levels. Conclusion(s): The intestinal flora colonization status in BMJ patients is immature. This study reports for the first time that the study of intestinal flora, especially Escherichia, plays an important role in BMJ, and found that it may be associated with the regulation of succinic acid metabolic pathways.(c) Copyright (c) 2020 Li, Shen, Li, Hu, Mo and Xu."""
+
+

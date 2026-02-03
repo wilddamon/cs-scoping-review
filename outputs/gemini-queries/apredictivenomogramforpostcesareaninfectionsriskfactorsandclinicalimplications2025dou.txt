@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apredictivenomogramforpostcesareaninfectionsriskfactorsandclinicalimplications2025dou
+"BACKGROUND Postoperative infections following cesarean sections contribute to increased maternal morbidity, prolonged hospital stays, and elevated healthcare costs. Identifying risk factors and developing predictive models are essential for targeted prevention. MATERIAL AND METHODS A retrospective study of 685 cesarean section patients from January 2021 to December 2023 categorized them into infection (n=33) and non-infection (n=652) groups. Risk factors were identified using multivariable logistic regression. A nomogram was developed and validated using receiver operating characteristic (ROC) curve analysis, calibration plots, and decision curve analysis (DCA). RESULTS Comparative analysis showed diabetes mellitus (39.4% vs 20.0%, P<0.001) and Group B Streptococcus (GBS) colonization (9.1% vs 2.4%, P=0.024) were more common in the infection group. Membrane rupture (57.6% vs 23.8%, P<0.001), complete cervical dilation (6.1% vs 0.9%, P=0.007), and >5 vaginal examinations (30.3% vs 10.0%, P<0.001) increased infection risk. The nomogram showed an AUC of 0.786 (95% CI: 0.681-0.856), sensitivity of 79.7%, and specificity of 76.8%. Internal validation confirmed a corrected C-index of 0.716 and excellent calibration (mean absolute error=0.008, Hosmer-Lemeshow kh2=2.915, P=0.921). Decision curve analysis demonstrated superior net benefit over no or universal intervention. CONCLUSIONS Key risk factors for postoperative infections include excessive vaginal examinations, membrane rupture, cervical dilation, diabetes mellitus, and GBS colonization. The nomogram offers strong predictive accuracy and clinical utility, aiding clinicians in stratifying infection risk and implementing targeted prevention."""
+
+

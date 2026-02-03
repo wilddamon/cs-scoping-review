@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: steroidsulfataseisincreasedintheplacentasandwholebloodofwomenwithearlyonsetpreeclampsia2016gratton
+"Introduction Preeclampsia is a serious complication of pregnancy affecting 5% of pregnancies. Our team identified 137 genes highly expressed in placenta relative to other human tissues. Here, we have explored a role for steroid sulfatase (STS) in preeclampsia by characterising STS expression and the functional effects of STS on primary placental trophoblasts. Methods Characterisation of STS was performed on preterm preeclamptic and gestation-matched normotensive preterm controls who delivered at <34 weeks gestation. We characterised placental and maternal whole blood STS mRNA and placental protein expression via qRT-PCR, immunohistochemistry and Western Blot. To assess whether STS is involved in sFlt1 secretion and syncytialisation, we administered siRNA to silence STS in primary trophoblasts before measuring sFlt1 and hCG secretion and E-Cadherin expression. Results A custom array containing 45 placental specific genes identified 10 genes significantly altered in the placentas of preeclamptic patients relative to normotensive gestation-matched controls. Of these genes, qRT-PCR and western blot on a larger cohort confirmed that the expression of STS was significantly elevated in preeclamptic placentas (n = 44) relative to gestation matched controls (n = 26). Given placental RNA leaks in to the maternal circulation, we also assessed STS mRNA expression in the whole blood of patients with preeclampsia and found it was significantly increased relative to normotensive controls. siRNA knockdown of STS in primary trophoblast resulted in a modest but significant reduction in sFlt1 secretion, but had no affect on hCG secretion or E-Cadherin protein expression. Discussion STS is increased in preeclamptic placentas and maternal whole blood. Our data suggests that STS may affect sFlt1 secretion by regulating sFlt1-i13 transcription, and not via alterations in syncytialisation. (c) 2016 Elsevier Ltd"""
+
+

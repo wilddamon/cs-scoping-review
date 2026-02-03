@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingneonatalrespiratorydistresssyndromeandhypoglycaemiapriortodischargeleveraginghealthadministrativedataandmachinelearning2021betts
+"Objectives: A major challenge for hospitals and clinicians is the early identification of neonates at risk of developing adverse conditions. We develop a model based on routinely collected administrative data, which accurately predicts two common disorders among early term and preterm (<39 weeks) neonates prior to discharge. Study design. The data included all inpatient live births born prior to 39 weeks (n = 154,755) occurring in the Australian state of Queensland between January 2009 and December 2015. Predictor variables included all maternal data captured in administrative records from the beginning of gestation up to, and including, the delivery, as well as neonatal data recorded at the delivery. Gradient boosted trees were used to predict neonatal respiratory distress syndrome and hypoglycaemia prior to discharge, with model performance benchmarked against a logistic regression models. Results: The gradient boosted trees model achieved very high discrimination for respiratory distress syndrome [AUC = 0.923, 95% CI (0.917, 0.928)] and good discrimination for hypoglycaemia [AUC = 0.832, 95% CI (0.827, 0.837)] in the validation data, as well as outperforming the logistic regression models. Conclusion: Our study suggests that routinely collected health data have the potential to play an important role in assisting clinicians to identify neonates at risk of developing selected disorders shortly after birth. Despite achieving high levels of discrimination, many issues remain before such models can be implemented in practice, which we discuss in relation to our findings. (c) 2020"""
+
+

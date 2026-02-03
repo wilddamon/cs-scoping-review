@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: residentialexposuretoultravioletlightandriskofprecursorbcellacutelymphoblasticleukemiaassessingtheroleofindividualriskfactorstheescaleandestellestudies2017coste
+"Background: In a previous nationwide ecological study based on 20 years of registration and 7,443 cases of acute lymphoblastic leukemia (ALL), we reported a positive association between residential solar ultraviolet (UV) light at diagnosis and childhood precursor B-cell acute lymphoblastic leukemia (PBC-ALL). Objective: The present study investigated the influence of suspected individual risk factors for ALL on the association between UV and PBC-ALL, and evaluated this association at the residence at birth. Methods: Individual data collected by interviews in the ESCALE (2003-2004) and ESTELLE (2010-2011) nationwide case-control studies, which included 1,511 cases of leukemia aged less than 15 years and 3,102 population controls, were analyzed. Municipalities of residences at birth and at diagnosis/interview were extracted and assigned UV radiation exposure from the EUROSUN database. The potential confounders or effect modifiers considered were strongly suspected risk factors for ALL that were available in the ESCALE and ESTELLE studies. Results: UV exposure at diagnosis was associated with PBC-ALL (OR = 1.27 [1.08-1.48]) for UV > 105.5 J/cm2 compared to UV <= 105.5 J/cm2. Considering exposure to UV at birth rather than at diagnosis/inclusion yielded almost identical results as both variables were strongly correlated. Taking into account the suspected ALL risk factors did not affect this association in the pooled study. Conclusion: Our findings suggest that our previous observation of an ecological association between residential UV radiation exposure at diagnosis and PBC-ALL was not confounded or modified by individual risk factors, and that the critical exposure time window may be prenatal. (c) 2017, Springer International Publishing AG."""
+
+

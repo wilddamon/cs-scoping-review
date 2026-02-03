@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cordbloodinsulinomaassociatedprotein2autoantibodiesareassociatedwithincreasedriskoftype1diabetesinthepopulationbaseddiabetespredictioninskanestudy2015lundgren
+"Aims/hypothesis: The aim of this study was to examine the effect of cord blood autoantibodies on the risk for type 1 diabetes in children followed prospectively from birth.Methods: The Diabetes Prediction in Skane (DiPiS) study consists of 35,853 children from the general population born during 2000-2004. Samples were collected at birth and analysed for HLA genotypes and autoantibodies to glutamate decarboxylase 65 (GAD65), insulin and insulinoma-associated protein 2 (IA-2). After adjusting for HLA, sex, maternal age and parental type 1 diabetes, independent associations with risk of diabetes were assessed using multivariate Cox proportional hazards models.Results: In total, 151 children (0.4%) had developed type 1 diabetes by the end of 2013 at a median age of 5.8 years (0.8-12.2 years). In the multivariate analysis, the presence of IA-2 autoantibodies (IA-2A) in cord blood (HR 6.88, 95% CI 1.46,32.4; p = 0.003), but not maternal diabetes (HR 1.38, 95% CI 0.24,7.84; p = 0.71), was associated with risk of developing type 1 diabetes. No increased risk could be seen for the presence of autoantibodies to GAD65 or insulin.Conclusions/interpretation: Our study indicates that the presence of cord blood IA-2A superimposes maternal diabetes and other cord blood islet autoantibodies as a predictor of type 1 diabetes development in the child. These findings may be of significance for future screening and study protocols on type 1 diabetes prediction. (c) 2014, Springer-Verlag Berlin Heidelberg."""
+
+

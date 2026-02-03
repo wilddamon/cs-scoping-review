@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectionatfulldilatationinthefirstbirthisnotassociatedwithanincreasedriskofsubsequentmiscarriageahistoricalcohortstudy2024woolner
+"INTRODUCTION: Cesarean section at full dilatation has been associated with an increased risk of subsequent preterm birth. We hypothesized that there may be an increased risk of miscarriage in pregnancies that follow cesarean section at full dilatation. This study aimed to determine if a first-term (>=37 weeks) cesarean section at full dilatation is associated with an increased risk of miscarriage in the next pregnancy. MATERIAL AND METHODS: A historical cohort study was conducted using routinely collected hospital data within the Aberdeen Maternity and Neonatal Databank (AMND). The population included were women who had a first-term birth and who had a second birth recorded within the AMND. Logistic and multinomial regression was used to determine any association with miscarriage at any gestation and for early (<13 weeks gestation) and late (13-23 + 6 weeks gestation) miscarriage, with cesarean section at full dilatation defined as the exposure. Miscarriage in the second pregnancy (spontaneous loss of intrauterine pregnancy prior to 24 weeks gestation) was the primary outcome. RESULTS: In total, 33 452 women were included. Women who had a first cesarean section at full dilatation were no more likely to have a miscarriage at any gestation than women with all other modes of first birth (including all vaginal births, planned CS, and the first stage of labor (<10 cm dilated CS)) [adjusted OR 0.84 (0.66-1.08); p = 0.18]. There was no association with early or late miscarriage after a CSfd, though the sample size for late miscarriage was small. CONCLUSIONS: This is the first observational study to investigate the risk of miscarriage following first-term CSfd. We found no association between miscarriage at any gestation following a first-term CSfd compared to all other modes of first birth."""
+
+

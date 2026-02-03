@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: elaborationandvalidationoftwopredictivemodelsofpostpartumtraumaticstressdisorderriskformedbyvariablesrelatedtothebirthprocessaretrospectivecohortstudy2021hernandezmartinez
+"This study aimed to develop and validate two predictive models of postpartum posttraumatic stress disorder (PTSD) risk using a retrospective cohort study of women who gave birth between 2018 and 2019 in Spain. The predictive models were developed using a referral cohort of 1752 women (2/3) and were validated on a cohort of 875 women (1/3). The predictive factors in model A were delivery type, skin-to-skin contact, admission of newborn to care unit, presence of a severe tear, type of infant feeding at discharge, postpartum hospital readmission. The area under curve (AUC) of the receiver operating characteristic (ROC) in the referral cohort was 0.70 (95% CI: 0.67-0.74), while in the validation cohort, it was 0.69 (95% CI: 0.63-0.75). The predictive factors in model B were delivery type, admission of newborn to care unit, type of infant feeding at discharge, postpartum hospital readmission, partner support, and the perception of adequate respect from health professionals. The predictive capacity of model B in both the referral cohort and the validation cohort was superior to model A with an AUC-ROC of 0.82 (95% CI: 0.79-0.85) and 0.83 (95% CI: 0.78-0.87), respectively. A predictive model (model B) formed by clinical variables and the perception of partner support and appropriate treatment by health professionals had a good predictive capacity in both the referral and validation cohorts. This model is preferred over the model (model A) that was formed exclusively by clinical variables. (c) 2020 by the authors. Licensee MDPI, Basel, Switzerland."""
+
+

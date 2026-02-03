@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluatingtheimpactoflaborinductiononautismspectrumdisorderrisk2025zamstein
+"PURPOSE: Significant effort has been made in recent years to identify environmental factors-particularly perinatal exposures-that contribute to the development of autism spectrum disorder (ASD), yet many proposed associations remain inconsistent and inconclusive. Given the common use of labor induction for both medical indications and maternal preference, we aimed to investigate its potential association with ASD development, while accounting for synergistic factors that may influence its onset. METHODS: A population-based cohort study was conducted at a tertiary referral center, focusing on singleton births. The study aimed to compare the occurrence of ASD in children, considering both hospital and community-based diagnoses, in relation to whether labor was induced (using mechanical cervical ripening or prostaglandins, with or without oxytocin) or began spontaneously. A Kaplan-Meier survival curve was employed to assess the cumulative incidence of ASD, and a Cox proportional hazards model was used to account for confounding variables. RESULTS: Among 115,081 births, 13,071 (11.4%) were labor induced, with the remainder beginning spontaneously. Pregnancy complications, such as gestational diabetes mellitus, preeclampsia or eclampsia, and non-reassuring fetal heart rate patterns, were significantly more common in the labor induction group (p<0.001 for all). During follow-up, 767 children were diagnosed with ASD: 1.0% in the labor induction group and 0.6% in the spontaneous labor onset group (p<0.001). The Kaplan-Meier analysis showed a significantly higher cumulative hazard for ASD diagnosis in the labor induction group (log-rank p-value <0.001). However, after adjusting for maternal and perinatal factors such as maternal age, cesarean delivery, ethnicity, and gestational conditions, no significant association was found between labor induction and ASD risk (adjusted HR = 1.21, 95% CI 0.99-1.47, p = 0.063). CONCLUSION: Labor induction was associated with a higher ASD incidence but not as an independent risk factor after adjusting for maternal and perinatal factors."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: safetyofcovid19vaccinesamongpregnantindividualsinquebeccanadaapopulationbasedretrospectivecohortstudyfromthecanadianimmunizationresearchnetwork2025kiely
+"OBJECTIVE: To estimate the association between maternal COVID-19 vaccination during pregnancy and adverse neonatal and maternal outcomes. DESIGN: Population-based retrospective cohort study using a hospitalisation database linked with other health administrative databases. SETTING: Province of Quebec, Canada, from 1 May 2021 to 30 June 2023. PARTICIPANTS: All singleton pregnancies resulting in a live birth or stillbirth at >=20 weeks of gestation, excluding those with a conception date <42 weeks before the end of the study period. PRIMARY OUTCOME MEASURES: We used robust Poisson regression models to estimate adjusted risk ratios (aRRs) for chorioamnionitis, postpartum haemorrhage, caesarean delivery, preterm birth, very preterm birth, small for gestational age (SGA), maternal and neonatal admission to intensive care unit (ICU, NICU) and severe neonatal morbidity. We used a Cox regression model with a time-varying exposure variable to estimate adjusted HRs (aHRs) for stillbirth. Propensity score weighting was used to adjust for potential confounding. RESULTS: Among 140 073 singleton pregnancies resulting in live birth or stillbirth, 61 282 individuals (43.8%) received at least one dose of messenger RNA COVID-19 vaccine during pregnancy. Vaccination during pregnancy was not associated with an increased risk of chorioamnionitis (aRR 0.99, 95% CI 0.95 to 1.04), postpartum haemorrhage (aRR 1.03, 95% CI 0.99 to 1.06), very preterm birth (aRR 1.04, 95% CI 0.89 to 1.21) and stillbirth (aHR 1.14, 95% CI 0.94 to 1.39). Vaccination during pregnancy was significantly associated with a reduced risk of caesarean delivery (aRR 0.94, 95% CI 0.92 to 0.96), maternal ICU admission (aRR 0.80, 95% CI 0.65 to 0.98), SGA (aRR 0.94, 95% CI 0.91 to 0.98), NICU admission (aRR 0.91, 95% CI 0.85 to 0.96), preterm birth (aRR 0.94, 95% CI 0.90 to 0.99) and severe neonatal morbidity (aRR 0.91, 95% CI 0.85 to 0.98). CONCLUSIONS: Our findings suggest that COVID-19 vaccination during pregnancy was not associated with an increased risk of adverse outcomes. Ongoing surveillance of the safety of maternal COVID-19 vaccination is essential as doses continue to be recommended for this group."""
+
+

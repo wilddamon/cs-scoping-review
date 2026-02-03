@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionoflowbirthweightfromfetalultrasoundandclinicalcharacteristicsacomparativestudybetweenalowandmiddleincomeandahighincomecountry2024sanchezmartinez
+"Introduction Adverse perinatal outcomes (APO) pose a significant global challenge, particularly in low- and middle-income countries (LMICs). This study aims to analyse two cohorts of high-risk pregnant women for APO to comprehend risk factors and improve prediction accuracy. Methods We considered an LMIC and a high-income country (HIC) population to derive XGBoost classifiers to predict low birth weight (LBW) from a comprehensive set of maternal and fetal characteristics including socio-demographic, past and current pregnancy information, fetal biometry and fetoplacental Doppler measurements. Data were sourced from the FeDoC (Fetal Doppler Collaborative) study (Pakistan, LMIC) and theIMPACT (Improving Mothers for a Better PrenAtal Care Trial) study (Spain, HIC), and included 520 and 746 pregnancies assessed from 28 weeks gestation, respectively. The models were trained on varying subsets of the mentioned characteristics to evaluate their contribution in predicting LBW cases. For external validation, and to highlight potential differential risk factors for LBW, we investigated the generalisation of these models across cohorts. Models' performance was evaluated through the area under the curve (AUC), and their interpretability was assessed using SHapley Additive exPlanations. Results In FeDoC, Doppler variables demonstrated the highest value at predicting LBW compared with biometry and maternal clinical data (AUCDoppler, 0.67; AUCClinical, 0.65; AUCBiometry, 0.63), and its combination with maternal clinical data yielded the best prediction (AUC Clinical+Doppler, 0.71). In IMPACT, fetal biometry emerged as the most predictive set (AUCBiometry, 0.75; AUCDoppler, 0.70; AUCClinical, 0.69) and its combination with Doppler and maternal clinical data achieved the highest accuracy (AUC Clinical+Biometry+Doppler, 0.81). External validation consistently indicated that biometry combined with Doppler data yielded the best prediction. Conclusions Our findings provide new insights into the predictive role of different clinical and ultrasound descriptors in two populations at high risk for APO, highlighting that different approaches are required for different populations. However, Doppler data improves prediction capabilities in both settings, underscoring the value of standardising ultrasound data acquisition, as practiced in HIC, to enhance LBW prediction in LMIC. This alignment contributes to bridging the health equity gap.Copyright (c) Author(s) (or their employer(s)) 2024. Re-use permitted under CC BY. Published by BMJ."""
+
+

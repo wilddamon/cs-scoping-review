@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: insulinpumpuseandglycemiccontrolinadolescentswithtype1diabetespredictorsofchangeinmethodofinsulindeliveryacrosstwoyears2015wong
+"Few studies have explored durability of insulin pump use, and none have explored the link between depression and pump discontinuation. To examine the relationship between depressive symptoms [measured by the Children's Depression Inventory (CDI)], method of insulin delivery, and hemoglobin A1c (A1c), mixed models were used with data from 150 adolescents with type 1 diabetes (T1D) and visits every 6 months for 2 years. Of the 63% who used a pump, compared with multiple daily injections (MDI) at baseline, there were higher proportions who were non-minorities, had caregivers with a college degree, private insurance, and two caregivers in the home (p <= 0.01). After adjusting for time, sex, age, T1D duration, frequency of blood glucose monitoring, ethnicity, insurance, and caregiver number and education, baseline pump use was associated with -0.79% lower mean A1c [95% confidence interval (CI): -1.48, -0.096; p = 0.03]. For those using a pump at baseline, but switching to MDI during the study (n = 9), mean A1c was 1.38% higher (95% CI: 0.68, 2.08; p < 0.001) than that for those who did not switch method of delivery. A 10-point increase in CDI was associated with a 0.39% increase in A1c (95% CI: 0.16, 0.61; p = 0.001), independent of pump use. Regarding the temporal relationship between CDI score and changing method of insulin delivery, prior higher CDI score was associated with switching from pump to MDI (odds ratio = 1.21; 95% CI: 1.05, 1.39; p = 0.007). Clinicians should be aware of the associations between depressive symptoms, change in insulin delivery method, and the effect on glycemic control."""
+
+

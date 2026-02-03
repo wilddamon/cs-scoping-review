@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clinicalcharacteristicsandprognosisofneurologicaldisordersduringpregnancy2025wang
+"Objective: To investigate the common clinical characteristics of neurological disorders during pregnancy, their impact on both the mother and the infant, and the factors influencing prognosis. Method(s): Medical data of 49 pregnant women with concurrent neurological disorders during pregnancy and up to six weeks postpartum was collected and analyzed in the retrospective study. The cases were grouped based on three criteria: etiology related to pregnancy-related diseases, receiving surgical treatment or not, and onset to diagnosis (O-D) duration. Clinical characteristics and prognosis were compared among different groups. Result(s): Neurological disorders during pregnancy mainly manifested headaches with nausea and vomiting followed by convulsion. Women in the pregnancy-related disease group were younger, had a higher BMI, and later gestational week of onset compared to those in the non-pregnancy-related disease group. There were no statistically significant differences in maternal and fetal mortality between the groups. Maternal BMI and gestational week of onset were lower in the surgical treatment group compared to those in the non-surgical treatment group. However, there were no statistically significant differences in the remaining clinical characteristics, and maternal and pediatric prognosis between the two groups. The long O-D group had a younger maternal age and lower Glasgow scores than the short O-D group, with no significant difference in maternal and pediatric prognosis. Maternal deaths were positively correlated with Glasgow scores. Conclusion(s): In cases of pregnant women reporting symptoms such as headache, dizziness, nausea, vomiting, and intermittent convulsions, the possibility of comorbid neurological disorders of pregnancy must also be taken into account. Enhancing obstetric examinations, facilitating early detection and diagnosis are critical to achieving favorable outcomes for both mothers and infants.Copyright (c) 2025 Wang and Wang."""
+
+

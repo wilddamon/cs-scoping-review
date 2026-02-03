@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: physiologicallybasedpharmacokineticmodelinganddoseoptimizationoflinezolidinpediatricpatientswithrenalimpairment2025lou
+"Objective: Linezolid (LZD), a commonly used antimicrobial agent in clinical practice, has not undergone adequate pharmacokinetic (PK) assessment in pediatric populations with renal impairment (RI). Physiologically based pharmacokinetic (PBPK) modeling provides unique benefits for investigating drug pharmacokinetics in specific patient groups. This study aimed to employ the PBPK model to refine and optimize the therapeutic dosing protocol of LZD for RI pediatric patients. Methods: The model was developed and validated for both healthy adults and RI adults, which was subsequently adapted for pediatric applications. Upon verification of the pediatric Based on clinical PK data and real-world study findings, the PBPK model demonstrated precise prediction of LZD exposure in pediatric populations with varying degrees of RI, encompassing weight- and age-associated PK variations. Results: The PBPK modeling simulations exhibited robust agreement with observational data for LZD across both oral and intravenous delivery routes under diverse dosing protocols, as evidenced by the fold error (FE) always between 0.5 and 2 times, geometric mean fold error (GMFE) was less than 2.0 and mean absolute prediction error (MAPE) was within 100%. Pediatric populations with severe or end-stage RI exhibited 1.21-fold and 1.28-fold elevations in plasma concentration-time curve (AUC) values, respectively, relative to healthy pediatric counterparts when administered equivalent 10 mg/kg LZD doses. Pharmacodynamic analysis confirmed that the proposed dosing regimens--8 mg/kg every 8 hours for children with severe or end-stage RI --were effective in achieving the target AUC<inf>0-24</inf>/MIC ratio of >=80 at a susceptible inhibitory concentration of <= 2 mg/L. Conclusion: Our model provides a predictive instrument to enhance precision in determining therapeutic LZD dosage regimens for pediatric populations through systematic integration of developmental PK parameters. (c) 2025 Lou et al."""
+
+

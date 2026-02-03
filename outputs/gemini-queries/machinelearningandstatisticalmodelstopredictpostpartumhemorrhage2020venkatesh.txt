@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningandstatisticalmodelstopredictpostpartumhemorrhage2020venkatesh
+"OBJECTIVE:To predict a woman's risk of postpartum hemorrhage at labor admission using machine learning and statistical models.METHODS:Predictive models were constructed and compared using data from 10 of 12 sites in the U.S. Consortium for Safe Labor Study (2002-2008) that consistently reported estimated blood loss at delivery. The outcome was postpartum hemorrhage, defined as an estimated blood loss at least 1,000 mL. Fifty-five candidate risk factors routinely available on labor admission were considered. We used logistic regression with and without lasso regularization (lasso regression) as the two statistical models, and random forest and extreme gradient boosting as the two machine learning models to predict postpartum hemorrhage. Model performance was measured by C statistics (ie, concordance index), calibration, and decision curves. Models were constructed from the first phase (2002-2006) and externally validated (ie, temporally) in the second phase (2007-2008). Further validation was performed combining both temporal and site-specific validation.RESULTS:Of the 152,279 assessed births, 7,279 (4.8%, 95% CI 4.7-4.9) had postpartum hemorrhage. All models had good-to-excellent discrimination. The extreme gradient boosting model had the best discriminative ability to predict postpartum hemorrhage (C statistic: 0.93; 95% CI 0.92-0.93), followed by random forest (C statistic: 0.92; 95% CI 0.91-0.92). The lasso regression model (C statistic: 0.87; 95% CI 0.86-0.88) and logistic regression (C statistic: 0.87; 95% CI 0.86-0.87) had lower-but-good discriminative ability. The above results held with validation across both time and sites. Decision curve analysis demonstrated that, although all models provided superior net benefit when clinical decision thresholds were between 0% and 80% predicted risk, the extreme gradient boosting model provided the greatest net benefit.CONCLUSION:Postpartum hemorrhage on labor admission can be predicted with excellent discriminative ability using machine learning and statistical models. Further clinical application is needed, which may assist health care providers to be prepared and triage at-risk women. (c) 2020 Lippincott Williams and Wilkins. All rights reserved."""
+
+

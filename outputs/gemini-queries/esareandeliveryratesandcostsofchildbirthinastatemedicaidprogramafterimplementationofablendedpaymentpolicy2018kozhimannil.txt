@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareandeliveryratesandcostsofchildbirthinastatemedicaidprogramafterimplementationofablendedpaymentpolicy2018kozhimannil
+"Background: Nearly half of US births are financed by Medicaid, and one-third of births occur by cesarean delivery, at double the cost of vaginal delivery. With the goal of reducing unnecessary cesarean use and improving value, in 2009 Minnesota's Medicaid program introduced a blended payment rate for uncomplicated births (ie, a single facility or professional services payment regardless of delivery mode). Objective: We evaluated the effect of the blended payment policy on cesarean use and costs for Medicaid fee-for-service births. Methods: We identified births in Medicaid Analytic Extract files from 3 years before and after the 2009 payment change in Minnesota and in 6 control states. We used a quarterly interrupted time series approach to assess policy-related changes in study outcomes, comparing Minnesota to control states. Outcomes included cesarean delivery, childbirth hospitalization costs, and maternal morbidity. Results: Minnesota's prepolicy cesarean rate (22.8%) decreased 0.27 percentage points per quarter after the policy for a total decrease of 3.24 percentage points, compared with control states (P= 0.01). The cost of childbirth hospitalizations in Minnesota dropped by $425.80 at the time of the policy. Postpolicy, childbirth hospitalization costs continued to decrease in Minnesota relative to prepolicy by $95.04 per quarter, and declined more than control states (P< 0.001). There were no significant policy effects on maternal morbidity. Conclusions: Implementation of a single, blended payment to facilities and clinicians for uncomplicated births mitigated trends toward greater use of cesarean and rising costs of childbirth hospitalization, without adverse effects on maternal morbidity. (c) 2018 Wolters Kluwer Health, Inc."""
+
+

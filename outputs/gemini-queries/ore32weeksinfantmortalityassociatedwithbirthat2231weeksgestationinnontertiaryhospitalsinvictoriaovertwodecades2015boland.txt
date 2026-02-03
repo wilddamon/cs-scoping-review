@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: whybirthplacestillmattersforinfantsbornbefore32weeksinfantmortalityassociatedwithbirthat2231weeksgestationinnontertiaryhospitalsinvictoriaovertwodecades2015boland
+"Background Very preterm infants born in non-tertiary hospitals ('outborn') are known to have higher mortality rates compared with infants 'inborn' in tertiary centres. Aim The aim of this study was to report changes over time in the incidence of outborn livebirths, 22-31 weeks and infant mortality rates for outborn compared with inborn births. Methods We conducted a population-based cohort study of consecutive livebirths, 22-31 weeks' gestation in Victoria from 1990 to 2009. The relationship between birthplace, gestational age, birthweight, sex and infant mortality were analysed by logistic regression. Results There were 13,760 livebirths, 22-31 weeks: 14% were outborn. The proportion of outborn livebirths fell from 19% in 1991 to a nadir of 9% in 1997, but climbed to 17% by 2009. At all times, outborns had higher mortality rates compared with inborns. The overall infant mortality rate was 250.6 per 1000 outborn compared with 113.3 per 1000 inborn livebirths (adjusted odds ratio (aOR) 2.76 (95% CI 2.32, 3.27, P < 0.001). There were no differences between outborn and inborn mortality risks for 22-week livebirths (OR 7.04, 95% CI 0.87, 56.8, P = 0.067), but there were at 23-27 weeks (aOR 3.16, 95% CI 2.52, 3.96, P < 0.001) and at 28-31 weeks (aOR 1.66, 95% CI 1.19, 2.31, P = 0.003). Over time, mortality rates fell for inborn 23-27 week infants. Mortality rates fell for outborn 23-27 week infants in 1990-2005, but rose in 2006-2009. Conclusions Outborn livebirths at 22-31 weeks' gestation occur too frequently and are associated with a significantly increased risk of mortality. Strategies to reduce outborn livebirths are required. (c) 2015 The Royal Australian and New Zealand College of Obstetricians and Gynaecologists."""
+
+

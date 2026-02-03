@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thehadlockmethodissuperiortonewermethodsforthepredictionofthebirthweightpercentile2019blue
+"Objectives: To compare a traditional ultrasound (US) method for estimated fetal weight (EFW) calculation and fetal growth restriction diagnosis with 2 newer methods for the prediction of small for gestational age (SGA) at birth. Methods: We reviewed deliveries at our institution from January 1, 2013, to March 31, 2017. Singleton, nonanomalous, well-dated fetuses with a US examination within 2 weeks of delivery were included. Estimated fetal weights and percentiles were calculated by a traditional method (Hadlock et al; Radiology 1991; 181:129-133) and 2 newer methods: Intergrowth-21st (INTG; Ultrasound Obstet Gynecol 2017; 49:478-486) and Salomon et al (Ultrasound Obstet Gynecol 2007; 29:550-555). We calculated each method's test characteristics to predict SGA (birth weight < 10th percentile) using both traditional (EFW < 10th percentile) and receiver operating characteristic (ROC)-derived fetal growth restriction cutoffs. Mean percentile discrepancies between EFW and birth weight measurements were calculated to compare method accuracy. We hypothesized that the INTG and Salomon methods would have superior SGA prediction compared with the Hadlock method. Results: Of 831 pregnancies with a US examination within 2 weeks of delivery, 138 (16.7%) were SGA at birth. Hadlock had the smallest US-birth weight percentile discrepancy (P <.001 versus both INTG and Salomon). When comparing ROC curves, the Hadlock and INTG methods performed comparably, with areas under the curve of 0.91 and 0.90 (P =.08) and optimal EFW cutoffs of the 15th and 22nd percentiles, respectively. The Salomon method performed less well, with an area under the curve of 0.82 (P <.001 versus both Hadlock and INTG methods). Conclusions: In our study cohort, the Hadlock method predicted the birth weight percentile more accurately than the INTG or Salomon methods and performed comparably with INTG to predict SGA when ROC-derived cutoffs were used. (c) 2018 by the American Institute of Ultrasound in Medicine"""
+
+

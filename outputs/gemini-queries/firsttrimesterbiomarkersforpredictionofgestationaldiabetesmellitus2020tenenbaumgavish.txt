@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: firsttrimesterbiomarkersforpredictionofgestationaldiabetesmellitus2020tenenbaumgavish
+"Purpose: To develop a first trimester prediction model for gestational diabetes mellitus (GDM) using obesity, placental, and inflammatory biomarkers. Methods: We used a first trimester dataset of the ASPRE study to evaluate clinical and biochemical biomarkers. All biomarkers levels (except insulin) were transformed to gestational week-specific medians (MoMs), adjusted for maternal body mass index (BMI), maternal age, and parity. The MoM values of each biomarker in the GDM and normal groups were compared and used for the development of a prediction model assessed by area under the curve (AUC). Results: The study included 185 normal and 20 GDM cases. In the GDM group, compared to the normal group BMI and insulin (P = 0.003) were higher (both P < 0.003). The MoM values of uterine artery pulsatility index (UtA-PI) and soluble (s)CD163 were higher (both P < 0.01) while pregnancy associated plasma protein A (PAPP-A), placental protein 13 (PP13), and tumor-necrosis factor alpha (TNFa) were lower (all P < 0.005). There was no significant difference between the groups in placental growth factor, interleukin 6, leptin, peptide YY, or soluble mannose receptor (sMR/CD206). In screening for GDM in obese women the combination of high BMI, insulin, sCD163, and TNFa yielded an AUC of 0.95, with detection rate of 89% at 10% false positive rate (FPR). In non-obese women, the combination of sCD163, TNFa, PP13 and PAPP-A yielded an AUC of 0.94 with detection rate of 83% at 10% FPR. Conclusion: A new model for first trimester prediction of the risk to develop GDM was developed that warrants further validation. (c) 2020 The Authors"""
+
+

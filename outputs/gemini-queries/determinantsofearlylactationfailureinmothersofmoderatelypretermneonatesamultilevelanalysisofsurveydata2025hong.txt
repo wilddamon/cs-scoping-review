@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: determinantsofearlylactationfailureinmothersofmoderatelypretermneonatesamultilevelanalysisofsurveydata2025hong
+"BACKGROUND: Early lactation failure among mothers of moderate preterm infants poses a persistent public health concern. This study identified key predictors and developed a risk stratification tool. METHODS: We conducted a prospective cohort study of 3,210 mother-infant dyads (32.0-34.9 weeks gestation) at a tertiary hospital in China (February 2022-April 2025). Early lactation failure was defined as absence of direct breastfeeding with documented latch or provision of < 5 ml cumulative expressed breast milk within 72 h postpartum. Data included psychosocial assessments [breastfeeding self-efficacy scale-short form (BSES-SF), Edinburgh postnatal depression scale (EPDS), family support], obstetric factors, neonatal characteristics, and early care variables. Missing data was imputed using multiple chained equations (50 datasets). Multilevel logistic regression with ward-level random intercepts identified predictors, with bootstrap validation (1,000 resamples) assessing performance. RESULTS: Among 3,210 mother-infant dyads enrolled, 716 (22.3%) experienced early lactation failure within 72 h postpartum. Key predictors included higher BSES-SF scores [adjusted odds ratio (aOR) = 0.96 per point, 95% confidence interval (CI): 0.94-0.98], higher EPDS scores (aOR = 1.08, 95% CI: 1.04-1.12), cesarean delivery (aOR = 1.42, 95% CI: 1.15-1.75), neonatal respiratory support (aOR = 1.28, 95% CI: 1.05-1.56), and shorter kangaroo care duration (aOR = 0.92 per 10 min, 95% CI: 0.87-0.97). A five-factor risk tool stratified mothers into low-risk (13.0% failure rate), moderate-risk (20.5%), and high-risk (31.0%) groups, with strong discrimination (C-statistic = 0.704; calibration slope = 0.952; Hosmer-Lemeshow p = 0.267). Population-attributable risks were highest for cesarean delivery (20.4%), low self-efficacy (18.9%), and depression (18.2%), with numbers needed to treat (NNT) ranging from 11 to 18. CONCLUSION: This study confirms the multifactorial basis of early lactation failure, highlighting maternal psychosocial factors as key predictors. The validated risk tool enables identification of high-risk dyads for targeted nutritional support interventions."""
+
+

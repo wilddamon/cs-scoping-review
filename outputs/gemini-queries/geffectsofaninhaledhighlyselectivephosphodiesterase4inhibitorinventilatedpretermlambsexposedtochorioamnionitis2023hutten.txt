@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acutelungfunctionalandairwayremodelingeffectsofaninhaledhighlyselectivephosphodiesterase4inhibitorinventilatedpretermlambsexposedtochorioamnionitis2023hutten
+"Phosphodiesterase (PDE) inhibition has been identified in animal studies as a new treatment option for neonatal lung injury, and as potentially beneficial for early lung development and function. However, our group could show that the inhaled PDE4 inhibitor GSK256066 could have dose-dependent detrimental effects and promote lung inflammation in the premature lung. In this study, the effects of a high and a low dose of GSK256066 on lung function, structure and alveolar development were investigated. In a triple hit lamb model of Ureaplasma-induced chorioamnionitis, prematurity, and mechanical ventilation, 21 animals were treated as unventilated (NOVENT) or 24 h ventilated controls (Control), or with combined 24 h ventilation and low dose (iPDE1) or high dose (iPDE10) treatment with inhaled GSK 256066. We found that high doses of an inhaled PDE4 inhibitor impaired oxygenation during mechanical ventilation. In this group, the budding of secondary septae appeared to be decreased in the preterm lung, suggesting altered alveologenesis. Ventilation-induced structural and functional changes were only modestly ameliorated by a low dose of PDE4 inhibitor. In conclusion, our findings indicate the narrow therapeutic window of PDE4 inhibitors in the developing lung.Copyright (c) 2022 by the authors."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hypertensivedisordersfirstidentifiedinpregnancyincreaseriskforincidentprehypertensionandhypertensionintheyearafterdelivery2016black
+"Background: Hypertensive disorders in pregnancy, including preeclampsia/eclampsia (PE/E) are associated with long-term cardiovascular disease risk. However, little is known about the effect of these conditions on risk for prehypertension (preHTN) or hypertension (HTN) in the early years after delivery. Methods: The cohort consisted of women who had prenatal care and delivered a live singleton neonate at Kaiser Permanente Bellflower Medical Center in 2005-2010. Women with prepregnancy HTN or preHTN were excluded from analysis. Multivariable robust Poisson regression models were used to assess associations between any hypertensive disorder or PE/E and development of preHTN/HTN in the year after delivery, adjusted for maternal age, race/ethnicity, parity, smoking, prepregnancy weight status, gestational weight gain, gestational diabetes, and gestational age. Results: Among 5960 women who were normotensive prior to pregnancy, 358 (6.0%) developed a hypertensive disorder in pregnancy, of whom 215 (60.1%) had PE/E. Overall, 63 (1.1%) developed HTN and 902 (15.1%) preHTN in the year after delivery. After accounting for all potential confounders, women with a hypertensive disorder in pregnancy and those with PE/E were 2.36 (95% confidence interval: 1.97-2.83) and 2.48 (95% confidence interval: 1.99-3.11) times as likely, respectively, to develop preHTN/HTN in the year after delivery as those without pregnancy-related HTN. Results were similar with and without adjustment for gestational diabetes. Conclusion: Our findings highlight the need for prospective studies aimed at determining whether early postpartum screening and improved follow-up of women with hypertensive disorders first identified in pregnancy may prevent future cardiovascular disease. (c) 2016 Wolters Kluwer Health, Inc."""
+
+

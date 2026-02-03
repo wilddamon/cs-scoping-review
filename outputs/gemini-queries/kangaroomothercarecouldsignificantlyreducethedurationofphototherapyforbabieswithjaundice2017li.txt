@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: kangaroomothercarecouldsignificantlyreducethedurationofphototherapyforbabieswithjaundice2017li
+"Objective: Kangaroo mother care (KMC) was reported to be correlated with the time of phototherapy for babies with neonatal jaundice in the previous studies. The purpose of this study was to verify the effectiveness of KMC on phototherapy for neonatal jaundice. Method(s): 216 newborn babies with neonatal jaundice were collected in this study and randomly divided into KMC group and control group. 112 babies in KMC group were received indirect KMC from their parent every day until the end of phototherapy, while the 104 babies in control were received conventional care. The time of phototherapy for neonatal jaundice was used to evaluate the influence of KMC. Result(s): In this study, we proved that the type of jaundice could significantly influence onset of jaundice, peak bilirubin and time of phototherapy (P < 0.05 for all). Besides, babies with jaundice received KMC recovered early from jaundice, compared with control group (P = 0.000). In addition, the gestational age was significantly correlated with peak bilirubin (P = 0.000). Conclusion(s): The type of jaundice and KMC can influence the effectiveness of phototherapy for infants with neonatal jaundice. KMC could significantly reduce the duration of phototherapy for babies with jaundice, which might be helpful for the care of neonatal jaundice.Copyright (c) 2017, E-Century Publishing Corporation. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: growthandproteinrichfoodintakeininfancyisassociatedwithfatfreemassindexat23yearsofage2018smithbrown
+"Aim: The reduction of infant protein intake and associated growth velocity is a recommended public health strategy for reducing the risk of childhood obesity. This study tests the hypothesis that infants' growth and protein-rich food (dairy, meat, fish and egg) intake influences childhood body size and composition at 2-3 years of age. Methods: Thirty-six children were studied from the Feeding Queensland Babies Study Cohort, which prospectively collected data on infant growth and diet. Body composition was estimated using the deuterium oxide dilution technique at 2-3 years of age. Results: Fat-free mass index Z score at 2-3 years of age was positively associated with animal protein food (dairy, meat, fish and egg) intake at 12 months of age (r = 0.58, P = 0.002, false discovery rate corrected P value = 0.008) and negatively associated with weight-for-length growth velocity from 6 to 12 months of age (r = -0.75, P = 0.019, false discovery rate corrected P value = 0.038), which in turn was negatively associated with growth velocity from 0 to 6 months of age (r = -0.790, P = 0.007). Conclusion: This study suggests that strategies to reduce protein intake and growth velocity in early life may limit fat-free mass growth, potentially predisposing to increased adiposity in later life. (c) 2018 Paediatrics and Child Health Division (The Royal Australasian College of Physicians)"""
+
+

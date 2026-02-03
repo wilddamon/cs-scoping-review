@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: usingobservationaldatatoestimatetheeffectofhandwashingandcleandeliverykitusebybirthattendantsonmaternaldeathsafterhomedeliveriesinruralbangladeshindiaandnepal2015seward
+"Background Globally, puerperal sepsis accounts for an estimated 8-12% of maternal deaths, but evidence is lacking on the extent to which clean delivery practices could improve maternal survival. We used data from the control arms of four cluster-randomised controlled trials conducted in rural India, Bangladesh and Nepal, to examine associations between clean delivery kit use and hand washing by the birth attendant with maternal mortality among home deliveries. Methods We tested associations between clean delivery practices and maternal deaths, using a pooled dataset for 40, 602 home births across sites in the three countries. Cross-sectional data were analysed by fitting logistic regression models with and without multiple imputation, and confounders were selected a priori using causal directed acyclic graphs. The robustness of estimates was investigated through sensitivity analyses. Results Hand washing was associated with a 49% reduction in the odds of maternal mortality after adjusting for confounding factors (adjusted odds ratio (AOR) 0.51, 95% CI 0.28-0.93). The sensitivity analysis testing the missing at random assumption for the multiple imputation, as well as the sensitivity analysis accounting for possible misclassification bias in the use of clean delivery practices, indicated that the association between hand washing and maternal death had been over estimated. Clean delivery kit use was not associated with a maternal death (AOR 1.26, 95% CI 0.62-2.56). Conclusions Our evidence suggests that hand washing in delivery is critical for maternal survival among home deliveries in rural South Asia, although the exact magnitude of this effect is uncertain due to inherent biases associated with observational data from low resource settings. Our findings indicating kit use does not improve maternal survival, suggests that the soap is not being used in all instances that kit use is being reported. (c) 2015 Seward et al."""
+
+

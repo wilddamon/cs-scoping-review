@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofpreviousabdominalsurgeryonlaparoscopicrouxenygastricbypasssurgery2020du
+"Background: Previous abdominal surgery (PAS) is a relative contraindication of laparoscopic surgery. In this study, we aimed to investigate the effect of PAS on the feasibility and safety of laparoscopic Roux-en-Y gastric bypass surgery (LRYGB) in patients with obesity and type 2 diabetes mellitus (T2DM). Materials and methods: A retrospective analysis was conducted for a total of 235 consecutive patients with obesity and T2DM from Shanghai Tongren Hospital from February 2011 to December 2015. The patients were classified into two groups: no previous abdominal surgery group (NPAS group, n = 179) and previous abdominal surgery group (PAS group, n = 56). The patients underwent LRYGB, and the data of basic information, presence of adhesions, adhesiolysis requirement, operative time, blood loss, hospital stay, and perioperative and postoperative complications were collected and compared between the groups. Results: Adhesion was found in 14 patients in the NPAS group and in 43 patients in the PAS group, with adhesiolysis requirement in 4 (2.23%) and 37 (66.07%) patients, respectively (P < 0.05). There were no complications directly associated with adhesiolysis. No patients were converted to open surgery. There were no significant differences in gender (P = 0.30), T2DM duration (P = 0.58), body mass index (P = 0.06), blood loss (P = 0.36), or perioperative or postoperative complications (P = 0.41) between the groups. Significant differences were observed in the mean age, ASA score, operative time, and hospital stay between the groups (P < 0.001). Conclusions: PAS is relatively safe and feasible for LRYGB in Chinese patients with obesity and T2DM. (c) 2019"""
+
+

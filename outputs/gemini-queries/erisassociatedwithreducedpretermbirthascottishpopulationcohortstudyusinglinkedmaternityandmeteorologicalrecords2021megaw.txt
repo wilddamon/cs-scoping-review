@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: highersunexposureinthefirsttrimesterisassociatedwithreducedpretermbirthascottishpopulationcohortstudyusinglinkedmaternityandmeteorologicalrecords2021megaw
+"Background: Preterm birth (birth at <37 weeks gestation) is the leading cause of death in children under 5-years-old, and prevention is a global public health issue. Seasonal patterns of preterm birth have been reported, but factors underlying this have been poorly described. Sun exposure is an important environmental variable that has risks and benefits for human health, but the effects of sun exposure on pregnancy duration and preterm birth are unknown. Objectives: To determine the association between available sun exposure and preterm birth. Methods: We performed a population-based data-linkage study of 556,376 singleton births (in 397,370 mothers) at or after 24 weeks gestation, in Scotland between 2000 and 2010. Maternity records were linked to available sun exposure from meteorological records, by postcode. Logistic regression analysis was used to explore the relationship between available sunshine and preterm birth at <37 weeks gestation. Exploratory analyses included a subgroup analysis of spontaneous and indicated preterm births and a sibling analysis in sib pairs discordant for preterm birth. Results: The rate of preterm birth was 6% (32,958/553,791 live births). Increased available sun exposure in the first trimester of pregnancy was associated with a reduced risk of preterm birth, with evidence of a dose-response. Compared with the lowest quartile of sun exposure, the highest quartile of sun exposure was associated with a reduced odds ratio (OR) of preterm birth of 0.90 (95% Confidence Interval (CI) 0.88-0.94 p < 0.01) on univariable analysis and OR of 0.91 (95% CI 0.87, 0.93 p < 0.01) after adjustment for second trimester sunlight exposure, parity, maternal age, smoking status, and deprivation category. No association was seen between preterm birth and second trimester available sun exposure or combined first and second trimester exposure. Similar patterns were seen on sibling analysis and within both the indicated and spontaneous preterm subgroups. Discussion: Available sun exposure in the first trimester of pregnancy is associated with a protective effect on preterm birth <37 weeks gestation. This opens up new mechanisms, and potential therapeutic pathways, for preterm birth prevention. (c) (c) 2021 Megaw, Clemens, Daras, Weller, Dibben and Stock."""
+
+

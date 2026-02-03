@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doestimeofwoundcomplicationaftercesareandeliverydifferbytypeofskinclosure2019cooper
+"Objective A high proportion of postcesarean wound complications occur after patients have been discharged from the hospital, increasing personal and health care costs. We undertook this study to evaluate the association between skin closure methods (suture vs. staple) following a cesarean delivery and the frequency of wound complications occurring after hospital discharge. Study Design This is a secondary analysis of data from a randomized trial in which women undergoing cesarean delivery at >=24 weeks' gestation were randomized to receive metallic staples or subcuticular suture for skin closure after surgery. Staples were removed at the time of hospital discharge on postoperative days 3 to 4 for Pfannenstiel incisions or days 7 to 10 for vertical. The primary outcome for this analysis was any wound complication occurring after hospital discharge. Wound complications were infections or any wound disruption without infection (including seromas and hematomas). Associations were examined using chi-square and Fisher's exact tests, as appropriate, and multivariable logistic regression. Results A total of 350 patients with follow-up through 4 to 6 weeks postpartum were included in the analysis: n = 171 received suture closure and n = 179 received staples. In the primary trial, wound complications occurred in 14.5% (n = 26) of individuals with staples and 5.9% (n = 10) with sutures (p = 0.008). Twenty-one (58.3%) of the 36 wound complications occurred after hospital discharge. The incidence of wound complications occurring after hospital discharge was 6.7% (n = 12) of patients receiving staples and 5.3% (n = 9) of those receiving sutures; p = 0.57; relative risk [95% confidence interval]: 1.27 [0.55-2.95]). After multivariable adjustment, type of skin closure method was not associated with wound complication after discharge from the hospital (odds ratio: 1.29; 0.52-3.17). Conclusion Although suture closure compared with staples was associated with fewer wound complications after cesarean delivery, we found no significant differences between closure types in the frequency of wound complications occurring after hospital discharge."""
+
+

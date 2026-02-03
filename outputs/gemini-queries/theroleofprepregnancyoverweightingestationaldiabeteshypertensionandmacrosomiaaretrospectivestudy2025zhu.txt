@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theroleofprepregnancyoverweightingestationaldiabeteshypertensionandmacrosomiaaretrospectivestudy2025zhu
+"Purpose. Adverse pregnancy outcomes, including gestational diabetes mellitus (GDM), gestational hypertension (GHp), macrosomia, preterm birth, and low birth weight, pose significant risks to maternal and neonatal health. Pre-pregnancy overweight is a modifiable risk factor for these outcomes. However, comprehensive analyses of multiple adverse outcomes and their dose-response relationships with pre-pregnancy body mass index (BMI) remain limited. Methods. This retrospective cohort study included 748 women with singleton preg- nancies who delivered at Yuyao Maternal and Child Health Hospital from January 1, 2022, to December 31, 2022. Participants were categorized into normal-weight and overweight groups based on pre-pregnancy BMI. Logistic regression models were used to evaluate associations between overweight and adverse pregnancy outcomes, adjusting for confounding variables. Restricted cubic spline (RCS) regression was employed to investigate dose-response relationships between BMI and pregnancy outcomes. Results. Pre-pregnancy overweight was significantly associated with higher risks of GDM (adjusted OR = 3.122, 95% CI [1.754-5.557], p < 0.001), GHp (adjusted OR = 2.864, 95% CI [1.566-5.239], p = 0.001), and macrosomia (adjusted OR = 2.119, 95% CI [1.076-4.173], p = 0.030). No significant associations were observed with preterm birth or low birth weight. RCS analysis showed no evidence of nonlinear relationships, indicating that the risk of adverse outcomes increased linearly with BMI. Conclusion. Pre-pregnancy overweight is a significant modifiable risk factor for adverse maternal and neonatal outcomes, particularly GDM, GHp, and macrosomia. These findings underscore the importance of integrating BMI monitoring and personalized weight management strategies into pre-pregnancy care programs to mitigate risks and improve maternal and neonatal health outcomes.Copyright (c) 2025 Zhu et al."""
+
+

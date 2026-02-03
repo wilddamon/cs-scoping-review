@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationofneonatalsarscov2antispikeproteinreceptorbindingdomainantibodiesatdeliverywithinfantsarscov2infectionundertheageof6monthsaprospectivecohortstudy2023ozalcalay
+"Objectives: The aim of this study was to assess the association between neonatal SARS-CoV-2 antibody level at delivery and infant SARS-CoV-2 infection under the age of 6 months and to identify predictive factors for neonatal antibody level at delivery. Methods: In a prospective observational study, conducted between September 2021 and mid-February 2022, cord blood sera were tested for SARS-CoV-2 anti-spike receptor-binding domain antibodies after maternal BNT162b2 vaccination or infection. Infants were followed up for 6 months for SARS-CoV-2 infection. Results: Sixty-seven mother-infant dyads were enrolled; nine of those did not meet the eligibility criteria. Of the 58 mother-infant dyads included, 6-month follow-up data were available for 57 mother-infant dyads. The mean +- standard deviation log SARS-CoV-2 anti-spike antibody level at delivery was lower among infants who were COVID-19 positive versus negative during follow-up (3.41 +- 0.74 AU/mL, n = 12; vs. 3.87 +- 0.84 AU/mL, n = 46; p 0.036); a log titre of >=4.07 AU/mL (11 750) at delivery was associated with a significantly lower likelihood of infant infection (1/26 vs. 11/32 in infants with antibody level of <4.07 log AU/mL, OR = 0.076 [95% CI, 0.076, 0.64], p 0.018). A spline curve model showed a linear decrease in antibody levels when the last dose was administered at <=30 weeks of gestation (50 days before delivery), after which the antibody levels increased (R2 = 0.50). In multivariate analysis, more vaccine doses, prior maternal infection, and last administered dose at >=31 weeks of gestation were associated with higher antibody levels at delivery. Discussion: Higher anti-spike antibodies at delivery were associated with decreased risk of COVID-19 at the age of <6 months; the antibody level decreased linearly when the last dose was administered at <=30 weeks of gestation. Future research should assess the effectiveness of a second booster during pregnancy against infant infection. (c) 2023 European Society of Clinical Microbiology and Infectious Diseases"""
+
+

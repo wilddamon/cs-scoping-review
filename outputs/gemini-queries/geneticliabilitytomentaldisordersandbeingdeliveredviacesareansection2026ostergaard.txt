@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: geneticliabilitytomentaldisordersandbeingdeliveredviacesareansection2026ostergaard
+"Observational studies have reported that cesarean delivery is associated with increased risk of mental disorders in offspring. However, whether this represents causality is unclear. We aimed to investigate whether positive associations between cesarean section and mental disorder may be confounded by genetic liability to mental disorder. We identified individuals born from 1996 to 2008 from the general population representative sub-cohort of the Lundbeck Foundation Initiative for Integrative Psychiatric Research who have been genotyped and calculated their polygenic risk scores for schizophrenia, bipolar disorder, depression, autism and ADHD. The association between these polygenic risk scores and being delivered via cesarean section (including planned and acute cesarean section analyzed separately) was examined using a generalized linear model with logit-link function and binomial distribution with adjustment for relevant covariates, yielding adjusted odds ratios (AOR). The study population consisted of 17,050 individuals (8382 females and 8668 males) of which 2929 were delivered via cesarean section (1252 planned and 1739 acute). None of the five polygenic risk scores were associated with being delivered via cesarean section. However, in subgroup analyses, polygenic risk scores for schizophrenia (AOR=1.07 (95 %CI: 1.00;1.15), p = 0.047), bipolar disorder (AOR=1.07 (1.00;1.15), p = 0.048), and depression (AOR=1.06 (1.00;1.13), p = 0.048) were positively associated with delivery via planned cesarean section with 95 % confidence intervals not crossing 1. This was not the case for delivery via acute cesarean section. In conclusion, associations between planned cesarean section and mental disorder may be confounded by genetic liability to severe mental disorder. This possibility should be considered in future studies to avoid overestimation of causality."""
+
+

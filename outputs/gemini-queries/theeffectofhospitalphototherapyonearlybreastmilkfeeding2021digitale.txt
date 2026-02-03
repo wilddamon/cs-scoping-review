@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofhospitalphototherapyonearlybreastmilkfeeding2021digitale
+"Background: The effect of phototherapy on breastmilk feeding is unclear. Objective: To estimate the effect of inpatient phototherapy on breastmilk feeding at 2-month well-child visits. Methods: We performed a retrospective cohort study using electronic health record data. From births at 16 Kaiser Permanente Northern California hospitals (2013-2017), we identified a cohort of infants >= 35 weeks' gestation with total serum bilirubin levels close to the American Academy of Pediatrics 2004 phototherapy threshold during their birth hospitalisation. We compared self-reported breastmilk feeding at 2-month well-child visits among those who had and had not received birth hospitalisation phototherapy, adjusting for bilirubin levels and other confounding variables. We used multiple imputation (K = 200) to address missing data. Results: Approximately a quarter of infants in the cohort (24.5%) received phototherapy during their birth hospitalisation. At the 2-month visit, exclusive breastmilk feeding was less common (RR 0.91, 95% interval [CI] 0.88, 0.95) among those who received phototherapy (41.3%) than those who did not (45.2%). However, no association remained after adjusting for potential confounders (RR 0.99, 95% CI 0.95, 1.04; average treatment effect on the treated [ATET] -0.2%, 95% CI -2.0%, 1.5%). In contrast, any breastmilk feeding was similar between infants who did (76.8%) and did not get phototherapy (77.9%). After adjusting for confounders, phototherapy had a slightly positive association with any breastmilk feeding at 2 months (RR 1.02, 95% CI 1.00, 1.04). Among infants who received phototherapy, the proportion being fed any breastmilk at the 2-month visit was an estimated 1.6 percentage points higher than it would have been if they had not received phototherapy (ATET 1.6%, 95% CI 0.1%, 3.1%). Multiple imputation results were similar. Conclusions: Birth hospitalisation phototherapy can be delivered in a way that does not adversely affect breastmilk feeding at 2 months. (c) 2021 John Wiley & Sons Ltd."""
+
+

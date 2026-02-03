@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: useofcatboostalgorithmtoidentifytheneedforsurgeryininfantswithnecrotizingenterocolitis2025jin
+"Background: Early identification of infants with necrotizing enterocolitis (NEC) at risk of surgery is essential for an effective treatment. This study aims to clarify the risk factors of surgical NEC and establish a prediction model by machine learning algorithm. Method(s): Infants with NEC were split into two groups based on whether they had surgery or not. Clinical data was collected and compared between the groups. Variables were analyzed with one-way logistic regression and predictive models were built using logistic regression and CatBoost algorithm. The models were evaluated and compared using Receiver Operating Characteristic (ROC) curves and feature importance. Feature importance was ranked using the SHapley Additive exPlanation method and model optimization was performed using feature culling. Final model was selected and a user-friendly GUI software was created for clinical use. Result(s): The Catboost model performed better than the logistic regression model in terms of discriminative power. An interpretable final model with 14 features was built after the features were reduced according to the feature importance level. The final model accurately identified Surgicel NEC in the internal validation (AUC = 0.905) and was translated into a convenient tool to facilitate its use in clinical settings. Conclusion(s): Catboost machine learning model related to infants with surgical NEC was successfully developed. A GUI interface was developed to assist clinicians in accurately identifying children who would benefit from surgery.Copyright 2025 Jin, Sun, Li, Su, Xu and Zhu."""
+
+

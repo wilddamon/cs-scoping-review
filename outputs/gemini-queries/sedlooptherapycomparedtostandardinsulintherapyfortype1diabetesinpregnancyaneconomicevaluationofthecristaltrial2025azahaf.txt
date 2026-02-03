@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: costeffectivenessofadvancedhybridclosedlooptherapycomparedtostandardinsulintherapyfortype1diabetesinpregnancyaneconomicevaluationofthecristaltrial2025azahaf
+"Background: A multicentre, randomised controlled trial (the CRISTAL trial), demonstrated the safety and efficacy of MiniMedTM 780G advanced hybrid closed loop (AHCL) therapy during pregnancy, showing improved glycaemic control overnight, less hypoglycaemia, and improved treatment satisfaction compared to standard insulin therapy (SoC, mainly open-loop insulin pump therapy). This study aimed to assess the cost-effectiveness of AHCL, which has a higher initial cost, compared to SoC in pregnant women with type 1 diabetes (T1D). Method(s): A decision tree model was developed to estimate the cost-effectiveness of AHCL compared to SoC in pregnant women with T1D, covering pregnancy to birth and postpartum hospital discharge (a time horizon of 28 weeks). Total costs per strategy (in 2024 euros, ) were calculated from a healthcare payer perspective. The base-case analysis derived prevalence of pregnancy complications and hospitalisations directly related to diabetes management from the CRISTAL trial. Uncertainty was analysed by exploring multiple scenarios and sensitivity analyses. Finding(s): In the base-case analysis, the cost of using AHCL during pregnancy was estimated at 13,988.75 (95% CI: 12,240 to 16,062) compared to 14,221.33 (95% CI: 12,380 to 16,420) for SoC, indicating cost-savings of 232.57 per individual, alongside the demonstrated clinical benefits of AHCL. The primary cost driver was the AHCL device cost. This cost was offset by savings from shorter and less frequent hospital admissions (mainly due to severe hypoglycaemia and dysregulated diabetes) in the AHCL group compared to SoC. In our probabilistic sensitivity analysis, AHCL was dominant in 73% of the simulated cost-effectiveness pairs. Interpretation(s): AHCL might be cost-saving compared to SoC for pregnant women with T1D. However, more robust data are needed to assess the potential impact of AHCL therapy on pregnancy and long-term health outcomes. Funding(s): Diabetes Liga Research Fund and Medtronic.Copyright (c) 2025 The Author(s)"""
+
+

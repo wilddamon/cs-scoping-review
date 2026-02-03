@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adversebirthoutcomesofadolescentandyoungadultwomendiagnosedwithcancerduringpregnancy2023betts
+"BACKGROUND: We examined adverse birth outcomes among adolescent and young adult women diagnosed with cancer (AYA women, ages 15-39 years) during pregnancy. METHODS: We linked data from the Texas Cancer Registry, vital records, and Texas Birth Defects Registry to identify all singleton births to AYA women diagnosed during pregnancy from January 1999 to December 2016. We compared prevalence of adverse live birth outcomes between AYA women and women without cancer (matched 1:4 on age, race and ethnicity, and year). Among AYA women, we used log-binomial regression to identify factors associated with these outcomes. Statistical tests were 2-sided. RESULTS: AYA women had 1271 singleton live births and 20 stillbirths. AYA women (n = 1291) were 33.3% Hispanic and 9.8% non-Hispanic Black and most commonly had breast (22.5%), thyroid (19.8%), and gynecologic (13.3%) cancers. Among live births, AYA women had a higher prevalence of low birth weight offspring (30.1% vs 9.0%), very preterm (5.7% vs 1.2%), and preterm birth (25.1% vs 7.2%); cesarean delivery (44.3% vs 35.2%); and low Apgar score (2.7% vs 1.5%), compared with women without cancer (n = 5084) (all P < .05). Prevalence of any birth defect by age 12 months did not statistically differ (5.2% vs 4.7%; P = .48), but live births to AYA women more often had heart and circulatory system defects (2.2% vs 1.3%; P = .01). In adjusted models, cancer type and chemotherapy were associated with adverse live birth outcomes. CONCLUSIONS: AYA women diagnosed during pregnancy have higher prevalence of adverse birth outcomes and face difficult decisions in balancing treatment risks and benefits."""
+
+

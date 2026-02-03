@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: feasibilityofartificialintelligenceforpredictinglivebirthwithoutaneuploidyfromablastocystimage2019miyagi
+"Purpose: To make the artificial intelligence (AI) classifiers of the image of the blastocyst implanted later in order to predict the probability of achieving live birth. Method(s): A system for using the machine learning approaches, which are logistic regression, naive Bayes, nearest neighbors, random forest, neural network, and support vector machine, of artificial intelligence to predict the probability of live birth from a blastocyst image was developed. Eighty images of blastocysts that led to live births and 80 images of blastocysts that led to aneuploid miscarriages were used to create an AI-based method with 5-fold cross-validation retrospectively for classifying embryos. Result(s): The logistic regression method showed the best results. The accuracy, sensitivity, specificity, positive predictive value, and negative predictive value were 0.65, 0.60, 0.70, 0.67, and 0.64, respectively. Area under the curve was 0.65 +/- 0.04 (mean +/- SE). Estimated probability of belonging to the live birth category was found significantly related to the probability of live birth (P < 0.005). Conclusion(s): Classifiers using artificial intelligence applied toward a blastocyst image have a potential to show the probability of live birth being the outcome.Copyright (c) 2019 The Authors. Reproductive Medicine and Biology published by John Wiley & Sons Australia, Ltd on behalf of Japan Society for Reproductive Medicine."""
+
+

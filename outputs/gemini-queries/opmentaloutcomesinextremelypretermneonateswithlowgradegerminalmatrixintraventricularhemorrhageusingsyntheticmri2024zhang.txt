@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingneurodevelopmentaloutcomesinextremelypretermneonateswithlowgradegerminalmatrixintraventricularhemorrhageusingsyntheticmri2024zhang
+"Objectives: This study aims to assess the predictive capability of synthetic MRI in assessing neurodevelopmental outcomes for extremely preterm neonates with low-grade Germinal Matrix-Intraventricular Hemorrhage (GMH-IVH). The study also investigates the potential enhancement of predictive performance by combining relaxation times from different brain regions. Material(s) and Method(s): In this prospective study, 80 extremely preterm neonates with GMH-IVH underwent synthetic MRI around 38 weeks, between January 2020 and June 2022. Neurodevelopmental assessments at 18 months of corrected age categorized the infants into two groups: those without disability (n = 40) and those with disability (n = 40), with cognitive and motor outcome scores recorded. T1, T2 relaxation times, and Proton Density (PD) values were measured in different brain regions. Logistic regression analysis was utilized to correlate MRI values with neurodevelopmental outcome scores. Synthetic MRI metrics linked to disability were identified, and combined models with independent predictors were established. The predictability of synthetic MRI metrics in different brain regions and their combinations were evaluated and compared with internal validation using bootstrap resampling. Result(s): Elevated T1 and T2 relaxation times in the frontal white matter (FWM) and caudate were significantly associated with disability (p < 0.05). The T1-FWM, T1-Caudate, T2-FWM, and T2-Caudate models exhibited overall predictive performance with AUC values of 0.751, 0.695, 0.856, and 0.872, respectively. Combining these models into T1-FWM + T1-Caudate + T2-FWM + T2-Caudate resulted in an improved AUC of 0.955, surpassing individual models (p < 0.05). Bootstrap resampling confirmed the validity of the models. Conclusion(s): Synthetic MRI proves effective in early predicting adverse outcomes in extremely preterm infants with GMH-IVH. The combination of T1-FWM + T1-Caudate + T2-FWM + T2-Caudate further enhances predictive accuracy, offering valuable insights for early intervention strategies.Copyright (c) 2024 Zhang, Zhu, Wang, Wang, Lu, Lu, Xing, Wang, Zhang and Zhao."""
+
+

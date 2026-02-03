@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: racialdifferencesintheinfluenceofinterpregnancyintervalonfetalgrowth2017atreya
+"Objectives Assess the influence of maternal race on the association between interpregnancy interval (IPI) and risk of small for gestational age (SGA) and large for gestational age (LGA) births. Methods Statewide population-based cohort study of 380,520 singleton births. We calculated risk of SGA and LGA births following IPIs of 0 to <6, 6 to <12, 12 to <24 (referent), 24 to <60 months, and >=60 months, by maternal race after adjustment for confounding influences. Results The highest risk for SGA among white women followed short IPI of 0 to <6 months [adjRR 1.14 (95 % CI 1.08-1.21)], and long IPI >= 60 months [adjRR 1.37 (95 % CI 1.31-1.43)]. Only long IPI >= 60 months increased SGA risk in black women [adjRR 1.22 (95 % CI 1.13-1.32)]. LGA risk in white women was lowest with shortest and longest IPIs, 0 to <6 [adjRR 0.80 (95 % CI 0.76-0.84)] and >=60 months [adjRR 0.68 (95 % CI 0.66-0.70)]. The crude risk of LGA was directly proportional to longer IPIs in black women. However, after adjusting for confounding effects of age, obesity, excessive gestational weight gain, and gestational diabetes, the effect was reversed to reduced risk following long IPI >= 60 months [adjRR 0.82 (95 % CI 0.74-0.91)], similar to that of white women. Conclusions In black and white women, an interpregnancy interval of 1-2 years is associated with optimal fetal growth. In addition to birth spacing, addressing modifiable factors such as pre-pregnancy BMI, monitoring gestational weight gain, and control of gestational diabetes in black women may help optimize fetal growth. (c) 2016, Springer Science+Business Media New York."""
+
+

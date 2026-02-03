@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cellularandmolecularatlasofperipheralbloodmononuclearcellsfromapregnantwomanafterrecoveryfromcovid192023du
+"OBJECTIVE: This study aimed to investigate the immune response of a pregnant woman who recovered from the coronavirus disease 2019 (COVID_RS) by using single-cell transcriptomic profiling of peripheral blood mononuclear cells (PBMCs) and to analyze the properties of different immune cell subsets. METHODS: PBMCs were collected from the COVID_RS patient at 28 weeks of gestation, before a cesarean section. The PBMCs were then analyzed using single-cell RNA sequencing. The transcriptional profiles of myeloid, T, and natural killer (NK) cell subsets were systematically analyzed and compared with those of healthy pregnant controls from a published single-cell RNA sequencing data set. RESULTS: We identified major cell types such as T cells, B cells, NK cells, and myeloid cells in the PBMCs of our COVID_RS patient. The increase of myeloid and B cells and decrease of T cells and NK cells in the PBMCs in this patient were quite distinct compared with that in the control subjects. After reclustering and Augur analysis, we found that CD16 monocytes and mucosal-associated invariant T (MAIT) cells were mostly affected within different myeloid, T, and NK cell subtypes in our COVID_RS patient. The proportion of CD16 monocytes in the total myeloid population was increased, and the frequency of MAIT cells in the total T and NK cells was significantly decreased in the COVID-RS patient. We also observed significant enrichment of gene sets related to antigen processing and presentation, T-cell activation, T-cell differentiation, and tumor necrosis factor superfamily cytokine production in CD16 monocytes, and enrichment of gene sets related to antigen processing and presentation, response to type II interferon, and response to virus in MAIT cells. CONCLUSION: Our study provides a single-cell resolution atlas of the immune gene expression patterns in PBMCs from a COVID_RS patient. Our findings suggest that CD16-positive monocytes and MAIT cells likely play crucial roles in the maternal immune response against severe acute respiratory syndrome coronavirus 2 infection. These results contribute to a better understanding of the maternal immune response to severe acute respiratory syndrome coronavirus 2 infection and may have implications for the development of effective treatments and preventive strategies for the coronavirus disease 2019 in pregnant women."""
+
+

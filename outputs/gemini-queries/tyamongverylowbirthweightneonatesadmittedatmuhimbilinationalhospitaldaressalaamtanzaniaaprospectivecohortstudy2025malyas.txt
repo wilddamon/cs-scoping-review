@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intraventricularhaemorrhageassociatedfactorsandmortalityamongverylowbirthweightneonatesadmittedatmuhimbilinationalhospitaldaressalaamtanzaniaaprospectivecohortstudy2025malyas
+"BACKGROUND: Intraventricular hemorrhage (IVH) is a serious complication of prematurity with a potential impact on morbidity and mortality particularly in very low birth weight neonates. Despite advances in neonatal care over recent years, there is no recent data regarding IVH in our setting. This study aimed to determine the proportion of IVH, its associated factors, and mortality at Muhimbili National Hospital (MNH). METHODS: A hospital-based prospective cohort study was conducted among preterm very low birth weight neonates admitted at MNH. Data was obtained from interviews, physical examination, review of maternal antenatal cards, and neonatal records. Cranial ultrasound was done on day 3 and day 7 of life to determine the presence and severity of IVH. Mortality of neonates was determined on day 7. Data were summarised using frequencies, percentages, median, and interquartile range. Chi-square and Fisher's exact were used to measure the association between categorical variables. Variables found to be significantly associated with IVH were analysed by Poisson regression. A p-value of 0.05 or less was considered statistically significant. RESULTS: The proportion of VLBW neonates with IVH was 22.9% with grade 1 being the most prevalent. The majority of IVH (74.7%) occurred within the first 3 days of life. Factors found to increase the risk of IVH in the univariate analysis were gestational age, mode of delivery, respiratory distress syndrome, hypothermia, early-onset sepsis, use of inotropes, thrombocytopenia and mechanical ventilation. However, none of these factors were independent predictors of IVH in multivariate Poisson regression analysis. Mortality of VLBW neonates with IVH was significantly higher than their counterparts without IVH (RR = 2,95% CI (1.25-3.34). CONCLUSIONS: IVH is common among VLBW neonates most of which occurred by day 3 of life. The risk of Mortality was two times higher among VLBW neonates with IVH compared to those without IVH. Further research should be conducted to explore predictors of mortality and long-term outcome of VLBW neonates with IVH."""
+
+

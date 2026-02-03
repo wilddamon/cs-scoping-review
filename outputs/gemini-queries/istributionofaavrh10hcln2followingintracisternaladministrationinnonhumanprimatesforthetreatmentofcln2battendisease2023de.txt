@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessmentofsafetyandbiodistributionofaavrh10hcln2followingintracisternaladministrationinnonhumanprimatesforthetreatmentofcln2battendisease2023de
+"CLN2 disease is a fatal, childhood autosomal recessive disorder caused by mutations in ceroid lipofuscinosis type 2 (CLN2) gene, encoding tripeptidyl peptidase 1 (TPP-1). Loss of TPP-1 activity leads to accumulation of storage material in lysosomes and resultant neuronal cell death with neurodegeneration. Genotype/phenotype comparisons suggest that the phenotype should be ameliorated with increase of TPP-1 levels to 5-10% of normal with wide central nervous system (CNS) distribution. Our previous clinical study showed that intraparenchymal (IPC) administration of AAVrh.10hCLN2, an adeno-associated vector serotype rh.10 encoding human CLN2, slowed, but did not stop disease progression, suggesting that this may be insufficient to distribute the therapy throughout the CNS (Sondhi 2020). In this study, we assessed whether the less invasive intracisternal delivery route would be safe and provide a wider distribution of TPP-1. A study was conducted in nonhuman primates (NHPs) with intracisternal delivery to cerebrospinal fluid (CSF) of AAVrh.10hCLN2 (5 x 10(13) genome copies) or phosphate buffered saline (PBS). No abnormal behavior was noted. CNS magnetic resonance imaging and clinical chemistry data were all unremarkable. Histopathology of major organs had no abnormal finding attributable to the intervention or the vector, except that in one out of two animals treated with AAVrh.10hCLN2, dorsal root ganglia showed mild-to-moderate mononuclear cell infiltrates and neuronal degeneration. In contrast to our previous NHP study (Sondhi 2012) with IPC administration where TPP-1 activity was >2 x above controls in 30% of treated brains, in the two intracisternal treated NHPs, the TPP-1 activity was >2 x above controls in 50% and 41% of treated brains, and 52% and 84% of brain had >1,000 vector genomes/mg DNA, compared to 0% in the two PBS NHP. CSF TPP1 levels in treated animals were 43-62% of normal human levels. Collectively, these data indicate that AAVrh.10hCLN2 delivered by intracisternal route is safe and widely distributes TPP-1 in brain and CSF at levels that are potentially therapeutic. Clinical Trial Registration: NCT02893826, NCT04669535, NCT04273269, NCT03580083, NCT04408625, NCT04127578, and NCT04792944."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: bifidobacteriumbrevepreventsnecrotisingenterocolitisbysuppressinginflammatoryresponsesinapretermratmodel2016satoh
+"Necrotising enterocolitis (NEC) is associated with inflammatory responses and barrier dysfunction in the gut. In this study, we investigated the effect of Bifidobacterium breve M-16V on factors related to NEC development using an experimental rat model. Caesarean-sectioned rats were given formula milk with or without B. breve M-16V by oral gavage thrice daily, and experimental NEC was induced by exposing the rats to hypoxic conditions. Naturally delivered rats that were reared by their mother were used as healthy controls. The pathological score of NEC and the expression of molecules related to inflammatory responses and the barrier function were assessed in the ileum. B. breve M-16V reduced the pathological scores of NEC and resulted in some improvement in survivability. B. breve M-16V suppressed the increased expression of molecules related to inflammation and barrier function that resulted from NEC induction. B. breve M-16V normalised Toll-like receptor (TRL)4 expression and enhanced TLR2 expression. Our data suggest that B. breve M-16V prevents NEC development by modulating TLR expressions and suppressing inflammatory responses in a rat model."""
+
+

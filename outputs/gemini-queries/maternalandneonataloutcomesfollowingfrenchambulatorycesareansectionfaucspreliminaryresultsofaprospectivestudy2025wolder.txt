@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandneonataloutcomesfollowingfrenchambulatorycesareansectionfaucspreliminaryresultsofaprospectivestudy2025wolder
+"OBJECTIVES: The French Ambulatory Cesarean Section (FAUCS) is an extraperitoneal cesarean technique aimed at enhancing maternal recovery and reducing postoperative morbidity. While early trials suggest certain benefits over conventional cesarean section (CS), real-world data remains scarce. This study compares maternal and neonatal outcomes between FAUCS and CS in a prospective cohort, with emphasis on perioperative recovery. MATERIAL AND METHODS: This prospective study included women undergoing elective cesarean section (FAUCS or CS) at term (37-40 Hbd) between September 2023 and December 2024. Maternal outcomes included surgery duration, blood loss, time to mobilization, food oral intake, and initiation of breastfeeding. Neonatal outcomes included birth weight, Apgar scores, and umbilical cord arterial pH. Comparisons used t-tests, Wilcoxon tests, or Chi-square tests (p < 0.05; analysis in R). RESULTS: Sixty-six patients were included (FAUCS: 30; CS: 36). Baseline maternal or obstetric characteristics were comparable. No differences were found in gestational age or birthweight. FAUCS neonates had marginally lower umbilical pH (7.33 +- 0.07 vs 7.36 +- 0.06, p = 0.009). No difference was found in Apgar scores. FAUCS was associated with longer surgery (30.7 +- 4.1 min vs 26.4 +- 10.3 min, p = 0.006), but significantly faster mobilization, food oral intake, and breastfeeding (all p < 0.001). Fundal pressure was used less often (p < 0.001), and instrumental assistance more frequently (p < 0.001) in FACUS. The use of weak opioids was also lower (p = 0.036). The hospital stay was similar. CONCLUSIONS: FAUCS appears to enhance early recovery without compromising maternal or neonatal outcomes, supporting its use in select patients."""
+
+

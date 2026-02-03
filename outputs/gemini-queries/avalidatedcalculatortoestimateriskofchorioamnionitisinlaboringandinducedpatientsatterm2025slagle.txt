@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: avalidatedcalculatortoestimateriskofchorioamnionitisinlaboringandinducedpatientsatterm2025slagle
+"Chorioamnionitis is associated with neonatal morbidity and infection-related mortality, but our ability to predict intrapartum infection is limited. We sought to derive and validate a prediction model for chorioamnionitis among patients presenting to labor and delivery at term.This was a planned secondary analysis of a large cohort study from 2014 through 2018 at an academic tertiary care center. To derive a prediction model for chorioamnionitis, we limited our analysis to full-term (>=37 weeks) patients with a singleton gestation undergoing labor induction and presenting in labor. Both nulliparous and multiparous patients were included. Patients with a planned cesarean delivery, fever on admission, or missing data were excluded. The model was derived using multivariable logistic regression. Refinement of the prediction model with internal calibration was performed. External validation was performed utilizing a publicly available database (Consortium on Safe Labor) and applying the same inclusion and exclusion criteria. The discriminative power of each model was assessed using a bootstrap, bias-corrected area under the curve.The chorioamnionitis rates in the derivation and external validation groups were 5% (1,005/19,966) and 5.8% (n = 3,005/52,171), respectively. In multivariable modeling, maternal age, nulliparity, gestational age, smoking status, group B Streptococcus colonization, hours ruptured, number of cervical exams, length of labor, epidural use, internal monitoring, and meconium were significantly associated with infection. A calculator was created and externally validated with an area under the curve of 0.82 (95% confidence interval, 0.81-0.82). External validity was further confirmed with a calibration intercept of 0.81.This is the first infection calculator created and validated for the prediction of developing chorioamnionitis in patients undergoing induction of labor at term. This calculator can be used to augment patient counseling and guide intrapartum infection surveillance in laboring patients. * This calculator was created and validated for the prediction of developing chorioamnionitis.. * This calculator can be used to augment patient counseling.. * Predictive factors were identified and significantly associated with infection.."""
+
+

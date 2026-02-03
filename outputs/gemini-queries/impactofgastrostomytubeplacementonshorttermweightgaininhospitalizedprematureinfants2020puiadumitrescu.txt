@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofgastrostomytubeplacementonshorttermweightgaininhospitalizedprematureinfants2020puiadumitrescu
+"BACKGROUND: Gastrostomy tube (G-tube) placement is a long-term alternative to oral or nasogastric feeding for premature infants who cannot safely feed orally or need supplemental nutrition for adequate growth. METHODS: We compared daily weight changes for G-tube infants 14 and 30 days preplacement and postplacement, excluding the first 7 days post-G-tube insertion. Infants <37 weeks of gestation without major congenital anomalies and discharged from 327 United States neonatal intensive care units (2004-2013) were included. Incidence of in-hospital outcomes including hypoxic ischemic encephalopathy, intraventricular hemorrhage grade 3 or 4, necrotizing enterocolitis, and patent ductus arteriosus ligation was examined. Additionally, we estimated a treatment effect model in which infants with a G-tube were matched 1:1 to untreated controls based on propensity scores; main outcome was the average treatment effect (weight gain) for treated infants during the 7, 14, or 30 days immediately prior to discharge. RESULTS: Of 329,254 infants, 1393 (0.4%) received a G-tube, increasing from 0.2% in 2004 to 0.6% in 2013. Daily weight gain was significantly less during days 8-14 postplacement compared with 14 days preplacement but was similar between 30 days preplacement and 8-30 days postplacement. After matching, G-tube infant weight gain during the 7 days predischarge was less than among controls, but there was no difference in weight gain between treated and control patients for 14 days and 30 days predischarge. CONCLUSIONS: The prevalence of G-tube placement has increased. G-tube use in infants was not associated with improved short-term daily weight gain."""
+
+

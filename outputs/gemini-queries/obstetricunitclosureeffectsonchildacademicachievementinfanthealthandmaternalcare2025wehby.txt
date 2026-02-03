@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricunitclosureeffectsonchildacademicachievementinfanthealthandmaternalcare2025wehby
+"OBJECTIVE: To examine effects of obstetric unit closures on children's academic achievement, infant health, and maternal care outcomes. METHODS: This retrospective cohort study employs 1994-2009 birth certificate data from Iowa linked to school test scores for grades 2-11 through 2017-2018. Regressions based on two-way fixed effects (TWFE) and Callaway and Sant'Anna (C&S) difference-in-differences models estimate the effects of maternal residence in counties that had obstetric unit closures within 5 years before birth year. Outcomes are national percentile rankings (NPRs) on math and reading, gestational age, preterm birth, birthweight, low birthweight, prenatal visits, cesarean delivery, and labor induction. RESULTS: The sample included 2,414,393-2,424,184 child-grade observations and 379,772-381,228 children depending on the outcome. TWFE estimates were - 0.66 (95% CI: - 1.48, 0.15) NPRs for math and - 0.86 (95% CI: - 1.93, 0.21) NPRs for reading. C&S estimates were - 0.88 (95% CI: - 4.48, 2.72) NPRs for math and 0.30 (95% CI: - 4.93, 5.52) NPRs for reading. Closure associations with gestational age were - 0.1 (95% CI: - 0.17, - 0.028) and - 0.09 weeks (95% CI: - 0.28, 0.09) in the TWFE and C&S models, respectively; associations with birthweight were - 33 g (95% CI: - 59, - 7) and - 2 g (95% CI: - 57, 54), respectively. Associations with other infant health and maternal outcomes were small and not statistically significant. CONCLUSIONS: There is overall little evidence that obstetric unit closure within 5 years before birth impact children's math and reading scores and infant health and maternal care outcomes. Future research can evaluate how closures affect care continuity and access and potential heterogeneity including by maternal health risks and pregnancy complications."""
+
+

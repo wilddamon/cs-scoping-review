@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: umbilicalcordbloodgasinnewbornswithprenataldiagnosisofcongenitalheartdiseaseinsightintoinuteroanddeliveryhemodynamics2019adams
+"The primary objective was to determine if newborns with congenital heart disease (CHD) are at a higher risk for acidosis at delivery as determined by cord blood gas analysis. The secondary objective was to determine whether specific fetal cardiac diagnosis, delivery method, or duration of labor is associated with an increased risk for acidosis. This was a retrospective study of newborns with CHD diagnosed prenatally and comparable patients without a CHD diagnosis. Study participants included 134 CHD-affected newborns and 134 controls. Median UA pH in CHD newborns was 7.22 (CI 7.2-7.4) and in controls it was 7.22 (CI 7.21-7.24), p = 0.91. There was no difference in median UA pH comparing newborns with single-ventricle CHD and two-ventricle CHD [7.23 (CI 7.2-7.26) vs. 7.22 (CI 7.22-7.24), p = 0.77], or newborns with CHD with aortic obstruction and those without aortic obstruction [7.23 (CI 7.21-7.26) vs. 7.22 (CI 7.2-7.24), p = 0.29]. After controlling for delivery method and duration of labor, CHD patients who underwent a spontaneous vaginal delivery were found to have a declining median UA pH as labor progressed. Our results show that newborns with CHD have a normal UA pH at delivery suggesting a compensated circulation in utero. Spontaneous vaginal delivery with a progressively longer duration of labor in CHD newborns was associated with lower UA pH. This suggests that fetuses with CHD may be at risk for hemodynamic instability at birth with a longer duration of labor as a potentially modifiable factor to improve outcome."""
+
+

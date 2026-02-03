@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactonpatientstimetotheatrefollowingcolourcodingclassificationinemergencyoperationtheatresarawakgeneralhospital2020khawsoonkeong
+"Introduction: A proper prioritisation system of emergency cases allows appropriate timing of surgery and efficient allocation of resources and staff expertise. The aim of this study was to determine the impact of colour coding classification on Time-to-theatre (TTT) of patients in comparison with the normal practice. Method: Categorisation was a surgical judgment call after thorough clinical assessment. There were 4 levels of urgency with their respective TTT; Red (2 hours), Yellow (8 hours), Green (24 hours), Blue (72 hours). Caesarean cases were excluded in colour coding due to pre-existing classification. The data for mean TTT was collected 4 weeks before the implementation (Stage 1), and another 4 weeks after implementation (Stage II). As there was a violation in the assumption for parametric test, Mann Whitney U test was used to compare the means between these two groups. Using logarithmic (Ln) transformation for TTT, Analysis of Covariance (ANCOVA) was conducted for multivariate analysis to adjust the effect of various departments. The mean TTT for each colour coding classification was also calculated. Results: The mean TTT was reduced from 13 hours 48 min to 10 hours, although more cases were completed in Stage II (428 vs 481 cases). Based on Mann-Whitney U test, the difference in TTT for Stage I (Median=6.0, /IQR=18.9) and Stage II (Median=4.2, IQR=11.5) was significantly different (p=0.023). The result remained significant (p=0.039) even after controlled for various department in the analysis. The mean/median TTT after colour coding was Red-2h 24min/1h, Yellow-8h 26min/3h 45 min, Green-15h 8min/8h 15min, and Blue-13h 46min/13h 5min. Conclusion: Colour coding classification in emergency Operation (OT) was effective in reducing TTT of patients for non-caesarean section cases. (c) 2020, Malaysian Medical Association. All rights reserved."""
+
+

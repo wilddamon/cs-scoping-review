@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retrospectivecohortstudyonracialandethnicdisparitiesincesareanbirthinamidwiferyintegratedhealthsystem2025smith
+"OBJECTIVE: To examine factors associated with cesarean birth by race and ethnicity in a health system with a large proportion of midwife-attended births. DESIGN: Retrospective cohort study using electronic heath record data. SETTING: A multihospital regional health system of community and academic hospitals on the Colorado Front Range. PARTICIPANTS: Data from the births of women admitted for labor and birth from January 1, 2018 to January 31, 2020 (N = 10,473). METHODS: We identified cesarean births and categorized them by maternal race and ethnicity and the type of provider who managed the labor. We used descriptive statistics to characterize the sample. We used multivariable logistic regression to examine associations among cesarean birth, maternal race and ethnicity, and provider type accounting for hospital geographic location, maternal age, and insurance status by parity. RESULTS: Cesareans accounted for 13% of total births and 22.4% of births among nulliparous women with term singleton pregnancies with the fetus in vertex position. Nearly 33% of total births were attended by midwives. Compared with non-Hispanic White women, odds of cesarean birth were significantly higher for nulliparous Black/African American women (odds ratio (OR) = 1.55, 95% confidence interval (CI) [1.13, 2.13], p < .05), Asian women (OR = 1.54, 95% CI [1.02, 2.32], p < .05), Hispanic women (OR = 1.36, 95% CI [1.11, 1.65], p > .05), and women of all other races (OR = 1.70, 95% CI [1.27, 2.27], p < .001) as well as multiparous Hispanic women (OR = 1.60, 95% CI [1.18, 2.25], p < .05) and multiparous women of all other races (OR = 2.60, 95% CI [1.64, 4.13], p < .001). Cesarean birth was more likely when a physician compared with a midwife managed the labor course in nulliparous births (OR = 1.38, 95% CI [1.30, 1.50], p < .001) and multiparous births (OR = 1.60, 95% CI [1.36, 1.90], p < .001). CONCLUSION: Although overall rates of cesarean birth were low in comparison with state and national averages, racial disparities persisted. Our study findings are aligned with those from previous studies in which researchers demonstrated lower use of cesarean birth with midwifery care and reinforce the importance of examining multilevel influences on cesarean birth."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isspontaneouspretermdeliveryassociationwithclusteringoffuturematernalcardiovascularriskmarkerspcna21stannualsymposiumapril8112015anaheimcalifornia2017minissian
+"Background: Although many atherosclerotic cardiovascular disease (ASCVD) risk factors are well established, less is known about a woman's cardiovascular response to pregnancy, which may be an early marker of future maternal CVD risk. Spontaneous preterm delivery (sPTD) has been associated with a 2-fold increased risk of maternal CVD later in life, yet little is known about the association. Methods: Our study, "Is Spontaneous Preterm Delivery Associated with Clustering of Future Maternal Cardiovascular Risk Markers?,'' enrolled 20 women with sPTD (gestation <= 34 weeks) and 20 control women (gestation >= 39 weeks) matched for age (+-5 years), parity, race, and route of delivery collected between 24 and 72 hours postpartum. We measured total cholesterol (TC), high-density lipoprotein calculated (HDLc), triglycerides (TRG), low-density lipoprotein calculated, C-reactive protein (CRP), and interleukin-6 (IL-6) 24 to 72 hours postpartum. Paired t test based on match was used on the data. Mixed effects linear regression models with a random effect for match were used to compare lipids, CRP, and IL-6 between the groups (sPTD vs control) and adjust for potential confounders. Results: The mean age for sPTD and controls was 33 +- 6 years and 32 +- 6 years, respectively. Women with sPTD had lower family income compared with control women (P = .04). There were no other demographic differences between the 2 groups. Compared with matched controls, women with sPTD had significantly lower HDLc (67.4 mg/dL vs 59.37 mg/dL, respectively; P = .035). After adjusting for group (sPTD vs control), BMI, SBP at baseline, education level, and marital status, high-density lipoprotein difference between groups remained significant (P = .0039). There were no group differences in total cholesterol, triglycerides, low-density lipoprotein calculated, CRP, and IL-6. Conclusion: Because HDLc plays an important role in ASCVD prevention, further study is needed to determine if women with sPTD will benefit from earlier, more vigilant ASCVD monitoring and lifestyle interventions."""
+
+

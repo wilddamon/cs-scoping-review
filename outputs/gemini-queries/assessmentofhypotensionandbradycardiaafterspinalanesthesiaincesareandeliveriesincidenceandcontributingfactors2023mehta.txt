@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessmentofhypotensionandbradycardiaafterspinalanesthesiaincesareandeliveriesincidenceandcontributingfactors2023mehta
+"Background: Hypotension and bradycardia are frequent and potentially serious complications following spinal anesthesia during cesarean section. This study aims to identify and analyze the factors contributing to the occurrence of these hemodynamic disturbances in this clinical setting. Material(s) and Method(s): This prospective cross-sectional study included 722 parturient undergoing cesarean section under spinal anesthesia. Continuous variables were analyzed using the t-test, while categorical variables were compared using the Chi-square test. Multivariate logistic regression analysis was employed to identify predictors of hypotension-defined as a systolic blood pressure reduction of more than 30% from baseline-and bradycardia, defined as a heart rate below 60 beats per minute. A p-value of less than 0.05 was considered statistically significant. Result(s): The incidence of hypotension and bradycardia following spinal anesthesia was 52.6% and 2.5%, respectively. The likelihood of developing hypotension was significantly higher in patients with estimated blood loss between 500-1000 mL (Odds Ratio [OR] = 1.86; 95% Confidence Interval [CI]: 1.30-2.67; p = 0.001) and those with blood loss exceeding 1000 mL (OR = 5.31; 95% CI: 1.47-19.19; p = 0.011). An analgesia level above T4 was also associated with increased hypotension risk (OR = 1.94; 95% CI: 1.18-3.19; p = 0.009). Notably, hypotension occurred even with the application of left uterine displacement (OR = 1.56; 95% CI: 1.11-2.19; p = 0.01). Bradycardia was significantly associated with the addition of 0.2 mg (0.2 mL) intrathecal morphine to the local anesthetic solution (OR = 4.61; 95% CI: 1.31-16.19; p = 0.017). Conclusion(s): This study found that the risk of hypotension following spinal anesthesia for cesarean section significantly increased with estimated blood loss exceeding 500 mL and when the sensory block level rose above T4. Additionally, the use of 0.2 mg (0.2 mL) intrathecal morphine in combination with local anesthetics was associated with a higher incidence of bradycardia.Copyright (c) 2023 Dr. Yashwant Research Labs Pvt. Ltd.. All rights reserved."""
+
+

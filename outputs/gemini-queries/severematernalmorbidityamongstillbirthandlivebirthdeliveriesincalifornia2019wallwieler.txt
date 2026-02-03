@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severematernalmorbidityamongstillbirthandlivebirthdeliveriesincalifornia2019wallwieler
+"OBJECTIVE:To assess the prevalence and risk of severe maternal morbidity among delivery hospitalization for stillbirth compared with live birth deliveries.METHODS:Using data from the Office of Statewide Health Planning and Development in California, we performed a population-based cross-sectional study of 6,459,842 deliveries between 1999 and 2011. We identified severe maternal morbidity using an algorithm comprising diagnoses and procedures developed by the Centers for Disease Control and Prevention and used log-binomial regression models to examine the relative risk (RR) of severe maternal morbidity for stillbirth compared with live birth deliveries, adjusting for maternal demographic, medical, and obstetric characteristics. We also examined severe maternal morbidity prevalence by cause of fetal death among stillbirth deliveries.RESULTS:The prevalence of severe maternal morbidity for stillbirth and live birth was 578 and 99 cases per 10,000 deliveries, respectively. After adjusting for maternal demographic, medical, and obstetric characteristics, the risk of severe maternal morbidity among stillbirth deliveries was more than fourfold higher (adjusted RR 4.77; 95% CI 4.53-5.02) compared with live birth deliveries. The severe maternal morbidity prevalence was highest among stillbirths caused by hypertensive disorders and placental conditions (24 and 19 cases/100 deliveries, respectively), and lowest among stillbirths caused by fetal malformations or genetic abnormalities (1 case per 100 deliveries).CONCLUSION:Women who have stillbirths are at substantially higher risk for severe maternal morbidity than women who have live births, regardless of cause of fetal death. The prevalence of severe maternal morbidity varies by cause of fetal death. (c) 2019 by the American College of Obstetricians and Gynecologists. Published by Wolters Kluwer Health, Inc. All rights reserved."""
+
+

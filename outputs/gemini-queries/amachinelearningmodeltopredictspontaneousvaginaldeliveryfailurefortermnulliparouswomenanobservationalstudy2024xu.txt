@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: amachinelearningmodeltopredictspontaneousvaginaldeliveryfailurefortermnulliparouswomenanobservationalstudy2024xu
+"Objective: This study aims to construct and evaluate a model to predict spontaneous vaginal delivery (SVD) failure in term nulliparous women based on machine learning algorithms. Methods: In this retrospective observational study, data on nulliparous women without contraindications for vaginal delivery with a singleton pregnancy >=37 weeks and before the onset of labor from September 2020 to September 2021 were divided into a training set and a temporal validation set. Transperineal ultrasound was performed to collect angle of progression, head-perineum distance, subpubic arch angle, and their levator hiatal dimensions. The cervical length was measured via transvaginal ultrasound. The delivery methods were later recorded. Through LASSO regression analysis, indicators that can affect SVD failure were selected. Seven common machine learning algorithms were selected for model training, and the optimal algorithm was selected based on the area under the curve (AUC) to evaluate the effectiveness of the validation model. Results: Four indicators related to SVD failure were identified through LASSO regression screening: angle of progression, cervical length, subpubic arch angle, and estimated fetal weight. The Gaussian NB algorithm was found to yield the highest AUC (0.82, 95% confidence interval [CI] 0.65-0.98) during model training, and hence it was chosen for verification with the temporal validation set, in which an AUC of 0.79 (95% CI 0.64-0.95) was obtained with accuracy, sensitivity, and specificity rates of 80.9%, 72.7%, and 75.0%, respectively. Conclusion: The Gaussian NB model showed good predictive effect, proving its potential as a clinical reference for predicting SVD failure of term nulliparous women before actual delivery. (c) 2024 International Federation of Gynecology and Obstetrics."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: studyontheeffectsofcadmiumexposureonzincmetabolismandfoxo3aexpressioninthepreeclampsiamaternalfetalsystem2025ding
+"Purpose: To detect the levels of cadmium (Cd) and zinc (Zn) in maternal blood, umbilical blood, and placenta of preeclampsia (PE) patients, elucidating their relationship with FOXO3a transcription factors and oxidative stress. Patients and Methods: A total of 100 pregnant women admitted for childbirth at the obstetrics department of the First People's Hospital of Yunnan Province from September 2023 to September 2024 were included (normal group: 40 cases, PE group: 60 cases). Inductively coupled plasma mass spectrometry (ICP-MS) was used to measure Cd and Zn levels in maternal blood, umbilical cord blood, and placental tissues. Enzyme-linked immunosorbent assay (ELISA) was applied to detect Forkhead box O3a (FOXO3a) levels. Statistical analysis was performed using SPSS 27.0 software and RStudio to compare differences and correlations among groups. Perform post hoc statistical efficacy analysis on sample size using G*Power software. Result(s): Compared with the normal group, placental Cd levels were significantly higher in the PE group (P<0.05) and the maternal blood and placental Zn levels were significantly lower in the PE group (P<0.05). In the PE group, the levels of Zn and Cd in maternal blood and placenta were positively correlated (r=0.50, P<0.001; r=0.567, P<0.001). Placental FOXO3a levels were significantly elevated in the PE group (P<0.001), while maternal and umbilical cord blood FOXO3a levels were reduced (P<0.001). The levels of FOXO3a in the placenta were negatively correlated with the levels of Zn (r=-0.277, P<0.05), and the levels of FOXO3a in umbilical cord blood were negatively correlated with the levels of Cd (r=-0.326, P<0.05). Conclusion(s): The exposure and accumulation of Cd in the maternal-fetal system can affect the transport and metabolism of Zn in placenta, leading to increased expression of FOXO3a under oxidative stress, causing the occurrence and development of PE.Copyright (c) 2025 Ding et al."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: changesinpostpartumopioidprescribingafterimplementationofstateopioidprescribinglimits2024fry
+"IMPORTANCE: In response to the growing opioid crisis, states implemented opioid prescribing limits to reduce exposure to opioid analgesics. Research in other clinical contexts has found that these limits are relatively ineffective at changing opioid analgesic prescribing. OBJECTIVE: To examine the association of state-level opioid prescribing limits with opioid prescribing within the 30-day postpartum period, as disaggregated by type of delivery (vaginal vs cesarean) and opioid naivete. DESIGN, SETTING, AND PARTICIPANTS: This retrospective, observational cohort study used commercial claims data from January 1, 2014, to December 31, 2021, from 49 US states and a difference-in-differences staggered adoption estimator to examine changes in postpartum opioid prescribing among all deliveries to enrollees between the ages of 18 and 44 years in the US. EXPOSURES: The implementation of a state opioid prescribing limit between 2017 and 2019. MAIN OUTCOMES AND MEASUREMENTS: The primary outcomes for this analysis were the number of prescriptions for opioid analgesics, proportion of prescriptions with a supply greater than 7 days, and milligrams of morphine equivalent (MMEs) per delivery between 3 days before and 30 days after delivery. RESULTS: A total of 1 572 338 deliveries (enrollee mean [SD] age, 30.20 [1.59] years) were identified between 2014 and 2021, with 32.3% coded as cesarean deliveries. A total of 98.4% of these were to opioid-naive patients. The mean MMEs per delivery was 310.79, with higher rates in earlier years, states that had an opioid prescribing limit, and cesarean deliveries. In a covariate-adjusted difference-in-differences regression analysis, opioid prescribing limits were associated with a decrease of 148.70 MMEs per delivery (95% CI, -657.97 to 360.57) compared with states without such limits. However, these changes were not statistically significant. The pattern of results was similar among other opioid-prescribing outcomes and types of deliveries. CONCLUSIONS AND RELEVANCE: The results of this cohort study suggest that opioid prescribing limits are not associated with changes in postpartum opioid prescribing regardless of delivery type or opioid naivete, which is consistent with research findings on these limits in other conditions or settings. Future research could explore what kinds of prevention mechanisms reduce the risk of opioid prescribing during pregnancy and postpartum."""
+
+

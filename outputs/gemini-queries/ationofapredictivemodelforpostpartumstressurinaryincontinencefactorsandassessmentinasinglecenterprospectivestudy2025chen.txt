@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofapredictivemodelforpostpartumstressurinaryincontinencefactorsandassessmentinasinglecenterprospectivestudy2025chen
+"INTRODUCTION AND HYPOTHESIS: Stress urinary incontinence (SUI) affects approximately 21% to 26% of women in the postpartum period. This study aimed to determine the incidence and identify risk factors of SUI, and more importantly, to establish a predictive model for SUI. METHODS: A prospective study was conducted in our hospital. We gathered clinical information, pelvic floor muscle strength measurements, Glazer scores, and transperineal ultrasound (TPUS) data from participants between 6 and 8 weeks postpartum. At the 1-year postpartum mark, we conducted follow-ups to assess the incidence of SUI. Furthermore, through data analysis, we aimed to identify key factors associated with SUI and use these to build a predictive model for its occurrence. Classification models were constructed using categorical boosting (CatBoost), random forest (RF), support vector machine (SVM), and K nearest neighbors (KNN), and the optimal model was selected. RESULTS: A total of 521 postpartum women were enrolled, and 83 (15.93%) of them experienced postpartum SUI. We found that the number of deliveries is an important factor for the occurrence of postpartum SUI, followed by the mode of delivery and age. Manual muscle testing, the Glazer score, and TPUS were all effective methods for assessing pelvic floor function. CatBoost was chosen for its accuracy (0.822), precision (0.836), and recall (0.822) in predicting SUI. CONCLUSIONS: Our postpartum SUI prediction model facilitates SUI risk management by identifying risk factors such as age and pregnancy count, integrating pelvic floor muscle strength, Glazer scores, and TPUS assessments to create personalized screening plans based on individual risk levels."""
+
+

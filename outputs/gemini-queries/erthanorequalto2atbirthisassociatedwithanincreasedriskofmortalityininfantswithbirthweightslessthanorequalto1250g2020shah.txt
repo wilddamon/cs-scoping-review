@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: respiratoryseverityscoregreaterthanorequalto2atbirthisassociatedwithanincreasedriskofmortalityininfantswithbirthweightslessthanorequalto1250g2020shah
+"Objective: Respiratory Severity Score (RSS), the product of mean airway pressure and the fraction of inspired oxygen may estimate the severity of neonatal lung disease. We aimed to determine if RSS on the first day of life is associated with mortality and/or comorbidities in infants born less than or equal to 1250 g. Methods: Data were extracted from the NYS Perinatal Data System for premature inborn infants from 2006 to 2016 born between 400 and 1250 g (N = 730). RSS was divided into three categories: less than 2 (low, n = 310), 2-5 (moderate, n = 265), greater than 5 (high, n = 155). The primary outcome was mortality. Logistic regression determined associations with composite outcomes of death or respiratory morbidity (respiratory support after 36 weeks postmenstrual age), death or neurologic morbidity (periventricular leukomalacia) or high-grade intraventricular hemorrhage), and death/severe morbidity (death or neurologic morbidity or respiratory morbidity or stage >= III retinopathy of prematurity or necrotizing enterocolitis) by RSS category. Results: Birthweight and gestational age were lower with the increasing RSS category (p <.001 for both). Mode of delivery, antenatal steroids, and maternal age did not differ by RSS. In adjusted analyses, there were increased odds of mortality in infants with moderate RSS (odds ratio [95% confidence intervals]: 3.1 (1.7-5.4) and high 4.5 (2.5-8.2). These groups had higher odds of death or respiratory morbidity, death or neurologic morbidity, and death/severe morbidity. Conclusion: Higher RSS (>=2) is associated with an increased risk of mortality and morbidities in infants born less than or equal to 1250 g. (c) 2020 Wiley Periodicals LLC"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: highperformanceofthediffusionmagneticresonanceimagingbiomarkerdiffusionderivedvesseldensityddvdforseparatingplacentasassociatedwithpreeclampsiafromplacentasinnormalpregnancy2025li
+"Background: Diffusion-derived 'vessel density' (DDVD) is a surrogate of the area of micro-vessels per unit tissue. DDVD is calculated according to: DDVD (b0b50) = Sb0/ROIarea0 - Sb50/ROIarea50, where Sb0 and Sb50 refer to the tissue signal when b is 0 or 50 s/mm2. Due to the complexity of pre-eclampsia (PE), even a combination of risk factors and available tests cannot accurately diagnose or predict PE. This study applies DDVD to assess the perfusion of placenta, and study placenta perfusion disturbance in PE patients. Method(s): Diffusion-weighted images with b-values of 0, 50 s/mm2 were acquired in 44 normal pregnancies and 25 patients with PE with a 3.0-T magnet. Diffusion-derived vessel density ratio (DDVDr) was calculated according to: DDVD of placenta/DDVD of fetal brain. Result(s): The DDVD values of the control placentas [n=44, median: 67.53, 95% confidence interval (CI): 52.84-79.46] were significantly higher than those of the PE patients (n=25, median: 23.66, 95% CI: 17.22-45.57, P<0.0001), while there was no difference of the fetal brain DDVD values of the control cases (median: 29.5, 95% CI: 25.46-34.62) and those of PE patients (median: 33.6, 95% CI: 27.82-35.39, P=0.41). DDVDr results of the control cases (median: 2.00, 95% CI: 1.57-2.50) and PE patients (median: 0.81, 95% CI: 0.53-1.18, P<0.0001) were significantly different, with area under the receiver operating characteristic curve (AUROC) of 0.84 for separation. The AUROC was 0.92 for separation when only cases with gestation age (GA) <=35 weeks were considered (control n=20, PE n=9). If only PE patients with fetal growth restriction (n=8) were compared with the controls (n=44), then AUROC was 0.96 for the separation. A trend was noted with GA and DDVDr negatively correlated in the control group (r=-0.26, P=0.085); however, such a trend was not observed for PE patients. A trend was observed with systolic blood pressure and DDVDr negatively correlated (r=-0.328, P=0.117). Conclusion(s): DDVDr may play an important role in patient PE prediction and follow-up.Copyright (c) AME Publishing Company."""
+
+

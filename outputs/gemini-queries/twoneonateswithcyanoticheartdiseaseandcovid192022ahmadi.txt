@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: twoneonateswithcyanoticheartdiseaseandcovid192022ahmadi
+"We herein describe 2 neonates with cyanotic-type congenital heart disease and COVID-19. The first case was a boy at 37 weeks of gestational age (GA) who had cyanosis (SpO2 <90%) on the second day of the birth. He was transferred to the neonatal intensive care unit (NICU) for COVID-19 patients for infection treatment following a positive COVID-19 PCR test. Finally, he had a cardiopulmonary arrest, and cardiopulmonary resuscitation failed. The second case was a boy at 38 weeks of GA. His fetal echocardiography showed a hypoplastic right ventricle with decreased contractility, an atretic tricuspid valve, a hypoplastic pulmonary valve, and a small echogenic focus in the left ventricle. He was then diagnosed with COVID-19 and treated with Kaletra. Follow-up echocardiography showed a functioning shunt, a relieved pericardial effusion, and a normal ejection fraction. He was discharged a week later in good general condition.Copyright (c) 2022, Iranian Heart Association. All rights reserved."""
+
+

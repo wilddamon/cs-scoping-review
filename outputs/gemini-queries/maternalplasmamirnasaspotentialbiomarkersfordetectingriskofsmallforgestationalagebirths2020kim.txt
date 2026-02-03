@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalplasmamirnasaspotentialbiomarkersfordetectingriskofsmallforgestationalagebirths2020kim
+"Background: Small-for-gestational-age fetuses (SGA) (birthweight <10th centile) are at high risk for stillbirth or long-term adverse outcomes. Here, we investigate the ability of circulating maternal plasma miRNAs to determine the risk of SGA births. Methods: Maternal plasma samples from 29 women of whom 16 subsequently delivered normally grown babies and 13 delivered SGA (birthweight <5th centile) were selected from a total of 511 women recruited to form a discovery cohort in which expression data for a total of 800 miRNAs was determined using the Nanostring nCounter miRNA assay. Validation by RT-qPCR was performed in an independent cohort. Findings: Partial least-squares discriminant analysis (PLS-DA) of the Nanostring nCounter miRNA assay initially identified seven miRNAs at 12-14+6 weeks gestation, which discriminated between SGA cases and controls. Four of these were technically validated by RT-qPCR. Differential expression of two miRNA markers; hsa-miR-374a-5p (p = 0*0176) and hsa-let-7d-5p (p = 0*0036), were validated in an independent population of 95 women (SGA n = 12, Control n = 83). In the validation cohort, which was enriched for SGA cases, the ROC AUCs were 0*71 for hsa-miR-374a-5p, and 0*74 for hsa-let-7d-5p, and 0*77 for the two combined. Interpretation: Whilst larger population-wide studies are required to validate their performance, these findings highlight the potential of circulating miRNAs to act as biomarkers for early prediction of SGA births. Funding: This work was supported by Genesis Research Trust, March of Dimes, and the National Institute for Health Research Biomedical Research Centre (NIHR BRC) based at Imperial Healthcare NHS Trust and Imperial College London. (c) 2020 The Authors"""
+
+

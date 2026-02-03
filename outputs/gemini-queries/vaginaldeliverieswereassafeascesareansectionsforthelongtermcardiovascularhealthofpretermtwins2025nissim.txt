@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vaginaldeliverieswereassafeascesareansectionsforthelongtermcardiovascularhealthofpretermtwins2025nissim
+"AIM: There is no established consensus on the safest or most beneficial delivery mode for preterm twins. We assessed the associations between how premature twins were delivered and their long-term cardiovascular morbidity during childhood. METHODS: A retrospective cohort study was conducted at the Soroka University Medical Center, the only tertiary hospital in southern Israel, which provides obstetric services to the whole country. Twins born between 1991 and 2021 were included, and their cardiovascular morbidity was followed up until 18 years of age. Data was collected from the hospital's databases. A Kaplan-Meier survival curve compared cumulative cardiovascular morbidity between the groups, and a Cox proportional hazard model adjusted the data for confounders. RESULTS: The study comprised 6856 premature twins: 3986 (58.1%) were born via Caesarean delivery and the other 2870 (41.9%) were born by vaginal delivery. Long-term cardiovascular morbidity rates were comparable between twins born vaginally and via Cesarean delivery. Likewise, the cumulative incidence of long-term cardiovascular morbidity did not differ. The Cox proportional hazard model, which controlled for maternal age, diabetes mellitus and hypertensive disorders, showed no associations with the two delivery groups. CONCLUSION: No associations were documented between delivery mode in preterm twins and childhood cardiovascular morbidity."""
+
+

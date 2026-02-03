@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: estimatingthehospitaldeliverycostsassociatedwithseverematernalmorbidityinnewyorkcity200820122018howland
+"OBJECTIVE: To quantify the average and total hospital delivery costs associated with severe maternal morbidity in excess of nonsevere maternal morbidity deliveries over a 5-year period in New York City adjusting for other sociodemographic and clinical factors. METHODS: We conducted a population-based cross-sectional study using linked birth certificates and hospital discharge data for New York City deliveries from 2008 to 2012. Severe maternal morbidity was defined using a published algorithm of International Classification of Diseases, 9 Revision, Clinical Modification disease and procedure codes. Hospital costs were estimated by converting hospital charges using factors specific to each year and hospital and to each diagnosis. These estimates approximate what it costs the hospital to provide services (excluding professional fees) and were used in all subsequent analyses. To estimate adjusted mean costs associated with severe maternal morbidity, we used multivariable regression models with a log link, gamma distribution, robust standard errors, and hospital fixed effects, controlling for age, race and ethnicity, neighborhood poverty, primary payer, number of deliveries, method of delivery, comorbidities, and year. We used the adjusted mean cost to determine the average and total hospital delivery costs associated with severe maternal morbidity in excess of nonsevere maternal morbidity deliveries from 2008 to 2012. RESULTS: Approximately 2.3% (n=13,502) of all New York City delivery hospitalizations were complicated by severe maternal morbidity. Compared with nonsevere maternal morbidity deliveries, these hospitalizations were clinically complicated, required more and intensive clinical services, and had a longer stay in the hospital. The average cost of delivery with severe maternal morbidity was $14,442 (95% CI $14,128-14,756), compared with $7,289 (95% CI $7,276-7,302) among deliveries without severe maternal morbidity. After adjusting for other factors, the difference between deliveries with and without severe maternal morbidity remained high ($6,126). Over 5 years, this difference resulted in approximately $83 million in total excess costs (13,502x$6,126). CONCLUSION: Severe maternal morbidity nearly doubled the cost of delivery above and beyond other drivers of cost, resulting in tens of millions of excess dollars spent in the health care system in New York City. These findings can be used to demonstrate the burden of severe maternal morbidity and evaluate the cost-effectiveness of interventions to improve maternal health."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cerebraltissueoxygenationinposturalchangesinmechanicallyventilatedpretermnewbornslessthan72hoursafterbirth2017ravarian
+"Background: Positioning is a part of routine neonatal care in most neonatal intensive care units. Optimal positioning has been controversially advocated as a practice for providing better neuro-developmental outcomes in prematures. Objective(s): To evaluate by near-infrared spectroscopy (NIRS) the effect of changing posture on regional saturation of oxygen (rSO2) in the brain in mechanically ventilated preterm newborns during first 3 days after delivery. Method(s): Twenty stable ventilated preterm newborns were studied by NIRS in four different positions sequentially including supine, right-side-lying, prone, and left-side-lying, as well as in 3 intermediate periods between the four main positions. Result(s): About 45 percent of the sample of 20 neonates was under 30 weeks with a mean gestational age of 30.985+/-6.459. Also, 50 percent were less than 1500 grams, with a mean weight of 1638.75+/-623.04 grams. No statistically significant changes in rSO2 were found in the 4 main positions but we found significant difference between the rSO2 values of the "intermediate period between the right-side-lying and the prone position" with all other main positions and intermediate periods. Conclusion(s): The four main postures utilized in the practice of positioning infants, do not differ in terms of cerebral oxygenation. However, it seems that wide ranges of spatial mobilization in ventilated preterm neonates may be a potential cause of fall in brain oxygenation.Copyright (c) 2017, Iranian Journal of Pediatrics."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aclinicalcomparativestudybetweenintravenousdexmedetomidineandtramadolforcontrolofpostspinalanaesthesiashiveringincaesareansection2025chavada
+"Background: Shivering is a frequent and distressing complication following spinal anaesthesia during caesarean section, significantly impacting maternal comfort, increasing oxygen consumption, and causing hemodynamic fluctuations. This study aimed to compare the efficacy and safety of intravenous Dexmedetomidine and Tramadol in controlling post-spinal anaesthesia shivering in parturients. Material(s) and Method(s): A total of 60 patients scheduled for elective lower segment caesarean section under spinal anaesthesia were randomly allocated into two groups. Group D received intravenous Dexmedetomidine (0.5 microg/kg), and Group T received intravenous Tramadol (0.5 mg/kg) at the onset of shivering. The outcomes assessed included incidence and grade of shivering, time to cessation, hemodynamic changes, and side effects. Result(s): The results showed that 66.7% of patients in the Dexmedetomidine group achieved complete control of shivering (Grade 0) compared to 36.7% in the Tramadol group. The time taken for cessation of shivering was significantly shorter with Dexmedetomidine (4.23 +/- 1.18 minutes) than with Tramadol (6.56 +/- 1.09 minutes). Additionally, adverse effects such as nausea and vomiting were more common in the Tramadol group, whereas Dexmedetomidine showed minimal but manageable bradycardia and hypotension. Conclusion(s): It is concluded that intravenous Dexmedetomidine is more effective and better tolerated than Tramadol for the management of post-spinal shivering in caesarean section patients, providing faster relief and greater maternal comfort with fewer complications.Copyright (c) 2025 Society for Healthcare and Research Development. All rights reserved."""
+
+

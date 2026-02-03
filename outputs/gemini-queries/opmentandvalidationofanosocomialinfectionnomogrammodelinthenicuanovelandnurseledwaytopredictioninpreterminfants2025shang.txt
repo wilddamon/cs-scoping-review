@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofanosocomialinfectionnomogrammodelinthenicuanovelandnurseledwaytopredictioninpreterminfants2025shang
+"Purpose: Nosocomial infections (NI) are a leading cause of mortality in preterm infants in the Neonatal Intensive Care Unit (NICU). The key to reducing the risk of NI is early detection and treatment in time. Nurses are close observers and primary caregivers for neonates at the bedside of the NICU, who are best positioned to capture the risk signals of NI. This study aims to develop a nurse-led prediction model for NI of preterm infants in the NICU. Patients and Methods: This study was designed as a retrospective study, preterm infants of the NICU at Renmin Hospital of Wuhan University from January 2020 to December 2023 were selected and divided into the NI group and non-NI group. Clinical data were collected and then analyzed by univariate analysis, least absolute shrinkage and selection operator (LASSO) regression analysis, and multivariate logistic regression analysis. The outcome constructed a nomogram model and its predictive efficacy was evaluated by the area under the receiver operating characteristic curve (AUC), calibration curve, and decision curve analysis (DCA). Bootstrap method was used to repeat 1,000 times for internal validation. Result(s): A total of 892 preterm infants were finally included and a nurse-led predictive model established, which included six variables: skin color changes, respiratory related changes, feeding deterioration, birth weight, number of arterial and venous blood draws, and days of nasogastric tube placement. The model's AUC was 0.953, indicating good discriminatory power. The calibration plot demonstrated good calibration and the Hosmer-Lemeshow test showed high consistency. DCA indicated that the nomogram had good clinical utility. Internal validation showed the AUC of 0.952. Conclusion(s): This nomogram model, which is mainly based on nurses' observations, shows good predictive ability. It offered a more convenient option for neonatologists and nurses in the NICU.Copyright (c) 2025 Shang et al."""
+
+

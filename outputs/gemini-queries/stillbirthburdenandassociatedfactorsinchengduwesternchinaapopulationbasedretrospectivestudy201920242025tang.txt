@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: stillbirthburdenandassociatedfactorsinchengduwesternchinaapopulationbasedretrospectivestudy201920242025tang
+"BACKGROUND: Stillbirth remains a significant global public health concern, imposing considerable psychological, social, and economic impacts on families. However, limited research exists on its burden and determinants in Western China. This study aimed to evaluate the burden of stillbirth, defined as its incidence and recent trends, and to examine associated factors in Chengdu, a major city in the region. METHODS: A retrospective study was conducted using data from the Chengdu Maternal and Child Health Information System for deliveries between 2019 and 2024. The study included 946,299 Chinese women aged 15-49 years with gestational ages between 20 and 42 weeks. Multivariable modified Poisson regression models were used to estimate adjusted incidence risk ratios (aIRRs) and 95% confidence intervals (Cls). RESULTS: Stillbirth rates in Chengdu increased overall between 2019 and 2024, ranging from 4.07 to 5.36 per 1,000 births. Risk factors significantly associated with stillbirth included maternal age >= 35 years (aIRR: 1.59, 95% CI: 1.36, 1.85), overweight (aIRR: 1.30, 95% CI: 1.09, 1.56) or obesity (aIRR: 1.52, 95% CI: 1.13, 2.04), uterine scarring (aIRR: 9.79, 95% CI: 7.79, 12.29), preeclampsia/eclampsia (aIRR: 4.65, 95% CI: 2.56, 8.45), placental abruption (aIRR: 26.15, 95% CI: 13.09, 52.24), small-for-gestational-age infants (aIRR: 4.83, 95% CI: 4.28, 5.45), multiple gestations (aIRR: 10.67, 95% CI: 8.18, 13.92), conception via assisted reproductive technology (aIRR: 1.79, 95% CI: 1.41, 2.28), and assisted vaginal delivery (aIRR: 2.13, 95% CI: 1.77, 2.56). In contrast, higher maternal education (aIRR: 0.79, 95% CI: 0.68, 0.92 for college/university; aIRR: 0.34, 95% CI: 0.22, 0.54 for postgraduate), multiparity (aIRR: 0.84, 95% CI: 0.74, 0.95), female fetal sex (aIRR: 0.88, 95% CI: 0.80, 0.97), and cesarean delivery (aIRR: 0.03, 95% CI: 0.03, 0.04) were associated with a lower risk. Stratified analyses showed higher early stillbirth risk among women with rural hukou status (aIRR: 1.76, 95% CI: 1.16, 2.69). CONCLUSIONS: Although annual stillbirth rates in Chengdu remain below national and global averages, a recent increase in third-trimester losses highlights the need for strengthened maternal health surveillance. Targeted interventions addressing modifiable risk factors, improving prenatal monitoring, and narrowing urban-rural disparities hold promise for further reducing stillbirth rates."""
+
+

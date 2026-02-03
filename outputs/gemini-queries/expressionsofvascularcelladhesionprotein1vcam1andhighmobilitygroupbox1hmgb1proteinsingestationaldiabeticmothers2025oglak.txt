@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimmunohistochemicalandbioinformaticsanalysisoftheplacentalexpressionsofvascularcelladhesionprotein1vcam1andhighmobilitygroupbox1hmgb1proteinsingestationaldiabeticmothers2025oglak
+"OBJECTIVE: We aimed to examine both the expression levels of high mobility group box 1 (HMGB1) and vascular cell adhesion molecule-1 (VCAM-1) proteins in the placentas of pregnant women with gestational diabetes mellitus (GDM) and control groups by immunohistochemical (IHC) method. MATERIAL AND METHODS: An experimental case-control study was conducted, including 40 pregnant women complicated with GDM and 40 healthy pregnant women. Placental tissues obtained following cesarean delivery were subjected to routine tissue monitoring. The placental sections were stained with VCAM-1 and HMGB1 immunostains and subjected to IHC examination under a light microscope. H-score (HS) was used to evaluate the results of IHC staining by semi-quantitative analysis. Pathway analysis in Cytoscape software identified GDM-associated proteins within HMGB1 and VCAM-1 interaction networks, followed by GO analysis to explore associated biological processes. RESULTS: Placental HGMB1 expression was significantly increased in the GDM group compared to the control group (p<0.001). However, placental VCAM-1 expression was found to be statistically similar in GDM and control groups (p=0.584). The shared 19 proteins were identified between HMGB1 and GDM, and 13 between VCAM-1 and GDM, with notable GO biological process terms such as immune system activation for HMGB1 and interleukin-6 regulation for VCAM-1 associated with GDM. CONCLUSION: We consider that GDM-related inflammation and oxidative stress may contribute to tissue damage and inflammation by increasing placental HMGB1 expression. The blockade of HMGB1 and its receptors might represent a promising therapeutic approach to control inflammation in GDM. Understanding the distinct roles of HMGB1 and VCAM-1 may provide valuable insights for the development of targeted therapies aimed at mitigating the inflammatory processes associated with GDM and improving maternal and fetal outcomes."""
+
+

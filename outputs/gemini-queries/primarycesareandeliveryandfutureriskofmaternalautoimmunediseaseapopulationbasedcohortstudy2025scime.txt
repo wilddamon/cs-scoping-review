@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: primarycesareandeliveryandfutureriskofmaternalautoimmunediseaseapopulationbasedcohortstudy2025scime
+"OBJECTIVES: To determine the association between primary Cesarean delivery and incident autoimmune disease in women. METHODS: We conducted a population-based cohort study of 253,901 females in Ontario, Canada with a first childbirth between 2012 and 2017 and with no pre-existing autoimmune disease. Royston-Parmar models were used to estimate the time-varying association between Cesarean delivery (28.2 % of females) versus vaginal delivery (71.8 % of females; referent) and celiac disease, multiple sclerosis (MS), rheumatoid arthritis (RA), and systemic autoimmune rheumatic disease (SARD), separately, from date of delivery to date of diagnosis or censoring at death, loss of health insurance, or March 31, 2021. To account for potential confounding by indication for Cesarean delivery, models were generated using (i) overlap weighting based on propensity scores for mode of delivery and (ii) with restriction to low-risk pregnancies free of pre-labour Cesarean indications (n = 146,887). RESULTS: At up to 9 years following childbirth (median = 6.5 years of follow-up), Cesarean delivery was associated with an increased risk of MS, but not celiac disease, RA, or SARD. Overall, cumulative incidence of MS was 0.28 % following Cesarean delivery and 0.21 % following vaginal delivery. After overlap weighting, the adjusted hazard ratio (AHR) curve formed a slight L-shape with the largest magnitude between birth and 3 years (1-year AHR 1.37, 95 % CI 1.04-1.69) and diminishing thereafter (5-year 1.23, 95 % CI 0.91-1.55; 7-year 1.21, 95 % CI 0.84-1.57). Results were similar when restricted to births following low-risk pregnancies. CONCLUSIONS: Findings suggest a possible link between Cesarean delivery and MS development among females that warrants future replication and explanatory studies."""
+
+

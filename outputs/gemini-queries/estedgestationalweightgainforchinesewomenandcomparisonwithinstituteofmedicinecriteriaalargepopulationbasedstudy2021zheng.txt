@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: suggestedgestationalweightgainforchinesewomenandcomparisonwithinstituteofmedicinecriteriaalargepopulationbasedstudy2021zheng
+"Objective: To establish suggested gestational weight gain (GWG) using several distinct methods in a Chinese population. Methods: This study analyzed data from the medical records of singleton pregnancy women during 2011-2017 in Beijing, China. Suggested GWG was calculated using four distinct methods. In method 1, suggested GWG was identified by the interquartile method. Subsequently, risk models for small for gestational age (SGA) and large for gestational age (LGA) with respect to GWG were constructed. GWG was treated as a continuous variable in method 2, and as a categorized variable in methods 3 and 4. Results: An average GWG of 15.78 kg with a prevalence of LGA at 19.34% and SGA at 2.12% was observed among the 34,470 participants. Methods 1 and 2 did not yield clinically applicable results. The suggested GWGs were 11-17/11-16 kg, 9-19/9-15 kg, 4-12/4-10 kg, and 0-12/0-6 kg by method 3/method 4 for underweight, normal-weight, overweight, and obese women, respectively. The GWG range suggested by method 3 resulted in a larger proportion of participants (62.03%) within range, while the suggested GWG range by method 4 was associated with a lower risk of LGA compared to that conferred by the Institute of Medicine (IOM) criteria. Conclusion: This study suggests a modest GWG goal compared to IOM recommendations based on a large Chinese cohort. (c) 2021 The Author(s) Published by S. Karger AG, Basel."""
+
+

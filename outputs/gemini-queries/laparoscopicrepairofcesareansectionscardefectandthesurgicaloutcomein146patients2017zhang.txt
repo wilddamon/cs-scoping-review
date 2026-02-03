@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: laparoscopicrepairofcesareansectionscardefectandthesurgicaloutcomein146patients2017zhang
+"Objectives: We described laparoscopic repair of previous lower uterine segment caesarean scar defect (PCSD) in a series of 146 patients in our hospital. Method(s): From April 2010 to July 2015, 146 patients with PCSD in the Obstetrics and Gynecology Hospital of Fudan University underwent laparoscopic repair of PCSD. The surgical and pregnancy outcome were followed, and the risk factors for successful healing of the repair were analyzed. Result(s): The patients in the incomplete and complete excision group both had an obviously shortened period after surgery. Single factor analysis showed that the thickness of the residual myometrium, suturing material, and estimated blood loss were correlated with the effects of surgery. Multivariate logistic regression analysis showed that the thickness of the residual myometrium and suturing material were independent risk factors for successful healing of the repair. Thirty-two patients desired for fertility in this study, and 12 of them got pregnant in 13-32 months after surgery, including 8 term cesarean delivery, 2 preterm cesarean delivery, 1 artificial abortion, 1 cesarean scar pregnancy, and 2 were pregnant when this study was summarized. Conclusion(s): Laparoscopic complete excision of CSD and repair with delayed absorbable material may be performed with fair symptom relief and acceptable postoperative anatomic and functional outcomes.Copyright (c) 2017, E-Century Publishing Corporation. All rights reserved."""
+
+

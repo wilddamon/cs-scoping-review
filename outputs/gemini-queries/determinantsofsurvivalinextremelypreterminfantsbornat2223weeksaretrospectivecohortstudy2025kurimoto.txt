@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: determinantsofsurvivalinextremelypreterminfantsbornat2223weeksaretrospectivecohortstudy2025kurimoto
+"BACKGROUND: This study investigated the risk factors associated with mortality in infants born at 22-23 weeks and assessed the impact of different variables on survival outcomes. METHODS: This retrospective study included 185 infants born at 22-23 weeks at a single tertiary care center (2006-2023). Univariate and logistic regression analyses identified independent predictors of mortality. RESULTS: Among 185 infants, 64 (34.6%) did not survive. Mortality was associated with a lower birth weight (509 g vs. 564 g, p = 0.0001) and higher rates of small for gestational age (SGA; 21.9% vs. 7.4%, p = 0.009). Independent predictors included SGA [odds ratio (OR): 5.8], tension pneumothorax (OR: 9.9), severe intraventricular hemorrhage (OR: 3.3), focal intestinal perforation (OR: 4.1), necrotizing enterocolitis (OR: 18.9), and early-onset sepsis (OR: 9.7). Cesarean delivery was associated with reduced mortality (OR: 0.3). CONCLUSIONS: Targeted management of these risk factors and cesarean delivery may improve the outcomes in this population."""
+
+

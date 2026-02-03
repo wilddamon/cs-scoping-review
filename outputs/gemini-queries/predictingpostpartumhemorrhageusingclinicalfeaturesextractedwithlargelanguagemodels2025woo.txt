@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingpostpartumhemorrhageusingclinicalfeaturesextractedwithlargelanguagemodels2025woo
+"OBJECTIVE: To evaluate whether large language models (LLMs) applied to prenatal clinical notes can predict postpartum hemorrhage (PPH) before the onset of labor and to compare model performance across outcome definitions, including a novel intervention-based definition. METHODS: We conducted a retrospective cohort study within a large regional health network. Two outcome definitions for PPH were used: 1) estimated or quantitative blood loss (EBL-QBL) extracted from clinical notes; and 2) a clinical intervention-based PPH definition (cPPH) designed to capture significant hemorrhage requiring intervention, including transfusion, uterotonics, Bakri balloon, or hysterectomy. We evaluated three PPH prediction pipelines: 1) structured data only-supervised machine learning that used structured electronic medical record data; 2) LLM-direct-direct prediction that used a fine-tuned LLM applied to clinical notes; and 3) LLM-extract-interpretable models that used LLM-extracted features combined with structured data. Model performance was evaluated using an area under the receiver operating characteristic curve (AUROC) on a temporally held-out test set. RESULTS: Among 19,992 deliveries, 1,156 patients (5.8%) met the EBL-QBL definition of PPH, 321 (1.6%) met the cPPH definition, and 309 (1.5%) met both definitions. The LLM-based direct prediction model achieved the highest AUROC for both PPH definitions (AUROC 0.79-0.80), followed by interpretable models that combined LLM-extracted features with structured data (AUROC 0.76-0.78). Models that used only structured data had the lowest AUROC (0.65-0.71). The LLM-extracted features approach identified 47 significant predictors, including established risk factors such as multiple gestation and previous cesarean delivery. CONCLUSION: These findings highlight the potential of LLM-based approaches to improve PPH risk stratification beyond structured data alone, with the feature extraction method offering a promising balance between predictive performance and clinical utility. Eventual integration of these methods into clinical workflows could improve early detection and guide targeted preventive interventions."""
+
+

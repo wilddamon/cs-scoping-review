@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: congenitalmicrocephalyhospitalizationsincaliforniainfants199920132019krasnow
+"Introduction: Population-level changes in microcephaly incidence risk (IR) could signal circulation of neurotropic pathogens or potential emerging teratogen exposure. Methods: In this retrospective population cohort study, we estimated the IR of hospitalizations with a microcephaly ICD-9-CM discharge diagnosis code among infants <=1 year over a 15-year period (1999-2013) using the Electronic Health Record (EHR) database from all hospital discharges in California from the Office of Statewide Hospital Planning and Development (OSHPD) database. We calculated the overall and yearly IRs per 10,000 live births (LBs) and per 10,000 hospitalizations in infants <=1 year, and explored the impact in the IR estimates when children with microcephaly associated comorbidities were excluded or not. Results: Among 8,860,153 hospital discharges of infants <=1 year in the OSHPD database over this 15 year period, we identified 6,004 hospitalizations with a microcephaly discharge diagnosis code; 3,526 of those were in neonates <=30 days. The IR of microcephaly hospitalizations for infants <=1 year was 7.70/10,000 LB (for neonates it was 4.52/10,000 LB) and 6.78 per 10,000 hospitalizations <=1 year. There was large heterogeneity in the yearly microcephaly IRs (I2 = 66.6%). Discussion: EHR collected data could be used as a complementary approach to track epidemiologic changes in microcephaly IRs. However, standardization in the use of microcephaly discharge diagnosis code and harmonization in the types of additional comorbidities to be excluded across analyses is mandatory to allow for prompt identification of true changes in microcephaly rates over time. (c) 2019 Wiley Periodicals, Inc."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deeplearninginpredictingpretermbirthacomparativestudyofmachinelearningalgorithms2024zhang
+"Objective To determine whether deep learning algorithms are suitable for predicting preterm birth. Methods A retrospective study was conducted at Peking University Third Hospital from January 2018 to June 2023. Birth data were divided into two parts based on the date of delivery: the first part was used for model training and validation, while real world viability was evaluated using the second part. Four machine learning algorithms (logistic regression, random forest, support vector machine, and transformer) were employed to predict preterm birth. Receiver operating characteristic curves were plotted, and the area under the curve (AUC), sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), and accuracy were calculated. Results This research included data on 30,965 births, where 24,770 comprised the first part, and included 3164 (12.77%) in the preterm birth group, with 6195 in the second part, including 795 (12.83%) in the preterm birth group. Significant differences in various factors were observed between the preterm and full-term birth groups. The transformer model (AUC = 79.20%, sensitivity = 73.67%, specificity = 72.48%, PPV = 28.21%, NPV = 94.95%, and accuracy = 72.61% in the test dataset) demonstrated superior performance relative to logistic regression (AUC = 77.96% in the test dataset), support vector machine (AUC = 71.70% in the test dataset), and random forest (AUC = 75.09% in the test dataset) approaches. Conclusion This study highlights the promise of deep learning algorithms, specifically the transformer algorithm, for predicting preterm birth. (c) (c) 2024 The Chinese Medical Association, published by Wolters Kluwer Health, Inc."""
+
+

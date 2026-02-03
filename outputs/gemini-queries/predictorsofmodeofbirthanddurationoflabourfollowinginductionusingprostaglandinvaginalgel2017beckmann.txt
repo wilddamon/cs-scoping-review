@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsofmodeofbirthanddurationoflabourfollowinginductionusingprostaglandinvaginalgel2017beckmann
+"Background and aims: Using data from a randomised controlled trial (RCT) comparing two policies of prostaglandin (PGE2) vaginal gel induction of labour (IOL) at term, this study aimed to determine: (i) demographic/clinical factors that predict IOL outcomes; and (ii) clinical characteristic(s) of women who would benefit from a policy of amniotomy once technically possible as opposed to giving more PGE2. Material and methods: Following an initial PGE2 dose, women were randomised to amniotomy or repeat-PGE2. Using RCT data, two multivariate models were developed, assessing the relationship between demographic/clinical characteristics and the outcomes of caesarean section (CS), and vaginal delivery within 24 h (VD < 24 h). Regression-equations were used to predict the likelihood of CS and VD < 24 h, varying independent predictors from the multivariate analyses. Results: Of 245 term women undergoing IOL, 90 had a CS, 155 delivered vaginally and 79 had a VD < 24 h. Controlling for confounders, nulliparity [adjusted odds ratio (aOR) = 3.71 (1.55, 8.88)] and modified Bishop's score (MBS) at first review [aOR = 0.78 (0.66, 0.92)] were independently associated with CS. Nulliparity [aOR = 0.06 (0.02, 0.15)], MBS at first review [aOR = 1.66 (1.35, 2.05)], and a policy of early amniotomy [aOR = 2.28 (1.04, 5.00)] were associated with VD < 24 h. Modelling using regression equations, and varying both MBS at first review and parity, there was no scenario where repeat PGE2 was predicted to be superior to an earlier amniotomy. Conclusions: Following IOL using PGE2 vaginal gel at term, both parity and cervical favourability at first review are associated with CS and VD < 24 h. All combinations of parity and MBS at first review predicted fewer CS and greater likelihood of VD < 24 h with a policy of amniotomy once technically possible. (c) 2017 The Royal Australian and New Zealand College of Obstetricians and Gynaecologists"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofdynamicnomogramsforpredictingdeliverymodeandneonatalintensivecareunitadmissioninintrapartumfeveraretrospectivecohortstudy2025ni
+"BACKGROUND: While maternal intrapartum fever is linked to adverse neonatal outcomes, predictive tools for delivery mode and neonatal intensive care unit (NICU) admission in this population remain scarce. OBJECTIVE: To develop and validate a dynamic nomogram predicting cesarean delivery and NICU admissions in women with intrapartum fever, facilitating individualized intrapartum decision-making. METHODS: This retrospective cohort study analyzed 24,784 deliveries (2019-2021) at a tertiary center. After exclusions, 1,047 women with intrapartum fever were included in the study cohort. The dataset was randomly partitioned into training (n=837) and testing (n=210) sets. Backward stepwise multivariable logistic regression models were developed to predict cesarean delivery and neonatal intensive care unit admission. The discriminative capacity of the model was evaluated using receiver operating characteristic (ROC) curve analysis. Calibration performance was assessed via 1000 nonparametric bootstrap resamples to generate calibration curves, with systematic quantification of agreement between predicted probabilities and observed outcomes through the Brier score and Hosmer-Lemeshow goodness-of-fit test. RESULTS: Predictors of cesarean delivery included advanced maternal age, hypertensive disorders, Intrapartum Antibiotic Prophylaxis (IAP), Meconium-Stained Amniotic Fluid (MSAF), Macrosomia, Postpartum Hemorrhage (PPH), Oligohydramnios, assisted reproductive technology (ART), Hypertensive Disorders of Pregnancy (HDP), Maternal tachycardia, Placental histopathology, intrapartum temperature and Method of inducing labor. Low Birth Weight (LBW), adverse obstetric history (AOH), Fetal tachycardia, Fetal bradycardia, Scarred uterus, Maternal tachycardia and MSAF predicted neonatal intensive care unit admission. The cesarean delivery model achieved AUC of 0.8 (training) and 0.783 (testing); the neonatal intensive care unit admission model showed AUC of 0.681 (training) and 0.748 (testing). CONCLUSION: This nomogram provides a clinically useful tool to predict delivery mode and neonatal intensive care unit admission in women with intrapartum fever, aiding risk stratification and improving perinatal outcomes."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: longitudinalratesandriskfactorsforadversebirthweightamongfirstnationspregnanciesinalberta2016oster
+"Objective: We wished to identify the prevalence, longitudinal trends, and associated risk factors for various birth weight categories by First Nations ethnicity in the province of Alberta. Methods: We performed a retrospective analysis of administrative data for the years 2000 to 2009 inclusive. Age-adjusted prevalence trends for high birth weight (HBW; > 4000g), very HBW (> 4500g), low birth weight (LBW; < 2500g), and very LBW (< 1500g) were compared via average annual percent change analyses. Logistic regression analysis was used to determine risk factors. Results: First Nations ethnicity was a significant independent predictor of HBW (OR 1.82 [95% CI 1.75, 1.89]), very HBW (OR 2.35 [95% CI 2.18, 2.52]), and very LBW (OR 1.35 [95% CI 1.23, 1.48]), but not of LBW (OR 0.98 [95% CI 0.93, 1.03]). However, HBW prevalence decreased and other birth weight categories remained stable over time in First Nations populations. Gestational diabetes and maternal weight >= 91 kg were potentially manageable risk factors for HBW. Potentially manageable risk factors for LBW included pre-gestational renal disease, hypertension, and maternal weight <= 45 kg, as well as smoking, illicit drug dependence, and alcohol consumption. Conclusion: Although HBW, very HBW, and very LBW remain more common in Alberta First Nations populations than in the general population, their prevalence is not increasing. (c) 2016 Society of Obstetricians and Gynaecologists of Canada."""
+
+

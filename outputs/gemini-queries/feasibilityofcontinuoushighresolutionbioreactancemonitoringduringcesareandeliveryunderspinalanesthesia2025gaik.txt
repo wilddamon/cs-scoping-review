@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: feasibilityofcontinuoushighresolutionbioreactancemonitoringduringcesareandeliveryunderspinalanesthesia2025gaik
+"PURPOSE: This study is the first to apply bioreactance-based hemodynamic monitoring with a 4-s interval during cesarean delivery under spinal anesthesia. We evaluated the feasibility of continuous, high-resolution perioperative monitoring in a routine clinical setting, with a particular focus on the temporal relationship between hypotension and changes in advanced hemodynamic parameters. METHODS: This prospective observational study conducted between December 2023 and April 2024 included 51 healthy parturients scheduled for elective cesarean delivery under spinal anesthesia were included. All participants underwent continuous non-invasive hemodynamic monitoring using bioreactance technology. Hemodynamic parameters were recorded at 4-s intervals. The primary outcome was the relative change in the stroke volume index (SVI) from baseline. The secondary endpoints included signal quality, data integrity, and trends in hemodynamic parameters. RESULTS: A reduction in the stroke volume index (SVI) of >=20% was observed in 29 of 51 patients. The median percentage change in SVI from baseline was -18.9% [IQR - 31.5 to -6.1]; p < 0.001. The median time from the onset of relevant SVI decline to the occurrence of hypotension was 2:20 min [IQR 1:16-3:56]. The total cumulative observation time for all patients was 3,781 min. At a 4-s sampling interval, approximately 56,713 data points per hemodynamic parameter were expected. The signal loss was minimal, with less than 0.5% missing data per parameter. CONCLUSION: This method proved to be feasible and yielded stable, high-resolution hemodynamic data. Among all parameters, SVI showed the most consistent baseline values prior to anesthesia. It also demonstrated the most pronounced change, with a statistically significant decline in the majority of subjects between spinal anesthesia and the onset of first hypotension. In such cases, the marked decline in SVI may serve as an early indicator of impending hemodynamic compromise. These results from a low-risk obstetric cohort may inform future research on high-risk populations."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: diagnosticutilityofcombinedserumprocalcitoninandcreactiveproteinsinneonatalsepsis2025chen
+"Aims/Background Early diagnosis of neonatal sepsis is hindered by nonspecific clinical signs and suboptimal biomarkers. Therefore, this study aimed to evaluate the diagnostic accuracy of serum procalcitonin (PCT) and C-reactive protein (CRP), both individually and in combination, and assess the robustness and clinical utility of a combined predictive model. Methods This single-center retrospective cohort (2022-2025, Longyan First Hospital Affiliated to Fujian Medical University, China) included 293 neonates (161 with sepsis and 132 controls). Univariate logistic regression was applied to compare the clinical and laboratory parameters between the sepsis and control groups. Diagnostic accuracy was evaluated using receiver operating characteristic (ROC) curves, contingency tables, and the DeLong tests. A logistic regression-based combined prediction model was developed using a 7:3 stratified random split into training and validation sets. Model robustness was assessed via calibration plots, decision curve analysis (DCA), and visualized as a nomogram. Subgroup and culture-confirmed-only sensitivity analyses further assessed the consistency of the combined predictive model. Results Sepsis cases exhibited significantly higher PCT, CRP, and white blood cell (WBC), and lower hemoglobin (Hb) and platelet (PLT) (all p < 0.001). Univariate logistic regression confirmed PCT [odds ratio (OR) = 3.32, 95% confidence interval (CI): 2.23-4.93, p < 0.001] and CRP (OR = 1.03, 95% CI: 1.01-1.05, p = 0.003) as significant predictors of neonatal sepsis. The combined PCT-CRP model provided better diagnostic performance, achieving a significantly greater area under the curve (AUC) of 0.94 (95% CI 0.92-0.97) than either marker alone (0.88 for PCT, 0.87 for CRP) as shown by DeLong test (p < 0.001). Furthermore, the model maintained higher sensitivity (82.61%) while significantly improving specificity (93.18%) and overall diagnostic accuracy (87.36%). The nomogram, validated in both sets, exhibited good calibration and net clinical benefit in DCA. Subgroup analysis confirmed consistent predictive performance across gestational age, delivery mode, and sex, with CRP more pronounced in preterm infants. Sensitivity analyses using culture-confirmed sepsis validated model robustness (AUC = 0.94). Conclusion PCT and CRP are key diagnostic biomarkers for neonatal sepsis. Their integration as a combined predictive model significantly enhances diagnostic performance and clinical applicability, providing a practical framework for early sepsis identification and potential for clinical implementation."""
+
+

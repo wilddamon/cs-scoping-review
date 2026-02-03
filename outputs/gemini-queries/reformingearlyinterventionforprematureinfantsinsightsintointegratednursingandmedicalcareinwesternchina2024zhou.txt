@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: reformingearlyinterventionforprematureinfantsinsightsintointegratednursingandmedicalcareinwesternchina2024zhou
+"Background: Premature births has imposed substantial burdens on medical resources. Consequently, a specialized team was established and a model focused on early intervention, namely the Delivery Room Intensive Care Unit (DICU) emphasizing "care, support, and treatment" was introduced and its impact on the morbidity and mortality outcomes of newborns was assessed. Additionally, we aimed to develop a nomogram model for predicting the risk of intraventricular hemorrhage (IVH) in preterm infants. Method(s): A retrospective study involving 2,788 infants was conducted to compare the characteristics and outcomes of infants admitted following the transition from the previous "neonatal intensive care unit (NICU)-centered" approach to the current early "care, support, and treatment" model. Clinical and laboratory data were recorded from birth until their discharge. The primary outcome was IVH, with additional evaluation of mortality and morbidities related to the neurological, respiratory, circulatory, and digestive systems. Result(s): The DICU approach significantly declined the incidence of IVH [OR: 0.16, 95% CrI (0.11,0.23)], hypothermia [OR: 0.33, 95% CrI (0.21,0.50)], apnea [OR: 0.60, 95% CrI (0.47,0.75)], perinatal respiratory diseases [OR: 0.63, 95% CrI (0.52,0.75)] and metabolic acidosis [OR: 0.24, 95% CrI (0.16,0.34)]. Five predictors were selected: DICU exposure, gestational age, birth weight, ventilation mode within seven days, and ibuprofen use (d). The model built by these predictors displayed good prediction ability with the area under the ROC curve of 0.793 in the training set and 0.803 in the validation set. Conclusion(s): The standardized DICU model had significantly reduced the incidences of morbidities. The risk nomogram is useful for prediction of IVH risk in eligible infants, with a high accuracy, sensitivity, consistency, and practicability. This study emphasizes the shift in early intervention concepts and team collaboration sets "neonatologists, neonatal nurse practitioners, and respiratory therapists", which advocates for standardized decision-making for treatment from the delivery room to improve the success rate of resuscitation and enhance the prognosis of these infants.Copyright 2024 Zhou, Lin, Luo, Liu, Wang, Wang and Mu."""
+
+

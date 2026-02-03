@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: successfulresuscitationofneonatalkittensdeliveredbyaperimortemcesareansectionfollowingmaternalcardiopulmonaryarrest2023racette
+"A 9 yr old, unknown weight, intact female domestic shorthair presented for evaluation of dystocia with dyspnea. En route to the hospital for treatment, the owners noted the queen stopped breathing. On presentation, cardiopulmonary arrest was confirmed. The exact cause was unknown but suspected to be secondary to acute fulminant congestive heart failure or acute respiratory distress syndrome due to a large volume of serosanguineous fluid within the mouth and nose. Cardiopulmonary resuscitation (CPR) was immediately started. After 2 min of CPR without return of spontaneous circulation, the owners consented to perimortem Cesarean section. Two kittens were removed via emergency hysterotomy within 3-4 min. Both kittens were successfully resuscitated. CPR efforts were continued on the queen for 2 min after delivery of the kittens, at which time the owners elected to stop further resuscitative efforts. Both kittens were discharged from the hospital and were alive at last follow-up, 2 yr and 4 mo after birth. There are no previous reports regarding the use of a perimortem Cesarean section to deliver neonates in small animal medicine. Therefore, this report represents a novel treatment approach that can be considered in the case of maternal arrest during dystocia."""
+
+

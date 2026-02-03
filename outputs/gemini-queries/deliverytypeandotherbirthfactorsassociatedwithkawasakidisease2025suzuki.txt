@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverytypeandotherbirthfactorsassociatedwithkawasakidisease2025suzuki
+"BACKGROUND: Kawasaki disease (KD) onset has been suggested to be associated with infections and various environmental factors. However, research on whether the delivery type plays a role in KD development is limited. This study investigated whether cesarean section (CS) or vaginal delivery (VD) is associated with KD onset using a large administrative claims database in Japan. METHOD: We conducted a case-control study using the JMDC Claims Database from January 2005 to December 2021. Data on children born via CS or VD and their mothers were collected. KD patients were identified from the source population, and controls without KD were randomly selected based on sex, age and registration time, each matched to 4 controls using a risk-set sampling technique. We analyzed the association between delivery type and KD onset using multivariate conditional logistic regression, defining KD as the primary outcome based on specific criteria. RESULTS: Case-control matching created 3363 pairs of cases (n = 3363) and controls (n = 13,363). The proportions of CS, maternal age, Charlson Comorbidity Index, presence of older siblings and low birth weight infants were significantly different between the cases and controls. In the multivariate analysis, KD onset was associated with CS [odds ratio (OR): 1.12; 95% confidence interval (CI): 1.02-1.24], the presence of older siblings (OR: 1.11; 95% CI: 1.02-1.21), lower birth weight (1001-2500 g) (OR: 1.22; 95% CI: 1.04-1.43) and antibiotic use (OR: 1.12; 95% CI: 1.02-1.24). CONCLUSIONS: The risk of developing KD may be influenced by the delivery type (CS or VD), the presence of older siblings, low birth weight and antibiotic use."""
+
+

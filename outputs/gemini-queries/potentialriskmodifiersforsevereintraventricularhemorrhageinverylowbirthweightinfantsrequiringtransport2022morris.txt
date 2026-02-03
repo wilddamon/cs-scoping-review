@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: potentialriskmodifiersforsevereintraventricularhemorrhageinverylowbirthweightinfantsrequiringtransport2022morris
+"BACKGROUND: Very low birthweight (VLBW) infants must undergo transport when born at a facility unequipped for their care. Previous research suggests an increased risk for intraventricular hemorrhage (IVH) associated with transport. It is unknown whether logistical aspects of transport, particularly mode and distance, or skill level of the resuscitation team are drivers of risk.;OBJECTIVE: To determine if the transport vehicle, distance traveled, or absence of advanced resuscitation team increased risk for severe IVH in outborn VLBW infants.;DESIGN/METHODS: Outborn VLBW infants, transported by specialized team via helicopter or ambulance to a Level IV NICU, were included; inborn VLBW infants served as controls. Infants transported >24 h after birth, by referring center's team, or without head ultrasound were excluded. Baseline clinical data were collected along with IVH grade, transport vehicle, distance traveled, and skill of resuscitation team.;RESULTS: Two hundred and ninety-three outborn were matched to 293 inborn infants. Outborn infants had increased incidence of severe IVH even when controlling for antenatal steroids, race, delivery method, and surfactant use (17% vs. 11%, OR = 1.6, 95% CI = 1.1-2.7). Despite this increased incidence, severe IVH was not associated with transport vehicle (p = .90; OR = 0.76, 95% CI = 0.34-1.7), distance traveled (p = .13; OR 0.84, 95% CI = 0.60-1.2), or skill of resuscitation team (p = .18; OR = 0.49, 95% CI = 0.21-1.1).;CONCLUSION: Compared to inborn, outborn infants had increased risk of severe IVH. Transport vehicle, distance traveled, and the skill of resuscitation team did not significantly impact risk."""
+
+

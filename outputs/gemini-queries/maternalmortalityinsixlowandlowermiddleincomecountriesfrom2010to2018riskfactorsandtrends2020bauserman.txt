@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalmortalityinsixlowandlowermiddleincomecountriesfrom2010to2018riskfactorsandtrends2020bauserman
+"Background: Maternal mortality is a public health problem that disproportionately affects low and lower-middle income countries (LMICs). Appropriate data sources are lacking to effectively track maternal mortality and monitor changes in this health indicator over time. Methods: We analyzed data from women enrolled in the NICHD Global Network for Women's and Children's Health Research Maternal Newborn Health Registry (MNHR) from 2010 through 2018. Women delivering within research sites in the Democratic Republic of Congo, Guatemala, India (Nagpur and Belagavi), Kenya, Pakistan, and Zambia are included. We evaluated maternal and delivery characteristics using log-binomial models and multivariable models to obtain relative risk estimates for mortality. We used running averages to track maternal mortality ratio (MMR, maternal deaths per 100,000 live births) over time. Results: We evaluated 571,321 pregnancies and 842 maternal deaths. We observed an MMR of 157 / 100,000 live births (95% CI 147, 167) across all sites, with a range of MMRs from 97 (76, 118) in the Guatemala site to 327 (293, 361) in the Pakistan site. When adjusted for maternal risk factors, risks of maternal mortality were higher with maternal age > 35 (RR 1.43 (1.06, 1.92)), no maternal education (RR 3.40 (2.08, 5.55)), lower education (RR 2.46 (1.54, 3.94)), nulliparity (RR 1.24 (1.01, 1.52)) and parity > 2 (RR 1.48 (1.15, 1.89)). Increased risk of maternal mortality was also associated with occurrence of obstructed labor (RR 1.58 (1.14, 2.19)), severe antepartum hemorrhage (RR 2.59 (1.83, 3.66)) and hypertensive disorders (RR 6.87 (5.05, 9.34)). Before and after adjusting for other characteristics, physician attendance at delivery, delivery in hospital and Caesarean delivery were associated with increased risk. We observed variable changes over time in the MMR within sites. Conclusions: The MNHR is a useful tool for tracking MMRs in these LMICs. We identified maternal and delivery characteristics associated with increased risk of death, some might be confounded by indication. Despite declines in MMR in some sites, all sites had an MMR higher than the Sustainable Development Goals target of below 70 per 100,000 live births by 2030. Trial registration: The MNHR is registered at NCT01073475."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: statewidequalityimprovementinitiativetoreduceearlyelectivedeliveriesandimprovebirthregistryaccuracy2018kaplan
+"OBJECTIVE: To evaluate the success of a quality improvement initiative to reduce early elective deliveries at less than 39 weeks of gestation and improve birth registry data accuracy rapidly and at scale in Ohio.;METHODS: Between February 2013 and March 2014, participating hospitals were involved in a quality improvement initiative to reduce early elective deliveries at less than 39 weeks of gestation and improve birth registry data. This initiative was designed as a learning collaborative model (group webinars and a single face-to-face meeting) and included individual quality improvement coaching. It was implemented using a stepped wedge design with hospitals divided into three balanced groups (waves) participating in the initiative sequentially. Birth registry data were used to assess hospital rates of nonmedically indicated inductions at less than 39 weeks of gestation. Comparisons were made between groups participating and those not participating in the initiative at two time points. To measure birth registry accuracy, hospitals conducted monthly audits comparing birth registry data with the medical record. Associations were assessed using generalized linear repeated measures models accounting for time effects.;RESULTS: Seventy of 72 (97%) eligible hospitals participated. Based on birth registry data, nonmedically indicated inductions at less than 39 weeks of gestation declined in all groups with implementation (wave 1: 6.2-3.2%, P<.001; wave 2: 4.2-2.5%, P=.04; wave 3: 6.8-3.7%, P=.002). When waves 1 and 2 were participating in the initiative, they saw significant decreases in rates of early elective deliveries as compared with wave 3 (control; P=.018). All waves had significant improvement in birth registry accuracy (wave 1: 80-90%, P=.017; wave 2: 80-100%, P=.002; wave 3: 75-100%, P<.001).;CONCLUSIONS: A quality improvement initiative enabled statewide spread of change strategies to decrease early elective deliveries and improve birth registry accuracy over 14 months and could be used for rapid dissemination of other evidence-based obstetric care practices across states or hospital systems."""
+
+

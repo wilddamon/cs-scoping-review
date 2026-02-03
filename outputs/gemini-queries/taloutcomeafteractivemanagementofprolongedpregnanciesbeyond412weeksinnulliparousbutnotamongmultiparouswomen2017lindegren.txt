@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: improvedneonataloutcomeafteractivemanagementofprolongedpregnanciesbeyond412weeksinnulliparousbutnotamongmultiparouswomen2017lindegren
+"Introduction: Prolonged pregnancies are associated with adverse maternal and fetal outcome. In Sweden, no national guidelines exist for when to induce prolonged pregnancies. Material and methods: Singleton cephalic prolonged pregnancies (defined as >= 41+3 gestational weeks) during 2001-2013 (n = 199 770) were identified using the Swedish Medical Birth Register. The maternity units were divided into three groups (tertiles) based on the proportion of pregnancies >= 42+3 gestational weeks among all pregnancies >= 41+3 weeks. The pregnancy outcome among women delivered at the units with the most expectant management of prolonged pregnancies (> 17.6% proceeding to 42+3 weeks), was compared with that among women delivered at units with the most active management (< 12.6% proceeding to 42+3 weeks). Odds ratios (OR) were calculated using simple and multiple logistic regression. Adjustments were made for year of delivery, hospital level, maternal age, body mass index, and smoking. Results: Among primiparas, an increased risk of Apgar score < 7 at 5 minutes [odds ratio (OR) 1.27, 95% CI 1.16-1.41] and meconium aspiration (OR 1.49, 95% CI 1.14-1.95) was found after birth at most expectant units compared with most active units, but among multiparas, no such associations were detected. A decreased rate of cesarean section was found for both primiparas (OR 0.83, 95% CI 0.80-0.86) and multiparas (OR 0.82, 95% CI 0.77-0.86) at units with expectant vs. active management. No association between perinatal death and delivery-unit specific management of prolonged pregnancies was detected. Conclusions: Offspring to primiparas might gain from a more active management of prolonged pregnancies, whereas no such improvement of neonatal outcome among multiparous women was detected. (c) 2017 Nordic Federation of Societies of Obstetrics and Gynecology"""
+
+

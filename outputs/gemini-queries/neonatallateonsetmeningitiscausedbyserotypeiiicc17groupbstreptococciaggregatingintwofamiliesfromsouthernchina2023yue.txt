@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonatallateonsetmeningitiscausedbyserotypeiiicc17groupbstreptococciaggregatingintwofamiliesfromsouthernchina2023yue
+"Background: Late-onset meningitis infected by group B Streptococcus (GBS) continues to be a major cause of perinatal mortality, morbidity and long-term neurodevelopmental sequelae despite the implementation of universal screening, but its risk factors are not fully understood. Case Presentation: We reported a set of dizygotic twins and a pair of compatriot siblings diagnosed with late-onset GBS meningitis aggregating in two Chinese families. All of GBS strains were identified as serotype III CC17 with high homology between the strains within the same family, and the isolates from the compatriots identical to their mother's carriage. The siblings in the two families presented clinical signs several days after close contact with their index cases having a fever at home, and obtained prompt diagnosis and anti-infective therapy. The two index patients had obvious brain damage before effective treatment and severe sequelae compared to their siblings with complete healing. Conclusion(s): The dramatic difference in outcomes between the index cases and their siblings brings attention to prevent and control familial aggregation of neonatal late-onset GBS infection which never reported in China.Copyright (c) 2023 Yue and Liu."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternaloverthypothyroidismandpregnancycomplicationsinsightsfromanationwidecrosssectionalstudy2025eshkoli
+"Background/Objectives: Overt hypothyroidism during pregnancy has been linked to adverse outcomes, including preterm birth, low birth weight, and impaired fetal neurocognitive development. This study aimed to evaluate pregnancy complications in women with overt hypothyroidism (TSH >= 10) through a cross-sectional study. Methods: Data from 259,897 live-birth pregnancies (2013-2022) from Clalit Health Services (CHS) were analyzed. The study included all CHS-insured women aged >= 18 years with available TSH results during pregnancy. Overt hypothyroidism was defined as a mean TSH >= 10 mIU/L, while the euthyroid reference group had TSH levels < 4 mIU/L and no history of hypothyroidism or levothyroxine use. Cases of overt hypothyroidism were matched with 15 controls using propensity score-based matching. Covariates included maternal age, ethnicity, socioeconomic status, IVF use, recurrent pregnancy loss, and smoking. Pregnancy complications were compared between groups using descriptive statistics and univariate analysis. A quasi-Poisson regression model was used to assess complication risk in overt hypothyroidism versus matched controls. Results: The final analysis included 9125 euthyroid and 611 overt hypothyroid pregnancies, with comparable baseline characteristics between groups. No significant differences were found in maternal age, ethnicity, socioeconomic scores, IVF rates, recurrent pregnancy loss, diabetes, smoking, gestational age at delivery, or rates of preterm birth, pre-eclampsia, gestational diabetes, cesarean section, and intrauterine growth restriction. Overall, overt hypothyroidism was not associated with increased complications. Sensitivity analyses using maximum TSH levels during pregnancy showed a slightly elevated risk for pregnancy complications (IRR 1.1, CI 1.04-1.18; p = 0.002). Conclusions: Overt hypothyroidism was not associated with an increased risk of adverse pregnancy outcomes when adjusted for confounding factors, suggesting that treatment decisions should be made on an individual basis."""
+
+

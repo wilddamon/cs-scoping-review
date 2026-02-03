@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hospitalcostsofseverematernalmorbidityhospitalizationsintheunitedstatesfrom2014to2019anationwidecrosssectionalstudy2025salameh
+"The objective of this study was to estimate the average hospitalization cost (AHC) for deliveries affected by severe maternal morbidity (SMM) and analyze trends from 2014 to 2019. The study also aimed to explore cost stratification based on patient, delivery, and hospital characteristics.Using the National Inpatient Sample dataset, all delivery hospitalizations from 2014 to 2019 were identified. Deliveries affected by SMM were determined based on the Centers for Disease Control definition. Deliveries were categorized into three groups: no SMM (nSMM), any SMM (aSMM), and SMM excluding cases with blood transfusion as the only indicator (SMMeBTo). A regression model accounting for survey design and adjusting for variables including age, race/ethnicity, primary payer, income, delivery method, hospital location/teaching status, and hospital region was used to test the trends in incidence. Hospital charges were adjusted using cost-to-charge ratios and presented in 2022 U.S. dollars ($). A regression model adjusting for the same variables was used to assess costs.From 2014 to 2019, 4,444,957 deliveries were identified, with a weighted estimate of 22,224,775. The rates of aSMM and SMMeBTo were 1.9 and 0.7%, respectively. AHC was $5,218 (95% confidence intervals [CI]: $5,200-5,235) for nSMM, $11,101 (95% CI: $11,038-11,165) for aSMM, and $11,541 (95% CI: $114,330-11,650) for SMMeBTo. Hospitalization costs across all SMM categories rose annually from 2014 to 2017, decreased in 2018, and peaked in 2019. All races had significantly higher costs than non-Hispanic Whites across all SMM categories. SMM costs were higher for cesarean deliveries. The highest cost was in deliveries involving a temporary tracheostomy. Urban teaching hospitals and those in the Northeast had the highest SMM costs.Deliveries affected by SMM incur significantly higher costs, with these costs increasing over time. Understanding disparities across patient factors, delivery methods, and hospital characteristics can inform interventions aimed at addressing inequities. * Costs of SMM hospitalizations are rising, even after adjusting for inflation.. * The escalating cost burden is disproportionately shouldered by different racial groups.. * Factors in delivery and hospital settings contribute to the variation in cost.."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlylifedemographicfactorsshapegutmicrobiomepatternsassociatedwithrotavirusgastroenteritisseverity2025abdelbary
+"BACKGROUND: Rotavirus gastroenteritis (RVGE) remains a leading cause of severe infant diarrhea worldwide, with growing evidence supporting the role of the gut microbiome in modulating the disease. However, the interplay between early-life demographic factors, the gut microbiome, and their combined impact on RVGE clinical severity remains inadequately characterized, particularly in specific geographic populations. AIM: We aimed to investigate how demographic determinants shape gut microbiome composition and function in RVGE and how these features relate to clinical severity. METHODS: In our comprehensive case-control study of 165 infants (120 RVGE cases and 45 healthy controls, aged 0-12 months), we utilized 16S rRNA sequencing combined with advanced statistical modeling and machine learning to investigate how demographic factors influence microbiome composition and clinical outcomes. RESULTS: RVGE cases exhibited significantly reduced bacterial diversity (Kruskal-Wallis, Static = 14.85, p < 0.001) and distinct patterns, with community structure most strongly associated with dehydration severity (PERMANOVA; R(2) = 0.15, p < 0.001). Substantial taxonomic alterations were identified characterized by depletion of beneficial commensals including Akkermansia (LDA score = 3.8, p < 0.001), Faecalibacterium (Random Forest AUC = 0.82, p < 0.001), and Bifidobacterium (r = -0.42 with breastfeeding, p < 0.001), alongside enrichment of inflammation-associated taxa such as Escherichia-Shigella (WBC; r = 0.49, p < 0.001, and CRP; r = 0.56, p < 0.001), Streptococcus (LDA score = 4.2, p < 0.001), and Staphylococcus. Proteobacteria was the top potential biomarker of severe outcomes (Random Forest AUC = 0.85), with abundance positively correlated with systemic inflammation (CRP: r = 0.51, p = 0.003). Functional predictions revealed increased lipopolysaccharide biosynthesis (ko00540) and reduced butanoate metabolism (ko00650, p < 0.001) in severe disease. Importantly, demographic factors significantly modulated clinical outcomes: cesarean-delivered, formula-fed infants presented the most dysbiotic profiles and experienced 3.2-fold longer hospitalization (95% CI: 1.8-5.6, p < 0.001) than vaginally delivered, breastfed infants did. CONCLUSIONS: Collectively, these findings demonstrate that early-life demographic factors potentially shape the gut microbiome composition and function, may influence RVGE severity and recovery trajectories, thus providing candidate biomarkers for risk stratification and identifying targets for microbiota-based interventions."""
+
+

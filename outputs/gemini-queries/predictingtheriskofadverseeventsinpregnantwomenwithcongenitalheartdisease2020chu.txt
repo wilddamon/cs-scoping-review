@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingtheriskofadverseeventsinpregnantwomenwithcongenitalheartdisease2020chu
+"BACKGROUND: Women with congenital heart disease are considered at high risk for adverse events. Therefore, we aim to establish 2 prediction models for mothers and their offspring, which can predict the risk of adverse events occurred in pregnant women with congenital heart disease. METHODS AND RESULTS: A total of 318 pregnant women with congenital heart disease were included; 213 women were divided into the development cohort, and 105 women were divided into the validation cohort. Least absolute shrinkage and selection operator was used for predictor selection. After validation, multivariate logistic regression analysis was used to develop the model. Machine learning algorithms (support vector machine, random forest, AdaBoost, decision tree, k-nearest neighbor, naive Bayes, and multilayer perceptron) were used to further verify the predictive ability of the model. Forty-one (12.9%) women experienced adverse maternal events, and 93 (29.2%) neonates experienced adverse neonatal events. Seven high-risk factors were discovered in the maternal model, including New York Heart Association class, Eisenmenger syndrome, pulmonary hypertension, left ventricular ejection fraction, sinus tachycardia, arterial blood oxygen saturation, and pregnancy duration. The machine learning-based algorithms showed that the maternal model had an accuracy of 0.76 to 0.86 (area under the receiver operating characteristic curve=0.74-0.87) in the development cohort, and 0.72 to 0.86 (area under the receiver operating characteristic curve=0.68-0.80) in the validation cohort. Three high-risk factors were discovered in the neonatal model, including Eisenmenger syndrome, preeclampsia, and arterial blood oxygen saturation. The machine learning-based algorithms showed that the neonatal model had an accuracy of 0.75 to 0.80 (area under the receiver operating characteristic curve=0.71-0.77) in the development cohort, and 0.72 to 0.79 (area under the receiver operating characteristic curve=0.69-0.76) in the validation cohort. CONCLUSIONS: Two prenatal risk assessment models for both adverse maternal and neonatal events were established, which might assist clinicians in tailoring precise management and therapy in pregnant women with congenital heart disease. (c) 2020 The Authors. Published on behalf of the American Heart Association, Inc., by Wiley."""
+
+

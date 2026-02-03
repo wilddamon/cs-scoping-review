@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparativeanalysisoflongtermmeaslesimmuneresponseafternaturalinfectionandroutinevaccinationinchina2025zhao
+"Background: Given the significant impact of population immunity on the measles epidemic, understanding immunity differences among populations with varying immunity backgrounds is necessary for identifying immunity gaps and informing vaccination policies. In this study, we aimed to determine the distinct dynamics of vaccine-induced and naturally acquired antibodies, with specific focus on difference in vaccine-induced antibody responses across different birth cohorts. Method(s): Based on two cohorts and one cross-sectional study conducted in Anhua County, Hunan Province, China, serum samples from children who followed China's routine measles vaccination schedule (i.e., two-dose schedule at 8/18 months) and adults who acquired immunity through natural infection were tested for measles IgG antibodies using an enzyme-linked immunosorbent assay. The generalized additive mixed model and a mechanistic model were employed to describe antibody dynamics following vaccination and infections. Wavelet analysis was used to investigate the temporal relationship between the measles epidemic and long-term antibody levels after natural infection. Result(s): A total of 408 children (0-12 years) and 222 adults (54-84 years) were included in the present study. Vaccine-induced antibody levels following 8 m/18 m vaccination were estimated to fall below the protective threshold of 200 mIU/mL by age of 15.8, whereas antibody levels following infections remained high. The decay rate of vaccine-induced antibodies was estimated at 3.0 x 10-3 log-log mIU/mL per year, whereas naturally acquired measles antibodies persisted lifelong with a significantly lower decay rate of 2.30 x 10-5 log-log mIU/mL per year. Moreover, vaccine-induced antibody levels in children born after 2010-a period of low measles incidence-declined more rapidly (duration of protective immunity: 12.5 years), compared to those born before 2010. Discussion(s): Our findings revealed immunity heterogeneity among individuals with difference measles immunity backgrounds. In particular, the birth-cohort specific differences in vaccine-induced immunity highlighted the key role of young generations born in settings with low measles incidence in contributing to population immunity gaps. This underlines that greater attention should be given to this group in future catch-up vaccination efforts.Copyright (c) 2025 by the authors."""
+
+

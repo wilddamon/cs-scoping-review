@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: patientvolumesandpreandpostdischargepostpartuminfectionaretrospectivecohortstudy2016parriott
+"Background To examine the association between hospital and clinician obstetric volume and postpartum infection risk in the pre- and postdischarge periods. Methods We used data from the 2011 New York State Inpatient and Emergency Department Databases to fit generalized estimating equation models to examine the effect of hospital and clinician obstetric volume on infection before discharge and in the 30 days after discharge after delivery. Results Higher clinician volume was associated with lower predischarge infection risk (odds ratio [OR] for first vs third quartile was 0.84; 95% confidence interval [CI], 0.77-0.98). There was an uncertain trend toward higher predischarge infection risk in higher volume hospitals (OR for first vs third quartile was 1.36; 95% CI, 0.79-2.34). We found no associations between patient volumes and postdischarge infections; however, power was insufficient to rule out small associations. The joint association of hospital and clinician volumes with postdischarge infection appeared submultiplicative (product term OR = 0.95; 95% CI, 0.92-0.98). Conclusion This study adds to the evidence that hospital obstetric volume is positively associated with predischarge postpartum infections, whereas clinician volume may be negatively associated with those predischarge infections. The associations between hospital obstetric volume and postdischarge infection appear to differ. These results underscore the importance of including postdischarge follow-up in hospital-based studies of postpartum infection. (c) 2016 Association for Professionals in Infection Control and Epidemiology, Inc."""
+
+

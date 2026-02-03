@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: breastfeedinginitiationasrelatedtotheinteractionofraceethnicityandmaternaldiabetes2019stevens
+"Introduction: The health benefits of breastfeeding for both the mother and her offspring are well established, and breastfeeding may be especially important for mitigating negative health effects of pregnancy complicated by diabetes. Objective: This study sought to examine the association between race/ethnicity, maternal diabetes, and breastfeeding initiation in South Carolina (SC). Materials and Methods: Our study population is comprised of all live, singleton, full-term births in SC delivered January 2004 to December 2016 (292,468 non-Hispanic Whites, 173,158 non-Hispanic Blacks, and 52,174 Hispanics). Generalized estimating equations and an interaction term between race/ethnicity and maternal diabetes status were used to estimate the race/ethnic-specific odds ratio (OR) and 95% confidence intervals (CIs) that a mother with diabetes versus without diabetes initiated breastfeeding. Models were adjusted for maternal and infant sociodemographics (Model 1), additionally for clinical variables and birth outcomes (Model 2), and also for maternal prepregnancy body mass index (BMI) (Model 3). Results: We found statistically significant differences in breastfeeding initiation by race/ethnicity and diabetes status in Model 1. These associations were attenuated and lost significance upon additional adjustment. Non-Hispanic Black mothers with gestational diabetes were significantly more likely to initiate breastfeeding than nondiabetic non-Hispanic Black mothers, even after adjustment for prepregnancy BMI (OR: 1.07 [95% CI 1.02-1.12]). Conclusion: This large, population-based study of all live, singleton, full-term births in SC improves our understanding of how race/ethnicity and maternal metabolic disorders impact breastfeeding initiation, and may inform future hospital-based breastfeeding interventions in populations with the most need. (c) Copyright 2019, Mary Ann Liebert, Inc., publishers 2019."""
+
+

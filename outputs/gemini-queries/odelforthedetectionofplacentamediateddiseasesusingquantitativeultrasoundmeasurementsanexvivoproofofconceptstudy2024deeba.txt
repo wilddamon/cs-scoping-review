@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationoftheplacentaqusmodelforthedetectionofplacentamediateddiseasesusingquantitativeultrasoundmeasurementsanexvivoproofofconceptstudy2024deeba
+"INTRODUCTION: Placenta-mediated diseases are associated with structural changes in the placenta. Quantitative Ultrasound (QUS) imaging measures the acoustic properties of the tissue, which are correlated to the underlying tissue structure. We aimed to develop and validate a diagnostic prediction model using QUS measurements for pre-eclampsia (PE) and small-for-gestational-age (SGA) fetuses/neonates. METHODS: For this prospective case-control study, placentas were collected from a group of women who delivered via cesarean section at BC Women's Hospital, Vancouver, Canada. Ultrasound data were collected and processed to compute three QUS parameters, namely, attenuation coefficient estimate (ACE), integrated backscatter coefficient (IBC), and effective scatterer diameter (ESD) from the placentas. We developed a logistic regression model using QUS parameters as predictors. The primary outcome was the occurrence of SGA and PE. RESULTS: The dataset consisted of 47 placentas, of which 25 placentas were complicated by SGA/PE. The final placenta-QUS model included quadratic and interaction terms of ACE, IBC, and ESD parameters. The placenta-QUS model was well-calibrated, with a calibration slope of 0.99 (0.57-1.05) and a calibration intercept of 0.003 (-0.02 - 0.22). The model predicted the SGA/PE complicated pregnancies with an apparent Area Under the Receive Operating Characteristic Curve (AUROC) of 0.89 (95 % CI: 0.78-0.98). The optimism-adjusted AUROC was 0.88 (95 % CI: 0.78-0.98). DISCUSSION: A model for SGA and PE has been developed using QUS measures from the placenta ex vivo. The model showed promising performance in detecting SGA/PE. Future studies will be performed to assess the model performance using QUS measures in utero."""
+
+

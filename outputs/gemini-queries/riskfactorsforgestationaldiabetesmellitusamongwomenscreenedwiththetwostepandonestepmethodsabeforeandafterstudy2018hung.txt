@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforgestationaldiabetesmellitusamongwomenscreenedwiththetwostepandonestepmethodsabeforeandafterstudy2018hung
+"OBJECTIVE: To compare the risk profiles for gestational diabetes mellitus (GDM) using a one-step and two-step screening method and diagnostic criteria.;MATERIALS AND METHODS: A retrospective cohort study was conducted among women screened using Carpenter and Coustan's (C&C) criteria (two-step method) and the International Association of the Diabetes and Pregnancy Study Groups (IADPSG) criteria (one-step method). All deliveries after 28 weeks of gestation, except for pregnancies complicated by pre-pregnancy diabetes mellitus, were analyzed. Multiple logistic regression was used to assess the associations between GDM and various potential risk factors.;RESULTS: Risk factors for C&C-defined GDM were pre-pregnancy body mass index >24.2 kg/m2 (adjusted odds ratio [OR] 2.49, 95% confidence interval [CI] 1.92-3.23), maternal age at delivery >34 years (adjusted OR 2.46, 95% CI 1.96-3.09), history of fetal death (adjusted OR 2.56, 95% CI 1.37-4.78), and chronic hypertension (adjusted OR 3.66, 95% CI 1.50-8.91). In addition to these factors, conception assisted by reproductive technology (adjusted OR 1.64, 95% CI 1.19-2.25) and genetic amniocentesis (adjusted OR 1.19, 95% CI 1.03-1.38) were IADPSG-defined GDM risk factors.;CONCLUSION: Risk factors for GDM differ with the diagnostic criteria used. This information is important when changing GDM screening strategies from the two-step approach to the one-step approach. Copyright (c) 2018. Published by Elsevier B.V."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lowriskisntnoriskperinataltreatmentsandthehealthoflowincomenewborns2019daysal
+"We investigate the effects of perinatal medical treatments on low-income newborns who are classified as low-risk. A policy rule in The Netherlands states that low-risk deliveries before week 37 should be supervised by physicians and later deliveries only by midwives with no physician present. This creates large discontinuities in the probability of receiving medical interventions only physicians are allowed to perform. Using a regression discontinuity design, we find that babies born slightly before the week-37 cutoff are significantly less likely to die than babies born slightly later. Our data suggest that physician supervision of birth reduces the likelihood of adverse events such as fetal distress or emergency C-section. Our results indicate that low-income women benefit from receiving a higher level of medical care even if no explicit risk factors have been recognized, pointing to challenges in identifying all high-risk pregnancies. "Back-of-the-envelope" calculations suggest this additional care is highly cost-effective. (c) 2019 Elsevier B.V."""
+
+

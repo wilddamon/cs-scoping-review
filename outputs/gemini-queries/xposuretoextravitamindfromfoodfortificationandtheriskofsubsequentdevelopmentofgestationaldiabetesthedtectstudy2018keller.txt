@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inuteroexposuretoextravitamindfromfoodfortificationandtheriskofsubsequentdevelopmentofgestationaldiabetesthedtectstudy2018keller
+"Background: The primary aim of this study was to assess whether exposure during fetal life to extra vitamin D from food fortification was associated with a reduction in the risk of subsequently developing gestational diabetes mellitus (GDM). Furthermore, we examined whether the effect of the vitamin D from fortification differed by women's season of birth. Methods: This semi-ecological study is based on the cancellation in 1985 of the mandatory policy to fortify margarine with vitamin D in Denmark, with inclusion of entire national adjacent birth cohorts either exposed or unexposed to extra vitamin D in utero. The identification of GDM cases later in life among both exposure groups was based on the Danish national health registers. Logistic regression analyses generating odds ratios (ORs) and 95% confidence intervals (95% CIs) were performed. Results: Women who were prenatally exposed to the extra vitamin D from fortification tended to have a lower risk of subsequently developing GDM than unexposed women (OR 0.87, 95%CI 0.74,1.02, P = 0.08). When analyses were stratified by women's season of birth, exposed women born in spring had a lower risk of developing GDM compared to unexposed subjects (OR 0.68, 95%CI 0.50,0.94, p = 0.02). Conclusion: This study suggests that prenatal exposure to extra vitamin D from mandatory fortification may lower the risk of developing gestational diabetes among spring-born women. Trial registration: This study is part of the D-tect project, which is registered on clinicaltrials.gov: NCT03330301. (c) 2018 The Author(s)."""
+
+

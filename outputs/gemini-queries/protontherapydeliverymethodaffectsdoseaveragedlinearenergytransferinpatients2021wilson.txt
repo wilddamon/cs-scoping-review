@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: protontherapydeliverymethodaffectsdoseaveragedlinearenergytransferinpatients2021wilson
+"The dosimetric advantages of proton therapy have led to its rapid proliferation in recent decades. This has been accompanied by a shift in technology from older units that deliver protons by passive scattering (PS) to newer units that increasingly use pencil-beam scanning (PBS). The biologic effectiveness of proton physical dose purportedly rises with increasing dose-weighted average linear energy transfer (LETD). The objective of this study was to determine the extent to which proton delivery methods affect LETD. We calculated LETDfrom simple, dosimetrically matched, and clinical treatment plans with TOPAS Monte-Carlo transport code. Simple treatment plans comprised single fields of PS and PBS protons in a water phantom. We performed simulations of matched and clinical treatment plans by using the treatment and anatomic data obtained from a cohort of children with craniopharyngioma who previously received PS or PBS proton therapy. We compared the distributions of LETDfrom PS and PBS delivery methods in clinically relevant ROIs. Wilcoxon signed-rank tests comparing single fields in water revealed that the LETDvalues from PBS were significantly greater than those from PS inside and outside the targeted volume (p < 0.01). Statistical tests comparing LETD-volume histograms from matched and clinical treatment plans showed that LETDwas generally greater for PBS treatment plans than for PS treatment plans (p < 0.05). In conclusion, the proton delivery method affects LETDboth inside and outside of the target volume. These findings suggest that PBS is more biologically effective than PS. Given the rapid expansion of PBS proton therapy, future studies are needed to confirm the applicability of treatment evaluation methods developed for PS proton therapy to those for modern PBS treatments to ensure their safety and effectiveness for the growing population of patients receiving proton therapy. This study uses data from two clinical trials: NCT01419067 and NCT02792582. Copyright (c) 2021 Institute of Physics and Engineering in Medicine."""
+
+

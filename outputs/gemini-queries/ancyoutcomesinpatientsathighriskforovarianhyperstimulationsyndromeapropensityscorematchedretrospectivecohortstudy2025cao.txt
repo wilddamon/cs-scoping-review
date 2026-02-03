@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofdifferentendometrialpreparationprotocolsonpregnancyoutcomesinpatientsathighriskforovarianhyperstimulationsyndromeapropensityscorematchedretrospectivecohortstudy2025cao
+"BACKGROUND: Few studies have analyzed the endometrial preparation protocols for frozen-thawed embryo transfer (FET) in patients at high risk of ovarian hyperstimulation syndrome (OHSS). This study aimed to investigate the optimal protocol for endometrial preparation in FET cycles for patients at high risk of OHSS. METHODS: This study included women who underwent assisted reproductive technology treatment between January 2021 and December 2022 at the Center for Assisted Reproductive Technology of Northwest Women's and Children's Hospital, China.Patients were categorized into three groups based on their endometrial preparation protocols: hormone replacement therapy (HRT), natural cycle (NC), and ovarian stimulation (OS). To balance covariates and sample sizes across the groups, propensity score matching was used. Multiple regression analyses were conducted on the matched datasets to assess the relationship between different protocols and pregnancy outcomes while controlling for confounding factors. RESULTS: A total of 1783 patients were enrolled in this study, including 1431 in the HRT protocol group, 212 in the NC protocol group, and 140 in the OS protocol group. After propensity score matching and adjusting for potential confounders, multivariable regression analysis revealed that the NC group had a higher rate of live birth (adjusted OR: 1.50, 95% CI: 1.03-2.19) and biochemical pregnancy (adjusted OR: 1.57, 95% CI: 1.03-2.39), along with a lower cesarean delivery rate(adjusted OR: 0.44, 95% CI: 0.26-0.74) compared to the HRT group. Similarly, the OS group demonstrated a higher rate of live birth (adjusted OR: 2.53, 95% CI: 1.55-4.14), biochemical pregnancy (adjusted OR: 2.14, 95% CI: 1.22-3.75), and clinical pregnancy (adjusted OR: 1.86, 95% CI: 1.10-3.15), alongside a lower miscarriage rate (adjusted OR: 0.29, 95% CI: 0.12-0.71) compared to the HRT group. CONCLUSION: For patients at high risk of ovarian hyperstimulation syndrome undergoing frozen-thawed embryo transfer, both the OS and NC protocols showed superior pregnancy outcomes compared to the HRT protocol for endometrial preparation."""
+
+

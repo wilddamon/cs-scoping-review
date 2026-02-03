@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofmaternalcardiovascularstatuspriortolaboronbirthoutcomesanobservationalstudy2026farsetti
+"OBJECTIVES: To evaluate the diagnostic accuracy of maternal characteristics, computerized cardiotocography (cCTG), maternal hemodynamics, and fetal Doppler in predicting adverse perinatal outcomes (APO) in healthy term pregnancies before labor onset. METHODS: In this prospective observational study, 395 term pregnant women were enrolled. Data on obstetric history, cCTG, maternal hemodynamics, and fetal ultrasound were collected. Women undergoing labor induction were excluded. The primary endpoint was a composite APO, defined as cesarean or operative vaginal delivery due to pathological CTG, 5-min Apgar <7, umbilical artery pH <7.1 and/or base excess >12 mmol/L, or NICU admission. A secondary outcome, 'objective APO', excluded operative delivery for pathological CTG. Logistic regression analyses were performed to assess predictors of APO. RESULTS: Among 307 women with spontaneous labor, 41 (13.36 %) experienced a composite APO. These women were less often multiparous (7.32 vs. 27.07 %, p=0.01), had higher systemic vascular resistance [SVR: 1,353 (1,209-1,498) vs. 1,249 (1,071-1,438) dyn s cm(-5), p=0.01], and lower short-term variability [STV: 7.5 (6.2-10.0) vs. 9.1 (7.6-11.0) ms, p<0.01]. Fetal Doppler indices, including cerebro-placental ratio, showed no significant differences. ROC analysis identified SVR >1,135 dyn s cm(-5) (OR 6.92, 95 % CI 2.08-23.03) and STV <=7 ms (OR 3.95, 95 % CI 1.97-7.92), as optimal predictors. Multivariate analysis confirmed STV, SVR, and parity as independent predictors. In the secondary analysis of 'objective APO', both SVR and STV remained significant predictors, and the multivariable model demonstrated excellent discrimination [AUC 0.931 (95 % CI 0.896-0.957)]. CONCLUSIONS: In term pregnancies, maternal hemodynamic assessment and cCTG performed before labor may improve the identification of women at increased risk of APO."""
+
+

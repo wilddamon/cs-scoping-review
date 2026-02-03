@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskforpostpartumreadmissionsandassociatedcomplicationsbasedonmaternalage2021wen
+"Purpose: To evaluate risk for postpartum readmissions and associated severe morbidity by maternal age. Materials and Methods: This retrospective cohort study used the Nationwide Readmissions Database to analyze 60-day all-cause postpartum readmission risk from 2010 to 2014. Risk for severe maternal morbidity (SMM) during readmission was ascertained using criteria from the Centers for Disease Control and Prevention. The primary exposure of interest was maternal age. Outcomes included time to readmission, risk of readmission, and risk for SMM during readmission. Multivariable log linear analyses adjusting for patient, obstetric, and hospital factors were conducted to assess readmission and SMM risk with adjusted risk ratios (aRRs) with 95% confidence intervals (CIs) as measures of effect. Results: Between 2010 and 2014, we identified 15.7 million deliveries, 15% of which were to women aged 35 or older. The 60-day all-cause readmission rate was 1.7%. Of these, 13% were complicated by SMM. Age-stratification revealed that women 35 and older were at increased risk for readmission and increased risk for SMM. The majority of readmissions occurred within the first 20 days regardless of age; although, women 35 and older were more likely to be admitted within the first 10 days of discharge. Patients ages 35-39, 40-44, and >44 years had 9% (95% CI 7-10%), 37% (95% CI 34-39%), and 66% (95% CI 55-79%) significantly higher rates of postpartum readmission when compared to women age 25-29. Women 35-39, 40-44, and >44 years of age had a 15% (95% CI 10-21%), 26% (95% CI 18-34%), and 56% (95% CI 25-94%) higher risk of a readmission with SMM than women 25-29. Conclusions: AMA women are at higher risk for both postpartum readmission and severe morbidity during readmission. Women older than 35 years represent the group most likely to experience complications requiring readmission, with the highest risk age 40 and older. (c) 2019 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

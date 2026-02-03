@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: modifiedmultiplemarkeraneuploidyscreeningasaprimaryscreeningtestforpreeclampsia2022huang
+"Background: Abnormal levels of maternal biochemical markers used in multiple marker aneuploidy screening have been associated with adverse pregnancy outcomes. This study aims to assess if a combination of maternal characteristics and biochemical markers in the first and second trimesters can be used to screen for preeclampsia (PE). The secondary aim was to assess this combination in identifying pregnancies at risk for gestational hypertension and preterm birth. Methods: This case-control study used information on maternal characteristics and residual blood samples from pregnant women who have undergone multiple marker aneuploidy screening. The median multiple of the median (MoM) of first and second trimester biochemical markers in cases (women with PE, gestational hypertension and preterm birth) and controls were compared. Biochemical markers included pregnancy-associated plasma protein A (PAPP-A), placental growth factor (PlGF), human chorionic gonadotropin (hCG), alpha feto-protein (AFP), unconjugated estriol (uE3) and Inhibin A. Logistic regression analysis was used to estimate screening performance using different marker combinations. Screening performance was defined as detection rate (DR) and false positive rate (FPR). Preterm and early-onset preeclampsia PE were defined as women with PE who delivered at < 37 and < 34 weeks of gestation, respectively. Results: There were 147 pregnancies with PE (81 term, 49 preterm and 17 early-onset), 295 with gestational hypertension, and 166 preterm birth. Compared to controls, PE cases had significantly lower median MoM of PAPP-A (0.77 vs 1.10, p < 0.0001), PlGF (0.76 vs 1.01, p < 0.0001) and free-b hCG (0.81 vs. 0.98, p < 0.001) in the first trimester along with PAPP-A (0.82 vs 0.99, p < 0.01) and PlGF (0.75 vs 1.02, p < 0.0001) in the second trimester. The lowest first trimester PAPP-A, PlGF and free b-hCG were seen in those with preterm and early-onset PE. At a 20% FPR, 67% of preterm and 76% of early-onset PE cases can be predicted using a combination of maternal characteristics with PAPP-A and PlGF in the first trimester. The corresponding DR was 58% for gestational hypertension and 36% for preterm birth cases. Conclusions: Maternal characteristics with first trimester PAPP-A and PlGF measured for aneuploidy screening provided reasonable accuracy in identifying women at risk of developing early onset PE, allowing triage of high-risk women for further investigation and risk-reducing therapy. This combination was less accurate in predicting women who have gestational hypertension or preterm birth. (c) 2022, The Author(s)."""
+
+

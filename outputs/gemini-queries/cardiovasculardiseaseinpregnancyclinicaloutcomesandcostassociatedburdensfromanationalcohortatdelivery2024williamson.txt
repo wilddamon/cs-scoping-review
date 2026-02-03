@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cardiovasculardiseaseinpregnancyclinicaloutcomesandcostassociatedburdensfromanationalcohortatdelivery2024williamson
+"Background: Cardiovascular disease (CVD) in pregnancy is a leading cause of maternal morbidity and mortality in the United States, with an increasing prevalence. Objectives: This study aimed to examine risk factors for adverse maternal cardiac, maternal obstetric, and neonatal outcomes as well as costs for pregnant people with CVD at delivery. Methods: Using the National Inpatient Sample 2010-2019 and the Internal Classification of Diseases diagnosis codes, all pregnant people admitted for their delivery hospitalization were included. CVD diagnoses included congenital heart disease, cardiomyopathy, ischemic heart disease, arrhythmias, and valvular disease. Multivariable regressions were used to analyze major adverse cardiovascular events (MACE), maternal and fetal complications, length of stay, and resource utilization. Results: Of the 33,639,831 birth hospitalizations included, 132,532 (0.39%) had CVD. These patients experienced more frequent MACE (8.5% vs 0.4%, P < 0.001), obstetric (24.1% vs 16.6%, P < 0.001), and neonatal complications (16.1% vs 9.5%, P < 0.001), and maternal mortality (0.16% vs 0.01%, P < 0.001). Factors associated with MACE included cardiomyopathy (adjusted OR [aOR]: 49.9, 95% CI: 45.2-55.1), congenital heart disease (aOR: 13.8, 95% CI: 12.0-15.9), Black race (aOR: 1.04, 95% CI: 1.00-1.08), low income (aOR: 1.06, 95% CI: 1.02-1.11), and governmental insurance (aOR: 1.03, 95% CI: 1.00-1.07). On adjusted analysis, CVD was associated with higher odds of maternal mortality (aOR: 9.28, 95% CI: 6.35-13.56), stillbirth (aOR: 1.66, 95% CI: 1.49-1.85), preterm birth (aOR: 1.33, 1.27-1.39), and congenital anomalies (aOR: 1.84, 95% CI: 1.69-1.99). CVD was also associated with an increase of $2,598 (95% CI: $2,419-2,777) per patient during admission for delivery. Conclusions: CVD in pregnancy is associated with higher rates of adverse outcomes. Our study highlights the association of key clinical and demographic factors with CVD during pregnancy to emphasize those at highest risk for complications. (c) 2024 The Authors"""
+
+

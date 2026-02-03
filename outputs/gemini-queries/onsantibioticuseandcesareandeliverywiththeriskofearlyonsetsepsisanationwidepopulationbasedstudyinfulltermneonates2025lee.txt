@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofmaternalinfectionsantibioticuseandcesareandeliverywiththeriskofearlyonsetsepsisanationwidepopulationbasedstudyinfulltermneonates2025lee
+"BACKGROUND: Neonatal sepsis remains a significant cause of morbidity and mortality among newborns worldwide. Although the implementation of intrapartum antibiotic prophylaxis (IAP) has led to changes in the microbiological landscape of early-onset sepsis (EOS), the incidence among full-term neonates has not declined as expected. This underscores the ongoing need to identify and understand maternal and neonatal risk factors to inform more effective prevention strategies. METHODS: We conducted a nationwide, population-based matched case-control study using data from January 1, 2010, to December 31, 2019, encompassing all pregnant individuals and their term infants in Taiwan. The primary objective was to identify clinical risk factors associated with EOS by comparing neonates diagnosed with EOS to matched controls without EOS. Conditional logistic regression was used for statistical analysis, adjusting for relevant maternal and neonatal covariates. RESULTS: A total of 1,694,043 mother-term infant pairs were included in the analysis, representing one of the largest national cohorts to date. Despite the implementation of a universal antenatal screening program and IAP in 2012, the incidence of clinical EOS did not decline over the study period and showed a slight increase around 2018. Adjusted analyses identified several significant risk factors for EOS, including chorioamnionitis (OR 8.99; 95% CI, 3.07-26.33), maternal pneumonia (OR 17.35; 95% CI, 6.85-43.90), Cesarean section (OR 1.45; 95% CI, 1.28-1.64), maternal diabetes mellitus (OR 1.95; 95% CI, 1.52-2.51), maternal antibiotic use during pregnancy (OR 1.33; 95% CI, 1.17-1.52), premature rupture of membranes (PROM) (OR 1.69; 95% CI, 1.32-2.15), birth weight (OR 0.99; 95% CI, 0.99-0.99) (all p < 0.001), and maternal genitourinary tract infections (OR 1.85; 95% CI, 1.22-2.80; p = 0.004). Mortality was notably higher among neonates with EOS (0.667%) compared to those without EOS (0.0926%) (p < 0.001). CONCLUSIONS: This study provides the most comprehensive analysis to date of EOS risk in term neonates using a nationwide dataset. Our findings indicate that cesarean delivery, maternal antibiotic use, specific maternal infections, maternal diabetes mellitus, premature rupture of membranes, and lower birth weight are associated with an increased risk of EOS. Further research is warranted to explore the potential causal relationships underlying these associations."""
+
+

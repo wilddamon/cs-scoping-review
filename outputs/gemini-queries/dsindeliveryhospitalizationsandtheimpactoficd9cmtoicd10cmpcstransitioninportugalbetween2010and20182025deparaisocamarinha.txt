@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trendsindeliveryhospitalizationsandtheimpactoficd9cmtoicd10cmpcstransitioninportugalbetween2010and20182025deparaisocamarinha
+"Background: Hospital discharge data are essential for maternal health surveillance, clinical research, and healthcare resource allocation. In 2017, Portuguese hospitals transitioned from the International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM) to the International Classification of Diseases, 10th edition, Clinical Modification and Procedure Coding System (ICD-10-CM/PCS), impacting the recording of delivery hospitalizations. This study examines trends in delivery hospitalizations from 2010 to 2018 and assesses the impact of the ICD-10-CM/PCS transition. Method(s): We conducted a register-based observational cross-sectional analysis using data from the National Hospital Discharge Database, covering delivery hospitalizations in public hospitals from January 1, 2010, to December 31, 2018. Delivery episodes were identified using diagnosis codes, normal delivery codes, diagnosis-related group (DRG) codes, and procedure codes. Statistical analyses included descriptive statistics, interrupted time series with segmented regression, and Prophet forecasting models to evaluate trends and the impact of the coding transition. Result(s): A total of 673,978 delivery hospitalizations were recorded. The transition from ICD-9-CM to ICD-10-CM/PCS in 2017 had minimal overall impact on delivery trends. DRG codes consistently identified the majority of delivery episodes, with outcome of delivery codes and selected procedure codes showing varying trends. An increase in episodes identified by normal delivery codes and a significant decrease in episodes identified by procedure codes was observed immediately after the ICD-10 transition (p < 0.001). The Prophet model indicated improved forecast accuracy for procedure codes when including the ICD-10 transition variable. Conclusion(s): The transition to ICD-10-CM/PCS had a limited impact on overall delivery hospitalization trends but significantly affected procedure coding. These findings underscore the importance of considering coding system changes in healthcare data analyses. Further research should incorporate private hospital data and continuously monitor coding practices to ensure reliable health data for research and policy-making.Copyright (c) 2025"""
+
+

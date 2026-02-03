@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: emergencyroomutilizationaftermedicallycomplicatedpregnanciesamedicaidclaimsanalysis2015harris
+"Background: Women with pregnancy complications benefit from closer monitoring postpartum and beyond. Increased postpartum emergency room (ER) use may indicate unmet need for outpatient obstetrics and primary care. The purpose of this study was to evaluate whether women with pregnancy complications (gestational diabetes [GDM], gestational hypertension, and preeclampsia) have increased ER use in the first 6 months postpartum, compared with women without these complications. Methods: We conducted a retrospective population-based cohort study using a 2003-2010 Maryland Medicaid managed care claims data set, linked with U.S. Census data. Data included claims for outpatient and ER visits for women aged 12-45 years who were continuously enrolled in Medicaid for at least 100 days of pregnancy and 90 days postpartum. We used logistic regression to calculate the association between pregnancy complications and having >=1 ER visit in the 6 months postpartum. Results: We identified 26,074 pregnancies, of which 20% were complicated by GDM, gestational hypertension, or preeclampsia. Of these complicated pregnancies, 42.1% had GDM, 35.4% had gestational hypertension, and 42.5% had preeclampsia (diagnoses were not mutually exclusive). In the 6 months postpartum, 25% of women had >=1 ER visits. Of the complicated pregnancy group, 27.7% had >=1 ER visit, versus 23.6% of the comparison group (p<0.0001). In adjusted analyses, women with a pregnancy complication were more likely to have >=1 ER visit compared with women without these complications (odds ratio [OR]1.14, 95% confidence interval [CI] 1.05-1.23). The strength of association was highest in women under age 25 (OR 1.20, 95% CI 1.09-1.33). Preconception medical comorbidities (type 2 diabetes, chronic hypertension, obesity, asthma, mental health, and substance abuse diagnoses) were also strongly associated with postpartum ER use (OR 1.61, 95% CI 1.51-1.73). Conclusions: Pregnancy complications increased ER utilization during the 6 months postpartum, especially among women under age 25 years. Interventions that improve discharge planning and early postpartum care may decrease ER use. (c) 2015 Mary Ann Liebert, Inc."""
+
+

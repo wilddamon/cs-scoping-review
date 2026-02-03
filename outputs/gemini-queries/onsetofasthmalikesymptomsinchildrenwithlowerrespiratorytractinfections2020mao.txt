@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: onsetofasthmalikesymptomsinchildrenwithlowerrespiratorytractinfections2020mao
+"Background: Asthma-like symptoms (ALS) often occur among children with lower respiratory tract infections (LRTIs). We aimed to determine the potential risk factors for ALS onset in LRTIs children. Methods: A total of 102 LRTIs with ALS and 474 without ALS were enrolled. The relative risk (RR) was used to test the influence of the clinical factors on the ALS risk. We compared the differences of birth data, wheezing history, disease severity, inflammatory markers, infectious pathogens, allergic markers, cardiac, liver, and kidney injury markers between LRTIs with and without ALS onset. Receiver operating curve (ROC) analysis was applied to determine the predictive value of various markers in the ALS risk in LRTIs. Multivariate logistic regression analysis was performed to evaluate the association between various clinical and laboratory parameters and ALS onset in LRTIs. Results: The RRs of boys/girls ratio and wheezing history for ALS compared with non-ALS was 1.263 and 2.850, respectively (P =.026, <10-4). There were significant differences of age, WBC, PLT, EOS, and CK between LRTIs with and without ALS onset (P =.004,.041,.006,.049, and.035). ROC analysis showed that significant associations between the parameters of age, WBC, and PLT and ALS risk among LRTIs were observed. Multivariate logistic regression analysis showed that the clinical and laboratory parameters were not independently associated with the risk of ALS onset among LRTIs. Conclusions: Lower age, male, inflammation, and allergic state were risk factors for ALS onset in LRTIs. Comprehensive monitoring and evaluation of these factors may be helpful for ALS prevention. (c) 2020 The Authors. Journal of Clinical Laboratory Analysis Published by Wiley Periodicals, Inc"""
+
+

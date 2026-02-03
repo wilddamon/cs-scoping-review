@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalpsychiatricdisordersandriskofpretermbirth2016mannisto
+"Purpose To study the effect of maternal psychiatric disorders (depression, anxiety disorder, bipolar disease, schizophrenia, unspecified psychiatric disorder, and comorbid conditions) and odds of preterm birth. Methods The Consortium on Safe Labor (2002-2008), an observational cohort with 12 centers from across the United States included 223,394 singleton pregnancies with clinical data obtained from electronic medical records and maternal diagnoses of psychiatric disorders from maternal discharge summaries. Length of gestation was based on the best clinical estimate and categorized as birth less than 39, less than 37, less than 34, and less than 28 weeks' gestation. The adjusted odds ratios (ORs) with 95% confidence intervals of birth were estimated by logistic regression with generalized estimating equations. Results Any maternal psychiatric disorder was associated with odds of birth less than 39 weeks' gestation (odds ratio [OR] = 1.32, 95% confidence interval = 1.28-1.37), less than 37 weeks' gestation (OR = 1.45, 1.38-1.52), less than 34 weeks' gestation (OR = 1.47, 1.35-1.59), and less than 28 weeks' gestation (OR = 1.57, 1.36-1.82). Specifically, odds of birth less than 37 weeks' gestation were associated with maternal depression (OR = 1.31, 1.23-1.40), anxiety disorder (OR = 1.68, 1.41-2.01), depression with anxiety disorder (OR = 2.31, 1.93-2.78), bipolar disease (OR = 1.54, 1.22-1.94), bipolar disease with depression and/or anxiety disorder (OR = 1.70, 1.30-2.22), and unspecified psychiatric disorder (OR = 1.52, 1.41-1.64). Conclusions Maternal psychiatric disorders, especially comorbid psychiatric conditions, were associated with increased likelihood of preterm birth. (c) 2016"""
+
+

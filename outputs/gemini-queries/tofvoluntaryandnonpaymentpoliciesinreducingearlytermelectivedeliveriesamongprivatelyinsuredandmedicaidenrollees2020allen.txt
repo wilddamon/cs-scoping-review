@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofvoluntaryandnonpaymentpoliciesinreducingearlytermelectivedeliveriesamongprivatelyinsuredandmedicaidenrollees2020allen
+"Objective: To assess the impact of a voluntary pledge policy and a mandatory nonpayment policy on reducing early-term elective deliveries among privately insured and Medicaid-enrolled individuals. Data Sources/Study Setting: Birth certificate data from 2009 to 2015, from South Carolina and 16 control states. Study Design: We use a difference-in-differences approach to test the impact of two different policy types. Outcomes include the probability of an early elective delivery, gestation time, and birthweight. Principal Findings: The voluntary pledge and mandatory nonpayment policy reduced overall EED rates from 13.1 to 11.4 (-12.7 percent, [P <.05]), and 10.9 ([-16.6 percent, P <.05]), respectively. Compared to the privately insured, we found greater relative decreases in Medicaid EED rate, the proportion of Medicaid births occurring before 39 weeks, and the proportion of Medicaid babies born with low birthweight. Conclusions: Both voluntary and mandatory nonpayment policies are effective in reducing the rate of EEDs, especially among Medicaid enrollees. Given the high costs and poor outcomes associated with EEDs, policy makers may consider using either tool as a way to improve care value. (c) Health Research and Educational Trust"""
+
+

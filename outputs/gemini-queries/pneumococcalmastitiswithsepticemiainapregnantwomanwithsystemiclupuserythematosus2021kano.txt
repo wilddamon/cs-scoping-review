@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pneumococcalmastitiswithsepticemiainapregnantwomanwithsystemiclupuserythematosus2021kano
+"Purulent mastitis due to Streptococcus pneumoniae is extremely rare and is thought to be transmitted to the mother from the respiratory tract of the child during breastfeeding. We report herein a case of a 37-year-old, pregnant, Japanese patient in her third trimester with systemic lupus erythematosus (SLE) who presented with bacteremic pneumococcal mastitis despite the absence of lactation. Previous studies suggested that a marked susceptibility to S. pneumoniae among patients with SLE may play an important role in the development of severe infections due to this organism. Clinicians should be aware of this susceptibility and the importance of pneumococcal vaccination for patients with SLE.Copyright (c) 2021 Wolters Kluwer Health, Inc. All rights reserved."""
+
+

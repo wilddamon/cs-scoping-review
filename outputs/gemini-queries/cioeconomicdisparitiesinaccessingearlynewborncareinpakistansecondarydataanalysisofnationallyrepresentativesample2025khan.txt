@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: socioeconomicdisparitiesinaccessingearlynewborncareinpakistansecondarydataanalysisofnationallyrepresentativesample2025khan
+"Objective: Pakistan ranks third in newborn mortality. The study aims to examine any socioeconomic disparities in 48-hour newborn care practices in Pakistan using 6 signal functions. Materials and Methods: Using R (version 4.3.1), a secondary analysis of 3936 mothers' Pakistan Demographic and Health Survey 2017-2018 data was performed. Newborn care practices in 48 hours of life were measured using 6 indicators: cord examination, temperature measurement, danger sign counseling, breastfeeding counseling, breastfeeding observation, and weight measurement. The outcome variable was defined as completing at least 2 signal functions. The frequencies of explanatory variables were estimated using descriptive analysis. Multivariate logistic regression was performed between independent variables and at least 2 signal functions. Results: Among mothers practicing the most newborn care, 71.8% were from urban areas, 81.9% were among the richest, 68.9% had institutional deliveries, 71.3% had 4 or more antenatal care (ANC) visits, 81.5% had cesarean sections (C-sections), and 68.1% were attended by skilled birth attendants. After adjusting for covariates, the likelihood of having at least 2 signal functions was 2.46 times greater for C-sections and 1.58 times greater for institutional deliveries, 2.41 times more probable for mothers with over 4 ANC visits, 1.75 times more likely for those with skilled birth attendants, and 1.64 times more common for the richest mothers. Conclusion: Wealth, C-sections, institutional births, skilled birth attendants, and frequent ANC visits were related to higher care levels, indicating the need for targeted measures in vulnerable populations."""
+
+

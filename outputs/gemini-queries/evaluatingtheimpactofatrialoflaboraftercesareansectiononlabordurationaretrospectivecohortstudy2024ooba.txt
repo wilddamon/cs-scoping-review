@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluatingtheimpactofatrialoflaboraftercesareansectiononlabordurationaretrospectivecohortstudy2024ooba
+"BACKGROUND: Cesarean section (C-section) rates are increasing globally, and repeated C-sections are associated with increased maternal morbidity. Trial of labor after C-section (TOLAC) is an approach to reduce the recurrence of C-sections. However, limited research exists on the impact of cesarean scars on labor duration in TOLAC, considering the termination of labor through C-section and selection bias. This study aimed to investigate the impact of cesarean scars on labor duration in TOLAC participants, accounting for potential confounding factors and biases. METHODS: This retrospective cohort study included 2,964 women who attempted vaginal birth at a single center in Japan from 2012 to 2021. The study categorized participants into TOLAC (n = 187) and non-TOLAC (n = 2,777) groups. Propensity scores were calculated based on 14 factors that could influence labor duration, and inverse probability of treatment weighting (IPTW) was applied. Cox proportional hazards regression analysis estimated hazard ratios (HRs) for labor duration, with and without IPTW adjustment. Sensitivity analyses used propensity score matching, bootstrapping, and interval censoring to address potential biases, including recall bias in the reported onset of labor. RESULTS: The unadjusted HR for labor duration in the TOLAC group compared to the non-TOLAC group was 0.83 (95% CI: 0.70-0.98, P = 0.027), indicating a longer labor duration in the TOLAC group. After adjusting for confounding factors using IPTW, the HR was 0.98 (95% CI: 0.74-1.30, P = 0.91), suggesting no significant difference in labor duration between the groups. Sensitivity analyses using propensity score matching, bootstrapping, and interval censoring yielded consistent results. These findings suggested that the apparent association between TOLAC and longer labor duration was because of confounding factors rather than TOLAC itself. CONCLUSIONS: After adjusting for confounding factors and addressing potential biases, cesarean scars had a limited impact on labor duration in TOLAC participants. Maternal and fetal characteristics may have a more substantial influence on labor duration."""
+
+

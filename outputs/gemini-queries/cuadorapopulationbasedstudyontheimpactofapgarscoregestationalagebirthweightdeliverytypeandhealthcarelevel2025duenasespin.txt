@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlyneonatalmortality24hinecuadorapopulationbasedstudyontheimpactofapgarscoregestationalagebirthweightdeliverytypeandhealthcarelevel2025duenasespin
+"Background: We examined the relationship between the 5-min Apgar score and other individual and contextual neonatal characteristics with early neonatal mortality (before 24 h) in Ecuadorian neonates. Methods: We conducted a retrospective case-control study using data from the Ecuadorian National Surveillance System for Neonatal Mortality, covering January 2014 to September 2017. We analyzed data for neonates who died within 28 days of birth, focusing on mortality before 24 h (early death). Multilevel multivariate logistic regression was used to calculate crude and adjusted odds ratios (aORs) for early death based on 5-min Apgar scores and other neonatal factors. The random effects variable in this model was altitude at which neonates were attended; this component of the model allows the intercept estimates to vary randomly among the groups of altitude, suggesting that there are differences between these groups that could influence the study results at which the neonates were attended. Results: Of 2144 neonates analyzed, 53.2% were male, with an average gestational age of 30.8 weeks and a mean birth weight of 1525.2 g. More than half (56.0%) were delivered by caesarean section. Common comorbidities included prematurity (39.4%), asphyxia (31.2%), and infections (24.7%). Also, 17.4% had Apgar scores of <= 3. After adjustment, Apgar scores of <= 3 were linked to significantly increased odds of death before 24 h, with an aOR of 20.65 (95% CI: 5.99-71.28, p < 0.001). Conclusions: This study demonstrated that the Apgar score, among other determinants, was significantly associated with early neonatal mortality (before the first 24 h). This association was independent of type of delivery, comorbidities, disorders related to asphyxia, prematurity, infections, and other medical disorders, as well as varying levels of care from primary to tertiary. These findings underscore the importance of Apgar evaluation in neonates and suggest a predictive value of the score for early neonatal mortality."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonofbloodlossbetweenvolatileandtotalintravenousanesthesiaincesareandeliveryasinglecenterretrospectiveobservationalstudy2025shimada
+"BACKGROUND: Volatile anaesthetics have been suspected to increase intraoperative blood loss during caesarean section by causing uterine relaxation, but evidence from human studies remains inconclusive. METHODS: We conducted a retrospective observational study using a comprehensive perioperative dataset from the University of Tsukuba Hospital. We included 276 caesarean deliveries performed under general anaesthesia between April 2012 and March 2022, comparing patients who received volatile anaesthesia (n = 230) versus total intravenous anaesthesia (TIVA, n = 46). The primary outcome was intraoperative blood loss, and the secondary outcome was the administration of blood transfusion in the operating room. Multivariable regression models were used to adjust for differences in baseline characteristics. RESULTS: A total of 276 caesarean deliveries were included, with 230 patients in the volatile anaesthesia group and 46 in the TIVA group. The mean blood loss was 1,134.8 mL (SD 992.9 mL) in the volatile group and 1,097.8 mL (SD 764.1 mL) in the TIVA group. After adjustment for covariates, including emergency surgery and neoplasm, no significant difference in blood loss was observed (mean difference [volatile anaesthesia minus TIVA] 182 mL; 95% CI -123.5 to 487 mL; P = 0.244). Blood transfusion was performed in 8.3% of patients in the volatile group and 17.4% in the TIVA group, with no significant difference in the adjusted model (odds ratio 0.54; 95% CI 0.22 to 1.49; P = 0.211). CONCLUSION: This study found no significant association between the use of volatile anaesthesia and increased intraoperative blood loss or transfusion during caesarean section."""
+
+

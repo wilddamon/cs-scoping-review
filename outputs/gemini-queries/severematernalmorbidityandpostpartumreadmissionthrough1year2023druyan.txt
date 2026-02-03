@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severematernalmorbidityandpostpartumreadmissionthrough1year2023druyan
+"Objective: To conduct a cohort study to estimate risk for readmission through 1 year postpartum and the most common readmission diagnoses for individuals with and without severe maternal morbidity (SMM) at delivery. Methods: Using national health care claims data from IBM MarketScan Commercial Research Databases (now known as Merative), we identified all delivery hospitalizations for continuously enrolled individuals 15-49 years of age that occurred between January 1, 2016, and December 31, 2018. Severe maternal morbidity at delivery was identified using diagnosis and procedure codes. Individuals were followed for 365 days after delivery discharge, and cumulative readmission rates were calculated for up to 42 days, up to 90 days, up to 180 days, and up to 365 days. We used multivariable generalized linear models to estimate adjusted relative risks (aRR), adjusted risk differences, and 95% CIs for the association between readmission and SMM at each of the timepoints. Results: The study population included 459,872 deliveries; 5,146 (1.1%) individuals had SMM during the delivery hospitalization, and 11,603 (2.5%) were readmitted within 365 days. The cumulative incidence of readmission was higher in individuals with SMM than those without at all timepoints (within 42 days: 3.5% vs 1.2%, aRR 1.44, 95% CI 1.23-1.68; within 90 days: 4.1% vs 1.4%, aRR 1.46, 95% CI 1.26-1.69); within 180 days: 5.0% vs 1.8%, aRR 1.48, 95% CI 1.30-1.69; within 365 days: 6.4% vs 2.5%, aRR 1.44, 95% CI 1.28-1.61). Sepsis and hypertensive disorders were the most common reason for readmission within 42 and 365 days for individuals with SMM (35.2% and 25.8%, respectively). Conclusion: Severe maternal morbidity at delivery was associated with increased risk for readmission throughout the year after delivery, a finding that underscores the need for heightened awareness of risk for complications beyond the traditional 6-week postpartum period. (c) 2023 by the American College of Obstetricians and Gynecologists."""
+
+

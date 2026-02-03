@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalcannabisusedisorderandneonatalhealthoutcomesadatalinkagestudy2025wodaytadesse
+"Objective: We tested for the potential associations between maternal antenatal cannabis use disorders (CUD) and neonatal health outcomes using large linked administrative data. Design: Population-based retrospective cohort study. Setting: The study was conducted in New South Wales, Australia. Population or Sample: A total of 215 879 singleton live births. Methods: Generalised linear models (GLMs) fitted using log-binomial regression to estimate risk ratios (RRs) with the corresponding 95% confidence intervals (95% CI). Additionally, we conducted a propensity score matching (PSM) analysis. Main Outcome Measures: The outcomes include preterm births (PTB), low birth weight (LBW), small for gestational age (SGA), 5-min lower Apgar scores and admission to the neonatal intensive care unit (NICU). Results: In unmatched analyses, antenatal CUD was associated with increased risks for all adverse neonatal outcomes (adjusted risk ratio [RR] ranging from 1.47 [95% CI: 1.01, 2.14] for 5-min lower APGAR scores to 2.58 [95% CI 2.28, 2.91] for PTB). In PSM analyses, we observed slightly attenuated risks of PTB (RR = 1.98 [1.70, 2.31]), LBW (RR = 2.46 [2.13, 2.84]), SGA (RR = 1.84 [1.44, 2.35]) and admission to NICU (RR = 1.91 [1.49, 2.45]) after matching by covariates. However, we found no significant association between antenatal CUD and 5-min low APGAR scores (RR = 1.47 [0.94, 2.30]). Conclusion: We found that maternal antenatal exposure to CUD is associated with a range of adverse neonatal outcomes. This study highlights that targeted interventions focusing on antenatal counselling are recommended to mitigate risks associated with maternal cannabis use. (c) 2024 John Wiley & Sons Ltd."""
+
+

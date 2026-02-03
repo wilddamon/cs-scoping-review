@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: contributingindicationstointrapartumandprelaborcesareanbirthsiniceland199720152022einarsdottir
+"BACKGROUND: More research is needed on the relative contributions of different indications for cesarean birth and how they vary with maternal age and across time. We aimed to assess how the relative contribution of various indications varied with age and by time period in a study of intrapartum and prelabor singleton, term cesarean births (CB) in Iceland. METHODS: The study was restricted to all singleton, term cesarean births in Iceland between 1997 and 2015 identified from the Icelandic Medical Birth Registry (n = 10 856). The contribution of indications was calculated according to maternal age- and birth-year groups for primiparas and multiparas. Logistic regression was used to estimate odds ratios and 95% confidence intervals. RESULTS: For intrapartum cesarean births, the relative contribution of fetal distress (AOR = 1.35 [95% CI = 1.12-1.63]) and failed induction (1.53 [1.15-2.00]) increased with increasing maternal age, whereas dystocia decreased (0.70 [0.58-0.83]). For prelabor cesarean births, the contribution of malpresentation (0.83 [0.76-0.91]) and maternal-fetal-obstetric indications (0.59 [0.47-0.74]) decreased with both birth year and maternal age, whereas the contribution of fear of childbirth (1.80 [1.27-2.54]) and adverse obstetric history (1.24 [1.12-1.37]) increased. Previous CB as an indication for cesarean increased until the 2007-2011 time period, after which it decreased. CONCLUSIONS: For intrapartum cesarean births, the relative contribution of fetal distress and failed induction increased with maternal age, whereas dystocia decreased. For prelabor cesarean births, the relative contribution of more objective indications decreased, whereas more subjective indications increased with time and with increasing maternal age."""
+
+

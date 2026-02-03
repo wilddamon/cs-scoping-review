@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: characteristicsofchildrenborntomotherswithananorectalmalformation2025gertler
+"PURPOSE: To describe characteristics of offspring born to mothers having an anorectal malformation (ARM). METHODS: This was a national population-based cohort study. The exposed group was the offspring of females with an ARM diagnosis (ICD-codes) in the Swedish National Patient Register 1964-2008. The unexposed group was the offspring of mothers without ARM. Five age-matched mothers without ARM were randomly identified for each mother with ARM by Statistics Sweden. Females with chromosomal aberrations were excluded prior to analysis. Outcomes of the mothers were retrieved from the National Patient Register (1964-2021) and Medical Birth Register (1973-2021). Outcomes of the offspring were based on data from Medical Birth Register. Using descriptive statistics, the children of mothers with an ARM were compared to children of mothers not having an ARM. The ethical review authorities approved the study. RESULTS: The mothers included 464 females with ARM and 2313 females without ARM. Of the 464 females with ARM, 132 (28.4%) gave birth to at least one child compared with 895 (38.7%) females without ARM (p < 0.001). The 132 first-born children of mothers with ARM were born at an 8-day younger median gestational age (272 days) when compared to children to mothers without ARM (280 days) (p < 0.001). The infants to mothers with ARM were more commonly small for gestational age (n = 10, 7.6%) than infants to mothers without ARM (n = 28, 3.1%) (p = 0.012). Initial results also showed that the first offspring to ARM mothers were statistically lighter and shorter than the offspring to mothers without ARM (p < 0.001), however, after adjusting for gestational age in a linear regression model, this was no longer the case (p = 0.398 and p = 0.255, respectively). Three first-born offspring in the group of mothers with an ARM, whereas no offspring from mothers without ARM had an ARM. CONCLUSION: The first-born child of mothers with ARM are more commonly small for gestational age than the first-born of mothers without ARM. The offspring to mothers with ARM more commonly had an ARM."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theincreasedcfrnaoftnfsf4inperipheralbloodatlategestationandpretermlaboritsimplicationasanoninvasivebiomarkerforprematuredelivery2023wang
+"Introduction: Given the important roles of immune tolerance and inflammation in both preterm and term labor, some inflammation-related genes could be related to the initiation of labor, even preterm labor. Inspection of cell-free RNA (cfRNA) engaged in inflammation in maternal blood may represent the varied gestational age and may have significant implications for the development of noninvasive diagnostics for preterm birth. Methods: To identify potential biomarkers of preterm birth, we investigated the cfRNA and exosomal miRNA in the peripheral blood of pregnant women at different gestational ages that undergo term labor or preterm labor. 17 inflammatory initiation-related cfRNAs were screened by overlapping with the targets of decreasing miRNAs during gestation and highly expressed cfRNAs at late gestation in maternal blood. To reveal the origins and mechanisms of these screened cfRNAs, the datasets of single-cell RNA sequencing from peripheral blood mononuclear cells of pregnant women, the fetal lung, and the placenta across different gestational ages were analyzed. Results: During late gestation, TNFSF4 expression increased exclusively in pro-inflammatory macrophages of maternal blood, whereas its receptor, TNFRSF4, increased expression in T cells from the decidua, which suggested the potential cell-cell communication of maternally-originated pro-inflammatory macrophages with the decidual T cells and contributed to the initiation of labor. Additionally, the cfRNA of TNFSF4 was also increased in preterm labor compared to term labor in the validation cohorts. The EIF2AK2 and TLR4 transcripts were increased in pro-inflammatory macrophages from both fetal lung and placenta but not in those from maternal mononuclear cells at late gestation, suggesting these cfRNAs are possibly derived from fetal tissues exclusively. Moreover, EIF2AK2 and TLR4 transcripts were found highly expressed in the pro-inflammatory macrophages from decidua as well, which suggested these specific fetal-origin macrophages may function at the maternal-fetal interface to stimulate uterine contractions, which have been implicated as the trigger of parturition and preterm labor. Discussion: Taken together, our findings not only revealed the potential of peripheral TNFSF4 as a novel cfRNA biomarker for noninvasive testing of preterm labor but further illustrated how maternal and fetal signals coordinately modulate the inflammatory process at the maternal-fetal interface, causing the initiation of term or preterm labor. (c) (c) 2023 Wang, Ou and Gao."""
+
+

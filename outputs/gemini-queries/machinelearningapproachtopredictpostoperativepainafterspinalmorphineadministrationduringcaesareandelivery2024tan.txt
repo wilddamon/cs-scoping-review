@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningapproachtopredictpostoperativepainafterspinalmorphineadministrationduringcaesareandelivery2024tan
+"BACKGROUND: A major barrier to optimal pain management is the difficulty in predicting and assessing patients at high risk for significant pain across multiple locations within the institution in a timely manner. This is compounded by the fragmented display of clinical information on enterprise clinical platform, which further hinders delay the reviews and hence the increased risk of untreated pain. We evaluated and compared the predictive performance of six modelling techniques in predicting significant pain, defined as the maximum pain score of 3 or more on movement at the 13th to 24th hour after spinal morphine administration during caesarean delivery. METHODS: We retrieved medical records from women who underwent caesarean delivery and received postoperative spinal morphine in a single specialist maternity hospital in Singapore between Aug 2019 and Aug 2022. We extracted 120 clinical variables from the medical records of eligible patients and further selected 23 to improve algorithm accuracies. The dataset was split randomly, with 80 % of patients (n = 5248) used for training the models, and 20 % (n = 1313) reserved for validation. RESULTS: The study cohort comprised 6561 patients with an incidence of significant postoperative pain of 7.9 %. Ridge regression demonstrated the best performance with both the full (AUC: 0.649) and selected (AUC: 0.719) feature sets. By reducing the number of features, Ridge regression, LASSO, Elastic net, and XGBoost showed similar in AUC (0.704-0.719), sensitivity (0.644-0.695), specificity (0.644-0.705), positive predictive value (0.155-0.179), and negative predictive value (0.949-0.955) in predicting significant postoperative pain. These were attributed to the top three variables, mainly the last recorded postoperative pain score (on movement) before the prediction point, mean and standard deviation of the hourly maximum postoperative pain score (at rest) at 0(th) to 12th hour. CONCLUSIONS: Future research will aim to refine these models and explore their implementation in clinical settings to enhance real-time pain management and risk stratification for women after caesarean delivery."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithincreasedcesareanriskamongafricanamericanwomenevidencefromcalifornia20102015huesch
+"OBJECTIVES: We studied if both observed and unobserved maternal health in African American women in hospitals or communities were associated with cesarean delivery of infants. METHODS: We examined the relationship between African American race and cesarean delivery among 493 433 women discharged from 255 Californian hospitals in 2010 using administrative data; we adjusted for patient comorbidities and maternal, fetal, and placental risk factors, as well as clustering of patients within hospitals. RESULTS: Cesarean rates were significantly higher overall for African American women than other women (unadjusted rate 36.8% vs 32.7%), as were both elective and emergency primary cesarean rates. Elevated risks persisted after risk adjustment (odds ratio generally > 1.27), but the prevalence of particular risk factors varied. Although African American women were clustered in some hospitals, the proportion of African Americans among all women delivering in a hospital was not related to its overall cesarean rate. CONCLUSIONS: To address the higher likelihood of elective cesarean delivery, attention needs to be given to currently unmeasured patient-level health factors, to the quality of provider-physician interactions, as well as to patient preferences."""
+
+

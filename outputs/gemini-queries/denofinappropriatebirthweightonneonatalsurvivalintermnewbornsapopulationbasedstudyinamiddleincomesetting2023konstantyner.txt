@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theburdenofinappropriatebirthweightonneonatalsurvivalintermnewbornsapopulationbasedstudyinamiddleincomesetting2023konstantyner
+"Introduction: Premature birth, perinatal asphyxia, and infections are the main causes of neonatal death. Growth deviations at birth also affect neonatal survival according to week of gestation at birth, particularly in developing countries. The purpose of this study was to verify the association between inappropriate birth weight and neonatal death in term live births. Methods: This is an observational follow-up study with all term live births from 2004 to 2013 in Sao Paulo State, Brazil. Data were retrieved with the deterministic linkage of death and birth certificates. The definition of very small for gestational age (VSGA) and very large for gestational age (VLGA) used the 10th percentile of 37 weeks and the 90th percentile of 41 weeks + 6 days, respectively, based on the Intergrowth-21st. We measured the outcome in terms of time to death and the status of each subject (death or censorship) in the neonatal period (0-27 days). Survival functions were calculated using the Kaplan-Meier method stratified according to the adequacy of birth weight into three groups (normal, very small, or very large). We used multivariate Cox regression to adjust for proportional hazard ratios (HRs). Results: The neonatal death rate during the study period was 12.03/10,000 live births. We found 1.8% newborns with VSGA and 2.7% with VLGA. The adjusted analysis showed a significant increase in mortality risk for VSGA infants (HR = 4.25; 95% CI: 3.89-4.65), independent of sex, 1-min Apgar score, and five maternal factors. Discussion: The risk of neonatal death in full-term live births was approximately four times greater in those with birth weight restriction. The development of strategies to control the factors that determine fetal growth restriction through planned and structured prenatal care can substantially reduce the risk of neonatal death in full-term live births, especially in developing countries such as Brazil. 2023 Konstantyner, Areco, Bandiera-Paiva, Marinonio, Kawakami, Balda, Miyoshi, Sanudo, Costa-Nobre, de Freitas, Morais, Teixeira, Waldvogel, Kiffer, de Almeida and Guinsburg."""
+
+

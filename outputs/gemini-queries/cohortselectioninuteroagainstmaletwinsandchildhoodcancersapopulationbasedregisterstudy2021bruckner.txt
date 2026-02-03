@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cohortselectioninuteroagainstmaletwinsandchildhoodcancersapopulationbasedregisterstudy2021bruckner
+"Background: Cancer ranks as the second leading cause of death among children ages 1 to 14 years in the United States. Previous research finds that strong cohort selection in utero against males precedes a reduction in live-born males considered frail. We examine whether such cohort selection in utero may similarly affect the frequency of childhood cancers among male live births. Methods: We examined 1,368 childhood cancers among males born in Sweden over 144 months, from January 1990 to December 2001, and followed to age 15 in the Swedish Cancer Registry. We retrieved the count of male twins by birth month from the Swedish Birth Registry. We applied autoregressive, integrated, moving average time-series methods to identify and control for temporal patterns in monthly childhood cancers and to evaluate robustness of results. Results: Fewer childhood cancers occur among monthly male birth cohorts with elevated selection in utero (i.e., a low count of live-born male twins). This association appears in the concurrent month (coef 1/4 0.04; 95% CI, 0.001-0.079) as well as in the following month in which most births from the twin's conception cohort are "scheduled" to be born (coef 1/4 0.055; 95% CI, 0.017-0.094). Conclusions: Elevated cohort selection in utero may reduce the number of frail male gestations that would otherwise have survived to birth and received a cancer diagnosis during childhood. Impact: This novel result warrants further investigation of prenatal exposures, including those at the population level, that may induce cohort selection in utero for some cancer types but not others. (c)2021 The Authors; Published by the American Association for Cancer Research"""
+
+

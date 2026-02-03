@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforneedingpostpartumantihypertensivemedicationswithhypertensivedisorderstimingofdiagnosispresenceofproteinuriaandseverityofdisease2021leizer
+"Objectives: Evaluate the association between the need for post-partum antihypertensive medications in patients with hypertensive disorders of pregnancy (HDP) and the following: timing of disease onset (antepartum vs. intrapartum), presence of proteinuria, and severity of disease. Study Design: This was a retrospective cohort study. We reviewed the charts of 204 patients diagnosed with HDP: 106 were diagnosed antepartum and 98 diagnosed intrapartum. Patients withchronichypertensionwereexcluded. Main Outcome Measures: The need for outpatient antihypertensive medications at time of hospital discharge was the primary outcome. We performed logistic regression of covariates and a stratified analysis for each specific HDP (gestational hypertension (GHTN), preeclampsia and preeclampsia with severe features). Results: While the diagnosis of HDP in the antepartum period was a statistically significant risk factor for needing postpartum anti-hypertensive medications at discharge in bivariate analysis RR 2.07 (1.27-3.37), p = 0.001, it did not remain significant after correction for the covariates RR 1.41 (0.45-4.49), P = 0.55. However, the presence of proteinuria was an independent risk factor after logistic regression. Compared to GHTN, there was a significant difference in the need for postpartum anti-hypertensive medications in patients with preeclampsia OR 10.70 (1.54-74.42), p = 0.017 and in preeclampsia with severe features OR 112.14 (20.05-627.22), p < 0.001. Conclusion: Timing of onset of HDP (antepartum vs. intrapartum) was not an independent risk factor for needing antihypertensive medications postpartum. However, proteinuria and the presence of severe features were. Patients with proteinuria and those with severe disease may warrant closer surveillance in the post-partum period than those without proteinuria. (c) 2021 International Society for the Study of Hypertension in Pregnancy"""
+
+

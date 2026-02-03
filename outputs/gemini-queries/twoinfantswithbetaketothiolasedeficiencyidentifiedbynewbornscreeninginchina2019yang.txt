@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: twoinfantswithbetaketothiolasedeficiencyidentifiedbynewbornscreeninginchina2019yang
+"Beta-ketothiolase deficiency (BKTD) is an autosomal recessive disease caused by a defect of mitochondrial acetoacetyl-CoA thiolase. Beginning in 2014, we carried out newborn screening by tandem mass spectrometry (MS/MS) followed by next-generation sequencing (NGS) and identified two infants with BKTD among 203,750 newborns born in Jiangsu Province, China. Both infants showed the characteristic chemical abnormalities of BKTD. We used NGS to confirm variants in the ACAT1. Patient 1 had the compound heterozygous variants c.721dupA and c.928G > C. Patient 2 had compound heterozygosity for the c.238+1G > A and c.1163G > T variants. c.721dupA, c.928G > C and c.1163G > T were suspected to be likely pathogenic, whereas c.238+1G > A was determined to be pathogenic. None of the four variants have been reported in the literature. Patient 1 presented with onset of metabolic acidosis and neonatal hypoglycemia 8 days after birth, whereas patient 2 was detected through neonatal disease screening but had no clinical manifestations. These findings contribute to our understanding of the clinical characteristics and genetic basis of BKTD.Copyright (c) 2019 Yang, Jiang, Liu, Han, Wang, Wang and Yu. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms."""
+
+

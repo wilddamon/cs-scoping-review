@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationaldiabetesandpostnataldepressivesymptomsaprospectivecohortstudyinwesternchina2019mak
+"Background: Gestational diabetes mellitus (GDM) can lead to adverse birth outcomes, but its effect on postnatal depression has not been thoroughly investigated, especially in Asian populations. Aim: To determine the prospective association between GDM and postnatal depressive symptoms in Western China. Methods: A prospective cohort study of 1449 mothers was conducted in Chengdu, capital city of Sichuan Province. GDM was diagnosed during pregnancy using oral glucose tolerance tests. Maternal depressive symptoms were measured at 32-37 weeks of gestation, then at one and three months after giving birth using a validated Chinese version of the Edinburgh Postnatal Depression Scale (EPDS). Associations between the postnatal EPDS scores, GDM status and blood glucose levels were assessed by multivariable mixed-effects regression models, accounting for baseline EPDS scores of the cohort and other confounding factors. Findings: Compared to the non-GDM group (n = 1220), women with GDM (n = 229, 15.8%) reported significantly higher mean EPDS scores at both 1-month (p = 0.02) and 3-month (p < 0.01) postpartum. Similarly, high levels of fasting, 1-h and 2-h blood glucose levels during pregnancy were associated with increased EPDS scores. Mixed-effects models further confirmed the positive association between GDM status and postnatal depressive symptoms, even though the mean EPDS scores decreased substantially over the three time points. Conclusion: Chinese women with GDM were more susceptible to postnatal depression than others without the condition, despite their depressive symptoms reducing over time after childbirth. It is thus important to raise awareness of postnatal depression amongst healthcare professionals who care for women with GDM. (c) 2018 Australian College of Midwives"""
+
+

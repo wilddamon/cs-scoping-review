@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thecostofhypertensivedisordersofpregnancytotheaustralianhealthcaresystem2020fox
+"In Australia, Hypertensive Disorders of Pregnancy are one of the leading causes of maternal death. Additionally, mothers and babies can experience significant morbidity associated with Hypertensive Disorders of Pregnancy. Currently, there is little understanding about the resources spent on this pregnancy complication in Australia. Therefore, using a linked administrative dataset from the Queensland population in Australia, this study aims to determine the difference in government expenditure between mothers that have Hypertensive Disorders of Pregnancy and mothers who do not. The total government expenditure on mothers that had HDP was significantly higher than in mothers who did not have HDP ($14,388 and $11,395 respectively). Most notably, the greatest difference in costs were experienced during the time of birth ($8696 and $6509). (c) 2020 International Society for the Study of Hypertension in Pregnancy"""
+
+

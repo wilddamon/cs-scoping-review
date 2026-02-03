@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: embryofetaldevelopmenttoxicityofhonokiolmicroemulsionintravenouslyadministeredtopregnantrats2016zhang
+"The aim of this study was to evaluate the embryo-fetal development toxicity of honokiol microemulsion. The drug was intravenously injected to pregnant SD rats at dose levels of 0, 200, 600 and 2000 mcg/kg/day from day 6-15 of gestation. All the pregnant animals were observed for body weights and any abnormal changes and subjected to caesarean-section on gestation day (GD) 20; all fetuses obtained from caesarean-section were assessed by external inspection, visceral and skeletal examinations. No treatment-related external alterations as well as visceral and skeletal malformations were observed in honokiol microemulsion groups. There was no significant difference in the body weight gain of the pregnant rats, average number of corpora lutea, and the gravid uterus weight in the honokiol microemulsion groups compared with the vehicle control group. However, at a dose level of 2000 mcg/kg/day, there was embryo-fetal developmental toxicity observed, including a decrease in the body length and tail length of fetuses. In conclusion, the no-observed-adverse-effect level (NOAEL) of honokiol microemulsion is 600 mcg/kg/day, 75 times above the therapeutic dosage and it has embryo-fetal toxicity at a dose level of 2000 mcg/kg/day, which is approximately 250 times above the therapeutic dosage. Copyright (c) 2015 Elsevier Inc. All rights reserved."""
+
+

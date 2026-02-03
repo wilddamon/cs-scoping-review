@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severeimmunethrombocytopeniainpregnancyintravenousimmunoglobulincanimproveplateletcountsignificantly2020selim
+"Background: Immune thrombocytopenic purpura (ITP) is a bleeding disorder characterized by isolated thrombocytopenia, which is related to an autoimmune process. ITP is considered a diagnosis of exclusion. Cases: This article presents 3 cases of pregnant women who were previously diagnosed with ITP. These patients showed had platelet counts of <20 x 109/L at prenatal assessments. Result(s): The three patients were managed prenatally by intravenous immunoglobulin (IVIG) to raise their platelet counts before delivery. Two of these patients completed the 5-day course of treatment and delivered at the planned time; the third patient required an emergency cesarean section before she could complete her course of IVIG treatment. Conclusion(s): IVIG treatment is effective for treating severe ITP. IVIG increases platelet count to a good level that can enable a safe delivery without any maternal or fetal complications.(c) Copyright 2020, Mary Ann Liebert, Inc."""
+
+

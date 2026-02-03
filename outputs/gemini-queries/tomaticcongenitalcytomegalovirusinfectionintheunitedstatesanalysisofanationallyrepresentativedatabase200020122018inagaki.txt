@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsgeographicdistributionandhealthcareburdenofsymptomaticcongenitalcytomegalovirusinfectionintheunitedstatesanalysisofanationallyrepresentativedatabase200020122018inagaki
+"Objective: To assess risk factors, geographic distribution, length of stay, and total charges per case of symptomatic congenital cytomegalovirus infection (cCMV). Study design: We performed retrospective analyses of serial cross-sectional data using the Kids' Inpatient Database, a nationally representative sample of US pediatric hospital discharges, from 2000, 2003, 2006, 2009, and 2012. Symptomatic cCMV was identified via use of the International Classification of Diseases, Ninth Revision, Clinical Modification code 771.1 among records with in-hospital birth that were accompanied by 1 or more characteristic symptoms. Demographic characteristics were compared with multivariable logistic regression. Temporal trend was assessed using linear regression. Charges were adjusted for inflation to 2012 US dollars. Results: We identified 1349 cases of symptomatic cCMV (SE 56). Symptomatic cCMV was associated with non-Hispanic black race (OR 1.70; 95% CI 1.37-2.10), government-sponsored insurance (OR 1.95; 95% CI 1.34-2.83), and birth in the American South and West (OR 1.68, 95% CI 1.35-2.09 and OR 1.61, 95% CI 1.23-2.09, respectively). In-hospital mortality and preterm birth rate ranged from 3.2%-6.8% and 50.4%-59.2%, respectively, without temporal changes. The geometric mean of total charges per case doubled from $45 771 (SE $8509) in 2000 to $89 846 (SE $10 358) in 2006 (P =.002) but did not change from 2006 to 2012. Length of stay in days was 15 (IQR 8-22) in 2000, 27 (IQR, 9-51) in 2009, and 18 (IQR, 8-47) in 2012. Conclusions: Symptomatic cCMV was associated with non-Hispanic black race, low socioeconomic status, and birth in the American South and West and resulted in substantial healthcare burden. (c) 2018 Elsevier Inc."""
+
+

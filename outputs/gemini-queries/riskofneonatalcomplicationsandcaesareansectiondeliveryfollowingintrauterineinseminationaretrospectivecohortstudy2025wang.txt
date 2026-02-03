@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: coexistenceofelevatedmaternalbodymassindexandpolycysticovarysyndromemaybeassociatedwithincreasedriskofneonatalcomplicationsandcaesareansectiondeliveryfollowingintrauterineinseminationaretrospectivecohortstudy2025wang
+"Background: The birth outcomes of neonates born to mothers with polycystic ovary syndrome (PCOS) following intrauterine insemination (IUI) remain unclear, as do the correlations with pregravid maternal characteristics, thus warranting further investigation. Method(s): Data were collected on mothers with PCOS (PCOS group, n = 101), including the birth outcomes of their offspring. Mothers without PCOS (non-PCOS group, n = 204) and their offspring served as the control group. The two groups were analyzed for correlations between neonatal birth outcomes and pregravid maternal characteristics using univariate analysis, Spearman rank correlation, and logistic regression models. Result(s): In the PCOS group, maternal body mass index (BMI) was a positive predictor of neonatal complications, independent of confounding factors (unadjusted odds ratio [OR] = 1.28, p = 0.03 adjusted OR = 1.30, p = 0.04). However, no significant association was found between maternal BMI and neonatal complications in the non-PCOS group (unadjusted OR = 1.06, p = 0.34 adjusted OR = 1.02, p = 0.71). Compared to non-PCOS mothers, each one-unit increase in the BMI among PCOS mothers was associated with a 1.30-fold increased risk of adverse neonatal complications. Secondly, maternal BMI was a positive predictor of caesarean section delivery in the PCOS group, independent of confounding factors (unadjusted OR = 1.25, p = 0.006 adjusted OR = 1.28, p = 0.005). Maternal BMI was also a positive predictor for caesarean section delivery in the non-PCOS group, independent of confounding factors (unadjusted OR = 1.15, p = 0.004 adjusted OR = 1.14, p = 0.014). However, the adjusted OR in the PCOS group was higher than that observed in the non-PCOS group (OR = 1.28 vs. OR = 1.14). Conclusion(s): The co-occurrence of elevated maternal BMI and PCOS may be associated with an elevated risk of neonatal complications and delivery by caesarean section following IUI. Mothers with PCOS are advised to maintain a healthy pregravid BMI in order to minimize the risk of adverse neonatal complications.Copyright (c) 2025 The Author(s). Published by IMR Press."""
+
+

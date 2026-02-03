@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acasecontrolstudyontheeffectsofincompleteoneandmorethanonedexamethasonecourseonacuterespiratoryproblemsinpretermneonatesbornbetween280and366weeksofgestation2022chawanpaiboon
+"Objective: To compare the effects of an incomplete course and more than 1 course of dexamethasone, relative to a control of a single complete course, on foetal respiratory problems and other adverse outcomes of preterm birth. Methods: This was a retrospective chart review of 1800 women with preterm delivery. Data were collected on newborns whose mothers administered 1 full course of dexamethasone (916/1800; 50.9%), a partial course (716/1800; 39.8%) and more than 1 course (168/1800; 9.3%). Demographic data and adverse maternal and neonatal outcomes were recorded. Results: Preterm singleton newborns whose mothers received several steroid hormone courses were significantly more likely to have adverse outcomes than newborns of mothers given 1 course. The negative outcomes were the need for positive pressure ventilation ([aOR] 1.831; 95% CI, (1.185,2.829); P = 0.019), ventilator support ([aOR] 1.843; 95% CI, (1.187,2.861); P = 0.011), and phototherapy ([aOR] 1.997; 95% CI, (1.378,2.895); P < 0.001), transient tachypnoea of the newborn ([aOR] 1.801; 95% CI, (1.261,2.571); P = 0.002), intraventricular haemorrhage ([aOR] 2.215; 95% CI, (1.159, 4.233); P = 0.027), sepsis ([aOR] 1.737; 95% CI, (1.086, 2.777); P = 0.007), and admission to neonatal intensive care ([aOR] 1.822; 95% CI, (1.275,2.604); P = 0.001). In the group of very preterm infants, newborns of mothers administered an incomplete course had developed respiratory distress syndrome (RDS) ([aOR] 3.177; 95% CI, (1.485, 6.795); P = 0.006) and used ventilatory support ([aOR] 3.565; 95% CI, (1.912, 6.650); P < 0.001) more than those of mothers receiving a single course. Conclusions: Preterm singleton newborns whose mothers were given multiple courses of dexamethasone had an increased incidence of RDS and other adverse outcomes than those of mothers receiving a full course. However, very preterm newborns whose mothers were administered 1 full dexamethasone course had a significantly lower incidence of RDS than those whose mothers were given partial courses. (c) 2022, The Author(s)."""
+
+

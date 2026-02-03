@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retinolbindingprotein4fetalovergrowthandfetalgrowthfactors2020yang
+"Background: Retinol-binding protein 4 (RBP-4) is an adipokine involved in regulating insulin sensitivity which would affect fetal growth. It is unclear whether RBP-4 is associated with fetal overgrowth, and unexplored which fetal growth factor(s) may mediate the association. Methods: In the Shanghai Birth Cohort, we studied 125 pairs of larger-for-gestational-age (LGA, birth weight >90th percentile, an indicator of fetal overgrowth) and optimal-for-gestational-age (OGA, 25-75th percentiles) control infants matched by sex and gestational age. We measured cord blood concentrations of RBP-4, insulin, proinsulin, insulin-like growth factor-I (IGF-I), and IGF-II. Results: Cord blood RBP-4 concentrations were elevated in LGA vs. OGA infants (21.9 +- 6.2 vs. 20.2 +- 5.1 ug/ml, P = 0.011), and positively correlated with birth weight z score (r = 0.19, P = 0.003), cord blood proinsulin (r = 0.21, P < 0.001), IGF-I (r = 0.24, P < 0.001), and IGF-II (r = 0.15, P = 0.016). Adjusting for maternal and neonatal characteristics, each SD increment in cord blood RBP-4 was associated with a 0.28 (0.12-0.45) increase in birth weight z score (P < 0.001). Mediation analyses showed that IGF-I could account for 31.7% of the variation in birth weight z score in association with RBP-4 (P = 0.01), while IGF-II was not an effect mediator. Conclusions: RBP-4 was positively associated with fetal overgrowth. IGF-I (but not IGF-II) may mediate this association. (c) 2019, International Pediatric Research Foundation, Inc."""
+
+

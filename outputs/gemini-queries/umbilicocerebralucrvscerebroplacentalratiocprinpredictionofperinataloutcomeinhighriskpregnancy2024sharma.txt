@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: umbilicocerebralucrvscerebroplacentalratiocprinpredictionofperinataloutcomeinhighriskpregnancy2024sharma
+"Background: Purpose Aim of our study was to compare the prognostic value of the Umbilical-to-Cerebral ratio (UCR) directly to the Cerebroplacental ratio (CPR) in the prediction of poor perinatal outcomes in pregnancies complicated by Fetal Growth Restriction (FGR). Method(s): A retrospective study was carried out on pregnant women with either a small-for-gestational-age (SGA) fetus or that were diagnosed with FGR. Doppler measurements of the two subgroups were assessed, and the correlation between CPR, UCR, and relevant outcome parameters was evaluated by performing linear regression analysis, binary logistic analysis, and receiver operator characteristic (ROC) curves. Outcomes of interest were mode of delivery, acidosis, preterm delivery, gestational age at birth as well as birthweight and centiles. Result(s): Boxplots and Scatterplots illustrated the different distribution of CPR and UCR leading to deviant correlational relationships with adverse outcome parameters. In almost all parameters examined, UCR showed a higher independent association with preterm delivery (OR: 5.85, CI 2.23-15.34), APGAR score<7 (OR: 3.52; CI 1.58-7.85) as well as weight under the 10th centile (OR: 2.04; CI 0.97-4.28) in binary logistic regression compared to CPR, which was only associated with preterm delivery (OR: 0.38; CI 0.22-0.66) and APGAR score<7 (OR: 0.27; CI 0.06-1.13). When combined with different ultrasound parameters to differentiate between SGA and FGR during pregnancy, odds ratios for UCR were highly significant compared to odds ratios for CPR (OR: 0.065, 0.168-0.901; p=0.027; OR: 0.810, 0.369-1.781; p=0.601). ROC curves plotted for CPR and UCR showed almost identical moderate prediction performance. Conclusion(s): These findings indicate that the UCR should be prospectively examined as a prognostic tool while keeping the statistical characteristics and challenges of reversing the ratio in mind.Copyright (c) 2024 EManuscript Technologies. All rights reserved."""
+
+

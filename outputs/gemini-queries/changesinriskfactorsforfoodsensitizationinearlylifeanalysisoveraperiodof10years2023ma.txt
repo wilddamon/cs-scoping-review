@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: changesinriskfactorsforfoodsensitizationinearlylifeanalysisoveraperiodof10years2023ma
+"BACKGROUND: Although epidemiological trends of childhood food sensitization (FS) in IgE-mediated food allergy were reported in China, few studies have examined at changes in its risk factors. OBJECTIVE: To investigate the change in early-life risk factors associated with childhood food sensitization during 2009-2019 in China. METHODS: Data from two cross-sectional surveys conducted in 2009 and 2019 (401 and 513 children, respectively) were analyzed. The results of skin prick tests and information on food sensitization-related risk factors in children were summarized, including family history of atopic disease (FHA), demographic characteristics, method of delivery, feeding patterns, sibship size, pet ownership, and vitamin D supplementation. Binary logistic regression was used to calculate the odds ratio and the regression coefficient b-value of risk factors in the 2009 and 2019 surveys separately. Then, coefficient b-value differences between the two surveys were analyzed by the bdiff command in STATA to describe the change in risk factors over 10 years. RESULTS: The 2009 survey revealed that FHA, age, only child, and feeding patterns were associated with food sensitization. The 2019 survey showed that food sensitization was affected by age, sex, and feeding patterns. However, from 2009 to 2019, the probability of food sensitization in the only-child group significantly increased by 226.0% (b-value difference = 0.81, P = 0.024) and decreased by 65.0% in female children (b-value difference = -1.06, P = 0.008). The effect of age on food sensitization decreased by 50.0% (b-value difference = -0.69, P < 0.001) over 10 years. CONCLUSION: The effect of FHA and common lifestyle factors on food sensitization did not significantly change during 2009-2019. However, the influence of demographic characteristics on food sensitization has changed since 2009; that is, older age, male gender, and only child are more likely to develop food sensitization, which needs to be considered in future epidemiological surveys. CLINICAL TRIAL REGISTRATION: http://www.chictr.org.cn/, identifier ChiCTR1900024338."""
+
+

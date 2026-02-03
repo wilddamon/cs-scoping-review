@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: doesthe2weekpostpartumhealthcheckupfortermdeliveriespreventpostpartumdepressionanalysisusinga10yeardatabasefromauniversityhospitalinjapan2025kawajiri
+"BACKGROUND: Postpartum depression (PPD) is a significant public health concern with adverse outcomes for both mothers and offspring. This study examined the association between a two-week postpartum health checkup (HC) and PPD prevalence at one month. METHODS: This retrospective cohort study from Japan included 6681 women who delivered full-term singleton babies between January 1, 2012, and August 31, 2021. The HC group received a two-week HC from January 2019, whereas those who delivered before this period were in the non-HC (control) group. PPD was assessed using the Japanese version of the Edinburgh Postnatal Depression Scale (EPDS) at discharge and one month postpartum. Logistic regression analysis identified factors associated with an EPDS score >= 9 at one month postpartum. RESULTS: The average maternal age of participants was 32.5 +- 5.6 years; 51.8 % (n = 3463) were primiparous, and 27.8 % (n = 1856) were in the HC group. The HC group demonstrated a significantly lower proportion of women with EPDS score >= 9 at one month postpartum than the non-HC group (8.9 % vs. 13.8 %, p < 0.001). Factors associated with an EPDS score >= 9 at one month postpartum included attending the two-week postpartum HC (adjusted odds ratio [aOR] = 0.502, p < 0.001), EPDS score at discharge (aOR = 5.574, p < 0.001), psychiatric disorder history (aOR = 2.732, p < 0.001), cesarean section (aOR = 0.762, p = 0.006), and exclusive formula feeding (aOR = 1.368, p = 0.005). CONCLUSION: Two-week postpartum HC was associated with a lower prevalence of PPD risk at one month postpartum. Early postpartum HC may be valuable for identifying women at risk of PPD and supporting timely interventions."""
+
+

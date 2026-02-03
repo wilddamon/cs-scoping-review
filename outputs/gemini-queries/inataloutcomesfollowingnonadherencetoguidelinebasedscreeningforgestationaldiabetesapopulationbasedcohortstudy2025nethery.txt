@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomesfollowingnonadherencetoguidelinebasedscreeningforgestationaldiabetesapopulationbasedcohortstudy2025nethery
+"INTRODUCTION: The optimal approach for gestational diabetes mellitus (GDM) screening remains controversial. Since 2003, all Canadian guidelines have recommended universal GDM screening. Some countries, such as Sweden, use selective GDM screening among those with pre-existing risk factors. In Canada, antenatal care model (midwife, general practitioner or obstetrician) is partially self-selected; thus, patient populations may differ between care models. Despite the Canadian policy of universal GDM screening, screening nonadherence is more frequent in midwife-led care. We examined perinatal outcomes according to GDM screening adherence vs. nonadherence in this population. MATERIAL AND METHODS: We conducted a population-based cohort study of singleton pregnancies and infants using linked administrative data from the province of British Columbia, Canada. We restricted the study to pregnancies with midwife-led antenatal care where GDM screening nonadherence occurred more frequently and was more likely by choice. We estimated adjusted risk ratios (aRR) according to GDM screening, comparing no glucose tests during pregnancy (21.4%), early glucose testing <20 weeks (5.5%), and glucose testing with alternate methods >=20 weeks (4.0%) vs. normoglycemic pregnancies (69%) using multivariable log binomial regression. We stratified by known GDM risk factors. Our primary outcome was large for gestational age (LGA) infants. Secondary outcomes were small for gestational age infants (SGA), stillbirth, 5-min Apgar <7, birth trauma, preterm birth, cesarean birth, and obstetric anal sphincter injury (OASI). RESULTS: In this cohort of 83 522 pregnancies, having no glucose tests in pregnancy was associated with lower risks of LGA and cesarean birth (LGA aRR 0.82; 95% CI 0.79-0.86; cesarean birth aRR 0.75; 95% CI 0.72-0.78) and higher risks of stillbirth and SGA (stillbirth aRR 1.6; 95% CI 1.0-2.2; SGA aRR 1.2; 95% CI 1.1-1.3) compared with normoglycemic pregnancies. Stillbirth risks were further elevated (aRR 2.5; 95% CI 1.2-5.0) in strata with GDM risk factors, but not in strata without risk factors, while higher SGA risks persisted across strata. CONCLUSIONS: Nonadherence to GDM screening guidelines was associated with lower risks for excess fetal growth-related outcomes (LGA, cesarean birth), but higher risks of stillbirth and SGA."""
+
+

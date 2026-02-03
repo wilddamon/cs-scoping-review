@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofpreventivenursingonthedurationofmechanicalventilationandtheincidenceofcomplicationsinneonateswithrespiratorydistresssyndrome2021li
+"Objective: To explore the effect of preventive nursing on the duration of mechanical ventilation and the incidence of complications in neonatal respiratory distress syndrome (NRDS). Method(s): This study was conducted in 114 NRDS patients who were admitted to our hospital for mechanical ventilation from March 10, 2018 to De-cember 30, 2019. These neonates were randomly allocated into the experimental group (n=57) and the control group (n=57). In the control group, neonates received routine nursing. Meanwhile, neonates in the experimental group received both routine nursing and preventive nursing, which was composed of a series of nursing measures carried out to prevent complications like bronchopulmonary dysplasia, circulatory disorders (retinopathy), pulmonary hypertension, pneumothorax, intra-ventricular hemorrhage, and ventilator-related pneumonia. The amount of pulmonary surfactant (PS), the duration of mechanical ventilation, indicators of blood gas (PaCO2, PaO2, and SpO2), the length of hospitalization, hospitalization expenses, the total incidence of complications, and satisfaction of neonates' family members were compared between the two groups. Result(s): Compared with the control group, the amount of PS and duration of mechanical ventilation in the experimental group were significantly decreased (both P<0.001); PaCO2 level in the experimental group was significantly reduced when compared with the control group, while PaO2 and SpO2 level were significantly increased (all P<0.01); the length of hospitalization and hospitalization expenses in the experimental group were significantly lower than those in the control group (both P<0.001); the total incidence of complications in the experimental group was significantly reduced when compared with the control group (P=0.001); satisfaction of patients' family members in the experimental group was significantly higher than that in the control group (P<0.05). Conclusion(s): The application of preventive nursing in NRDS patients receiv-ing mechanical ventilation contributes to significantly decreased complications, reduced amount of PS, shortened time of mechanical ventilation, reduced costs, improved clinical prognosis, and increased satisfaction of neonates' family members. As such, it is worthy of clinical promotion and application.Copyright (c) 2021, E-Century Publishing Corporation. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofanepidemiologicalriskscoreforneonataldeathinamiddleincomecountry2025areco
+"INTRODUCTION: Despite global reductions in neonatal mortality, significant disparities remain between regions and population groups. Identifying newborns at higher risk at birth may help direct preventive actions and enhance health planning. OBJECTIVE: To develop an epidemiological risk score for neonatal death based on individual and contextual factors. METHODS: A cohort study was conducted using data from over 5.6 million live births in 645 municipalities of Sao Paulo State, Brazil, between 2009 and 2018. The outcome was neonatal death. Risk weights were calculated from adjusted odds ratios obtained through multilevel logistic regression, with coefficients transformed using the natural logarithm and scaled from 1 to 10. Internal validation was performed within the cohort; external validation used data from 2008. RESULTS: Points were assigned to congenital anomalies (4, 7, or 10 depending on severity), preterm vaginal birth (4), preterm cesarean (4), birthweight <2,500 g (4), and fewer than seven prenatal visits (3). Conditions assigned 1 point included male sex, maternal age <17 or >=40 years, term cesarean, birth in spring/summer, multiple pregnancy, low municipal nurse density in public services, and low municipal health insurance coverage. The area under the ROC curve (AUC) was 0.83 for internal and 0.81 for external validation. Risk stratification thresholds were proposed based on total points. CONCLUSION: This score combines routinely collected individual and municipal-level data in Brazil to classify neonatal death risk. It may support clinical prioritization, resource allocation, and identification of low-risk deaths, complementing individualized clinical assessment."""
+
+

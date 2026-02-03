@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exclusivebreastfeedingfor6monthsisassociatedwithreducedriskoffebrileseizure2024gosal
+"Background Febrile seizure (FS) is the most common convulsion disorder without an intracranial abnormality in children aged 6 months to 5 years. Risk factors for FS vary from maternal illness during pregnancy to pediatric nutritional factors, such as micronutrient deficiency or history of exclusive breastfeeding (EBF). The WHO recommends breastfeeding for up to 6 months because breastmilk contains numerous protective factors that may influence immune system development. Objective To analyze the relationship between FS and EBF and other potential risk factors in children aged 6-60 months. Methods This paired case-control study used patient medical record data from Wangaya Hospital, Denpasar, Bali, from 2019-2020. Subjects were included by a purposive sampling technique, matched by age group. Children aged 6 to 60 months with fever >38oC and seizures were allocated to the case group; those with fever but without seizures were allocated to the control group. Patients with intracranial disorders, born prematurely, or with incomplete medical record data were excluded. Data were analyzed using McNemar test, with P values <0.05 deemed to be statistically significant. Results Of 92 participants, 46 children were allocated into each group. There were no significant differences of gender, delivery method, or birth weight between the case and control groups. Febrile seizure was significantly greater in subjects with a family history of all seizures, overweight nutritional status, and who were non-EBF. McNemar analysis showed that EBF children had significantly lower risk of FS compared to non-EBF children (OR 0.74; 95%CI 0.15 to 3.55; P=0.017). Additionally, positive family history of FS was also a significant factor (OR 4.33; 95% CI 0.25 to 76.04; P=0.021), but not with the overweight nutritional status. Conclusion Exclusive breastfeeding is associated with reduced risk of FS in children aged 6 months to 5 years."""
+
+

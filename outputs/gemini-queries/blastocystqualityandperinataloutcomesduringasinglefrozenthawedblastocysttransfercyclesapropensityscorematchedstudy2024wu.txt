@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenblastocystqualityandperinataloutcomesduringasinglefrozenthawedblastocysttransfercyclesapropensityscorematchedstudy2024wu
+"Objective: With the increasing acceptance of blastocyst transfer technologies, more attention is being paid to the selection of blastocysts during the transplant cycle. However, few studies have investigated the relationship between blastocyst quality and perinatal outcomes in single frozen-thawed blastocyst transfer (SFBT) cycles. The aim of this study was to focus solely on the blastocyst and investigate the association between embryo morphological grading and perinatal outcomes in an SFBT cycle. Method(s): In this retrospective cohort study, we divided patients into the good-quality blastocyst transfer group and the poor-quality blastocyst transfer group based on the morphological grading of the blastocysts. To control for potential confounding factors, propensity score matching (PSM) was used to match variables such as male age, secondary infertility, primiparity, the developmental day of the transferred blastocysts, and endometrial thickness on the transfer day. Patients who received single vitrified-warmed high-quality blastocysts were matched with patients who received single poor-quality blastocysts at a 1:1 ratio. Logistic and linear regression analyses were performed to assess perioperative outcomes between the two groups, with adjusted odds ratios reported along with 95% confidence intervals. Two-tailed P-values < 0.05 were considered statistically significant. Result(s): Both before and after using PSM, there were no statistically significant differences in obstetric outcomes, including the incidence of gestational hypertension, gestational diabetes, or cesarean delivery, among women receiving SFBT with different blastocyst qualities. There were also no significant differences in neonatal outcomes between the two groups regarding newborn birth weight or the occurrence of birth defects. Conclusion(s): The quality of blastocysts did not affect the perinatal outcomes of SFBT cycles. Thus, it is a viable option to select a single poor-quality blastocyst for transfer in SFBT cycles when high-quality blastocysts are not available.Copyright (c) 2024 Lippincott Williams and Wilkins. All rights reserved."""
+
+

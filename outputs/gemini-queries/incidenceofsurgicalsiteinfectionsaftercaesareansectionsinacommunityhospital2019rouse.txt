@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incidenceofsurgicalsiteinfectionsaftercaesareansectionsinacommunityhospital2019rouse
+"Background: Rates of performed caesarean sections have increased globally [1]. Surgical site infections (SSIs) following a caesarean section pose a threat to the safety of the patient. This study intended to determine the current SSI rate after caesarean sections at one community hospital. The rate of incidence of these infections was compared to benchmark rates from various studies, including a report from the American National Healthcare Safety Network (NHSN). This comparative study provides objective evidence of performance in relation to SSIs. Method: The primary data collection method included a form completed by the obstetrician-gynecologists of the individual patients at the six-week post-partum follow-up visit. Demographic data was collected retrospectively through analysis of medical records. Patients who underwent a caesarean section in the seven-month data collection period (between November 2015 and May 2016) were asked to participate, and consent was obtained. Results: A total of 118 caesarean sections were reviewed and seven SSIs diagnosed. A crude SSI rate was calculated at 5.9%. For further insight, NHSN risk-adjusted SSI rates were calculated. The NHSN risk-adjusted SSI rate was determined at 6.1% for those patients presenting with a risk index level of 0 and at 5.9% for those with a risk index level of 1. Both NHSN risk index levels of 2 and 3 were identified to have an adjusted SSI rate of 0.0%. Conclusion: This study, while limited in scope, does add to the collective literature on SSI rates following caesarean sections. Most significantly, it provides a methodology for other centres interested in determining their own infection rates and could lead to improved practices and better patient outcomes."""
+
+

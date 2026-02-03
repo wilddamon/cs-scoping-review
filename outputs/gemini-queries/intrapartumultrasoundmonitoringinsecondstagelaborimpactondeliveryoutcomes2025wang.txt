@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrapartumultrasoundmonitoringinsecondstagelaborimpactondeliveryoutcomes2025wang
+"Objective: This study compared the impact of dynamic ultrasound monitoring versus digital examination on second-stage labor (SSL) delivery outcomes, with the primary outcome being cesarean delivery rate and secondary outcomes including perineal lacerations, postpartum hemorrhage, and neonatal complications, providing scientific evidence to optimize obstetric decision-making in the delivery room. Method(s): A semi-randomized trial included 60 pregnant women with slow second stage of labor (SSL) at hospital (June 2023-December 2024), divided into an ultrasound group (observation group, n = 30) and a digital examination group (control group, n = 30). The ultrasound group used fetal position, angle of progression (AOP), and head-perineum distance (HPD) to guide delivery, while the control group used traditional vaginal exams. Outcomes (delivery mode, hemorrhage, lacerations, infections, maternal/neonatal complications, injuries, and asphyxia) were analyzed. Logistic regression assessed AOP and HPD in predicting successful assisted vaginal delivery. Result(s): The observation group had a significantly lower cesarean section (CS) rate (23.3 % vs. 40.0 %, P < 0.05), fewer perineal lacerations (16.7 % vs. 30.0 %, P < 0.05), and less postpartum blood loss (210.5 +/- 50.3 vs. 280.2 +/- 65.8 mL, P < 0.05). Neonatal outcomes (infections, injuries, asphyxia) were similar (P > 0.05). The observation group had higher assisted vaginal delivery success (86.7 % vs. 66.7 %, P < 0.05) and lower CS rates (13.3 % vs. 33.3 %). Multivariate analysis showed AOP >125degree (OR = 6.32, P = 0.014) and HPD <=2.5 cm (OR = 8.17, P = 0.003) independently predicted successful delivery. AOP (AUC = 0.89, cutoff = 125degree) and HPD (AUC = 0.92, cutoff = 2.7 cm) were strong predictors. Conclusion(s): AOP and HPD are crucial ultrasound markers for predicting successful vaginal assisted delivery in SSL. Combining these parameters (AOP >125degree and HPD <=2.7 cm) improves decision-making accuracy. Dynamic intrapartum ultrasound monitoring, compared to digital examination, optimizes delivery decisions, reduces unnecessary CS and perineal trauma, and improves outcomes. This evidence-based approach holds strong clinical value and should be integrated into practice.Copyright (c) 2025 The Authors"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: excessiveumbilicalcordcoilingconfersriskofelevatednocturnalbloodpressureandsevereearlyonsetpreeclampsia2019lv
+"Background:The associations between umbilical cord coiling, feto-placental vascular resistance and maternal blood pressure (BP) are not well understood.Method:We retrospectively analyzed 502 pregnant women suspected of hypertensive disorders in the third trimester from a hospital-based cohort, who underwent ambulatory BP monitoring and umbilical artery Doppler velocimetry examinations within 14 days before delivery. By applying quantile regression, a significant quantile-dependent positive association between umbilical cord coiling index and umbilical artery pulsatility index (UAPI<inf>MOM</inf>; converted to multiples of median) was observed from above 0.75th quantiles for each parameter.Results:Using the cutoffs both at the 0.75th quantile to define high umbilical cord coiling (>=0.28coils/cm) and high UAPI<inf>MOM</inf> (>=1.30), respectively, a graded increase in BP level was observed from patients with both low, either high and both high categories. Multivariate linear and quantile regression revealed that the high umbilical cord coiling/high UAPI<inf>MOM</inf> interaction was significantly correlated with night-time mean DBP level. Moreover, umbilical cord hypercoiling (>=0.3coils/cm) was significantly correlated with night-time DBP with an average increase of ~5mmHg from the 0.05th to 0.70th quantiles and independently predicted the occurrence of severe (odds ratio 2.32, 95% confidence interval: 1.22-4.41) and early-onset (odds ratio 2.43, 95% confidence interval: 1.18-4.97) preeclampsia after adjusting for covariates. Further mediation analysis showed that elevated high UAPI<inf>MOM</inf> (>=1.30) could explain 11.4% of the umbilical cord hypercoiling-high night-time DBP association.Conclusion:Therefore, this retrospective study identifies excessive umbilical cord coiling, and its interaction with increased feto-placental vascular resistance, as novel risk factors for nocturnal BP elevation and preeclampsia. (c) 2019 Lippincott Williams and Wilkins.All right reserved."""
+
+

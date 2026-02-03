@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lactosereducedinfantformulawithaddedcornsyrupsolidsisassociatedwithadistinctgutmicrobiotainhispanicinfants2020jones
+"Infant formula feeding, compared with human milk, has been associated with development of a distinct infant gut microbiome, but no previous study has examined effects of formula with added sugars. This work examined differences in gut microbiota among 91 Hispanic infants who consumed human milk [at breast (BB) vs. pumped in bottle (BP)] and 2 kinds of infant formula [(traditional lactose-based (TF) vs. lactose-reduced with added sugar (ASF)]. At 1 and 6 months, infant stool was collected to characterize gut microbiota. At 6 months, mothers completed 24-hour dietary recalls and questionnaires to determine infant consumption of human milk (BB vs. BP) or formula (TF vs. ASF). Linear regression models were used to determine associations of milk consumption type and microbial features at 6 months. Infants in the formula groups exhibited a significantly more 'mature' microbiome than infants in the human milk groups with the most pronounced differences observed between the ASF vs. BB groups. In the ASF group, we observed reduced log-normalized abundance of Bifidobacteriaceae (TF-BB Mean Difference = -0.71, ASF-BB Mean Difference = -1.10), and increased abundance of Lachnospiraceae (TF-BB Mean Difference = +0.89, ASF-BB Mean Difference = +1.20). We also observed a higher Community Phenotype Index of propionate, most likely produced by Lachnospiraceae, in the ASF group (TF-BB Mean Difference = +0.27, ASF-BB Mean Difference = +0.36). This study provides the first evidence that consumption of infant formula with added sugar may have a stronger association than birth delivery mode, infant caloric intake, and maternal BMI on the infant's microbiome at 6 months of age. (c) 2020 The Author(s). Published with license by Taylor & Francis Group, LLC."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforsingletonfulltermsmallvulnerablenewbornsaretrospectiveanalysisofmaternalandpregnancyfactors201920222025li
+"OBJECTIVE: This study aims to investigate risk factors influencing the occurrence of singleton full-term small vulnerable newborns (SVN), defined as those who are either small for gestational age (SGA) or have low birth weight (LBW). METHODS: A retrospective analysis of 8,919 singleton full-term deliveries (2019-2022) was conducted. Neonates were classified into SVN and control groups, with comparisons made based on maternal demographics, pregnancy complications, and outcomes. Logistic regression identified factors influencing SVN occurrence and assessed its association with cesarean section rates. RESULTS: From 2019 to 2022, the incidence rates of SVN, SGA, and LBW in the study population showed a modest increase, with the SVN incidence in the population rising by 0.73 % in 2022 compared with 2019. Statistically significant differences were observed between the SVN and control groups in maternal age, parity, ethnicity, pre-pregnancy BMI, early pregnancy anemia, and pregnancy complications such as pre-eclampsia, oligohydramnios, and placenta previa. Multivariate logistic regression identified advanced maternal age, underweight pre-pregnancy BMI, Zhuang ethnicity, and early pregnancy anemia as independent risk factors for SVN, while multiparity, overweight/obesity, and complications like placenta previa acted as protective factors. Additionally, SGA with LBW was associated with a 1.5 times higher risk of cesarean section (adjusted OR 1.524, 95 % CI: 1.093, 2.125), while SGA without LBW showed a 50 % reduction in C-section risk (adjusted OR 0.501, 95 % CI: 0.409, 0.614). CONCLUSION: Improving maternal nutritional status and enhancing surveillance of fetal growth in high-risk populations may help reduce the incidence of full-term SVN. Strengthening prevention and optimizing delivery management could contribute to better neonatal health outcomes."""
+
+

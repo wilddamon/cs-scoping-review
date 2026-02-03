@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theinsulinonlybionicpancreaspivotaltrialextensionstudyamulticentersinglearmevaluationoftheinsulinonlyconfigurationofthebionicpancreasinadultsandyouthwithtype1diabetes2022lynch
+"Objective: To evaluate a transition from standard-of-care (SC) management of type 1 diabetes (any insulin delivery method including hybrid closed-loop systems plus real-time continuous glucose monitoring [CGM]) to use of the insulin-only configuration of the iLet(r) bionic pancreas (BP) in 90 adults and children (age 6-71 years). Research Design and Methods: After the SC group completed the randomized controlled trial (RCT) portion of the Insulin-Only BP Pivotal Trial, 90 of the 107 participants participated in a 13-week study using the BP. The key outcomes were change from baseline in HbA1c and CGM metrics after 13 weeks on the BP. Results: Using the BP, mean HbA1c decreased from 7.7% +- 1.0% (61 +- 10.9 mmol/mol) at baseline to 7.1% +- 0.6% (54 +- 6.6 mmol/mol) at 13 weeks (mean change-0.55% +- 0.72% [-6 +- 7.9 mmol/mol], P < 0.001), time in range 70-180 mg/dL increased by 12.0% +- 12.5% (from 53% +- 17% to 65% +- 9%, P < 0.001), and mean glucose decreased by-18 +- 23 mg/dL (from 182 +- 32 to 164 +- 15 mg/dL, P < 0.001). The higher the baseline HbA1c level, the greater the change in HbA1c. Results were similar in the adult (N = 42) and pediatric (N = 48) cohorts. Time <70 mg/dL decreased from baseline over the 13 weeks by-0.50% +- 1.86% (P = 0.02), and time <54 mg/dL was similar (change from baseline-0.08% +- 0.59%, P = 0.24). Two severe hypoglycemia events (in same participant) and one diabetic ketoacidosis event occurred. Conclusions: Glycemic control improved after adult and pediatric participants in the SC arm in the Insulin-Only BP Pivotal Trial transitioned to use of the BP. Improvement using the BP was of similar magnitude to that observed during the RCT. ClinicalTrials.gov number, NCT04200313. (c) 2022 Mary Ann Liebert, Inc., publishers."""
+
+

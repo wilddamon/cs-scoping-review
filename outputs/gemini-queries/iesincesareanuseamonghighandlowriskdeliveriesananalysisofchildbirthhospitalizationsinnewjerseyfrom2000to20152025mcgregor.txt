@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: racialinequitiesincesareanuseamonghighandlowriskdeliveriesananalysisofchildbirthhospitalizationsinnewjerseyfrom2000to20152025mcgregor
+"OBJECTIVE: To examine racial inequities in low-risk and high-risk (or 'medically appropriate') cesarean delivery rates in New Jersey during the era surrounding the United States cesarean surge and peak. STUDY SETTING AND DESIGN: This retrospective repeated cross-sectional study examined the universe of childbirth hospitalizations in New Jersey from January 1, 2000 through September 30, 2015. We estimate the likelihood of cesarean delivery by maternal race and ethnicity, with mixed-level logistic regression models, stratified by cesarean risk level designated by the Society of Maternal Fetal Medicine (SMFM). DATA SOURCES AND ANALYTIC SAMPLE: We used all-payer hospital discharge data from the Healthcare Cost and Utilization Project's State Inpatient Discharge Database and linked this data to the American Hospital Association Annual Survey. ZIP-code Tabulation Area (ZCTA)-level racialized economic segregation index data were from the 2007-2011 American Community Survey. We identified 1,604,976 statewide childbirth hospitalizations using International Classification of Diseases-9-CM (ICD-9) diagnosis and procedure codes and Diagnosis-Related Group codes, and created an indicator of cesarean delivery using ICD-9 codes. PRINCIPAL FINDINGS: Among low-risk deliveries, Black patients, particularly those in the age group of 35-39 years, had higher predicted probabilities of giving birth via cesarean than White people in the same age categories (Black-adjusted predicted probability = 24.0%; vs. White-adjusted predicted probability = 17.3%). Among high-risk deliveries, Black patients aged 35 to 39 years had a lower predicted probability (by 2.7 percentage points) of giving birth via cesarean compared with their White counterparts. CONCLUSIONS: This study uncovered a lack of medically appropriate cesarean delivery for Black patients, with low-risk Black patients at higher odds of cesarean delivery and high-risk Black patients at lower odds of cesarean than their White counterparts. The significant Black-White inequities highlight the need to address misalignment of evidence-based cesarean delivery practice in the efforts to improve maternal health equity. Quality metrics that track whether cesareans are provided when medically needed may contribute to clinical and policy efforts to prevent disproportionate maternal morbidity and mortality among Black patients."""
+
+

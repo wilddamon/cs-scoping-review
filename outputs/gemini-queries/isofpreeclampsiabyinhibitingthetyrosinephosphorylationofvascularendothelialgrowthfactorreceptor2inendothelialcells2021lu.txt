@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: vitamindbindingproteinisinvolvedinthepathogenesisofpreeclampsiabyinhibitingthetyrosinephosphorylationofvascularendothelialgrowthfactorreceptor2inendothelialcells2021lu
+"Objective: The role of Vitamin D-binding protein (DBP) in preeclampsia (PE) pathogenesis is unknown. In this study, we compared the expression of DBP in the placentas of PE patients with the placentas of normotensive pregnant women with placenta previa controls, and aimed to explore the effect of DBP on endothelial cells (ECs) and the underlying mechanism. Method(s): DBP expression in placental tissues collected from PE patients and controls was evaluated by immunohistochemistry. The downregulation and upregulation of DBP expression in HTR-8/SVneo cells were examined using DBP-targeting small interfering RNA (siRNA) and DBP-expression vector, respectively. The conditioned media of these DBP-overexpressing and DBP-siRNA HTR-8/SVneo cells were collected and added to human umbilical vein EC (HUVEC) cultures. Angiogenic effects on HUVECs were assessed by tube formation assays, and the proliferation and migration of HUVECs were examined using the Real-Time Cell Analyzer. The expression of vascular endothelial growth factor (VEGF) and VEGF receptor (VEGFR)-2, as well as the phosphorylation of different residues of VEGFR-2 in HUVECs, were determined by western blotting. Result(s): DBP expression was significantly increased in the placental tissues collected from PE patients. The conditioned medium of DBP-overexpressing HTR-8/SVneo cells potently inhibited tube formation by HUVECs, in addition to their proliferation and migration. Furthermore, treatment of HUVECs with the conditioned medium of DBP-overexpressing HTR-8/SVneo cells decreased the phosphorylation of VEGFR-2 at tyrosine 996, whereas the treatment of these cells with the conditioned medium of DBP-siRNA HTR-8/SVneo cells increased the phosphorylation of VEGFR-2 at tyrosine 951, 996, and 1,175. Conclusion(s): The expression of DBP is increased in the placentas of PE patients. DBP plays potential roles in endothelial dysfunction, which contributes to PE development, by inhibiting tyrosine phosphorylation of VEGFR-2 in ECs.Copyright (c) 2021 Reproductive and Developmental Medicine Published by Wolters Kluwer - Medknow."""
+
+

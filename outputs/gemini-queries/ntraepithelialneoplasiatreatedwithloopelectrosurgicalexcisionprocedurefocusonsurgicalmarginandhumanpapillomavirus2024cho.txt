@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivestudyforlongtermoncologicandobstetricoutcomesincervicalintraepithelialneoplasiatreatedwithloopelectrosurgicalexcisionprocedurefocusonsurgicalmarginandhumanpapillomavirus2024cho
+"Background: The present study aimed to evaluate the long-term oncological and obstetric outcomes following the loop electrosurgical excision procedure (LEEP) in patients with cervical intraepithelial neoplasia (CIN) and investigate the risk factors for recurrence and preterm birth. Methods: This retrospective cohort study included patients who underwent LEEP for CIN 2-3 between 2011 and 2019. Demographic information, histopathological findings, postoperative cytology, and human papillomavirus (HPV) status were collected and analyzed. The Cox proportional hazards model and Kaplan-Meier curves with the log-rank test were used for risk factor analysis. Results: A total of 385 patients treated with the LEEP were analyzed. Treatment failure, including recurrence or residual disease following surgery, was observed in 13.5% of the patients. Positive surgical margins and postoperative HPV detection were independent risk factors for CIN1 + recurrence or residual disease (HR 1.948 [95%CI 1.020-3.720], p = 0.043, and HR 6.848 [95%CI 3.652-12.840], p-value < 0.001, respectively). Thirty-one patients subsequently delivered after LEEP, and the duration between LEEP and delivery was significantly associated with preterm-related complications, such as a short cervix, preterm labor, and preterm premature rupture of the membrane (p = 0.009). However, only a history of preterm birth was associated with preterm delivery. Conclusions: Positive HPV status after LEEP and margin status were identified as independent risk factors for treatment failure in patients with CIN who underwent LEEP. However, combining these two factors did not improve the prediction accuracy for recurrence. (c) The Author(s) 2024."""
+
+

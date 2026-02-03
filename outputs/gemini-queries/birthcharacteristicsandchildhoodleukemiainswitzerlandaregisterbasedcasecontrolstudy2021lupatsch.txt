@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthcharacteristicsandchildhoodleukemiainswitzerlandaregisterbasedcasecontrolstudy2021lupatsch
+"Purpose: Initial genetic alterations in the development of childhood leukemia occur in utero or before conception; both genetic and environmental factors are suspected to play a role. We aimed to investigate the associations between childhood leukemia and perinatal characteristics including birth order, birth interval to older siblings, parental age, birth weight, and multiple birth. Methods: We identified cases diagnosed between 1981 and 2015 and born in Switzerland between 1969 and 2015 from the Swiss Childhood Cancer Registry and randomly sampled five controls per case from national birth records matched on date of birth, sex, and municipality of residence at birth. We used conditional logistic regression to investigate associations between perinatal characteristics and leukemia at ages 0-15 and 0-4 years, and the subtypes acute lymphoblastic leukemia (ALL) and acute myeloid leukemia (AML). Results: The study included 1,403 cases of leukemia. We observed increased risks associated with high birth weight (adjusted OR 1.37, 95% CI 1.12-1.69) and multiple birth (1.89, 1.24-2.86). These associations were similar for ALL and stronger for leukemia at ages 0-4 years. For AML, we observed an increased risk for higher birth order (3.08, 0.43-22.03 for fourth or later born children). We found no associations with other perinatal characteristics. Conclusion: This register-based case-control study adds to the existing evidence of a positive association between high birth weight and risk of childhood leukemia. Furthermore, it suggests children from multiple births are at an increased risk of leukemia. (c) 2021, The Author(s)."""
+
+

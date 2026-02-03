@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: estimatedfetalweightcomparisonofclinicalversusultrasoundestimate2017joshi
+"BACKGROUND: Accurate estimation of fetal weight is of paramount importance in the management of labour and delivery. METHODS: This was a cross sectional study conducted over a period of 6 months in a tertiary care teaching hospital. All singleton term mothers with cephalic presentation and intact membranes with ultrasound examination done within a week were included in the study. IUFD, multiple gestation, malpresentation, diagnosed oligohydramnios or polyhydramnios, pelvic and or abdominal masses, and current weight more than 80 Kgs were excluded from the study. Expected fetal weight was estimated by clinical method (Johnson's formula), which was compared with Ultrasound weight estimation (Hadlock method) and actual birth weight. RESULTS: The estimated mean birth weight by clinical method was 3492.75+-393.16g, by Ultrasound was 3230.02+-407.22g and actual mean birth weight was 3236.32+-472.87g. The estimated birth weight by ultrasonographic method showed slightly stronger positive correlation (r=0.54; p<0.001) with actual birth weight as compared to the clinical method (r=0.44; p<0.001). The error of estimation of weight by clinical method showed significant negative correlation (r=-0.24; p=0.01) with gestational age, however ultrasonographic method did not show significant correlation (r= +0.045; p=0.64). The sensitivity and specificity of clinical method and ultrasonographic method for identifying fetal birth weight above 3500 gm was 69.23; 65.67% and 46.15; 80.60%, respectively. CONCLUSIONS: Ultrasound was more reliable method to establish fetal weight at term and more consistent in various period of gestations. Clinical method can be reliably used to screen large babies in centers where ultrasound has limited availability."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: analysisoftheincidenceandinfluencingfactorsofureaplasmaurealyticuminfectioninprematureneonates2025li
+"Aims/Background Premature newborns face a higher risk of Ureaplasma urealyticum (UU) infection, which is closely associated with many diseases in the neonatal period. Therefore, this study retrospectively analysed the occurrence of UU infection in premature newborns and further explored its influencing factors, which are instrumental for enabling early diagnosis of UU infection in premature infants. Methods In this retrospective study, 870 preterm infants born in the Affiliated Yangming Hospital of Ningbo University from June 2021 to December 2024 were selected as the study subjects. Ninety-three premature infants who tested positive for UU in nasopharyngeal aspirates were included in the UU group (n = 93) as cases, whereas 777 premature infants who tested negative for UU were included in the non-UU group (n = 777). Medical records and laboratory test results of the two groups of premature infants were collected. Univariate analysis and multiple logistic regression analysis were performed to identify factors influencing UU infection in premature newborns. Predictive efficacy of indicators showing differences in predicting UU infection in premature newborns was evaluated by means of receiver operating characteristic (ROC) curve analysis. Results The incidence rate of UU infection in preterm neonates was 10.69% (93/870). Univariate analysis identified maternal age (p < 0.001), gestational hypertension (p = 0.016), delivery method (p < 0.001), premature rupture of membranes (p = 0.006), gestational age (p = 0.001), white blood cell count (p < 0.001), neutrophil count (p < 0.001), serum C-reactive protein (p < 0.001) and procalcitonin levels (p = 0.003) as factors associated with UU infection in premature newborns. The multiple logistic regression analysis identified natural birth/forceps delivery (p < 0.001), low gestational age (p = 0.004), and serum C-reactive protein >0.5 mg/L (p = 0.001) as significant risk factors for UU infection in premature newborns. Concerning the combined use of delivery method (natural birth/forceps delivery), gestational age and serum C-reactive protein (>0.5 mg/L), the area under the curve (AUC) was found to be 0.800 (0.758-0.843, p < 0.001), with a sensitivity of 74.2%, specificity of 75.3%, and Youden index of 0.495. Conclusion The incidence of UU infection in preterm infants stands at about 10%, with delivery method, gestational age and C-reactive protein level being the independent influencing factors. The combination of these three factors holds certain clinical potential in predicting neonatal UU infection."""
+
+

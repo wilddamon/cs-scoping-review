@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofamultivariatepredictivenomogramamongwomenwithantepartumfetaldeathdiagnosedat34weeksofgestationforoutcomeoftolac2024dasgupta
+"OBJECTIVE: The present study was planned to develop a nomogram that will give a priori estimate on the probability of vaginal birth from maternal features in women with antepartum fetal death diagnosed at >= 34 week's gestation and previous one low transverse cesarean section (LTCS). This will help to reduce maternal complications and increase confidence when planning a trial of labor after cesarean section (TOLAC). METHODS: A prospective observational study was planned where participants underwent induction of labor with Foley's catheter (unless already in spontaneous labor) within 24 h of enrolment. Participants with absent or inadequate contractions, oxytocin infusion as an additional agent was used. Data was collected on maternal predelivery features. Outcome of participants was categorized into two classes-vaginal and cesarean delivery. Classifiers were trained with data on maternal features and the accuracy of predicting outcome class determined. The classifier with maximum accuracy was used to develop a nomogram. RESULT: Three hundred and one women underwent treatment as per protocol. Two hundred and twenty women attained successful vaginal delivery and eighty-one women underwent caesarean section. Factors having a significant impact on outcome were maternal body mass index (BMI), bishop score, duration of augmentation, estimated foetal weight, interval from previous LTCS, admission to active labor interval, vaginal delivery after LTCS and gestational age. The Naive -Bayes model gave the highest prediction accuracy (0.88). CONCLUSION: Non-linear classifiers by using selective features could predict the outcome of TOLAC among women with intra-uterine fetal death attempting vaginal birth at or beyond 34 weeks gestation with high accuracy."""
+
+

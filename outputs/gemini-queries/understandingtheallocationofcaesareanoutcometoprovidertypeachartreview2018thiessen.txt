@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: understandingtheallocationofcaesareanoutcometoprovidertypeachartreview2018thiessen
+"INTRODUCTION: The concept, 'most responsible provider' has a specific definition in the Canadian National Discharge Abstract Database (DAD). Variation exists in how care providers are defined in administrative data. METHODS: We compared chart data with administrative data to understand how 'most responsible provider' was identified in these two data sources. RESULTS: We found a 3% discrepancy between data sources. Differences between data sources were attributable to transfers in care that occurred at birth. DISCUSSION: 'Most responsible provider' should consider the full trajectory of care when assigning outcomes in order to understand how to best support optimal health among low-risk births."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: shorttermmaternalandneonataloutcomesinpreterm33weeksgestationcesareandeliveriesundergeneralanesthesiawithdeferredcordclamping2025jegatheesan
+"BACKGROUND: Deferred cord clamping (DCC) is beneficial for preterm infants, but there are concerns about the safety of DCC during Cesarean deliveries (CD) under general anesthesia (GA). We evaluated maternal and neonatal outcomes in preterm CD under GA vs. regional anesthesia (RA) after implementing 180 s of DCC. METHODS: This retrospective single-center observational study included CD at <33 weeks gestation, delivered between January 2018 and December 2023. The cord was clamped before 180 s for concerns of maternal bleeding or infant apnea after 30-45 s stimulation. Data was collected from reports from electronic medical records, neonatal intensive care unit database, and manually from the medical records of the patient. Multivariable regression analysis was used to assess the effect of anesthesia type and DCC on outcomes, adjusting for confounders. RESULTS: This study included 170 mothers and 194 infants, and 84.9% of the infants received DCC >= 60 s. The GA group had a higher percentage of emergency CD and a lower median duration of DCC (105 s vs. 180 s, p <= 0.001) compared to RA. In multivariate regression analysis, GA was associated with lower odds (95% CI) of umbilical artery pH < 7 [0.1, (0.0, 0.6)], base deficit >= 16 [0.0, (0.0, 0.5)], and higher odds of necrotizing enterocolitis [28.2, (1.4, 560.0)]. GA was not associated with maternal hemorrhage, delivery room (DR) resuscitation, or other major neonatal morbidities or mortality. DCC >= 60 s was associated with lower maternal blood loss [Regression coefficient -698, (-1193, -202)], lower odds of transfusion [0.4, (0.1, 1.0)], DR resuscitation [0.4, (0.2, 0.8)], and chronic lung disease [0.4, (0.2, 0.9)], and higher survival without major morbidities [2.8, (1.2, 6.8)]. CONCLUSIONS: DCC was performed in a majority of CD under GA by adhering to protocols to shorten DCC in cases where maternal or fetal safety was threatened. GA with DCC was not associated with increased neonatal resuscitation or major neonatal morbidities and was associated with lower maternal hemorrhage and transfusion."""
+
+

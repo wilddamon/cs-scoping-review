@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cerebrovascularautoregulationinpreterminfantsusingheartrateorbloodpressureapilotstudy2024lahr
+"Background: Cerebrovascular autoregulation (CAR) is often impaired in preterm infants but requires invasive mean arterial blood pressure (MABP) measurements for continuous assessment. We aimed to assess whether using heart rate (HR) results in different CAR assessment compared with using MABP. Method(s): We compared CAR (moving window correlation-coefficient with cerebral oxygenation saturation (rcSO2)), and percentage of time with impaired CAR (%timeCARi) calculated by either HR (TOHRx, tissue oxygenation heart rate reactivity index) or MABP (COx, cerebral oximetry index) during the first 72 h after birth, and its association with short-term cerebral injury. Result(s): We included 32 infants, median gestational age of 25 + 5/7 weeks (interquartile range 24 + 6/7-27 + 5/7). COx and TOHRx correlation coefficients (cc) were significantly different in the first two days after birth (individual means ranging from 0.02 to 0.07 and -0.05 to 0.01). %TimeCARi using MABP (cc cut-off 0.3), was higher on day 1 (26.1% vs. 17.7%) and day 3 (23.4% vs. 16.9%) compared with HR (cc cutoff -0.3). During 65.7-69.6% of the time, both methods indicated impaired CAR simultaneously. The aforementioned calculations were not associated with early cerebral injury. Conclusion(s): In conclusion, HR and MABP do not seem interchangeable when assessing CAR in preterm infants.Copyright (c) 2024 by the authors."""
+
+

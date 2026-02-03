@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prognosticmodelonnichedevelopmentafterafirstcaesareansectiondevelopmentandinternalvalidation2023stegwee
+"Objective: To develop and internally validate a prognostic prediction model for development of a niche in the uterine scar after a first caesarean section (CS). Study design: Secondary analyses on data of a randomized controlled trial, performed in 32 hospitals in the Netherlands among women undergoing a first caesarean section. We used multivariable backward logistic regression. Missing data were handled using multiple imputation. Model performance was assessed by calibration and discrimination. Internal validation using bootstrapping techniques took place. The outcome was 'development of a niche in the uterus', defined as an indentation of >= 2 mm in the myometrium. Results: We developed two models to predict niche development: in the total population and after elective CS. Patient related risk factors were: gestational age, twin pregnancy and smoking, and surgery related risk factors were double-layer closure and less surgical experience. Multiparity and Vicryl suture material were protective factors. The prediction model in women undergoing elective CS revealed similar results. After internal validation, Nagelkerke R2 ranged from 0.01 to 0.05 and was considered low; median area under the curve (AUC) ranged from 0.56 to 0.62, indicating failed to poor discriminative ability. Conclusions: The model cannot be used to accurately predict the development of a niche after a first CS. However, several factors seem to influence scar healing which indicates possibilities for future prevention such as surgical experience and suture material. The search for additional risk factors that play a role in development of a niche should be continued to improve the discriminative ability. (c) 2023 The Authors"""
+
+

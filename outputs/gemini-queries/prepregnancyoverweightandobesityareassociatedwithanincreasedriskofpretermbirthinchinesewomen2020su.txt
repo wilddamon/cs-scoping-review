@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prepregnancyoverweightandobesityareassociatedwithanincreasedriskofpretermbirthinchinesewomen2020su
+"Introduction: The association between obesity before pregnancy and preterm birth varies with age and ethnicity. Objective: To study the association between early body mass index (BMI) and risk of preterm birth in Chinese women. Methods: This was a hospital-based retrospective cohort study including 36,596 Chinese women who gave birth to a live singleton infant from 2015 to 2018. Women were classified as underweight (BMI <18.5), normal weight (BMI 18.5 to <23), overweight (BMI 23 to <27.5), or obese (BMI >=27.5) according to the most recent criteria for Asian women. Multivariate log-binomial regression models were used to estimate the relative risks (RRs) and 95% confidence intervals (95% CIs) for preterm birth among different groups. Results: Compared to women with normal weight, women with overweight or obesity before pregnancy had an increased risk of preterm birth; the RRs and 95% CIs were 1.22 (95% CI: 1.08-1.37) and 1.30 (95% CI: 1.01-1.69), respectively. The greatest risk of extremely preterm birth was observed in obese women. The estimators were robust when considering the maternal age and rate of gestational weight gain (GWG) during pregnancy. Conclusions: Women with overweight and obesity had an increased risk of preterm birth regardless of GWG in early pregnancy. Our study suggests that it is beneficial to lose weight before conception for both overweight and obese women who plan to become pregnant. (c) 2020 The Author(s) Published by S. Karger AG, Basel."""
+
+

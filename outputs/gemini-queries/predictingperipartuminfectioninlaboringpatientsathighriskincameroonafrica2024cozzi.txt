@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingperipartuminfectioninlaboringpatientsathighriskincameroonafrica2024cozzi
+"Objective: To develop a predictive model for peripartum infection among high risk laboring patients in Cameroon, Africa. Study design: We conducted a secondary analysis of the Cameroon Antibiotic Prophylaxis Trial (NCT 3248297), a multicenter 3-arm double-blind randomized controlled trial of oral azithromycin +- amoxicillin among term pregnancies with prolonged labor or rupture of membranes in Cameroon 1/2018-5/2020. Patients with chorioamnionitis prior to randomization, study drug contraindications, or planned cesarean were excluded. The outcome of interest was a composite of maternal peripartum infection (chorioamnionitis, endometritis, sepsis by World Health Organization criteria, wound infection/abscess) diagnosed up to 6 weeks postpartum. Potential predictors were compared between patients with and without the composite outcome, and evaluated at a 0.05 alpha level. Statistically significant exposures were analyzed using multivariable regression (to generate adjusted odds ratios and 95 % confidence intervals) with backwards selection to generate a parsimonious model. Receiver operating characteristic curves with associated area under the curve assessed the model's predictive ability. A nomogram based on the final best fit multivariable model was constructed. Results: Of 756 patients in the parent trial, 652 were analyzed: 45 (7 %) had peripartum infection. Those with infection were more likely to be nulliparous, lower education level, higher gestational age, receive antibiotics per hospital protocols, and undergo cesarean. In our best-fit multivariable model, none/primary education (vs university), cesarean birth, and antibiotic receipt per physician discretion (vs for cesarean prophylaxis) were significantly associated with increased infection risk. This model was moderately predictive (AUC = 0.75, 95 % CI 0.67-0.82). When using this 3 factor model, for a patient with a cesarean birth, receipt of antibiotics per physician discretion, and university education, the probability of peripartum infection was 35 % (95 % CI 0.11-0.73). Conclusions: While several variables such as parity are associated with infectious morbidity within 6 weeks among high risk laboring patients in Cameroon, only education level, antibiotic indication, and cesarean birth were independently associated, and a model including these 3 factors was moderately predictive. Validation of our findings in a larger population is warranted. (c) 2023"""
+
+

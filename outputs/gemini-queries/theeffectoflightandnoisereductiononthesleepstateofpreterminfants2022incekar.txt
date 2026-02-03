@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectoflightandnoisereductiononthesleepstateofpreterminfants2022incekar
+"Aim: The aim of this study was to determine the effect of reducing light and noise on the sleep of preterm infants. Material(s) and Method(s): This randomized controlled trial study was conducted on 80 preterm infants. Infants in the study group were observed under a coated oxygen hood to reduce light and noise, and the infants in the control group were observed under a standard oxygen hood, for two hours. Result(s): The gestational age of preterm infants in the study group was 32.92+/-1.17 and in the control group-33.31+/-0.90 weeks. There was a significant difference between the study and control groups in terms of the sleep state and activity count (p< 0.05). Discussion(s): It was concluded that the preterm infants slept longer and the activity count was lower by reducing the light and noise.Copyright (c) 2022, Derman Medical Publishing. All rights reserved."""
+
+

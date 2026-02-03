@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: xgboostbasedanalysisofmaternalandbiochemicalfactorsassociatedwithspontaneouspretermbirtharetrospectivecohortstudy2025gao
+"BACKGROUND: Spontaneous preterm birth (sPTB) remains a major cause of neonatal morbidity and early risk assessment was poor. This study aimed to evaluate the association and predictive potential of serum biomarkers and maternal factors with sPTB. METHODS: In this retrospective cohort (2020-2024), 19,818 live birth pregnancies were analyzed after excluding multiple pregnancies, PTB < 24 weeks and iatrogenic preterm births. Predictors included maternal characteristics, health conditions, and four serum biomarkers-plasma protein A (PAPP-A), alpha fetoprotein (AFP), b- human chorionic gonadotropin (b-hCG) and unconjugated E3 (uE3). The whole dataset was randomly divided into two independent sets under subsampling technique in a 1:2 ratio. Univariate regression analysis and Least Absolute Shrinkage and Selection Operator (LASSO) regression were employed for feature selection. eXtreme Gradient Boosting (XGBoost) and logistic regression were applied to build prediction models. Model performance was evaluated using sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), and the area under the receiver operating characteristics (AUC). RESULTS: 653 (3.29%) experienced spontaneous preterm birth among 19,818 participants. Six significant factors were confirmed: PAPP-A, AFP, body mass index (BMI), history of cesarean section, primary hypertension and cervical incompetence. The XGBoost model showed an AUC of 0.703 (95%CI 0.674-0.729) on the training set and 0.615 (95%CI 0.550-0.678) on the test set, while the logistic regression model showed 0.612 (95%CI 0.584-0.640) and 0.588 (95%CI 0.527-0.654) respectively. CONCLUSION: PAPP-A was a protective factor, while AFP, BMI, history of cesarean section, primary hypertension, and cervical incompetence were risk factors for sPTB. AFP and cervical incompetence were the most important index in the models. XGBoost and logistic regression showed weak performance for sPTB prediction. Integrating more powerful indicators may improve the early prediction of sPTB in the future researches. TRIAL REGISTRATION: This study has registered in National Medical Research Registration and Filing Information System of China ( www.medicalresearch.org.cn . Id: MR-44-25-004777)."""
+
+

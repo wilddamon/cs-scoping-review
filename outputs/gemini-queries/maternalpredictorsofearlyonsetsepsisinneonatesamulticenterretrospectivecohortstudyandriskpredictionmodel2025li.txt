@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalpredictorsofearlyonsetsepsisinneonatesamulticenterretrospectivecohortstudyandriskpredictionmodel2025li
+"OBJECTIVES: Early-onset sepsis (EOS) is a common and serious neonatal infection that contributes significantly to morbidity and mortality. A comprehensive understanding of maternal risk factors and their association with EOS is essential for developing effective preventive strategies. METHODS: In this study, Clinical and laboratory data of the patients were extracted from two hospitals in Chongqing, China (2017-2023). Collinearity analysis was performed to exclude variables with multicollinearity. Restricted cubic spline (RCS) analyses were applied to evaluate potential linear or nonlinear associations between continuous maternal variables and the risk of EOS. A multivariable Poisson regression model was developed to identify independent maternal predictors of EOS and construct a predictive model. Model performance was assessed using the area under the receiver operating characteristic curve (AUC). In addition, a nomogram based on the final Poisson regression model was established to enable individualized risk prediction and support clinical decision-making. RESULTS: This multicenter retrospective cohort study included 79,570 mother-infant pairs, the incidence of EOS was 0.56%. Univariate and multivariable Poisson regression identified key risk factors, such as chorioamnionitis, puerperal infection, intrauterine fetal distress, preterm birth, twin pregnancy, and elevated maternal WBC, HGI, M%, and PWR. Conversely, higher maternal globulin and cesarean delivery were associated with reduced EOS risk. A predictive model with good discrimination (AUC = 0.762) was developed and visualized through a nomogram to facilitate individualized risk assessment. CONCLUSION: This study highlights the importance of maternal factors in early EOS prediction and supports their integration into perinatal risk assessment. Further research is needed to investigate the contribution of maternal psychosocial and nutritional status and validate the model across diverse populations."""
+
+

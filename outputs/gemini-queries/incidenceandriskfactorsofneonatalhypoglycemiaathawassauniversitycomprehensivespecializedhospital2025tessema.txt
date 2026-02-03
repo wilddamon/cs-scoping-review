@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incidenceandriskfactorsofneonatalhypoglycemiaathawassauniversitycomprehensivespecializedhospital2025tessema
+"BACKGROUND: Neonatal hypoglycemia is the most common metabolic emergency in neonates, with a reported incidence of 15% among neonates overall and 50% among high-risk newborns. If neonatal hypoglycemia is not diagnosed and managed promptly and properly, it can result in brain damage, neurological problems, and death. Over one-third of hypoglycemic neonates die in resource-limited settings. This study aimed to assess the incidence and risk factors of neonatal hypoglycemia in the neonatal intensive care unit at Hawassa University Comprehensive Specialized Hospital, Sidama Region, Ethiopia. METHODS: A retrospective cohort study was conducted among 308 neonates admitted to Hawassa University Comprehensive Specialized Hospital from July 2023 to July 2024. Data were extracted using a standard abstraction format from medical records. Descriptive statistics were summarized using tables and graphs. The Kaplan-Meier survival function and log-rank were used to show a hypoglycemia-free survival rate. An adjusted hazard ratio (aHR) with 95% Confidence interval was used to measure the strength of the association, and the statistical significance was declared at a p-value of less than or equal to 0.05. The Cox proportional hazard regression model assumption was checked by using the Schoenfeld residual test. RESULTS: The study found that the incidence rate of neonatal hypoglycemia was 3.1 (95% CI: 2.3-4.2) per 100 neonatal days of observation. Female gender (aHR: 3.4; 95% CI: 1.68, 6.83), neonatal sepsis (aHR: 2.1; 95% CI: 1.10-4.00), cesarean section (aHR: 2.1; 95% CI: 1.10, 4.21), preterm (aHR: 5.1; 95% CI: 2.41-10.9), and gestational diabetes mellitus (aHR: 3.4; 95% CI: 1.45, 8.11) were predictors of neonatal hypoglycemia. CONCLUSION: The study found that the incidence rate of neonatal hypoglycemia was 3.1 per 100 days. Female sex, preterm birth, neonatal sepsis, cesarean delivery, and maternal gestational diabetes were independently associated with a higher incidence of hypoglycemia. These findings highlight the importance of close monitoring of blood glucose levels in at-risk neonates during neonatal intensive care unit admission."""
+
+

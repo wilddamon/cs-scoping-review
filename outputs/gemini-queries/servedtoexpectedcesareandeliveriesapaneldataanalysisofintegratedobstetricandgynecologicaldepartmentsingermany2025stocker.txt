@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exploringtheinfluenceofmedicalstaffingandbirthvolumeonobservedtoexpectedcesareandeliveriesapaneldataanalysisofintegratedobstetricandgynecologicaldepartmentsingermany2025stocker
+"INTRODUCTION: Cesarean deliveries account for approximately one-third of all births in Germany, prompting ongoing discussions on cesarean section rates and their connection to medical staffing and birth volume. In Germany, the majority of departments integrate obstetric and gynecological care within a single department. METHODS: The analysis utilized quality reports from German hospitals spanning 2015 to 2019. The outcome variable was the annual risk-adjusted cesarean section ratio-a metric comparing expected to observed cesarean sections. Explanatory variables included annual counts of physicians, midwives, and births. To account for case number-related staffing variations, full-time equivalent midwife and physician staff positions were normalized by the number of deliveries. Uni- and multivariate panel models were applied, complemented by multiple instrument variable analyses, including two-stage least square and generalized method of moments models. RESULTS: Incorporating data from 509 integrated obstetric departments and 2089 observations, representing 2,335,839 deliveries with 720,795 cesarean sections (over 60% of all inpatient births in Germany), multivariate model with fixed effects revealed a statistically significant positive association between the number of physicians per birth and the risk-adjusted cesarean section ratio (0.004, p = 0.004). Two-stage least square instrument variable analysis (0.020, p < 0.001) and a system GMM estimator models (0.004, p < 0.001) validated these results, providing compelling evidence for a causal relationship. CONCLUSION: The study established a robust connection between the number of physicians per birth and the risk-adjusted cesarean section ratio in integrated obstetric and gynecological departments in Germany. While the cause of the effect remains unclear, one possible explanation is a lack of specialization within these departments due to the combined provision of both obstetric and gynecological care."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetalmeconiumdoesnothaveadetectablemicrobiotabeforebirth2021kennedy
+"Microbial colonization of the human intestine impacts host metabolism and immunity; however, exactly when colonization occurs is unclear. Although many studies have reported bacterial DNA in first-pass meconium samples, these samples are typically collected hours to days after birth. Here, we investigated whether bacteria could be detected in meconium before birth. Fetal meconium (n = 20) was collected by rectal swab during elective breech caesarean deliveries without labour and before antibiotics and compared to technical and procedural controls (n = 5), first-pass meconium (neonatal meconium; n = 14) and infant stool (n = 25). Unlike first-pass meconium, no microbial signal distinct from negative controls was detected in fetal meconium by 16S ribosomal RNA gene sequencing. Additionally, positive aerobic (n = 10 of 20) and anaerobic (n = 12 of 20) clinical cultures of fetal meconium (13 of 20 samples positive in at least one culture) were identified as likely skin contaminants, most frequently Staphylococcus epidermidis, and not detected by sequencing in most samples (same genera detected by culture and sequencing in 2 of 13 samples with positive culture). We conclude that fetal gut colonization of healthy term infants does not occur before birth and that microbial profiles of neonatal meconium reflect populations acquired during and after birth."""
+
+

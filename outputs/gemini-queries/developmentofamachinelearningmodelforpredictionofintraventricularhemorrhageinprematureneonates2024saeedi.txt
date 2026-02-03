@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofamachinelearningmodelforpredictionofintraventricularhemorrhageinprematureneonates2024saeedi
+"PURPOSE: Intraventricular hemorrhage (IVH) is a common and severe complication in premature neonates, leading to long-term neurological impairments. Early prediction and identification of risk factors for IVH in premature neonates are crucial for improving clinical outcomes. This study aimed to predict IVH in premature neonates and determine risk factors using machine learning (ML) algorithms. METHODS: This study investigated the medical records of premature neonates admitted to the neonatal intensive care unit. The patients were labeled as case (IVH) and control (No IVH). The independent variables included demographic, clinical, laboratory, and imaging data. Machine learning algorithms, including random Forest, support vector machine, logistic regression, and k-nearest neighbor, were used to train the models after data preprocessing and feature selection. The performance of the trained models was evaluated using various performance metrics. RESULTS: Data from 160 premature neonates were collected including 70 patients with IVH. The identified risk factors for IVH were the gestational age, birth weight, low Apgar scores at 1 min and 5 min, delivery method, head circumference, and various laboratory findings. The random forest algorithm demonstrated the highest sensitivity, specificity, accuracy, and F1 score in predicting IVH in premature neonates, with a great area under the receiver operating characteristic curve of 0.99. CONCLUSION: This study revealed that the random forest model effectively predicted IVH in premature neonates. The early identification of premature neonates at higher risk of IVH allows for preventive measures and interventions to reduce the incidence and morbidity of IVH in these patients."""
+
+

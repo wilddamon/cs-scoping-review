@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofcaesareansectionbirthusingmachinelearningalgorithmsamongpregnantwomeninadistricthospitalinghana2025owusu
+"BACKGROUND: Machine learning algorithms may contribute to improving maternal and child health, including determining the suitability of caesarean section (CS) births in low-resource countries. Despite machine learning algorithms offering a more robust approach to predicting/diagnosing a health-related problem, research on their use in determining CS birth is scarce in sub-Saharan Africa. This study therefore aimed to compare the performance of five machine learning techniques in predicting CS birth among pregnant women in a district hospital in Ghana. METHODS: This was a cross-sectional study that used retrospective data from medical records of pregnant women who delivered at a district hospital in Ghana. A clinical decision support system for predicting CS birth was developed using five machine learning techniques including logistic regression, Support Vector Machines, Naive Bayes, Random Forest and Extreme Gradient Boosting. Measures such as accuracy, sensitivity, specificity, negative and positive predictive values and area under the receiver operating characteristics curve (AUC-ROC) were used for the model performance. RESULTS: Of a total of 2310 deliveries, the prevalence of CS birth was 37.7% with previous CS being the most prevalent indication. The Random Forest model showed the best performance for predicting CS birth with an accuracy of 0.981, recall of 0.994, F1 score of 0.985 and an AUC-ROC of 0.988. The Naive Bayes model followed with an accuracy of 0.965, recall of 0.967, F1 score of 0.972 and AUC-ROC of 0.986. The top five most important predictors proved to be diastolic (0.0906) and systolic (0.0848) blood pressures, maternal age (0.0756), previous CS (0.0641) and marital status (0.0400). CONCLUSION: This study demonstrated that although all five machine learning techniques had good performance in determining CS births, the Random Forest model was superior to all the others in predicting them. This finding suggests that machine learning could help identify at-risk pregnant women for CS births, potentially supporting early interventions and informing policies in maternal healthcare."""
+
+

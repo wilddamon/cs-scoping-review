@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: malignancytransformedmaturecysticteratomasurgicaltreatmentrequirescomprehensivestagingproceduresincludingpelvicparaaorticlymphadenectomy2020barczynski
+"This report presents the case of squamous cell cancer (SCC) originating from a mature cystic teratoma (MCT) diagnosed in pregnant women, in whom retroperitoneal spread to para-aortic lymph nodes was confirmed as the only evidence of extraovarian disease in a relatively short time after primary tumor excision. The 35-year-old multipara was diagnosed in early pregnancy with an ovarian tumor. The patient qualified for elective caesarean section with left ovarian cystectomy. Pathological result proved SCC in MCT and the patient underwent debulking surgery without total pelvic and para-aortic lymphadenectomy. Final staging confirmed ovarian malignancy FIGO IA, and no adjuvant treatment was recommended. Early imaging examination during routine follow-up demonstrated enlarged paraaortic lymph nodes and the patient qualified for total pelvic and para-aortic lymphadenectomy. Postoperative pathology result confirmed metastases in para-aortic lymph nodes and standard adjuvant chemotherapy was administered.Copyright (c) 2020 Barczynski et al."""
+
+

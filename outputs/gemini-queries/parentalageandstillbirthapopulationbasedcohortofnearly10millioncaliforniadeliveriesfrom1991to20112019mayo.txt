@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: parentalageandstillbirthapopulationbasedcohortofnearly10millioncaliforniadeliveriesfrom1991to20112019mayo
+"Purpose: Parental age at delivery in the United States has been rising. Advanced maternal and paternal ages have been associated with adverse pregnancy outcomes including stillbirth. However, these relationships come from studies that often do not present results for both mother and father concurrently. The purpose of this study was to estimate the risk of stillbirth for maternal and paternal age in the same cohort of deliveries. Methods: This is a population-based cohort study of all live birth and stillbirth deliveries in California from 1991 to 2011. The individual associations between maternal and paternal ages and stillbirth were estimated with hazard ratios from Cox proportional hazard models. Age was modeled continuously with restricted cubic splines to account for nonlinear relationships. Mean parental age was used as the referent group. Results: J-shaped associations between maternal and paternal ages were observed in crude models where older mothers and fathers had the highest hazard ratios for stillbirth. In maternal models, after adjusting for maternal and paternal covariates, young maternal age no longer showed increased hazard ratio for stillbirth, whereas the association with older mothers remained. In adjusted paternal models, the relationship between young paternal age and stillbirth was unchanged while the hazard ratio for older fathers was slightly smaller. Conclusions: After adjusting for both parents' age, education, race/ethnicity, along with parity, older mothers and fathers were independently associated with elevated hazard ratios for stillbirth. (c) 2018 Elsevier Inc."""
+
+

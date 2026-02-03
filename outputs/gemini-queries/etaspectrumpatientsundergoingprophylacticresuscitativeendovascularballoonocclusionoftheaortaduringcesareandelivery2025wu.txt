@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforseverepostpartumhemorrhageinplacentaaccretaspectrumpatientsundergoingprophylacticresuscitativeendovascularballoonocclusionoftheaortaduringcesareandelivery2025wu
+"OBJECTIVE: This study aims to investigate the risk factors for severe postpartum hemorrhage (SPPH) in patients with placenta accreta spectrum (PAS) undergoing cesarean delivery, despite the prophylactic use of resuscitative endovascular balloon occlusion of the aorta (REBOA). MATERIALS AND METHODS: We conducted a retrospective case-control study on PAS patients who underwent cesarean delivery with prophylactic REBOA at the First Affiliated Hospital of Chongqing Medical University from January 2017 to December 2021. Prophylactic REBOA placement was determined by a prenatal ultrasound scoring system. Patients were divided into those who experienced SPPH (case group) and those who did not (control group), with SPPH defined by one or a combination of the following criteria: intraoperative blood loss >=1500 mL, transfusion of >=4 units of packed red blood cells, intraoperative hysterectomy, or sequential uterine artery embolization. Propensity score matching (PSM) was employed to minimize biases, and multivariate logistic regression was used to calculate adjusted odds ratios (aOR) for risk factors. RESULTS: Of the 424 enrolled patients, 102 experienced SPPH (case group), while 322 did not (control group). After PSM, the case group comprised 79 patients, and the control group included 130. After adjusting for confounders, patients with placenta increta (aOR 3, 95% CI 1.49-6.03, p = 0.002), percreta (aOR 21.77, 95% CI 6.57-72.09, p < 0.001), lower hemoglobin levels (aOR 0.98, 95% CI 0.95-1, p = 0.050), and higher D-dimer levels (aOR 1.36, 95% CI 1.12-1.65, p = 0.002) had an elevated risk of SPPH. Threshold effect analysis indicated no significant nonlinear relationship between hemoglobin, D-dimer, and outcomes. CONCLUSIONS: PAS patients, particularly those with placenta increta and percreta, lower hemoglobin levels, and elevated D-dimer levels, are at an increased risk of SPPH during cesarean delivery, even with REBOA intervention. PAS patients are more likely to experience hemorrhage during cesarean deliveries.REBOA is effective for managing intraoperative bleeding, yet a subset still experiences SPPH.Our study identifies several risk factors in PAS patients who experience SPPH despite REBOA intervention."""
+
+

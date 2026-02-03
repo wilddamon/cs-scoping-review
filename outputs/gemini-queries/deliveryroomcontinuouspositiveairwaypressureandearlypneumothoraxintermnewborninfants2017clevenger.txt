@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliveryroomcontinuouspositiveairwaypressureandearlypneumothoraxintermnewborninfants2017clevenger
+"OBJECTIVE: To assess the association between delivery room (DR) continuous positive airway pressure (CPAP) and pneumothorax (PT) in term newborns. METHODS: Two studies performed in community hospitals used data extracted from computerized records of term newborns. Infants receiving positive pressure ventilation in the DR were excluded. Tabulated data included receipt of DR CPAP, PT on the day of birth, and gestational age (GA). In a case-control study from 2001-2013, infants with PT were compared to controls without PT but with respiratory distress or hypoxia persisting from birth for receipt of DR CPAP. In a cohort study from 2014-2016, infants receiving and not receiving DR CPAP were compared for the incidence of PT. RESULTS: In the case-control study, data were obtained for 169 cases and 850 controls. Compared to controls, PT infants were more likely to have received DR CPAP (16.8 vs. 40.2, respectively, P < 0.001). Logistic regression revealed DR CPAP (Adjusted Odds Ratio [AOR] = 3.30, 95 confidence interval [CI] = 2.31, 4.72, P < 0.001) and GA (AOR = 1.21, 95 CI = 1.05, 1.39, P = 0.009) to be independent predictors of early PT. In the cohort study, PT was observed in 0.1 of 9255 control infants not receiving DR CPAP and 4.8 of 228 infants receiving DR CPAP (P < 0.001). In logistic regression analyses, DR CPAP significantly predicted PT (OR = 59.59, 95 CI = 23.34, 147.12, P < 0.001) and remained a significant predictor of PT after controlling for gestational age. CONCLUSION: Respiratory conditions treated with CPAP in delivery rooms are associated with increased risk of PT. A cause-and-effect relationship between CPAP and PT cannot be claimed in this study. Further research is needed to better understand this relationship. (c) 2017 - IOS Press and the authors. All rights reserved."""
+
+

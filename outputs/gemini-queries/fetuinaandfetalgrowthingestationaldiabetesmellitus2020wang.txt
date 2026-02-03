@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: fetuinaandfetalgrowthingestationaldiabetesmellitus2020wang
+"Objective Fetuin-A is a glycoprotein produced by hepatocytes and has been associated with insulin resistance and bone growth in postnatal life. Gestational diabetes mellitus (GDM) is a condition characterized by insulin resistance. It is unclear whether GDM may affect cord blood fetuin-A levels and whether fetuin-A is associated with fetal growth. Research design and methods In a nested case-control study of 153 matched pairs of neonates of mothers with GDM and euglycemic pregnancies in the Shanghai Birth Cohort, we evaluated cord blood fetuin-A in association with GDM and fetal growth. Results Comparing the newborns of GDM versus euglycemic mothers, cord blood fetuin-A concentrations were similar (mean+-SD: 783.6+-320.0 vs 754.8+-281.9 mg/mL, p=0.53), while insulin-like growth factor (IGF)-I (76.6+-27.8 ng/mL vs 68.1+-25.1 ng/mL, p=0.008) and IGF-II (195.3+-32.5 ng/mL vs 187.5+-30.8 ng/mL, p=0.042) concentrations were higher. Cord blood fetuin-A was not correlated with insulin, IGF-I or IGF-II. Cord blood fetuin-A was negatively correlated with birth weight (r=-0.19, p=0.025) and birth length (r=-0.24, p=0.005) z scores in GDM pregnancies, while there were no significant correlations in euglycemic pregnancies (tests for interaction: p=0.014 for birth length, p=0.013 for birth length). Adjusting for maternal and neonatal characteristics, the differential associations remained. Conclusions GDM was not associated with cord blood fetuin-A levels. Fetuin-A was negatively associated with fetal growth in GDM but not in euglycemic pregnancies. This novel observation suggests a GDM-conditional negative correlation of fetuin-A with fetal growth. (c) Author (s)."""
+
+

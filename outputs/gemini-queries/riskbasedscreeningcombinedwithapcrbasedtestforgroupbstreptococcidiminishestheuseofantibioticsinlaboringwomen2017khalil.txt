@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskbasedscreeningcombinedwithapcrbasedtestforgroupbstreptococcidiminishestheuseofantibioticsinlaboringwomen2017khalil
+"Objective To assess the performance of a polymerase chain reaction - group B streptococci test (PCR-GBS test) - in deciding antibiotic prophylaxis in term laboring women. Study design In this observational study, we enrolled 902 unselected Danish term pregnant women. During labor, midwives obtained vaginal swabs that were used for both GBS cultures (reference standard) and for the PCR-GBS test. Furthermore, we recorded the presence of risk factors for EOGBS (Early Onset Group B Streptococcal disease): (1) Bacteriuria during current pregnancy, (2) Prior infant with EOGBS (3) Temperature above 38.0 degC during labor, and (4) Rupture of membranes >=18 h. Results The prevalence of GBS carriers was 12% (104 of 902), the sensitivity of the PCR-GBS test 83% (86 of 104), and the specificity 97% (774 of 798). Among the 108 with one or more EOGBS-risk factors, GBS was present in 23% (25 of 108), the sensitivity 92% (23 of 25), and the specificity 89% (74 of 83). Conclusion In programs that aim to treat all laboring women with vaginal GBS-colonization (12% in the present study) with penicillin, the PCR-GBS will perform well (sensitivity 83% and specificity 97%). In programs aiming to treat only GBS-carriers among those with risk factors of EOGBS, a reduction of penicillin usage by two-thirds from 12% to 4% may be possible. (c) 2017 Elsevier B.V."""
+
+

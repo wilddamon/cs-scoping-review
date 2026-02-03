@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incompleteresectionofnecroticbowelmayincreasemortalityininfantswithnecrotizingenterocolitis2021garg
+"Background: Infants with advanced necrotizing enterocolitis (NEC) often need surgical resection of necrotic bowel. We hypothesized that incomplete resection of NEC lesions, signified by the detection of necrotic patches in margins of resected bowel loops, results in inferior clinical outcomes. Methods: We reviewed the medical records of infants with surgical NEC in the past 15 years for demographic, clinical, and histopathological data. We also developed statistical models to predict mortality and hospital stay. Results: Ninety infants with surgical NEC had a mean (+-standard error) gestational age of 27.3 +- 0.4 weeks, birth weight 1008 +- 48 g, NEC onset at 25.2 +- 2.4 days, and resected bowel length of 29.2 +- 3.2 cm. Seventeen (18.9%) infants who had complete resection of the necrosed bowel had fewer (4; 23.5%) deaths and shorter lengths of hospital stay. In contrast, a group of 73 infants with some necrosis within the margins of resected bowel had significantly more (34; 46.6%) deaths and longer hospital stay. The combination of clinical and histopathological data gave better regression models for mortality and hospital stay. Conclusion: In surgical NEC, incomplete resection of necrotic bowel increased mortality and the duration of hospitalization. Regression models combining clinical and histopathological data were more accurate for mortality and the length of hospital stay. Impact: In infants with surgical NEC, complete resection of necrotic bowel reduced mortality and hospital stay.Regression models combining clinical and histopathological information were superior at predicting mortality and hospital stay than simpler models focusing on either of these two sets of data alone.Prediction of mortality improved with the combination of antenatal steroids, chorioamnionitis, and duration of post-operative ileus, with severity of inflammation and hemorrhages in resected intestine.Length of hospital stay was shorter in infants with higher gestational ages, but longer in those with greater depth of necrosis or needing prolonged parenteral nutrition or supervised feedings. (c) 2020, International Pediatric Research Foundation, Inc."""
+
+

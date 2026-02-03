@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingtheriskofcesareanhysterectomyinthemanagementofplacentaaccretaspectrumdisordersanewmodelbasedonclinicalfindingsandultrasonography2025taskum
+"PURPOSE: To develop a nomogram to predict the probability of cesarean hysterectomy (CH) in placenta accreta spectrum disorders (PASD) patients. METHODS: Data from 520 patients who underwent surgery with a preliminary diagnosis of PASD at a tertiary center in southeast Turkey between 2013 and 2023 were collected, and 302 patients were included in the study. A predictive model based on clinical and ultrasonographic variables was developed using penalized maximum likelihood estimation (PMLE) regression analysis. RESULTS: Maternal age (aOR = 1.22, 95% CI 1.08-1.44, p = 0.001) and prior uterine surgeries (aOR = 3.18, 95% CI 1.57-8.29, p = 0.001) were identified as demographic factors with an increased likelihood of CH in the nomogram, and advanced gestational weeks demonstrated a negative correlation (aOR: 0.78, 95% CI 0.56-1.02, p = 0.07). Regarding the ultrasonographic findings, the presence of the 'multiple lacunae within the placenta' (aOR = 48.53, 95% CI 18.42-257.40, p < 0.001) and the 'anterior placental location' (aOR = 9.60, 95% CI 2.96-50.76, p < 0.001) significantly increased the probability of CH. In addition, 'hypervascularization on Doppler flow with irregularity in the line between the bladder and uterine serosa' (aOR = 7.90, 95% CI 2.66-35.12, p < 0.001) and the 'retroplacental myometrial thickness of < 1 mm' (aOR = 2.49, 95% CI 0.89-8.27, p = 0.08) were related to the probability of CH. Harrell's C-index was 0.974, and the kappa value was 0.819 for the prediction model's performance evaluation. CONCLUSION: We developed a nomogram to predict the probability of cesarean hysterectomy in patients with PASD, incorporating maternal age, gestational weeks, prior uterine surgeries, ultrasound findings, and placental location. The most closely associated findings with CH in patients with PASD were the presence of multiple placental lacunae and the anterior location of the placenta."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofcaesareanbirthonperinatalmortalityforsingletonbreechpresentationinspontaneouspretermlabouratargettrialemulationusingscottishhealthrecorddata2025alexander
+"BACKGROUND: The effects of mode of birth for women in preterm breech labour could not be successfully determined in randomised trials. We aimed to explore the effect of caesarean birth on perinatal mortality for women in spontaneous-onset preterm labour with a singleton baby presenting breech through target trial emulation. METHODS: A target trial emulation of a parallel group randomised controlled trial using routinely collected Scottish electronic health record data was performed. Participants were pregnant women at 24-36 gestational weeks with a singleton breech baby, no prior caesarean birth, in spontaneous labour with a live baby at labour onset (1 January 1997 to 31 December 2019). We compared caesarean birth (intervention) to vaginal breech birth (control) in a per-protocol analysis (actual mode of birth). The primary outcome was extended perinatal mortality (intrapartum stillbirths and neonatal deaths). A multiple logistic regression model with inverse probability weight was used to adjust for measured confounders. There were 2,092 caesarean births and 967 vaginal breech births. In the emulated trial, caesarean birth reduced extended perinatal mortality compared to vaginal breech birth (odds ratio [OR] 0.35, 95% confidence interval [CI] 0.27 to 0.43). At 24 weeks' gestation, caesarean birth decreased the odds of perinatal death by 47.7% (OR: 0.53, 95% CI: 0.35 to 0.78). At 36 gestational weeks it was associated with an 82.1% reduction in the odds of perinatal death (OR: 0.18, 95% CI: 0.10 to 0.32). As the risk of perinatal mortality is inversely correlated with gestational age at birth, seven and 88 caesarean births were needed to prevent one perinatal death at 24 weeks and 36 weeks' gestation, respectively. CONCLUSIONS: Caesarean birth was associated with a reduced risk of extended perinatal mortality in spontaneous preterm singleton breech labour in a per-protocol trial emulation. Observational data that accurately captures planned mode of birth and unmeasured confounders such as breech subtype is required to emulate an intention-to-treat analysis."""
+
+

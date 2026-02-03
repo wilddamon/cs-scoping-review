@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postnatalgestationalageassessmentusingtargetedmetabolitesofneonatalheelprickandumbilicalcordbloodagarbhinicohortstudyfromnorthindia2024ramasamy
+"Background Accurate assessment of gestational age (GA) and identification of preterm birth (PTB) at delivery is essential to guide appropriate post-natal clinical care. Undoubtedly, dating ultrasound sonography (USG) is the gold standard to ascertain GA, but is not accessible to the majority of pregnant women in low- and middle-income countries (LMICs), particularly in rural areas and small secondary care hospitals. Conventional methods of post-natal GA assessment are not reliable at delivery and are further compounded by a lack of trained personnel to conduct them. We aimed to develop a population-specific GA model using integrated clinical and biochemical variables measured at delivery. Methods We acquired metabolic profiles on paired neonatal heel prick (nHP) and umbilical cord blood (uCB) dried blood spot (DBS) samples (n = 1278). The master data set consists of 31 predictors from nHP and 24 from uCB after feature selection. These selected predictors including biochemical analytes, birth weight, and placental weight were considered for the development of population-specific GA estimation and birth outcome classification models using eXtreme Gradient Boosting (XGBoost) algorithm. Results The nHP and uCB full model revealed root mean square error (RMSE) of 1.14 (95% confidence interval (CI) = 0.82-1.18) and of 1.26 (95% CI = 0.88-1.32) to estimate the GA as compared to actual GA, respectively. In addition, these models correctly estimated 87.9 to 92.5% of the infants within +-2 weeks of the actual GA. The classification models also performed as the best fit to discriminate the PTB from term birth (TB) infants with an area under curve (AUC) of 0.89 (95% CI = 0.84-0.94) for nHP and an AUC of 0.89 (95% CI = 0.85-0.95) for uCB. Conclusion The biochemical analytes along with clinical variables in the nHP and uCB data sets provide higher accuracy in predicting GA. These models also performed as the best fit to identify PTB infants at delivery. (c) 2024 The Author(s)"""
+
+

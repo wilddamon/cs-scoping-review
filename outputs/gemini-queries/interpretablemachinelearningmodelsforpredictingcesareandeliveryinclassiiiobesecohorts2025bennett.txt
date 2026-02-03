@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: interpretablemachinelearningmodelsforpredictingcesareandeliveryinclassiiiobesecohorts2025bennett
+"Obese women who undergo unplanned cesarean sections face a higher risk of complications, and these unplanned cesareans often occur after an unsuccessful labor induction. Each year, more American women are at a high risk of such complications, especially in the presence of increased rate of pre-pregnancy obesity. Although previous research has explored machine learning models to predict cesarean likelihood, there has been limited focus on class III obese women (BMI >=40) who have undergone labor induction. In this paper, we study a cohort of class III obese women at our institution who were induced for labor, aiming to identify those at a higher risk for cesarean delivery. We propose a machine learning framework that incorporates a variety of models, including Support Vector Machine, Random Forest, eXtreme Gradient Boosting (XGBoost), K-nearest neighbors, Naive Bayes, and logistic regression, for predictive analysis. Further, we investigate the significance of individual predictors using SHapley Additive exPlanations (SHAP) method to enhance the interpretability of our models. Moreover, we conduct a comparative analysis of the cohort of nulliparous with combined cohort of nulliparous and multiparous patients. Our comparative analysis shows logistic regression to be the most accurate in predicting the need for cesareans in the nulliparous cohort, while random forest outperformed other models in the combined dataset. (c) 2025 IEEE."""
+
+

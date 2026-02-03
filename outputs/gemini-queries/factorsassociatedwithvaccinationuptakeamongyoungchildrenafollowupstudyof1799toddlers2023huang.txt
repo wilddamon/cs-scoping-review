@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithvaccinationuptakeamongyoungchildrenafollowupstudyof1799toddlers2023huang
+"Childhood vaccination is crucial to protect young children from harmful infectious diseases. This study aimed to investigate the recent childhood immunization rate of recommended and additional vaccinations and identify the factors affecting the vaccination uptake of young children in Hong Kong. The self-administrated questionnaires were distributed to parents of toddlers aged 2 to 5. They were asked to provide information on (1) socioeconomic demographic factors; (2) experiences during pregnancy; and (3) the medical history of the toddler. A total of 1799 responses were collected. Children were more likely to be fully vaccinated when they were at a younger age (aOR = 0.61, 95% CI: 0.48-0.78, p < 0.001), the first child in the family (aOR second-born = 0.62, 95% CI: 0.48-0.81, p < 0.001; aOR third-born = 0.33, 95% CI: 0.19-0.55, p < 0.001), had a higher household income (aOR HKD 15,000-HKD 29,999 = 1.80, 95% CI: 1.27-2.55, p = 0.001; aOR >= HKD 30,000 = 3.42, 95% CI: 2.39-4.90, p < 0.001; compared with <HKD 15,000), or with mothers in older age groups (aOR 35-39 years old = 2.45, 95% CI = 1.22-4.93, p = 0.012; aOR >= 40 = 2.90, 95% CI = 1.24-6.77, p = 0.014; compared with <= age 24). The uptake of any additional vaccination was 71%. Children who were older (aOR = 1.32, 95% CI: 1.02-1.70, p = 0.036), the first child in the family (aOR second-born = 0.74, 95% CI: 0.56-0.99, p = 0.043; aOR third-born = 0.55, 95% CI: 0.32-0.96, p = 0.034), with higher household income (aOR >= HKD 30,000 = 1.61, 95% CI: 1.10-2.37, p = 0.016), were exposed to second-hand smoke from the father (aOR: 1.49, 95% CI: 1.08-2.07, p = 0.016), experienced hospitalization (twice or more-aOR: 1.44, 95% CI: 1.04-1.99, p = 0.027), or were fully vaccinated (aOR: 2.76, 95% CI: 2.12-3.60, p < 0.001) were associated with a higher chance of taking an additional vaccine. To encourage the vaccination rate, more attention should be given to families with more children, low-income families, and younger mothers.Copyright (c) 2023 by the authors."""
+
+

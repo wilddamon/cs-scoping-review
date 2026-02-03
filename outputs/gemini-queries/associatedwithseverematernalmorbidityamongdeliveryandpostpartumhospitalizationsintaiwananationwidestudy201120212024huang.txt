@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thetrendandfactorsassociatedwithseverematernalmorbidityamongdeliveryandpostpartumhospitalizationsintaiwananationwidestudy201120212024huang
+"OBJECTIVE: To investigate the prevalence and longitudinal trend of severe maternal morbidity (SMM) at nationwide level in Taiwan. The associated maternal factors contributing to SMM were also analyzed. MATERIALS AND METHODS: A population-based secondary analysis using administrative datasets released by Ministry of Health and Welfare of Taiwan from 2011 to 2021 was carried out. SMM was defined from ICD-9 or10-CM diagnosis and procedure codes previously released by CDC. The existence of any SMM indicators identified by delivery and postpartum hospitalizations between>=20 weeks of gestational age and within 42 days after childbirth was retrieved for analysis. Kendall Tau-b correlation was applied for trend test. Logistic regression was used to investigate the associated maternal factors for SMM. All the data were analyzed using SAS statistical software version 9.4. Statistical significance was defined as P value < 0.05. RESULTS: A total of 2,054,010 delivery hospitalization records were identified during the study period. 6961 subjects met the SMM indicators, yielding an average SMM rate of 3.4 per 1000 deliveries. The pure transfusion rate was 2.33%. The overall SMM rate including transfusion reached 26.7 per thousand deliveries. The trend of SMM including and excluding transfusion demonstrated significantly increasing. Extreme maternal age and cesarean delivery were two main maternal associated factors for SMM. CONCLUSION: Our findings demonstrated the steadily increasing trend of SMM in the past decade from nationwide study in Taiwan. The sharply growing rates of blood transfusion made the prevention of obstetric hemorrhage imperative. Health policies should be focused on the encourage of early childbearing and avoidance of unnecessary cesarean delivery to reduce the maternal risks associated with SMM. Continuous surveillance of SMM is required to improve obstetric care and reduce severe maternal complications."""
+
+

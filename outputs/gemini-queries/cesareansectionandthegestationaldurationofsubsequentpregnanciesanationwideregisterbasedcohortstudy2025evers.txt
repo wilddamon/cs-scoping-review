@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectionandthegestationaldurationofsubsequentpregnanciesanationwideregisterbasedcohortstudy2025evers
+"INTRODUCTION: Preterm delivery risk is increased for women with a previous cesarean section, which are becoming more common worldwide. However, this risk is based on studies which have not fully accounted for selection bias, and the studied outcomes have been limited to the study of early deliveries. This study aimed to determine the impact of previous delivery modes on the incidence of deviant duration of subsequent pregnancies. MATERIAL AND METHODS: This retrospective cohort study used clinical data registered in the Swedish Medical Birth Register. 612 935 women with their first two pregnancies and 157 581 women with their first three pregnancies were included. The outcome was the gestational duration of the last pregnancy of the series, depending on previous delivery modes. The associations were analysed with multivariable logistic regression (with the gestational duration categorised) and survival models including Cox regression analyses. RESULTS: When using standard logistic regression, previous cesarean section was associated with an increased risk of both spontaneous preterm birth (adjusted odds ratio [aOR] 1.67, 95% CI 1.57-1.77) and postterm birth (aOR 1.55, 95% CI 1.49-1.62). However, the more appropriate survival models only showed an association between cesarean section and longer gestational duration of the subsequent pregnancy (adjusted hazard ratio 0.72, 95% CI 0.71-0.73). CONCLUSIONS: The survival model handles bias related to management differences between the exposure and reference groups better than standard logistic regression, making it the statistical method of choice when conducting studies on this research topic. This study shows that the main association between cesarean section and the gestational duration of the subsequent pregnancy is the prolonging of it, which stands in contrast with previous research on the topic."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithmothertochildtransmissionofhepatitisbvirusdespiteimmunoprophylaxis2015liu
+"OBJECTIVE: This study aimed to assess risk factors for mother-to-child transmission (MTCT) of hepatitis B virus (HBV) after immunoprophylaxis. METHODS: Risk factors for MTCT were assessed using a multivariate logistic regression model. PATIENTS: We enrolled 256 mother-child pairs with positive maternal hepatitis B surface antigens (HBsAg) between January 2010 and June 2013. All children received passive-active immunization after birth. The children were tested for HBsAg at birth and 6-12 months and/or 1-3 years of age. RESULTS: Among 256 children, 10 (3.9%) developed HBV infection, all of whom were born to hepatitis B e antigen (HBeAg)-positive mothers with a high HBV DNA level (median, 7.36; range, 6.75-8.00 log10 IU/mL). A total of 20 mothers received antiviral treatment during pregnancy. The maternal viral load decreased from an average of 7.16 to 3.08 log10 IU/mL (p<0.0001) at delivery. The multivariate logistic regression analysis showed that a high maternal HBV DNA level [odds ratio (OR) for each log10 IU/mL increase, 2.44; 95% confidence interval (CI), 1.13-5.29, p=0.023] and vaginal delivery (OR=6.96, 95% CI, 1.80-26.93, p=0.005) were risk factors for HBV immunoprophylaxis failure. CONCLUSION: Additional treatment strategies should be considered in HBeAg-positive mothers with an HBV DNA level above 6-7 log10 IU/mL. In addition, our study supports the use of Cesarean section for infants born to HBsAg-positive mothers."""
+
+

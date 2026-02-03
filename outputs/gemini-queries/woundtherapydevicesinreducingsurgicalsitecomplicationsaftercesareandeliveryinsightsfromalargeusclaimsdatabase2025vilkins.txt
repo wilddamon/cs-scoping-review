@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonoftheeffectivenessoftwoprophylacticsingleusenegativepressurewoundtherapydevicesinreducingsurgicalsitecomplicationsaftercesareandeliveryinsightsfromalargeusclaimsdatabase2025vilkins
+"BACKGROUND: Single-use negative pressure wound therapy (sNPWT) has emerged as a promising intervention for patients at high risk of surgical site complications (SSCs) after a cesarean delivery. However, the available studies primarily compare negative pressure wound therapy to standard dressings rather than evaluating differences between negative pressure wound therapy devices or pressure settings. OBJECTIVE: To compare the effectiveness of 2 commonly used sNPWT devices, a -80 mm Hg device and a -125 mm Hg device, in reducing the risk of SSCs following cesarean delivery. MATERIALS AND METHODS: Real-world data were obtained from a large claims database in the United States from January 2017 through June 2022. Adult patients who had an inpatient encounter in which the -80 mm Hg device or the -125 mm Hg device was used after a cesarean delivery were included. Propensity score matching was used to balance the cohorts. Study end points included incidence of overall surgical site infection (SSI), superficial SSI, dehiscence, seroma, hematoma, deep SSI, length of stay (LOS), and costs. RESULTS: The study included 5332 cases in each group. Overall SSI, superficial SSI, dehiscence, seroma, and costs were significantly lower with the -80 mm Hg device compared with the -125 mm Hg device (P <= .05). No differences between the 2 devices were observed for hematoma, deep SSI, and LOS (P > .05). CONCLUSION: Of the 2 commonly used sNPWT devices, use of the -80 mm Hg device was associated with a lower likelihood of developing overall SSI, superficial SSI, dehiscence, and seroma, and was associated with lower costs after cesarean delivery compared with the -125 mm Hg device. There were nonsignificant differences in LOS, deep SSI, and hematoma. Further studies are required to confirm these findings."""
+
+

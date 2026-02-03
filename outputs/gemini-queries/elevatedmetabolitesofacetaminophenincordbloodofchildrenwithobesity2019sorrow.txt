@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: elevatedmetabolitesofacetaminophenincordbloodofchildrenwithobesity2019sorrow
+"Background: High-throughput metabolomics has been used cross-sectionally to evaluate differential metabolic profiles associated with human obesity. Objectives: This study longitudinally assessed the cord blood metabolome to explore if metabolic signatures of obesity at age 3-5 are apparent at birth. Methods: In a nested case-control design, metabolomics analysis was performed on umbilical cord blood of 25 children who developed obesity by age 3-5 years, compared with 25 sex-matched non-obese children enrolled as part of an ongoing birth cohort. Logistic regression models were used to identify significant metabolites, adjusting for maternal pre-pregnancy obesity. Results: Children who had obesity by age 3-5 years had elevated levels of medium and long chain fatty acids including stearate, oleate and palmitate at birth. Children with obesity were also more likely to have elevated levels of acetaminophen metabolites at birth, specifically: 3-(N-acetyl-L-cystein-S-yl) acetaminophen, 2-hydroxyacetaminophen sulfate, 2-methoxyacetaminophen glucuronide and p-acetamidophenyl glucuronide. Conclusion: Although the observed increases in lipids are consistent with previous metabolomic studies of obesity, this study is the first to report associations between acetaminophen metabolites and obesity in children; however, we lack mechanistic insights for this link. Larger human studies with longer follow-up and laboratory-controlled animal experiments are needed to clarify associations. (c) 2018 World Obesity Federation"""
+
+

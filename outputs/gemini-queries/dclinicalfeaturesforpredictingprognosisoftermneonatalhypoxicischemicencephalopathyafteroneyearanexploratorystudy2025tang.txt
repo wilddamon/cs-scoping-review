@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: combinedmodelofradiomicsandclinicalfeaturesforpredictingprognosisoftermneonatalhypoxicischemicencephalopathyafteroneyearanexploratorystudy2025tang
+"Purpose: To establish a combined model integrating imaging-based radiomics features and clinical parameters to predict the prognosis of hypoxic-ischemic encephalopathy (HIE) in full-term newborns one year after birth. Methods: A total of 180 full-term neonates diagnosed with HIE were retrospectively analyzed. Based on cognitive and motor function scores at 12 months post-birth, patients were categorized into two groups: Group B, representing those with a good prognosis (n = 84), and Group W, representing those with a poor prognosis (n = 96). The dataset was randomly divided into a training dateset (n = 126) and a testing dateset (n = 54). Clinical characteristics were first compared between the two groups. Subsequently, three predictive models were developed: a clinical model, a radiomics model, and a combined model integrating both clinical and radiomics features. The predictive performances of these models were evaluated using receiver operating characteristic (ROC) curve analysis, and their discriminative abilities were quantified by calculating the area under the curve (AUC). Results: The Apgar scores at 1, 5, and 10 min after birth were significantly higher in Group B compared to Group W (P < 0.05). In the clinical model, the Apgar score at 10 min was identified as the strongest prognostic factor, yielding an AUC of 0.857 in the training datest and 0.737 in the testing datest. In the radiomics model, nine radiomics features were significantly associated with prognosis, achieving AUCs of 0.916 and 0.770 in the training and testing datests, respectively. In the combined model, seven radiomics features together with the 5-minute and 10-minute Apgar scores were identified as independent predictors of prognosis. This integrated model demonstrated superior predictive performance, with AUCs of 0.952 in the training datest and 0.823 in the testing datest. Conclusions: The combined model incorporating MR-based radiomics signatures and clinical parameters demonstrates high predictive accuracy for assessing the one-year prognosis of full-term neonates with HIE, suggesting a promising framework for early risk stratification and individualized management of affected infants. (c) The Author(s) 2025."""
+
+

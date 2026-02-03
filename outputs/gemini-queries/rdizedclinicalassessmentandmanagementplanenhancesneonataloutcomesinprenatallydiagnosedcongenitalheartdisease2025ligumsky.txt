@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: standardizedclinicalassessmentandmanagementplanenhancesneonataloutcomesinprenatallydiagnosedcongenitalheartdisease2025ligumsky
+"Congenital heart disease (CHD) remains a leading cause of neonatal morbidity and mortality. The University of California Fetal Consortium implemented a Standardized Clinical Assessment and Management Plan (SCAMP) to optimize birth timing and mode of birth in pregnancies complicated by fetal CHD. This study evaluates the impact of SCAMP implementation on neonatal outcomes, specifically survival to hospital discharge, birth weight, and hospital length of stay. A retrospective cohort study was conducted comparing neonates with prenatally diagnosed CHD before (historical cohort) and after (intervention cohort) SCAMP implementation. Neonatal data, including mode of birth, birth weight, survival to discharge, and CHD classification was collected from five UC medical centers. Comparative analyses were performed using t-tests for continuous variables and chi-square tests for categorical variables. A total of 414 neonates met inclusion criteria (167 in the historical cohort, 247 in the intervention cohort). The overall neonatal survival rate to discharge was significantly higher in the intervention cohort (91.1% vs. 83.1%, p = 0.04). Survival following cesarean birth was also improved in the intervention cohort (89.1% vs. 78.1%, p = 0.04), while no significant differences were found for induction of labor or spontaneous vaginal births. Birth weight was significantly higher post-SCAMP (2977 g vs. 2838 g, p = 0.01), and hospital length of stay was significantly shorter (11.5 vs. 26 days, p < 0.01). Survival differences by CHD risk classification were not statistically significant. SCAMP implementation was associated with improved neonatal survival, increased birth weight, and reduced hospitalization duration in CHD-affected pregnancies. These findings underscore the importance of standardized perinatal management in optimizing outcomes for neonates with CHD."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofaclinicalpredictionmodelforgrowthhormonedeficiencyinchildrenwithshortstaturearetrospectivestudyinchina2025li
+"Background: A multitude of congenital and acquired conditions can result in short stature, each with distinctive clinical presentations and treatment options. We aimed to develop and validate a prediction model to identify GHD among children with short stature using clinical and laboratory parameters. Method(s): This retrospective observational study included 1120 children with short stature from a hospital in China. The data were randomly split into a derivation set and a validation set. Features were selected based on clinical relevance and statistical significance to construct a multivariate logistic regression model in the derivation set. Discrimination, calibration, and prediction accuracy were evaluated on both sets. Result(s): Of the 1120 children, 278 (25%) were diagnosed with GHD, 694 (62%) were male, and the mean age was 6.97 +/- 2.97 years. The derivation set comprises 785 (70%) children. The model incorporates four predictors: age (OR=0.761; 95% CI 0.660, 0.873), delayed bone age (OR=1.841; 95% CI 1.365, 2.537), IGF-1 SDS (OR=0.148; 95% CI 0.095, 0.220), and IGF-1/IGFBP-3 ratio (OR=0.901; 95% CI 0.870, 0.930). The model exhibits good discriminative ability, with an AUC of 0.952 (0.937, 0.967) in the derivation set and 0.950 (0.927, 0.973) in the validation set. Furthermore, it shows high accuracy with sensitivity and specificity of 0.895 in the derivation set, which was 0.946 and 0.851 in the validation set. The model also demonstrates reliable calibration. Conclusion(s): We have developed a prediction model for accurate screening of GHD in children with short stature.Copyright (c) 2025 Li et al."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: usinghighflownasalcannulasforinfantswithbronchiolitisadmittedtopaediatricwardsissafeandfeasible2018heikkila
+"AIM: Using a high-flow nasal cannula (HFNC) for infant bronchiolitis is increasingly common, but insufficiently studied. In this retrospective study, we examined the outcomes of HFNC and compared infants who did and did not respond to this oxygen delivery method. METHODS: This 2012-2015 study of six Finnish hospitals focused on 88 infants under 12 months who received HFNC: 53 on paediatric wards and 35 in paediatric intensive care units (PICUs). We reviewed patient files for underlying factors, clinical parameters and HFNC treatment. The treatment failed if the patient was transferred to another respiratory support. RESULTS: We found HFNC treatment was successful in 76 (86%) infants, including all 53 on the paediatric wards and 23/35 PICU patients. The responders' heart rates were significantly lower, and their oxygen saturation was significantly higher at 60 minutes after HFNC treatment started and then stayed relatively constant. Their respiratory rate was only significantly lower after 360 minutes. In non-responders, the respiratory rate initially decreased but was higher at 180 and 360 minutes after the start of HFNC. CONCLUSION: We found preliminary evidence that oxygen support needs and heart rate were useful early predictors of HFNC therapy success in infants hospitalised with bronchiolitis, but respiratory rate was not."""
+
+

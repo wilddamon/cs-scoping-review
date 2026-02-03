@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: birthbycaesareansectionandfemaleoffspringsriskofcaesareansectiondelivery2025kuhle
+"BACKGROUND: The objective of this study was to examine the association of birth by Caesarean section (CS) with female offspring's risk of CS delivery. METHODS: We used data from the 3G Multigenerational Cohort, which includes women whose births and their own subsequent pregnancies and deliveries were recorded in the population-based Nova Scotia Atlee Perinatal Database. The current analysis was limited to the women's first delivery (n = 23,605). Confounding variables were identified using a directed acyclic graph. The association between birth by CS and later CS delivery was examined with Poisson regression adjusted for confounding variables. RESULTS: Seventeen percent of women were born via CS, and 23 % delivered by CS. Compared to women born vaginally, women born by CS had an adjusted relative risk (RR) of 1.36 (95 % confidence interval [CI] 1.30, 1.43) for delivering by CS. Restricting the sample to women born to nulliparous mothers did not change the association (RR 1.35), while restriction to women born out of low-risk pregnancies weakened it slightly (RR 1.25). CONCLUSIONS: Birth by CS is associated with a 36 % increased risk of women delivering their first child by CS. This increase is likely due to shared medical and socio-cultural factors."""
+
+

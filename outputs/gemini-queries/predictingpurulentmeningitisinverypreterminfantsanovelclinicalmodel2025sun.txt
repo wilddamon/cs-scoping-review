@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingpurulentmeningitisinverypreterminfantsanovelclinicalmodel2025sun
+"BACKGROUND: Purulent meningitis (PM) is a commonly encountered infectious condition in newborns, which unfortunately can result in infant mortality. Newborns with PM often present nonspecific symptoms. The success of lumbar puncture, an invasive test, relies on the operator's expertise. Preterm infants pose diagnostic challenges compared to full-term babies. The objective of this study is to establish a convenient and effective clinical prediction model based on perinatal factors to assess the risk of PM in very preterm infants, thereby assisting clinicians in developing new diagnostic and treatment strategies. METHODS: This study involved very preterm infants (gestational age < 32 weeks) admitted to the Qilu Hospital of Shandong University from January 2020 to December 2023. All included infants underwent lumbar puncture. We gathered comprehensive data that included information on maternal health conditions and the clinical features of very preterm infants. The PM was diagnosed according to the diagnostic criteria. This study conducted data analysis and processing using R version 4.1.2. A stepwise regression method was applied for multivariate Logistic regression analysis to select the best predictors for PM and to develop a predictive model. Differences were considered statistically significant at P < 0.05. RESULTS: This study enrolled a total of 201 preterm infants, including 117 boys and 84 girls. The gestational age was 28.7 +- 1.7 weeks, and the weight was 1166.2 +- 302.7 g. Ninety infants were diagnosed with PM, while 111 did not have PM. The influencing factors include birth weight, PCT within 24 h after birth, cesarean delivery, and premature rupture of membranes. These were used to construct a risk prediction nomogram and verified its accuracy. The Brier score was 0.157, the calibration slope was 1.0, and the concordance index was 0.849. CONCLUSIONS: We developed and validated a personalized nomogram to identify high-risk individuals for early prediction of purulent meningitis in very preterm infants. This practical predictive model may help reduce unnecessary lumbar puncture procedures."""
+
+

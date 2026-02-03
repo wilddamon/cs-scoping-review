@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsofinhospitalopioidconsumptionanddischargeprescribingfollowingcesareandelivery2025dmowski
+"OBJECTIVES: This study aimed to assess the extent to which patient and care characteristics are associated with in-hospital opioid consumption and discharge prescribing following cesarean delivery (CD). METHODS: This retrospective cohort study included patients undergoing CD under neuraxial anesthesia at a university-affiliated hospital from December 2020 to December 2021. Patient demographics, care characteristics, in-hospital opioid consumption, and discharge prescription (in number of morphine 5 mg pills) were collected from medical records. Predictors were analyzed using negative binomial regression, with multiple imputations for missing data. RESULTS: Overall, 904 patients were included (age 35 +- 5 years, gestational age 38(0) +- 2(6) weeks, multiple gestations 5.3%, previous CD 44.7%, emergency delivery 40.9%, and hospital stay 2.3 +- 1.1 days). In-hospital analgesia prescriptions included acetaminophen (100%), nonsteroidal anti-inflammatory drugs (91.2%), and opioids (100%). Median in-hospital opioid consumption was zero (IQR 0-2) morphine 5 mg pills. Opioid consumption was associated with opioid use during pregnancy (incidence rate ratio [IRR] 9.419; 95% CI 3.425-25.900), higher postoperative pain scores (IRR 1.599; 95% CI 1.524-1.678), higher post-anesthesia care unit opioid consumption (IRR 1.007; 95% CI 1.002-1.013), and nonsteroidal anti-inflammatory drugs consumption (IRR 0.613; 95% CI 0.460-0.818). At discharge, 89.2% of patients were prescribed opioids (median = 20 [IQR 20-20] morphine 5 mg pills). Decreased discharge prescribing was associated with receiving a preprinted discharge prescription with fewer morphine 5 mg pills (10 vs. 20; 0.548 [95% CI 0.389-0.770]). CONCLUSIONS: In this study, in-hospital opioid consumption following CD was low and was associated with patient and care-related factors. At discharge, the only factor associated with prescription size was the use of preprinted prescriptions. These findings can inform strategies to mitigate opioid-related harms following CD."""
+
+

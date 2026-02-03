@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: healthserviceuseandhealthsystemcostsassociatedwithdiabetesduringpregnancyinaustralia2021fox
+"BACKGROUND AND AIMS: In the context of the rising rate of diabetes in pregnancy in Australia, this study aims to examine the health service and resource use associated with diabetes during pregnancy.;METHODS AND RESULTS: This project utilised a linked administrative dataset containing health and cost data for all mothers who gave birth in Queensland, Australia between 2012 and 2015 (n = 186,789, plus their babies, n = 189,909). The association between maternal characteristics and diabetes status were compared with chi-square analyses. Multiple logistic regression produced the odds ratio of having different outcomes for women who had diabetes compared to women who did not. A two-sample t-test compared the mean number of health services accessed. Generalised linear regression produced the mean costs associated with health service use. Mothers who had diabetes during pregnancy were more likely to have their labour induced at <38 weeks gestation (OR:1.39, 95% CI:1.29-1.50); have a cesarean section (OR: 1.26, 95% CI:1.22-1.31); have a preterm birth (OR:1.24, 95%: 1.18-1.32); have their baby admitted to a Special Care Nursery (OR: 2.34, 95% CI:2.26-2.43) and a Neonatal Intensive Care Unit (OR:1.25, 95%CI: 1.14-1.37). On average, mothers with diabetes access health services on more occasions during pregnancy (54.4) compared to mothers without (50.5). Total government expenditure on mothers with diabetes over the first 1000 days of the perinatal journey was significantly higher than in mothers without diabetes ($12,757 and $11,332).;CONCLUSION: Overall, mothers that have diabetes in pregnancy require greater health care and resource use than mothers without diabetes in pregnancy. Copyright (c) 2021 The Italian Diabetes Society, the Italian Society for the Study of Atherosclerosis, the Italian Society of Human Nutrition and the Department of Clinical Medicine and Surgery, Federico II University. Published by Elsevier B.V. All rights reserved."""
+
+

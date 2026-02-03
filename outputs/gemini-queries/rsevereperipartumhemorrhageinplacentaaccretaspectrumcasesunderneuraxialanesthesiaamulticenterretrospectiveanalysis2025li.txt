@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofapredictivemodelforsevereperipartumhemorrhageinplacentaaccretaspectrumcasesunderneuraxialanesthesiaamulticenterretrospectiveanalysis2025li
+"BACKGROUND: The placenta accreta spectrum (PAS) represents a significant risk factor for severe postpartum hemorrhage. Recent studies have demonstrated the safety of neuraxial anesthesia (NA) in cesarean delivery (CD) for patients with PAS. OBJECTIVES: To evaluate the risk of severe peripartum hemorrhage in patients with PAS who underwent CD under NA. DESIGN: A multicenter retrospective cohort study. METHODS: This study analyzed 214 patients diagnosed with PAS. Logistic regression was used to identify factors increasing the risk of severe peripartum hemorrhage. A total of six machine learning (ML) algorithms were employed for model validation. RESULTS: The predictive model includes the following risk factors: age at delivery >33 years (p = 0.004), history of CD >1 (p = 0.020), preoperative HGB 100 g/L (p = 0.013), placenta previa classification (p = 0.001), vascular lacunae within the placenta (p = 0.015), and labor duration (p = 0.026). The validation of ML algorithms revealed that the model achieved an accuracy ranging from 0.68 to 0.71, with an area under the receiver operating characteristic curve between 0.75 and 0.79. A nomogram list and web-based calculator were constructed for clinical implementation, and a risk stratification system was established based on model scores. CONCLUSION: A prenatal risk assessment model was developed to estimate the likelihood of severe peripartum hemorrhage in PAS patients undergoing CD under NA. This model may provide preliminary support for clinicians in tailoring anesthetic management strategies for potentially high-risk cases, but further studies are needed to confirm its clinical utility."""
+
+

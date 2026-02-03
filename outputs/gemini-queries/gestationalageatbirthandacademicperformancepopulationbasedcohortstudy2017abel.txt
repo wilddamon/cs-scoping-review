@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalageatbirthandacademicperformancepopulationbasedcohortstudy2017abel
+"Background: Numerous studies suggest pre-term birth is associated with cognitive deficit. However, less is known about cognitive outcomes following post-term birth, or the influence of weight variations within term or post-term populations. We examined associations between gestational age (GA) and school performance, by weight-for-GA, focusing on extremely pre- and post-term births. Method: Record linkage study of Swedish children born 1973-94 (n=2 008 102) with a nested sibling comparison (n=439 629). We used restricted cubic regression splines to examine associations between GA and the grade achieved on leaving secondary education, comparing siblings to allow stronger causal inference with regard to associations between GA and school performance. Results: Grade averages of both pre- and post-term children were below those of fullterm counterparts and lower for those born small-for-GA. The adjusted grades of extremely pre-term children (at 24 completed weeks), while improving in later study periods, were lower by 0.43 standard deviations (95% confidence interval 0.38-0.49), corresponding with a 21-point reduction (19 to 24) on a 240-point scale. Reductions for extremely post-term children (at 45 completed weeks) were lesser [-0.15 standard deviation (-0.17 to -0.13) or -8 points (-9 to -7)]. Among matched siblings, we observed weaker residual effects of pre-term and post-term GA on school performance. Conclusions: There may be independent effects of fetal maturation and fetal growth on school performance. Associations among matched siblings, although attenuated, remained consistent with causal effects of pre- and post-term birth on school performance. (c) The Author 2016; all rights reserved."""
+
+

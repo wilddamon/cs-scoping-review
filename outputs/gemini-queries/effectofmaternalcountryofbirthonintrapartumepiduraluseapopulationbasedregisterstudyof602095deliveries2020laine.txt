@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofmaternalcountryofbirthonintrapartumepiduraluseapopulationbasedregisterstudyof602095deliveries2020laine
+"OBJECTIVE: To assess intrapartum epidural use during vaginal delivery among immigrant women giving birth in Norway, compared with Norwegian born women, and to explore associations between epidural use and other maternal characteristics, fetal and obstetrical variables.;STUDY DESIGN: Population-based cohort study. Data were obtained from Norwegian Medical Birth Registry and Statistics Norway, including 602 095 deliveries in 1999-2014. Intrapartum epidural analgesia use was described in percentages. Multivariable logistic regression analysis was performed to investigate the association between maternal country of birth and intrapartum epidural use, adjusted with maternal and fetal comorbidity, age, stillbirth, birthweight, fetal presentation, delivery method and time period.;RESULTS: There were significant differences in epidural use between women born in different parts of the world. Among nulliparous women, increased odds for intrapartum epidural use was observed among women born in Latin America compared with Norwegian born women, even after adjustment for maternal, fetal and obstetrical factors (aOR 1.93, CI 1.79-2.09). Reduced odds for intrapartum epidural use was observed among nulliparous women born in Sub-Saharan Africa (aOR 0.83, CI 0.78-0.88), East Asia and Pacific area (aOR 0.83, CI 0.80-0.87), and women with unknown country of birth (aOR 0.79, CI 0.71-0.89) compared with Norwegian born women. Similar pattern was observed among parous women from Latin America (aOR 1.69, CI 1.54-1.87), Sub-Saharan Africa (aOR 0.62, CI 0.57-0.67), East-Asia and Pacific area (aOR 0.68, CI 0.64-0.73), unknown country of birth (aOR 0.97, CI 0.84-1.13). Maternal hypertensive disorders, high infant birthweight, stillbirth, breech presentation and operative vaginal delivery increased the odds for use of intrapartum epidural analgesia.;CONCLUSIONS: We found differences between immigrant women from different parts of the world and use of intrapartum epidural, possibly related to un-measurable issues like cultural differences, maternal expectations and knowledge of safety on pain relief during childbirth. Intrapartum epidural use was more frequent in conditions related to maternal co-morbidity and factors indicating complicated delivery. Copyright (c) 2020. Published by Elsevier B.V."""
+
+

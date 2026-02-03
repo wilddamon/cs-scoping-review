@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antepartumfibrinogenconcentrationasapredictorofbleedingcomplications2021dodge
+"Objective: The objective of this study was to examine the predictive value of fibrinogen concentration for bleeding complications among women presenting for delivery and for whom a fibrinogen level was measured before delivery. Study design: This was a nested case-control study using a cohort of all women who delivered at our institution from October 2001 to July 2016 and in whom a fibrinogen concentration was obtained within 48 hours before delivery. We identified all cases that had one or more of the following events: (1) postpartum hemorrhage; (2) postpartum hysterectomy; (3) transfusion of select blood products; or (4) a >= 33% decrease in hematocrit from the first hematocrit measured during the hospital stay to any subsequent hematocrit value drawn either simultaneously with or following the fibrinogen concentration measurement. We included the first case or control delivery for a given woman. Controls were the next one or two consecutive deliveries without a bleeding complication and matched for number of fetuses. We used logistic regression to calculate the odds ratio and 95% confidence intervals and calculated the area under the receiver operating characteristic curve. Results: We identified 424 cases and 801 controls. The mean predelivery fibrinogen concentration was significantly lower in cases (425 +- 170 mg/dL) than controls (523 +- 122 ng/mL) for all case types combined (p <.001) and for each case type individually (all p <.001). For every 100-mg/dL decrease in fibrinogen, the odds of a bleeding complication increased 1.63 times (95% confidence interval: 1.48-1.80). However, the area under the receiver operating characteristic curve was poor (0.69; 95% confidence interval: 0.65-0.72). Below 300 mg/dL there were 104 (24.5%) cases and 31 (3.9%) controls, yielding high specificity (96.1%) but extremely low sensitivity (24.5%). We could not identify a cutoff value that yielded acceptable values of both sensitivity and specificity. Conclusions: Antepartum fibrinogen concentration was significantly lower among women who developed bleeding complications, though these differences may not be large enough to provide clinically meaningful critical values. Nevertheless, a higher threshold for the critical value during pregnancy should be considered. (c) 2019 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

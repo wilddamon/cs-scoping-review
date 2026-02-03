@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: historyofiudutilizationandtheriskofpretermbirthacohortstudy2022jiang
+"Objective: To explore whether a history of IUD use could increase the risk of subsequent preterm birth. Methods: We performed a cohort study of 24,496 multipara aged 19-48 years in Dongguan City. Each subject was followed up for 1 year, and 12,508 women obtained pregnancy outcomes. They were divided into 2 groups: 2130 subjects with IUD use history (exposure group), and 10,378 subjects without IUD use history (control group). The exposure group will remove the IUD before pregnancy. The primary outcomes were preterm birth (less than 37 weeks of gestation) and early preterm birth (less than 34 weeks of gestation). We used log-binomial regression to estimate adjusted risk ratios (aRR) of preterm birth and early preterm birth for women with a history of IUD. According to the different adjusted baseline data, three regression models were established, and the propensity matching score method was also used to verify the stability of the results. Results: The delivery rate of women with IUD history was 51.24%, and that of women without IUD was 51.03% (2 = 0.063, P = 0.802). Six hundred and eighty-five women had preterm birth (5.48%, 95% CI 5.08-5.88) and 133 women had early preterm birth (1.06%, 95% CI 0.83-1.24). Compared with the control group, the incidence of preterm birth and early preterm birth in the exposure group were significantly lower. The results are stable in all four models. Subgroup analysis also supported the result. This study also found that the longer the women used IUD before pregnancy, the younger the age of first using IUD, and the shorter the time from condom removal to pregnancy, the lower the incidence of premature birth. Conclusion: The women with a history of IUD use are less likely to have premature birth after the IUD is removed. More prospective studies are needed to confirm it. (c) 2021, The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature."""
+
+

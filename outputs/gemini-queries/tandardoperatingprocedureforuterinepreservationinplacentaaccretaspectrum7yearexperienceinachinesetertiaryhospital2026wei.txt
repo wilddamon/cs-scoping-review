@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ninestepstandardoperatingprocedureforuterinepreservationinplacentaaccretaspectrum7yearexperienceinachinesetertiaryhospital2026wei
+"OBJECTIVE: To evaluate risk factors for adverse outcomes in the placenta accreta spectrum (PAS) and assess the efficacy of a nine-step uterus-sparing cesarean section protocol compared with traditional approaches. METHODS: This retrospective cohort study included 137 women with PAS who underwent cesarean delivery between 2016 and 2022. Participants were stratified into nine-step surgery (n = 26) and conventional surgery (n = 111) groups. The allocation of patients in each group was based on surgeon experience and surgical team's intraoperative judgment. The protocol integrates placental mapping, transient uterine ischemia, delayed vascular control, and multilayer reconstruction. Machine learning (SMOTE-enhanced Random Forest) was used to identify the predictors of hemorrhage and hysterectomy. RESULTS: The nine-step surgery group reduced the hysterectomy rate to 1.9 % vs. 9.0 % in the control group (P < 0.001), with fewer severe complications (hemorrhagic shock: 3.8 % vs. 12.6 %; DIC: 1.9 % vs. 8.1 %). Multivariate logistic regression analysis confirmed that nine-step surgery was independently related to a lower probability of hysterectomy (P = 0.050) (odds ratio: 0.107, 95 %CI: 0.011, 0.998). Gravidity (Gini=3.809) and pathological placental adhesion (PPA) were key hemorrhage predictors. The hysterectomy prediction model achieved exceptional discrimination (AUC=0.993), driven by intraoperative blood loss (Gini=16.068) and PPA severity. Experienced teams preserved 83.3 % of the uterus, compared to 63.0 % in the less-experienced group (P = 0.008). CONCLUSION: The nine-step uterine preservation protocol significantly reduced the hysterectomy rate in the PAS through dynamic risk stratification and staged hemostasis. Integrated machine learning models enhance precision management, enabling fertility preservation while minimizing the risk of severe complications."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: atwhatagedoestheriskforadversematernalandinfantoutcomesincreasenationwideregisterbasedstudyonfirstbirthsinfinlandin200520142016klemetti
+"Introduction: It is poorly understood if there are specific ages at which adverse outcomes during pregnancy and childbirth start to increase (threshold-ages). The purpose of this study was to examine at which maternal ages the use of maternity care and the risks for adverse maternal and infant outcomes increase. Material and methods: National data from the Finnish Medical Birth Register including all first-time mothers aged 20 years or over with singleton pregnancies in 2005-2014 were analyzed (n = 228 348). Odds ratios for each outcome at different ages were calculated by logistic regression, using women aged 20-24 (n = 56 282) as the reference and adjusting for socioeconomic position and urbanity of residence. The threshold-age was defined as the first significant adjusted odds ratio after which the risk remained significant. Results: The threshold-ages for use of maternity care varied from 25 years for cesarean section (OR 1.08, 95% CI 1.03-1.14) to 38 years for having 16 or more antenatal visits (1.13, 1.04-1.21). Four threshold-ages were found for maternal health outcomes: 25 years for gestational diabetes (OR 1.15, 1.09-1.23), 27 years for placenta previa (OR 1.75, 1.11-2.75), 33 years for gestational hypertension (1.14, 1.03-1.27), and 38 years for preeclampsia (OR 1.48, 1.12-1.96). The threshold-ages for infant health outcomes varied from 28 years for preterm birth (37 weeks, OR 1.10, 1.02-1.19) to 36 years for perinatal mortality (OR 2.10, 1.44-3.07). Conclusions: Different threshold-ages were identified. Most adverse outcomes occurred earlier than the traditional cut-off ages for high risk pregnancy, which have been set at 35 or 40 years. (c) 2016 Nordic Federation of Societies of Obstetrics and Gynecology"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparisonofneonataloutcomesaftertakingprogesteronepillsandprogesteroneintramuscularinjectionsinpretermlaboranrct2023dalili
+"Background: Approximately two-thirds of infant mortality within the first year of life are caused by preterm labor (PL). Objective(s): This study aimed to investigate the effects of progesterone-based compounds to prevent PL. Material(s) and Method(s): This randomized clinical trial study was conducted on 146 pregnant women admitted to Department of Obstetrics and Gynecology, Afzalipour hospital in Kerman University of Medical Sciences, Kerman, Iran in June 2019. The participants with PL received Tocolytic and 12 mg Betamethasone in 2 doses over 2 days to mature the fetus's lungs. Stopping PL was considered a 12-hr period without any contractions after finishing the Tocolytic. Following the successful cessation of PL, the participants were monitored for 48 hr. Subsequently, the participants were divided into 2 groups. Participants received 200 mg Lutogel capsules orally per day in group A while group B received a weekly dose of 250 mg Proluton in the form of intramuscular injection, respectively. Treatment in groups continued until the 36th wk of delivery. The participants were followed-up weekly, and if any signs of PL were detected, an obstetrician carried out a vaginal examination. Result(s): The incidence of PL was the same in both groups. There was no significant difference in the latent phase, average birth weight, and the neonatal intensive care unit admission frequency (p = 0.07, 0.17, 0.58, respectively) between groups. Conclusion(s): No difference in the results obtained from the neonatal outcomes evaluated in groups. Both medications similarly led to recovering pregnancy and neonatal outcomes caused by PL. Applying the oral form with similar beneficial effects were pointed out in this study, which can be a solution to the issues caused by numerous injections that are inevitable in the injected administration of this medicine.Copyright (c) 2023, Research and Clinical Center for Infertitlity. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenacetaminophenmetabolitesandcyp2e1dnamethylationlevelinneonatecordbloodinthebostonbirthcohort2023li
+"Background: Acetaminophen is a commonly used medication by pregnant women and is known to cross the placenta. However, little is known about the biological mechanisms that regulate acetaminophen in the developing offspring. Cytochrome 2E1 (CYP2E1) is the primary enzyme responsible for the conversion of acetaminophen to its toxic metabolite. Ex vivo studies have shown that the CYP2E1 gene expression in human fetal liver and placenta is largely controlled by DNA methylation (DNAm) at CpG sites located in the gene body of CYP2E1 at the 5' end. To date, no population studies have examined the association between acetaminophen metabolite and fetal DNAm of CYP2E1 at birth. Methods: We utilized data from the Boston Birth Cohort (BBC) which represents an urban, low-income, racially and ethnically diverse population in Boston, Massachusetts. Acetaminophen metabolites were measured in the cord plasma of newborns enrolled in BBC between 2003 and 2013 using liquid chromatography-tandem mass spectrometry. DNAm at 28 CpG sites of CYP2E1 was measured by Illumina Infinium MethylationEPIC BeadChip. We used linear regression to identify differentially methylated CpG sites and the "DiffVar" method to identify differences in methylation variation associated with the detection of acetaminophen, adjusting for cell heterogeneity and batch effects. The false discovery rate (FDR) was calculated to account for multiple comparisons. Results: Among the 570 newborns included in this study, 96 (17%) had detectable acetaminophen in cord plasma. We identified 7 differentially methylated CpGs (FDR < 0.05) associated with the detection of acetaminophen and additional 4 CpGs showing a difference in the variation of methylation (FDR < 0.05). These CpGs were all located in the gene body of CYP2E1 at the 5' end and had a 3-6% lower average methylation level among participants with detectable acetaminophen compared to participants without. The CpG sites we identified overlap with previously identified DNase hypersensitivity and open chromatin regions in the ENCODE project, suggesting potential regulatory functions. Conclusions: In a US birth cohort, we found detection of cord biomarkers of acetaminophen was associated with DNAm level of CYP2E1 in cord blood. Our findings suggest that DNA methylation of CYP2E1 may be an important regulator of acetaminophen levels in newborns. (c) 2023, BioMed Central Ltd., part of Springer Nature."""
+
+

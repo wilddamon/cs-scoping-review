@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isinductionoflaborassociatedwithpoorermaternalsatisfactiononlaboranalgesiaaretrospectivestudyofdeliverieswithneuraxialanalgesiainhelsinkiuniversityhospitaldeliveryunitsfinland20222025vaananen
+"INTRODUCTION: The association of induction of labor with poor maternal satisfaction on analgesia is retrospectively studied in a cohort of parturients delivering with neuraxial analgesia. METHODS: Satisfaction on analgesia was measured within 1-2 days postpartum and considered as poor (<8/10), fair to good (8-9/10), or excellent (10/10). The incidence of poor maternal analgesia satisfaction was compared by logistic regression following induced (n=2654) or spontaneous onset (n=5222) labors in parturients who delivered with neuraxial analgesia in Helsinki, Finland area hospitals in 2022. Body mass index (BMI), primiparity, diagnosed fear of childbirth (FOC), other modes of labor analgesia, partogram data, and labor outcome were accounted for as cofactors. The association of cofactors within induced cohort was studied by ordinal regression. RESULTS: The incidence of poor analgesia satisfaction was 24.5% and 19.5% following induction of labor and spontaneous labor, respectively. Adjustment for cofactors (BMI, primiparity, FOC, additional analgesia, cervical dilatation at the time of neuraxial analgesia, intrapartum cesarean delivery) resulted in an AOR for poor satisfaction of 1.19 (95% CI: 1.06-1.34, p<0.001), following induced labor versus spontaneous onset labor. During induced labor, FOC (AOR=1.25; 95% CI: 1.03-1.52), prior opioid labor analgesia (AOR=1.27; 95% CI: 1.09-1.48), cervical dilatation (cm) at the time of neuraxial analgesia (AOR=1.07; 95% CI: 1.02-1.12) and labor resulting in operative vaginal (AOR=1.30; 95% CI: 1.05-1.60) or cesarean delivery (AOR=1.30; 95% CI: 1.06-1.59) were found to be associated with worsening satisfaction, using ordinal regression. CONCLUSIONS: Induction of labor is associated with higher risk of poor satisfaction on analgesia, and in particular with neuraxial analgesia. Earlier provision of neuraxial analgesia may help mitigate the risk, particularly when additional risk factors are present."""
+
+

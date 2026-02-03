@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofanemergencyplannedcesareansectionontheperinataloutcomesofpregnantwomenwithplacentaaccretaspectrumandtheirneonatesaretrospectivestudycohort2025duan
+"BACKGROUND: Placenta accreta spectrum (PAS) is an obstetric condition. This study analyzes the outcomes of PAS parturients and their newborns undergoing emergency cesarean sections as opposed to planned cesarean sections. METHODS: In this research, we conduct a thorough retrospective analysis of 345 patients with placenta accreta at a single medical center. The patients were systematically categorized into two groups based on the type of surgical procedure: emergency cesarean sections and planned cesarean sections. A univariate analysis was performed to compare the outcomes associated with each approach. Furthermore, a logistic regression analysis was used to identify independent risk factors related to emergency surgeries. To further enhance our understanding, a multiple linear regression analysis was employed to determine the key factors influencing intraoperative bleeding. The selection of covariates for the regression analyses was carefully guided by previously reported influencing factors, as well as the significant differences highlighted in the univariate analysis. Missing data were addressed using multiple imputation based on chained equations to reduce potential bias and preserve analytical integrity. The study enrolled all women with PAS between August 2019 and February 2022. Ethical approval for this study was obtained from the Ethics Committee of Chengdu Women's and Children's Center Hospital (Ethics DOI: 201830). All participants provided written informed consent. RESULTS: The amount of bleeding and allogeneic blood transfusion in mothers in the emergency group was higher than that in the planned group. In the newborns in the emergency group, birth weight, length, and gestational age were lower than those in the planned group. The analysis found that the operation mode (B = 158.174, P = 0.043, 95% CI: 4.99-311.358) and the duration of operation (min) (B = 13.348, P < 0.001, 95% CI: 11.878-14.817) significantly affected the amount of intraoperative bleeding. CONCLUSIONS: The perinatal outcomes and perinatal infant outcomes in the emergency group were worse than those in the planned group, as exemplified by a lower neonatal birth weight, shorter body length, smaller gestational age at birth, and higher incidence of severe neonatal asphyxia. An emergency cesarean section may increase the amount of bleeding during a cesarean section in patients with PAS. A multidisciplinary team managing such patients can achieve favorable outcomes. CLINICAL TRIAL REGISTRATION: identifier (ChiCTR2100054068)."""
+
+

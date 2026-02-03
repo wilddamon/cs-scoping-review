@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningdrivenintrapartumfeverpredictionacomprehensivelargeretrospectivecohortstudyintegratinginflammatoryandobstetricmarkers2025jiang
+"Objective: To develop and validate a machine learning-driven predictive model for intrapartum fever in parturients receiving neuraxial labor analgesia, integrating comprehensive clinical and hematological markers. Method(s): Among 15,760 parturients (2022-2024), 11,032 (70%) were allocated to the training cohort (834 [7.6%] febrile cases) and 4728 (30%) to the testing cohort (364 [7.7%] febrile cases). A three-stage variable screening process was applied, including Pearson correlation analysis (r > 0.15), LASSO regression with 10-fold cross-validation, and SHAP value analysis (top 75% importance). Seven machine learning algorithms, namely Logistic Regression (LR), Decision Tree (DT), Random Forest (RF), eXtreme Gradient Boosting (XGBoost), Support Vector Machine (SVM), Multilayer Perceptron (MLP), and Elastic Net (ENET), were evaluated via accuracy, ROC AUC, and cost-benefit analysis. Result(s): Key predictors were neutrophil-lymphocyte ratio (NLR, SHAP=0.27), white blood cell count (WBC, SHAP=0.22), and primiparity (SHAP=0.18), with fever cases showing elevated NLR (7.71 vs 4.60, P<0.001) and vaginal exams (3.24 vs 2.29, P<0.001). Notably, the Random Forest (RF) model achieved a high test AUC of 0.94 but a reduced specificity of 0.57, which may increase false-positive risks (eg, unnecessary antimicrobial use). In contrast, Logistic Regression (LR) and Elastic Net (ENET) showed consistent generalizability (test AUC=0.87) with better specificity (0.69), making them more suitable for broad clinical application. Cost-benefit analysis identified a 3:2 ratio as optimal, with RF maintaining sensitivity across extreme thresholds. Conclusion(s): This study establishes a robust model integrating inflammatory and obstetric parameters, with RF as the top performer for risk stratification. The framework enables targeted intervention, addressing a critical gap in intrapartum fever management. Future directions include prospective validation and real-time biomarker integration.Copyright (c) 2025 Jiang and Li."""
+
+

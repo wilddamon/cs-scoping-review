@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apredictivemodelforstuntingamongchildrenundertheageofthree2024xiong
+"Background: In light of the global effort to eradicate stunting in childhood, the objective of this research endeavor was to assess the prevalence of stunting and associated factors, simultaneously construct and validate a risk prediction model for stunting among children under the age of three in Shenzhen, China. Method(s): Using the stratified random sampling method, we selected 9,581 children under the age of three for research and analysis. The dataset underwent a random allocation into training and validation sets, adhering to a 8:2 split ratio. Within the training set, a combined approach of LASSO regression analysis and binary logistic regression analysis was implemented to identify and select the predictive variables for the model. Subsequently, model construction was conducted in the training set, encompassing model evaluation, visualization, and internal validation procedures. Finally, to assess the model's generalizability, external validation was performed using the validation set. Result(s): A total of 684 (7.14%) had phenotypes of stunt. Utilizing a combined approach of LASSO regression and logistic regression, key predictors of stunting among children under three years of age were identified, including sex, age in months, mother's education, father's age, birth order, feeding patterns, delivery mode, average daily parent-child reading time, average time spent in child-parent interactions, and average daily outdoor time. These variables were subsequently employed to develop a comprehensive prediction model for childhood stunting. A nomogram model was constructed based on these factors, demonstrating excellent consistency and accuracy. Calibration curves validated the agreement between the nomogram predictions and actual observations. Furthermore, ROC and DCA analyses indicated the strong predictive performance of the nomograms. Conclusion(s): The developed model for forecasting stunt risk, which integrates a spectrum of variables. This analytical framework presents actionable intelligence to medical professionals, laying down a foundational framework and a pivot for the conception and execution of preemptive strategies and therapeutic interventions.Copyright 2024 Xiong, Hu, Cao, Shang and Niu."""
+
+

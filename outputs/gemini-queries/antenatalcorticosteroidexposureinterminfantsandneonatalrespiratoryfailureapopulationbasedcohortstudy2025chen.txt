@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: antenatalcorticosteroidexposureinterminfantsandneonatalrespiratoryfailureapopulationbasedcohortstudy2025chen
+"Background and Objectives: Antenatal corticosteroids (ACS) exposure in term infants potentially cause short and long-term negative consequence. This study aims to estimate the prevalence of ACS exposure among term infants, identify associated risk factors, and assess the impact on neonatal respiratory failure (NRF). Methods: A population-based, retrospective cohort analysis was conducted using the 2022 National Vital Statistics System data from USA, focusing on term infants (37-41 weeks' gestation). We defined ACS exposure based on any record of corticosteroid administration to the mother before delivery. Logistic regression models analyzed the risk factors of ACS exposure while propensity score matching(PSM) were used to evaluate the association between ACS exposure and NRF. Results: Of the 2,883,280 term infants studied, 34,986 (1.2 %) were exposed to ACS. Logistic regression model demonstrated that factors significantly linked to ACS exposure (adjusted Odds Ratios, aORs &gt; 2) included multiple gestation (aOR 2.36, 95 % CI 2.26-2.46), lower gestational age (37 weeks vs. 39 weeks, aOR 3.92, 95 % CI 3.81-4.04), and SGA status (aOR 3.72, 95 % CI 3.63-3.81). After PSM, ACS-exposed infants exhibited a higher risk of NRF compared to non-exposed infants (3.9 % vs. 1.6 %; OR 2.58, 95 % CI 2.34-2.85; p &lt; 0.001). Subgroup analyses demonstrated a consistent elevation of NRF risk associated with ACS exposure across various gestational ages, delivery methods, and maternal health conditions. Conclusion: ACS exposure occurs in a notable percentage of term births and is associated with increased risks of NRF, challenging the primary objective of ACS use in term infants. The findings underline the need for more cautious and targeted administration of ACS to avoid unnecessary exposure and mitigate adverse outcomes in term infants. (c) 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies."""
+
+

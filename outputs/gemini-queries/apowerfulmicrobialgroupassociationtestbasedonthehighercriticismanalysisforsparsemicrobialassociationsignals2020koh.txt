@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apowerfulmicrobialgroupassociationtestbasedonthehighercriticismanalysisforsparsemicrobialassociationsignals2020koh
+"Background: In human microbiome studies, it is crucial to evaluate the association between microbial group (e.g., community or clade) composition and a host phenotype of interest. In response, a number of microbial group association tests have been proposed, which account for the unique features of the microbiome data (e.g., high-dimensionality, compositionality, phylogenetic relationship). These tests generally fall in the class of aggregation tests which amplify the overall group association by combining all the underlying microbial association signals, and, therefore, they are powerful when many microbial species are associated with a given host phenotype (i.e., low sparsity). However, in practice, the microbial association signals can be highly sparse, and this is especially the situation where we have a difficulty to discover the microbial group association. Methods: Here, we introduce a powerful microbial group association test for sparse microbial association signals, namely, microbiome higher criticism analysis (MiHC). MiHC is a data-driven omnibus test taken in a search space spanned by tailoring the higher criticism test to incorporate phylogenetic information and/or modulate sparsity levels and including the Simes test for excessively high sparsity levels. Therefore, MiHC robustly adapts to diverse phylogenetic relevance and sparsity levels. Results: Our simulations show that MiHC maintains a high power at different phylogenetic relevance and sparsity levels with correct type I error controls. We also apply MiHC to four real microbiome datasets to test the association between respiratory tract microbiome and smoking status, the association between the infant's gut microbiome and delivery mode, the association between the gut microbiome and type 1 diabetes status, and the association between the gut microbiome and human immunodeficiency virus status. Conclusions: In practice, the true underlying association pattern on the extent of phylogenetic relevance and sparsity is usually unknown. Therefore, MiHC can be a useful analytic tool because of its high adaptivity to diverse phylogenetic relevance and sparsity levels. MiHC can be implemented in the R computing environment using our software package freely available at https://github.com/hk1785/MiHC. (c) 2020 The Author(s)."""
+
+

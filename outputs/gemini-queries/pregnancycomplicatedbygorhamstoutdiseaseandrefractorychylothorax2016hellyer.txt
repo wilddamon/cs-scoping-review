@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancycomplicatedbygorhamstoutdiseaseandrefractorychylothorax2016hellyer
+"Introduction Gorham-Stout Disease (GSD) is a rare disorder of bony destruction due to lymphangiomatosis, and is often triggered by hormones. One complication of GSD is the development of chylothorax, which carries a high mortality rate. Very little experience has been published to guide management in GSD during pregnancy to optimize both fetal and maternal health. Case Study A 20-year-old woman with known GSD presented with shortness of breath at 18 weeks of pregnancy, due to bilateral chylothoraces which required daily drainage. To minimize chylous fluid formation, she was placed on bowel rest with total parenteral nutrition (limiting lipid intake) and received octreotide to decrease splanchnic blood flow and chylous fluid drainage. Treatment options were limited due to her pregnancy. Twice daily home chest tube drainage of a single lung cavity, total parenteral nutrition, octreotide, and albumin infusions allowed successful delivery of a healthy 37 weeks' gestation infant by cesarean delivery. Discussion This case illustrates the management of a rare clinical disease of bone resorption and lymphangiomatosis complicated by bilateral, refractory chylothoraces, triggered by pregnancy, in whom treatment options are limited, and the need for a multidisciplinary health care team to ensure successful maternal and fetal outcomes.Copyright (c) 2016 by Thieme Medical Publishers, Inc."""
+
+

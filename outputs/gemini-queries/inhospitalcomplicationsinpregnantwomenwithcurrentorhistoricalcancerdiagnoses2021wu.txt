@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: inhospitalcomplicationsinpregnantwomenwithcurrentorhistoricalcancerdiagnoses2021wu
+"Objective: To assess the temporal trends, characteristics and comorbidities, and in-hospital cardiovascular and obstetric complications and outcomes of pregnant women with current or historical cancer diagnosis at the time of admission for delivery. Methods: We analyzed delivery hospitalizations with or without current or historical cancer between January 1, 2004, and December 31, 2014, from the US National Inpatient Sample database. Results: We included 43,132,097 delivery hospitalizations with no cancer, 39,118 with current cancer, and 67,336 with historical diagnosis of cancer. The 5 most common types of current cancer were hematologic, thyroid, cervical, skin, and breast cancer. Women with current and historical cancer were older (29 years and 32 years vs 27 years) and incurred higher hospital costs ($4131 and $4078 vs $3521) compared with women without cancer. Most of the cancer types were associated with preterm birth (hematologic: adjusted odds ratio [aOR], 1.48 [95% CI, 1.35 to 1.62]; cervical: aOR, 1.47 [95% CI, 1.32 to 1.63]; breast: aOR, 1.93 [95% CI, 1.72 to 2.16]). Current hematologic cancer was associated with the highest risk of peripartum cardiomyopathy (aOR, 12.19 [95% CI, 7.75 to 19.19]), all-cause mortality (aOR, 6.50 [95% CI, 2.22 to 19.07]), arrhythmia (aOR, 3.82 [95% CI, 2.04 to 7.15]), and postpartum hemorrhage (aOR, 1.31 [95% CI, 1.11 to 1.54]). Having a current or historical cancer diagnosis did not confer additional risk for stillbirth; however, metastases increased the risk of maternal mortality and preterm birth. Conclusion: Women with a current or historical diagnosis of cancer at delivery have more comorbidities compared with women without cancer. Clinicians should communicate the risks of multisystem complications to these complex patients. (c) 2021 Mayo Foundation for Medical Education and Research"""
+
+

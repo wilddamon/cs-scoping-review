@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ultrasoundelastographycandetectplacentaltissueabnormalities2018hasegawa
+"Background: In this prospective cohort study, we examined the utility of elastography to evaluate the fetus and placenta. Patients and methods: Pregnant women in their third trimester of pregnancy, by which time the placenta has formed, were included in this study. A total of 111 women underwent ultrasound examinations, including elastography. Elastographic evaluation was performed using two protocols. First, the placental index (PI) was measured, which quantitatively assesses the hardness of tissue. Second, regions of interest (ROI) were categorized into 3-step scores according to the frequency of the blue area (hardness of placental tissue score [HT score]), which is a qualitative method. After delivery, 40 of the 111 placentas were pathologically examined. Results: The average PI was 44.3 (+- 29.4) in the <italic>in utero</italic> SGA group, which was significantly higher than that in the normal group (8.8 (+- 10.0); <italic>p</italic> < 0.01) during pregnancy. There was a significant correlation between the PI and z score for estimated fetal weight (EFW) (<italic>r</italic> = -0.55; <italic>p</italic> < 0.01). Moreover, a significant positive correlation was observed between the PI and the z score of birth weight (<italic>r</italic> = -0.39; <italic>p</italic> < 0.01). Pathological ischemia findings of the placenta were identified in 67% of the HT score 3 group, representing 6 of the 9 patients, and in 20% of the HT score 1 group, representing only 3 of the 15 patients. Conclusions: Placental hardness, as determined by elastography, correlates with both lower estimated fetal body weight and birth weight. These results suggest that ultrasound elastography in the placenta may be an additional marker of intrauterine fetal well-being."""
+
+

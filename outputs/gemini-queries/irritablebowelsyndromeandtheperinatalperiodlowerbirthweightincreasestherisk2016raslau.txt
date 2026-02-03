@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: irritablebowelsyndromeandtheperinatalperiodlowerbirthweightincreasestherisk2016raslau
+"BACKGROUND: Early life events have been found to be associated with irritable bowel syndrome (IBS) suggesting a role in development of functional disorders. The study aim was to identify potential perinatal risk factors for adult IBS. METHODS: Utilizing a population-based nested case-control design, cases who met modified Rome III criteria for IBS and age- and-gender matched controls were identified using responses from prior mailed surveys to a random sample of Olmsted County residents. Medical records of eligible respondents were reviewed for perinatal events of interest. The association of early life events with subsequent case status was assessed using conditional logistic regression. KEY RESULTS: Of 3 417 respondents, 513 were born in Olmsted County and 108 met criteria for IBS. Due to missing records, 89 pairs were included in the final analyses. Logistic regression revealed only birth weight as a predictor of IBS. Lower birth weight increased the odds for IBS (OR = 1.54 [95% CI = (1.12, 2.08), p = 0.008]). Median birth weight was 3.35 kg (range: 1.96-5.24) and 3.57 kg (range: 2.18-4.59) for cases and controls, respectively. Maternal age, delivery method, and antibiotic exposure were not associated with IBS status but this study was only powered to detect large odds ratios. CONCLUSIONS AND INFERENCES: Lower birth weight was observed as a risk factor for IBS. It is not clear if in utero developmental delays directly lead to IBS or if low birth weight is a prospective marker for subsequent early life problems leading to IBS."""
+
+

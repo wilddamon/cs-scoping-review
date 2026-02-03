@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: invitrofertilizationisassociatedwiththeonsetandprogressionofpreeclampsia2020gui
+"Objective: We aimed to estimate the risk of preeclampsia (PE) associated with in vitro fertilization (IVF) and potential predisposing factors responsible for the observed association. Methods: This retrospective cohort study included 114485 pregnant women who delivered at the Nanjing Maternity and Child Health Care Hospital between 2013 and 2018. Of the 114485 women, 4601 (4%) conceived through IVF (IVF group) and 109884 (96%) conceived spontaneously (SC group). We performed logistic regression analysis to evaluate the risk of PE following IVF compared to spontaneous conception (SC). Then, we used propensity score matching analysis to compare the clinical characteristics and pregnancy outcomes between IVF patients with and without PE. Result: There were 1339 PE cases in the total study population, with a significantly higher incidence of PE in IVF relative to spontaneous pregnancies (6.1% vs. 1.0%, p < 0.01). Severe PE was more prevalent in singleton IVF-PE group than in singleton SC-PE group (40% vs. 24.1%, p = 0.025). Placenta accreta was more common in singleton preeclamptic patients with IVF than without IVF (12.5vs.2.6%, p = 0.003). Placental hypoxia was more prevalent in twin IVF pregnancies with PE than without PE (6% vs. 12.2%, p = 0.045). Moreover, the IVF-PE group showed more frequent first-trimester bleeding (31.6% vs. 10.5%, p = 0.024) compared to the control group. Conclusion: IVF is associated with the onset and progression of PE. Defective placentation and placental insufficiency may predispose IVF patients to PE and may manifest as first-trimester bleeding. (c) 2019 The Authors"""
+
+

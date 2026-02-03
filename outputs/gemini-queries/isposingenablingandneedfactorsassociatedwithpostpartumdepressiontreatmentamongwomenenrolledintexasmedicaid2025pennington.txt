@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predisposingenablingandneedfactorsassociatedwithpostpartumdepressiontreatmentamongwomenenrolledintexasmedicaid2025pennington
+"OBJECTIVES: To determine which of the available predisposing, enabling, and need factors are related to receipt of postpartum depression (PPD) treatment among postpartum women with Texas Medicaid. METHODS: This retrospective database analysis used Texas Medicaid claims (1/1/2018-6/30/2022) and included women 12-55 years, continuously enrolled 84 days pre- to 12 months post-delivery, with a PPD diagnosis. The outcome was receipt of PPD treatment (psychotherapy and/or antidepressant medication) within 12 months post-delivery. Independent variables were guided by the Andersen Behavioral Model and included predisposing (age, race/ethnicity), enabling (urbanicity, prenatal care), and need (depression/anxiety, substance use disorder [SUD], cesarean delivery, preterm birth, pregnancy complications) factors. Multivariable logistic regression was used. RESULTS: Included women (N = 25,976) were 26.7 +- 5.9 years and 42.1% were Hispanic. Most women resided in urban counties (80.6%) and had 6.2 +- 3.4 prenatal visits, 3.3 +- 2.8 postpartum visits, and 1.4 +- 0.9 pregnancy complications. Nearly half (44.7%) had baseline depression/anxiety, 17.4% had baseline SUD, 35.8% had cesarean delivery, and 13.5% had preterm birth. Approximately, three-fourths (76.2%) received treatment within 12 months after delivery. Logistic regression (p < 0.0001) revealed that the likelihood of treatment receipt was significantly associated with age (25-29:odds ratio [OR] = 1.155, 95% confidence interval 1.039-1.284, 30-34: OR = 1.186;1.058-1.330, > 34: OR = 1.295;1.134-1.479; reference:<20), race (White: OR = 1.700;1.556-1.857; Hispanic: OR = 1.179;1.087-1.277; reference: Black), urbanicity (OR = 0.869;0.799-0.944), prenatal care (4-6 visits: OR = 1.178;1.039-1.336, 7-9 visits: OR = 1.156;1.020-1.311, > 9 visits: OR = 1.406;1.217-1.625; reference:0 visits), and cesarean delivery (OR = 1.099;1.031-1.173). CONCLUSIONS FOR PRACTICE: While over 75% of women with PPD received treatment, additional efforts to mitigate disparate consequences of untreated PPD should be focused on younger, Black, and urban women."""
+
+

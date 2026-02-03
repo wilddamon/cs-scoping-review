@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: meconiumstainedamnioticfluidexposureandlongtermrespiratorymorbidityintheoffspring2021rodavsky
+"Objective: Meconium stained amniotic fluid (MSAF) is a well-established risk factor for neonatal short-term respiratory complications. Little is known regarding the long-term morbidity. We investigated the possible association between MSAF and offspring respiratory morbidity. Methods: A population-based, cohort study of singleton deliveries occurring between 1991 and 2014 at a sole regional tertiary medical center was performed. Incidence of offspring respiratory related hospitalizations up to the age of 18 years were evaluated and compared to unexposed offspring. A Kaplan-Meier survival curve was used to compare cumulative respiratory morbidity incidence, and a Cox proportional hazards model was used to control for confounders. Results: During the study period 242,342 deliveries met the inclusion criteria. Of them, 14.7% (n = 35,609) were complicated with MSAF. Incidence of respiratory-related hospitalizations was significantly lower in children exposed to MSAF as compared to the unexposed group (4.5% vs. 4.9%, respectively; p <.01). Specifically, hospitalizations involving pneumonitis were significantly less common among the MSAF group (odds ratio, 0.35; 95% confidence interval [95% CI], 0.13-0.96; p =.03). The Kaplan-Meier survival curve demonstrated significantly lower total cumulative respiratory morbidity rates in the MSAF exposed group (log rank p <.01). In the Cox model, controlled for clinically relevant confounders, MSAF exhibited an independent and significant protective effect on long-term childhood respiratory morbidity (aHR, 0.91; 95% CI, 0.86-0.96; p <.01). Conclusions: Fetal exposure to MSAF during labor appears to be associated with lower rates of long-term respiratory related hospitalizations in the offspring. Changes in offspring microbiome, as well as functional and anatomical modulations possibly resulting from MSAF exposure, might offer a plausible explanation of our findings. (c) 2021 Wiley Periodicals LLC"""
+
+

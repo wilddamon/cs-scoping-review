@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectsofhealthinsuranceonthechoiceofmedicalproceduresevidencefromheartattacksandchildbirths2021castaneda
+"This paper investigates the effect of health insurance on the use of alternative procedures to treat a given medical condition. In particular, we estimate the effect of health insurance on the use of bypass surgery after a heart attack and on the use of a C-section after a normal pregnancy. These procedures are the most expensive, compared to the alternatives. Theoretically, the demand for some procedures like bypass surgery is likely to be inelastic. In this situation, health insurance should have no effect on the use of the procedure. For other procedures such as C-section, demand may be more elastic, especially after a normal pregnancy without complications. We use a nationally representative dataset of inpatient hospital admissions from the United States and control for individual and hospital characteristics. The results from our empirical analysis support our predictions. For patients admitted to a hospital because of a heart attack, being uninsured has no effect on the probability of bypass surgery. However, for patients admitted for childbirth, the uninsured have a substantially lower probability of a C-section delivery. (c) 2021 John Wiley & Sons Ltd."""
+
+

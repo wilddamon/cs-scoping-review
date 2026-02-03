@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomeinmorethan5000birthstowomenwithviralhepatitisapopulationbasedcohortstudyinsweden2017stokkeland
+"Previous studies have shown inconsistent results with respect to hepatitis B (HBV), hepatitis C (HCV) and pregnancy outcome. The aim of this study was to investigate pregnancy outcome in women with HBV or HCV. In a nationwide cohort of births between 2001 and 2011 we investigated the risks of adverse pregnancy outcomes in 2990 births to women with HBV and 2056 births to women with HCV using data from Swedish healthcare registries. Births to women without HBV (n = 1090 979), and births without HCV (n = 1091 913) served as population controls. Crude and adjusted relative risks (aRR) were calculated using Poisson regression analysis. Women with HCV were more likely to smoke (46.7 vs. 8.0%) and to have alcohol dependence (18.9 vs. 1.3%) compared with population controls. Most women with HBV were born in non-Nordic countries (91.9%). Maternal HCV was associated with a decreased risk of preeclampsia (aRR: 0.39, 95% CI: 0.24-0.64), but an increased risk of preterm birth (aRR: 1.32, 95% CI: 1.08-1.60) and late neonatal death (7-27 days: aRR: 3.79, 95% CI: 1.07-13.39) Preterm birth were also more common in mothers with HBV, aRR: 1.21 (95% CI: 1.02-1.45). Both HBV and HCV are risk factors for preterm birth, while HCV seems to be associated with a decreased risk for preeclampsia. Future studies should corroborate these findings. (c) 2017, The Author(s)."""
+
+

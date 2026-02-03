@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: whentimingiseverythingareplacentalmriexaminationsperformedbefore24weeksgestationalagereliable2015horowitz
+"OBJECTIVE. The objective of our study was to determine if placental MRI examinations performed for the detection of abnormal placentation earlier than 24 weeks' gestational age (GA) are more or less reliable than examinations performed at a later GA. MATERIALS AND METHODS. Two radiologists blinded to clinical, surgical, and pathologic reports retrospectively and independently reviewed 69 placental MRI examinations for nine imaging signs associated with abnormal placentation. A consensus of the suspicion of abnormal placentation (including accreta, increta, or percreta) was determined using a 5-point (low to high suspicion) Likert scale and compared with pathologic or surgical findings or both. RESULTS. Seventeen placental MRI examinations were performed at GA 14-23 weeks, and 52 placental MRI examinations were performed at GA 24-41 weeks. Reviewer agreement (Cronbach alpha) among the nine imaging signs was 0.86 (95% CI, 0.72-0.92) and 0.92 (95% CI, 0.92-0.94) for MRI examinations at GA 14-23 weeks and GA 24-41 weeks, respectively. Pathologic or surgical evidence of abnormal placentation was found in 41% and 65% of the cases between GA 14-23 weeks and GA 24-41 weeks, respectively. The AUC for the MRI-based consensus score and the presence of abnormal placentation for GA 14-23 weeks was 0.49 (95% CI, 0.21-0.78) compared with 0.92 (95% CI, 0.83-1.0) for GA 24-41 weeks (p = 0.002). CONCLUSION. Placental MRI examinations performed before 24 weeks' GA unreliably predict abnormal placentation. (c) American Roentgen Ray Society."""
+
+

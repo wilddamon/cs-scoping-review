@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalbloodpressuretrajectoriesandassociationswithgestationalageatbirthafunctionaldataanalyticapproach2022horsley
+"Background: Research has revealed group-level differences in maternal blood pressure trajectories across pregnancy. These trajectories are typically constructed using clinical blood pressure data and multivariate statistical methods that are prone to bias and ignore the functional, dynamic process underlying a single blood pressure observation. The aim of this study was to use functional data analysis to explore blood pressure variation across pregnancy, and multivariate methods to examine whether trajectories are related to gestational age at birth. Methods: Clinical blood pressure observations were available from 370 women who participated in a longitudinal pregnancy cohort study conducted in Montreal, Quebec, Canada. Functional data analysis was used to smooth blood pressure data and then to conduct a functional principal component analysis to examine predominant modes of variation. Results: Three eigenfunctions explained greater than 95% of the total variance in blood pressure. The first accounted for approximately 80% of the variance and was characterized by a prolonged-decrease trajectory in blood pressure; the second explained 10% of the variance and captured a late-increase trajectory; and the third accounted for approximately 7% of the variance and captured a mid-decrease trajectory. The prolonged-decrease trajectory of blood pressure was associated with older, and late-increase with younger gestational age at birth. Conclusion: Functional data analysis is a useful method to model repeated maternal blood pressure observations and many other time-related cardiovascular processes. Results add to previous research investigating blood pressure trajectories across pregnancy through identification of additional, potentially clinically important modes of variation that are associated with gestational age at birth (c) ss 2021 Wolters Kluwer Health, Inc. All rights reserved."""
+
+

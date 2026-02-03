@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: easytousenomogramtopredictneonatalhyperbilirubinemia2025wang
+"Background. Neonatal hyperbilirubinemia is a common condition and a leading cause of hospitalization in newborns in their first week of life. Thus early identification of infants at risk is particularly important. In this study, we explored risk factors for its development of neonatal hyperbilirubinemia, and then constructed and validated an easy-to-use nomogram for the early prediction. Methods. This study was conducted retrospectively and non-interventionally, involving 646 neonates born at the Second Hospital of Dalian Medical University between January 2021 and January 2024. The study population was systematically partitioned through cluster sampling into a training set comprising of 454 neonates and a validation set of 192 neonates, adhering to a 7:3 ratio, utilizing the R-4.4.0 program. Independent predictors of neonatal hyperbilirubinemia were identified using least absolute shrinkage and selection operator (LASSO) regression from the training set, and a nomogram was constructed based on these predictors. The performance of the nomogram was assessed using receiver operating characteristic (ROC) curves, calibration curves and decision curve analysis (DCA). Results. Among 646 newborns, there were 350 males and 296 females, with a mean gestational age (GA) of 38.4 +/- 1.4 weeks and birth weight (BW) of 3,264.1 +/- 490.7 g. Six independent factors associated with hyperbilirubinemia were identified: GA, BW, premature rupture of membranes (PROM) >= 18 hours or concurrent maternal fever, maternal-infant blood type incompatibility with positive direct Coombs test, supplementation with probiotics, and weight loss?> 9% within 3 days. Calibration curves indicated that the nomogram closely matched the actual observed values in both the training and validation sets. The areas under the ROC curves for predicting hyperbilirubinemia were 0.825 (95% confidence interval (CI) [0.777-0.874]) in the training set and 0.829 (95% CI [0.757-0.901]) in the validation set. DCA showed that the nomogram has clinical applicability. Conclusion. The nomogram constructed in this study has good differentiation, calibration and clinical applicability, and has the potential to be used for predicting neonatal hyperbilirubinemia.Copyright (c) 2025 Wang et al."""
+
+

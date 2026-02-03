@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparativestudyontheclinicalefficacyandpregnancyoutcomesofmethimazoleandpropylthiouracilinmanagingpregnancycomplicatedwithhyperthyroidism2024hu
+"The objective of the study was to compare the clinical efficacy and pregnancy outcomes of methimazole and propylthiouracil in managing hyperthyroidism during pregnancy. This retrospective analysis included 100 pregnant women with hyperthyroidism, who were divided into two groups: the methimazole group (Group A) and the propylthiouracil group (Group B). Indicators such as thyroid function, liver function, pregnancy outcomes, and newborn health were closely monitored. The results revealed that both groups experienced a reduction in thyroid function indicators, with Group B showing a more modest decrease. Group B exhibited a higher incidence of liver injury but also achieved more full-term pregnancies. There were no significant differences in adverse reactions, miscarriage rates, or cesarean rates between the two groups. Apgar scores were higher in Group B, while neonatal weights were comparable. We conclude that propylthiouracil improved thyroid function more substantially than methimazole although it was associated with a higher risk of liver injury."""
+
+

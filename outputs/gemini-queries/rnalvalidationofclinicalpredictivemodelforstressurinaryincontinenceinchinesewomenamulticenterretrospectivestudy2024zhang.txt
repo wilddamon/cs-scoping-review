@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandexternalvalidationofclinicalpredictivemodelforstressurinaryincontinenceinchinesewomenamulticenterretrospectivestudy2024zhang
+"BACKGROUND: Stress urinary incontinence (SUI), the prevalent form of urinary incontinence, significantly impairs women's quality of life. This study aims to create a visual nomogram to estimate the risk of SUI within one year postpartum for early intervention in high-risk Chinese women. METHODS: We recruited 1,531 postpartum women who gave birth at two hospitals in Kunshan City from 2021 to 2022. Delivery details were meticulously extracted from the hospitals' medical records system, while one-year postpartum follow-ups were conducted via phone surveys specifically designed to ascertain SUI status. Utilizing data from one hospital as the training set, logistic regression analysis was performed to pinpoint significant factors and subsequently construct the nomogram. To ensure robustness, an independent dataset sourced from the second hospital served as the external validation cohort. The model's performance was rigorously evaluated using calibration plots, ROC curves, AUC values, and DCA curves. RESULTS: The study population was 1,125 women. The SUI incidence within one year postpartum was 26% (293/1125). According to the regression analysis, height, pre-pregnancy BMI, method of induction, mode of delivery, perineal condition, neonatal weight, SUI during pregnancy, and SUI during the first pregnancy were incorporated into the nomogram. The AUC of the nomogram was 0.829 (95% CI 0.790-0.867), and the external validation set was 0.746 (95% CI 0.689-0.804). Subgroup analysis based on parity showed good discrimination. The calibration curve indicated concordance. The DCA curve showed a significant net benefit. CONCLUSION: Drawing from real-world data, we have successfully developed an SUI predictive model tailored for postpartum Chinese women. Upon successful external validation, this model holds immense potential as an effective screening tool for SUI, enabling timely interventions and ultimately may improve women's quality of life."""
+
+

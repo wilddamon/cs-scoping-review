@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofcysticfibrosisonbirthweightapopulationbasedstudyofchildrenindenmarkandwales2019schluter
+"Background Poor growth during infancy and childhood is a characteristic feature of cystic fibrosis (CF). However, the impact of CF on intrauterine growth is unclear. We studied the effect of CF on birth weight in Denmark and Wales, and assessed whether any associations are due to differences in gestational age at birth. Methods We conducted national registry linkage studies in two countries, using data for 2.2 million singletons born in Denmark (between 1980 and 2010) and Wales (between 1998 and 2015). We used hospital inpatient and outpatient data to identify 852 children with CF. Using causal mediation methods, we estimated the direct and indirect (via gestational age) effect of CF on birth weight after adjustment for sex, parity and socioeconomic background. We tested the robustness of our results by adjusting for additional factors such as maternal smoking during pregnancy in subpopulations where these data were available. Results Babies with CF were more likely to be born preterm and with low birth weight than babies with no CF (12.7% vs 5% and 9.4% vs 5.8% preterm; 11.9% vs 4.2% and 11% vs 5.4% low birth weight in Denmark and Wales, respectively). Using causal mediation methods, the total effect of CF on birth weight was estimated to be a '178.8 g (95% CI a '225.43 to a '134.47 g) in the Danish population and a '210.08 g (95% CI a '281.97 to a '141.5 g) in the Welsh population. About 40% of this effect of CF on birth weight was mediated through gestational age. Conclusions CF significantly impacts on intrauterine growth and leads to lower birth weight in babies with CF, which is only partially explained by shorter gestation. (c) Author(s) (or their employer(s)) 2019."""
+
+

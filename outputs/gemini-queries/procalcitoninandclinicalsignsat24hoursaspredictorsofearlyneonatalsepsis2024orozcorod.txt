@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: procalcitoninandclinicalsignsat24hoursaspredictorsofearlyneonatalsepsis2024orozcorod
+"Background: Globally, 15% of neonatal deaths are caused by sepsis, with severe consequences for the newborn. Clinical manifestations are nonspecific and heterogeneous. Biomarkers are a useful tool for diagnosis and timely management. Objective(s): To evaluate procalcitonin concentrations at 24 hours as a marker for the diagnosis of early neonatal sepsis based on the clinical manifestations presented. Method(s): A cross-sectional, retrospective, descriptive and observational study was performed in neonates diagnosed with early neonatal sepsis with procalcitonin at 24 hours of life > 2 ng/ml, to assess the performance of procalcitonin for each clinical outcome using ROC curves and area under the curve (AUC). A p-value < 0.05 was considered significant. Result(s): A sample of 88 neonates was obtained. The most frequent clinical manifestations were respiratory distress (45.5%), hypoxia (19.3%) and poor feeding (8%). Median procalcitonin concentrations were 15.1 ng/ml. The best predictors for early neonatal sepsis were apnea AUC 0.67 (95% CI: 0.32-1; sensitivity 100%; p = 0.44), poor feeding AUC 0.65 (95% IC: 0.48-0.82; sensitivity 100%; p = 0.25), and hypoxia AUC 0.56 (95% CI: 0.39-0.72; sensitivity 23.5% and specificity 98.5%; p = 0.004). Conclusion(s): Median procalcitonin concentrations at 24 hours were 15.1 ng/ml and the best predictors were apnea, poor nutrition and hypoxia.Copyright (c) 2024. Instituto Nacional de Perinatologia Isidro Espinosa de los Reyes."""
+
+

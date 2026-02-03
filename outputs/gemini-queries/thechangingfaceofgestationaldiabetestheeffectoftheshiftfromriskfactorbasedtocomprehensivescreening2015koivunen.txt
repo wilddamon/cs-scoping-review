@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thechangingfaceofgestationaldiabetestheeffectoftheshiftfromriskfactorbasedtocomprehensivescreening2015koivunen
+"OBJECTIVE: To evaluate the effect of the change in the gestational diabetes (GDM) screening policy from risk-factor based to comprehensive screening on the prevalence and type of GDM and characteristics of GDM pregnancies.;DESIGN: Population-based register study in Finland. Subjects were GDM women who gave birth before (2006, n=5185) and after (2010, n=6683) the policy change. All the other women in those years without pre-pregnancy diabetes acted as controls (51 759 and 52 398 respectively).;METHODS: GDM women with singleton pregnancy were identified through The Finnish Medical Birth Register by abnormal oral glucose tolerance test or initiation of insulin. Main outcome measures were prevalence of GDM (total and insulin/diet-treated), and caesarean section rate.;RESULTS: The proportion of screened mothers increased from 27.5 to 51.3% and the total prevalence of GDM from 9.1 to 11.3%. This increase consisted mainly of diet-treated mothers, while the number and proportion of insulin-treated mothers decreased (21.8% vs13.3%, P<0.001). The proportion of primiparous women increased (34.5-39.4%, P<0.0001) and mean pre-pregnancy BMI decreased (28.6-28.2, P<0.001). The overall caesarean section rate remained the same but increased among women with GDM (20.8-22.1%) adjusted odds ratios being 1.22 (95% CI 1.14, 1.31) during comprehensive and 1.10 (95% CI 1.02, 1.19) during risk factor-based screening.;CONCLUSIONS: The shift to comprehensive screening led to a significant increase in women with GDM, who were more often primiparous and had a lower BMI. Comprehensive screening did not perform better in diagnosing women needing insulin treatment. Copyright (c) 2015 European Society of Endocrinology."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: creatingandtestingamodeltopredictpostoperativediscomfortinpatientswithhepatocellularcarcinomareceivingtransarterialchemoembolisation2023song
+"Background: Abdominal pain is a frequent adverse event in patients with hepatocellular carcinoma (HCC) after transarterial chemoembolisation (TACE). However, there remains uncertainty regarding the determinants of post-TACE pain. Objective(s): We aimed to create and verify a prediction model for postoperative pain in patients with HCC after TACE treatment. Method(s): This prospective study included all patients with HCC undergoing TACE in our hospital. According to the time of treat-ment, the dataset was divided into two cohorts (development and validation) in a 3: 2 ratio. After TACE, the participants used a visual analog scale to quantify their pain level at rest over a 24-hour period. The age, gender, tumor location, tumor size and number, medication administration route, and presence of portal vein tumor thrombosis (PVTT) were recorded in all patients. Result(s): In total, 137 (mean age: 60.3 +/- 10.1 years; 78.1% male) and 91 (mean age: 61.1 +/- 10.5 years; 73.6% male) patients were included in the development and validation cohorts, respectively. Furthermore, 46.0% and 39.6% of the patients experienced acute moderate to severe pain after TACE in the development and validation cohorts, respectively. The tumor location, the drug delivery method, and the presence of PVTT were independently associated with post-TACE pain, all of which were combined to develop a prediction model based on a logistic equation. The discrimination of this risk score was satisfactory in both the development (area under the curve (AUC): 0.693, 95% confidence interval (CI): 0.609 to 0.769, P < 0.001) and validation (AUC: 0.652, 95% CI: 0.544 to 0.748, P = 0.002) cohorts. There was no significant difference between the two cohorts (difference: 0.042, 95% CI:-0.081 to 0.164, P = 0.506). The risk score had good specificity for predicting post-TACE pain in both the development (83.8% (95% CI: 73.4% to 91.3%)) and validation (76.4% (95% CI: 63.0% to 86.8%)) cohorts. Conclusion(s): The presence of PVTT, the tumor location, and the drug administration method were risk factors for post-TACE dis-comfort. A prediction model based on these risk factors was useful for identifying patients who were vulnerable to post-TACE pain. However, further studies are required to validate these findings and optimize the model's performance.Copyright (c) 2023, Author(s)."""
+
+

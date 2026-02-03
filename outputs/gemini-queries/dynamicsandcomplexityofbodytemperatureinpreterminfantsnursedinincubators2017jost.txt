@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: dynamicsandcomplexityofbodytemperatureinpreterminfantsnursedinincubators2017jost
+"Background Poor control of body temperature is associated with mortality and major morbidity in preterm infants. We aimed to quantify its dynamics and complexity to evaluate whether indices from fluctuation analyses of temperature time series obtained within the first five days of life are associated with gestational age (GA) and body size at birth, and presence and severity of typical comorbidities of preterm birth. Methods We recorded 3h-Time series of body temperature using a skin electrode in incubator-nursed preterm infants. We calculated mean and coefficient of variation of body temperature, scaling exponent alpha (T<inf>alpha</inf>) derived from detrended fluctuation analysis, and sample entropy (TS<inf>ampEn</inf>) of temperature fluctuations. Data were analysed by multilevel multivariable linear regression. Results Data of satisfactory technical quality were obtained from 285/357 measurements (80%) in 73/90 infants (81%) with a mean (range) GA of 30.1 (24.0+-34.0) weeks. We found a positive association of T<inf>alpha</inf> with increasing levels of respiratory support after adjusting for GA and birth weight z-score (p<0.001; R2 = 0.38). Conclusion Dynamics and complexity of body temperature in incubator-nursed preterm infants show considerable associations with GA and respiratory morbidity. T<inf>alpha</inf> may be a useful marker of autonomic maturity and severity of disease in preterm infants. (c) 2017 Jost et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."""
+
+

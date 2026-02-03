@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severematernalmorbidityandrelatedhospitalqualitymeasuresinmaryland2018reid
+"Objective: To determine hospital characteristics and quality metrics associated with severe maternal morbidity (SMM) in Maryland. Study Design: A population-based observational study of 364,113 statewide delivery hospitalizations during 2010-2015 linked with socio-economic community measures and hospital characteristics and quality measures. Multivariable logistic regression models with generalized estimating equations estimated SMM adjusting for individual, community, and hospital-level factors and clustering within hospitals and residence zip codes. Results: The SMM prevalence was 197 per 10,000 deliveries. Adjusted SMM risk ratios were higher for younger (<20 years), older (35+ years), non-White non-Hispanic, unmarried, multiple substance users, women with multiple gestations, and chronic medical and mental health conditions than their counterparts. Communities with greater socio-economic disadvantage and hospitals with poorer patient experience and clinical care quality had higher rates of SMM. Conclusion: Addressing socio-economic disparities and improving quality of care in delivery hospitals are key to reducing the SMM burden in Maryland. (c) 2018, Nature America, Inc., part of Springer Nature."""
+
+

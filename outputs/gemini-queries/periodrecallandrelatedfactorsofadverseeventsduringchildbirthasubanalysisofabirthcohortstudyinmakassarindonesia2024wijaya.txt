@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: loweraccuracyofestimateddeliverydateusinglastmenstrualperiodrecallandrelatedfactorsofadverseeventsduringchildbirthasubanalysisofabirthcohortstudyinmakassarindonesia2024wijaya
+"BACKGROUND: Early pregnancy ultrasound provides a more accurate estimate of the estimated delivery date (EDD) than the last menstrual period (LMP). However, LMP-based EDD calculation remains common in resource-limited settings. Inaccurate EDDs can contribute to adverse birth outcomes. However, research examining the accuracy of LMP-based EDDs and their association with delivery-related adverse events is limited. OBJECTIVE: This study aimed to evaluate the accuracy of self-reported LMP in predicting EDD and its association with adverse events during delivery. METHODS: Data were analyzed from 171 pregnant women participating in the Indonesian Birth Cohort Study based in Makassar, Indonesia. This study utilized a prospective cohort design, employing descriptive statistics and Poisson regression analysis in Stata. Adverse events were defined as any unexpected negative occurrence during delivery, including issues related to healthcare access, birth attendance, and the medical condition of the mother and newborn. RESULTS: Mode of delivery and categorized differences between actual delivery date and estimated delivery date (ADD-EDD) were significantly associated with adverse events during delivery. Cesarean delivery was associated with a higher risk of adverse events compared to vaginal birth (Adjusted Risk Ratio [ARR] 1.11, 95% CI: 1.02-1.22, p <0.001). Additionally, ADD-EDD differences of <=-15 days (ARR 1.49, 95% CI: 1.35-1.65), -14 to -8 days (ARR 1.33, 95% CI: 1.19-1.49), and >=15 days (ARR 1.37, 95% CI: 1.20-1.58) showed an increased risk (all p <0.001). An ADD-EDD difference of 8 to 14 days was marginally significant (ARR 1.20, 95% CI: 1.00-1.44, p = 0.046). The ADD-EDD distribution showed notable gaps, with ADD deviations occurring as early as 109 days before and as late as 45 days after the EDD. On average, the ADD occurred approximately one week earlier (-7.15 days) than the EDD. CONCLUSION: Lower accuracy of LMP-based EDDs and delivery mode is associated with increased adverse events during delivery. Transitioning from LMP-based EDDs to more accurate methods is necessary to improve maternal and neonatal care outcomes. Integrating routine early ultrasound for EDD calculation can better equip healthcare providers and nurses to plan deliveries, reduce risks, and improve patient outcomes in resource-limited settings."""
+
+

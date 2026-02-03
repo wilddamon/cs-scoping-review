@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pathogendistributionantimicrobialresistanceandattributablecostanalysisofneonatalsepsisinneonatalintensivecareunitsapropensityscorematchingstudy2025zhang
+"Background: Neonatal sepsis (NS) is a serious infection in neonatal intensive care units (NICUs) that treatment challenges due to evolving antimicrobial resistance and a substantial healthcare burden. The aim of this study was to analyze the pathogenic characteristics of NS in Chinese NICUs and its independent impact on length of stay (LOS) and hospitalization costs. Method(s): A retrospective case-control study was conducted including 978 neonates from two tertiary NICUs between July 1, 2023, and June 30, 2024. Propensity score matching (PSM) was used to balance the baseline characteristics between the NS and non-NS groups. Generalized linear models (GLM) were used to quantify the LOS and hospitalization costs attributable to NS. Pathogen distribution and antimicrobial resistance patterns were also assessed. Result(s): The incidence of NS was 8.28%. The predominant pathogens of NS were Gram-positive bacteria (71.7%), with Staphylococcus epidermidis (50.5%) being the predominant pathogen. Notably, multidrug-resistant (MDR) strains accounted for 65.7% of all isolates. Antimicrobial resistance analysis revealed high resistance rates of Gram-positive bacteria to penicillin G (94.6%) and oxacillin (89.3%). Gram-negative pathogens exhibited high resistance to levofloxacin (75.0%), ceftriaxone (66.7%), cefepime (66.7%), and meropenem (58.3%). After PSM, the attributable LOS for NS was 11 days (P = 0.002) and the attributable cost for NS was $6,035.34 (P < 0.001). GLM analysis showed that the LOS attributable to NS was 3.99 times longer (95% CI: 3.46-4.68) and total hospitalization costs were 1.68 times higher (95% CI: 1.42-2.00) than in non-NS patients. Conclusion(s): NS significantly increases the hospitalization resource consumption in NICUs. This study provides key evidence for optimizing antibiotic use strategies and advancing precision healthcare payment reform, and calls for integrating resistance surveillance with cost-control measures to reduce the health economic impact of NS.Copyright 2025 Zhang, Zhou, Long, Wang, Gao, Meng, Xue and Luan."""
+
+

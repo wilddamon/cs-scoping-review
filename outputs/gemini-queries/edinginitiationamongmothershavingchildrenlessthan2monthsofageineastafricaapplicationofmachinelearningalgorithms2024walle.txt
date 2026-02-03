@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofdelayedbreastfeedinginitiationamongmothershavingchildrenlessthan2monthsofageineastafricaapplicationofmachinelearningalgorithms2024walle
+"BACKGROUND: Delayed breastfeeding initiation is a significant public health concern, and reducing the proportion of delayed breastfeeding initiation in East Africa is a key strategy for lowering the Child Mortality rate. However, there is limited evidence on this public health issue assessed using advanced models. Therefore, this study aimed to assess prediction of delayed initiation of breastfeeding initiation and associated factors among women with less than 2 months of a child in East Africa using the machine learning approach. METHODS: A community-based, cross-sectional study was conducted using the most recent Demographic and Health Survey (DHS) dataset covering the years 2011 to 2021. Using statistical software (Python version 3.11), nine supervised machine learning algorithms were applied to a weighted sample of 31,640 women and assessed using performance measures. To pinpoint significant factors and predict delayed breastfeeding initiation in East Africa, this study also employed the most widely used outlines of Yufeng Guo's steps of supervised machine learning. RESULTS: The pooled prevalence of delayed breastfeeding initiation in East Africa was 31.33% with 95% CI (24.16-38.49). Delayed breastfeeding initiation was highest in Comoros and low in Burundi. Among the nine machine learning algorithms, the random forest model was fitted for this study. The association rule mining result revealed that home delivery, delivered by cesarean section, poor wealth status, poor access to media outlets, women aged between 35 and 49 years, and women who had distance problems accessing health facilities were associated with delayed breastfeeding initiation in East Africa. CONCLUSION: The prevalence of delayed breastfeeding initiation was high. The findings highlight the multifaceted nature of breastfeeding practices and the need to consider socioeconomic, healthcare, and demographic variables when addressing breastfeeding initiation timelines in the region. Policymakers and stakeholders pay attention to the significant factors and we recommend targeted interventions to improve healthcare accessibility, enhance media outreach, and support women of lower socioeconomic status. These measures can encourage timely breastfeeding initiation and address the identified factors contributing to delays across the region."""
+
+

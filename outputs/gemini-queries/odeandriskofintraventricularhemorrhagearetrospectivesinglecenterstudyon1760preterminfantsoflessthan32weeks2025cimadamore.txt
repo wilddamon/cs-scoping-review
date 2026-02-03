@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deliverymodeandriskofintraventricularhemorrhagearetrospectivesinglecenterstudyon1760preterminfantsoflessthan32weeks2025cimadamore
+"OBJECTIVE: To evaluate the association between delivery mode and intraventricular hemorrhage (IVH) in infants with a gestational age (GA) < 32 weeks. STUDY DESIGN: We retrospectively reviewed data of 1760 infants with a GA between 24(+0/7) and 31(+6/7) weeks/days born between 01.01.2004 and 31.12.2022. We excluded outborn, congenital malformations, infants born by complicated delivery and without antenatal corticosteroid administration. Exposure was the delivery mode: cesarean section (CS) versus vaginal delivery (VD). IVH within the first week of life was the primary outcome. Multiple regression analyses were used to evaluate the association between delivery mode and IVH. CS infants were also match-paired for GA and small for gestational age (SGA) with VD infants. RESULTS: The incidence of IVH was lower in 1046 CS than in 144 VD study infants (IVH I-IV: 14 vs 29 %, p < 0.001; IVH I-II: 10 vs 22 %, p < 0.001; IVH III-IV: 3 vs 8 %, p = 0.008). CS was associated with a lower risk of IVH grades I-IV (aOR: 0.52, p = 0.012) after the adjustment for GA, year of birth, sex, singleton pregnancy, SGA, hypertensive disorders of pregnancy, pH <= 7.00 and/or standard base excess (SBE) <= -12 mmol/L at cord blood gas analysis, early-onset sepsis, hemodynamically significant patent ductus arteriosus, thrombocytopenia, need of blood transfusion, mechanical ventilation and inotropes/vasoactive amines. CONCLUSIONS: CS was associated with lower risk of IVH than VD in infants with a GA between 24(+0/7) and 31(+6/7) weeks/days, born by uncomplicated delivery and who have received antenatal corticosteroids."""
+
+

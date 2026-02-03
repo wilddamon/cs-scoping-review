@@ -1,0 +1,23 @@
+[
+{
+  "abstract ID": "machinelearningalgorithmscombiningslopedecelerationandfetalheartratefeaturestopredictacidemia2023estebanescano",
+  "study type": "Case-control study",
+  "exposure": [
+    "Specific features extracted from the fetal heart signal within a 30 min window",
+    "Last deceleration occurring closest to delivery",
+    "Electronic Fetal Monitoring (EFM) features"
+  ],
+  "outcome": [
+    "Neonatal acidemia (umbilical arterial blood pH level below 7.10)"
+  ],
+  "cohort": "The study included 502 infants (cases and controls in a 1:1 ratio) born at Miguel Servet University Hospital.",
+  "finding": "The random forest model achieved the highest area under the receiver characteristic curve (AUC) of 0.971 for predicting acidemia, while the logistic regression model had the best specificity (0.879) for a sensitivity of 0.95.",
+  "mod_finding": "Implementing a cutoff point of 31% in the logistic regression model could prevent unnecessary cesarean sections in 51% of cases while missing only 5% of acidotic cases.",
+  "country": "Spain",
+  "followup_time": "N/A",
+  "cross-section timing": "N/A",
+  "birth_weight": "N/A",
+  "gest_age": "N/A",
+  "added_2025": true
+}
+]

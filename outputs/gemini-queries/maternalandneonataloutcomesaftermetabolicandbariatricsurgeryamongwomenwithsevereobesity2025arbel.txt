@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandneonataloutcomesaftermetabolicandbariatricsurgeryamongwomenwithsevereobesity2025arbel
+"BACKGROUND: Earlier evidence indicated that metabolic and bariatric surgery (MBS) may adversely affect neonatal outcomes among patients conceiving soon after MBS, but recent studies demonstrated conflicting results, especially for new surgical techniques. OBJECTIVES: The aim of this study was to assess the effects of MBS types and surgery to birth interval on maternal, birth, and nonbirth outcomes in women with severe obesity. SETTING: New York State's all-payer hospital discharge database (2008-2019). METHODS: We identified women with severe obesity who underwent MBS (Post-MBS, n = 5001) or did not undergo MBS (No-MBS, n = 74,515), and examined maternal, neonatal, and nonbirth outcomes by MBS type and time since surgery in a propensity score-matched sample. RESULTS: Compared with No-MBS mothers, Post-MBS mothers had a lower incidence of stillbirths, ectopic pregnancies, and miscarriages (nonoverlapping confidence intervals). Post-MBS mothers were also significantly less likely to have pregnancy hypertension, gestational diabetes, and cesarean deliveries, but were more likely to experience vaginal bleeding during early pregnancy and deliver low birthweight newborns compared with No-MBS mothers (P < .05). Among Post-MBS mothers, deliveries within 18 months after surgery were associated with higher rate of cesarean sections and neonatal deaths compared with deliveries 18+ months after MBS (P < .05). Pregnancies after gastric bypass (RYGB) were more likely to result in cesarean deliveries compared with pregnancies after sleeve gastrectomy (P < .01). CONCLUSIONS: Although weight loss surgery in women with obesity may reduce the rates of adverse maternal nonbirth outcomes and pregnancy complications, neonates born to women who conceived during the first year after MBS, especially RYGB, may be at higher risk for adverse outcomes."""
+
+

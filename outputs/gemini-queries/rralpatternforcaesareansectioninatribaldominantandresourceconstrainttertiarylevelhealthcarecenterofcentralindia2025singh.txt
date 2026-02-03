@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsofpostcaesareansectionsurgicalsiteinfectionandreferralpatternforcaesareansectioninatribaldominantandresourceconstrainttertiarylevelhealthcarecenterofcentralindia2025singh
+"BACKGROUND: Surgical site infection (SSI) is the most common complication post-caesarean section, causing risks such as antibiotic resistance, prolonged hospital stay, increased costs, maternal sepsis and even death. While SSI rates in India have declined by the initiative under the National Health Mission, they remain high in resource-constrained, tribal-dominant areas like Shahdol. This study estimates SSI incidence, identifies predictors, and analysed referral patterns at Medical College, Shahdol, India. METHODS: From May to July 2023, Pregnant women requiring caesarean section were invited to participate (estimated sample size: 224). They were followed until 30 days post- caesarean section or SSI development, whichever came earlier. The 'event' was the first SSI report, and 'censoring' included those without SSI or lost to follow-up. A heatmap visualized referral patterns by healthcare centers and duty hours for common caesarean section indications. Probability of SSI risk by different factors were estimated using the Kaplan-Meier method, with survival curves compared via log-rank test. Adjusted hazard ratios were calculated using a multivariable Cox regression model. RESULT: The SSI rate was 13.4%, with an incidence of 4.82 episodes per 1000 women-days. Significant predictors included caesarean section duration < 30 min (p = 0.03) and subcutaneous skin closure (p = 0.04). Pregnant women from Shahdol (aHR = 1.38), Umaria (aHR = 1.10), and other districts (aHR = 2.35) had higher SSI risk than those from Anuppur. Each additional minute in completion of caesarean section reduced SSI risk by 3% (aHR = 0.97; p = 0.045). CONCLUSION: The high SSI incidence in this setting resulted from an erratic and largely irrational referral system, straining limited healthcare staff to perform disproportionately high caesarean section, especially at night, without adequate septic precautions. Strengthening infection control, post-operative surveillance, and community-based follow-up may significantly reduce SSI."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofariskpredictionmodelforpostpartumstressurinaryincontinenceamulticenterretrospectivelongitudinalstudyinindonesia2025andarini
+"BACKGROUND: The prevalence of urinary incontinence (UI) during pregnancy and the postpartum period can have significant negative impacts, including on the quality of life and economic burden for affected women. OBJECTIVE: The objective of this study was to develop risk-predictive models for postpartum stress urinary incontinence (SUI) among women in Indonesia. METHODS: Between January 2023 and March 2023, 430 postpartum women, aged 18 years or older, who were admitted to two study hospitals in Indonesia, were enrolled in this study. Telephone follow-up was conducted at six weeks postpartum to assess the presence of SUI. The Least Absolute Shrinkage and Selection Operator (LASSO) method was utilized to identify the relevant variables, and generalized linear models (GLM) were employed to establish predictive models for postpartum SUI. The models were internally validated using a bootstrapping method with 1,000 resamplings to assess discrimination and calibration. RESULTS: The analysis included 430 participants, among whom the prevalence of postpartum SUI was found to be 21% (90 out of 430). The predictive model for postpartum SUI included pre-pregnancy body mass index (BMI), Kegel exercises, constipation, fetal weight, SUI during pregnancy, and mode of delivery. The models demonstrated satisfactory calibration, as indicated by the Hosmer-Lemeshow test (p = 0.390). The optimism-corrected C-statistic, determined through bootstrapping stepwise, was 0.763 (95% confidence interval CI [0.693-0.833]) for postpartum women. CONCLUSION: This study successfully developed predictive models for SUI among postpartum women in Indonesia. The implementation of this model may serve as a valuable tool for identifying high-risk individuals at post-delivery stages, aiding in the prevention and management of postpartum SUI."""
+
+

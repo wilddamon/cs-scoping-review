@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: efficacyofivermectinadministrationtogrowingpigsafteravirulentporcinereproductiveandrespiratorysyndromevirus144l1cchallenge2024crawford
+"Objective: To conduct a pilot study, under noncommercial conditions, to assess the potential efficacy of ivermectin administered subcutaneously to pigs following a porcine reproductive and respiratory syndrome virus (PRRSV) 1-4-4 L1C challenge. Material(s) and Method(s): A total of 50 feeder pigs were enrolled and allocated into 2 groups. On day 0, all pigs were challenged with PRRSV 1-4-4 L1C. Animals in group 1 received an ivermectin dose of approximately 500 microg/kg administered subcutaneously at 1 and 3 days post challenge (DPC). Group 2 animals remained untreated. Serum was collected from each animal on DPC 1, 3, 5, 7, 10, and 14 and tested individually to assess PRRSV viremia levels via quantitative polymerase chain reaction (qPCR). On DPC 14, pigs were weighed, euthanized, necropsied, and lungs were scored for lung lesions. Bronchoalveolar lavage (BAL) was performed on each set of lungs and the corresponding level of viremia was measured via qPCR. Any animal that died prior to necropsy was weighed, received a lung score, and BAL collected. Result(s): There was no significant difference in viremia levels between treatment groups. There was a trend toward significance between treatment groups in lung lesion scores with the ivermectin-treated pigs exhibiting less lung pathology compared to the control group (P = .05). Implications: Ivermectin administered to pigs post virulent PRRS 1-4-4 L1C challenge did not reduce the level of viremia in serum or BAL fluid but may have reduced lung lesions.Copyright (c) 2024 American Association of Swine Veterinarians. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: validatingthebritishcolumbiaperinataldataregistryachartreabstractionstudy2015frosst
+"BACKGROUND: The British Columbia Perinatal Data Registry (BCPDR) contains individual-level obstetrical and neonatal medical chart data for virtually all births occurring in British Columbia, Canada. The objective of this study was to assess the validity of information in the BCPDR by performing a provincial chart re-abstraction study. METHODS: A two-stage stratified clustered sampling design was employed. Obstetrical facilities were stratified based on geographic location and obstetrical volume. Charts of mothers and newborns with a length of stay of five or more days or transfer to another facility following the delivery were oversampled. A total of 85 maternal and 32 newborn variables were assessed for completeness (percent completion) and validity (sensitivity and specificity for categorical variables, intra-class correlation coefficient [ICC] for continuous variables). RESULTS: 1,084 maternal and 1,142 newborn charts were abstracted. Mandatory variables such as primary indication for induction and primary indication for cesarean delivery were 100 % complete. Some variables such as pre-pregnancy weight were relatively more complete in the re-abstraction as compared with the BCPDR (83.0 % vs 76.8 %; p < 0.001). The validity of key surveillance variables was high (e.g., HIV screening completed [sensitivity 98.0 %, 95 % confidence interval (CI) 97.0-98.8 %; specificity 72.3 %, 95 % CI 60.8-81.9 %], induction of labour [sensitivity 93.9 %, 95 % CI 90.2-96.5 %; specificity 98.7 %, 95 % CI 97.7-99.3 %], primary elective cesarean delivery [sensitivity 96.0 %, 95 % CI 83.8-99.7 %; specificity 99.8 %, 95 % CI 99.4-100.0 %], gestational age from newborn examination [ICC 0.99, 95 % CI 0.99-0.99]). Examples of variables with lower validity included total admissions prior to delivery episode, maternal smoking status, and timing of breastfeeding initiation. CONCLUSION: Many important clinical and population health variables in the BCPDR had excellent validity. Some key variables warrant strengthening through improved definitions, system changes, and abstractor training."""
+
+

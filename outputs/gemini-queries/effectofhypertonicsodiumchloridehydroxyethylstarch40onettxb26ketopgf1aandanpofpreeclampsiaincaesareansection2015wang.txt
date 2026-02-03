@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectofhypertonicsodiumchloridehydroxyethylstarch40onettxb26ketopgf1aandanpofpreeclampsiaincaesareansection2015wang
+"Objective: Preeclampsia is a unique disease of pregnancy. Delivery via caesarean section is the most important way of terminating the pregnancy and treating preeclampsia. Perioperative fluid therapy is performed to maintain the circulatory volume and reduce tissue edema. This study evaluated die effects of hypertonic sodium chloride hydroxyethyl starch 40 (HSH40) as perioperative fluid therapy for preeclampsia patients. Materials and Methods: Forty preeclamptic women were randomly divided into two groups: the Ringer's solution group and the HSH40 group. Their ECG, HR, MAP, and SPO<inf>2</inf> were monitored. Their MVP and HR were recorded at five, eight, and ten minutes after anesthesia induction and at the end of the caesarean section. The corresponding volume of infusion, blood loss, and urine output during the operation were also recorded. Venous samples were collected before HSH40 infusion and 30 min after infusion to measure the plasma concentrations of ET, TXB<inf>2</inf>,6-keto-PGF<inf>a</inf>, and ANP via a radioimmunoassay. Results: HSH40 infusion significantly decreased the plasma ET levels (p < 0.01), significantly changed the plasma ANP and TXB<inf>2</inf> levels (p < 0.05), and significantly increased the plasma 6-keto-PGF1<inf>a</inf> levels (p < 0.01) in the experimental group compared with those before infusion. The plasma levels of ET, ANP, TXB<inf>2</inf>, and 6-keto-PGF1<inf>a</inf> did not significantly change in the control group. Compared with T1, MAP decreased significantly at T2, T3, T4, and T5 within groups (p < 0.05) and between the two groups. MAP significantly changed at T2, T3, T4, and T5 (p < 0.05). HR did not significant change at Tl, T2, T3, T4, and T5 within or between groups. Volume of infusion and urine volume significantly differed between groups (p < 0.05). Conclusion: Low-dose HSH40 lowers the plasma levels of vasoconstrictor substances (ET and TXB<inf>2</inf>) and increases the levels of vasodilator substances (6-keto-PGF1<inf>a</inf> and ANP) during preeclampsia. It effectively maintains and stabilizes the circulating blood volume, increasing renal blood flow, which improves renal function and increases urine output."""
+
+

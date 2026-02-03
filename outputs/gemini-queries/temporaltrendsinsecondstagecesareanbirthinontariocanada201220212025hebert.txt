@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: temporaltrendsinsecondstagecesareanbirthinontariocanada201220212025hebert
+"OBJECTIVE: To characterize trends in the mode of delivery in the second stage of labor, to assess factors associated with second-stage cesarean birth compared with operative vaginal birth, and to evaluate the contribution of these factors to changes in second-stage cesarean birth rates over time among individuals giving birth in Ontario, Canada. METHODS: This was a population-based cohort study of all individuals in Ontario, Canada (2012-2021), with singleton term pregnancies reaching full cervical dilation. Temporal trends were assessed with the Cochran-Armitage test. Modified Poisson regression was used to obtain crude (relative risk [RR]) and adjusted relative risk [aRR] and 95% CIs and to quantify the contribution of maternal, obstetric, fetal, and neonatal factors to temporal variations in second-stage cesarean birth rates. All analyses were stratified by parity. RESULTS: Among 806,645 births included, 26.7% of nulliparous and 6.5% of parous individuals had a second-stage cesarean birth or an operative vaginal birth, with ratios of cesarean to operative vaginal birth of 0.24 and 0.16, respectively. Between 2012-2013 and 2020-2021, second-stage cesarean birth rates increased from 4.8% to 5.8% for nulliparous individuals (P for trend<.001, RR 1.16, 95% CI, 1.08-1.24) and from 0.8% to 1.0% for multiparous individuals (P for trend<.001, RR 1.30, 95% CI, 1.11-1.51), as did ratios of cesarean to operative vaginal birth (nulliparous individuals 0.22-0.27, P<.001; multiparous individuals 0.13-0.18, P<.001). Factors strongly associated with second-stage cesarean birth included macrosomia, previous cesarean birth, elevated body mass index, and care by a midwife or family physician. After adjustment for maternal and obstetric factors, the increase in second-stage cesarean birth rates was largely attenuated (nulliparous individuals aRR 1.04, 95% CI, 0.97-1.11; multiparous individuals aRR 1.04, 95% CI, 0.89-1.21), with obstetric practice factors accounting for the largest proportion of the increase (nulliparous individuals 46.3% of the 16.0% increase; multiparous individuals 48.6% of the 29.6% increase). CONCLUSION: Between 2012 and 2021, second-stage cesarean birth rates and ratios of cesarean to operative vaginal birth increased in Ontario, Canada. Changes in obstetric practices were the primary modifiable drivers of this trend."""
+
+

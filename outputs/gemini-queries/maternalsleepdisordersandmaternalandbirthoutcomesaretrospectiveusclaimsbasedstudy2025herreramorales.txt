@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalsleepdisordersandmaternalandbirthoutcomesaretrospectiveusclaimsbasedstudy2025herreramorales
+"INTRODUCTION: Sleep disturbances are commonly reported during pregnancy and have been associated with adverse maternal, fetal, and neonatal outcomes. However, self-reported sleep disturbances may not be accurately reflected in the prevalence of clinically diagnosed sleep disorders. METHODS: Using Optum's de-identified Clinformatics Data Mart Database, we conducted a cross-sectional study of 93,767 American women who were pregnant with singletons between January 1, 2015 and June 30, 2021, to (1) determine the prevalence of clinically diagnosed sleep disorders and breathing abnormalities; (2) examine their associations with maternal health outcomes; and (3) examine their associations with birth outcomes. Sleep disorders and breathing abnormalities were defined on the basis of International Classification of Diseases (ICD)-9 or -10 codes. Maternal and birth outcomes were defined on the basis of ICD-10 codes. Multivariable binary and multinomial logistic regression models were used to examine associations, adjusting for demographic and insurance-related factors, with additional adjustment for the infant's sex and pregnancy complications in birth outcome models. RESULTS: The prevalence of clinically diagnosed sleep disorders and breathing abnormalities was 3.41%. These sleep conditions were significantly associated with increased odds (aORs: 1.25-3.37) of cesarean deliveries, gestational diabetes, gestational hypertension, preeclampsia, postpartum depression, stillbirths, newborn size by gestational age, birthweight, and gestation period among women with a singleton pregnancy. CONCLUSIONS: Our findings are consistent with previous research, but the lower prevalence of clinical diagnoses, compared to self-reported rates, suggests underdiagnosis in clinical settings. This highlights the need for routine sleep screenings during prenatal care to support early detection and management. Key limitations include limited direct information on SES and restriction to an insured population. Future studies should explore these associations in more diverse and publicly insured populations to guide equitable screening and intervention strategies."""
+
+

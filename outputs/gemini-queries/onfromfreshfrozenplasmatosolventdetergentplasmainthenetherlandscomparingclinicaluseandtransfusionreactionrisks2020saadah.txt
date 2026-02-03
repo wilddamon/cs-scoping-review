@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: transitionfromfreshfrozenplasmatosolventdetergentplasmainthenetherlandscomparingclinicaluseandtransfusionreactionrisks2020saadah
+"Plasma transfusion is indicated for replenishment of coagulative proteins to stop or prevent bleeding. In 2014, the Netherlands switched from using ~300mL fresh frozen plasma (FFP) units to using 200mL Omniplasma, a solvent/detergent treated pooled plasma (SD plasma), units. We evaluated the effect of the introduction of SD plasma on clinical plasma use, associated bleeding, and transfusion reaction incidences. Using diagnostic data from six Dutch hospitals, national blood bank data, and national hemovigilance data for 2011 to 2017, we compared the plasma/red blood cell (RBC) units ratio (f) and the mean number of plasma and RBC units transfused for FFP (~300mL) and SD plasma (200mL) for various patient groups, and calculated odds ratios comparing their associated transfusion reaction risks. Analyzing 13,910 transfusion episodes, the difference (Df = fSD - fFFP) in mean plasma/RBC ratio (f) was negligible (Dfentire_cohort = 0.01 [95% confidence interval (CI): -0.02 - 0.05]; P=0.48). SD plasma was associated with fewer RBC units transfused per episode in gynecological (difference of mean number of units -1.66 [95% CI: -2.72, -0.61]) and aneurysm (-0.97 [-1.59, -0.35]) patients. SD plasma was further associated with fewer anaphylactic reactions than FFP (odds ratio 0.37 [0.18, 0.77; P<0.01]) while the differences for most transfusion reactions were not statistically significant. SD plasma units, despite being one third smaller in volume than FFP units, are not associated with a higher plasma/RBC ratio. SD plasma is associated with fewer anaphylactic reactions than FFP plasma/RBC units ratio. (c) 2020 Ferrata Storti Foundation."""
+
+

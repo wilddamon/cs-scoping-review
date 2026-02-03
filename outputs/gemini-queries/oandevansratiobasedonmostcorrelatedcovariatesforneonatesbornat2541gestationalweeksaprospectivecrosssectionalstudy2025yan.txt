@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ultrasoundreferencevaluesofventriclohemisphericratioandevansratiobasedonmostcorrelatedcovariatesforneonatesbornat2541gestationalweeksaprospectivecrosssectionalstudy2025yan
+"OBJECTIVES: This study aimed to establish ultrasound reference values for the ventriculo/hemispheric ratio (V/HR) and Evans ratio in neonates between 25 and 41 weeks of gestation, based on the most correlated covariates (MCCs). METHODS: Data for V/HR and Evans ratio were collected from 1-to 7-day-old neurologically healthy neonates born or hospitalized at Hunan Provincial Maternal and Child Health Care Hospital and Yueyang Maternal and Child Health Hospital between March 2023 and September 2024. Max-min normalized quantile regressions were utilized to analyze the correlation between exploratory and dependent variables and to identify the MCCs. Reference values were established using the percentile method and MCCs, and the reliability of V/HR and Evans ratio was assessed via the intraclass correlation coefficient (ICC). RESULTS: A total of 1595 newborns were recruited. The V/HR median was positively correlated with the cesarean delivery (normalized regression coefficient (NRC) = 0.010, p < 0.05) but negatively correlated with the left side (NRC = -0.010, p < 0.05). The Evans ratio median was only positively correlated with the cesarean delivery (NRC = 0.010, p < 0.05). The 95th percentile (P95) of V/HR was only associated with the left side (NRC = -0.010, p < 0.05), while the P95 of the Evans ratio was unassociated with any covariates (all p > 0.05). Therefore, the MCC of V/HR at P95 was the left side, while the Evans ratio at P95 had no MCCs. The upper limits (P95) of LV/HR, RV/HR, and the Evans ratio were 0.33, 0.35, and 0.34, respectively. The ICCs of all indices exceeded 0.60, indicating moderate reliability or higher. CONCLUSIONS: We present the reference values for LV/HR, RV/HR, and Evans ratio. The medians and P95s of V/HR and Evans ratio are NOT correlated with GA, birth weight, and age. The reliability of the V/HR and Evans ratio is up to par."""
+
+

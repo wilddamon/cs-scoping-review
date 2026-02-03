@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingbleedingriskinplacentaaccretaspectrumwithplacentapreviamanagedbyprophylacticballoonocclusionutilityofcervicalvenousplexusvolumeonmri2026tokue
+"OBJECTIVE: To investigate whether cervical venous plexus (CV) volume measured by MRI predicts massive intraoperative blood loss (IBL) in patients with placenta accreta spectrum (PAS) and placenta previa managed with prophylactic balloon occlusion of the internal iliac arteries, differentiating between anterior (APP) and posterior placenta previa (PPP). METHODS: Overall, 59 patients with PAS and placenta previa underwent a cesarean section with PBOIIA. CV volume was quantitatively measured using T2-weighted MRI. Associations between CV volume and IBL were analyzed and stratified according to placental location. RESULTS: Patients with PPP had significantly greater CV volumes than that of patients with APP (20.5 +- 10.8 vs 14.7 +- 10.7 cm3, p = 0.032). Operative time (172.2 +- 42.1 vs 122.7 +- 33.2 min, p = 0.023) and transfusion requirements (7.8 +- 4.1 vs 3.1 +- 2.2 units, p < 0.001) were higher in APP; however, total IBL did not differ significantly (3927.7 +- 2847.6 vs 2742.4 +- 1514.5 mL, p = 0.267). In PPP, smaller CV volume significantly correlated with increased IBL (Spearman's r = -0.541, p = 0.002), predicting massive hemorrhage (IBL >= 2500 mL) with modest accuracy (area under the curve = 0.727; cutoff <= 21.0 cm(3), sensitivity = 70.6 %, specificity = 78.6 %). No correlation was observed in APP cases (r = -0.098, p = 0.638). CONCLUSION: In PAS with placenta previa managed by PBOIIA, a reduced CV volume on preoperative MRI predicted a higher intraoperative bleeding risk, particularly in PPP. In PPP, a smaller CV volume (<=21.0 cm(3)) was associated with massive intraoperative hemorrhage."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developingastreamlinedriskadjustedcesareansectionratemodelforevaluationofobstetricalqualityacrosshospitalsbyusingehrsaprovincialscalemulticenterretrospectivestudy2024zhou
+"OBJECTIVE: This study aims to explore a streamlined risk-adjusted cesarean section rate (RCSR) model and to compare its practical application effects with the traditional RCSR models. METHODS: Utilizing obstetric electronic health record (EHR) data from provincial multicenter hospitals, this study establishes a streamlined RCSR model alongside the traditional RCSR model and evaluates the efficacy of both models. Subsequently, the RCSRs of 56 hospitals within the province are calculated and ranked using both models. The consistency of these rankings is then quantified using Kendall's tau coefficient of concordance. RESULT: Comparison of model effectiveness evaluation of the traditional RCSR model versus the streamlined RCSR model is as follows: AUC (0.840 vs 0.839), accuracy (0.875 vs 0.872), sensitivity (0.690 vs 0.685), specificity (0.898 vs 0.892), positive predictive value (0.908 vs 0.903), negative predictive value (0.664 vs 0.660), and Brier score (0.069 vs 0.067). In the test of the consistency of hospital rankings based on two models, Kendall's tau coefficients were observed to be 0.979 (year 2017), 0.978 (year 2018), and 0.978 (year 2019) over a span of 3 years, with an aggregate coefficient of 0.974. CONCLUSION: In the realm of model performance evaluation as well as the pragmatic application within hospital settings, the streamlined model exhibits a substantial congruence with the traditional model. Therefore, the streamlined model can effectively serve as a viable surrogate for the traditional model, potentially establishing itself as a refined paradigm for the appraisal of quality in obstetric healthcare services."""
+
+

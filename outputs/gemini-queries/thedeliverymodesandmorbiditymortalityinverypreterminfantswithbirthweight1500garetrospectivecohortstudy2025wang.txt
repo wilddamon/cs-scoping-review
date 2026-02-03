@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thedeliverymodesandmorbiditymortalityinverypreterminfantswithbirthweight1500garetrospectivecohortstudy2025wang
+"INTRODUCTION: Compare outcomes of very preterm infants (VPIs) with a birth weight<1,500 g based on delivery mode and propensity score matching (PSM). METHODS: This was a retrospective study (2016-2021) of 1,375 VPIs (692 vaginal and 683 cesarean deliveries). PSM created 390 matched pairs. Outcomes included respiratory and neurological morbidity and mortality. RESULTS: PSM revealed no significant difference between the two groups at baseline or after antenatal corticosteroids administration. The incidence rates of birth asphyxia, delivery room resuscitation, neonatal respiratory distress syndrome, use of pulmonary surfactants, pulmonary hemorrhage, and use of invasive ventilation in the vaginal delivery group after PSM were 42.3, 68.2, 65.9, 59.2, 7.2, and 36.7%, respectively. These rates were significantly lower than those in the cesarean delivery group (52.3, 83.3, 79.5, 70.8, 14.4, and 51.8%, respectively) (p < 0.05). The difference was more significant in infants with a gestational age of 28-31(+6) weeks (p < 0.05). There were no significant differences in the incidence rates of intraventricular hemorrhage (IVH), severe IVH, periventricular leukomalacia, bronchopulmonary dysplasia, necrotizing enterocolitis (NEC), NEC surgery, premature infant retinopathy (ROP), severe ROP, late-onset neonatal sepsis, or mortality between the two groups. The mortality rate within 3 days in the vaginal delivery group was 7.7%, which was higher than that in the cesarean delivery group (3.3%), primarily in infants with a gestational age < 28 weeks (p < 0.05). CONCLUSION: Cesarean section reduced early mortality in VPIs <28 weeks but increased respiratory morbidity at 28-31(+6) weeks, with no impact on other outcomes. Since 52.1% of the cesarean sections were emergency procedures, this may have biased the results."""
+
+

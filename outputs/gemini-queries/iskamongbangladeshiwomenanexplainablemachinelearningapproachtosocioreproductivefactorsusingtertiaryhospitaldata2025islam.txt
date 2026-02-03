@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: understandingcancerriskamongbangladeshiwomenanexplainablemachinelearningapproachtosocioreproductivefactorsusingtertiaryhospitaldata2025islam
+"BACKGROUND: Breast cancer poses a significant health challenge in Bangladesh, where limited screening and unique reproductive patterns contribute to delayed diagnoses and subtype-specific disparities. While reproductive risk factors such as age at menarche, parity, and contraceptive use are well studied in high-income countries, their associations with hormone-receptor-positive (HR+) and triple-negative breast cancer (TNBC) remain underexplored in low-resource settings. METHODS: A case-control study was conducted at the National Institute of Cancer Research and Hospital (NICRH) including 486 histopathologically confirmed breast cancer cases (246 HR+, 240 TNBC) and 443 cancer-free controls. Socio-demographic and reproductive data were collected through structured interviews. Machine learning models-including Logistic Regression, Lasso, Support Vector Machines, Random Forest, and XGBoost-were trained using stratified five-fold cross-validation. Model performance was evaluated using sensitivity, F1-score, and Area Under Receiver Operating Curve (AUROC). To interpret model predictions and quantify the contribution of individual features, we employed Shapley Additive exPlanation (SHAP) values. RESULTS: XGBoost achieved the highest overall performance (F1-score = 0.750), and SHAP-based interpretability revealed key predictors for each subtype. Rural residence, low education (<=5 years), and undernutrition were significant predictors across subtypes. Cesarean delivery and multiple abortions were more predictive of TNBC, while urban residence, employment, and higher education were more predictive of HR+. Age at menarche and age at first childbirth showed decreasing predictive importance with increasing age for HR+, while larger gaps between marriage and childbirth were more predictive of TNBC. CONCLUSIONS: Our findings underscore the value of machine learning coupled with SHAP-based explainability in identifying context-specific risk factors for breast cancer subtypes in resource-limited settings. This approach enhances transparency and supports the development of targeted public health interventions to reduce breast cancer disparities in Bangladesh."""
+
+

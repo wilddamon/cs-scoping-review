@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lutealphasesupportwithoralprogesteroneimproveslivebirthrateinintrauterineinseminationcyclesusingletrozole2024xi
+"RESEARCH QUESTION: Does luteal phase support (LPS) with oral progesterone improve the live birth rate (LBR) in patients undergoing intrauterine insemination (IUI) cycles with letrozole? DESIGN: This retrospective cohort study included 1199 IUI cycles with letrozole between January 2017 and December 2021. A nearest neighbour random matching approach was employed to pair the LPS group and the control group in a 1:2 ratio. Eight variables were chosen for matching in the propensity score matching (PSM) model: age; body mass index; duration of infertility; cause(s) of infertility; antral follicle count; basal concentration of FSH; rank of IUI attempts; and leading follicle size. LBR was selected as the primary outcome. RESULTS: In total, 427 LPS cycles were matched with 772 non-LPS (control) cycles after PSM. The LBR was significantly higher in the LPS group compared with the control group (19.7% versus 14.5%; P = 0.0255). The clinical pregnancy rate (23.2% versus 17.6%; P = 0.0245) and ongoing pregnancy rate (20.6% versus 15.8%; P = 0.0437) were also significantly higher in the LPS group. The biochemical pregnancy rate, ectopic pregnancy rate and miscarriage rate were similar in the two groups (P > 0.05). The intergroup comparison revealed no significant variances in terms of gestational age, mode of delivery, ectopic pregnancy rate or abortion rate. Furthermore, there were no significant differences in birth weight or birth length between the two groups. CONCLUSIONS: Luteal support with oral progesterone significantly improved the LBR in IUI cycles with letrozole, but did not affect neonatal outcomes."""
+
+

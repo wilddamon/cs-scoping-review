@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hukoubasedruralurbandisparitiesinmaternalhealthserviceutilizationanddeliverymodesintwochinesecitiesinguangdongprovince2021shen
+"Background: Most existing research on rural-urban health inequalities focuses on disparities in service access and health outcomes based on region. This paper examines rural-urban disparities in maternal healthcare utilization and delivery modes based on household registration (hukou) status to understand the role of state institutions in producing healthcare disparities in China. Methods: Utilizing administrative data from the Public Maternal Health Insurance scheme, we analyzed 54,733 live births in City A (2015-2019) and 25,849 live births in City B (2018-2019) in Guangdong Province in China. We constructed regression models using hukou status (rural versus urban) as the explanatory variable. Results: While there is no statistically significant difference in rural and urban mothers' probability of obtaining the minimum recommended number of prenatal care checkups in City A (OR = 0.990 [0.950, 1.032]), mothers with rural hukou status have a lower probability of obtaining the minimum recommended number of visits in City B than their counterparts with urban hukou (OR = 0.781 [0.740, 0.825]). The probability of delivering in tertiary hospital is lower among mothers with rural hukou than among those with urban hukou in both cities (City A: OR = 0.734 [0.701, 0.769]; City B: OR = 0.336 [0.319, 0.354]). Mothers with rural hukou are more likely to have a Cesarean section than those with urban hukou in both cities (City A: OR = 1.065 [1.027, 1.104]; City B: OR = 1.127 [1.069, 1.189]). Compared with mothers with urban hukou, mothers with rural hukou incurred 4 % (95 % CI [-0.046, -0.033]) and 9.4 % (95 % CI [-0.120, -0.068]) less in total medical costs for those who delivered via Cesarean section and 7.8 % (95 % CI [-0.085, -0.071]) and 19.9 % (95 % CI [-0.221, -0.177]) less for those who delivered via natural delivery in City A and City B, respectively. Conclusions: Rural hukou status is associated with younger age, no difference or lower probability of having a minimum number of prenatal checkups, higher likelihood of delivering in nontertiary hospitals, increased Cesarean delivery rates, and lower medical cost for delivery in these two Chinese cities. Evaluating how hukou status influences maternal healthcare in Chinese cities is important for devising targeted public policies to promote more equitable maternal health services."""
+
+

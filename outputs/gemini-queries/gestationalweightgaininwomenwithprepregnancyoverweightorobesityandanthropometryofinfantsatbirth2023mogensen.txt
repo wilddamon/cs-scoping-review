@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalweightgaininwomenwithprepregnancyoverweightorobesityandanthropometryofinfantsatbirth2023mogensen
+"Objective: To examine the association of gestational weight gain (GWG) among women with pre-pregnancy overweight or obesity with infant weight and BMI z-score at birth. Methods: This study is a secondary analysis of a randomized controlled trial including data from 208 infants at birth born by mothers with pre-pregnancy BMI between 28 and 45 kg/m2 who completed the APPROACH study (randomized to a high-protein low-glycemic index diet or a moderate-protein moderate-glycemic index diet). This analysis pooled the two diet treatment groups together and data were analyzed using a linear mixed model. Results: Limiting GWG by 1 kg was associated with lower birthweight (-16 g, P = 0.003), BMI z-score (-0.03SD, P = 0.019), weight z-score (-0.03SD, P = 0.004), and infant abdominal circumference (-0.06 cm, P = 0.039). Infants born by mothers whose GWG was <=9 kg weighed less (122 g, 95% CI: 6-249, P = 0.040), had similar BMI z-score (0.2SD, 95% CI: -0.06 to 0.55, P = 0.120), and lower incidence of emergency cesarean deliveries (11.5% vs. 23.1%, P = 0.044) compared to infants born by mothers whose GWG was >9 kg. When women were classified into GWG quartiles, women in Q1 (GWG range: -7.0 to 3.2 kg) gave birth to smaller infants (3,420 g, P = 0.015) with lower BMI z-score (-0.5SD, P = 0.041) than women in Q2 (3.3-7.1 kg), Q3 (7.2-10.9 kg) and Q4 (11.1-30.2 kg). Conclusions: Limiting GWG among women with pre-pregnancy overweight or obesity was associated with lower infant weight, BMI z-score, weight z-score, and abdominal circumference at birth. Moreover, GWG below the Institute of Medicine guideline of a maximum of 9 kg was associated with lower birthweight and fewer emergency cesarean deliveries. 2023 Mogensen, Zingenberg, Svare, Astrup, Magkos and Geiker."""
+
+

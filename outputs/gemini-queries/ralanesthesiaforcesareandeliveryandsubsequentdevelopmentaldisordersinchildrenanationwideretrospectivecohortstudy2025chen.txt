@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweengeneralanesthesiaforcesareandeliveryandsubsequentdevelopmentaldisordersinchildrenanationwideretrospectivecohortstudy2025chen
+"BACKGROUND: Exposure to general anesthetics (GA) in early childhood is associated with developmental disorders. However, few studies have addressed in-utero exposure to anesthetics during delivery and subsequent developmental disorders in the offspring. This study aimed to investigate whether GA for cesarean delivery is associated with developmental disorders in children. METHODS: Using data retrieved from the National Health Insurance Research Database linked to the Birth Reporting Database and the Maternal and Child Health Database between 2015 and 2020, this nationwide retrospective cohort study compared the incidence of developmental disorders following cesarean delivery under GA with that under neuraxial anesthesia (NA). Developmental disorders were diagnosed using the corresponding International Classification of Diseases codes traced 2-6 years after delivery. RESULTS: After excluding twins, children born with congenital anomalies or diseases and those with missing data, 325,309 eligible singleton pregnancies delivered through cesarean section under either GA or NA were enrolled. Of the total, 6973 of them were delivered under GA and 318,336 under NA. After propensity score-based fine stratification weighting with a model including age, socioeconomic deprivation, gestational status, infant sex, preterm delivery, low birth weight, and cesarean delivery duration, children delivered under GA were associated with a higher risk of developmental disorders diagnosed within 2 years (adjusted odds ratio [aOR], 1.17; 95% confidence interval [CI], 1.07-1.28), 3 years (aOR, 1.12; 95% CI, 1.04-1.21), and 4 years (aOR, 1.12; 95% CI, 1.04-1.21) compared with those under NA. This association was no longer present when the confounding effect of Apgar scores was included in the propensity-score model. CONCLUSIONS: GA for cesarean delivery may be associated with developmental disorders diagnosed within 2-4 years after birth manifested through poorer 1- and 5-min Apgar scores. There is no evidence of a direct relationship between GA-related neurotoxicity and subsequent developmental disorders."""
+
+

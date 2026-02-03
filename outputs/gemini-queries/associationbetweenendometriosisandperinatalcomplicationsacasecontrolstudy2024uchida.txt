@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenendometriosisandperinatalcomplicationsacasecontrolstudy2024uchida
+"BACKGROUND: Recently, a history of endometriosis has been reported to be associated with several perinatal complications. However, it is unknown whether pre-pregnancy treatment for endometriosis reduces perinatal complications. In this study, we aimed to clarify the association between endometriosis and perinatal complications and investigate whether there is a significant difference in the incidence of placenta previa depending on the degree of surgical completion of endometriosis before pregnancy.;METHODS: This case-control study included 2781 deliveries at the Hirosaki University Hospital between January 2008 and December 2019. The deliveries were divided into a case group with a history of endometriosis (n = 133) and a control group without endometriosis (n = 2648). Perinatal outcomes and complications were compared between the case and control groups using a t-test and Fisher's exact test. Multiple logistic regression models were used to identify the risk factors for placenta previa. Additionally, we examined whether the degree of surgical completion of endometriosis before pregnancy was associated with the risk of placenta previa.;RESULTS: Patients with a history of endometriosis had a significantly higher risk of placenta previa (crude odds ratio, 2.66; 95% confidence interval, 1.37-4.83). Multiple logistic regression analysis showed that a history of endometriosis was a significant risk factor for placenta previa (adjusted odds ratio, 2.30; 95% confidence interval, 1.22-4.32). In addition, among patients with revised American Society for Reproductive Medicine stage III-IV endometriosis, the incidence of placenta previa was significantly lower in patients who underwent complete surgery (3/51 patients, 5.9%) than in those who did not (3/9 patients, 33.3%) (p = 0.038).;CONCLUSIONS: A history of endometriosis is an independent risk factor for placenta previa. Given the limitations of this study, further research is needed to determine the impact of endometriosis surgery on perinatal complications. Copyright (c) 2024. The Author(s)."""
+
+

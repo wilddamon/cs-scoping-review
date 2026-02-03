@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandperinataloutcomesinpregnantwomenwithcomorbidinflammatoryboweldiseaseandchronicliverdisease2025lee
+"BACKGROUND: Inflammatory bowel disease (IBD) and chronic liver disease (CLD) are each associated with adverse pregnancy outcomes, but the impact of coexisting IBD and CLD on pregnancy remains understudied. AIMS: To assess CLD prevalence among pregnant women with and without IBD and evaluate maternal and perinatal outcomes. METHODS: We conducted a retrospective cohort study of delivery hospitalisations among women >= 18 years using the 2016-2022 United States National Inpatient Sample. Deliveries were categorised as IBD + CLD, IBD, CLD or neither using ICD-10 codes. Weighted multivariable regression adjusted for demographics, comorbidities and cirrhosis. RESULTS: Among 21,304,600 deliveries, 178,025 had CLD, 47,555 had IBD and 680 had IBD + CLD. Chronic viral hepatitis was the most common CLD, while autoimmune liver disease accounted for half of cirrhosis in IBD + CLD. Compared to IBD or CLD, IBD + CLD had higher odds of hyperemesis gravidarum (2.64 vs. 3.68), preterm birth (2.50 vs. 1.69), hypertensive disorders of pregnancy (HDP) (1.96 vs. 1.60), caesarean delivery (1.92 vs. 1.61), perinatal mood disorder (1.75 vs. 1.45) and premature rupture of membranes (1.35 vs. 1.39). IBD + CLD had greater odds of fetal death (1.97) versus CLD and of severe maternal morbidity (1.76) and postpartum haemorrhage (1.56) versus IBD. All p <= 0.05. CONCLUSIONS: Coexisting IBD and CLD confer compounded maternal and perinatal risks beyond either condition alone. Multidisciplinary care and risk-based screening for underlying CLD in pregnant women are warranted."""
+
+

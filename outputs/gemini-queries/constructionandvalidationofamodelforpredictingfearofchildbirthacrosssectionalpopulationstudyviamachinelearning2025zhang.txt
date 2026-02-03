@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: constructionandvalidationofamodelforpredictingfearofchildbirthacrosssectionalpopulationstudyviamachinelearning2025zhang
+"BACKGROUND: Fear of childbirth (FOC) is a psychological state of fear and distress that pregnant women experience when they approach labor. This fear can have significant negative effects on both the mother and the newborn, making it crucial to study the influencing factors of FOC to implement early interventions. OBJECTIVE: First, identify the risk factors for FOC occurrence, then construct a predictive model for FOC and evaluate its predictive efficiency. METHODS: A total of 901 pregnant women who underwent regular prenatal check-ups at Anhui Women and Children's Medical Center were selected. Participants completed questionnaires. General information and relevant medical data of the patients were collected for data aggregation. The data was randomly divided into a training set (n = 632) and a testing set (n = 269) in a 7:3 ratio. Univariate analysis of risk factors for FOC was performed on the training set data. Using univariate logistic regression and multivariate logistic regression to analyze the risk factors associated with the occurrence of FOC, we constructed a FOC risk predictive model via ten different machine learning methods and evaluated the predictive performance of the model. RESULTS: Our study indicated that educational level, history of adverse pregnancy outcomes, history of cesarean section, planned pregnancy, assisted reproduction, income, payment, SAS scores, and age are independent risk factors for FOC. The risk predictive model included six factors, such as gravidity, history of adverse pregnancy outcomes, history of cesarean section, planned pregnancy, payment, and SSRS scores. The model was built using ten types of machine learning and was evaluated to perform well. CONCLUSION: Gravidity, history of adverse pregnancy outcomes, history of cesarean section, planned pregnancy, payment method, and SSRS score are risk factors for FOC in late-pregnancy women. The risk predictive model established in this study has a high clinical reference value."""
+
+

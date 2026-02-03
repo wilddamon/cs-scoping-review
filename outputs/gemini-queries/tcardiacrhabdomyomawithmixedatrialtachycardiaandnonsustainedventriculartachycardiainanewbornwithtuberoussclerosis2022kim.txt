@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: giantcardiacrhabdomyomawithmixedatrialtachycardiaandnonsustainedventriculartachycardiainanewbornwithtuberoussclerosis2022kim
+"Cardiac rhabdomyomas are typically presented in the tuberous sclerosis. Although benign and often associated with spontaneous regression, in rare circumstances huge mass size and critical location can lead to heart failure, ventricular outflow tract obstruction and refractory tachyarrhythmias. An 1-day-old girl was diagnosed as cardiac tumor during perinatal period. At birth, transthoracic echocardiography revealed huge cardiac mass located in septal area of both ventricle measuring 34 x30 mm. It protruded into the left ventricular (LV) outflow tract, potentially obstructing it. A surface ECG revealed atrial tachycardia with nonsustained ventricular tachycardia with heart rate of 217 beats per min. The tachyarrhythmias were controlled with intravenous amiodarone. Reduction of the giant cardiac mass was treated with mammalian target of rapamycin pathway inhibitor sirolimus. However, she unfortunately died at 10 days-old because of sudden cardiac arrest maybe due to LV outflow tract obstruction during therapy. Gene analysis revealed TSC2 mutation after death.Copyright (c) 2022 Ewha Womans University College of Medicine and Ewha Medical Research Institute."""
+
+

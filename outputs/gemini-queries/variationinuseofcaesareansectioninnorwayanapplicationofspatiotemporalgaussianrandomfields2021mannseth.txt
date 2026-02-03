@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: variationinuseofcaesareansectioninnorwayanapplicationofspatiotemporalgaussianrandomfields2021mannseth
+"Aims: Caesarean section (CS) is a medical intervention performed in Norway when a surgical delivery is considered more beneficial than a vaginal. Because deliveries with higher risk are centralized to larger hospitals, use of CS varies considerably between hospitals. We describe how the use of CS varies geographically by municipality. Since indications for CS should have little variation across the relatively homogenous population of Norway, we expect fair use of CS to be evenly distributed across the municipalities. Methods: Data from the Medical Birth Registry of Norway were used in our analyses (810,914 total deliveries, 133,746 CSs, 440 municipalities). We propose a spatial correlation model that takes the location into account to describe the variation in use of CS across the municipalities. The R packages R-INLA and TMB are used to estimate the yearly municipal CS rate and the spatial correlation between the municipalities. We also apply stratified models for different categories of delivering women (Robson groups). Estimated rates are displayed in maps and model parameters are shown in tables. Results: The CS rate varies substantially between the different municipalities. As expected, there was strong correlation between neighbouring municipalities. Similar results were found for different Robson groups. Conclusions: The substantial difference in CS use across municipalities in Norway is not likely to be due to specific medical reasons, but rather to hospitals' different policies towards the use of CS. The policy to be either more or less restrictive to CS was not specific to any category of deliveries."""
+
+

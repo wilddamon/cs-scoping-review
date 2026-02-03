@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithearlychildhooddevelopmentresultsfromthebraziliannationalsurveyonchildnutritionenani20192025freitascosta
+"INTRODUCTION: The full achievement of early childhood development (ECD) is a human right and adhering to the nurturing care framework may facilitate it. OBJECTIVE: To evaluate the association between distal and proximal variables and developmental quotient (DQ). METHODS: Data from 14 159 children <5 years were evaluated in the Brazilian National Survey on Child Nutrition. The Survey of Well-being of Young Children-Brazilian version milestones questionnaire was used to evaluate ECD. The developmental age was estimated using the graded response models. DQ was calculated by dividing developmental age by chronological age. The expected age milestones are attained when DQ=1. DQ predictors were defined considering distal and proximal levels/variables using a multiple linear regression model and a hierarchical approach. RESULTS: The DQ mean was significantly lower among children aged 36-59 months (0.91 (0.88 to 0.93)), boys (1.03 (1.01 to 1.06)) and those from the North region (0.98 (0.93 to 1.04)) compared with children aged 1-35 months (1.18 (1.15 to 1.22)), girls (1.11 (1.08 to 1.13)) and from the Southeast region (1.11 (1.07 to 1.16)). For children aged 1-35 months, DQ was inversely associated with emergency C-section (b=-0.08; p<0.01), consumption of ultra-processed food (b=-0.33; p<0.01), and positively associated with attendance at daycare/school (private: b=0.09; p=0.02 and No: b=0.12; p<0.01). For children aged 36-59 months, attendance to private daycare/school (b=0.08; p<0.01) was positively associated with DQ, and small for gestational age at birth (b=-0.05; p=0.01) and access to public health services (no-primary care) (b=-0.07; p<0.01) were inversely associated with DQ. CONCLUSIONS: Adverse health, nutrition and learning factors predicted the ECD, demonstrating an inequitable environment for Brazilian children. These findings indicate a need for public policies to ensure social and health equity in early childhood."""
+
+

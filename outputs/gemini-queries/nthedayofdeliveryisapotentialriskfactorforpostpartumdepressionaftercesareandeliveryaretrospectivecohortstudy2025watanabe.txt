@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: selfreportedpoorsleepqualityonthedayofdeliveryisapotentialriskfactorforpostpartumdepressionaftercesareandeliveryaretrospectivecohortstudy2025watanabe
+"BACKGROUND: Postpartum depression (PPD) affects a significant number of women. Sleep disturbances have been associated with PPD; however, it remains unclear whether immediate postpartum sleep disturbances are risk factors. We investigated the potential association between self-reported poor sleep quality on the first day after cesarean delivery and the development of PPD, measured using the Edinburgh Postnatal Depression Scale (EPDS) scores. METHODS: We conducted a retrospective cohort study of women who underwent elective cesarean delivery under neuraxial anesthesia. Patients were asked about their sleep quality on the day after surgery and divided into Poor and Good Sleep groups. The EPDS scores were recorded at one month postpartum. The postpartum EPDS scores were compared between the two groups, and potential confounding factors were adjusted for using propensity score matching. RESULTS: A total of 256 patients (55 and 201 in the Poor and Good Sleep groups, respectively) were included in the analysis. After propensity score matching, the postnatal EPDS score was significantly higher in the Poor Sleep group compared to that in the Good Sleep group (6.7 +- 5.2 vs 4.5 +- 4.3, P = 0.007). Maternal PPD (i.e., EPDS >= 9) was also significantly higher in the Poor Sleep group (31.5% vs 17.5%, P = 0.045, OR 2.17 [95%CI 1.01-4.67]). The Poor Sleep group had higher endocrine morbidity and a higher rate of multiple gestations. CONCLUSION: There is a strong correlation between self-reported poor sleep quality on the first day after cesarean delivery and the EPDS score one month after childbirth. Sleep disturbances on the day of delivery may be a potential risk factor for PPD. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1186/s40981-025-00833-5."""
+
+

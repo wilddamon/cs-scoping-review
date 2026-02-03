@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionoffetaldeathinpretermpreeclampsiausingfetalsexplacentalgrowthfactorandgestationalage2024novillodelalamo
+"Background/Objectives: Preeclampsia (PE) is a systemic disease that affects 4.6% of pregnancies. Despite the existence of a first-trimester screening for the prediction of preterm PE, no consensus exists regarding neither the right moment to end the pregnancy nor the appropriate variables to estimate the prognosis. The objective of this study was to obtain a prediction model for perinatal death in patients with preterm PE, useful for clinical practice. Method(s): Singleton pregnant women with PE and preterm delivery were included in an observational retrospective study. Multiple maternal and fetal variables were collected, and several multivariable logistic regression analyses were applied to construct models to predict perinatal death, selecting the most accurate and reproducible according to the highest area under the curve (AUC) and the lowest Akaike Information Criteria (AIC). Result(s): A group of 148 pregnant women were included, and 18 perinatal deaths were registered. Univariable logistic regression selected as statistically significant variables the following: gestational age (GA) at admission, fetal sex, poor response to antihypertensive drugs, PlGF, umbilical artery (UA) pulsatility index (PI), cerebroplacental ratio (CPR), and absent/reversed ductus venosus (DV). The multivariable model, including all these parameters, presented an AUC of 0.95 and an AIC of 76.5. However, a model including only GA and fetal sex presented a similar accuracy with the highest simplicity (AUC 0.93, AIC 67.6). Finally, in fetuses with a similar GA, fetal death became dependent on PlGF and fetal sex, underlying the role of fetal sex in all circumstances. Conclusion(s): Female fetal sex and low PlGF are notorious predictors of perinatal death in preterm PE, only surpassed by early GA at birth.Copyright (c) 2024 by the authors."""
+
+

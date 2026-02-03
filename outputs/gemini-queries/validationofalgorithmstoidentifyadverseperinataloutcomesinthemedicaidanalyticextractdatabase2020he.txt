@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: validationofalgorithmstoidentifyadverseperinataloutcomesinthemedicaidanalyticextractdatabase2020he
+"Background: The Medicaid Analytic eXtract (MAX) is a health care utilization database from publicly insured individuals that has been used for studies of drug safety in pregnancy. Claims-based algorithms for defining many important maternal and neonatal outcomes have not been validated. Objective: To validate claims-based algorithms for identifying selected pregnancy outcomes in MAX using hospital medical records. Methods: The medical records of mothers who delivered between 2000 and 2010 within a single large healthcare system were linked to their claims in MAX. Claims-based algorithms for placental abruption, preeclampsia, postpartum hemorrhage, small for gestational age, and noncardiac congenital malformation were defined. Fifty randomly sampled cases for each outcome identified using these algorithms were selected, and their medical records were independently reviewed by two physicians to confirm the presence of the diagnosis of interest; disagreements were resolved by a third physician reviewer. Positive predictive values (PPVs) and 95% confidence intervals (CIs) of the claims-based algorithms were calculated using medical records as the gold standard. Results: The linked cohort included 10,899 live-birth pregnancies. The PPV was 92% (95% CI, 82%-97%) for placental abruption, 82% (95% CI, 70%-91%) for preeclampsia, 74% (95% CI, 61%-85%) for postpartum hemorrhage, 92% (95% CI, 82%-97%) for small for gestational age, and 86% (95% CI, 74%-94%) for noncardiac congenital malformation. Conclusions: Across the perinatal outcomes considered, PPVs ranged between 74% and 92%. These PPVs can inform bias analyses that correct for outcome misclassification. (c) 2020 John Wiley & Sons Ltd"""
+
+

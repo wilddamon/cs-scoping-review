@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofpostspinalhypotensiononcerebraloxygenationusingnearinfraredspectroscopyandneonataloutcomesinfulltermparturientsundergoinglowersegmentcaesareansection2025velusamy
+"Background Cerebral autoregulation is a homeostatic process that maintains constant cerebral blood flow during hypotension produced by spinal anesthesia. Beyond the auto-regulation range of mean blood pressure (MBP), the brain is vulnerable to ischemia and hyperperfusion-induced cerebral edema when blood pressure is above the auto-regulatory threshold. Spinal hypotension may cause a fall in regional cerebral oxygenation (C-rSO2) below the lower limit of autoregulation in some patients. In this study, we focused on finding the relationship between C-rSO2 changes measured by near infrared spectroscopy (NIRS) and the decrease in MBP following spinal anesthesia. We also measured the impact of spinal hypotension on neonatal Apgar scores, acid-base variations in neonates, and postoperative delirium in parturients. Methods This was a prospective, observational study. Eighty-six parturients undergoing lower segment caesarean section were monitored using NIRS for cerebral oxygenation continuously, and MBP was recorded every minute preoperatively and up to 30 minutes post-induction of spinal anesthesia. Neonatal Apgar scores were noted at the first and fifth minutes, and umbilical cord blood analysis was done. Cognitive function and the possible presence of delirium were evaluated on postoperative day (POD) one and two. Results The fall in C-rSO2 (27.77 +- 11.54%) did not correlate with the fall in MBP (40.33 +- 9.7%). The highest fall in C-rso2 (4.65 minutes) preceded the maximal fall in MBP (5.68 minutes). MBP was maintained within 20% of the preoperative value using vasopressors. Ephedrine was more effective than phenylephrine in increasing C-rSO2 (p<0.05). No significant changes were observed in neonatal Apgar or acid-base status. No postoperative delirium was observed in parturients who had hypotension during the procedure. Conclusion Although no significant correlation was found between MBP and C-rSO2, NIRS effectively predicts post-spinal hypotension earlier than intermittent non-invasive blood pressure (NIBP) monitoring. There were no adverse maternal and neonatal outcomes if the hypotension was corrected. Ephedrine was found to be superior to phenylephrine in improving cerebral oxygenation, whereas both had a similar impact on neonatal outcomes."""
+
+

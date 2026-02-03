@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: studyofseverepreeclampsiaepidemiologicaldiagnostictherapeuticandprognosticaspectsoveroneyearatsmgshospitaljammuaretrospectivestudy2024sharma
+"Background: This research was conducted retrospectively, with a focus on description and analysis, spanning from July 2022 to June 2023. Material(s) and Method(s): The research included all pregnant women who were hospitalized to the department and delivered with a gestational age of more than 22 weeks and had severe preeclampsia. Result(s): The total number of deliveries was 22,180, out of which 63 cases were diagnosed with severe pre-eclampsia. Upon admission, ultrasound assessment of pregnant women revealed intrauterine growth limitation in 17 instances, accounting for 26.98% of the total. Conclusion(s): Increasing awareness among pregnant women during antenatal care (ANC) about the dangers of pre-eclampsia, providing additional training for healthcare workers, closely and promptly monitoring women at high risk, and managing the condition in a multidisciplinary environment may improve the prognosis for both the mother and the fetus.Copyright (c) 2024 Journal of Pharmacy and Bioallied Sciences."""
+
+

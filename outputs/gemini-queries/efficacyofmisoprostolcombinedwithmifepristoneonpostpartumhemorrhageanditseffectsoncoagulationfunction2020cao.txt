@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: efficacyofmisoprostolcombinedwithmifepristoneonpostpartumhemorrhageanditseffectsoncoagulationfunction2020cao
+"Objective: To explore the efficacy of misoprostol combined with mifepristone on postpartum hemorrhage and its effects on coagulation function. Method(s): A total of 68 parturients with postpartum hemorrhage were enrolled and randomly assigned to a control group and an observation group (each n=34). The control group was treated with misoprostol, while the observation group was treated with mifepristone combined with misoprostol based on the treatment to the control group. The two groups were compared in heart rate and blood pressure before treatment, and blood loss and coagulation function after treatment. Result(s): Before treatment, there was no significant difference between the two groups in terms of systolic blood pressure, diastolic blood pressure, heart rate, plasma fibrinogen (FIB), D-dimer (D-D), prothrombin time (PT), and activated partial thromboplastin time (APTT) (all P>0.05), while after treatment, the observation group showed higher systolic blood pressure and diastolic blood pressure, lower heart rate, higher D-D level, and lower FIB, PT, and APTT levels than the control group (all P<0.05). In addition, the blood loss of the observation group during the third stage of labor, 2 hours after delivery, and 24 hours after delivery was lower than that of the control group during corresponding time period (all P<0.05). Conclusion(s): Misoprostol combined with mifepristone can effectively stabilize the heart rate and blood pressure of parturients with postpartum hemorrhage during treatment, and it can also reduce their blood loss and improve their coagulation function.Copyright (c) 2020, E-Century Publishing Corporation. All rights reserved."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: analysisofhysterotomyextensionatunscheduledcesareandelivery2026bunn
+"This study aimed to determine if the rate of hysterotomy extensions increases with increasing cervical dilation in unscheduled cesarean deliveries, and to develop a measure of the severity of hysterotomy extension for quantifying morbidity.This is a retrospective study of unscheduled cesarean deliveries relating to labor dystocia and/or nonreassuring tracings from January 1, 2021, to December 31, 2021. Severe extension was defined as bilateral or adjacent to a structure such as the uterine artery, broad ligament, or cervix, and was compared with uterine artery extensions alone.There were 990 unscheduled cesarean deliveries included. Extensions (n = 233) significantly increased with increasing cervical dilation (p < 0.0001), complicating more than 30 and 50% at 6 and 10 cm of cervical dilation, respectively. Apart from this trend, a logistic regression analysis indicated cervical dilation was an independent risk factor for extension. Transfusions of at least 2 units of blood were five times (26 vs. 5%) more likely for patients with severe extensions than no extension (p < 0.0001).Hysterotomy extensions significantly increase with increasing cervical dilation, and cervical dilation is an independent risk factor for extension. A composite measure of severity accounts for different types of extension when quantifying morbidity, but uterine artery extension is the primary driver of maternal morbidity in cases without hysterectomy. * We report higher than previously published rates of extension, in our study of unscheduled cesareans.. * Extension rates rise with cervical dilation-33% at 6 cm, over 50% at 10 cm.. * Cervical dilation is an independent risk factor for extension.. * Severe extensions were fivefold more likely to be transfused two units than no extension.. * The composite measure for severity was driven by uterine artery extensions.."""
+
+

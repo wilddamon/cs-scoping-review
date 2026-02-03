@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: physiologicalresponsestofacemaskapplicationinnewbornsimmediatelyafterbirth2021gaertner
+"Objective Application of a face mask may induce apnoea and bradycardia, possibly via the trigeminocardiac reflex (TCR). We aimed to describe rates of apnoea and bradycardia in term and late-preterm infants following facemask application during neonatal stabilisation and compare the effects of first facemask application with subsequent applications. Design Subgroup analysis of a prospective, randomised trial comparing two face masks. Setting Single-centre study in the delivery room Patients Infants>34 weeks gestational age at birth Methods Resuscitations were video recorded. Airway flow and pressure were measured using a flow sensor. The effect of first and subsequent facemask applications on spontaneously breathing infants were noted. When available, flow waveforms as well as heart rate (HR) were assessed 20 s before and 30 s after each facemask application. Results In total, 128 facemask applications were evaluated. In eleven percent of facemask applications infants stopped breathing. The first application was associated with a higher rate of apnoea than subsequent applications (29% vs 8%, OR (95% CI)=4.76 (1.41-16.67), p=0.012). On aggregate, there was no change in median HR over time. In the interventions associated with apnoea, HR dropped by 38bpm [median (IQR) at time of facemask application: 134bpm (134-150) vs 96bpm (94-102) 20 s after application; p=0.25] and recovered within 30 s. Conclusions Facemask applications in term and late-preterm infants during neonatal stabilisation are associated with apnoea and this effect is more pronounced after the first compared with subsequent applications. Healthcare providers should be aware of the TCR and vigilant when applying a face mask to newborn infants. Trial registration number ACTRN12616000768493. (c)"""
+
+

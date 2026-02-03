@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningpredictionoffeedingintoleranceinpreterminfantsaprefeedingriskstratificationmodel2025mao
+"Background: Feeding intolerance (FI) represents a prevalent and serious complication in preterm infants, contributing to delayed enteral nutrition, prolonged hospitalization, and increased morbidity. Early identification of high-risk infants remains challenging due to limited predictive tools available before feeding initiation. Method(s): We conducted a retrospective cohort study of 402 preterm infants (<37 weeks gestational age) admitted between January 2023 and May 2024. Clinical data collected at admission underwent feature selection using cross-validated LASSO regression. Eleven machine learning algorithms were systematically compared using accuracy, area under the receiver operating characteristic curve (AUC), sensitivity, and specificity. Clinical utility was assessed through decision curve analysis (DCA). Result(s): FI developed in 199 (49.5%) infants. Significant between-group differences were observed for birth weight, gestational age, time to first feeding, fetal distress, multiple gestation, prenatal dexamethasone exposure, neonatal infection, respiratory distress, and invasive mechanical ventilation (all P < 0.01). LASSO regression identified 14 optimal predictive variables. Among tested algorithms, AdaBoost demonstrated superior performance [accuracy: 0.957; AUC: 0.964 (95% CI: 0.929-1.000); sensitivity: 0.957; specificity: 0.958]. DCA confirmed greater net clinical benefit compared to "treat all" or "treat none" strategies. An interactive clinical decision support tool was developed for practical implementation. Conclusion(s): The proposed machine learning model accurately predicts feeding intolerance before first feeding using 14 routinely collected clinical variables. This approach enables early risk stratification and may improve clinical outcomes through timely intervention. External validation in multicenter cohorts is warranted to confirm generalizability.Copyright 2025 Mao, Li, Li, Wang and Li."""
+
+

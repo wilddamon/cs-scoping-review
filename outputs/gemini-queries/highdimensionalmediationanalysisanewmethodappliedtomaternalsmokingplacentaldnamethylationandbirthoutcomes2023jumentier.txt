@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: highdimensionalmediationanalysisanewmethodappliedtomaternalsmokingplacentaldnamethylationandbirthoutcomes2023jumentier
+"BACKGROUND: High-dimensional mediation analysis is an extension of unidimensional mediation analysis that includes multiple mediators, and increasingly it is being used to evaluate the indirect omics-layer effects of environmental exposures on health outcomes. Analyses involving high-dimensional mediators raise several statistical issues. Although many methods have recently been developed, no consensus has been reached about the optimal combination of approaches to high-dimensional mediation analyses. OBJECTIVES: We developed and validated a method for high-dimensional mediation analysis (HDMAX2) and applied it to evaluate the causal role of placental DNA methylation in the pathway between exposure to maternal smoking (MS) during pregnancy and gestational age (GA) and birth weight of the baby at birth. METHODS: HDMAX2 combines latent factor regression models for epigenome-wide association studies with max2 tests for mediation and considers CpGs and aggregated mediator regions (AMRs). HDMAX2 was carefully evaluated using simulated data and compared to state-of-the-art multidimensional epigenetic mediation methods. Then, HDMAX2 was applied to data from 470 women of the Etude des Determinants pre et postnatals du developpement de la sante de l'Enfant (EDEN) cohort. RESULTS: HDMAX2 demonstrated increased power in comparison with state-of-the-art multidimensional mediation methods and identified several AMRs not identified in previous mediation analyses of exposure to MS on birth weight and GA. The results provided evidence for a polygenic architecture of the mediation pathway with a posterior estimate of the overall indirect effect of CpGs and AMRs equal to 44:5 g lower birth weight representing 32.1% of the total effect [standard deviation dSDTh = 60:7 g]. HDMAX2 also identified AMRs having simultaneous effects both on GA and on birth weight. Among the top hits of both GA and birth weight analyses, regions located in COASY, BLCAP, and ESRP2 also mediated the relationship between GA and birth weight, suggesting reverse causality in the relationship between GA and the methylome. DISCUSSION: HDMAX2 outperformed existing approaches and revealed an unsuspected complexity of the potential causal relationships between exposure to MS and birth weight at the epigenome-wide level. HDMAX2 is applicable to a wide range of tissues and omic layers. https://doi.org/10.1289/EHP11559. (c) 2023, Public Health Services, US Dept of Health and Human Services. All rights reserved."""
+
+

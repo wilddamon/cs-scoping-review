@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: arenewlyintroducedcriteriaforthediagnosisofgestationaldiabetesmellitusassociatedwithimprovedpregnancyoutcomesandorincreasedinterventionsinnewsouthwalesaustraliaapopulationbaseddatalinkagestudy2021randall
+"Introduction The incidence of gestational diabetes mellitus (GDM) is increasing in Australia, influenced by changed diagnostic criteria. We aimed to identify whether the diagnostic change was associated with improved outcomes and/or increased obstetric interventions using state-wide data in New South Wales (NSW), Australia. Research design and methods Perinatal and hospital data were linked for singleton births, 33-41 weeks' gestation, 2006-2015, NSW. An adjusted Poisson model was used to split pregnancies from 2011 onwards into those that would have been diagnosed under the old criteria (a EUR previous GDM') and newly diagnosed cases (a EUR additional GDM'). We compared actual rates of total and early (<39 weeks) planned births, cesareans, and maternal and neonatal adverse outcomes for GDM-diagnosed pregnancies using three predicted scenarios, where the a EUR additional GDM' group was assumed to have the same rates as: the a EUR previous GDM' group <2011 (scenario A); the a EUR non-GDM' group <2011 (scenario B); or the a EUR non-GDM' group >=2011 (scenario C). Results GDM incidence more than doubled over the study period, with an inflection point observed at 2011. For those diagnosed with GDM since 2011, the actual incidence of interventions (planned births and cesareans) and macrosomia was consistent with scenario A, which meant higher intervention rates, but lower rates of macrosomia, than those with no GDM. Incidence of neonatal hypoglycemia was lower than scenario A and closer to the other scenarios. There was a reduction in perinatal deaths among those with GDM, lower than that predicted by all scenarios, indicating an improvement for all with GDM, not only women newly diagnosed. Incidence of maternal and neonatal morbidity indicators was within the confidence bounds for all three predicted scenarios. Conclusions Our study suggests that the widely adopted new diagnostic criteria for GDM are associated with increased obstetric intervention rates and lower rates of macrosomic babies, but with no clear impacts on maternal or neonatal morbidity. (c)"""
+
+

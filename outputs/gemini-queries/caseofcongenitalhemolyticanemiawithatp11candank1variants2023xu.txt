@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caseofcongenitalhemolyticanemiawithatp11candank1variants2023xu
+"A male infant of Han descent, with a G<sub>1</sub>P<sub>1</sub> mother and gestational age of 40<sup>+4</sup> weeks, was born via cesarean section owing to his mother having pregnancy complications, including premature rupture of membranes, chorioamnionitis, and gestational diabetes. On the first day after birth, routine blood examination showed that his total red blood cells count was 2.32 x 10<sup>12</sup>/L, hemoglobin count was 77 g/L, and C-reactive protein count was 48.99 mg/L. After receiving an anti-infection treatment for 10 days and two blood transfusions (100 mL in total), he was discharged from a neonatal intensive care unit (NICU). Accessory examinations showed that reticulocytes in the peripheral blood were significantly increased, the morphology of red blood cells was normal, and all hemolysis-related examinations were normal; bone marrow examinations showed that the proliferation of the red blood cell system was low and serum ferritin and vitamin B<sub>12</sub> levels were elevated. Because of the unexplained hemolysis, a whole-exome sequencing examination was performed. The results showed a hemizygous variant of the ATP11C gene (c.3136a>t/p ile 1046phe) and a frame-shift variant of the ANK1 gene (c.937del/pala313 leufs*19). After a six-month follow-up, the serum ferritin and vitamin B<sub>12</sub> levels had gradually decreased to normal levels, and hemoglobin and reticulocyte values were 97 g/L and 7.17%, respectively, in the peripheral blood. No splenomegaly was found in physical examination."""
+
+

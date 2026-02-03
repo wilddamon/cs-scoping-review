@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: atensordecompositionmodelforlongitudinalmicrobiomestudies2023ma
+"Longitudinal microbiome studies can help delineate true biological sig-nals from the high interindividual variability that is common in microbiome data. However, there are few methods available for unsupervised dimension reduction of time course microbial abundance observations. Existing methods do not fully observe the distribution characteristics of such data types, namely, zero inflation, compositionality, and overdispersion. We present a tensor decomposition model and a semiparametric quasi-likelihood estimation method for the decomposition of longitudinal microbiome data by gen-eralizing existing approaches in tensor decomposition of Gaussian data. Opti-mization is performed through projected gradient descent, additionally allow-ing interpretability constraints. We show through simulation studies that our method is able to recover low-rank structures from microbiome time-course data better than existing approaches. Lastly, we apply our method to two existing longitudinal microbiome studies to detect global microbial changes associated with dietary and pharmaceutical effects as well as infant birth modes. (c) Institute of Mathematical Statistics, 2023."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: dyslipidemiacharacterizedbylowdensitylipoproteincholesterolandriskofpretermbirthamendelianrandomizationstudy2024zhang
+"Background: Preterm birth is the leading cause of neonatal mortality worldwide, and dyslipidemia is associated with preterm birth in observational studies. We use Mendelian randomization (MR) analyses to uncover the causal association between blood lipid levels and preterm birth. Methods: We extracted uncorrelated (R2 < 0.001) single-nucleotide polymorphisms strongly associated (p < 5 x 10-8) with blood lipids from genome wide association studies of FinnGen database and UK Biobank participants. Inverse variance weighted method was the main MR analysis. Sensitivity analyses including genetic pleiotropy, heterogeneity, and directionality of causality were conducted. Results: The study included 115,082 participants with lipid measurements, 8,507 patients with preterm birth. Increasing apolipoprotein B (odds ratio (OR), 1.12[95 % CI, 1.02-1.23]; p = 0.019), low-density lipoprotein cholesterol (OR, 1.11[95 % CI, 1.00-1.22]; p = 0.040), non-high-density lipoprotein cholesterol (OR, 1.12[95 % CI, 1.01-1.24]; p = 0.026), remnant cholesterol (OR, 1.11[95 % CI, 1.00-1.23]; p = 0.047) and total free cholesterol (OR, 1.11[95 % CI, 1.01-1.23]; p = 0.037) were associated with increased risk of preterm delivery. Moreover, triglycerides in low-density lipoprotein were causally associated with the risk of PTB. Our sensitivity analysis yielded robust results, uncovering no evidence of horizontal pleiotropy or reverse causal relationships. Conclusion: Our investigation unveils the adverse impact of dyslipidemia on preterm birth, with a particular emphasis on the detrimental effect of elevated low-density lipoprotein cholesterol. (c) 2024 Elsevier B.V."""
+
+

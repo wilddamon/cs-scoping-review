@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lowserumlevelsofhtra3at15weeksofgestationareassociatedwithlateonsetpreeclampsiadevelopmentandsmallforgestationalagebirth2019teoh
+"Objective: The aim of this study was to investigate the potential utility of serum HtrA1 and HtrA3, serine proteases that are highly expressed in the developing placenta, at 15 and 20 weeks of gestation for predicting later development of adverse pregnancy outcomes of preeclampsia (PE), gestational hypertension (GHT), preterm birth (PTB), and small for gestational age (SGA) birth. Methods: This is a nested case control study of 665 samples (330 controls, 335 cases) from the Adelaide SCOPE cohort. The cases included were 92 PE, 71 GHT, 56 PTB, and 116 SGA. Samples were assessed by ELISA and data adjusted for maternal age, BMI, socioeconomic index, hCG, and smoking status. Multivariate logistic regression was performed with other biochemical and biophysical parameters available for these samples. Results: HtrA1 did not differ between the controls and cases. In contrast, HtrA3 was significantly lower at 15 weeks in pregnancies that later developed late-onset PE (LPE) or resulted in SGA birth, with an area under the ROC curve (AUC) of 0.716 and 0.790, respectively. The combination of HtrA3 with PAPP-A, uterine, and umbilical Doppler improved the AUC to 0.755 for LPE and 0.844 for SGA. Conclusion: HtrA3 at 15 weeks is associated with, and may be useful for, the early detection of LPE development and SGA birth. (c) 2019 S. Karger AG, Basel."""
+
+

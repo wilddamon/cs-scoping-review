@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionmodelforintrapartumcesareandeliveryamongwomenwithgestationaldiabetesmellitus2025gilboa
+"PURPOSE: To identify risk factors and to develop a predictive model for cesarean delivery (CD) in women with gestational diabetes mellitus (GDM). STUDY DESIGN: A retrospective cohort study, in a single university-affiliated tertiary medical center, was performed. All women with GDM and a singleton pregnancy who had a trial of labor between 2011 and 2023 were included. Women who chose an elective CD, those with pre-gestational diabetes, estimated fetal weight >= 4000 g, previous CD, and those with non-viable fetuses were excluded. Maternal characteristics of women who delivered vaginally were compared to those who underwent an intrapartum CD. Factors associated with CD were examined using univariate and multivariate analysis. A score was developed to predict the need for intrapartum CD. A receiver operating characteristic curve (ROC) was utilized for the model. Internal validation was performed using a 70/30 train-test split, with model performance evaluated on the validation set using ROC analysis. The main outcome was an unplanned intrapartum CD. RESULTS: Overall, 11,305 women were included; of them 676 (6.0%) underwent intrapartum CD. Several risk factors were identified, including maternal age >= 40 years, body mass index > 30kg/m(2), maternal height < 1.6m, in vitro fertilization, gestational weight gain > 15kg, nulliparity, induction of labor, oxytocin use during labor, preeclampsia, meconium-stained amniotic fluid, and birthweight >= 3,500g. Pharmacologically treated GDM was not associated as a risk factor. Epidural anesthesia was associated with reduced risk for intrapartum CD. A prediction score model has reached a predictive performance with an AUC of 0.807 (95%CI 0.79-0.83, p < 0.001). On internal validation using the 30% hold-out cohort, the model maintained strong performance with an AUC of 0.788 (95% CI 0.76-0.82). CONCLUSION: Several maternal and intrapartum factors were associated with intrapartum cesarean delivery in women with GDM. A prediction model based on these factors may help identify high-risk patients and support delivery planning."""
+
+

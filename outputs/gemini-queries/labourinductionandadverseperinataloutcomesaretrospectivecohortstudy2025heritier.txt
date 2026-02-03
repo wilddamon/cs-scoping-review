@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: labourinductionandadverseperinataloutcomesaretrospectivecohortstudy2025heritier
+"BACKGROUND: The rising overall prevalence of induction of labour (IOL) in high-income countries raises questions about the appropriateness of its clinical indications and concerns about potential adverse perinatal outcomes. The underlying reasons for this increase remain unclear but may include broader clinical indications, changing maternal or foetal conditions, or more maternal requests. This study aimed to assess changes in prevalence of IOL and adverse perinatal outcomes. METHODS: We conducted a retrospective, population-based cohort study using data from a perinatal registry encompassing all births in a French region. The study included all women who delivered a live-born infant. IOL and perinatal outcomes were obtained from medical records. We first described the overall prevalence of these outcomes, followed by a stratified analysis based on the eight-group Grenoble Classification for IOL indications. Variations in IOL and perinatal outcomes were assessed from 2020 (reference) to 2023, both overall and by group, using Poisson regression models with generalized estimating equations. RESULTS: The study population included 54,089 women. Overall IOL prevalence rose from 20.7% in 2020 to 28.1% in 2023 (adjusted risk-ratio (aRR) 1.31, 95%CI 1.15-1.49). This increase was mainly driven by higher aRRs in Group-5 [Single cephalic pregnancy >=41 weeks of gestation (WG)] (34.6% to 42.9%; aRR 1.21, 95%CI 1.10-1.40), Group-6 [Single cephalic pregnancy with maternal pathology from 37 to 40+6 WG] (31.5% to 49.7%; aRR 1.56, 95%CI 1.38-1.75), and Group-7 [Single cephalic pregnancy with foetal pathology from 37 to 40+6 WG] (52.9% to 77.2%; aRR 1.46, 95%CI 1.14-1.88). Adverse outcome changes were observed only in these three groups, with increased emergency caesarean rates in Group-5 (12.4% to 16.4%; aRR 1.22, 95% CI 1.10-1.40) and Group-7 (13.1% to 19.6%; aRR 1.40, 95%CI 1.04-1.80), as well as higher postpartum haemorrhage rates in Group-5 (5.8% to 7.7%; aRR 1.31, 95% CI 1.01-1.69) and Group-6 (4.9% to 7.0%; aRR 1.41, 95%CI 1.05-1.90). Neonatal morbidity remained stable. CONCLUSIONS: The rise in overall IOL prevalence was driven by higher rates in three groups (pregnancies >=41 WG, maternal and foetal pathology), in which we also observed a clinically meaningful increase in adverse maternal outcomes."""
+
+

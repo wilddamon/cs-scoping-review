@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: improvingbirthoutcomesandloweringcostsforwomenonmedicaidimpactsofstrongstartformothersandnewborns2020dubay
+"The federal Strong Start for Mothers and Newborns initiative supported alternative approaches to prenatal care, enhancing service delivery through the use of birth centers, group prenatal care, and maternity care homes. Using propensity score reweighting to control for medical and social risks, we evaluated the impacts of Strong Start's models on birth outcomes and costs by comparing the experiences of Strong Start enrollees to those of Medicaid-covered women who received typical prenatal care. We found that women who received prenatal care in birth centers had lower rates of preterm and low-birthweight infants, lower rates of cesarean section, and higher rates of vaginal birth after cesarean than did the women in the comparison groups. Improved outcomes were achieved at lower costs. There were few improvements in outcomes for participants who received group prenatal care, although their costs were lower in the prenatal period, and no improvements in outcomes for participants in maternity care homes. (c) 2020 Project HOPE-- The People-to-People Health Foundation, Inc."""
+
+

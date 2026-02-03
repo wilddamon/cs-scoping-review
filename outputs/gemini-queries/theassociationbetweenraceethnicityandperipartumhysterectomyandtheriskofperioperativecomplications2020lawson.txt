@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenraceethnicityandperipartumhysterectomyandtheriskofperioperativecomplications2020lawson
+"Objective: To compare perioperative outcomes by patient race/ethnicity. Methods: A retrospective cohort study identified 7 331 638 childbirth hospitalizations for women aged 12-55 years in the USA between 2004-2014. Peripartum hysterectomy, in-hospital mortality, perioperative complications, length of stay, and cost of hysterectomy data were analyzed using SAS. Results: Among childbirth hospitalizations (52.9% white, 13.5% black, 23.0% Hispanic, 5.2% Asian, and 5.4% other), peripartum hysterectomy occurred in 6619. The incidence of peripartum hysterectomy was 90.3 (95% confidence interval [CI] 87.7-93.0) per 100 000 hospitalizations, and higher for black (111.0, 95% CI 104.5-117.4), Hispanic (104.9, 95% CI 99.1-110.8), and Asian women (119.6, 95% CI 109.1-130.2) compared to whites (75.7, 95% CI 72.8-78.5). After adjustment, Hispanic women had an 18% higher odds of undergoing peripartum hysterectomy (odds ratio [OR] 1.18, 95% CI 1.08-1.29; P=0.004) than white women. Non-white women had a 2-3-fold higher odds of in-hospital mortality (OR<inf>black</inf> 2.76, 95% CI 1.44-5.30; OR<inf>Hispanic</inf> 1.99, 95% CI 1.04-3.82; OR<inf>Asian+other</inf> 2.44, 95% CI 1.11-5.40. Black and Asian/other women were more likely to undergo blood transfusions. Conclusion: Women of color have higher rates of peripartum hysterectomy and experience higher rates of poor perioperative outcomes and mortality. (c) 2020 International Federation of Gynecology and Obstetrics"""
+
+

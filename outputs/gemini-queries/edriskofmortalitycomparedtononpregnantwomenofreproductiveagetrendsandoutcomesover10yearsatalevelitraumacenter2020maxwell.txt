@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnanttraumapatientsmaybeatincreasedriskofmortalitycomparedtononpregnantwomenofreproductiveagetrendsandoutcomesover10yearsatalevelitraumacenter2020maxwell
+"Background: Pregnancy has been identified as a risk factor for poor outcomes after traumatic injury, but prior outcome analyses are conflicting and dated. We sought to examine outcomes in a contemporary cohort. Methods: Retrospective cohort analysis at a level I trauma center's institutional registry from 2009 to 2018, with comparison to population-level demographic trends in women of reproductive age and pregnancy prevalence. Unadjusted cohorts of pregnant versus nonpregnant trauma patients were compared. Pregnant patients then were matched on age, mechanism of injury, year, and injury severity score with nonpregnant controls for adjusted analysis with a primary outcome of maternal mortality. Results: Despite declining birth and pregnancy rates in the population, pregnant women comprised a stable 5.3% of female trauma patients of reproductive age without decline over the study period (p = 0.53). Compared with nonpregnant women, pregnant trauma patients had a lower injury severity score (1 [1-5] vs 5 [1-10] p < 0.0001) and a shorter length of stay (1 [1-2] vs 1 [1-4] p = 0.04), were less likely to have CT imaging (48.8% vs 67.4%, p < 0.0001) and more likely to be admitted (89.3% vs 79.2%, p = 0.003). Positive toxicology screens were less prevalent in pregnant women, but only for ethanol (5.4% vs 31.4%, p < 0.0001); there was no difference in rates of cannabis, opiates, or cocaine. After matching to adjust for age, year, mechanism of injury, and injury severity score, mortality occurred significantly more frequently in the pregnant cohort (2.1% vs 0.2%, OR = 13.5 [1.39-130.9], p = 0.02). Conclusion: Pregnant trauma patients have not declined in our population despite population-level declines in pregnancy. After adjusting for lower injury severity, pregnant women were at substantially greater risk of mortality. This supports ongoing concern for pregnant trauma patients as a vulnerable population. Further efforts should optimize systems of care to maximize the chances of rescue for both mother and fetus. (c) The Author(s) 2020."""
+
+

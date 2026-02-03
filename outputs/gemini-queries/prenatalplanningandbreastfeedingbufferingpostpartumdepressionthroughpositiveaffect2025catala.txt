@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalplanningandbreastfeedingbufferingpostpartumdepressionthroughpositiveaffect2025catala
+"Background/Objectives: In the context of maternal mental health, this cross-sectional study investigates a moderated mediation model to explore how prenatal planning is associated with postpartum depression. Specifically, we examined whether planned pregnancy (X) is associated with fewer postpartum depression symptoms (Y) through greater positive affect (M), and whether the indirect association is moderated by breastfeeding duration (W). Method(s): Data were collected from 117 postpartum mothers via self-report questionnaires that measured the degree of pregnancy planning, positive affect, postpartum depression symptoms, and breastfeeding duration. Bootstrap analyses were performed to assess the conditional indirect effects across two levels of breastfeeding duration. Result(s): The findings suggest an indirect association between pregnancy planning and postpartum depressive symptoms through positive affect, moderated by breastfeeding duration. This association was statistically significant only among mothers who breastfed for less than six months, indicating that the protective emotional effect of pregnancy planning may be more evident in this group. No significant indirect effects were observed in mothers who breastfed beyond this duration. Conclusion(s): These exploratory findings suggest that positive affect may be a pathway through which prenatal planning relates to maternal well-being, particularly in the context of breastfeeding practices. Given the cross-sectional design, causal inferences cannot be drawn. Future longitudinal research is needed to confirm these associations.Copyright (c) 2025 by the authors."""
+
+

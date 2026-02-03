@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: propensityscorematchingwithclustereddataanapplicationtotheestimationoftheimpactofcaesareansectionontheapgarscore2016arpino
+"This article focuses on the implementation of propensity score matching for clustered data. Different approaches to reduce bias due to cluster-level confounders are considered and compared using Monte Carlo simulations. We investigated methods that exploit the clustered structure of the data in two ways: in the estimation of the propensity score model (through the inclusion of fixed or random effects) or in the implementation of the matching algorithm. In addition to a pure within-cluster matching, we also assessed the performance of a new approach, 'preferential' within-cluster matching. This approach first searches for control units to be matched to treated units within the same cluster. If matching is not possible within-cluster, then the algorithm searches in other clusters. All considered approaches successfully reduced the bias due to the omission of a cluster-level confounder. The preferential within-cluster matching approach, combining the advantages of within-cluster and between-cluster matching, showed a relatively good performance both in the presence of big and small clusters, and it was often the best method. An important advantage of this approach is that it reduces the number of unmatched units as compared with a pure within-cluster matching. We applied these methods to the estimation of the effect of caesarean section on the Apgar score using birth register data. (c) 2016 John Wiley & Sons, Ltd."""
+
+

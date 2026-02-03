@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: externalvalidationofcalculatorforcesareandeliveryduringinductionoflabor2025ibarra
+"OBJECTIVE: To validate a published risk calculator to predict cesarean delivery (CD) among singletons undergoing induction of labor. METHODS: Our retrospective cohort study included singletons undergoing induction of labor. A predicted CD score was calculated for each individual based on a previously developed calculator. External validation of the calculator was assessed by the discriminative power of the model by using the area under the receiver operating characteristic curve, and by a calibration curve. The score was categorized as less than 10%, 10% to less than 30%, and 30% or greater. The primary outcome was CD. The secondary outcomes were a composite maternal adverse outcome (CMAO) and composite neonatal adverse outcome (CNAO). Multivariable Poisson regression models with robust error variance were used to estimate the association; adjusted relative risks with 95% confidence interval (CI) were calculated. RESULTS: Among 548 women, 159 (29%) had CD. The area under the curve was 0.77 (95% CI 0.73-0.81), and the calibration curve and its 95% confidence band demonstrated good calibration. The likelihood of having a CD was higher in those with a score from 10% to less than 30% (adjusted relative risk [aRR] 2.65, 95% CI 1.58-4.45) and 30% or greater (aRR 5.73, 95% CI 3.55-9.25). The risk of CMAO was higher in those with a score between 10% and less than 30% (aRR 1.64, 95% CI 1.08-2.48) and 30% or greater (aRR 1.81, 95% CI 1.20-2.73). The risk of CNAO was similar across groups. CONCLUSIONS: The previously developed prediction model demonstrated good external validity in our cohort. Our analyses suggest that a higher predicted CD score was associated with an increased likelihood of CD and CMAO."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofthefirstassistantsexperienceontheperioperativeoutcomeofpatientsundergoinglaparoscopichysterectomiesforbenigndiseasesaretrospectiveanalysis2025jha
+"Objective: This study aims to assess the impact of the experience of an assistant surgeon on the perioperative outcome in laparoscopic gynecological surgeries for benign diseases. Materials and Methods: This was a retrospective review of 572 laparoscopic hysterectomies performed between 2019 and 2024. Data were stratified into two groups based on the experience of the first assistant: Group 1, in which assistant surgeons were experienced (had already assisted in >15 surgeries), and Group 2, in which assistant surgeons were new (had assisted in <15 surgeries). Outcomes were compared between the groups. The primary outcome was the perioperative complication rate, and the secondary outcomes were operative time, estimated blood loss, length of hospital stays, rate of conversion to laparotomy, and rate of reoperation. Results: Among the total cases included, 245 were assisted by an experienced assistant surgeon (Group 1) and 327 by a novice first assistant (Group 2). A statistically significant difference was noted for the baseline characteristics among the groups; diabetes mellitus was higher in Group 2, whereas previous cesarean section and intra-abdominal adhesions were higher in Group 1. Operative time, amount of blood loss, and conversion to laparotomy rate were significantly higher in Group 2. However, after adjusting for the age, body mass index, comorbid conditions, weight of the uterus, and intraoperative adhesions, using inverse probability of treatment weighting, only operating time remained significantly higher in Group 2 (121 min vs. 84 minutes, p-value <0.001). Conclusion: The inclusion of a novice first assistant in laparoscopic hysterectomy did not adversely impact operative outcomes."""
+
+

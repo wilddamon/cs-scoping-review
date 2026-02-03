@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofprenatalandpostnatalmaternalibdstatusonoffspringsriskofibdapopulationbasedcohortstudy2025bonfils
+"OBJECTIVE: In utero exposure to maternal inflammation may impact immune system development and subsequent risk of disease. We investigated whether a maternal diagnosis of IBD before childbirth is linked to a higher risk of IBD in offspring compared with a diagnosis after childbirth. Further, we analysed paternal IBD status for comparison. DESIGN: Using Danish health registers, we identified all individuals born in Denmark between 1997 and 2022 and their legal parents, as well as their IBD status. Cox proportional hazards regression analyses adjusted for calendar period and mode of delivery were used to estimate offspring IBD risk by maternal and paternal IBD status before and after childbirth. RESULTS: Of 1 290 358 children, 10 041 (0.8%) had mothers with IBD diagnosis before childbirth and 9985 (0.8%) had mothers with IBD diagnosis after childbirth. Over 18 370 420 person-years, 3537 individuals were diagnosed with IBD. Offspring of mothers with IBD before childbirth had an adjusted HR of IBD of 6.27 (95% CI 5.21, 7.54) compared with those without maternal IBD, while offspring of mothers with IBD after childbirth had an adjusted HR of 3.88 (95% CI 3.27, 4.60). Corresponding adjusted HRs were 5.26 (95% CI 4.22, 6.56) among offspring with paternal IBD before childbirth and 3.73 (95% CI 3.10, 4.50) for paternal IBD after childbirth. CONCLUSION: Offspring had a greater risk of IBD when either parent was diagnosed before childbirth rather than later, emphasising genetic predisposition and environmental risk factors rather than maternal inflammation in utero as risk factors for IBD."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: bodymassindexandfailedinductionoflaboracohortstudy2025krogh
+"INTRODUCTION: Induction of labor (IOL) is a common intervention in industrialized countries. Failed induction is frequently reported, yet there is no consensus on its definition. Since the primary goal of IOL is to initiate labor, progress to the active phase is a more relevant measure of success than the surrogate of caesarean birth. Previous studies on the influence of body mass index (BMI) on the risk of failed IOL are limited. Most rely on data from the United States and define failed IOL primarily by caesarean delivery. This study aims to explore the association between maternal BMI and failed IOL, defined as failure to progress to the active phase of labor. MATERIAL AND METHODS: We studied 22 114 term, singleton women undergoing IOL in the Central Denmark Region from 2013 to 2022. Women with spontaneous prelabor rupture of membranes, uterine scar, or fetal demise were excluded. The main outcome measure was failed IOL, defined as not reaching cervical dilation of 6 cm or more. BMI, our exposure, was modeled as a continuous variable using restricted cubic splines and as a categorical variable stratified according to the World Health Organization BMI groups. Adjusted logistic regression was used in both models to assess the association between BMI and failed IOL. RESULTS: Proportions of nulliparous women with failed IOL ranged between 4% for normal weight and 10% for obesity class III. Adjusted odds ratios for nulliparous women for failed IOL were 1.5 (95% confidence intervals [CI] 1.3, 1.7) for overweight, 1.8 (95% CI 1.4, 2.3) for obesity class I, 2.7 (95% CI 2.2, 3.3) for obesity class II, and 2.9 (95% CI 1.4, 6.0) for obesity class III compared to women with normal weight. In parous women, there was a similar but less pronounced association between BMI and failed IOL with a <2% absolute risk of failed IOL. A similar pattern was found when BMI and failed IOL were modeled using restricted cubic splines. CONCLUSIONS: In singleton women with induced labor at term, increasing BMI was associated with higher odds of failed IOL; this association was more pronounced in nulliparous women."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theprevalenceofcomplicationsandhealthcarecostsduringpregnancy2015law
+"Objective: To study the economic burden of pregnancy in the US, common complications during pregnancy, and the incremental costs attributable to these complications. Methods: A retrospective comparative cohort study was conducted of pregnant women aged 15-49 years using de-identified medical and pharmacy claims from the Truven Health MarketScan Commercial Claims and Encounters database incurred between January 1, 2007 and December 31, 2011. The total healthcare costs are reported (adjusted to 2011 dollars) from the date of the first pregnancy-related claim through to 3 months post-delivery and these costs were compared to matched controls of non-pregnant women. Pregnancy-related complications were categorized, and the incremental costs associated with each complication were estimated using multivariate analyses. Results: A total of 322,141 eligible women with live births were studied. Compared to matched controls, the average costs of care for pregnant women were nearly $13,000 higher through 3 months post-delivery. A total of 46.9% of women had at least one pre-specified pregnancy complication; the most commonly observed were fetal abnormality (24.7%) and early or threatened labor (16.3%). Multiple gestation (1.9%) resulted in the highest adjusted incremental cost ($12,212; 95% CI=11,298, 13,216); hypertension ($6152; 95% CI=5312, 6992) and diabetes ($5081; 95% CI=4244, 5918) were also among those complications that led to high incremental costs of care. Conclusion: Pregnancy and delivery are frequently compounded by complications that lead to increased costs and resource utilization. (c) 2015 (c) 2015 All rights reserved: reproduction in whole or part not permitted."""
+
+

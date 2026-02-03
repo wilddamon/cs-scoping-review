@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: recurrenthemorrhagicstrokeandmicrocephalyinanewbornwithaicardigoutieressyndromecausedbyahomozygousintronicrnaseh2bvariant2025lee
+"Aicardi-Goutieres syndrome (AGS) is a progressive multisystem disorder marked by early-onset encephalopathy. This report investigates the genetic basis of AGS in a newborn from consanguineous parents with microcephaly, recurrent hemorrhagic strokes, brain calcifications, leukodystrophy, epilepsy, anemia, thrombocytopenia, and left ventricular hypertrophy. Next-generation sequencing-based targeted gene panel testing for epilepsy c.65-13G>A variant in the RNASEH2B gene. Both parents were identified as carriers of the heterozygous mutation, confirming autosomal recessive inheritance. RNA analysis showed that this variant created a new splice site, leading to an 11-base-pair extension in exon 2. This alteration caused a frameshift (p.Glu22Valfs*7) and subsequent truncation of the RNASEH2B protein. This case highlights the severe neurological manifestations of AGS in newborns and elucidates the pathogenic mechanism of a newly identified intronic RNASEH2B variant.Copyright (c) 2025 Association of Clinical Scientists. All rights reserved."""
+
+

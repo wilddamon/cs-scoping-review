@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomparativestudyofintrathecalisobaricropivacaine05withfentanylversusisobaricropivacaine05inelectivelowersegmentcaesareansectionsurgeries2025gupta
+"Background: Subarachnoid block is the preferred anaesthetic technique for Lower Segment Caesarean Section (LSCS). Adjuvants like fentanyl are used with local anaesthetics to enhance analgesia and reduce side effects. This study compares the efficacy of isobaric ropivacaine 0.5% with and without fentanyl for spinal anaesthesia in elective LSCS. Method(s): In this prospective, double-blind, randomized study, 140 ASA I-II parturients scheduled for elective LSCS were allocated into two groups (n=70 each). Group RF received 2.0 ml of 0.5% isobaric ropivacaine with 25 microg fentanyl (0.5 ml). Group R received 2.0 ml of 0.5% isobaric ropivacaine with 0.5 ml normal saline. Parameters assessed included hemodynamics, onset and duration of sensory and motor block, duration of analgesia, and side effects. Result(s): The onset of sensory block was significantly faster in Group RF (2.21 +/- 0.21 min) compared to Group R (3.31 +/- 0.47 min) (p < 0.002). The duration of sensory block (Time to S1 regression) was longer in Group RF (87.63 +/- 9.61 min) than in Group R (87.06 +/- 8.54 min), but not statistically significant (p > 0.711). The duration of analgesia was prolonged in Group RF (120.24 +/- 13.26 min) compared to Group R (117.57 +/- 14.66 min), though not statistically significant (p > 0.534). Hemodynamic changes were statistically significant between groups at various intervals. The incidence of hypotension was 8.5% in Group RF and 5.7% in Group R. Conclusion(s): The combination of intrathecal isobaric ropivacaine with fentanyl provides a significantly faster onset of sensory block and a clinically relevant, though not statistically significant, prolongation of sensory block and analgesia compared to plain isobaric ropivacaine. Both regimens are effective, but the fentanyl combination offers superior intraoperative parameters and a better quality of postoperative analgesia.Copyright (c) 2025, IASR International LLP. All rights reserved."""
+
+

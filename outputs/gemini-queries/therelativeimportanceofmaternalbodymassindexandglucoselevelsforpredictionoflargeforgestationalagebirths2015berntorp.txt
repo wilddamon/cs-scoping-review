@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: therelativeimportanceofmaternalbodymassindexandglucoselevelsforpredictionoflargeforgestationalagebirths2015berntorp
+"Background: The risk of gestational diabetes mellitus (GDM) increases substantially with increasing maternal body mass index (BMI). The aim of the present study was to evaluate the relative importance of maternal BMI and glucose levels in prediction of large-for-gestational-age (LGA) births. Method: This observational cohort study was based on women giving birth in southern Sweden during the years 2003-2005. Information on 10 974 pregnancies was retrieved from a population-based perinatal register. A 75-g oral glucose tolerance test (OGTT) was performed in the 28 week of pregnancy for determination of the 2-h plasma glucose concentration. BMI was obtained during the first trimester. The dataset was divided into a development set and a validation set. Using the development set, multiple logistic regression analysis was used to identify maternal characteristics associated with LGA. The prediction of LGA was assessed by receiver-operating characteristic (ROC) curves, with LGA defined as birth weight > +2 standard deviations of the mean. Results: In the final multivariable model including BMI, 2-h glucose level and maternal demographics, the factor most strongly associated with LGA was BMI (odds ratio 1.1, 95 % confidence interval [CI] 1.08-1.30). Based on the total dataset, the area under the ROC curve (AUC) of 2-h glucose level to predict LGA was 0.54 (95 % CI 0.48-0.60), indicating poor performance. Using the validation database, the AUC for the final multiple model was 0.69 (95 % CI 0.66-0.72), which was identical to the AUC retrieved from a model not including 2-h glucose (0.69, 95 % CI 0.66-0.72), and larger than from a model including 2-h glucose but not BMI (0.63, 95 % CI 0.60-0.67). Conclusions: Both the 2-h glucose level of the OGTT and maternal BMI had a significant effect on the risk of LGA births, but the relative contribution was higher for BMI. The findings highlight the importance of concentrating on healthy body weight in pregnant women and closer monitoring of weight during pregnancy as a strategy for reducing the risk of excessive fetal growth. (c) 2015 Berntorp et al."""
+
+

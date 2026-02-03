@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apragmaticdescriptivestudyofrewarmingthenewbornafterthefirstbath2015george
+"Objectives: To evaluate two methods of rewarming newborns after the first bath: radiant rewarming and skin-to-skin maternal newborn contact. Design: A nonrandomized clinical trial in which mothers chose the rewarming method, with 200 participants in the skin-to-skin rewarming group (experimental condition), and 200 in the radiant rewarming group (control). Setting: A teaching hospital in the Southeast United States. Participants: Healthy, term infants after vaginal delivery. Methods: Newborn temperatures were taken immediately prior to the bath (T1), and 30 minutes (T2) and 60 minutes (T3) after the bath. Descriptive statistics and t tests were used to determine differences between groups and between time points. Logistic regression was employed to assess risk factors for newborns with temperatures less than 36.4degC 30 minutes after the bath. Results: Because 96 of the first 100 mothers chose skin-to-skin rewarming, we concluded the study early and analyzed the data. Of the 96 mothers who chose skin-to-skin, 91 infants were successfully rewarmed and five required rescue rewarming under the radiant warmer. Careful review of newborns requiring rescuing showed inadequate skin-to-skin contact or removal of the protective covering. In this sample, African American mothers were significantly younger, had smaller newborns, and their newborns had lower temperatures than non-African American newborns. Conclusions: Given a choice, mothers overwhelmingly preferred skin-to-skin rewarming. Newborns can safely rewarm skin-to-skin if staff pay special attention to how they are positioning the newborn and recheck mother and newborn frequently. The unexpected finding of racial differences in maternal and newborn characteristics will require further investigation. (c) 2015 AWHONN, the Association of Women's Health, Obstetric and Neonatal Nurses."""
+
+

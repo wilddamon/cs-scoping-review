@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweengestationalageandseverematernalmorbidityinpretermdeliveryanationwidepopulationbasedcohortstudy2025marquet
+"OBJECTIVE: This study investigates whether early gestational age (GA) at delivery is associated with an increased risk for severe maternal morbidity (SMM) in women with preterm delivery. METHODS: This retrospective national cohort study based on the Programme de Medicalisation des Systemes d'Information database included mothers who gave birth between 22 and 37 weeks in metropolitan France in 2019 (in utero deaths and medical terminations of pregnancies were excluded). SMM was defined as a composite criterion consisting of the occurrence of at least one of the following events: death, severe preeclampsia, obstetric surgical complications, severe maternal diseases, and admission to the intensive care unit. The association between GA as a categorical variable (22-24 weeks, 24-26 weeks, 26-28 weeks, 28-32 weeks, 32-34 weeks, and >34 weeks) and SMM was assessed by performing multivariate logistic regressions. Interaction tests were performed to identify factors that might influence the association between SMM and GA. RESULTS: Among the 42 821 women who gave birth prematurely in metropolitan France in 2019 (6.2% of all parturients), 6249 (1.6%) presented with an SMM event (mostly severe preeclampsia, at 74.3%). GA was associated with SMM (adjusted odds ratio ranging from 1.83 between 32 and 34 weeks to 2.67 between 22 and 24 weeks compared to the reference group of 34-37 weeks, P < 0.001). The evolution of the risk of SMM according to GA appeared linear. CONCLUSION: Early GA at delivery was associated with an increased risk of SMM in women with preterm delivery. This study showed that SMM is also increased in cases of spontaneous prematurity and vaginal delivery."""
+
+

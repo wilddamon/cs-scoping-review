@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictivemodelingofgestationalweightgainamachinelearningmulticlassclassificationstudy2024victor
+"BACKGROUND: Gestational weight gain (GWG) is a critical factor influencing maternal and fetal health. Excessive or insufficient GWG can lead to various complications, including gestational diabetes, hypertension, cesarean delivery, low birth weight, and preterm birth. This study aims to develop and evaluate machine learning models to predict GWG categories: below, within, or above recommended guidelines. METHODS: We analyzed data from the Araraquara Cohort, Brazil, which comprised 1557 pregnant women with a gestational age of 19 weeks or less. Predictors included socioeconomic, demographic, lifestyle, morbidity, and anthropometric factors. Five machine learning algorithms (Random Forest, LightGBM, AdaBoost, CatBoost, and XGBoost) were employed for model development. The models were trained and evaluated using a multiclass classification approach. Model performance was assessed using metrics such as area under the ROC curve (AUC-ROC), F1 score and Matthew's correlation coefficient (MCC). RESULTS: The outcomes were categorized as follows: GWG within recommendations (28.7%), GWG below (32.5%), and GWG above recommendations (38.7%). The XGBoost presented the best overall model, achieving an AUC-ROC of 0.79 for GWG within, 0.76 for GWG below, and 0.65 for GWG above. The LightGBM also performed well with an AUC-ROC of 0.79 for predicting GWG within recommendations, 0.76 for GWG below, and 0.624 for GWG above. The most important predictors of GWG were pre-gestational BMI, maternal age, glycemic profile, hemoglobin levels, and arm circumference. CONCLUSION: Machine learning models can effectively predict GWG categories, offering a valuable tool for early identification of at-risk pregnancies. This approach can enhance personalized prenatal care and interventions to promote optimal pregnancy outcomes."""
+
+

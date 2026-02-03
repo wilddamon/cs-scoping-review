@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theprognosticvalueandperioperativedynamicsofthehalpscoreinplacentaaccretaspectrumsurgeries2025arslanoglu
+"Objective: We aimed to evaluate the prognostic value of the hemoglobin, albumin, lymphocyte, and platelet (HALP) score in placenta accreta spectrum (PAS) surgeries and its perioperative dynamics as a marker of surgical and neonatal outcomes. Methods: This retrospective cohort included 100 patients with histopathologically confirmed PAS who underwent cesarean hysterectomy (2016-2025). The HALP was calculated within 24 h before delivery and reassessed at 6 and 24 h after delivery. Demographic, surgical, and neonatal variables were recorded. The primary outcome was the association between preoperative HALP and surgical morbidity; the secondary outcomes were perioperative HALP changes and neonatal correlations. ROC analysis identified cutoff values; multivariable regression was used to determine predictors of HALP variability. Internal validity was assessed via bootstrap resampling (1000 and 5000 iterations). Results: Preoperative HALP was significantly greater in patients with complications (24.14 vs. 22.58; p = 0.023). ROC analysis yielded a cutoff of 29.23, with 53.2% sensitivity and 82.0% specificity (AUC: 0.602, 95% CI: 0.51-0.69;). HALP showed a biphasic perioperative pattern, increasing at 6 h and then decreasing at 24 h (p < 0.001). Elevated HALP was independently associated with earlier gestational age at diagnosis, lower birthweight, and reduced Apgar scores. Bootstrap analyses revealed a stable AUC (~0.60) and consistent cutoff estimates across resamples. Conclusions: Higher HALP scores, which are typically markers of favorable nutritional status, are paradoxically linked to increased maternal morbidity and adverse neonatal outcomes in patients with PAS. HALP may, therefore, reflect placental invasiveness rather than maternal reserve. Its low cost and dynamic behavior highlight its potential utility in preoperative risk stratification for high-risk obstetrics."""
+
+

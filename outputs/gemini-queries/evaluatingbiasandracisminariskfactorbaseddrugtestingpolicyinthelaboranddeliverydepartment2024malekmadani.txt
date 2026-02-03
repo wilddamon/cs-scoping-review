@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluatingbiasandracisminariskfactorbaseddrugtestingpolicyinthelaboranddeliverydepartment2024malekmadani
+"OBJECTIVE: To assess bias in and consent before drug testing during prenatal care and birth in a hospital system with a risk-factor-based drug testing policy. METHODS: This retrospective cohort study included all patients who delivered in a regional hospital system from January 1, 2020, to June 1, 2022. Chart abstraction identified whether urine drug testing was performed and age, race, marital status, insurance status, ZIP code, gestational age, body mass index (BMI), and delivery mode. Propensity score matching through a pregnancy risk model was used to assess the association of race, insurance status, marital status, and median income with likelihood of testing. Data were analyzed with logistic regression. Charts of 200 randomly selected patients were also evaluated for documentation of consent, testing indication, test result, and child welfare reports. RESULTS: Among 20,084 patients, 1,251 (6.2%) were tested, of whom 142 (11.3%) tested positive. White patients had a higher rate of positive test results (16.6%) compared with patients of other racial groups (overall rate 11.3%). None of the patients had consent documented. The most common indication for testing was limited prenatal care (48.7%). Fewer than a third of tests (28.5%) were obtained for a medical indication. The majority (67.9%) of positive results were reported to child welfare services. CONCLUSION: Risk-factor-based toxicology policies disproportionately target Black, low-income, single, publicly insured, and uninsured patients. Patients are typically not consented; testing is infrequently obtained for medical indications; and reports to child welfare services based on positive test results are common."""
+
+

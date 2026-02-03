@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforrehospitalizationfollowingcesareandeliveryatterm2025bitan
+"OBJECTIVE: To identify the key risk factors contributing to re-hospitalization after term cesarean delivery (CD). METHODS: This retrospective cohort study included women who underwent CD at term at a university-affiliated tertiary medical center (January 2021 to March 2023). The primary outcome was risk factors for re-hospitalization within 30 days post-discharge. Data on selected maternal demographic, pregnancy-related and delivery variables were extracted from electronic medical records. A multivariable logistic regression analysis was conducted to identify independent risk factors for re-hospitalization. Logistic regression analysis was used to determine the odds ratios (ORs) and 95% confidence intervals (CIs) for various independent risk factors. RESULTS: A total of 2878 women were included in the study, of whom 76 required re-hospitalization (2.6%). The rates of high-risk pregnancies were more prevalent among those who were re-hospitalized (41 [62.1%] vs. 1148 [49.1%], P = 0.043). Furthermore, the rates of emergency CDs (42 [56%] vs. 1040 [37.8%], P = 0.001), prolonged surgery duration (17 [22.4%] vs. 292 [10.4%], P = 0.001) and hospitalization duration (14 (18.4%) vs. 273 (9.7%), P = 0.015) were significantly higher in the re-hospitalized group. Emergency CD (OR 1.90, 95% CI 1.06-3.42, P = 0.030) and prolonged surgery duration (OR 2.44, 95% CI 1.25-4.77, P = 0.016) remained significant risk factors of re-hospitalization in the multivariate analysis. CONCLUSIONS: The need for emergency CD and prolonged surgery duration were found as independent risk factors for re-hospitalization after CD at term."""
+
+

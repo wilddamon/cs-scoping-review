@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: smallforgestationalagebirthandmaternalplasmaantioxidantlevelsinmidgestationanestedcasecontrolstudy2015cohen
+"Objective To assess whether maternal plasma antioxidant levels in mid-pregnancy are associated with small-for-gestational-age (SGA) birth. Design Case-control study nested within a population-based cohort study. Setting Four hospitals in Montreal, Canada. Population Pregnant women recruited before 24 weeks of gestation, whose pregnancies were not complicated by pre-eclampsia or preterm delivery. Methods Blood samples were obtained at 24-26 weeks and assayed for nutritionally derived antioxidant levels in SGA cases (n = 324) and randomly selected controls with birthweights between the 25th and 75th centiles (n = 672). We performed logistic regression analyses using the standardised z-score of each antioxidant as the main independent variable, after summing highly correlated antioxidants or combining via principle component analysis. We adjusted for risk factors for SGA that were associated with antioxidant levels. Main outcome measures SGA, birthweight <10th centile for gestational age and sex. Results Retinol was positively associated with risk of SGA (adjusted odds ratio [OR] 1.41; 95% confidence interval [95% CI] 1.22-1.63, per SD increase). Carotenoids (log of the sum of b-carotene, lutein/zeaxanthin, a- and b-cryptoxanthin) were negatively associated with SGA (adjusted OR 0.64; 95% CI 0.54-0.78, per SD increase). We found no significant associations between SGA and lycopene or any of the forms of vitamin E assessed, including a-tocopherol, corrected a-tocopherol (per nmol/l of low-density lipoprotein articles), or g-tocopherol. Conclusions Elevated retinol may be associated with an increased risk of SGA, whereas elevated carotenoid levels may reduce the risk. A better understanding of the nature of these associations is required, however, before recommending specific nutritional interventions in an attempt to prevent SGA birth. (c) 2015 Royal College of Obstetricians and Gynaecologists."""
+
+

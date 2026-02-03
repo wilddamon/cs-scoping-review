@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: caesareansectionsamongimmigrantwomenwithdifferentlevelsofeducation2022ottesen
+"BACKGROUND: Studies have shown a high incidence of emergency caesarean sections among immigrant women, especially those born in Sub-Saharan Africa, but the risk of planned and emergency caesarean section varies with the mother's level of education. The proportion of women with little or no education is higher among those born in Sub-Saharan Africa and other low- and middle-income countries than those born in Norway. We therefore wanted to investigate the relationship between maternal birthplace, level of education and risk of caesarean section.;MATERIAL AND METHOD: The study was based on all births recorded in the Medical Birth Registry of Norway between 2008 and 2017 linked to data from Statistics Norway. Maternal birthplace, divided into four categories, was the exposure variable. The outcome was planned or emergency caesarean section. We used multinomial logistic regression and stratified the analyses by level of education. Norwegian-born women constituted the reference group.;RESULTS: Of 572 349 births, immigrant women accounted for 26.6 %. Caesarean sections and emergency caesareans made up 15.1 % and 9.6 % of all births respectively. Norwegian-born women had the highest proportion of planned caesarean sections (5.7 %), while women born in Sub-Saharan Africa had the highest proportion of emergency caesareans (16.3 %). Among women with a higher education, the proportion of emergency caesareans was 8.3 % among Norwegian-born women and 18.1 % among women born in Sub-Saharan Africa (adjusted relative risk 2.41, 95 % confidence interval 2.18 to 2.66).;INTERPRETATION: The impact of education level on risk of caesarean section differed between immigrant women and Norwegian-born women."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenthedegreeoftwinbirthweightdiscordanceandperinataloutcomes2019kim
+"Background Twin birthweight discordance is associated with adverse outcomes. Objective To determine what degree of twin birthweight discordance is associated with adverse outcomes. Study Design This is a retrospective cohort study of twins with vertex twin A delivered vaginally at 36 to 40 weeks (U.S. Vital Statistics Natality birth certificate registry data 2012-2014). The primary outcome was a composite of neonatal morbidity: 5-minute Apgar < 7, neonatal intensive care unit admission, neonatal mechanical ventilation > 6 hours, neonatal seizure, and/or neonatal transport to a higher level of care. Effect estimates were expressed as incidence rate and adjusted odds ratio (aOR) controlling for confounding using multivariate clustered analysis for between-pair effects, and multilevel random effect generalized estimating equation regressions to account for within-pair effects. We adjusted for sex discordance, breech delivery of the second twin, maternal race/ethnicity, nulliparity, age, marital status, obesity, and socioeconomic status. Results In comparison to birthweight discordance of <=20%, aORs with 95% confidence intervals (CIs) by weight discordance of the primary outcome among 27,276 twin deliveries were as follows: 20.01 to 25% (aOR: 1.46 [95% CI: 1.29-1.65]); 25.01 to 30% (aOR: 1.96 [95% CI: 1.68-2.29]); and 30.01 to 60% (aOR: 2.97 [95% CI: 2.52-3.50]). Conclusion Twin birthweight discordance >20% was associated with increased odds of adverse neonatal outcome. (c) 2019 Georg Thieme Verlag. All rights reserved."""
+
+

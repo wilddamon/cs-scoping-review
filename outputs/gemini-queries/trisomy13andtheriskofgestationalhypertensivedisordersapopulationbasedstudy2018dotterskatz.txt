@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trisomy13andtheriskofgestationalhypertensivedisordersapopulationbasedstudy2018dotterskatz
+"Purpose: To describe the rate and severity of gestational hypertensive disorders (GHDs) in pregnancies complicated by trisomy 13 (T13). Materials and methods: Retrospective cohort study of singleton deliveries in California from 2005 to 2008 using vital statistics and ICD-9 data. We were interested in gestational hypertension (gHTN), preeclampsia with and without severe features (sPREX and PREX), and gestational age at delivery. Pregnancies and maternal complications affected by prenatally diagnosed T13 were compared to unaffected pregnancies. Regression models were used to compute adjusted odds ratios for pregnancy outcomes by T13 status. Results: Of the 2,029,004 deliveries, 142 women had prenatally diagnosed T13. A diagnosis of GHD occurred in 26.8% of the T13 pregnancies versus 6% of the non-T13 pregnancies (p <.001). This remained true for gHTN (9.2% versus 3.2%, p=.001), PREX (12% versus 2.2%, p <.001), and sPREX (8.5% versus 0.9%, p <.001). After adjusting for confounders, T13 pregnancies were 6.3-times more likely to be affected by GHD, and 12.5-times more likely to have sPREX. Delivery <37 and <32 weeks in the setting of GHD was 14.1-times and 11.2-times likely among women with T13. Conclusions: Women with T13 pregnancies were significantly more likely to have gHTN, preeclampsia, sPREX, and to deliver <32 weeks. (c) 2017 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

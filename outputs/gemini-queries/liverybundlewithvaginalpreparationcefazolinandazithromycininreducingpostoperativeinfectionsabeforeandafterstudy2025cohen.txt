@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectivenessofacesareandeliverybundlewithvaginalpreparationcefazolinandazithromycininreducingpostoperativeinfectionsabeforeandafterstudy2025cohen
+"OBJECTIVE: To evaluate the effectiveness of a cesarean delivery (CD) bundle including preoperative vaginal preparation, cefazolin and azithromycin administration, compared with cefazolin alone, in reducing postoperative infections, among women undergoing CD during the second stage of labor. METHODS: In August 2016, our departmental protocol for preventing infectious morbidity in second-stage CD was revised from preoperative intravenous 2 g cefazolin alone, to preoperative intravenous 2 g cefazolin, intravenous 500 mg azithromycin, and vaginal cleansing with povidone-iodine. In this before-and-after study, the medical records of women who underwent CD during the second stage of labor were reviewed, comparing two time periods: January 2014 to August 2016 (control group, cefazolin alone) and November 2016 to January 2021 (CD bundle group). Obstetric characteristics, postoperative infections, and neonatal outcomes were compared between groups. Composite infectious morbidity was defined as one or more of: endometritis, surgical-site infection (SSI), abscess, urinary tract infection, and postpartum fever. RESULTS: During the study period, there were 5265 intrapartum CD, among them 457 were during the second stage of labor. The CD bundle group (n = 331) had lower rates of endometritis, SSI, and composite infectious morbidity compared with the control group (n = 126, 1.2% vs. 4.8%, P = 0.030; 3.0% vs. 7.1%, P = 0.049, 6.9% vs. 14.3%, P = 0.014, respectively). Neonatal outcomes did not differ between groups. Multivariable regression analysis adjusted for confounders revealed that the CD bundle reduced the risk for the composite infectious outcome, with adjusted odds ratio 0.08 (95% confidence interval 0.01-0.50). CONCLUSIONS: In second-stage CD, adding preoperative azithromycin and vaginal cleansing to cefazolin was efficacious in reducing postoperative infections."""
+
+

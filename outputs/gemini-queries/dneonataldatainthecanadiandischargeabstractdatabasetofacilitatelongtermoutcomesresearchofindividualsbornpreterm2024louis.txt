@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: validationofpretermbirthrelatedperinatalandneonataldatainthecanadiandischargeabstractdatabasetofacilitatelongtermoutcomesresearchofindividualsbornpreterm2024louis
+"INTRODUCTION: The Canadian Institute of Health Information's (CIHI) Discharge Abstract Database (DAD) contains standardised administrative data on all hospitalisations in Canada, excluding Quebec. OBJECTIVES: We aimed to validate preterm birth related perinatal and neonatal data in DAD by assessing its accuracy against the reference standard of the Canadian Neonatal Network (CNN) database. METHODS: We linked birth hospitalization data between the DAD and CNN databases for all neonates born <33 weeks gestational age (GA) admitted to the Neonatal Intensive Care Units in Winnipeg, Canada, between 2010 and 2022. A comprehensive list of maternal and neonatal variables relevant to preterm birth was chosen a priori for validation. For categorical variables, we measured correlation using Cohen's weighted kappa (k) and for continuous variables, we measured agreement using Lin's concordance correlation coefficient (LCCC). RESULTS: 2084 neonates were included (mean GA 29.4 +- 2.4 weeks; birth weight 1430 +- 461g). Baseline continuous maternal and neonatal variables showed excellent accuracy in DAD [Maternal age: LCCC = 0.99 (0.99, 0.99); GA: LCCC = 0.95 (0.95, 0.96); birth weight: LCCC = 0.97 (0.96, 0.97); sex: k = 0.99 (0.98-0.99)]. In contrast, the accuracy of the maternal baseline categorical variables and neonatal outcomes and interventions ranged from very good to poor [e.g., Caesarean section: k = 0.91 (0.89-0.93), pre-gestational diabetes: k = 0.04 (0.03-0.05), neonatal sepsis: k = 0.37 (0.31-0.42), bronchopulmonary dysplasia: k = 0.26 (0.19-0.33), neonatal laparotomy: k = 0.55 (0.43-067)]. CONCLUSION: Neonatal variables such as gestational age and birth weight had high accuracy in DAD, while the accuracy of maternal and neonatal morbidities and interventions were variable, with some being poor. Reasons for the inaccuracy of these variables should be identified and measures taken to improve them."""
+
+

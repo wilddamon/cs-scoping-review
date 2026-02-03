@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionmodelforspontaneouspretermbirthlessthan32weeksofgestationinlowriskwomenwithmidtrimestershortcervicallengtharetrospectivecohortstudy2024huang
+"Background: A short cervix in mid-trimester pregnancy is a risk factor for spontaneous preterm birth. However, there is currently a lack of predictive models and classification systems for predicting spontaneous preterm birth in these patients, especially those without additional risk factors for spontaneous preterm birth. Method(s): A retrospective observational cohort study of low-risk singleton pregnant women with a short cervix (<= 25 mm) measured by transvaginal ultrasonography between 22 and 24 weeks was conducted. A multivariate logistic regression model for spontaneous preterm birth < 32 weeks in low-risk pregnant women with a short cervix was constructed. Moreover, we developed a nomogram to visualize the prediction model and stratified patients into three risk groups (low-, intermediate-, and high-risk groups) based on the total score obtained from the nomogram model. Result(s): Between 2020 and 2022, 213 low-risk women with a short cervix in mid-trimester pregnancy were enrolled in the study. Univariate logistic analysis revealed that a high body mass index, a history of three or more miscarriages, multiparity, a short cervical length, leukocytosis, and an elevated C-reactive protein level were associated with spontaneous preterm birth < 32 weeks, but multivariate analysis revealed that multiparity (OR, 3.31; 95% CI, 1.13-9.68), leukocytosis (OR, 3.96; 95% CI, 1.24-12.61) and a short cervical length (OR, 0.88; 95% CI, 0.82-0.94) were independent predictors of sPTB < 32 weeks. The model incorporating these three predictors displayed good discrimination and calibration, and the area under the ROC curve of this model was as high as 0.815 (95% CI, 0.700-0.931). Patients were stratified into low- (195 patients), intermediate- (14 patients) and high-risk (4 patients) groups according to the model, corresponding to patients with scores <= 120, 121-146, and > 146, respectively. The predicted probabilities of spontaneous preterm birth < 32 weeks for these groups were 6.38, 40.62, and 71.88%, respectively. Conclusion(s): A noninvasive and efficient model to predict the occurrence of spontaneous preterm birth < 32 weeks in low-risk singleton pregnant women with a short cervix and a classification system were constructed in this study and can provide insight into the optimal management strategy for patients with different risk stratifications according to the score chart.Copyright (c) The Author(s) 2024."""
+
+

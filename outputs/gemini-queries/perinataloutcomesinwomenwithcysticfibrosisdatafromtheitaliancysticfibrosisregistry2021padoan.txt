@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomesinwomenwithcysticfibrosisdatafromtheitaliancysticfibrosisregistry2021padoan
+"INTRODUCTION: Data from the Italian Cystic Fibrosis Registry concerning pregnancies in the period 2010-2015 were used to investigate the association between the preconception clinical status and perinatal outcomes of women with cystic fibrosis (CF).;MATERIAL AND METHODS: The assessed clinical variables were genotype, age at the time of conception, body mass index (BMI) and the percentage of predicted forced expiratory volume in the first second (ppFEV1 ). The analyzed outcomes were gestational age, birthweight and the frequency of cesarean deliveries. A generalized linear mixed model (GLIMMIX) was used to evaluate the association between type of delivery and age at the time of becoming pregnant, BMI, ppFEV1 and gestational age. Robust multivariable regression was used to evaluate the relation between gestational age and age at the time of becoming pregnant, BMI and ppFEV1 . Multivariable linear regression was performed to verify association between birthweight and BMI, and ppFEV1 .;RESULTS: Complete information concerning mother and child was available for 56 completed pregnancies. Median age at the time of conception was 30.8 years (range: 18.7-42.3); median BMI was 21.5 kg/m2 (range: 16.5-26.8); and median ppFEV1 was 73.9 (range: 30-128). In all, 31 women (55.36%) had a genotype consisting of two CF-causing variants. Eight were homozygous for the F508del mutation (14.28% of the total). The median duration of pregnancy was 37 weeks (range: 31-41) and the frequency of prematurity (<37 weeks of gestational age) was 28.30%. Median birthweight was 2910 g (range: 1300-3650). The overall frequency of cesarean sections was 63.64%. A low preconception ppFEV1 was associated with prematurity (p = 0.014), and birthweight was positively related to ppFEV1 (p = 0.04). There was no association between the clinical variables or gestational age and the type of delivery.;CONCLUSIONS: Maternal preconceptional respiratory function correlates with the duration of pregnancy and the birthweight of newborns. Cesarean deliveries are also frequent among young women with CF with normal respiratory function. Copyright (c) 2021 Nordic Federation of Societies of Obstetrics and Gynecology (NFOG). Published by John Wiley & Sons Ltd."""
+
+

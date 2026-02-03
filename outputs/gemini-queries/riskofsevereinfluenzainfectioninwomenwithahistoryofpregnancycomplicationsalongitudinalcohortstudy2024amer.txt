@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskofsevereinfluenzainfectioninwomenwithahistoryofpregnancycomplicationsalongitudinalcohortstudy2024amer
+"BACKGROUND: Risk factors for influenza complications in women are poorly understood. We examined the association between pregnancy outcomes and risk of influenza hospitalization up to three decades later. METHODS: We analyzed a cohort of 1,421,531 pregnant women who delivered in Quebec, Canada between 1989 and 2021. Patients were followed over time beginning at the first delivery. The main exposure measures included obstetric complications such as preeclampsia, gestational diabetes, and preterm birth. The main outcome was influenza hospitalization up to 32 years later. We used adjusted Cox regression models to estimate hazard ratios (HR) and 95% confidence intervals (CI) for the association between obstetric complications and risk of influenza hospitalization following pregnancy. RESULTS: A total of 4,016 women were hospitalized for influenza during 32 years of follow-up. Influenza hospitalization was more frequent among women with pregnancy complications than women without complications (18.0 vs 14.1 per 100,000 person-years). Compared with no pregnancy complication, women with gestational diabetes (HR 1.48, 95% CI 1.30-1.69), preeclampsia (HR 1.45, 95% CI 1.28-1.65), placental abruption (HR 1.36, 95% CI 1.12-1.66), preterm birth (HR 1.40, 95% CI 1.27-1.55), cesarean section (HR 1.22, 95% CI 1.13-1.31), and severe maternal morbidity (HR 1.43, 95% CI 1.22-1.68) had a greater risk of influenza hospitalization later in life. These pregnancy outcomes were associated with severe influenza infections requiring critical care. CONCLUSIONS: Women with pregnancy complications have an elevated risk of severe influenza complications later in life and have potential to benefit from seasonal vaccination to prevent influenza hospitalization."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: noevidenceofseasonalityofbirthinadulttype2diabetesindenmark2015jensen
+"Aims/hypothesis: The season of birth might influence prenatal circumstances, which may influence the risk of developing type 2 diabetes. The aim of this study was to determine whether the diagnosis of type 2 diabetes in Denmark changed with the season of birth. Methods: This study used data from the population-based Copenhagen School Health Records Register (CSHRR) that includes schoolchildren born between 1930 and 1989. Via a personal identification number, the CSHRR was linked to the National Patient Register containing hospital discharge diagnoses since 1977. The effect of seasonal variation in birth on the risk of type 2 diabetes was assessed using Cox regression, with month or season of birth as the predictor. The underlying time variable was age, and follow-up started in 1977 or at age 30 years. Results: The study population consisted of 223,099 people, of whom 12,486 developed adult type 2 diabetes. Using January as the reference month, the risk of type 2 diabetes by month of birth was not statistically different for any of the 11 comparative birth months. Grouping month of birth into seasons (spring was the reference) gave essentially similar results, showing no difference in the risk of type 2 diabetes for any season. Repeating the analysis by sex, birth cohort and birthweight categories revealed no associations. Conclusions/interpretation: The risk of adult type 2 diabetes was not associated with month of birth in a large Danish population-based study. The results suggest that the causes of seasonality in birthweight are not causes of type 2 diabetes. (c) 2015, Springer-Verlag Berlin Heidelberg."""
+
+

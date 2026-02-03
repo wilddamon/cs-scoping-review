@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: validationofthesiggaardandersenacidbasenomogramforhemoglobinfimplicationsforfetalcordbloodgasanalysis2019whitham
+"Objective a The calculation of HCO <inf>3</inf> and base excess in current blood gas analysis is based on the Siggaard-Andersen equation. One of the constants in this equation is dependent on the known buffering capacity of hemoglobin A. We sought to investigate differences in buffering capacity between adult hemoglobin A and fetal hemoglobin F as a potential explanation for the observed poor correlation between calculated base excess in umbilical cord blood and newborn outcomes. Such differences would influence a key constant in the Van Slyke/Siggaard-Andersen equation used to calculate HCO <inf>3</inf> and base excess and could be an explanation of these observations. Study Design a This was a prospective observational study. We analyzed umbilical cord blood bicarbonate levels both as calculated values from a traditional blood gas analyzer and as measured values in 20 women giving birth at term. Since the calculated value is dependent upon the concentration and known buffering capacity of hemoglobin A, significant differences in these two analyses would imply differences in the buffering capacity of hemoglobins A and F. Results a The mean calculated HCO <inf>3</inf> value was 25 mEq/L (25.3 +- 1.9) compared with a mean measured value of 25 mEq/L (24.6 +- 1.7) over a range of pH levels of 7.16 to 7.42. This difference was not significant (p = 0.07). Conclusion a The buffering capacity of hemoglobin F, for clinical purposes, is not different than that of hemoglobin A and is not an explanation for the recognized poor correlation between base excess and neonatal outcome. (c) 2019 Georg Thieme Verlag. All rights reserved."""
+
+

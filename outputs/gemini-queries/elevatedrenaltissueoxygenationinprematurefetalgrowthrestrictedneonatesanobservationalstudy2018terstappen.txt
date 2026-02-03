@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: elevatedrenaltissueoxygenationinprematurefetalgrowthrestrictedneonatesanobservationalstudy2018terstappen
+"Background Fetal growth restriction (FGR) is associated with an increased risk for kidney disease in later life. Studies reporting on early signs of renal disturbances in FGR are sparse and mostly include invasive measurements, which limit the possibility for early identification and prevention. We aim to investigate whether renal tissue oxygen saturation (rSO <inf>2</inf> ) measured with near-infrared spectroscopy (NIRS) and the derived value fractional tissue oxygen extraction (FTOE) differ between premature FGR and control neonates in the first three days after birth. Methods Nine FGR and seven control neonates born <32 weeks of gestation were included. FGR was defined as biometry <p10 combined with prenatal signs of placental insufficiency. Renal rSO <inf>2</inf> was measured continuously with NIRS for 72 hours. FTOE was calculated as: (arterial saturation-rSO <inf>2</inf> )/arterial saturation. Renal artery blood flow (pulsatility and resistance index) was measured within 24 hours after birth. A linear mixed model approach was used (intercept +- slope = r) to analyze the NIRS parameters. Results Renal rSO <inf>2</inf> was higher in FGR neonates compared to controls (94% vs. 83%; p <inf>group</inf> = 0.002). During the first three days after birth, renal rSO <inf>2</inf> decreased in FGR neonates and increased in controls (r = -0.25 vs. r = 0.03; pinteraction = 0.001). Renal FTOE was lower in FGR neonates (0.02 vs. 0.14; p <inf>group</inf> = 0.01) and increased slightly during three days after birth, while it remained stable in controls (r = 0.003 vs. r = -0.0001; pinteraction = 0.001). Renal artery blood flow was similar between groups. Conclusions FGR neonate kidneys showed higher rSO <inf>2</inf> as measured with NIRS and lower derived values of FTOE in the first three days after birth. We speculate that this was caused by either a reduced oxygen consumption due to impaired renal maturation or increased renal oxygen supply. How these observations correlate with short- and long-term renal function needs further investigation before renal NIRS can be implemented in screening and prevention in clinical practice. (c) 2018 Terstappen et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."""
+
+

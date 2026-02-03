@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theuseoftheaspartateaminotransferasetoplateletratioindexasapredictorofobstetricalandneonataladverseoutcomesinpatientswithpreeclampsiatoxemia2025leybovitzhaleluya
+"BACKGROUND: Hypertensive disorders during pregnancy can lead to significant adverse outcomes. Currently, no established and effective tests have a high predictive value for preeclampsia toxemia (PET) severity and its associated adverse outcomes. OBJECTIVES: To investigate the correlation between the aspartate aminotransferase-to-platelet ratio index (APRI) and the risk of obstetrical and neonatal adverse outcomes in women with PET. METHODS: We conducted a population-based cohort study at a tertiary medical center, which included all women who delivered between the years 2020 and 2022 and were diagnosed with PET. Women with incomplete records, multiple gestations, and fetal malformations were excluded. The median APRI of the cohort was the cut-off point to compare the risk of obstetrical and neonatal complications between low and high APRI scores. A multivariable logistic regression was used to adjust for confounders. RESULTS: The study included 513 women with PET who met the inclusion criteria. The median APRI score was used as a cut-off value, resulting in 255 women with an APRI score < 0.26 and 258 with a score > 0.26. A higher APRI score was significantly correlated with a small for gestational age (SGA) newborn and preterm delivery before 34 weeks after controlling for parity, previous cesarean delivery (CD), and maternal age (adjusted odds ratio 1.60, 95% confidence interval 1.01-2.55; P = 0.047, adjusted hazard ration 1.75, 95% confidence interval 1.12-3.09, P = 0.047). CONCLUSIONS: In patients with PET, an APRI score > 0.26 was associated with an increased risk for SGA and preterm deliveries."""
+
+

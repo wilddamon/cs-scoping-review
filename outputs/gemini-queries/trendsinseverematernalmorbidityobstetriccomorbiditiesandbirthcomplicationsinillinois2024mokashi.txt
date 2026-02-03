@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: trendsinseverematernalmorbidityobstetriccomorbiditiesandbirthcomplicationsinillinois2024mokashi
+"OBJECTIVE: To analyze trends in severe maternal morbidity (SMM) and route-specific complications of birth in Illinois hospitals from January 2016 to June 2023. METHODS: This retrospective population-based cohort study analyzed birth admission data from 159 hospitals using the Illinois Hospital Association Comparative Health Care and Hospital Data Reporting Services database from January 2016 to June 2023. Primary outcomes were incidence of SMM and route-specific delivery complications. Secondary outcomes included incidence of chronic and pregnancy-related comorbidities. Poisson regression was used to estimate incidence rate ratios for SMM; logistic regression was used to estimate odds ratios for route-specific birth complications; and model SEs were adjusted for clustering of observations within hospitals. RESULTS: In this cohort of 988,480 births, the overall SMM rate was 1.6%; the rate of SMM rose from 1.4% in 2016 to 2.0% in 2023. The rate of SMM was 0.9% for people who underwent vaginal births and 3.2% for people who underwent for cesarean births. Vaginal birth complications (7.3% overall) increased 22.4%, and cesarean birth complications (10.9% overall) increased 48.9%. Hypertensive disorders of pregnancy and anemia, both of which increased over the study period, were significant risk factors for SMM and birth complications. Over the study period, there were also increases in International Classification of Diseases, Tenth Revision-coded gestational diabetes (4.2-5.5%), depression (2.5-6.6%), anxiety (3.1-10.4%), and other chronic comorbidities (4.7-7.4%). Non-Hispanic Black patients had more than double the SMM rate (2.6%) compared with non-Hispanic White patients (1.1%). CONCLUSION: From 2016 to 2023, the rates of SMM and birth complications in Illinois increased alongside increases in coding for chronic and prepregnancy and pregnancy-related comorbidities. This study demonstrates the burden of cesarean birth-associated adverse outcomes, including a higher rate of SMM, which increased over the study period."""
+
+

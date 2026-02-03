@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweentheglucosepatterninoralglucosetolerancetestandadversepregnancyoutcomesamongnondiabeticwomen2025zhou
+"BACKGROUND: This study aimed to explore whether the patterns of the oral glucose tolerance test (OGTT) could function as a predictive factor for adverse pregnancy outcomes in pregnant women without gestational diabetes mellitus (GDM). METHODS: A retrospective cohort study was carried out, involving a total of 23,577 pregnant women. The participants were classified into three groups according to the area under the curve (AUC) of the OGTT performed between 24 and 28 weeks of gestation. Based on the tertiles of the AUC-OGTT magnitude, three distinct glucose patterns were identified: small AUC (SA) with an AUC-OGTT <= 12.26, medium AUC (MA) with an AUC-OGTT between 12.26 and 13.81, and large AUC (LA) with an AUC-OGTT > 13.81. Logistic regression analysis was utilized to assess the association between different AUC-OGTT patterns and the risk of adverse pregnancy outcomes. RESULTS: The incidence of adverse pregnancy outcomes, including preeclampsia, preterm birth, macrosomia, and cesarean delivery, showed a progressive increase from the SA to the MA to the LA pattern. A positive dose-response relationship was observed between the AUC-OGTT and adverse pregnancy outcomes. In the logistic regression analysis, with the SA pattern as the reference, the MA pattern was associated with a higher risk of macrosomia and cesarean delivery (both P < 0.001). Even after adjusting for potential covariates, the relative risks for these outcomes were 1.34 (95% CI: 1.14, 1.56) and 1.09 (95% CI: 1.01, 1.16), respectively (both P < 0.05). Additionally, the LA pattern was associated with a higher risk of preeclampsia, preterm birth, macrosomia, and cesarean delivery (all P < 0.01). After adjusting for potential covariates, the relative risks for preterm birth, macrosomia, and cesarean delivery were 1.20 (95% CI: 1.03, 1.41), 1.68 (95% CI: 1.44, 1.95), and 1.15 (95% CI: 1.07, 1.23), respectively (all P < 0.05). Moreover, these risks differed according to maternal age and preconception body mass index (BMI). CONCLUSIONS: The present study highlights the relationship between OGTT patterns and adverse pregnancy outcomes in Chinese women without GDM. Identifying the MA and LA patterns as unfavorable factors for adverse pregnancy outcomes can provide crucial information for clinicians to develop personalized risk assessment and intervention strategies, which may contribute to improving pregnancy outcomes."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenuterinearterypulsatilityindexatmidgestationandthemethodofconceptionacohortstudy2025siargkas
+"Background and Objectives: Pregnancies resulting from assisted reproductive technology (ART) have been associated with placenta-related adverse outcomes. Uterine artery Doppler pulsatility index (UtA-PI) reflects placental function. This study aimed to examine whether second-trimester UtA-PI differs according to the conception method after adjusting for potential confounding factors. Materials and Methods: In this retrospective cohort study, we included data from February 2015 to August 2024, at the third Department of Obstetrics and Gynecology, School of Medicine, Faculty of Health Sciences, Aristotle University of Thessaloniki, Greece, on singleton pregnancies presenting for their routine antenatal care, including a second-trimester anomaly scan. Pregnancies conceived via ART, including those conceived via ovulation induction/intrauterine insemination (OI/IUI) or in vitro fertilization/intracytoplasmic sperm injection (IVF/ICSI), were compared to those conceived spontaneously. Multiple linear regression was employed to investigate the association between the mode of conception and log(10) UtA-PI values, adjusting for various confounders, including gestational age at the time of the scan, maternal weight, height, age, parity, mode of delivery, smoking status, pre-existing diabetes mellitus (type I or II), and pre-existing thyroid disease. Results: The study included 15,552 singleton pregnancies, of which 82 (0.5%) were conceived via OI/IUI and 690 (4.4%) were conceived via IVF/ICSI. The median UtA-PI values were 0.99 (IQR: 0.85-1.17) for spontaneous conception (SC), 1.00 (IQR: 0.86-1.16) for OI/IUI, and 0.90 (IQR: 0.76-1.12) for IVF/ICSI. The Kruskal-Wallis test indicated a statistically significant difference among these groups (p < 0.001). Pairwise comparisons using the Wilcoxon rank-sum test with Bonferroni correction revealed that UtA-PI values in IVF/ICSI pregnancies were significantly lower compared to both SC and OI/IUI pregnancies (p < 0.001 for both). No significant difference was observed between the SC and OI/IUI groups. In the multivariable linear regression model, IVF/ICSI conception was independently associated with lower log(10) UtA-PI values (estimate = -0.076, 95% CI: -0.096, -0.056) while no association was found for OI/IUI conception. Conclusions: Although ART has been associated with placental-related complications, mid-trimester UtA flow was found to be lower in IVF/ICSI pregnancies, suggesting better utero-placental flow in ART pregnancies and other possible mechanisms in the maternal-placental interplay for the development of pregnancy complications."""
+
+

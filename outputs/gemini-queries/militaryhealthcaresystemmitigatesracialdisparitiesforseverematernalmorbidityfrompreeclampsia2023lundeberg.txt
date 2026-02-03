@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: militaryhealthcaresystemmitigatesracialdisparitiesforseverematernalmorbidityfrompreeclampsia2023lundeberg
+"BACKGROUND: In the United States, Black women die at 2.5 times the rate of White women and 3.5 times the rate of Hispanic women. These racial health care disparities have been largely attributed to access to health care and other social determinants of health. OBJECTIVE(S): We hypothesize that the Military healthcare system models universal health care access seen in other developed countries and should equalize these rates. STUDY DESIGN: Delivery data from 41 Military treatment facilities across the Department of Defense (Army, Air Force, and Navy) including over 36,000 deliveries from 2019 to 2020 were compiled in a convenience dataset through the National Perinatal Information Center. After aggregation, the parameters of percent of deliveries complicated by Severe Maternal Morbidity and percent of severe maternal morbidity secondary to pre-eclampsia with and without transfusion were calculated. Risk ratios were calculated by race for the resulting summary data. American Indian/Alaska Native were excluded because of limited total number deliveries preventing statistical analyses. RESULT(S): Overall, the risk of severe maternal morbidity was increased among Black women compared to White women. The risk of severe maternal morbidity related to pre-eclampsia showed no significant difference among races with or without transfusion. When other races were set as reference group, there was a significant difference for White women, suggesting a protective effect. CONCLUSION(S): Although women of color still experience overall severe maternal morbidity at higher rates than their White counterparts, TRICARE may have equalized the risk of severe maternal morbidity for deliveries complicated by pre-eclampsia.Copyright (c) 2023"""
+
+

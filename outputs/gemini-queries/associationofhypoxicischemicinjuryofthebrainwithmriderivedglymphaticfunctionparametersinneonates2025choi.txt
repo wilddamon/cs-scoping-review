@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofhypoxicischemicinjuryofthebrainwithmriderivedglymphaticfunctionparametersinneonates2025choi
+"OBJECTIVE: To evaluate the association between hypoxic-ischemic injury (HII) of the brain and glymphatic function using MRI-derived parameters in neonates. MATERIALS AND METHODS: This retrospective, single-institution study collected brain MRI scans of 127 neonates between July 2020 and July 2022. The volume and fraction of the basal ganglia perivascular space (BG-PVS) were automatically extracted using three-dimensional T2-weighted image processing. Diffusion-tensor imaging (DTI) along the PVS (DTI-ALPS) index values were derived from the DTI maps. BG-PVS and DTI-ALPS parameters were compared between neonates with and without HII. The correlations between MRI-derived glymphatic parameters and corrected gestational age (CGA), as well as between BG-PVS measurements and the DTI-ALPS index, were analyzed using Spearman coefficients. Multivariable logistic regression adjusted for age, sex, birth weight, and mode of delivery was performed to examine the associations between each glymphatic parameter and HII. RESULTS: This study included 97 neonates without HII (median gestational age [GA]: 252 days) and 30 with HII (median GA: 252 days). Neonates with HII had smaller BG-PVS volumes (19 mm3 vs. 33 mm3, P = 0.001) and fractions (0.29% vs. 0.54%, P = 0.003) compared to neonates without HII. The DTI-ALPS index values did not differ significantly between neonates with and without HII (P = 0.54). CGA correlated negatively with BG-PVS measurements (r = -0.21 to -0.26, all P < 0.05) and positively with DTI-ALPS index values (r = 0.22, P = 0.014). BG-PVS measurements and DTI-ALPS index values were not significantly correlated (r = -0.28 to -0.08, all P > 0.05). Multivariable logistic regression revealed a negative association between BG-PVS volume (odds ratio [OR]: 0.96 per mm3 increase, 95% confidence interval [CI]: 0.93-0.99) and fraction (OR: 0.15 per % increase, 95% CI: 0.03-0.79) with HII, while DTI-ALPS index values were not significantly associated with HII (OR: 0.10, 95% CI: 0.00-25.41). CONCLUSION: Neonates with HII demonstrated smaller BG-PVS volume and fraction compared with those without HII, indicating potential alterations in glymphatic function among affected newborns."""
+
+

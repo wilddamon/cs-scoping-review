@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsbasedoncoxregressionmodelingtoanalyzetheprognosticimpactoffiberopticbronchoscopicbronchoalveolarlavageonchildrenwithseverepneumonia2024ma
+"Objective: This study aimed to identify factors influencing the prognosis of children with severe pneumonia (SP) after fiberoptic bronchoscopic bronchoalveolar lavage (BAL). Method(s): The clinical data of 155 children with SP treated with fiberoptic bronchoscopic BAL at Xi'an International Medical Center Hospital between January 2022 and January 2024 were retrospectively analyzed. Children were categorized into the survival group (n = 122) and the death group (n = 33) according to their clinical outcomes within 28 days after treatment. General patient data and the initial laboratory results after admission were collected. Univariate and multivariate Cox regression analyses were performed to identify independent predictors of 28-day prognosis. The predictive ability of each index was evaluated using the receiver operating characteristic (ROC) curve analysis and the Delong test. The relationship between each index and the prognosis of children with SP was analyzed using the Kaplan-Meier curve. Result(s): The death group had significantly younger patients, longer pneumonia course, shorter pregnancy cycle, and higher levels of procalcitonin (PCT), white blood cell count (WBC), C-protein reaction (CPR), and systemic immune-inflammation index (SII) compared to the survival group (P<0.05). Cox regression analysis identified age (HR = 0.959, P = 0.014), pneumonia course (HR = 2.270, P<0.001), pregnancy cycle (HR = 2.736, P = 0.015), PCT (HR = 2.728, P = 0.001), WBC (HR = 1.283, P = 0.001), and SII (HR = 1.009, P<0.001) as independent predictors of 28-day mortality in children with SP. Among these, pneumonia course, PCT, and SII demonstrated higher predictive efficacy in adverse outcomes, with areas under the ROC curve (AUC) of 0.827, 0.822, and 0.868, respectively, outperforming age, pregnancy cycle, and WBC (P<0.05). Kaplan-Meier survival curves showed that patients with older age, shorter pneumonia course, full-term birth, and those with lower WBC, PCT, and SII levels had significantly higher survival rates compared to their counterparts (P<0.05). Conclusion(s): Age, pneumonia course, pregnancy cycle, WBC, PCT, and SII were independent predictors of survival in children with SP after fiberoptic bronchoscopic BAL, among which pneumonia course, PCT, and SII showed a higher predictive efficacy for the prognosis of children with SP.Copyright (c) 2024 E-Century Publishing Corporation. All rights reserved."""
+
+

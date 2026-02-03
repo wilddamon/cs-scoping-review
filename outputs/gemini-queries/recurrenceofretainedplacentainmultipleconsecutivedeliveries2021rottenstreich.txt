@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: recurrenceofretainedplacentainmultipleconsecutivedeliveries2021rottenstreich
+"Objective: Retained placenta is a leading cause of maternal hemorrhage. A history of retained placenta is a well-recognized risk factor for recurrence; however, recurrence risk pattern has not been previously described. We aimed to evaluate the longitudinal recurrence pattern of retained placenta in multiple consecutive deliveries. Methods: This is a retrospective computerized base study conducted at Shaare Zedek Medical Center, a university-affiliated hospital, between 2005 and 2018. Medical records of parturient who had at least one coded diagnosis of either retained partial or complete placenta were retrieved. The first delivery with retained placenta diagnosis was chosen as the index delivery. In order to account for dependency between deliveries of the same individual parturient, we used a multivariate binary logistic regression with generalized estimating equation (GEE) to calculate the individual recurrence risk, adjusted odds ratios (95% confidence interval). Results: During the study period, we identified 2177 parturient diagnosed with retained placenta in the index delivery and that had at least one subsequent delivery; overall 300 (13.8%) parturient had at least one subsequent event of retained placenta: 9.3% for the subsequent delivery and 6% in later deliveries. Induction of labor and epidural analgesia either in the index or in the subsequent delivery were found to be independently associated with recurrence 1.61 (1.16-2.24), 1.45 (1.10-1.90) and 1.46 (1.11-1.93), 1.82 (1.45-2.28), respectively. Complete and not partial retained placenta in the index delivery was also found to be independently associated with recurrence 4.90 (3.90-6.32). Conclusion: For the individual parturient, an event of retained placenta is a sentinel of the subsequent deliveries and has modifiable recurrence risks. (c) 2019 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

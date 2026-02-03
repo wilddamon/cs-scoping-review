@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofhighintensitycarearoundbirthonlongtermneurodevelopmentaloutcomes2020bolbocean
+"Background: An equitable and affordable healthcare system requires a constant search for the optimal way to deliver increasingly expensive neonatal care. Therefore, evaluating the impact of hospital intensity around birth on long-term health outcomes is necessary if we are to assess the value of high intensity neonatal care against its costs. Method(s): This study exploits uneven geographical distribution of high intensity birth hospitals across Canada to generate comparisons across similar Cerebral Palsy (CP) related births treated at hospitals with different intensities. We employ a rich dataset from the Canadian Multi-Regional CP Registry (CCPR) and instrumental variables related to the mother's location of residence around birth. Result(s): We find that differences in hospitals' intensities are not associated with differences in clinically relevant, long-term CP health outcomes. Conclusion(s): Our results suggest that existing matching mechanism of births to hospitals within large metropolitan areas could be improved by early detection of high risk births and subsequent referral of these births to high intensity birthing centers. Substantial hospitalization costs might be averted to Canadian healthcare system ($16 million with a 95% CI of $6,131,184 - $24,103,478) if CP related births were assigned to low intensity hospitals and subsequently transferred if necessary to high intensity hospitals.Copyright (c) 2020 The Author(s)."""
+
+

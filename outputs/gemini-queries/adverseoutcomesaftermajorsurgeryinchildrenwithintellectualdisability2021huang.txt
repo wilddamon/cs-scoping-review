@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adverseoutcomesaftermajorsurgeryinchildrenwithintellectualdisability2021huang
+"Aim: To evaluate outcomes after major surgery in children and adolescents with intellectual disability. Method: We used 2004 to 2013 claims data from Taiwan's National Health Insurance programme to conduct a nested cohort study, which included 220 292 surgical patients aged 6 to 17 years. A propensity score matching procedure was used to select 2173 children with intellectual disability and 21 730 children without intellectual disability for comparison. Logistic regression was used to calculate the adjusted odds ratios (ORs) and 95% confidence intervals (CIs) of the postoperative complications and 30-day mortality associated with intellectual disability. Results: Children with intellectual disability had a higher risk of postoperative pneumonia (OR 2.16, 95% CI 1.48-3.15; p<0.001), sepsis (OR 1.67, 95% CI 1.28-2.18; p<0.001), and 30-day mortality (OR 2.04, 95% CI 1.05-3.93; p=0.013) compared with children without intellectual disability. Children with intellectual disability also had longer lengths of hospital stay (p<0.001) and higher medical expenditure (p<0.001) when compared with children with no intellectual disability. Interpretation: Children with intellectual disability experienced more complications and higher 30-day mortality after surgery when compared with children without intellectual disability. There is an urgent need to revise the protocols for the perioperative care of this specific population. What this paper adds: Surgical patients with intellectual disability are at increased risk of postoperative pneumonia, sepsis, and 30-day mortality. Intellectual disability is associated with higher medical expenditure and increased length of stay in hospital after surgical procedures. The influence of intellectual disability on postoperative outcomes is consistent in both sexes and those aged 10 to 17 years. Low income and a history of fractures significantly impacts postoperative adverse events for patients with intellectual disability. (c) 2020 Mac Keith Press"""
+
+

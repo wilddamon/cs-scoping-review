@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictorsofasuccessfulexternalcephalicversionapopulationbasedstudyofwashingtonstatebirths2019morgan
+"BACKGROUND: Breech presentation affects approximately 3% of women with singleton pregnancies. External cephalic version is a manual procedure that reorients a foetus to cephalic position in preparation for birth, reducing indications for caesarean birth. However, unsuccessful attempts are associated with some adverse health outcomes. Versions are successful in 17-86% of attempts. Temporal trends in version success and association between maternal height or prenatal care and version success are unknown. Few population-based studies and no recent investigations in the United States have evaluated predictive factors for version success. OBJECTIVES: This study aimed to estimate the proportion of successful version procedures in the United States and to evaluate factors associated with version success. METHODS: We used birth certificate and hospital administrative data. The study included all women who had a singleton birth in Washington State between 2003-2014 following a version procedure (total n=4981). Prevalence ratios and 95% confidence intervals were calculated using Poisson regression. FINDINGS: 57.2% of version attempts were successful. Primiparity (Prevalence Ratio:1.43; 95% Confidence Interval:1.29-1.60) and multiparity (Prevalence Ratio:1.68; 95% Confidence Interval:1.50-1.88) were associated with procedure success. Oligohydramnios was associated with lower version success (Prevalence Ratio:0.75; 95% Confidence Interval:0.57-1.00). Maternal height, pre-pregnancy weight, polyhydramnios, frequency of prenatal care, smoking, infant sex, and year of birth were not significantly associated with version outcome. CONCLUSION: We found that most version procedures are successful. This reinforces that procedures may be able to reduce the frequency of caesarean birth. These contemporary results can help women and clinicians make decisions with realistic estimates of success."""
+
+

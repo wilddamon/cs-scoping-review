@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionmodelforearlychildhoodcariesriskbasedonbehavioraldeterminantsusingamachinelearningalgorithm2022qu
+"BACKGROUND: An easily accessible caries risk prediction model (CRPM) based on nonbiological predictors is lacking. Developing a CRPM for community screening is essential for children's dental health promotion by a public health approach. OBJECTIVE: This study aimed to develop and validate a caries risk prediction model (CRPM) for children using a machine learning algorithm based on dental care behavioral factors and other nonbiological factors using a 3-month multicenter cohort. METHODS: Children aged 12 months to 60 months were recruited at three primary care settings and three kindergartens in Chengdu, China. Dental examination was conducted for all enrolled children by calibrated pediatric dentists at baseline and three months later. All parents of the enrolled children were asked to complete a questionnaire with dental-related information. Machine learning algorithms, including random forest, logistic regression, and adaptive boosting, were used to develop a prediction model. Sensitivity, specificity, accuracy, precision, negative predictive value and F-score were reported to estimate the internal validation of the models. RESULTS: A total of 481 out of 745 children without a history of caries experience at baseline remained for analysis. In the total sample population, 236 (49.1%) children were female, and the mean age was 31.2 months. During the follow-up exams, 66 (13.6%) children had new-onset caries. The child's age, height, weight, family caries status, brush teeth two minutes per time, fluoride toothpaste usage, brushing twice per day, parental monitoring brushing teeth, mother delivery method, brushing child's teeth every day, child number counts, and night feeding frequency in the last month were measured and included in a prediction model. Of the prediction models, the highest area under the curve of RF was 0.91 (95% CI: 0.87- 0.94), followed by 0.86 (95% CI: 0.81-0.91) of LR and 0.81 (95% CI: 0.76-0.86) of AdaBoost. CONCLUSION: In this CRPM, new onset of dental caries in three months among children aged < 60 months could be predicted by answering twelve nonbiological questions. A good model performance was shown within the internal validation. Dental home care could be improved by referring the CRPM result before new caries onset."""
+
+

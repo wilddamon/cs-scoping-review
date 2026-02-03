@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparingvisualestimationandhematocritchangeintheassessmentofbloodlossamongwomenundergoingcesareandeliveryinatertiaryfacilityinnorthernuganda2024edilu
+"BACKGROUND: Cesarean section poses a fourfold risk for postpartum hemorrhage (PPH), necessitating accurate blood loss estimation to enable timely interventions. However, the conventional visual estimation method often leads to underestimation, resulting in undiagnosed PPH even in our setting, Uganda. Yet, the quantitative standard techniques remain underutilized. OBJECTIVE: We compared visual and calculated blood loss among women undergoing cesarean delivery at Gulu Regional Referral Hospital in northern Uganda. DESIGN: We employed a cross-sectional study design. METHODS: We enrolled pregnant women scheduled for cesarean section and determined both calculated and visually estimated blood loss. Data analysis involved using Pearson's moment correlation coefficient to compare the two methods and logistic regression to determine the factors associated with PPH. RESULTS: We included 105 participants, most were primigravida (n = 100, 43%), aged 15-24 years (n = 100, 52%), with term gestation (n = 100, 75%). The mean visual estimated blood loss (vEBL) was 235.3 +- 123.7 ml (interquartile range (IQR) 50-600 ml), while the calculated estimated blood loss (cEBL) was 435.0 +- 1328.2 ml (IQR -11,182.1-2226.7 ml). Visual estimation underestimated blood loss in 90% of cases (n = 100), and 21% (n = 21) had undiagnosed PPH (>1000 ml blood loss). None of the respondents had PPH (>1000 ml blood loss) following vEBL. There was a small positive correlation between both methods (vEBL and cEBL; r = 0.1165; p = 0.2482). Women aged >35 years were 1.60 times more likely to experience PPH than their counterparts aged 25-34 years (adjusted odds ratio (AOR): 1.60; 95% CI: 1.11-2.30, p < 0.011). Chorioamnionitis increased the risk of PPH by 2.2 times (AOR: 2.20; 95% CI: 1.20-4.05, p < 0.012). CONCLUSION: The visual estimation technique significantly underestimated blood loss in up to 90% of cases, particularly during emergency cesarean sections. Among the 21% of cases diagnosed with PPH based on calculated blood loss, advanced maternal age and chorioamnionitis were notable contributing factors. Routine hemoglobin and hematocrit testing in obstetric care can be effectively utilized to objectively assess blood loss, aiding in the accurate diagnosis and management of PPH. Implementing these measures, even in resource-constrained settings, can significantly reduce the morbidity and mortality associated with PPH. TRIAL REGISTRATION: Not applicable."""
+
+

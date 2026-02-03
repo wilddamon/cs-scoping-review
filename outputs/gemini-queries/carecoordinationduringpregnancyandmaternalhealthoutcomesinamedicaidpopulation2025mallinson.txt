@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: carecoordinationduringpregnancyandmaternalhealthoutcomesinamedicaidpopulation2025mallinson
+"Objective: To test the association between Prenatal Care Coordination (PNCC) participation during pregnancy and maternal health outcomes among Medicaid beneficiaries in Wisconsin. Design: Retrospective cohort study using data from birth records linked to Medicaid claims. Setting: Wisconsin, United States. Participants: Beneficiaries with live births funded by Medicaid from 2011 to 2019 (full sample: N = 192,511 births; sibling sample: n = 91,329 births). Methods: We used conventional and sibling fixed effects (FE) linear probability models to test associations between PNCC (none, assessment/care plan only, or service receipt) and maternal health outcomes, including severe maternal morbidity (SMM), any postpartum visit (within 30 days after birth or within 90 days after birth), emergency department (ED) admission within 30 days after birth, and the Kotelchuck Index of prenatal care adequacy. We adjusted our regression models for demographic, health, and birth characteristics. Results: In conventional models, PNCC service receipt was positively associated with the likelihood of having a 30-day postpartum visit (7.2 percentage points (pp); 95% confidence interval (CI) [6.5, 7.8pp]), a 90-day postpartum visit (7.1pp; 95% CI [6.5, 7.7pp]), and an ED admission (2.3pp; 95% CI [1.8, 2.7pp]). In bias-limiting sibling FE models, PNCC service receipt was positively associated with having a 30-day postpartum visit (2.6pp; 95% CI [1.4, 3.9pp]) and an ED admission (1.1pp; 95% CI [0.3, 2.0pp]), and it was negatively associated with having SMM (-0.4pp; 95% CI [-0.6, -0.1pp]) and having adequate prenatal care (-1.3pp; 95% CI [-2.2, -0.4pp]). Conclusion: The mixed evidence regarding the benefit of PNCC indicates the program's potential and opportunities for improvement as well as the need to evaluate similar programs in other states. (c) 2025 Association of Women's Health, Obstetric and Neonatal Nurses"""
+
+

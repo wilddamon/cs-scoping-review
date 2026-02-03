@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: radiomicstudyofantenatalpredictionofsevereplacentaaccretaspectrumfrommri2024bartels
+"OBJECTIVES: We previously demonstrated the potential of radiomics for the prediction of severe histological placenta accreta spectrum (PAS) subtypes using T2-weighted MRI. We aim to validate our model using an additional dataset. Secondly, we explore whether the performance is improved using a new approach to develop a new multivariate radiomics model. METHODS: Multi-centre retrospective analysis was conducted between 2018 and 2023. Inclusion criteria: MRI performed for suspicion of PAS from ultrasound, clinical findings of PAS at laparotomy and/or histopathological confirmation. Radiomic features were extracted from T2-weighted MRI. The previous multivariate model was validated. Secondly, a 5-radiomic feature random forest classifier was selected from a randomized feature selection scheme to predict invasive placenta increta PAS cases. Prediction performance was assessed based on several metrics including area under the curve (AUC) of the receiver operating characteristic curve (ROC), sensitivity, and specificity. RESULTS: We present 100 women [mean age 34.6 (+-3.9) with PAS], 64 of whom had placenta increta. Firstly, we validated the previous multivariate model and found that a support vector machine classifier had a sensitivity of 0.620 (95% CI: 0.068; 1.0), specificity of 0.619 (95% CI: 0.059; 1.0), an AUC of 0.671 (95% CI: 0.440; 0.922), and accuracy of 0.602 (95% CI: 0.353; 0.817) for predicting placenta increta. From the new multivariate model, the best 5-feature subset was selected via the random subset feature selection scheme comprised of 4 radiomic features and 1 clinical variable (number of previous caesareans). This clinical-radiomic model achieved an AUC of 0.713 (95% CI: 0.551; 0.854), accuracy of 0.695 (95% CI 0.563; 0.793), sensitivity of 0.843 (95% CI 0.682; 0.990), and specificity of 0.447 (95% CI 0.167; 0.667). CONCLUSION: We validated our previous model and present a new multivariate radiomic model for the prediction of severe placenta increta from a well-defined, cohort of PAS cases. ADVANCES IN KNOWLEDGE: Radiomic features demonstrate good predictive potential for identifying placenta increta. This suggests radiomics may be a useful adjunct to clinicians caring for women with this high-risk pregnancy condition."""
+
+

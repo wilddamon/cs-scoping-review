@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyandneonataloutcomesinwomenwitharcuateuterusapopulationbasedcohortstudyofover38millionwomen2025kugelman
+"BACKGROUND: Congenital uterine anomalies are associated with adverse reproductive outcomes, yet the impact of the arcuate uterus remains unclear due to limited sample sizes and inconsistent findings in previous studies. We utilized a large population database to assess pregnancy, delivery, and neonatal outcomes in women with an arcuate uterus. METHODS: Retrospective population-based study using data from the Health Care Cost and Utilization Project-Nationwide Inpatient Sample. Cases of arcuate uterus were identified using ICD code 752.36. Pregnancies in women with an arcuate uterus were matched to 3,016 pregnancies in women without congenital uterine anomalies (1 to 4) and compared to the entire population without congenital anomalies. Multivariate logistic regression adjusted for confounding variables. RESULTS: Among 3,841,147 control births and 754 births in women with an arcuate uterus, more of these women were older than 25 and had higher rates of previous cesarean sections (CS), in-vitro pregnancies, and multiple gestations (all P < 0.01). Pregnancy outcomes showed higher rates of pregnancy-induced hypertension (adjusted odds ratio (aOR) 1.32), preeclampsia (aOR 1.63), premature preterm rupture of membranes (aOR 2.86), preterm delivery (aOR 1.86), placental abruption (aOR 3.08), CS (aOR 10.88), and small for gestational age (SGA) neonates (aOR 2.21) (all 95%CI excluding 1). Compared to the matched cohort, women with an arcuate uterus had higher rates of pregnancy-induced hypertension (aOR 1.76), preeclampsia (aOR 2.08), premature preterm rupture of membranes (aOR 2.46), preterm delivery (aOR 2.74), placental abruption (aOR 2.11), postpartum hemorrhage (aOR 1.67), wound complications (aOR 3.42), CS (aOR 30.04), disseminated intravascular coagulopathy (DIC) (aOR 5.36), and SGA (aOR 1.76) (all 95%CI excluding 1). CONCLUSIONS: Women with an arcuate uterus appear to be at increased risk of adverse pregnancy outcomes, particularly CS and DIC. These associations should be interpreted with caution and confirmed in larger studies."""
+
+

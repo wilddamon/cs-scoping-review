@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: linkageoftrafficcrashandhospitalizationrecordswithlimitedidentifiersforenhancedpublichealthsurveillance2017conderino
+"Background Motor vehicle traffic (MVT) crashes kill or seriously injure approximately 4250 people in New York City (NYC) each year. Traditionally, NYC surveillance practices use hospitalization and crash data separately to monitor trends in MVT-related injuries, but key information linking crash circumstances to health outcomes is lost when analyzing these data sources in isolation. Our objective was to match crash reports to hospitalization records to create a traffic injury surveillance dataset that can be used to describe crash circumstances and related injury outcomes. The linkage of the two systems presents a unique challenge since the system tracking crashes and the system tracking hospitalizations and emergency department (ED) visits lack key identifying data such as names and dates of birth. Methods NYC Department of Transportation provided electronic records based on reports of motor vehicle crashes submitted to the New York State Department of Motor Vehicles for all crashes occurring in NYC from 2009 to 2013. New York Statewide Planning and Research Cooperative System (SPARCS) ED and hospitalization administrative data from NYC hospitals were used to identify unintentional MVT-related injuries using external cause of injury codes. Since the two systems do not share unique individual identifiers, probabilistic record linkage was conducted using LinkSolv9.0. Sensitivity/specificity calculations and chi-square analyses of linkage rates were conducted to assess linkage results. Results From 2009-2013, there were 1,054,344 individuals involved in MVT crashes in NYC and 280,340 ED visits and hospitalizations from MVT-related injuries. There were 145,003 linked pairs, giving a linkage rate of 52% of the total MVT-related hospital records. This linkage had a sensitivity of 74% and a specificity of 93%. Linkage rates were comparable by age, sex, crash role, collision type, hospital county, injury location, hospital type, and hospital status, indicating no apparent biases in the match by these variables. Conclusions Performing a probabilistic linkage between MVT crash reports and hospitalization records is possible with a limited set of identifying variables. These linked data will inform traffic safety policies by providing new information on how crash circumstances translate to health outcomes. (c) 2017 Elsevier Ltd"""
+
+

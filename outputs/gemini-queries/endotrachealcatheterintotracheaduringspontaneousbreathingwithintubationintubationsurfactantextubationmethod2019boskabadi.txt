@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparativestudyoftheeffectoftheadministrationofsurfactantthroughathinendotrachealcatheterintotracheaduringspontaneousbreathingwithintubationintubationsurfactantextubationmethod2019boskabadi
+"Introduction: The main reason for respiratory distress syndrome (RDS) is surfactant deficiency. One of the methods for surfactant administration is through a thin endotracheal catheter (TEC) during the spontaneous breathing of an infant. To identify the clinical effects of this method, we decided to compare the effect of surfactant administration through a TEC during spontaneous breathing through the intubation-surfactant-extubation (INSURE) method. Methodology: In a single-blind clinical trial, we randomly divided 40 premature infants with a gestational age of <32 weeks and birth weight of <1500 g suffering from RDS who needed surfactant administration, into the two groups of intervention (TEC) and control (INSURE). The treatment results were compared in the two groups in terms of the frequency and duration of mechanical ventilation requirement, duration of nasal continuous positive airway pressure (NCPAP) requirement, duration of infants' stay in neonatal intensive care unit, and side effects such as pulmonary hemorrhage, frequency and severity of intraventricular hemorrhage of the brain, and also death at 28 days of age. Result(s): The infants of both groups did not significantly differ in terms of gender, mode of delivery, Apgar score at 1 and 5 min, gestational age, and birth weight (P > 0.05). The mechanical ventilation requirement in the infants of the control group was significantly higher compared to the intervention group (P = 0.027). The duration of NCPAP requirement and duration of hospitalization in the groups did not significantly differ (P > 0.05). Conclusion(s): Based on our results, the TEC method decreases mechanical ventilation requirement, but NCPAP requirement and duration of stay did not differ from the normal method, therefore, TEC can be an acceptable alternative to INSURE.Copyright (c) 2019 Medknow Publications. All rights reserved."""
+
+

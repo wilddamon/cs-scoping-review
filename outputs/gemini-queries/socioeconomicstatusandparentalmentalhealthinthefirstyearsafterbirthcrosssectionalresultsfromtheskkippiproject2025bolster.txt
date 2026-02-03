@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenneighbourhoodsocioeconomicstatusandparentalmentalhealthinthefirstyearsafterbirthcrosssectionalresultsfromtheskkippiproject2025bolster
+"Background: The urban environment can influence mental health. However, research on neighbourhood influences on mental health of parents with young children is sparse. This study aimed to analyse the association between neighbourhood socioeconomic status (SES) and mental health outcomes in urban parents in the first years after birth. Methods: We included 4707 parents of young children who participated in the SKKIPPI cohort study in Berlin. Data on mental health outcomes (symptoms of depression, anxiety, or both, measured via PHQ- 4) and individual risk factors stemmed from an online questionnaire and were matched with neighbourhood level data from the Berlin Senate Department for Urban Development and Housing. Neighbourhood status (exposure) was categorized in 4 SES categories: high, medium, low, and very low. We use propensity scores to estimate the probability to live in each neighbourhood category to reduce the risk of bias due to neighbourhood self-selection. Binominal generalised linear mixed models with propensity score adjustment were used to estimate the association between neighbourhood SES and symptoms of depression, anxiety, or both. Results: Overall, 9.3% of parents showed depressive, 10.3% anxiety, and 5.3% both symptoms. The occurrence of mental health problems was lowest in neighbourhoods with high SES and highest in neighbourhoods with low/very low SES. The association between neighbourhood SES and mental health outcomes seen in unadjusted regression models disappeared when models were adjusted for individual risk factors/neighbourhood self-selection using propensity scores. Conclusion: We found no association between neighbourhood SES and mental health outcomes in parents in the first years after birth after adjusting for neighbourhood selection. Nevertheless, the unadjusted findings suggest that the occurrence of individual risk factors and mental health problems was highest in neighbourhoods with low/very low SES, which should be focus for social and preventive health measures. (c) 2024"""
+
+

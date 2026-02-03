@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: causalinsightsintogestationaldiabetesmellitus2025zahoor
+"INTRODUCTION: Gestational diabetes mellitus (GDM), defined by the onset of hyperglycaemia during pregnancy, remains the most prevalent metabolic complication in pregnancy. It is associated with increased risks of adverse maternal, neonatal, and long-term metabolic outcomes. This study aimed to identify potential causal relationships within clinical data on GDM that could support more targeted and effective interventions. METHODS: A clinically curated dataset of patients diagnosed with GDM at a major Irish maternity hospital was analysed, covering the study periods 2014-2016 and 2020. A knowledge graph was constructed by integrating clinical expertise, established literature, and insights generated using the GPT-4 large language model. To complement this, 20 structure learning algorithms were applied to independently infer Causal Bayesian Networks (CBNs). A model-averaging approach was then used to generate a consensus-based causal structure to account for variability across individual models. RESULTS: The integrative model produced a more stable representation of underlying relationships and yielded quantifiable insights to support clinical decision-making. Clinicians involved in the study reported improved confidence in patient care strategies due to the ability to quantify these relationships, facilitating more personalised, evidence-based practice. Key findings from the model-averaged CBN highlighted critical pathways in GDM management, such as the influence of birth weight on neonatal intensive care unit (NICU) admissions and the impact of dietary intervention on maternal glucose regulation. Sensitivity analysis confirmed birth weight, gestational age at delivery, and mode of delivery as major determinants of maternal and neonatal outcomes. Non-modifiable factors, including a history of multiple pregnancies and prior GDM, also contributed to risk stratification. DISCUSSION: This study applied structure learning techniques to observational clinical data to identify clinically relevant relationships. The resulting insights provide a basis for generating hypotheses that could refine intervention strategies and improve patient outcomes in GDM care."""
+
+

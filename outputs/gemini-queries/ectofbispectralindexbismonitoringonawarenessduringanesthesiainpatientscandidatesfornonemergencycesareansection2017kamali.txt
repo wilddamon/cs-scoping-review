@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessmentofthreffectofbispectralindexbismonitoringonawarenessduringanesthesiainpatientscandidatesfornonemergencycesareansection2017kamali
+"Background: Awareness during general anesthesia is potentially an unpleasant experience among patients undergoing surgical procedures. Despite the loss of consciousness induced by anesthesia, patients may experience pain during surgical processes due to their sensory perceptions and improper pain management. Anesthesiologists can estimate the level of patients' unconsciousness, based on their clinical experience and skills, as well as such as changes in patients' clinical signs (e.g., blood pressure, heart rate, sweating and tears in the eyes). However, since this sign is neither accessible nor reliable at all times, bispectral index (BIS) monitoring is required during the general anesthesia, particularly in the cesarean section. Method(s): This double-blinded, randomized, clinical trial was performed on 214 women (> 15 years of age) with (American Society of Anesthesiologists) ASA class I and II, undergoing cesarean section at Taleghani Hospital of Arak, Iran. The participants undergoing general anesthesia were randomly divided into intervention (with BIS monitoring) and control groups (without BIS monitoring). The level of subjects' awareness during anesthesia was determined by interviews (using specific structured questions) within 24 hours after the surgery and 3-6 days following the procedure at the post-anesthesia care unit. Result(s): Awareness during anesthesia was reported in 8 out of 107 cases (7.4%) in the control group (awareness score >= 2). However, this event was observed in none of the participants (0%) in the intervention group. Based on Kruskal-Wallis test results, level of awareness during anesthesia in the control group was higher than the intervention group (P<0.001). Conclusion(s): Based on the finding, level of awareness during anesthesia was dramatically lower in subjects with BIS monitoring, compared to those without BIS monitoring (traditional anesthetic induction).Copyright (c) 2017, Institute of Integrative Omics and Applied Biotechnology. All rights reserved."""
+
+

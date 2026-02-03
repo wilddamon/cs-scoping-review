@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: preconceptionmaternalretinalarteriolarnarrowingandfetalgrowththroughoutpregnancyaprospectivecohortstudy2024li
+"Objective: To investigate the association between preconception maternal retinal arteriolar calibre and fetal growth. Design, setting and population: A hospital-based, prospective preconception cohort including 369 women with a singleton live birth. Methods: We collected detailed information on sociodemographic status, pregnancy history and lifestyle, and performed retinal imaging at the preconception visit. Main outcome measures: We retrieved medical records documenting fetal growth biometrics (e.g., abdominal circumference [AC], head circumference [HC], femur length [FL]) at 11-13, 18-21, 24-28, and 32-34 weeks throughout pregnancy. We then computed the z scores for all fetal growth biometrics from 14 weeks of gestation where data were available, referencing the INTERGROWTH-21st fetal growth chart. We used a linear mixed model to estimate the association between maternal preconception retinal arteriolar calibre and fetal growth biometrics z scores throughout pregnancy, with random intercept accounting for repeated measures within individuals. We then performed a multivariable linear regression of maternal preconception retinal arteriolar calibre and z score changes for all fetal growth biometrics between 24-28 weeks and 32-34 weeks of gestation, after full adjustment. Results: Maternal preconception generalised retinal arteriolar narrowing was consistently associated with a reduction in fetal AC z scores (-0.34; 95% CI -0.66 to -0.03) throughout pregnancy. In addition, women with preconception generalised retinal arteriolar narrowing tended to have significantly reduced z score changes in AC (-0.41; 95% CI -0.90 to -0.001) and fetal FL (-0.55; 95% CI -1.00 to -0.10) between 24-28 weeks and 32-34 weeks of gestation, respectively. Conclusions: Our findings suggest that women with narrower preconception retinal arterioles had smaller fetuses, evidenced by reductions in AC and FL z score throughout pregnancy. (c) 2023 National University of Singapore. BJOG: An International Journal of Obstetrics and Gynaecology published by John Wiley & Sons Ltd."""
+
+

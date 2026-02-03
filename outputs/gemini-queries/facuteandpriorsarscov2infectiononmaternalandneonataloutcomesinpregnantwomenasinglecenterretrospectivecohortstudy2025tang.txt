@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofacuteandpriorsarscov2infectiononmaternalandneonataloutcomesinpregnantwomenasinglecenterretrospectivecohortstudy2025tang
+"BACKGROUND: Severe Acute Respiratory Syndrome Coronavirus-2 (SARS-CoV-2) infection in pregnant women have an adverse impact on perinatal outcomes, including cesarean section, preterm birth, fetal distress. However, it's uncertain whether these adverse consequences are caused by previous SARS-COV-2 infection during pregnancy or acute infection at the time of delivery. METHODS: We conducted a single-center retrospective cohort study among pregnant women with singleton pregnancy who delivered between 1 December 2022 and 1 February 2023 (n = 2472). Pregnancies were divided into three groups: non-infected group, acute SARS-CoV-2 infection group, prior SARS-CoV-2 infection group based on PCR or antigen test. The clinical data for mothers and neonates came from medical records on internal healthcare system. Follow-up time spanned from admission to discharge. We investigated the impact of acute and prior SARS-CoV-2 infection on maternal and neonatal outcome. Multivariable logistic models were used to assess the risk of adverse perinatal outcome in pregnant women with acute and prior SARS-CoV-2 infection. RESULTS: Compared to the non-infected pregnant women, acute SARS-CoV-2 infected pregnant women had significant higher rates of intrahepatic cholestasis of pregnancy (ICP) (26 women [4.4%] vs. 8 women [1.0%]; aOR, 4.9 [95% CI, 2.2-11.0]; P < 0.001), preterm birth (<37 wk) (53women [9.0%] vs. 45 women [5.7%]; aOR, 1.7 [95% CI, 1.1-2.7]; P < 0.05), fetal distress(106 women [18.1%] vs. 82 women [10.4%]; aOR,1.9 [95% CI, 1.4-2.6]; P < 0.01), primary cesarean delivery (216 women [36.9%] vs. 239women [30.3%]; aOR, 1.4[95% CI, 1.1-1.8]; P < 0.01) and neonatal unit admission (69 neonates [12%] vs. 64 neonates [8.3%]; aOR, 1.6 [95% CI, 1.1-2.3]; P < 0.05), prior SARS-CoV-2 infection were associated with an increased risk of ICP (40 women [3.7%] vs. 8 women [1.0%]; aOR, 3.9 [95% CI, 1.8-8.5]; P <0.001). CONCLUSIONS: Pregnant women at delivery with acute SARS-CoV-2 infection were associated with higher risk of ICP, preterm birth, fetal distress, primary cesarean delivery and neonatal unit admission. Prior SARS-CoV-2 infection during pregnancy was associated with higher risk ICP. These findings emphasize the need for optimization of strategies for prevention of SARS-CoV-2 infection in pregnant women, especially for acute infection at delivery."""
+
+

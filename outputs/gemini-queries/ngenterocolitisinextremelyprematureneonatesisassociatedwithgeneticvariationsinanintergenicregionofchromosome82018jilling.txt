@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: surgicalnecrotizingenterocolitisinextremelyprematureneonatesisassociatedwithgeneticvariationsinanintergenicregionofchromosome82018jilling
+"BackgroundTwin studies suggest that genetic factors may account for up to 50% increased risk for necrotizing enterocolitis (NEC), but genome-wide association studies for NEC are lacking.MethodsGenotyping was done on Illumina BeadChip, followed by analysis using PLINK with logistic regression under an additive model.ResultsAmong 751 extremely-low-birth-weight (<1,000 g, >401 g) neonates, 30 had surgical NEC. Two hundred and sixty-one single-nucleotide polymorphisms (SNPs) showed association with NEC at P<0.05, of which 35 were significant at P<10-7. Minor allele(s) in a cluster of SNPs spanning a 43-kb region of chromosome 8 (8q23.3) conferred an odds ratio of 4.72 (95% confidence interval (CI): 2.51-8.88) for elevated risk of NEC. Two smaller clusters on chromosome 14 and chromosome 11 exhibited P values of 10-7-10-8. The chromosome 8 cluster is in an intergenic region between CUB and Sushi multiple domains 3 (-1.43 Mb) and trichorhinophalangeal syndrome I (+542 kb). RNA sequencing in this region identified a potential novel open-reading frame corresponding to a long interspersed element-1 retrotransposable element.ConclusionGenetic variation in an intergenic region of chromosome 8 is associated with increased risk for NEC with a mechanism that is yet to be identified. (c) Copyright 2018 International Pediatric Research Foundation, Inc."""
+
+

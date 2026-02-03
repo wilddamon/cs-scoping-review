@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: quantitativeanalysisofbonybirthcanalforperiacetabularosteotomypatientbytemplatefitting2021shao
+"Periacetabular osteotomy (PAO) is a joint preservation procedure for developmental dysplasia of the hip. Such a procedure requires osteotomy of the medial wall of the acetabulum, which may cause the narrow of the bony birth canal and increase the risk of complications during the childbirth process in the future. Using quantitative analysis of the bony birth canal to determine the risk of complications for the childbirth process remains a challenging task. The purpose of this paper is to explore a new 3D CT measurement method to quantify the narrowest parameters of the bony birth canal of the female patients with hip dysplasia before and after unilateral PAO surgery. By analyzing the impact of PAO surgery on the bony birth canal, the patient's risk of complications during the childbirth process in the future can be estimated, and it can be utilized for doctors to determine the impact of unilateral PAO for choosing appropriate delivery method. In this paper, a mean shape of the preoperative pelvises is obtained by using the statistical shape model algorithm, and the mean shape includes pelvic shape features of all the preoperative pelvises, and it can be utilized as the standard pelvic template. A bidirectional iterative algorithm is used to generate a standard bony birth canal path template. Then, the pelvic registration and principal plane deformation constraint are utilized to calculate the optimal bony birth canal path. The proposed method is verified in 31 cases of CT data with the approval of the institutional review board. The test data contain preoperative and postoperative CT images. Compared with the benchmark method, the measurement accuracy of the narrowest position and diameter of the bony birth canal is improved by 65% and 78%, respectively. In addition, the processing speed is increased by 32%. Experimental results demonstrate that the proposed method has high accuracy and validity for quantifying the bony birth canal. The proposed method can measure the anatomical parameters of the bony birth canal accurately. In addition, the doctor can make optimal planning for childbirth with the help of the quantitative analysis of the bony birth canal."""
+
+

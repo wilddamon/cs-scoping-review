@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thenaplespediatricfoodallergynapfascoreamultivariablemodelforthepredictionoffoodallergyinchildren2025carucci
+"BACKGROUND: Food allergy (FA) is one of the most common chronic conditions in children. Diagnostic delays and errors in FA are relevant problems in clinical practice. Non-invasive and accessible tools for FA diagnosis are highly required. We aimed to develop an easy-to-use clinical score to facilitate the diagnostic approach for pediatric FA (i.e. the NAPFA score). METHODS: Subjects with suspected FA aged 0-14 years were prospectively evaluated at a tertiary center for pediatric allergy, gastroenterology, and nutrition. Upon completing the diagnostic workup, the subjects were diagnosed with FA based on the oral food challenge result, or with other conditions. Bootstrapped multivariable logistic regression was employed to construct two models that estimate the probability of having FA, one (M1) without the results of the allergy screening tests, while the other (M2) including them. RESULTS: Six hundred and twenty-seven pediatric subjects were included in the study. The median (interquartile interval) age at symptom onset was 8 (3;27) months. M1 employed the following predictors: sex, age at symptoms onset, cesarean delivery, occurrence of atopic dermatitis before FA onset, first degree family members with allergy, symptoms occurrence after ingestion of specific food, and skin, gastrointestinal, respiratory, and systemic symptoms. M2 replaced the occurrence of symptoms after ingestion of specific food with the results of allergy tests. The c-statistic was 0.915 (95% bootstrapped CI: 0.895-0.937) for M1 and 0.977 (95% CI: 0.969-0.992) for M2. Both models demonstrated good internal calibration and a favorable decision analysis curve. CONCLUSION: The NAPFA score could be an easy-to-use tool holding the potential to streamline the FA diagnostic process in pediatric age, reducing unnecessary testing, and improving patient outcomes in a variety of healthcare settings. Its external validation will possibly enable a standardized approach for identifying children with FA."""
+
+

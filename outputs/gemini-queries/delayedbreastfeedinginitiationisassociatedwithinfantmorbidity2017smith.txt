@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: delayedbreastfeedinginitiationisassociatedwithinfantmorbidity2017smith
+"Objective To assess the relationship between breastfeeding initiation time and postneonatal mortality, morbidity, and growth through 24 months in a cohort of Tanzanian infants. Study design We included 4203 infants from 2 trials of micronutrient supplementation. We used Cox proportional hazards models or general estimating equations to estimate relative risks. Results A total of 13% of infants initiated breastfeeding >1 hour after birth (n = 536). There was no association between breastfeeding initiation time and risk of all-cause or cause-specific mortality, nor infant growth failure, from 6 weeks to 2 years of age. However, delayed breastfeeding was associated with an increased risk of several common infectious morbidities in early infancy, including upper respiratory infection symptoms and vomiting. Compared with those who initiated breastfeeding within the first hour of birth, delayed breastfeeding initiation was associated with an 11% increased risk of cough (relative risk 1.11, 95% CI 1.02-1.21) and a 48% increased risk of difficulty breathing (relative risk 1.48, 95% CI 1.09-2.01) during the first 6 months. Delayed initiation was associated with a greater risk of difficulty breathing from 6 to 12 months of age, but it was not associated with risk of any other morbidity during this time, nor any morbidity between 12 and 24 months. Conclusion Delayed breastfeeding initiation is associated with an increased risk of infant morbidity during the first 6 months of life. Early breastfeeding initiation, along with exclusive and prolonged breastfeeding, should be prioritized and promoted in efforts to improve child health. (c) 2017 Elsevier Inc."""
+
+

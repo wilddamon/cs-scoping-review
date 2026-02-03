@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: spontaneousintestinalperforationinextremelyprematureinfantsexposedtoearlylowdosehydrocortisone2025cambonie
+"AIM: To assess the occurrence of spontaneous intestinal perforation (SIP) in < 28 weeks' gestational age (GA) infants exposed to early low-dose hydrocortisone (ELH) to reduce the risk of bronchopulmonary dysplasia (BPD). Additionally, the risk of SIP was assessed in infants exposed to early concomitant treatment with ibuprofen for persistent ductus arteriosus (PDA). METHODS: Observational study in a tertiary neonatal centre preceding and following hydrocortisone implementation. Exposed and non-exposed infants were compared after matching on delivery mode, multiple pregnancy, GA, birthweight, sex and using multivariate logistic regression analysis. RESULTS: Among 653 infants, 259 (40%) had been exposed to hydrocortisone, and 210 from each group could be paired. Exposed infants had a higher rate of SIP (8.1% vs. 2.9%, OR [95% CI] 2.99 [1.15-7.74]). Early ibuprofen was provided to 110 exposed (52%) and 105 nonexposed (50%). The rate of SIP was higher in exposed infants cotreated with ibuprofen (11.8% vs. 3.8%, OR 3.38 [1.07-10.73]). Logistic regression analysis in the whole cohort confirmed the risk of SIP in infants exposed to concomitant treatment (OR [95% CI] 2.93 [1.24-6.93]). CONCLUSION: Early concomitant treatment with ELH and ibuprofen is associated with an increased risk of SIP in infants born < 28 weeks."""
+
+

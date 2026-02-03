@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: repeatedcervicallengthmeasurementsfortheverificationofshortcervicallength2017hermans
+"Objective: To determine if the verification of short cervical length with a repeated measurement improved the identification of patients with short cervical length at increased risk of preterm delivery. Methods: The present secondary analysis analyzed prospective cohort study data from patients with singleton pregnancies without a history of preterm delivery who presented for obstetric care in the Netherlands and delivered between November 18, 2009, and January 1, 2013. Cervical length was measured during standard anomaly scan and a second measurement was performed if the cervical length was 30 mm of shorter. Logistic regression and Cox proportional hazards modeling were used to evaluate associations between cervical length measurements and spontaneous preterm delivery before 37 weeks of pregnancy. Results: Cervical length measurements from 12 358 patients were included; 221 (1.8%) had an initial cervical length measurement of 30 mm or shorter. A second cervical length measurement was performed for 167 (75.6%) patients; no differences were identified in the odds of spontaneous preterm delivery when evaluated using the first, second, or a mean of both measurements, regardless of whether cervical length was analyzed as a continuous or dichotomous variable. Conclusion: Among patients with singleton pregnancies, verification of short cervical length did not improve the identification of short cervical length. (c) 2017 International Federation of Gynecology and Obstetrics"""
+
+

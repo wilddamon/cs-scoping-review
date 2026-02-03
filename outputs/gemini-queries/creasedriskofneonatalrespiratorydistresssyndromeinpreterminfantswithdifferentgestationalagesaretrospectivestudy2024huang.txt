@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lowprognosticnutritionalindexpnilevelisassociatedwithanincreasedriskofneonatalrespiratorydistresssyndromeinpreterminfantswithdifferentgestationalagesaretrospectivestudy2024huang
+"BACKGROUND: Neonatal respiratory distress syndrome (NRDS) is common in preterm infants. Prognostic nutritional index (PNI)((albumin (g/L)+(5xtotal lymphocyte count (10(9)/L)) is a comprehensive indicator of nutritional and immune levels, and associated with several diseases. The relationship between PNI and the risk of NRDS in newborns of different gestational ages remains unclear. METHODS: A total of 2722 preterm infants were included in this retrospective study. PNI level and clinical records of these neonates (adverse pregnancy and birth history, amniotic fluid contamination, nuchal cord, placental abnormality, mode of delivery, gender and birth weight of neonates, Apgar scores) were collected. The clinical features of the infants with and without NRDS were compared. Logistic regression analysis was used to evaluate the relationship between PNI and NRDS in newborns with different gestational ages. RESULTS: There were 1226 neonates with NRDS and 1496 without NRDS. The differences in the proportions of placenta abnormality, cesarean section, and small for gestational age (SGA) among infants with 34-37 weeks, 28(+1)-33(+6) weeks, and <=28 weeks gestational age were statistically significant. Logistic analysis showed that cesarean section (odds ratio (OR): 1.550, 95% confidence interval (CI): 1.197-2.007, p=0.001), and low PNI (OR: 1.417, 95% CI: 1.110-1.808, p=0.005) were associated with NRDS in infants born at 34-37 weeks gestational. Adverse pregnancy and birth history (OR: 1.507, 95% CI: 1.124-2.019, p=0.006), SGA (OR: 1.994, 95% CI: 1.455-2.733, p<0.001), and low PNI (OR: 1.626, 95% CI: 1.230-2.149, p=0.001) were associated with NRDS in infants with 28(+1)-33(+6) weeks gestational age. Low PNI (OR: 5.512, 95% CI: 1.555-19.536, p=0.008) was associated with NRDS in infants with <=28 weeks gestational age. CONCLUSION: The risk factors for NRDS in preterm infants with different gestational ages were different. But the low PNI level is associated with an increased risk of NRDS in preterm infants with all different gestational ages."""
+
+

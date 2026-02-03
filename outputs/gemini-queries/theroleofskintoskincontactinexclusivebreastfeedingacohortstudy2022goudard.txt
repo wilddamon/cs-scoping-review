@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theroleofskintoskincontactinexclusivebreastfeedingacohortstudy2022goudard
+"OBJETIVE: To understand the role of exposure to skin-to-skin contact and its minimum duration in determining exclusive breastfeeding at hospital discharge in infants weighing up to 1,800g at birth. METHODS: A multicenter cohort study was carried out in five Brazilian neonatal units. Infants weighing <= 1,800g at birth were eligible. Skin-to-skin contact time was recorded by the health care team and parents on an individual chart. Maternal and infant data was obtained from maternal questionnaires and medical records. The Classification Tree, a machine learning method, was used for data analysis; the tree growth algorithm, using statistical tests, partitions the dataset into mutually exclusive subsets that best describe the response variable and calculates appropriate cut-off points for continuous variables, thus generating an efficient explanatory model for the outcome under study. RESULTS: A total of 388 infants participated in the study, with a median of 31.6 (IQR = 29-31.8) weeks of gestation age and birth weight of 1,429g (IQR = 1,202-1,610). The exclusive breastfeeding rate at discharge was 61.6%. For infant's weighting between 1,125g and 1,655g, exposed to skinto- skin contact was strongly associated with exclusive breastfeeding. Moreover, infants who made an average > 149.6 min/day of skin-to-skin contact had higher chances in this outcome (74% versus 46%). In this group, those who received a severity score (SNAPPE-II) equal to zero increased their chances of breastfeeding (83% versus 63%). CONCLUSION: Skin-to-skin contact proved to be of great relevance in maintaining exclusive breastfeeding at hospital discharge for preterm infants weighing 1,125g-1,655g at birth, especially in those with lower severity scores. DESCRIPTORS: Infant, Low Birth Weight. Premature Birth. Breast Feeding. Kangaroo-Mother Care Method. Intensive Care, Neonatal. (c) 2022, Rev Saude Publica. All rights reserved."""
+
+

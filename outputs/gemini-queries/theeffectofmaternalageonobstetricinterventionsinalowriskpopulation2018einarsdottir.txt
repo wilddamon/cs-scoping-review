@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofmaternalageonobstetricinterventionsinalowriskpopulation2018einarsdottir
+"INTRODUCTION: Obstetric interventions appear to increase with advancing maternal age, but limited supporting evidence exists, particularly for young women and specifically for prelabor and intrapartum cesarean birth. The aim of this study was to explore the association between obstetric interventions and maternal age in a low-risk population. METHODS: The study was restricted to all low-risk, nulliparous women with singleton, vertex, term births who gave birth in Iceland from 1997 to 2015, identified in the Icelandic Medical Birth Registry. Logistic regression models were used to calculate adjusted odds ratios (aORs) and 95% CIs for the risks of labor induction, instrumental birth, and cesarean birth (prelabor and intrapartum), according to maternal age group. All models were adjusted for gestational age, year of birth, and demographic factors, and the models for intrapartum cesarean birth were also adjusted for dystocia and fetal distress. RESULTS: For women aged more than 40 years, the aOR for induction of labor was 4.69 (95% CI, 3.2-6.8) compared with women aged between 25 and 29 years. In women aged more than 40 years, the increased risks for prelabor cesarean birth and intrapartum cesarean birth were 7.4 (95% CI, 3.0-18.0) and 3.6 (95% CI, 2.1-6.0), respectively. The risk of instrumental birth was slightly increased for women aged between 35 and 39 years (aOR, 1.6; 95% CI, 1.3-2.0), compared with women aged between 25 and 29 years, but not for women aged at least 40 years (aOR, 1.1; 95% CI, 0.7-1.9). For women aged less than 20 years, the risk of induction of labor (aOR, 0.8; 95% CI, 0.7-0.9) and instrumental births (aOR, 0.6; 95% CI, 0.5-0.7) was reduced compared with women aged between 25 and 29 years. DISCUSSION: The risk of interventions generally increased with increasing maternal age, but the risk of instrumental births was not increased for women aged over 40 years. Also, young women were at a decreased risk of induction of labor and instrumental births."""
+
+

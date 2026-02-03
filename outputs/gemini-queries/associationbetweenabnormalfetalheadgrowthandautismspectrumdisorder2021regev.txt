@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenabnormalfetalheadgrowthandautismspectrumdisorder2021regev
+"Objective: Despite evidence for the prenatal onset of abnormal head growth in children with autism spectrum disorder (ASD), studies on fetal ultrasound data in ASD are limited and controversial. Method: We conducted a longitudinal matched case-sibling-control study on prenatal ultrasound biometric measures of children with ASD, and 2 control groups: (1) their own typically developed sibling (TDS) and (2) typically developed population (TDP). The cohort comprised 528 children (72.7% male), 174 with ASD, 178 TDS, and 176 TDP. Results: During the second trimester, ASD and TDS fetuses had significantly smaller biparietal diameter (BPD) than TDP fetuses (adjusted odds ratio for the z score of BPD [aOR<inf>zBPD</inf>] = 0.685, 95% CI = 0.527-0.890, and aOR<inf>zBPD</inf> = 0.587, 95% CI = 0.459-0.751, respectively). However, these differences became statistically indistinguishable in the third trimester. Interestingly, head biometric measures varied by sex, with male fetuses having larger heads than female fetuses within and across groups. A linear mixed-effect model assessing the effects of sex and group assignment on fetal longitudinal head growth indicated faster BPD growth in TDS versus both ASD and TDP in male fetuses (b = 0.084 and b = 0.100 respectively; p < .001) but not in female fetuses, suggesting an ASD-sex interaction in head growth during gestation. Finally, fetal head growth showed conflicting correlations with ASD severity in male and female children across different gestation periods, thus further supporting the sex effect on the association between fetal head growth and ASD. Conclusion: Our findings suggest that abnormal fetal head growth is a familial trait of ASD, which is modulated by sex and is associated with the severity of the disorder. Thus, it could serve as an early biomarker for ASD. (c) 2020 American Academy of Child and Adolescent Psychiatry"""
+
+

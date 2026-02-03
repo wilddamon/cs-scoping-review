@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anexplainablemachinelearningmodelinpredictingvaginalbirthaftercesareansection2025yang
+"OBJECTIVE: Vaginal birth after cesarean section (VBAC) is recommended by obstetrical guidelines or expert consensuses. However, no valid tools can exactly predict who can have a vaginal birth among eligible candidates with one prior cesarean section. In recent years, machine learning (ML) is gradually used to develop predictive models in obstetrics and midwifery owing to its excellent performance. This study aimed to develop an explainable ML model to predict the chance of successful VBAC. METHODS: A total of 2438 pregnant women with trial of labor after cesarean (TOLAC) were analyzed from two tertiary hospitals in Guangdong province of China in the final cohort. The data were collected to establish seven predicting models. Training and internal validation data were collected from the First Dongguan Affiliated Hospital of Guangdong Medical University from January 2012 to December 2022. External validation data were collected from Shenzhen Longhua District Central Hospital from January 2011 to December 2017. Seven predicting models based on ML were developed and evaluated by area under the receiver operating characteristic (AUC) curve. The optimal one was picked out from seven models according to its AUC and other indices. The outcome of the predictive model was interpreted by Shapley Additive exPlanations (SHAP). RESULTS: The categorical boosting (CatBoost) model was selected as the predictive model with the greatest AUC for 0.767 (95% CI: 0.685-0.865), the accuracy for 0.652 (95% CI: 0.602-0.713), sensitivity 0.714 (95% CI: 0.576-0.840), and specificity 0.639 (95% CI: 0.574-0.70). Cervical Bishop score and interpregnancy interval showed the greatest impact on successful vaginal birth, according to SHAP results. CONCLUSIONS: Models based on ML algorithms can be used to predict VBAC. The CatBoost model showed best performance in this study. Based on current evidence-based medical data, clinicians should provide systematic benefit-risk analysis and individualized assessment of VBAC to eligible pregnant women."""
+
+

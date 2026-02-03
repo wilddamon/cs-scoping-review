@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlydetectionoflateonsetsepsisinprematureinfantsusingvisibilitygraphanalysisofheartratevariability2021leon
+"Objective: This study was designed to test the diagnostic value of visibility graph features derived from the heart rate time series to predict late onset sepsis (LOS) in preterm infants using machine learning. Methods: The heart rate variability (HRV) data was acquired from 49 premature newborns hospitalized in neonatal intensive care units (NICU). The LOS group consisted of patients who received more than five days of antibiotics, at least 72 hours after birth. The control group consisted of infants who did not receive antibiotics. HRV features in the days prior to the start of antibiotics (LOS group) or in a randomly selected period (control group) were compared against a baseline value calculated during a calibration period. After automatic feature selection, four machine learning algorithms were trained. All the tests were done using two variants of the feature set: one only included traditional HRV features, and the other additionally included visibility graph features. Performance was studied using area under the receiver operating characteristics curve (AUROC). Results: The best performance for detecting LOS was obtained with logistic regression, using the feature set including visibility graph features, with AUROC of 87.7% during the six hours preceding the start of antibiotics, and with predictive potential (AUROC above 70%) as early as 42 h before start of antibiotics. Conclusion: These results demonstrate the usefulness of introducing visibility graph indexes in HRV analysis for sepsis prediction in newborns. Significance: The method proposed the possibility of non-invasive, real-Time monitoring of risk of LOS in a NICU setting. (c) 2013 IEEE."""
+
+

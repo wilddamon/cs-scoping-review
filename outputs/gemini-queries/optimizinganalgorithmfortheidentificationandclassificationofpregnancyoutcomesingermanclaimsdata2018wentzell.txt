@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: optimizinganalgorithmfortheidentificationandclassificationofpregnancyoutcomesingermanclaimsdata2018wentzell
+"Purpose: For studying drug utilization and safety in pregnancy based on administrative health care data, the reliable identification and classification of pregnancy outcomes in the data is essential. We aimed to optimize an existing algorithm for the identification and classification of pregnancy outcomes in the German Pharmacoepidemiological Research Database (GePaRD) with a particular focus on births. Methods: We reconsidered all codes used by the original algorithm and applied it to data of GePaRD from 2006 to 2014. Longitudinal records of pregnancies were used to identify targets for enhancing the algorithm's specificity. We checked the plausibility of the results, eg, regarding the age distribution of persons with pregnancy outcomes. Based on 20 longitudinal records of pregnancies, we compared the outcome classification by clinical experts with the results of the modified algorithm. Results: Our algorithm identified 1 235 261 pregnancy outcomes in the database, with the majority (94%) being live births, classified as preterm (10%), term (78%), and (12%) births after the expected delivery date. The median age of pregnant women was 32 years (Q1 28; Q3 35). Implausible sequence of outcomes (for example, an induced abortion within a pregnancy categorized as ending in a live birth) were rare (0.03%). The case profile review by clinical experts resulted in the same outcome type and date as the algorithm in 95%. Conclusions: Our algorithm led to plausible results regarding the identification and classification of pregnancy outcomes. It will be an important foundation for studies on drug utilization and drug safety during pregnancy based on GePaRD. (c) 2018 John Wiley & Sons, Ltd."""
+
+

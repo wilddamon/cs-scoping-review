@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: agedependentvariationoffemalepreponderanceacrossdifferentphenotypesofmultiplesclerosisaretrospectivecrosssectionalstudy2019miclea
+"Introduction: Multiple sclerosis (MS) is an autoimmune disease of the CNS, which predominantly affects women. Studies investigating the sex distribution in MS are sparse. We aim to analyze the female-to-male ratio (F/M ratio) in different MS phenotypes in association with age at diagnosis and year of birth. Methods: We performed a retrospective cross-sectional analysis by cumulating data (sex, year of birth, age at diagnosis, and MS phenotypes) from unpublished and published studies of the participating centers. Results: Datasets of 945 patients were collected. The overall F/M ratio was 1.9:1.0 and female preponderance was present in all phenotypes except for primary progressive MS (PPMS), in which men were predominantly affected (F/M ratio: 0.5:1.0). Female preponderance declined with increasing age at diagnosis and was no longer present in relapsing-remitting MS (RRMS) patients > 58 years of age. Conclusion: Our data demonstrate an age dependency of female preponderance in MS except for PPMS. This could be influenced by the lifecycle of sex hormone secretion in women. In PPMS, a male preponderance was observed in all age-groups, which might point to pathophysiological mechanisms being less influenced by sex hormones. (c) 2018 The Authors CNS Neuroscience & Therapeutics Published by John Wiley & Sons Ltd"""
+
+

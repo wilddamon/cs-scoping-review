@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: largecervicalvaricesakeyriskfactorforhemorrhageinplacentaprevia2025kamiya
+"OBJECTIVES: The primary objective of this study was to determine whether the volume of cervical varices, quantified by magnetic resonance imaging (MRI), predicts massive intraoperative blood loss in placenta previa. The secondary objective was to examine the relationship between cervical varices volume and placental location, sponge-like findings on transvaginal ultrasound (TVUS), and active lower uterine segment bleeding. DESIGN: A retrospective cohort study was conducted. PARTICIPANTS/MATERIALS, SETTING, METHODS: This study included 98 individuals with singleton pregnancies and placenta previa who underwent prenatal MRI and cesarean section at a tertiary care center in Japan between April 2012 and March 2021. MRI was performed around 34 weeks of gestation as part of routine placenta accreta spectrum (PAS) screening. Cervical varices were defined as high-signal vascular structures located within the cervix and lower uterine segment on sagittal T2-weighted MRI. Their volume was manually calculated as an approximate cervical varices volume (aVCV). Receiver operating characteristic (ROC) analysis was used to determine the optimal aVCV cutoff for predicting massive blood loss (defined as >=1,500 mL). Logistic regression was used to assess independent predictors of bleeding. A subgroup analysis was conducted among patients with posterior placenta previa without PAS. RESULTS: Cervical varices were detected by MRI in 94.9% of cases. ROC analysis identified 36.0 cm3 as the optimal aVCV cutoff (AUC: 0.63), with a specificity of 86.2% and positive predictive value of 75.9%. Large cervical varices (aVCV >36.0 cm3) were significantly associated with massive bleeding (adjusted odds ratio: 9.44; 95% CI: 3.11-28.7). They also correlated with sponge-like findings on TVUS and posterior placental location but were smaller in cases with anterior placenta or PAS despite high bleeding volumes. Active bleeding from the lower uterine segment was more common in the large aVCV group and was associated with massive hemorrhage in non-PAS cases. In a subgroup of patients with posterior placenta previa without PAS (n = 43), predictive performance improved (AUC: 0.72; specificity: 95.8%; odds ratio: 9.53; 95% CI: 2.19-41.4). CONCLUSION: Large cervical varices are an independent predictor of massive blood loss in placenta previa, particularly in posterior previa without PAS. Recognition of cervical venous enlargement as a core hemorrhagic risk factor may improve preoperative preparedness and promote broader efforts to refine diagnostic approaches."""
+
+

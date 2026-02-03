@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: didweobservechangesinobstetricinterventionsinsarscov2infectedpregnantwomenatthebeginningofcovidpandemicinbelgiumresultsofanationwidepopulationbasedstudy2024vercoutere
+"BACKGROUND: Pregnant women are more vulnerable to the severe effects of COVID-19 compared to their non-pregnant peers. Early in the pandemic, there was a rise in cesarean deliveries and preterm births among infected pregnant women. This study aims to evaluate whether there were any changes in obstetric interventions during the first two waves of the pandemic in Belgium. METHODS: Between March 2020 and February 2021, the Belgian Obstetric Surveillance System (B.OSS) conducted an extensive, nationwide population-based registry study, that included nearly all births to women with a confirmed SARS-CoV-2 infection within six weeks before hospitalization in Belgium. The perinatal outcomes of these women were analyzed and compared with pre-pandemic regional perinatal data. RESULTS: A total of 923 SARS-CoV-2 infected pregnant women were admitted to the hospital; 9.3 % were hospitalized for severe COVID-19, while the remaining were hospitalized for obstetric reasons. Infected women had a higher median BMI, a higher incidence of diabetes, and a greater proportion were overweight or obese compared to the reference group (p < 0.001). While the majority of women gave birth vaginally, symptomatic women and those with a severe infection had slightly higher rates of cesarean delivery, though not statistically significant after adjusting for confounders. Only severely ill women had an increased risk of preterm delivery (aOR 2.3; 95 %CI [1.2-2.5]; p = 0.02) and of induced labor (OR 1.8; 95 %CI [1.1-2.8]; p = 0.01). The use of general anesthesia for cesarean delivery was more common in the infected group (OR 2.6; 95 %CI [1.6-4.1]; p < 0.001). CONCLUSIONS: Obstetric interventions, such as cesarean delivery and induction, remained at pre-pandemic levels. However, a SARS-CoV-2 infection appears to have increased medically induced preterm delivery and the use of general anesthesia for cesarean delivery."""
+
+

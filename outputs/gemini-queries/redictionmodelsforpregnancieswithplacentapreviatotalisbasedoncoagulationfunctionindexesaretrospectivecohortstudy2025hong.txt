@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thedevelopmentandvalidationofpostpartumhemorrhagepredictionmodelsforpregnancieswithplacentapreviatotalisbasedoncoagulationfunctionindexesaretrospectivecohortstudy2025hong
+"BACKGROUND: The objective of this study is to establish and validate models that can accurately predict postpartum hemorrhage (PPH) in women with placenta previa totalis prior to undertaking cesarean delivery. METHODS: A retrospective cohort study was conducted on 306 pregnancies with placenta previa totalis delivered between January 2011 and June 2022. The pregnancies were classified into two groups, PPH group and non-PPH group, based on bleeding volume and red blood cell transfusion. Clinical features and pre-operative coagulation function indexes were recorded. The entire cohort was randomly divided into a development cohort (n = 214) and a test cohort (n = 92). Least absolute shrinkage and selection operator (LASSO) was implemented to select significant predictors, followed by step-wise logistic regression analysis to build the prediction model. Additionally, machine learning-based models were compared with the proposed model. RESULTS: Among 306 participants, 115 (53.74%) and 50 (54.35%) cases of PPH were observed in the development and test cohorts, respectively. The LASSO-Logistic regression model incorporated preoperative serum fibrinogen level, history of prior cesarean delivery and history of antepartum bleeding as predictors. The model yielded an area under the receiver operating characteristic (ROC) curve of 0.721 (95% CI 0.652-0.790) in the development cohort and 0.706 (95% CI 0.600-0.813) in the test cohort. Additionally, the model demonstrated a specificity of 70.7% (95% CI 61.7-79.7%) and a positive predictive value of 72.1% (95% CI 63.5-80.7%) for distinguishing between PPH and non-PPH cases. The LASSO-Logistic regression model outperformed the machine learning based model in the test cohort, confirming its efficiency in predicting PPH in patients with placenta previa totalis. CONCLUSIONS: This study successfully developed and validated a LASSO-Logistic regression model incorporating coagulation indicators to predict PPH in patients with placenta previa totalis. Further large-scale prospective studies are warranted to externally validate the three-variate-based model and assess its practical application in real-time practice."""
+
+

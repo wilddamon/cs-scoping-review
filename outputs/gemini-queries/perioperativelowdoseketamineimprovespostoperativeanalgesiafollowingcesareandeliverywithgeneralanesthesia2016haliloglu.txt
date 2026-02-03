@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perioperativelowdoseketamineimprovespostoperativeanalgesiafollowingcesareandeliverywithgeneralanesthesia2016haliloglu
+"Objective: In this study, the effect of perioperative uses of low dose ketamine on post-operative wound pain and analgesic consumption in patients undergoing elective Cesarean section was evaluated. Method(s): In randomized, double blind clinical trial, 52 women with American Society of Anesthesiologists (ASA) class I-II identification undergoing elective Cesarean section in general anesthesia were enrolled. In the ketamine group (group K), a ketamine bolus of 0.5 mg kg-1 IV was administered at the time of induction of general anesthesia. After induction, a ketamine infusion of 0.25 mg kg-1 h-1 was started and discontinued at the end of surgery. Patients allocated to the control group (group C) were given identical volumes of saline. The cumulative dose of morphine consumption after surgery was measured as the primary outcome of this study. Secondary outcomes were pain control assessed by numeric rating scale (NRS) and need for rescue analgesia and incidence of side effects. Result(s): The mean 24-h morphine consumption was lower in group K (p = 0,001). At 15 min postoperatively, NRS values were lower in group K than group C (p = 0,001). There was no difference among groups regarding the need for supplemental analgesia (rescue diclofenac doses) (p > 0.05). Conclusion(s): Perioperative uses of low dose ketamine decreased post-operative opioid requirements, which was observed long after the normal expected duration of ketamine.Copyright (c) 2015 Informa UK Ltd."""
+
+

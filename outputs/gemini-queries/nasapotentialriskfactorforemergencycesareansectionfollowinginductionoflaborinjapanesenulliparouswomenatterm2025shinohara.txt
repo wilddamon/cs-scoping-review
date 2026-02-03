@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: angleofprogressionasapotentialriskfactorforemergencycesareansectionfollowinginductionoflaborinjapanesenulliparouswomenatterm2025shinohara
+"AIM: To examine the association between the angle of progression (AOP) measured before labor induction and the occurrence of emergency cesarean section (ECS). Additionally, a predictive model was developed for ECS following labor induction using sonographic and clinical data accessible to obstetricians. METHODS: This prospective observational cohort study was conducted at the Yamanashi Prefectural Central Hospital between January 2022 and July 2024. A total of 143 nulliparous Japanese women with singleton term pregnancies in the cephalic presentation were recruited. Transabdominal and transperineal ultrasound examinations were performed before labor induction. All variables with a p-value of <0.05 in the bivariate analysis were evaluated using multivariable logistic regression analysis to examine the association between AOP and ECS and to identify AOP cutoff values predictive of ECS. RESULTS: The incidence of ECS was 39.9% (57/143). Multivariable analysis indicated that the AOP (adjusted odds ratio [OR]: 0.89, 95% confidence interval [CI]: 0.85-0.94) and pre-pregnancy body mass index (adjusted OR: 1.14, 95% CI: 1.03-1.27) were associated with ECS. The prediction model had a sensitivity and specificity of 82.5% and 82.6%, respectively (area under the curve [AUC] = 0.88). The optimal AOP cutoff point for predicting ECS was 91.2deg (AUC: 0.77). CONCLUSION: The ECS prediction model incorporating AOP may facilitate individualized counseling before labor induction. Women with an AOP less than 91.2deg are at an elevated risk for ECS."""
+
+

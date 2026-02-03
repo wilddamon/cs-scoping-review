@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandinternalvalidationofmachinelearningalgorithmstopredict30dayreadmissioninpatientsundergoingacsectionanationwideanalysis2025andrews
+"Background/Objectives: Cesarean section (C-section) is a common surgical procedure associated with an increased risk of 30-day postpartum hospital readmissions. This study utilized machine learning (ML) to predict readmissions using a nationwide database. Methods: A retrospective analysis of the National Surgical Quality Improvement Project (2012-2022) included 54,593 patients who underwent C-sections. Random Forests (RF) and Extreme Gradient Boosting (XGBoost) models were developed and compared to logistic regression (LR) using demographic, preoperative, and perioperative data. Results: Of the cohort, 1306 (2.39%) patients were readmitted. Readmitted patients had higher rates of being of African American race (17.99% vs. 9.83%), diabetes (11.03% vs. 8.19%), and hypertension (11.49% vs. 4.68%) (p < 0.001). RF achieved the highest performance (AUC = 0.737, sensitivity = 72.03%, specificity: 61.33%), and a preoperative-only RF model achieved a sensitivity of 83.14%. Key predictors included age, BMI, operative time, white blood cell count, and hematocrit. Conclusions: ML effectively predicts C-section readmissions, supporting early identification and interventions to improve patient outcomes and reduce healthcare costs."""
+
+

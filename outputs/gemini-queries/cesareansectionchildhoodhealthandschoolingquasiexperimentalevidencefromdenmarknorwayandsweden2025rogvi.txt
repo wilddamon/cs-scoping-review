@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: cesareansectionchildhoodhealthandschoolingquasiexperimentalevidencefromdenmarknorwayandsweden2025rogvi
+"Despite being one of the most common surgical procedures in industrialized countries, there is limited causal evidence on the long-term consequences of Cesarean section (CS). We study the impacts of CS on health during ages 1-12 years and human capital outcomes at age 16 years, using exogenous variation in the probability of receiving a CS for breech births at term-a group with high CS risk. We use administrative data from Denmark, Norway, and Sweden to show that preventing complicated vaginal births benefits health at birth and reduces the number of all-cause hospital nights during childhood. Our findings for childhood diagnoses for asthma, allergies, diabetes mellitus type 1, and school outcomes are imprecise and do thus not lend strong support for prominent hypotheses on CS causing long-term immune dysfunction disorders and, thereby, worse human capital outcomes."""
+
+

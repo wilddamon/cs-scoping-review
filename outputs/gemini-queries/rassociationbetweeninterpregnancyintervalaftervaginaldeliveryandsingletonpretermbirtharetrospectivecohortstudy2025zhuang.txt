@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: nonlinearassociationbetweeninterpregnancyintervalaftervaginaldeliveryandsingletonpretermbirtharetrospectivecohortstudy2025zhuang
+"Background: The association between interpregnancy interval (IPI) after vaginal delivery and preterm birth (PTB) in singleton has not been elucidated. The aim of this study is to investigate the association between interpregnancy interval after vaginal delivery and preterm birth. Methods: Birth data from the 2022 National Vital Statistics System (NVSS) were selected, and multinomial logistic regression models were used to determine the odds ratios (OR) and 95% confidence intervals (95% CI) for the association between IPI after vaginal delivery and PTB. A restricted cubic spline (RCS) model with multivariate adjustment was constructed with a 4-node OR curve to check for possible non-linear relationships. Threshold effect analysis was conducted using two-piecewise linear regression and a likelihood ratio test. Results: The study included a total of 1,517,106 subjects, with an average age of 30.56 +- 5.29 years. 113,613 subjects had PTB, while 1,403,493 did not. Compared to the reference group (18-23 months), IPI of <= 11 months and >= 24 months were associated with an increased risk of PTB. The RCS curve observed a J-shaped association between the IPI after vaginal delivery and PTB (P < 0.001), with the lowest point of PTB risk occurring at approximately 23 months. The effect values for < 23 months and >= 23 months were 0.975 (95% CI: 0.974 ~ 0.977, P < 0.001) and 1.006 (95% CI: 1.005 ~ 1.006, P < 0.001), respectively. The results of sensitivity analyses remained stable. Conclusion: In patients with a history of vaginal delivery, a J-shaped non-linear relationship was found between the IPI and the risk of PTB. IPIs of <= 11 months and >= 24 months were associated with an increased risk of PTB. (c) The Author(s) 2025."""
+
+

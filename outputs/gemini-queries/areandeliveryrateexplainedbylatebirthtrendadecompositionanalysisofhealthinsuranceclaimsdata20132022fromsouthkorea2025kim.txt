@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isarisingcesareandeliveryrateexplainedbylatebirthtrendadecompositionanalysisofhealthinsuranceclaimsdata20132022fromsouthkorea2025kim
+"OBJECTIVE: To analyze the factors influencing the increase in the cesarean delivery (CD) rate in South Korea and test the hypothesis on advanced maternal age driving the trend. METHOD: The present study is a population-based retrospective observational study utilizing administrative data from the Korean National Health Insurance Service. We analyzed a total 3 416 517 births from 2013 to 2022 covered by the national health insurance. The CD rate and contribution of demographic variables to changes in CD rates were calculated using Das Gupta's decomposition method. RESULTS: The CD rate increased from 37.8% in 2013 to 61.6% in 2022. The decomposition analysis revealed that changes in maternal age structure contributed only 8.7% to the increase in the CD rate. When parity was added to maternal age, the explained proportion increased to 17.8%. When other factors were added to the model, such as multiple births, residential area, and income level, it did not contribute significantly to the increase in the CD rates, accounting for 19.0%, 18.6%, and 18.0%, respectively. CONCLUSIONS: According to our analysis, less than one-fifth of the increase in CD rate was explained by the change in maternal age. The rising CD rate in Korea should not be considered an unavoidable consequence of demographic change. Much more diverse factors, including increased risk of medical lawsuits, changes in childbirth culture, and other health system determinants, may be driving the trend."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ambientairpollutionduringpregnancyanddnamethylationinumbilicalcordbloodwithpotentialmediationofassociationswithinfantadipositythehealthystartstudy2022starling
+"Background: Prenatal exposure to ambient air pollution has been associated with adverse offspring health outcomes. Childhood health effects of prenatal exposures may be mediated through changes to DNA methylation detectable at birth. Methods: Among 429 non-smoking women in a cohort study of mother-infant pairs in Colorado, USA, we estimated associations between prenatal exposure to ambient fine particulate matter (PM<inf>2.5</inf>) and ozone (O<inf>3</inf>), and epigenome-wide DNA methylation of umbilical cord blood cells at delivery (2010-2014). We calculated average PM<inf>2.5</inf> and O<inf>3</inf> in each trimester of pregnancy and the full pregnancy using inverse-distance-weighted interpolation. We fit linear regression models adjusted for potential confounders and cell proportions to estimate associations between air pollutants and methylation at each of 432,943 CpGs. Differentially methylated regions (DMRs) were identified using comb-p. Previously in this cohort, we reported positive associations between 3rd trimester O<inf>3</inf> exposure and infant adiposity at 5 months of age. Here, we quantified the potential for mediation of that association by changes in DNA methylation in cord blood. Results: We identified several DMRs for each pollutant and period of pregnancy. The greatest number of significant DMRs were associated with third trimester PM<inf>2.5</inf> (21 DMRs). No single CpGs were associated with air pollutants at a false discovery rate <0.05. We found that up to 8% of the effect of 3rd trimester O<inf>3</inf> on 5-month adiposity may be mediated by locus-specific methylation changes, but mediation estimates were not statistically significant. Conclusions: Differentially methylated regions in cord blood were identified in association with maternal exposure to PM<inf>2.5</inf> and O<inf>3</inf>. Genes annotated to the significant sites played roles in cardiometabolic disease, immune function and inflammation, and neurologic disorders. We found limited evidence of mediation by DNA methylation of associations between third trimester O<inf>3</inf> exposure and 5-month infant adiposity. (c) 2022 Elsevier Inc."""
+
+

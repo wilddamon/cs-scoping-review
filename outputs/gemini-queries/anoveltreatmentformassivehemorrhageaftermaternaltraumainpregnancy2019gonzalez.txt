@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anoveltreatmentformassivehemorrhageaftermaternaltraumainpregnancy2019gonzalez
+"Background Trauma in pregnancy can lead to life-threatening hemorrhage. Conventional treatments of hemorrhage include medical and surgical management. However, if these measures fail uterine compression is an option to control bleeding. We present a case where this management was employed. Case A patient presented at 36 weeks of gestation with multiple injuries after a motor vehicle collision and experienced disseminated intravascular coagulation (DIC). The use of a Bakri balloon in combination with external compression with Coban, a sterile self-adherent bandage, after delivery temporized her bleeding and allowed her to become stable for further management. Conclusion When other measures fail and a hysterectomy is considered unsafe, the combination of internal and external uterine compression is an option.Copyright (c) 2019 by Thieme Medical Publishers, Inc."""
+
+

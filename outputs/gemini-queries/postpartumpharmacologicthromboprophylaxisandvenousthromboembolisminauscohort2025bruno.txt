@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postpartumpharmacologicthromboprophylaxisandvenousthromboembolisminauscohort2025bruno
+"OBJECTIVE: To evaluate the effect of administering postpartum heparin-based pharmacologic thromboprophylaxis on the incidence of postpartum venous thromboembolism (VTE) and complications. METHODS: This was a multicenter retrospective cohort study of all individuals delivering at more than 20 weeks of gestation at four U.S. hospitals from 2016 to 2019. Individuals with a personal history of VTE or thrombophilia, with an antepartum diagnosis of VTE, or receiving therapeutic anticoagulation were excluded. The exposure was postpartum heparin-based pharmacologic prophylaxis (including unfractionated and low-molecular-weight formulations). The primary outcome was VTE identified within 12 weeks of delivery. Secondary outcomes included hospital readmission and wound complications among individuals undergoing cesarean delivery. Baseline characteristics were compared between those receiving and those not receiving pharmacologic thromboprophylaxis. Augmented inverse probability of treatment weighting was used to estimate risk difference in outcomes among those who received prophylaxis. The effects are reported as a risk difference with 95% CIs. Positive and negative effects indicate benefit and harm, respectively. RESULTS: Of 64,886 deliveries included, the rate of heparin-based postpartum pharmacologic thromboprophylaxis was 13.8% (95% CI, 13.5-14.1%), and the rate of VTE was 0.11% (95% CI, 0.09-0.14%). Individuals receiving thromboprophylaxis were more likely to be older, to deliver by cesarean, and to have a comorbid health condition. In propensity score analysis, pharmacologic prophylaxis compared with no pharmacologic prophylaxis resulted in no difference in VTE (risk difference 0.0%, 95% CI, 0-0.16%) but an increased risk for hospital readmission (risk difference -1.36%, 95% CI, -2.51 to -0.14%) and wound complications (risk difference -1.45%, 95% CI, -2.35 to -0.65%). CONCLUSION: Use of postpartum pharmacologic thromboprophylaxis did not reduce postpartum VTE in this U.S. cohort. Findings may reflect persistent confounding despite covariate adjustment or suggest that the current practice of administration of thromboprophylaxis (eg, dosing, timing of initiation, length of use) is ineffective."""
+
+

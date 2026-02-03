@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofneonatallengthofstayinhighriskpregnanciesusingregressionbasedmachinelearningoncomputerizedcardiotocographydata2025danciu
+"Background/Objectives: The management of high-risk pregnancies remains a major clinical challenge, particularly regarding the optimal timing of delivery, which has significant implications for both perinatal outcomes and healthcare costs. In this context, computerized cardiotocography (cCTG) offers an objective, non-invasive and cost-effective method for fetal surveillance, providing quantitative measures of heart rate dynamics that reflect autonomic regulation and oxygenation status. This study aimed to develop and validate regression-based machine learning models capable of predicting the duration of neonatal hospitalization-an objective and quantifiable indicator of neonatal well-being-using cCTG parameters obtained outside of labor, binary clinical variables describing the presence or absence of pregnancy pathologies, and gestational age at monitoring and at delivery. Method(s): A total of 694 singleton high-risk pregnancies complicated by gestational diabetes, preexisting diabetes, intrahepatic cholestasis of pregnancy, pregnancy-induced or preexisting hypertension, or fetal growth restriction were enrolled. Twenty clinically relevant features derived from cCTG recordings and perinatal data were used to train and evaluate four regression algorithms: Random Forest, CatBoost, XGBoost, and LightGBM against a linear regression model with Ridge regularization serving as a benchmark. Result(s): Random Forest achieved the highest generalization performance (test R2 = 0.8226; RMSE = 3.41 days; MAE = 2.02 days), outperforming CatBoost (R2 = 0.7059), XGBoost (R2 = 0.6911), LightGBM (R2 = 0.6851) and the linear regression benchmark with Ridge regularization (R2 = 0.5699) while showing a consistent train-validation-test profile (0.9428 -> 0.8042 -> 0.8226). The error magnitude (=2 days on average) is clinically interpretable for neonatal resource planning, supporting the model's practical utility. These findings justify selecting Random Forest as the final predictor and its integration into a clinician-facing application for real-time length-of-stay estimation. Conclusion(s): Machine learning models integrating cCTG features with maternal clinical factors can accurately predict neonatal hospitalization duration in pregnancies complicated by maternal or fetal disease. This approach provides a clinically interpretable and non-invasive decision support tool that may enhance delivery planning, optimize neonatal resource allocation, and improve perinatal care outcomes.Copyright (c) 2025 by the authors."""
+
+

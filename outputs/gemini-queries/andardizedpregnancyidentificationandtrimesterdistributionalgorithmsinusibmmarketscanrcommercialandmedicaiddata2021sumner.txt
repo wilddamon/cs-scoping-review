@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandevaluationofstandardizedpregnancyidentificationandtrimesterdistributionalgorithmsinusibmmarketscanrcommercialandmedicaiddata2021sumner
+"Objectives: Creation of new algorithms to identify pregnancies in automated health care claims databases is of public health importance, as it allows us to learn more about medication use and safety in a vulnerable population. Previous algorithms were largely created using international classification of disease codes, but despite the U.S. code transition in 2015, few algorithms are available with the latest ICD-10-CM codes. Methods: Using U.S. IBM MarketScan(r) Commercial Claims and Encounters and Multi-State Medicaid databases for women aged 10-64 years during 2014 and 2016, two pregnancy algorithms (ICD-9-CM and ICD-10-CM) were created using expert clinical review. The algorithms were evaluated by assessing the distribution of pregnancy outcomes (live birth and pregnancy losses) within each time-based cohort and the ability of the algorithms to identify select medication use during pregnancy. Medication exposure, demographics, comorbidities, and pregnancy outcomes were compared to published literature estimates for the two time periods. Results: For the IBM MarketScan(r) Commercial database, the algorithms identified 687,228 pregnancies in 2014 and 444,293 in 2016. In the IBM MarketScan(r) Medicaid database, 389,132 pregnancies in 2014 and 406,418 in 2016 were identified. Percentages of most pregnancy outcomes identified using the algorithms were similar to national data sources; however, percentages of preterm births and pregnancy losses were not comparable. Most medication use estimates from the algorithms were similar to or higher than published estimates. Conclusions: By incorporating the latest ICD-10-CM codes, the new algorithms provide more complete estimates of medication use during pregnancy than algorithms using the outdated codes. (c) 2021 Wiley Periodicals LLC"""
+
+

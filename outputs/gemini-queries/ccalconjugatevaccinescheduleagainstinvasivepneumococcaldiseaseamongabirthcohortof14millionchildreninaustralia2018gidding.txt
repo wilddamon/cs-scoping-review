@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectivenessofa30pneumococcalconjugatevaccinescheduleagainstinvasivepneumococcaldiseaseamongabirthcohortof14millionchildreninaustralia2018gidding
+"Background: Most studies use indirect cohort or case-control methods to estimate vaccine effectiveness (VE) of 7- and 13-valent pneumococcal conjugate vaccines (PCV7 and PCV13) against invasive pneumococcal disease (IPD). Neither method can measure the benefit vaccination programs afford the unvaccinated and many studies were unable to estimate dose-specific VE. We linked Australia's national immunisation register with health data from two states to calculate IPD incidence by vaccination status and VE for a 3 + 0 PCV schedule (doses at 2, 4, 6 months, no booster) among a cohort of 1.4 million births. Methods: Births records for 2001-2012 were probabilistically linked to IPD notifications, hospitalisations, deaths, and vaccination history (available until December 2013). IPD rates in vaccinated and unvaccinated children <2 years old were compared using Cox proportional hazards models (adjusting for potential confounders), with VE = (1 - adjusted hazard ratio) x 100. Separate models were performed for all-cause, PCV7, PCV13 and PCV13-non-PCV7 serotype-specific IPD, and for Aboriginal and non-Aboriginal children. Results: Following introduction of universal PCV7 in 2005, rates of PCV7 serotype and all-cause IPD in unvaccinated children declined 89.5% and 61.4%, respectively, to be similar to rates in vaccinated children. Among non-Aboriginal children, VEs for 3 doses were 94.2% (95%CI: 81.9-98.1) for PCV7 serotype-specific IPD, 85.6% (95%CI: 60.5-94.8) for PCV13-non-PCV7 serotype-specific IPD and 80.1% (95%CI: 59.4-90.3) for all-cause IPD. There were no statistically significant differences between the VEs for 3 doses and for 1 or 2 doses against PCV13 and PCV13-non-PCV7 serotype-specific IPD, or between Aboriginal and non-Aboriginal children. Conclusion: Our population-based cohort study demonstrates that >90% coverage in the first year of a universal 3 + 0 PCV program provided high population-level protection, predominantly attributable to strong herd effects. The size of the cohort enabled calculation of robust dose-specific VE estimates for important population sub-groups relevant to vaccination policies internationally. (c) 2018 Elsevier Ltd"""
+
+

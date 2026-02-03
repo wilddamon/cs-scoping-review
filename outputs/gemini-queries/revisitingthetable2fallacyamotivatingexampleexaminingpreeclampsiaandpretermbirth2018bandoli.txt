@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: revisitingthetable2fallacyamotivatingexampleexaminingpreeclampsiaandpretermbirth2018bandoli
+"Background: A "Table Fallacy," as coined by Westreich and Greenland, reports multiple adjusted effect estimates from a single model. This practice, which remains common in published literature, can be problematic when different types of effect estimates are presented together in a single table. The purpose of this paper is to quantitatively illustrate this potential for misinterpretation with an example estimating the effects of preeclampsia on preterm birth. Methods: We analysed a retrospective population-based cohort of 2 963 888 singleton births in California between 2007 and 2012. We performed a modified Poisson regression to calculate the total effect of preeclampsia on the risk of PTB, adjusting for previous preterm birth. pregnancy alcohol abuse, maternal education, and maternal socio-demographic factors (Model 1). In subsequent models, we report the total effects of previous preterm birth, alcohol abuse, and education on the risk of PTB, comparing and contrasting the controlled direct effects, total effects, and confounded effect estimates, resulting from Model 1. Results: The effect estimate for previous preterm birth (a controlled direct effect in Model 1) increased 10% when estimated as a total effect. The risk ratio for alcohol abuse, biased due to an uncontrolled confounder in Model 1, was reduced by 23% when adjusted for drug abuse. The risk ratio for maternal education, solely a predictor of the outcome, was essentially unchanged. Conclusions: Reporting multiple effect estimates from a single model may lead to misinterpretation and lack of reproducibility. This example highlights the need for careful consideration of the types of effects estimated in statistical models. (c) 2018 John Wiley & Sons Ltd"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenantenataldepressionsymptomtrajectoriesandpretermbirth2023sakowicz
+"OBJECTIVE:To evaluate whether, among pregnant people referred for mental health care, improvement in antenatal depression symptoms before delivery was associated with a reduction in preterm birth.METHODS:This retrospective cohort study included all pregnant people referred to a perinatal collaborative care program for mental health care who delivered between March 2016 and March 2021. Those referred to the collaborative care program had access to subspecialty mental health treatment, including psychiatric consultation, psychopharmacotherapy, and psychotherapy. Depression symptoms were monitored with the self-reported PHQ-9 (Patient Health Questionnarie-9) screens in a patient registry. Antenatal depression trajectories were determined by comparing the earliest prenatal PHQ-9 score after collaborative care referral with the score closest to delivery. Trajectories were categorized as improved, stable, or worsened according to whether PHQ-9 scores changed by at least 5 points. Bivariable analyses were performed. A propensity score was generated to control for confounders that were significantly different on bivariable analyses according to trajectories. This propensity score was then included in multivariable models.RESULTS:Of the 732 pregnant people included, 523 (71.4%) had mild or more severe depressive symptoms (PHQ-9 score 5 or higher) on their initial screen. Antenatal depression symptoms improved in 256 (35.0%), remained stable in 437 (59.7%), and worsened in 39 (5.3%); the corresponding incidence of preterm birth was 12.5%, 14.0%, and 30.8%, respectively (P=.009). Compared with those with a worsened trajectory, pregnant people who had an improved antenatal depression symptom trajectory had a significantly decreased odds of preterm birth (adjusted odds ratio 0.37, 95% CI 0.15-0.89).CONCLUSION:Compared with worsened symptoms, an improved antenatal depression symptom trajectory is associated with decreased odds of preterm birth for pregnant people referred for mental health care. These data further underscore the public health importance of incorporating mental health care into routine obstetric care. (c) 2023 Lippincott Williams and Wilkins. All rights reserved."""
+
+

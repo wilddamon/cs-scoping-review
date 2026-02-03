@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clinicalstudyonthefactorsaffectingthepostpartumrecoveryofpatientswithhypertensivepregnancydisordersatachinesehospital2017wei
+"Aim: The aim of this study was to investigate the post-partum recovery of blood pressure (BP) in women with hypertensive disorders of pregnancy (HDP) and to evaluate HDP risk factors. Methods: A total of 124 patients with gestational hypertension (n = 63) or pre-eclampsia (n = 61) who gave birth at Peking University People's Hospital between January and December 2013 were included in this study. The recorded clinical and laboratory parameters included the patients' general information, maternal pre-pregnancy body mass index, gestational weight gain, gestational age at onset and delivery, delivery mode and time taken for BP to return to normal level. Logistic regression analysis was performed to evaluate the influence of various risk factors on post-partum BP recovery. Results: The mean interval for BP normalization was 24.1 +- 22.8 days (median, 7 days). Forty-six percent of the patients recovered from hypertension within three days, and 75% recovered within six weeks of delivery. About 90% of the patients required 60 days for BP to normalize after delivery. After adjusting for confounding factors, post-partum recovery from hypertension was found to be influenced by hypertension severity, maternal serum albumin level, a family history of hypertension and gestational week at delivery. Conclusions: The BP of the majority of the patients with gestational hypertension or pre-eclampsia returned to normal within 60 days of delivery. Hypertension severity, maternal serum albumin level, a family history of family hypertension and gestational week at delivery influenced the time required for BP normalization. (c) 2016 Japan Society of Obstetrics and Gynecology"""
+
+

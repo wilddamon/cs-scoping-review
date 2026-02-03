@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomprehensivemodelcombiningradiomicsandriskfactorsforpredictingmassivehemorrhageincesareanscarpregnancyduringdilatationandcurettage2025gao
+"BACKGROUND: To develop a comprehensive model integrating MRI radiomics signatures and independent risk factors for predicting the risk of massive bleeding during dilatation and curettage(D&C) in patients with cesarean scar pregnancy (CSP). METHODS: CSP patients who underwent D&C were retrospectively reviewed. Intraoperative massive bleeding was defined as bleeding exceeding 200 ml based on surgical records. Three-dimensional MRI T2-weighted images were obtained, and radiomics signatures were extracted from the gestational sac (GS). Subjects were randomly separated into the training and testing sets in a 7:3 ratio. Radiomics features and clinical variables were analyzed to conduct both radiomics and clinical models. The nomogram was established by combining Radscore and the selected clinical variables. RESULTS: Among 109 CSP patients, 33 patients experienced massive hemorrhage while 76 patients did not. Serum b-hCG and the maximum inlet diameter of the CSD (P < 0.05) were identified as significant clinical prognostic factors for massive hemorrhage. The nomogram demonstrated superior AUCs of 0.962 (95 % CI 0.928-0.989) and 0.926 (95 % CI 0.843-0.987) in the training and testing cohorts, respectively, Delong's test was employed to compare the AUCs of the nomogram with those of the radiomics model and the clinical model. The results showed no significant differences between the nomogram and the other models in both the training (p > 0.05) and testing cohorts (p > 0.05). The nomogram calibration curve exhibited good agreement, with no significant differences found in the Hosmer-Lemeshow test (all p > 0.05). DCA revealed a substantial overall net benefit for the nomogram. CONCLUSIONS: Our study achieved accurate prediction of massive hemorrhage during D&C in CSP patients by integrating MRI radiomics and clinical features, underscoring the synergistic effectiveness of radiomics combined with clinical variables. The combined nomogram offered valuable support for precise preoperative risk assessment and individualized treatment decisions."""
+
+

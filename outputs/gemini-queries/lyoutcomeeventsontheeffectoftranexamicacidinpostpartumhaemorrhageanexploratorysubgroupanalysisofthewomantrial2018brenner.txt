@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theimpactofearlyoutcomeeventsontheeffectoftranexamicacidinpostpartumhaemorrhageanexploratorysubgroupanalysisofthewomantrial2018brenner
+"Background: In severe post-partum haemorrhage, death can occur within hours of bleeding onset so interventions to control the bleeding must be given immediately. In clinical trials of treatments for life-threatening bleeding, established treatments are given priority and the trial treatment is usually given last. However, enrolling patients in whom severe maternal morbidity or death is imminent or inevitable at the time of randomisation may dilute the effects of a trial treatment. Methods: We conducted an exploratory analysis of data from the WOMAN trial, an international, randomised placebo-controlled trial of the effects of tranexamic acid on death and surgical intervention in 20,060 women with post-partum haemorrhage. We assessed the impact of early maternal death or hysterectomy due to exsanguination on the effect of tranexamic acid on each of these respective outcomes. We conducted repeated analyses excluding patients with these outcomes at increasing intervals from the time of randomisation. We quantified treatment effects using risk ratios (RR) and 99% confidence intervals (CI) and prepared cumulative failure plots. Results: Among 14,923 women randomised within 3h of delivery (7518 tranexamic acid and 7405 placebo), there were 216 bleeding deaths (1.5%) and 383 hysterectomies due to bleeding (2.8%). After excluding deaths from exsanguination at increasing time intervals following randomization, there was a significant reduction in the risk of death due to bleeding with tranexamic acid (RR=0.41; 99% CI 0.19-0.89). However, after excluding hysterectomies at increasing time intervals post-randomization, there was no reduction in the risk of hysterectomy due to bleeding with tranexamic acid (RR=0.79; 99% CI 0.33-1.86). Conclusions: Findings from this analysis provide further evidence that tranexamic acid reduces the risk of death from exsanguination in women who experience postpartum haemorrhage. It is uncertain whether tranexamic acid reduces the risk of hysterectomy for bleeding after excluding early hysterectomies. (c) 2018 The Author(s)."""
+
+

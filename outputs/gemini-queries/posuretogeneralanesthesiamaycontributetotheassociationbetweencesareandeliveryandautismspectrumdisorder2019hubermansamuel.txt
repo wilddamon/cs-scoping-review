@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exposuretogeneralanesthesiamaycontributetotheassociationbetweencesareandeliveryandautismspectrumdisorder2019hubermansamuel
+"Cesarean section (CS) has been consistently associated with susceptibility to autism spectrum disorder (ASD), however, the underlying mechanism for this association remains vague. Here, we studied various pre-peri-and-neonatal factors among 347 children with ASD, 117 children with other developmental delays (DD), and 2226 age, sex and ethnicity matched controls. We found that CS is significantly associated with an increased risk of ASD but not DD (p = 0.019 and p = 0.540 respectively). Furthermore, we show that only CS performed with general anesthesia (GA) elevated the risk of ASD with no significant difference between indicated and non-indicated surgeries (aOR = 1.537; 95% CI 1.026-2.302, and aOR = 1.692; 95% CI 1.057-2.709, p(diff) = 0.865). We therefore suggest that exposure to GA during CS may explain the association between CS and ASD."""
+
+

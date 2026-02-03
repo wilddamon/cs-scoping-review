@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofamodeltopreoperativelypredicttheriskofplacentaaccretaspectruminwomenwithplacentaprevia2025zhou
+"BACKGROUND: Placenta previa, occurring when the placenta covers the cervical opening after 28 weeks, can lead to severe postpartum bleeding, especially when coupled with placenta accreta spectrum (PAS), posing risks of organ damage and necessitating hysterectomy. Accurate preoperative diagnosis of PAS in women with placenta previa is crucial to reduce adverse outcomes. OBJECTIVES: This study aimed to develop a risk prediction model for PAS in women with placenta previa. MATERIAL AND METHODS: A total of 437 patients with placenta previa, delivering babies between January 2012 and December 2018, were included. Data collected encompassed clinical records, neutrophil-to-lymphocyte ratio (NLR) and sonographic findings. Utilizing univariate and multivariate logistic regression analyses, the study identified key factors correlated with PAS in expectant mothers with placenta previa. A risk prediction model was formulated and evaluated through receiver operating characteristic (ROC) analysis. External validation was performed using additional patients diagnosed with placenta previa. RESULTS: Independent risk factors for PAS in placenta previa included NLR, timing of cesarean section and miscarriage, placenta previa type, presence of placental lacunae, and uterovesical hypervascularity. The predictive model was established using specific coefficients. The ROC curve indicated an area under the curve (AUC) of 0.821, with a sensitivity of 80.6% and specificity of 68.9%. External validation demonstrated a diagnosis coincidence rate of 75%, and the model exhibited good calibration according to the Hosmer-Lemeshow test (p = 0.3742, >0.05). CONCLUSIONS: The developed model showed effective potential in predicting PAS among women with placenta previa. Its application could significantly contribute to the early detection and subsequent management of PAS."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinataloutcomeafterbariatricsurgery2025lewis
+"IntroductionBariatric surgery is increasingly performed in individuals of reproductive age to treat obesity and reduce associated comorbidities. However, the impact of these procedures on subsequent pregnancy outcomes remains incompletely understood. This study evaluates perinatal outcomes in patients with a history of bariatric surgery, focusing exclusively on pregnancies occurring after surgery, using a large, real-world database.MethodsA retrospective cohort study was conducted using the TriNetX Research Network, a national, de-identified electronic health record database. We identified pregnant females aged >=18 between June 1, 2015, and June 25, 2025. Patients with prior bariatric surgery were identified using ICD-10 and CPT codes. Propensity score matching (1:1) was performed based on age, race, ethnicity, gravida, parity, hypertension, diabetes, anemia, and delivery method, yielding 41 777 matched pairs. Perinatal outcomes including fetal growth restriction (FGR), macrosomia, gestational hypertension, gestational diabetes, preeclampsia, and preterm delivery were compared using odds ratios (ORs) and 95% confidence intervals (CIs).ResultsBariatric surgery was associated with significantly lower risks of FGR (OR 0.831, 95% CI 0.749-0.921), macrosomia (OR 0.283, 95% CI 0.262-0.305), gestational hypertension (OR 0.391, 95% CI 0.375-0.409), preeclampsia (OR 0.313, 95% CI 0.294-0.334), gestational diabetes (OR 0.415, 95% CI 0.393-0.439), and preterm delivery (OR 0.525, 95% CI 0.493-0.560) compared to controls.ConclusionPatients with a history of bariatric surgery who became pregnant after the procedure experienced significantly reduced risks of several adverse perinatal outcomes. These findings support the role of bariatric surgery in improving pregnancy outcomes among individuals with obesity and underscore the importance of preconception counseling and tailored prenatal care."""
+
+

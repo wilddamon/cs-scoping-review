@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: aretrospectivecohortstudyofprematureneonatalmortalityratesandcontributingfactorsinatertiaryreferralnicuinaddisababaethiopiafrom2022to20232025valentine
+"BACKGROUND: Prematurity remains the leading contributor for neonatal death globally, with Ethiopia having the 4th highest incidence of neonatal deaths. Clarifying specific contributors of prematurity-related neonatal death is critical to improve outcomes. OBJECTIVE: We evaluated neonatal causes of death among premature neonates at St. Paul's Hospital Millennium Medical College's (SPHMMC) neonatal intensive care unit (NICU). STUDY DESIGN: Through a retrospective electronic database, we evaluated mortality outcomes for neonates <37 weeks' gestation admitted to SPHMMC NICU from February 2022-May 2023, excluding those with congenital anomalies. Logistic regression models assessed the association between variables and outcomes. RESULTS: Of 1033 premature neonates included in the analysis, 228 (22.1 %) died. Mortality was inversely related to birthweight with extremely low birthweight neonates (<=1000g) having 84 % mortality. The top 3 causes of prematurity-related mortality included respiratory distress syndrome (67.7 %, 159/228), sepsis (39.5 %, 90/228), and pulmonary hemorrhage (25.0 %, 57/228). Neonates that died from pulmonary hemorrhage had higher antenatal corticosteroids (ACS) exposure (66.7 % vs 36.7 %, p < 0.001), less chorioamnionitis (29.5 % vs 55.5 %, p = 0.004), and higher cesarean section delivery (71.9 % vs 53.1 %, p = 0.02). Notably, there were no associations between mortality and ACS exposure or lack thereof in the overall cohort in multivariate models. CONCLUSION: While respiratory distress syndrome and sepsis are commonly reported findings of premature mortality, surprisingly, 25 % of premature newborns died from pulmonary hemorrhage at SPHMMC NICU. Further investigations are needed to clarify the causes and contributing factors leading to premature death and to determine whether pulmonary hemorrhage is an underreported, underrecognized contributor to prematurity-related mortality globally."""
+
+

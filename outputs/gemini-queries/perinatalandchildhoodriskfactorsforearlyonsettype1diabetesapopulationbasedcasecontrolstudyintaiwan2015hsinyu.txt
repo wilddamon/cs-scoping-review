@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: perinatalandchildhoodriskfactorsforearlyonsettype1diabetesapopulationbasedcasecontrolstudyintaiwan2015hsinyu
+"Background: Certain factors originating from the perinatal and childhood periods are suspected of contributing to the recent increasing trend of childhood type 1 diabetes (T1D) incidence. This study sought to investigate the relationships between various perinatal and childhood risk factors and T1D incidence in young children (<10 years). Methods: We used a nested case-control design based on 1 478 573 live births born in 2000-05 in Taiwan. Cases were 632 incident cases of T1D between 2000 and 2008. Ten matched controls for each case were randomly selected. Information on various perinatal risk factors was also identified from claim data. Multiple conditional logistic regression was employed to estimate odds ratio (OR) and 95 confidence interval (CI) of T1D. Results: Childhood infection was significantly associated with an increased risk of T1D (OR = 1.46, 95% CI = 1.23-1.73). Increased risk of T1D was also noted in children born to younger mothers (<25 years) (OR = 1.94, 95% CI = 1.34-2.81), older fathers (>30 years) (OR = 1.56 (95% CI = 1.16-2.10) to 1.57 (95% CI = 1.19-2.05), mothers with Caesarean section (CS) (OR = 2.35, 95% CI = 1.52-3.64), and mothers with gestational diabetes mellitus (OR = 4.36, 95% CI =2.76-7.77). Fathers with T1D (OR = 7.36, 95% CI = 1.02-57.21) or type 2 diabetes (OR = 1.54, 95% CI = 1.04-2.26) were observed to substantially increase the risk of offspring T1D. Conclusions: Certain modifiable perinatal factors such as infection and CS may predispose incidence of T1D in young children."""
+
+

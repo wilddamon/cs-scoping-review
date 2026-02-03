@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: incidenceandriskfactorsofthirdandfourthdegreeperinealtearsinasingleitalianscenario2018frigerio
+"Objective This study aimed to evaluate III and IV degree tears rates and related risk factors in a single Italian centre. The secondary goal was to build a predictive model based on identified risk factors. Study design This was a retrospective cohort study. All vaginal deliveries from 2011 to 2015 in a single Italian University Hospital were analysed. Univariate analysis was applied to evaluate the overall association between each factor and severe tear. Multivariate logistic regression was used to build a predictive model for the absolute risk of severe tear. We computed a resampling validated measure (AUC) of the predictive accuracy of the model and we provided a nomogram for the risk calculation in clinical practice. Results 62 out of 10133 patients (0.61%) had a severe perineal tear. Univariate analysis identified gestational age >40 weeks, nulliparity, moderate/severe obesity, oxytocin use in pushing stage, sinciput presentation, instrumental delivery, shoulder dystocia, pushing stage >=90 min, lithotomy position, birth weight >4 kg, head circumference at birth >34 cm and length at birth >50 cm as risk factors. Multivariate analysis identify moderate/severe obesity (OR = 2.8), instrumental delivery (OR = 2.6) and birth weight (OR = 1.1/hg) as independent risk factors. Using the predicted risk score from the final model (bootstrap-validated AUC 70%), we designed a nomogram for severe perineal tears absolute risk calculation. Conclusion Moderate/severe obesity, instrumental delivery and foetal weight resulted as independent risk factors for severe obstetrical tears. (c) 2017 Elsevier B.V."""
+
+

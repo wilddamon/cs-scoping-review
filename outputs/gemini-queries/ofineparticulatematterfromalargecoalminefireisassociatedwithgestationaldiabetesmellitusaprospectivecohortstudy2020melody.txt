@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalexposuretofineparticulatematterfromalargecoalminefireisassociatedwithgestationaldiabetesmellitusaprospectivecohortstudy2020melody
+"Background: In 2014, the Hazelwood coal mine fire was an unprecedented event that resulted in a six-week period of poor air quality in the Latrobe Valley in regional Australia. We aimed to determine whether maternal exposure to fine particulate matter in coal mine fire smoke was associated with selected obstetric complications, including gestational diabetes mellitus, hypertensive disorders of pregnancy and abnormal placentation. Methods: We defined a complete cohort of pregnant women with births >20 weeks in the Latrobe Valley from March 1, 2012-Dec 31, 2015 utilising administrative perinatal data. Average and peak fine particulate matter (PM<inf>2.5</inf>) was assigned to residential address at delivery using a chemical transport model. Maternal, meteorological and temporal variables were included in final log-binomial regression models. Results: 3612 singleton pregnancies were included in the analysis; 766 were exposed to the smoke event. Average maternal PM<inf>2.5</inf> exposure was 4.4 mg/m3 (SD 7.7; IQR 2.12). Average peak PM<inf>2.5</inf> exposure was 44.9 mg/m3 (SD 57.1; IQR 35.0). An interquartile range increase in peak PM<inf>2.5</inf> was associated with a 16% increased likelihood of gestational diabetes mellitus (95%CI 1.09, 1.22; <0.0001). Whereas, an interquartile range increase in average PM<inf>2.5</inf> was associated with a 7% increased likelihood of gestational diabetes mellitus (95%CI 1.03, 1.10; <0.0001). Second trimester exposure was of critical importance. No association for hypertensive disorders or abnormal placentation was observed. Conclusion: this is the first study to examine obstetric complications relating to a discrete smoke event. These findings may guide the public health response to future similar events. (c) 2019 Elsevier Inc."""
+
+

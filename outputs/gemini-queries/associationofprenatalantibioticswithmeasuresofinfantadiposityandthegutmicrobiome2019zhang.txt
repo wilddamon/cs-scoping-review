@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofprenatalantibioticswithmeasuresofinfantadiposityandthegutmicrobiome2019zhang
+"BACKGROUND: Prenatal antibiotic exposure has been associated with an altered infant gut microbiome composition and higher risk of childhood obesity, but no studies have examined if prenatal antibiotics simultaneously alter the gut microbiome and adiposity in infants. METHOD: In this prospective study (Nurture: recruitment 2013-2015 in North Carolina, United States), we examined in 454 infants the association of prenatal antibiotic exposure (by any prenatal antibiotic exposure; by trimester of pregnancy; by number of courses; by type of antibiotics) with infant age- and sex-specific weight-for-length z score (WFL-z) and skinfold thicknesses (subscapular, triceps, abdominal) at 12 months of age. In a subsample, we also examined whether prenatal antibiotic exposure was associated with alterations in the infant gut microbiome at ages 3 and 12 months. RESULTS: Compared to infants not exposed to prenatal antibiotics, infants who were exposed to any prenatal antibiotics had 0.21 (95% confidence interval [CI] 0.02, 0.41) higher WFL-z at 12 months, and 0.28 (95% CI 0.02, 0.55) higher WFL-z if they were exposed to antibiotics in the second trimester, after adjustment for potential confounders, birth weight, and gestational age. We also observed a dose-dependent association (P-value for trend = 0.006) with infants exposed to >= 3 courses having 0.41 (95% CI 0.13, 0.68) higher WFL-z at 12 months. After further adjustment for delivery method, only second-trimester antibiotic exposure remained associated with higher infant WFL-z (0.27, 95% CI 0.003, 0.54) and subscapular skinfold thickness (0.49 mm, 95% CI 0.11, 0.88) at 12 months. Infants exposed to second-trimester antibiotics versus not had differential abundance of 13 bacterial amplicon sequence variants (ASVs) at age 3 months and 17 ASVs at 12 months (false discovery rate adjusted P-value < 0.05). CONCLUSIONS: Prenatal antibiotic exposure in the second trimester was associated with an altered infant gut microbiome composition at 3 and 12 months and with higher infant WFL-z and subscapular skinfold thickness at 12 months."""
+
+

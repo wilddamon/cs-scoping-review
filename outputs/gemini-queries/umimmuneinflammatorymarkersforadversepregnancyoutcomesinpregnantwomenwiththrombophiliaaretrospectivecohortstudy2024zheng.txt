@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictivevalueofserumimmuneinflammatorymarkersforadversepregnancyoutcomesinpregnantwomenwiththrombophiliaaretrospectivecohortstudy2024zheng
+"Background: Thrombophilia combined with pregnancy poses significant risks for adverse pregnancy outcomes. Unfortunately, there are no indicators at high risk for predicting adverse pregnancy outcomes. This study investigates the predictive efficiency of serum immune-inflammatory markers on adverse pregnancy outcomes. Method(s): This retrospective cohort study includes 223 pregnant women diagnosed with thrombophilia who delivered at the Fujian Provincial Hospital South Branch from January 2022 to April 2024. Clinical information and pregnancy outcomes were collected. The systemic immune-inflammation index (SII), systemic inflammation response index (SIRI), and lactate dehydrogenase (LDH) were calculated using blood samples. The relationship and predictive accuracy between immune-inflammatory markers and adverse pregnancy outcomes were analyzed. Result(s): In this study, 50 (22.4%) patients had adverse pregnancy outcomes. Significant differences were observed in neutrophils counts, monocytes counts, LDH, SII, and SIRI levels between the adverse pregnancy outcome groups (APOs) and the control groups (P<0.05). The area under the receiver operating characteristic (ROC) curve analysis revealed that SII (AUC=0.762), SIRI (AUC=0.764), and LDH (AUC=0.732) had high predictive values for adverse pregnancy outcomes. Notably, the combined model had the highest AUC of 0.805. Multivariate logistic regression identified SII had the highest odd ratio (OR) (OR=8.512; 95% CI (3.068-23.614)), followed by LDH (OR=4.905; 95% CI (1.167-11.101)), SIRI (OR=3.549; 95% CI(0.847-8.669)), and neutrophils count (OR=1.726; 95% CI (0.563-2.938)) as independent risk factors for adverse outcomes. Conclusion(s): Elevated levels of immune-inflammatory markers such as SII, SIRI, and LDH level are strong predictors of adverse pregnancy outcomes in thrombophilia-complicated pregnancies. These markers are significantly associated with maternal-neonatal outcomes. Our findings underscore the importance of monitoring immune-inflammatory markers in pregnant women with thrombophilia to improve maternal and neonatal outcomes.Copyright (c) 2024 Zheng et al."""
+
+

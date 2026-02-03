@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: insulinversusglibenclamideforthetreatmentofgestationaldiabetes2022radhika
+"Background: Gestational diabetes mellitus is glucose intolerance with onset or first detection during pregnancy, regardless of insulin administration. Hyperglycemia is linked to pregnancy complications in GDM. Method(s): The Kakatiya Medical College, Warangal, Telangana conducted the study "Comparison of Insulin and Glibenclamide in Gestational Diabetes Mellitus" between April 2021 and March 2022 with approval from the hospital's ethics board. We screened for Gestational Diabetes Mellitus in around 150 individuals who visited our antenatal clinic. Result(s): The AN clinic examined around 50 female patients at random for GDM using a 75 gm OGTT. If their fasting plasma glucose was greater than or equal to 95 mg/dl, and their 2-hour post meal glucose was greater than or equal to 140 mg/dl, then they were classified as having GDM. Insulin was administered to 25 patients and glibenclamide was given to another 25. Unfortunately, we were unable to complete the study due to the loss of 2 patients in the glibenclamide group. Conclusion(s): In the trial, glycemic control and perinatal outcomes were practically the same for those treated with glibenclamide and insulin, save for one adverse result in the glibenclamide group who had a second trimester abortion due to late discovery and one macrosomic infant in the Insulin group.Copyright (c) 2022 EManuscript Technologies. All rights reserved."""
+
+

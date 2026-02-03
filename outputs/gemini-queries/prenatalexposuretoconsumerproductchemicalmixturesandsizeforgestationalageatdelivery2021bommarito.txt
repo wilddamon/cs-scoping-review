@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalexposuretoconsumerproductchemicalmixturesandsizeforgestationalageatdelivery2021bommarito
+"Background: While fetal growth is a tightly regulated process, it is sensitive to environmental exposures that occur during pregnancy. Many commonly used consumer products contain chemicals that can disturb processes underlying fetal growth. However, mixtures of these chemicals have been minimally examined. We investigated associations between prenatal exposure to 33 consumer product chemicals (nine organophosphate ester flame retardant [OPE] metabolites, 12 phthalate metabolites, and 12 phenols) and the odds of small- or large-for-gestational age (SGA and LGA) births. Methods: This case-control study was comprised of SGA (N = 31), LGA (N = 28), and appropriate for gestational age control (N = 31) births selected from the larger LIFECODES cohort. Biomarkers of exposure to consumer product chemicals were quantified in maternal urine collected from up to three study visits during pregnancy. In a single-pollutant approach, odds ratios (OR) and 95% confidence intervals (CI) of SGA and LGA associated with an interquartile range (IQR)-increase in exposure biomarkers were estimated using multinomial logistic regression. In a multi-pollutant approach, quantile g-computation was used to jointly estimate the OR (95% CI) of SGA and LGA per simultaneous one quartile-change in all biomarkers belonging to each chemical class. Results: Among the 33 biomarkers analyzed, 20 were detected in at least 50% of the participants. After adjusting for potential confounders, we observed reduced odds of LGA in association with higher urinary concentrations of several exposure biomarkers. For example, an IQR-increase in the OPE metabolite, diphenyl phosphate, was associated with lower odds of LGA (OR: 0.40 [95% CI: 0.18, 0.87]). Using quantile g-computation, we estimated lower odds of an LGA birth for higher OPE metabolite concentrations (OR: 0.49 [95% CI: 0.27, 0.89]) and phthalate metabolite concentrations (OR: 0.23 [95% CI: 0.07, 0.73]). Associations between consumer product chemicals and SGA were largely null. Conclusions: Joint exposure to OPEs and phthalates was associated with lower odds of delivering LGA. Associations with LGA could indicate a specific impact of these exposures on the high end of the birth weight spectrum. Future work to understand this nuance in the associations between consumer product chemical mixtures and fetal growth is warranted. (c) 2021, Ownership of copyright in the Article shall vest in the Rights Holder. When reproducing the Article or extracts from it, the Rights Holder shall acknowledge and reference first publication in the Journal."""
+
+

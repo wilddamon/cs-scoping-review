@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isultrasoundmeasuredfetalbiometrypredictiveofintrapartumcaesareansectionforfailuretoprogress2018yang
+"Background: There are global concerns regarding excessive caesarean rates, which could be reduced by identification of risk factors leading to preventative measures such as induction of labour. Aims: This study aims to describe the association between antenatal ultrasound and emergency caesarean section for: (i) failure to progress; (ii) other indications; and (iii) any indication. Materials and Methods: Women who had an ultrasound in pregnancy between 36(+0/7) to 38(+6/7) weeks at Royal Prince Alfred Hospital from January 2005 to June 2009 were included. Ultrasound parameters were linked to clinical parameters from the maternity database. Missing clinical data were imputed and multiple logistic regression performed. Results: Fetal biometry data were available for 2006 pregnancies. After adjusting for maternal age, height, body mass index, parity, previous caesarean section and diabetes, caesarean section for failure to progress was associated with estimated fetal weight (odds ratio (OR) 2.24 (95% CI: 1.76-2.84) per 500 g increase); or biparietal diameter (OR 1.51 (1.16-1.97) per 5 mm increase) and abdominal circumference (OR for the 4th quartile (>75th centile) compared with the 10-25th centile group was 2.09 (1.13-3.85)).* There were also non-linear associations between components of fetal biometry and caesarean section for fetal distress and for any indication. Conclusions: Components of fetal biometry in the third trimester are associated with intrapartum caesarean section for failure to progress. These parameters could be incorporated into models to predict emergency caesarean section which could lead to implementation of preventative strategies. *[Corrections added on 29 January 2018, after first online publication, '(OR for the 4th quartile (>7th centile)' has been changed to '(OR for the 4th quartile (>75th centile)'.]. (c) 2017 The Royal Australian and New Zealand College of Obstetricians and Gynaecologists"""
+
+

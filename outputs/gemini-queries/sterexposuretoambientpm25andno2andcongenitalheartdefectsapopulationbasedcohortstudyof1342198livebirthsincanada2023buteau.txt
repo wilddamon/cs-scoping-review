@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenfirsttrimesterexposuretoambientpm25andno2andcongenitalheartdefectsapopulationbasedcohortstudyof1342198livebirthsincanada2023buteau
+"BACKGROUND: The extent to which ambient air pollution contributes to the pathogenesis of congenital heart defects remains uncertain. OBJECTIVE: We investigated whether first trimester exposure to ambient fine particulate matter (PM<inf>2:5</inf>) and nitrogen dioxide (NO<inf>2</inf>) was associated with the risk of critical and noncritical heart defects in a large population-based cohort of births. METHODS: We carried out a retrospective cohort study of children conceived between 2000 and 2016 in Quebec, Canada. Heart defects were identified via data from the Maintenance and Use of Data for the Study of Hospital Clientele registry. The main exposures were average concentration of PM<inf>2:5</inf> and NO<inf>2</inf> in a) the first trimester and b) the month of conception. Exposures were estimated at the residential postal code. Associations with critical and noncritical heart defects were assessed using logistic regression models, adjusted for maternal and infant characteristics. We considered single-and two-pollutant models and assessed modifying effects of maternal comorbidity, including preexisting hypertension, preeclampsia, anemia, and diabetes. RESULTS: The cohort comprised 1,342,198 newborns, including 12,715 with heart defects. Exposure in the first trimester and month of conception yielded similar results; both were associated with a greater risk of heart defects. Adjusted odds ratios (OR) for any heart defect per interquartile range increase were 1.02 (95% CI: 1.00, 1.05) for PM<inf>2:5</inf> and 1.10 (95% CI: 1.07, 1.13) for NO<inf>2</inf>. Associations with atrial septal defects were 1.08 (95% CI: 1.03, 1.14) for PM<inf>2:5</inf> and 1.19 (95% CI: 1.12, 1.25) for NO<inf>2</inf>. Corresponding ORs for ventricular septal defects and individual critical heart defects were not significant. PM<inf>2:5</inf> (OR = 1:11; 95% CI: 1.06, 1.17) and NO<inf>2</inf> (OR = 1:23; 95% CI: 1.17, 1.31) exposure were associated with a greater risk of heart defects in mothers with comorbidity. DISCUSSION: In this population-based cohort, prenatal exposure to ambient air pollution during the first trimester was associated with an increased risk of heart defects, particularly atrial septal defects. The association with heart defects was greater in mothers with comorbidity. https://doi.org/10.1289/EHP11120. (c) 2023, Public Health Services, US Dept of Health and Human Services. All rights reserved."""
+
+

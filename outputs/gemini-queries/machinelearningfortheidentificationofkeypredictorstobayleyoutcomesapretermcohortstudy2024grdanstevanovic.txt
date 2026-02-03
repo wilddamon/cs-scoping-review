@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningfortheidentificationofkeypredictorstobayleyoutcomesapretermcohortstudy2024grdanstevanovic
+"Background: The aim of this study was to understand how neurological development of preterm infants can be predicted at earlier stages and explore the possibility of applying personalized approaches. Method(s): Our study included a cohort of 64 preterm infants, between 24 and 34 weeks of gestation. Linear and nonlinear models were used to evaluate feature predictability to Bayley outcomes at the corrected age of 2 years. The outcomes were classified into motor, language, cognitive, and socio-emotional categories. Pediatricians' opinions about the predictability of the same features were compared with machine learning. Result(s): According to our linear analysis sepsis, brain MRI findings and Apgar score at 5th minute were predictive for cognitive, Amiel-Tison neurological assessment at 12 months of corrected age for motor, while sepsis was predictive for socio-emotional outcome. None of the features were predictive for language outcome. Based on the machine learning analysis, sepsis was the key predictor for cognitive and motor outcome. For language outcome, gestational age, duration of hospitalization, and Apgar score at 5th minute were predictive, while for socio-emotional, gestational age, sepsis, and duration of hospitalization were predictive. Pediatricians' opinions were that cardiopulmonary resuscitation is the key predictor for cognitive, motor, and socio-emotional, but gestational age for language outcome. Conclusion(s): The application of machine learning in predicting neurodevelopmental outcomes of preterm infants represents a significant advancement in neonatal care. The integration of machine learning models with clinical workflows requires ongoing education and collaboration between data scientists and healthcare professionals to ensure the models' practical applicability and interpretability.Copyright (c) 2024 by the authors."""
+
+

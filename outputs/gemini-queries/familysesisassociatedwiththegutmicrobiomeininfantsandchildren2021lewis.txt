@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: familysesisassociatedwiththegutmicrobiomeininfantsandchildren2021lewis
+"Background: While early life exposures such as mode of birth, breastfeeding, and antibiotic use are established regulators of microbiome composition in early childhood, recent research suggests that the social environment may also exert influence. Two recent studies in adults demonstrated associations between socioeconomic factors and microbiome composition. This study expands on this prior work by examining the association between family socioeconomic status (SES) and host genetics with microbiome composition in infants and children. Methods: Family SES was used to predict a latent variable representing six genera abundances generated from whole-genome shotgun sequencing. A polygenic score derived from a microbiome genome-wide association study was included to control for potential genetic associations. Associations between family SES and microbiome diversity were assessed. Results: Anaerostipes, Bacteroides, Eubacterium, Faecalibacterium, and Lachnospiraceae spp. significantly loaded onto a latent factor, which was significantly predicted by SES (p < 0.05) but not the polygenic score (p > 0.05). Our results indicate that SES did not predict alpha diversity but did predict beta diversity (p < 0.001). Conclusions: Our results demonstrate that modifiable environmental factors influence gut microbiome composition at an early age. These results are important as our understanding of gut microbiome influences on health continue to expand. (c) 2021 by the authors. Licensee MDPI, Basel, Switzerland."""
+
+

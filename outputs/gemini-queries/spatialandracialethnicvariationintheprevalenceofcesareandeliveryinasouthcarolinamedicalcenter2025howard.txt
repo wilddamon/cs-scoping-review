@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: spatialandracialethnicvariationintheprevalenceofcesareandeliveryinasouthcarolinamedicalcenter2025howard
+"INTRODUCTION: While racial/ethnic disparities in cesarean delivery have been noted in the literature, less is known about the intersection between individual-level race/ethnicity and community-level social vulnerability as factors in cesarean delivery. The goal was to use medical record data from a large medical center combined with census tract-level data to examine patterns of social vulnerability, racial population distribution, and prevalence of cesarean delivery.;METHODS: Data were obtained from electronic medical records of patients from a large medical center in South Carolina from 2019 to 2020. The outcome variable was cesarean delivery (yes/no), and covariates included the year of delivery; age of patient; race/ethnicity; spoken language; BMI categories; clinical indications of anemia, hypertension, preeclampsia, and diabetes; and census tract Social Vulnerability Index (SVI). Generalized linear mixed models for multilevel binary logistic regression were used to test the main hypothesis that the census tract level Social Vulnerability Index is positively associated with cesarean delivery.;RESULTS: Among a total of 5011 patients, we found that non-Hispanic Black mothers were more likely to have cesarean deliveries compared with non-Hispanic White mothers. After controlling for census tract-level SVI, the individual-level race/ethnicity association was no longer significant. Significant spatial autocorrelation across census tracts was evident for cesarean delivery prevalence, non-Hispanic Black population, and SVI. A high prevalence of cesarean delivery tended to cluster with high SVI and a high non-Hispanic Black population.;CONCLUSIONS: We found that non-Hispanic Black mothers were more likely to have cesarean deliveries, which was explained by census tract differences in the SVI. Copyright (c) 2024. W. Montague Cobb-NMA Health Institute."""
+
+

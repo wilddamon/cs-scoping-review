@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: retrospectiveanalysisoftheeffectofelectroniccardiotocographyonselectedbirthandneonatalvariablesamong4172womenfromasinglecentreinwarsawpoland2025rychlewicz
+"OBJECTIVES: Cardiotocography (CTG) is widely used for continuous or intermittent assessment of fetal heart function. This study aimed to compare the effects of continuous and intermittent CTG during labour on selected variables. MATERIAL AND METHODS: In a retrospective study, 4172 medical records of Warsaw Hospital (Poland) patients were analysed. The study group consisted of 2111 women with continuous CTG during labour and the control group of 2061 women with intermittent CTG. RESULTS: In the group with intermittent CTG, a higher odds ratio of caesarean section (OR = 1.06, 95% CI = 0.87-1.30), second-degree perineal tear (OR = 1.65, 95% CI = 1.07-2.55),third- and fourth-degree perineal tears (OR = 5.13, 95% CI = 1.12-23.53) and oxygen therapy (OR = 1.76, 95% CI = 1.19-2.59) were noted. In the group with intermittent CTG, a lower odds ratio of a newborn with an Apgar score of <= 7 points in the fifth minute of life (OR = 0.34, 95% CI = 0.12-0.94), nCPAP (Nasal Continuous Positive Airway Pressure) (OR = 0.56, 95% CI = 0.36-0.86) and resuscitation (OR = 0.37, 95% CI = 0.17-0.79)) were observed. The analysis shows that in the group of women with intermittent CTG during labour, the odds ratio of abnormal BE result was lower (OR=0.45, 95% CI = 0.21-0.98). CONCLUSIONS: Continuous CTG during labour in high-risk women increases the likelihood of instrumental delivery (using vacuum) and perineal incision compared with intermittent CTG. The use of intermittent CTG during labour reduces the number of newborns with Apgar scores <= 7 points and decreases the number of neonatal interventions such as nCPAP and resuscitation."""
+
+

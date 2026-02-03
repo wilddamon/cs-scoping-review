@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalomega3supplementationandeczemariskamongoffspringatage36months2016berman
+"BACKGROUND: Long-term follow-up was completed in 84 mother-infant pairs of 118 women who completed a randomized controlled trial of prenatal supplementation with EPA- or DHA-rich fish oil or soy oil placebo. The goal of this study was to determine whether prenatal omega-3 fatty acid supplementation protects offspring against development of early childhood allergies. METHODS AND FINDINGS: Assessment of childhood allergic/atopic disease among offspring at age 36 months was performed by maternal interview using the National Health Interview Survey (NHIS) questions for childhood digestive allergies, wheezing, eczema or skin allergy, and respiratory allergy. Multiple logistic regressions examined the association between prenatal supplementation and childhood outcomes, adjusted for covariates. Eczema was reported in 26/84 (31%) of offspring at age 36 months, and was significantly more prevalent in the omega-3 supplementation groups vs. placebo: EPA 13/31 (41.9%); DHA 10/26 (38.5%); placebo 3/27 (11.1%), p=0.019. Compared to placebo, EPA and DHA were associated with >=5 times risk of offspring eczema [odds ratios (ORs): EPA 5.8 (95% CI 1.4-23.3); DHA 5.0 (95% CI 1.2-21.0)]. After adjusting for other potential risk factors (race, birth weight, vaginal/Cesarean delivery, and maternal eczema) the magnitudes of association for omega-3 supplementation increased: EPA OR 8.1 (95% CI 1.4-45.6); DHA OR 9.6 (95% CI 1.6-58.5). Maternal eczema was also significantly associated with offspring eczema in the adjusted model: OR 10.8 (95% CI 2.1-54.3). CONCLUSION: Contrary to our hypothesis, acids supplementation compared to soy oil was associated with a substantial increase in risk of childhood eczema. This association was not observed on childhood respiratory or digestive outcomes. It is unclear if these findings were driven by unfavorable effects of omega-3s, or whether there may have been unanticipated protective effects of the soy-based placebo with regards to eczema."""
+
+

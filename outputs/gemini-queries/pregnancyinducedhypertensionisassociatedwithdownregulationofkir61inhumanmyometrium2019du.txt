@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyinducedhypertensionisassociatedwithdownregulationofkir61inhumanmyometrium2019du
+"It is generally accepted that activity of K+ channels maintain resting membrane potential and uterine quiescence during pregnancy, which is, at least in part, mediated by down-regulation of ATP-sensitive K+ (K<inf>ATP</inf>) channels. Pregnancy-induced hypertension (PIH) is associated with pre-term and late pre-term labour. Here, we have used real time RT-PCR to compare mRNA levels of K<inf>ATP</inf> channel subunits in PIH parturient and control parturient. We have found that Kir6.1, a pore forming, myometrial K<inf>ATP</inf> channel subunit is down-regulated in PIH patients. This could perfectly explain increased rate of pre-term labour in patients suffering from PIH. (c) 2019 International Society for the Study of Hypertension in Pregnancy"""
+
+

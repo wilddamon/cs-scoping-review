@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsassociatedwithumbilicalarterialbloodphintermneonatesdeliveredviacesareansectionaretrospectivecohortstudy2025tang
+"ObjectiveThis retrospective cohort study aimed to identify perinatal factors associated with umbilical arterial pH in term neonates delivered via cesarean section, using a pH cutoff of 7.20 to define neonatal acidosis.MethodsWe analyzed clinical data from 356 mother-neonate dyads who underwent cesarean delivery at a tertiary hospital between January 2020 and December 2022. Neonates were categorized into two groups based on umbilical arterial pH values (<7.20 vs. >=7.20). We evaluated maternal and intrapartum factors, including amniotic fluid quality (operationally defined as clear or meconium-stained (grades I-III)), duration of labor, and fetal distress. Statistical analyses included multivariable logistic regression to quantify associations (reported as odds ratios with 95% confidence intervals) and random forest modeling to identify key predictors. Model performance was assessed via receiver operating characteristic curve analysis.ResultsThe incidence of acidosis (umbilical arterial pH <7.20) was 51.0% (52/102). Meconium-stained amniotic fluid (adjusted odds ratio: 3.12; 95% confidence interval: 1.75-5.58; p < 0.001) and trial of labor (adjusted odds ratio: 2.45; 95% confidence interval: 1.40-4.30; p = 0.002) were significantly associated with acidosis. The random forest model identified these factors as the top predictors, with an area under the curve of 0.71 (95% confidence interval: 0.68-0.74) based on 10-fold cross-validation.ConclusionMeconium-stained amniotic fluid and prolonged labor are strongly associated with acidosis in term cesarean deliveries. Early identification of these factors may aid in risk stratification and perinatal management."""
+
+

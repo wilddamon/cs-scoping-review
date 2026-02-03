@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: spatialtranscriptomicsoffetalmembranedecidualinterfacerevealsuniquecontributionsbycelltypesintermandpretermbirths2024richardson
+"During pregnancy, two fetomaternal interfaces, the placenta-decidua basalis and the fetal membrane-decidua parietals, allow for fetal growth and maturation and fetal-maternal crosstalk, and protect the fetus from infectious and inflammatory signaling that could lead to adverse pregnancy outcomes. While the placenta has been studied extensively, the fetal membranes have been understudied, even though they play critical roles in pregnancy maintenance and the initiation of term or preterm parturition. Fetal membrane dysfunction has been associated with spontaneous preterm birth (PTB, < 37 weeks gestation) and preterm prelabor rupture of the membranes (PPROM), which is a disease of the fetal membranes. However, it is unknown how the individual layers of the fetal membrane decidual interface (the amnion epithelium [AEC], the amnion mesenchyme [AMC], the chorion [CTC], and the decidua [DEC]) contribute to these pregnancy outcomes. In this study, we used a single-cell transcriptomics approach to unravel the transcriptomics network at spatial levels to discern the contributions of each layer of the fetal membranes and the adjoining maternal decidua during the following conditions: scheduled caesarian section (term not in labor [TNIL]; n = 4), vaginal term in labor (TIL; n = 3), preterm labor with and without rupture of membranes (PPROM; n = 3; and PTB; n = 3). The data included 18,815 genes from 13 patients (including TIL, PTB, PPROM, and TNIL) expressed across the four layers. After quality control, there were 11,921 genes and 44 samples. The data were processed by two pipelines: one by hierarchical clustering the combined cases and the other to evaluate heterogeneity within the cases. Our visual analytical approach revealed spatially recognized differentially expressed genes that aligned with four gene clusters. Cluster 1 genes were present predominantly in DECs and Cluster 3 centered around CTC genes in all labor phenotypes. Cluster 2 genes were predominantly found in AECs in PPROM and PTB, while Cluster 4 contained AMC and CTC genes identified in term labor cases. We identified the top 10 differentially expressed genes and their connected pathways (kinase activation, NF-kB, inflammation, cytoskeletal remodeling, and hormone regulation) per cluster in each tissue layer. An in-depth understanding of the involvement of each system and cell layer may help provide targeted and tailored interventions to reduce the risk of PTB."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweenobesityinwomenwithmultiplegestationsandadverseobstetricoutcomesastudyofanamericanpopulationdatabasewithover136000uniquedeliveries2025suissa
+"PURPOSE: The purpose of this study is to compare obese and non-obese women with multiple pregnancies to determine the effects on pregnancy, delivery, and neonatal outcomes. METHODS: We conducted a retrospective population-based study utilizing data collected between 2004 and 2014 inclusively, from the Healthcare Cost and Utilization Project-Nationwide Inpatient Sample. A total of 137,303 multiple pregnancies were analyzed; 130,542 (95%) were non-obese, while 6761 (5%) were obese. An initial analysis was performed to identify the prevalence of obesity in women with multiple pregnancies. Subsequently, chi-square tests and binary logistic regression analyses were conducted to assess the association between obesity and multiple gestation in the context of obstetric complications. RESULTS: There was a statistically significant increase in the prevalence of obesity for women with multiple gestations (p < 0.0001). The obese group was at higher risk of pregnancy-induced hypertension (adjusted odd's ratio [aOR] = 1.89, 95% confidence interval [CI] = 1.77-2.02), gestational hypertension (aOR = 1.84, CI = 1.65-2.05), preeclampsia (aOR = 1.68, CI = 1.55-1.81), preeclampsia or eclampsia superimposed on pre-existing hypertension (aOR = 1.86, CI = 1.58-2.20), gestational diabetes mellitus (aOR = 2.65, CI = 2.44-2.87), and placenta previa (aOR = 0.57, CI = 0.39-0.85). They were more likely to have preterm premature rupture of membranes (aOR = 1.19, CI = 1.06-1.34), chorioamnionitis (aOR = 1.24, CI = 1.03-1.51), caesarean deliveries (aOR = 1.28, CI = 1.18-1.38), wound complications (aOR = 1.65, CI = 1.31-2.08), and transfusions (aOR = 0.77, CI = 0.67-0.89). They were less likely to have small for gestational age neonates (aOR = 0.88, CI = 0.79-0.97), though more likely to have neonates with congenital anomalies (aOR = 1.56, CI = 1.16-2.10). CONCLUSION: Obesity and multiple gestations are independent risk factors for adverse obstetric outcomes. Combined, when analyzed in a large population, obesity in multiple gestation increases the risk of maternal, delivery, and neonatal complications."""
+
+
