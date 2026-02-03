@@ -47,6 +47,7 @@ def main():
     data = pandas.read_csv("outputs/basic-processing/merged-abstracts.csv")
     data.set_index("dedup_index", inplace=True)
     data["has_gemini_data"] = False
+    data["added_2025"] = False
 
     list_columns = [
         "exposure",
