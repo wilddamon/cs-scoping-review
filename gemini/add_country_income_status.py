@@ -1,5 +1,6 @@
 import pandas
 import re
+import sys
 
 
 INCOME_GROUPINGS = {
@@ -47,6 +48,7 @@ COUNTRY_ALIASES = {
         "Dresden",
         "8 European countries",
         "Multiple European countries",
+        "Bavaria",
     ],
     "Greece": ["Multiple European countries"],
     "Hungary": ["8 European countries"],
@@ -92,6 +94,7 @@ COUNTRY_ALIASES = {
     "Malta": ["Gozo"],
     "Mexico": ["Yucatan"],
     "Netherlands": ["Multiple European countries", "Dutch"],
+    "New Zealand": ["Dunedin"],
     "Nigeria": ["Ebonyi", "Nigerian"],
     "Norway": ["Nordic countries", "Scandinavia", "Norwegian"],
     "Pakistan": [
@@ -132,6 +135,8 @@ COUNTRY_ALIASES = {
         "Northern Ireland",
         "Multiple European countries",
         "Irish",
+        "Birmingham",
+        "Aberdeen",
     ],
     "United States of America": [
         "America",
@@ -155,6 +160,7 @@ COUNTRY_ALIASES = {
         "Texas",
         "Utah",
         "Wisconsin",
+        "Rhode Island",
     ],
     "Uzbekistan": ["Bukhara"],
 }
@@ -168,6 +174,7 @@ NON_COUNTRY_STRS = [
     "Asian continent",
     "Asian countries",
     "Black African",
+    "but described as a subtropical country",
     "Caribbean region",
     "developing countries",
     "Developing countries",
@@ -177,6 +184,7 @@ NON_COUNTRY_STRS = [
     "European Union",
     "Global",
     "Indian subcontinent",
+    "inferred from 'Naples Pediatric Food Allergy score'",
     "International",
     "Latin America",
     "LMICs",
@@ -184,6 +192,8 @@ NON_COUNTRY_STRS = [
     "Newborn Health",
     "North America",
     "Northern America",
+    "Not Specified",
+    "Not specified",
     "Oceania",
     "South Asia",
     "south asian region",
@@ -250,7 +260,7 @@ def country_list(country_str):
             if country in COUNTRY_ALIASES[aliased_country]:
                 alias_found = True
                 result.add(aliased_country)
-        if not alias_found:
+        if not alias_found and country not in NON_COUNTRY_STRS:
             result.add(country)
     return list(result)
 
@@ -279,14 +289,26 @@ def only_hic(country_str):
     return True
 
 
-data = pandas.read_csv("outputs/merged-abstracts-gemini-appended.csv")
-data.set_index("dedup_index", inplace=True)
-data["only_hic"] = data["country"].apply(only_hic)
-countries = data["country"].apply(country_list)
-data["country"] = countries.apply(lambda l: ";".join(l))
+def add_country_income_status(filename):
+    data = pandas.read_csv(filename)
+    data.set_index("dedup_index", inplace=True)
+    data["only_hic"] = data["country"].apply(only_hic)
+    countries = data["country"].apply(country_list)
+    data["country"] = countries.apply(lambda l: ";".join(l))
 
-income_groups = countries.apply(country_income_group_list)
-print(income_groups.value_counts(dropna=False))
-data["country_income_group"] = income_groups.apply(lambda l: ";".join(l))
+    income_groups = countries.apply(country_income_group_list)
+    print(income_groups.value_counts(dropna=False))
+    data["country_income_group"] = income_groups.apply(lambda l: ";".join(l))
 
-data.to_csv("outputs/merged-abstracts-gemini-country-appended.csv")
+    out_fname = filename[:-4] + "-country-appended.csv"
+    data.to_csv(out_fname)
+    return data
+
+
+def main():
+    add_country_income_status("outputs/merged-abstracts-gemini-appended.csv")
+
+
+
+if __name__ == "__main__":
+    sys.exit(main())
