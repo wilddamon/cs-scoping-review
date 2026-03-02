@@ -559,12 +559,18 @@ def rank_relevance(row):
         # Remove anything after the word "without"
         cohort = cohort.split("without")[0]
 
-    if pandas.notna(row["year"]) and row["year"] < 2014:
-        return 0, "Before 2014"
     if not row["only_hic"]:
         return 0, "not HIC"
     if any_regex_in_str(STUDY_TYPE_EXCLUSIONS, row["study type"]):
         return 0, "Wrong study type"
+
+    if (
+        pandas.isna(row["mod_finding"])
+        or row["mod_finding"]
+        == "The study does not mention any findings related to mode of birth."
+        or row["mod_finding"] == "Mode of delivery was adjusted for in the analysis."
+    ) and not any_regex_in_str(BIRTH_TYPE_REGEXES, row["finding"]):
+        return 0, "No finding related to mode of birth"
 
     if any_regex_in_str(
         YOUNG_AGE_REGEXES, row["followup_time"]
@@ -629,7 +635,7 @@ def rank_relevance(row):
     return result, reason
 
 
-data = pandas.read_csv("outputs/merged-abstracts-gemini-country-appended.csv")
+data = pandas.read_csv("outputs/merged-abstracts-gemini-appended-country-appended.csv")
 data.set_index("dedup_index", inplace=True)
 
 relevance_pairs = data.apply(rank_relevance, axis=1)
