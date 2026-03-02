@@ -201,9 +201,13 @@ def process(name, path):
     df = pandas.read_csv(path)
     print(f"Found {len(df)} records")
 
-    pre_2014 = df["year"] < 2014
-    df = df[~pre_2014]
-    print(f"Removed {pre_2014.sum()} entries published before 2014")
+    pre_2016 = df["year"] < 2016
+    df = df[~pre_2016]
+    print(f"Removed {pre_2016.sum()} entries published before 2016")
+
+    pub_2026 = df["year"] == 2026
+    df = df[~pub_2026]
+    print(f"Removed {pub_2026.sum()} entries published in 2026")
 
     result_series = [len(df)]
 
