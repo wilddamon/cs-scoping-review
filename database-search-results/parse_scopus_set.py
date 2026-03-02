@@ -34,7 +34,7 @@ def read_single(path):
 
 def main():
     data = []
-    for i in range(2):
+    for i in range(1):
         data.append(read_single(f"database-search-results/Scopus/scopus({i}).csv"))
     pandas.concat(data).to_csv("outputs/database-search-results/scopus.csv")
 
