@@ -4,33 +4,27 @@ import sys
 import pandas
 
 
+col_mapping = {
+    "UI": "pmid",
+    "TI": "title",
+    "DO": "doi",
+    "AU": "authors",
+    "JN": "journal",
+    "AB": "abstract",
+    "PT": "publication types",
+    "LG": "language",
+    "YR": "year",
+}
+
+
 def read_single(path, has_pmid):
     print(f"Reading {path}")
-    data = pandas.read_excel(path, sheet_name="citations", header=1, engine='xlrd')
-    if has_pmid:
-        data = data[
-            ["UI", "TI", "DO", "AU", "JN", "AB", "PT", "LG", "YR"]
-        ]
-        data = data.rename(
-            columns={
-                "UI": "pmid",
-                })
-    else:
-        data = data[
-            ["TI", "DO", "AU", "JN", "AB", "PT", "LG", "YR"]
-        ]
-    data = data.rename(
-        columns={
-            "TI": "title",
-            "DO": "doi",
-            "AU": "authors",
-            "JN": "journal",
-            "AB": "abstract",
-            "PT": "publication types",
-            "LG": "language",
-            "YR": "year",
-        }
-    )
+    data = pandas.read_excel(path, sheet_name="citations", header=1, engine="xlrd")
+    for k in col_mapping:
+        if k == "UI" and not has_pmid:
+            continue
+        data = data.rename(columns={k: col_mapping[k]})
+    print(data.columns)
     data["year"] = data["year"].apply(tidy_year)
     return data
 
