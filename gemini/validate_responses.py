@@ -51,9 +51,8 @@ data["dedup_index"].apply(validate_entry)
 
 for c in EXPECTED_COLUMNS:
     print(f"Number of files missing '{c}': {len(missing_field[c])}")
-print("Missing files")
+print(f"Missing files {len(missing_file)}")
 print(missing_file)
 print("Wrong IDs - correct : filename")
 pprint(wrong_ids)
 
-#print(missing_field["mod_finding"])
