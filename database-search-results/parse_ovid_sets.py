@@ -24,7 +24,6 @@ def read_single(path, has_pmid):
         if k == "UI" and not has_pmid:
             continue
         data = data.rename(columns={k: col_mapping[k]})
-    print(data.columns)
     data["year"] = data["year"].apply(tidy_year)
     return data
 
