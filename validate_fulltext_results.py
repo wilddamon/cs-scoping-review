@@ -3,7 +3,7 @@ from functools import partial
 import pandas
 from pprint import pprint
 
-t = "2026-2-27T16-5"
+t = "2026-3-18T15-50"
 whos = ("offspring", "women", "society", "dyad")
 
 all_reviewed_ids = set()
@@ -15,6 +15,7 @@ lines_reviewed = {}
 
 outcomes_by_id = collections.defaultdict(list)
 notes_by_id = collections.defaultdict(list)
+who_by_id = collections.defaultdict(set)
 
 
 def save_outcome_row(outcome, row):
@@ -30,6 +31,16 @@ def save_outcome_row(outcome, row):
 def save_note_by_row(row):
     if pandas.notna(row["Note"]):
         notes_by_id[row["dedup_index"]].append(row["Note"])
+
+
+def who_by_row(who, row):
+    colnames = (
+        "difference observed past 12 months",
+        "CS good/bad/neutral",
+    )
+    for colname in colnames:
+        if colname in row and pandas.notna(row[colname]) and row[colname] != "-":
+            who_by_id[row["dedup_index"]].add(who)
 
 
 for who in whos:
@@ -66,6 +77,7 @@ for who in whos:
 
         d.apply(partial(save_outcome_row, sheet_name), axis=1)
         d.apply(save_note_by_row, axis=1)
+        d.apply(partial(who_by_row, who), axis=1)
 
 
 yes_data = pandas.read_csv("outputs/yes.csv")
@@ -76,6 +88,7 @@ print(f"Total number of items reviewed: {len(all_reviewed_ids)}")
 print(
     f"Number found to be irrelevant after review: {len(not_relevant_after_review_ids)}"
 )
+print(f"Number remaining: {len(all_ids) - len(not_relevant_after_review_ids)}")
 
 unreviewed = all_ids - all_reviewed_ids
 print(f"IDs in yes.csv that aren't reviewed yet: {len(unreviewed)}")
@@ -92,7 +105,6 @@ for who in whos:
 
 pprint(unreviewed)
 
-
 # Output a sheet that shows all the outcomes listed per paper, and also excluded papers
 all_data = pandas.read_csv("outputs/validation_results/all_data.csv", low_memory=False)
 all_data.set_index("dedup_index", inplace=True)
@@ -105,18 +117,30 @@ for dedup_index in all_data.index:
     )
     if dedup_index in not_relevant_after_review_ids:
         all_data.at[dedup_index, "updated_manual_assessment"] = "NO"
+    all_data.at[dedup_index, "who"] = ";".join(who_by_id[dedup_index])
 
 
-d = "2026-02-12"
-prev_all_data = pandas.read_csv(f"outputs/validation_results/all_results-{d}.csv")
+d = "2026-03-17-1"
+prev_all_data = pandas.read_csv(
+    f"outputs/validation_results/all_results-{d}.csv", low_memory=False
+)
 prev_all_data.set_index("dedup_index", inplace=True)
 all_data["exclusion reason"] = None
 all_data.update(prev_all_data, overwrite=False)
 
 all_data.to_csv("outputs/validation_results/all_results.csv")
-all_data[
+yes_results = all_data[
     (all_data["relevance"] > 0)
     & (all_data["manual_assessment"] != "NO")
     & (all_data["updated_manual_assessment"] != "NO")
     & (all_data["fulltext_screening"] != "NO")
-].to_csv("outputs/validation_results/yes_results.csv")
+]
+yes_results.to_csv("outputs/validation_results/yes_results.csv")
+
+print(f"Number of yes results: {len(yes_results)}")
+
+print(f"Missing country:")
+print(yes_results[yes_results["country"].isna()])
+
+print(f"Missing who:")
+print(yes_results[yes_results["who"].isna() | (yes_results["who"] == "")])
