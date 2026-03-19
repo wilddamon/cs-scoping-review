@@ -211,6 +211,9 @@ def process(name, path):
 
     result_series = [len(df)]
 
+    result_series.append((df["year"] == 2024).sum())
+    result_series.append((df["year"] == 2025).sum())
+
     df["normalised_abstract"] = df["abstract"].apply(normalise_abstract)
 
     # Exclude anything without a title, abstract, or journal name
@@ -516,19 +519,19 @@ def process(name, path):
             result_series=result_series,
         )
 
-    df = remove_title_publication_type(
-        df,
-        title_phrases=[
-            r"randomi[sz]ed",
-        ],
-        pub_types=[
-            r"randomi[sz]ed",
-        ],
-        name="randomised controlled trials",
-        journal_phrase=r"randomi[sz]ed",
-        excelwriter=excelwriter,
-        result_series=result_series,
-    )
+        df = remove_title_publication_type(
+            df,
+            title_phrases=[
+                r"randomi[sz]ed",
+            ],
+            pub_types=[
+                r"randomi[sz]ed",
+            ],
+            name="randomised controlled trials",
+            journal_phrase=r"randomi[sz]ed",
+            excelwriter=excelwriter,
+            result_series=result_series,
+        )
 
     print(f"Continuing analysis with {len(df)} remaining records...")
     result_series.append(len(df))
@@ -565,6 +568,8 @@ def main():
 
     result_df["index"] = [
         "total records",
+        "published in 2024",
+        "published in 2025",
         "missing abstract, title, or year",
         "single sentence in abstract",
         "not published in English",
