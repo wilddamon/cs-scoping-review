@@ -32,7 +32,7 @@ outcome_mapping = {
             "fat",
             "circumference",
         ],
-        "asthma": ["asthma"],
+        "asthma": ["asthma", "airflow"],
         "wheeze": ["wheez"],
         "microbiome/mycobiome/virome": [
             "microbiome",
@@ -154,6 +154,7 @@ outcome_mapping = {
             "bronchiolitis",
             "pneumonia",
             "otolaryngology",
+            "rsv",
         ],
         "psychosis": ["psychosis", "psychotic"],
         "esophagitis": ["esophag"],
@@ -517,14 +518,16 @@ def insert_fulltext_result(row):
         return "NO"
     return None
 
-
+d = "2026-3-18"
 data = add_country_income_status.add_country_income_status(
-    "outputs/ranked-abstracts-with-manual-assessments-2026-2-6-country-fulltext.csv"
+    f"outputs/ranked-abstracts-with-manual-assessments-{d}-country-fulltext.csv"
 )
 data["fulltext_screening"] = data.apply(insert_fulltext_result, axis=1)
 data.to_csv("outputs/validation_results/all_data.csv")
+
+data["outcome"] = data["outcome"].str.lower()
 yes_data = data[
-    (data["manual_assessment"] == "YES")
+    (data["manual_assessment"] != "NO")
     & (data["relevance"] > 0)
     & (data["fulltext_screening"] != "NO")
 ].copy()
@@ -552,7 +555,7 @@ for idx in yes_data.index:
         for outcome in outcomes:
             who_counters[who][outcome] += 1
     if len(who_results) == 0:
-        print(idx)
+        print(yes_data.loc[idx])
 
 
 for who in WHOS:
