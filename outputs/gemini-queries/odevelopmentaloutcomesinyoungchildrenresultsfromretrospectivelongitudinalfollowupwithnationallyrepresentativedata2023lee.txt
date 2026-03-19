@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: impactofmoderatetolatepretermbirthonneurodevelopmentaloutcomesinyoungchildrenresultsfromretrospectivelongitudinalfollowupwithnationallyrepresentativedata2023lee
+"This study investigated the relationship between moderate-to-late preterm (MLPT) birth and the risk of neurodevelopmental impairments (NIs) in young children compared with the risks associated with very preterm (VPT) and full-term (FT) birth based on nationally representative large-scale population data. Retrospective follow-up was conducted over 71 months for 738,733 children who were born and participated in the Korean National Health Screening Program for Infants and Children (NHSPIC) between 2011 and 2013. Using a data linkage between the NHSPIC and Korean healthcare claim information, data on birth year, sex, delivery type, birth weight, growth abnormality, gestational age, breastfeeding history, maternal age, NIs, multiple gestation, preterm labor, premature rupture of membranes (PROM), gestational diabetes, gestational hypertension, smoking during pregnancy, and socioeconomic status were collected and included in the final analysis. Cox proportional hazards models were applied to identify the impact of gestational age on NI risk, with all variables adjusted as appropriate. Overall, 0.9% and 3.8% rates of VPT and MLPT births were identified, respectively. NI incidence was highest among VPT children (34.7%), followed by MLPT (23.9%) and FT (18.2%) children. Both VPT (hazard ratio [HR], 1.45; 95% confidence interval [CI], 1.03 to 2.05) and MLPT (HR, 1.21; 95% CI, 1.04 to 1.41) births were associated with increased NI risk. Low birth weight, PROM, and smoking during pregnancy were also associated with increased NI risk, while longer breastfeeding and higher socioeconomic status were associated with decreased risk. Special attention must be given to NIs for both VPT and MLPT children. (c) 2023 Lee et al."""
+
+

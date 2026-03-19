@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neonatalsepsisandkawasakidisease2022takeuchi
+"The purpose of this study is to clarify the relationship between neonatal sepsis and future development of Kawasaki disease (KD). We analyzed data from the National Hospital Organization Neonatal Intensive Care Unit (NHO-NICU) registry study in Japan. Participants in this study were children with a history of hospitalization in the NICU at the participating institutions from 2010 to 2014. A questionnaire was administered at age 3 years to obtain information about the patient's history of KD. There were 8275 infants who were eligible for this study. At 3 years of age, parents of 2161 children responded to the follow-up survey (follow-up rate, 26.1%). Multivariate logistic regression analysis adjusted for preterm birth, sex, use of antibiotics in the NICU, parity, and maternal smoking showed that children with neonatal sepsis were more likely to have a history of KD at 3 years of age (adjusted odds ratio [aOR]: 11.67, 95% confidence interval [CI]: 2.84-47.96). Conclusions: Among infants admitted to the NICU, neonatal sepsis might be associated with development of KD later in life. Further large studies are needed to elucidate the relationship between neonatal infections and KD development.What is Known:* Preterm birth is known to be a risk factor for Kawasaki disease.*It is not yet known which factors related to preterm birth increase the risk of developing Kawasaki disease.What is New:*Neonatal sepsis is associated with an increased risk of subsequent development of Kawasaki disease.*Antibiotic use in the neonatal intensive care unit may also be an independent risk factor for subsequent development of Kawasaki disease. (c) 2022, The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature."""
+
+

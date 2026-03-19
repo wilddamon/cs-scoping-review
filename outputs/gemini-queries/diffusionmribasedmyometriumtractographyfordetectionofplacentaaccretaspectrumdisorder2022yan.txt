@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: diffusionmribasedmyometriumtractographyfordetectionofplacentaaccretaspectrumdisorder2022yan
+"Background: Prenatal diagnosis of placenta accreta spectrum (PAS) disorders is difficult. Magnetic resonance imaging (MRI) has been shown to be a useful supplementary method to ultrasound. Purpose: To investigate diffusion MRI (dMRI) based tractography as a tool for detecting PAS disorders, and to evaluate its performance compared with anatomical MRI. Study Type: Prospective. Population: Forty-seven pregnant women in the third trimester with risk factors for PAS. Field Strength/Sequence: Using fast imaging employing steady-state acquisition and high-angular resolution dMRI at 1.5 Tesla. Assessment: Diagnosis of PAS was performed by three radiologists based on the dMRI-based feature of myometrial fiber discontinuity and on commonly used anatomical features including presence of dark band, discontinuous myometrium and bladder wall interruption. We evaluated the sensitivity, specificity, accuracy, and area-under-the-curve (AUC) of the individual features and established an integrated model with random forest analysis. Statistical Tests: Maternal age and gestational age at scan were compared between PAS and control group using a t-test, and childbearing history was compared using a chi-squared test. The random forest model was employed to combine the anatomical and dMRI features with 5-fold cross-validation, and the weight of each feature was normalized to evaluate its importance in predicting PAS. Results: Based on surgical pathology reports, 16 out of 47 patients had confirmed PAS. The anatomical feature of dark bands and tractography marker achieved the highest AUC of 0.842 for predicting PAS, and the integrated anatomical and tractography features further improved the AUC of 0.880 with an accuracy of 87.2%. The tractography feature contributed most (30.1%) to the integrated model. Data Conclusion: Myometrial tractography demonstrated superior performance in detecting PAS. Moreover, the combination of dMRI-based tractography and anatomical MRI could potentially improve the diagnosis of PAS disorders in clinical practice. Level of Evidence: 2. Technical Efficacy Stage: 2. (c) 2021 International Society for Magnetic Resonance in Medicine."""
+
+

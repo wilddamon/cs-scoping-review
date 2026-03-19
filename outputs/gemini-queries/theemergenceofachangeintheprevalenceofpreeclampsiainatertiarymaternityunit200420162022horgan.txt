@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theemergenceofachangeintheprevalenceofpreeclampsiainatertiarymaternityunit200420162022horgan
+"Background: Pre-eclampsia (PET) affects 2-3% of all pregnancies, rising to 5-7% in nulliparous women. This study aimed to investigate the prevalence of PET over a 13-year period. Methods: A retrospective review was performed over a 13-year period (2004-2016) via interrogation of the annual clinical reports of The Rotunda Hospital, Dublin. Results: There was a fall in the overall incidence of PET (nulliparous and multiparous), from a peak of 3.8% in 2007 to 1.5% in 2015. Comparing the first and second halves of the study time-period this decrease was statistically significant (p <.0001). In nulliparous women, the thirteen-year mean was 4.4% for the study period, with a similar observed reduction from a peak of 5.3% in 2005 to a trough of 2.4% in 2015. Discussion: In our institution, we have shown a decrease in preeclampsia rates over a 13-year period. While the reason for this trend remains unclear, a similar trend has been observed in another tertiary unit and additional research is required to explain the etiology behind these observations. (c) 2020 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationbetweenclinicallydiagnosedneonataljaundiceandautismaswedishregisterbasedcohortstudy2025kanina
+"Aim: Neonatal jaundice may increase the likelihood of autism through its influence on neurodevelopment. We assessed whether neonatal jaundice increases the risk for autism while accounting for confounding of perinatal risk factors. Method: We used a population-based cohort of 1 669 830 individuals born in Sweden between 1992 and 2010. Information on jaundice and autism was retrieved from Swedish registers. Participants were followed from the age of 3, with available follow-up until 2013. We used Cox regression to estimate the hazard ratios (HRs) relating autism to neonatal jaundice. Results: Prior to accounting for covariates such as prenatal and perinatal factors, we observed an association between neonatal jaundice and autism (HR = 1.48, 95% CI: 1.37-1.60). This association significantly weakened after adjusting for potential confounders, particularly gestational age and birth weight. After adjusting for all covariates, the association nullified (HR = 1.02, 95% CI: 0.93-1.12). Conclusion: The association between neonatal jaundice and autism is confounded, in particular by preterm birth. Our results highlight the importance of accounting for perinatal confounders when investigating the link between early life factors and autism, which may not always be genetic or familial. (c) 2025 The Author(s). Acta Paediatrica published by John Wiley & Sons Ltd on behalf of Foundation Acta Paediatrica."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofmachinelearningmodelsforriskpredictionofpostpartumstressurinaryincontinenceaprospectiveobservationalstudy2025wang
+"Introduction and Hypothesis: This study aims to develop a postpartum stress urinary incontinence (PPSUI) risk prediction model based on an updated definition of PPSUI, using machine learning algorithms. The goal is to identify the best model for early clinical screening to improve screening accuracy and optimize clinical management strategies. Methods: This prospective study collected data from 1208 postpartum women, with the dataset randomly divided into training and testing sets (8:2). Five machine learning algorithms--logistic regression, decision trees, random forests, support vector machines (SVM), and eXtreme gradient boosting (XGBoost)--were used to construct the PPSUI risk prediction model. Model performance was evaluated using multiple metrics, and the best-performing model was selected and validated for generalizability with the testing set. Results: The final model retained ten features: birth weight, weight gain during pregnancy, BMI before delivery, pre-pregnancy BMI, age of delivery, gestation, parity, pre-delivery uterine height, age of first delivery, and labor analgesia. Among the five algorithms, the random forest model performed best, with a test AUC of 0.995 (95% CI 0.990-0.999, P < 0.05), accuracy of 0.956, precision of 0.957, recall of 0.944, specificity of 0.966, and F1 score of 0.951. The model's high generalizability was confirmed with the testing set and further validated through bootstrapping and tenfold cross-validation. Conclusion: The random forest model shows strong clinical potential for PPSUI risk prediction and early screening. Future studies should expand the sample size and include multi-center data to further enhance the model's clinical applicability. (c) The International Urogynecological Association 2025."""
+
+

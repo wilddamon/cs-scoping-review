@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectsofhospitaldeliveryvolumeandtraveltimeonperinatalmortalityanddeliveryintransitcausalinferencewithtriangulation2025asheim
+"Background: Hospital regionalization involves balancing hospital volume and travel time. We investigated how hospital volume and travel time affect perinatal mortality and the risk of delivery in transit using three different study designs. Methods: This nationwide cohort study used data from the Medical Birth Registry of Norway (1999-2016) and Statistics Norway. We compared estimates across three designs: (1) Observed confounder adjustment: Comparing women giving birth at hospitals of different sizes and travel times (1,066,332 births), (2) Sibling comparison: Comparing women who moved between hospital catchment areas between births (203,464 births), and (3) Neighbor comparison: comparing women living in neighboring municipalities, but in different hospital catchment areas (460,776 births). Results: The study population included 5080 (0.48%) perinatal deaths and 7063 deliveries in transit (0.66%). For hospitals with 2000 compared with 500 births/year, observed confounder adjustment showed 1.81 times higher perinatal mortality (95% confidence interval [CI]: 1.21, 2.73). However, sibling and neighbor comparisons showed a factor of 0.64 (95% CI: 0.43, 0.97) and 0.61% (95% CI: 0.43, 0.88) lower perinatal mortality, respectively. Increased travel time was strongly associated with higher perinatal mortality using observed confounder adjustment, but this was not supported by the other designs. Longer travel time was consistently linked to an increased risk of delivery in transit. Conclusions: Perinatal mortality was higher in high-volume hospitals when adjusting for observed confounders. However, triangulating inferences from the other designs suggested the opposite, estimating that observed confounder control was insufficient. This supports the idea that access to higher-volume hospitals could improve perinatal outcomes at the population level. (c) (c) 2025 The Author(s)."""
+
+

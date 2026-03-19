@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentofapracticalpredictionmodelforadverseneonataloutcomesatthestartofthesecondstageoflabor2025clapp
+"OBJECTIVE:To develop a prediction model for adverse neonatal outcomes using electronic fetal monitoring (EFM) interpretation data and other relevant clinical information known at the start of the second stage of labor.METHODS:This was a retrospective cohort study of individuals who labored and delivered at two academic medical centers between July 2016 and June 2020. Individuals were included if they had a singleton gestation at term (more than 37 weeks of gestation), a vertex-presenting, nonanomalous fetus, and planned vaginal delivery and reached the start of the second stage of labor. The primary outcome was a composite of severe adverse neonatal outcomes. We developed and compared three modeling approaches to predict the primary outcome using factors related to EFM data (as interpreted and entered in structured data fields in the electronic health record by the bedside nurse), maternal comorbidities, and labor characteristics: traditional logistic regression, LASSO (least absolute shrinkage and selection operator), and extreme gradient boosting. Model discrimination and calibration were compared. Predicted probabilities were stratified into risk groups to facilitate clinical interpretation, and positive predictive values for adverse neonatal outcomes were calculated for each.RESULTS:A total of 22,454 patients were included: 14,820 in the training set and 7,634 in the test set. The composite adverse neonatal outcome occurred in 3.2% of deliveries. Of the three modeling methods compared, the logistic regression model had the highest discrimination (0.690, 95% CI, 0.656-0.724) and was well calibrated. When stratified into risk groups (no increased risk, higher risk, and highest risk), the rates of the composite adverse neonatal outcome were 2.6% (95% CI, 2.3-3.1%), 6.7% (95% CI, 4.6-9.6%), and 10.3% (95% CI, 7.6-13.8%), respectively. Factors with the strongest associations with the composite adverse neonatal outcome included the presence of meconium (adjusted odds ratio [aOR] 2.10, 95% CI, 1.68-2.62), fetal tachycardia within the 2 hours preceding the start of the second stage (aOR 1.94, 95% CI, 1.03-3.65), and number of prior deliveries (aOR 0.77, 95% CI, 0.60-0.99). (c) 2024 by the American College of Obstetricians and Gynecologists. Published by Wolters Kluwer Health, Inc. All rights reserved."""
+
+

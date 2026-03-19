@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofearlypregnancyaltelevationonneonatalbirthweightthemediatingroleofgestationaldiabetesmellitus2025ma
+"Elevated serum alanine aminotransferase (ALT) levels in early pregnancy and gestational diabetes mellitus (GDM) are linked to an increased rate of large for gestational age (LGA) births. Additionally, elevated ALT levels raise the risk of developing GDM, but it remains unclear whether GDM mediates the effect of ALT on neonatal birth weight. This study examines whether GDM mediates this relationship. We conducted a retrospective cohort study with participants from Jinxin Women's and Children's Hospital who delivered single live births between 2020 and 2023. A multifactorial logistic regression model assessed the relationship between early pregnancy ALT levels, GDM incidence, and LGA births. A mediation model evaluated GDM's role in the impact of elevated ALT on neonatal birth weight. Our study included 12,057 patients. After adjusting for confounders, the difference in LGA rates between elevated and normal ALT groups was significant (OR: 1.248, 95% CI: 1.001-1.556, P = 0.049). The GDM incidence difference between these groups was also significant (OR: 1.564, 95% CI: 1.306-1.873, P < 0.01), as was the LGA incidence difference between GDM and non-GDM groups (OR: 1.306, 95% CI: 1.129-1.511, P < 0.01). After adjusting for confounders, we found that elevated ALT levels in early pregnancy and GDM both affected neonatal birth weight. Specifically, elevated ALT levels had a direct impact on neonatal birth weight (b = 0.0291, 95% CI: 0.0100-0.0635), while GDM had an indirect effect (b = 0.0025, 95% CI: 0.0012-0.0056), with GDM accounting for 8.1% of the mediation effect. Our study shows that GDM partly mediates the effect of elevated ALT on neonatal birth weight, highlighting the importance of early ALT and glucose screening in routine prenatal care. Healthcare providers should consider including ALT testing in pregnancy protocols and focus on blood glucose control in patients with elevated ALT to reduce the risk of LGA births. (c) 2025 Ma et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."""
+
+

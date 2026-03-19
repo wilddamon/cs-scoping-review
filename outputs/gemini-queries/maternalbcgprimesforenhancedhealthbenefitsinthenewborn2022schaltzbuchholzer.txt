@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalbcgprimesforenhancedhealthbenefitsinthenewborn2022schaltzbuchholzer
+"Objectives: Bacille Calmette-Guerin (BCG) vaccination lowers the risk of severe infection; we tested whether effects are modulated by maternal BCG in a large cohort of BCG-vaccinated newborns from Guinea-Bissau. Methods: Maternal BCG scar status were inspected at enrolment in a BCG trial conducted from 2014 to 17 in Bissau, Guinea-Bissau. We tested associations with background factors for potential confounding; maternal age affected effect estimates >5% and accordingly, all analyses were adjusted for maternal age. Hospitalization data was collected prospectively and assessed in Cox-models providing adjusted Incidence Rate Ratios (aIRRs). In-hospital risk of death (case-fatality) risk was assessed using binomial regression providing adjusted Risk Ratios (aRRs). Results: 60% (6,309/10,598) of mothers had a scar. The maternal-scar/no-scar admission aIRR was 0.96 (0.81-1.14) from 0 to 6 weeks and 1.12 (0.97-1.28) for 6 weeks-3 years. The 6-week in-hospital case-fatality infection aRR was 0.59 (0.34-1.05); 0.40 (0.17-0.91) for males and 0.86 (0.38-1.94) for females. Protection was especially evident against sepsis, the overall 6-week aRR=0.49 (0.26-0.91); no effect was observed for non-infectious deaths or after 6 weeks of age. Effects were similar across BCG strains and multivariate models adjusted for socioeconomic status did not affect estimates. Conclusion: Among BCG-vaccinated newborns, there was a trend for fewer in-hospital deaths from infection associated with maternal BCG priming, especially for males. Providing BCG to adults without a vaccination scar might enhance their offspring's capacity to handle severe infections. Brief 40-word summary: Within a trial comparing BCG strains for their overall effects on morbidity and mortality in Guinea-Bissau, vertical priming with BCG (represented by the maternal BCG scar) was associated with beneficial sex-differential effects on offspring survival. (c) 2021"""
+
+

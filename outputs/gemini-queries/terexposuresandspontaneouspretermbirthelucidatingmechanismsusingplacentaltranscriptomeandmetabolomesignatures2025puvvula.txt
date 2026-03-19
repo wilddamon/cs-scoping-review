@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gestationalfineparticulatematterexposuresandspontaneouspretermbirthelucidatingmechanismsusingplacentaltranscriptomeandmetabolomesignatures2025puvvula
+"Background: This study aims to evaluate the mediating role of placental transcriptomic and metabolomic changes in the association between gestational exposure to fine particulate matter and spontaneous preterm birth (sPTB). Methods: This study includes 72 participants from the CellulaR Injury and Preterm Birth Study. Daily exposure to PM<inf>2.5</inf> and black carbon during the first 20 weeks of pregnancy was estimated using fused 1-km resolution model outputs linked to maternal delivery addresses. High exposure was defined as days with PM<inf>2.5</inf> >9 mg/m3 or black carbon >1 mg/m3, calculated monthly across gestation. Early sPTB (<32 weeks) and covariates were extracted from electronic health records. Associations between high-exposure days and expression of 432 sPTB-related genes were evaluated using gene-wise negative binomial models, and associations with 866 placental metabolites were assessed using multiple linear regression. Both analyses adjusted for covariates, using q < 0.2 for statistical significance. High-dimensional mediation analysis was conducted on genes/metabolites with at least one significant hit (q < 0.05). Results: Black carbon exposure during gestational months 3-5 was associated with increased odds of sPTB. We identified 63 genes linked to black carbon and 50 to PM<inf>2.5</inf>, mainly related to cellular stress, immune response, and developmental pathways. For black carbon, 23 genes showed consistent associations across multiple exposure windows (9 genes consistently negatively associated, 13 positively associated). An increase in expression of genes MPO, ELANE, and GNRH2 mediated the association between black carbon exposure and increased sPTB. Conclusion: Gestational exposure to black carbon is associated with increased odds of sPTB, and this association was mediated by altered placental gene expression. (c) 2025 The Authors"""
+
+

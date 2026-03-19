@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: neighborhoodwalkabilityandpovertypredictexcessivegestationalweightgainacrosssectionalstudyinnewyorkcity2022kinsey
+"Objective: This study evaluated associations between neighborhood-level characteristics and gestational weight gain (GWG) in a population-level study of 2015 New York City births. Methods: Generalized linear mixed-effects models were used to estimate odds ratios (ORs) for associations between neighborhood-level characteristics (poverty, food environment, walkability) within 1 km of a residential Census block centroid and excessive or inadequate GWG compared with recommended GWG. All models were adjusted for individual-level sociodemographic characteristics. Results: Among the sample of 106,285 births, 41.8% had excessive GWG, and 26.3% had inadequate GWG. Residence in the highest versus lowest quartile of neighborhood poverty was associated with greater odds of excessive GWG (OR: 1.17, 95% CI: 1.08-1.26). Residence in neighborhoods in the quartile of highest walkability compared with the quartile of lowest walkability was associated with lower odds of excessive GWG (OR: 0.87, 95% CI: 0.81-0.93). Adjustment for prepregnancy BMI attenuated the associations for neighborhood poverty, but not for walkability. Neighborhood variables were not associated with inadequate GWG. Conclusions: These analyses indicate that greater neighborhood walkability is associated with lower odds of excessive GWG, potentially from differences in pedestrian activity during pregnancy. This research provides further evidence for using urban design to support healthy weight status during pregnancy. (c) 2022 The Obesity Society"""
+
+

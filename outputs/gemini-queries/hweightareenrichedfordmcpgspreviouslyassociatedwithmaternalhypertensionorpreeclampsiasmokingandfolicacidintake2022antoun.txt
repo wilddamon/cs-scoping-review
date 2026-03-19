@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: dnamethylationsignaturesincordbloodassociatedwithbirthweightareenrichedfordmcpgspreviouslyassociatedwithmaternalhypertensionorpreeclampsiasmokingandfolicacidintake2022antoun
+"Many epidemiological studies have linked low birthweight to an increased risk of non-communicable diseases (NCDs) in later life, with epigenetic proceseses suggested as an underlying mechanism. Here, we sought to identify neonatal methylation changes associated with birthweight, at the individual CpG and genomic regional level, and whether the birthweight-associated methylation signatures were associated with specific maternal factors. Using the Illumina Human Methylation EPIC array, we assessed DNA methylation in the cord blood of 557 and 483 infants from the UK Pregnancies Better Eating and Activity Trial and Southampton Women's Survey, respectively. Adjusting for gestational age and other covariates, an epigenome-wide association study identified 2911 (FDR<=0.05) and 236 (Bonferroni corrected p <= 6.45x10-8) differentially methylated CpGs (dmCpGs), and 1230 differentially methylated regions (DMRs) (Stouffer <=0.05) associated with birthweight. The top birthweight-associated dmCpG was located within the Homeobox Telomere-Binding Protein 1 (HMBOX1) gene with a 195 g (95%CI: -241, -149 g) decrease in birthweight per 10% increase in methylation, while the top DMR was located within the promoter of corticotropin-releasing hormone-binding protein (CRHBP). Furthermore, the birthweight-related dmCpGs were enriched for dmCpGs previously associated with gestational hypertension/pre-eclampsia (14.51%, p = 1.37x10-255), maternal smoking (7.71%, p = 1.50 x 10-57) and maternal plasma folate levels during pregnancy (0.33%, p = 0.029). The identification of birthweight-associated methylation markers, particularly those connected to specific pregnancy complications and exposures, may provide insights into the developmental pathways that affect birthweight and suggest surrogate markers to identify adverse prenatal exposures for stratifying for individuals at risk of later NCDs. (c) 2021 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group."""
+
+

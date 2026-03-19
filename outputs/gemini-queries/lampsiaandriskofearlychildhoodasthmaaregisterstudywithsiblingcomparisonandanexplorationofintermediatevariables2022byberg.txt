@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: preeclampsiaandriskofearlychildhoodasthmaaregisterstudywithsiblingcomparisonandanexplorationofintermediatevariables2022byberg
+"Background: We aimed to study whether pre-eclampsia is associated with childhood asthma, allergic and non-Allergic asthma, accounting for family factors and intermediate variables. Methods: The study population comprised 779 711 children born in 2005-2012, identified from Swedish national health registers (n = 14 823/7410 exposed to mild/moderate and severe pre-eclampsia, respectively). We used Cox regression to estimate the associations of mild/moderate and severe pre-eclampsia with incident asthma, before and after age 2 years. Cox regressions were controlled for familial factors using sibling comparisons, then stratified on high and low risk for intermediate variables: caesarean section, prematurity and small for gestational age. We used logistic regression for allergic and non-Allergic prevalent asthma at 6 years as a measure of more established asthma. Results: The incidence of asthma in children was 7.7% (n = 60 239). The associations varied from adjusted hazard ratio (adjHR) 1.11, 95% confidence interval (CI): 1.00, 1.24 for mild/moderate pre-eclampsia and asthma at >2 years age, to adjHR 1.78, 95% CI: 1.64, 1.95 for severe pre-eclampsia and asthma at <2 years age. Sibling comparisons attenuated most estimates except for the association between severe pre-eclampsia and asthma at <2 years age (adjHR 1.45, 95% CI: 1.10, 1.90), which also remained when stratifying for the risk of intermediates. Mild/moderate and severe pre-eclampsia were associated with prevalent non-Allergic (but not allergic) asthma at 6 years, with adjusted odds ratio (adjOR) 1.17, 95% CI: 1.00, 1.36 and adjOR 1.51, 95% CI: 1.23, 1.84, respectively. Conclusions: We found evidence that severe, but not mild/moderate, pre-eclampsia is associated with asthma regardless of familial factors and confounders. (c) 2021 The Author(s) 2021. Published by Oxford University Press on behalf of the International Epidemiological Association."""
+
+

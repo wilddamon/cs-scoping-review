@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ultrasoundplacentalimagetextureanalysisusingartificialintelligencetopredicthypertensioninpregnancy2022gupta
+"Background: The placental pathological changes in hypertensive disorders of pregnancy (HDP) starts early in pregnancy, the deep convolutional neural networks (CNN) can identify these changes before its clinical manifestation. Objective: To compare the placental quantitative ultrasound image texture of women with HDP to those with the normal outcome. Methods: The cases were enrolled in the first trimester of pregnancy, good quality images of the placenta were taken serially in the first, second, and third trimester of pregnancy. The women were followed till delivery, those with normal outcomes were controls, and those with HDP were cases. The images were processed and classified using validated deep learning tools. Results: Total of 429 cases were fully followed till delivery, 58 of them had HDP (13.5%). In the first trimester, there was a significant difference in the placental length (p =.033), uterine artery PI (p =.019), biomarkers PAPP-A (p =.001) PlGF (p =.013) and placental image texture (p =.001) between the cases and controls. In the second trimester the uterine artery PI, serum PAPP-A (p =.010) and PlGF (p =.005) levels were significantly low among women who developed hypertension later on pregnancy. The image texture disparity between the two groups was highly significant (p <.001). The model "resnext 101_32x8d" had Cohen kappa score of 0.413 (moderate) and the accuracy score of 0.710 (good). In the first trimester the best sensitivity and specificity was observed for abnormal placental image texture (70.6% and 76.6%, respectively) followed by PlGF (64% and 50%, respectively), in the second trimester the abnormal image texture had the highest sensitivity and specificity (60.4% and 73.3%, respectively) followed by uterine artery PI (58.6% and 54.7%, respectively). Similarly in the third trimester, uterine artery PI had sensitivity and specificity of 60.3% and specificity of 50.7%, whereas the abnormal image texture had sensitivity and specificity of 83.5%. Conclusion: Ultrasound placental analysis using artificial intelligence (UPAAI) is a promising technique, would open avenues for more research in this field. (c) 2021 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

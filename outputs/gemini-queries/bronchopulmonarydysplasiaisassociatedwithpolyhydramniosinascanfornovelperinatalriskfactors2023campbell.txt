@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: bronchopulmonarydysplasiaisassociatedwithpolyhydramniosinascanfornovelperinatalriskfactors2023campbell
+"Background: The pathogenesis of bronchopulmonary dysplasia (BPD) is multifactorial, and there are limited data about prenatal exposures and risk of BPD. Study design: Our study performed parallel analyses using a logistic regression model in a cohort of 4527 infants with data from a curated registry and using a phenome wide association study (PheWAS) based on ICD9/10-based phecodes. We examined 20 prenatal exposures from a neonatal intensive care unit (NICU) curated registry database related to pregnancy and maternal health as well as 94 maternal diagnosis phecodes with a PheWAS analysis. Result: In both the curated registry and PheWAS analyses, polyhydramnios was associated with an increased risk of BPD (OR 5.70, 95% CI 2.78-11.44, p = 1.37 x 10-6). Conclusion: Our data suggest that polyhydramnios may be a clinical indicator of premature infants at increased risk for bronchopulmonary dysplasia. Combining curated registry data with PheWAS analysis creates a valuable tool to generate hypotheses. Impact: Polyhydramnios was significantly associated with bronchopulmonary dysplasia in both a curated registry and by ICD coding analysis with a phenome wide association study (PheWAS).Preterm polyhydramnios may be a clinical indicator of infants at increased risk for developing bronchopulmonary dysplasia after preterm birth.Combining curated registry with PheWAS analysis creates a valuable tool to generate hypotheses about perinatal risk factors and morbidities associated with preterm birth. (c) 2022, The Author(s), under exclusive licence to the International Pediatric Research Foundation, Inc."""
+
+

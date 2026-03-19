@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: newrolesforalbuminglobulinratiointheearlyonsethyperbilirubinemiaamonginfantsbornweighing1000to2499grams2024imamura
+"Introduction: Early-onset hyperbilirubinemia (EOH) is a clinical issue for premature infants. We predicted that EOH management would be improved by fast results from common laboratory tests. Total serum bilirubin (TSB) level and the albumin/globulin ratio may contribute to improving the management of EOH. Objective: The aim of the study is to examine the relationship between EOH and perinatal variables among infants born weighing 1,000 to 2,499 g. Study Designs: A single center study was undertaken at Ohta Nishinouchi Hospital between April 1, 2016 and January 31, 2022, using blood samples prospectively collected from infants admitted to the neonatal intensive care unit that were assessed by univariate analyses and multivariate logistic regression analysis. Due to a correlation between gestational age (GA) and birth weight (BW), each variable was entered separately into Model 1 (including GA) and 2 (including BW). Results: A total of 508 infants were analyzed (270 in the non EOH group and 238 in the EOH group). No infants experienced feto-maternal transfusion syndrome or hemolytic diseases such as blood type (ABO or Rh) incompatibility or glucose-6-phosphate dehydrogenase deficiency during perinatal period. Significant relationships were observed between EOH and BW (p <0.01, odds ratio [OR], 0.997; 95% confidence interval [CI], 0.996-0.997), albumin (p <0.01, OR, 0.278; 95% CI, 0.129-0.599), albumin/globulin ratio (p <0.01, OR, 2.695; 95% CI, 1.378-5.270), TSB (p <0.01, OR, 2.774; 95% CI, 1.795-4.287), and antenatal corticoid therapy (p = 0.02, OR, 1.852; 95% CI, 1.108-3.097) in Model 2. Per receiver operating characteristic curves, an albumin/globulin ratio of 1.84 could predict EOH at a sensitivity of 50.0% and specificity of 75.6% (AUC = 0.652, p <0.01, 95% CI, 0.603-0.700). Conclusion: Albumin/globulin ratio among infants born weighing 1,000 to 2,499 g may be a useful indicator of EOH. (c) 2022. Thieme. All rights reserved."""
+
+

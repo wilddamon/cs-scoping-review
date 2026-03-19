@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pretermdeliveryandincreasedriskofrecurrentcardiovasculareventsinaustralianwomen2022gao
+"Background: Women with a history of preterm delivery (PTD) have significantly increased risk of experiencing cardiovascular disease (CVD) later in life. However, the risk of long-term recurrence of CVD in this population remains unknown. Materials and Methods: The study was based on a cohort of Victorian women who had a singleton birth between 1999 and 2008. The primary outcome was a CVD event resulting in an Emergency Department visit/hospitalization or death. Women who do not have a PTD during the study period were adopted as the comparator. The Andersen and Gill model, which generalizes the Cox proportional hazards regression model, was used for the analysis of recurrent CVD, while adjusting for covariates, including indigenous status. Results: After excluding cases not meeting the inclusion criteria, 34,128 Victoria women who had a history of PTD and 374,538 women who had deliveries at terms were analyzed. A history of PTD was shown to be associated with significantly increased risk of recurrent CVD, while adjusting for all covariates, including indigenous status, with an adjusted hazard ratio (aHR) of 1.70 (95% confidence interval [CI]: 1.54-1.86, p < 0.0001). Aboriginal and Torres Strait Islander women had substantially increased risk of experiencing recurrent CVD after birth over their lifetime (aHR: 3.22, 95% CI: 2.39-4.35, p < 0.0001). Conclusions: Recognizing PTD as a nontraditional risk factor of CVD may play a role in the formulation of care plans for primary and secondary CVD prevention in women with such a history. (c) Copyright 2022, Mary Ann Liebert, Inc., publishers 2022."""
+
+

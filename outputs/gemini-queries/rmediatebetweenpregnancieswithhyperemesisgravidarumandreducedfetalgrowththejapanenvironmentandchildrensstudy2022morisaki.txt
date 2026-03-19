@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lackofcatchupinweightgainmayintermediatebetweenpregnancieswithhyperemesisgravidarumandreducedfetalgrowththejapanenvironmentandchildrensstudy2022morisaki
+"Background: Women with nausea and vomiting of pregnancy (NVP) have higher birth weight infants, while those with hyperemesis gravidarum, a severe manifestation of NVP, have lower birth weight infants. We aimed to investigate the associations between maternal weight loss (a consequence of hyperemesis gravidarum), NVP, and infant birth weight. Methods: This study was a secondary analysis of a nationwide birth cohort in Japan. Singleton pregnancies delivered at 28-41 weeks of gestation were included in the analysis. Women were categorized based on their weight change in the 1st trimester (as a proportion to their pre-pregnancy weight: > + 3%, > 0 to + 3%, > -3 to 0%, > -5 to -3%, <= -5%) and severity of NVP (no nausea, only nausea, vomiting but able to eat, vomiting and unable to eat). The effects of weight change and severity of NVP on infant birth weight and small for gestational age (SGA) were assessed using regression models. We further examined how these effects could be modified by maternal weight gain up to the 2nd trimester. Results: Among 91,313 women, 5,196 (5.7%) lost >= 5% of their pre-pregnancy weight and 9,983 (10.9%) experienced vomiting and were unable to eat in the 1st trimester. Women with weight loss >= 5% in the 1st trimester had infants 66 (95% CI: 53, 78) g lighter and higher odds of SGA (aOR: 1.29; 95% CI: 1.14, 1.47) than women who gained > 3% during the same period. However, when adjusting for weight gain up to the 2nd trimester, women with weight loss >= 5% in the 1st trimester had infants 150 (95% CI: 135, 165) g heavier and lower odds of SGA (aOR: 0.39; 95% CI: 0.33, 0.46) than those who gained > 3% during the same period. In contrast, women with more severe NVP tended to have infants with larger birth weight and lower odds of SGA compared to women without NVP. These trends were strengthened when adjusting for weight gain up to the 2nd trimester. Conclusions: Our study suggests the possibility that reduced fetal growth in pregnancies with hyperemesis gravidarum may be caused by the lack of catch-up in gestational weight gain up to the 2nd trimester. (c) 2022, The Author(s)."""
+
+

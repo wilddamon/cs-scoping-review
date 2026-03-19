@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsandnomogramforthepredictionofintracranialhemorrhageinverypreterminfants2024wang
+"Aims: This study aims to identify important risk factors for intracranial hemorrhage (ICH) in very preterm infants at our institution and develop a predictive nomogram for early detection of ICH. Methods: We retrospectively analyzed neonates with a gestational age (GA) under 32 weeks, admitted to the neonatal intensive care unit from March 2022 to July 2023. Infants were categorized into two groups based on ultrasound findings and assessed for thirteen variables including gender, GA, birth weight (BW), acidosis, among others. We used multivariate logistic regression analysis to build a prediction model and identify independent risk factors for ICH. We build a prediction model by assigning 241 cases to the training set and 103 to the validation set (ratio 7:3). Results: Among 344 very preterm infants, the incidence of ICH was 36.9% (89 cases) in training set. Significant differences were observed in gestational age, birth weight, antenatal corticosteroids, mechanical ventilation days, and acidosis between cases and controls. Logistic regression analysis identified gestational age (OR = 0.674), antenatal corticosteroids (OR = 0.257), acidosis (OR = 2.556), and mechanical ventilation mechanical ventilation days(OR = 0.257) as independent risk factors for ICH. The C-index of the training and validation sets was 0.814 (95% CI: 0.762-0.869) and 0.784 (95% CI: 0.693-0.875), respectively. According to decision curve analysis, our model outperformed the "None" and "All" baseline lines over a wide range of risk thresholds (0.12-0.92). Conclusion: Acidosis and mechanical ventilation are independent risk factors for ICH in very preterm neonates, while higher gestational age and antenatal corticosteroid use are protective. The nomogram developed from these four factors demonstrates strong predictive accuracy and calibration, which can aid clinicians in identifying preterm infants at high risk for ICH and facilitate early diagnosis and management. (c) The Author(s) 2024."""
+
+

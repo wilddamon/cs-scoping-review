@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofgestationalweightgainwithpregnancycomplicationsanddeliveryoutcomesintwinsastudyinnorthernchina2025guo
+"Background: This study aimed to develop a gestational age-specific gestational weight gain (GWG) reference for twins in northern China and analyze its impact on pregnancy complications and delivery outcomes considering GWG during different trimesters of pregnancy. Methods: This study analyzed 9375 twin pregnant women in Tianjin (2010-2018) after outlier and missing data exclusion. Using the lambda - mu - sigma - tau (LMS) method with GAMLSS package in R, BMI- and trimester-specific GWG percentiles were established. Participants were classified into insufficient, interquartile, and excessive GWG groups. Multivariable regression models, adjusted for multiple confounders, were used to explore the associations between GWG categories and pregnancy complications as well as delivery outcomes, with adjusted odds ratios and p values reported for different trimesters. Results: The smoothed gestational age-specific GWG percentile curve indicates that underweight and normal weight women had greater weight gain during pregnancy than overweight and obese women, with median weight gains at delivery of 20.3 kg, 20.8 kg, 16.7 kg, and 16.6 kg, respectively. Excessive GWG was associated with elevated risks of second and third-trimester hypertension, while insufficient GWG associated with the increased thyroid-related diseases during these trimesters. Pregnant individuals with insufficient GWG throughout pregnancy had higher odds of abnormal birthweight, whereas excessive GWG was inversely related to thyroid disease incidence. Analyses based on Chinese BMI criteria showed specific risk patterns, such as the link between third-trimester excessive GWG and increased abnormal birthweight risk. Conclusion: This study developed a gestational age-specific GWG reference for twins in northern China and revealed that underweight and normal weight women experienced greater weight gain during pregnancy than overweight and obese women. Improper GWG is associated with a higher risk of adverse maternal and neonatal outcomes across different pregnancy trimesters. The Chinese BMI classification is more suitable for studying the effect of GWG and providing advice for clinical diet control in China. (c) The Author(s) 2025."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hazardandcumulativeincidenceofumbilicalcordmetabolicacidemiaatbirthinfetusesexperiencingthesecondstageoflaborandpathologicintrapartumfetalheartraterequiringexpediteddelivery2023cavoretto
+"Purpose: The aim of the study was to determine the cause-specific hazard (CSH) and the cumulative incidence function (CIF) for umbilical cord metabolic acidemia at birth (MA; pH < 7.0 and/or BE <= - 12 mmol/L) at delivery in patients experiencing the 2nd stage of labor (2STG), stratified for both FIGO-2015 pathologic intrapartum cardiotocography requiring expedited delivery (CTG_RED) and duration of 2nd stage of labor. Methods: 3459 pregnancies experiencing the 2nd stage of labor and delivering at the Division of Obstetrics and Prenatal Medicine, IRCCS Sant'Orsola-Malpighi Hospital, Bologna (Italy), were identified between 2018 and 2019. Survival analysis was used to assess CSH and CIF for MA, stratified for FIGO-2015 pathologic CTG and relevant covariates. Results: FIGO-2015 pathological CTG with expedited operative delivery or urgent cesarean section within 10 or 20 min from diagnosis, respectively occurred in 282/3459 (8.20%). The rate of MA at delivery was 3.32% (115/3459). The spline of CSH for MA showed a direct correlation with the duration of 2STG always presenting higher values and greater slope in the presence of pathologic CTG, with plateau between 60 and 120 min and rapid increase after 120 min. The CIF at 180 min in the 2STG was 2.67% for nonpathological and 10.63% for pathological CTG_RED. Nulliparity, pathological CTG, and meconium-stained amniotic fluid resulted significant predictors of MA in our multivariable model. Conclusion: The risk for MA increases moderately across the 2STG with nonpathological CTG and quadruples with pathological CTG_RED. Adjustment for other predictors of MA including meconium-stained amniotic fluid and nulliparity reveals a significant hazard increase for MA associated with pathologic CTG_RED. (c) 2022, The Author(s)."""
+
+

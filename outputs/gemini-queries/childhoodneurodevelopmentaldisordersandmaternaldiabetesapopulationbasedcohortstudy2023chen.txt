@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: childhoodneurodevelopmentaldisordersandmaternaldiabetesapopulationbasedcohortstudy2023chen
+"Aim: To assess the risk of a wide spectrum of neurodevelopmental disorders (NDDs) in offspring of mothers with type 1 diabetes mellitus (T1DM), type 2 diabetes mellitus (T2DM), and gestational diabetes mellitus (GDM). Method: This retrospective cohort study included 877 233 singletons born between 2004 and 2008 in Taiwan. Children were followed up to 2015 for diagnoses of NDDs, including autism spectrum disorder (ASD), attention-deficit/hyperactivity disorder (ADHD), developmental delay, intellectual disability, cerebral palsy, and epilepsy/infantile spasms using health insurance claims data. We performed Cox regression models to estimate the relative risks of NDDs associated with maternal diabetes. Covariates included parental age, year of birth, child sex, family income, urbanization level, hypertensive disorder, and preterm delivery status. Results: In utero there were 338 (0.04%) children exposed to T1DM, 8749 (1.00%) to T2DM, and 90 200 (10.28%) to GDM. The effect of T1DM on NDDs was the largest, followed by T2DM, then GDM. T1DM was associated with an increased risk of developmental delay, intellectual disability, and epilepsy/intellectual spasms in offspring. T2DM was associated with an increased risk of ASD, ADHD, developmental delay, intellectual disability, cerebral palsy, and epilepsy/intellectual spasms. GDM was associated with an increased risk of ASD, ADHD, and developmental delay. Interpretation: Maternal diabetes during pregnancy, including T1DM, T2DM, and GDM, is associated with an increased risk of some NDDs in offspring. (c) 2022 Mac Keith Press."""
+
+

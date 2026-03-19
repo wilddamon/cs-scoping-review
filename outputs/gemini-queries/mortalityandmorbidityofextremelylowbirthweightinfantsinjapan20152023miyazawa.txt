@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: mortalityandmorbidityofextremelylowbirthweightinfantsinjapan20152023miyazawa
+"Background: In Japan, the mortality rate of extremely low birth weight (ELBW) infants is notably low in comparison with other developed countries, but the prevalence of chronic lung disease (CLD) and retinopathy of prematurity (ROP) is relatively high. This study aimed to estimate the mortality and morbidity of ELBW infants born in 2015 who were admitted to neonatal intensive care units (NICUs) in Japan and to examine the factors that affected the short-term outcomes of these infants. We also compared the mortality of ELBW infants born in 2005, 2010, and 2015. Methods: We analyzed the mortality, morbidity, and factors related to short-term outcomes of ELBW infants, using data from 2782 infants born in 2015 and registered at NICUs in Japan. Results: The mortality rates during NICU stays were 17.0%, 12.0%, and 9.8% for ELBW infants born in 2005, 2010, and 2015, respectively. Among ELBW infants born in 2015, multiple logistic regression analysis showed that short gestational age and low birthweight Z-score contributed to the increased risk of death. Births by cesarean section and antenatal corticosteroid administration were significantly associated with a reduced risk of death. Among infants who survived, CLD was observed in 53.1% and ROP requiring treatment was observed in 30.4%. Conclusions: Mortality in ELBW infants decreased significantly from 2005 to 2015. As CLD and ROP may affect quality of life and long-term outcomes of infants who survived, prevention strategies and management for these complications are critical issues in neonatal care in Japan. (c) 2023 Japan Pediatric Society."""
+
+

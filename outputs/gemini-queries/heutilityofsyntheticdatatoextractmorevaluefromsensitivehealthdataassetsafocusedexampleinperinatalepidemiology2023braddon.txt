@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exploringtheutilityofsyntheticdatatoextractmorevaluefromsensitivehealthdataassetsafocusedexampleinperinatalepidemiology2023braddon
+"Background: Privacy, access and security concerns can hinder the availability of health data for research. The use of synthesised data in place of de-identified electronic health records (EHRs) presents an opportunity to conduct research while minimising privacy concerns. Objectives: To examine whether synthesised data can replicate two prenatal epidemiological associations: between prenatal smoking and lower birthweight, and between prenatal mood disorders and lower birthweight, using data synthesised from de-identified health administrative data collections. Methods: We generated two synthetic datasets, using parametric and non-parametric data generating methods, and examined the synthetic data for evidence of privacy concerns. Next, univariable and multivariable logistic regression was utilised to estimate the associations in both synthetic datasets, with results then compared to the real data. Results: Both synthesised datasets performed well in identifying the reduction in birthweight associated with prenatal smoking, while the non-parametric data underestimated the reduction in birthweight associated with prenatal mood disorders. Improbable relationships between some variables were identified in the parametric synthesised data, however, these can be addressed with simple rules during data synthesis. No duplicate rows (i.e., exact copies of de-identified data) were found in the parametric data, while only 0.6% of the rows in the non-parametric data were duplicated. Conclusions: Both synthesised datasets performed well in replicating the statistical properties of the original data while addressing privacy issues. Data synthesis methods provide an opportunity for researchers to utilise health data while managing privacy and security concerns. (c) 2022 The Authors. Paediatric and Perinatal Epidemiology published by John Wiley & Sons Ltd."""
+
+

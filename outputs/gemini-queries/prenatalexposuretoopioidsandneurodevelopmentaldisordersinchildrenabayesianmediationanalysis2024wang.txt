@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalexposuretoopioidsandneurodevelopmentaldisordersinchildrenabayesianmediationanalysis2024wang
+"This study explores natural direct and joint natural indirect effects (JNIE) of prenatal opioid exposure on neurodevelopmental disorders (NDDs) in children mediated through pregnancy complications, major and minor congenital malformations, and adverse neonatal outcomes, using Medicaid claims linked to vital statistics in Rhode Island, United States, 2008-2018. A Bayesian mediation analysis with elastic net shrinkage prior was developed to estimate mean time to NDD diagnosis ratio using posterior mean and 95% credible intervals (CrIs) from Markov chain Monte Carlo algorithms. Simulation studies showed desirable model performance. Of 11,176 eligible pregnancies, 332 had >=2 dispensations of prescription opioids anytime during pregnancy, including 200 (1.8%) having >=1 dispensation in the first trimester (T1), 169 (1.5%) in the second (T2), and 153 (1.4%) in the third (T3). A significant JNIE of opioid exposure was observed in each trimester (T1, JNIE = 0.97, 95% CrI: 0.95, 0.99; T2, JNIE = 0.97, 95% CrI: 0.95, 0.99; T3, JNIE = 0.96, 95% CrI: 0.94, 0.99). The proportion of JNIE in each trimester was 17.9% (T1), 22.4% (T2), and 56.3% (T3). In conclusion, adverse pregnancy and birth outcomes jointly mediated the association between prenatal opioid exposure and accelerated time to NDD diagnosis. The proportion of JNIE increased as the timing of opioid exposure approached delivery. (c) The Author(s) 2023. Published by Oxford University Press on behalf of the Johns Hopkins Bloomberg School of Public Health. All rights reserved."""
+
+

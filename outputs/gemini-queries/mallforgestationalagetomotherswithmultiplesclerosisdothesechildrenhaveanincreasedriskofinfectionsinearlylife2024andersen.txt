@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: childrenbornpretermorsmallforgestationalagetomotherswithmultiplesclerosisdothesechildrenhaveanincreasedriskofinfectionsinearlylife2024andersen
+"Background: Mothers with multiple sclerosis are at increased risk of preterm birth and small for gestational age infants. Both conditions pose a risk of morbidity, including early-life infections. Objective: This study aimed to assess the risk of infections in the first 3 years of life among children born preterm or small for gestational age to mothers with multiple sclerosis. Methods: We used Danish national health registers to establish the study cohort of all births by women with MS born from 1995 to 2023. In Cox regression models, we estimated hazard ratios (HRs) of infections in preterm or small for gestational age children. Results: Preterm children had an adjusted HR of 1.49 (95% confidence interval (95% CI) 1.15-1.93) for hospital-diagnosed infection and 0.88 (95% CI 0.72-1.06) for antibiotic prescriptions. Small for gestational age children had an adjusted HR of 0.81 (95% CI 0.54-1.22) for hospital-diagnosed infection and 1.07 (95% CI 0.82-1.38) for antibiotic prescriptions. Conclusion: Children born preterm to mothers with multiple sclerosis had an increased risk of hospital-diagnosed infections in the first 3 years of life, but not of mild-to-moderate infections evaluated on prescriptions. Children born small for gestational age did not have an increased risk of infections. (c) The Author(s), 2024."""
+
+

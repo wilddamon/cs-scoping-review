@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: growthtrajectoryofpretermsmallforgestationalageneonates2022molony
+"Aim: To assess the growth trajectory of preterm small-for-gestational-age (SGA) neonates compared to preterm non-small-for-gestational age neonates in the neonatal intensive care unit and special care nursery. Methods: We conducted a retrospective cohort study at a large tertiary hospital in Victoria, Australia, examining neonates <=34 weeks' gestation admitted to the neonatal intensive care unit or special care nursery between 2013 and 2017. We categorized neonates according to their birth weight centile: <10th centile (small-for-gestational age) and >=10th centile (non-small-for-gestational age). Growth trajectory was tracked based on serial weights obtained in the neonatal intensive care unit and special care nursery, using z-scores derived from Fenton preterm growth charts. Our primary outcome was the change in weight z-score from birth to discharge from neonatal intensive care unit or special care nursery. Results: Of the 910 babies included, 88 were small-for-gestational age and 822 were appropriate-for gestational age. Both groups had a reduction in their weight z-score; however, SGA babies had a significantly smaller reduction (-0.62 SD compared to -0.85 SD, p <.0001). Small-for-gestational-age neonates were four times more likely to experience an increase in their weight z-score across their admission compared to neonates who were not small-for-gestational age (OR 4.04, 95% CI 2.23-7.48, p <.0001). Small-for-gestational-age neonates had an increased median length of stay, increased incidence of necrotizing enterocolitis but a reduced incidence of intraventricular hemorrhage. Conclusions: Preterm SGA babies experience a smaller reduction in their weight trajectory compared to their appropriately grown counterparts in the neonatal intensive care unit or special care nursery. (c) 2021 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

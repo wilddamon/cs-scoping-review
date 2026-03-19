@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessmentoffirsttrimesterinsulinresistanceindicesforgestationaldiabetesmellitusaprospectivecohortstudy2025zhang
+"Background: Insulin resistance (IR) is a significant factor in gestational diabetes mellitus (GDM) development. The triglyceride-glucose (TyG) index, triglyceride-glucose body mass index (TyG-BMI), atherogenic index of plasma (AIP), and metabolic score for insulin resistance (METS-IR) are simple and reliable surrogates for assessing IR, but their predictive potential for GDM remains unexplored. Methods: Data from 46,992 singleton pregnancies delivered at Beijing Obstetrics and Gynecology Hospital between 2018 and 2022 were prospectively collected. IR indices were calculated using first-trimester blood lipid and glucose measurements. Participants were classified into GDM and non-GDM groups based on oral glucose tolerance test (OGTT) results at 24-28 weeks. Logistic regression and restricted cubic spline analyses assessed the associations between IR indices and GDM, with subgroup analyses to assess results robustness. The area under the receiver operating characteristic (ROC) curve (AUC) was used to evaluate the predictive performance of the IR indices for GDM. Results: Among the participants, 6,045 were diagnosed with GDM and 40,947 were not. Binary logistic regression showed a significant positive association between first-trimester IR indices and GDM (p < 0.001). AUCs for GDM prediction were 0.646 for TyG, 0.651 for TyG-BMI, 0.629 for AIP, and 0.641 for METS-IR. A basic model with maternal demographics achieved an AUC of 0.666. Adding TyG-BMI improved the AUC to 0.693. Conclusions: All four surrogate IR indices measured in the first trimester were positively associated with GDM, with TyG-BMI emerging as the strongest predictor. (c) The Author(s) 2025."""
+
+

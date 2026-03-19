@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: enhancingdecisionmakingintubalectopicpregnancyusingamachinelearningapproachtoexpectantmanagementaclinicalarticle2024jurman
+"Objective: To refine decision-making regarding expectant management for ectopic pregnancy (EP) using machine learning. Methods: This retrospective study addressed expectant management in stable patients with ampullar EP, 2014-2022. Electronic medical record data included demographics, medical history, admission data, sonographic findings, and laboratory results. Follow-up data on bhCG levels and success rates were collected. Statistical analysis incorporated a Decision Tree Classifier, a decision tree-based machine learning model. The cohort was divided into training and testing groups for the machine learning model. This model was evaluated for accuracy, precision, recall, and F1 score to predict success of expectant management. Results: Among 878 cases of EP, the expectant management cohort, comprising 221 cases, exhibited a success rate of 79.6%, with 20.4% requiring subsequent intervention. Mean bhCG levels on admission were 1056.8 +- 1323.5 mIU. The Decision Tree Classifier demonstrated an accuracy of 89%, with precision, recall, and F1 scores of 92%, 95%, and 94%, respectively. Factors for predicting success included clinical symptoms such as pain, the percentage decrease in bhCG levels, gestational age and bhCG level at decision day. Moderate impactful features were white blood cell count, gravidity and maximum tubal dimensions. Smoking status, duration (hours) from time of EP diagnosis to second bhCG test and marital status were minimal significant predictors of success. Conclusion: The Decision Tree-Based classifier model, with 92% precision and 95% recall, may be a valuable tool for predicting treatment success in hemodynamically stable patients with EP, particularly within the initial 24 h of bhCG follow-up. (c) The Author(s) 2024."""
+
+

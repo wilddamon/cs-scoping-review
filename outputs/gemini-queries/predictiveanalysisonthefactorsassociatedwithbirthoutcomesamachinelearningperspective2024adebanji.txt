@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictiveanalysisonthefactorsassociatedwithbirthoutcomesamachinelearningperspective2024adebanji
+"Background: Recent studies reveal that around 1.9 million stillbirths occur annually worldwide, with Sub-Saharan Africa having among the highest cases. Some Sub-Saharan African countries, including Ghana, failed to meet Millennium Development Goal 5 (MDG5) by 2015 and may struggle to meet Sustainable Development Goal 3 (SDG3) despite maternal healthcare interventions. Concerns arise about Ghana's ability to achieve the World Health Organization's neonatal mortality goal of 12 per 1000 live births by 2030. This study aims to identify key factors influencing childbirth outcomes and create a predictive method for high-risk pregnancies. Methods: We compared four machine learning classifiers (Extreme Gradient Boosting, Random Forest, Logistic Regression, and Artificial Neural Network) in predicting childbirth outcomes using data from a tertiary health facility in Ghana. To address class imbalance, we employed the Synthetic Minority Over-sampling Technique (SMOTE). Results: Our findings show that fetal heartbeat, gestation age at birth are the most influential factors on birth outcome (stillbirth or live birth), while there is no significant association with maternal age, number of babies, and type of delivery method. Among the machine learning models considered, Random Forest emerged as the optimal model achieving an accuracy, F1-score, and AUC values of approximately 0.98, 0.99, and 0.90 respectively. Conclusion: Our study identifies key factors affecting childbirth outcomes and highlights the potential of machine learning for early high-risk pregnancy detection in clinical settings. These findings are crucial for Ghana and other Sub-Saharan African countries striving to meet maternal and neonatal healthcare goals. Further research and policy initiatives can use these results to improve healthcare in the region and work toward the World Health Organization's objectives by 2030. (c) 2024 Elsevier B.V."""
+
+

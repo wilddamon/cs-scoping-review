@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlyopioidadministrationandpainrelatedpatientreportedoutcomesonthefirstpostoperativedayananalysisofdatafrom111693patientsin392surgicalwardsingermany2025baumbach
+"The risk-benefit ratio of perioperative opioid analgesia is controversial. Few studies have analyzed the effectiveness of opioids in the early postoperative period. To analyze the effectiveness of early opioid administration in this period in a large number of surgeries in routine care, we compared pain-related outcomes between patients treated on wards with different rates of early opioid administration. In this observational study, we analyzed data from 111,693 patients in 392 surgical wards between 2010 and 2022 within the German Quality Improvement in Postoperative Pain Management registry. We defined early opioid administration at the ward-level as the percentage of patients who received at least 1 opioid dose between the end of surgery and data collection on the first postoperative day, including recovery room and ward. To identify different patterns of early opioid administration, we considered these percentages in patients with mild, moderate, and severe pain and applied k-means clustering. We performed mixed regression analyses to assess associations between clusters and patient-reported outcomes on the first postoperative day. At the ward-level, the median percentage of early opioid administration was 79.5% (first-third quartile: 64.5%-92.0%), and 2 clusters of wards were identified. In clusters 1 and 2, an opioid was administered in 58.5% and 89.0% of patients, respectively. Patients in cluster 2 reported better outcomes for pain intensity and pain-related interference but worse outcomes for nausea. However, the effect sizes were small. Patients treated on surgical wards with a higher rate of early opioid administration reported slightly better pain-related outcomes on the first postoperative day. (c) 2025 International Association for the Study of Pain."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: socioeconomicpositionbronchiolitisandasthmainchildrencounterfactualdisparitymeasuresfromanationalbirthcohortstudy2023lewis
+"Background: The debated link between severe respiratory syncytial virus (RSV) infection in early life and asthma has yet to be investigated within a social inequity lens. We estimated the magnitude of socioeconomic disparity in childhood asthma which would remain if no child were admitted to hospital for bronchiolitis, commonly due to RSV, during infancy. Methods: The cohort, constructed from national administrative health datasets, comprised 83853 children born in Scotland between 1 January 2007 and 31 June 2008. Scottish Index for Multiple Deprivation (SIMD) was used to capture socioeconomic position. Emergency admissions for bronchiolitis before age 1 year were identified from hospital records. Yearly indicators of asthma/wheeze from ages 2 to 9 years were created using dispensing data and hospital admission records. Results: Using latent class growth analysis, we identified four trajectories of asthma/wheeze: early-transient (2.2% of the cohort), early-persistent (2.0%), intermediate-onset (1.8%) and no asthma/wheeze (94.0%). The estimated marginal risks of chronic asthma (combining early-persistent and intermediate-onset groups) varied by SIMD, with risk differences for the medium and high deprivation groups, relative to the low deprivation group, of 7.0% (95% confidence interval: 3.7-10.3) and 13.0% (9.6-16.4), respectively. Using counterfactual disparity measures, we estimated that the elimination of bronchiolitis requiring hospital admission could reduce these risk differences by 21.2% (4.9-37.5) and 17.9% (10.4-25.4), respectively. Conclusions: The majority of disparity in chronic asthma prevalence by deprivation level remains unexplained. Our paper offers a guide to using causal inference methods to study other plausible pathways to inequities in asthma using complex, linked administrative data. (c) The Author(s) 2022. Published by Oxford University Press on behalf of the International Epidemiological Association."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pharmacovigilanceofnephrotoxicdrugsinneonatesthepottelmethodforacutekidneyinjurydetectioninelbwneonates2024dumoulin
+"Background: Extremely low birth weight (ELBW) neonates (birth weight <= 1000 g) are at high risk to develop drug-induced acute kidney injury (AKI). However, we lack a pragmatic detection tool to capture their time-dependent (patho)physiologic serum creatinine (Scr) patterns. Pottel et al. suggested rescaling Scr by dividing Scr with the mean Scr value of the age- and sex-specific reference population. We explored if this Pottel method can detect drug-related nephrotoxicity in ELBW neonates. Methods: A previously reported dataset on Scr changes in ELBW neonates exposed to ibuprofen, amikacin, or vancomycin was updated to calculate Pottel scores for every available Scr value in the first 28 postnatal days. We hereby used previously published postnatal age-specific 50th centile values in an ELBW population. Linear mixed models were applied, analyzing Pottel scores as response variable and continuous time (day), drug exposure, and interaction thereof in the explanatory model. Results: Serum creatinine (n = 3231) observations in 201 ELBW neonates were collected. A statistically significant rise of Pottel scores was observed with ibuprofen starting from postnatal day 4. In addition, a cumulative effect of treatment with mean Pottel scores on day 0 of 1.020 and on day 3 during treatment of 1.106 (95% CI 1.068-1.145, p < 0.001) was observed, corrected for effect of antibiotics. Antibiotic administrations showed a small but statistically significant difference up to postnatal day 5. Conclusions: As rescaled Scr biomarker, the Pottel method showed a clear association with ibuprofen-exposed ELBW neonates, suggesting its applicability as a pragmatic bedside alternative tool to assess nephrotoxicity. Graphical abstract: (Figure presented.) (c) The Author(s) 2024."""
+
+

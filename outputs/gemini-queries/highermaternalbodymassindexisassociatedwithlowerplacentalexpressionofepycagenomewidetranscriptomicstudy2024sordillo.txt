@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: highermaternalbodymassindexisassociatedwithlowerplacentalexpressionofepycagenomewidetranscriptomicstudy2024sordillo
+"Context: Elevated body mass index (BMI) in pregnancy is associated with adverse maternal and fetal outcomes. The placental transcriptome may elucidate molecular mechanisms underlying these associations. Objective: We examined the association of first-trimester maternal BMI with the placental transcriptome in the Gen3G prospective cohort. Methods: We enrolled participants at 5 to 16 weeks of gestation and measured height and weight. We collected placenta samples at delivery. We performed whole-genome RNA sequencing using Illumina HiSeq 4000 and aligned RNA sequences based on the GTEx v8 pipeline. We conducted differential gene expression analysis of over 15 000 genes from 450 placental samples and reported the change in normalized gene expression per 1-unit increase in log<inf>2</inf> BMI (kg/m2) as a continuous variable using Limma Voom. We adjusted models for maternal age, fetal sex, gestational age at delivery, gravidity, and surrogate variables accounting for technical variability. We compared participants with BMI of 18.5 to 24.9 mg/kg2 (N = 257) vs those with obesity (BMI >=30 kg/m2, N = 82) in secondary analyses. Results: Participants' mean +- SD age was 28.2 +- 4.4 years and BMI was 25.4 +- 5.5 kg/m2 in early pregnancy. Higher maternal BMI was associated with lower placental expression of EPYC (slope = -1.94, false discovery rate [FDR]-adjusted P = 7.3 x 10-6 for continuous BMI; log<inf>2</inf> fold change = -1.35, FDR-adjusted P = 3.4 x 10-3 for BMI >=30 vs BMI 18.5-24.9 kg/m2) and with higher placental expression of IGFBP6, CHRDL1, and CXCL13 after adjustment for covariates and accounting for multiple testing (FDR < 0.05). Conclusion: Our genome-wide transcriptomic study revealed novel genes potentially implicated in placental biologic response to higher maternal BMI in early pregnancy. (c) 2023 The Author(s)."""
+
+

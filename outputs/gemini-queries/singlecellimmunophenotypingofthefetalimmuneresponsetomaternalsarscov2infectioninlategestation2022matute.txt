@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: singlecellimmunophenotypingofthefetalimmuneresponsetomaternalsarscov2infectioninlategestation2022matute
+"Background: During the COVID-19 pandemic, thousands of pregnant women have been infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The implications of maternal SARS-CoV-2 infection on fetal and childhood well-being need to be characterized. We aimed to characterize the fetal immune response to maternal SARS-CoV-2 infection. Methods: We performed single-cell RNA-sequencing and T cell receptor sequencing on cord blood mononuclear cells (CBMCs) from newborns of mothers infected with SARS-CoV-2 in the third trimester (cases) or without SARS-CoV-2 infection (controls). Results: We identified widespread gene expression changes in CBMCs from cases, including upregulation of interferon-stimulated genes and major histocompatibility complex genes in CD14+ monocytes, transcriptional changes suggestive of activation of plasmacytoid dendritic cells, and activation and exhaustion of natural killer cells. Lastly, we observed fetal T cell clonal expansion in cases compared to controls. Conclusions: As none of the infants were infected with SARS-CoV-2, our results suggest that maternal SARS-CoV-2 infection might modulate the fetal immune system in the absence of vertical transmission. Impact: The implications of maternal SARS-CoV-2 infection in the absence of vertical transmission on fetal and childhood well-being are poorly understood.Maternal SARS-CoV-2 infection might modulate the fetal immune system in the absence of vertical transmission.This study raises important questions about the untoward effects of maternal SARS-CoV-2 on the fetus, even in the absence of vertical transmission. (c) 2021, The Author(s), under exclusive licence to the International Pediatric Research Foundation, Inc."""
+
+

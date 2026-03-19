@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: deeplearningmodelusingcontinuousskintemperaturedatapredictslaboronset2024basavaraj
+"Background: Changes in body temperature anticipate labor onset in numerous mammals, yet this concept has not been explored in humans. We investigated if continuous body temperature exhibits similar changes in women and whether these changes may be linked to hormonal status. Finally, we developed a deep learning model using temperature patterning to provide a daily forecast of time to labor onset. Methods: We evaluated patterns in continuous skin temperature data in 91 (n = 54 spontaneous labors) pregnant women using a wearable smart ring. In a subset of 28 pregnancies, we examined daily steroid hormone samples leading up to labor to analyze relationships among hormones and body temperature trajectory. Finally, we applied an autoencoder long short-term memory (AE-LSTM) deep learning model to provide a novel daily estimation of days until labor onset. Results: Features of temperature change leading up to labor were associated with urinary hormones and labor type. Spontaneous labors exhibited greater estriol to a-pregnanediol ratio, as well as lower body temperature and more stable circadian rhythms compared to pregnancies that did not undergo spontaneous labor. Skin temperature data from 54 pregnancies that underwent spontaneous labor between 34 and 42 weeks of gestation were included in training the AE-LSTM model, and an additional 37 pregnancies that underwent artificial induction of labor or Cesarean without labor were used for further testing. The input to the pipeline was 5-min skin temperature data from a gestational age of 240 days until the day of labor onset. During cross-validation AE-LSTM average error (true - predicted) dropped below 2 days at 8 days before labor, independent of gestational age. Labor onset windows were calculated from the AE-LSTM output using a probabilistic distribution of model error. For these windows AE-LSTM correctly predicted labor start for 79% of the spontaneous labors within a 4.6-day window at 7 days before true labor, and 7.4-day window at 10 days before true labor. Conclusion: Continuous skin temperature reflects progression toward labor and hormonal change during pregnancy. Deep learning using continuous temperature may provide clinically valuable tools for pregnancy care. (c) The Author(s) 2024."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: analysisofmaternalandfetaloutcomesandestablishmentofpredictionmodelofvaginaldeliveryinpregnantwomenwithpreeclampsiacomplicatedwithfetalgrowthrestriction2023lin
+"OBJECTIVE: This study aimed to analyze the maternal and fetal outcomes of pregnant women with pre-eclampsia (PE), complicated with fetal growth restriction (FGR), and establish a prediction model of vaginal delivery to guide the selection of the delivery mode. PATIENTS AND METHODS: The study included 208 pregnant women with PE complicated with FGR. Of them, 49 patients were in the vaginal delivery group, and 159 patients were in the cesarean section group. The relevant maternal and fetal outcomes were analyzed. Patients were randomly divided into the training sample group and the test group with a ratio of 2:1. The three-layer neural network was used to select 24 maternal and infant outcome factors as the input nodes of the neural network to build a vaginal delivery prediction model. RESULTS: Results showed that the gestational age, the highest systolic and diastolic blood pressure, body weight, body length, and placental weight of the newborns in the vaginal delivery group were significantly higher than those in the cesarean section group. Incidence of preterm birth, amniotic fluid grade III, oligohydramnios, and severe small-for-gestational-age (sSGA) neonates were significantly lower in the vaginal delivery group compared to the cesarean section group (p < 0.05). A three-layer neural network delivery prediction model was constructed, and the accuracy rate of fitting with test samples was 91.80%. CONCLUSIONS: There is no significant difference in the incidence of maternal and fetal complications in PE complicated with FGR in different delivery methods. The three-layer neural network prediction model has good prediction ability for vaginal delivery of PE complicated with FGR and may be applied in clinical practice. (c) 2023 Verduci Editore s.r.l. All rights reserved."""
+
+

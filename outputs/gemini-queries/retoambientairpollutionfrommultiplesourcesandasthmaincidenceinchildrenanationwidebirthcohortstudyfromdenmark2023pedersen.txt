@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlylifeexposuretoambientairpollutionfrommultiplesourcesandasthmaincidenceinchildrenanationwidebirthcohortstudyfromdenmark2023pedersen
+"BACKGROUND: Ambient air pollution exposure has been associated with childhood asthma, but previous studies have primarily focused on prevalence of asthma and asthma-related outcomes and urban traffic-related exposures. OBJECTIVE: We examined nationwide associations between pre-and postnatal exposure to ambient air pollution components and asthma incidence in children age 0-19 y. METHODS: Asthma incidence was identified from hospital admission, emergency room, and outpatient contacts among all live-born singletons born in Denmark between 1998 and 2016. We linked registry data with monthly mean concentrations of particulate matter (PM) with aerodynamic diameter <=2:5 lm (PM<inf>2:5</inf>) and PM with aerodynamic diameter <=10 lm (PM<inf>10</inf> ), nitrogen dioxide (NO<inf>2</inf>), nitrogen oxides, elemental carbon, and organic carbon (OC), sulfur dioxide, ozone, sulfate, nitrate, ammonium, secondary organic aerosols, and sea salt. Associations were estimated with Cox propor-tional hazard models using fixed prenatal exposure means and time-varying postnatal exposures. RESULTS: Of the 1,060,154 children included, 6.1% had asthma during the mean follow-up period of 8.8 y. The risk of asthma increased with increas-ing prenatal exposure to all pollutants except for O<inf>3</inf> and sea salt. We also observed increased risk after restriction to asthma after age 4 y, after addi-tional adjustment for area-specific socioeconomic status, and for postnatal exposure to most pollutants. The hazard ratio (HR) associated with an interquartile range increase of 2.4 and 8:7 lg=m3 in prenatal exposure was 1.06 [95% confidence interval (CI): 1.04, 1.08] for PM<inf>2:5</inf> and 1.04 (95% CI: 1.02, 1.05) for NO<inf>2</inf>, respectively. This association with PM<inf>2:5</inf> was stable after adjustment for NO<inf>2</inf>, whereas it attenuated for NO<inf>2</inf> to 1.01 (95% CI: 0.99, 1.03) after adjustment for PM<inf>2:5</inf>. For a 0:5-lg=m3 increase in prenatal OC exposure, for which biomass is an important source, the HR was 1.08 (95% CI: 1.06, 1.10), irrespective of adjustment for PM<inf>2:5</inf>. DISCUSSION: These findings suggest that early-life exposure to ambient air pollution from multiple sources contributes to asthma development. https:// doi.org/10.1289/EHP11539. (c) 2023, Public Health Services, US Dept of Health and Human Services. All rights reserved."""
+
+

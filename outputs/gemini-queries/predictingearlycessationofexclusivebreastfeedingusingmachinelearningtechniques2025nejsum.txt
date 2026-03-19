@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictingearlycessationofexclusivebreastfeedingusingmachinelearningtechniques2025nejsum
+"Background Identification of mother-infant pairs predisposed to early cessation of exclusive breastfeeding is important for delivering targeted support. Machine learning techniques enable development of transparent prediction models that enhance clinical applicability. We aimed to develop and validate two models to predict cessation of exclusive breastfeeding within one month among infants born after 35 weeks gestation using machine learning techniques. Methods Utilizing a nationwide dataset from Statistics Denmark, including infants born between the 1st of January 2014 and the 31st of December 2015, we employed random forest machine learning to develop two predictive models. The first model included 11 well-established factors associated with cessation of exclusive breastfeeding within one month. The second model was expanded to include 21 additional factors associated with complications during pregnancy and delivery that potentially impede breastfeeding. Feature importance was applied to elucidate the factors driving model predictions. Results The dataset comprised 110,206 infants and 106,835 mothers. The first model predicted cessation of exclusive breastfeeding within one month with an area under the receiver operating curve of 62.0% (95% confidence interval 61.3% - 62.7%) and an accuracy of 60.4% (95% confidence interval 59.8% - 61.0%). The second model predicted cessation of exclusive breastfeeding within one month with an area under the receiver operating curve of 62.2% (95% confidence interval 61.5% - 62.9%) and an accuracy of 60.0% (95% confidence interval 59.3% - 60.6%). In both models, birthplace, maternal education, delivery mode, and maternal body mass index were the most important factors influencing the overall model performance. Conclusions The two models could not accurately predict cessation of exclusive breastfeeding within one month among infants born after 35 weeks gestation. Contrary to our expectations, including additional factors in the model did not increase model performance. (c) 2025 Nejsum et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."""
+
+

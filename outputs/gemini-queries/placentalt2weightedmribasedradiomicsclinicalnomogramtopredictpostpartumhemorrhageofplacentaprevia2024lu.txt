@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: placentalt2weightedmribasedradiomicsclinicalnomogramtopredictpostpartumhemorrhageofplacentaprevia2024lu
+"Background: Placenta previa is an obstetric complication related to severe maternal morbidity and mortality. Magnetic resonance imaging (MRI) can be used for the preoperative evaluation of postpartum hemorrhage. Purpose: To investigate the value of MRI-based radiomics analysis in predicting postpartum hemorrhage among pregnant women with placenta previa. Material and Methods: Preoperative T2-weighted MRI and related clinical data of 371 patients were retrospectively collected, and these patients were randomly allocated into two subsets: the training dataset (n = 260) and the validation dataset (n = 111). The logistic regression (LR) classifier was used for the development of the radiomics model and the calculation of the radiomics score (Radscore). Results: A total of eight radiomics features and five clinical features were selected for model development. The area under the receiver operating characteristic curve (AUC) of the radiomics model in the training and validation datasets were 0.929 (95% confidence interval [CI] = 0.891-0.957) and 0.914 (95% CI = 0.846-0.959), respectively. Combined with clinical factors, nomograms demonstrated improved diagnostic efficacy, with an AUC of 0.968 (95% CI = 0.939-0.986) in the training dataset and 0.947 (95% CI = 0.888-0.981) in the validation dataset. Conclusion: The MRI-based model has certain value in predicting postpartum hemorrhage in pregnant women with placenta previa. (c) The Foundation Acta Radiologica 2024."""
+
+

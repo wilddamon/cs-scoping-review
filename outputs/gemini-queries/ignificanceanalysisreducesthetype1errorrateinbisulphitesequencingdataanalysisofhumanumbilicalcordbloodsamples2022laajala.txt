@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: permutationbasedsignificanceanalysisreducesthetype1errorrateinbisulphitesequencingdataanalysisofhumanumbilicalcordbloodsamples2022laajala
+"DNA methylation patterns are largely established in-utero and might mediate the impacts of in-utero conditions on later health outcomes. Associations between perinatal DNA methylation marks and pregnancy-related variables, such as maternal age and gestational weight gain, have been earlier studied with methylation microarrays, which typically cover less than 2% of human CpG sites. To detect such associations outside these regions, we chose the bisulphite sequencing approach. We collected and curated clinical data on 200 newborn infants; whose umbilical cord blood samples were analysed with the reduced representation bisulphite sequencing (RRBS) method. A generalized linear mixed-effects model was fit for each high coverage CpG site, followed by spatial and multiple testing adjustment of P values to identify differentially methylated cytosines (DMCs) and regions (DMRs) associated with clinical variables, such as maternal age, mode of delivery, and birth weight. Type 1 error rate was then evaluated with a permutation analysis. We discovered a strong inflation of spatially adjusted P values through the permutation analysis, which we then applied for empirical type 1 error control. The inflation of P values was caused by a common method for spatial adjustment and DMR detection, implemented in tools comb-p and RADMeth. Based on empirically estimated significance thresholds, very little differential methylation was associated with any of the studied clinical variables, other than sex. With this analysis workflow, the sex-associated differentially methylated regions were highly reproducible across studies, technologies, and statistical models. (c) 2022 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group."""
+
+

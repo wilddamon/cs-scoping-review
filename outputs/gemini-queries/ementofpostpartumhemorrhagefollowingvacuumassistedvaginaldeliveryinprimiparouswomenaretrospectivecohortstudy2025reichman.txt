@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: tranexamicacidinthemanagementofpostpartumhemorrhagefollowingvacuumassistedvaginaldeliveryinprimiparouswomenaretrospectivecohortstudy2025reichman
+"Background: To evaluate whether tranexamic acid (TXA) administration reduces the prevalence of severe postpartum hemorrhage (sPPH), defined as a hemoglobin drop of >= 3 g/dL, in primiparous women undergoing vacuum-assisted vaginal delivery (VAVD). Methods: A retrospective cohort study was conducted at a large tertiary medical center, including all primiparous women undergoing VAVD between January 2021 and December 2022. TXA (1 g IV within 30 min of delivery) was administered at the discretion of the attending clinician, such that some women received TXA while others did not. The primary outcome was sPPH. Secondary outcomes included postpartum transfusion of blood products, absolute decline in hemoglobin levels, and additional clinical interventions related to hemorrhage, such as manual removal of the placenta or administration of uterotonic agents for the treatment of uterine atony. Initial comparisons were performed between TXA-treated and untreated women in the overall cohort. To account for baseline differences in the likelihood of receiving TXA, propensity score matching was performed using relevant clinical predictors; neonatal birthweight, prolonged second or third stage of labor, manual uterine revision. Logistic regression models were used for adjusted analyses. Results: During the study period, 6,580 primiparous women delivered, of whom 1,048 (15.9%) met the inclusion criteria and comprised the study cohort (N = 1,048). Of these, 383 (36.5%) received TXA, and 274 (26.1%) experienced sPPH. TXA-treated women had higher sPPH rates compared to untreated women (33.5% vs. 22.1%, p < 0.001), greater mean hemoglobin drop (2.54 +- 1.3 vs. 2.18 +- 1.3 g/dL, p < 0.001), and increased postpartum blood transfusion rates (3.7% vs. 1.5%, p = 0.031). Propensity score matching (367 pairs) yielded similar results, with sPPH remaining more prevalent in the TXA group (31.7% vs. 18.8%, p < 0.001). Conclusions: Primiparous women undergoing VAVD are at increased risk for sPPH. Administration of 1 gram of TXA within 30 min of delivery was not associated with a reduction in the prevalence of sPPH or the need for postpartum blood transfusion. Given the non-randomized design and retrospective nature of the study, it was not possible to determine whether TXA was administered prophylactically or in response to active bleeding. Nevertheless, TXA did not appear to reduce the prevalence of sPPH. Further research is needed to identify effective interventions for sPPH prevention in this high-risk population. (c) The Author(s) 2025."""
+
+

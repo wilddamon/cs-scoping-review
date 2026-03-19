@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: influenceofenvironmentaltemperatureandheatwavesonsurgicalsiteinfectionafterhipandkneearthroplastyanationwidestudy2023damonti
+"Background: Previous studies reported higher incidence of surgical site infection (SSI) after procedures performed in summer or with high temperatures. However, no study used detailed climate data to assess this risk after hip and knee arthroplasty, and no study specifically investigated the role of heatwaves. Aim: To assess the impact of higher environmental temperatures and heatwaves on SSI rates after hip and knee arthroplasty. Methods: Data on hip and knee arthroplasty procedures performed between January 2013 and September 2019 in hospitals participating in the Swiss SSI surveillance were linked to climate data extracted from weather stations located in their vicinity. The association between temperature, heatwaves and SSI was studied using mixed effects logistic regression models fitted at the patient level. Poisson mixed models were fitted for both calendar year and month of the year to investigate the SSI incidence trajectory over time. Results: We included 116,981 procedures performed in 122 hospitals. Significantly higher SSI rates were observed for procedures performed in the summertime (incidence rate ratio 1.39, 95% CI (1.20-1.60), P<0.001; reference: autumn) or in calendar months in which the mean temperature was above 20 degC (reference 5-10 degC; odds ratio 1.59, 95% CI (1.27, 1.98), P<0.001). We observed a slight but non-significant increase in the rate of SSI during heatwaves (1.44% versus 1.01%, P=0.2). Conclusion: SSI rates after hip and knee replacement appear to increase with higher environmental temperature. To establish whether, and to what extent, heatwaves increase the risk of SSI, studies involving geographical areas with larger variability in temperature are needed. (c) 2023 The Healthcare Infection Society"""
+
+

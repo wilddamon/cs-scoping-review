@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exclusivebreastfeedingdurationandriskofchildhoodcancers2024soegaard
+"Importance: Breastfeeding has been suggested to protect against childhood cancers, particularly acute lymphoblastic leukemia (ALL). However, the evidence stems from case-control studies alone. Objective: To investigate whether longer duration of exclusive breastfeeding is associated with decreased risk of childhood ALL and other childhood cancers. Design, Setting, and Participants: This population-based cohort study used administrative data on exclusive breastfeeding duration from the Danish National Child Health Register. All children born in Denmark between January 2005 and December 2018 with available information on duration of exclusive breastfeeding were included. Children were followed up from age 1 year until childhood cancer diagnosis, loss to follow-up or emigration, death, age 15 years, or December 31, 2020. Data were analyzed from March to October 2023. Exposure: Duration of exclusive breastfeeding in infancy. Main Outcomes and Measures: Associations between duration of exclusive breastfeeding and risk of childhood cancer overall and by subtypes were estimated as adjusted hazard ratios (AHRs) with 95% CIs using stratified Cox proportional hazards regression models. Results: A total of 309473 children were included (51.3% boys). During 1679635 person-years of follow-up, 332 children (0.1%) were diagnosed with cancer at ages 1 to 14 years (mean [SD] age at diagnosis, 4.24 [2.67] years; 194 boys [58.4%]). Of these, 124 (37.3%) were diagnosed with hematologic cancers (81 [65.3%] were ALL, 74 [91.4%] of which were B-cell precursor [BCP] ALL), 44 (13.3%) with central nervous system tumors, 80 (24.1%) with solid tumors, and 84 (25.3%) with other and unspecified malignant neoplasms. Compared with exclusive breastfeeding duration of less than 3 months, exclusive breastfeeding for 3 months or longer was associated with a decreased risk of hematologic cancers (AHR, 0.66; 95% CI, 0.46-0.95), which was largely attributable to decreased risk of BCP-ALL (AHR, 0.62; 95% CI, 0.39-0.99), but not with risk of central nervous system tumors (AHR, 0.96; 95% CI, 0.51-1.88) or solid tumors (AHR, 0.87; 95% CI, 0.55-1.41). Conclusions and Relevance: In this cohort study, longer duration of exclusive breastfeeding was associated with reduced risk of childhood BCP-ALL, corroborating results of previous case-control investigations in this field. To inform future preemptive interventions, continued research should focus on the potential biologic mechanisms underlying the observed association. (c) 2024 Soegaard SH et al."""
+
+

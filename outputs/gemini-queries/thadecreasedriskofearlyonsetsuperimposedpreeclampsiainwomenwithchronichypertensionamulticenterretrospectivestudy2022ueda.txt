@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: lowersystolicbloodpressurelevelsinearlypregnancyareassociatedwithadecreasedriskofearlyonsetsuperimposedpreeclampsiainwomenwithchronichypertensionamulticenterretrospectivestudy2022ueda
+"To clarify the impact of blood pressure (BP) management ranges on pregnancy outcomes, we conducted a multicenter retrospective analysis of 215 women with singleton pregnancies diagnosed with essential hypertension either before or within 14 weeks of gestation. Patients were classified according to systolic BP (sBP; <130, 130-139, 140-159, and >=160 mmHg) or diastolic BP (dBP; <80, 80-89, 90-109, and >=110 mmHg) at 8-11, 12-15, and 16-19 weeks of gestation. The risk of early-onset superimposed preeclampsia and small-for-gestational-age neonates was assessed in each BP group. Moreover, a subgroup analysis was performed in 144 eligible patients whose BP was measured at both 12-13 and 14-15 weeks of gestation. At 16-19 weeks of gestation, higher sBP significantly increased the incidence of early-onset superimposed preeclampsia (13.3%, 24.6%, 32.2% and 75.0%, respectively) and small-for-gestational-age neonates (6.0%, 13.1%, 16.9% and 50.0%, respectively). Multivariate logistic regression analyses showed that women with sBP < 130 mmHg at 16-19 weeks of gestation had a significantly lower risk of early-onset superimposed preeclampsia than women with sBP of 140-159 mmHg. Subgroup analyses also showed that even at 14-15 weeks of gestation, sBP < 130 mmHg was associated with a significantly lower risk of early-onset superimposed preeclampsia than an sBP of 140-159 mmHg. In conclusion, sBP < 130 mmHg within 14 weeks of gestation reduced the risk of developing early-onset superimposed preeclampsia in women with chronic hypertension. (c) 2021, The Author(s), under exclusive licence to The Japanese Society of Hypertension."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: beneficialeffectsoflimosilactobacillusfermentumcect5716administrationtoinfantsdeliveredbycesareansection2022blancorojo
+"Cesarean section (CS) disrupts the natural microbiota colonization process in infants, which might compromise immune system maturation, leading to a higher risk of infections. We evaluated the effect of the probiotic Limosilactobacillus (L.) fermentum CECT 5716 on the incidence of gastrointestinal and respiratory infections in the CS infant subgroups (n = 173) of three randomized clinical trials in which this probiotic strain was demonstrated to be safe and effective for preventing infections. Therefore, the data for the CS infants were extracted to obtain the incidence rate ratio (IRR) and 95% CI for gastrointestinal and respiratory infections for each study and were then combined to obtain a pooled IRR and 95% CI using the generic inverse variance method. There was a significant reduction of 73% in the incidence of gastrointestinal infections in CS infants receiving L. fermentum CECT 5716 compared with those receiving the control formula [n = 173, IRR: 0.27 (0.13, 0.53), p = 0.0002]. Regarding respiratory infections, although pooled results showed a reduction of 14% in the probiotic group, the difference was not statistically significant [n = 173, IRR (95% CI): 0.86 (0.67, 1.11), p = 0.25]. In conclusion, the administration of L. fermentum CECT 5716 to CS-born infants protects them from gastrointestinal infections by reducing the risk by up to 73% in this population. (c) (c) 2022 Blanco-Rojo, Maldonado, Schaubeck, Ozen, Lopez-Huertas and Olivares."""
+
+

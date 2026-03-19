@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofpostpartumtemperatureexposurewithpostpartumdepressionaretrospectivecohortstudyinsoutherncalifornia2024sun
+"BACKGROUND: Postpartum depression (PPD) has been associated with biological, emotional, social, and environmental factors. However, evidence regarding the effect of temperature on PPD is extremely limited. OBJECTIVES: We aimed to examine the associations between postpartum temperature exposure and PPD. METHODS: We conducted a retrospective cohort study using data from Kaiser Permanente Southern California electronic health records from 1 January 2008 through 31 December 2018. PPD was first assessed using the Edinburgh Postnatal Depression Scale (score >=10) during the first year of the postpartum period and further identified by using both diagnostic codes and prescription medications. Historical daily ambient temperatures were obtained from the 4-km resolution gridMET dataset (https://www.climatologylab.org/gridmet.html) and linked to participants' residential addresses at delivery. Postpartum temperature exposures were measured by calculating various temperature metrics during the period from delivery to PPD diagnosis date. A time-to-event approach with a discrete-time logistic regression was applied to estimate the association between temperature exposure and time to PPD. Effect modification by maternal characteristics and other environmental factors was examined. RESULTS: There were 46,114 (10.73%) PPD cases among 429,839 pregnancies (mean +- standard deviation age = 30:22 +- 5:75 y). Increased PPD risks were positively associated with exposure to higher mean temperature [adjusted odds ratio (aOR) per interquartile range increment: 1.07; 95% confi-dence interval (CI): 1.05, 1.09] and diurnal temperature range (aOR = 1:08; 95% CI: 1.06, 1.10); the associations were stronger for maximum temperature compared with minimum temperature. The temperature-related PPD risks were greater among African American, Asian, and Hispanic mothers and among mothers >=25 years of age compared with their counterparts. We also observed higher effects of temperature on PPD among mothers exposed to higher air pollution or lower green space levels and among mothers with lower air conditioning penetration rates. CONCLUSION: Maternal exposure to higher temperature and diurnal temperature variability during the postpartum period was associated with an increased risk of PPD. Effect modification by maternal age, race/ethnicity, air pollution, green space, and air conditioning penetration was identified. https://doi.org/10.1289/EHP14783. (c) 2024, Public Health Services, US Dept of Health and Human Services. All rights reserved."""
+
+

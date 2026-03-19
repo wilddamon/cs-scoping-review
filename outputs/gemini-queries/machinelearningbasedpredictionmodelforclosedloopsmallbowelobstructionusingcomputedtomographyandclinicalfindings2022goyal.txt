@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningbasedpredictionmodelforclosedloopsmallbowelobstructionusingcomputedtomographyandclinicalfindings2022goyal
+"Purpose The aim of the study was to develop a prediction model for closed-loop small bowel obstruction integrating computed tomography (CT) and clinical findings. Methods The radiology database and surgical reports from 2 suburban teaching hospitals were retrospectively reviewed for patients undergoing surgery for suspected closed-loop small bowel obstruction (CLSBO). Two observers independently reviewed the CT scans for the presence of imaging features of CLSBO, blinded to the surgically confirmed diagnosis and clinical parameters. Random forest analysis was used to train and validate a prediction model for CLSBO, by combining CT and clinical findings, after randomly splitting the sample into 80% training and 20% test subsets. Results Surgery confirmed CLSBO in 185 of 223 patients with clinically suspected CLSBO. Age greater than 52 years showed 2.82 (95% confidence interval = 1.13-4.77) times higher risk for CLSBO (P = 0.021). Sensitivity/specificity of CT findings included proximal dilatation (97/5%), distal collapse (96/2%), mesenteric edema (94/5%), pneumatosis (1/100%), free air (1/98%), and portal venous gas (0/100%). The random forest model combining imaging/clinical findings yielded an area under receiver operating curve of 0.73 (95% confidence interval = 0.58-0.94), sensitivity of 0.72 (0.55-0.85), specificity of 0.8 (0.28-0.99), and accuracy of 0.73 (0.57-0.85). Prior surgery, age, lactate, whirl sign, U/C-shaped bowel configuration, and fecalization were the most important variables in predicting CLSBO. Conclusions A random forest model found clinical factors including prior surgery, age, lactate, and imaging factors including whirl sign, fecalization, and U/C-shaped bowel configuration are helpful in improving the prediction of CLSBO. Individual CT findings in CLSBO had either high sensitivity or specificity, suggesting that accurate diagnosis requires systematic assessment of all CT signs. (c) 2022 Wolters Kluwer Health, Inc. All rights reserved."""
+
+

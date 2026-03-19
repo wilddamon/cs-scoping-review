@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: epigeneticandtranscriptomicalterationsinoffspringborntowomenwithtype1diabetestheepicomstudy2022knorr
+"Background: Offspring born to women with pregestational type 1 diabetes (T1DM) are exposed to an intrauterine hyperglycemic milieu and has an increased risk of metabolic disease later in life. In this present study, we hypothesize that in utero exposure to T1DM alters offspring DNA methylation and gene expression, thereby altering their risk of future disease. Methods: Follow-up study using data from the Epigenetic, Genetic and Environmental Effects on Growth, Metabolism and Cognitive Functions in Offspring of Women with Type 1 Diabetes (EPICOM) collected between 2012 and 2013. Setting: Exploratory sub-study using data from the nationwide EPICOM study. Participants: Adolescent offspring born to women with T1DM (n=20) and controls (n=20) matched on age, sex, and postal code. Main outcome measures: This study investigates DNA methylation using the 450K-Illumina Infinium assay and RNA expression (RNA sequencing) of leucocytes from peripheral blood samples. Results: We identified 9 hypomethylated and 5 hypermethylated positions (p < 0.005, |DM-value| > 1) and 38 up- and 1 downregulated genes (p < 0.005, log2FC >= 0.3) in adolescent offspring born to women with T1DM compared to controls. None of these findings remained significant after correction for multiple testing. However, we identified differences in gene co-expression networks, which could be of biological significance, using weighted gene correlation network analysis. Interestingly, one of these modules was significantly associated with offspring born to women with T1DM. Functional enrichment analysis, using the identified changes in methylation and gene expression as input, revealed enrichment in disease ontologies related to diabetes, carbohydrate and glucose metabolism, pathways including MAPK1/MAPK3 and MAPK family signaling, and genes related to T1DM, obesity, atherosclerosis, and vascular pathologies. Lastly, by integrating the DNA methylation and RNA expression data, we identified six genes where relevant methylation changes corresponded with RNA expression (CIITA, TPM1, PXN, ST8SIA1, LIPA, DAXX). Conclusions: These findings suggest the possibility for intrauterine exposure to maternal T1DM to impact later in life methylation and gene expression in the offspring, a profile that may be linked to the increased risk of vascular and metabolic disease later in life. (c) 2022, The Author(s)."""
+
+

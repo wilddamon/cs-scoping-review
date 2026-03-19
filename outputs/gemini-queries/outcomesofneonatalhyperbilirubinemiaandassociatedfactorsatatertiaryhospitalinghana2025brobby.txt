@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: outcomesofneonatalhyperbilirubinemiaandassociatedfactorsatatertiaryhospitalinghana2025brobby
+"Introduction: Neonatal Hyperbilirubinemia (NH) is one of the most common clinical presentations in the first week of life. Aims: This study sought to determine the incidence, clinical presentation and risk factors associated with mortality, among neonates presenting with unconjugated NH at the Komfo Anokye Teaching Hospital in Ghana. Methodology: This was a hospital-based prospective analytical cohort study conducted from October to December 2020. A total of 223 newborns admitted to the nursery with NH were recruited, mothers were interviewed, and patients were followed-up until discharge. Data was collected and analyzed with R statistical software. Associations were determined as crude and adjusted odds ratios using univariate and multivariate binomial logistic regression. Results: The incidence of NH was 244 per 1000 admissions (95% CI: 21.7-27.3) with a case fatality rate of 8.1% (95% CI: 4.8-12.4). Independent predictors of increased mortality were older age at admission [AOR = 1.28(1.05-1.57), p = 0.015], gestational age between 35 and 37 weeks [AOR = 4.89(1.04-25.8), p = 0.047], and the presence of abnormal posture at admission [AOR = 6.40(1.37-35.9), p = 0.023]. The presentations associated with survival till discharge were primiparity in the mother [AOR = 0.06(0.01, 0.32), p = 0.003], and exclusive breastfeeding at the time of admission [AOR = 0.09 (0.02-0.46), p = 0.004]. Conclusion: The incidence of hyperbilirubinemia among neonates admitted to the Mother Baby Unit at KATH is high and gestational ages between 35 and 37 weeks, abnormal posture and older age at presentation were identified to be significantly associated with mortality. (c) The Author(s) 2025."""
+
+

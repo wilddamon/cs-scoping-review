@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningenhancedpredictionoffetalgrowthrestrictionusingfetalcardiacremodelingparameters2025zhu
+"Background: Fetal growth restriction (FGR) contributes to over 30% of late-pregnancy stillbirth, yet its diagnosis is challenging because current methods rely on indirect surrogate markers (estimated fetal weight and umbilical artery) that often fail to detect fetal compromise, particularly in late-onset cases. We hypothesized that fetal cardiac remodeling could provide a more robust basis for prediction. This study aimed to develop and validate the cardiac remodeling for FGR prediction model (CR-FGR), a first-in-class machine learning approach designed to operationalize the concept of fetal cardiac remodeling as a direct marker for FGR prediction. Methods: This multicenter study of singleton pregnancies included retrospective development (n = 663) and prospective validation in two independent cohorts (internal, n = 224; external, n = 51). The primary outcome was FGR (birth weight < 10th percentile). From 938 echocardiography videos, 222 cardiac parameters were extracted. A machine learning process selected the five most predictive parameters for the final logistic regression model (CR-FGR): right ventricular stroke volume/kg (RVSV/kg), cardiac output/kg (RVCO/kg), cardiac output (RVCO), left ventricular cardiac output (LVCO), and end-systolic area (RVESA). Results: The CR-FGR model showed robust performance, with an area under the curve (AUC) of 0.872 (95% confidence interval (CI), 0.780-0.935) in the prospective internal testing set and 0.831 (95% CI, 0.674-0.947) in the external testing set. Its performance was comparable to a conventional EFW and Doppler model. Critically, the CR-FGR excelled in identifying challenging subgroups: it was highly effective for late-onset FGR (AUC 0.876, 95% CI, 0.748-0.951) and successfully detected FGR in many cases with normal umbilical artery Doppler, demonstrating its ability to capture pathology missed by traditional assessment. Conclusions: We developed and validated the first machine learning model for FGR prediction based on fetal cardiac remodeling. This model establishes a new diagnostic strategy, offering a powerful, complementary tool that captures direct evidence of fetal compromise. It significantly enhances risk stratification, particularly for the clinically challenging late-onset and Doppler-normal phenotypes of FGR. Trial registration: The Chinese Clinical Trial Registry, TRN: ChiCTR2000034182, Registration date: 27 June 2020. (c) The Author(s) 2025."""
+
+

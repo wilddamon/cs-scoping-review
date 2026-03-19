@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: severityofbronchopulmonarydysplasiaandneurodevelopmentaloutcomeat2and5yearscorrectedage2022katz
+"Objective: To evaluate the association between bronchopulmonary dysplasia (BPD) severity and risk of neurodevelopmental impairment (NDI) at 2 years and 5 years corrected age and to examine whether this association changes over time. Study design: This single-center retrospective cohort study included patients with a gestational age <30 weeks surviving to 36 weeks postmenstrual age, divided into groups according to BPD severity. NDI was defined as having cognitive or motor abilities below -1 SD, cerebral palsy, or a hearing or a visual impairment. The association was assessed using a multivariate logistic regression model analysis, adjusting for known confounders for NDI, and mixed-model analysis. Results: Of the 790 surviving infants (15% diagnosed with mild BPD, 9% with moderate BPD, and 10% with severe BPD), 88% and 82% were longitudinally assessed at 2 years and 5 years corrected age, respectively. The mixed-model analysis showed a statistically significant increase in NDI at all levels of BPD severity compared with infants with no BPD, and a 5-fold increased risk in NDI was seen from 2 years to 5 years corrected age in all degrees of BPD severity. The strength of this association between NDI and BPD severity did not change over time. Conclusions: Increased BPD severity is associated with increased risk of NDI at both 2 years and 5 years corrected age. The absolute incidence of NDI increased significantly from 2 years to 5 years corrected age for all BPD severity categories, but this increased risk was similar at both time points in each category. (c) 2021 The Author(s)"""
+
+

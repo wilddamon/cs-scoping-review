@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intrauterinegrowthrestrictionandsugarconsumptionattwoyearsofageinthebrisacohort2025gomezaristizabal
+"Background: Alterations in insulin sensitivity in the fetus during pregnancy have been associated with IUGR and future increases in sweet food cravings. Objective: To analyze the association between intrauterine growth restriction (IUGR) and sugar consumption at two years of age in the BRISA cohort. Methods: Data from the pre-natal study and the follow-up of the BRISA cohort in the second year of life were used. The outcome assessed was sugar consumption, using three indicators: total energy from sugars, total grams of sugars and % of energy from sugars, analyzed continuously using a 24-hour recall (24 h). The exposure was IUGR, assessed as p50 and defined by the birth weight ratio (KRAMER et al., 1988), calculated by dividing the weight of the newborn by the weight corresponding to the 50th percentile of the birth weight for gestational age curve. To analyze the relationship between sugar consumption and IUGR, a propensity score based on the Inverse Probability of Treatment Weighting (IPTW) for continuous treatment was used. To minimize the bias due to loss to follow up, the sample was weighted by the inverse of the probability of selection. Results: A total of 553 mother-infant pairs were analyzed. The mean birth weight was 3,291 g, with an IUGR rate of 15.19%. There was no association between IUGR and the percentage of energy intake that was derived from sugars. It was observed that infants without IUGR had a lower total energy intake of sugars (b: -11.29; 95%CI: -21.19; - 1.19) and a lower total gram intake of sugars (b: -1.89; 95%CI: -3.48; - 0.30). Conclusion: IUGR infants had higher sugar intake at two years of age than non-IUGR infants, which means fetal growth restriction can affect eating behavior in later life, leading to the choice of highly palatable, energy-rich foods. (c) The Author(s) 2025."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofmaternalandfetoplacentalconcentrationsofcefazolincefuroximeandamoxicillinduringpregnancyusingbottomupphysiologicallybasedpharmacokineticmodels2022abduljalil
+"Concerns over maternal and fetal drug exposures highlight the need for a better understanding of drug distribution into the fetus through the placental barrier. This study aimed to predict maternal and fetal drug disposition using physiologically based pharmacokinetic (PBPK) modeling. The detailed maternal-placental-fetal PBPK model within the Simcyp Simulator V20 was used to predict the maternal and fetoplacental exposure of cefazolin, cefuroxime, and amoxicillin during pregnancy and at delivery. The mechanistic dynamic model includes physiologic changes of the maternal, fetal, and placental parameters over the course of pregnancy. Placental kinetics were parametrized using permeability parameters determined from the physicochemical properties of these compounds. Then, the PBPK predictions were compared with the observed data. Fully bottom-up fetoplacental PBPK models were developed for cefuroxime, cefazolin, and amoxicillin without any parameter fitting. Predictions in nonpregnant subjects and in pregnant subjects fall within 2-fold of the observed values. Predictions matched observed pharmacokinetic data reported in nine maternal (five fetoplacental) studies for cefuroxime, 10 maternal (five fetoplacental) studies for cefazolin, and six maternal (two fetoplacental) studies for amoxicillin. Integration of the fetal and maternal system parameters within PBPK models, together with compound-related parameters used to calculate placental permeability, facilitates and extends the applications of the maternal-placental-fetal PBPK model. The developed model can also be used for designing clinical trials and prospectively used for maternal-fetal risk assessment after maternally administered drugs or unintended exposure to environmental toxicants. SIGNIFICANCE STATEMENT This study investigates the performance of an integrated maternal-placental-fetal PBPK model to predict maternal and fetal tissue exposure of renally eliminated antibiotics that cross the placenta through a passive diffusion mechanism. The transplacental permeability clearance was predicted from the drug physicochemical properties. Results demonstrate that the PBPK approach can facilitate the prediction of maternal and fetal drug exposure simultaneously at any gestational age to support its use in the maternal-fetal exposure assessments. (c) (c) 2022 by The American Society for Pharmacology and Experimental Therapeutics"""
+
+

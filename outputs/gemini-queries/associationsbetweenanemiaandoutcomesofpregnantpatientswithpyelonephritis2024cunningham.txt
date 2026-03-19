@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationsbetweenanemiaandoutcomesofpregnantpatientswithpyelonephritis2024cunningham
+"Objective This study aims to determine if pregnant patients with both pyelonephritis and anemia are at an increased risk of adverse maternal outcomes compared with those with pyelonephritis without anemia. Study Design We conducted a retrospective cohort study utilizing the Nationwide Readmissions Database (NRD). Patients with antepartum pyelonephritis-associated hospitalizations from October 2015 to December 2018 were included. International Classification of Diseases codes were used to identify pyelonephritis, anemia, maternal comorbidities, and severe maternal morbidities. The primary outcome was a composite of severe maternal morbidity, as defined by the Centers for Disease Control criteria. Univariate statistical methods, weighted to account for complex survey methods in the NRD, were used to assess for associations between anemia, baseline characteristics, and patient outcomes. Weighted logistic and Poisson regressions were used to assess for associations between anemia and outcomes, adjusting for clinical comorbidities and other confounding factors. Results In total, 29,296 pyelonephritis admissions were identified, corresponding to a weighted national estimate of 55,135 admissions. Of these, 11,798 (21.3%) were anemic. The rate of severe maternal morbidity was higher among anemic patients than nonanemic patients (27.8 vs. 8.9%, respectively, p < 0.001), and remained higher after adjustment (adjusted relative risk [aRR] 2.86 [95% confidence interval [CI]: 2.67, 3.06]). Rates of individual components of severe maternal morbidities, including acute respiratory distress syndrome (4.0 vs. 0.6%, aRR 3.97 [95% CI: 3.10, 5.08]), sepsis (22.5 vs. 7.9%, aRR 2.64 [95% CI: 2.45, 2.85]), shock (4.5 vs. 0.6%, aRR 5.48 [95% CI: 4.32, 6.95]), and acute renal failure (2.9 vs. 0.8%, aRR 1.99 [95% CI: 1.55, 2.55]) were all higher for anemic pyelonephritis. The mean length of stay was also longer (25% average increase, 95% CI: 22, 28%). Conclusion Among pregnant patients with pyelonephritis, those with anemia are at greater risk of severe maternal morbidity and longer hospital stay. (c) 2023. Thieme. All rights reserved."""
+
+

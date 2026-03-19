@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: developmentandvalidationofanautomatedrealtimepredictivemodelforpostpartumhemorrhage2024ende
+"OBJECTIVE: To develop and validate a predictive model for postpartum hemorrhage that can be deployed in clinical care using automated, real-time electronic health record (EHR) data and to compare performance of the model with a nationally published risk prediction tool. METHODS: A multivariable logistic regression model was developed from retrospective EHR data from 21,108 patients delivering at a quaternary medical center between January 1, 2018, and April 30, 2022. Deliveries were divided into derivation and validation sets based on an 80/20 split by date of delivery. Postpartum hemorrhage was defined as blood loss of 1,000 mL or more in addition to postpartum transfusion of 1 or more units of packed red blood cells. Model performance was evaluated by the area under the receiver operating characteristic curve (AUC) and was compared with a postpartum hemorrhage risk assessment tool published by the CMQCC (California Maternal Quality Care Collaborative). The model was then programmed into the EHR and again validated with prospectively collected data from 928 patients between November 7, 2023, and January 31, 2024. RESULTS: Postpartum hemorrhage occurred in 235 of 16,862 patients (1.4%) in the derivation cohort. The predictive model included 21 risk factors and demonstrated an AUC of 0.81 (95% CI, 0.79-0.84) and calibration slope of 1.0 (Brier score 0.013). During external temporal validation, the model maintained discrimination (AUC 0.80, 95% CI, 0.72-0.84) and calibration (calibration slope 0.95, Brier score 0.014). This was superior to the CMQCC tool (AUC 0.69 [95% CI, 0.67-0.70], P,.001). The model maintained performance in prospective, automated data collected with the predictive model in real time (AUC 0.82 [95% CI, 0.73-0.91]). CONCLUSION: We created and temporally validated a postpartum hemorrhage prediction model, demonstrated its superior performance over a commonly used risk prediction tool, successfully coded the model into the EHR, and prospectively validated the model using risk factor data collected in real time. Future work should evaluate external generalizability and effects on patient outcomes; to facilitate this work, we have included the model coefficients and examples of EHR integration in the article. (c) 2024 by the American College of Obstetricians and Gynecologists. Published by Wolters Kluwer Health, Inc. All rights reserved."""
+
+

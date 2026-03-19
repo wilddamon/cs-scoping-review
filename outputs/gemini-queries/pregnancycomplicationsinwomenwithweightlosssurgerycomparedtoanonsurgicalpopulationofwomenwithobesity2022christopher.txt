@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancycomplicationsinwomenwithweightlosssurgerycomparedtoanonsurgicalpopulationofwomenwithobesity2022christopher
+"Background: The objective of this study was to assess the effect of WLS on pregnancy and delivery complications in women who had WLS compared to women with obesity who did not undergo WLS. Methods: We used the National Inpatient Sample data from 2012 to 2017, with a study population of women between the ages of 20 and 44 who had a maternal admission code in the NIS data (n = 663,795). Weighted logistic regression models were fitted and the models were stratified by race. Covariates included age, race, primary payer, previous cesarean delivery, physical health comorbidities, and depression. Results: There were decreased odds of gestational diabetes in women of all races (aOR<inf>all</inf> = 0.47, 95% CI<inf>all</inf> = 0.44-0.49). There were decreased odds for gestational hypertension in women of all races (aOR<inf>all</inf> = 0.55, 95% CI<inf>all</inf> = 0.51-0.59). Compared to women who did not have WLS, there were lower odds of cesarean delivery among women with a history of WLS (aOR<inf>all</inf> = 0.62, 95% CI<inf>all</inf> = 0.60-0.65), which was true for White women, Black women, and Latinas with a history of WLS (aOR<inf>White</inf> = 0.57, 95% CI<inf>White</inf> = 0.53-0.60; aOR<inf>Black</inf> = 0.67, 95% CI<inf>Black</inf> = 0.61-0.74; aOR<inf>Latina</inf> = 0.71, 95% CI<inf>Latina</inf> = 0.64-0.78). Conclusions: Overall, women with history of WLS had lower odds of most of the pregnancy outcomes (gestational diabetes, gestational hypertension, pre-eclampsia/eclampsia, and cesarean delivery) with results mediated by race. Graphical abstract: [Figure not available: see fulltext.] (c) 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."""
+
+

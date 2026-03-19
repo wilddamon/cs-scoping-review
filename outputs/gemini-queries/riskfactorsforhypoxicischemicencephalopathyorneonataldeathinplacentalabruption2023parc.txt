@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: riskfactorsforhypoxicischemicencephalopathyorneonataldeathinplacentalabruption2023parc
+"Objective: To identify risk factors for moderate or severe hypoxic-ischemic encephalopathy (HIE), or neonatal death in clinical placental abruption. Material and methods: A nested case-control study within a cohort of singleton pregnancies complicated by placental abruption with a live born infant at two academic reference centers in France, from 2006 to 2019. Cases were patients who gave birth to an infant with moderate or severe HIE or death within 28 days (HIE/death group), and controls were patients whose infant did not have any of these outcomes (no-HIE group). Independent risk factors were identified by logistic regression. Binary decision tree discriminant (CART) analysis was performed to define high-risk subgroups of HIE or death. Results: Among 152 patients, the infants of 44 (29%) had HIE or death. Out-of-hospital placental abruption and fetal bradycardia at admission were more frequent in cases than in controls: 39 (89%) vs 61 (56%), p < .01 and 24 (59%) vs 19 (18%), p < .01, respectively. In multivariate analysis, out-of-hospital placental abruption (aOR, 7.05; 95% CI, 1.94-25.66) and bradycardia at admission (aOR, 8.60; 95% CI, 2.51-29.42) were independently associated with an increased risk of HIE or death. The combination of out-of-hospital placental abruption and bradycardia was the highest risk situation associated with HIE or death (67%). The decision-to-delivery interval was 15 [12-20] minutes among cases. Conclusion: Out-of-hospital placental abruption combined with bradycardia at admission was associated with a major risk of moderate or severe HIE or death. An optimal decision-to-delivery interval does not guarantee the absence of an adverse neonatal outcome. (c) 2022 Elsevier Masson SAS"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ultrasoundlungimageunderartificialintelligencealgorithmindiagnosisofneonatalrespiratorydistresssyndrome2022wu
+"In order to analyze the application of ultrasonic lung imaging diagnosis model based on artificial intelligence algorithm in neonatal respiratory distress syndrome (NRDS), an ultrasonic lung imaging diagnosis model based on a deep residual network (DRN) was proposed. In this study, 90 premature infants in the hospital were selected as the research object and divided into the experimental group (45 cases) and control group (45 cases) according to whether or not they have NRDS. DRN was compared with the deep residual network (DRWSR) based on wavelet domain, deep residual network detection with normalization framework (Fisher-DRN), and distorted image edge detection preprocessor (DIEDP). Then, it was applied to the diagnosis of NRDS. The clinical data and ultrasound imaging results of infants with NRDS and ordinary premature infants were compared. The results showed that the gestational age, birth weight, and Apgar scores of the NRDS group were remarkably lower than those of ordinary children (P<0.05). In addition, the segmentation accuracy, image feature extraction accuracy, algorithm convergence, and time loss of the DRN algorithm were better than the other three algorithms, and the differences were considerable (P<0.05). In children with NRDS, the positive rate of abnormal pleural line, disappearance of A line, appearance of B line, and alveolar interstitial syndrome (AIS) test in the results of lung ultrasound examination in children with NRDS were all 100%. The lung consolidation became 70.8%, and the white lung-like change was 50.1%, both of which were higher than those of ordinary preterm infants, and the differences were considerable (P<0.05). The diagnostic model of this study predicted that the AUC area of grade 1-2, grade 2-3, and grade 3-4 NRDS were 0.962, 0.881, and 0.902, respectively. To sum up, the ultrasound lung imaging diagnosis model based on the DRN algorithm had good diagnostic performance in children with NRDS and can provide useful information for clinical NRDS diagnosis and treatment. (c) 2022 Yuhan Wu et al."""
+
+

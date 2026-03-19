@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofspontaneouspretermbirthinpregnantwomenusingmachinelearning2025yang
+"Purpose: Spontaneous preterm birth (sPTB) is a significant global health concern, contributing to adverse outcomes for both pregnant women and newborns. Early identification of women with risk of sPTB is essential for mitigating these negative effects and improving maternal and neonatal health outcomes. The aim of this study is to explore the feasibility of using machine learning to predict sPTB risk and to analyze the contribution of variables. Methods: All data were collected retrospectively. Prediction models were developed using eight different machine learning algorithms combined with six variable selection methods. The models' predictive performance was evaluated using area under the receiver operating characteristic curve (AUROC), area under the precision recall curve (AUPRC), accuracy, sensitivity, F1-score, positive predictive value, and negative predictive value. Results: A total of 1122 pregnant women, of whom 187 had preterm birth and 935 had term birth, were enrolled. The model by combining the categorical boosting algorithm and backward elimination had the best predictive performance with the highest AUROC (0.8762) and AUPRC (0.7061), and the Brier score was 0.12 on the test set. The top 5 variables for predicting sPTB risk in this study were free triiodothyronine, albumin/globulin, thyroglobulin antibody, total thyroxine, red cell volume distribution width. Conclusions: The machine learning model may help identify pregnant women at high risk of sPTB, and individual risk factor analysis could provide reference for clinical decision. However, as some key variables are not part of routine laboratory tests during pregnancy worldwide, the model's generalizability and clinical applicability require further study. (c) The Author(s) 2025."""
+
+

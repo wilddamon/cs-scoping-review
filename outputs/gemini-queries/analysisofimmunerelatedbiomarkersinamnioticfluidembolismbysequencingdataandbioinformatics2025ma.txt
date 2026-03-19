@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: analysisofimmunerelatedbiomarkersinamnioticfluidembolismbysequencingdataandbioinformatics2025ma
+"Background: Amniotic fluid embolism (AFE) represents an uncommon yet life-threatening obstetric emergency characterized by its sudden onset and significant contribution to maternal death. Immune dysregulation has been implicated as a key pathological mechanism in AFE progression. This investigation employed through comprehensive bioinformatics approaches transcriptomic profiling of clinical specimens to systematically identify immune-associated genetic alterations that can distinguish AFE - induced pulmonary embolism from normal controls. Methods: We conducted RNA sequencing on clinical specimens to delineate differentially expressed genes associated with AFE pathogenesis and immune responses. Functional annotation and protein-protein interaction (PPI) networks were generated using specialized R packages. Machine learning algorithms facilitated the selection of candidate biomarkers, whose expression patterns were quantitatively assessed. Diagnostic performance was evaluated through nomogram construction, while immune cell infiltration patterns were characterized using computational deconvolution methods. Potential N6-methyladenosine (m6A) sites were predicted via established databases, and regulatory networks were reconstructed. Future validation will include quantitative Polymerase Chain Reaction (PCR) verification of critical gene expression. Results: Our analysis identified two upregulated biomarkers (MMP9 and PPBP) in AFE samples. The constructed nomogram demonstrated that elevated biomarker scores correlated with increased AFE probability. Validation through calibration curves, decision curve analysis, and receiver operating characteristic curves confirmed robust predictive accuracy and clinical applicability. Immunological assessment revealed significant negative correlations between biomarker expression and central memory CD4 + T cells, activated CD8 + T cells, and activated dendritic cells. Both biomarkers exhibited moderate to high-confidence RNA methylation sites. Conclusion: We have provided valuable peripheral blood sequencing data from AFE patients and healthy controls. Through bioinformatics analysis, we identified two immune-related biomarkers: MMP9 and PPBP and systematically examines their biological significance through immune infiltration profiling, gene set enrichment, regulatory network construction, and pharmacological association studies. This study provides preliminary evidence for the diagnostic potential of these two markers for AFE and offers new insights for research into the immune response associated with AFE. (c) The Author(s) 2025."""
+
+

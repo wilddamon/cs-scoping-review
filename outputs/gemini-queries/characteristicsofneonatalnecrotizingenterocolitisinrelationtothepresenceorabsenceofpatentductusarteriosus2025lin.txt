@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: characteristicsofneonatalnecrotizingenterocolitisinrelationtothepresenceorabsenceofpatentductusarteriosus2025lin
+"Objective: The presence of a patent ductus arteriosus (PDA) increases the morbidity and mortality rates in neonates with necrotizing enterocolitis (NEC), attributable to the "diastolic steal" phenomenon. Consequently, it is vital to assess the characteristics of NEC in relation to the presence or absence of PDA. Methods: A retrospective case-control study was conducted from 2015 to 2022, encompassing 135 neonates who were categorized into mild and severe NEC groups, with each group further divided into NO-PDA and PDA subgroups. Demographic characteristics of both mothers and neonates, as well as neonatal respiratory mechanics, hematologic parameters, and echocardiographic data were meticulously collected. Logistic regression analyses were conducted, and the results were statistically processed using the R programming language. Results: In the mild NEC group, 46.9% (38/81) of neonates had the presence of PDA, compared to 53.7% (29/54) in the severe NEC group. Additionally, a lower left ventricular systolic function and a higher incidence of moderate to severe tricuspid regurgitation were observed in the PDA subgroup of the severe NEC group (P < 0.05). The occurrence of increased blood urea nitrogen, positive blood culture results in cases of sepsis, heart failure, and intraventricular hemorrhage was 1.27, 1.60, 1.91, and 3.86 times higher, respectively, in the PDA subgroup than in the NO-PDA subgroup. Within the PDA subgroup, for every one gram per liter decrease in fibrinogen, the incidence risk of NEC increased by 65%, and for each one mmol/L decrease in calcium levels, the incidence risk of NEC increased by 89% after adjustment. Conclusions: HsPDA in neonates not only affects the severity and progression of NEC but also exerts an impact on multi-system functions. This includes exacerbating respiratory issues (due to high pulmonary blood flow and increased need for ventilatory support), increasing the load on the left ventricular blood flow, promoting hypercoagulability, disrupting calcium metabolism, and raising the risk of sepsis and IVH. (c) The Author(s) 2025."""
+
+

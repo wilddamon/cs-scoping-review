@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: usingapatientcentredcompositeendpointinasecondaryanalysisofthecontrolofhypertensioninpregnancystudychipstrial2023metcalfe
+"Background: Clinical trials commonly use multiple endpoints to measure the impact of an intervention. While this improves the comprehensiveness of outcomes, it can make trial results difficult to interpret. We examined the impact of integrating patient weights into a composite endpoint on the interpretation of Control of Hypertension in Pregnancy Study (CHIPS) Trial results. Methods: Outcome weights were extracted from a previous patient preferences study in pregnancy hypertension (N = 183 women) which identified (i) seven outcomes most important to women (taking medication, severe hypertension, pre-eclampsia, blood transfusion, Caesarean, delivery < 34 weeks, and baby born smaller-than-expected) and (ii) three preference subgroups: (1) 'equal prioritizers', 62%; (2) 'early delivery avoiders', 23%; and (3) 'medication minimizers', 14%. Outcome weights from the preference subgroups were integrated with CHIPS data for the seven outcomes identified in the preference study. A weighted composite score was derived for each participant by multiplying the preference weight for each outcome by the binary outcome if it occurred. Analyses considered equal weights and those from the preference subgroups. The mean composite scores were compared between trial arms (t-tests). Results: Composite scores were similar between trial arms with the use of equal weights or those of subgroup (1) (95% confidence intervals [CIs]: - 0.03, 0.02; p > 0.50 for each). 'Tight' control was superior when using subgroup (2) weights (95% CIs: 0.002, 0.07; p = 0.03), and 'less-tight' control was superior when using subgroup (3) weights (95% CIs: - 0.11, - 0.04; p < 0.01). Conclusions: Evidence-based recommendations for 'tight' control are consistent with most women's preferences, but for a sixth of women, 'less-tight' control is more preference consistent. Depending on patient preferences, a single trial may support different interventions. Future trials should specify component weights to improve interpretation. Trial registration: ClinicalTrials.gov NCT01192412. (c) 2023, The Author(s)."""
+
+

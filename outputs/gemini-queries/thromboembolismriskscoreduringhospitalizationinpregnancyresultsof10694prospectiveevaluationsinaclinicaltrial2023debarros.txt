@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: venousthromboembolismriskscoreduringhospitalizationinpregnancyresultsof10694prospectiveevaluationsinaclinicaltrial2023debarros
+"Objectives: Hospitalization during pregnancy and childbirth increases the risk of Venous Thromboembolism Risk (VTE). This study applied a VTE risk score to all hospitalized pregnant women to ascertain its effectiveness in preventing maternal death from VTE until 3 months after discharge. Methods: In this interventional study, patients were classified as low- or high-risk according to the VTE risk score (Clinics Hospital risk score). High-risk patients (score >= 3) were scheduled for pharmacological Thromboprophylaxis (TPX). Interaction analysis of the main risk factors was performed using Odds Ratio (OR) and Poisson regression with robust variance. Results: The data of 10694 cases (7212 patients) were analyzed; 1626 (15.2%, 1000 patients) and 9068 (84.8%, 6212 patients) cases were classified as high-risk (score >= 3) and low-risk (score < 3), respectively. The main risk factors (Odds Ratio, 95% Confidence Interval) for VTE were age >= 35 and < 40 years (1.6, 1.4-1.8), parity >= 3 (3.5, 3.0-4.0), age >= 40 years (4.8, 4.1-5.6), multiple pregnancies (2.1, 1.7-2.5), BMI >= 40 kg/m2 (5.1, 4.3-6.0), severe infection (4.1, 3.3-5.1), and cancer (12.3, 8.8-17.2). There were 10 cases of VTE: 7/1636 (0.4%) and 3/9068 (0.03%) in the high- and low-risk groups, respectively. No patient died of VTE. The intervention reduced the VTE risk by 87%; the number needed to treat was 3. Conclusions: This VTE risk score was effective in preventing maternal deaths from VTE, with a low indication for TPX. Maternal age, multiparity, obesity, severe infections, multiple pregnancies, and cancer were the main risk factors for VTE. (c) 2023 HCFMUSP"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: costeffectivenessofimplementingauniversalbirthhepatitisbvaccinationprograminontario2023kim
+"Background and Objective: The World Health Organization recommends a universal hepatitis B vaccination within the first 24 h of birth. However, hepatitis B vaccines are given during adolescence in many jurisdictions including in Ontario, Canada. The objective of this study was to assess the cost effectiveness of shifting the hepatitis B vaccination timing from adolescence to birth. Methods: A state-transition model of 18 health states representing the natural history of acute and chronic hepatitis B was developed to conduct a cost-utility analysis. Most input parameters were obtained from the Canadian literature or publicly available provincial data. The model followed a lifetime model time horizon with health outcomes and costs being discounted at 1.5% annually. Deterministic and probabilistic sensitivity analyses were performed to test the robustness of the model. Analyses were conducted from a public-payer perspective with all costs adjusted to 2021 Canadian dollars. Results: Hepatitis B vaccination in newborns dominated the current strategy of adolescent vaccination. The probabilistic analysis showed that the newborn strategy was cost effective in 100% of the iterations at a willingness-to-pay threshold of $50,000/quality-adjusted life-year and cost saving in 79.39% of the iterations. A microsimulation projected that a newborn vaccination may lead to reductions in cases by 16.1% in acute hepatitis B, 43.2% in chronic hepatitis B, 48.2% in hepatocellular carcinoma, and 51.9% in hepatitis B liver-related death. Conclusions: Our analysis suggests that changing the age of the hepatitis B vaccination recommendation from adolescent to newborn is cost effective and mostly a cost-saving strategy. Newborn vaccination may lead to cost and health benefits while aligning with best available evidence and guidance from the World Health Organization. (c) 2023, The Author(s), under exclusive licence to Springer Nature Switzerland AG."""
+
+

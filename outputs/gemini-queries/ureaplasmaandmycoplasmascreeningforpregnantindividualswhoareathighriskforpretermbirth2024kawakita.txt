@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: ureaplasmaandmycoplasmascreeningforpregnantindividualswhoareathighriskforpretermbirth2024kawakita
+"Objective: This study aimed to examine gestational age at delivery according to Ureaplasma/Mycoplasma cervical culture results and whether pregnant individuals received antibiotics. Study Design: A retrospective cohort study at a single academic institution where all pregnant individuals with risk factors for preterm birth including those with a history of preterm birth, recurrent pregnancy loss, or pregnancy requiring cervical cerclage were included. We plotted Kaplan-Meier curves to investigate the association between the gestational age at delivery and Ureaplasma culture results (negative; positive and treated; or positive but did not receive the treatment). A Cox proportional regression model was used to calculate hazard ratio (HR) with 95% confidence intervals (95% CI), controlling for confounders. The main outcome was age at delivery. Analyses were repeated for Mycoplasma culture. Results: Of 607 individuals, 258 (42.5%) had a negative Ureaplasma culture, 308 (50.7%) had a positive Ureaplasma culture and received treatment, and 41 (6.8%) had a positive Ureaplasma culture and did not receive treatment. Compared with those who had a positive Ureaplasma culture but did not receive treatment, those who had a negative Ureaplasma culture did not have a decreased risk (HR: 1.03; 95% CI: 0.74-1.44). Compared with those who had a positive Ureaplasma culture but did not receive treatment, those who had a positive Ureaplasma culture and received treatment did not have a decreased risk (HR: 0.91; 95% CI: 0.66-1.27). The treatment failure rate of Ureaplasma after treatment was 78.6% (95% CI: 72.8-83.7%). Overall, the findings of Mycoplasma were similar. Conclusion: Routine ureaplasma/mycoplasma cervical culture is not recommended for pregnant individuals who are at high risk for preterm birth. (c) 2023. Thieme. All rights reserved."""
+
+

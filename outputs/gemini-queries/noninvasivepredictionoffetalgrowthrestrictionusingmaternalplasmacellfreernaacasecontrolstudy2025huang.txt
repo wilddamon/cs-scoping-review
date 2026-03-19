@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: noninvasivepredictionoffetalgrowthrestrictionusingmaternalplasmacellfreernaacasecontrolstudy2025huang
+"Background: Fetal growth restriction (FGR) is a significant concern due to its potential adverse outcomes for both mothers and infants. Cell-free RNA in maternal plasma has been suggested as a potential biomarker for pregnancy complications, but its effectiveness in predicting FGR remains uncertain. This study aimed to assess the predictive value of cell-free RNA profiling from maternal plasma collected during early to mid-pregnancy for FGR. Methods: This case-control study included pregnant women diagnosed with FGR who had non-invasive prenatal test data. Differentially expressed genes (DEGs) between FGR and controls groups were identified through the analysis of cell-free RNA and placental microarray dataset which downloaded from the Gene Expression Omnibus database. The intersection of DEGs from cell-free RNA and placenta was explored to explore hub genes. The least absolute shrinkage and selection operator regression was used to select the hub genes from the cell-free RNA DEGs. The prediction model was then constructed using logistic regression with hub genes and clinical characteristics. The predictive accuracy of model was evaluated using receiver operating characteristic analysis, calibration curves, and decision curve analysis. Results: A total of 39 FGR samples and 133 control samples were included in this study. Among them, 405 cell-free RNA DEGs were identified. BIN2 was identified as the intersecting gene that was up-regulated in both cell-free RNA and FGR placental transcripts. Subsequently, RHOA and OAZ1 were selected by least absolute shrinkage and selection operator regression. The hub genes, including BIN2, RHOA and OAZ1, exhibited positive correlations with each other and were up-regulated in the FGR group. A logistic regression model incorporating the hub genes and clinical characteristics was constructed, achieving the highest classification performance with area under the curve of 0.812 (95% CI: 0.719-0.904) in the training cohort, 0.863 (95% CI: 0.736-0.989) in the validation cohort, and 0.786 (95% CI: 0.513-1.000) in the time test cohort. The calibration curve indicated good calibration of the model, and the decision curve analysis demonstrated practical value in clinical application. Conclusions: An effective prediction model for FGR was developed by integrating maternal plasma cell-free RNA with clinical characteristics, enabling early evaluation of FGR risk. (c) The Author(s) 2025."""
+
+

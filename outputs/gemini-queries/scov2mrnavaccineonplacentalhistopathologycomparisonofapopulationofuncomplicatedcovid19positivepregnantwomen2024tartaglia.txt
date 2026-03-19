@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: effectsofsarscov2mrnavaccineonplacentalhistopathologycomparisonofapopulationofuncomplicatedcovid19positivepregnantwomen2024tartaglia
+"1. Introduction: This study investigates the impact of SARS-CoV-2 infection on placental histopathology in pregnant women, comparing outcomes between vaccinated and non-vaccinated individuals. Despite known adverse pregnancy outcomes linked to SARS-CoV-2 infection, the specific effects on the placenta remain unclear. Although vaccination has demonstrated a substantial reduction in infection severity, its impact on placental health requires more insight. 2. Methods: Between March 2021 and July 2022, 387 COVID-19-positive women were admitted for delivery. Of these, 98 with non-severe symptoms were analyzed: 35 vaccinated during pregnancy, and 63 non-vaccinated. Two independent pathologists evaluated all placental specimens. 3. Results: The only differing obstetrical characteristic between groups was the mode of delivery (p 0.047), lacking clinical implications. Over 85% of placentas exhibited microscopic abnormalities, predominantly maternal vascular supply disorders (vaccinated 89.1%; unvaccinated 85.5%). Comparing vaccinated and unvaccinated groups revealed statistically significant differences, notably in increased focal perivillous fibrin deposits (IFPFD) [17.1% vs. 33.3% (p 0.04)] and avascular fibrotic villi (AFV) [0% vs. 11.1% (p 0.04)]. Binomial logistic regression confirmed the vaccine's protective role against IFPFD (aOR 0.36; 95%CI 013-0.99) and AVF (aOR 0.06, 95% CI 0.003-0.98). A sub-analysis in vaccinated women showed a positive correlation between the timing of the first dose and IFPFD presence (p 0.018). 4. Discussion: The lower incidence of maternal and fetal vascular malperfusion placental features in vaccinated women, coupled with the timing correlation, supports the vaccine's protective effect on placental tissue in COVID-19-infected pregnant patients. Notably, no side effects were reported post-vaccination, emphasizing the vaccine's safety and advocating for its secure administration in pregnant populations. (c) 2024 The Authors"""
+
+

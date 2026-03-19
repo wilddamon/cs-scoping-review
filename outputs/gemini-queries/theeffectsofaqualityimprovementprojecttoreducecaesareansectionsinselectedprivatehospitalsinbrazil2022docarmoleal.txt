@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectsofaqualityimprovementprojecttoreducecaesareansectionsinselectedprivatehospitalsinbrazil2022docarmoleal
+"Background: Brazil is one of the countries with the highest rates of caesarean sections (CS), reaching almost 90% of births in the private sector. A quality improvement project called "Adequate Childbirth Project (PPA)" was conceived to reduce CS in the private sector. This project consisted of four primary components: "Governance", "Participation of Women", "Reorganization of Care" and "Monitoring". This paper aims to evaluate: (1) which specific activities of the PPA had the largest effect on the probability of a woman having a vaginal delivery; (2) which primary component of the PPA had the largest effect on the probability of vaginal delivery and (3) which scenarios combining the implementation of different activities planned in the PPA had a higher effect on the probability of vaginal delivery. Methods: A sample of 12 private hospitals participating in the PPA was evaluated. We used a Bayesian Network (BN) to capture both non-linearities and complex cause-effect relations. The BN integrated knowledge from experts and data from women to estimate 26 model parameters. The PPA was evaluated in 2473 women belonging to groups 1-4 of the Robson classification, who were divided into two groups: those participating or not participating in the PPA. Results: The probability of a woman having a vaginal delivery was 37.7% higher in women participating in the PPA. The most important component of the project that led to an increase in the probability of vaginal delivery was "Reorganization of Care", leading to a 73% probability of vaginal delivery among women in labor. The activity that had the greatest effect on the type of delivery was access to best practices during labor, with a 72% probability of vaginal delivery. Considering the 12 scenarios combining the different activities of the PPA, the best scenarios included: a non-scheduled delivery, access to information about best practices, access to at least 4 best practices during labor and respect of the birth plan, with an 80% probability of vaginal delivery in the best combinations. Conclusion: PPA has been shown to be an effective quality improvement program, increasing the likelihood of vaginal delivery in private Brazilian hospitals. (c) The Author(s) 2024."""
+
+

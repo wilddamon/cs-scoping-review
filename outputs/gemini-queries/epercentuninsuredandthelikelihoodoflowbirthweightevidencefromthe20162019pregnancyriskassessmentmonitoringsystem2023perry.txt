@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theassociationofstatepercentuninsuredandthelikelihoodoflowbirthweightevidencefromthe20162019pregnancyriskassessmentmonitoringsystem2023perry
+"Objective: To evaluate the association of state-level lack of health insurance among women of reproductive age with variation in state low birth weight (LBW) rates. Study design: This cross-section study analyzes data from the 2016-2019 Pregnancy Risk Assessment Monitoring Survey for respondents with singleton, live births. Methods: Respondents were divided into groups by state-level percent of uninsured women aged 19-44 years. Poisson regression was used to model the association between state percent uninsured and likelihood of LBW, controlling for individual sociodemographic and clinical risk factors. Sensitivity analyses were done for Medicaid and non-Hispanic Black subpopulations and alternative state characteristics, including Gini coefficients, total and public welfare expenditures, and state reproductive rights rankings. Results: In adjusted multiple regression analyses, compared to respondents from states with <7% uninsured, respondents from states with 7% or more uninsured had an increased risk of LBW status (7-8.99% uninsured: adjusted incidence rate ratio [aIRR] 1.11, 95% confidence interval [CI] 1.04-1.18; 9-11.99% uninsured: aIRR 1.09, 95% CI 1.02-1.17; >11.99% uninsured: aIRR 1.15, 95% CI 1.08-1.22). However, there was no evident dose-response gradient. Sensitivity analyses produced virtually identical findings for subpopulations, and no other state characteristics were significant. Conclusion: States with the highest level of insurance coverage had a significantly lower LBW rate than other states. However, there was little evidence for greater odds of LBW with the highest levels of uninsured. Individual risk factors dominated LBW models, while state differences in income inequality, reproductive health policy, and per capita spending explained little of the variance in LBW. (c) 2023 The Royal Society for Public Health"""
+
+

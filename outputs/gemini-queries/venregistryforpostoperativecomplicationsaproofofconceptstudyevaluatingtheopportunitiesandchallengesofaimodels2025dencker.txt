@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: towardsanaidrivenregistryforpostoperativecomplicationsaproofofconceptstudyevaluatingtheopportunitiesandchallengesofaimodels2025dencker
+"Objectives Postoperative complications (PCs) require substantial resources to manage and are cumbersome to monitor. Artificial intelligence (AI), particularly natural language processing (NLP), offers a potential solution by automating and streamlining these processes, but perceived PC rates may differ depending on model optimisation strategies. This study aimed to develop a mock-up AI-driven automated registry for PCs. We hypothesised that using NLP to obtain longitudinal overviews of key quality metrics is feasible, but that optimisation strategies impacted the observed rate of PCs. Methods We analysed 100505 surgical cases from 12 Danish hospitals between 2017 and 2021. Previously validated NLP models were applied to detect seven types of PCs, using two different threshold settings: a set of thresholds optimised for positive predictive value (precision), referred to as F-score of 0.5, and a set of thresholds optimised for sensitivity, referred to as F-score of 2. Trends in PC rates over time were assessed, and hospital-level variations were examined using logistic regression models. Results The NLP models detected 8512 or 15 892 PCs, depending on threshold selection, corresponding to total PC rates of 9.14% and 17.1%, respectively. Most PCs showed stable or increasing trends over time, regardless of threshold setting. Regression analyses demonstrated that threshold selection significantly influenced findings, impacting hospital comparisons. Conclusion We demonstrate that NLP can be used for automated PC detection. However, threshold selection and additional performance metrics must be carefully considered. (c) Author(s) (or their employer(s)) 2025. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ Group."""
+
+

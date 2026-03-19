@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: accuratepredictionofmediolateralepisiotomyriskduringlabordevelopmentandverificationofanartificialintelligencemodel2025hu
+"Objective: The study developed an intelligent online evaluation system for mediolateral episiotomy, which incorporated machine learning algorithms and integrated maternal physiological data collected during delivery. Methods: In this study, a predictive model for mediolateral episiotomy was constructed first, and based on this, an early warning system using open-source R software was established. The physiological data of 1191 parturients who delivered at Deyang People's Hospital in western China from January 2022 to December 2022 were collected and divided into training set and test set according to a ratio of 8:2. The factors affecting mediolateral episiotomy were determined based on the expert consultation method. Six machine learning models, namely Logistic regression(LR), Support Vector Machine(SVM), K-Nearest Neighb(KNN), Random Forest (RF), Light Gradient Boosting Machine(LightGBM), and eXtreme Gradient Boosting(XGBoost) were constructed on this basis. The models' performance was evaluated using accuracy, precision, recall, F1 value, and area under the receiver operating characteristic curve (AUC) measures. Additionally, a confusion matrix was employed to assess their performance across different categories. SHapley Additive exPlanation (SHAP) provided interpretability. The clinical external verification process focused on data collected from January to March 2023, and an intelligent online evaluation system for mediolateral episiotomy was developed. Results: Twenty eight factors influencing mediolateral episiotomy were screened. The model evaluation results showed that the SVM model has the best prediction ability among the six models, with an accuracy of 0.793, a recall rate of 0.981, a precision rate of 0.790, and a F1 value of 0.875. The area under ROC curve of SVM was 0.882, The verification results showed that the prediction accuracy was 74% for undergoing mediolateral episiotomy and 93% for not undergoing it. SHAP analysis identified perineal elasticity, number of pregnancies, BMI, perineum edema, and age as top predictors. An early warning system for mediolateral episiotomy was successfully constructed, which can assist the clinical medical staff in decision-making by inputting the maternal data. Conclusion: The early warning system for the risk of mediolateral episiotomy constructed in this study can accurately and rapidly utilize the physiological data of parturients during labor to predict the risk of mediolateral episiotomy in the third stage of labor. (c) The Author(s) 2025."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: investigatingtheoriginofthefetalgutandplacentamicrobiomeintwins2022williams
+"Objective: It is widely accepted that the microbiota is critical for human well-being; however, the origin of microbiota in the newborn is not well understood. In this study, we hypothesized that within a maternal-twin dyad (MTD) the meconium microbiome will be similar to the placenta microbiome and the meconium microbiome of within MTD will be similar to one another. Methods: Prospectively, meconium (proxy for fetal gut), placenta and maternal buccal, skin, vaginal, stool samples were collected from a cohort of MTDs at time of delivery hospitalization. We performed gene sequencing using the V4 region of 16S rRNA with rigorous negative controls. Alpha and beta diversity indices were computed to characterize the microbial community of MTD samples. A p value of <.05 was considered significant. Results: From 17 MTD, 87/132 samples were successfully sequenced. The alpha diversity of the microbiome collected from all the body sites were different (p <=.001). The meconium samples when compared to other samples in the MTD microbial community were different (p =.009) and the Bray-Curtis dissimilarity was greater than 0.95 for all of the comparisons (beta diversity). The MTD within-twin placenta microbiome samples were also different, confirmed by Bray-Curtis pairwise dissimilarity distance, 0.83. Conclusion: The fetal gut microbiome is different from placenta and maternal buccal, skin, vaginal and stool microbiome. We clearly identified a distinct placenta microbiome. Furthermore, placentas in the same MTD have distinct microbiomes, suggesting that fetal gut and placenta origin is complex and remains unclear. (c) 2021 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

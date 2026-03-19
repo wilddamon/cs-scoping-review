@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: evaluatingtheriskofendometriosisbasedonpatientsselfassessmentquestionnaires2023zielinski
+"Background: Endometriosis is a condition that significantly affects the quality of life of about 10 % of reproductive-aged women. It is characterized by the presence of tissue similar to the uterine lining (endometrium) outside the uterus, which can lead lead scarring, adhesions, pain, and fertility issues. While numerous factors associated with endometriosis are documented, a wide range of symptoms may still be undiscovered. Methods: In this study, we employed machine learning algorithms to predict endometriosis based on the patient symptoms extracted from 13,933 questionnaires. We compared the results of feature selection obtained from various algorithms (i.e., Boruta algorithm, Recursive Feature Selection) with experts' decisions. As a benchmark model architecture, we utilized a LightGBM algorithm, along with Multivariate Imputation by Chained Equations (MICE) and k-nearest neighbors (KNN), for missing data imputation. Our primary objective was to assess the model's performance and feature importance compared to existing studies. Results: We identified the top 20 predictors of endometriosis, uncovering previously overlooked features such as Cesarean section, ovarian cysts, and hernia. Notably, the model's performance metrics were maximized when utilizing a combination of multiple feature selection methods. Specifically, the final model achieved an area under the receiver operator characteristic curve (AUC) of 0.85 on the training dataset and an AUC of 0.82 on the testing dataset. Conclusions: The application of machine learning in diagnosing endometriosis has the potential to significantly impact clinical practice, streamlining the diagnostic process and enhancing efficiency. Our questionnaire-based prediction approach empowers individuals with endometriosis to proactively identify potential symptoms, facilitating informed discussions with healthcare professionals about diagnosis and treatment options. (c) 2023, The Author(s)."""
+
+

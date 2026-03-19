@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: assessingandvalidatingamodelofstudycompletionforaprospectivecohortofhealthynewborns2023fusfeld
+"OBJECTIVES: To identify potentially modifiable or actionable factors related to study completion among healthy mother-infant dyads participating in prospective research. PATIENTS/METHODS: We conducted a secondary analysis of completion data from a prospective study on newborn jaundice in the first week of life at a tertiary-care hospital in Philadelphia, PA, from 2015 to 2019. Participation in the original study involved enrollment before newborn discharge and subsequent follow-up for a jaundice assessment between 2 and 6 days of life. For this study, our primary outcome was completion of all study procedures. Associations between predictor variables and the outcome were assessed using bivariate and multivariable analyses. We fit a predictive model of study completion using logistic regression and validated the model using 5-fold cross-validation. RESULTS: Of 501 mother-infant dyads enrolled in the original study, 304 completed the study. Median maternal age was 28 years and 81.8% of mothers delivered via vaginal birth. Study completion was associated with colocation of the study visit with the initial well-child visit (adjusted odds ratio [aOR], 2.99, 95% confidence interval [CI], 2.01-4.46) and provision of an alternate phone number by the participant (aOR, 1.99; 95% CI, 1.34-2.96). The cross-validated model performed similarly to our final predictive model and had an average area under the receiver operating characteristic curve of 0.67 (range, 0.59-0.72), with a sensitivity of 68% and specificity of 60%. CONCLUSIONS: Findings demonstrate the importance of communication and patient-centric approaches for recruitment and retention in newborn research. Future work should incorporate these approaches while continuing to evaluate study retention strategies. (c) (c) 2023 by the American Academy of Pediatrics."""
+
+

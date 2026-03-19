@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: applicationofmachinelearninginidentifyingriskfactorsforlowapgarscores2025fahadalhasson
+"Background: Identifying the risk factors for low APGAR scores at birth is critical for improving neonatal outcomes and guiding clinical interventions. Methods: This study aimed to develop a machine-learning model that predicts low APGAR scores by incorporating maternal, fetal, and perinatal factors in Wad Medani, Sudan. Using a Random Forest Classifier, we performed hyper-parameter optimization through Grid Search cross-validation (CV) to identify the best-performing model configuration. Results: The optimized model achieved excellent predictive performance, as evidenced by high F1 scores, accuracy, and balanced precision-recall metrics on the test set. In addition to prediction, feature importance analysis was conducted to identify the most influential risk factors contributing to low APGAR scores. Key predictors included gestational age, maternal BMI, mode of delivery, and history of previous complications such as stillbirth or abortion. Using 5-fold cross-validation (CV), the random forest model performance scored accuracy at 96%, precision at 98%, recall at 97%, and F1-score at 97% when classifying infants with APGAR score. Conclusion: This study underscores the importance of incorporating machine learning approaches in obstetric care to understand better and mitigate the risk factors associated with adverse neonatal outcomes, particularly low APGAR scores. The results provide a foundation for developing targeted interventions and improving prenatal care practices. (c) The Author(s) 2025."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acohortstudyevaluatingpreeclampsiariskbasedcutoffsforambulatorybloodpressuremonitoringinhighriskpregnantwomentimeforachange2025espeche
+"This retrospective cohort study aimed to determine optimal daytime and nocturnal ambulatory blood pressure monitoring (ABPM) cut-off points for assessing the risk of preeclampsia (PE) at different stages of gestation. We analyzed data from 1374 high-risk pregnant women, excluding those receiving antihypertensive treatment at the time of ABPM measurement. A total of 588 and 854 ABPM recordings were evaluated at 20-27 and 28-36 weeks of gestation, respectively. Two independent approaches--Youden's index and the top quartile of the ABPM distribution--were used to estimate cut-off points, which were then compared with current hypertension thresholds. Both methods yielded similar values. For nocturnal measurements, around the 30th week of gestation, the estimated cut-off points (118/69 and 118/70 mmHg) were close to the currently recommended threshold of 120/70 mmHg, which proved effective for identifying PE risk after 30 weeks, based on the F1-score and standardized net benefit. However, before 30 weeks, lower thresholds (e.g., 112/64 or 114/66 mmHg) may perform better. In contrast, daytime cut-off points were consistently lower than the current threshold of 135/85 mmHg--ranging from 124/77 to 128/80 mmHg after 30 weeks, and from 121/74 to 126/77 mmHg before 30 weeks. These lower values demonstrated superior sensitivity, higher negative predictive value, and improved overall performance, including F1-score, area under the curve (AUC), and standardized net benefit. These findings suggest that the currently recommended daytime threshold may be too high for pregnant women. In conclusion, our study supports the use of the current nocturnal threshold (120/70 mmHg) for identifying PE risk in the second half of gestation, while also indicating that lower values (around 115/65 mmHg) may be more appropriate for identifying risk between 20 and 27 weeks. Daytime thresholds should be reconsidered, with more suitable values likely around 125-130/80 mmHg at 28-36 weeks and 120-125/75 mmHg at 20-27 weeks. Adjusting these thresholds could improve the accuracy of PE risk assessment in clinical practice." (Figure presented.) (c) The Author(s), under exclusive licence to The Japanese Society of Hypertension 2025."""
+
+

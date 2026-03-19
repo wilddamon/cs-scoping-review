@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: validationofdiagnosiscodesforchorioamnionitisinmedicalencounterdata201320182023hall
+"Purpose: Chorioamnionitis refers to intrauterine infection/inflammation that can be diagnosed clinically or from laboratory testing. This study aimed to validate chorioamnionitis International Classification of Diseases (ICD) codes using reference standards for clinical and histologic cases. Methods: Department of Defense Birth and Infant Health Research program data identified a cohort of live deliveries at two United States military hospitals from 2013 to 2018. Deliveries were screened for chorioamnionitis using ICD codes from maternal delivery records; a sample of screen positive and negative deliveries was selected for chart review. Primary analyses validated deliveries using a reference standard for clinical chorioamnionitis; secondary analyses employed a reference standard that also included histologic cases, but were limited by temporal differences in availability of laboratory data. Sensitivity, specificity, and positive (PPV) and negative (NPV) predictive values were calculated with 95% confidence intervals (CIs). Results: Overall, 1857 deliveries (465 screen positive, 1392 screen negative) were eligible for analysis and 336 met the reference standard for clinical chorioamnionitis, yielding a PPV of 0.68 (95% CI 0.63, 0.72) and sensitivity of 0.76 (95% CI 0.72, 0.81). In secondary analyses, 390 deliveries met the reference standard for clinical or histologic chorioamnionitis, resulting in an overall PPV of 0.75 (95% CI 0.71, 0.79); in 2018, when more laboratory results were available, the PPV was 0.91 (95% CI 0.84, 0.97). NPV and specificity were >=0.97 across reference standards. Conclusions: Chorioamnionitis ICD codes exhibited moderate correlation with clinical disease, suggesting challenges in using medical encounter data to isolate clinical cases from those only identified through laboratory testing. (c) 2023 John Wiley & Sons Ltd. This article has been contributed to by U.S. Government employees and their work is in the public domain in the USA."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: venousendothelialcelltranscriptomicprofilingimplicatesmetap1inpreeclampsia2025pabonporras
+"BACKGROUND: Preeclampsia is a hypertensive disorder of pregnancy characterized by systemic endothelial dysfunction. The pathophysiology of preeclampsia remains incompletely understood. This study used human venous endothelial cell (EC) transcriptional profiling to investigate potential novel mechanisms underlying EC dysfunction in preeclampsia. METHODS: Venous ECs were isolated from postpartum patients with severe preeclampsia and those with normotensive pregnancy using a J wire-based technique in the antecubital vein followed by CD144 (vascular endothelial cadherin) magnetic bead isolation. Venous EC transcriptomes were compared between preeclamptic and normotensive individuals. Differentially expressed genes were carried forward for genetic validation using expression quantitative trait loci from the Genotype-Tissue Expression project as exposures for vascular-specific Mendelian randomization. Functional validation of the top candidate was performed in human umbilical vein ECs using gain- and loss-of-function genetic approaches. RESULTS: Seventeen individuals with preeclampsia and 7 normotensive controls were included. Pairwise analysis yielded 14 protein-coding genes nominally differentially expressed in participants with preeclampsia. Mendelian randomization revealed a significant association between higher genetically predicted METAP1 (methionyl aminopeptidase 1) expression in aortic and tibial arterial tissues and greater risk of preeclampsia. METAP1 overexpression in human umbilical vein ECs decreased angiogenesis, with a 66% decrease in tube formation (P=7.9x10-3) and 72% decrease in cell proliferation (P=2.9x10-2). Furthermore, METAP1 overexpression decreased VEGFA expression and increased expression of multiple preeclampsia-related genes, for example, FLT1, INHBA, and IL1B. Conversely, METAP1 knockdown produced opposite effects on tube formation, cell proliferation, and inflammation-related gene expression. CONCLUSIONS: In a cohort of early postpartum individuals, we observed greater METAP1 expression in venous ECs of women with preeclampsia versus normotensive delivery. Mendelian randomization supported a causal relationship between greater vascular METAP1 expression and higher preeclampsia risk, and functional experiments demonstrated antiangiogenic and proinflammatory effects of METAP1 in human ECs consistent with alterations observed in preeclampsia. Ex vivo EC transcriptomics can identify novel mechanisms underlying preeclampsia pathophysiology, with implications for prevention and treatment. (c) 2024 American Heart Association, Inc."""
+
+

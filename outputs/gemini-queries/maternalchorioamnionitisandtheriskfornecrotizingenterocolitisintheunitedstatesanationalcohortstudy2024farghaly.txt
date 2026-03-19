@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalchorioamnionitisandtheriskfornecrotizingenterocolitisintheunitedstatesanationalcohortstudy2024farghaly
+"Background: Necrotizing enterocolitis (NEC) is a major cause for morbidity and mortality among newborn infants. Chorioamnionitis is a perinatal complication that is associated with preterm delivery. Few reports have studied chorioamnionitis as a possible risk factor for NEC. Further investigation is needed to fully understand this association. Objective: To examine the association of chorioamnionitis with NEC in newborn infants. Methods: We used National Inpatient Sample (NIS) datasets produced by the federal Healthcare Cost and Utilization Project (HCUP). We identified infants born to mothers diagnosed with chorioamnionitis and infants born to mothers who did not have chorioamnionitis. The odds ratios (OR) to develop NEC in infants born to mothers affected by chorioamnionitis were calculated using chi square and Fisher Exact tests in the overall sample and in subgroups of different birthweight (BW) categories. The association was re-evaluated using logistic regression models to control for confounding variables. Results: The study identified 18,973,800 newborn infants admitted during the years 2016-2020. Among infants born to mothers with chorioamnionitis, NEC occurred in 0.9 % compared to 0.1 % in infants born to mothers without chorioamnionitis, (adjusted OR = 1.12, CI:1.02-1.15, p = 0.01). The prevalence of NEC in infants born to mothers with chorioamnionitis varied by the birth weight category, mainly for BW category 2500-4499 g (aOR = 1.61, CI:1.44-1.80, p < 0.001). Conclusion: Maternal chorioamnionitis is associated with increased incidence of NEC, particularly in the BW category 2500-4499 g. Further studies are needed to examine the pathophysiological factors underlying this association. (c) 2024"""
+
+

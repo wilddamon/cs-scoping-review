@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prenatalexposuretoairpollutionandrespiratorydistressintermnewbornsresultsfromthemirecprospectivepregnancycohort2024johnson
+"BACKGROUND: Respiratory distress is the leading cause of neonatal morbidity and mortality worldwide, and prenatal exposure to air pollution is associated with adverse long-term respiratory outcomes; however, the impact of prenatal air pollution exposure on neonatal respiratory distress has not been well studied. OBJECTIVES: We examined associations between prenatal exposures to fine particular matter (PM<inf>2:5</inf>) and nitrogen dioxide (NO<inf>2</inf>) with respiratory distress and related neonatal outcomes. RESULTS: Approximately 7% of newborns experienced respiratory distress. Neonates received clinical interventions including oxygen therapy (6%), assisted ventilation (2%), and systemic antibiotics (3%). Two percent received multiple interventions and 4% were admitted to the neonatal intensive care unit (NICU). Median PM<inf>2:5</inf> and NO<inf>2</inf> concentrations during pregnancy were 8:81 lg=m3 and 18:02 ppb, respectively. Prenatal exposures to air pollution were not associated with physician-diagnosed respiratory distress, oxygen therapy, or NICU admissions. However, PM<inf>2:5</inf> exposures were strongly associated with assisted ventilation (OR per 1-lg=m3 increase in PM<inf>2:5</inf> =1:17; 95% CI: 1.02, 1.35), multiple clinical interventions (OR per 1-lg=m3 increase in PM<inf>2:5</inf> =1:16; 95% CI: 1.07, 1.26), and systemic antibiotics, (OR per 1-lg=m3 increase in PM<inf>2:5</inf> =1:12; 95% CI: 1.04, 1.21). These associations were consistent across exposure periods--that is, during prepregnancy, individual trimesters, and total pregnancy--and robust to model specification. NO<inf>2</inf> exposure was associated with administration of systemic antibiotics (OR per 1-ppb increase in NO<inf>2</inf> =1:03; 95% CI: 1.00, 1.06). DISCUSSION: Prenatal exposures to PM<inf>2:5</inf> increased the risk of severe respiratory distress among term newborns. These findings support the development and prioritization of public health and prenatal care strategies to increase awareness and minimize prenatal exposures to air pollution. https:// doi.org/10.1289/EHP12880. (c) 2024, Public Health Services, US Dept of Health and Human Services. All rights reserved."""
+
+

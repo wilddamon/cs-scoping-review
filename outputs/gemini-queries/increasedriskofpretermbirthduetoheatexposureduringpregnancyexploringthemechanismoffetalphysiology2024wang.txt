@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: increasedriskofpretermbirthduetoheatexposureduringpregnancyexploringthemechanismoffetalphysiology2024wang
+"Background: Heat exposure during pregnancy can increase the risk of preterm birth (PTB) through a range of potential mechanisms including pregnancy complications, hormone secretion and infections. However, current research mainly focuses on the effect of heat exposure on pathophysiological pathways of pregnant women, but ignore that maternal heat exposure can also cause physiological changes to the fetus, which will affect the risk of PTB. Objective: In this study, we aimed to explore the mediating role of fetal heart rate (FHR) in the relationship between maternal heat exposure and PTB incidence. Methods: We assigned heat exposure to a multi-center birth cohort in China during 2015-2018, which included all 162,407 singleton live births with several times FHR measurements during the second and third trimesters. We examined the associations between heat exposure, FHR and PTB in the entire pregnancy, each trimester and the last gestational month. The inverse odds ratio-weighted approach applied to the Cox regression was used to identify the mediation effect of heat exposure on PTB and its clinical subtypes via FHR. Findings: Exposure to heat significantly increased the risk of PTB during the third trimester and the entire pregnancy, hazard ratios and 95 % CIs were 1.266 (1.161, 1.379) and 1.328 (1.218, 1.447). Heat exposure during the third trimester and entire pregnancy increased FHR in the third trimester by 0.24 bpm and 0.14 bpm. The proportion of heat exposure mediated by FHR elevation on PTB and its subtype ranged from 3.68 % to 24.06 %, with the significant mediation effect found for both medically indicated PTB and spontaneous PTB. Conclusions: This study suggests that heat exposure during pregnancy has an important impact on fetal health, and FHR, as a surrogate marker of fetal physiology, may mediate the increased risk of PTB caused by extreme heat. Monitoring and managing physiological changes in the fetus would constitute a promising avenue to reduce adverse birth outcomes associated with maternal heat exposure. (c) 2024"""
+
+

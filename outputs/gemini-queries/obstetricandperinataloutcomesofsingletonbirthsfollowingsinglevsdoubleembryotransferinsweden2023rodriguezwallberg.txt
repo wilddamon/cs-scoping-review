@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: obstetricandperinataloutcomesofsingletonbirthsfollowingsinglevsdoubleembryotransferinsweden2023rodriguezwallberg
+"Importance: Pregnancies resulting from assisted reproductive technology are associated with an increased risk of adverse perinatal outcomes compared with those following natural conception. Previous studies have shown an association of pregnancies resulting from transfer of multiple embryos with these negative findings. Objective: To determine the risk for adverse outcomes in singletons conceived through assisted reproduction using double-embryo transfer (DET) vs single-embryo transfer (SET). Design, Setting, and Participants: This cohort study used data from women who achieved singleton deliveries after SET or DET in Sweden between 2007 and 2017 as recorded in the National Quality Registry for Assisted Reproduction. All embryo transfers, at cleavage or blastocyst stage, replaced in fresh or frozen treatment cycles were included. Data on obstetric and neonatal outcomes were retrieved by linkage to the National Medical Birth Register. Naturally conceived singletons were included as a reference group. Data were analyzed between September 2021 and August 2022. Exposures: Double-embryo transfer leading to singleton birth. Main Outcomes and Measures: Relative risk ratios or odds ratios (ORs) and absolute risk differences (ARDs) in percentage points with 95% CIs were calculated for obstetric and perinatal outcomes in singleton births conceived using DET vs SET. Results: Among 1115863 singleton births, 30713 singletons were born after SET and 5123 after DET. A higher risk of neonatal death was found in singletons after DET vs SET (OR, 2.67 [95% CI, 1.28-5.55]; ARD, 0.2 percentage points [95% CI, 0.0-0.4 percentage points]). In frozen embryo transfers, DET was associated with a higher risk of low birth weight (OR, 1.64 [95% CI, 1.19-2.25]; ARD, 2.0 percentage points [95% CI, 0.5-3.5 percentage points]). Among blastocyst transfers, DET was associated with very preterm birth (relative risk ratio, 2.64 [95% CI, 1.50-4.63]; ARD, 1.8 percentage points [95% CI, 0.3-3.4 percentage points]) and low birth weight (OR, 1.83 [95% CI, 1.29-2.60]; ARD, 3.2 percentage points [95% CI, 0.9-5.5 percentage points]). Conclusions and Relevance: These results indicate a higher risk of adverse outcomes following DET, even when the result is a singleton birth, vs singletons born after SET. Adverse outcomes were mainly observed in singletons following DET using frozen embryos and blastocysts. (c) 2023 American Medical Association. All rights reserved."""
+
+

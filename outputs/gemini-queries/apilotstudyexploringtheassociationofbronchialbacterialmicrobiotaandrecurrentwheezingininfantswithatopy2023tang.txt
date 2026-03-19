@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apilotstudyexploringtheassociationofbronchialbacterialmicrobiotaandrecurrentwheezingininfantswithatopy2023tang
+"Background: Differences in bronchial microbiota composition have been found to be associated with asthma; however, it is still unclear whether these findings can be applied to recurrent wheezing in infants especially with aeroallergen sensitization. Objectives: To determine the pathogenesis of atopic wheezing in infants and to identify diagnostic biomarkers, we analyzed the bronchial bacterial microbiota of infants with recurrent wheezing and with or without atopic diseases using a systems biology approach. Methods: Bacterial communities in bronchoalveolar lavage samples from 15 atopic wheezing infants, 15 non-atopic wheezing infants, and 18 foreign body aspiration control infants were characterized using 16S rRNA gene sequencing. The bacterial composition and community-level functions inferred from between-group differences from sequence profiles were analyzed. Results: Both a- and b-diversity differed significantly between the groups. Compared to non-atopic wheezing infants, atopic wheezing infants showed a significantly higher abundance in two phyla (Deinococcota and unidentified bacteria) and one genus (Haemophilus) and a significantly lower abundance in one phylum (Actinobacteria). The random forest predictive model of 10 genera based on OTU-based features suggested that airway microbiota has diagnostic value for distinguishing atopic wheezing infants from non-atopic wheezing infants. PICRUSt2 based on KEGG hierarchy (level 3) revealed that atopic wheezing-associated differences in predicted bacterial functions included cytoskeleton proteins, glutamatergic synapses, and porphyrin and chlorophyll metabolism pathways. Conclusion: The differential candidate biomarkers identified by microbiome analysis in our work may have reference value for the diagnosis of wheezing in infants with atopy. To confirm that, airway microbiome combined with metabolomics analysis should be further investigated in the future. (c) (c) 2023 Tang, Zhang, Ai, Xia, Xie, Fan, Chen, Chen, Yao and Peng."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalcirculatingmetabolicbiomarkersandtheirpredictionperformanceforgestationaldiabetesmellitusrelatedmacrosomia2023yuan
+"Introduction: Gestational diabetes mellitus (GDM), a metabolism-related pregnancy complication, is significantly associated with an increased risk of macrosomia. We hypothesized that maternal circulating metabolic biomarkers differed between women with GDM and macrosomia (GDM-M) and women with GDM and normal neonatal weight (GDM-N), and had good prediction performance for GDM-M. Methods: Plasma samples from 44 GDM-M and 44 GDM-N were analyzed using Olink Proseek multiplex metabolism assay targeting 92 biomarkers. Combined different clinical characteristics and Olink markers, LASSO regression was used to optimize variable selection, and Logistic regression was applied to build a predictive model. Nomogram was developed based on the selected variables visually. Receiver operating characteristic (ROC) curve, calibration plot, and clinical impact curve were used to validate the model. Results: We found 4 metabolism-related biomarkers differing between groups [CLUL1 (Clusterin-like protein 1), VCAN (Versican core protein), FCRL1 (Fc receptor-like protein 1), RNASE3 (Eosinophil cationic protein), FDR < 0.05]. Based on the different clinical characteristics and Olink markers, a total of nine predictors, namely pre-pregnancy body mass index (BMI), weight gain at 24 gestational weeks (gw), parity, oral glucose tolerance test (OGTT) 2 h glucose at 24 gw, high-density lipoprotein (HDL) and low-density lipoprotein (LDL) at 24 gw, and plasma expression of CLUL1, VCAN and RNASE3 at 24 gw, were identified by LASSO regression. The model constructed using these 9 predictors displayed good prediction performance for GDM-M, with an area under the ROC of 0.970 (sensitivity = 0.955, specificity = 0.886), and was well calibrated (P<inf>Hosmer-Lemeshow test</inf> = 0.897). Conclusion: The Model included pre-pregnancy BMI, weight gain at 24 gw, parity, OGTT 2 h glucose at 24 gw, HDL and LDL at 24 gw, and plasma expression of CLUL1, VCAN and RNASE3 at 24 gw had good prediction performance for predicting macrosomia in women with GDM. (c) 2023, The Author(s)."""
+
+

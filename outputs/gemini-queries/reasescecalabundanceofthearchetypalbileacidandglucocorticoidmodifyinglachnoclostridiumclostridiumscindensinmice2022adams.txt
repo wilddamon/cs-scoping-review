@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: csectionincreasescecalabundanceofthearchetypalbileacidandglucocorticoidmodifyinglachnoclostridiumclostridiumscindensinmice2022adams
+"In humans and animal models, Cesarean section (C-section) has been associated with alterations in the taxonomic structure of the gut microbiome. These changes in microbiota populations are hypothesized to impact immune, metabolic, and behavioral/neurologic systems and others. It is not clear if birth mode inherently changes the microbiome, or if C-section effects are context-specific and involve interactions with environmental and other factors. To address this and control for potential confounders, cecal microbiota from ~3 week old mice born by C-section (n = 16) versus natural birth (n = 23) were compared under matched conditions for housing, cross-fostering, diet, sex, and genetic strain. A total of 601 unique species were detected across all samples. Alpha diversity richness (i.e., how many species within sample; Chao1) and evenness/dominance (i.e., Shannon, Simpson, Inverse Simpson) metrics revealed no significant differences by birth mode. Beta diversity (i.e., differences between samples), as estimated with Bray-Curtis dissimilarities and Aitchison distances (using log[x + 1]-transformed counts), was also not significantly different (Permutational Multivariate ANOVA [PERMANOVA]). Only the abundance of Lachnoclostridium [Clostridium] scindens was found to differ using a combination of statistical methods (ALDEx2, DESeq2), being significantly higher in C-section mice. This microbe has been implicated in secondary bile acid production and regulation of glucocorticoid metabolism to androgens. From our results and the extant literature we conclude that C-section does not inherently lead to large-scale shifts in gut microbiota populations, but birth mode could modulate select bacteria in a context-specific manner: For example, involving factors associated with pre-, peri-, and postpartum environments, diet or host genetics. (c) 2022 The Authors. Physiological Reports published by Wiley Periodicals LLC on behalf of The Physiological Society and the American Physiological Society."""
+
+

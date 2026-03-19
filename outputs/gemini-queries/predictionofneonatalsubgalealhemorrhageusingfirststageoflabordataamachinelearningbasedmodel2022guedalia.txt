@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofneonatalsubgalealhemorrhageusingfirststageoflabordataamachinelearningbasedmodel2022guedalia
+"Background: Subgaleal hemorrhage (SGH) is a rare neonatal condition, mainly associated with instrumental delivery, mainly vacuum extractor (VE). The aim of this study was to develop a machine learning model that would allow a personalized prediction algorithm for Subgaleal hemorrhage (SGH) following vacuum extraction (VE), based on maternal and fetal variables collected during the first stage of labor. Materials and methods: A retrospective cohort study on data from a university affiliated hospital, recorded between January 2013 and February 2017. Balanced random forest algorithm was used to develop a machine learning model to predict personalized risk of the neonate developing SGH, in the eventuality that vacuum extraction was used during delivery. Results: During the study period, 35,552 term, singleton spontaneous or induced trials of labor deliveries were included in this study. Neonatal SGH following vacuum extraction (SGH-VE) occurred in 109 cases (0.3%). Two machine learning models were developed: a proof of concept model (model A), based on a cohort limited to the (n=2955) instances of vacuum extraction, and the clinical support model (model B), based on all spontaneous or induced trials of labor (n=35,552). The models stratified parturients into high- and low-risk groups for development of SGH-VE. Model A showed a 2-fold increase in the high-risk group of parturients compared to the low risk group (OR=2.76, CI 95% 1.85-4.11). In model B, a 4-fold increase in the odds of SGH was observed in the high-risk group of parturients compared to the low risk group (OR=4.2, CI 2.2-8.1), while identifying 90.8% (99/109) of the SGH cases. Conclusions: Our machine learning-based model stratified births to high or low risk for SGH, making it an applicable tool for personalized decision-making during labor regarding the application of VE. This model may contribute to improved neonatal outcomes. (c) 2022 Elsevier Masson SAS"""
+
+

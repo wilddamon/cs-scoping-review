@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationbetweeninterpregnancyintervalandadverseperinataloutcomesamongsubsequenttwinpregnanciesanationwidepopulationbasedstudy2024ye
+"Background: The existing evidence on the association between interpregnancy interval (IPI) and pregnancy outcomes primarily focuses on singleton pregnancies, with limited research on twin pregnancies. Objective: This study aimed to investigate the association between IPI and adverse perinatal outcomes in twin pregnancies. Study Design: This population-based, retrospective cohort study analyzed data from the National Center for Health Statistics in the United States between 2016 and 2020. We included multiparous women aged 18 to 45 years with live-born twins without congenital anomalies, born between 26 and 42 weeks of gestation. Poisson regression models, adjusted for potential confounders, were used to evaluate the associations between IPI and adverse outcomes, including preterm birth (PTB) <36 weeks, small for gestational age (SGA), neonatal intensive care unit (NICU) admission, neonatal composite morbidity, and infant death. Missing data on covariates were managed using multiple imputations. Dose-response analyses were performed using the restricted cubic splines (RCS) approach. Subgroup analyses were stratified by maternal age, parity, and combination of neonatal sex. Sensitivity analyses were conducted using complete data and excluding pregnancies with intervening events during the IPI. Results: A total of 143,014 twin pregnancies were included in the analysis. Compared to the referent group (IPI of 18-23 months), an IPI of less than 6 months was associated with an increased risk of PTB<36 weeks (RR, 1.21; 95% confidence interval [95% CI]: 1.17-1.25), SGA (RR, 1.11; 95% CI: 1.03-1.18), neonatal composite morbidity (RR, 1.19; 95% CI: 1.12-1.27), NICU admission (RR, 1.18; 95% CI: 1.14-1.22), and infant death (RR, 1.29; 95% CI: 1.05-1.60). An IPI of 5 years or more was associated with an increased risk of PTB<36 weeks (RR, 1.18; 95% CI: 1.15-1.21), SGA (RR, 1.24; 95% CI: 1.18-1.30), neonatal composite morbidity (RR, 1.10; 95% CI: 1.05-1.15), and NICU admission (RR, 1.14; 95% CI: 1.11-1.17). The dose-response analyses showed that these outcomes had U-shaped or J-shaped associations with IPI. The associations between IPI and the outcomes slightly differed by advanced maternal age, parity, and combination of neonatal sex. The sensitivity analyses yielded similar results to the main findings. Conclusion: Extreme IPI, less than 6 months or more than 5 years, was associated with adverse outcomes in twin pregnancies. IPI could be used as a predictor for risk stratification in high-risk twin pregnancies. (c) 2024 The Author(s)"""
+
+

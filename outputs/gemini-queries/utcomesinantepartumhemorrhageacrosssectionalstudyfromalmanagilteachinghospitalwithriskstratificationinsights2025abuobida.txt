@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalandfetaloutcomesinantepartumhemorrhageacrosssectionalstudyfromalmanagilteachinghospitalwithriskstratificationinsights2025abuobida
+"This study aimed to evaluate maternal and fetal outcomes in antepartum hemorrhage (APH) cases and develop a risk stratification tool tailored to high-parity populations in resource-limited settings. A hospital-based cross-sectional study was conducted at Al Managil Teaching Hospital, Sudan, over a 12-month period. A total of 125 pregnant women diagnosed with APH were enrolled. Clinical variables including parity, uterine scarring, APH etiology, and hemodynamic status were analyzed using multivariate logistic regression. A machine learning model (XGBoost) and SHAP analysis were applied to identify key predictors, and a scorecard was developed for clinical triage. Placenta previa was the most common APH etiology (61.6%), and uterine scarring was present in 71.2% of cases. Emergency cesarean section was performed in 88.0% of deliveries. Significant predictors of adverse maternal outcomes included grand multiparity (AOR 2.15), >=2 uterine scars (AOR 1.78), placenta previa (AOR 3.20), and hemodynamic instability (AOR 4.87). Neonatal survival was 96.0%, with minimal mortality. Structured triage protocols and explainable AI tools enhance the management of APH in high-burden settings. The developed scorecard offers practical utility for early risk identification and resource allocation. (c) 2025, Perinatal Medicine Foundation. All rights reserved."""
+
+

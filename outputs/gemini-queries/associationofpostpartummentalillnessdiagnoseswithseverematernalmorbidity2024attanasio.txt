@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofpostpartummentalillnessdiagnoseswithseverematernalmorbidity2024attanasio
+"Background: This study aimed to determine whether birthing people who experience severe maternal morbidity (SMM) are more likely to be diagnosed with a postpartum mental illness. Materials and Methods: Using the Massachusetts All Payer Claims Database, this study used modified Poisson regression analysis to assess the association of SMM with mental illness diagnosis during the postpartum year, accounting for prenatal mental illness diagnoses and other patient characteristics. Results: There were 128,161 deliveries identified, with 55.0% covered by Medicaid. Of these, 3.1% experienced SMM during pregnancy and/or delivery hospitalization, and 20.1% had a mental illness diagnosis within 1 year postpartum. In adjusted regression analyses, individuals with SMM had a 10.6% increased risk of having any mental illness diagnosis compared to individuals without SMM, primarily due to an increased risk of a depression or post-traumatic stress disorder diagnosis among people with SMM than those without SMM. Conclusions: Individuals who experienced SMM had a higher risk of a mental illness diagnosis in the postpartum year. Given increases in SMM in the United States in recent decades, policies to mitigate mental health sequelae of SMM are urgently needed. (c) Mary Ann Liebert, Inc."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: exploringtheassociationofreproductivehistorywiththedevelopmentandcourseofneuromyelitisopticaspectrumdisorder2022hadinejad
+"Background: women of childbearing age are at higher risk for developing Neuromyelitis Optica Spectrum Disorder (NMOSD). Post-onset pregnancy is believed to affect and be affected by NMOSD. This study aimed to assess the effect of pregnancy on the development and course of NMOSD. Method: All women from the patient registry of the neurology outpatient clinic in Tehran, Iran, who were diagnosed with NMOSD without any comorbidity were enrolled in this survey. Retrospectively, the participants' reproductive history was collected, and the association of pregnancy-related factors with the age of onset, attack rate, and disability status was sought. Results: The age at first attack was significantly higher in patients with prior pregnancy (P < 0.001). To eliminate the immortal time bias, the researchers assessed the effect of pregnancy as a time-varying exposure in the time-dependent Cox model, which indicated that pregnancy did not alter the time of developing NMOSD (Hazard Ratio=0.91, P = 0.741). However, more than one-fourth of patients with pregnancy before NMOSD onset had their first attack within the year of delivery. In addition, younger age at disease onset was accompanied by a shorter interval between the first pregnancy and first attack (Spearman's rho=0.826, P < 0.001). Conclusion: NMOSD onset or prognosis seemed not to be affected by pregnancy before the disease onset. However, in women with early disease onset, pregnancy might be a trigger for the development of NMOSD. (c) 2022 Elsevier B.V."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: placentaeofsmallappropriatelygrownforgestationalageneonatesexhibitsexuallydimorphictranscriptomicchangesrepresentativeofplacentalinsufficiency2024ewing
+"Introduction: Previous studies have reported that neonates less than the 25th BWC especially if they were male, were more likely to be associated with birth complications suggesting small neonates often identified as appropriately grown are at risk of adverse outcomes. We have questioned whether smaller neonates not typically categorized as "small for gestational age" may not reach their genetically determined growth due to placental insufficiency. Methods: RNA-Seq was performed on the Illumina NovaSeq 600 using term placentae from neonates that were less than the 10th birthweight centile (BWC) (n = 39), between the 10th and the 30th BWC (n = 15) or greater than the 30th BWC (n = 23). Bioinformatic analyses were conducted and statistical significance was assessed at a level of P < 0.05 for single comparisons or FDR <0.05 unless otherwise noted. Results: Gene set enrichment analysis revealed differences between BWC groups and in relation to the sex of the placenta. Genes associated with hypoxia, inflammatory responses, estrogen responsive genes, and androgen responsive genes were enriched (FDR <0.1) for in placentae of neonates <10th BWC regardless of sex and also in male placentae of neonates between the 10th-30th BWC. Female placenta of neonates between the 10th-30th BWC were comparable to placentae of neonates >30th BWC. Discussion: These findings provide evidence that small male neonates may be at a greater risk of an adverse outcome than females due to changes in gene expression that are associated with placental dysfunction. The current data raises questions of whether placental pathology for smaller appropriately grown neonates should be scientifically and clinically examined in more depth. (c) 2024"""
+
+

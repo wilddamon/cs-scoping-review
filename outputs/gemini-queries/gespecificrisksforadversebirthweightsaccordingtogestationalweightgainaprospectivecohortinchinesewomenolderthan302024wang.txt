@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalagespecificrisksforadversebirthweightsaccordingtogestationalweightgainaprospectivecohortinchinesewomenolderthan302024wang
+"Background: It is unclear whether the effects of abnormal gestational weight gain (GWG) on birth outcomes are differently in women with different maternal ages. This study aimed to investigate maternal age-specific association between GWG and adverse birth weights in Chinese women older than 30. Methods: 19,854 mother-child dyads were selected from a prospective cohort study in Southwest China between 2019 and 2022. Logistic regression model was used to assess the association between GWG, which defined by the 2009 Institute of Medicine guidelines, and adverse birth weights including large- and small-for-gestational-age (LGA and SGA), stratified by maternal age (31-34 years and >= 35 years). Results: In both maternal age groups, excessive and insufficient GWG were associated with increased odds of LGA and SGA, respectively. After women were categorized by pre-pregnancy body mass index, the associations remained significant in women aged 31-34 years, whereas for women aged >= 35 years, the association between excessive GWG and the risk of LGA was only significant in normal weight and overweight/obese women, and the significant effect of insufficient GWG on the risk of SGA was only observed in underweight and overweight/obese women. Moreover, among overweight/obese women, the magnitude of the association between insufficient GWG and the risk of SGA was greater in those aged >= 35 years (31-34 years: OR 2.08, 95% CI 1.19-3.55; >=35 years: OR 2.65, 95% CI 1.47-4.74), while the impact of excessive GWG on the risk of LGA was more pronounced in those aged 31-34 years (31-34 years: OR 2.18, 95% CI 1.68-2.88; >=35 years: OR 1.71, 95% CI 1.30-2.25). Conclusions: The stronger associations between abnormal GWG and adverse birth weights were mainly observed in women aged 31-34 years, and more attention should be paid to this age group. (c) 2024, The Author(s)."""
+
+

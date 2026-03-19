@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: prevalenceandsociodemographicfactorsassociatedwithdoubleandtripleburdenofmalnutritionamongmotherchildpairsinindiafindingsfromanationallyrepresentativesurveynfhs52024ramasubramani
+"Introduction: Improper consumption of food leads to various forms of malnutrition such as undernutrition, overnutrition and micronutrient deficiency. The coexistence of various malnutrition forms in the same household is a public health concern in developing countries. Very little research has been done on exploring the burden and risk factors associated with double (DBM) and triple burden of malnutrition (TBM). Methods: Secondary analysis was done using data from India's National Family Health Survey-5 (NFHS-5), 2019-21. Mothers and under-five children were paired at the household level as a unit of analysis. DBM and TBM were interpreted from children's height-for-age, weight-for-height, weight-for-age and anaemia status and mothers' body-mass-index. Stratification and clustering in the sample design were accounted for during the analysis in STATA v14.2. DBM and TBM were summarized as weighted proportions with 95 % confidence interval (CI) and the risk factors associated were reported as adjusted odds ratio (aOR) with 95%CI using mixed effects logistic regression. Results: We included 167,380 mother-child pairs for analysis. In India, the prevalence of DBM was 7.7 % (95 % CI: 7.5-7.9 %) and TBM was 5.1 % (5.0-5.3 %) at the household level among mother-child dyads. Mothers' age, age at first birth, educational levels, current breastfeeding habits, mode of delivery, child's age, gender, twin birth, birth weight, geographical region, residence, caste and religion, and wealth index were associated with both DBM and TBM. Conclusion: Both DBM and TBM are public health concerns in India. Thus, scaling-up of health intervention, effective implementation of nutritional programmes and life-course approach are needed to control malnutrition. (c) 2024"""
+
+

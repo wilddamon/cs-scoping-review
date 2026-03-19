@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: theeffectofgutmicrobiotadysbiosisonpatientswithpreeclampsia2023zhao
+"Purpose: To compare the difference of gut microbiota between preeclampsia (PE) and healthy normal pregnant women, providing new therapeutic strategy for preeclampsia. Methods: Forty-one PE patients and 45 age- and pre-pregnancy body mass index- matched healthy controls were enrolled from Nov 2021 to May 2022 in this retrospective case-control study. Fecal microbiota was detected by 16S rRNA gene sequencing, followed by bioinformatics analysis including microbial a diversity, microbial b diversity, and linear discriminant analysis effect size (LEfSe) analysis. Serum inflammatory factors were also detected and compared between the two groups. Results: There were significant differences in Bacteroidetes (2.68% in PE patients vs 11.04% in healthy controls, P < 0.001), Proteobacteria (4.04% in PE patients vs 1.22% in healthy controls, P = 0.041), and Fusobacteria (1.07% in PE patients vs 0.01% in healthy controls, P = 0.042) between the two groups at the phylum level. Microbial a diversity was lower in PE patients than that in healthy controls. In addition, there was significant difference in microbial b diversity between the two groups. LEfSe analysis showed that there are 24 different taxa between the two groups. The levels of proinflammatory factors including serum tumor necrosis factor-a and Interleukin-6 were statistically significant higher in PE patients than those in healthy controls (both P < 0.001), while there were no significant differences in the levels of serum anti-inflammatory factors including Interleukin-4 and Interleukin-10 between the two groups (P = 0.234 and P = 0.096, respectively). Conclusion: PE patients demonstrated gut microbiota disturbances and increasing serum proinflammatory factors, leading to a better understanding of the relationship between the gut microbiota dysbiosis and PE. (c) (c) 2023 Zhao, Wang, Zhao, Cui, Hou and Zhang."""
+
+

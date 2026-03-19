@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: detectingabnormalplacentalmicrovascularflowinmaternalandfetaldiseasesbasedonflowcompensatedandnoncompensatedintravoxelincoherentmotionimaging2022liao
+"Introduction: Intravoxel Incoherent Motion (IVIM) imaging has been used to assess placental microcirculatory flows. We proposed a joint analysis of flow-compensated (FC) and non-compensated (NC) diffusion MRI to estimate the fraction and velocity of ballistic microcirculatory flow (f<inf>b</inf> and v<inf>b</inf>), and evaluated the diagnostic performance of the new markers in maternal and fetal disorders. Methods: Gestational diabetes mellitus (GDM, n = 15) pregnancies and fetal growth restriction (FGR, n = 12), along with gestational age matched normal controls (n = 19 for GDM and 15 for FGR) underwent FC and NC-encoded IVIM scans at 1.5 T. f<inf>b</inf> and v<inf>b</inf> obtained from a FC-NC joint model, along with the conventional IVIM indices, were compared between patient groups for whole-placenta and maternal/fetal sides of the placenta. A linear support vector machine (SVM) was used to classify the GDM, FGR and controls. Results: v<inf>b</inf> of whole-placenta were significantly lower in both GDM (p = 0.017) and FGR (p = 0.043), compared with their controls, and the differences were more evident in the fetal side (p = 0.010 for GDM and p = 0.042 for FGR). f<inf>b</inf> and f<inf>FC</inf> showed group differences in the fetal side and D<inf>FC</inf> showed differences in whole-placenta for GDM patients. In the classification task, v<inf>b</inf> showed the highest diagnostic accuracy of 70.6% for GDM and 63.0% for FGR, and the combination of f<inf>b</inf> and v<inf>b</inf> further improved the detection accuracy to 73.5% and 66.7% for GDM and FGR, respectively. Discussion: v<inf>b</inf> showed superior performance in the diagnosis of GDM and FGR, indicating the potential of the joint FC-NC IVIM method for placenta examinations. (c) 2022 Elsevier Ltd"""
+
+

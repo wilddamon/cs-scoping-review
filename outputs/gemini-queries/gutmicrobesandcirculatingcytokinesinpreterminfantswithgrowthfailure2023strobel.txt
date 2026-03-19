@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: gutmicrobesandcirculatingcytokinesinpreterminfantswithgrowthfailure2023strobel
+"Background: Growth failure (GF) is a multifactorial problem in preterm infants. The intestinal microbiome and inflammation may contribute to GF. Objectives: This study's objective was to compare the gut microbiome and plasma cytokines in preterm infants with and without GF. Methods: This was a prospective cohort study of infants with birth weights of <1750 g. Infants with a weight or length z-score change from birth to discharge or death that was less than or equal to -0.8 (GF group) were compared with infants without GF [control (CON) group]. The primary outcome was the gut microbiome (at weeks 1-4 of age), assessed by 16S rRNA gene sequencing using Deseq2. Secondary outcomes included inferred metagenomic function and plasma cytokines. Phylogenetic Investigation of Communities by Reconstruction of Unobserved States determined metagenomic function, which was compared using ANOVA. Cytokines were measured by 2-multiplexed immunometric assays and compared using Wilcoxon tests and linear mixed models. Results: GF (n = 14) and CON group (n = 13) had similar median (IQR) birth weight (1380 [780-1578] g vs. 1275 [1013-1580] g) and gestational age (29 [25-31] weeks vs. 30 [29-32] weeks). Compared with the CON group, the GF group had a greater abundance of Escherichia/Shigella in weeks 2 and 3, Staphylococcus in week 4, and Veillonella in weeks 3 and 4 (P-adjusted < 0.001 for all). Plasma cytokine concentrations did not differ significantly between the cohorts. When all time points are combined, fewer microbes were involved in TCA cycle activity in the GF group compared with the CON group (P = 0.023). Conclusions: In this study, when compared with CON infants, GF infants had a distinct microbial signature with increased Escherichia/Shigella and Firmicutes and fewer microbes associated with energy production at later weeks of hospitalization. These findings may suggest a mechanism for aberrant growth. (c) 2022 American Society for Nutrition"""
+
+

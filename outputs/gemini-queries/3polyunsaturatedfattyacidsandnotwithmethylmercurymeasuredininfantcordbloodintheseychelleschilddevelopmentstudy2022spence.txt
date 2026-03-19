@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: serumcytokinesareassociatedwithn3polyunsaturatedfattyacidsandnotwithmethylmercurymeasuredininfantcordbloodintheseychelleschilddevelopmentstudy2022spence
+"Background: Maternal fish consumption increases infant methylmercury (MeHg) exposure and polyunsaturated fatty acid (PUFA) concentrations. The n-3 PUFA are regulators of inflammation while MeHg may impact the cord cytokine profile and, subsequently, contribute to immune mediated outcomes. This study aimed to investigate associations between infant MeHg exposure and cord cytokine concentrations while adjusting for cord PUFA. Methods: We studied participants in the Seychelles Child Development Study (SCDS) Nutrition Cohort 2 (NC2), a large birth cohort in a high fish-eating population. Whole blood MeHg, serum PUFA and serum cytokine concentrations (IFN-g, IL-1b, IL-2, IL-12p70, TNF-a, IL-4, IL-10, IL-13, IL-6 and IL-8) were measured in cord blood collected at delivery (n = 878). Linear regression examined associations between infant MeHg exposure and cord cytokines concentrations, with and without adjustment for cord PUFA. An interaction model examined cord MeHg, cytokines and tertiles of the n-6:n-3 ratio (low/medium/high). Results: There was no overall association between cord MeHg (34.08 +- 19.98 mg/L) and cytokine concentrations, with or without adjustment for PUFA. Increased total n-3 PUFA (DHA, EPA and ALA) was significantly associated with lower IL-10 (b = -0.667; p = 0.007) and lower total Th2 (IL-4, IL-10 and IL-13) (b = -0.715; p = 0.036). In the interaction model, MeHg and IL-1b was positive and significantly different from zero in the lowest n-6:n-3 ratio tertile (b = 0.002, p = 0.03). Conclusion: Methylmercury exposure from fish consumption does not appear to impact markers of inflammation in cord blood. The association of cord n-3 PUFA with lower IL-10 and total Th2 cytokines suggests that they may have a beneficial influence on the regulation of the inflammatory milieu. These findings are important for public health advice and deserve to be investigated in follow up studies. (c) 2021"""
+
+

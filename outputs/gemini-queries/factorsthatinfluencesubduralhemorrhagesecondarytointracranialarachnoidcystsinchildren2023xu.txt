@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: factorsthatinfluencesubduralhemorrhagesecondarytointracranialarachnoidcystsinchildren2023xu
+"Objective: This study aimed to investigate factors that influence subdural haemorrhage (SDH) secondary to intracranial arachnoid cysts (IACs) in children. Methods: Data of children with unruptured IACs (IAC group) and those with SDH secondary to IACs (IAC-SDH group) were analyzed. Nine factors, sex, age, birth type (vaginal or caesarean), symptoms, side (left, right, or midline), location (temporal or nontemporal), image type (I, II, or III), volume, and maximal diameter, were selected. IACs were classified as types I, II, and III according to their morphological changes observed on computed tomography images. Results: There were 117 boys (74.5%) and 40 girls (25.5%); 144 (91.7%) patients comprised the IAC group and 13 (8.3%) comprised the IAC-SDH group. There were 85 (53.8%) IACs on the left side, 53 (33.5%) on the right side, 20 (12.7%) in the midline region, and 91 (58.0%) in the temporal region. The univariate analysis showed significant differences in age, birth type, symptoms, cyst location, cyst volume, and cyst maximal diameter (P < 0.05) between the 2 groups. Logistic regression using the synthetic minority oversampling technique model showed that image type III and birth type were independent factors that influenced SDH secondary to IACs (b0 = 4.143; b for image type = -3.979; b for birth type = -2.542) and that the representative area under the receiver-operating characteristic curve value was 0.948 (95% confidence interval, 0.898-0.997). Conclusions: IACs are more common in boys than in girls. They can be divided into 3 groups according to their morphological changes on computed tomography images. Image type III and caesarean delivery were independent factors that influenced SDH secondary to IACs. (c) 2023"""
+
+

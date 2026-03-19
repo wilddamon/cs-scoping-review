@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: metforminadministrationduringpregnancytendstoreducetheriskofgestationaldiabetesmellitusandimprovepregnancyoutcomesinpreviouslyinfertilewomenwithpolycysticovarysyndromewhobecomepregnant2024liu
+"Objective: Metformin reduces incidences of miscarriage and preterm delivery in polycystic ovary syndrome (PCOS) women, but its impact on gestational diabetes mellitus (GDM) is conflicting. Hence, this study set up selection criteria to include previously infertile women with PCOS but without pre-existing DM who became pregnant, aiming to minimize confounders and investigate the influence of metformin on GDM, miscarriage, and preterm delivery. Methods: This study included 195 previously infertile women with PCOS who became pregnant. They were divided into metformin (receiving metformin during pregnancy) and control (not receiving metformin) groups without intervention. Results: Metformin group tended to have a lower incidence of GDM versus control group (13.3% versus 23.3%, P = 0.070). A logistic regression model adjusted for all baseline characteristics (demographics, infertile duration, and diabetes mellitus-related features) showed that metformin was associated with a decreased probability of GDM (odds ratio (OR): 0.426, P = 0.037). Metformin group showed a similar incidence of miscarriage (6.7% versus 11.1%, P = 0.273), but decreased incidences of preterm delivery (not statistically significant) (6.7% versus 13.3%, P = 0.091) and miscarriage or preterm delivery (13.3% versus 24.4%, P = 0.046) versus control group. A logistic regression model adjusted for all the aforementioned features revealed that metformin was related to a lower risk of miscarriage or preterm delivery (OR: 0.417, P = 0.040). Fetal outcomes, including birth weight (P = 0.245) and the incidence of 5 min-Apgar score <= 7 (P = 0.702), were similar between groups. Conclusion: Metformin administration during pregnancy may reduce GDM, miscarriage, and preterm delivery risks without adverse effects on fetal outcomes in previously infertile women with PCOS. (c) The Author(s), under exclusive licence to Royal Academy of Medicine in Ireland 2024."""
+
+

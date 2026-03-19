@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: pregnancyoutcomesinchinesewomenwithmechanicalheartvalvesreceivingwarfarintreatmentthroughoutpregnancy14yearexperience2024li
+"Objective: The purpose was to evaluate pregnancy outcomes and risk factors associated with fetal complications in Chinese pregnant women with mechanical heart valves (MHVs) taking low-dose warfarin, aiming to fill in the research gap of this area. Methods: Between June 2010 and Aug 2023, 122 patients with MHVs who had 151 pregnancies and received warfarin throughout pregnancy were included. We compared them with 302 paired pregnancies without warfarin treatment. Binary logistic regression analyses were performed to explore risk predictors of fetal complications. Results: Pregnancy loss rate was 37.1 % in women taking warfarin, compared to only 4.6 % for those without warfarin exposure in pregnancy (RR = 8.00, 95 % CI: 4.61-13.90). In pregnant women with MHVs, there were 34 spontaneous abortions, 22 stillbirths and 1 neonatal malformation. In the first, second and third pregnant trimesters of women with MHVs, fetal complication incidences were 19.2 %, 9.9 % and 8.0 %, respectively. 86.0 % of fetal complications occurred in women taking a warfarin dose <=5 mg/d, accounting for 94.0 % of the total population. The newborns' birth weight, gestational age and 1-minute Apgar score were significantly lower in pregnancies treated with warfarin compared to those without warfarin exposure. Only 2.0 % of postpartum hemorrhage and no thrombosis or maternal mortality data were collected in pregnant women on warfarin in this study. Conclusion: Most Chinese pregnant women take a warfarin daily dose <=5 mg and they might have only around 60 % chance of giving birth to a live baby without maternal complications. (c) 2024"""
+
+

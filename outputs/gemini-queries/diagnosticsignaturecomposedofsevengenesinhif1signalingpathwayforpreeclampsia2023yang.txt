@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: diagnosticsignaturecomposedofsevengenesinhif1signalingpathwayforpreeclampsia2023yang
+"Purpose: In this study, we explored the relationship of genes in HIF-1 signaling pathway with preeclampsia and establish a logistic regression model for diagnose preeclampsia using bioinformatics analysis. Method: Two microarray datasets GSE75010 and GSE35574 were downloaded from the Gene Expression Omnibus database, which was using for differential expression analysis. DEGs were performed the Gene Ontology (GO) analysis, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis and Gene set enrichment analysis (GSEA). Then we performed unsupervised consensus clustering analysis using genes in HIF-1 signaling pathway, and clinical features and immune cell infiltration were compared between these clusters, as well as the least absolute shrinkage and selection operator (LASSO) method to screened out key genes to constructed logistic regression model, and receiver operating characteristic (ROC) curve was plotted to evaluate the accuracy of the model. Results: 57 DEGs were identified, of which GO, KEGG and analysis GSEA showed DEGs were mostly involved in HIF-1 signaling pathway. Two subtypes were identified of preeclampsia and 7 genes in HIF1-signaling pathway were screened out to establish the logistic regression model for discrimination preeclampsia from controls, of which the AUC are 0.923 and 0.845 in training and validation datasets respectively. Conclusion: Seven genes (including MKNK1, ARNT, FLT1, SERPINE1, ENO3, LDHA, BCL2) were screen out to build potential diagnostic model of preeclampsia. (c) 2023, The Author(s)."""
+
+

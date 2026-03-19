@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: machinelearningforthepredictionofsurgicalmorbidityinplacentaaccretaspectrum2024futterman
+"Objective We sought to create a machine learning (ML) model to identify variables that would aid in the prediction of surgical morbidity in cases of placenta accreta spectrum (PAS). Study Design A multicenter analysis including all cases of PAS identified by pathology specimen confirmation, across five tertiary care perinatal centers in New York City from 2013 to 2022. We developed models to predict operative morbidity using 213 variables including demographics, obstetrical information, and limited prenatal imaging findings detailing placental location. Our primary outcome was prediction of a surgical morbidity composite defined as including any of the following: blood loss (>1,500 mL), transfusion, intensive care unit admission, vasopressor use, mechanical ventilation/intubation, and organ injury. A nested, stratified, cross-validation approach was used to tune model hyperparameters and estimate generalizability. Gradient boosted tree classifier models incorporated preprocessing steps of standard scaling for numerical variables and one-hot encoding for categorical variables. Model performance was evaluated using area under the receiver operating characteristic curve (AUC), positive and negative predictive values (PPV, NPV), and F1 score. Variable importance ranking was also determined. Results Among 401 PAS cases, 326 (81%) underwent hysterectomy. Of the 401 cases of PAS, 309 (77%) had at least one event defined as surgical morbidity. Our predictive model had an AUC of 0.79 (95% confidence interval: 0.69, 0.89), PPV 0.79, NPV 0.76, and F1 score of 0.88. The variables most predictive of surgical morbidity were completion of a hysterectomy, prepregnancy body mass index (BMI), absence of a second trimester ultrasound, socioeconomic status zip code, BMI at delivery, number of prenatal visits, and delivery time of day. Conclusion By identifying social and obstetrical characteristics that increase patients' risk, ML models are useful in predicting PAS-related surgical morbidity. Utilizing ML could serve as a foundation for risk and complexity stratification in cases of PAS to optimize surgical planning. Key Points ML models are useful models are useful in predicting PAS-related surgical morbidity. Optimal management for PAS remains unclear. Utilizing ML can serve as a foundation for risk and complexity stratification in cases of PAS. (c) 2024. Thieme. All rights reserved."""
+
+

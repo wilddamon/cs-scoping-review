@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: anestimationoftheeffectoffindingnurseshelpfulonearlybreastfeedingexclusivitymediatedviabreastfeedingselfefficacyusingacounterfactualapproachandgcomputation2025prioreschi
+"Background: Exclusive breastfeeding is recommended for at least the first six months of life, however in South Africa only 32% of mothers are exclusively breastfeeding to six months and discontinuation happens early. Nurses are a key resource for promoting breastfeeding self-efficacy and thus exclusivity, yet mothers often report nurses to have poor attitudes, which deter health seeking behaviour. This study aimed to infer whether perceived support from nurses immediately postpartum was causally related to breastfeeding exclusivity, and specifically whether this effect was mediated via breastfeeding self-efficacy. Methods: This cross-sectional study recruited mothers from two community clinics in Soweto and collected data on breastfeeding practices, breastfeeding self-efficacy, and mothers' perceived support received from nurses within the first few days following delivery. To estimate the causal effect, G-computation for mediation analysis with Monte Carlo simulation was used. In all cases, 1000 bootstrapped samples were created to tighten the estimates, and bias corrected 95% confidence intervals were presented. Results: Data from 169 participants were included in the analysis. Most participants (55%) scored 70/70 on the breastfeeding self-efficacy scale, and only 14% scored below 56/70 (lowest quartile). Less than half of the women found the nurses helpful 'always'. Most data were collected within 4 days of birth (IQR: 3-7 days), with only 10% being collected after 12 days. While nearly 90% of women were breastfeeding at this time, only 78% were exclusively breastfeeding. The results from the mediation analysis show that there was a total causal effect of finding nurses helpful on breastfeeding exclusivity, whereby finding nurses 'always' helpful resulted in a 14% greater likelihood of exclusively breastfeeding (SE = 0.06, p = 0.03, BC 95% = 0.00 to 0.24). However, this effect was not mediated via breastfeeding self-efficacy (proportion mediated = 7%; NIE = 0.01, BC 95%: -0.00 to 0.05). Conclusions: There is evidently a need for proper training for healthcare workers in supporting mothers and providing antenatal education and anticipatory guidance around breastfeeding given the impactful role they have on breastfeeding decision making. We recommend that interventions to promote breastfeeding exclusivity need to happen prior to delivery, or immediately upon delivery. Furthermore, all clinics need to enforce the BFHI immediately to provide mothers with a chance at exclusivity. (c) The Author(s) 2025."""
+
+

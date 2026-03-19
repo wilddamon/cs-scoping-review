@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: decodingplacentaldysfunctionwithanewangiogenicclassificationofplgfandsflt12025giardini
+"Objective: The ratio between sFlt-1 (soluble fms-like tyrosine kinase-1) and PlGF (Placental Growth Factor) was recently introduced to aid in the management of hypertensive disorders of pregnancy and fetal growth restriction, but it has limitations. This study proposes a new angiogenic classification of PlGF and sFlt-1 to enhance maternal and fetal risk assessment in pregnancies with suspected placental dysfunction. Study design: A retrospective analysis was conducted on hospitalized singleton pregnancies beyond the 20th week complicated by hypertensive disorders of pregnancy and/or fetal growth restriction. Patients were classified based on sFlt-1/PlGF (low, medium, high, very high) and into the nine possible combinations using PlGF and sFlt-1 gestational age-specific levels: (1) PlGF and sFlt-1 within range; (2) PlGF in range, sFlt-1 < range; (3) PlGF in range, sFlt-1 > range; (4) PlGF < range, sFlt-1 in range; (5) PlGF and sFlt-1 < range; (6) PlGF < range, sFlt-1 > range; (7) PlGF > range, sFlt-1 in range; (8) PlGF > range, sFlt-1 < range; (9) PlGF and sFlt-1 > range. Results: The cohort included 227 patients. The most common categories were 1, 3, 4, and 6. Categories 4 and 6 had a higher proportion of fetal growth restriction, whereas categories 3 and 6, presented a greater risk of severe maternal complications. Category 6 exhibited the highest risk of adverse maternal-fetal outcomes; conversely, category 1 was the category at the lowest risk for complications. Notably, 40 % of patients classified as low or medium risk by the sFlt-1/PlGF were high-risk by our classification. Conclusion: Evaluation of actual PlGF and sFlt-1 levels rather than set cut-off ratios can improve the risk stratification of clinical manifestations of placental pathology. (c) 2025 The Authors"""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: detectionofureaplasmaparvuminamnioticfluidsviareanalysisofprenatalcopynumbervariationsequencingdataanexploratorystudy2025wang
+"Background: Detecting microbes in amniotic fluids via amniocentesis represents the standard method for diagnosing intrauterine infections. Given its similarity to metagenomic next-generation sequencing, copy number variation sequencing (CNV-seq) data may also contain microbial sequences. This exploratory study aimed to investigate the feasibility of prenatal CNV-seq for detecting Ureaplasma parvum (U. parvum) in amniotic fluids and to evaluate the pregnancy outcomes in U. parvum-positive cases. Methods: This retrospective study enrolled 2419 singleton pregnant women who underwent genetic amniocentesis for fetal CNV-seq testing and completed the follow-up with documented pregnancy outcomes. The CNV-seq data were reanalyzed to extract the read counts of U. parvum from each sample's raw data, and reads per million (RPM) was used to quantify its relative abundance. Results: The prevalence of asymptomatic intrauterine U. parvum positivity in this cohort was 1.4% (33/2419), with read counts ranging 1 to 30423 and RPM from 0.09 to 3580.65 by reanalysis of CNV-seq data. There was a statistically significantly higher risk for early spontaneous preterm labor (<32 gestational weeks; P<0.001) and preterm premature rupture of the membranes (P<0.001) in women with positive U. parvum compared to negative cases. Among U. parvum positive cases, six cases (6/33, 18.2%) had relatively higher read counts ranging from 2483 to 30423, with corresponding RPM of 406.45 to 3580.65. Adverse pregnancy outcomes were exclusively observed among women with high reads of U. parvum as opposed to those with low reads. Four cases with high U. parvum reads in amniotic fluids, not treated with antibiotics, showed a latency period of 6 to 10 weeks from positive detection to the onset of clinical manifestations. Conclusions: CNV-seq may be a feasible method for detecting intraamniotic U. parvum infection. High abundance of asymptomatic U. parvum in amniotic fluids are statistically associated with adverse pregnancy outcomes, highlighting its importance in preliminary screening. (c) (c) 2025 Wang, Chen, Chen, Hou, Zhang and Han."""
+
+

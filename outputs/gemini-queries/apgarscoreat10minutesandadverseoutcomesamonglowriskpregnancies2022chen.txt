@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: apgarscoreat10minutesandadverseoutcomesamonglowriskpregnancies2022chen
+"Objective: Among low-risk pregnancies, we ascertained the association between 10-minute Apgar score and adverse outcomes of newborn infants. Method: We conducted a retrospective cohort study using the U.S. vital statistics datasets (2011-2018), which included live births from low-risk women with non-anomalous singleton gestations who delivered at 37-41 weeks. When a newborn infant had an abnormal 5-minute Apgar score (0-5), a 10-minute Apgar score was documented in the birth certificate. Apgar score at 10 min was categorized as low (0-3), moderate (4-6), and normal (7-10). The primary outcome was composite neonatal adverse outcome. The secondary outcomes were individual neonatal adverse outcomes and infant mortality. Multivariable Poisson regression analyses were used to estimate the association between 10-minute Apgar score and adverse outcomes (using adjusted relative risk [aRR] and 95% confidence intervals [CI]). Results: Of 31.5 million live births delivered (2011-2018), 111,163 (0.4%) met inclusion criteria; of them, 74.2%, 20.7%, and 5.1% had normal, moderate, and low 10-minute Apgar scores, respectively. The overall composite neonatal adverse outcome was 100.6 per 1,000 live births and the risk was significantly higher among those with a moderate (aRR 3.19; 95% CI 3.06-3.31) or low 10-minute Apgar score (aRR 6.62; 95% CI 6.34-6.91) than with a normal 10-minute Apgar score. Infant mortality also showed a similar pattern. Newborn infants with improved Apgar scores from 5 to 10 min were associated with lower risks of the composite neonatal adverse outcome, as well as infant mortality, than those with scores that remained stable. Conclusion: Among low-risk pregnancies, newborn infants with a lower 10-minute Apgar score were associated with a higher risk of adverse outcomes. (c) 2021 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

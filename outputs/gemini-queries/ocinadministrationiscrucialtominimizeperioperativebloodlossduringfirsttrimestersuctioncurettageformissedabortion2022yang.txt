@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: thetimingofintravenousoxytocinadministrationiscrucialtominimizeperioperativebloodlossduringfirsttrimestersuctioncurettageformissedabortion2022yang
+"Background: Oxytocin is commonly used to reduce blood loss during suction curettage for missed abortion. However, the potential of oxytocin to mitigate blood loss in early pregnancy remains controversial. Based on the hypothesis that the "timing" of oxytocin administration may be a critical factor, we investigated whether the timing of intravenous (IV) administration is associated with reduced perioperative blood loss during first-trimester suction curettage for missed abortion. Methods: The medical charts of 146 patients with ultrasound-confirmed first-trimester missed abortion who underwent suction curettage with IV oxytocin administration were retrospectively reviewed. Results: Among the patients, 67 received 10 IU of IV oxytocin before suction curettage (early-oxytocin administration group), while 79 patients received 10 IU of IV oxytocin after suction curettage (late-oxytocin administration group). The demographic features between the two groups did not significantly differ. However, there was a lower proportion of nulliparous patients in the early-oxytocin administration group than in the late-oxytocin administration group (38.8% vs 60.8%, p = 0.006). The perioperative blood loss amount was significantly lower in the early-oxytocin administration group than in the late-oxytocin administration group (60 [range: 50-100] vs 100 [range: 30-250] mL, p = 0.001). Moreover, the multivariate logistic regression analysis showed that the early-oxytocin administration group had a lower risk for a perioperative blood loss amount of >=100 mL than the late-oxytocin administration group (0.23 [range: 0.10-0.55], p = 0.001); a gestational age of 9-12 weeks (p = 0.009) was found to be associated with an increased risk for a perioperative blood loss amount of >=100 mL. Conclusion: Compared with late-oxytocin administration, early-oxytocin administration could reduce perioperative blood loss during first-trimester suction curettage for missed abortion. However, the results require further investigation. (c) 2022 Wolters Kluwer Health. All rights reserved."""
+
+

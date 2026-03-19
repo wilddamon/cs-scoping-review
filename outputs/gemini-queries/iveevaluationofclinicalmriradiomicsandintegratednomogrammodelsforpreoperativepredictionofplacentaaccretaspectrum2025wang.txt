@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparativeevaluationofclinicalmriradiomicsandintegratednomogrammodelsforpreoperativepredictionofplacentaaccretaspectrum2025wang
+"Rationale and Objectives: The escalating incidence of placental accreta spectrum (PAS), a pregnancy complication, underscores the need for accurate prenatal diagnosis to guide optimal management strategies. This study aims to develop, validate, and compare various prenatal PAS prediction models integrating clinical data, MRI signs, and radiomics signatures. Materials and Methods: A cohort comprising 111 patients (72 with PAS and 39 without, denoted as N-PAS) served as the training set, while another 47 patients (33 PAS and 14 N-PAS) constituted the validation set. Clinical features and MRI signs were subjected to univariate and multivariate analyses to construct the Clinical-MRI model. Radiomic features were extracted from MRI images and refined through the Least Absolute Shrinkage and Selection Operator (LASSO) algorithm, thereby establishing the Radiomics model. An optimal set of radiomic features was utilized to derive the Radscore, which was then integrated with clinical features and MRI signs to formulate the Nomogram model. The performance of these models was comprehensively evaluated and compared. Results: In the validation set evaluation, the Nomogram model, which integrated Radscore, a pivotal clinical indicator, and two MRI signs, demonstrated superior performance. With an area under the curve (AUC) of 0.861 (95% CI: 0.745, 0.978), this model significantly outperformed both the clinical-MRI model (AUC = 0.796, 95% CI: 0.649, 0.943) and the radiomics model (AUC = 0.704, 95% CI: 0.531, 0.877). Specifically, the Nomogram model achieved a high sensitivity of 81.8% and a specificity of 78.6% in the prenatal diagnosis of placenta accreta spectrum (PAS), thereby offering clinicians a precise and efficient diagnostic aid. Conclusion: The radiomics-derived Radscore serves as an independent predictor for prenatal PAS. Combining Radscore with clinical features and MRI signs into a Nomogram model provides a non-invasive tool with high sensitivity or specificity for PAS diagnosis, enhancing prenatal assessment and management. (c) 2024 The Association of University Radiologists"""
+
+

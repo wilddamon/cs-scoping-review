@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: intraamnioticinfectionpredictionscorebasedonsimplematernalinformationforpretermprematureruptureofmembranes2025oshima
+"Aim: This study aimed to develop and validate a predictive model for intra-amniotic infection in preterm premature rupture of membranes (PPROM) using simple maternal clinical parameters. Methods: A retrospective cohort study was conducted on pregnant women with PPROM between 22 + 0 and 35 + 6 weeks of gestation. The patients were categorized into development (2013-2017) and validation (2018-2023) cohorts. Intra-amniotic infection was defined as the microbial invasion of the amniotic cavity with intra-amniotic inflammation. Results: In total, 229 patients were analyzed, with 121 and 108 patients in the development and validation cohorts, respectively. A scoring system was established, assigning 1 point for gestational age of < 32 weeks and white blood cell (WBC) count of >= 11 400/mL, and 3 points for C-reactive protein (CRP) level of >= 0.51 mg/dL. The areas under the receiver operating characteristic curve were 0.92 (95% confidence interval [CI], 0.87-0.98) and 0.86 (95% CI, 0.75-0.97) in the development and validation cohorts, respectively. The mean predicted probabilities were 2.6%, 8.7%, 24.9%, 53.6%, 80.1%, and 93.3% at scores of 0, 1, 2, 3, 4, and 5, respectively. The difference between the predicted and observed probabilities remained within 10% for all scores except for 3. Conclusions: A predictive score for intra-amniotic infection in PPROM was developed and validated using the WBC count, CRP level, and gestational age, demonstrating high diagnostic accuracy. Further validation in diverse populations is necessary for broader clinical applicability. (c) 2025 Japan Society of Obstetrics and Gynecology."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clpnetanadvancedartificialintelligencetechniqueforlocalizingstandardplanesofcleftlipandpalatebythreedimensionalultrasoundinthefirsttrimester2025he
+"Background: Early diagnosis of cleft lip and palate (CLP) requires a multiplane examination, demanding high technical proficiency from radiologists. Therefore, this study aims to develop and validate the first artificial intelligence (AI)-based model (CLP-Net) for fully automated multi-plane localization in three-dimensional(3D) ultrasound during the first trimester. Methods: This retrospective study included 418 (394 normal, 24 CLP) 3D ultrasound from 288 pregnant woman between July 2022 to October 2024 from Shenzhen Guangming District People's Hospital during the 11-13+ 6 weeks of pregnancy. 320 normal volumes were used for training and validation, while 74 normal and 24 CLP volumes were used for testing. Two experienced radiologists reviewed three standard lip and palate planes (mid sagittal, retronasal triangle, and maxillary axial planes) as ground truth (GT) and the CLP-Net was developed to locate these planes. Results: In normal test set, mean angle(+- SD)deg and distance(+- SD)mm differences were 6.24 +- 4.83, 9.81 +- 5.48, 15.36 +- 18.14 and 0.86 +- 0.72, 1.36 +- 1.15, 1.96 +- 2.35 for MSP +- SD, RTP +- SD and MAP +- SD, NCC and SSIM were 0.931 +- 0.079, 0.819 +- 0.122, 0.781 +- 0.157 and 0.896 +- 0.058, 0.785 +- 0.076, 0.726 +- 0.088 respectively. In the CLP cases, there were 8.61 +- 5.52, 10.67 +- 5.08, 16.91 +- 17.42 and 1.03 +- 1.20, 1.17 +- 1.08, 1.34 +- 0.95 for mean angle and distance in MSP, RTP, and MAP, respectively. NCC and SSIM were 0.876 +- 0.104, 0.803 +- 0.084, 0.793 +- 0.089 and 0.841 +- 0.105, 0.812 +- 0.085, 0.764 +- 0.100, respectively. CLP-Net predictions had a highly visual acceptance rate among radiologists (MSP: 95%, RTP: 70%, MAP: 70%), with improved localization speed 15s(31.3%) for senior radiologists and 63s(38.9%) for junior radiologists. Conclusions: CLP-Net accurately locates three planes for CLP screening, aiding radiologists and enhancing the efficiency of ultrasound examinations. (c) The Author(s) 2024."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: glycatedalbuminandcontinuousglucosemonitoringmetricsacrosspregnancyinwomenwithpregestationaldiabetes2022toft
+"Introduction: Glycated albumin (GA), a biomarker reflecting short-term glycaemia, may be useful to assess glycaemic control in pregnancy. We examined the association between GA and continuous glucose monitoring (CGM) metrics across gestation. Methods: In this prospective cohort study including 40 women with pre-gestational diabetes, blood samples for analysis of GA and glycated haemoglobin A1c (HbA1c) were collected at pregnancy week 12, 20, 24, 28, 32 and 36. In the CGM-group (n = 19), CGM data were collected from first trimester until pregnancy week 36. Receiver operating characteristic (ROC) curves were used to assess the accuracy of GA and HbA1c to detect poor glycaemic control, using CGM metrics as the reference standard. This study was conducted at Stavanger University Hospital, Norway, in 2016-2018. Results: Glycaemic control improved across gestation with more time spent in target range, coinciding with decreased glycaemic variability and lower mean GA level. There was statistically significant correlation between GA and most CGM metrics. The area under the ROC curves (AUC) for detecting time in range <70% and time above range >25% for the pregnancy glucose target 63-140 mg/dl (3.5-7.8 mmol/L) were 0.78 and 0.82 for GA, whereas AUCs of 0.60 and 0.72 were found for HbA1c, respectively. Conclusions: Higher GA levels were associated with less time spent in target range, more time spent in the above range area and increased glycaemic variability. GA was more accurate than HbA1c to detect time above range >25% and time in range <70%. (c) 2022 The Authors. Endocrinology, Diabetes & Metabolism published by John Wiley & Sons Ltd."""
+
+

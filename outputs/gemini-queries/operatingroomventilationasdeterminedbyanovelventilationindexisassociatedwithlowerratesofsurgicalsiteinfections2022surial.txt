@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: betteroperatingroomventilationasdeterminedbyanovelventilationindexisassociatedwithlowerratesofsurgicalsiteinfections2022surial
+"Objective: The aim was to assess the impact of operating room (OR) ventilation quality on surgical site infections (SSIs) using a novel ventilation index. Background: Previous studies compared laminar air flow with conventional ventilation, thereby ignoring many parameters that influence air flow properties. Methods: In this cohort study, we surveyed hospitals participating in the Swiss SSI surveillance and calculated a ventilation index for their ORs, with higher values reflecting less turbulent air displacement. For procedures captured between January 2017 and December 2019, we studied the association between ventilation index and SSI rates using linear regression (hospital-level analysis) and with the individual SSI risk using generalized linear mixed-effects models (patient-level analysis). Results: We included 47 hospitals (182 ORs). Among the 163,740 included procedures, 6791 SSIs were identified. In hospital-level analyses, a 5-unit increase in the ventilation index was associated with lower SSI rates for knee and hip arthroplasty (-0.41 infections per 100 procedures, 95% confidence interval: -0.69 to -0.13), cardiac (-0.89, -1.91 to 0.12), and spine surgeries (-1.15, -2.56 to 0.26). Similarly, patient-level analyses showed a lower SSI risk with each 5-unit increase in ventilation index (adjusted odds ratio 0.71, confidence interval: 0.58-0.87 for knee and hip; 0.72, 0.49-1.06 for spine; 0.82, 0.69-0.98 for cardiac surgery). Higher index values were mainly associated with a lower risk for superficial and deep incisional SSIs. Conclusions: Better ventilation properties, assessed with our ventilation index, are associated with lower rates of superficial and deep incisional SSIs in orthopedic and cardiac procedures. OR ventilation quality appeared to be less relevant for other surgery types. (c) (c) 2022 The Author(s). Published by Wolters Kluwer Health, Inc."""
+
+

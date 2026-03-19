@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: childhoodinfectionsandautismspectrumdisordersandorintellectualdisabilityaregisterbasedcohortstudy2022karlsson
+"Objective: To explore the associations between childhood infections and subsequent diagnoses of autism spectrum disorder (ASD), intellectual disability (ID), and their co-occurrence. Methods: The association between specialized care for any infection, defined by ICD-codes, and later ASD or ID was investigated in a register-based cohort of 556,732 individuals born 1987-2010, resident in Stockholm County, followed from birth to their 18th birthday or December 31, 2016. We considered as potential confounders children's characteristics, family socioeconomic factors, obstetric complications, and parental histories of treatment for infection and psychiatric disorders in survival analyses with extended Cox regression models. Residual confounding by shared familial factors was addressed in sibling analyses using within-strata estimation in Cox regression models. Sensitivity analyses with the exclusion of congenital causes of ASD/ID and documented risk for infections were also performed. Results: Crude estimates indicated that infections during childhood were associated with later ASD and ID with the largest risks observed for diagnoses involving ID. Inclusion of covariates, exclusion of congenital causes of ASD/ID from the population, and sibling comparisons highlighted the potential for confounding by both heritable and non-heritable factors, though risks remained in all adjusted models. In adjusted sibling comparisons, excluding congenital causes, infections were associated with later "ASD without ID" (HR 1.24, 95%CI 1.15-1.33), "ASD with ID" (1.57, 1.35-1.82), and "ID without ASD" (2.01, 1.76-2.28). Risks associated with infections varied by age at exposure and by age at diagnosis of ASD/ID. Conclusions: Infections during childhood may contribute to a later diagnosis of ID and ASD. (c) 2022, The Author(s)."""
+
+

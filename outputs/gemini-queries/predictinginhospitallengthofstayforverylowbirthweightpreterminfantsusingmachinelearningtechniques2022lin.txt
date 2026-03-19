@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictinginhospitallengthofstayforverylowbirthweightpreterminfantsusingmachinelearningtechniques2022lin
+"Background/Purpose: The in-hospital length of stay (LOS) among very-low-birth-weight (VLBW, BW < 1500 g) infants is an index for care quality and affects medical resource allocation. We aimed to analyze the LOS among VLBW infants in Taiwan, and to develop and compare the performance of different LOS prediction models using machine learning (ML) techniques. Methods: This retrospective study illustrated LOS data from VLBW infants born between 2016 and 2018 registered in the Taiwan Neonatal Network. Among infants discharged alive, continuous variables (LOS or postmenstrual age, PMA) and categorical variables (late and non-late discharge group) were used as outcome variables to build prediction models. We used 21 early neonatal variables and six algorithms. The performance was compared using the coefficient of determination (R2) for continuous variables and area under the curve (AUC) for categorical variables. Results: A total of 3519 VLBW infants were included to illustrate the profile of LOS. We found 59% of mortalities occurred within the first 7 days after birth. The median of LOS among surviving and deceased infants was 62 days and 5 days. For the ML prediction models, 2940 infants were enrolled. Prediction of LOS or PMA had R2 values less than 0.6. Among the prediction models for prolonged LOS, the logistic regression (ROC: 0.724) and random forest (ROC: 0.712) approach had better performance. Conclusion: We provide a benchmark of LOS among VLBW infants in each gestational age group in Taiwan. ML technique can improve the accuracy of the prediction model of prolonged LOS of VLBW. (c) 2021 Formosan Medical Association"""
+
+

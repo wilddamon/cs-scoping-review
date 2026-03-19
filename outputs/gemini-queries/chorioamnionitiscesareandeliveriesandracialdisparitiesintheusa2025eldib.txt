@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: chorioamnionitiscesareandeliveriesandracialdisparitiesintheusa2025eldib
+"Background: Studies showed disparities in management and outcomes of African American when compared to Caucasian population. The presence of chorioamnionitis may affect the decision to have a cesarean delivery (CD); however, it is not known if such a decision is affected by the mothers' race/ethnicity. Objective: To assess the interaction between African American race/ethnicity and CD in women with chorioamnionitis. Methods: Utilizing the National Inpatient Sample dataset, we examined the association of CD with chorioamnionitis in the overall population and within Caucasian and African American. Logistic regression models were used to control for confounders. Results: The study included 6,648,883 women who delivered 6,925,920 infants. The prevalence of chorioamnionitis was 0.78 and 1.1 in Caucasian and African American, respectively. CD with and without chorioamnionitis was 41.2% and 32.4%, respectively (aOR 1.46 (1.43-1.49), p < 0.001), in Caucasian population and 45.0% and 36.6% in African American population aOR 1.42 (1.37-1.47), p < 0.001. African American population had significantly higher CD after controlling for chorioamnionitis and other confounding variables (aOR of 1.18 (1.17-1.18), p < 0.001). Conclusion: Chorioamnionitis is associated with increased rate of CD. Ethnic disparities exist in CD rates regardless of the chorioamnionitis status. Such findings warrant further investigation to explore factors associated with this discrepancy. (c) W. Montague Cobb-NMA Health Institute 2023."""
+
+

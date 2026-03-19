@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: midwiferyworkforcedensitymoderatestheassociationbetweenindependentpracticeandpregnancyoutcomes2023vanderlaan
+"Introduction: Studies comparing pregnancy outcomes before and after state transition to independent midwifery practice have found little change in primary cesarean birth and preterm birth rates. One reason may be the failure to control for midwife density. The objective was to test if the local midwife density moderates the association between state independent midwifery practice and pregnancy outcomes. Methods: Birth records were abstracted from the State Inpatient Databases for 6 states. The Area Health Resource File provided county variables. Midwife density was operationalized as no midwives, low midwife density (<4.5 per 1000 births), and high midwife density (>=4.5 midwives per 1000 births). Multivariate logistic regression models compared primary cesarean birth and preterm birth, controlling for maternal and county characteristics. Moderation was tested by including an interaction term (independent practice x density) to the regression models. The magnitude of association for the interaction was measured by stratifying the models. Results: The study included 875,156 women; most (79.7%) resided in a county with low midwife density. Restricted midwifery practice was associated with increased odds of both primary cesarean birth and preterm birth. The interaction term was significant for both preterm birth and primary cesarean, indicating moderation. The largest magnitude of difference was the increased odds of preterm birth in counties with a high midwife density and restricted practice (odds ratio, 3.50; 95% CI, 2.43-5.06) compared with those with high midwife density and independent practice. Discussion: Midwife density moderates the association between independent midwifery practice and primary cesarean birth and preterm birth. Moderation may explain why prior studies found small or no changes in outcomes when states adopted independent practice. Moderation models can improve testing for associations with independent practice. Both midwife independent practice and increasing midwifery workforce size can be strategies to improve state pregnancy outcomes. (c) 2023 The Authors. Journal of Midwifery & Women's Health published by Wiley Periodicals LLC on behalf of American College of Nurse Midwives (ACNM)."""
+
+

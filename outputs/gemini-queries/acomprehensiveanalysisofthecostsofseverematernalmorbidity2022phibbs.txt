@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: acomprehensiveanalysisofthecostsofseverematernalmorbidity2022phibbs
+"Introduction: The objectives of this study were to include readmissions and physician costs in the estimates of total costs of severe maternal morbidity (SMM), to consider the effect of SMM on maternal length of stay (LOS), and to examine these for the more restricted definition of SMM that excludes transfusion-only cases. Methods: California linked birth certificate-patient discharge data for 2009 through 2011 (n = 1,262,862) with complete costs and LOS were used in a secondary data analysis. Cost-to-charge ratios were used to estimate costs from charges, adjusting for inflation. Physician payments were estimated from the mean payments for specific diagnosis-related groups. Generalized linear models estimated the association between SMM and costs and LOS. Results: Excluding readmissions and physician costs, SMM was associated with a 60% increase in hospital costs (marginal effect [ME] $3,550) and a 33% increase in LOS (ME 0.9 days). These increased to 70% (ME $5,806) and 46% (ME 1.3 days) when physician costs and readmissions were included. The effects of SMM were roughly one-half as large for patients who only required a blood transfusion (49% [ME $4,056] and 31% [ME 0.9 days]) as for patients who had another indicator for SMM (93% [ME $7,664] and 62% [ME 1.7 days]). Conclusions: Postpartum hospital readmissions and physician costs are important and previously unreported contributors to the costs of SMM. Excess costs and LOS associated with SMM vary considerably by indication. Cost effects were larger than the LOS effects, indicating that SMM increases treatment intensity beyond increasing LOS, and decreasing SMM may have broader health and cost benefits than previously understood. (c) 2021"""
+
+

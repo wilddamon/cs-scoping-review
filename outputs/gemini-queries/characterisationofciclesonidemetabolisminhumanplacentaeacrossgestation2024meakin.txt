@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: characterisationofciclesonidemetabolisminhumanplacentaeacrossgestation2024meakin
+"Introduction: Current clinical management of pregnancies at risk of preterm delivery includes maternal antenatal corticosteroid (ACS) treatment. ACS activate the glucocorticoid receptor (GR) in all fetal tissues, maturing the lungs at the cost of impaired brain development, creating a need for novel treatments. The prodrug ciclesonide (CIC) activates the GR only when converted to des-CIC by specific enzymes, including acetylcholinesterase (ACHE) and carboxylesterase 1 and 2 (CES1, CES2). Importantly, the human placenta expresses ACHE and CES, and could potentially produce des-CIC, resulting in systemic fetal exposure and GR activation in all fetal tissues. We therefore investigated CES gene expression and conversion of CIC to des-CIC in human placentae collected during the second trimester (Tri2), and at preterm and term birth. Methods: Differential expression analysis was performed in Tri2 (n = 27), preterm (n = 34), and term (n = 40) placentae using the DESeq2 R-package. Conversion of CIC to des-CIC was measured in a subset of placenta samples (Tri2 n = 7, preterm n = 26, term n = 20) using functional assays. Results: ACHE mRNA expression was higher in Tri2 male than preterm and term male placentae only, whereas CES1 mRNA expression was higher in Tri2 than preterm or term placentae of both sexes. Conversion of CIC to des-CIC did not differ between gestational ages. Discussion: Conversion of CIC to des-CIC by the human placenta may preclude its use as a novel GR-agonist in threatened preterm birth. In vivo studies are required to confirm the extent to which placental activation occurs after maternal treatment. (c) 2024 The Authors"""
+
+

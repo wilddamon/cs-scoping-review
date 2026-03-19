@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: amulticenterretrospectivecomparisonofpregnancyoutcomesbetweengroupsofpretermlabornulliparousmotherstreatedwithatosibanvsritodrineinsingletonandmultiplepregnancies2023kim
+"Objective: To evaluate the safety and efficacy of atosiban and ritodrine in pregnant women who were hospitalized for threatened preterm labor (TPL). Materials and methods: Diagnosis records of preterm labor and subsequent pregnancy-related records and medical records of newborns were extracted from the Clinical Data Warehouse of the Catholic Medical Center's affiliated hospital. Since 2009, cases of preterm labor diagnosed before 34 weeks of pregnancy for first-time mothers who delivered at any one of three hospitals and who received drug treatment for more than 2 days to delay delivery were included in the dataset. Based on characteristics of Korea's national health insurance system, the drug treatment after diagnosis of preterm labor could be classified into cases using only ritodrine (571 women), cases using only atosiban (244 women), and cases where ritodrine treatment was started and then changed to atosiban (275 women). Demographic factors, obstetric outcomes, neonatal outcomes of the two groups were analyzed. Results: The duration and maintenance of pregnancy were found to be similar between the two groups, although the initial cervical length was significantly shorter in the atosiban cohort (AC). Only in multifetal pregnancies, the maintenance of pregnancy was significantly longer in the AC. The total duration of pregnancy did not show any significant difference between the two groups regardless of singleton or multiple pregnancy. However, the distribution graph showed non-responders in the ritodrine cohort (RC). Our study showed a difference in neonatal birth weight of singleton between the two groups. The length of hospitalization and the NICU admission rate were also significantly higher in the RC for singleton. Although not significant, the proportion of numbers with an Apgar score less than 7 was higher in the RC. Neonatal death was more common in the RG (8 cases in AC and 18 cases in RC). Conclusions: Using atosiban for TPL is more effective than using ritodrine for maintaining pregnancy in the case of a multifetal pregnancy. In singleton pregnancies, neonatal outcomes of the atosiban group were superior to those of the ritodrine group. There seems to be a non-responder group when using ritodrine for TPL. Further studies are needed to determine causes of non-responders of ritodrine and effects of ritodrine on the fetus. (c) 2023"""
+
+

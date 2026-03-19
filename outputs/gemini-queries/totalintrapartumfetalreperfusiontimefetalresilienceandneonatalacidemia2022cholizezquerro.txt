@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: totalintrapartumfetalreperfusiontimefetalresilienceandneonatalacidemia2022cholizezquerro
+"Objective: The main objective is to study the predictive capacity of intrapartum total fetal reperfusion (fetal resilience) by itself or in combination with other parameters as a predictor of neonatal acidemia. Study design: A retrospective case-control study was carried out at the Miguel Servet University Hospital (Zaragoza, Spain) on a cohort of 5694 pregnant women between June 2017 and October 2018. Maternal, perinatal, and cardiotocographic records were collected. Two reviewers blindly described the monitors with the American College of Obstetricians and Gynecologists (ACOG) categorizations and parameters and the non-ACOG parameters. Neonatal acidemia was defined as pH <7.10. The parameters analyzed to predict acidemia were evaluated using the sensitivity for specificity 90% value, and the area under the receiver operating characteristic curve. Results: We recorded 192 infants with acidemia, corresponding to a global acidemia rate of 3.4%. Of these, 72 were excluded for lack of criteria, leaving 120 patients with arterial acidemia included in the study and 258 in the control group. The sensitivity (specificity 90%) of detection of acidemia was 42% for the ACOG III categorization (AUC, 0.524: 95% CI, 0.470-0.578), 24% for fetal reperfusion (AUC, 0.704: 95% CI, 0.649-0.759), 27% for total area of decelerations (AUC, 0.717: 95% CI, 0.664-0.771) and 50% for the multivariate model built from total reperfusion time (AUC, 0.826: 95% CI, 0.783-0.869). The total reperfusion time corresponding to a false negative rate of 10% is 23.75 min, with 28% of fetuses above this time. The AUC and sensitivity for a false negative rate of 10% are equivalent for deceleration area and time of reperfusion (p =.504). Conclusion: The total reperfusion time (fetal resilience) and total deceleration area are non-ACOG parameters with a good predictive ability for neonatal acidemia, higher than the ACOG III classification and without statistical differences between them. The discrimination ability of total reperfusion time can be improved using a multivariate model. As a cutoff for its use we suggest 23.75 min in 30 min corresponding to an acidemic classification rate of 90%. New parameters in combination with other maternal, obstetrics, or fetal variables, are required for the interpretation of fetal well-being. (c) 2021 Informa UK Limited, trading as Taylor & Francis Group."""
+
+

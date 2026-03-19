@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: opioidoverdoseassociatedwithconcomitantuseofhydrocodoneandselectiveserotoninreuptakeinhibitors2025bea
+"Background: Selective serotonin reuptake inhibitors (SSRIs) are frequently co-prescribed with opioids, increasing the risk of pharmacokinetic and pharmacodynamic interactions. Hydrocodone, a commonly prescribed opioid metabolized by cytochrome (CYP) 2D6 and CYP3A4, may be affected by enzyme inhibition from certain SSRIs. However, it remains unclear whether all SSRIs pose equal overdose risk or if some may be safer options for patients requiring both medications. Thus, we aimed to evaluate comparative risks of opioid overdose among patients initiating SSRIs while on hydrocodone. Methods: This population-based cohort study utilized US public and commercial health insurance claims data from 2004 to 2022 and included patients who initiated a SSRI (citalopram, escitalopram, fluoxetine, paroxetine, or sertraline) while receiving hydrocodone treatment. The outcome was hospitalization or emergency department visit due to opioid overdose. We balanced baseline covariates via propensity score matching weights. A weighted Cox proportional hazards model compared rates across the five SSRIs. Results: Among 1,486,583 patients who initiated an SSRI while on hydrocodone, 403,488 (27.1%) initiated sertraline, 348,484 (23.4%) initiated citalopram, 311,375 (21.0%) initiated escitalopram, 258,957 (17.4%) initiated fluoxetine, and 164,279 (11.1%) initiated paroxetine. During a median on-treatment follow-up of 28 days, 1500 primary endpoints occurred. Weighted hazard ratios (HRs) for opioid overdose, using sertraline as the reference, were 1.21 (95% CI 1.02-1.42) for citalopram, 1.19 (1.00-1.41) for escitalopram, 1.29 (1.09-1.54) for fluoxetine, and 1.17 (0.95-1.43) for paroxetine. Using citalopram as the reference, HRs were 0.99 (0.83-1.17) for escitalopram, 1.07 (0.91-1.27) for fluoxetine, and 0.97 (0.79-1.18) for paroxetine. Relative to escitalopram, HRs were 1.09 (0.92-1.30) for fluoxetine and 0.98 (0.80-1.20) for paroxetine, and relative to fluoxetine, the HR was 0.90 (0.74-1.10) for paroxetine. Comparisons among SSRIs other than sertraline showed similar risks of overdose. Intention-to-treat analysis yielded similar findings, although the associations were attenuated. Conclusions: In this cohort study, based on data from US healthcare claims databases, initiating citalopram, escitalopram, fluoxetine, or paroxetine while on hydrocodone was associated with an increased risk of opioid overdose compared with sertraline. No substantial risk differences were observed across SSRIs other than sertraline. (c) The Author(s) 2025."""
+
+

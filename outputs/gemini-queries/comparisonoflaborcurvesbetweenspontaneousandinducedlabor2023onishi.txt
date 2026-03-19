@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: comparisonoflaborcurvesbetweenspontaneousandinducedlabor2023onishi
+"OBJECTIVE:To compare the labor curve between individuals with induced labor and those undergoing spontaneous labor.METHODS:This was a secondary analysis of the Consortium on Safe Labor database, including nulliparous and multiparous individuals with singleton vertex pregnancy who delivered vaginally after spontaneous labor or induction of labor at term. Labor that resulted in uterine rupture and neonates with a 5-minute Apgar scores less than 7, birth injury, or neonatal intensive care unit admission was excluded. We modeled the course of cervical dilation using repeated-measures analysis with a polynomial function. We compared traverse time, defined as the elapsed time between two given dilation measures, between induced and spontaneous labor using interval-censored regression.RESULTS:Of 46,835 nulliparous individuals, 18,576 and 28,259 underwent induced and spontaneous labor, respectively. Of 77,503 multiparous individuals, 29,684 and 47,819 underwent induced and spontaneous labor, respectively. The start of the active phase on the labor curve was 6 cm in induced labor, regardless of parity. In nulliparous individuals, induced labor compared with spontaneous labor had a significantly shorter traverse time from 6 to 10 cm (median 1.8 hours [5th-95th percentile 0.4-8.6 hours] vs 2.3 hours [5th-95th percentile 0.6-9.4 hours]; P<.01). In multiparous individuals, induced labor compared with spontaneous labor had a significantly shorter traverse time from 6 to 10 cm (median 0.9 hours [5th-95th percentile 0.1-6.0 hours] vs 1.4 hours [5th-95th percentile 0.3-7.9 hours]; P<.01).CONCLUSION:Similar to spontaneous labor, the start of the active phase of induced labor was at 6 cm of dilation. Comparatively, induced labor had a shorter active phase than spontaneous labor. These findings suggest that the current criteria for active phase arrest provided by the American College of Obstetricians and Gynecologists do not need to be lengthened for individuals in induced labor. (c) 2023 Lippincott Williams and Wilkins. All rights reserved."""
+
+

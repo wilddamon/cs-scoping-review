@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: amachinelearningapproachtopredictmortalityandneonatalpersistentpulmonaryhypertensioninnewbornswithcongenitaldiaphragmaticherniaaretrospectiveobservationalcohortstudy2025conte
+"Congenital diaphragmatic hernia (CDH) has high morbidity and mortality rates. This study aimed to develop a machine learning (ML) algorithm to predict outcomes based on prenatal and early postnatal data. This retrospective observational cohort study involved infants with left-sided CDH, born from 2012 to 2020. We analyzed clinical and imaging data using three classification algorithms: XGBoost, Support Vector Machine, and K-Nearest Neighbors. Medical records of 165 pregnant women with CDH fetal diagnosis were reviewed. According to inclusion criteria, 50 infants with isolated left-sided CDH were enrolled. The mean o/eLHR was 37.32%, and the average gestational age at delivery was 36.5 weeks. Among these infants, 26 (52%) had severe persistent neonatal pulmonary hypertension (PPHN), while 24 (48%) had moderate or mild form; 37 survived (74%), and 13 did not (26%). The XGBoost model achieved 88% accuracy and 95% sensitivity for predicting mortality using ten features and 82% accuracy for PPHN severity with 14 features. The area under the ROC curve was 0.87 for mortality and 0.82 for PPHN severity. Conclusion: ML models show promise in predicting CDH outcomes and supporting clinical decisions. Future research should focus on more extensive studies to refine these algorithms and improve care management. Clinical trial registration: NCT04609163. (Table presented.) (c) The Author(s) 2025."""
+
+

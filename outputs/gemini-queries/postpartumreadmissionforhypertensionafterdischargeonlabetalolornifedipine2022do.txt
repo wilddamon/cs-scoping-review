@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: postpartumreadmissionforhypertensionafterdischargeonlabetalolornifedipine2022do
+"OBJECTIVE:To assess whether readmission for hypertension by 6 weeks postpartum differed between patients discharged on nifedipine or labetalol.METHODS:This cohort study included patients with delivery admissions from 2006 to 2017 who were discharged from the hospital on nifedipine or labetalol and were included in a large, national adjudicated claims database. We identified patients' discharge medication based on filled outpatient prescriptions. We compared rates of hospital readmission for hypertension between patients discharged postpartum on labetalol alone, nifedipine alone, or combined nifedipine and labetalol. Patients with chronic hypertension without superimposed preeclampsia were excluded. Comparisons based on medication were performed using logistic regression models with adjustment for prespecified confounders. Comparisons were also stratified by hypertensive disorder of pregnancy severity.RESULTS:Among 1,582,335 patients overall, 14,112 (0.89%) were discharged postpartum on labetalol, 9,001 (0.57%) on nifedipine, and 1,364 (0.09%) on both medications. Postpartum readmissions for hypertension were more frequent for patients discharged on labetalol compared with nifedipine (641 patients vs 185 patients, 4.5% vs 2.1%, adjusted odds ratio [aOR] 1.63, 95% CI 1.43-1.85). Readmissions for hypertension were more frequent for patients discharged on labetalol compared with nifedipine for both mild (4.5% vs 2.7%, aOR 1.57, 95% CI 1.29-1.93) and severe hypertensive disorders of pregnancy (261 patients vs 72 patients, 5.7% vs 3.2%, aOR 1.63, 95% CI 1.43-1.85). Readmissions for hypertension were more frequent on combined nifedipine and labetalol compared with nifedipine (3.1% vs 2.1%), but the odds were lower after confounder adjustment (aOR 0.80, 95% CI 0.64-0.99).CONCLUSION:Postpartum discharge on labetalol was associated with increased risk of readmission for hypertension compared with discharge on nifedipine. (c) 2022 by the American College of Obstetricians and Gynecologists."""
+
+

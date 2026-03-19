@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: earlysurfactantandnoninvasiveventilationversusintubationandsurfactantapropensityscorematchednationalstudy2022reigstad
+"Objective To compare outcome after less invasive surfactant administration (LISA) and primary endotracheal intubation (non-LISA) in infants born before gestational age (GA) 28 weeks. Setting All neonatal intensive care units (NICUs) in Norway during 2012-2018. Methods Defined population-based data were prospectively entered into a national registry. We compared LISA infants with all non-LISA infants and with non-LISA infants who received surfactant following intubation. We used propensity score (PS) matching to identify non-LISA infants who were similar regarding potential confounders. Main outcome variables Rate and duration of mechanical ventilation (MV), survival, neurological and gastrointestinal morbidity, and need of supplemental oxygen or positive pressure respiratory support at postmenstrual age (PMA) 36 and 40 weeks. Results We restricted analyses to GA 25-27 weeks (n=843, 26% LISA) because LISA was rarely used at lower GAs. There was no significant association between NICUs regarding proportions treated with LISA and proportions receiving MV. In the PS-matched datasets, fewer LISA infants received MV (61% vs 78%, p<0.001), and they had fewer days on MV (mean difference 4.1, 95% CI 0.0 to 8.2 days) and lower mortality at PMA 40 weeks (absolute difference 6%, p=0.06) compared with all the non-LISA infants, but only a lower rate of MV (64% vs 97%, p<0.001) and fewer days on MV (mean difference 5.8, 95% CI 0.6 to 10.9 days) compared with non-LISA infants who received surfactant after intubation. Conclusion LISA reduced the rate and duration of MV but had no other clear benefits. (c) Author(s) (or their employer(s)) 2022."""
+
+

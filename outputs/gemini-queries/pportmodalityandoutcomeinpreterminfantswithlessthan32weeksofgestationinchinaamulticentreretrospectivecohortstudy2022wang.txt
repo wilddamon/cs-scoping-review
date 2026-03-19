@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: initialrespiratorysupportmodalityandoutcomeinpreterminfantswithlessthan32weeksofgestationinchinaamulticentreretrospectivecohortstudy2022wang
+"Background: For initial respiratory management, continuous positive airway pressure (CPAP) is increasingly used for preterm infants, especially for gestational age less than 32 weeks. However, neonatologists are concerned about the potential risks of CPAP support failure. Objectives: To examine the association between different initial respiratory support modalities and the outcomes of preterm infants at <32 weeks of gestation across multiple neonatal intensive care units (NICU) in China. Methods: This study was carried out over a period of 12 months in 2018. Unadjusted relative risks (RR) for demographic and clinical characteristics were calculated for CPAP failure and CPAP success in the total cohort using log-linear model based on generalised estimating equations for clustered observations. Results: Among 1560 preterm infants delivered at <32 weeks, the incidence of CPAP failure was 10.3%. After adjustment for demographic and clinical factors, the relative risk of mortality (RR 7.54, 95% CI 5.56, 10.44), pneumothorax (RR 9.85, 95% CI 2.89, 61.53), pulmonary haemorrhage (RR 7.78, 95% CI 4.51, 14.64) and BPD (RR 3.65, 95% CI 3.65, 4.51) were considerably higher for infants in the CPAP failure group than those in the CPAP-S group. However, the risk of poor outcomes in CPAP failure infants was similar to that of those in the initial mechanical ventilation (MV) group. Conclusions: Continuous positive airway pressure failure was associated with an increased risk of mortality and major morbidities, including BPD, pulmonary haemorrhage and pneumothorax, and was comparable to the risk associated with initial MV. (c) 2021 The Authors. Paediatric and Perinatal Epidemiology published by John Wiley & Sons Ltd."""
+
+

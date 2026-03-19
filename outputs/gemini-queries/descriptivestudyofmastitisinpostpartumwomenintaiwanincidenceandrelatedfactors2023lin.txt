@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: descriptivestudyofmastitisinpostpartumwomenintaiwanincidenceandrelatedfactors2023lin
+"Background: Mastitis is a common disorder among postpartum women. The discomfort and pain caused by mastitis may lead to the discontinuation of breastfeeding. Large-scale epidemiological studies examining mastitis are limited. Accordingly, the present study used a nationwide population-based database to collect information about all postpartum women in Taiwan to determine the incidence of and related factors for mastitis. Materials and Methods: This retrospective population-based study used the National Health Insurance Research Database to collect records of patients with mastitis during 2008-2017 and then linked the collected data to the Taiwan Birth Registry. We included women diagnosed as having lactational mastitis within 6 months of delivery. A multivariable logistic regression model was used to compare the risk of mastitis between parity in multiparous women. Results: We identified 1,686,167 deliveries in 1,204,544 women. 19,794 women with 20,163 deliveries had a medical claim for mastitis. The incidence proportion of mastitis for 6 months postpartum was ~1.19% and highest during the first month after delivery. Multivariable logistic regression revealed that multiparous women with a history of mastitis were likely to experience mastitis again after subsequent deliveries (adjusted odds ratio = 5.86; 95% confidence interval = 5.21-6.58). The Kaplan-Meier curve indicated that primiparous women had a higher risk of mastitis than did multiparous women (log-rank test, p < 0.001). Conclusion: Mastitis generally occurred during the first month postpartum, and primiparous women had a higher risk of mastitis than did multiparous women. Furthermore, multiparous women with a history of mastitis had a 5.86-fold increased risk of recurrence during subsequent deliveries. (c) (c) 2023, Mary Ann Liebert, Inc."""
+
+

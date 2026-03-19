@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: causalassociationofrheumatoidarthritiswithadversepregnancyoutcomesgeneticevidencefrommendelianrandomization2024wang
+"Objective: Although the association of rheumatoid arthritis (RA) to multiple adverse pregnancy outcomes has been well-studied, the association between serum antibody levels in patients with RA and multiple adverse pregnancy outcomes has not been conclusively demonstrated. Here, we comprehensively assessed the causal impact of RA, serologic antibody-positive RA (pRA), and serologic antibody-negative RA (nRA) on the risk of 14 adverse pregnancy outcomes. Methods: The causal impact of RA, pRA, and nRA on 14 adverse pregnancy outcomes was comprehensively assessed using two-sample Mendelian randomization (MR). Evidence maps based on the results of these two-sample MR analyses were developed. Data from the UK Biobank and FinnGen databases were utilized for this analysis. The inverse variance weighted (IVW) test was employed as the primary method to estimate causality. "TwoSampleMR" and "MR-PRESSO" packages were used for data analysis in this study. Results: Using two-sample MR analysis, we found a significant positive causal association between RA and increased risk of cesarean section (p = 0.003), gestational hypertension (p < 0.001), number of spontaneous miscarriages (p = 0.041), preeclampsia (p = 0.008), premature rupture of membranes (p = 0.030), and preterm (p = 0.010). pRA had a significant positive causal association with an increased risk of cesarean section (p = 0.012), gestational hypertension (p < 0.001), preeclampsia (p = 0.002), and preterm (p = 0.007). A significant positive causal association was also established between nRA and gestational hypertension (p = 0.010), the number of spontaneous miscarriages (p = 0.024), and placental abruption (p = 0.027). In addition, we found a causal association between nRA and birth weight (p = 0.007), but not between RA and pRA and birth weight. Conclusion: The results of this study have important implications for the individualized treatment of RA patients, especially those with positive serum antibody levels. (c) 2024 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd."""
+
+

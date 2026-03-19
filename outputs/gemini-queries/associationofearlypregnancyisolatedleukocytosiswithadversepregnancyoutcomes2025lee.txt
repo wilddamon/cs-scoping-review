@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationofearlypregnancyisolatedleukocytosiswithadversepregnancyoutcomes2025lee
+"Problem: This study aimed to evaluate the relationship between first-trimester white blood cell (WBC) levels and adverse obstetric and neonatal outcomes, and to identify a WBC threshold linked to poor prognosis. Method of Study: We conducted a retrospective cohort study of healthy singleton pregnancies delivered between 2014 and 2023. Women with fever at the time of the first-trimester test, infection, or autoimmune diseases were excluded. Participants were categorized into eight groups based on WBC count (7500 to >=15 000/uL). A high WBC group (>=14 000/uL, n = 258) was compared with a randomly selected control group (n = 516; WBC 7500-9999). Maternal and laboratory data were obtained from medical records. Outcomes included obstetric, perinatal, and neonatal complications. Statistical analyses used Chi-square, analysis of variance (ANOVA), and multivariate logistic regression to estimate adjusted odds ratios (aORs). Results: Among 3895 pregnancies, higher first-trimester WBC counts were associated with increased pre-pregnancy BMI, nulliparity, and in vitro fertilization conception. Groups with elevated WBC counts showed significantly higher risks of preeclampsia, gestational diabetes (GDM), and preterm birth (PTB) before 34 and 36 weeks. Neonatal outcomes, including lower birth weight, higher rates of gestational age (SGA) and neonatal intensive unit (NICU) admission, were also more frequent in higher WBC groups. In a nested case-control analysis, WBC >=14 000 was independently associated with increased risks of preeclampsia (aOR 3.54), PTB before 34 weeks (aOR 5.65) and 36 weeks (aOR 6.96), SGA (aOR 6.41), and NICU admission (aOR 2.11). Conclusion: High first-trimester WBC counts (>=14 000/uL) are significantly associated with PTB, preeclampsia, SGA, and NICU admission and may serve as an early clinical predictor. (c) 2025 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd."""
+
+

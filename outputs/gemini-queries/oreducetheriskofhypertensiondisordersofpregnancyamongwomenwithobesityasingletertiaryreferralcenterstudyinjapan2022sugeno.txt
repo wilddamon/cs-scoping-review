@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: optimalgestationalweightgaintoreducetheriskofhypertensiondisordersofpregnancyamongwomenwithobesityasingletertiaryreferralcenterstudyinjapan2022sugeno
+"Aim: To examine the effect of weight gain during pregnancy on hypertension disorders of pregnancy among women with a prepregnancy body mass index >=30.0 kg/m2. Methods: This retrospective cohort study included 257 Japanese women (116 primipara; 141 multipara) with singleton pregnancies with a prepregnancy body mass index >= 30.0 kg/m2, who gave birth during 2013 to 2020 at Ohta Nishinouchi Hospital. Multiple logistic regression analyses were performed to identify the effect of gestational weight gain on early-onset (<34 weeks), late-onset (>=34 weeks), and overall hypertension disorders of pregnancy. Results: The prevalence of hypertension disorders of pregnancy in primiparas and multiparas was 28.4% and 11.3%, respectively. By multiple logistic regression analysis, gestational weight gain during pregnancy increased the risk of early-onset (adjusted odds ratio: 1.20, 95% confidence interval: 1.03-1.39, p < 0.05) and overall hypertension disorders of pregnancy (adjusted odds ratio: 1.12, 95% confidence interval: 1.03-1.22, p < 0.05) among primiparas. Based on receiver operating characteristic curve analyses for early-onset (area under the curve 0.67, 95% confidence interval: 0.56-0.78; p < 0.05) and overall hypertension disorders of pregnancy (area under the curve 0.76, 95% confidence interval: 0.61-0.91; p < 0.05) among primiparas, we determined the cut-off weight gain during pregnancy for early-onset and overall hypertension disorders of pregnancy as 3.85 kg, with sensitivity/specificity of 0.76/0.59 and 0.91/0.53, respectively. Conclusion: We recommend that the optimal gestational weight gain for reducing HDP be under 3.85 kg. This information may facilitate personalized pre-conception counseling among women with obesity. (c) 2022 Japan Society of Obstetrics and Gynecology."""
+
+

@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: frequencyofinfanteggconsumptionandriskofmaternalreportedeggallergyat6years2023wen
+"Background: Recent research suggests that early egg introduction during infancy may help to prevent egg allergy development. However, the infant egg consumption frequency that is sufficient to induce this immune tolerance remains uncertain. Objectives: We examined the associations between the infant egg consumption frequency and maternal-reported child egg allergy at 6 y. Methods: We analyzed data of 1252 children from the Infant Feeding Practices Study II (2005-2012). Mothers reported the frequency of infant egg consumption at 2, 3, 4, 5, 6, 7, 9, 10, and 12 mo old. Mothers reported the status of their child's egg allergy at the 6-y follow-up. We used Fisher exact test, Cochran-Armitage Trend Test, and log Poisson regression models to compare 6-y egg allergy risk by the frequency of infant egg consumption. Results: The risk of maternal-reported egg allergy at 6 y significantly (P-trend = 0.004) decreased with infant egg consumption frequency at 12 mo: 2.05% (11/537) for infants not consuming eggs, 0.41% (1/244) for those consuming eggs <2 times per wk, and 0.21% (1/471) for those consuming eggs >=2 times per wk. A similar but nonsignificant trend (P-trend=0.109) was observed for egg consumption at 10 mo (1.25%, 0.85%, and 0%, respectively). After adjusting for socioeconomic confounders, breastfeeding, complementary food introduction, and infant eczema, infants who consumed eggs >=2 times per wk at 12 mo had a significantly lower RR of maternal-reported egg allergy at 6 y (confounder-adjusted RR: 0.11; 95% CI: 0.01, 0.88; P = 0.038), whereas those who consumed <2 times per wk (confounder-adjusted RR: 0.21; 95% CI: 0.03, 1.67; P = 0.141) did not have a significantly lower risk than those who did not consume eggs at all. Conclusions: Consumption of eggs >=2 times per wk in late infancy is associated with a reduced risk of developing egg allergy later in childhood. (c) 2022 American Society for Nutrition"""
+
+

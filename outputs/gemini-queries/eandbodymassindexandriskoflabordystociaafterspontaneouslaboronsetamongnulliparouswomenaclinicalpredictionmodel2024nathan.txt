@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: maternalageandbodymassindexandriskoflabordystociaafterspontaneouslaboronsetamongnulliparouswomenaclinicalpredictionmodel2024nathan
+"Introduction Obstetrics research has predominantly focused on the management and identification of factors associated with labor dystocia. Despite these efforts, clinicians currently lack the necessary tools to effectively predict a woman's risk of experiencing labor dystocia. Therefore, the objective of this study was to create a predictive model for labor dystocia. Material and methods The study population included nulliparous women with a single baby in the cephalic presentation in spontaneous labor at term. With a cohort-based registry design utilizing data from the Copenhagen Pregnancy Cohort and the Danish Medical Birth Registry, we included women who had given birth from 2014 to 2020 at Copenhagen University Hospital-Rigshospitalet, Denmark. Logistic regression analysis, augmented by a super learner algorithm, was employed to construct the prediction model with candidate predictors pre-selected based on clinical reasoning and existing evidence. These predictors included maternal age, pre-pregnancy body mass index, height, gestational age, physical activity, self-reported medical condition, WHO-5 score, and fertility treatment. Model performance was evaluated using the area under the receiver operating characteristics curve (AUC) for discriminative capacity and Brier score for model calibration. Results A total of 12,445 women involving 5,525 events of labor dystocia (44%) were included. All candidate predictors were retained in the final model, which demonstrated discriminative ability with an AUC of 62.3% (95% CI:60.7-64.0) and Brier score of 0.24. Conclusions Our model represents an initial advancement in the prediction of labor dystocia utilizing readily available information obtainable upon admission in active labor. As a next step further model development and external testing across other populations is warranted. With time a well-performing model may be a step towards facilitating risk stratification and the development of a user-friendly online tool for clinicians. (c) 2024 Nathan et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."""
+
+

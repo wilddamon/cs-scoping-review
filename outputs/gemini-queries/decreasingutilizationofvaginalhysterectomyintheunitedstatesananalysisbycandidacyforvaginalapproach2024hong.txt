@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: decreasingutilizationofvaginalhysterectomyintheunitedstatesananalysisbycandidacyforvaginalapproach2024hong
+"Introduction and Hypothesis: The objective was to assess trends in hysterectomy routes by patients who are likely and unlikely candidates for a vaginal approach. Methods: We performed a retrospective cohort study of patients who underwent vaginal, abdominal, or laparoscopic/robotics-assisted laparoscopic hysterectomy between 2017 and 2020 using the National Surgical Quality Improvement Program database. Patients undergoing hysterectomy for a primary diagnosis of benign uterine pathology, dysplasia, abnormal uterine bleeding, or pelvic floor disorders were eligible for inclusion. Patients who were parous, had no history of pelvic or abdominal surgery, and had a uterine weight <= 280 g on pathology were considered likely candidates for vaginal hysterectomy based on an algorithm developed to guide the surgical approach. Average annual changes in the proportion of likely vaginal hysterectomy candidates and route of hysterectomy were assessed using logistic regression. Results: Of the 77,829 patients meeting the inclusion criteria, 13,738 (17.6%) were likely vaginal hysterectomy candidates. Among likely vaginal hysterectomy candidates, the rate of vaginal hysterectomy was 34.5%, whereas among unlikely vaginal hysterectomy candidates, it was 14.1%. The overall vaginal hysterectomy rate decreased -1.2%/year (p < 0.01). This decreasing trend was nearly twice as rapid among likely vaginal hysterectomy candidates (-1.9%/year, p <.01) compared with unlikely vaginal hysterectomy candidates (-1.1%/year, P < 0.01); the difference in trends was statistically significant (p < 0.01). Conclusions: The rate of vaginal hysterectomy performed for eligible indications decreased between 2017 and 2020 in a national surgical registry. This negative trend was more pronounced among patients who were likely candidates for vaginal hysterectomy based on favorable parity, surgical history, and uterine weight. (c) The International Urogynecological Association 2024."""
+
+

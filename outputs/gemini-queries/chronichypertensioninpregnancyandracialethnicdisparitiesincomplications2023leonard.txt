@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: chronichypertensioninpregnancyandracialethnicdisparitiesincomplications2023leonard
+"OBJECTIVE:To evaluate whether there are individual- and population-level associations between chronic hypertension and pregnancy complications, and to assess differences across seven racial-ethnic groups.METHODS:This population-based study used linked vital statistics and hospitalization discharge data from all live and stillbirths in California (2008-2018), Michigan (2008-2020), Oregon (2008-2020), Pennsylvania (2008-2014), and South Carolina (2008-2020). We used multivariable log-binomial regression models to estimate risk ratios (RRs) and population attributable risk (PAR) percentages with 95% CIs for associations between chronic hypertension and several obstetric and neonatal outcomes, selected based on prior evidence and pathologic pathways. We adjusted models for demographic factors (race and ethnicity, payment method, educational attainment), age, body mass index, obstetric history, delivery year, and state, and conducted analyses stratified across seven racial-ethnic groups.RESULTS:The study included 7,955,713 pregnancies, of which 168,972 (2.1%) were complicated by chronic hypertension. Chronic hypertension was associated with several adverse obstetric and neonatal outcomes, with the largest adjusted PAR percentages observed for preeclampsia with severe features or eclampsia (22.4; 95% CI 22.2-22.6), acute renal failure (13.6; 95% CI 12.6-14.6), and pulmonary edema (10.7; 95% CI 8.9-12.6). Estimated RRs overall were similar across racial-ethnic groups, but PAR percentages varied. The adjusted PAR percentages (95% CI) for severe maternal morbidity - a widely used composite of acute severe events - for people who were American Indian or Alaska Native, Asian, Black, Latino, Native Hawaiian or Other Pacific Islander, White, and Multiracial or Other were 5.0 (1.1-8.8), 3.7 (3.0-4.3), 9.0 (8.2-9.8), 3.9 (3.6-4.3), 11.6 (6.4-16.5), 3.2 (2.9-3.5), and 5.5 (4.2-6.9), respectively.CONCLUSION:Chronic hypertension accounts for a substantial fraction of obstetric and neonatal morbidity and contributes to higher complication rates, particularly for people who are Black or Native Hawaiian or Other Pacific Islander. (c) 2023 Lippincott Williams and Wilkins. All rights reserved."""
+
+

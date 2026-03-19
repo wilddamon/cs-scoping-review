@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: associationsofmaternalserumtransthyretinconcentrationwithpregnancyandbirthoutcomes2025hou
+"Objective: This study aims to explore the association of maternal serum transthyretin (TTR) concentrations with adverse pregnancy and birth outcomes, as well as the variations in TTR concentrations across different gestational weeks in relation to these outcomes. Methods: This retrospective cohort study included 6,584 women who delivered at The Second Affiliated Hospital of Wenzhou Medical University between January 1, 2022 and January 30, 2024. Logistic regression and Restricted cubic spline (RCS) models were applied to evaluate the association between TTR levels and the risk of complications, based on TTR quartile analyses. Locally estimated scatter plot smoothing (LOESS) curves were performed to provide a graphical representation of the relationship between TTR levels and gestational weeks. Results: Significant negative correlations were observed between maternal TTR levels and the risk of gestational diabetes mellitus (GDM), preeclampsia (PE), liver disease, anemia during pregnancy, and preterm delivery (all P < 0.001). The RCS models revealed a non-linear relationship between TTR levels and maternal comorbidities, including anemia (adjusted OR 0.992 [95% CI 0.990-0.994]; P = 0.017), liver disease (adjusted OR 0.991 [95% CI 0.988-0.994]; P < 0.001), hypothyroidism (adjusted OR 0.999 [95% CI 0.996-1.001]; P = 0.023) and preterm delivery (adjusted OR 0.986 [95% CI 0.983-0.989]; P < 0.001). The LOESS curves indicated a declining trend in TTR concentrations during the third trimester of pregnancy. Conclusion: Maternal TTR concentrations showed an inverse linear association with the incidence of GDM and PE. Moreover, complex non-linear relationships were identified with TTR levels and comorbidities such as liver disease, anemia, hypothyroidism during pregnancy, and preterm delivery. (c) The Author(s) 2025."""
+
+

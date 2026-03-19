@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: adaptationofabrazilianuniversityhospitaltoclinicaltreatmentofectopicpregnancylessonslearnedover17years2023tavares
+"Objective: To describe and compare the annual success rates of medical treatment in the analyzed period and to evaluate the associated factors. Methods: Retrospective study with 158 women with tubal pregnancy followed up over 17 years. Statistical analysis was performed using the Cochran-Armitage test, the kh2 test, Mann-Whitney test, and multiple logistic regression. Results: The success rate was 47.4%. There was a trend of significant change in the success rate of clinical treatment over time (Z = 2.01, P = 0.044); it was associated to undergoing treatment between 2012 and 2017 (P = 0.028), the absence of abdominal pain (P = 0.020), receiving a higher dose of methotrexate (P < 0.001), and less time hospitalized (P < 0.001). In the final statistical model, we observed that receiving a higher dose of methotrexate (P = 0.025, odds ratio [OR] 1.03, 95% confidence interval [CI] 1.00-1.06), having a low serum b-HCG concentration before treatment (P = 0.003, OR 0.87, 95% CI 0.79-0.95), and not having abdominal pain (P = 0.004, OR 4.26, 95% CI 1.61-11.28) were factors associated with a higher chance of successful clinical treatment for tubal pregnancy. Conclusion: A greater chance of success was observed among women undergoing clinical treatment from 2012 onwards, who used higher doses of methotrexate, were asymptomatic at admission, and had low concentrations of b-hCG. (c) 2023 International Federation of Gynecology and Obstetrics."""
+
+

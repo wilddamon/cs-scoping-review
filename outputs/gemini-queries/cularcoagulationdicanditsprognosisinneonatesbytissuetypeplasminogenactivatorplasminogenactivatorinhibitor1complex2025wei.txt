@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: clinicalstudyontheassessmentofinfectioninduceddisseminatedintravascularcoagulationdicanditsprognosisinneonatesbytissuetypeplasminogenactivatorplasminogenactivatorinhibitor1complex2025wei
+"Background: Disseminated intravascular coagulation (DIC) is a critical complication in neonatal infections, necessitating early detection to reduce mortality. This study investigates the clinical utility of the tissue-type plasminogen activator-plasminogen activator inhibitor-1 complex (t-PAIC) in assessing infection-induced neonatal DIC. Methods: A retrospective analysis of 61 neonates with infections (July 2021-February 2023) at West China Second University Hospital categorized patients into DIC (n = 23) and non-DIC (n = 38) groups using the Chinese DIC scoring system (CDSS). Univariate, multivariate, ROC, and Kaplan-Meier analyses evaluated t-PAIC levels, and a nomogram model was developed. A prospective study (March 2023-January 2024) with 53 neonates validated the t-PAIC threshold for DIC prediction. Results: t-PAIC (OR = 1.332, p = 0.045), thrombin time (TT) (OR = 2.317, p = 0.014), and aspartate aminotransferase (AST) (OR = 1.008, p = 0.014) were independent DIC risk factors. t-PAIC predicted DIC with an AUC of 0.783 (p = 0.000), sensitivity of 0.652, and specificity of 0.816. A t-PAIC threshold >= 8.85 ng/mL increased DIC risk and mortality (HR = 3.434, p = 0.01). The nomogram combining t-PAIC, TT, and AST showed superior predictive performance (AUC = 0.896, sensitivity = 0.826, specificity = 0.842). The prospective study confirmed t-PAIC >= 8.85 ng/mL as a predictive marker for DIC (p < 0.05). Conclusion: t-PAIC is an independent DIC risk factor in neonates with infections. A t-PAIC level >= 8.85 ng/mL significantly increases DIC risk and mortality, highlighting its clinical utility in assessing infection-induced neonatal DIC. (c) 2025 John Wiley & Sons Ltd."""
+
+

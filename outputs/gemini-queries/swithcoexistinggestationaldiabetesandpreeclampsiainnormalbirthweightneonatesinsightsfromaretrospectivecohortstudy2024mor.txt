@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: improvedneonataloutcomesinpregnancieswithcoexistinggestationaldiabetesandpreeclampsiainnormalbirthweightneonatesinsightsfromaretrospectivecohortstudy2024mor
+"Introduction: We aimed to assess neonatal and maternal outcomes in appropriate-for-gestational-weight (AGA) neonates of mothers with both gestational diabetes mellitus (GDM) and preeclampsia (PET). Methods: Medical records of women diagnosed with GDM or PET were reviewed. Women with AGA neonates were divided into three groups- GDM, PET, and GDM + PET and maternal neonatal and placental outcomes were compared. The primary outcome was a composite of adverse neonatal outcomes, including intensive care unit admission (NICU), neurological morbidity, hypoglycemia, ventilation, respiratory distress syndrome (RDS), phototherapy, sepsis, blood transfusion, and neonatal death. Post-hoc analysis was performed to determine between-group significance. Results: Composite adverse neonatal outcomes are significantly lower in women with multiple morbidities compared to women with confined PET (p = 0.015), and a similar trend is observed when comparing neonatal outcomes between women with GDM to those with GDM + PET, yet these results are underpowered (18.9 % vs. 12.8 % respectively, p = 0.243). Placentas of women with GDM + PET were larger, with a lower rate of placentas below the 10th percentile as compared to placentas of women with isolated PET (p < 0.001), but with similar rates of MVM lesions. Discussion: While maternal and placental outcomes in patients of the GDM + PET group resemble the characteristics of the PET group, surprisingly, the neonatal outcomes in this group are significantly better compared to isolated morbidities. The paradoxical benefit attributed to the coexistence of GDM + PET may be explained by a balance of the opposing trends characterizing these morbidities-the reduced blood and nutrient supply characterizing PET vs. chronic overflow and abundance typical of GDM. Clinical trial registration: approval of local ethics committee WOMC-19-0152. (c) 2024"""
+
+

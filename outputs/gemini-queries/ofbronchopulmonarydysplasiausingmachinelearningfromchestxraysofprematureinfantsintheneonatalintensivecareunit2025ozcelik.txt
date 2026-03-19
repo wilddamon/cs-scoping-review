@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: predictionofbronchopulmonarydysplasiausingmachinelearningfromchestxraysofprematureinfantsintheneonatalintensivecareunit2025ozcelik
+"Bronchopulmonary dysplasia (BPD) is a significant morbidity in premature infants. This study aimed to assess the accuracy of the model's predictions in comparison to clinical outcomes. Medical records of premature infants born <= 28 weeks and < 1250 g between January 1, 2020, and December 31, 2021, in the neonatal intensive care unit were obtained. In this retrospective model development and validation study, an artificial intelligence model was developed using DenseNet121 deep learning architecture. The data set and test set consisted of chest radiographs obtained on postnatal day 1 as well as during the 2nd, 3rd, and 4th weeks. The model predicted the likelihood of developing no BPD, or mild, moderate, or severe BPD. The accuracy of the artificial intelligence model was tested based on the clinical outcomes of patients. This study included 122 premature infants with a birth weight of 990 g (range: 840-1120 g). Of these, 33 (27%) patients did not develop BPD, 24 (19.7%) had mild BPD, 28 (23%) had moderate BPD, and 37 (30%) had severe BPD. A total of 395 chest radiographs from these patients were used to develop an artificial intelligence (AI) model for predicting BPD. Area under the curve values, representing the accuracy of predicting severe, moderate, mild, and no BPD, were as follows: 0.79, 0.75, 0.82, and 0.82 for day 1 radiographs; 0.88, 0.82, 0.74, and 0.94 for week 2 radiographs; 0.87, 0.83, 0.88, and 0.96 for week 3 radiographs; and 0.90, 0.82, 0.86, and 0.97 for week 4 radiographs. The artificial intelligence model successfully identified BPD on chest radiographs and classified its severity. The accuracy of the model can be improved using larger control and external validation datasets. (c) 2025 the Author(s)."""
+
+

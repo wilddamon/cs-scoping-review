@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: hypertensionphenotypesandadversepregnancyoutcomerelatedofficeandambulatorybloodpressurethresholdsduringpregnancyaretrospectivecohortstudy2025fang
+"Blood pressure (BP) phenotypes, as determined by the consistency between office BP (OBP) and ambulatory BP (ABP) measurements, enhance risk assessment during pregnancy. However, diagnostic criteria for hypertension in pregnancy are based on data from non-pregnant populations regarding long-term cardiovascular risks. This study aimed to identify adverse pregnancy outcomes (APOs; including maternal/fetal outcomes)-related BP thresholds to refine risk assessment in pregnant women. We analyzed 967 high-risk pregnant women who underwent simultaneous OBP and ABP measurements at an average gestational age of 29.6 +- 8.0 weeks. All hypertension phenotypes were associated with an increased risk of maternal and fetal outcomes, except white coat hypertension, which showed no association with fetal outcomes. Using an XGBoost algorithm, the receiver operating characteristic (ROC) curve-derived daytime diastolic BP (DBP) thresholds of 81.5 mmHg for maternal and 82.5 mmHg for fetal outcomes were identified as the BP parameters most strongly linked to APOs. Incorporating these thresholds into the BP phenotype-based model improved the area under the curve for APOs and the net reclassification index for maternal and fetal outcomes. Decision curve analysis demonstrated a consistent positive net benefit after incorporating BP thresholds into the phenotype-based model for maternal and composite outcomes. In conclusion, in a Chinese pregnancy cohort, we identified daytime DBP as the most influential parameter for APOs, significantly enhancing the predictive performance of BP phenotype-based models. This study underscores the importance of ABP monitoring in high-risk pregnancies and the need for further research to establish optimal BP monitoring criteria for pregnancy. (Figure presented.) (c) The Author(s), under exclusive licence to The Japanese Society of Hypertension 2024."""
+
+

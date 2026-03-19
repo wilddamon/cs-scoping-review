@@ -1,0 +1,18 @@
+
+Analyse these academic abstracts and output in JSON format using the following keys:
+"abstract ID",
+"study type" (the type of study, for example cross-sectional/cohort/retrospective review),
+"exposure" (list of exposures measured in the study),
+"outcome" (list of outcomes mentioned),
+"cohort" (a 1-sentence description of the participants in the study),
+"finding" (a 1-sentence summary of the primary finding),
+"mod_finding (a 1-sentence summary of any findings related to mode of birth, or N/A if none),
+"country" (the country that the study was performed in, or N/A if not specified).
+"followup_time" (the length of time after birth that the last observation was taken, or N/A if not mentioned),
+"cross-section timing" (the timing with which the cross-sectional study was performed, or N/A if not specified)
+"birth_weight" (the weight of the babies included in the study, or N/A if not mentioned)
+"gest_age"  (the gestational age of the babies included in the study, or N/A if not mentioned),
+"""abstract ID: isthereaplacentalmicrobiotaacriticalreviewandreanalysisofpublishedplacentalmicrobiotadatasets2023panzer
+"The existence of a placental microbiota is debated. The human placenta has historically been considered sterile and microbial colonization was associated with adverse pregnancy outcomes. Yet, recent DNA sequencing investigations reported a microbiota in typical human term placentas. However, this detected microbiota could represent background DNA or delivery-associated contamination. Using fifteen publicly available 16S rRNA gene datasets, existing data were uniformly re-analyzed with DADA2 to maximize comparability. While Amplicon Sequence Variants (ASVs) identified as Lactobacillus, a typical vaginal bacterium, were highly abundant and prevalent across studies, this prevalence disappeared after applying likely DNA contaminant removal to placentas from term cesarean deliveries. A six-study sub-analysis targeting the 16S rRNA gene V4 hypervariable region demonstrated that bacterial profiles of placental samples and technical controls share principal bacterial ASVs and that placental samples clustered primarily by study origin and mode of delivery. Contemporary DNA-based evidence does not support the existence of a placental microbiota. Importance Early-gestational microbial influences on human development are unclear. By applying DNA sequencing technologies to placental tissue, bacterial DNA signals were observed, leading some to conclude that a live bacterial placental microbiome exists in typical term pregnancy. However, the low-biomass nature of the proposed microbiome and high sensitivity of current DNA sequencing technologies indicate that the signal may alternatively derive from environmental or delivery-associated bacterial DNA contamination. Here we address these alternatives with a re-analysis of 16S rRNA gene sequencing data from 15 publicly available placental datasets. After identical DADA2 pipeline processing of the raw data, subanalyses were performed to control for mode of delivery and environmental DNA contamination. Both environment and mode of delivery profoundly influenced the bacterial DNA signal from term-delivered placentas. Aside from these contamination-associated signals, consistency was lacking across studies. Thus, placentas delivered at term are unlikely to be the original source of observed bacterial DNA signals. (c) 2023, The Author(s)."""
+
+
