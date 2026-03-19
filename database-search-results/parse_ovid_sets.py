@@ -44,10 +44,10 @@ def tidy_year(s):
     return year[0]
 
 
-def get_data(path, num_files):
+def get_data(path, num_files, has_pmid=True):
     data = []
     for i in range(num_files):
-        data.append(read_single(f"{path}/citation({i}).xls"))
+        data.append(read_single(f"{path}/citation({i}).xls", has_pmid))
 
     return pandas.concat(data)
 
@@ -55,7 +55,7 @@ def get_data(path, num_files):
 def main():
     get_data("database-search-results/OVID-Medline", 6).to_csv("outputs/database-search-results/medline.csv")
     get_data("database-search-results/Embase", 4).to_csv("outputs/database-search-results/embase.csv")
-    get_data("database-search-results/PsycINFO", 4).to_csv("outputs/database-search-results/psycinfo.csv")
+    get_data("database-search-results/PsycINFO", 1, has_pmid=False).to_csv("outputs/database-search-results/psycinfo.csv")
 
 
 if __name__ == "__main__":

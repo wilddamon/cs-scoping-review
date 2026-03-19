@@ -152,7 +152,7 @@ def write_csv(pes):
 def parse_pubmed_files():
     entries = []
     for i in range(3):
-        with open(f"database-search-results/PubMed/pubmed-caesareanT-set({i}).txt", "r") as f:
+        with open(f"database-search-results/PubMed/pubmed-CesareanSe-set({i}).txt", "r") as f:
             entries += parse_file(f)
     return entries
 
