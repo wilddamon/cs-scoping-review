@@ -1,14 +1,14 @@
 #!/bin/bash
 
-set -x
+set -x -e
 
 python database-search-results/parse_cinahl_set.py
 python database-search-results/parse_ovid_sets.py
 python database-search-results/parse_pubmed_set.py
 python database-search-results/parse_scopus_set.py
 
-python basic-processing/basic_processing.py
-python basic-processing/merge_datasets.py
+python basic_processing/basic_processing.py
+python basic_processing/merge_datasets.py
 
 python gemini/extract_gemini.py
 python gemini/validate_responses.py
