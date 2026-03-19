@@ -569,8 +569,8 @@ def rank_relevance(row):
         or row["mod_finding"]
         == "The study does not mention any findings related to mode of birth."
         or row["mod_finding"] == "Mode of delivery was adjusted for in the analysis."
-    ) and not any_regex_in_str(BIRTH_TYPE_REGEXES, row["finding"]):
-        return 0, "No finding related to mode of birth"
+    ) and not (any_regex_in_str(BIRTH_TYPE_REGEXES, row["finding"]) or cs_included(row["exposure"])):
+        return 0, "No finding related to method of birth"
 
     if any_regex_in_str(
         YOUNG_AGE_REGEXES, row["followup_time"]
@@ -635,7 +635,7 @@ def rank_relevance(row):
     return result, reason
 
 
-data = pandas.read_csv("outputs/merged-abstracts-gemini-appended-country-appended.csv")
+data = pandas.read_csv("outputs/merged-abstracts-gemini-appended-country-appended.csv", low_memory=False)
 data.set_index("dedup_index", inplace=True)
 
 relevance_pairs = data.apply(rank_relevance, axis=1)
