@@ -1,7 +1,7 @@
 import pandas
 
 
-data = pandas.read_csv("outputs/ranked_abstracts-2025_02_25T04_30.csv")
+data = pandas.read_csv("outputs/ranked-abstracts-with-manual-assessments-2026-3-18.csv")
 
 
 def export_endnote_txt(group, name):
