@@ -1,7 +1,7 @@
 import pandas
 
 
-data = pandas.read_csv("outputs/ranked-abstracts-with-manual-assessments-2026-3-18.csv")
+data = pandas.read_csv("outputs/ranked-abstracts.csv")
 
 
 def export_endnote_txt(group, name):
@@ -29,9 +29,4 @@ def export_endnote_txt(group, name):
 
 
 export_endnote_txt(data[data["relevance"] > 0], f"included")
-#export_endnote_txt(data[data["relevance"] <= 0], f"exclded")
 
-
-data[(data["manual_assessment"] == "YES") & (data["relevance"] <= 0)].to_csv(
-    "outputs/false_negative.csv"
-)
