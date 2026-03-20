@@ -1,9 +1,6 @@
 import collections
 import re
-from matplotlib import pyplot
 import pandas
-
-from gemini import add_country_income_status
 
 
 WHOS = [
@@ -434,55 +431,6 @@ def infer_who_by_row(row):
     return result
 
 
-def count_countries(data):
-    countries_counter = collections.Counter()
-    data = data.copy()
-    data["missing_country"] = False
-
-    def country_list(country_str):
-        if pandas.isna(country_str):
-            return []
-        return country_str.split(";")
-
-    def count(country_str):
-        countries = country_list(country_str)
-        num_added = 0
-        for country in countries:
-            if len(country) > 0:
-                num_added += 1
-                countries_counter[country] += 1
-        if num_added == 0:
-            countries_counter["Not Specified"] += 1
-        return num_added
-
-    for idx in data.index:
-        country_str = data.at[idx, "country"]
-        num_countries = count(country_str)
-        if num_countries == 0:
-            data.at[idx, "missing_country"] = True
-
-        if "India" in country_str:
-            print(idx)
-            print(data.at[idx, "manual_assessment"])
-            print(data.at[idx, "only_hic"])
-
-    data[data["missing_country"]][
-        ["title", "abstract", "year", "authors", "journal", "doi"]
-    ].to_csv("outputs/yes_missing_country.csv")
-
-    # Create chart with top 10
-    top10 = countries_counter.most_common(9)
-    top10sum = 0
-    for n in top10:
-        top10sum += n[1]
-    x = [n[1] for n in top10] + [countries_counter.total() - top10sum]
-    labels = [n[0] for n in top10] + ["Other"]
-    pyplot.figure()
-    pyplot.pie(x, labels=labels, autopct="%1.1f%%")
-
-    return countries_counter
-
-
 def save_outcomes(data, who, outcomes_counter):
     # remove blanks and irrelevant
     f = data[who].notna()
@@ -518,24 +466,14 @@ def insert_fulltext_result(row):
         return "NO"
     return None
 
-d = "2026-3-18"
-data = add_country_income_status.add_country_income_status(
-    f"outputs/ranked-abstracts-with-manual-assessments-{d}-country-fulltext.csv"
-)
-data["fulltext_screening"] = data.apply(insert_fulltext_result, axis=1)
-data.to_csv("outputs/validation_results/all_data.csv")
+data = pandas.read_csv("outputs/ranked-abstracts-with-manual-assessments-2026-3-18.csv", low_memory=False)
 
 data["outcome"] = data["outcome"].str.lower()
 yes_data = data[
-    (data["manual_assessment"] != "NO")
-    & (data["relevance"] > 0)
-    & (data["fulltext_screening"] != "NO")
+    (data["relevance"] > 0)
+    & (data["manual_assessment"] != "NO")
+    & (data["fulltext_assessment"] != "NO")
 ].copy()
-yes_data.to_csv("outputs/yes.csv")
-
-# Print country stats
-print(count_countries(yes_data))
-
 
 yes_data["who"] = None
 yes_data["offspring"] = None
@@ -562,7 +500,3 @@ for who in WHOS:
     save_outcomes(yes_data, who, who_counters[who])
 
 
-years = yes_data["year"].value_counts().sort_index()
-pyplot.figure()
-years.plot.bar()
-pyplot.show()
