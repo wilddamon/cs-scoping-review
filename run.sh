@@ -26,3 +26,6 @@ python gemini/add_country_income_status.py
 
 python ranking/rank_relevance.py
 python export_endnote.py
+
+python map_outcomes.py
+python validate_fulltext_results.py
