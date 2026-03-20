@@ -106,34 +106,23 @@ for who in whos:
 pprint(unreviewed)
 
 # Output a sheet that shows all the outcomes listed per paper, and also excluded papers
-all_data = pandas.read_csv("outputs/validation_results/all_data.csv", low_memory=False)
+all_data = pandas.read_csv("outputs/ranked-abstracts-with-manual-assessments-2026-3-18.csv", low_memory=False)
 all_data.set_index("dedup_index", inplace=True)
 for dedup_index in all_data.index:
     all_data.at[dedup_index, "reviewed_outcomes"] = ";".join(
         outcomes_by_id[dedup_index]
     )
-    all_data.at[dedup_index, "fulltext_review_notes"] = ";".join(
+    all_data.at[dedup_index, "extraction_notes"] = ";".join(
         notes_by_id[dedup_index]
     )
-    if dedup_index in not_relevant_after_review_ids:
-        all_data.at[dedup_index, "updated_manual_assessment"] = "NO"
     all_data.at[dedup_index, "who"] = ";".join(who_by_id[dedup_index])
 
-
-d = "2026-03-17-1"
-prev_all_data = pandas.read_csv(
-    f"outputs/validation_results/all_results-{d}.csv", low_memory=False
-)
-prev_all_data.set_index("dedup_index", inplace=True)
-all_data["exclusion reason"] = None
-all_data.update(prev_all_data, overwrite=False)
 
 all_data.to_csv("outputs/validation_results/all_results.csv")
 yes_results = all_data[
     (all_data["relevance"] > 0)
     & (all_data["manual_assessment"] != "NO")
-    & (all_data["updated_manual_assessment"] != "NO")
-    & (all_data["fulltext_screening"] != "NO")
+    & (all_data["fulltext_assessment"] != "NO")
 ]
 yes_results.to_csv("outputs/validation_results/yes_results.csv")
 
