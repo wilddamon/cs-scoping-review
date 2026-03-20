@@ -52,12 +52,19 @@ To run the whole process on my existing data, run:
 ```
    database-search-results/parse_*.py
 ```
-Takes the contents of `database-search-results`, and parses them to be in a consistent format.
+Takes the contents of the subdirectories of `database-search-results/`, and parses them to be in a consistent format.
+Outputs the following files:
+* `outputs/database-search-results/cinahl.csv`
+* `outputs/database-search-results/embase.csv`
+* `outputs/database-search-results/medline.csv`
+* `outputs/database-search-results/psycinfo.csv`
+* `outputs/database-search-results/pubmed.csv`
+* `outputs/database-search-results/scopus.csv`
 
 ```
    basic_processing/basic_processing.py
 ```
-Does pre-processing on each individual set returned from the `parse_*_set.py` scripts. Also outputs anything excluded at this stage into the `outputs/basic-processing/basic-exclusions/` directory.
+Does pre-processing on each individual set returned from the `parse_*_set.py` scripts. Outputs anything excluded at this stage into the `outputs/basic-processing/basic-exclusions/` directory.
 
 ```
    basic_processing/merge_datasets.py
@@ -109,6 +116,7 @@ Takes the file with the manually assessments (`outputs/ranked-abstracts-with-man
     * Women (`outputs/outcome_maps/women.xlsx`)
     * Dyad (things affecting both offspring and women) `outputs/outcome_maps/dyad.xlsx`)
     * Society (`outputs/outcome_maps/society.xlsx`)
+
 I have manually edited these files with my full text reviews and data extractions (suffix `-2026-3-18T15-50`), which are checked in for inspection.
 
 ```
